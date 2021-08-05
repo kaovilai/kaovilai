@@ -1,5 +1,3 @@
-[Preview my new personal website](https://new.kaovilai.pw)
-
 [Website](https://www.kaovilai.pw), [LinkedIn](https://www.linkedin.com/in/kaovilai/), [Resume](https://resume.kaovilai.pw/)
 
 ### About Me
