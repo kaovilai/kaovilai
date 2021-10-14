@@ -10,5 +10,4 @@ Talk to me about the latest gadgets, new undersea cable, a new cloud platform la
 
 In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
 
-![world map](./worldmap.png)
-
+![image](https://user-images.githubusercontent.com/11228024/137397948-c3fd619f-f57c-4c3e-8916-482114c5f6fc.png)
