@@ -1,5 +1,12 @@
 [Website](https://www.kaovilai.pw), [LinkedIn](https://www.linkedin.com/in/kaovilai/), [Resume](https://resume.kaovilai.pw/)
 
+### OSS Accounts
+https://github.com/kaovilai
+https://gitlab.com/kaovilai
+https://bitbucket.org/kaovilaigithub
+https://gitlab.freedesktop.org/kaovilai
+
+
 ### About Me
 
 Computer Programming and Industrial Engineering Undergraduate at North Carolina State University graduating in May 2021
