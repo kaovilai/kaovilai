@@ -5,6 +5,8 @@
 - https://gitlab.com/kaovilai
 - https://bitbucket.org/kaovilaigithub
 - https://gitlab.freedesktop.org/kaovilai
+- https://pagure.io/user/tiger
+- https://crowdin.com/profile/kaovilai
 
 
 ### About Me
