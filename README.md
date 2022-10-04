@@ -8,6 +8,7 @@
 - https://pagure.io/user/tiger
 - https://crowdin.com/profile/kaovilai
 
+![Work tracker - Red Hat only](https://docs.google.com/spreadsheets/d/e/2PACX-1vRc1pyUl-XI7au9V6FFgejhHfqcIXrL_q4JsrQcTuz186b84ZDEm3Sx-1Ibnj2kIqX59_V_AKyzHZjc/pubchart?oid=575696256&amp;format=image)
 
 ### About Me
 
