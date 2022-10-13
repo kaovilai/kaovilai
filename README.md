@@ -8,6 +8,11 @@
 - https://pagure.io/user/tiger
 - https://crowdin.com/profile/kaovilai
 
+<a href="https://github.com/kaovilai/github-stats">
+<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
+</a>
+
 <!-- work tracker - red hat login required to see -->
 ![](https://docs.google.com/spreadsheets/d/e/2PACX-1vRc1pyUl-XI7au9V6FFgejhHfqcIXrL_q4JsrQcTuz186b84ZDEm3Sx-1Ibnj2kIqX59_V_AKyzHZjc/pubchart?oid=575696256&amp;format=image)
 
