@@ -20,7 +20,7 @@
 
 Currently a Red Hat Software Engineer working on Data Protection on OpenShift platform.
 
-Computer Programming and Industrial Engineering Undergraduate at North Carolina State University graduating in May 2021
+Computer Programming and Industrial Engineering Undergraduate at North Carolina State University, 2021
 
 I live and breath technology. I'd like to think I have explored the world but there's still more room yet for more. I have lived more than a couple of years in Thailand (where I am from), New Zealand (where I finish high-schooling), and the United States (where I completes my Undergraduate degree). 
 
