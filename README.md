@@ -57,7 +57,7 @@ mindmap
                 🍳Trello
            💼Software Engineer
                 🧑‍🤝‍🧑Migration and Modernization Engineering
-                    OpenShift API for Data Protection
+                    **OpenShift API for Data Protection**
                         🍳Golang
                         🍳Containers
                         🍳OpenShift/Kubernetes
