@@ -20,11 +20,60 @@
 
 Currently a Red Hat Software Engineer working on Data Protection on OpenShift platform.
 
-Computer Programming and Industrial Engineering Undergraduate at North Carolina State University, 2021
-
-I live and breath technology. I'd like to think I have explored the world but there's still more room yet for more. I have lived more than a couple of years in Thailand (where I am from), New Zealand (where I finish high-schooling), and the United States (where I completes my Undergraduate degree). 
-
-Talk to me about the latest gadgets, new undersea cable, a new cloud platform launching, and other exciting technological breakthroughs.
+```mermaid
+mindmap
+  root((Tiger))
+    🐣 Bangkok, Thailand 🇹🇭
+        (🏫Sarasas Witead Romklao)
+        (🏫Assumption College)
+    Invercargill, New Zealand 🇳🇿
+        (🏫James Hargest College)
+            🍳Pascal/Delphi
+    Personal Projects
+        Websites
+            🍳Flutter/Dart
+            🍳Vue/NextJS
+            🍳GitHub Actions
+        🍳CircleCI
+    Raleigh, North Carolina 🇺🇸
+        (🏫North Carolina State University)
+            📚Computer Science Minor
+                🍳Java/Eclipse
+                🍳Python
+                🍳Unit Tests
+                🍳Continuous Integration
+                🍳HTML/CSS
+                🍳GitHub
+            📚Industrial and Systems Engineering Major
+                🍳Human Factors and Ergonomics
+                🍳VisualBasic for Applications
+        ((🏙️Red Hat))
+            💼Technical Marketing Internship
+                🍳Red Hat Product Demo System
+                🍳ASCIIDoc
+                🍳OpenShift
+                🍳Blogging
+                🍳Ansible
+                🍳Trello
+           💼Software Engineer
+                🧑‍🤝‍🧑Migration and Modernization Engineering
+                    OpenShift API for Data Protection
+                        🍳Golang
+                        🍳Containers
+                        🍳OpenShift/Kubernetes
+                            🍳Prow
+                            🍳Velero
+                        🍳Jira
+                        🍳Travis
+        (🏙️Deutsche Bank)
+            💼dbAchieve Internship
+                🍳SpringBoot
+                🍳Maven
+                🍳Confluence
+                🍳Oracle SQL
+                🍳AngularJS
+                🍳BitBucket
+```
 
 In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
 
