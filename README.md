@@ -47,6 +47,8 @@ mindmap
             📚Industrial and Systems Engineering Major
                 🍳Human Factors and Ergonomics
                 🍳VisualBasic for Applications
+                🍳Fusion 360
+                🍳3D Printing
         ((🏙️Red Hat))
             💼Technical Marketing Internship
                 🍳Red Hat Product Demo System
