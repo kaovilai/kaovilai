@@ -306,28 +306,46 @@ for i in $(seq 0 $((index - 1))); do
     # Create badge markdown
     badge=$(create_badge "$repo" "$number" "$title" "$url" "$color" "$status" "$base_branch" "$milestone")
 
+    # Sort priority: PRs needing others' attention first, my own action items last
+    # 1=ready, 2=waiting-merge, 3=ci-pending, 4=draft, 5=stale, 6=hold, 7=failing-ci, 8=needs-attention
+    local sort_key
+    case "$status" in
+        ready)            sort_key=1 ;;
+        waiting--merge)   sort_key=2 ;;
+        ci--pending)      sort_key=3 ;;
+        draft)            sort_key=4 ;;
+        stale)            sort_key=5 ;;
+        hold)             sort_key=6 ;;
+        failing--ci)      sort_key=7 ;;
+        needs--attention) sort_key=8 ;;
+        *)                sort_key=9 ;;
+    esac
+
+    # Prefix badge with sort key (stripped on output)
+    local sorted_badge="${sort_key}|${badge}"
+
     # Categorize PR by org
     org=$(echo "$repo" | cut -d'/' -f1)
     case "$org" in
         vmware-tanzu)
-            VMWARE_TANZU_PRS+=("$badge")
+            VMWARE_TANZU_PRS+=("$sorted_badge")
             ;;
         openshift)
-            OPENSHIFT_PRS+=("$badge")
+            OPENSHIFT_PRS+=("$sorted_badge")
             ;;
         migtools)
-            MIGTOOLS_PRS+=("$badge")
+            MIGTOOLS_PRS+=("$sorted_badge")
             ;;
         oadp-rebase)
-            OADP_REBASE_PRS+=("$badge")
+            OADP_REBASE_PRS+=("$sorted_badge")
             ;;
         *)
-            OTHER_PRS+=("$badge")
+            OTHER_PRS+=("$sorted_badge")
             ;;
     esac
 done
 
-# Helper to write a section for an org
+# Helper to write a section for an org (sorts by priority prefix, strips it)
 write_org_section() {
     local org_name="$1"
     shift
@@ -339,8 +357,9 @@ write_org_section() {
     if [ ${#prs[@]} -eq 0 ]; then
         echo "No open PRs."
     else
-        for pr in "${prs[@]}"; do
-            echo "- $pr"
+        # Sort by priority prefix and strip it
+        printf '%s\n' "${prs[@]}" | sort -t'|' -k1,1n | while IFS= read -r line; do
+            echo "- ${line#*|}"
         done
     fi
 }
@@ -359,13 +378,13 @@ write_org_section() {
     echo ""
     echo "---"
     echo ""
-    echo "**Legend:**"
-    echo "- 🟠 Orange: Needs attention (rebase required, merge conflicts)"
-    echo "- 🔵 Blue: Waiting to merge (approved + lgtm, pending CI)"
+    echo "**Legend** (sorted by priority — needs review first, my action items last):"
     echo "- 🟢 Green: Ready for review"
-    echo "- 🟡 Yellow: Stale (>60 days) or On Hold or CI Pending"
+    echo "- 🔵 Blue: Waiting to merge (approved + lgtm, pending CI)"
+    echo "- 🟡 Yellow: CI Pending / Stale (>60 days) / On Hold"
     echo "- ⚫ Gray: Draft"
-    echo "- 🔴 Red: Failing CI"
+    echo "- 🔴 Red: Failing CI (my action item)"
+    echo "- 🟠 Orange: Needs rebase (my action item)"
 
 } >> "$OUTPUT_FILE"
 
