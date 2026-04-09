@@ -2,8 +2,12 @@ name: Update PR Badges
 
 on:
   schedule:
-    # Run every hour at minute 0
-    - cron: '0 * * * *'
+    # Run every hour during weekday active hours (Mon-Fri, 7am-6pm EST = 12:00-22:00 UTC)
+    - cron: '0 12-22 * * 1-5'
+    # Run every 6 hours on weekends (less frequent)
+    - cron: '0 */6 * * 0,6'
+    # Run less frequently during weekday off-hours (after 6pm EST = 23:00 UTC, and before 7am EST = 12:00 UTC)
+    - cron: '0 0,6,23 * * 1-5'
   workflow_dispatch: # Allow manual trigger
   push:
     branches:
