@@ -308,7 +308,7 @@ for i in $(seq 0 $((index - 1))); do
 
     # Sort priority: PRs needing others' attention first, my own action items last
     # 1=ready, 2=waiting-merge, 3=ci-pending, 4=draft, 5=stale, 6=hold, 7=failing-ci, 8=needs-attention
-    local sort_key
+    sort_key=""
     case "$status" in
         ready)            sort_key=1 ;;
         waiting--merge)   sort_key=2 ;;
@@ -322,7 +322,7 @@ for i in $(seq 0 $((index - 1))); do
     esac
 
     # Prefix badge with sort key (stripped on output)
-    local sorted_badge="${sort_key}|${badge}"
+    sorted_badge="${sort_key}|${badge}"
 
     # Categorize PR by org
     org=$(echo "$repo" | cut -d'/' -f1)
