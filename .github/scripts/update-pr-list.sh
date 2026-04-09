@@ -30,12 +30,35 @@ fetch_prs() {
         --limit 1000 2>/dev/null || echo "[]"
 }
 
+# Retry wrapper with exponential backoff
+retry_with_backoff() {
+    local max_retries=3
+    local delay=2
+    local attempt=0
+    local output=""
+
+    while [ $attempt -lt $max_retries ]; do
+        if output=$("$@" 2>/dev/null); then
+            echo "$output"
+            return 0
+        fi
+        attempt=$((attempt + 1))
+        if [ $attempt -lt $max_retries ]; then
+            echo "  Retry $attempt/$max_retries after ${delay}s..." >&2
+            sleep $delay
+            delay=$((delay * 2))
+        fi
+    done
+    echo ""
+    return 1
+}
+
 # Function to get PR details (CI status, base branch, linked issues)
 get_pr_details() {
     local repo="$1"
     local number="$2"
-    gh pr view "$number" --repo "$repo" \
-        --json statusCheckRollup,baseRefName,closingIssuesReferences 2>/dev/null || echo "{}"
+    retry_with_backoff gh pr view "$number" --repo "$repo" \
+        --json statusCheckRollup,baseRefName,closingIssuesReferences || echo "{}"
 }
 
 # Function to get milestone from linked issues (for velero repos)
@@ -58,7 +81,7 @@ get_linked_milestone() {
         local issue_repo
         issue_repo=$(echo "$pr_details" | jq -r --argjson num "$issue_num" '.closingIssuesReferences[] | select(.number == $num) | "\(.repository.owner.login)/\(.repository.name)"' 2>/dev/null)
         if [ -n "$issue_repo" ]; then
-            milestone=$(gh issue view "$issue_num" --repo "$issue_repo" --json milestone --jq '.milestone.title // empty' 2>/dev/null)
+            milestone=$(retry_with_backoff gh issue view "$issue_num" --repo "$issue_repo" --json milestone --jq '.milestone.title // empty')
             if [ -n "$milestone" ]; then
                 echo "$milestone"
                 return
@@ -67,6 +90,30 @@ get_linked_milestone() {
     done
     echo ""
 }
+
+# Fetch PR details and milestone into a temp file (used for parallel execution)
+# Args: repo number index tmpdir
+fetch_pr_detail_worker() {
+    local repo="$1"
+    local number="$2"
+    local index="$3"
+    local tmpdir="$4"
+
+    echo "  [$index] Fetching details for $repo#$number..." >&2
+    local pr_details
+    pr_details=$(get_pr_details "$repo" "$number")
+
+    local milestone=""
+    if [[ "$repo" == *"/velero"* ]]; then
+        milestone=$(get_linked_milestone "$repo" "$pr_details")
+    fi
+
+    # Write combined result to temp file
+    echo "$pr_details" > "$tmpdir/${index}.details"
+    echo "$milestone" > "$tmpdir/${index}.milestone"
+}
+
+MAX_PARALLEL=10
 
 # Function to determine badge color and status
 get_badge_info() {
@@ -173,11 +220,49 @@ declare -a MIGTOOLS_PRS=()
 declare -a OADP_REBASE_PRS=()
 declare -a OTHER_PRS=()
 
-# Process each PR
+# Create temp directory for parallel fetch results
+TMPDIR=$(mktemp -d)
+trap 'rm -rf "$TMPDIR"' EXIT
+
+# Phase 1: Parse search results and launch parallel detail fetches
+PR_COUNT=$(echo "$PRS_JSON" | jq 'length')
+echo "Found $PR_COUNT open PRs. Fetching details (max $MAX_PARALLEL parallel)..."
+
+running=0
+index=0
 while IFS= read -r pr; do
     if [ -z "$pr" ] || [ "$pr" = "null" ]; then
         continue
     fi
+
+    repo=$(echo "$pr" | jq -r '.repository.nameWithOwner')
+    number=$(echo "$pr" | jq -r '.number')
+
+    # Save search data for phase 2
+    echo "$pr" > "$TMPDIR/${index}.search"
+
+    # Launch parallel detail fetch
+    fetch_pr_detail_worker "$repo" "$number" "$index" "$TMPDIR" &
+    running=$((running + 1))
+
+    # Throttle: wait when hitting max parallel limit
+    if [ $running -ge $MAX_PARALLEL ]; then
+        wait -n 2>/dev/null || wait
+        running=$((running - 1))
+    fi
+
+    index=$((index + 1))
+done < <(echo "$PRS_JSON" | jq -c '.[]')
+
+# Wait for all remaining background jobs
+wait
+echo "All detail fetches complete."
+
+# Phase 2: Process results and build badges
+for i in $(seq 0 $((index - 1))); do
+    pr=$(cat "$TMPDIR/${i}.search")
+    pr_details=$(cat "$TMPDIR/${i}.details" 2>/dev/null || echo "{}")
+    milestone=$(cat "$TMPDIR/${i}.milestone" 2>/dev/null || echo "")
 
     number=$(echo "$pr" | jq -r '.number')
     title=$(echo "$pr" | jq -r '.title')
@@ -210,14 +295,8 @@ while IFS= read -r pr; do
         has_do_not_merge="true"
     fi
 
-    # Fetch PR details (CI status, base branch, linked issues)
-    echo "  Fetching details for $repo#$number..."
-    pr_details=$(get_pr_details "$repo" "$number")
     status_checks=$(echo "$pr_details" | jq -c '.statusCheckRollup' 2>/dev/null)
     base_branch=$(echo "$pr_details" | jq -r '.baseRefName // "unknown"' 2>/dev/null)
-
-    # Get milestone from linked issues (velero repos only)
-    milestone=$(get_linked_milestone "$repo" "$pr_details")
 
     # Get badge info
     badge_info=$(get_badge_info "$is_draft" "$updated_at" "$status_checks" "$has_needs_rebase" "$has_hold_label" "$has_approved" "$has_lgtm" "$has_do_not_merge")
@@ -246,8 +325,7 @@ while IFS= read -r pr; do
             OTHER_PRS+=("$badge")
             ;;
     esac
-
-done < <(echo "$PRS_JSON" | jq -c '.[]')
+done
 
 # Helper to write a section for an org
 write_org_section() {
