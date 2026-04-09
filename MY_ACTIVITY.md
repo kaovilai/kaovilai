@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-03-26 — 2026-04-09
-> **Generated:** 2026-04-09 22:34:04 UTC
+> **Generated:** 2026-04-09 22:35:01 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -138,8 +138,8 @@
 - [#2153 Add per-StorageClass loadAffinity support to DPA](https://github.com/openshift/oadp-operator/pull/2153) — openshift/oadp-operator
 - [#2156 Enable hypershift OADP plugin build with quay.io/konveyor registry](https://github.com/openshift/oadp-operator/pull/2156) — openshift/oadp-operator
 - [#127 Merge https://github.com/vmware-tanzu/velero-plugin-for-aws:v1.14.0 (2a52b12) into oadp-1.6](https://github.com/openshift/velero-plugin-for-aws/pull/127) — openshift/velero-plugin-for-aws
-- [#51 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (4e30436) into oadp-1.6](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/51) — openshift/velero-plugin-for-legacy-aws
 - [#123 Merge https://github.com/vmware-tanzu/velero-plugin-for-gcp:v1.14.0 (1051f9f) into oadp-1.6](https://github.com/openshift/velero-plugin-for-gcp/pull/123) — openshift/velero-plugin-for-gcp
+- [#51 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (4e30436) into oadp-1.6](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/51) — openshift/velero-plugin-for-legacy-aws
 - [#127 Merge https://github.com/vmware-tanzu/velero-plugin-for-microsoft-azure:v1.14.0 (9d3a12e) into oadp-1.6](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/127) — openshift/velero-plugin-for-microsoft-azure
 - [#495 Merge https://github.com/vmware-tanzu/velero:release-1.18 (5ad4e60) into oadp-1.6](https://github.com/openshift/velero/pull/495) — openshift/velero
 - [#2151 More details on restore design](https://github.com/openshift/oadp-operator/pull/2151) — openshift/oadp-operator
