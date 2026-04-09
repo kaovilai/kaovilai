@@ -163,15 +163,15 @@ create_badge() {
 echo "Fetching open PRs..."
 PRS_JSON=$(fetch_prs)
 
-# Create associative arrays to categorize PRs
-declare -a NEEDS_ATTENTION_PRS=()
-declare -a WAITING_MERGE_PRS=()
-declare -a READY_PRS=()
-declare -a DRAFT_PRS=()
-declare -a FAILING_PRS=()
-declare -a STALE_PRS=()
-declare -a HOLD_PRS=()
-declare -a PENDING_PRS=()
+# Org order: vmware-tanzu first, openshift, migtools, then others
+ORG_ORDER=("vmware-tanzu" "openshift" "migtools" "oadp-rebase")
+
+# Arrays per org (and catch-all for others)
+declare -a VMWARE_TANZU_PRS=()
+declare -a OPENSHIFT_PRS=()
+declare -a MIGTOOLS_PRS=()
+declare -a OADP_REBASE_PRS=()
+declare -a OTHER_PRS=()
 
 # Process each PR
 while IFS= read -r pr; do
@@ -227,124 +227,55 @@ while IFS= read -r pr; do
     # Create badge markdown
     badge=$(create_badge "$repo" "$number" "$title" "$url" "$color" "$status" "$base_branch" "$milestone")
 
-    # Categorize PR
-    case "$status" in
-        needs--attention)
-            NEEDS_ATTENTION_PRS+=("$badge")
+    # Categorize PR by org
+    org=$(echo "$repo" | cut -d'/' -f1)
+    case "$org" in
+        vmware-tanzu)
+            VMWARE_TANZU_PRS+=("$badge")
             ;;
-        waiting--merge)
-            WAITING_MERGE_PRS+=("$badge")
+        openshift)
+            OPENSHIFT_PRS+=("$badge")
             ;;
-        ready)
-            READY_PRS+=("$badge")
+        migtools)
+            MIGTOOLS_PRS+=("$badge")
             ;;
-        draft)
-            DRAFT_PRS+=("$badge")
+        oadp-rebase)
+            OADP_REBASE_PRS+=("$badge")
             ;;
-        failing--ci)
-            FAILING_PRS+=("$badge")
-            ;;
-        stale)
-            STALE_PRS+=("$badge")
-            ;;
-        hold)
-            HOLD_PRS+=("$badge")
-            ;;
-        ci--pending)
-            PENDING_PRS+=("$badge")
+        *)
+            OTHER_PRS+=("$badge")
             ;;
     esac
 
 done < <(echo "$PRS_JSON" | jq -c '.[]')
 
-# Write categorized PRs to file
+# Helper to write a section for an org
+write_org_section() {
+    local org_name="$1"
+    shift
+    local prs=("$@")
+
+    echo ""
+    echo "## $org_name"
+    echo ""
+    if [ ${#prs[@]} -eq 0 ]; then
+        echo "No open PRs."
+    else
+        for pr in "${prs[@]}"; do
+            echo "- $pr"
+        done
+    fi
+}
+
+# Write PRs grouped by org
 {
-    echo ""
-    echo "## 🟠 Needs Attention"
-    echo ""
-    if [ ${#NEEDS_ATTENTION_PRS[@]} -eq 0 ]; then
-        echo "No PRs need attention."
-    else
-        for pr in "${NEEDS_ATTENTION_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
+    write_org_section "vmware-tanzu" "${VMWARE_TANZU_PRS[@]+"${VMWARE_TANZU_PRS[@]}"}"
+    write_org_section "openshift" "${OPENSHIFT_PRS[@]+"${OPENSHIFT_PRS[@]}"}"
+    write_org_section "migtools" "${MIGTOOLS_PRS[@]+"${MIGTOOLS_PRS[@]}"}"
+    write_org_section "oadp-rebase" "${OADP_REBASE_PRS[@]+"${OADP_REBASE_PRS[@]}"}"
 
-    echo ""
-    echo "## 🔵 Waiting to Merge"
-    echo ""
-    if [ ${#WAITING_MERGE_PRS[@]} -eq 0 ]; then
-        echo "No PRs waiting to merge."
-    else
-        for pr in "${WAITING_MERGE_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
-
-    echo ""
-    echo "## 🟢 Ready for Review"
-    echo ""
-    if [ ${#READY_PRS[@]} -eq 0 ]; then
-        echo "No PRs ready for review."
-    else
-        for pr in "${READY_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
-
-    echo ""
-    echo "## 🟡 CI Pending"
-    echo ""
-    if [ ${#PENDING_PRS[@]} -eq 0 ]; then
-        echo "No PRs with pending CI."
-    else
-        for pr in "${PENDING_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
-
-    echo ""
-    echo "## ⚫ Draft PRs"
-    echo ""
-    if [ ${#DRAFT_PRS[@]} -eq 0 ]; then
-        echo "No draft PRs."
-    else
-        for pr in "${DRAFT_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
-
-    echo ""
-    echo "## 🔴 Failing CI"
-    echo ""
-    if [ ${#FAILING_PRS[@]} -eq 0 ]; then
-        echo "No PRs with failing CI."
-    else
-        for pr in "${FAILING_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
-
-    echo ""
-    echo "## 🟡 Stale PRs (No activity >60 days)"
-    echo ""
-    if [ ${#STALE_PRS[@]} -eq 0 ]; then
-        echo "No stale PRs."
-    else
-        for pr in "${STALE_PRS[@]}"; do
-            echo "- $pr"
-        done
-    fi
-
-    echo ""
-    echo "## 🟡 On Hold"
-    echo ""
-    if [ ${#HOLD_PRS[@]} -eq 0 ]; then
-        echo "No PRs on hold."
-    else
-        for pr in "${HOLD_PRS[@]}"; do
-            echo "- $pr"
-        done
+    if [ ${#OTHER_PRS[@]} -gt 0 ]; then
+        write_org_section "Other" "${OTHER_PRS[@]}"
     fi
 
     echo ""
