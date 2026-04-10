@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-10 20:15:52 UTC
+> Last updated: 2026-04-10 21:16:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -31,7 +31,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
-- [![PR #10032](https://img.shields.io/badge/PR%20%2310032-ready-green)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-ready-green)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2109](https://img.shields.io/badge/PR%20%232109-ready-green)](https://github.com/openshift/oadp-operator/pull/2109) **openshift/oadp-operator** → `oadp-dev` - Require region in BSL validation when s3Url is set
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
@@ -44,6 +43,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-draft-gray)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #492](https://img.shields.io/badge/PR%20%23492-draft-gray)](https://github.com/openshift/velero/pull/492) **openshift/velero** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
+- [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #2007](https://img.shields.io/badge/PR%20%232007-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2007) **openshift/oadp-operator** → `oadp-dev` - refactor(e2e): migrate to external oadp-must-gather container image
