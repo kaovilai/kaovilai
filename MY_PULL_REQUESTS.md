@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-10 23:12:45 UTC
+> Last updated: 2026-04-11 00:08:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -13,7 +13,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9553](https://img.shields.io/badge/PR%20%239553-ready-green)](https://github.com/vmware-tanzu/velero/pull/9553) **vmware-tanzu/velero** → `main` - Add CI check for invalid characters in file paths
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/vmware-tanzu/velero/pull/7344) **vmware-tanzu/velero** → `main` - Design: Velero client download APIServer
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/vmware-tanzu/velero/pull/9236) **vmware-tanzu/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
-- [![PR #6155](https://img.shields.io/badge/PR%20%236155-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/6155) **vmware-tanzu/velero** → `main` - Add `--uninstall` and `--preserve-uninstall-namespace` option to `velero install`
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/7941) **vmware-tanzu/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/8793) **vmware-tanzu/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9221) **vmware-tanzu/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
