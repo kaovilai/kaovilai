@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-12 12:06:02 UTC
+> Last updated: 2026-04-12 18:08:17 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -30,7 +30,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
-- [![PR #2019](https://img.shields.io/badge/PR%20%232019-ready-green)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2109](https://img.shields.io/badge/PR%20%232109-ready-green)](https://github.com/openshift/oadp-operator/pull/2109) **openshift/oadp-operator** → `oadp-dev` - Require region in BSL validation when s3Url is set
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
@@ -45,6 +44,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #492](https://img.shields.io/badge/PR%20%23492-draft-gray)](https://github.com/openshift/velero/pull/492) **openshift/velero** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
+- [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2007](https://img.shields.io/badge/PR%20%232007-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2007) **openshift/oadp-operator** → `oadp-dev` - refactor(e2e): migrate to external oadp-must-gather container image
 - [![PR #2022](https://img.shields.io/badge/PR%20%232022-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2022) **openshift/oadp-operator** → `oadp-dev` - Add support for testing OADP with custom Velero PRs in Makefile and documentation
 - [![PR #464](https://img.shields.io/badge/PR%20%23464-needs--attention-orange)](https://github.com/openshift/velero/pull/464) **openshift/velero** → `oadp-dev` - fix backup repo connect
