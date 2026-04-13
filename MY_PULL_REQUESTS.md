@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-13 18:35:22 UTC
+> Last updated: 2026-04-13 19:38:16 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -18,7 +18,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9223](https://img.shields.io/badge/PR%20%239223-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9223) **vmware-tanzu/velero** → `main` - Design: namespace selection by label selector
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9384) **vmware-tanzu/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9388) **vmware-tanzu/velero** → `main` - Add lint-fix make targets
-- [![PR #9553](https://img.shields.io/badge/PR%20%239553-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9553) **vmware-tanzu/velero** → `main` - Add CI check for invalid characters in file paths
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9575) **vmware-tanzu/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9646) **vmware-tanzu/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9648) **vmware-tanzu/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
@@ -26,7 +25,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9688) **vmware-tanzu/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
 - [![PR #9689](https://img.shields.io/badge/PR%20%239689-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9689) **vmware-tanzu/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9690](https://img.shields.io/badge/PR%20%239690-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9690) **vmware-tanzu/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
-- [![PR #9691](https://img.shields.io/badge/PR%20%239691-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9691) **vmware-tanzu/velero** → `release-1.18` - [release-1.18] Add CI check for invalid characters in file paths
 
 ## openshift
 
