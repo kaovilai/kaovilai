@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-13 06:46:45 UTC
+> Last updated: 2026-04-13 12:33:44 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,7 +10,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/vmware-tanzu/velero-plugin-for-aws/pull/267) **vmware-tanzu/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/vmware-tanzu/velero/pull/8862) **vmware-tanzu/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/vmware-tanzu/velero/pull/8884) **vmware-tanzu/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
-- [![PR #9553](https://img.shields.io/badge/PR%20%239553-ready-green)](https://github.com/vmware-tanzu/velero/pull/9553) **vmware-tanzu/velero** → `main` - Add CI check for invalid characters in file paths
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/vmware-tanzu/velero/pull/7344) **vmware-tanzu/velero** → `main` - Design: Velero client download APIServer
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/vmware-tanzu/velero/pull/9236) **vmware-tanzu/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/7941) **vmware-tanzu/velero** → `main` - Use predicate in finalizer controllers to only process update events.
@@ -19,6 +18,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9223](https://img.shields.io/badge/PR%20%239223-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9223) **vmware-tanzu/velero** → `main` - Design: namespace selection by label selector
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9384) **vmware-tanzu/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9388) **vmware-tanzu/velero** → `main` - Add lint-fix make targets
+- [![PR #9553](https://img.shields.io/badge/PR%20%239553-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9553) **vmware-tanzu/velero** → `main` - Add CI check for invalid characters in file paths
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9575) **vmware-tanzu/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9646) **vmware-tanzu/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9648) **vmware-tanzu/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
@@ -78,7 +78,6 @@ No open PRs.
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #8](https://img.shields.io/badge/PR%20%238-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
-- [![PR #86](https://img.shields.io/badge/PR%20%2386-waiting--merge-blue)](https://github.com/openshift-eng/rebasebot/pull/86) **openshift-eng/rebasebot** → `main` - Add notes for macOS installation to avoid "externally-managed-environment" error
 - [![PR #16](https://img.shields.io/badge/PR%20%2316-draft-gray)](https://github.com/WinShell-Bhanu/Clipsync/pull/16) **WinShell-Bhanu/Clipsync** → `main` - fix: store encryption key in macOS Keychain instead of UserDefaults
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
