@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-13 13:39:03 UTC
+> Last updated: 2026-04-13 14:41:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -72,6 +72,7 @@ No open PRs.
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/18) **WinShell-Bhanu/Clipsync** → `main` - fix: validate FCM push notification URLs against domain allowlist
 - [![PR #19](https://img.shields.io/badge/PR%20%2319-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/19) **WinShell-Bhanu/Clipsync** → `main` - fix: stop plaintext fallback when encryption fails
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
+- [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-ready-green)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
@@ -103,7 +104,6 @@ No open PRs.
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/3) **kaovilai/att-router-tracker** → `main` - feat: Add Device Access Code Authentication
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
 - [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
-- [![PR #478](https://img.shields.io/badge/PR%20%23478-stale-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
