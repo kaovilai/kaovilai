@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-14 18:33:43 UTC
+> Last updated: 2026-04-14 19:34:57 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,6 +77,7 @@ No open PRs.
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #8](https://img.shields.io/badge/PR%20%238-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
+- [![PR #38](https://img.shields.io/badge/PR%20%2338-ci--pending-yellow)](https://github.com/konveyor/builder/pull/38) **konveyor/builder** → `main` - Add OpenSSL FIPS Go builder images for UBI 8, 9, and 10
 - [![PR #16](https://img.shields.io/badge/PR%20%2316-draft-gray)](https://github.com/WinShell-Bhanu/Clipsync/pull/16) **WinShell-Bhanu/Clipsync** → `main` - fix: store encryption key in macOS Keychain instead of UserDefaults
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
