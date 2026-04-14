@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-14 20:28:56 UTC
+> Last updated: 2026-04-14 21:22:44 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,7 +77,6 @@ No open PRs.
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #8](https://img.shields.io/badge/PR%20%238-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
-- [![PR #38](https://img.shields.io/badge/PR%20%2338-ci--pending-yellow)](https://github.com/konveyor/builder/pull/38) **konveyor/builder** → `main` - Add OpenSSL FIPS Go builder images for UBI 8, 9, and 10
 - [![PR #16](https://img.shields.io/badge/PR%20%2316-draft-gray)](https://github.com/WinShell-Bhanu/Clipsync/pull/16) **WinShell-Bhanu/Clipsync** → `main` - fix: store encryption key in macOS Keychain instead of UserDefaults
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
@@ -89,7 +88,6 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/mpryc/velero/pull/1) **mpryc/velero** → `aws_creds_exposed` - Simplify cred scrubbing
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/velero/pull/1) **shubham-pampattiwar/velero** → `del-vsb-final` - revert to using controller-gen@v0.7.0
-- [![PR #21](https://img.shields.io/badge/PR%20%2321-stale-yellow)](https://github.com/konveyor/builder/pull/21) **konveyor/builder** → `main` - Add stream9 image which has FIPS golang 1.20
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
 - [![PR #290](https://img.shields.io/badge/PR%20%23290-stale-yellow)](https://github.com/hashicorp/go-plugin/pull/290) **hashicorp/go-plugin** → `main` - Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17
