@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-16 06:39:46 UTC
+> Last updated: 2026-04-16 12:33:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -21,7 +21,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9575) **vmware-tanzu/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9646) **vmware-tanzu/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9648) **vmware-tanzu/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
-- [![PR #9649](https://img.shields.io/badge/PR%20%239649-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9649) **vmware-tanzu/velero** → `release-1.14` - release-1.14: Fix setup-envtest GCS 401 error in build image
 - [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9688) **vmware-tanzu/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
 - [![PR #9689](https://img.shields.io/badge/PR%20%239689-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9689) **vmware-tanzu/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9690](https://img.shields.io/badge/PR%20%239690-failing--ci-red)](https://github.com/vmware-tanzu/velero/pull/9690) **vmware-tanzu/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
@@ -34,7 +33,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
-- [![PR #77812](https://img.shields.io/badge/PR%20%2377812-waiting--merge-blue)](https://github.com/openshift/release/pull/77812) **openshift/release** → `main` - Change close command to 'close not-planned' for rotten
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-draft-gray)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/125) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
