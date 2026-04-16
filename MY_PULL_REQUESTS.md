@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-16 20:22:06 UTC
+> Last updated: 2026-04-16 21:21:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -64,6 +64,7 @@ No open PRs.
 
 ## Other
 
+- [![PR #1242](https://img.shields.io/badge/PR%20%231242-ready-green)](https://github.com/ceph/go-ceph/pull/1242) **ceph/go-ceph** → `master` - rbd: document DiffIterate Offset/Length semantics and add non-zero offset tests
 - [![PR #14](https://img.shields.io/badge/PR%20%2314-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/14) **WinShell-Bhanu/Clipsync** → `main` - fix: use HTTPS for IP geolocation and disable cleartext traffic
 - [![PR #15](https://img.shields.io/badge/PR%20%2315-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/15) **WinShell-Bhanu/Clipsync** → `main` - fix: restrict accessibility service to least-privilege permissions
 - [![PR #17](https://img.shields.io/badge/PR%20%2317-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/17) **WinShell-Bhanu/Clipsync** → `main` - fix: require digit proximity for OTP keyword matching
@@ -108,7 +109,6 @@ No open PRs.
 - [![PR #872](https://img.shields.io/badge/PR%20%23872-stale-yellow)](https://github.com/github/github-mcp-server/pull/872) **github/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #94](https://img.shields.io/badge/PR%20%2394-stale-yellow)](https://github.com/kaovilai/velero/pull/94) **kaovilai/velero** → `main` - Implement priority class support for Velero components
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
-- [![PR #1242](https://img.shields.io/badge/PR%20%231242-failing--ci-red)](https://github.com/ceph/go-ceph/pull/1242) **ceph/go-ceph** → `master` - rbd: document DiffIterate Offset/Length semantics and add non-zero offset tests
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-failing--ci-red)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-failing--ci-red)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 
