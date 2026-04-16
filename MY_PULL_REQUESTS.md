@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-16 18:34:20 UTC
+> Last updated: 2026-04-16 19:33:20 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -11,8 +11,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/vmware-tanzu/velero/pull/8862) **vmware-tanzu/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/vmware-tanzu/velero/pull/8884) **vmware-tanzu/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/vmware-tanzu/velero/pull/7344) **vmware-tanzu/velero** → `main` - Design: Velero client download APIServer
+- [![PR #7941](https://img.shields.io/badge/PR%20%237941-draft-gray)](https://github.com/vmware-tanzu/velero/pull/7941) **vmware-tanzu/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/vmware-tanzu/velero/pull/9236) **vmware-tanzu/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
-- [![PR #7941](https://img.shields.io/badge/PR%20%237941-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/7941) **vmware-tanzu/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/8793) **vmware-tanzu/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9221) **vmware-tanzu/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
 - [![PR #9223](https://img.shields.io/badge/PR%20%239223-stale-yellow)](https://github.com/vmware-tanzu/velero/pull/9223) **vmware-tanzu/velero** → `main` - Design: namespace selection by label selector
@@ -31,6 +31,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
+- [![PR #393](https://img.shields.io/badge/PR%20%23393-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/393) **openshift/openshift-velero-plugin** → `oadp-dev` - go list -m all | grep golang.org/x | cut -d' ' -f1 | xargs go get && go mod tidy
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-draft-gray)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/125) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
