@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-16 00:34:27 UTC
+> Last updated: 2026-04-16 06:39:46 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -36,13 +36,13 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #77812](https://img.shields.io/badge/PR%20%2377812-waiting--merge-blue)](https://github.com/openshift/release/pull/77812) **openshift/release** → `main` - Change close command to 'close not-planned' for rotten
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-draft-gray)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/125) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
+- [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-draft-gray)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #492](https://img.shields.io/badge/PR%20%23492-draft-gray)](https://github.com/openshift/velero/pull/492) **openshift/velero** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
-- [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2007](https://img.shields.io/badge/PR%20%232007-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2007) **openshift/oadp-operator** → `oadp-dev` - refactor(e2e): migrate to external oadp-must-gather container image
 - [![PR #2022](https://img.shields.io/badge/PR%20%232022-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2022) **openshift/oadp-operator** → `oadp-dev` - Add support for testing OADP with custom Velero PRs in Makefile and documentation
