@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-17 22:18:31 UTC
+> Last updated: 2026-04-17 23:15:01 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -20,7 +20,6 @@ No open PRs.
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #393](https://img.shields.io/badge/PR%20%23393-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/393) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump Go dependencies to fix CVEs (Trivy scan)
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/openshift/restic/pull/48) **openshift/restic** → `oadp-1.3` - oadp-1.3: OADP-7568+OADP-7571: bump Go 1.25.0, x/crypto, x/net, grpc
 - [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/openshift/velero/pull/498) **openshift/velero** → `oadp-1.3` - OADP-7568: Fix unit-test CI: update setup-envtest for new artifact location
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
