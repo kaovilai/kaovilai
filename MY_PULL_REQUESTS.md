@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-20 13:40:10 UTC
+> Last updated: 2026-04-20 14:40:49 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -18,11 +18,11 @@ No open PRs.
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
-- [![PR #393](https://img.shields.io/badge/PR%20%23393-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/393) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump Go dependencies to fix CVEs (Trivy scan)
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/openshift/velero/pull/498) **openshift/velero** → `oadp-1.3` - OADP-7568: Fix unit-test CI: update setup-envtest for new artifact location
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
+- [![PR #393](https://img.shields.io/badge/PR%20%23393-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/393) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump Go dependencies to fix CVEs (Trivy scan)
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-draft-gray)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/125) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
