@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-20 16:33:38 UTC
+> Last updated: 2026-04-20 17:28:36 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -11,9 +11,7 @@ No open PRs.
 
 ## openshift
 
-- [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/openshift/velero-plugin-for-gcp/pull/125) **openshift/velero-plugin-for-gcp** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-ready-green)](https://github.com/openshift/velero-plugin-for-aws/pull/129) **openshift/velero-plugin-for-aws** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #129](https://img.shields.io/badge/PR%20%23129-ready-green)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/129) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #2109](https://img.shields.io/badge/PR%20%232109-ready-green)](https://github.com/openshift/oadp-operator/pull/2109) **openshift/oadp-operator** → `oadp-dev` - Require region in BSL validation when s3Url is set
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
