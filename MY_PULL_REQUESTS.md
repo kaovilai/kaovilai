@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-21 15:35:42 UTC
+> Last updated: 2026-04-21 16:31:08 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -55,6 +55,7 @@ No open PRs.
 - [![PR #17](https://img.shields.io/badge/PR%20%2317-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/17) **WinShell-Bhanu/Clipsync** → `main` - fix: require digit proximity for OTP keyword matching
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/18) **WinShell-Bhanu/Clipsync** → `main` - fix: validate FCM push notification URLs against domain allowlist
 - [![PR #19](https://img.shields.io/badge/PR%20%2319-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/19) **WinShell-Bhanu/Clipsync** → `main` - fix: stop plaintext fallback when encryption fails
+- [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
