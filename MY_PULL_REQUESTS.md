@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-21 20:24:04 UTC
+> Last updated: 2026-04-21 21:20:40 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -101,7 +101,6 @@ No open PRs.
 - [![PR #872](https://img.shields.io/badge/PR%20%23872-stale-yellow)](https://github.com/github/github-mcp-server/pull/872) **github/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
-- [![PR #9223](https://img.shields.io/badge/PR%20%239223-stale-yellow)](https://github.com/velero-io/velero/pull/9223) **velero-io/velero** → `main` - Design: namespace selection by label selector
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #94](https://img.shields.io/badge/PR%20%2394-stale-yellow)](https://github.com/kaovilai/velero/pull/94) **kaovilai/velero** → `main` - Implement priority class support for Velero components
