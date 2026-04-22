@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-22 18:31:22 UTC
+> Last updated: 2026-04-22 19:34:28 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -20,7 +20,6 @@ No open PRs.
 - [![PR #2109](https://img.shields.io/badge/PR%20%232109-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2109) **openshift/oadp-operator** → `oadp-dev` - Require region in BSL validation when s3Url is set
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
-- [![PR #78204](https://img.shields.io/badge/PR%20%2378204-waiting--merge-blue)](https://github.com/openshift/release/pull/78204) **openshift/release** → `main` - feat: update hypershift-oadp-plugin CI configuration and image mapping
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-draft-gray)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/125) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
