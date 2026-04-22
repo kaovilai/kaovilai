@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-22 00:29:38 UTC
+> Last updated: 2026-04-22 06:39:58 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -108,7 +108,7 @@ No open PRs.
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-failing--ci-red)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-failing--ci-red)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
-- [![PR #9646](https://img.shields.io/badge/PR%20%239646-failing--ci-red)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds
+- [![PR #9646](https://img.shields.io/badge/PR%20%239646-failing--ci-red)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/velero-io/velero/pull/9648) **velero-io/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
 - [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
 - [![PR #9689](https://img.shields.io/badge/PR%20%239689-failing--ci-red)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
