@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-23 20:26:40 UTC
+> Last updated: 2026-04-23 21:21:36 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -50,6 +50,7 @@ No open PRs.
 
 ## Other
 
+- [![PR #1381](https://img.shields.io/badge/PR%20%231381-ready-green)](https://github.com/cncf/foundation/pull/1381) **cncf/foundation** → `main` - Update project-maintainers.csv for velero.io
 - [![PR #14](https://img.shields.io/badge/PR%20%2314-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/14) **WinShell-Bhanu/Clipsync** → `main` - fix: use HTTPS for IP geolocation and disable cleartext traffic
 - [![PR #15](https://img.shields.io/badge/PR%20%2315-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/15) **WinShell-Bhanu/Clipsync** → `main` - fix: restrict accessibility service to least-privilege permissions
 - [![PR #17](https://img.shields.io/badge/PR%20%2317-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/17) **WinShell-Bhanu/Clipsync** → `main` - fix: require digit proximity for OTP keyword matching
