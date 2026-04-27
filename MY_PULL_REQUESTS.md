@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-27 13:40:41 UTC
+> Last updated: 2026-04-27 14:50:26 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -36,7 +36,6 @@ No open PRs.
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-ready-green)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/migtools/oadp-non-admin/pull/273) **migtools/oadp-non-admin** → `oadp-dev` - Add GitHub Actions workflow to update OADP Go dependencies automatically
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
-- [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-hold-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-hold-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #252](https://img.shields.io/badge/PR%20%23252-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/252) **migtools/oadp-non-admin** → `oadp-dev` - macos gsed support
@@ -76,7 +75,6 @@ No open PRs.
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/CarmiWisemon/openshift-docs/pull/1) **CarmiWisemon/openshift-docs** → `oadp1178flags` - keep .gitignore
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
-- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/1) **kaovilai/dotfiles** → `master` - profilers
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/mpryc/velero/pull/1) **mpryc/velero** → `aws_creds_exposed` - Simplify cred scrubbing
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
@@ -89,10 +87,8 @@ No open PRs.
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/github-mcp-server/pull/2) **kaovilai/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/oadp-vmdp/pull/2) **kaovilai/oadp-vmdp** → `master` - https://github.com/kopia/kopia/pull/4303 test preview
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/mowhammadrezaa/SmartFormFiller/pull/2) **mowhammadrezaa/SmartFormFiller** → `main` - WIP: ollama
-- [![PR #31](https://img.shields.io/badge/PR%20%2331-stale-yellow)](https://github.com/kaovilai/AdJS/pull/31) **kaovilai/AdJS** → `master` - Update main.yml
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/3) **kaovilai/att-router-tracker** → `main` - feat: Add Device Access Code Authentication
-- [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
 - [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
@@ -103,7 +99,6 @@ No open PRs.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #94](https://img.shields.io/badge/PR%20%2394-stale-yellow)](https://github.com/kaovilai/velero/pull/94) **kaovilai/velero** → `main` - Implement priority class support for Velero components
-- [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-failing--ci-red)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-failing--ci-red)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
