@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-28 17:38:06 UTC
+> Last updated: 2026-04-28 18:40:40 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -51,7 +51,6 @@ No open PRs.
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/18) **WinShell-Bhanu/Clipsync** → `main` - fix: validate FCM push notification URLs against domain allowlist
 - [![PR #19](https://img.shields.io/badge/PR%20%2319-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/19) **WinShell-Bhanu/Clipsync** → `main` - fix: stop plaintext fallback when encryption fails
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
-- [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
@@ -70,6 +69,7 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/1) **kaovilai/dotfiles** → `master` - profilers
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
+- [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/github-mcp-server/pull/2) **kaovilai/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
