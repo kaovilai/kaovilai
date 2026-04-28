@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-28 06:56:40 UTC
+> Last updated: 2026-04-28 12:47:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -61,6 +61,7 @@ No open PRs.
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
 - [![PR #8](https://img.shields.io/badge/PR%20%238-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
+- [![PR #6203](https://img.shields.io/badge/PR%20%236203-ci--pending-yellow)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #16](https://img.shields.io/badge/PR%20%2316-draft-gray)](https://github.com/WinShell-Bhanu/Clipsync/pull/16) **WinShell-Bhanu/Clipsync** → `main` - fix: store encryption key in macOS Keychain instead of UserDefaults
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
@@ -81,7 +82,6 @@ No open PRs.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #94](https://img.shields.io/badge/PR%20%2394-stale-yellow)](https://github.com/kaovilai/velero/pull/94) **kaovilai/velero** → `main` - Implement priority class support for Velero components
-- [![PR #6203](https://img.shields.io/badge/PR%20%236203-failing--ci-red)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-failing--ci-red)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/velero-io/velero/pull/9648) **velero-io/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
 - [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
