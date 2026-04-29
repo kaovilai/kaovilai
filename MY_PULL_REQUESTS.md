@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-29 19:37:21 UTC
+> Last updated: 2026-04-29 20:32:01 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -84,6 +84,7 @@ No open PRs.
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
+- [![PR #290](https://img.shields.io/badge/PR%20%23290-stale-yellow)](https://github.com/hashicorp/go-plugin/pull/290) **hashicorp/go-plugin** → `main` - Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/eemcmullan/oadp-operator/pull/2) **eemcmullan/oadp-operator** → `vsm-batching` - add default CRD validation
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/github-mcp-server/pull/2) **kaovilai/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
