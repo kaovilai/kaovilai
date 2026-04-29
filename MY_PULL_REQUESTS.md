@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-29 18:39:36 UTC
+> Last updated: 2026-04-29 19:37:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -38,6 +38,7 @@ No open PRs.
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-hold-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
+- [![PR #58](https://img.shields.io/badge/PR%20%2358-hold-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #252](https://img.shields.io/badge/PR%20%23252-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/252) **migtools/oadp-non-admin** → `oadp-dev` - macos gsed support
 - [![PR #298](https://img.shields.io/badge/PR%20%23298-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/298) **migtools/oadp-non-admin** → `oadp-1.5` - test nac ghactions
 
@@ -54,6 +55,7 @@ No open PRs.
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/18) **WinShell-Bhanu/Clipsync** → `main` - fix: validate FCM push notification URLs against domain allowlist
 - [![PR #19](https://img.shields.io/badge/PR%20%2319-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/19) **WinShell-Bhanu/Clipsync** → `main` - fix: stop plaintext fallback when encryption fails
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
+- [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
