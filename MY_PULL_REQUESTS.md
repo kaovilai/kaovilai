@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-29 16:39:13 UTC
+> Last updated: 2026-04-29 17:37:05 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -37,6 +37,7 @@ No open PRs.
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-hold-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
+- [![PR #252](https://img.shields.io/badge/PR%20%23252-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/252) **migtools/oadp-non-admin** → `oadp-dev` - macos gsed support
 - [![PR #298](https://img.shields.io/badge/PR%20%23298-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/298) **migtools/oadp-non-admin** → `oadp-1.5` - test nac ghactions
 
 ## oadp-rebase
@@ -98,6 +99,7 @@ No open PRs.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #94](https://img.shields.io/badge/PR%20%2394-stale-yellow)](https://github.com/kaovilai/velero/pull/94) **kaovilai/velero** → `main` - Implement priority class support for Velero components
+- [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-failing--ci-red)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-failing--ci-red)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
