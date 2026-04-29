@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-29 17:37:05 UTC
+> Last updated: 2026-04-29 18:39:36 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -24,6 +24,7 @@ No open PRs.
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-draft-gray)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
+- [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2007](https://img.shields.io/badge/PR%20%232007-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2007) **openshift/oadp-operator** → `oadp-dev` - refactor(e2e): migrate to external oadp-must-gather container image
@@ -94,6 +95,7 @@ No open PRs.
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
+- [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
