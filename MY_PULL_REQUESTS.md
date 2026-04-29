@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-29 06:52:06 UTC
+> Last updated: 2026-04-29 12:43:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -12,12 +12,12 @@ No open PRs.
 ## openshift
 
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-ready-green)](https://github.com/openshift/velero-plugin-for-aws/pull/129) **openshift/velero-plugin-for-aws** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #2109](https://img.shields.io/badge/PR%20%232109-ready-green)](https://github.com/openshift/oadp-operator/pull/2109) **openshift/oadp-operator** → `oadp-dev` - OADP-5777: Require region in BSL validation when s3Url is set, fix nil config skipping region auto-detection
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/openshift/velero/pull/498) **openshift/velero** → `oadp-1.3` - OADP-7568: Fix unit-test CI: update setup-envtest for new artifact location
+- [![PR #2109](https://img.shields.io/badge/PR%20%232109-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2109) **openshift/oadp-operator** → `oadp-dev` - OADP-5777: Require region in BSL validation when s3Url is set, fix nil config skipping region auto-detection
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -71,6 +71,7 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/1) **kaovilai/dotfiles** → `master` - profilers
+- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
@@ -78,6 +79,7 @@ No open PRs.
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/github-mcp-server/pull/2) **kaovilai/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/mowhammadrezaa/SmartFormFiller/pull/2) **mowhammadrezaa/SmartFormFiller** → `main` - WIP: ollama
+- [![PR #31](https://img.shields.io/badge/PR%20%2331-stale-yellow)](https://github.com/kaovilai/AdJS/pull/31) **kaovilai/AdJS** → `master` - Update main.yml
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/3) **kaovilai/att-router-tracker** → `main` - feat: Add Device Access Code Authentication
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
