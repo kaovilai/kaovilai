@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-30 18:44:08 UTC
+> Last updated: 2026-04-30 19:37:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -29,7 +29,6 @@ No open PRs.
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2007](https://img.shields.io/badge/PR%20%232007-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2007) **openshift/oadp-operator** → `oadp-dev` - refactor(e2e): migrate to external oadp-must-gather container image
 - [![PR #2022](https://img.shields.io/badge/PR%20%232022-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2022) **openshift/oadp-operator** → `oadp-dev` - Add support for testing OADP with custom Velero PRs in Makefile and documentation
-- [![PR #464](https://img.shields.io/badge/PR%20%23464-needs--attention-orange)](https://github.com/openshift/velero/pull/464) **openshift/velero** → `oadp-dev` - fix backup repo connect
 
 ## migtools
 
@@ -39,8 +38,6 @@ No open PRs.
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-hold-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-hold-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
-- [![PR #252](https://img.shields.io/badge/PR%20%23252-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/252) **migtools/oadp-non-admin** → `oadp-dev` - macos gsed support
-- [![PR #298](https://img.shields.io/badge/PR%20%23298-needs--attention-orange)](https://github.com/migtools/oadp-non-admin/pull/298) **migtools/oadp-non-admin** → `oadp-1.5` - test nac ghactions
 
 ## oadp-rebase
 
@@ -66,8 +63,8 @@ No open PRs.
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
 - [![PR #8](https://img.shields.io/badge/PR%20%238-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
+- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
-- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #16](https://img.shields.io/badge/PR%20%2316-draft-gray)](https://github.com/WinShell-Bhanu/Clipsync/pull/16) **WinShell-Bhanu/Clipsync** → `main` - fix: store encryption key in macOS Keychain instead of UserDefaults
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-draft-gray)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
