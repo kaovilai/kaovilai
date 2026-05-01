@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-04-30 23:20:11 UTC
+> Last updated: 2026-05-01 00:40:22 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -17,9 +17,6 @@ No open PRs.
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #2184](https://img.shields.io/badge/PR%20%232184-ready-green)](https://github.com/openshift/oadp-operator/pull/2184) **openshift/oadp-operator** → `oadp-dev` - Increase Fedora VM startup timeout to 20 minutes
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/openshift/velero/pull/498) **openshift/velero** → `oadp-1.3` - UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest, migrate config
-- [![PR #500](https://img.shields.io/badge/PR%20%23500-ready-green)](https://github.com/openshift/velero/pull/500) **openshift/velero** → `oadp-1.4` - UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest
-- [![PR #501](https://img.shields.io/badge/PR%20%23501-ready-green)](https://github.com/openshift/velero/pull/501) **openshift/velero** → `oadp-1.5` - UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
