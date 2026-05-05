@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-05 20:31:18 UTC
+> Last updated: 2026-05-05 21:27:54 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -18,7 +18,6 @@ No open PRs.
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #2184](https://img.shields.io/badge/PR%20%232184-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2184) **openshift/oadp-operator** → `oadp-dev` - Increase Fedora VM startup timeout to 20 minutes
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
