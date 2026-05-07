@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-07 07:01:59 UTC
+> Last updated: 2026-05-07 12:48:55 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -43,8 +43,6 @@ No open PRs.
 ## Other
 
 - [![PR #1381](https://img.shields.io/badge/PR%20%231381-ready-green)](https://github.com/cncf/foundation/pull/1381) **cncf/foundation** → `main` - Update project-maintainers.csv for velero.io
-- [![PR #15](https://img.shields.io/badge/PR%20%2315-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/15) **WinShell-Bhanu/Clipsync** → `main` - fix: restrict accessibility service to least-privilege permissions
-- [![PR #17](https://img.shields.io/badge/PR%20%2317-ready-green)](https://github.com/WinShell-Bhanu/Clipsync/pull/17) **WinShell-Bhanu/Clipsync** → `main` - fix: require digit proximity for OTP keyword matching
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
