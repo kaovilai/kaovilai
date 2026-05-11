@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-11 13:11:54 UTC
+> Last updated: 2026-05-11 15:10:10 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -92,12 +92,12 @@ No open PRs.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
+- [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
-- [![PR #7040](https://img.shields.io/badge/PR%20%237040-failing--ci-red)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-failing--ci-red)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/velero-io/velero/pull/9648) **velero-io/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
 - [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
