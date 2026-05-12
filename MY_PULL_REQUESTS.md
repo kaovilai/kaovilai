@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-12 16:51:20 UTC
+> Last updated: 2026-05-12 17:45:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -53,7 +53,6 @@ No open PRs.
 - [![PR #872](https://img.shields.io/badge/PR%20%23872-ready-green)](https://github.com/github/github-mcp-server/pull/872) **github/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
-- [![PR #8](https://img.shields.io/badge/PR%20%238-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
@@ -92,6 +91,7 @@ No open PRs.
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
+- [![PR #8](https://img.shields.io/badge/PR%20%238-stale-yellow)](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add manual intervention guide to README
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
