@@ -49,7 +49,7 @@ Look for ONE improvement from this priority list (pick the highest priority item
 1. **Security & CI/CD**: Missing or outdated GitHub Actions, pinning action versions to SHA, adding security scanning
 2. **Documentation**: Outdated links, missing sections, broken markdown, accessibility improvements
 3. **Code Quality**: Dead code, unused files, inconsistent formatting, missing `.editorconfig`
-4. **Repository Hygiene**: Missing community health files (CODEOWNERS, SECURITY.md, issue templates), license clarity
+4. **Repository Hygiene**: Missing community health files (CODEOWNERS, issue templates), license clarity
 5. **Dependencies**: Outdated dependencies, missing lock files, version pinning
 6. **Profile Enhancements**: Improving README badges, stats, or presentation
 
@@ -59,6 +59,7 @@ Look for ONE improvement from this priority list (pick the highest priority item
 - Each PR should be independently mergeable — no dependencies on other changes.
 - If you find an improvement that depends on another PR being merged first, create an **issue** describing the improvement and noting the dependency. Do NOT create a PR.
 - Do not modify `MY_ACTIVITY.md` or `MY_PULL_REQUESTS.md` — those are auto-generated.
+- Do not create or modify `SECURITY.md` — this is a personal profile repository, not a software project.
 - Do not modify existing workflow files (`update-activity-log.yml`, `update-pr-badges.yml`) unless fixing a clear security issue (like unpinned actions).
 - Write clear PR descriptions explaining what changed and why.
 - Keep changes minimal and focused. One concern per PR.
