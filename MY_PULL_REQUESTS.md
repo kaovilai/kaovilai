@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-14 17:39:46 UTC
+> Last updated: 2026-05-14 18:45:23 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -66,7 +66,6 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/CarmiWisemon/openshift-docs/pull/1) **CarmiWisemon/openshift-docs** → `oadp1178flags` - keep .gitignore
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
-- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/1) **kaovilai/dotfiles** → `master` - profilers
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/mpryc/velero/pull/1) **mpryc/velero** → `aws_creds_exposed` - Simplify cred scrubbing
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/velero/pull/1) **shubham-pampattiwar/velero** → `del-vsb-final` - revert to using controller-gen@v0.7.0
