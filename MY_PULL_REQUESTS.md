@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-14 20:36:32 UTC
+> Last updated: 2026-05-14 21:31:38 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -17,6 +17,7 @@ No open PRs.
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
+- [![PR #2204](https://img.shields.io/badge/PR%20%232204-ready-green)](https://github.com/openshift/oadp-operator/pull/2204) **openshift/oadp-operator** → `oadp-dev` - feat: add FBC catalog Dockerfile for CI without operator-sdk
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #79324](https://img.shields.io/badge/PR%20%2379324-ready-green)](https://github.com/openshift/release/pull/79324) **openshift/release** → `main` - Fix OO_INSTALL_MODE not passed to operator-sdk run bundle
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
