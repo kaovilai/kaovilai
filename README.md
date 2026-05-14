@@ -18,7 +18,7 @@
 
 ### About Me
 
-Currently a Red Hat Software Engineer working on Data Protection on OpenShift platform.
+Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protection (OADP)](https://github.com/openshift/oadp-operator) and Maintainer of the [Velero](https://github.com/vmware-tanzu/velero) project. Focused on upstream community leadership, mentoring contributors, and architecting cloud-native data protection for Kubernetes.
 
 ```mermaid
 mindmap
@@ -57,16 +57,20 @@ mindmap
                 🍳Blogging
                 🍳Ansible
                 🍳Trello
-           💼Software Engineer
+           💼Senior Software Engineer
                 🧑‍🤝‍🧑Migration and Modernization Engineering
                     **OpenShift API for Data Protection**
                         🍳Golang
                         🍳Containers
                         🍳OpenShift/Kubernetes
                             🍳Prow
-                            🍳Velero
+                            🍳Velero Maintainer
                         🍳Jira
-                        🍳Travis
+                        🍳GitHub Actions
+                    Open Source Leadership
+                        🍳Community Mentorship
+                        🍳Upstream Strategy
+                        🍳Technical Evangelism
         (🏙️Deutsche Bank)
             💼dbAchieve Internship
                 🍳SpringBoot
@@ -76,6 +80,15 @@ mindmap
                 🍳AngularJS
                 🍳BitBucket
 ```
+
+### Education
+
+- **North Carolina State University** - BS Industrial Engineering (2018-2021), Minor in Computer Science (2016-2021)
+- **CS50** - Computer Science (2015)
+- **James Hargest College** - Invercargill, New Zealand (2012-2015)
+- **Assumption College** - Bangkok, Thailand (2010-2012)
+
+### Places
 
 In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
 
