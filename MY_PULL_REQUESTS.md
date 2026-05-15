@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-15 22:26:16 UTC
+> Last updated: 2026-05-15 23:20:48 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -49,7 +49,6 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
-- [![PR #49](https://img.shields.io/badge/PR%20%2349-ready-green)](https://github.com/kaovilai/dotfiles/pull/49) **kaovilai/dotfiles** → `master` - test: trigger gh-aw prerelease compile
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-ready-green)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
