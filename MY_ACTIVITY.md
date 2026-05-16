@@ -1,28 +1,33 @@
 # Activity Log
 
-> **Period:** 2026-04-27 — 2026-05-11
-> **Generated:** 2026-05-11 10:59:42 UTC
+> **Period:** 2026-05-02 — 2026-05-16
+> **Generated:** 2026-05-16 00:32:18 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 12 |
-| PRs Opened | 9 |
-| PRs Reviewed | 47 |
-| Issues/PRs Commented | 26 |
-| Issues Closed | 14 |
+| PRs Merged | 17 |
+| PRs Opened | 15 |
+| PRs Reviewed | 59 |
+| Issues/PRs Commented | 34 |
+| Issues Closed | 31 |
 
 ---
 
-## PRs Merged (12)
+## PRs Merged (17)
 
-**openshift** (5)
+**openshift** (3)
+- [#2007 refactor(e2e): migrate to external oadp-must-gather container image](https://github.com/openshift/oadp-operator/pull/2007) — openshift/oadp-operator
+- [#2196 docs: add podConfig documentation for tolerations, nodeSelector, labels, and env](https://github.com/openshift/oadp-operator/pull/2196) — openshift/oadp-operator
 - [#2184 Increase Fedora VM startup timeout to 20 minutes](https://github.com/openshift/oadp-operator/pull/2184) — openshift/oadp-operator
-- [#500 UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest](https://github.com/openshift/velero/pull/500) — openshift/velero
-- [#498 UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest, migrate config](https://github.com/openshift/velero/pull/498) — openshift/velero
-- [#501 UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest](https://github.com/openshift/velero/pull/501) — openshift/velero
-- [#2109 OADP-5777: Require region in BSL validation when s3Url is set, fix nil config skipping region auto-detection](https://github.com/openshift/oadp-operator/pull/2109) — openshift/oadp-operator
 
-**Other** (7)
+**Other** (14)
+- [#49 test: trigger gh-aw prerelease compile](https://github.com/kaovilai/dotfiles/pull/49) — kaovilai/dotfiles
+- [#37 fix: add local declaration for attempts in reconnect_wifi](https://github.com/kaovilai/dotfiles/pull/37) — kaovilai/dotfiles
+- [#14 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/pull/14) — kaovilai/dotfiles
+- [#38 [doc-sync] Fix stale GitHub issue status references in documentation](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/38) — kaovilai/cephcsi-cbt-e2e
+- [#34 docs: fix inconsistent PR #9736 status wording](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/34) — kaovilai/cephcsi-cbt-e2e
+- [#33 docs: add Velero BDM fallback behavior and backup safety after flattening](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/33) — kaovilai/cephcsi-cbt-e2e
+- [#1381 Update project-maintainers.csv for velero.io](https://github.com/cncf/foundation/pull/1381) — cncf/foundation
 - [#19 fix: stop plaintext fallback when encryption fails](https://github.com/WinShell-Bhanu/Clipsync/pull/19) — WinShell-Bhanu/Clipsync
 - [#94 Implement priority class support for Velero components](https://github.com/kaovilai/velero/pull/94) — kaovilai/velero
 - [#17 fix: require digit proximity for OTP keyword matching](https://github.com/WinShell-Bhanu/Clipsync/pull/17) — WinShell-Bhanu/Clipsync
@@ -30,57 +35,81 @@
 - [#16 fix: store encryption key in macOS Keychain instead of UserDefaults](https://github.com/WinShell-Bhanu/Clipsync/pull/16) — WinShell-Bhanu/Clipsync
 - [#18 fix: validate FCM push notification URLs against domain allowlist](https://github.com/WinShell-Bhanu/Clipsync/pull/18) — WinShell-Bhanu/Clipsync
 - [#14 fix: use HTTPS for IP geolocation and disable cleartext traffic](https://github.com/WinShell-Bhanu/Clipsync/pull/14) — WinShell-Bhanu/Clipsync
-## PRs Opened (9)
+## PRs Opened (15)
 
-**openshift** (5)
+**openshift** (7)
+- [#598 Document FBC catalog builds and OLM v1 testing workflows](https://github.com/openshift/ci-docs/pull/598) — openshift/ci-docs
+- [#79327 OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview](https://github.com/openshift/release/pull/79327) — openshift/release
+- [#2204 feat: add FBC catalog Dockerfile for CI without operator-sdk](https://github.com/openshift/oadp-operator/pull/2204) — openshift/oadp-operator
+- [#79324 Fix OO_INSTALL_MODE not passed to operator-sdk run bundle](https://github.com/openshift/release/pull/79324) — openshift/release
+- [#79152 OADP: migrate CI to OO_BUNDLE (FBC) + enable TechPreview for OLMv1/VolumeGroupSnapshot testing](https://github.com/openshift/release/pull/79152) — openshift/release
 - [#2198 fix: handle not-found error in nodeagent DaemonSet deletion](https://github.com/openshift/oadp-operator/pull/2198) — openshift/oadp-operator
 - [#2196 docs: add podConfig documentation for tolerations, nodeSelector, labels, and env](https://github.com/openshift/oadp-operator/pull/2196) — openshift/oadp-operator
-- [#501 UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest](https://github.com/openshift/velero/pull/501) — openshift/velero
-- [#500 UPSTREAM: <drop>: Drop coverprofile, update golangci-lint to v2.5.0, fix envtest](https://github.com/openshift/velero/pull/500) — openshift/velero
-- [#2184 Increase Fedora VM startup timeout to 20 minutes](https://github.com/openshift/oadp-operator/pull/2184) — openshift/oadp-operator
 
-**Other** (4)
+**Other** (8)
+- [#49 test: trigger gh-aw prerelease compile](https://github.com/kaovilai/dotfiles/pull/49) — kaovilai/dotfiles
+- [#6854 fix: add timeout to container state polling loop](https://github.com/containers/buildah/pull/6854) — containers/buildah
+- [#37 fix: add local declaration for attempts in reconnect_wifi](https://github.com/kaovilai/dotfiles/pull/37) — kaovilai/dotfiles
+- [#14 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/pull/14) — kaovilai/dotfiles
+- [#38 [doc-sync] Fix stale GitHub issue status references in documentation](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/38) — kaovilai/cephcsi-cbt-e2e
+- [#34 docs: fix inconsistent PR #9736 status wording](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/34) — kaovilai/cephcsi-cbt-e2e
+- [#33 docs: add Velero BDM fallback behavior and backup safety after flattening](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/33) — kaovilai/cephcsi-cbt-e2e
 - [#2 feat(libpod): Add Podman /libpod/* API endpoints](https://github.com/kaovilai/socktainer/pull/2) — kaovilai/socktainer
-- [#8 feat: implement Docker/Podman socket compatibility via launchd activation](https://github.com/us/mocker/pull/8) — us/mocker
-- [#9772 Design: namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/9772) — velero-io/velero
-- [#9770 design: Kubernetes name length enforcement for Velero-created objects (#8815)](https://github.com/velero-io/velero/pull/9770) — velero-io/velero
-## PRs Reviewed (47)
+## PRs Reviewed (59)
 
-**openshift** (15)
+**openshift** (11)
+- [#92 Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (31d5293) into oadp-1.6](https://github.com/openshift/oadp-must-gather/pull/92) — openshift/oadp-must-gather
+- [#397 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (e621e79) into oadp-1.6](https://github.com/openshift/openshift-velero-plugin/pull/397) — openshift/openshift-velero-plugin
+- [#2200 start building oadp-1.4.10](https://github.com/openshift/oadp-operator/pull/2200) — openshift/oadp-operator
+- [#79192 fix: remove spec.replicas from core-ci highmem MachineSets to stop ArgoCD fighting CA](https://github.com/openshift/release/pull/79192) — openshift/release
+- [#2188 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (3fa3730) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2188) — openshift/oadp-operator
 - [#2192 [oadp-1.6] OADP-6734: Add podLabels and podAnnotations for maintenance and data mover pods](https://github.com/openshift/oadp-operator/pull/2192) — openshift/oadp-operator
 - [#2197 [oadp-1.6] fix: add /tmp emptyDir volume to KDM controller deployment](https://github.com/openshift/oadp-operator/pull/2197) — openshift/oadp-operator
 - [#2191 fix: add /tmp emptyDir volume to KDM controller deployment](https://github.com/openshift/oadp-operator/pull/2191) — openshift/oadp-operator
 - [#2190 OADP-6734: Add podLabels and podAnnotations for maintenance and data mover pods](https://github.com/openshift/oadp-operator/pull/2190) — openshift/oadp-operator
 - [#2189 [oadp-1.6] feat: add KubevirtDatamoverConfig to DPA for max incremental backups](https://github.com/openshift/oadp-operator/pull/2189) — openshift/oadp-operator
-- [#2179 feat: add KubevirtDatamoverConfig to DPA for max incremental backups](https://github.com/openshift/oadp-operator/pull/2179) — openshift/oadp-operator
-- [#2188 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (3fa3730) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2188) — openshift/oadp-operator
 - [#250 Update velero dependency to latest oadp-1.6 branch (v1.18.1-rc.1)](https://github.com/openshift/hypershift-oadp-plugin/pull/250) — openshift/hypershift-oadp-plugin
-- [#2187 OADP-7882: add dpa config to disable early csi polling interval](https://github.com/openshift/oadp-operator/pull/2187) — openshift/oadp-operator
-- [#499 Optimize VSC handle readiness polling for VSS backups (cp from upstream 1.18)](https://github.com/openshift/velero/pull/499) — openshift/velero
-- [#2182 [oadp-1.6] OADP-5777: Require region in BSL validation when s3Url is set, fix nil config skipping region auto-detection](https://github.com/openshift/oadp-operator/pull/2182) — openshift/oadp-operator
-- [#2181 OADP-7882: add dpa config to disable early csi polling interval](https://github.com/openshift/oadp-operator/pull/2181) — openshift/oadp-operator
-- [#91 OADP-1.6 must-gather updates](https://github.com/openshift/oadp-must-gather/pull/91) — openshift/oadp-must-gather
-- [#2180 [oadp-1.6] OADP-7869: Fix stale resourceAnnotations/resourceLabels after DPA patch](https://github.com/openshift/oadp-operator/pull/2180) — openshift/oadp-operator
-- [#90 OADP-7872: Add VM file restore CRDs to must-gather](https://github.com/openshift/oadp-must-gather/pull/90) — openshift/oadp-must-gather
 
-**migtools** (15)
-- [#67 Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (e770f03) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/67) — migtools/kubevirt-datamover-controller
-- [#68 [oadp-1.6] fix: replace custom AWS credential parser with SDK's built-in parser](https://github.com/migtools/kubevirt-datamover-controller/pull/68) — migtools/kubevirt-datamover-controller
+**migtools** (11)
+- [#76 [oadp-1.6] feat: support S3-compatible storage providers (s3Url, s3ForcePathStyle, caCert)](https://github.com/migtools/kubevirt-datamover-controller/pull/76) — migtools/kubevirt-datamover-controller
+- [#16 Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (3744bd1) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-plugin/pull/16) — migtools/kubevirt-datamover-plugin
+- [#190 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (a1bd5b1) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/190) — migtools/oadp-cli
+- [#67 Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (53ea0a5) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/67) — migtools/kubevirt-datamover-controller
 - [#188 Hardcode VERSION to oadp-dev for standardised version reporting](https://github.com/migtools/oadp-cli/pull/188) — migtools/oadp-cli
 - [#189 Hardcode VERSION to oadp-1.6 for standardised version reporting](https://github.com/migtools/oadp-cli/pull/189) — migtools/oadp-cli
+- [#68 [oadp-1.6] fix: replace custom AWS credential parser with SDK's built-in parser](https://github.com/migtools/kubevirt-datamover-controller/pull/68) — migtools/kubevirt-datamover-controller
 - [#66 fix: replace custom AWS credential parser with SDK's built-in parser](https://github.com/migtools/kubevirt-datamover-controller/pull/66) — migtools/kubevirt-datamover-controller
 - [#336 fix: pass logger to UpdateBackupStorageLocation](https://github.com/migtools/oadp-non-admin/pull/336) — migtools/oadp-non-admin
 - [#65 [oadp-1.6] feat: add --max-incremental-backups flag to cap chain length](https://github.com/migtools/kubevirt-datamover-controller/pull/65) — migtools/kubevirt-datamover-controller
 - [#187 Cherry-pick: Fix CLI version in Konflux builds](https://github.com/migtools/oadp-cli/pull/187) — migtools/oadp-cli
-- [#59 feat: add --max-incremental-backups flag to cap chain length](https://github.com/migtools/kubevirt-datamover-controller/pull/59) — migtools/kubevirt-datamover-controller
-- [#14 [oadp-1.6] feat: propagate backup-pvc-size annotation from VM to DataUpload](https://github.com/migtools/kubevirt-datamover-plugin/pull/14) — migtools/kubevirt-datamover-plugin
-- [#13 feat: propagate backup-pvc-size annotation from VM to DataUpload](https://github.com/migtools/kubevirt-datamover-plugin/pull/13) — migtools/kubevirt-datamover-plugin
-- [#62 [oadp-1.6] fix: detect VMB failure when Done=True and size temp PVC from source disk](https://github.com/migtools/kubevirt-datamover-controller/pull/62) — migtools/kubevirt-datamover-controller
-- [#61 fix: detect VMB failure when Done=True and size temp PVC from source disk](https://github.com/migtools/kubevirt-datamover-controller/pull/61) — migtools/kubevirt-datamover-controller
-- [#183 [oadp-1.6] Default namespace to openshift-adp instead of velero](https://github.com/migtools/oadp-cli/pull/183) — migtools/oadp-cli
-- [#182 Default namespace to openshift-adp instead of velero](https://github.com/migtools/oadp-cli/pull/182) — migtools/oadp-cli
 
-**Other** (17)
+**Other** (37)
+- [#56 [dotfiles-improvement] Add missing .go filter to gofmtgitdiff alias](https://github.com/kaovilai/dotfiles/pull/56) — kaovilai/dotfiles
+- [#48 perf(zsh): improve shell startup performance](https://github.com/kaovilai/dotfiles/pull/48) — kaovilai/dotfiles
+- [#46 Use `read -r` in `exec-dirs-ds*` directory loops to preserve literal path names](https://github.com/kaovilai/dotfiles/pull/46) — kaovilai/dotfiles
+- [#47 Remove redundant `podman` availability check in `check-qemu-stuck`](https://github.com/kaovilai/dotfiles/pull/47) — kaovilai/dotfiles
+- [#311 Set permissions to the actions](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/311) — velero-io/velero-plugin-for-microsoft-azure
+- [#296 Set permissions to the actions](https://github.com/velero-io/velero-plugin-for-aws/pull/296) — velero-io/velero-plugin-for-aws
+- [#257 Set permissions to the actions](https://github.com/velero-io/velero-plugin-for-gcp/pull/257) — velero-io/velero-plugin-for-gcp
+- [#40 [dotfiles-improvement] fix: add command -v ocrmypdf guard in ocr function](https://github.com/kaovilai/dotfiles/pull/40) — kaovilai/dotfiles
+- [#32 Use Zsh-native suffix replacement in `randomize-mac-ifconfig`](https://github.com/kaovilai/dotfiles/pull/32) — kaovilai/dotfiles
+- [#30 [dotfiles-improvement] fix: add podman guard in check-qemu-stuck and use ZSH expansion in randomize-mac](https://github.com/kaovilai/dotfiles/pull/30) — kaovilai/dotfiles
+- [#63 chore: update devicon v2.11.0 → v2.17.0 and add weekly auto-update workflow](https://github.com/kaovilai/kaovilai.pw/pull/63) — kaovilai/kaovilai.pw
+- [#26 Refactor PR review automation to a Copilot agentic workflow](https://github.com/kaovilai/dotfiles/pull/26) — kaovilai/dotfiles
+- [#22 Add shell CI for ZSH syntax and ShellCheck with PR diff feedback](https://github.com/kaovilai/dotfiles/pull/22) — kaovilai/dotfiles
+- [#24 Add CI to detect and refresh stale agentic workflow lock files](https://github.com/kaovilai/dotfiles/pull/24) — kaovilai/dotfiles
+- [#20 fix(dotfiles-improvement): include issue # in commit messages and PR descriptions to autoclose on merge](https://github.com/kaovilai/dotfiles/pull/20) — kaovilai/dotfiles
+- [#18 [dotfiles-improvement] fix: remove leftover debug echo from wifi-standard](https://github.com/kaovilai/dotfiles/pull/18) — kaovilai/dotfiles
+- [#58 [improve] Fix invalid HTML structure and add missing alt attributes](https://github.com/kaovilai/kaovilai.pw/pull/58) — kaovilai/kaovilai.pw
+- [#9783 backup filter enhancement design](https://github.com/velero-io/velero/pull/9783) — velero-io/velero
+- [#10 Add generic Claude model aliases for Sonnet and Opus](https://github.com/kaovilai/dotfiles/pull/10) — kaovilai/dotfiles
+- [#59 chore(deps-dev): bump js-yaml from 4.1.0 to 4.1.1](https://github.com/kaovilai/kaovilai.pw/pull/59) — kaovilai/kaovilai.pw
+- [#7 fix: quote `$1` in `go-mod-upgrade` to prevent word-splitting](https://github.com/kaovilai/dotfiles/pull/7) — kaovilai/dotfiles
+- [#8 Guard `code-dirs` and `finder-dirs` when GNU parallel is unavailable](https://github.com/kaovilai/dotfiles/pull/8) — kaovilai/dotfiles
+- [#39 Clarify upstream reference comments in e2e tests (Velero #9528, KEP-3314 #5877)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/39) — kaovilai/cephcsi-cbt-e2e
+- [#35 Normalize cross-doc status claims and upstream tracking links for Velero/CBT coverage docs](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/35) — kaovilai/cephcsi-cbt-e2e
+- [#21 Fix macOS compatibility issues for rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/21) — oadp-rebasebot/oadp-rebase
+- [#9786 Bump k8s library versions to v0.33.11](https://github.com/velero-io/velero/pull/9786) — velero-io/velero
 - [#9781 [1.18] Bump Velero dependencies to latest version](https://github.com/velero-io/velero/pull/9781) — velero-io/velero
 - [#88 Update errors](https://github.com/velero-io/velero-plugin-example/pull/88) — velero-io/velero-plugin-example
 - [#293 Bump aws-sdk-go-v2 for AWS European Sovereign Cloud support](https://github.com/velero-io/velero-plugin-for-aws/pull/293) — velero-io/velero-plugin-for-aws
@@ -90,25 +119,36 @@
 - [#9779 Update CODE OF CONDUCT for CNCF compliance](https://github.com/velero-io/velero/pull/9779) — velero-io/velero
 - [#87 allow docker to cache dependencies](https://github.com/velero-io/velero-plugin-example/pull/87) — velero-io/velero-plugin-example
 - [#84 fix badge](https://github.com/velero-io/velero-plugin-example/pull/84) — velero-io/velero-plugin-example
-- [#21 Fix macOS compatibility issues for rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/21) — oadp-rebasebot/oadp-rebase
-- [#9773 docs(aws-plugin): update version](https://github.com/velero-io/velero/pull/9773) — velero-io/velero
 - [#9775 [main] Some updates for actions on main branch.](https://github.com/velero-io/velero/pull/9775) — velero-io/velero
 - [#82 chore: update golang](https://github.com/velero-io/velero-plugin-example/pull/82) — velero-io/velero-plugin-example
-- [#80 update base debian image](https://github.com/velero-io/velero-plugin-example/pull/80) — velero-io/velero-plugin-example
-- [#81 update busybox](https://github.com/velero-io/velero-plugin-example/pull/81) — velero-io/velero-plugin-example
-- [#20 Add Markdown output format to release-sources tool](https://github.com/oadp-rebasebot/oadp-rebase/pull/20) — oadp-rebasebot/oadp-rebase
-- [#9768 Inherit insecureSkipTLSVerify from BSL config for CLI downloads](https://github.com/velero-io/velero/pull/9768) — velero-io/velero
-## Issues/PRs Commented On (26)
+## Issues/PRs Commented On (34)
 
-**openshift** (2)
+**openshift** (5)
+- [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
+- [#2203 CI: Add FBC catalog Dockerfile for Prow operator installation without operator-sdk](https://github.com/openshift/oadp-operator/issues/2203) — openshift/oadp-operator
+- [#2083 Bug:  make deploy-olm on oadp-dev branch is not correctly creating a catalog](https://github.com/openshift/oadp-operator/issues/2083) — openshift/oadp-operator
 - [#2005 Use must-gather from new repo](https://github.com/openshift/oadp-operator/issues/2005) — openshift/oadp-operator
 - [#2057 kubevirt-dm: Velero Upstream Changes (Policy Actions)](https://github.com/openshift/oadp-operator/issues/2057) — openshift/oadp-operator
 
-**migtools** (1)
+**migtools** (2)
+- [#69 Fix tide approve/lgtm plug-in configuration for this repo](https://github.com/migtools/kubevirt-datamover-controller/issues/69) — migtools/kubevirt-datamover-controller
 - [#63 Ambiguous handling: LookupLatestCheckpoint returns (nil, nil) – force full backup not guaranteed](https://github.com/migtools/kubevirt-datamover-controller/issues/63) — migtools/kubevirt-datamover-controller
 
-**Other** (23)
+**Other** (27)
+- [#32467 Bundle apply fails due to shallow clone (fetch-depth: 1) in safe_outputs job](https://github.com/github/gh-aw/issues/32467) — github/gh-aw
+- [#6786 Build cancellation leaves orphaned QEMU processes: no timeout on state polling loop](https://github.com/containers/buildah/issues/6786) — containers/buildah
+- [#48 Allow claude gh CLI tool.](https://github.com/kaovilai/kaovilai.pw/issues/48) — kaovilai/kaovilai.pw
+- [#46 @claude critique this project and create issue for each](https://github.com/kaovilai/kaovilai.pw/issues/46) — kaovilai/kaovilai.pw
+- [#17 [dotfiles-improvement] Remove leftover debug echo from wifi-standard function](https://github.com/kaovilai/dotfiles/issues/17) — kaovilai/dotfiles
+- [#13 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/issues/13) — kaovilai/dotfiles
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#9 GetMetadataDelta fails due to client v0.2.0 / sidecar v0.1.0 API version mismatch](https://github.com/kaovilai/cephcsi-cbt-e2e/issues/9) — kaovilai/cephcsi-cbt-e2e
+- [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
+- [#9556 Block level backup/restore support](https://github.com/velero-io/velero/issues/9556) — velero-io/velero
+- [#4871 Feature Request: Support for Selective Reading Based on External Changed Block Metadata](https://github.com/kopia/kopia/issues/4871) — kopia/kopia
+- [#9712 Retrieve chagneId from snapshot](https://github.com/velero-io/velero/issues/9712) — velero-io/velero
+- [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
+- [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#27211 Ambiguous Podman Multi-Arch Build Output: Silent Single-Arch Image Creation](https://github.com/containers/podman/issues/27211) — containers/podman
 - [#145 OWNERS.md Missing](https://github.com/konveyor/enhancements/issues/145) — konveyor/enhancements
 - [#9744 Bug: Restore stuck in Finalizing phase indefinitely due to unbounded hook-tracker wait](https://github.com/velero-io/velero/issues/9744) — velero-io/velero
@@ -122,22 +162,33 @@
 - [#6206 rbd: getRBDSnapID and ProcessMetadata issues in snapshot metadata path](https://github.com/ceph/ceph-csi/issues/6206) — ceph/ceph-csi
 - [#24000 .buildkit_qemu_emulator: operation not supported](https://github.com/containers/podman/issues/24000) — containers/podman
 - [#101 Future: UDP proxy](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-- [#5113 Docker for Mac hangs while starting up.  Stuck on "Docker Desktop is Starting"](https://github.com/docker/for-mac/issues/5113) — docker/for-mac
-- [#6120 Docker process doesn't free up memory - macOS, Apple Silicon, Virtualization.framework](https://github.com/docker/for-mac/issues/6120) — docker/for-mac
-- [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
-- [#17836 `docker build` fails when using BuildKit due to missing API](https://github.com/containers/podman/issues/17836) — containers/podman
-- [#28439 podman machine start reports success on macOS Apple Silicon, but VM falls into emergency mode with Ignition/fsck root UUID errors](https://github.com/containers/podman/issues/28439) — containers/podman
-- [#8815 Ensure object creation does not exceed Kubernetes maximum name length](https://github.com/velero-io/velero/issues/8815) — velero-io/velero
-- [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
-- [#2722 pre-existing CRD owners found for owned CRD(s) of dependent CSV](https://github.com/operator-framework/operator-lifecycle-manager/issues/2722) — operator-framework/operator-lifecycle-manager
-- [#9702 Make lint on fresh install gives me  permission denied](https://github.com/velero-io/velero/issues/9702) — velero-io/velero
-## Issues Closed (14)
+## Issues Closed (31)
 
-**openshift** (2)
+**openshift** (3)
+- [#2043 Allows `make deploy-olm OSDK_RUNBUNDLE_IfNotPresent=true`](https://github.com/openshift/oadp-operator/issues/2043) — openshift/oadp-operator
+- [#2005 Use must-gather from new repo](https://github.com/openshift/oadp-operator/issues/2005) — openshift/oadp-operator
 - [#2183 e2e Kubevirt disk timeout issues](https://github.com/openshift/oadp-operator/issues/2183) — openshift/oadp-operator
-- [#2108 BSL validation should require region when s3Url is set to a non-AWS endpoint](https://github.com/openshift/oadp-operator/issues/2108) — openshift/oadp-operator
 
-**Other** (12)
+**migtools** (1)
+- [#63 Ambiguous handling: LookupLatestCheckpoint returns (nil, nil) – force full backup not guaranteed](https://github.com/migtools/kubevirt-datamover-controller/issues/63) — migtools/kubevirt-datamover-controller
+
+**Other** (27)
+- [#6 Add line contact info](https://github.com/kaovilai/kaovilai.pw/issues/6) — kaovilai/kaovilai.pw
+- [#58 dotfiles-improvement request description should always refer to the pull request created or the branch name compare link to create a pull request.  Preferably the former](https://github.com/kaovilai/dotfiles/issues/58) — kaovilai/dotfiles
+- [#60 agentic-workflow-locks.yml fails to push when triggered by GitHub Apps (Copilot)](https://github.com/kaovilai/dotfiles/issues/60) — kaovilai/dotfiles
+- [#32467 Bundle apply fails due to shallow clone (fetch-depth: 1) in safe_outputs job](https://github.com/github/gh-aw/issues/32467) — github/gh-aw
+- [#62 update devicon and keep it up to date with GHA workflows](https://github.com/kaovilai/kaovilai.pw/issues/62) — kaovilai/kaovilai.pw
+- [#2 Ocp install Pullsecret.txt need to be auth'd to ci registry](https://github.com/kaovilai/dotfiles/issues/2) — kaovilai/dotfiles
+- [#25 refactor claude-code-review.yml to be based off of copilot aw workflow etc using copilot workflows/ copilot enterprise](https://github.com/kaovilai/dotfiles/issues/25) — kaovilai/dotfiles
+- [#21 add workflow for shellcheck etc ci for good formatted .zsh](https://github.com/kaovilai/dotfiles/issues/21) — kaovilai/dotfiles
+- [#23 add ci workflow to when aw workflows files are updated that the aw lock such as https://github.com/kaovilai/dotfiles/blob/master/.github/workflows/dotfiles-improvements.lock.yml is compiled/latest](https://github.com/kaovilai/dotfiles/issues/23) — kaovilai/dotfiles
+- [#5 Implement advanced skill indicator](https://github.com/kaovilai/kaovilai.pw/issues/5) — kaovilai/kaovilai.pw
+- [#48 Allow claude gh CLI tool.](https://github.com/kaovilai/kaovilai.pw/issues/48) — kaovilai/kaovilai.pw
+- [#46 @claude critique this project and create issue for each](https://github.com/kaovilai/kaovilai.pw/issues/46) — kaovilai/kaovilai.pw
+- [#7 LinkedIn Update](https://github.com/kaovilai/kaovilai.pw/issues/7) — kaovilai/kaovilai.pw
+- [#19 dotfiles-improvement agent workflow should include issue # in the commit messages and pr descriptions to autoclose on merge](https://github.com/kaovilai/dotfiles/issues/19) — kaovilai/dotfiles
+- [#9 Add alias for Claude Code Sonnet and Opus Models Usage usage ](https://github.com/kaovilai/dotfiles/issues/9) — kaovilai/dotfiles
+- [#9 GetMetadataDelta fails due to client v0.2.0 / sidecar v0.1.0 API version mismatch](https://github.com/kaovilai/cephcsi-cbt-e2e/issues/9) — kaovilai/cephcsi-cbt-e2e
 - [#12 OTP keyword matching is overly broad, forwarding non-OTP messages](https://github.com/WinShell-Bhanu/Clipsync/issues/12) — WinShell-Bhanu/Clipsync
 - [#8 Accessibility Service config requests broader permissions than code uses](https://github.com/WinShell-Bhanu/Clipsync/issues/8) — WinShell-Bhanu/Clipsync
 - [#11 macOS encryption key stored in UserDefaults instead of Keychain](https://github.com/WinShell-Bhanu/Clipsync/issues/11) — WinShell-Bhanu/Clipsync
@@ -149,7 +200,6 @@
 - [#7 Feature request: Docker/Podman-compatible socket via launchd socket activation (mocker system service)](https://github.com/us/mocker/issues/7) — us/mocker
 - [#6206 rbd: getRBDSnapID and ProcessMetadata issues in snapshot metadata path](https://github.com/ceph/ceph-csi/issues/6206) — ceph/ceph-csi
 - [#386 SessionStart hook command hardcodes versioned Homebrew node path, breaks on brew upgrade](https://github.com/mksglu/context-mode/issues/386) — mksglu/context-mode
-- [#2722 pre-existing CRD owners found for owned CRD(s) of dependent CSV](https://github.com/operator-framework/operator-lifecycle-manager/issues/2722) — operator-framework/operator-lifecycle-manager
 ---
 
 *This report is automatically generated every Monday at 5am EST by GitHub Actions.*
