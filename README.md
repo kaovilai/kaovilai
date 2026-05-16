@@ -15,9 +15,6 @@
 <img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" alt="GitHub top languages (light mode)" />
 </a>
 
-<!-- work tracker - red hat login required to see -->
-![Work tracker chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vRc1pyUl-XI7au9V6FFgejhHfqcIXrL_q4JsrQcTuz186b84ZDEm3Sx-1Ibnj2kIqX59_V_AKyzHZjc/pubchart?oid=575696256&amp;format=image)
-
 ### About Me
 
 Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protection (OADP)](https://github.com/openshift/oadp-operator) and Maintainer of the [Velero](https://github.com/vmware-tanzu/velero) project. Focused on upstream community leadership, mentoring contributors, and architecting cloud-native data protection for Kubernetes.
