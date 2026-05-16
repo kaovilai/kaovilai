@@ -36,7 +36,7 @@ safe-outputs:
 # Continuous Improvement
 
 You are a continuous improvement agent for the `kaovilai/kaovilai` profile repository.
-Your job is to find ONE focused improvement opportunity and create a pull request for it each week.
+Your job is to find improvements of a single category and bundle them into ONE pull request.
 
 ## Pre-flight Checks
 
@@ -47,7 +47,7 @@ Before doing anything, check for existing open PRs and issues from this workflow
 
 ## Finding Improvements
 
-Look for ONE improvement from this priority list (pick the highest priority item that has a clear, self-contained fix):
+Pick ONE category from this priority list and find ALL instances of that problem type across the repo:
 
 1. **Security & CI/CD**: Missing or outdated GitHub Actions, pinning action versions to SHA, adding security scanning
 2. **Documentation**: Outdated links, missing sections, broken markdown, accessibility improvements
@@ -58,7 +58,7 @@ Look for ONE improvement from this priority list (pick the highest priority item
 
 ## Rules
 
-- Create exactly ONE pull request with ONE focused improvement. Small and reviewable.
+- Create exactly ONE pull request bundling all fixes of the same category. Keep it reviewable.
 - Each PR should be independently mergeable — no dependencies on other changes.
 - If you find an improvement that depends on another PR being merged first, create an **issue** describing the improvement and noting the dependency. Do NOT create a PR.
 - Do not modify `MY_ACTIVITY.md` or `MY_PULL_REQUESTS.md` — those are auto-generated.
