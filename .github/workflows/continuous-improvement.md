@@ -26,7 +26,7 @@ safe-outputs:
     title-prefix: "[improve] "
     labels: [automation, continuous-improvement]
     reviewers: [kaovilai]
-    protected-files: fallback-to-issue
+    protected-files: { policy: fallback-to-issue, exclude: [README.md] }
   create-issue:
     max: 1
     title-prefix: "[improve] "
