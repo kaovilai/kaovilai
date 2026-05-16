@@ -52,6 +52,9 @@ on:
   schedule:
   - cron: "25 11 * * 2"
     # Friendly format: weekly (scattered)
+  push:
+    branches:
+    - main
   workflow_dispatch:
     inputs:
       aw_context:
