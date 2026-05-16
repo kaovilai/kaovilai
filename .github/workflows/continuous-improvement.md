@@ -43,7 +43,10 @@ Your job is to find improvements of a single category and bundle them into ONE p
 Before doing anything, check for existing open PRs and issues from this workflow:
 
 1. Search for open PRs with label `continuous-improvement`. If any exist, **stop** — do not create another PR. Post a comment on the existing PR asking if it can be reviewed and merged.
-2. Search for open issues with label `continuous-improvement`. Review them for ideas — if one is actionable now, work on that instead of finding a new improvement.
+2. Search for open issues with label `continuous-improvement`.
+   - If any open issue describes the **same improvement** you are about to propose (same files, same category), **stop** — call `noop` with a message like "Duplicate of #N". Do not create another issue or PR for the same fix.
+   - If an open issue describes a **different** improvement that is actionable now, work on that instead of finding a new improvement.
+   - If you plan to create a PR that addresses an existing issue, include `Fixes #N` in the PR description — but **never** include `Closes #N` or `Fixes #N` in an issue body, as it causes unintended auto-closing of other issues.
 
 ## Finding Improvements
 
