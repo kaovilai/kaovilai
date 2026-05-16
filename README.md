@@ -9,14 +9,14 @@
 - https://crowdin.com/profile/kaovilai
 
 <a href="https://github.com/kaovilai/github-stats">
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" />
+<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" alt="GitHub stats overview (dark mode)" />
+<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" alt="GitHub top languages (dark mode)" />
+<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" alt="GitHub stats overview (light mode)" />
+<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" alt="GitHub top languages (light mode)" />
 </a>
 
 <!-- work tracker - red hat login required to see -->
-![](https://docs.google.com/spreadsheets/d/e/2PACX-1vRc1pyUl-XI7au9V6FFgejhHfqcIXrL_q4JsrQcTuz186b84ZDEm3Sx-1Ibnj2kIqX59_V_AKyzHZjc/pubchart?oid=575696256&amp;format=image)
+![Work tracker chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vRc1pyUl-XI7au9V6FFgejhHfqcIXrL_q4JsrQcTuz186b84ZDEm3Sx-1Ibnj2kIqX59_V_AKyzHZjc/pubchart?oid=575696256&amp;format=image)
 
 ### About Me
 
@@ -94,4 +94,4 @@ mindmap
 
 In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
 
-![image](https://user-images.githubusercontent.com/11228024/137397948-c3fd619f-f57c-4c3e-8916-482114c5f6fc.png)
+![Map screenshot showing places lived, visited, or transited through](https://user-images.githubusercontent.com/11228024/137397948-c3fd619f-f57c-4c3e-8916-482114c5f6fc.png)
