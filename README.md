@@ -94,3 +94,5 @@ mindmap
 In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
 
 ![Map screenshot showing places lived, visited, or transited through](worldmap.png)
+
+[North Carolina destinations map](nc_destinations.html)
