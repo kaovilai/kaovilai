@@ -15,7 +15,7 @@
 <img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" alt="GitHub top languages (light mode)" />
 </a>
 
-<!-- work tracker - red hat login required to see -->
+<!-- work tracker -->
 ![Work tracker chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vRc1pyUl-XI7au9V6FFgejhHfqcIXrL_q4JsrQcTuz186b84ZDEm3Sx-1Ibnj2kIqX59_V_AKyzHZjc/pubchart?oid=575696256&amp;format=image)
 
 ### About Me
