@@ -3,12 +3,12 @@
 [Website](https://www.kaovilai.pw), [LinkedIn](https://www.linkedin.com/in/kaovilai/), [Resume](https://resume.kaovilai.pw/), [My Pull Requests](MY_PULL_REQUESTS.md), [My Activity](MY_ACTIVITY.md)
 
 ### OSS Accounts
-- https://github.com/kaovilai
-- https://gitlab.com/kaovilai
-- https://bitbucket.org/kaovilaigithub
-- https://gitlab.freedesktop.org/kaovilai
-- https://pagure.io/user/tiger
-- https://crowdin.com/profile/kaovilai
+- [GitHub](https://github.com/kaovilai)
+- [GitLab](https://gitlab.com/kaovilai)
+- [Bitbucket](https://bitbucket.org/kaovilaigithub)
+- [freedesktop.org GitLab](https://gitlab.freedesktop.org/kaovilai)
+- [Pagure](https://pagure.io/user/tiger)
+- [Crowdin](https://crowdin.com/profile/kaovilai)
 
 <a href="https://github.com/kaovilai/github-stats">
 <img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" alt="GitHub stats overview (dark mode)" />
