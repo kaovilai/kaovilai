@@ -94,4 +94,4 @@ mindmap
 
 In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
 
-![Map screenshot showing places lived, visited, or transited through](https://user-images.githubusercontent.com/11228024/137397948-c3fd619f-f57c-4c3e-8916-482114c5f6fc.png)
+![Map screenshot showing places lived, visited, or transited through](worldmap.png)
