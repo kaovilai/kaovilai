@@ -1,26 +1,46 @@
 # Activity Log
 
-> **Period:** 2026-05-02 — 2026-05-16
-> **Generated:** 2026-05-16 00:32:18 UTC
+> **Period:** 2026-05-04 — 2026-05-18
+> **Generated:** 2026-05-18 11:14:43 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 17 |
-| PRs Opened | 15 |
-| PRs Reviewed | 59 |
-| Issues/PRs Commented | 34 |
-| Issues Closed | 31 |
+| PRs Merged | 37 |
+| PRs Opened | 37 |
+| PRs Reviewed | 61 |
+| Issues/PRs Commented | 42 |
+| Issues Closed | 39 |
 
 ---
 
-## PRs Merged (17)
+## PRs Merged (37)
 
 **openshift** (3)
 - [#2007 refactor(e2e): migrate to external oadp-must-gather container image](https://github.com/openshift/oadp-operator/pull/2007) — openshift/oadp-operator
 - [#2196 docs: add podConfig documentation for tolerations, nodeSelector, labels, and env](https://github.com/openshift/oadp-operator/pull/2196) — openshift/oadp-operator
 - [#2184 Increase Fedora VM startup timeout to 20 minutes](https://github.com/openshift/oadp-operator/pull/2184) — openshift/oadp-operator
 
-**Other** (14)
+**Other** (34)
+- [#41 [improve] fix: clean up build-presentation CI workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/41) — kaovilai/k8s-cbt-s3mover-demo
+- [#21 [daily] docs: add missing files to architecture table and accessibility feature](https://github.com/kaovilai/github-bot-command-palette/pull/21) — kaovilai/github-bot-command-palette
+- [#41 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/41) — kaovilai/cephcsi-cbt-e2e
+- [#5 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/tampermonkey-scripts-pub/pull/5) — kaovilai/tampermonkey-scripts-pub
+- [#8 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/8) — kaovilai/k8s-cbt-s3mover-demo
+- [#1 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/1) — kaovilai/fidelity-margin-calculator-auto
+- [#179 rename: dotfiles-improvements → continuous-improvement](https://github.com/kaovilai/dotfiles/pull/179) — kaovilai/dotfiles
+- [#15 rename: daily-improvement → continuous-improvement](https://github.com/kaovilai/github-bot-command-palette/pull/15) — kaovilai/github-bot-command-palette
+- [#79 feat: trigger continuous-improvement on push to main](https://github.com/kaovilai/kaovilai.pw/pull/79) — kaovilai/kaovilai.pw
+- [#162 fix: bundle migrate-laptop improvements](https://github.com/kaovilai/dotfiles/pull/162) — kaovilai/dotfiles
+- [#164 fix: bundle git-utils.zsh improvements](https://github.com/kaovilai/dotfiles/pull/164) — kaovilai/dotfiles
+- [#163 fix: bundle util.zsh improvements](https://github.com/kaovilai/dotfiles/pull/163) — kaovilai/dotfiles
+- [#55 [improve] chore: clean up FUNDING.yml placeholder entries](https://github.com/kaovilai/kaovilai/pull/55) — kaovilai/kaovilai
+- [#43 [improve] Add CODEOWNERS file for repository hygiene](https://github.com/kaovilai/kaovilai/pull/43) — kaovilai/kaovilai
+- [#38 Revert "Remove README.md from protected files in continuous-improvement workflow"](https://github.com/kaovilai/kaovilai/pull/38) — kaovilai/kaovilai
+- [#73 Revert "[WIP] Update continuous improvement agentic workflow to run on push to main"](https://github.com/kaovilai/kaovilai.pw/pull/73) — kaovilai/kaovilai.pw
+- [#32 [improve] docs: add alt text to README images for accessibility](https://github.com/kaovilai/kaovilai/pull/32) — kaovilai/kaovilai
+- [#30 [improve] fix: upgrade http to https in FUNDING.yml custom sponsor URL](https://github.com/kaovilai/kaovilai/pull/30) — kaovilai/kaovilai
+- [#28 [improve] docs: add My Activity link to README profile header](https://github.com/kaovilai/kaovilai/pull/28) — kaovilai/kaovilai
+- [#26 [improve] Add light-mode GitHub stats images to README](https://github.com/kaovilai/kaovilai/pull/26) — kaovilai/kaovilai
 - [#49 test: trigger gh-aw prerelease compile](https://github.com/kaovilai/dotfiles/pull/49) — kaovilai/dotfiles
 - [#37 fix: add local declaration for attempts in reconnect_wifi](https://github.com/kaovilai/dotfiles/pull/37) — kaovilai/dotfiles
 - [#14 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/pull/14) — kaovilai/dotfiles
@@ -35,7 +55,7 @@
 - [#16 fix: store encryption key in macOS Keychain instead of UserDefaults](https://github.com/WinShell-Bhanu/Clipsync/pull/16) — WinShell-Bhanu/Clipsync
 - [#18 fix: validate FCM push notification URLs against domain allowlist](https://github.com/WinShell-Bhanu/Clipsync/pull/18) — WinShell-Bhanu/Clipsync
 - [#14 fix: use HTTPS for IP geolocation and disable cleartext traffic](https://github.com/WinShell-Bhanu/Clipsync/pull/14) — WinShell-Bhanu/Clipsync
-## PRs Opened (15)
+## PRs Opened (37)
 
 **openshift** (7)
 - [#598 Document FBC catalog builds and OLM v1 testing workflows](https://github.com/openshift/ci-docs/pull/598) — openshift/ci-docs
@@ -46,7 +66,29 @@
 - [#2198 fix: handle not-found error in nodeagent DaemonSet deletion](https://github.com/openshift/oadp-operator/pull/2198) — openshift/oadp-operator
 - [#2196 docs: add podConfig documentation for tolerations, nodeSelector, labels, and env](https://github.com/openshift/oadp-operator/pull/2196) — openshift/oadp-operator
 
-**Other** (8)
+**Other** (30)
+- [#9795 Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/9795) — velero-io/velero
+- [#9794 Fix backup-finalizer phase ordering on upload failure](https://github.com/velero-io/velero/pull/9794) — velero-io/velero
+- [#41 [improve] fix: clean up build-presentation CI workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/41) — kaovilai/k8s-cbt-s3mover-demo
+- [#21 [daily] docs: add missing files to architecture table and accessibility feature](https://github.com/kaovilai/github-bot-command-palette/pull/21) — kaovilai/github-bot-command-palette
+- [#8 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/8) — kaovilai/k8s-cbt-s3mover-demo
+- [#41 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/41) — kaovilai/cephcsi-cbt-e2e
+- [#1 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/1) — kaovilai/fidelity-margin-calculator-auto
+- [#5 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/tampermonkey-scripts-pub/pull/5) — kaovilai/tampermonkey-scripts-pub
+- [#15 rename: daily-improvement → continuous-improvement](https://github.com/kaovilai/github-bot-command-palette/pull/15) — kaovilai/github-bot-command-palette
+- [#179 rename: dotfiles-improvements → continuous-improvement](https://github.com/kaovilai/dotfiles/pull/179) — kaovilai/dotfiles
+- [#79 feat: trigger continuous-improvement on push to main](https://github.com/kaovilai/kaovilai.pw/pull/79) — kaovilai/kaovilai.pw
+- [#164 fix: bundle git-utils.zsh improvements](https://github.com/kaovilai/dotfiles/pull/164) — kaovilai/dotfiles
+- [#163 fix: bundle util.zsh improvements](https://github.com/kaovilai/dotfiles/pull/163) — kaovilai/dotfiles
+- [#162 fix: bundle migrate-laptop improvements](https://github.com/kaovilai/dotfiles/pull/162) — kaovilai/dotfiles
+- [#55 [improve] chore: clean up FUNDING.yml placeholder entries](https://github.com/kaovilai/kaovilai/pull/55) — kaovilai/kaovilai
+- [#43 [improve] Add CODEOWNERS file for repository hygiene](https://github.com/kaovilai/kaovilai/pull/43) — kaovilai/kaovilai
+- [#38 Revert "Remove README.md from protected files in continuous-improvement workflow"](https://github.com/kaovilai/kaovilai/pull/38) — kaovilai/kaovilai
+- [#73 Revert "[WIP] Update continuous improvement agentic workflow to run on push to main"](https://github.com/kaovilai/kaovilai.pw/pull/73) — kaovilai/kaovilai.pw
+- [#32 [improve] docs: add alt text to README images for accessibility](https://github.com/kaovilai/kaovilai/pull/32) — kaovilai/kaovilai
+- [#30 [improve] fix: upgrade http to https in FUNDING.yml custom sponsor URL](https://github.com/kaovilai/kaovilai/pull/30) — kaovilai/kaovilai
+- [#28 [improve] docs: add My Activity link to README profile header](https://github.com/kaovilai/kaovilai/pull/28) — kaovilai/kaovilai
+- [#26 [improve] Add light-mode GitHub stats images to README](https://github.com/kaovilai/kaovilai/pull/26) — kaovilai/kaovilai
 - [#49 test: trigger gh-aw prerelease compile](https://github.com/kaovilai/dotfiles/pull/49) — kaovilai/dotfiles
 - [#6854 fix: add timeout to container state polling loop](https://github.com/containers/buildah/pull/6854) — containers/buildah
 - [#37 fix: add local declaration for attempts in reconnect_wifi](https://github.com/kaovilai/dotfiles/pull/37) — kaovilai/dotfiles
@@ -55,7 +97,7 @@
 - [#34 docs: fix inconsistent PR #9736 status wording](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/34) — kaovilai/cephcsi-cbt-e2e
 - [#33 docs: add Velero BDM fallback behavior and backup safety after flattening](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/33) — kaovilai/cephcsi-cbt-e2e
 - [#2 feat(libpod): Add Podman /libpod/* API endpoints](https://github.com/kaovilai/socktainer/pull/2) — kaovilai/socktainer
-## PRs Reviewed (59)
+## PRs Reviewed (61)
 
 **openshift** (11)
 - [#92 Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (31d5293) into oadp-1.6](https://github.com/openshift/oadp-must-gather/pull/92) — openshift/oadp-must-gather
@@ -83,7 +125,10 @@
 - [#65 [oadp-1.6] feat: add --max-incremental-backups flag to cap chain length](https://github.com/migtools/kubevirt-datamover-controller/pull/65) — migtools/kubevirt-datamover-controller
 - [#187 Cherry-pick: Fix CLI version in Konflux builds](https://github.com/migtools/oadp-cli/pull/187) — migtools/oadp-cli
 
-**Other** (37)
+**Other** (39)
+- [#88 Update errors](https://github.com/velero-io/velero-plugin-example/pull/88) — velero-io/velero-plugin-example
+- [#93 [dotfiles-improvement] fix: use ZSH foreach loop for ipv6_array in set-dns-servers](https://github.com/kaovilai/dotfiles/pull/93) — kaovilai/dotfiles
+- [#61 [dotfiles-improvement] fix: add argument validation and quote variable in code-git](https://github.com/kaovilai/dotfiles/pull/61) — kaovilai/dotfiles
 - [#56 [dotfiles-improvement] Add missing .go filter to gofmtgitdiff alias](https://github.com/kaovilai/dotfiles/pull/56) — kaovilai/dotfiles
 - [#48 perf(zsh): improve shell startup performance](https://github.com/kaovilai/dotfiles/pull/48) — kaovilai/dotfiles
 - [#46 Use `read -r` in `exec-dirs-ds*` directory loops to preserve literal path names](https://github.com/kaovilai/dotfiles/pull/46) — kaovilai/dotfiles
@@ -111,7 +156,6 @@
 - [#21 Fix macOS compatibility issues for rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/21) — oadp-rebasebot/oadp-rebase
 - [#9786 Bump k8s library versions to v0.33.11](https://github.com/velero-io/velero/pull/9786) — velero-io/velero
 - [#9781 [1.18] Bump Velero dependencies to latest version](https://github.com/velero-io/velero/pull/9781) — velero-io/velero
-- [#88 Update errors](https://github.com/velero-io/velero-plugin-example/pull/88) — velero-io/velero-plugin-example
 - [#293 Bump aws-sdk-go-v2 for AWS European Sovereign Cloud support](https://github.com/velero-io/velero-plugin-for-aws/pull/293) — velero-io/velero-plugin-for-aws
 - [#9776 Fix prow-action workflow permissions for issue commands](https://github.com/velero-io/velero/pull/9776) — velero-io/velero
 - [#86 update dependencies](https://github.com/velero-io/velero-plugin-example/pull/86) — velero-io/velero-plugin-example
@@ -121,7 +165,7 @@
 - [#84 fix badge](https://github.com/velero-io/velero-plugin-example/pull/84) — velero-io/velero-plugin-example
 - [#9775 [main] Some updates for actions on main branch.](https://github.com/velero-io/velero/pull/9775) — velero-io/velero
 - [#82 chore: update golang](https://github.com/velero-io/velero-plugin-example/pull/82) — velero-io/velero-plugin-example
-## Issues/PRs Commented On (34)
+## Issues/PRs Commented On (42)
 
 **openshift** (5)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
@@ -134,20 +178,29 @@
 - [#69 Fix tide approve/lgtm plug-in configuration for this repo](https://github.com/migtools/kubevirt-datamover-controller/issues/69) — migtools/kubevirt-datamover-controller
 - [#63 Ambiguous handling: LookupLatestCheckpoint returns (nil, nil) – force full backup not guaranteed](https://github.com/migtools/kubevirt-datamover-controller/issues/63) — migtools/kubevirt-datamover-controller
 
-**Other** (27)
-- [#32467 Bundle apply fails due to shallow clone (fetch-depth: 1) in safe_outputs job](https://github.com/github/gh-aw/issues/32467) — github/gh-aw
+**Other** (35)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
+- [#7039 FBC registry pod init container missing SecurityContext when using --security-context-config=restricted](https://github.com/operator-framework/operator-sdk/issues/7039) — operator-framework/operator-sdk
+- [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
+- [#32596 protected-files fallback-to-issue: handler attempts git push before short-circuiting, produces inferior fallback issue](https://github.com/github/gh-aw/issues/32596) — github/gh-aw
+- [#140 [dotfiles-improvement] Fix find -exec sh -c injection risk in view-pr-dirs (util.zsh)](https://github.com/kaovilai/dotfiles/issues/140) — kaovilai/dotfiles
+- [#144 [dotfiles-improvement] view-pr-dirs in util.zsh breaks for directory names with spaces via unsafe find -exec interpolation](https://github.com/kaovilai/dotfiles/issues/144) — kaovilai/dotfiles
+- [#146 [dotfiles-improvement] Fix find -exec sh -c injection risk in go-mod-upgrade-dirs and exec-dirs (git-utils.zsh)](https://github.com/kaovilai/dotfiles/issues/146) — kaovilai/dotfiles
+- [#133 [dotfiles-improvement] fix: replace POSIX [ with ZSH [[ in symlink-sd.zsh](https://github.com/kaovilai/dotfiles/issues/133) — kaovilai/dotfiles
+- [#132 [dotfiles-improvement] fix: replace POSIX [ with ZSH [[ in git-worktree-code (git.zsh)](https://github.com/kaovilai/dotfiles/issues/132) — kaovilai/dotfiles
+- [#131 [dotfiles-improvement] fix: replace echo -e with printf in set-dns-servers (dns.zsh)](https://github.com/kaovilai/dotfiles/issues/131) — kaovilai/dotfiles
 - [#6786 Build cancellation leaves orphaned QEMU processes: no timeout on state polling loop](https://github.com/containers/buildah/issues/6786) — containers/buildah
+- [#32467 Bundle apply fails due to shallow clone (fetch-depth: 1) in safe_outputs job](https://github.com/github/gh-aw/issues/32467) — github/gh-aw
 - [#48 Allow claude gh CLI tool.](https://github.com/kaovilai/kaovilai.pw/issues/48) — kaovilai/kaovilai.pw
 - [#46 @claude critique this project and create issue for each](https://github.com/kaovilai/kaovilai.pw/issues/46) — kaovilai/kaovilai.pw
 - [#17 [dotfiles-improvement] Remove leftover debug echo from wifi-standard function](https://github.com/kaovilai/dotfiles/issues/17) — kaovilai/dotfiles
 - [#13 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/issues/13) — kaovilai/dotfiles
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#9 GetMetadataDelta fails due to client v0.2.0 / sidecar v0.1.0 API version mismatch](https://github.com/kaovilai/cephcsi-cbt-e2e/issues/9) — kaovilai/cephcsi-cbt-e2e
 - [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
 - [#9556 Block level backup/restore support](https://github.com/velero-io/velero/issues/9556) — velero-io/velero
 - [#4871 Feature Request: Support for Selective Reading Based on External Changed Block Metadata](https://github.com/kopia/kopia/issues/4871) — kopia/kopia
 - [#9712 Retrieve chagneId from snapshot](https://github.com/velero-io/velero/issues/9712) — velero-io/velero
-- [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#27211 Ambiguous Podman Multi-Arch Build Output: Silent Single-Arch Image Creation](https://github.com/containers/podman/issues/27211) — containers/podman
 - [#145 OWNERS.md Missing](https://github.com/konveyor/enhancements/issues/145) — konveyor/enhancements
@@ -161,8 +214,7 @@
 - [#7 Feature request: Docker/Podman-compatible socket via launchd socket activation (mocker system service)](https://github.com/us/mocker/issues/7) — us/mocker
 - [#6206 rbd: getRBDSnapID and ProcessMetadata issues in snapshot metadata path](https://github.com/ceph/ceph-csi/issues/6206) — ceph/ceph-csi
 - [#24000 .buildkit_qemu_emulator: operation not supported](https://github.com/containers/podman/issues/24000) — containers/podman
-- [#101 Future: UDP proxy](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-## Issues Closed (31)
+## Issues Closed (39)
 
 **openshift** (3)
 - [#2043 Allows `make deploy-olm OSDK_RUNBUNDLE_IfNotPresent=true`](https://github.com/openshift/oadp-operator/issues/2043) — openshift/oadp-operator
@@ -172,7 +224,17 @@
 **migtools** (1)
 - [#63 Ambiguous handling: LookupLatestCheckpoint returns (nil, nil) – force full backup not guaranteed](https://github.com/migtools/kubevirt-datamover-controller/issues/63) — migtools/kubevirt-datamover-controller
 
-**Other** (27)
+**Other** (35)
+- [#22 remove README.md from protected files for agentic SDLC](https://github.com/kaovilai/github-bot-command-palette/issues/22) — kaovilai/github-bot-command-palette
+- [#20 lint started failing after https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/14 merged.. fix lint from since then](https://github.com/kaovilai/k8s-cbt-s3mover-demo/issues/20) — kaovilai/k8s-cbt-s3mover-demo
+- [#32482 Feature: title-based deduplication for create-issue safe-output handler](https://github.com/github/gh-aw/issues/32482) — github/gh-aw
+- [#3 create github actions workflow to run on push to check if last diff/push set do not have an associated version bump to bump the version and commit.](https://github.com/kaovilai/tampermonkey-scripts-pub/issues/3) — kaovilai/tampermonkey-scripts-pub
+- [#32596 protected-files fallback-to-issue: handler attempts git push before short-circuiting, produces inferior fallback issue](https://github.com/github/gh-aw/issues/32596) — github/gh-aw
+- [#32587 protected-files fallback-to-issue: include `Closes #N` in pre-filled compare URL so merging auto-closes the issue](https://github.com/github/gh-aw/issues/32587) — github/gh-aw
+- [#76 update agent method of installing gh-aw extension](https://github.com/kaovilai/kaovilai.pw/issues/76) — kaovilai/kaovilai.pw
+- [#33 Remove readme from protected files for agentic workflow](https://github.com/kaovilai/kaovilai/issues/33) — kaovilai/kaovilai
+- [#77 Run Dotfiles Improvement Scanner on push to main](https://github.com/kaovilai/dotfiles/issues/77) — kaovilai/dotfiles
+- [#69 Make continuous improvement agentic workflow run on push to main](https://github.com/kaovilai/kaovilai.pw/issues/69) — kaovilai/kaovilai.pw
 - [#6 Add line contact info](https://github.com/kaovilai/kaovilai.pw/issues/6) — kaovilai/kaovilai.pw
 - [#58 dotfiles-improvement request description should always refer to the pull request created or the branch name compare link to create a pull request.  Preferably the former](https://github.com/kaovilai/dotfiles/issues/58) — kaovilai/dotfiles
 - [#60 agentic-workflow-locks.yml fails to push when triggered by GitHub Apps (Copilot)](https://github.com/kaovilai/dotfiles/issues/60) — kaovilai/dotfiles
@@ -198,8 +260,6 @@
 - [#9 Cleartext HTTP used for IP geolocation with usesCleartextTraffic enabled app-wide](https://github.com/WinShell-Bhanu/Clipsync/issues/9) — WinShell-Bhanu/Clipsync
 - [#9 feat: `mocker manifest` command for multi-arch OCI image index assembly](https://github.com/us/mocker/issues/9) — us/mocker
 - [#7 Feature request: Docker/Podman-compatible socket via launchd socket activation (mocker system service)](https://github.com/us/mocker/issues/7) — us/mocker
-- [#6206 rbd: getRBDSnapID and ProcessMetadata issues in snapshot metadata path](https://github.com/ceph/ceph-csi/issues/6206) — ceph/ceph-csi
-- [#386 SessionStart hook command hardcodes versioned Homebrew node path, breaks on brew upgrade](https://github.com/mksglu/context-mode/issues/386) — mksglu/context-mode
 ---
 
 *This report is automatically generated every Monday at 5am EST by GitHub Actions.*
