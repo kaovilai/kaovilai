@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-18 15:11:54 UTC
+> Last updated: 2026-05-18 17:05:07 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -22,7 +22,6 @@ No open PRs.
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
-- [![PR #79324](https://img.shields.io/badge/PR%20%2379324-waiting--merge-blue)](https://github.com/openshift/release/pull/79324) **openshift/release** → `main` - Fix OO_INSTALL_MODE not passed to operator-sdk run bundle
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-draft-gray)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
@@ -56,8 +55,8 @@ No open PRs.
 - [![PR #872](https://img.shields.io/badge/PR%20%23872-ready-green)](https://github.com/github/github-mcp-server/pull/872) **github/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
+- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
-- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-draft-gray)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
