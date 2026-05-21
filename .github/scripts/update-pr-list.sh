@@ -210,11 +210,11 @@ create_badge() {
 echo "Fetching open PRs..."
 PRS_JSON=$(fetch_prs)
 
-# Org order: vmware-tanzu first, openshift, migtools, then others
-ORG_ORDER=("vmware-tanzu" "openshift" "migtools" "oadp-rebase")
+# Org order: velero-io first, openshift, migtools, then others
+ORG_ORDER=("velero-io" "openshift" "migtools" "oadp-rebase")
 
 # Arrays per org (and catch-all for others)
-declare -a VMWARE_TANZU_PRS=()
+declare -a VELERO_IO_PRS=()
 declare -a OPENSHIFT_PRS=()
 declare -a MIGTOOLS_PRS=()
 declare -a OADP_REBASE_PRS=()
@@ -327,8 +327,8 @@ for i in $(seq 0 $((index - 1))); do
     # Categorize PR by org
     org=$(echo "$repo" | cut -d'/' -f1)
     case "$org" in
-        vmware-tanzu)
-            VMWARE_TANZU_PRS+=("$sorted_badge")
+        velero-io)
+            VELERO_IO_PRS+=("$sorted_badge")
             ;;
         openshift)
             OPENSHIFT_PRS+=("$sorted_badge")
@@ -366,7 +366,7 @@ write_org_section() {
 
 # Write PRs grouped by org
 {
-    write_org_section "vmware-tanzu" "${VMWARE_TANZU_PRS[@]+"${VMWARE_TANZU_PRS[@]}"}"
+    write_org_section "velero-io" "${VELERO_IO_PRS[@]+"${VELERO_IO_PRS[@]}"}"
     write_org_section "openshift" "${OPENSHIFT_PRS[@]+"${OPENSHIFT_PRS[@]}"}"
     write_org_section "migtools" "${MIGTOOLS_PRS[@]+"${MIGTOOLS_PRS[@]}"}"
     write_org_section "oadp-rebase" "${OADP_REBASE_PRS[@]+"${OADP_REBASE_PRS[@]}"}"

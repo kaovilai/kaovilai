@@ -5,7 +5,7 @@
 This file is automatically updated every hour by GitHub Actions.
 
 
-## vmware-tanzu
+## velero-io
 
 No open PRs.
 
