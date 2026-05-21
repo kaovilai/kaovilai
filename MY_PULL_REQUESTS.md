@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-21 19:37:53 UTC
+> Last updated: 2026-05-21 20:42:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -37,6 +37,11 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2206](https://img.shields.io/badge/PR%20%232206-ready-green)](https://github.com/openshift/oadp-operator/pull/2206) **openshift/oadp-operator** → `oadp-1.6` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
+- [![PR #2214](https://img.shields.io/badge/PR%20%232214-ready-green)](https://github.com/openshift/oadp-operator/pull/2214) **openshift/oadp-operator** → `oadp-1.6` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
+- [![PR #2215](https://img.shields.io/badge/PR%20%232215-ready-green)](https://github.com/openshift/oadp-operator/pull/2215) **openshift/oadp-operator** → `oadp-1.5` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
+- [![PR #2216](https://img.shields.io/badge/PR%20%232216-ready-green)](https://github.com/openshift/oadp-operator/pull/2216) **openshift/oadp-operator** → `oadp-1.4` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
+- [![PR #2217](https://img.shields.io/badge/PR%20%232217-ready-green)](https://github.com/openshift/oadp-operator/pull/2217) **openshift/oadp-operator** → `oadp-1.3` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
+- [![PR #260](https://img.shields.io/badge/PR%20%23260-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
