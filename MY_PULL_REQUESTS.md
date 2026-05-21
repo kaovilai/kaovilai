@@ -1,13 +1,31 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-21 18:46:17 UTC
+> Last updated: 2026-05-21 19:37:53 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
 
 ## velero-io
 
-No open PRs.
+- [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
+- [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
+- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
+- [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
+- [![PR #7941](https://img.shields.io/badge/PR%20%237941-draft-gray)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
+- [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
+- [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
+- [![PR #9795](https://img.shields.io/badge/PR%20%239795-draft-gray)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
+- [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
+- [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
+- [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
+- [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
+- [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
+- [![PR #9575](https://img.shields.io/badge/PR%20%239575-stale-yellow)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
+- [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/velero-io/velero/pull/9648) **velero-io/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
+- [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
+- [![PR #9689](https://img.shields.io/badge/PR%20%239689-failing--ci-red)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
+- [![PR #9690](https://img.shields.io/badge/PR%20%239690-failing--ci-red)](https://github.com/velero-io/velero/pull/9690) **velero-io/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
+- [![PR #9770](https://img.shields.io/badge/PR%20%239770-failing--ci-red)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 
 ## openshift
 
@@ -56,16 +74,8 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-ready-green)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #872](https://img.shields.io/badge/PR%20%23872-ready-green)](https://github.com/github/github-mcp-server/pull/872) **github/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
-- [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
-- [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
-- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
-- [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
-- [![PR #7941](https://img.shields.io/badge/PR%20%237941-draft-gray)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
-- [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
-- [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
-- [![PR #9795](https://img.shields.io/badge/PR%20%239795-draft-gray)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
@@ -78,7 +88,6 @@ No open PRs.
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-stale-yellow)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
-- [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #290](https://img.shields.io/badge/PR%20%23290-stale-yellow)](https://github.com/hashicorp/go-plugin/pull/290) **hashicorp/go-plugin** → `main` - Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/eemcmullan/oadp-operator/pull/2) **eemcmullan/oadp-operator** → `vsm-batching` - add default CRD validation
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
@@ -96,18 +105,8 @@ No open PRs.
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-stale-yellow)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
-- [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
-- [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
-- [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
-- [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
-- [![PR #9575](https://img.shields.io/badge/PR%20%239575-stale-yellow)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #6854](https://img.shields.io/badge/PR%20%236854-failing--ci-red)](https://github.com/containers/buildah/pull/6854) **containers/buildah** → `main` - fix: add timeout to container state polling loop and fix deadline bug
-- [![PR #9648](https://img.shields.io/badge/PR%20%239648-failing--ci-red)](https://github.com/velero-io/velero/pull/9648) **velero-io/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
-- [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
-- [![PR #9689](https://img.shields.io/badge/PR%20%239689-failing--ci-red)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
-- [![PR #9690](https://img.shields.io/badge/PR%20%239690-failing--ci-red)](https://github.com/velero-io/velero/pull/9690) **velero-io/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
-- [![PR #9770](https://img.shields.io/badge/PR%20%239770-failing--ci-red)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 
 ---
 
