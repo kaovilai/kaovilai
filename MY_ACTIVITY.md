@@ -1,26 +1,29 @@
 # Activity Log
 
-> **Period:** 2026-05-04 — 2026-05-18
-> **Generated:** 2026-05-18 11:14:43 UTC
+> **Period:** 2026-05-07 — 2026-05-21
+> **Generated:** 2026-05-21 19:34:52 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 37 |
-| PRs Opened | 37 |
-| PRs Reviewed | 61 |
-| Issues/PRs Commented | 42 |
-| Issues Closed | 39 |
+| PRs Opened | 42 |
+| PRs Reviewed | 99 |
+| Issues/PRs Commented | 38 |
+| Issues Closed | 45 |
 
 ---
 
 ## PRs Merged (37)
 
-**openshift** (3)
+**openshift** (4)
+- [#2204 feat: add FBC catalog Dockerfile for CI without operator-sdk](https://github.com/openshift/oadp-operator/pull/2204) — openshift/oadp-operator
+- [#79324 Fix OO_INSTALL_MODE not passed to operator-sdk run bundle](https://github.com/openshift/release/pull/79324) — openshift/release
 - [#2007 refactor(e2e): migrate to external oadp-must-gather container image](https://github.com/openshift/oadp-operator/pull/2007) — openshift/oadp-operator
 - [#2196 docs: add podConfig documentation for tolerations, nodeSelector, labels, and env](https://github.com/openshift/oadp-operator/pull/2196) — openshift/oadp-operator
-- [#2184 Increase Fedora VM startup timeout to 20 minutes](https://github.com/openshift/oadp-operator/pull/2184) — openshift/oadp-operator
 
-**Other** (34)
+**Other** (33)
+- [#8 Add manual intervention guide to README](https://github.com/oadp-rebasebot/oadp-rebase/pull/8) — oadp-rebasebot/oadp-rebase
+- [#51 [improve] docs: update tool status to reflect completed implementation](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/51) — kaovilai/k8s-cbt-s3mover-demo
 - [#41 [improve] fix: clean up build-presentation CI workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/41) — kaovilai/k8s-cbt-s3mover-demo
 - [#21 [daily] docs: add missing files to architecture table and accessibility feature](https://github.com/kaovilai/github-bot-command-palette/pull/21) — kaovilai/github-bot-command-palette
 - [#41 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/41) — kaovilai/cephcsi-cbt-e2e
@@ -48,16 +51,22 @@
 - [#34 docs: fix inconsistent PR #9736 status wording](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/34) — kaovilai/cephcsi-cbt-e2e
 - [#33 docs: add Velero BDM fallback behavior and backup safety after flattening](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/33) — kaovilai/cephcsi-cbt-e2e
 - [#1381 Update project-maintainers.csv for velero.io](https://github.com/cncf/foundation/pull/1381) — cncf/foundation
-- [#19 fix: stop plaintext fallback when encryption fails](https://github.com/WinShell-Bhanu/Clipsync/pull/19) — WinShell-Bhanu/Clipsync
 - [#94 Implement priority class support for Velero components](https://github.com/kaovilai/velero/pull/94) — kaovilai/velero
 - [#17 fix: require digit proximity for OTP keyword matching](https://github.com/WinShell-Bhanu/Clipsync/pull/17) — WinShell-Bhanu/Clipsync
 - [#15 fix: restrict accessibility service to least-privilege permissions](https://github.com/WinShell-Bhanu/Clipsync/pull/15) — WinShell-Bhanu/Clipsync
 - [#16 fix: store encryption key in macOS Keychain instead of UserDefaults](https://github.com/WinShell-Bhanu/Clipsync/pull/16) — WinShell-Bhanu/Clipsync
-- [#18 fix: validate FCM push notification URLs against domain allowlist](https://github.com/WinShell-Bhanu/Clipsync/pull/18) — WinShell-Bhanu/Clipsync
-- [#14 fix: use HTTPS for IP geolocation and disable cleartext traffic](https://github.com/WinShell-Bhanu/Clipsync/pull/14) — WinShell-Bhanu/Clipsync
-## PRs Opened (37)
+## PRs Opened (42)
 
-**openshift** (7)
+**velero-io** (2)
+- [#9795 Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/9795) — velero-io/velero
+- [#9794 Fix backup-finalizer phase ordering on upload failure](https://github.com/velero-io/velero/pull/9794) — velero-io/velero
+
+**openshift** (12)
+- [#257 diff check only.](https://github.com/openshift/hypershift-oadp-plugin/pull/257) — openshift/hypershift-oadp-plugin
+- [#2208 OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2208) — openshift/oadp-operator
+- [#2207 OADP-7943: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2207) — openshift/oadp-operator
+- [#2206 OADP-7943: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2206) — openshift/oadp-operator
+- [#2205 OADP-7943: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2205) — openshift/oadp-operator
 - [#598 Document FBC catalog builds and OLM v1 testing workflows](https://github.com/openshift/ci-docs/pull/598) — openshift/ci-docs
 - [#79327 OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview](https://github.com/openshift/release/pull/79327) — openshift/release
 - [#2204 feat: add FBC catalog Dockerfile for CI without operator-sdk](https://github.com/openshift/oadp-operator/pull/2204) — openshift/oadp-operator
@@ -66,9 +75,8 @@
 - [#2198 fix: handle not-found error in nodeagent DaemonSet deletion](https://github.com/openshift/oadp-operator/pull/2198) — openshift/oadp-operator
 - [#2196 docs: add podConfig documentation for tolerations, nodeSelector, labels, and env](https://github.com/openshift/oadp-operator/pull/2196) — openshift/oadp-operator
 
-**Other** (30)
-- [#9795 Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/9795) — velero-io/velero
-- [#9794 Fix backup-finalizer phase ordering on upload failure](https://github.com/velero-io/velero/pull/9794) — velero-io/velero
+**Other** (28)
+- [#51 [improve] docs: update tool status to reflect completed implementation](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/51) — kaovilai/k8s-cbt-s3mover-demo
 - [#41 [improve] fix: clean up build-presentation CI workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/41) — kaovilai/k8s-cbt-s3mover-demo
 - [#21 [daily] docs: add missing files to architecture table and accessibility feature](https://github.com/kaovilai/github-bot-command-palette/pull/21) — kaovilai/github-bot-command-palette
 - [#8 feat: add continuous-improvement agentic workflow](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/8) — kaovilai/k8s-cbt-s3mover-demo
@@ -90,96 +98,145 @@
 - [#28 [improve] docs: add My Activity link to README profile header](https://github.com/kaovilai/kaovilai/pull/28) — kaovilai/kaovilai
 - [#26 [improve] Add light-mode GitHub stats images to README](https://github.com/kaovilai/kaovilai/pull/26) — kaovilai/kaovilai
 - [#49 test: trigger gh-aw prerelease compile](https://github.com/kaovilai/dotfiles/pull/49) — kaovilai/dotfiles
-- [#6854 fix: add timeout to container state polling loop](https://github.com/containers/buildah/pull/6854) — containers/buildah
+- [#6854 fix: add timeout to container state polling loop and fix deadline bug](https://github.com/containers/buildah/pull/6854) — containers/buildah
 - [#37 fix: add local declaration for attempts in reconnect_wifi](https://github.com/kaovilai/dotfiles/pull/37) — kaovilai/dotfiles
 - [#14 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/pull/14) — kaovilai/dotfiles
 - [#38 [doc-sync] Fix stale GitHub issue status references in documentation](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/38) — kaovilai/cephcsi-cbt-e2e
 - [#34 docs: fix inconsistent PR #9736 status wording](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/34) — kaovilai/cephcsi-cbt-e2e
 - [#33 docs: add Velero BDM fallback behavior and backup safety after flattening](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/33) — kaovilai/cephcsi-cbt-e2e
-- [#2 feat(libpod): Add Podman /libpod/* API endpoints](https://github.com/kaovilai/socktainer/pull/2) — kaovilai/socktainer
-## PRs Reviewed (61)
+## PRs Reviewed (99)
 
-**openshift** (11)
-- [#92 Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (31d5293) into oadp-1.6](https://github.com/openshift/oadp-must-gather/pull/92) — openshift/oadp-must-gather
-- [#397 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (e621e79) into oadp-1.6](https://github.com/openshift/openshift-velero-plugin/pull/397) — openshift/openshift-velero-plugin
-- [#2200 start building oadp-1.4.10](https://github.com/openshift/oadp-operator/pull/2200) — openshift/oadp-operator
-- [#79192 fix: remove spec.replicas from core-ci highmem MachineSets to stop ArgoCD fighting CA](https://github.com/openshift/release/pull/79192) — openshift/release
-- [#2188 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (3fa3730) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2188) — openshift/oadp-operator
-- [#2192 [oadp-1.6] OADP-6734: Add podLabels and podAnnotations for maintenance and data mover pods](https://github.com/openshift/oadp-operator/pull/2192) — openshift/oadp-operator
-- [#2197 [oadp-1.6] fix: add /tmp emptyDir volume to KDM controller deployment](https://github.com/openshift/oadp-operator/pull/2197) — openshift/oadp-operator
-- [#2191 fix: add /tmp emptyDir volume to KDM controller deployment](https://github.com/openshift/oadp-operator/pull/2191) — openshift/oadp-operator
-- [#2190 OADP-6734: Add podLabels and podAnnotations for maintenance and data mover pods](https://github.com/openshift/oadp-operator/pull/2190) — openshift/oadp-operator
-- [#2189 [oadp-1.6] feat: add KubevirtDatamoverConfig to DPA for max incremental backups](https://github.com/openshift/oadp-operator/pull/2189) — openshift/oadp-operator
-- [#250 Update velero dependency to latest oadp-1.6 branch (v1.18.1-rc.1)](https://github.com/openshift/hypershift-oadp-plugin/pull/250) — openshift/hypershift-oadp-plugin
-
-**migtools** (11)
-- [#76 [oadp-1.6] feat: support S3-compatible storage providers (s3Url, s3ForcePathStyle, caCert)](https://github.com/migtools/kubevirt-datamover-controller/pull/76) — migtools/kubevirt-datamover-controller
-- [#16 Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (3744bd1) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-plugin/pull/16) — migtools/kubevirt-datamover-plugin
-- [#190 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (a1bd5b1) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/190) — migtools/oadp-cli
-- [#67 Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (53ea0a5) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/67) — migtools/kubevirt-datamover-controller
-- [#188 Hardcode VERSION to oadp-dev for standardised version reporting](https://github.com/migtools/oadp-cli/pull/188) — migtools/oadp-cli
-- [#189 Hardcode VERSION to oadp-1.6 for standardised version reporting](https://github.com/migtools/oadp-cli/pull/189) — migtools/oadp-cli
-- [#68 [oadp-1.6] fix: replace custom AWS credential parser with SDK's built-in parser](https://github.com/migtools/kubevirt-datamover-controller/pull/68) — migtools/kubevirt-datamover-controller
-- [#66 fix: replace custom AWS credential parser with SDK's built-in parser](https://github.com/migtools/kubevirt-datamover-controller/pull/66) — migtools/kubevirt-datamover-controller
-- [#336 fix: pass logger to UpdateBackupStorageLocation](https://github.com/migtools/oadp-non-admin/pull/336) — migtools/oadp-non-admin
-- [#65 [oadp-1.6] feat: add --max-incremental-backups flag to cap chain length](https://github.com/migtools/kubevirt-datamover-controller/pull/65) — migtools/kubevirt-datamover-controller
-- [#187 Cherry-pick: Fix CLI version in Konflux builds](https://github.com/migtools/oadp-cli/pull/187) — migtools/oadp-cli
-
-**Other** (39)
-- [#88 Update errors](https://github.com/velero-io/velero-plugin-example/pull/88) — velero-io/velero-plugin-example
-- [#93 [dotfiles-improvement] fix: use ZSH foreach loop for ipv6_array in set-dns-servers](https://github.com/kaovilai/dotfiles/pull/93) — kaovilai/dotfiles
-- [#61 [dotfiles-improvement] fix: add argument validation and quote variable in code-git](https://github.com/kaovilai/dotfiles/pull/61) — kaovilai/dotfiles
-- [#56 [dotfiles-improvement] Add missing .go filter to gofmtgitdiff alias](https://github.com/kaovilai/dotfiles/pull/56) — kaovilai/dotfiles
-- [#48 perf(zsh): improve shell startup performance](https://github.com/kaovilai/dotfiles/pull/48) — kaovilai/dotfiles
-- [#46 Use `read -r` in `exec-dirs-ds*` directory loops to preserve literal path names](https://github.com/kaovilai/dotfiles/pull/46) — kaovilai/dotfiles
-- [#47 Remove redundant `podman` availability check in `check-qemu-stuck`](https://github.com/kaovilai/dotfiles/pull/47) — kaovilai/dotfiles
-- [#311 Set permissions to the actions](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/311) — velero-io/velero-plugin-for-microsoft-azure
-- [#296 Set permissions to the actions](https://github.com/velero-io/velero-plugin-for-aws/pull/296) — velero-io/velero-plugin-for-aws
-- [#257 Set permissions to the actions](https://github.com/velero-io/velero-plugin-for-gcp/pull/257) — velero-io/velero-plugin-for-gcp
-- [#40 [dotfiles-improvement] fix: add command -v ocrmypdf guard in ocr function](https://github.com/kaovilai/dotfiles/pull/40) — kaovilai/dotfiles
-- [#32 Use Zsh-native suffix replacement in `randomize-mac-ifconfig`](https://github.com/kaovilai/dotfiles/pull/32) — kaovilai/dotfiles
-- [#30 [dotfiles-improvement] fix: add podman guard in check-qemu-stuck and use ZSH expansion in randomize-mac](https://github.com/kaovilai/dotfiles/pull/30) — kaovilai/dotfiles
-- [#63 chore: update devicon v2.11.0 → v2.17.0 and add weekly auto-update workflow](https://github.com/kaovilai/kaovilai.pw/pull/63) — kaovilai/kaovilai.pw
-- [#26 Refactor PR review automation to a Copilot agentic workflow](https://github.com/kaovilai/dotfiles/pull/26) — kaovilai/dotfiles
-- [#22 Add shell CI for ZSH syntax and ShellCheck with PR diff feedback](https://github.com/kaovilai/dotfiles/pull/22) — kaovilai/dotfiles
-- [#24 Add CI to detect and refresh stale agentic workflow lock files](https://github.com/kaovilai/dotfiles/pull/24) — kaovilai/dotfiles
-- [#20 fix(dotfiles-improvement): include issue # in commit messages and PR descriptions to autoclose on merge](https://github.com/kaovilai/dotfiles/pull/20) — kaovilai/dotfiles
-- [#18 [dotfiles-improvement] fix: remove leftover debug echo from wifi-standard](https://github.com/kaovilai/dotfiles/pull/18) — kaovilai/dotfiles
-- [#58 [improve] Fix invalid HTML structure and add missing alt attributes](https://github.com/kaovilai/kaovilai.pw/pull/58) — kaovilai/kaovilai.pw
-- [#9783 backup filter enhancement design](https://github.com/velero-io/velero/pull/9783) — velero-io/velero
-- [#10 Add generic Claude model aliases for Sonnet and Opus](https://github.com/kaovilai/dotfiles/pull/10) — kaovilai/dotfiles
-- [#59 chore(deps-dev): bump js-yaml from 4.1.0 to 4.1.1](https://github.com/kaovilai/kaovilai.pw/pull/59) — kaovilai/kaovilai.pw
-- [#7 fix: quote `$1` in `go-mod-upgrade` to prevent word-splitting](https://github.com/kaovilai/dotfiles/pull/7) — kaovilai/dotfiles
-- [#8 Guard `code-dirs` and `finder-dirs` when GNU parallel is unavailable](https://github.com/kaovilai/dotfiles/pull/8) — kaovilai/dotfiles
-- [#39 Clarify upstream reference comments in e2e tests (Velero #9528, KEP-3314 #5877)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/39) — kaovilai/cephcsi-cbt-e2e
-- [#35 Normalize cross-doc status claims and upstream tracking links for Velero/CBT coverage docs](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/35) — kaovilai/cephcsi-cbt-e2e
-- [#21 Fix macOS compatibility issues for rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/21) — oadp-rebasebot/oadp-rebase
-- [#9786 Bump k8s library versions to v0.33.11](https://github.com/velero-io/velero/pull/9786) — velero-io/velero
-- [#9781 [1.18] Bump Velero dependencies to latest version](https://github.com/velero-io/velero/pull/9781) — velero-io/velero
-- [#293 Bump aws-sdk-go-v2 for AWS European Sovereign Cloud support](https://github.com/velero-io/velero-plugin-for-aws/pull/293) — velero-io/velero-plugin-for-aws
-- [#9776 Fix prow-action workflow permissions for issue commands](https://github.com/velero-io/velero/pull/9776) — velero-io/velero
-- [#86 update dependencies](https://github.com/velero-io/velero-plugin-example/pull/86) — velero-io/velero-plugin-example
-- [#9778 Bump Velero dependencies to latest version.](https://github.com/velero-io/velero/pull/9778) — velero-io/velero
-- [#9779 Update CODE OF CONDUCT for CNCF compliance](https://github.com/velero-io/velero/pull/9779) — velero-io/velero
-- [#87 allow docker to cache dependencies](https://github.com/velero-io/velero-plugin-example/pull/87) — velero-io/velero-plugin-example
-- [#84 fix badge](https://github.com/velero-io/velero-plugin-example/pull/84) — velero-io/velero-plugin-example
-- [#9775 [main] Some updates for actions on main branch.](https://github.com/velero-io/velero/pull/9775) — velero-io/velero
-- [#82 chore: update golang](https://github.com/velero-io/velero-plugin-example/pull/82) — velero-io/velero-plugin-example
-## Issues/PRs Commented On (42)
+**velero-io** (1)
+- [#9796 Update website post CNCF donation](https://github.com/velero-io/velero/pull/9796) — velero-io/velero
 
 **openshift** (5)
-- [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
+- [#398 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (ada91aa) into oadp-1.6](https://github.com/openshift/openshift-velero-plugin/pull/398) — openshift/openshift-velero-plugin
+- [#256 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (56c6131) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/256) — openshift/hypershift-oadp-plugin
+- [#111580 Add docs for priority class](https://github.com/openshift/openshift-docs/pull/111580) — openshift/openshift-docs
+- [#508 Merge https://github.com/velero-io/velero:v1.18.1 (26ef8fa) into oadp-1.6](https://github.com/openshift/velero/pull/508) — openshift/velero
+- [#132 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/132) — openshift/velero-plugin-for-microsoft-azure
+
+**migtools** (5)
+- [#64 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.0 (d2e45cc) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/64) — migtools/kubevirt-velero-plugin
+- [#78 Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (58c5bb5) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/78) — migtools/kubevirt-datamover-controller
+- [#344 Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (4a3e1cb) into oadp-1.6](https://github.com/migtools/oadp-non-admin/pull/344) — migtools/oadp-non-admin
+- [#19 Merge https://github.com/filebrowser/filebrowser:master (22b848f) into oadp-1.6](https://github.com/migtools/filebrowser/pull/19) — migtools/filebrowser
+- [#2 fix: prevent wiki update from deleting unrelated wiki pages](https://github.com/migtools/oadp-rebase-ai-helpers/pull/2) — migtools/oadp-rebase-ai-helpers
+
+**Other** (88)
+- [#285 [improve] security: add base-uri and form-action CSP directives to extension pages](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/285) — kaovilai/fidelity-margin-calculator-auto
+- [#407 [dotfiles-improvement] fix: use lowercase local variables in ZSH functions](https://github.com/kaovilai/dotfiles/pull/407) — kaovilai/dotfiles
+- [#284 [improve] Fix broken JSDoc for isRetryableHttpStatus](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/284) — kaovilai/fidelity-margin-calculator-auto
+- [#406 [dotfiles-improvement] fix: replace eval+string with ZSH array for EC2 launch in create-minio-aws](https://github.com/kaovilai/dotfiles/pull/406) — kaovilai/dotfiles
+- [#34 Add hypershift-oadp-plugin to run-oadp-rebase.sh for oadp-1.6](https://github.com/oadp-rebasebot/oadp-rebase/pull/34) — oadp-rebasebot/oadp-rebase
+- [#283 [improve] Respect Retry-After header on 429/503 responses](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/283) — kaovilai/fidelity-margin-calculator-auto
+- [#405 [dotfiles-improvement] fix: replace echo pipe with ZSH here-strings (remaining instances)](https://github.com/kaovilai/dotfiles/pull/405) — kaovilai/dotfiles
+- [#179 [improve] cmd/cbt-check: emit mode-specific NOTICE for 0-block results](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/179) — kaovilai/cephcsi-cbt-e2e
+- [#282 [improve] accessibility: add forced-colors (Windows High Contrast) support to popup and panel CSS](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/282) — kaovilai/fidelity-margin-calculator-auto
+- [#404 [dotfiles-improvement] fix: add error messages for failed cd in find -exec sh-c blocks](https://github.com/kaovilai/dotfiles/pull/404) — kaovilai/dotfiles
+- [#178 [improve] tests/e2e: extract size constants and replace magic number](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/178) — kaovilai/cephcsi-cbt-e2e
+- [#281 [improve] Auto-scroll debug log to newest entries; clarify isLimitOrderType guard](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/281) — kaovilai/fidelity-margin-calculator-auto
+- [#403 [dotfiles-improvement] fix: use _safe_source in openshift/load.zsh to prevent shell crash on missing files](https://github.com/kaovilai/dotfiles/pull/403) — kaovilai/dotfiles
+- [#280 [improve] robustness: skip DOM observer at init when disabled; normalize priceList cusip](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/280) — kaovilai/fidelity-margin-calculator-auto
+- [#177 [improve] pkg/k8s: patch PodSecurity labels on existing namespace in CreateNamespace](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/177) — kaovilai/cephcsi-cbt-e2e
+- [#279 [improve] refactor: move popup UI timing constants to FMC_CONSTANTS](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/279) — kaovilai/fidelity-margin-calculator-auto
+- [#402 [dotfiles-improvement] fix: replace eval function creation with ZSH-native functions[] array](https://github.com/kaovilai/dotfiles/pull/402) — kaovilai/dotfiles
+- [#176 [improve] pkg/k8s: fail fast on CrashLoopBackOff and CreateContainerError in WaitForPodRunning](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/176) — kaovilai/cephcsi-cbt-e2e
+- [#278 [improve] Centralize status labels and account-mask params in FMC_CONSTANTS](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/278) — kaovilai/fidelity-margin-calculator-auto
+- [#401 [dotfiles-improvement] fix: replace echo -n+read with ZSH read "var?prompt" idiom](https://github.com/kaovilai/dotfiles/pull/401) — kaovilai/dotfiles
+- [#175 [improve] pkg/k8s: use fastPollInterval for WaitForPodRunning and WaitForPVCBound, eliminate append allocation](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/175) — kaovilai/cephcsi-cbt-e2e
+- [#277 [improve] fix: maskAccount threshold — avoid misleading mask for ≤6-char accounts](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/277) — kaovilai/fidelity-margin-calculator-auto
+- [#174 [improve] pkg/k8s: add WaitForPVDeleted for consistent PV lifecycle management](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/174) — kaovilai/cephcsi-cbt-e2e
+- [#400 [dotfiles-improvement] fix: add git repository guard to git-worktree-code](https://github.com/kaovilai/dotfiles/pull/400) — kaovilai/dotfiles
+- [#276 [improve] fix: replace dead-code fallthrough in classifyError with CLIENT_ERROR](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/276) — kaovilai/fidelity-margin-calculator-auto
+- [#399 [dotfiles-improvement] fix: silence README.md cleanup errors in install-oc and install-ocp-installer](https://github.com/kaovilai/dotfiles/pull/399) — kaovilai/dotfiles
+- [#275 [improve] code quality: add clampThreshold and normalise debitWarningThreshold in settings](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/275) — kaovilai/fidelity-margin-calculator-auto
+- [#173 [improve] pkg/k8s: add InvalidImageName fast-fail and fill init-container test coverage gaps](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/173) — kaovilai/cephcsi-cbt-e2e
+- [#398 [dotfiles-improvement] Add socket existence guards to socktainer functions](https://github.com/kaovilai/dotfiles/pull/398) — kaovilai/dotfiles
+- [#172 [improve] pkg/k8s: add missing tests for RebindPVWithVolumeMode error paths and CSI field copy](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/172) — kaovilai/cephcsi-cbt-e2e
+- [#274 [improve] Track lastCalcTime only on successful calculations](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/274) — kaovilai/fidelity-margin-calculator-auto
+- [#273 [improve] perf: O(1) Map-order LRU eviction in background cache](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/273) — kaovilai/fidelity-margin-calculator-auto
+- [#171 [improve] test(pkg/k8s): add missing error-path tests for Delete functions](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/171) — kaovilai/cephcsi-cbt-e2e
+- [#397 [dotfiles-improvement] fix: add command -v guard inside _regen_tool_completion](https://github.com/kaovilai/dotfiles/pull/397) — kaovilai/dotfiles
+- [#272 [improve] Fix debug log error message duplication and popup initial state](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/272) — kaovilai/fidelity-margin-calculator-auto
+- [#170 [improve] debug-cbt.sh: add CEPHCSI_NS override for toolbox namespace](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/170) — kaovilai/cephcsi-cbt-e2e
+- [#88 [improve] fix: update SnapshotMetadataService GVR from v1alpha1 to v1beta1](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/88) — kaovilai/k8s-cbt-s3mover-demo
+- [#120 [improve] Performance: preload LCP image and declare dark color-scheme](https://github.com/kaovilai/kaovilai.pw/pull/120) — kaovilai/kaovilai.pw
+- [#271 [improve] perf: reduce redundant DOM reads in detector.js debounce callback](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/271) — kaovilai/fidelity-margin-calculator-auto
+- [#169 [improve] pkg/k8s: fail fast in WaitForPodRunning on image pull errors](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/169) — kaovilai/cephcsi-cbt-e2e
+- [#395 [dotfiles-improvement] fix: redirect error/warning messages to stderr in git.zsh, migrate-laptop.zsh, macos.zsh](https://github.com/kaovilai/dotfiles/pull/395) — kaovilai/dotfiles
+- [#168 [improve] pkg/k8s: fail fast in WaitForSnapshotReady when Status.Error has nil Message](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/168) — kaovilai/cephcsi-cbt-e2e
+- [#270 [improve] fix: handle partial GraphQL errors in margin API gracefully](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/270) — kaovilai/fidelity-margin-calculator-auto
+- [#394 [dotfiles-improvement] fix: clean up empty key file on failed aws create-key-pair in ec2-linux](https://github.com/kaovilai/dotfiles/pull/394) — kaovilai/dotfiles
+- [#87 [improve] test: add unit tests for cbt-backup pkg/blocks package](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/87) — kaovilai/k8s-cbt-s3mover-demo
+- [#119 [improve] fix(a11y): add sr-only labels to Ansible, OpenShift, RStudio icon divs](https://github.com/kaovilai/kaovilai.pw/pull/119) — kaovilai/kaovilai.pw
+- [#269 [improve] code quality: move CLEANUP_ALARM string into FMC_CONSTANTS](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/269) — kaovilai/fidelity-margin-calculator-auto
+- [#393 [dotfiles-improvement] fix: atomic temp file pattern for direnv and pipenv completion cache](https://github.com/kaovilai/dotfiles/pull/393) — kaovilai/dotfiles
+- [#86 [improve] fix: add resources and automountServiceAccountToken to inline fs-backup-reader pod](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/86) — kaovilai/k8s-cbt-s3mover-demo
+- [#166 [improve] pkg/k8s: fail fast in WaitForPVCResized when PVC enters Lost phase](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/166) — kaovilai/cephcsi-cbt-e2e
+- [#267 [improve] code quality: centralize XSRF token strings in FMC_CONSTANTS.API](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/267) — kaovilai/fidelity-margin-calculator-auto
+- [#266 [improve] robustness: guard against unexpectedly long position symbols from portfolio API](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/266) — kaovilai/fidelity-margin-calculator-auto
+- [#30 Update upstream tags to v1.18.1 / v1.14.1 for oadp-1.6](https://github.com/oadp-rebasebot/oadp-rebase/pull/30) — oadp-rebasebot/oadp-rebase
+- [#265 [improve] refactor: use const for never-reassigned fallbackCache and debugLog](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/265) — kaovilai/fidelity-margin-calculator-auto
+- [#264 [improve] docs: add JSDoc to all popup/popup.js functions](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/264) — kaovilai/fidelity-margin-calculator-auto
+- [#263 [improve] fix: neutral color for zero buying power; remove unused .sr-only](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/263) — kaovilai/fidelity-margin-calculator-auto
+- [#262 [improve] code quality: remove unused _ts message field; fix popup window title](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/262) — kaovilai/fidelity-margin-calculator-auto
+- [#261 [improve] robustness: add warn helper and try/catch to background service worker](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/261) — kaovilai/fidelity-margin-calculator-auto
+- [#260 [improve] robustness: re-check form completeness in debounce callback before firing ready event](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/260) — kaovilai/fidelity-margin-calculator-auto
+- [#259 [improve] accessibility: add aria-live=off to debug log panel](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/259) — kaovilai/fidelity-margin-calculator-auto
+- [#392 [dotfiles-improvement] fix: separate local declaration from assignment in s3-minio-aws.zsh](https://github.com/kaovilai/dotfiles/pull/392) — kaovilai/dotfiles
+- [#258 [improve] robustness: add 'use strict' to all JavaScript files](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/258) — kaovilai/fidelity-margin-calculator-auto
+- [#391 [dotfiles-improvement] perf: extract _regen_tool_completion helper in completions.zsh](https://github.com/kaovilai/dotfiles/pull/391) — kaovilai/dotfiles
+- [#257 [improve] modern-js: use AbortSignal.timeout() in fetchWithTimeout](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/257) — kaovilai/fidelity-margin-calculator-auto
+- [#256 [improve] code quality: use makeDebugLog consistently; log unhandled background messages](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/256) — kaovilai/fidelity-margin-calculator-auto
+- [#390 [dotfiles-improvement] fix: add missing wildcard fallbacks in architecture case statements](https://github.com/kaovilai/dotfiles/pull/390) — kaovilai/dotfiles
+- [#389 [dotfiles-improvement] fix: add error handling to migrate-laptop state-changing operations](https://github.com/kaovilai/dotfiles/pull/389) — kaovilai/dotfiles
+- [#255 [improve] robustness: sync badge and popup status on 'ready' event error paths](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/255) — kaovilai/fidelity-margin-calculator-auto
+- [#10728 Point hypershift plugin to oadp-1.6](https://github.com/openshift-eng/ocp-build-data/pull/10728) — openshift-eng/ocp-build-data
+- [#254 [improve] Extract magic numbers/strings to FMC_CONSTANTS](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/254) — kaovilai/fidelity-margin-calculator-auto
+- [#388 [dotfiles-improvement] fix: add missing command -v curl guards](https://github.com/kaovilai/dotfiles/pull/388) — kaovilai/dotfiles
+- [#253 [improve] docs: add JSDoc to remaining undocumented internal helpers in lib/](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/253) — kaovilai/fidelity-margin-calculator-auto
+- [#387 [dotfiles-improvement] fix: declare while-loop read variables local in cg() and symlink-sd functions](https://github.com/kaovilai/dotfiles/pull/387) — kaovilai/dotfiles
+- [#386 [dotfiles-improvement] fix: add source error guards in s3/load.zsh](https://github.com/kaovilai/dotfiles/pull/386) — kaovilai/dotfiles
+- [#252 [improve] css: add color-scheme to injected panel for correct dark-mode native controls](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/252) — kaovilai/fidelity-margin-calculator-auto
+- [#385 [dotfiles-improvement] fix: redirect error messages to stderr in git-utils and github aliases](https://github.com/kaovilai/dotfiles/pull/385) — kaovilai/dotfiles
+- [#251 [improve] code quality: clamp threshold display and sync max constraint from constant in popup.js](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/251) — kaovilai/fidelity-margin-calculator-auto
+- [#183 [improve] perf: add security/request validation failed to BROKEN_TITLE_RE title fast path](https://github.com/kaovilai/tampermonkey-scripts-pub/pull/183) — kaovilai/tampermonkey-scripts-pub
+- [#384 [dotfiles-improvement] fix: redirect error/warning messages to stderr in migrate-laptop and podman-utils](https://github.com/kaovilai/dotfiles/pull/384) — kaovilai/dotfiles
+- [#250 [improve] css: fix debug button dark mode contrast (WCAG AA) and add print media query](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/250) — kaovilai/fidelity-margin-calculator-auto
+- [#117 [improve] Accessibility: add focus-visible styles for keyboard navigation](https://github.com/kaovilai/kaovilai.pw/pull/117) — kaovilai/kaovilai.pw
+- [#383 [dotfiles-improvement] fix: replace POSIX [ with ZSH [[ in variables.zsh and crc-functions.zsh](https://github.com/kaovilai/dotfiles/pull/383) — kaovilai/dotfiles
+- [#116 [improve] PWA: add web app manifest and theme-color meta tag](https://github.com/kaovilai/kaovilai.pw/pull/116) — kaovilai/kaovilai.pw
+- [#249 [improve] fix: accessibility — add (main) landmark and fix debug button contrast](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/249) — kaovilai/fidelity-margin-calculator-auto
+- [#382 [dotfiles-improvement] fix: use zsh -c instead of sh -c in exec-dirs-ds](https://github.com/kaovilai/dotfiles/pull/382) — kaovilai/dotfiles
+- [#115 [improve] Accessibility: add semantic section landmarks to content groups](https://github.com/kaovilai/kaovilai.pw/pull/115) — kaovilai/kaovilai.pw
+- [#248 [improve] Add DOM-value guards in detector.js](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/248) — kaovilai/fidelity-margin-calculator-auto
+- [#381 [dotfiles-improvement] fix: declare local perm loop variable in merge-claude-settings](https://github.com/kaovilai/dotfiles/pull/381) — kaovilai/dotfiles
+## Issues/PRs Commented On (38)
+
+**velero-io** (6)
+- [#9837 Codify backup storage directory layout as a supported contract for external consumers](https://github.com/velero-io/velero/issues/9837) — velero-io/velero
+- [#9709 CBT interfaces](https://github.com/velero-io/velero/issues/9709) — velero-io/velero
+- [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
+- [#9556 Block level backup/restore support](https://github.com/velero-io/velero/issues/9556) — velero-io/velero
+- [#9712 Retrieve chagneId from snapshot](https://github.com/velero-io/velero/issues/9712) — velero-io/velero
+- [#9744 Bug: Restore stuck in Finalizing phase indefinitely due to unbounded hook-tracker wait](https://github.com/velero-io/velero/issues/9744) — velero-io/velero
+
+**openshift** (4)
 - [#2203 CI: Add FBC catalog Dockerfile for Prow operator installation without operator-sdk](https://github.com/openshift/oadp-operator/issues/2203) — openshift/oadp-operator
+- [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#2083 Bug:  make deploy-olm on oadp-dev branch is not correctly creating a catalog](https://github.com/openshift/oadp-operator/issues/2083) — openshift/oadp-operator
 - [#2005 Use must-gather from new repo](https://github.com/openshift/oadp-operator/issues/2005) — openshift/oadp-operator
-- [#2057 kubevirt-dm: Velero Upstream Changes (Policy Actions)](https://github.com/openshift/oadp-operator/issues/2057) — openshift/oadp-operator
 
 **migtools** (2)
 - [#69 Fix tide approve/lgtm plug-in configuration for this repo](https://github.com/migtools/kubevirt-datamover-controller/issues/69) — migtools/kubevirt-datamover-controller
 - [#63 Ambiguous handling: LookupLatestCheckpoint returns (nil, nil) – force full backup not guaranteed](https://github.com/migtools/kubevirt-datamover-controller/issues/63) — migtools/kubevirt-datamover-controller
 
-**Other** (35)
+**Other** (26)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#106 [improve] Developer experience: remove stale tsconfig options from Vue CLI era](https://github.com/kaovilai/kaovilai.pw/issues/106) — kaovilai/kaovilai.pw
+- [#24 [daily] test: add unit tests for ConfigManager pure functions](https://github.com/kaovilai/github-bot-command-palette/issues/24) — kaovilai/github-bot-command-palette
+- [#51 [daily] test: add unit tests for ConfigManager pure functions and fix npm test script](https://github.com/kaovilai/github-bot-command-palette/issues/51) — kaovilai/github-bot-command-palette
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
 - [#7039 FBC registry pod init container missing SecurityContext when using --security-context-config=restricted](https://github.com/operator-framework/operator-sdk/issues/7039) — operator-framework/operator-sdk
 - [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
@@ -197,34 +254,34 @@
 - [#17 [dotfiles-improvement] Remove leftover debug echo from wifi-standard function](https://github.com/kaovilai/dotfiles/issues/17) — kaovilai/dotfiles
 - [#13 [dotfiles-improvement] fix: add local vars in new-changelog and cd error check in import-wifi-credentials](https://github.com/kaovilai/dotfiles/issues/13) — kaovilai/dotfiles
 - [#9 GetMetadataDelta fails due to client v0.2.0 / sidecar v0.1.0 API version mismatch](https://github.com/kaovilai/cephcsi-cbt-e2e/issues/9) — kaovilai/cephcsi-cbt-e2e
-- [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
-- [#9556 Block level backup/restore support](https://github.com/velero-io/velero/issues/9556) — velero-io/velero
 - [#4871 Feature Request: Support for Selective Reading Based on External Changed Block Metadata](https://github.com/kopia/kopia/issues/4871) — kopia/kopia
-- [#9712 Retrieve chagneId from snapshot](https://github.com/velero-io/velero/issues/9712) — velero-io/velero
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#27211 Ambiguous Podman Multi-Arch Build Output: Silent Single-Arch Image Creation](https://github.com/containers/podman/issues/27211) — containers/podman
 - [#145 OWNERS.md Missing](https://github.com/konveyor/enhancements/issues/145) — konveyor/enhancements
-- [#9744 Bug: Restore stuck in Finalizing phase indefinitely due to unbounded hook-tracker wait](https://github.com/velero-io/velero/issues/9744) — velero-io/velero
 - [#2229 feat: add `list_pull_request_review_threads` tool to expose PRRT_ node IDs for resolving threads](https://github.com/github/github-mcp-server/issues/2229) — github/github-mcp-server
-- [#394 [Feature Request] Wyze Lock Bolt](https://github.com/SecKatie/ha-wyzeapi/issues/394) — SecKatie/ha-wyzeapi
-- [#9760 Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.](https://github.com/velero-io/velero/issues/9760) — velero-io/velero
-- [#1495 Feature: `container manifest` subcommand for multi-arch OCI image index creation](https://github.com/apple/container/issues/1495) — apple/container
-- [#9709 CBT interfaces](https://github.com/velero-io/velero/issues/9709) — velero-io/velero
-- [#11 feat: manifest list assembly workarounds (Podman/skopeo) — tracking issue for #9 pending apple/container#1495](https://github.com/us/mocker/issues/11) — us/mocker
-- [#7 Feature request: Docker/Podman-compatible socket via launchd socket activation (mocker system service)](https://github.com/us/mocker/issues/7) — us/mocker
-- [#6206 rbd: getRBDSnapID and ProcessMetadata issues in snapshot metadata path](https://github.com/ceph/ceph-csi/issues/6206) — ceph/ceph-csi
-- [#24000 .buildkit_qemu_emulator: operation not supported](https://github.com/containers/podman/issues/24000) — containers/podman
-## Issues Closed (39)
+## Issues Closed (45)
 
 **openshift** (3)
+- [#2203 CI: Add FBC catalog Dockerfile for Prow operator installation without operator-sdk](https://github.com/openshift/oadp-operator/issues/2203) — openshift/oadp-operator
 - [#2043 Allows `make deploy-olm OSDK_RUNBUNDLE_IfNotPresent=true`](https://github.com/openshift/oadp-operator/issues/2043) — openshift/oadp-operator
 - [#2005 Use must-gather from new repo](https://github.com/openshift/oadp-operator/issues/2005) — openshift/oadp-operator
-- [#2183 e2e Kubevirt disk timeout issues](https://github.com/openshift/oadp-operator/issues/2183) — openshift/oadp-operator
 
 **migtools** (1)
 - [#63 Ambiguous handling: LookupLatestCheckpoint returns (nil, nil) – force full backup not guaranteed](https://github.com/migtools/kubevirt-datamover-controller/issues/63) — migtools/kubevirt-datamover-controller
 
-**Other** (35)
+**Other** (41)
+- [#62 change all scripts and docs from vmware-tanzu to velero-io](https://github.com/kaovilai/kaovilai/issues/62) — kaovilai/kaovilai
+- [#28 Add mermaidjs diagram diagram.md for https://github.com/oadp-rebasebot/oadp-rebase/tree/oadp-dev/tools/release-sources to help me understand flow of code from origin upstream to downstream to builds ... etc.](https://github.com/oadp-rebasebot/oadp-rebase/issues/28) — oadp-rebasebot/oadp-rebase
+- [#309 add pr-number alias](https://github.com/kaovilai/dotfiles/issues/309) — kaovilai/dotfiles
+- [#99 Add closed issue/PR check to improvement scanner](https://github.com/kaovilai/kaovilai.pw/issues/99) — kaovilai/kaovilai.pw
+- [#296 Add closed issue/PR check to improvement scanner](https://github.com/kaovilai/dotfiles/issues/296) — kaovilai/dotfiles
+- [#300 check if computer-use-claude can be migrated over to Google Vertex AI, if so, do so..](https://github.com/kaovilai/dotfiles/issues/300) — kaovilai/dotfiles
+- [#61 Add closed issue/PR check to improvement scanner](https://github.com/kaovilai/github-bot-command-palette/issues/61) — kaovilai/github-bot-command-palette
+- [#119 [improve] Add head/tail pipe support to improvement scanner bash allowlist](https://github.com/kaovilai/cephcsi-cbt-e2e/issues/119) — kaovilai/cephcsi-cbt-e2e
+- [#203 [improve] Add cd, echo, and node to improvement scanner bash allowlist](https://github.com/kaovilai/fidelity-margin-calculator-auto/issues/203) — kaovilai/fidelity-margin-calculator-auto
+- [#55 [daily] Add cd, echo, and node --test to improvement scanner bash allowlist](https://github.com/kaovilai/github-bot-command-palette/issues/55) — kaovilai/github-bot-command-palette
+- [#49 [improve] Add cd and head to improvement scanner bash allowlist](https://github.com/kaovilai/k8s-cbt-s3mover-demo/issues/49) — kaovilai/k8s-cbt-s3mover-demo
+- [#274 Make `zsh`available for use in improvement scanner](https://github.com/kaovilai/dotfiles/issues/274) — kaovilai/dotfiles
 - [#22 remove README.md from protected files for agentic SDLC](https://github.com/kaovilai/github-bot-command-palette/issues/22) — kaovilai/github-bot-command-palette
 - [#20 lint started failing after https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/14 merged.. fix lint from since then](https://github.com/kaovilai/k8s-cbt-s3mover-demo/issues/20) — kaovilai/k8s-cbt-s3mover-demo
 - [#32482 Feature: title-based deduplication for create-issue safe-output handler](https://github.com/github/gh-aw/issues/32482) — github/gh-aw
@@ -254,12 +311,6 @@
 - [#12 OTP keyword matching is overly broad, forwarding non-OTP messages](https://github.com/WinShell-Bhanu/Clipsync/issues/12) — WinShell-Bhanu/Clipsync
 - [#8 Accessibility Service config requests broader permissions than code uses](https://github.com/WinShell-Bhanu/Clipsync/issues/8) — WinShell-Bhanu/Clipsync
 - [#11 macOS encryption key stored in UserDefaults instead of Keychain](https://github.com/WinShell-Bhanu/Clipsync/issues/11) — WinShell-Bhanu/Clipsync
-- [#13 FCM push messages accept arbitrary URLs for updates and announcements](https://github.com/WinShell-Bhanu/Clipsync/issues/13) — WinShell-Bhanu/Clipsync
-- [#7 Plaintext fallback when encryption fails silently exposes clipboard data](https://github.com/WinShell-Bhanu/Clipsync/issues/7) — WinShell-Bhanu/Clipsync
-- [#11 feat: manifest list assembly workarounds (Podman/skopeo) — tracking issue for #9 pending apple/container#1495](https://github.com/us/mocker/issues/11) — us/mocker
-- [#9 Cleartext HTTP used for IP geolocation with usesCleartextTraffic enabled app-wide](https://github.com/WinShell-Bhanu/Clipsync/issues/9) — WinShell-Bhanu/Clipsync
-- [#9 feat: `mocker manifest` command for multi-arch OCI image index assembly](https://github.com/us/mocker/issues/9) — us/mocker
-- [#7 Feature request: Docker/Podman-compatible socket via launchd socket activation (mocker system service)](https://github.com/us/mocker/issues/7) — us/mocker
 ---
 
 *This report is automatically generated every Monday at 5am EST by GitHub Actions.*
