@@ -32,7 +32,7 @@ retry_with_backoff() {
 # Org grouping helper: takes JSON array, groups by org, outputs markdown
 group_by_org() {
     local json="$1"
-    local orgs=("vmware-tanzu" "openshift" "migtools" "oadp-rebase")
+    local orgs=("velero-io" "openshift" "migtools" "oadp-rebase")
     local count
     count=$(echo "$json" | jq 'length')
 
@@ -57,7 +57,7 @@ group_by_org() {
 
     # Others
     local other_items
-    other_items=$(echo "$json" | jq -c '[.[] | select(.repository.nameWithOwner | (startswith("vmware-tanzu/") or startswith("openshift/") or startswith("migtools/") or startswith("oadp-rebase/")) | not)]')
+    other_items=$(echo "$json" | jq -c '[.[] | select(.repository.nameWithOwner | (startswith("velero-io/") or startswith("openshift/") or startswith("migtools/") or startswith("oadp-rebase/")) | not)]')
     local other_count
     other_count=$(echo "$other_items" | jq 'length')
 
