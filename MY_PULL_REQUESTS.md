@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-22 19:37:19 UTC
+> Last updated: 2026-05-22 20:41:43 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -49,8 +49,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-draft-gray)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
-- [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
+- [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #2206](https://img.shields.io/badge/PR%20%232206-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2206) **openshift/oadp-operator** → `oadp-1.6` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2208](https://img.shields.io/badge/PR%20%232208-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2208) **openshift/oadp-operator** → `oadp-1.4` - OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation
