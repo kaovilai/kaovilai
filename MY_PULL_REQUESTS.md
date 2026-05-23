@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-23 06:48:57 UTC
+> Last updated: 2026-05-23 12:13:58 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -78,7 +78,6 @@ No open PRs.
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-ready-green)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
-- [![PR #872](https://img.shields.io/badge/PR%20%23872-ready-green)](https://github.com/github/github-mcp-server/pull/872) **github/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #801](https://img.shields.io/badge/PR%20%23801-waiting--merge-blue)](https://github.com/GoogleCloudPlatform/k8s-config-connector/pull/801) **GoogleCloudPlatform/k8s-config-connector** → `master` - Create OpenShift install README.md
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
