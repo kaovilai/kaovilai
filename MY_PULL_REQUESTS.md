@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-27 00:44:30 UTC
+> Last updated: 2026-05-27 07:28:41 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -72,7 +72,6 @@ No open PRs.
 
 ## Other
 
-- [![PR #134](https://img.shields.io/badge/PR%20%23134-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/134) **kaovilai/kaovilai.pw** → `main` - feat: migrate legacy site content to current portfolio
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
