@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-28 15:17:16 UTC
+> Last updated: 2026-05-28 17:24:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -73,6 +73,7 @@ No open PRs.
 ## Other
 
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
+- [![PR #40](https://img.shields.io/badge/PR%20%2340-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/40) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Force-add vendor/ for Hermeto compatibility
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
