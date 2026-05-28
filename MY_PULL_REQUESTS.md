@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-28 17:24:19 UTC
+> Last updated: 2026-05-28 19:01:07 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -41,6 +41,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2216](https://img.shields.io/badge/PR%20%232216-ready-green)](https://github.com/openshift/oadp-operator/pull/2216) **openshift/oadp-operator** → `oadp-1.4` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
 - [![PR #2217](https://img.shields.io/badge/PR%20%232217-ready-green)](https://github.com/openshift/oadp-operator/pull/2217) **openshift/oadp-operator** → `oadp-1.3` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
+- [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/266) **openshift/hypershift-oadp-plugin** → `main` - fix: scope go.work gitignore patterns to root only
+- [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/267) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] fix: scope go.work gitignore patterns to root only
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
@@ -55,6 +57,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2208](https://img.shields.io/badge/PR%20%232208-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2208) **openshift/oadp-operator** → `oadp-1.4` - OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
+- [![PR #268](https://img.shields.io/badge/PR%20%23268-failing--ci-red)](https://github.com/openshift/hypershift-oadp-plugin/pull/268) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - [oadp-1.5] fix: scope go.work gitignore patterns to root only
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
 
 ## migtools
@@ -73,7 +76,6 @@ No open PRs.
 ## Other
 
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
-- [![PR #40](https://img.shields.io/badge/PR%20%2340-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/40) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Force-add vendor/ for Hermeto compatibility
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
