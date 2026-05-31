@@ -1,13 +1,12 @@
 # My Open Pull Requests
 
-> Last updated: 2026-05-31 07:11:48 UTC
+> Last updated: 2026-05-31 12:22:05 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
 
 ## velero-io
 
-- [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.18**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
@@ -17,6 +16,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-draft-gray)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
+- [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-stale-yellow)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
