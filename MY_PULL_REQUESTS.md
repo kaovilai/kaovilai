@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-01 07:48:33 UTC
+> Last updated: 2026-06-01 14:13:49 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -55,7 +55,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2208](https://img.shields.io/badge/PR%20%232208-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2208) **openshift/oadp-operator** → `oadp-1.4` - OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
-- [![PR #268](https://img.shields.io/badge/PR%20%23268-failing--ci-red)](https://github.com/openshift/hypershift-oadp-plugin/pull/268) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - [oadp-1.5] fix: scope go.work gitignore patterns to root only
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
 
 ## migtools
