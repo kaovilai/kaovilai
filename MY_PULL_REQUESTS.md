@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-03 21:12:13 UTC
+> Last updated: 2026-06-03 22:48:03 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -73,6 +73,7 @@ No open PRs.
 ## Other
 
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
+- [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
@@ -87,7 +88,6 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/mpryc/velero/pull/1) **mpryc/velero** → `aws_creds_exposed` - Simplify cred scrubbing
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/velero/pull/1) **shubham-pampattiwar/velero** → `del-vsb-final` - revert to using controller-gen@v0.7.0
-- [![PR #218](https://img.shields.io/badge/PR%20%23218-stale-yellow)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
 - [![PR #290](https://img.shields.io/badge/PR%20%23290-stale-yellow)](https://github.com/hashicorp/go-plugin/pull/290) **hashicorp/go-plugin** → `main` - Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17
