@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-08 17:13:56 UTC
+> Last updated: 2026-06-08 18:59:08 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -41,7 +41,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2217](https://img.shields.io/badge/PR%20%232217-ready-green)](https://github.com/openshift/oadp-operator/pull/2217) **openshift/oadp-operator** → `oadp-1.3` - feat: add FBC catalog Dockerfile for CI without operator-sdk (cherry-pick #2204)
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #402](https://img.shields.io/badge/PR%20%23402-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/402) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6540: Skip restore of k8s RBAC system rolebindings
+- [![PR #404](https://img.shields.io/badge/PR%20%23404-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
+- [![PR #405](https://img.shields.io/badge/PR%20%23405-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/405) **openshift/openshift-velero-plugin** → `oadp-1.4` - [oadp-1.4] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
