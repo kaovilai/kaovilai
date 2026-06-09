@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-09 21:40:26 UTC
+> Last updated: 2026-06-09 22:38:18 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,7 +10,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-draft-gray)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
-- [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
+- [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-draft-gray)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
