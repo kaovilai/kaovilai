@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-10 23:32:47 UTC
+> Last updated: 2026-06-11 00:48:56 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -75,6 +75,7 @@ No open PRs.
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-ready-green)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #6203](https://img.shields.io/badge/PR%20%236203-ready-green)](https://github.com/ceph/ceph-csi/pull/6203) **ceph/ceph-csi** → `devel` - rbd: add debug logging to ProcessMetadata for CBT diagnostics
 - [![PR #6854](https://img.shields.io/badge/PR%20%236854-ci--pending-yellow)](https://github.com/podman-container-tools/buildah/pull/6854) **podman-container-tools/buildah** → `main` - fix: add timeout to container state polling loop and fix deadline bug
+- [![PR #129](https://img.shields.io/badge/PR%20%23129-draft-gray)](https://github.com/kaovilai/velero/pull/129) **kaovilai/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
