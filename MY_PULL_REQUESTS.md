@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-11 21:46:03 UTC
+> Last updated: 2026-06-11 22:40:27 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -58,13 +58,13 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
+- [![PR #83](https://img.shields.io/badge/PR%20%2383-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/83) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Phase 0+1: DataDownload prerequisites and shared helper extraction
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/273) **migtools/oadp-non-admin** → `oadp-dev` - Add GitHub Actions workflow to update OADP Go dependencies automatically
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
-- [![PR #83](https://img.shields.io/badge/PR%20%2383-failing--ci-red)](https://github.com/migtools/kubevirt-datamover-controller/pull/83) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Phase 0+1: DataDownload prerequisites and shared helper extraction
 
 ## oadp-rebase
 
