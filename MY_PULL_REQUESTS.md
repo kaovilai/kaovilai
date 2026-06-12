@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-12 00:51:58 UTC
+> Last updated: 2026-06-12 07:39:27 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -23,9 +23,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-stale-yellow)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9648](https://img.shields.io/badge/PR%20%239648-stale-yellow)](https://github.com/velero-io/velero/pull/9648) **velero-io/velero** → `release-1.15` - release-1.15: Fix lint issues for golangci-lint v1.64.6
+- [![PR #9688](https://img.shields.io/badge/PR%20%239688-stale-yellow)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
+- [![PR #9689](https://img.shields.io/badge/PR%20%239689-stale-yellow)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9690](https://img.shields.io/badge/PR%20%239690-stale-yellow)](https://github.com/velero-io/velero/pull/9690) **velero-io/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
-- [![PR #9688](https://img.shields.io/badge/PR%20%239688-failing--ci-red)](https://github.com/velero-io/velero/pull/9688) **velero-io/velero** → `release-1.15` - [release-1.15] Add CI check for invalid characters in file paths
-- [![PR #9689](https://img.shields.io/badge/PR%20%239689-failing--ci-red)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-failing--ci-red)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 
 ## openshift
