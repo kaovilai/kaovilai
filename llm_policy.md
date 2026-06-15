@@ -28,6 +28,15 @@ Every pull request and reply I send — **including those that carry a note indi
 
 This level of disclosure goes beyond what many other people do when using AI. Plenty of contributors use AI without any attribution at all; my aim is to be more transparent than the norm, not less.
 
+## Exception: agentic workflows on my own repositories
+
+The human-review commitment above applies to my contributions to **other people's repositories**. I run an exception in **my own repositories** where I am experimenting with **agentic workflows** — for example [GitHub Agentic Workflows (GH-AW)](https://github.com/githubnext/gh-aw). GH-AW is the current experiment, but this exception applies equally to **any other agentic workflow tooling I may adopt in the future**, not just GH-AW.
+
+- This exception is limited to **repositories I own** (e.g. under [`github.com/kaovilai`](https://github.com/kaovilai)). It does **not** apply to repositories owned by others that I contribute to — those always receive the full human review described above.
+- Within these experiments, AI agents may open issues, commits, and pull requests **autonomously**, and some of that output may be merged with **lighter human review than I apply elsewhere** — that is the point of the experiment.
+- AI-produced contributions from these workflows remain attributed (via `Co-authored-by:` trailers and/or AI-generated notes) so it stays clear which work came from an agent.
+- I remain responsible for everything that lands in my own repositories.
+
 ## Respecting repository policies
 
 I respect each repository's own rules on AI usage.
