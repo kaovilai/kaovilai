@@ -5,11 +5,11 @@ This document describes how I, Tiger Kaovilai ([@kaovilai](https://github.com/ka
 ## Declaration
 
 - Some of my contributions (code, commits, and pull requests) may be **co-authored with AI**.
-- Some of my responses (issue comments, review replies, and discussion) may be **generated with AI**.
+- Some of my responses (issue comments, review replies, and discussions) may be **generated with AI**.
 
 When AI co-authors a commit, it is attributed via a `Co-authored-by:` trailer. When a response is AI-generated, I mark it inline, for example:
 
-> [!Note]
+> [!NOTE]
 > Responses generated with Claude
 
 If a repository prohibits the `Co-authored-by:` trailer, I will omit it. In those cases the repository often requires the pull request description to declare which AI was used, so the declaration will appear in the pull request description itself instead.
