@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-16 19:19:36 UTC
+> Last updated: 2026-06-16 21:07:07 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -37,6 +37,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
+- [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #394](https://img.shields.io/badge/PR%20%23394-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
