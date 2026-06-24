@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-24 17:42:15 UTC
+> Last updated: 2026-06-24 18:42:46 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -86,6 +86,13 @@ No open PRs.
 - [![PR #493](https://img.shields.io/badge/PR%20%23493-draft-gray)](https://github.com/kaovilai/dotfiles/pull/493) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Fix ZSH glob qualifier evaluation to properly cache compinit
 - [![PR #494](https://img.shields.io/badge/PR%20%23494-draft-gray)](https://github.com/kaovilai/dotfiles/pull/494) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache-file-expired with ZSH native globbing
 - [![PR #495](https://img.shields.io/badge/PR%20%23495-draft-gray)](https://github.com/kaovilai/dotfiles/pull/495) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize file staleness checks with native Zsh globbing
+- [![PR #496](https://img.shields.io/badge/PR%20%23496-draft-gray)](https://github.com/kaovilai/dotfiles/pull/496) **kaovilai/dotfiles** → `main` - 🧹 [code health] Extract shared socktainer socket check
+- [![PR #497](https://img.shields.io/badge/PR%20%23497-draft-gray)](https://github.com/kaovilai/dotfiles/pull/497) **kaovilai/dotfiles** → `main` - 🔒 Fix Arbitrary Code Execution in registry login
+- [![PR #498](https://img.shields.io/badge/PR%20%23498-draft-gray)](https://github.com/kaovilai/dotfiles/pull/498) **kaovilai/dotfiles** → `main` - ⚡ Optimize GitHub PR Diff Fetching Concurrency
+- [![PR #499](https://img.shields.io/badge/PR%20%23499-draft-gray)](https://github.com/kaovilai/dotfiles/pull/499) **kaovilai/dotfiles** → `main` - ⚡ perf: optimize `dco` git commit signoff checking with single git log query
+- [![PR #500](https://img.shields.io/badge/PR%20%23500-draft-gray)](https://github.com/kaovilai/dotfiles/pull/500) **kaovilai/dotfiles** → `main` - 🧹 Extract common logic in socktainer-symlink functions
+- [![PR #501](https://img.shields.io/badge/PR%20%23501-draft-gray)](https://github.com/kaovilai/dotfiles/pull/501) **kaovilai/dotfiles** → `main` - ⚡ Optimize brew package checks in migrate-laptop
+- [![PR #502](https://img.shields.io/badge/PR%20%23502-draft-gray)](https://github.com/kaovilai/dotfiles/pull/502) **kaovilai/dotfiles** → `main` - 🔒 Fix insecure curl -k usage in MinIO scripts
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
