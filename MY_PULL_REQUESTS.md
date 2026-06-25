@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-06-25 19:38:52 UTC
+> Last updated: 2026-06-25 20:45:35 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -38,6 +38,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
+- [![PR #2255](https://img.shields.io/badge/PR%20%232255-ready-green)](https://github.com/openshift/oadp-operator/pull/2255) **openshift/oadp-operator** → `oadp-dev` - fix(design): correct kubevirt datamover restore workflow
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
