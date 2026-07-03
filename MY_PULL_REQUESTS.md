@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-03 00:37:22 UTC
+> Last updated: 2026-07-03 07:06:50 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -99,6 +99,7 @@ No open PRs.
 - [![PR #510](https://img.shields.io/badge/PR%20%23510-draft-gray)](https://github.com/kaovilai/dotfiles/pull/510) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [optimize brew list check]
 - [![PR #511](https://img.shields.io/badge/PR%20%23511-draft-gray)](https://github.com/kaovilai/dotfiles/pull/511) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] fix compinit caching to speed up shell startup
 - [![PR #512](https://img.shields.io/badge/PR%20%23512-draft-gray)](https://github.com/kaovilai/dotfiles/pull/512) **kaovilai/dotfiles** → `main` - ⚡ Bolt: optimize brew list N+1 query in migrate-laptop
+- [![PR #513](https://img.shields.io/badge/PR%20%23513-draft-gray)](https://github.com/kaovilai/dotfiles/pull/513) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] fix compinit caching by properly evaluating extended_glob
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
