@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-04 18:17:42 UTC
+> Last updated: 2026-07-05 00:20:38 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -30,7 +30,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
-- [![PR #2019](https://img.shields.io/badge/PR%20%232019-ready-green)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
@@ -41,6 +40,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-stale-yellow)](https://github.com/openshift/velero-plugin-for-aws/pull/129) **openshift/velero-plugin-for-aws** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
+- [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
