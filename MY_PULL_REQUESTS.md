@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-08 17:33:57 UTC
+> Last updated: 2026-07-08 18:35:30 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -54,8 +54,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2208](https://img.shields.io/badge/PR%20%232208-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2208) **openshift/oadp-operator** → `oadp-1.4` - OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation
 - [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
-- [![PR #129](https://img.shields.io/badge/PR%20%23129-needs--attention-orange)](https://github.com/openshift/velero-plugin-for-aws/pull/129) **openshift/velero-plugin-for-aws** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
-- [![PR #394](https://img.shields.io/badge/PR%20%23394-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/394) **openshift/openshift-velero-plugin** → `oadp-1.3` - oadp-1.3: OADP-7568,OADP-7571: Fix CVEs: bump Go to 1.25.8, update dependencies
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
 
 ## migtools
