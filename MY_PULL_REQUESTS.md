@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-14 15:34:17 UTC
+> Last updated: 2026-07-14 16:32:42 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -36,6 +36,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
+- [![PR #81885](https://img.shields.io/badge/PR%20%2381885-waiting--merge-blue)](https://github.com/openshift/release/pull/81885) **openshift/release** → `main` - remove go1.25 pin from unit tests
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
