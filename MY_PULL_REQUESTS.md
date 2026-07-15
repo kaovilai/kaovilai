@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-15 15:35:05 UTC
+> Last updated: 2026-07-15 16:38:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -34,6 +34,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
+- [![PR #81959](https://img.shields.io/badge/PR%20%2381959-ready-green)](https://github.com/openshift/release/pull/81959) **openshift/release** → `main` - Require GH Actions checks, remove redundant Prow tests for velero + plugin forks
 - [![PR #81949](https://img.shields.io/badge/PR%20%2381949-waiting--merge-blue)](https://github.com/openshift/release/pull/81949) **openshift/release** → `main` - oadp: Update image tag from ubi9-v1.25 to ubi9-v1.26
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
@@ -54,6 +55,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2208](https://img.shields.io/badge/PR%20%232208-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2208) **openshift/oadp-operator** → `oadp-1.4` - OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
+- [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
