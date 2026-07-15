@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-15 18:30:06 UTC
+> Last updated: 2026-07-15 19:30:49 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -80,11 +80,17 @@ No open PRs.
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/319) **caozhiyuan/copilot-api** → `dev` - fix: override Vertex/Bedrock providers in Claude Code env command
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/320) **caozhiyuan/copilot-api** → `dev` - Copilot/refactor default models usage
+- [![PR #487](https://img.shields.io/badge/PR%20%23487-ready-green)](https://github.com/kaovilai/dotfiles/pull/487) **kaovilai/dotfiles** → `main` - ⚡ perf: optimize process formatting in kill-stuck-qemu
+- [![PR #497](https://img.shields.io/badge/PR%20%23497-ready-green)](https://github.com/kaovilai/dotfiles/pull/497) **kaovilai/dotfiles** → `main` - 🔒 Fix Arbitrary Code Execution in registry login
+- [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/kaovilai/dotfiles/pull/498) **kaovilai/dotfiles** → `main` - ⚡ Optimize GitHub PR Diff Fetching Concurrency
+- [![PR #499](https://img.shields.io/badge/PR%20%23499-ready-green)](https://github.com/kaovilai/dotfiles/pull/499) **kaovilai/dotfiles** → `main` - ⚡ perf: optimize `dco` git commit signoff checking with single git log query
+- [![PR #500](https://img.shields.io/badge/PR%20%23500-ready-green)](https://github.com/kaovilai/dotfiles/pull/500) **kaovilai/dotfiles** → `main` - 🧹 Extract common logic in socktainer-symlink functions
+- [![PR #506](https://img.shields.io/badge/PR%20%23506-ready-green)](https://github.com/kaovilai/dotfiles/pull/506) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize brew list performance by caching list into array
+- [![PR #509](https://img.shields.io/badge/PR%20%23509-ready-green)](https://github.com/kaovilai/dotfiles/pull/509) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Optimize file age checks with native Zsh globs
+- [![PR #516](https://img.shields.io/badge/PR%20%23516-ready-green)](https://github.com/kaovilai/dotfiles/pull/516) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] fix compinit startup check
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
-- [![PR #487](https://img.shields.io/badge/PR%20%23487-draft-gray)](https://github.com/kaovilai/dotfiles/pull/487) **kaovilai/dotfiles** → `main` - ⚡ perf: optimize process formatting in kill-stuck-qemu
-- [![PR #488](https://img.shields.io/badge/PR%20%23488-draft-gray)](https://github.com/kaovilai/dotfiles/pull/488) **kaovilai/dotfiles** → `main` - 🔒 Fix eval() vulnerability in verify-migration
 - [![PR #489](https://img.shields.io/badge/PR%20%23489-draft-gray)](https://github.com/kaovilai/dotfiles/pull/489) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Speed up zsh startup by fixing compinit cache check
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/kaovilai/dotfiles/pull/490) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Fix completion cache check to skip slow compinit
 - [![PR #491](https://img.shields.io/badge/PR%20%23491-draft-gray)](https://github.com/kaovilai/dotfiles/pull/491) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize ZSH caching built-ins to use native features
@@ -92,23 +98,15 @@ No open PRs.
 - [![PR #494](https://img.shields.io/badge/PR%20%23494-draft-gray)](https://github.com/kaovilai/dotfiles/pull/494) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache-file-expired with ZSH native globbing
 - [![PR #495](https://img.shields.io/badge/PR%20%23495-draft-gray)](https://github.com/kaovilai/dotfiles/pull/495) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize file staleness checks with native Zsh globbing
 - [![PR #496](https://img.shields.io/badge/PR%20%23496-draft-gray)](https://github.com/kaovilai/dotfiles/pull/496) **kaovilai/dotfiles** → `main` - 🧹 [code health] Extract shared socktainer socket check
-- [![PR #497](https://img.shields.io/badge/PR%20%23497-draft-gray)](https://github.com/kaovilai/dotfiles/pull/497) **kaovilai/dotfiles** → `main` - 🔒 Fix Arbitrary Code Execution in registry login
-- [![PR #498](https://img.shields.io/badge/PR%20%23498-draft-gray)](https://github.com/kaovilai/dotfiles/pull/498) **kaovilai/dotfiles** → `main` - ⚡ Optimize GitHub PR Diff Fetching Concurrency
-- [![PR #499](https://img.shields.io/badge/PR%20%23499-draft-gray)](https://github.com/kaovilai/dotfiles/pull/499) **kaovilai/dotfiles** → `main` - ⚡ perf: optimize `dco` git commit signoff checking with single git log query
-- [![PR #500](https://img.shields.io/badge/PR%20%23500-draft-gray)](https://github.com/kaovilai/dotfiles/pull/500) **kaovilai/dotfiles** → `main` - 🧹 Extract common logic in socktainer-symlink functions
 - [![PR #501](https://img.shields.io/badge/PR%20%23501-draft-gray)](https://github.com/kaovilai/dotfiles/pull/501) **kaovilai/dotfiles** → `main` - ⚡ Optimize brew package checks in migrate-laptop
 - [![PR #502](https://img.shields.io/badge/PR%20%23502-draft-gray)](https://github.com/kaovilai/dotfiles/pull/502) **kaovilai/dotfiles** → `main` - 🔒 Fix insecure curl -k usage in MinIO scripts
 - [![PR #505](https://img.shields.io/badge/PR%20%23505-draft-gray)](https://github.com/kaovilai/dotfiles/pull/505) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize Zsh cache expiration checking with native globbing
-- [![PR #506](https://img.shields.io/badge/PR%20%23506-draft-gray)](https://github.com/kaovilai/dotfiles/pull/506) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize brew list performance by caching list into array
 - [![PR #507](https://img.shields.io/badge/PR%20%23507-draft-gray)](https://github.com/kaovilai/dotfiles/pull/507) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [Optimize N+1 `brew list` in migrate-laptop.zsh]
-- [![PR #509](https://img.shields.io/badge/PR%20%23509-draft-gray)](https://github.com/kaovilai/dotfiles/pull/509) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Optimize file age checks with native Zsh globs
 - [![PR #510](https://img.shields.io/badge/PR%20%23510-draft-gray)](https://github.com/kaovilai/dotfiles/pull/510) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [optimize brew list check]
 - [![PR #511](https://img.shields.io/badge/PR%20%23511-draft-gray)](https://github.com/kaovilai/dotfiles/pull/511) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] fix compinit caching to speed up shell startup
 - [![PR #512](https://img.shields.io/badge/PR%20%23512-draft-gray)](https://github.com/kaovilai/dotfiles/pull/512) **kaovilai/dotfiles** → `main` - ⚡ Bolt: optimize brew list N+1 query in migrate-laptop
 - [![PR #513](https://img.shields.io/badge/PR%20%23513-draft-gray)](https://github.com/kaovilai/dotfiles/pull/513) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] fix compinit caching by properly evaluating extended_glob
-- [![PR #514](https://img.shields.io/badge/PR%20%23514-draft-gray)](https://github.com/kaovilai/dotfiles/pull/514) **kaovilai/dotfiles** → `main` - 🔒 Fix insecure TLS validation in ROSA STS login
 - [![PR #515](https://img.shields.io/badge/PR%20%23515-draft-gray)](https://github.com/kaovilai/dotfiles/pull/515) **kaovilai/dotfiles** → `main` - ⚡ Bolt: fix compinit cache skip caused by bare glob conditional
-- [![PR #516](https://img.shields.io/badge/PR%20%23516-draft-gray)](https://github.com/kaovilai/dotfiles/pull/516) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] fix compinit startup check
 - [![PR #517](https://img.shields.io/badge/PR%20%23517-draft-gray)](https://github.com/kaovilai/dotfiles/pull/517) **kaovilai/dotfiles** → `main` - ⚡ Bolt: optimize manual package installation
 - [![PR #518](https://img.shields.io/badge/PR%20%23518-draft-gray)](https://github.com/kaovilai/dotfiles/pull/518) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] optimize file age check in .zshrc
 - [![PR #519](https://img.shields.io/badge/PR%20%23519-draft-gray)](https://github.com/kaovilai/dotfiles/pull/519) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache file age checks using native Zsh globbing
@@ -144,6 +142,7 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #488](https://img.shields.io/badge/PR%20%23488-failing--ci-red)](https://github.com/kaovilai/dotfiles/pull/488) **kaovilai/dotfiles** → `main` - 🔒 Fix eval() vulnerability in verify-migration
 
 ---
 
