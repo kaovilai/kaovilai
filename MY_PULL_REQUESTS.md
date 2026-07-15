@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-15 00:26:52 UTC
+> Last updated: 2026-07-15 06:46:36 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -73,6 +73,7 @@ No open PRs.
 ## Other
 
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
+- [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
