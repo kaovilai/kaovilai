@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-15 22:24:39 UTC
+> Last updated: 2026-07-15 23:20:35 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,7 +10,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
-- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-draft-gray)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
@@ -28,6 +27,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9689](https://img.shields.io/badge/PR%20%239689-stale-yellow)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9690](https://img.shields.io/badge/PR%20%239690-stale-yellow)](https://github.com/velero-io/velero/pull/9690) **velero-io/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
+- [![PR #9910](https://img.shields.io/badge/PR%20%239910-failing--ci-red)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 
 ## openshift
 
