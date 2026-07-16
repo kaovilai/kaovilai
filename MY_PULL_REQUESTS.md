@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-16 14:44:07 UTC
+> Last updated: 2026-07-16 15:36:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -8,9 +8,11 @@ This file is automatically updated every hour by GitHub Actions.
 ## velero-io
 
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
+- [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
-- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
+- [![PR #313](https://img.shields.io/badge/PR%20%23313-ci--pending-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/313) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] Fix prevent amz-checksum encapsulation when checksumAlgorithm=""
+- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-draft-gray)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
@@ -28,6 +30,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9689](https://img.shields.io/badge/PR%20%239689-stale-yellow)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9690](https://img.shields.io/badge/PR%20%239690-stale-yellow)](https://github.com/velero-io/velero/pull/9690) **velero-io/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
+- [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
+- [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
+- [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
 
 ## openshift
 
@@ -80,18 +85,10 @@ No open PRs.
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/320) **caozhiyuan/copilot-api** → `dev` - Copilot/refactor default models usage
-- [![PR #502](https://img.shields.io/badge/PR%20%23502-ready-green)](https://github.com/kaovilai/dotfiles/pull/502) **kaovilai/dotfiles** → `main` - 🔒 Fix insecure curl -k usage in MinIO scripts
-- [![PR #509](https://img.shields.io/badge/PR%20%23509-ready-green)](https://github.com/kaovilai/dotfiles/pull/509) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Optimize file age checks with native Zsh globs
+- [![PR #495](https://img.shields.io/badge/PR%20%23495-ready-green)](https://github.com/kaovilai/dotfiles/pull/495) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize file staleness checks with native Zsh globbing
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
-- [![PR #491](https://img.shields.io/badge/PR%20%23491-draft-gray)](https://github.com/kaovilai/dotfiles/pull/491) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize ZSH caching built-ins to use native features
-- [![PR #494](https://img.shields.io/badge/PR%20%23494-draft-gray)](https://github.com/kaovilai/dotfiles/pull/494) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache-file-expired with ZSH native globbing
-- [![PR #495](https://img.shields.io/badge/PR%20%23495-draft-gray)](https://github.com/kaovilai/dotfiles/pull/495) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize file staleness checks with native Zsh globbing
-- [![PR #505](https://img.shields.io/badge/PR%20%23505-draft-gray)](https://github.com/kaovilai/dotfiles/pull/505) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize Zsh cache expiration checking with native globbing
-- [![PR #518](https://img.shields.io/badge/PR%20%23518-draft-gray)](https://github.com/kaovilai/dotfiles/pull/518) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] optimize file age check in .zshrc
-- [![PR #519](https://img.shields.io/badge/PR%20%23519-draft-gray)](https://github.com/kaovilai/dotfiles/pull/519) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache file age checks using native Zsh globbing
-- [![PR #526](https://img.shields.io/badge/PR%20%23526-draft-gray)](https://github.com/kaovilai/dotfiles/pull/526) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache expiration checks by removing external stat calls
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
