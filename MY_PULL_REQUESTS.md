@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-16 19:29:48 UTC
+> Last updated: 2026-07-16 20:22:22 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -14,8 +14,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
-- [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
+- [![PR #10024](https://img.shields.io/badge/PR%20%2310024-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10024) **velero-io/velero** → `main` - Derive dev-tool CLI versions from go.mod (ginkgo, protoc-gen-go, goimports)
+- [![PR #9795](https://img.shields.io/badge/PR%20%239795-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-draft-gray)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Handle WaitForCacheSync failures for resources without watch support
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
@@ -58,12 +59,14 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
+- [![PR #63](https://img.shields.io/badge/PR%20%2363-failing--ci-red)](https://github.com/openshift/restic/pull/63) **openshift/restic** → `oadp-dev` - Group all Go dependency updates in Dependabot
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
 
 ## migtools
 
 - [![PR #110](https://img.shields.io/badge/PR%20%23110-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/110) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message
+- [![PR #177](https://img.shields.io/badge/PR%20%23177-ready-green)](https://github.com/migtools/udistribution/pull/177) **migtools/udistribution** → `main` - Group all Go dependency updates in Dependabot
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/273) **migtools/oadp-non-admin** → `oadp-dev` - Add GitHub Actions workflow to update OADP Go dependencies automatically
