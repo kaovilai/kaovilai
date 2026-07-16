@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-16 13:36:16 UTC
+> Last updated: 2026-07-16 14:44:07 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -80,6 +80,7 @@ No open PRs.
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/320) **caozhiyuan/copilot-api** → `dev` - Copilot/refactor default models usage
+- [![PR #502](https://img.shields.io/badge/PR%20%23502-ready-green)](https://github.com/kaovilai/dotfiles/pull/502) **kaovilai/dotfiles** → `main` - 🔒 Fix insecure curl -k usage in MinIO scripts
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-ready-green)](https://github.com/kaovilai/dotfiles/pull/509) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Optimize file age checks with native Zsh globs
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
@@ -87,7 +88,6 @@ No open PRs.
 - [![PR #491](https://img.shields.io/badge/PR%20%23491-draft-gray)](https://github.com/kaovilai/dotfiles/pull/491) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize ZSH caching built-ins to use native features
 - [![PR #494](https://img.shields.io/badge/PR%20%23494-draft-gray)](https://github.com/kaovilai/dotfiles/pull/494) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache-file-expired with ZSH native globbing
 - [![PR #495](https://img.shields.io/badge/PR%20%23495-draft-gray)](https://github.com/kaovilai/dotfiles/pull/495) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize file staleness checks with native Zsh globbing
-- [![PR #502](https://img.shields.io/badge/PR%20%23502-draft-gray)](https://github.com/kaovilai/dotfiles/pull/502) **kaovilai/dotfiles** → `main` - 🔒 Fix insecure curl -k usage in MinIO scripts
 - [![PR #505](https://img.shields.io/badge/PR%20%23505-draft-gray)](https://github.com/kaovilai/dotfiles/pull/505) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize Zsh cache expiration checking with native globbing
 - [![PR #518](https://img.shields.io/badge/PR%20%23518-draft-gray)](https://github.com/kaovilai/dotfiles/pull/518) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] optimize file age check in .zshrc
 - [![PR #519](https://img.shields.io/badge/PR%20%23519-draft-gray)](https://github.com/kaovilai/dotfiles/pull/519) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache file age checks using native Zsh globbing
