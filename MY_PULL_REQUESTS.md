@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-16 00:30:37 UTC
+> Last updated: 2026-07-16 06:50:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -79,7 +79,6 @@ No open PRs.
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
-- [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/319) **caozhiyuan/copilot-api** → `dev` - fix: override Vertex/Bedrock providers in Claude Code env command
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/320) **caozhiyuan/copilot-api** → `dev` - Copilot/refactor default models usage
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-ready-green)](https://github.com/kaovilai/dotfiles/pull/509) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Optimize file age checks with native Zsh globs
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
@@ -92,6 +91,7 @@ No open PRs.
 - [![PR #505](https://img.shields.io/badge/PR%20%23505-draft-gray)](https://github.com/kaovilai/dotfiles/pull/505) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize Zsh cache expiration checking with native globbing
 - [![PR #518](https://img.shields.io/badge/PR%20%23518-draft-gray)](https://github.com/kaovilai/dotfiles/pull/518) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] optimize file age check in .zshrc
 - [![PR #519](https://img.shields.io/badge/PR%20%23519-draft-gray)](https://github.com/kaovilai/dotfiles/pull/519) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache file age checks using native Zsh globbing
+- [![PR #526](https://img.shields.io/badge/PR%20%23526-draft-gray)](https://github.com/kaovilai/dotfiles/pull/526) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Optimize cache expiration checks by removing external stat calls
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
@@ -124,6 +124,7 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/caozhiyuan/copilot-api/pull/319) **caozhiyuan/copilot-api** → `dev` - fix: override Vertex/Bedrock providers in Claude Code env command
 
 ---
 
