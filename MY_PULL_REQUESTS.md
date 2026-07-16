@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-15 23:20:35 UTC
+> Last updated: 2026-07-16 00:30:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,6 +10,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
+- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-draft-gray)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-draft-gray)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-draft-gray)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
@@ -27,7 +28,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9689](https://img.shields.io/badge/PR%20%239689-stale-yellow)](https://github.com/velero-io/velero/pull/9689) **velero-io/velero** → `release-1.16` - [release-1.16] Add CI check for invalid characters in file paths
 - [![PR #9690](https://img.shields.io/badge/PR%20%239690-stale-yellow)](https://github.com/velero-io/velero/pull/9690) **velero-io/velero** → `release-1.17` - [release-1.17] Add CI check for invalid characters in file paths
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
-- [![PR #9910](https://img.shields.io/badge/PR%20%239910-failing--ci-red)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 
 ## openshift
 
@@ -35,7 +35,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #81959](https://img.shields.io/badge/PR%20%2381959-waiting--merge-blue)](https://github.com/openshift/release/pull/81959) **openshift/release** → `main` - Require GH Actions checks, remove redundant Prow tests for velero + plugin forks
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
