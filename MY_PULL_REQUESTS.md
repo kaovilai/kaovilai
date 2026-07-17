@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-17 19:28:54 UTC
+> Last updated: 2026-07-17 20:23:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -108,7 +108,6 @@ No open PRs.
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-draft-gray)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
-- [![PR #63](https://img.shields.io/badge/PR%20%2363-draft-gray)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
@@ -141,6 +140,7 @@ No open PRs.
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
+- [![PR #63](https://img.shields.io/badge/PR%20%2363-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
