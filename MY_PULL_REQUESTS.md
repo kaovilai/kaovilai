@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-17 12:33:04 UTC
+> Last updated: 2026-07-17 13:35:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -69,7 +69,8 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #110](https://img.shields.io/badge/PR%20%23110-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/110) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message
-- [![PR #115](https://img.shields.io/badge/PR%20%23115-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
+- [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
+- [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/273) **migtools/oadp-non-admin** → `oadp-dev` - Add GitHub Actions workflow to update OADP Go dependencies automatically
