@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-17 20:23:33 UTC
+> Last updated: 2026-07-17 21:19:14 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -103,13 +103,13 @@ No open PRs.
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
-- [![PR #126](https://img.shields.io/badge/PR%20%23126-draft-gray)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
 - [![PR #147](https://img.shields.io/badge/PR%20%23147-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/147) **kaovilai/kaovilai.pw** → `main` - Add Thai QR (PromptPay) payment method to Pay Me section
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-draft-gray)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
+- [![PR #126](https://img.shields.io/badge/PR%20%23126-stale-yellow)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/CarmiWisemon/openshift-docs/pull/1) **CarmiWisemon/openshift-docs** → `oadp1178flags` - keep .gitignore
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/ci-docs/pull/1) **kaovilai/ci-docs** → `main` - docs: Testing OLM-Deployed Operators in CI — add FBC catalog image and OLMv1 guidance
