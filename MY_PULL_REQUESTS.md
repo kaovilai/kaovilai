@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-17 15:32:38 UTC
+> Last updated: 2026-07-17 16:30:52 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -27,6 +27,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-stale-yellow)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
+- [![PR #10019](https://img.shields.io/badge/PR%20%2310019-failing--ci-red)](https://github.com/velero-io/velero/pull/10019) **velero-io/velero** → `main` - Remove Auto Request Review workflow in favor of CODEOWNERS
 - [![PR #10027](https://img.shields.io/badge/PR%20%2310027-failing--ci-red)](https://github.com/velero-io/velero/pull/10027) **velero-io/velero** → `main` - Add set-based label selector test and docs coverage for restore
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-failing--ci-red)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10030](https://img.shields.io/badge/PR%20%2310030-failing--ci-red)](https://github.com/velero-io/velero/pull/10030) **velero-io/velero** → `main` - Fix flaky TestKopiaObjectWriterEx_ConcurrentAsyncErrors
@@ -70,13 +71,21 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #110](https://img.shields.io/badge/PR%20%23110-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/110) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message
 - [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
+- [![PR #119](https://img.shields.io/badge/PR%20%23119-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/119) **migtools/kubevirt-datamover-controller** → `oadp-dev` - ci: upgrade workflow actions off deprecated Node 20
+- [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
+- [![PR #170](https://img.shields.io/badge/PR%20%23170-draft-gray)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
+- [![PR #4](https://img.shields.io/badge/PR%20%234-draft-gray)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
+- [![PR #77](https://img.shields.io/badge/PR%20%2377-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/77) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Force full backup when BSL checkpoint validation cannot confirm a valid chain
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/273) **migtools/oadp-non-admin** → `oadp-dev` - Add GitHub Actions workflow to update OADP Go dependencies automatically
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
+- [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/migtools/mm-ai-knowledge/pull/2) **migtools/mm-ai-knowledge** → `main` - Document repository scope to prevent overlap with openshift-eng/ai-helpers
+- [![PR #307](https://img.shields.io/badge/PR%20%23307-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/307) **migtools/oadp-non-admin** → `oadp-dev` - Document usage of NADR (NonAdminDownloadRequest) feature
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
+- [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase
 
@@ -87,18 +96,26 @@ No open PRs.
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #165](https://img.shields.io/badge/PR%20%23165-ready-green)](https://github.com/helm/kind-action/pull/165) **helm/kind-action** → `main` - fix: add curl retry flags to download calls
+- [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
+- [![PR #126](https://img.shields.io/badge/PR%20%23126-draft-gray)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
+- [![PR #147](https://img.shields.io/badge/PR%20%23147-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/147) **kaovilai/kaovilai.pw** → `main` - Add Thai QR (PromptPay) payment method to Pay Me section
 - [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
+- [![PR #46](https://img.shields.io/badge/PR%20%2346-draft-gray)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
+- [![PR #63](https://img.shields.io/badge/PR%20%2363-draft-gray)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/CarmiWisemon/openshift-docs/pull/1) **CarmiWisemon/openshift-docs** → `oadp1178flags` - keep .gitignore
+- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/ci-docs/pull/1) **kaovilai/ci-docs** → `main` - docs: Testing OLM-Deployed Operators in CI — add FBC catalog image and OLMv1 guidance
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
+- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/localsend/pull/1) **kaovilai/localsend** → `main` - feat: Bluetooth (BLE) device discovery for LocalSend (issue #850) with iOS and Android support
+- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/socktainer/pull/1) **kaovilai/socktainer** → `main` - feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/mpryc/velero/pull/1) **mpryc/velero** → `aws_creds_exposed` - Simplify cred scrubbing
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
@@ -114,6 +131,7 @@ No open PRs.
 - [![PR #31](https://img.shields.io/badge/PR%20%2331-stale-yellow)](https://github.com/kaovilai/AdJS/pull/31) **kaovilai/AdJS** → `master` - Update main.yml
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/3) **kaovilai/att-router-tracker** → `main` - feat: Add Device Access Code Authentication
+- [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/go-playground/pull/3) **kaovilai/go-playground** → `main` - Add execution output logging to timestamped files via GitHub workflow
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
 - [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-stale-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
@@ -125,6 +143,7 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #65](https://img.shields.io/badge/PR%20%2365-failing--ci-red)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65) **kaovilai/k8s-cbt-s3mover-demo** → `main` - [improve] ci: add concurrency groups to prevent stale demo workflow overlap
 
 ---
 
