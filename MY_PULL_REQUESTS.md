@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-19 12:13:47 UTC
+> Last updated: 2026-07-19 18:14:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -104,7 +104,6 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #147](https://img.shields.io/badge/PR%20%23147-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/147) **kaovilai/kaovilai.pw** → `main` - Add Thai QR (PromptPay) payment method to Pay Me section
-- [![PR #2](https://img.shields.io/badge/PR%20%232-draft-gray)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-draft-gray)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
@@ -130,6 +129,7 @@ No open PRs.
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/github-mcp-server/pull/2) **kaovilai/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/oadp-vmdp/pull/2) **kaovilai/oadp-vmdp** → `master` - https://github.com/kopia/kopia/pull/4303 test preview
+- [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/mowhammadrezaa/SmartFormFiller/pull/2) **mowhammadrezaa/SmartFormFiller** → `main` - WIP: ollama
 - [![PR #31](https://img.shields.io/badge/PR%20%2331-stale-yellow)](https://github.com/kaovilai/AdJS/pull/31) **kaovilai/AdJS** → `master` - Update main.yml
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
