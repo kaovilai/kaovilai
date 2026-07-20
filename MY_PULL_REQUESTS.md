@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-20 20:35:24 UTC
+> Last updated: 2026-07-20 21:28:44 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -76,9 +76,9 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #110](https://img.shields.io/badge/PR%20%23110-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/110) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message
+- [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
 - [![PR #119](https://img.shields.io/badge/PR%20%23119-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/119) **migtools/kubevirt-datamover-controller** → `oadp-dev` - ci: upgrade workflow actions off deprecated Node 20
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
-- [![PR #115](https://img.shields.io/badge/PR%20%23115-ci--pending-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-draft-gray)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #77](https://img.shields.io/badge/PR%20%2377-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/77) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Force full backup when BSL checkpoint validation cannot confirm a valid chain
