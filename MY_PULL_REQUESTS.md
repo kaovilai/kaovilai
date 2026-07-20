@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-20 07:06:00 UTC
+> Last updated: 2026-07-20 12:50:01 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -27,7 +27,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-stale-yellow)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
-- [![PR #10019](https://img.shields.io/badge/PR%20%2310019-failing--ci-red)](https://github.com/velero-io/velero/pull/10019) **velero-io/velero** → `main` - Remove Auto Request Review workflow in favor of CODEOWNERS
 - [![PR #10027](https://img.shields.io/badge/PR%20%2310027-failing--ci-red)](https://github.com/velero-io/velero/pull/10027) **velero-io/velero** → `main` - Add set-based label selector test and docs coverage for restore
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-failing--ci-red)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10030](https://img.shields.io/badge/PR%20%2310030-failing--ci-red)](https://github.com/velero-io/velero/pull/10030) **velero-io/velero** → `main` - Fix flaky TestKopiaObjectWriterEx_ConcurrentAsyncErrors
