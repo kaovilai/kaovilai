@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-20 19:35:10 UTC
+> Last updated: 2026-07-20 20:35:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -22,6 +22,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-draft-gray)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
+- [![PR #10051](https://img.shields.io/badge/PR%20%2310051-draft-gray)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-draft-gray)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
@@ -33,6 +34,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-failing--ci-red)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10030](https://img.shields.io/badge/PR%20%2310030-failing--ci-red)](https://github.com/velero-io/velero/pull/10030) **velero-io/velero** → `main` - Fix flaky TestKopiaObjectWriterEx_ConcurrentAsyncErrors
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
+- [![PR #10049](https://img.shields.io/badge/PR%20%2310049-failing--ci-red)](https://github.com/velero-io/velero/pull/10049) **velero-io/velero** → `main` - Fix CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
@@ -74,9 +76,9 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #110](https://img.shields.io/badge/PR%20%23110-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/110) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message
-- [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
 - [![PR #119](https://img.shields.io/badge/PR%20%23119-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/119) **migtools/kubevirt-datamover-controller** → `oadp-dev` - ci: upgrade workflow actions off deprecated Node 20
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
+- [![PR #115](https://img.shields.io/badge/PR%20%23115-ci--pending-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-draft-gray)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #77](https://img.shields.io/badge/PR%20%2377-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/77) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Force full backup when BSL checkpoint validation cannot confirm a valid chain
