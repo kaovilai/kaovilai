@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-20 18:42:30 UTC
+> Last updated: 2026-07-20 19:35:10 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -9,6 +9,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10024](https://img.shields.io/badge/PR%20%2310024-ready-green)](https://github.com/velero-io/velero/pull/10024) **velero-io/velero** → `main` - Derive dev-tool CLI versions from go.mod (ginkgo, protoc-gen-go, goimports)
+- [![PR #10047](https://img.shields.io/badge/PR%20%2310047-ready-green)](https://github.com/velero-io/velero/pull/10047) **velero-io/velero** → `main` - Fix restore-wait init container ignoring pod-level securityContext (milestone: **v1.19**)
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
