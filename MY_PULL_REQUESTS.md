@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-20 14:48:36 UTC
+> Last updated: 2026-07-20 15:39:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -20,6 +20,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
+- [![PR #10041](https://img.shields.io/badge/PR%20%2310041-draft-gray)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-draft-gray)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
@@ -77,7 +78,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-draft-gray)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
-- [![PR #4](https://img.shields.io/badge/PR%20%234-draft-gray)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #77](https://img.shields.io/badge/PR%20%2377-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/77) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Force full backup when BSL checkpoint validation cannot confirm a valid chain
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
@@ -85,6 +85,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/migtools/mm-ai-knowledge/pull/2) **migtools/mm-ai-knowledge** → `main` - Document repository scope to prevent overlap with openshift-eng/ai-helpers
 - [![PR #307](https://img.shields.io/badge/PR%20%23307-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/307) **migtools/oadp-non-admin** → `oadp-dev` - Document usage of NADR (NonAdminDownloadRequest) feature
+- [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
