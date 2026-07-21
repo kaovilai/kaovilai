@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-21 00:32:19 UTC
+> Last updated: 2026-07-21 06:52:38 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -17,7 +17,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
-- [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
@@ -40,6 +39,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-failing--ci-red)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-failing--ci-red)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
+- [![PR #9772](https://img.shields.io/badge/PR%20%239772-failing--ci-red)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 
 ## openshift
 
@@ -49,7 +49,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #444](https://img.shields.io/badge/PR%20%23444-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/444) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-7384: Copy imagestream images from the stream's own repository
+- [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
+- [![PR #82189](https://img.shields.io/badge/PR%20%2382189-ready-green)](https://github.com/openshift/release/pull/82189) **openshift/release** → `main` - Exclude copilot/* branches from migtools branch protection
 - [![PR #2313](https://img.shields.io/badge/PR%20%232313-draft-gray)](https://github.com/openshift/oadp-operator/pull/2313) **openshift/oadp-operator** → `oadp-dev` - Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -106,13 +108,13 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
-- [![PR #46](https://img.shields.io/badge/PR%20%2346-ready-green)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #147](https://img.shields.io/badge/PR%20%23147-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/147) **kaovilai/kaovilai.pw** → `main` - Add Thai QR (PromptPay) payment method to Pay Me section
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #538](https://img.shields.io/badge/PR%20%23538-draft-gray)](https://github.com/kaovilai/dotfiles/pull/538) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit to improve shell startup time
+- [![PR #540](https://img.shields.io/badge/PR%20%23540-draft-gray)](https://github.com/kaovilai/dotfiles/pull/540) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #126](https://img.shields.io/badge/PR%20%23126-stale-yellow)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
@@ -153,6 +155,7 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #46](https://img.shields.io/badge/PR%20%2346-failing--ci-red)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 
 ---
 
