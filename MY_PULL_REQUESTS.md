@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-21 19:33:33 UTC
+> Last updated: 2026-07-21 20:31:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -19,8 +19,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
+- [![PR #10054](https://img.shields.io/badge/PR%20%2310054-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10054) **velero-io/velero** → `main` - Update security contact email and links in SECURITY.md
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
-- [![PR #10054](https://img.shields.io/badge/PR%20%2310054-draft-gray)](https://github.com/velero-io/velero/pull/10054) **velero-io/velero** → `main` - Update security contact email and links in SECURITY.md
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-draft-gray)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
