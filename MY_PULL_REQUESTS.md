@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-22 14:44:23 UTC
+> Last updated: 2026-07-22 15:35:04 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -43,7 +43,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
-- [![PR #150](https://img.shields.io/badge/PR%20%23150-ready-green)](https://github.com/openshift/oadp-must-gather/pull/150) **openshift/oadp-must-gather** → `oadp-dev` - Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
@@ -52,6 +51,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #82189](https://img.shields.io/badge/PR%20%2382189-ready-green)](https://github.com/openshift/release/pull/82189) **openshift/release** → `main` - Exclude copilot/* branches from migtools branch protection
+- [![PR #150](https://img.shields.io/badge/PR%20%23150-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/150) **openshift/oadp-must-gather** → `oadp-dev` - Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #2313](https://img.shields.io/badge/PR%20%232313-draft-gray)](https://github.com/openshift/oadp-operator/pull/2313) **openshift/oadp-operator** → `oadp-dev` - Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
