@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-22 06:53:16 UTC
+> Last updated: 2026-07-22 12:39:12 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,7 +10,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10024](https://img.shields.io/badge/PR%20%2310024-ready-green)](https://github.com/velero-io/velero/pull/10024) **velero-io/velero** → `main` - Derive dev-tool CLI versions from go.mod (ginkgo, protoc-gen-go, goimports)
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
-- [![PR #10054](https://img.shields.io/badge/PR%20%2310054-ready-green)](https://github.com/velero-io/velero/pull/10054) **velero-io/velero** → `main` - Update security contact email and links in SECURITY.md
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
@@ -35,6 +34,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10047](https://img.shields.io/badge/PR%20%2310047-failing--ci-red)](https://github.com/velero-io/velero/pull/10047) **velero-io/velero** → `main` - Fix restore-wait init container ignoring pod-level securityContext (milestone: **v1.19**)
 - [![PR #10049](https://img.shields.io/badge/PR%20%2310049-failing--ci-red)](https://github.com/velero-io/velero/pull/10049) **velero-io/velero** → `main` - Fix CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures
+- [![PR #10054](https://img.shields.io/badge/PR%20%2310054-failing--ci-red)](https://github.com/velero-io/velero/pull/10054) **velero-io/velero** → `main` - Update security contact email and links in SECURITY.md
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
