@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-23 19:33:15 UTC
+> Last updated: 2026-07-23 20:28:12 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -8,7 +8,6 @@ This file is automatically updated every hour by GitHub Actions.
 ## velero-io
 
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
-- [![PR #10024](https://img.shields.io/badge/PR%20%2310024-ready-green)](https://github.com/velero-io/velero/pull/10024) **velero-io/velero** → `main` - Derive dev-tool CLI versions from go.mod (ginkgo, protoc-gen-go, goimports)
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10054](https://img.shields.io/badge/PR%20%2310054-ready-green)](https://github.com/velero-io/velero/pull/10054) **velero-io/velero** → `main` - Update security contact email and links in SECURITY.md
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
@@ -30,7 +29,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 - [![PR #10027](https://img.shields.io/badge/PR%20%2310027-failing--ci-red)](https://github.com/velero-io/velero/pull/10027) **velero-io/velero** → `main` - Add set-based label selector test and docs coverage for restore
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-failing--ci-red)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
-- [![PR #10030](https://img.shields.io/badge/PR%20%2310030-failing--ci-red)](https://github.com/velero-io/velero/pull/10030) **velero-io/velero** → `main` - Fix flaky TestKopiaObjectWriterEx_ConcurrentAsyncErrors
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10047](https://img.shields.io/badge/PR%20%2310047-failing--ci-red)](https://github.com/velero-io/velero/pull/10047) **velero-io/velero** → `main` - Fix restore-wait init container ignoring pod-level securityContext (milestone: **v1.19**)
