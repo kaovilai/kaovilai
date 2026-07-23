@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-23 20:28:12 UTC
+> Last updated: 2026-07-23 21:27:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -78,7 +78,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
-- [![PR #77](https://img.shields.io/badge/PR%20%2377-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/77) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Force full backup when BSL checkpoint validation cannot confirm a valid chain
 - [![PR #136](https://img.shields.io/badge/PR%20%23136-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-draft-gray)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
