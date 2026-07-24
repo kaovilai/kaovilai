@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-24 00:29:37 UTC
+> Last updated: 2026-07-24 06:52:12 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -112,6 +112,7 @@ No open PRs.
 - [![PR #540](https://img.shields.io/badge/PR%20%23540-draft-gray)](https://github.com/kaovilai/dotfiles/pull/540) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #541](https://img.shields.io/badge/PR%20%23541-draft-gray)](https://github.com/kaovilai/dotfiles/pull/541) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster startup
 - [![PR #543](https://img.shields.io/badge/PR%20%23543-draft-gray)](https://github.com/kaovilai/dotfiles/pull/543) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
+- [![PR #544](https://img.shields.io/badge/PR%20%23544-draft-gray)](https://github.com/kaovilai/dotfiles/pull/544) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #126](https://img.shields.io/badge/PR%20%23126-stale-yellow)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
