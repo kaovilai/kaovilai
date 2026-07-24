@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-24 20:33:46 UTC
+> Last updated: 2026-07-24 21:27:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -17,6 +17,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
+- [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
@@ -37,7 +38,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-failing--ci-red)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-failing--ci-red)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
-- [![PR #9772](https://img.shields.io/badge/PR%20%239772-failing--ci-red)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 
 ## openshift
 
@@ -50,7 +50,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5329](https://img.shields.io/badge/PR%20%235329-ready-green)](https://github.com/openshift/ci-tools/pull/5329) **openshift/ci-tools** → `main` - pkg/steps: pin bundle builds to amd64 nodes
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #82429](https://img.shields.io/badge/PR%20%2382429-ready-green)](https://github.com/openshift/release/pull/82429) **openshift/release** → `main` - Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26
+- [![PR #82434](https://img.shields.io/badge/PR%20%2382434-waiting--merge-blue)](https://github.com/openshift/release/pull/82434) **openshift/release** → `main` - Update image tag from ubi9-v1.25 to ubi9-v1.26
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
@@ -78,8 +78,11 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
+- [![PR #144](https://img.shields.io/badge/PR%20%23144-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/144) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Bump golangci-lint to v2.12.2 to match CI and support Go 1.26
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #136](https://img.shields.io/badge/PR%20%23136-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
+- [![PR #142](https://img.shields.io/badge/PR%20%23142-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/142) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Bump GitHub Actions to node24 runtime versions
+- [![PR #143](https://img.shields.io/badge/PR%20%23143-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/143) **migtools/kubevirt-datamover-controller** → `oadp-1.6` - oadp-1.6: Bump GitHub Actions to node24 runtime versions
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-draft-gray)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
@@ -91,6 +94,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
+- [![PR #141](https://img.shields.io/badge/PR%20%23141-failing--ci-red)](https://github.com/migtools/kubevirt-datamover-controller/pull/141) **migtools/kubevirt-datamover-controller** → `oadp-1.6` - 1.6: Bump Dockerfile Go version from 1.25 to 1.26
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase
