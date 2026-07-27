@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-27 18:37:13 UTC
+> Last updated: 2026-07-27 19:33:30 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -95,7 +95,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
-- [![PR #141](https://img.shields.io/badge/PR%20%23141-failing--ci-red)](https://github.com/migtools/kubevirt-datamover-controller/pull/141) **migtools/kubevirt-datamover-controller** → `oadp-1.6` - 1.6: Bump Dockerfile Go version from 1.25 to 1.26
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase
