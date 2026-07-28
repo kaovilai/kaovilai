@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-28 15:49:49 UTC
+> Last updated: 2026-07-28 16:36:20 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,7 +77,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement downloader runtime for VM restore (issue #73 Phase 2)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #136](https://img.shields.io/badge/PR%20%23136-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/142) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Bump GitHub Actions to node24 runtime versions
