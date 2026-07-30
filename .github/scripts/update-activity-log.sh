@@ -3,7 +3,12 @@ set -euo pipefail
 
 OUTPUT_FILE="MY_ACTIVITY.md"
 
+# JSON output for structured consumption (e.g. kaovilai.pw)
+JSON_OUTPUT_FILE="activity.json"
+
 CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+GENERATED_AT_ISO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+TODAY=$(date -u +%Y-%m-%d)
 TWO_WEEKS_AGO=$(date -u -d '14 days ago' +%Y-%m-%d 2>/dev/null || date -u -v-14d +%Y-%m-%d)
 
 # Retry wrapper with exponential backoff
@@ -140,3 +145,35 @@ $(group_by_org "$CLOSED_ISSUES")
 EOF
 
 echo "Activity log generated successfully!"
+
+# Write structured JSON output
+# Maps raw gh search results to a compact shape: {number, repo, org, title, url}
+JSON_ITEM_FILTER='map({number:.number, repo:.repository.nameWithOwner, org:(.repository.nameWithOwner|split("/")[0]), title:.title, url:.url})'
+
+jq -n \
+    --arg start "$TWO_WEEKS_AGO" \
+    --arg end "$TODAY" \
+    --arg generatedAt "$GENERATED_AT_ISO" \
+    --argjson prsMerged "$(echo "$MERGED_PRS" | jq "$JSON_ITEM_FILTER")" \
+    --argjson prsOpened "$(echo "$OPENED_PRS" | jq "$JSON_ITEM_FILTER")" \
+    --argjson prsReviewed "$(echo "$REVIEWED_PRS" | jq "$JSON_ITEM_FILTER")" \
+    --argjson issuesCommented "$(echo "$COMMENTED" | jq "$JSON_ITEM_FILTER")" \
+    --argjson issuesClosed "$(echo "$CLOSED_ISSUES" | jq "$JSON_ITEM_FILTER")" \
+    '{
+        period: {start: $start, end: $end},
+        generatedAt: $generatedAt,
+        metrics: {
+            prsMerged: ($prsMerged | length),
+            prsOpened: ($prsOpened | length),
+            prsReviewed: ($prsReviewed | length),
+            issuesCommented: ($issuesCommented | length),
+            issuesClosed: ($issuesClosed | length)
+        },
+        prsMerged: $prsMerged,
+        prsOpened: $prsOpened,
+        prsReviewed: $prsReviewed,
+        issuesCommented: $issuesCommented,
+        issuesClosed: $issuesClosed
+    }' > "$JSON_OUTPUT_FILE"
+
+echo "Activity JSON generated successfully!"

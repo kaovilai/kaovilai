@@ -4,8 +4,12 @@ set -euo pipefail
 # File to update
 OUTPUT_FILE="MY_PULL_REQUESTS.md"
 
+# JSON output for structured consumption (e.g. kaovilai.pw)
+JSON_OUTPUT_FILE="open-prs.json"
+
 # Get current date
 CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+UPDATED_AT_ISO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
 # Calculate stale date (60 days ago)
 STALE_DATE=$(date -u -d '60 days ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-60d +%Y-%m-%dT%H:%M:%SZ)
@@ -329,20 +333,46 @@ for i in $(seq 0 $((index - 1))); do
     case "$org" in
         velero-io)
             VELERO_IO_PRS+=("$sorted_badge")
+            org_sort=1
             ;;
         openshift)
             OPENSHIFT_PRS+=("$sorted_badge")
+            org_sort=2
             ;;
         migtools)
             MIGTOOLS_PRS+=("$sorted_badge")
+            org_sort=3
             ;;
         oadp-rebase)
             OADP_REBASE_PRS+=("$sorted_badge")
+            org_sort=4
             ;;
         *)
             OTHER_PRS+=("$sorted_badge")
+            org_sort=5
             ;;
     esac
+
+    # Accumulate structured JSON record (status uses single-dash form)
+    status_clean="${status//--/-}"
+    if [ -n "$milestone" ]; then
+        milestone_json=$(jq -n --arg m "$milestone" '$m')
+    else
+        milestone_json="null"
+    fi
+    jq -nc \
+        --argjson number "$number" \
+        --arg repo "$repo" \
+        --arg org "$org" \
+        --arg title "$title" \
+        --arg url "$url" \
+        --arg targetBranch "$base_branch" \
+        --arg status "$status_clean" \
+        --argjson milestone "$milestone_json" \
+        --argjson orgSort "$org_sort" \
+        --argjson statusSort "$sort_key" \
+        '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, status:$status, milestone:$milestone, _orgSort:$orgSort, _statusSort:$statusSort}' \
+        >> "$TMPDIR/prs.jsonl"
 done
 
 # Helper to write a section for an org (sorts by priority prefix, strips it)
@@ -387,5 +417,14 @@ write_org_section() {
     echo "- 🟠 Orange: Needs rebase (my action item)"
 
 } >> "$OUTPUT_FILE"
+
+# Write structured JSON output (sorted by org priority then status priority)
+touch "$TMPDIR/prs.jsonl"
+jq -s \
+    --arg updatedAt "$UPDATED_AT_ISO" \
+    'sort_by(._orgSort, ._statusSort)
+     | map(del(._orgSort, ._statusSort))
+     | {updatedAt: $updatedAt, prs: .}' \
+    "$TMPDIR/prs.jsonl" > "$JSON_OUTPUT_FILE"
 
 echo "PR list updated successfully!"
