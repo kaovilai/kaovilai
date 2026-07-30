@@ -1,0 +1,1375 @@
+{
+  "updatedAt": "2026-07-30T18:35:29Z",
+  "prs": [
+    {
+      "number": 10051,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+      "url": "https://github.com/velero-io/velero/pull/10051",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 321,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 320,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320",
+      "targetBranch": "release-1.14",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 312,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Add CODEOWNERS for automatic review requests",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/312",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 10010,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design for CRD schema validation at server startup",
+      "url": "https://github.com/velero-io/velero/pull/10010",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 9910,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat: add CRD schema validation during server startup",
+      "url": "https://github.com/velero-io/velero/pull/9910",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9795,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/9795",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9772,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/pull/9772",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9646,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/pull/9646",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9236,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+      "url": "https://github.com/velero-io/velero/pull/9236",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 267,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Fix silent volume restoration failures for encrypted snapshots",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 8884,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design proposal for handling restoration of Kubernetes Jobs",
+      "url": "https://github.com/velero-io/velero/pull/8884",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 10025,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add make test-e2e-kind: self-contained e2e run in a single container",
+      "url": "https://github.com/velero-io/velero/pull/10025",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 9384,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip restore informer cache for resources without watch support",
+      "url": "https://github.com/velero-io/velero/pull/9384",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 9770,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "design: Kubernetes name length enforcement for Velero-created objects (#8815)",
+      "url": "https://github.com/velero-io/velero/pull/9770",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9575,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove toleration whitelist for PodVolumeBackup and data mover pods",
+      "url": "https://github.com/velero-io/velero/pull/9575",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9388,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add lint-fix make targets",
+      "url": "https://github.com/velero-io/velero/pull/9388",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 9221,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
+      "url": "https://github.com/velero-io/velero/pull/9221",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": "Prioritized issues"
+    },
+    {
+      "number": 8862,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command",
+      "url": "https://github.com/velero-io/velero/pull/8862",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 7344,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: Velero client download APIServer",
+      "url": "https://github.com/velero-io/velero/pull/7344",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 10077,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add Dependabot auto-approve workflow",
+      "url": "https://github.com/velero-io/velero/pull/10077",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 10047,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10047",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 10041,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+      "url": "https://github.com/velero-io/velero/pull/10041",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 10034,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "chore: pin helm/kind-action to commit with curl retry fix",
+      "url": "https://github.com/velero-io/velero/pull/10034",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 10028,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump actions/labeler from v5 to v6",
+      "url": "https://github.com/velero-io/velero/pull/10028",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 10027,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add set-based label selector test and docs coverage for restore",
+      "url": "https://github.com/velero-io/velero/pull/10027",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 319,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Add CODEOWNERS for automatic review requests",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 261,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "Add CODEOWNERS for automatic review requests",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/261",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 318,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Fix Auto Request Review workflow: bump action version and pass token",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 8793,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Make daemonset running error describe pod status",
+      "url": "https://github.com/velero-io/velero/pull/8793",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 7941,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Use predicate in finalizer controllers to only process update events.",
+      "url": "https://github.com/velero-io/velero/pull/7941",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 5334,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
+      "url": "https://github.com/openshift/ci-tools/pull/5334",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 449,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Detect SCC UID/GID-range mismatch on namespace restore",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 297,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/297",
+      "targetBranch": "oadp-1.6",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 81508,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "WIP rehearse change: update e2e test command to include DNM flag",
+      "url": "https://github.com/openshift/release/pull/81508",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 2241,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2241",
+      "targetBranch": "oadp-1.4",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 2234,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+      "url": "https://github.com/openshift/oadp-operator/pull/2234",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 2205,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2205",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 150,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/150",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null
+    },
+    {
+      "number": 598,
+      "repo": "openshift/ci-docs",
+      "org": "openshift",
+      "title": "Document FBC catalog builds and OLM v1 testing workflows",
+      "url": "https://github.com/openshift/ci-docs/pull/598",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2198,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: handle not-found error in nodeagent DaemonSet deletion",
+      "url": "https://github.com/openshift/oadp-operator/pull/2198",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2152,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Remove setup-envtest if different arch during `make test`",
+      "url": "https://github.com/openshift/oadp-operator/pull/2152",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 237,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/237",
+      "targetBranch": "oadp-1.5",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 233,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Add CODEOWNERS file based on OWNERS approvers",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+      "targetBranch": "oadp-1.5",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2143,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7660: Design for NonAdmin short-lived cloud credentials",
+      "url": "https://github.com/openshift/oadp-operator/pull/2143",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2139,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
+      "url": "https://github.com/openshift/oadp-operator/pull/2139",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 225,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "fix: add velero to renovate ignoreDeps",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2134,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "DNM: Test: disable pod restart workaround after file-system restore",
+      "url": "https://github.com/openshift/oadp-operator/pull/2134",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 490,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)",
+      "url": "https://github.com/openshift/velero/pull/490",
+      "targetBranch": "oadp-1.4",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2019,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
+      "url": "https://github.com/openshift/oadp-operator/pull/2019",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 10032,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "Add SSH agent retry logic and tests for authentication errors",
+      "url": "https://github.com/openshift/installer/pull/10032",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 350,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "OADP-6675: Update Azure registry configuration for workload identity support",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/350",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1952,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-6675: Add Azure workload identity support for image registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/1952",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 442,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
+      "targetBranch": "oadp-dev",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 2308,
+      "repo": "openshift/oc",
+      "org": "openshift",
+      "title": "Export pod inspect functions for external consumption",
+      "url": "https://github.com/openshift/oc/pull/2308",
+      "targetBranch": "main",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 404,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
+      "targetBranch": "oadp-1.5",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 2208,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2208",
+      "targetBranch": "oadp-1.4",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 2207,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2207",
+      "targetBranch": "oadp-1.5",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 2206,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2206",
+      "targetBranch": "oadp-1.6",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 79327,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+      "url": "https://github.com/openshift/release/pull/79327",
+      "targetBranch": "main",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 260,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "fix: prevent false PartiallyFailed on non-HCP backups",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/260",
+      "targetBranch": "main",
+      "status": "needs-attention",
+      "milestone": null
+    },
+    {
+      "number": 434,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic",
+      "url": "https://github.com/openshift/velero/pull/434",
+      "targetBranch": "oadp-1.4",
+      "status": "needs-attention",
+      "milestone": null
+    },
+    {
+      "number": 216,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "test: assert schedule, backup-location, must-gather, setup commands in root help",
+      "url": "https://github.com/migtools/oadp-cli/pull/216",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 136,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Remove 'mrnold' from OWNERS file",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/136",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null
+    },
+    {
+      "number": 124,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
+      "targetBranch": "oadp-dev",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 170,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Fix CI breakage from no-test coverage handling and deprecated setup-go action",
+      "url": "https://github.com/migtools/udistribution/pull/170",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 4,
+      "repo": "migtools/oadp-rebase-ai-helpers",
+      "org": "migtools",
+      "title": "Migrate OADP command implementations fully to skills",
+      "url": "https://github.com/migtools/oadp-rebase-ai-helpers/pull/4",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "migtools/mm-ai-knowledge",
+      "org": "migtools",
+      "title": "Document repository scope to prevent overlap with openshift-eng/ai-helpers",
+      "url": "https://github.com/migtools/mm-ai-knowledge/pull/2",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 307,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Document usage of NADR (NonAdminDownloadRequest) feature",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/307",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 142,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Add registry abstraction layer for improved maintainability",
+      "url": "https://github.com/migtools/udistribution/pull/142",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 299,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "ghactions check2",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/299",
+      "targetBranch": "oadp-1.5",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 273,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Add GitHub Actions workflow to update OADP Go dependencies automatically",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/273",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 243,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "vscode sample settings.json",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/243",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 58,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "VSCode Launch.json Sample",
+      "url": "https://github.com/migtools/udistribution/pull/58",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 66,
+      "repo": "migtools/labs",
+      "org": "migtools",
+      "title": "reword aws plugin use for s3url",
+      "url": "https://github.com/migtools/labs/pull/66",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 88,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Correct S3 checkpoint index when backup type mismatch is detected",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/88",
+      "targetBranch": "oadp-dev",
+      "status": "needs-attention",
+      "milestone": null
+    },
+    {
+      "number": 1531,
+      "repo": "slopus/happy",
+      "org": "slopus",
+      "title": "fix(cli): pass through update subcommand to claude directly",
+      "url": "https://github.com/slopus/happy/pull/1531",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 285,
+      "repo": "vmware-tanzu/crash-diagnostics",
+      "org": "vmware-tanzu",
+      "title": "Add exclude directive for phantom kcp/sdk version (#283)",
+      "url": "https://github.com/vmware-tanzu/crash-diagnostics/pull/285",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/tanzu-crash-diagnostics",
+      "org": "kaovilai",
+      "title": "Fixing issue 283 in crash diagnostics",
+      "url": "https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 125,
+      "repo": "kaovilai/oadp-operator",
+      "org": "kaovilai",
+      "title": "Optimize edge-catalog github action workflow",
+      "url": "https://github.com/kaovilai/oadp-operator/pull/125",
+      "targetBranch": "edge",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 674,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+      "url": "https://github.com/kubernetes-sigs/prow/pull/674",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 218,
+      "repo": "kubernetes-csi/external-snapshot-metadata",
+      "org": "kubernetes-csi",
+      "title": "Add Renovate automation for container image updates",
+      "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 8673,
+      "repo": "kubernetes/community",
+      "org": "kubernetes",
+      "title": "Update meeting link with password for DP WG",
+      "url": "https://github.com/kubernetes/community/pull/8673",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 552,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing",
+      "url": "https://github.com/kaovilai/dotfiles/pull/552",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 551,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant manual compinit",
+      "url": "https://github.com/kaovilai/dotfiles/pull/551",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 550,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: [performance improvement] Remove redundant manual compinit execution",
+      "url": "https://github.com/kaovilai/dotfiles/pull/550",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 549,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: [performance improvement] Remove redundant compinit",
+      "url": "https://github.com/kaovilai/dotfiles/pull/549",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 548,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit call for faster startup",
+      "url": "https://github.com/kaovilai/dotfiles/pull/548",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 545,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit for faster shell startup",
+      "url": "https://github.com/kaovilai/dotfiles/pull/545",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 544,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: [performance improvement] Remove redundant compinit",
+      "url": "https://github.com/kaovilai/dotfiles/pull/544",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 543,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing",
+      "url": "https://github.com/kaovilai/dotfiles/pull/543",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 541,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit for faster startup",
+      "url": "https://github.com/kaovilai/dotfiles/pull/541",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 540,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit for faster shell startup",
+      "url": "https://github.com/kaovilai/dotfiles/pull/540",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 538,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit to improve shell startup time",
+      "url": "https://github.com/kaovilai/dotfiles/pull/538",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 536,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit for faster shell startup",
+      "url": "https://github.com/kaovilai/dotfiles/pull/536",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 532,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup",
+      "url": "https://github.com/kaovilai/dotfiles/pull/532",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 126,
+      "repo": "kaovilai/cephcsi-cbt-e2e",
+      "org": "kaovilai",
+      "title": "[WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E",
+      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 65,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "[improve] ci: add concurrency groups to prevent stale demo workflow overlap",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 63,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "Make base64 usage portable across Linux and macOS in operational scripts",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/ci-docs",
+      "org": "kaovilai",
+      "title": "docs: Testing OLM-Deployed Operators in CI — add FBC catalog image and OLMv1 guidance",
+      "url": "https://github.com/kaovilai/ci-docs/pull/1",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/socktainer",
+      "org": "kaovilai",
+      "title": "feat(libpod): Add Podman /libpod/* API endpoints",
+      "url": "https://github.com/kaovilai/socktainer/pull/2",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/socktainer",
+      "org": "kaovilai",
+      "title": "feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures",
+      "url": "https://github.com/kaovilai/socktainer/pull/1",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kbralten/aruco_online",
+      "org": "kbralten",
+      "title": "Fix arucogen SVG support, detection robustness, and memory leaks",
+      "url": "https://github.com/kbralten/aruco_online/pull/1",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/localsend",
+      "org": "kaovilai",
+      "title": "feat: Bluetooth (BLE) device discovery for LocalSend (issue #850) with iOS and Android support",
+      "url": "https://github.com/kaovilai/localsend/pull/1",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 48,
+      "repo": "nezhar/claude-container",
+      "org": "nezhar",
+      "title": "feat: add linux/arm64 platform support",
+      "url": "https://github.com/nezhar/claude-container/pull/48",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 737,
+      "repo": "actions/setup-go",
+      "org": "actions",
+      "title": "feat: support non-standard .mod files in go-version-file",
+      "url": "https://github.com/actions/setup-go/pull/737",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 7040,
+      "repo": "operator-framework/operator-sdk",
+      "org": "operator-framework",
+      "title": "Add restrictive security context to registry pod and init containers",
+      "url": "https://github.com/operator-framework/operator-sdk/pull/7040",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/go-playground",
+      "org": "kaovilai",
+      "title": "Add execution output logging to timestamped files via GitHub workflow",
+      "url": "https://github.com/kaovilai/go-playground/pull/3",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/github-mcp-server",
+      "org": "kaovilai",
+      "title": "feat: Add edit_issue_comment tool",
+      "url": "https://github.com/kaovilai/github-mcp-server/pull/2",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 122,
+      "repo": "kaovilai/oadp-operator",
+      "org": "kaovilai",
+      "title": "Enhance CloudStorage API: Add conditions and validation logic",
+      "url": "https://github.com/kaovilai/oadp-operator/pull/122",
+      "targetBranch": "OADP-3307",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 4,
+      "repo": "kaovilai/att-router-tracker",
+      "org": "kaovilai",
+      "title": "Add Claude Code GitHub Workflow",
+      "url": "https://github.com/kaovilai/att-router-tracker/pull/4",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/att-router-tracker",
+      "org": "kaovilai",
+      "title": "feat: Add Device Access Code Authentication",
+      "url": "https://github.com/kaovilai/att-router-tracker/pull/3",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 478,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "branchprotector: remove protection from excluded branches",
+      "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 437,
+      "repo": "einaregilsson/Redirector",
+      "org": "einaregilsson",
+      "title": "checkbox on the redirector page correctly reflects the current sync s…",
+      "url": "https://github.com/einaregilsson/Redirector/pull/437",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 261,
+      "repo": "engineerd/setup-kind",
+      "org": "engineerd",
+      "title": "npm audit fix",
+      "url": "https://github.com/engineerd/setup-kind/pull/261",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 260,
+      "repo": "engineerd/setup-kind",
+      "org": "engineerd",
+      "title": "chore(package): update @actions/cache to version 4.0.0 due to deprecation.",
+      "url": "https://github.com/engineerd/setup-kind/pull/260",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 347,
+      "repo": "tailscale-dev/tailscale-dev",
+      "org": "tailscale-dev",
+      "title": "podman",
+      "url": "https://github.com/tailscale-dev/tailscale-dev/pull/347",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/oadp-vmdp",
+      "org": "kaovilai",
+      "title": "https://github.com/kopia/kopia/pull/4303 test preview",
+      "url": "https://github.com/kaovilai/oadp-vmdp/pull/2",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 68,
+      "repo": "replicatedhq/local-volume-provider",
+      "org": "replicatedhq",
+      "title": "README.md: Add pvc plugin label to config ConfigMap",
+      "url": "https://github.com/replicatedhq/local-volume-provider/pull/68",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "mowhammadrezaa/SmartFormFiller",
+      "org": "mowhammadrezaa",
+      "title": "WIP: ollama",
+      "url": "https://github.com/mowhammadrezaa/SmartFormFiller/pull/2",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "mpryc/velero",
+      "org": "mpryc",
+      "title": "Simplify cred scrubbing",
+      "url": "https://github.com/mpryc/velero/pull/1",
+      "targetBranch": "aws_creds_exposed",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "shubham-pampattiwar/oadp-operator",
+      "org": "shubham-pampattiwar",
+      "title": "Resolve build imports to match velero versions",
+      "url": "https://github.com/shubham-pampattiwar/oadp-operator/pull/1",
+      "targetBranch": "lease-duration",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 53,
+      "repo": "danfengliu/velero",
+      "org": "danfengliu",
+      "title": "Enable `ginkgo run . -- -help`",
+      "url": "https://github.com/danfengliu/velero/pull/53",
+      "targetBranch": "add-readme-for-e2e-test",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 290,
+      "repo": "hashicorp/go-plugin",
+      "org": "hashicorp",
+      "title": "Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17",
+      "url": "https://github.com/hashicorp/go-plugin/pull/290",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "shubham-pampattiwar/velero",
+      "org": "shubham-pampattiwar",
+      "title": "revert to using controller-gen@v0.7.0",
+      "url": "https://github.com/shubham-pampattiwar/velero/pull/1",
+      "targetBranch": "del-vsb-final",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "CarmiWisemon/openshift-docs",
+      "org": "CarmiWisemon",
+      "title": "keep .gitignore",
+      "url": "https://github.com/CarmiWisemon/openshift-docs/pull/1",
+      "targetBranch": "oadp1178flags",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 103,
+      "repo": "kaovilai/oadp-operator",
+      "org": "kaovilai",
+      "title": "Fork Sync: Update from parent repository",
+      "url": "https://github.com/kaovilai/oadp-operator/pull/103",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "eemcmullan/oadp-operator",
+      "org": "eemcmullan",
+      "title": "add default CRD validation",
+      "url": "https://github.com/eemcmullan/oadp-operator/pull/2",
+      "targetBranch": "vsm-batching",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/containerd",
+      "org": "kaovilai",
+      "title": "[Snyk] Security upgrade ubuntu from latest to 22.04",
+      "url": "https://github.com/kaovilai/containerd/pull/2",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/containerd",
+      "org": "kaovilai",
+      "title": "[Snyk] Security upgrade ubuntu from latest to 22.04",
+      "url": "https://github.com/kaovilai/containerd/pull/1",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 18,
+      "repo": "richstokes/k8s-folding-at-home",
+      "org": "richstokes",
+      "title": "Add E2E tests, runAsUser, add comments for OpenShift UID issue.",
+      "url": "https://github.com/richstokes/k8s-folding-at-home/pull/18",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/distribution",
+      "org": "kaovilai",
+      "title": "Gcs fixes",
+      "url": "https://github.com/kaovilai/distribution/pull/1",
+      "targetBranch": "compile_damnit_gcs",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 48,
+      "repo": "kaovilai/oadp-operator",
+      "org": "kaovilai",
+      "title": "E2echeckPodSpec",
+      "url": "https://github.com/kaovilai/oadp-operator/pull/48",
+      "targetBranch": "noDefaultBackupLocatione2e",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 974,
+      "repo": "onsi/ginkgo",
+      "org": "onsi",
+      "title": "Add AddArguments to TableEntry",
+      "url": "https://github.com/onsi/ginkgo/pull/974",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 3,
+      "repo": "saily/openshift-cli",
+      "org": "saily",
+      "title": "v4.9.9 update, mirror change",
+      "url": "https://github.com/saily/openshift-cli/pull/3",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 31,
+      "repo": "kaovilai/AdJS",
+      "org": "kaovilai",
+      "title": "Update main.yml",
+      "url": "https://github.com/kaovilai/AdJS/pull/31",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 46,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Centralize build scheduling into a single version-aware dispatcher",
+      "url": "https://github.com/konveyor/builder/pull/46",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null
+    }
+  ]
+}
