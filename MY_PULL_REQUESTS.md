@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-31 19:33:47 UTC
+> Last updated: 2026-07-31 20:32:27 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -50,14 +50,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #150](https://img.shields.io/badge/PR%20%23150-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/150) **openshift/oadp-must-gather** → `oadp-dev` - Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #2340](https://img.shields.io/badge/PR%20%232340-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2340) **openshift/oadp-operator** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #2341](https://img.shields.io/badge/PR%20%232341-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2341) **openshift/oadp-operator** → `oadp-1.5` - Remove inactive users from OWNERS
-- [![PR #2342](https://img.shields.io/badge/PR%20%232342-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2342) **openshift/oadp-operator** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #458](https://img.shields.io/badge/PR%20%23458-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/458) **openshift/openshift-velero-plugin** → `oadp-1.4` - Remove inactive users from OWNERS
 - [![PR #459](https://img.shields.io/badge/PR%20%23459-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/459) **openshift/openshift-velero-plugin** → `oadp-1.5` - Remove inactive users from OWNERS
 - [![PR #460](https://img.shields.io/badge/PR%20%23460-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/460) **openshift/openshift-velero-plugin** → `oadp-1.6` - Remove inactive users from OWNERS
-- [![PR #557](https://img.shields.io/badge/PR%20%23557-waiting--merge-blue)](https://github.com/openshift/velero/pull/557) **openshift/velero** → `oadp-dev` - Remove inactive users from OWNERS
-- [![PR #559](https://img.shields.io/badge/PR%20%23559-waiting--merge-blue)](https://github.com/openshift/velero/pull/559) **openshift/velero** → `oadp-1.3` - Remove inactive users from DOWNSTREAM_OWNERS
-- [![PR #561](https://img.shields.io/badge/PR%20%23561-waiting--merge-blue)](https://github.com/openshift/velero/pull/561) **openshift/velero** → `oadp-1.5` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
@@ -85,6 +80,7 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
+- [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #136](https://img.shields.io/badge/PR%20%23136-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
 - [![PR #371](https://img.shields.io/badge/PR%20%23371-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/371) **migtools/oadp-non-admin** → `oadp-1.6` - Remove inactive users from OWNERS
