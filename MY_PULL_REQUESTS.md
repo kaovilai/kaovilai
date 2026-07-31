@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-31 16:37:45 UTC
+> Last updated: 2026-07-31 17:34:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -52,6 +52,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-ready-green)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
+- [![PR #82747](https://img.shields.io/badge/PR%20%2382747-ready-green)](https://github.com/openshift/release/pull/82747) **openshift/release** → `main` - Remove unused releases: blocks from OADP ci-operator configs
 - [![PR #150](https://img.shields.io/badge/PR%20%23150-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/150) **openshift/oadp-must-gather** → `oadp-dev` - Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #161](https://img.shields.io/badge/PR%20%23161-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/161) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.5` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #162](https://img.shields.io/badge/PR%20%23162-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/162) **openshift/velero-plugin-for-gcp** → `oadp-1.3` - Remove inactive users from DOWNSTREAM_OWNERS
@@ -66,7 +67,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #74](https://img.shields.io/badge/PR%20%2374-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/74) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.5` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #75](https://img.shields.io/badge/PR%20%2375-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/75) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.6` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #76](https://img.shields.io/badge/PR%20%2376-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/76) **openshift/velero-plugin-for-legacy-aws** → `oadp-dev` - Remove inactive users from DOWNSTREAM_OWNERS
-- [![PR #77](https://img.shields.io/badge/PR%20%2377-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/77) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.4` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
