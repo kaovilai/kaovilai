@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T21:26:39Z",
+  "updatedAt": "2026-07-31T22:24:26Z",
   "prs": [
     {
       "number": 10051,
@@ -312,6 +312,16 @@
       "milestone": null
     },
     {
+      "number": 82762,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)",
+      "url": "https://github.com/openshift/release/pull/82762",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 2344,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -397,26 +407,6 @@
       "org": "openshift",
       "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
       "url": "https://github.com/openshift/release/pull/82764",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null
-    },
-    {
-      "number": 2345,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add CI plugin image substitution guide and developer comments",
-      "url": "https://github.com/openshift/oadp-operator/pull/2345",
-      "targetBranch": "oadp-1.6",
-      "status": "draft",
-      "milestone": null
-    },
-    {
-      "number": 82762,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)",
-      "url": "https://github.com/openshift/release/pull/82762",
       "targetBranch": "main",
       "status": "draft",
       "milestone": null
@@ -702,6 +692,16 @@
       "milestone": null
     },
     {
+      "number": 253,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+      "url": "https://github.com/migtools/oadp-cli/pull/253",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 48,
       "repo": "migtools/kopia",
       "org": "migtools",
@@ -719,16 +719,6 @@
       "url": "https://github.com/migtools/oadp-cli/pull/216",
       "targetBranch": "oadp-dev",
       "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 253,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-      "url": "https://github.com/migtools/oadp-cli/pull/253",
-      "targetBranch": "oadp-dev",
-      "status": "ci-pending",
       "milestone": null
     },
     {
