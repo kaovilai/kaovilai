@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-31 20:32:27 UTC
+> Last updated: 2026-07-31 21:26:39 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -44,15 +44,14 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
+- [![PR #2344](https://img.shields.io/badge/PR%20%232344-ready-green)](https://github.com/openshift/oadp-operator/pull/2344) **openshift/oadp-operator** → `oadp-dev` - Add missing image-producing repo badges to README
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-ready-green)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #150](https://img.shields.io/badge/PR%20%23150-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/150) **openshift/oadp-must-gather** → `oadp-dev` - Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
-- [![PR #2340](https://img.shields.io/badge/PR%20%232340-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2340) **openshift/oadp-operator** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #458](https://img.shields.io/badge/PR%20%23458-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/458) **openshift/openshift-velero-plugin** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #459](https://img.shields.io/badge/PR%20%23459-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/459) **openshift/openshift-velero-plugin** → `oadp-1.5` - Remove inactive users from OWNERS
-- [![PR #460](https://img.shields.io/badge/PR%20%23460-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/460) **openshift/openshift-velero-plugin** → `oadp-1.6` - Remove inactive users from OWNERS
+- [![PR #2345](https://img.shields.io/badge/PR%20%232345-draft-gray)](https://github.com/openshift/oadp-operator/pull/2345) **openshift/oadp-operator** → `oadp-1.6` - Add CI plugin image substitution guide and developer comments
+- [![PR #82762](https://img.shields.io/badge/PR%20%2382762-draft-gray)](https://github.com/openshift/release/pull/82762) **openshift/release** → `main` - Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)
+- [![PR #82764](https://img.shields.io/badge/PR%20%2382764-draft-gray)](https://github.com/openshift/release/pull/82764) **openshift/release** → `main` - Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
@@ -67,12 +66,17 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
+- [![PR #150](https://img.shields.io/badge/PR%20%23150-hold-yellow)](https://github.com/openshift/oadp-must-gather/pull/150) **openshift/oadp-must-gather** → `oadp-dev` - Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #2206](https://img.shields.io/badge/PR%20%232206-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2206) **openshift/oadp-operator** → `oadp-1.6` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2208](https://img.shields.io/badge/PR%20%232208-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2208) **openshift/oadp-operator** → `oadp-1.4` - OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
+- [![PR #2340](https://img.shields.io/badge/PR%20%232340-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2340) **openshift/oadp-operator** → `oadp-1.4` - Remove inactive users from OWNERS
 - [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
+- [![PR #458](https://img.shields.io/badge/PR%20%23458-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/458) **openshift/openshift-velero-plugin** → `oadp-1.4` - Remove inactive users from OWNERS
+- [![PR #459](https://img.shields.io/badge/PR%20%23459-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/459) **openshift/openshift-velero-plugin** → `oadp-1.5` - Remove inactive users from OWNERS
+- [![PR #460](https://img.shields.io/badge/PR%20%23460-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/460) **openshift/openshift-velero-plugin** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
@@ -81,9 +85,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
-- [![PR #136](https://img.shields.io/badge/PR%20%23136-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
-- [![PR #251](https://img.shields.io/badge/PR%20%23251-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #371](https://img.shields.io/badge/PR%20%23371-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/371) **migtools/oadp-non-admin** → `oadp-1.6` - Remove inactive users from OWNERS
+- [![PR #253](https://img.shields.io/badge/PR%20%23253-ci--pending-yellow)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
@@ -95,6 +97,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
+- [![PR #136](https://img.shields.io/badge/PR%20%23136-hold-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
+- [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
+- [![PR #371](https://img.shields.io/badge/PR%20%23371-hold-yellow)](https://github.com/migtools/oadp-non-admin/pull/371) **migtools/oadp-non-admin** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T20:32:27Z",
+  "updatedAt": "2026-07-31T21:26:39Z",
   "prs": [
     {
       "number": 10051,
@@ -312,6 +312,16 @@
       "milestone": null
     },
     {
+      "number": 2344,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add missing image-producing repo badges to README",
+      "url": "https://github.com/openshift/oadp-operator/pull/2344",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 5334,
       "repo": "openshift/ci-tools",
       "org": "openshift",
@@ -382,53 +392,33 @@
       "milestone": null
     },
     {
-      "number": 460,
-      "repo": "openshift/openshift-velero-plugin",
+      "number": 82764,
+      "repo": "openshift/release",
       "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/460",
-      "targetBranch": "oadp-1.6",
-      "status": "waiting-merge",
+      "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
+      "url": "https://github.com/openshift/release/pull/82764",
+      "targetBranch": "main",
+      "status": "draft",
       "milestone": null
     },
     {
-      "number": 459,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/459",
-      "targetBranch": "oadp-1.5",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
-      "number": 458,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/458",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
-      "number": 2340,
+      "number": 2345,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2340",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
+      "title": "Add CI plugin image substitution guide and developer comments",
+      "url": "https://github.com/openshift/oadp-operator/pull/2345",
+      "targetBranch": "oadp-1.6",
+      "status": "draft",
       "milestone": null
     },
     {
-      "number": 150,
-      "repo": "openshift/oadp-must-gather",
+      "number": 82762,
+      "repo": "openshift/release",
       "org": "openshift",
-      "title": "Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/150",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
+      "title": "Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)",
+      "url": "https://github.com/openshift/release/pull/82762",
+      "targetBranch": "main",
+      "status": "draft",
       "milestone": null
     },
     {
@@ -572,6 +562,56 @@
       "milestone": null
     },
     {
+      "number": 460,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/460",
+      "targetBranch": "oadp-1.6",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 459,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/459",
+      "targetBranch": "oadp-1.5",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 458,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/458",
+      "targetBranch": "oadp-1.4",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 2340,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2340",
+      "targetBranch": "oadp-1.4",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 150,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/150",
+      "targetBranch": "oadp-dev",
+      "status": "hold",
+      "milestone": null
+    },
+    {
       "number": 442,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -682,33 +722,13 @@
       "milestone": null
     },
     {
-      "number": 251,
+      "number": 253,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-cli/pull/251",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
-      "number": 371,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/371",
-      "targetBranch": "oadp-1.6",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
-      "number": 136,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Remove 'mrnold' from OWNERS file",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/136",
+      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+      "url": "https://github.com/migtools/oadp-cli/pull/253",
       "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
+      "status": "ci-pending",
       "milestone": null
     },
     {
@@ -819,6 +839,36 @@
       "url": "https://github.com/migtools/labs/pull/66",
       "targetBranch": "master",
       "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 251,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-cli/pull/251",
+      "targetBranch": "oadp-1.4",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 371,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/371",
+      "targetBranch": "oadp-1.6",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 136,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Remove 'mrnold' from OWNERS file",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/136",
+      "targetBranch": "oadp-dev",
+      "status": "hold",
       "milestone": null
     },
     {
