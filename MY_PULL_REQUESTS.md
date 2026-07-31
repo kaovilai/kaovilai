@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-07-31 17:34:31 UTC
+> Last updated: 2026-07-31 18:36:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -41,10 +41,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
-- [![PR #152](https://img.shields.io/badge/PR%20%23152-ready-green)](https://github.com/openshift/oadp-must-gather/pull/152) **openshift/oadp-must-gather** → `oadp-1.3` - Remove inactive users from OWNERS
-- [![PR #153](https://img.shields.io/badge/PR%20%23153-ready-green)](https://github.com/openshift/oadp-must-gather/pull/153) **openshift/oadp-must-gather** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #154](https://img.shields.io/badge/PR%20%23154-ready-green)](https://github.com/openshift/oadp-must-gather/pull/154) **openshift/oadp-must-gather** → `oadp-1.5` - Remove inactive users from OWNERS
-- [![PR #155](https://img.shields.io/badge/PR%20%23155-ready-green)](https://github.com/openshift/oadp-must-gather/pull/155) **openshift/oadp-must-gather** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
@@ -62,6 +58,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #458](https://img.shields.io/badge/PR%20%23458-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/458) **openshift/openshift-velero-plugin** → `oadp-1.4` - Remove inactive users from OWNERS
 - [![PR #459](https://img.shields.io/badge/PR%20%23459-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/459) **openshift/openshift-velero-plugin** → `oadp-1.5` - Remove inactive users from OWNERS
 - [![PR #460](https://img.shields.io/badge/PR%20%23460-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/460) **openshift/openshift-velero-plugin** → `oadp-1.6` - Remove inactive users from OWNERS
+- [![PR #557](https://img.shields.io/badge/PR%20%23557-waiting--merge-blue)](https://github.com/openshift/velero/pull/557) **openshift/velero** → `oadp-dev` - Remove inactive users from OWNERS
 - [![PR #559](https://img.shields.io/badge/PR%20%23559-waiting--merge-blue)](https://github.com/openshift/velero/pull/559) **openshift/velero** → `oadp-1.3` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #561](https://img.shields.io/badge/PR%20%23561-waiting--merge-blue)](https://github.com/openshift/velero/pull/561) **openshift/velero** → `oadp-1.5` - Remove inactive users from DOWNSTREAM_OWNERS
 - [![PR #74](https://img.shields.io/badge/PR%20%2374-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/74) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.5` - Remove inactive users from DOWNSTREAM_OWNERS
@@ -88,15 +85,12 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
-- [![PR #557](https://img.shields.io/badge/PR%20%23557-failing--ci-red)](https://github.com/openshift/velero/pull/557) **openshift/velero** → `oadp-dev` - Remove inactive users from OWNERS
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #434](https://img.shields.io/badge/PR%20%23434-needs--attention-orange)](https://github.com/openshift/velero/pull/434) **openshift/velero** → `oadp-1.4` - OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic
 
 ## migtools
 
-- [![PR #157](https://img.shields.io/badge/PR%20%23157-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/157) **migtools/kubevirt-datamover-controller** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
-- [![PR #40](https://img.shields.io/badge/PR%20%2340-ready-green)](https://github.com/migtools/kubevirt-datamover-plugin/pull/40) **migtools/kubevirt-datamover-plugin** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #136](https://img.shields.io/badge/PR%20%23136-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
 - [![PR #371](https://img.shields.io/badge/PR%20%23371-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/371) **migtools/oadp-non-admin** → `oadp-1.6` - Remove inactive users from OWNERS
