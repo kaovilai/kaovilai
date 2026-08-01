@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T23:21:31Z",
+  "updatedAt": "2026-08-01T00:17:59Z",
   "prs": [
     {
       "number": 10051,
@@ -312,32 +312,12 @@
       "milestone": null
     },
     {
-      "number": 82764,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
-      "url": "https://github.com/openshift/release/pull/82764",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null
-    },
-    {
       "number": 82762,
       "repo": "openshift/release",
       "org": "openshift",
       "title": "Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)",
       "url": "https://github.com/openshift/release/pull/82762",
       "targetBranch": "main",
-      "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 2344,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add missing image-producing repo badges to README",
-      "url": "https://github.com/openshift/oadp-operator/pull/2344",
-      "targetBranch": "oadp-dev",
       "status": "ready",
       "milestone": null
     },
@@ -409,6 +389,16 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2205",
       "targetBranch": "oadp-dev",
       "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 82764,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
+      "url": "https://github.com/openshift/release/pull/82764",
+      "targetBranch": "main",
+      "status": "waiting-merge",
       "milestone": null
     },
     {
@@ -868,7 +858,7 @@
       "title": "Remove 'mrnold' from OWNERS file",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/136",
       "targetBranch": "oadp-dev",
-      "status": "hold",
+      "status": "needs-attention",
       "milestone": null
     },
     {
