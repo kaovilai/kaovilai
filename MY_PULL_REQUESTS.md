@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-01 18:16:13 UTC
+> Last updated: 2026-08-02 00:19:23 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -97,7 +97,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
 - [![PR #371](https://img.shields.io/badge/PR%20%23371-hold-yellow)](https://github.com/migtools/oadp-non-admin/pull/371) **migtools/oadp-non-admin** → `oadp-1.6` - Remove inactive users from OWNERS
-- [![PR #136](https://img.shields.io/badge/PR%20%23136-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/136) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Remove 'mrnold' from OWNERS file
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase
