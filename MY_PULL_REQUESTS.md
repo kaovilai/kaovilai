@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-03 18:39:51 UTC
+> Last updated: 2026-08-03 19:34:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -48,7 +48,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-ready-green)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #82762](https://img.shields.io/badge/PR%20%2382762-ready-green)](https://github.com/openshift/release/pull/82762) **openshift/release** → `main` - Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)
+- [![PR #82762](https://img.shields.io/badge/PR%20%2382762-waiting--merge-blue)](https://github.com/openshift/release/pull/82762) **openshift/release** → `main` - Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)
 - [![PR #2346](https://img.shields.io/badge/PR%20%232346-draft-gray)](https://github.com/openshift/oadp-operator/pull/2346) **openshift/oadp-operator** → `oadp-dev` - docs: add CI plugin image sync guidance to common.go
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
