@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-02 18:16:42 UTC
+> Last updated: 2026-08-03 00:33:57 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -106,6 +106,8 @@ No open PRs.
 ## Other
 
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
+- [![PR #137](https://img.shields.io/badge/PR%20%23137-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/137) **kaovilai/github-bot-command-palette** → `main` - Add OpenShift static command profiles (payload, verified, jira, labels, specialized)
+- [![PR #138](https://img.shields.io/badge/PR%20%23138-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/138) **kaovilai/github-bot-command-palette** → `worktree-pr1-static-commands` - Add structured payload picker dialog (stacked on #137)
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
