@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:15:41Z",
+  "updatedAt": "2026-08-04T23:06:13Z",
   "prs": [
     {
       "number": 10051,
@@ -312,12 +312,32 @@
       "milestone": null
     },
     {
+      "number": 2353,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2353",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 5354,
       "repo": "openshift/ci-tools",
       "org": "openshift",
       "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
       "url": "https://github.com/openshift/ci-tools/pull/5354",
       "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 2346,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: add CI plugin image sync guidance to common.go",
+      "url": "https://github.com/openshift/oadp-operator/pull/2346",
+      "targetBranch": "oadp-dev",
       "status": "ready",
       "milestone": null
     },
@@ -392,11 +412,21 @@
       "milestone": null
     },
     {
-      "number": 2346,
+      "number": 2352,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "docs: add CI plugin image sync guidance to common.go",
-      "url": "https://github.com/openshift/oadp-operator/pull/2346",
+      "title": "Add datadownloads RBAC to kubevirt-datamover ClusterRole",
+      "url": "https://github.com/openshift/oadp-operator/pull/2352",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null
+    },
+    {
+      "number": 2350,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add e2e coverage for kubevirt-datamover: multi-PVC VMs and incremental backup sequence",
+      "url": "https://github.com/openshift/oadp-operator/pull/2350",
       "targetBranch": "oadp-dev",
       "status": "draft",
       "milestone": null
@@ -672,6 +702,16 @@
       "milestone": null
     },
     {
+      "number": 307,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Document usage of NADR (NonAdminDownloadRequest) feature",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/307",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 124,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -708,16 +748,6 @@
       "title": "Document repository scope to prevent overlap with openshift-eng/ai-helpers",
       "url": "https://github.com/migtools/mm-ai-knowledge/pull/2",
       "targetBranch": "main",
-      "status": "stale",
-      "milestone": null
-    },
-    {
-      "number": 307,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Document usage of NADR (NonAdminDownloadRequest) feature",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/307",
-      "targetBranch": "oadp-dev",
       "status": "stale",
       "milestone": null
     },
