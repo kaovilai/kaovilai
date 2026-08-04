@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-07-21 — 2026-08-04
-> **Generated:** 2026-08-04 19:34:03 UTC
+> **Generated:** 2026-08-04 21:14:03 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 52 |
+| PRs Merged | 55 |
 | PRs Opened | 76 |
 | PRs Reviewed | 98 |
-| Issues/PRs Commented | 30 |
-| Issues Closed | 26 |
+| Issues/PRs Commented | 31 |
+| Issues Closed | 27 |
 
 ---
 
-## PRs Merged (52)
+## PRs Merged (55)
 
 **velero-io** (3)
 - [#10024 Derive dev-tool CLI versions from go.mod (ginkgo, protoc-gen-go, goimports)](https://github.com/velero-io/velero/pull/10024) — velero-io/velero
@@ -68,7 +68,10 @@
 - [#119 ci: upgrade workflow actions off deprecated Node 20](https://github.com/migtools/kubevirt-datamover-controller/pull/119) — migtools/kubevirt-datamover-controller
 - [#110 Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message](https://github.com/migtools/kubevirt-datamover-controller/pull/110) — migtools/kubevirt-datamover-controller
 
-**Other** (5)
+**Other** (8)
+- [#148 Group Dependabot updates per ecosystem](https://github.com/kaovilai/github-bot-command-palette/pull/148) — kaovilai/github-bot-command-palette
+- [#138 Add structured payload picker dialog (stacked on #137)](https://github.com/kaovilai/github-bot-command-palette/pull/138) — kaovilai/github-bot-command-palette
+- [#137 Add OpenShift static command profiles (payload, verified, jira, labels, specialized)](https://github.com/kaovilai/github-bot-command-palette/pull/137) — kaovilai/github-bot-command-palette
 - [#70 Sync activity log update schedule with PR badges workflow](https://github.com/kaovilai/kaovilai/pull/70) — kaovilai/kaovilai
 - [#2 Add PAT-free gh-aw agentic workflows](https://github.com/kaovilai/redirector/pull/2) — kaovilai/redirector
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
@@ -266,7 +269,7 @@
 - [#70 Sync activity log update schedule with PR badges workflow](https://github.com/kaovilai/kaovilai/pull/70) — kaovilai/kaovilai
 - [#168 [ImgBot] Optimize images](https://github.com/kaovilai/kaovilai.pw/pull/168) — kaovilai/kaovilai.pw
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## Issues/PRs Commented On (30)
+## Issues/PRs Commented On (31)
 
 **velero-io** (15)
 - [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
@@ -288,7 +291,8 @@
 **openshift** (1)
 - [#363 Remove CODEGEN_VERSION from Makefile.prow](https://github.com/openshift/velero/issues/363) — openshift/velero
 
-**migtools** (3)
+**migtools** (4)
+- [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 - [#74 Force full backup when BSL checkpoint validation fails](https://github.com/migtools/kubevirt-datamover-controller/issues/74) — migtools/kubevirt-datamover-controller
 - [#73 Implement DataDownload controller for VM restore](https://github.com/migtools/kubevirt-datamover-controller/issues/73) — migtools/kubevirt-datamover-controller
@@ -305,7 +309,7 @@
 - [#8 [FEATURE] Support Vertex AI via ADC credentials](https://github.com/ferrumclaudepilgrim/claude-code-android/issues/8) — ferrumclaudepilgrim/claude-code-android
 - [#121 [FEATURE] Matrix Strategy Multi-Arch example](https://github.com/redhat-actions/buildah-build/issues/121) — redhat-actions/buildah-build
 - [#330 Omit  ANTHROPIC_MODEL: sonnetModel ?? opusModel, from claude-code so selected model option sticks](https://github.com/caozhiyuan/copilot-api/issues/330) — caozhiyuan/copilot-api
-## Issues Closed (26)
+## Issues Closed (27)
 
 **velero-io** (9)
 - [#10044 Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface](https://github.com/velero-io/velero/issues/10044) — velero-io/velero
@@ -329,7 +333,8 @@
 - [#118 lint workflow is using node20](https://github.com/migtools/kubevirt-datamover-controller/issues/118) — migtools/kubevirt-datamover-controller
 - [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
 
-**Other** (10)
+**Other** (11)
+- [#147 group dependabot prs into ecosystems.. ie typescript, actions, etc.](https://github.com/kaovilai/github-bot-command-palette/issues/147) — kaovilai/github-bot-command-palette
 - [#69 activity.json is not updated the same time as .md files.](https://github.com/kaovilai/kaovilai/issues/69) — kaovilai/kaovilai
 - [#673 Tide gets stuck retrying unmergeable PR instead of advancing to next candidate](https://github.com/kubernetes-sigs/prow/issues/673) — kubernetes-sigs/prow
 - [#1 Implement my gemini app into github pages static](https://github.com/kaovilai/route-127-trailer-nc/issues/1) — kaovilai/route-127-trailer-nc
