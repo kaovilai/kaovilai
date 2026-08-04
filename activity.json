@@ -3,12 +3,12 @@
     "start": "2026-07-21",
     "end": "2026-08-04"
   },
-  "generatedAt": "2026-08-04T23:05:21Z",
+  "generatedAt": "2026-08-04T23:26:36Z",
   "metrics": {
     "prsMerged": 57,
-    "prsOpened": 81,
+    "prsOpened": 82,
     "prsReviewed": 97,
-    "issuesCommented": 34,
+    "issuesCommented": 35,
     "issuesClosed": 27
   },
   "prsMerged": [
@@ -413,6 +413,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 1034,
+      "repo": "mksglu/context-mode",
+      "org": "mksglu",
+      "title": "fix(routing): self-identify subagent routing block, add opt-out (#967)",
+      "url": "https://github.com/mksglu/context-mode/pull/1034"
+    },
     {
       "number": 3,
       "repo": "kaovilai/context-mode",
@@ -983,18 +990,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 10132,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Do not assume a port name is a string when clearing node ports",
-      "url": "https://github.com/velero-io/velero/pull/10132"
-    },
-    {
-      "number": 158,
-      "repo": "migtools/kubevirt-datamover-controller",
+      "number": 31,
+      "repo": "migtools/filebrowser",
       "org": "migtools",
-      "title": "feat: add bound-sa-token projected volume to datamover pod for STS auth",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
+      "title": "chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend",
+      "url": "https://github.com/migtools/filebrowser/pull/31"
     },
     {
       "number": 10121,
@@ -1004,6 +1004,13 @@
       "url": "https://github.com/velero-io/velero/pull/10121"
     },
     {
+      "number": 10132,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Do not assume a port name is a string when clearing node ports",
+      "url": "https://github.com/velero-io/velero/pull/10132"
+    },
+    {
       "number": 10127,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1011,18 +1018,18 @@
       "url": "https://github.com/velero-io/velero/pull/10127"
     },
     {
+      "number": 158,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add bound-sa-token projected volume to datamover pod for STS auth",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
+    },
+    {
       "number": 10102,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Verify extracted item paths stay inside the backup directory",
       "url": "https://github.com/velero-io/velero/pull/10102"
-    },
-    {
-      "number": 31,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend",
-      "url": "https://github.com/migtools/filebrowser/pull/31"
     },
     {
       "number": 238,
@@ -1663,6 +1670,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10120,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure",
+      "url": "https://github.com/velero-io/velero/issues/10120"
+    },
     {
       "number": 1832,
       "repo": "openshift/oadp-operator",
