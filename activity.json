@@ -1,17 +1,80 @@
 {
   "period": {
-    "start": "2026-07-20",
-    "end": "2026-08-03"
+    "start": "2026-07-21",
+    "end": "2026-08-04"
   },
-  "generatedAt": "2026-08-03T11:00:57Z",
+  "generatedAt": "2026-08-04T18:20:20Z",
   "metrics": {
-    "prsMerged": 43,
-    "prsOpened": 73,
+    "prsMerged": 51,
+    "prsOpened": 74,
     "prsReviewed": 98,
-    "issuesCommented": 30,
-    "issuesClosed": 20
+    "issuesCommented": 29,
+    "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 70,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Sync activity log update schedule with PR badges workflow",
+      "url": "https://github.com/kaovilai/kaovilai/pull/70"
+    },
+    {
+      "number": 2340,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2340"
+    },
+    {
+      "number": 460,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/460"
+    },
+    {
+      "number": 458,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/458"
+    },
+    {
+      "number": 150,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/150"
+    },
+    {
+      "number": 459,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/459"
+    },
+    {
+      "number": 371,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/371"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add PAT-free gh-aw agentic workflows",
+      "url": "https://github.com/kaovilai/redirector/pull/2"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add Dependabot config with grouped PRs",
+      "url": "https://github.com/kaovilai/redirector/pull/1"
+    },
     {
       "number": 2,
       "repo": "kaovilai/route-127-trailer-nc",
@@ -305,16 +368,51 @@
       "org": "velero-io",
       "title": "Fix CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures",
       "url": "https://github.com/velero-io/velero/pull/10049"
-    },
-    {
-      "number": 10019,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove Auto Request Review workflow in favor of CODEOWNERS",
-      "url": "https://github.com/velero-io/velero/pull/10019"
     }
   ],
   "prsOpened": [
+    {
+      "number": 5354,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
+      "url": "https://github.com/openshift/ci-tools/pull/5354"
+    },
+    {
+      "number": 70,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Sync activity log update schedule with PR badges workflow",
+      "url": "https://github.com/kaovilai/kaovilai/pull/70"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/kubevirt-datamover-controller",
+      "org": "kaovilai",
+      "title": "fix: enforce Spec.OperationTimeout in DataUpload/DataDownload controllers",
+      "url": "https://github.com/kaovilai/kubevirt-datamover-controller/pull/1"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add design docs for one-click community rule install via marketplace deep links",
+      "url": "https://github.com/kaovilai/redirector/pull/3"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add PAT-free gh-aw agentic workflows",
+      "url": "https://github.com/kaovilai/redirector/pull/2"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add Dependabot config with grouped PRs",
+      "url": "https://github.com/kaovilai/redirector/pull/1"
+    },
     {
       "number": 2,
       "repo": "kaovilai/route-127-trailer-nc",
@@ -790,50 +888,85 @@
       "org": "openshift",
       "title": "[oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero",
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/297"
-    },
-    {
-      "number": 150,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/150"
-    },
-    {
-      "number": 10051,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-      "url": "https://github.com/velero-io/velero/pull/10051"
-    },
-    {
-      "number": 10049,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures",
-      "url": "https://github.com/velero-io/velero/pull/10049"
-    },
-    {
-      "number": 10047,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10047"
-    },
-    {
-      "number": 10041,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-      "url": "https://github.com/velero-io/velero/pull/10041"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 70,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Sync activity log update schedule with PR badges workflow",
+      "url": "https://github.com/kaovilai/kaovilai/pull/70"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add design docs for one-click community rule install via marketplace deep links",
+      "url": "https://github.com/kaovilai/redirector/pull/3"
+    },
+    {
+      "number": 82902,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "tide: set github_merge_blocks_policy to block for OADP repos",
+      "url": "https://github.com/openshift/release/pull/82902"
+    },
+    {
+      "number": 10147,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: document ownership loss on mount-constant filesystems",
+      "url": "https://github.com/velero-io/velero/pull/10147"
+    },
+    {
+      "number": 323,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Bump google.golang.org/grpc from 1.79.3 to 1.82.1",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/323"
+    },
+    {
+      "number": 10157,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: update community page backlog links away from classic projects",
+      "url": "https://github.com/velero-io/velero/pull/10157"
+    },
+    {
+      "number": 10103,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add regression test for additional item with invalid JSON",
+      "url": "https://github.com/velero-io/velero/pull/10103"
+    },
+    {
+      "number": 10106,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix some issues for CBT features:",
+      "url": "https://github.com/velero-io/velero/pull/10106"
+    },
     {
       "number": 10098,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Implement server default restore resource modifier",
       "url": "https://github.com/velero-io/velero/pull/10098"
+    },
+    {
+      "number": 10070,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add snapshotClass parameter to volume policy snapshot action",
+      "url": "https://github.com/velero-io/velero/pull/10070"
+    },
+    {
+      "number": 10135,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump github/codeql-action from 3 to 4.37.3",
+      "url": "https://github.com/velero-io/velero/pull/10135"
     },
     {
       "number": 10097,
@@ -862,20 +995,6 @@
       "org": "velero-io",
       "title": "refactor(serverstatus): Remove outdated Kubernetes v1.9.0 workaround",
       "url": "https://github.com/velero-io/velero/pull/10110"
-    },
-    {
-      "number": 10106,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix some issues for CBT features:",
-      "url": "https://github.com/velero-io/velero/pull/10106"
-    },
-    {
-      "number": 10135,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump github/codeql-action from 3 to 4.37.3",
-      "url": "https://github.com/velero-io/velero/pull/10135"
     },
     {
       "number": 451,
@@ -1438,13 +1557,6 @@
       "url": "https://github.com/velero-io/velero/pull/10075"
     },
     {
-      "number": 323,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Bump google.golang.org/grpc from 1.79.3 to 1.82.1",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/323"
-    },
-    {
       "number": 10064,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1464,58 +1576,51 @@
       "org": "migtools",
       "title": "[oadp-1.6] ci: upgrade workflow actions off deprecated Node 20",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/140"
-    },
-    {
-      "number": 2320,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-8448: Added service account to dev branch",
-      "url": "https://github.com/openshift/oadp-operator/pull/2320"
-    },
-    {
-      "number": 2324,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-8485: Added startup probe",
-      "url": "https://github.com/openshift/oadp-operator/pull/2324"
-    },
-    {
-      "number": 134,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Issue #95: Add GCP Cloud Storage support",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/134"
-    },
-    {
-      "number": 10059,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update docs and governance links from vmware-tanzu to velero-io",
-      "url": "https://github.com/velero-io/velero/pull/10059"
-    },
-    {
-      "number": 314,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Remove community health files now provided by org-level .github repo",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/314"
-    },
-    {
-      "number": 2318,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Added service account to dev branch",
-      "url": "https://github.com/openshift/oadp-operator/pull/2318"
-    },
-    {
-      "number": 2317,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8484: Add startup probe to CLI download server",
-      "url": "https://github.com/openshift/oadp-operator/pull/2317"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 673,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "Tide gets stuck retrying unmergeable PR instead of advancing to next candidate",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/673"
+    },
+    {
+      "number": 10044,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface",
+      "url": "https://github.com/velero-io/velero/issues/10044"
+    },
+    {
+      "number": 132,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Dynamic Prow Plugin Detection per Repo",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/issues/132"
+    },
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
+    },
+    {
+      "number": 160,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/160"
+    },
+    {
+      "number": 8686,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Avoid overwriting during backup to support object lock enabled buckets",
+      "url": "https://github.com/velero-io/velero/issues/8686"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -1524,11 +1629,11 @@
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
-      "number": 8686,
+      "number": 9719,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Avoid overwriting during backup to support object lock enabled buckets",
-      "url": "https://github.com/velero-io/velero/issues/8686"
+      "title": "Velero Server Default Restore Resource Modifier",
+      "url": "https://github.com/velero-io/velero/issues/9719"
     },
     {
       "number": 3194,
@@ -1564,13 +1669,6 @@
       "org": "kubernetes-sigs",
       "title": "Tide status controller falsely reports \"In merge pool.\" for PRs blocked by a never-triggered required context",
       "url": "https://github.com/kubernetes-sigs/prow/issues/736"
-    },
-    {
-      "number": 10044,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface",
-      "url": "https://github.com/velero-io/velero/issues/10044"
     },
     {
       "number": 110,
@@ -1613,13 +1711,6 @@
       "org": "velero-io",
       "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
       "url": "https://github.com/velero-io/velero/issues/9600"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
       "number": 10078,
@@ -1690,44 +1781,58 @@
       "org": "migtools",
       "title": "Implement DataDownload controller for VM restore",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/73"
-    },
-    {
-      "number": 8277,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CSI Backup fails upon provisioner and csi driver mismatch (everest-csi)",
-      "url": "https://github.com/velero-io/velero/issues/8277"
-    },
-    {
-      "number": 9398,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero Restore Does Not Preserve Original File Permissions on PVCs on AZURE",
-      "url": "https://github.com/velero-io/velero/issues/9398"
-    },
-    {
-      "number": 1807,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "Support Google Vertex AI with Application Default Credentials (ADC)",
-      "url": "https://github.com/pingdotgg/t3code/issues/1807"
-    },
-    {
-      "number": 9951,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults",
-      "url": "https://github.com/velero-io/velero/issues/9951"
-    },
-    {
-      "number": 10020,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
-      "url": "https://github.com/velero-io/velero/issues/10020"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 69,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "activity.json is not updated the same time as .md files.",
+      "url": "https://github.com/kaovilai/kaovilai/issues/69"
+    },
+    {
+      "number": 673,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "Tide gets stuck retrying unmergeable PR instead of advancing to next candidate",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/673"
+    },
+    {
+      "number": 10044,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface",
+      "url": "https://github.com/velero-io/velero/issues/10044"
+    },
+    {
+      "number": 10099,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update velero.io community pages",
+      "url": "https://github.com/velero-io/velero/issues/10099"
+    },
+    {
+      "number": 160,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/160"
+    },
+    {
+      "number": 9719,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero Server Default Restore Resource Modifier",
+      "url": "https://github.com/velero-io/velero/issues/9719"
+    },
+    {
+      "number": 149,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Gather PVC/PV/Namespace(SCC) data for backed-up/restored app namespaces to diagnose restore permission/ownership bugs",
+      "url": "https://github.com/openshift/oadp-must-gather/issues/149"
+    },
     {
       "number": 1,
       "repo": "kaovilai/route-127-trailer-nc",
@@ -1860,13 +1965,6 @@
       "org": "velero-io",
       "title": "CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures",
       "url": "https://github.com/velero-io/velero/issues/10048"
-    },
-    {
-      "number": 1807,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "Support Google Vertex AI with Application Default Credentials (ADC)",
-      "url": "https://github.com/pingdotgg/t3code/issues/1807"
     }
   ]
 }
