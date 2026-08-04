@@ -3,15 +3,29 @@
     "start": "2026-07-21",
     "end": "2026-08-04"
   },
-  "generatedAt": "2026-08-04T21:14:03Z",
+  "generatedAt": "2026-08-04T23:05:21Z",
   "metrics": {
-    "prsMerged": 55,
-    "prsOpened": 76,
-    "prsReviewed": 98,
-    "issuesCommented": 31,
+    "prsMerged": 57,
+    "prsOpened": 81,
+    "prsReviewed": 97,
+    "issuesCommented": 34,
     "issuesClosed": 27
   },
   "prsMerged": [
+    {
+      "number": 3,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "Follow-up fixes for #967 subagent routing opt-out and provenance scoping",
+      "url": "https://github.com/kaovilai/context-mode/pull/3"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "Reduce permission-classifier false positives on injected subagent routing block",
+      "url": "https://github.com/kaovilai/context-mode/pull/2"
+    },
     {
       "number": 148,
       "repo": "kaovilai/github-bot-command-palette",
@@ -399,6 +413,41 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 3,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "Follow-up fixes for #967 subagent routing opt-out and provenance scoping",
+      "url": "https://github.com/kaovilai/context-mode/pull/3"
+    },
+    {
+      "number": 2353,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2353"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "Reduce permission-classifier false positives on injected subagent routing block",
+      "url": "https://github.com/kaovilai/context-mode/pull/2"
+    },
+    {
+      "number": 2352,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add datadownloads RBAC to kubevirt-datamover ClusterRole",
+      "url": "https://github.com/openshift/oadp-operator/pull/2352"
+    },
+    {
+      "number": 2350,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add e2e coverage for kubevirt-datamover: multi-PVC VMs and incremental backup sequence",
+      "url": "https://github.com/openshift/oadp-operator/pull/2350"
+    },
     {
       "number": 148,
       "repo": "kaovilai/github-bot-command-palette",
@@ -933,6 +982,69 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10132,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Do not assume a port name is a string when clearing node ports",
+      "url": "https://github.com/velero-io/velero/pull/10132"
+    },
+    {
+      "number": 158,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add bound-sa-token projected volume to datamover pod for STS auth",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
+    },
+    {
+      "number": 10121,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enhancement: fail-fast on velero install wait",
+      "url": "https://github.com/velero-io/velero/pull/10121"
+    },
+    {
+      "number": 10127,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
+      "url": "https://github.com/velero-io/velero/pull/10127"
+    },
+    {
+      "number": 10102,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Verify extracted item paths stay inside the backup directory",
+      "url": "https://github.com/velero-io/velero/pull/10102"
+    },
+    {
+      "number": 31,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend",
+      "url": "https://github.com/migtools/filebrowser/pull/31"
+    },
+    {
+      "number": 238,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Bump google.golang.org/grpc from 1.77.0 to 1.82.1",
+      "url": "https://github.com/migtools/oadp-cli/pull/238"
+    },
+    {
+      "number": 10119,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix csi pvc restore action",
+      "url": "https://github.com/velero-io/velero/pull/10119"
+    },
+    {
+      "number": 255,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Remove dead oadp-operator replace directive",
+      "url": "https://github.com/migtools/oadp-cli/pull/255"
+    },
     {
       "number": 159,
       "repo": "openshift/oadp-must-gather",
@@ -1548,79 +1660,37 @@
       "org": "velero-io",
       "title": "Update Kopia(filesystem) uploader to support incremental and deleteExtraFile during restore",
       "url": "https://github.com/velero-io/velero/pull/10066"
-    },
-    {
-      "number": 35,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Bump kubevirt-datamover-controller for GCP Cloud Storage support",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/35"
-    },
-    {
-      "number": 555,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-8502: Updated kopia dep to pull in tempdir fix",
-      "url": "https://github.com/openshift/velero/pull/555"
-    },
-    {
-      "number": 139,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] Issue #95: Add GCP Cloud Storage support",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/139"
-    },
-    {
-      "number": 10071,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block uploader restore implementation",
-      "url": "https://github.com/velero-io/velero/pull/10071"
-    },
-    {
-      "number": 10056,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "design for RIA must-include-additional-items",
-      "url": "https://github.com/velero-io/velero/pull/10056"
-    },
-    {
-      "number": 10073,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10043: Verify owner/permissions of restored entries and warn on mismatches",
-      "url": "https://github.com/velero-io/velero/pull/10073"
-    },
-    {
-      "number": 10074,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump codecov/codecov-action from 6 to 7",
-      "url": "https://github.com/velero-io/velero/pull/10074"
-    },
-    {
-      "number": 10075,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump actions/labeler from 5 to 7",
-      "url": "https://github.com/velero-io/velero/pull/10075"
-    },
-    {
-      "number": 10064,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support set-based filter label selectors",
-      "url": "https://github.com/velero-io/velero/pull/10064"
-    },
-    {
-      "number": 2326,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.3] OADP-8484: Added backfill to startup probe",
-      "url": "https://github.com/openshift/oadp-operator/pull/2326"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 1832,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e jobs for other repos",
+      "url": "https://github.com/openshift/oadp-operator/issues/1832"
+    },
+    {
+      "number": 2343,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Investigate making plugin repo changes immediately available for OADP-operator e2e tests",
+      "url": "https://github.com/openshift/oadp-operator/issues/2343"
+    },
+    {
+      "number": 1997,
+      "repo": "cncf/mentoring",
+      "org": "cncf",
+      "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
+      "url": "https://github.com/cncf/mentoring/issues/1997"
+    },
+    {
+      "number": 153,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
+    },
     {
       "number": 99,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1704,13 +1774,6 @@
       "org": "velero-io",
       "title": "Add safe auto-merge workflow for high-confidence Dependabot PRs",
       "url": "https://github.com/velero-io/velero/issues/9965"
-    },
-    {
-      "number": 1997,
-      "repo": "cncf/mentoring",
-      "org": "cncf",
-      "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
-      "url": "https://github.com/cncf/mentoring/issues/1997"
     },
     {
       "number": 9963,
