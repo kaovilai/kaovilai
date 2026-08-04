@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-04 18:36:49 UTC
+> Last updated: 2026-08-04 21:15:41 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -49,7 +49,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-ready-green)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #82762](https://img.shields.io/badge/PR%20%2382762-waiting--merge-blue)](https://github.com/openshift/release/pull/82762) **openshift/release** → `main` - Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)
 - [![PR #2346](https://img.shields.io/badge/PR%20%232346-draft-gray)](https://github.com/openshift/oadp-operator/pull/2346) **openshift/oadp-operator** → `oadp-dev` - docs: add CI plugin image sync guidance to common.go
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -79,6 +78,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-ready-green)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
+- [![PR #41](https://img.shields.io/badge/PR%20%2341-ready-green)](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Add RestoreItemAction plugins to trigger kubevirt datamover restore
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ready-green)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
@@ -101,8 +101,6 @@ No open PRs.
 ## Other
 
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
-- [![PR #137](https://img.shields.io/badge/PR%20%23137-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/137) **kaovilai/github-bot-command-palette** → `main` - Add OpenShift static command profiles (payload, verified, jira, labels, specialized)
-- [![PR #138](https://img.shields.io/badge/PR%20%23138-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/138) **kaovilai/github-bot-command-palette** → `worktree-pr1-static-commands` - Add structured payload picker dialog (stacked on #137)
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T18:36:49Z",
+  "updatedAt": "2026-08-04T21:15:41Z",
   "prs": [
     {
       "number": 10051,
@@ -392,16 +392,6 @@
       "milestone": null
     },
     {
-      "number": 82762,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)",
-      "url": "https://github.com/openshift/release/pull/82762",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
       "number": 2346,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -642,6 +632,16 @@
       "milestone": null
     },
     {
+      "number": 41,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Add RestoreItemAction plugins to trigger kubevirt datamover restore",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/41",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 253,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -807,26 +807,6 @@
       "org": "kaovilai",
       "title": "Add design docs for one-click community rule install via marketplace deep links",
       "url": "https://github.com/kaovilai/redirector/pull/3",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 138,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add structured payload picker dialog (stacked on #137)",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/138",
-      "targetBranch": "worktree-pr1-static-commands",
-      "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 137,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add OpenShift static command profiles (payload, verified, jira, labels, specialized)",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/137",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null
