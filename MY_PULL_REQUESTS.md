@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-04 15:51:01 UTC
+> Last updated: 2026-08-04 16:40:48 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -47,6 +47,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-ready-green)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
+- [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #82762](https://img.shields.io/badge/PR%20%2382762-waiting--merge-blue)](https://github.com/openshift/release/pull/82762) **openshift/release** → `main` - Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)
 - [![PR #2346](https://img.shields.io/badge/PR%20%232346-draft-gray)](https://github.com/openshift/oadp-operator/pull/2346) **openshift/oadp-operator** → `oadp-dev` - docs: add CI plugin image sync guidance to common.go
