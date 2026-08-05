@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-05 18:23:52 UTC
+> Last updated: 2026-08-05 20:34:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -81,7 +81,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
-- [![PR #41](https://img.shields.io/badge/PR%20%2341-ready-green)](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Add RestoreItemAction plugins to trigger kubevirt datamover restore
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
