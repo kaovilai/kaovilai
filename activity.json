@@ -3,15 +3,22 @@
     "start": "2026-07-22",
     "end": "2026-08-05"
   },
-  "generatedAt": "2026-08-05T02:55:56Z",
+  "generatedAt": "2026-08-05T08:44:27Z",
   "metrics": {
-    "prsMerged": 58,
+    "prsMerged": 59,
     "prsOpened": 77,
     "prsReviewed": 98,
-    "issuesCommented": 36,
-    "issuesClosed": 28
+    "issuesCommented": 42,
+    "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 2353,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2353"
+    },
     {
       "number": 2352,
       "repo": "openshift/oadp-operator",
@@ -962,6 +969,41 @@
   ],
   "prsReviewed": [
     {
+      "number": 10119,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix csi pvc restore action",
+      "url": "https://github.com/velero-io/velero/pull/10119"
+    },
+    {
+      "number": 10096,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(e2e) :- add E2E test for BSL ReadOnly mode validation",
+      "url": "https://github.com/velero-io/velero/pull/10096"
+    },
+    {
+      "number": 2349,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
+      "url": "https://github.com/openshift/oadp-operator/pull/2349"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/redirector",
+      "org": "kaovilai",
+      "title": "Add design docs for one-click community rule install via marketplace deep links",
+      "url": "https://github.com/kaovilai/redirector/pull/3"
+    },
+    {
+      "number": 10104,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update Restore Exposer and PVC CSI to support in-place restore",
+      "url": "https://github.com/velero-io/velero/pull/10104"
+    },
+    {
       "number": 10158,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -974,13 +1016,6 @@
       "org": "velero-io",
       "title": "Verify extracted item paths stay inside the backup directory",
       "url": "https://github.com/velero-io/velero/pull/10102"
-    },
-    {
-      "number": 2349,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
-      "url": "https://github.com/openshift/oadp-operator/pull/2349"
     },
     {
       "number": 161,
@@ -1039,13 +1074,6 @@
       "url": "https://github.com/migtools/oadp-cli/pull/238"
     },
     {
-      "number": 10119,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix csi pvc restore action",
-      "url": "https://github.com/velero-io/velero/pull/10119"
-    },
-    {
       "number": 255,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1058,13 +1086,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
       "url": "https://github.com/openshift/oadp-must-gather/pull/159"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/redirector",
-      "org": "kaovilai",
-      "title": "Add design docs for one-click community rule install via marketplace deep links",
-      "url": "https://github.com/kaovilai/redirector/pull/3"
     },
     {
       "number": 70,
@@ -1142,13 +1163,6 @@
       "org": "velero-io",
       "title": "feat(e2e) :- add E2E test for restore hook failure policies",
       "url": "https://github.com/velero-io/velero/pull/10097"
-    },
-    {
-      "number": 10096,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(e2e) :- add E2E test for BSL ReadOnly mode validation",
-      "url": "https://github.com/velero-io/velero/pull/10096"
     },
     {
       "number": 10123,
@@ -1639,16 +1653,65 @@
       "org": "velero-io",
       "title": "build(image): remove kubectl installation from build image",
       "url": "https://github.com/velero-io/velero/pull/10065"
-    },
-    {
-      "number": 263,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Bump google.golang.org/grpc from 1.73.0 to 1.82.1",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/263"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 155,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155"
+    },
+    {
+      "number": 154,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154"
+    },
+    {
+      "number": 153,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
+    },
+    {
+      "number": 152,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152"
+    },
+    {
+      "number": 123,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
+    },
+    {
+      "number": 122,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122"
+    },
+    {
+      "number": 162,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/162"
+    },
     {
       "number": 120,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1683,13 +1746,6 @@
       "org": "cncf",
       "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
       "url": "https://github.com/cncf/mentoring/issues/1997"
-    },
-    {
-      "number": 153,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
     },
     {
       "number": 99,
@@ -1746,13 +1802,6 @@
       "org": "velero-io",
       "title": "Avoid overwriting during backup to support object lock enabled buckets",
       "url": "https://github.com/velero-io/velero/issues/8686"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9719,
@@ -1903,6 +1952,20 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 162,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/162"
+    },
+    {
+      "number": 2236,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Flaky E2E: DPA reconciliation race condition causes NoDefaultBackupLocation test failure",
+      "url": "https://github.com/openshift/oadp-operator/issues/2236"
+    },
     {
       "number": 2351,
       "repo": "openshift/oadp-operator",
