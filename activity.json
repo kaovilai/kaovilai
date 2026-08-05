@@ -3,15 +3,36 @@
     "start": "2026-07-22",
     "end": "2026-08-05"
   },
-  "generatedAt": "2026-08-05T08:44:27Z",
+  "generatedAt": "2026-08-05T14:14:21Z",
   "metrics": {
-    "prsMerged": 59,
-    "prsOpened": 77,
+    "prsMerged": 62,
+    "prsOpened": 82,
     "prsReviewed": 98,
     "issuesCommented": 42,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 175,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
+    },
+    {
+      "number": 149,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix command bar overlapping review dialog comment box",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/149"
+    },
+    {
+      "number": 174,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Addressing date and time display per browser timezone",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/174"
+    },
     {
       "number": 2353,
       "repo": "openshift/oadp-operator",
@@ -427,6 +448,41 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2358,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2358"
+    },
+    {
+      "number": 2357,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2357"
+    },
+    {
+      "number": 149,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix command bar overlapping review dialog comment box",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/149"
+    },
+    {
+      "number": 175,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
+    },
+    {
+      "number": 174,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Addressing date and time display per browser timezone",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/174"
+    },
     {
       "number": 1034,
       "repo": "mksglu/context-mode",
@@ -969,11 +1025,60 @@
   ],
   "prsReviewed": [
     {
-      "number": 10119,
+      "number": 10158,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Fix csi pvc restore action",
-      "url": "https://github.com/velero-io/velero/pull/10119"
+      "title": "ci: add backport/cherry-pick GitHub Action for release branches",
+      "url": "https://github.com/velero-io/velero/pull/10158"
+    },
+    {
+      "number": 2349,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
+      "url": "https://github.com/openshift/oadp-operator/pull/2349"
+    },
+    {
+      "number": 2356,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2356"
+    },
+    {
+      "number": 168,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "[ImgBot] Optimize images",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/168"
+    },
+    {
+      "number": 2328,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2328"
+    },
+    {
+      "number": 175,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
+    },
+    {
+      "number": 372,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "⬆ Bump hadolint/hadolint-action from 3.1.0 to 3.4.0",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/372"
+    },
+    {
+      "number": 158,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "[oadp-1.4] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/158"
     },
     {
       "number": 10096,
@@ -983,11 +1088,11 @@
       "url": "https://github.com/velero-io/velero/pull/10096"
     },
     {
-      "number": 2349,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
-      "url": "https://github.com/openshift/oadp-operator/pull/2349"
+      "number": 10119,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix csi pvc restore action",
+      "url": "https://github.com/velero-io/velero/pull/10119"
     },
     {
       "number": 3,
@@ -1002,13 +1107,6 @@
       "org": "velero-io",
       "title": "Update Restore Exposer and PVC CSI to support in-place restore",
       "url": "https://github.com/velero-io/velero/pull/10104"
-    },
-    {
-      "number": 10158,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "ci: add backport/cherry-pick GitHub Action for release branches",
-      "url": "https://github.com/velero-io/velero/pull/10158"
     },
     {
       "number": 10102,
@@ -1480,13 +1578,6 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/455"
     },
     {
-      "number": 168,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "[ImgBot] Optimize images",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/168"
-    },
-    {
       "number": 2334,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1618,41 +1709,6 @@
       "org": "velero-io",
       "title": "Bump golang.org/x/crypto from 0.51.0 to 0.52.0",
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/264"
-    },
-    {
-      "number": 265,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Bump golang.org/x/net from 0.53.0 to 0.55.0",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/265"
-    },
-    {
-      "number": 144,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Bump golangci-lint to v2.12.2 to match CI and support Go 1.26",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/144"
-    },
-    {
-      "number": 36,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "[oadp-1.6] Bump kubevirt-datamover-controller for GCP Cloud Storage support",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/36"
-    },
-    {
-      "number": 368,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "[oadp-dev] Fix IncludedClusterScopedResources test panic",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/368"
-    },
-    {
-      "number": 10065,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(image): remove kubectl installation from build image",
-      "url": "https://github.com/velero-io/velero/pull/10065"
     }
   ],
   "issuesCommented": [

@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-07-22 — 2026-08-05
-> **Generated:** 2026-08-05 08:44:27 UTC
+> **Generated:** 2026-08-05 14:14:21 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 59 |
-| PRs Opened | 77 |
+| PRs Merged | 62 |
+| PRs Opened | 82 |
 | PRs Reviewed | 98 |
 | Issues/PRs Commented | 42 |
 | Issues Closed | 30 |
 
 ---
 
-## PRs Merged (59)
+## PRs Merged (62)
 
 **velero-io** (3)
 - [#10024 Derive dev-tool CLI versions from go.mod (ginkgo, protoc-gen-go, goimports)](https://github.com/velero-io/velero/pull/10024) — velero-io/velero
@@ -70,7 +70,10 @@
 - [#119 ci: upgrade workflow actions off deprecated Node 20](https://github.com/migtools/kubevirt-datamover-controller/pull/119) — migtools/kubevirt-datamover-controller
 - [#110 Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message](https://github.com/migtools/kubevirt-datamover-controller/pull/110) — migtools/kubevirt-datamover-controller
 
-**Other** (10)
+**Other** (13)
+- [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
+- [#149 Fix command bar overlapping review dialog comment box](https://github.com/kaovilai/github-bot-command-palette/pull/149) — kaovilai/github-bot-command-palette
+- [#174 Addressing date and time display per browser timezone](https://github.com/kaovilai/kaovilai.pw/pull/174) — kaovilai/kaovilai.pw
 - [#3 Follow-up fixes for #967 subagent routing opt-out and provenance scoping](https://github.com/kaovilai/context-mode/pull/3) — kaovilai/context-mode
 - [#2 Reduce permission-classifier false positives on injected subagent routing block](https://github.com/kaovilai/context-mode/pull/2) — kaovilai/context-mode
 - [#148 Group Dependabot updates per ecosystem](https://github.com/kaovilai/github-bot-command-palette/pull/148) — kaovilai/github-bot-command-palette
@@ -81,12 +84,14 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (77)
+## PRs Opened (82)
 
 **velero-io** (1)
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
 
-**openshift** (38)
+**openshift** (40)
+- [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
+- [#2357 [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2357) — openshift/oadp-operator
 - [#2353 Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2353) — openshift/oadp-operator
 - [#2352 Add datadownloads RBAC to kubevirt-datamover ClusterRole](https://github.com/openshift/oadp-operator/pull/2352) — openshift/oadp-operator
 - [#2350 Add e2e coverage for kubevirt-datamover: multi-PVC VMs and incremental backup sequence](https://github.com/openshift/oadp-operator/pull/2350) — openshift/oadp-operator
@@ -144,7 +149,10 @@
 - [#141 1.6: Bump Dockerfile Go version from 1.25 to 1.26](https://github.com/migtools/kubevirt-datamover-controller/pull/141) — migtools/kubevirt-datamover-controller
 - [#136 Remove 'mrnold' from OWNERS file](https://github.com/migtools/kubevirt-datamover-controller/pull/136) — migtools/kubevirt-datamover-controller
 
-**Other** (22)
+**Other** (25)
+- [#149 Fix command bar overlapping review dialog comment box](https://github.com/kaovilai/github-bot-command-palette/pull/149) — kaovilai/github-bot-command-palette
+- [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
+- [#174 Addressing date and time display per browser timezone](https://github.com/kaovilai/kaovilai.pw/pull/174) — kaovilai/kaovilai.pw
 - [#1034 fix(routing): self-identify subagent routing block, add opt-out (#967)](https://github.com/mksglu/context-mode/pull/1034) — mksglu/context-mode
 - [#3 Follow-up fixes for #967 subagent routing opt-out and provenance scoping](https://github.com/kaovilai/context-mode/pull/3) — kaovilai/context-mode
 - [#2 Reduce permission-classifier false positives on injected subagent routing block](https://github.com/kaovilai/context-mode/pull/2) — kaovilai/context-mode
@@ -169,11 +177,11 @@
 - [#541 ⚡ Bolt: Remove redundant compinit for faster startup](https://github.com/kaovilai/dotfiles/pull/541) — kaovilai/dotfiles
 ## PRs Reviewed (98)
 
-**velero-io** (26)
-- [#10119 Fix csi pvc restore action](https://github.com/velero-io/velero/pull/10119) — velero-io/velero
-- [#10096 feat(e2e) :- add E2E test for BSL ReadOnly mode validation](https://github.com/velero-io/velero/pull/10096) — velero-io/velero
-- [#10104 Update Restore Exposer and PVC CSI to support in-place restore](https://github.com/velero-io/velero/pull/10104) — velero-io/velero
+**velero-io** (24)
 - [#10158 ci: add backport/cherry-pick GitHub Action for release branches](https://github.com/velero-io/velero/pull/10158) — velero-io/velero
+- [#10096 feat(e2e) :- add E2E test for BSL ReadOnly mode validation](https://github.com/velero-io/velero/pull/10096) — velero-io/velero
+- [#10119 Fix csi pvc restore action](https://github.com/velero-io/velero/pull/10119) — velero-io/velero
+- [#10104 Update Restore Exposer and PVC CSI to support in-place restore](https://github.com/velero-io/velero/pull/10104) — velero-io/velero
 - [#10102 Verify extracted item paths stay inside the backup directory](https://github.com/velero-io/velero/pull/10102) — velero-io/velero
 - [#10121 Enhancement: fail-fast on velero install wait](https://github.com/velero-io/velero/pull/10121) — velero-io/velero
 - [#10132 Do not assume a port name is a string when clearing node ports](https://github.com/velero-io/velero/pull/10132) — velero-io/velero
@@ -194,11 +202,12 @@
 - [#10101 [Cherry-Pick] RIA MustInclude annotation and VSC fix for 1.18](https://github.com/velero-io/velero/pull/10101) — velero-io/velero
 - [#10083 ci(push): pin action versions to commit SHAs and restrict permissions](https://github.com/velero-io/velero/pull/10083) — velero-io/velero
 - [#264 Bump golang.org/x/crypto from 0.51.0 to 0.52.0](https://github.com/velero-io/velero-plugin-for-gcp/pull/264) — velero-io/velero-plugin-for-gcp
-- [#265 Bump golang.org/x/net from 0.53.0 to 0.55.0](https://github.com/velero-io/velero-plugin-for-gcp/pull/265) — velero-io/velero-plugin-for-gcp
-- [#10065 build(image): remove kubectl installation from build image](https://github.com/velero-io/velero/pull/10065) — velero-io/velero
 
-**openshift** (35)
+**openshift** (38)
 - [#2349 feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2349) — openshift/oadp-operator
+- [#2356 [oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2356) — openshift/oadp-operator
+- [#2328 [oadp-1.6] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)](https://github.com/openshift/oadp-operator/pull/2328) — openshift/oadp-operator
+- [#158 [oadp-1.4] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces](https://github.com/openshift/oadp-must-gather/pull/158) — openshift/oadp-must-gather
 - [#159 [oadp-1.6] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces](https://github.com/openshift/oadp-must-gather/pull/159) — openshift/oadp-must-gather
 - [#82902 tide: set github_merge_blocks_policy to block for OADP repos](https://github.com/openshift/release/pull/82902) — openshift/release
 - [#451 [oadp-1.6] OADP-7384: Copy imagestream images from the stream's own repository](https://github.com/openshift/openshift-velero-plugin/pull/451) — openshift/openshift-velero-plugin
@@ -234,7 +243,8 @@
 - [#556 Fix CI workflows: MinIO image, Go version, linter action, and typos](https://github.com/openshift/velero/pull/556) — openshift/velero
 - [#2325 [oadp-1.4] OADP-8486: Added startup probe](https://github.com/openshift/oadp-operator/pull/2325) — openshift/oadp-operator
 
-**migtools** (33)
+**migtools** (31)
+- [#372 ⬆ Bump hadolint/hadolint-action from 3.1.0 to 3.4.0](https://github.com/migtools/oadp-non-admin/pull/372) — migtools/oadp-non-admin
 - [#161 [oadp-1.6] feat: add bound-sa-token projected volume to datamover pod for STS auth](https://github.com/migtools/kubevirt-datamover-controller/pull/161) — migtools/kubevirt-datamover-controller
 - [#31 chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend](https://github.com/migtools/filebrowser/pull/31) — migtools/filebrowser
 - [#158 feat: add bound-sa-token projected volume to datamover pod for STS auth](https://github.com/migtools/kubevirt-datamover-controller/pull/158) — migtools/kubevirt-datamover-controller
@@ -265,14 +275,12 @@
 - [#150 [oadp-1.6] Issue #26: Azure BSL support](https://github.com/migtools/kubevirt-datamover-controller/pull/150) — migtools/kubevirt-datamover-controller
 - [#239 Backport must gather image 1.6](https://github.com/migtools/oadp-cli/pull/239) — migtools/oadp-cli
 - [#148 [oadp-1.6] feat: implement downloader runtime for VM restore (issue #73 Phase 2)](https://github.com/migtools/kubevirt-datamover-controller/pull/148) — migtools/kubevirt-datamover-controller
-- [#144 Bump golangci-lint to v2.12.2 to match CI and support Go 1.26](https://github.com/migtools/kubevirt-datamover-controller/pull/144) — migtools/kubevirt-datamover-controller
-- [#36 [oadp-1.6] Bump kubevirt-datamover-controller for GCP Cloud Storage support](https://github.com/migtools/kubevirt-datamover-plugin/pull/36) — migtools/kubevirt-datamover-plugin
-- [#368 [oadp-dev] Fix IncludedClusterScopedResources test panic](https://github.com/migtools/oadp-non-admin/pull/368) — migtools/oadp-non-admin
 
-**Other** (4)
+**Other** (5)
+- [#168 [ImgBot] Optimize images](https://github.com/kaovilai/kaovilai.pw/pull/168) — kaovilai/kaovilai.pw
+- [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
 - [#3 Add design docs for one-click community rule install via marketplace deep links](https://github.com/kaovilai/redirector/pull/3) — kaovilai/redirector
 - [#70 Sync activity log update schedule with PR badges workflow](https://github.com/kaovilai/kaovilai/pull/70) — kaovilai/kaovilai
-- [#168 [ImgBot] Optimize images](https://github.com/kaovilai/kaovilai.pw/pull/168) — kaovilai/kaovilai.pw
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
 ## Issues/PRs Commented On (42)
 
