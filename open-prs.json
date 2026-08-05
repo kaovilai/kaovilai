@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T14:19:33Z",
+  "updatedAt": "2026-08-05T18:23:52Z",
   "prs": [
     {
       "number": 10051,
@@ -352,16 +352,6 @@
       "milestone": null
     },
     {
-      "number": 449,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Detect SCC UID/GID-range mismatch on namespace restore",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null
-    },
-    {
       "number": 297,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -418,6 +408,16 @@
       "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
       "url": "https://github.com/openshift/ci-tools/pull/5334",
       "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null
+    },
+    {
+      "number": 449,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Detect SCC UID/GID-range mismatch on namespace restore",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
+      "targetBranch": "oadp-dev",
       "status": "waiting-merge",
       "milestone": null
     },
@@ -662,32 +662,22 @@
       "milestone": null
     },
     {
+      "number": 373,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Document NADR (NonAdminDownloadRequest) usage",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/373",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 41,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
       "title": "Add RestoreItemAction plugins to trigger kubevirt datamover restore",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/41",
       "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 253,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-      "url": "https://github.com/migtools/oadp-cli/pull/253",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 48,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/48",
-      "targetBranch": "oadp-1.6",
       "status": "ready",
       "milestone": null
     },
@@ -702,13 +692,23 @@
       "milestone": null
     },
     {
-      "number": 307,
-      "repo": "migtools/oadp-non-admin",
+      "number": 253,
+      "repo": "migtools/oadp-cli",
       "org": "migtools",
-      "title": "Document usage of NADR (NonAdminDownloadRequest) feature",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/307",
+      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+      "url": "https://github.com/migtools/oadp-cli/pull/253",
       "targetBranch": "oadp-dev",
-      "status": "ready",
+      "status": "waiting-merge",
+      "milestone": null
+    },
+    {
+      "number": 48,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/kopia/pull/48",
+      "targetBranch": "oadp-1.6",
+      "status": "waiting-merge",
       "milestone": null
     },
     {
@@ -829,6 +829,16 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/88",
       "targetBranch": "oadp-dev",
       "status": "needs-attention",
+      "milestone": null
+    },
+    {
+      "number": 18725,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+      "targetBranch": "main",
+      "status": "ready",
       "milestone": null
     },
     {
