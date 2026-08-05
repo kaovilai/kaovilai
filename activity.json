@@ -3,10 +3,10 @@
     "start": "2026-07-22",
     "end": "2026-08-05"
   },
-  "generatedAt": "2026-08-05T14:14:21Z",
+  "generatedAt": "2026-08-05T16:43:46Z",
   "metrics": {
     "prsMerged": 62,
-    "prsOpened": 82,
+    "prsOpened": 84,
     "prsReviewed": 98,
     "issuesCommented": 42,
     "issuesClosed": 30
@@ -448,6 +448,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 18725,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18725"
+    },
+    {
+      "number": 373,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Document NADR (NonAdminDownloadRequest) usage",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/373"
+    },
     {
       "number": 2358,
       "repo": "openshift/oadp-operator",
@@ -1025,11 +1039,67 @@
   ],
   "prsReviewed": [
     {
+      "number": 2356,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2356"
+    },
+    {
+      "number": 2359,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller",
+      "url": "https://github.com/openshift/oadp-operator/pull/2359"
+    },
+    {
+      "number": 2328,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2328"
+    },
+    {
+      "number": 10070,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add snapshotClass parameter to volume policy snapshot action",
+      "url": "https://github.com/velero-io/velero/pull/10070"
+    },
+    {
       "number": 10158,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "ci: add backport/cherry-pick GitHub Action for release branches",
       "url": "https://github.com/velero-io/velero/pull/10158"
+    },
+    {
+      "number": 10163,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
+      "url": "https://github.com/velero-io/velero/pull/10163"
+    },
+    {
+      "number": 10162,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.16] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
+      "url": "https://github.com/velero-io/velero/pull/10162"
+    },
+    {
+      "number": 158,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "[oadp-1.4] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/158"
+    },
+    {
+      "number": 255,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Remove dead oadp-operator replace directive",
+      "url": "https://github.com/migtools/oadp-cli/pull/255"
     },
     {
       "number": 2349,
@@ -1039,25 +1109,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2349"
     },
     {
-      "number": 2356,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2356"
-    },
-    {
       "number": 168,
       "repo": "kaovilai/kaovilai.pw",
       "org": "kaovilai",
       "title": "[ImgBot] Optimize images",
       "url": "https://github.com/kaovilai/kaovilai.pw/pull/168"
-    },
-    {
-      "number": 2328,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2328"
     },
     {
       "number": 175,
@@ -1072,13 +1128,6 @@
       "org": "migtools",
       "title": "⬆ Bump hadolint/hadolint-action from 3.1.0 to 3.4.0",
       "url": "https://github.com/migtools/oadp-non-admin/pull/372"
-    },
-    {
-      "number": 158,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "[oadp-1.4] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/158"
     },
     {
       "number": 10096,
@@ -1172,13 +1221,6 @@
       "url": "https://github.com/migtools/oadp-cli/pull/238"
     },
     {
-      "number": 255,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Remove dead oadp-operator replace directive",
-      "url": "https://github.com/migtools/oadp-cli/pull/255"
-    },
-    {
       "number": 159,
       "repo": "openshift/oadp-must-gather",
       "org": "openshift",
@@ -1240,13 +1282,6 @@
       "org": "velero-io",
       "title": "Implement server default restore resource modifier",
       "url": "https://github.com/velero-io/velero/pull/10098"
-    },
-    {
-      "number": 10070,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add snapshotClass parameter to volume policy snapshot action",
-      "url": "https://github.com/velero-io/velero/pull/10070"
     },
     {
       "number": 10135,
@@ -1688,30 +1723,16 @@
       "org": "openshift",
       "title": "Fix CI workflows: MinIO image, Go version, linter action, and typos",
       "url": "https://github.com/openshift/velero/pull/556"
-    },
-    {
-      "number": 2325,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] OADP-8486: Added startup probe",
-      "url": "https://github.com/openshift/oadp-operator/pull/2325"
-    },
-    {
-      "number": 10083,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "ci(push): pin action versions to commit SHAs and restrict permissions",
-      "url": "https://github.com/velero-io/velero/pull/10083"
-    },
-    {
-      "number": 264,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Bump golang.org/x/crypto from 0.51.0 to 0.52.0",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/264"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8807,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support per-storageclass VSClass annotation",
+      "url": "https://github.com/velero-io/velero/issues/8807"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -1984,13 +2005,6 @@
       "org": "caozhiyuan",
       "title": "Omit  ANTHROPIC_MODEL: sonnetModel ?? opusModel, from claude-code so selected model option sticks",
       "url": "https://github.com/caozhiyuan/copilot-api/issues/330"
-    },
-    {
-      "number": 8807,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support per-storageclass VSClass annotation",
-      "url": "https://github.com/velero-io/velero/issues/8807"
     },
     {
       "number": 363,
