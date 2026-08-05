@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-07-22 — 2026-08-05
-> **Generated:** 2026-08-05 20:27:57 UTC
+> **Generated:** 2026-08-05 22:14:13 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 64 |
-| PRs Opened | 85 |
-| PRs Reviewed | 98 |
+| PRs Opened | 86 |
+| PRs Reviewed | 97 |
 | Issues/PRs Commented | 42 |
 | Issues Closed | 31 |
 
@@ -86,7 +86,7 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (85)
+## PRs Opened (86)
 
 **velero-io** (1)
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
@@ -133,7 +133,8 @@
 - [#82429 Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26](https://github.com/openshift/release/pull/82429) — openshift/release
 - [#5329 pkg/steps: pin bundle builds to amd64 nodes](https://github.com/openshift/ci-tools/pull/5329) — openshift/ci-tools
 
-**migtools** (17)
+**migtools** (18)
+- [#44 Clear PVC binding fields before returning restored item](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) — migtools/kubevirt-datamover-plugin
 - [#373 Document NADR (NonAdminDownloadRequest) usage](https://github.com/migtools/oadp-non-admin/pull/373) — migtools/oadp-non-admin
 - [#41 Add RestoreItemAction plugins to trigger kubevirt datamover restore](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) — migtools/kubevirt-datamover-plugin
 - [#253 Fix #252: Add exact-output assertion for schedule create example normalization](https://github.com/migtools/oadp-cli/pull/253) — migtools/oadp-cli
@@ -180,7 +181,7 @@
 - [#544 ⚡ Bolt: [performance improvement] Remove redundant compinit](https://github.com/kaovilai/dotfiles/pull/544) — kaovilai/dotfiles
 - [#543 ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing](https://github.com/kaovilai/dotfiles/pull/543) — kaovilai/dotfiles
 - [#541 ⚡ Bolt: Remove redundant compinit for faster startup](https://github.com/kaovilai/dotfiles/pull/541) — kaovilai/dotfiles
-## PRs Reviewed (98)
+## PRs Reviewed (97)
 
 **velero-io** (24)
 - [#10158 ci: add backport/cherry-pick GitHub Action for release branches](https://github.com/velero-io/velero/pull/10158) — velero-io/velero
@@ -210,10 +211,10 @@
 
 **openshift** (37)
 - [#2356 [oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2356) — openshift/oadp-operator
+- [#2349 feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2349) — openshift/oadp-operator
 - [#2359 [oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2359) — openshift/oadp-operator
 - [#2328 [oadp-1.6] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)](https://github.com/openshift/oadp-operator/pull/2328) — openshift/oadp-operator
 - [#158 [oadp-1.4] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces](https://github.com/openshift/oadp-must-gather/pull/158) — openshift/oadp-must-gather
-- [#2349 feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2349) — openshift/oadp-operator
 - [#159 [oadp-1.6] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces](https://github.com/openshift/oadp-must-gather/pull/159) — openshift/oadp-must-gather
 - [#82902 tide: set github_merge_blocks_policy to block for OADP repos](https://github.com/openshift/release/pull/82902) — openshift/release
 - [#451 [oadp-1.6] OADP-7384: Copy imagestream images from the stream's own repository](https://github.com/openshift/openshift-velero-plugin/pull/451) — openshift/openshift-velero-plugin
@@ -247,7 +248,7 @@
 - [#156 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.3)](https://github.com/openshift/velero-plugin-for-gcp/pull/156) — openshift/velero-plugin-for-gcp
 - [#158 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.5)](https://github.com/openshift/velero-plugin-for-gcp/pull/158) — openshift/velero-plugin-for-gcp
 
-**migtools** (32)
+**migtools** (31)
 - [#164 fix: handle hyphenated disk names in extractDiskName](https://github.com/migtools/kubevirt-datamover-controller/pull/164) — migtools/kubevirt-datamover-controller
 - [#255 Remove dead oadp-operator replace directive](https://github.com/migtools/oadp-cli/pull/255) — migtools/oadp-cli
 - [#372 ⬆ Bump hadolint/hadolint-action from 3.1.0 to 3.4.0](https://github.com/migtools/oadp-non-admin/pull/372) — migtools/oadp-non-admin
@@ -279,7 +280,6 @@
 - [#151 [oadp-1.6] ci: fix lint for golangci-lint v2](https://github.com/migtools/kubevirt-datamover-controller/pull/151) — migtools/kubevirt-datamover-controller
 - [#150 [oadp-1.6] Issue #26: Azure BSL support](https://github.com/migtools/kubevirt-datamover-controller/pull/150) — migtools/kubevirt-datamover-controller
 - [#239 Backport must gather image 1.6](https://github.com/migtools/oadp-cli/pull/239) — migtools/oadp-cli
-- [#148 [oadp-1.6] feat: implement downloader runtime for VM restore (issue #73 Phase 2)](https://github.com/migtools/kubevirt-datamover-controller/pull/148) — migtools/kubevirt-datamover-controller
 
 **Other** (5)
 - [#168 [ImgBot] Optimize images](https://github.com/kaovilai/kaovilai.pw/pull/168) — kaovilai/kaovilai.pw

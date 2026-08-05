@@ -3,11 +3,11 @@
     "start": "2026-07-22",
     "end": "2026-08-05"
   },
-  "generatedAt": "2026-08-05T20:27:57Z",
+  "generatedAt": "2026-08-05T22:14:13Z",
   "metrics": {
     "prsMerged": 64,
-    "prsOpened": 85,
-    "prsReviewed": 98,
+    "prsOpened": 86,
+    "prsReviewed": 97,
     "issuesCommented": 42,
     "issuesClosed": 31
   },
@@ -462,6 +462,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 44,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Clear PVC binding fields before returning restored item",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44"
+    },
     {
       "number": 177,
       "repo": "kaovilai/kaovilai.pw",
@@ -1060,6 +1067,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 2356,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2356"
+    },
+    {
+      "number": 2349,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
+      "url": "https://github.com/openshift/oadp-operator/pull/2349"
+    },
+    {
+      "number": 2359,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller",
+      "url": "https://github.com/openshift/oadp-operator/pull/2359"
+    },
+    {
       "number": 164,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1072,20 +1100,6 @@
       "org": "velero-io",
       "title": "ci: add backport/cherry-pick GitHub Action for release branches",
       "url": "https://github.com/velero-io/velero/pull/10158"
-    },
-    {
-      "number": 2356,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2356"
-    },
-    {
-      "number": 2359,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller",
-      "url": "https://github.com/openshift/oadp-operator/pull/2359"
     },
     {
       "number": 2328,
@@ -1128,13 +1142,6 @@
       "org": "migtools",
       "title": "Remove dead oadp-operator replace directive",
       "url": "https://github.com/migtools/oadp-cli/pull/255"
-    },
-    {
-      "number": 2349,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
-      "url": "https://github.com/openshift/oadp-operator/pull/2349"
     },
     {
       "number": 168,
@@ -1737,13 +1744,6 @@
       "org": "migtools",
       "title": "Backport must gather image 1.6",
       "url": "https://github.com/migtools/oadp-cli/pull/239"
-    },
-    {
-      "number": 148,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] feat: implement downloader runtime for VM restore (issue #73 Phase 2)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/148"
     }
   ],
   "issuesCommented": [
