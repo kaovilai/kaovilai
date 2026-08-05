@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-05 08:29:22 UTC
+> Last updated: 2026-08-05 14:19:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -45,6 +45,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-ready-green)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
 - [![PR #2346](https://img.shields.io/badge/PR%20%232346-ready-green)](https://github.com/openshift/oadp-operator/pull/2346) **openshift/oadp-operator** → `oadp-dev` - docs: add CI plugin image sync guidance to common.go
+- [![PR #2357](https://img.shields.io/badge/PR%20%232357-ready-green)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
+- [![PR #2358](https://img.shields.io/badge/PR%20%232358-ready-green)](https://github.com/openshift/oadp-operator/pull/2358) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
