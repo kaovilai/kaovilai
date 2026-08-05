@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-07-21",
-    "end": "2026-08-04"
+    "start": "2026-07-22",
+    "end": "2026-08-05"
   },
-  "generatedAt": "2026-08-04T23:26:36Z",
+  "generatedAt": "2026-08-05T02:55:56Z",
   "metrics": {
-    "prsMerged": 57,
-    "prsOpened": 82,
-    "prsReviewed": 97,
-    "issuesCommented": 35,
-    "issuesClosed": 27
+    "prsMerged": 58,
+    "prsOpened": 77,
+    "prsReviewed": 98,
+    "issuesCommented": 36,
+    "issuesClosed": 28
   },
   "prsMerged": [
+    {
+      "number": 2352,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add datadownloads RBAC to kubevirt-datamover ClusterRole",
+      "url": "https://github.com/openshift/oadp-operator/pull/2352"
+    },
     {
       "number": 3,
       "repo": "kaovilai/context-mode",
@@ -951,50 +958,57 @@
       "org": "kaovilai",
       "title": "⚡ Bolt: Remove redundant compinit for faster startup",
       "url": "https://github.com/kaovilai/dotfiles/pull/541"
-    },
-    {
-      "number": 10054,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update security contact email and links in SECURITY.md",
-      "url": "https://github.com/velero-io/velero/pull/10054"
-    },
-    {
-      "number": 540,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Remove redundant compinit for faster shell startup",
-      "url": "https://github.com/kaovilai/dotfiles/pull/540"
-    },
-    {
-      "number": 449,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Detect SCC UID/GID-range mismatch on namespace restore",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/449"
-    },
-    {
-      "number": 82189,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Exclude copilot/* branches from migtools branch protection",
-      "url": "https://github.com/openshift/release/pull/82189"
-    },
-    {
-      "number": 297,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/297"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10158,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ci: add backport/cherry-pick GitHub Action for release branches",
+      "url": "https://github.com/velero-io/velero/pull/10158"
+    },
+    {
+      "number": 10102,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Verify extracted item paths stay inside the backup directory",
+      "url": "https://github.com/velero-io/velero/pull/10102"
+    },
+    {
+      "number": 2349,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: use velero SA and add bound-sa-token volume for KDM controller",
+      "url": "https://github.com/openshift/oadp-operator/pull/2349"
+    },
+    {
+      "number": 161,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] feat: add bound-sa-token projected volume to datamover pod for STS auth",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/161"
+    },
     {
       "number": 31,
       "repo": "migtools/filebrowser",
       "org": "migtools",
       "title": "chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend",
       "url": "https://github.com/migtools/filebrowser/pull/31"
+    },
+    {
+      "number": 158,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add bound-sa-token projected volume to datamover pod for STS auth",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
+    },
+    {
+      "number": 138,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "build(deps): bump github.com/google/cel-go from 0.26.0 to 0.29.0",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/138"
     },
     {
       "number": 10121,
@@ -1016,20 +1030,6 @@
       "org": "velero-io",
       "title": "feat(cli): add velero client set-context-as-velero-namespace command",
       "url": "https://github.com/velero-io/velero/pull/10127"
-    },
-    {
-      "number": 158,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add bound-sa-token projected volume to datamover pod for STS auth",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
-    },
-    {
-      "number": 10102,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Verify extracted item paths stay inside the backup directory",
-      "url": "https://github.com/velero-io/velero/pull/10102"
     },
     {
       "number": 238,
@@ -1578,13 +1578,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/148"
     },
     {
-      "number": 138,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump github.com/google/cel-go from 0.26.0 to 0.29.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/138"
-    },
-    {
       "number": 556,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -1620,13 +1613,6 @@
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/265"
     },
     {
-      "number": 367,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-dev (a041235) into oadp-dev",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/367"
-    },
-    {
       "number": 144,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1660,16 +1646,16 @@
       "org": "velero-io",
       "title": "Bump google.golang.org/grpc from 1.73.0 to 1.82.1",
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/263"
-    },
-    {
-      "number": 10066,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update Kopia(filesystem) uploader to support incremental and deleteExtraFile during restore",
-      "url": "https://github.com/velero-io/velero/pull/10066"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 120,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
+    },
     {
       "number": 10120,
       "repo": "velero-io/velero",
@@ -1917,6 +1903,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2351,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "kubevirt-datamover ClusterRole missing RBAC for Phase 3 (DataDownload) support",
+      "url": "https://github.com/openshift/oadp-operator/issues/2351"
+    },
     {
       "number": 147,
       "repo": "kaovilai/github-bot-command-palette",
