@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-05 20:34:24 UTC
+> Last updated: 2026-08-05 23:56:45 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -94,6 +94,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
+- [![PR #44](https://img.shields.io/badge/PR%20%2344-hold-yellow)](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Clear PVC binding fields before returning restored item
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase
