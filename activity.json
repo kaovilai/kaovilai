@@ -3,7 +3,7 @@
     "start": "2026-07-23",
     "end": "2026-08-06"
   },
-  "generatedAt": "2026-08-06T00:03:45Z",
+  "generatedAt": "2026-08-06T08:46:00Z",
   "metrics": {
     "prsMerged": 59,
     "prsOpened": 85,
@@ -529,7 +529,7 @@
       "number": 2350,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Add e2e coverage for kubevirt-datamover: multi-PVC VMs and incremental backup sequence",
+      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
       "url": "https://github.com/openshift/oadp-operator/pull/2350"
     },
     {
@@ -1025,11 +1025,46 @@
   ],
   "prsReviewed": [
     {
+      "number": 10102,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Verify extracted item paths stay inside the backup directory",
+      "url": "https://github.com/velero-io/velero/pull/10102"
+    },
+    {
+      "number": 10096,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(e2e) :- add E2E test for BSL ReadOnly mode validation",
+      "url": "https://github.com/velero-io/velero/pull/10096"
+    },
+    {
       "number": 166,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "feat: add BSL config parity with Velero AWS plugin",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/166"
+    },
+    {
+      "number": 10104,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update Restore Exposer and PVC CSI to support in-place restore",
+      "url": "https://github.com/velero-io/velero/pull/10104"
+    },
+    {
+      "number": 10121,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enhancement: fail-fast on velero install wait",
+      "url": "https://github.com/velero-io/velero/pull/10121"
+    },
+    {
+      "number": 10158,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ci: add backport/cherry-pick GitHub Action for release branches",
+      "url": "https://github.com/velero-io/velero/pull/10158"
     },
     {
       "number": 2356,
@@ -1058,13 +1093,6 @@
       "org": "migtools",
       "title": "fix: handle hyphenated disk names in extractDiskName",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/164"
-    },
-    {
-      "number": 10158,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "ci: add backport/cherry-pick GitHub Action for release branches",
-      "url": "https://github.com/velero-io/velero/pull/10158"
     },
     {
       "number": 2328,
@@ -1130,13 +1158,6 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/372"
     },
     {
-      "number": 10096,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(e2e) :- add E2E test for BSL ReadOnly mode validation",
-      "url": "https://github.com/velero-io/velero/pull/10096"
-    },
-    {
       "number": 10119,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1149,20 +1170,6 @@
       "org": "kaovilai",
       "title": "Add design docs for one-click community rule install via marketplace deep links",
       "url": "https://github.com/kaovilai/redirector/pull/3"
-    },
-    {
-      "number": 10104,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update Restore Exposer and PVC CSI to support in-place restore",
-      "url": "https://github.com/velero-io/velero/pull/10104"
-    },
-    {
-      "number": 10102,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Verify extracted item paths stay inside the backup directory",
-      "url": "https://github.com/velero-io/velero/pull/10102"
     },
     {
       "number": 161,
@@ -1191,13 +1198,6 @@
       "org": "migtools",
       "title": "build(deps): bump github.com/google/cel-go from 0.26.0 to 0.29.0",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/138"
-    },
-    {
-      "number": 10121,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Enhancement: fail-fast on velero install wait",
-      "url": "https://github.com/velero-io/velero/pull/10121"
     },
     {
       "number": 10132,
@@ -1706,18 +1706,18 @@
   ],
   "issuesCommented": [
     {
-      "number": 8807,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support per-storageclass VSClass annotation",
-      "url": "https://github.com/velero-io/velero/issues/8807"
-    },
-    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 8807,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support per-storageclass VSClass annotation",
+      "url": "https://github.com/velero-io/velero/issues/8807"
     },
     {
       "number": 155,
