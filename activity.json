@@ -3,10 +3,10 @@
     "start": "2026-07-23",
     "end": "2026-08-06"
   },
-  "generatedAt": "2026-08-06T08:46:00Z",
+  "generatedAt": "2026-08-06T14:17:34Z",
   "metrics": {
     "prsMerged": 59,
-    "prsOpened": 85,
+    "prsOpened": 87,
     "prsReviewed": 97,
     "issuesCommented": 41,
     "issuesClosed": 27
@@ -428,10 +428,24 @@
   ],
   "prsOpened": [
     {
+      "number": 170,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: delete VMB on genuine DataUpload Failed transition",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/170"
+    },
+    {
+      "number": 2360,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: kubevirt-datamover design doc — 2026-08-06 implementation status",
+      "url": "https://github.com/openshift/oadp-operator/pull/2360"
+    },
+    {
       "number": 44,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
-      "title": "Clear PVC binding fields before returning restored item",
+      "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44"
     },
     {
@@ -1025,6 +1039,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10162,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.16] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
+      "url": "https://github.com/velero-io/velero/pull/10162"
+    },
+    {
       "number": 10102,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1114,13 +1135,6 @@
       "org": "velero-io",
       "title": "[release-1.17] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
       "url": "https://github.com/velero-io/velero/pull/10163"
-    },
-    {
-      "number": 10162,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.16] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
-      "url": "https://github.com/velero-io/velero/pull/10162"
     },
     {
       "number": 158,
