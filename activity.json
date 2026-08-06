@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-22",
-    "end": "2026-08-05"
+    "start": "2026-07-23",
+    "end": "2026-08-06"
   },
-  "generatedAt": "2026-08-05T22:14:13Z",
+  "generatedAt": "2026-08-06T00:03:45Z",
   "metrics": {
-    "prsMerged": 64,
-    "prsOpened": 86,
+    "prsMerged": 59,
+    "prsOpened": 85,
     "prsReviewed": 97,
-    "issuesCommented": 42,
-    "issuesClosed": 31
+    "issuesCommented": 41,
+    "issuesClosed": 27
   },
   "prsMerged": [
     {
@@ -424,41 +424,6 @@
       "org": "velero-io",
       "title": "Fix flaky TestKopiaObjectWriterEx_ConcurrentAsyncErrors",
       "url": "https://github.com/velero-io/velero/pull/10030"
-    },
-    {
-      "number": 82189,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Exclude copilot/* branches from migtools branch protection",
-      "url": "https://github.com/openshift/release/pull/82189"
-    },
-    {
-      "number": 119,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "ci: upgrade workflow actions off deprecated Node 20",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/119"
-    },
-    {
-      "number": 444,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "OADP-7384: Copy imagestream images from the stream's own repository",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/444"
-    },
-    {
-      "number": 110,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Fix evaluateVMBackupStatus to read VMBackup failure detail from Reason, not Message",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/110"
-    },
-    {
-      "number": 10049,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures",
-      "url": "https://github.com/velero-io/velero/pull/10049"
     }
   ],
   "prsOpened": [
@@ -1056,16 +1021,16 @@
       "org": "kaovilai",
       "title": "⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing",
       "url": "https://github.com/kaovilai/dotfiles/pull/543"
-    },
-    {
-      "number": 541,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Remove redundant compinit for faster startup",
-      "url": "https://github.com/kaovilai/dotfiles/pull/541"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 166,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add BSL config parity with Velero AWS plugin",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/166"
+    },
     {
       "number": 2356,
       "repo": "openshift/oadp-operator",
@@ -1345,13 +1310,6 @@
       "org": "velero-io",
       "title": "refactor(serverstatus): Remove outdated Kubernetes v1.9.0 workaround",
       "url": "https://github.com/velero-io/velero/pull/10110"
-    },
-    {
-      "number": 451,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-7384: Copy imagestream images from the stream's own repository",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/451"
     },
     {
       "number": 2329,
@@ -2033,13 +1991,6 @@
       "org": "openshift",
       "title": "Remove CODEGEN_VERSION from Makefile.prow",
       "url": "https://github.com/openshift/velero/issues/363"
-    },
-    {
-      "number": 73,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement DataDownload controller for VM restore",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/73"
     }
   ],
   "issuesClosed": [
@@ -2231,34 +2182,6 @@
       "org": "openshift",
       "title": "Remove CODEGEN_VERSION from Makefile.prow",
       "url": "https://github.com/openshift/velero/issues/363"
-    },
-    {
-      "number": 118,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "lint workflow is using node20",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/118"
-    },
-    {
-      "number": 443,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "OADP-7384: ImageStream backup fails with `manifest unknown` when a status tag item references another namespace's repository and that reference is stale",
-      "url": "https://github.com/openshift/openshift-velero-plugin/issues/443"
-    },
-    {
-      "number": 108,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason==\"Failed\"",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/108"
-    },
-    {
-      "number": 10048,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures",
-      "url": "https://github.com/velero-io/velero/issues/10048"
     }
   ]
 }
