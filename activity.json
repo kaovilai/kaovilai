@@ -3,15 +3,22 @@
     "start": "2026-07-24",
     "end": "2026-08-07"
   },
-  "generatedAt": "2026-08-07T15:58:15Z",
+  "generatedAt": "2026-08-07T17:01:22Z",
   "metrics": {
-    "prsMerged": 58,
+    "prsMerged": 59,
     "prsOpened": 87,
     "prsReviewed": 97,
     "issuesCommented": 43,
     "issuesClosed": 24
   },
   "prsMerged": [
+    {
+      "number": 44,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44"
+    },
     {
       "number": 2208,
       "repo": "openshift/oadp-operator",
@@ -431,7 +438,7 @@
       "number": 83078,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "Add optional e2e-test-kubevirt-aws presubmit for oadp-dev",
+      "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev",
       "url": "https://github.com/openshift/release/pull/83078"
     },
     {

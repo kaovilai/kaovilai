@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-07-24 — 2026-08-07
-> **Generated:** 2026-08-07 15:58:15 UTC
+> **Generated:** 2026-08-07 17:01:22 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 58 |
+| PRs Merged | 59 |
 | PRs Opened | 87 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 43 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (58)
+## PRs Merged (59)
 
 **openshift** (35)
 - [#2208 OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2208) — openshift/oadp-operator
@@ -52,7 +52,8 @@
 - [#82434 Update image tag from ubi9-v1.25 to ubi9-v1.26](https://github.com/openshift/release/pull/82434) — openshift/release
 - [#82429 Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26](https://github.com/openshift/release/pull/82429) — openshift/release
 
-**migtools** (9)
+**migtools** (10)
+- [#44 Clear PVC binding state and halt kubevirt VMs at restore time](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) — migtools/kubevirt-datamover-plugin
 - [#41 Add RestoreItemAction plugins to trigger kubevirt datamover restore](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) — migtools/kubevirt-datamover-plugin
 - [#371 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/371) — migtools/oadp-non-admin
 - [#40 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/40) — migtools/kubevirt-datamover-plugin
@@ -85,7 +86,7 @@
 
 **openshift** (43)
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
-- [#83078 Add optional e2e-test-kubevirt-aws presubmit for oadp-dev](https://github.com/openshift/release/pull/83078) — openshift/release
+- [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev](https://github.com/openshift/release/pull/83078) — openshift/release
 - [#83049 Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83049) — openshift/release
 - [#2360 docs: kubevirt-datamover design doc — 2026-08-06 implementation status](https://github.com/openshift/oadp-operator/pull/2360) — openshift/oadp-operator
 - [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
