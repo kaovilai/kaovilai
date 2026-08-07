@@ -3,15 +3,22 @@
     "start": "2026-07-24",
     "end": "2026-08-07"
   },
-  "generatedAt": "2026-08-07T17:01:22Z",
+  "generatedAt": "2026-08-07T19:00:35Z",
   "metrics": {
-    "prsMerged": 59,
-    "prsOpened": 87,
+    "prsMerged": 60,
+    "prsOpened": 88,
     "prsReviewed": 97,
     "issuesCommented": 43,
     "issuesClosed": 24
   },
   "prsMerged": [
+    {
+      "number": 83110,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/83110"
+    },
     {
       "number": 44,
       "repo": "migtools/kubevirt-datamover-plugin",
@@ -428,6 +435,13 @@
   ],
   "prsOpened": [
     {
+      "number": 83124,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "ixney on 5.1ney (rebased)",
+      "url": "https://github.com/openshift/release/pull/83124"
+    },
+    {
       "number": 83110,
       "repo": "openshift/release",
       "org": "openshift",
@@ -438,7 +452,7 @@
       "number": 83078,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev",
+      "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0",
       "url": "https://github.com/openshift/release/pull/83078"
     },
     {
@@ -1039,11 +1053,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 10159,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix excluded namespace objects leaking into backup with cross-namespa…",
-      "url": "https://github.com/velero-io/velero/pull/10159"
+      "number": 83117,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "ixney on 5.1ney",
+      "url": "https://github.com/openshift/release/pull/83117"
+    },
+    {
+      "number": 167,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add BSL config parity with Velero AWS plugin",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
     },
     {
       "number": 10158,
@@ -1053,18 +1074,18 @@
       "url": "https://github.com/velero-io/velero/pull/10158"
     },
     {
+      "number": 10159,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix excluded namespace objects leaking into backup with cross-namespa…",
+      "url": "https://github.com/velero-io/velero/pull/10159"
+    },
+    {
       "number": 176,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "[oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/176"
-    },
-    {
-      "number": 167,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add BSL config parity with Velero AWS plugin",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
     },
     {
       "number": 10162,
@@ -1709,13 +1730,6 @@
       "org": "velero-io",
       "title": "[Cherry-Pick] RIA MustInclude annotation and VSC fix for 1.18",
       "url": "https://github.com/velero-io/velero/pull/10101"
-    },
-    {
-      "number": 151,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] ci: fix lint for golangci-lint v2",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/151"
     }
   ],
   "issuesCommented": [

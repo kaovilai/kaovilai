@@ -1,21 +1,22 @@
 # Activity Log
 
 > **Period:** 2026-07-24 — 2026-08-07
-> **Generated:** 2026-08-07 17:01:22 UTC
+> **Generated:** 2026-08-07 19:00:35 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 59 |
-| PRs Opened | 87 |
+| PRs Merged | 60 |
+| PRs Opened | 88 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 43 |
 | Issues Closed | 24 |
 
 ---
 
-## PRs Merged (59)
+## PRs Merged (60)
 
-**openshift** (35)
+**openshift** (36)
+- [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
 - [#2208 OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2208) — openshift/oadp-operator
 - [#434 OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic](https://github.com/openshift/velero/pull/434) — openshift/velero
 - [#2353 Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2353) — openshift/oadp-operator
@@ -79,14 +80,15 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (87)
+## PRs Opened (88)
 
 **velero-io** (1)
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
 
-**openshift** (43)
+**openshift** (44)
+- [#83124 ixney on 5.1ney (rebased)](https://github.com/openshift/release/pull/83124) — openshift/release
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
-- [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev](https://github.com/openshift/release/pull/83078) — openshift/release
+- [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0](https://github.com/openshift/release/pull/83078) — openshift/release
 - [#83049 Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83049) — openshift/release
 - [#2360 docs: kubevirt-datamover design doc — 2026-08-06 implementation status](https://github.com/openshift/oadp-operator/pull/2360) — openshift/oadp-operator
 - [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
@@ -178,8 +180,8 @@
 ## PRs Reviewed (97)
 
 **velero-io** (24)
-- [#10159 Fix excluded namespace objects leaking into backup with cross-namespa…](https://github.com/velero-io/velero/pull/10159) — velero-io/velero
 - [#10158 ci: add backport/cherry-pick GitHub Action for release branches](https://github.com/velero-io/velero/pull/10158) — velero-io/velero
+- [#10159 Fix excluded namespace objects leaking into backup with cross-namespa…](https://github.com/velero-io/velero/pull/10159) — velero-io/velero
 - [#10162 [release-1.16] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)](https://github.com/velero-io/velero/pull/10162) — velero-io/velero
 - [#10102 Verify extracted item paths stay inside the backup directory](https://github.com/velero-io/velero/pull/10102) — velero-io/velero
 - [#10096 feat(e2e) :- add E2E test for BSL ReadOnly mode validation](https://github.com/velero-io/velero/pull/10096) — velero-io/velero
@@ -203,7 +205,8 @@
 - [#10113 Site: update homepage CTA and add LinkedIn to footer](https://github.com/velero-io/velero/pull/10113) — velero-io/velero
 - [#10101 [Cherry-Pick] RIA MustInclude annotation and VSC fix for 1.18](https://github.com/velero-io/velero/pull/10101) — velero-io/velero
 
-**openshift** (36)
+**openshift** (37)
+- [#83117 ixney on 5.1ney](https://github.com/openshift/release/pull/83117) — openshift/release
 - [#2356 [oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2356) — openshift/oadp-operator
 - [#2349 feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2349) — openshift/oadp-operator
 - [#2359 [oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2359) — openshift/oadp-operator
@@ -241,9 +244,9 @@
 - [#156 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.3)](https://github.com/openshift/velero-plugin-for-gcp/pull/156) — openshift/velero-plugin-for-gcp
 - [#158 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.5)](https://github.com/openshift/velero-plugin-for-gcp/pull/158) — openshift/velero-plugin-for-gcp
 
-**migtools** (32)
-- [#176 [oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods](https://github.com/migtools/kubevirt-datamover-controller/pull/176) — migtools/kubevirt-datamover-controller
+**migtools** (31)
 - [#167 feat: add BSL config parity with Velero AWS plugin](https://github.com/migtools/kubevirt-datamover-controller/pull/167) — migtools/kubevirt-datamover-controller
+- [#176 [oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods](https://github.com/migtools/kubevirt-datamover-controller/pull/176) — migtools/kubevirt-datamover-controller
 - [#166 feat: add BSL config parity with Velero AWS plugin](https://github.com/migtools/kubevirt-datamover-controller/pull/166) — migtools/kubevirt-datamover-controller
 - [#164 fix: handle hyphenated disk names in extractDiskName](https://github.com/migtools/kubevirt-datamover-controller/pull/164) — migtools/kubevirt-datamover-controller
 - [#255 Remove dead oadp-operator replace directive](https://github.com/migtools/oadp-cli/pull/255) — migtools/oadp-cli
@@ -273,7 +276,6 @@
 - [#369 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/369) — migtools/oadp-non-admin
 - [#45 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/45) — migtools/kopia
 - [#180 Remove inactive users from OWNERS](https://github.com/migtools/udistribution/pull/180) — migtools/udistribution
-- [#151 [oadp-1.6] ci: fix lint for golangci-lint v2](https://github.com/migtools/kubevirt-datamover-controller/pull/151) — migtools/kubevirt-datamover-controller
 
 **Other** (5)
 - [#168 [ImgBot] Optimize images](https://github.com/kaovilai/kaovilai.pw/pull/168) — kaovilai/kaovilai.pw
