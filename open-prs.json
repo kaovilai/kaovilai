@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T01:40:34Z",
+  "updatedAt": "2026-08-07T07:08:38Z",
   "prs": [
     {
       "number": 10051,
@@ -10,6 +10,16 @@
       "targetBranch": "main",
       "status": "ready",
       "milestone": null
+    },
+    {
+      "number": 10047,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10047",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19"
     },
     {
       "number": 321,
@@ -212,16 +222,6 @@
       "milestone": null
     },
     {
-      "number": 10047,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10047",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": "v1.19"
-    },
-    {
       "number": 10041,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -309,6 +309,16 @@
       "url": "https://github.com/velero-io/velero/pull/7941",
       "targetBranch": "main",
       "status": "failing-ci",
+      "milestone": null
+    },
+    {
+      "number": 83078,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add optional e2e-test-kubevirt-aws presubmit for oadp-dev",
+      "url": "https://github.com/openshift/release/pull/83078",
+      "targetBranch": "main",
+      "status": "ready",
       "milestone": null
     },
     {
@@ -672,11 +682,31 @@
       "milestone": null
     },
     {
+      "number": 44,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 373,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
       "title": "Document NADR (NonAdminDownloadRequest) usage",
       "url": "https://github.com/migtools/oadp-non-admin/pull/373",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 124,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
       "targetBranch": "oadp-dev",
       "status": "ready",
       "milestone": null
@@ -802,32 +832,12 @@
       "milestone": null
     },
     {
-      "number": 44,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44",
-      "targetBranch": "oadp-dev",
-      "status": "hold",
-      "milestone": null
-    },
-    {
       "number": 251,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/251",
       "targetBranch": "oadp-1.4",
-      "status": "hold",
-      "milestone": null
-    },
-    {
-      "number": 124,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
-      "targetBranch": "oadp-dev",
       "status": "hold",
       "milestone": null
     },
