@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T19:02:48Z",
+  "updatedAt": "2026-08-07T20:46:21Z",
   "prs": [
     {
       "number": 10051,
@@ -452,16 +452,6 @@
       "milestone": null
     },
     {
-      "number": 83078,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0",
-      "url": "https://github.com/openshift/release/pull/83078",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
       "number": 5334,
       "repo": "openshift/ci-tools",
       "org": "openshift",
@@ -499,6 +489,16 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2350",
       "targetBranch": "oadp-dev",
       "status": "draft",
+      "milestone": null
+    },
+    {
+      "number": 404,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
+      "targetBranch": "oadp-1.5",
+      "status": "stale",
       "milestone": null
     },
     {
@@ -648,16 +648,6 @@
       "title": "Export pod inspect functions for external consumption",
       "url": "https://github.com/openshift/oc/pull/2308",
       "targetBranch": "main",
-      "status": "hold",
-      "milestone": null
-    },
-    {
-      "number": 404,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
-      "targetBranch": "oadp-1.5",
       "status": "hold",
       "milestone": null
     },
@@ -949,6 +939,16 @@
       "url": "https://github.com/kubernetes/community/pull/8673",
       "targetBranch": "main",
       "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Add daily gh-aw upstream parity workflow for single-cluster OADP UI",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/1",
+      "targetBranch": "main",
+      "status": "draft",
       "milestone": null
     },
     {

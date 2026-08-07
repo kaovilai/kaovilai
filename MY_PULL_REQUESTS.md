@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-07 19:02:48 UTC
+> Last updated: 2026-08-07 20:46:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -56,7 +56,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
-- [![PR #83078](https://img.shields.io/badge/PR%20%2383078-waiting--merge-blue)](https://github.com/openshift/release/pull/83078) **openshift/release** → `main` - Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0
 - [![PR #83124](https://img.shields.io/badge/PR%20%2383124-waiting--merge-blue)](https://github.com/openshift/release/pull/83124) **openshift/release** → `main` - ixney on 5.1ney (rebased)
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-draft-gray)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
@@ -70,10 +69,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
+- [![PR #404](https://img.shields.io/badge/PR%20%23404-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
-- [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #83049](https://img.shields.io/badge/PR%20%2383049-hold-yellow)](https://github.com/openshift/release/pull/83049) **openshift/release** → `main` - Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)
@@ -115,6 +114,7 @@ No open PRs.
 - [![PR #3](https://img.shields.io/badge/PR%20%233-ready-green)](https://github.com/kaovilai/redirector/pull/3) **kaovilai/redirector** → `main` - Add design docs for one-click community rule install via marketplace deep links
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
+- [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/oadp-ui/pull/1) **kaovilai/oadp-ui** → `main` - Add daily gh-aw upstream parity workflow for single-cluster OADP UI
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #538](https://img.shields.io/badge/PR%20%23538-draft-gray)](https://github.com/kaovilai/dotfiles/pull/538) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit to improve shell startup time
