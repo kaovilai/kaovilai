@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T14:56:46Z",
+  "updatedAt": "2026-08-07T16:01:17Z",
   "prs": [
     {
       "number": 10051,
@@ -312,21 +312,21 @@
       "milestone": null
     },
     {
-      "number": 83078,
+      "number": 83110,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "Add optional e2e-test-kubevirt-aws presubmit for oadp-dev",
-      "url": "https://github.com/openshift/release/pull/83078",
+      "title": "Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/83110",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null
     },
     {
-      "number": 83049,
+      "number": 83078,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83049",
+      "title": "Add optional e2e-test-kubevirt-aws presubmit for oadp-dev",
+      "url": "https://github.com/openshift/release/pull/83078",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null
@@ -619,6 +619,16 @@
       "url": "https://github.com/openshift/oadp-operator/pull/1952",
       "targetBranch": "oadp-dev",
       "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 83049,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/83049",
+      "targetBranch": "main",
+      "status": "hold",
       "milestone": null
     },
     {

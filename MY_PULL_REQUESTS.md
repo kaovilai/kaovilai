@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-07 14:56:46 UTC
+> Last updated: 2026-08-07 16:01:17 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -52,8 +52,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #83049](https://img.shields.io/badge/PR%20%2383049-ready-green)](https://github.com/openshift/release/pull/83049) **openshift/release** → `main` - Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)
 - [![PR #83078](https://img.shields.io/badge/PR%20%2383078-ready-green)](https://github.com/openshift/release/pull/83078) **openshift/release** → `main` - Add optional e2e-test-kubevirt-aws presubmit for oadp-dev
+- [![PR #83110](https://img.shields.io/badge/PR%20%2383110-ready-green)](https://github.com/openshift/release/pull/83110) **openshift/release** → `main` - Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-draft-gray)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
@@ -76,6 +76,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-hold-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
+- [![PR #83049](https://img.shields.io/badge/PR%20%2383049-hold-yellow)](https://github.com/openshift/release/pull/83049) **openshift/release** → `main` - Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 
 ## migtools
