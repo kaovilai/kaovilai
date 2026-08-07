@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-07 16:01:17 UTC
+> Last updated: 2026-08-07 17:50:59 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -41,6 +41,8 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
+- [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
+- [![PR #2152](https://img.shields.io/badge/PR%20%232152-ready-green)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2206](https://img.shields.io/badge/PR%20%232206-ready-green)](https://github.com/openshift/oadp-operator/pull/2206) **openshift/oadp-operator** → `oadp-1.6` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
@@ -52,19 +54,16 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
-- [![PR #83078](https://img.shields.io/badge/PR%20%2383078-ready-green)](https://github.com/openshift/release/pull/83078) **openshift/release** → `main` - Add optional e2e-test-kubevirt-aws presubmit for oadp-dev
-- [![PR #83110](https://img.shields.io/badge/PR%20%2383110-ready-green)](https://github.com/openshift/release/pull/83110) **openshift/release** → `main` - Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
+- [![PR #83078](https://img.shields.io/badge/PR%20%2383078-waiting--merge-blue)](https://github.com/openshift/release/pull/83078) **openshift/release** → `main` - Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-draft-gray)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2019](https://img.shields.io/badge/PR%20%232019-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2019) **openshift/oadp-operator** → `oadp-dev` - Add uploader-type argument to Velero deployment configuration when configuration.args is used.
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
-- [![PR #2139](https://img.shields.io/badge/PR%20%232139-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
-- [![PR #2152](https://img.shields.io/badge/PR%20%232152-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2152) **openshift/oadp-operator** → `oadp-dev` - Remove setup-envtest if different arch during `make test`
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
@@ -86,7 +85,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
-- [![PR #44](https://img.shields.io/badge/PR%20%2344-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Clear PVC binding state and halt kubevirt VMs at restore time
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
