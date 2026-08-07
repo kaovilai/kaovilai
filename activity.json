@@ -3,10 +3,10 @@
     "start": "2026-07-24",
     "end": "2026-08-07"
   },
-  "generatedAt": "2026-08-07T01:42:34Z",
+  "generatedAt": "2026-08-07T07:24:52Z",
   "metrics": {
     "prsMerged": 58,
-    "prsOpened": 85,
+    "prsOpened": 86,
     "prsReviewed": 97,
     "issuesCommented": 43,
     "issuesClosed": 24
@@ -420,6 +420,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 83078,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add optional e2e-test-kubevirt-aws presubmit for oadp-dev",
+      "url": "https://github.com/openshift/release/pull/83078"
+    },
     {
       "number": 83049,
       "repo": "openshift/release",
@@ -1025,18 +1032,25 @@
       "url": "https://github.com/velero-io/velero/pull/10159"
     },
     {
-      "number": 167,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add BSL config parity with Velero AWS plugin",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
-    },
-    {
       "number": 10158,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "ci: add backport/cherry-pick GitHub Action for release branches",
       "url": "https://github.com/velero-io/velero/pull/10158"
+    },
+    {
+      "number": 176,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/176"
+    },
+    {
+      "number": 167,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add BSL config parity with Velero AWS plugin",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
     },
     {
       "number": 10162,
@@ -1688,16 +1702,16 @@
       "org": "migtools",
       "title": "[oadp-1.6] ci: fix lint for golangci-lint v2",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/151"
-    },
-    {
-      "number": 150,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] Issue #26: Azure BSL support",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/150"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
     {
       "number": 175,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1753,13 +1767,6 @@
       "org": "migtools",
       "title": "VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/45"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 8807,
