@@ -1,12 +1,12 @@
 # Activity Log
 
 > **Period:** 2026-07-24 — 2026-08-07
-> **Generated:** 2026-08-07 14:54:54 UTC
+> **Generated:** 2026-08-07 15:58:15 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 58 |
-| PRs Opened | 86 |
+| PRs Opened | 87 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 43 |
 | Issues Closed | 24 |
@@ -78,12 +78,13 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (86)
+## PRs Opened (87)
 
 **velero-io** (1)
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
 
-**openshift** (42)
+**openshift** (43)
+- [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
 - [#83078 Add optional e2e-test-kubevirt-aws presubmit for oadp-dev](https://github.com/openshift/release/pull/83078) — openshift/release
 - [#83049 Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83049) — openshift/release
 - [#2360 docs: kubevirt-datamover design doc — 2026-08-06 implementation status](https://github.com/openshift/oadp-operator/pull/2360) — openshift/oadp-operator
