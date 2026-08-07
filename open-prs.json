@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T14:23:13Z",
+  "updatedAt": "2026-08-07T00:42:08Z",
   "prs": [
     {
       "number": 10051,
@@ -92,6 +92,16 @@
       "milestone": "v1.19"
     },
     {
+      "number": 9384,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip restore informer cache for resources without watch support",
+      "url": "https://github.com/velero-io/velero/pull/9384",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 9236,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -127,16 +137,6 @@
       "org": "velero-io",
       "title": "Add make test-e2e-kind: self-contained e2e run in a single container",
       "url": "https://github.com/velero-io/velero/pull/10025",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null
-    },
-    {
-      "number": 9384,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip restore informer cache for resources without watch support",
-      "url": "https://github.com/velero-io/velero/pull/9384",
       "targetBranch": "main",
       "status": "draft",
       "milestone": null
@@ -312,6 +312,16 @@
       "milestone": null
     },
     {
+      "number": 83049,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/83049",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 2358,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -392,6 +402,26 @@
       "milestone": null
     },
     {
+      "number": 2207,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2207",
+      "targetBranch": "oadp-1.5",
+      "status": "ready",
+      "milestone": null
+    },
+    {
+      "number": 2206,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2206",
+      "targetBranch": "oadp-1.6",
+      "status": "ready",
+      "milestone": null
+    },
+    {
       "number": 2205,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -419,26 +449,6 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
       "targetBranch": "oadp-dev",
       "status": "waiting-merge",
-      "milestone": null
-    },
-    {
-      "number": 2208,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2208",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
-      "number": 434,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic",
-      "url": "https://github.com/openshift/velero/pull/434",
-      "targetBranch": "oadp-1.4",
-      "status": "ci-pending",
       "milestone": null
     },
     {
@@ -632,26 +642,6 @@
       "milestone": null
     },
     {
-      "number": 2207,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2207",
-      "targetBranch": "oadp-1.5",
-      "status": "hold",
-      "milestone": null
-    },
-    {
-      "number": 2206,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2206",
-      "targetBranch": "oadp-1.6",
-      "status": "hold",
-      "milestone": null
-    },
-    {
       "number": 79327,
       "repo": "openshift/release",
       "org": "openshift",
@@ -675,7 +665,7 @@
       "number": 170,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "fix: delete VMB on genuine DataUpload Failed transition",
+      "title": "fix: defer PVC/PV cleanup while datamover pod terminates",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/170",
       "targetBranch": "oadp-dev",
       "status": "ready",
@@ -687,16 +677,6 @@
       "org": "migtools",
       "title": "Document NADR (NonAdminDownloadRequest) usage",
       "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null
-    },
-    {
-      "number": 124,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
       "targetBranch": "oadp-dev",
       "status": "ready",
       "milestone": null
@@ -838,6 +818,16 @@
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/251",
       "targetBranch": "oadp-1.4",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 124,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
+      "targetBranch": "oadp-dev",
       "status": "hold",
       "milestone": null
     },
