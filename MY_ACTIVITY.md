@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-07-25 — 2026-08-08
-> **Generated:** 2026-08-08 00:27:57 UTC
+> **Generated:** 2026-08-08 07:04:56 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 59 |
+| PRs Merged | 60 |
 | PRs Opened | 81 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 43 |
@@ -13,9 +13,10 @@
 
 ---
 
-## PRs Merged (59)
+## PRs Merged (60)
 
-**openshift** (35)
+**openshift** (36)
+- [#83124 ixney on 5.1ney (rebased)](https://github.com/openshift/release/pull/83124) — openshift/release
 - [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0](https://github.com/openshift/release/pull/83078) — openshift/release
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
 - [#2208 OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2208) — openshift/oadp-operator
