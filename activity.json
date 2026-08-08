@@ -1,12 +1,12 @@
 {
   "period": {
-    "start": "2026-07-24",
-    "end": "2026-08-07"
+    "start": "2026-07-25",
+    "end": "2026-08-08"
   },
-  "generatedAt": "2026-08-07T23:38:08Z",
+  "generatedAt": "2026-08-08T00:27:57Z",
   "metrics": {
-    "prsMerged": 61,
-    "prsOpened": 89,
+    "prsMerged": 59,
+    "prsOpened": 81,
     "prsReviewed": 97,
     "issuesCommented": 43,
     "issuesClosed": 24
@@ -424,20 +424,6 @@
       "org": "migtools",
       "title": "feat: implement downloader runtime for VM restore (issue #73 Phase 2)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/115"
-    },
-    {
-      "number": 82434,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Update image tag from ubi9-v1.25 to ubi9-v1.26",
-      "url": "https://github.com/openshift/release/pull/82434"
-    },
-    {
-      "number": 82429,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26",
-      "url": "https://github.com/openshift/release/pull/82429"
     }
   ],
   "prsOpened": [
@@ -1007,62 +993,6 @@
       "org": "kaovilai",
       "title": "⚡ Bolt: Remove redundant compinit for faster shell startup",
       "url": "https://github.com/kaovilai/dotfiles/pull/545"
-    },
-    {
-      "number": 146,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Fix E2E manager image build by copying all manager source in Dockerfile",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/146"
-    },
-    {
-      "number": 144,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Bump golangci-lint to v2.12.2 to match CI and support Go 1.26",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/144"
-    },
-    {
-      "number": 143,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "oadp-1.6: Bump GitHub Actions to node24 runtime versions",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/143"
-    },
-    {
-      "number": 142,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Bump GitHub Actions to node24 runtime versions",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/142"
-    },
-    {
-      "number": 141,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "1.6: Bump Dockerfile Go version from 1.25 to 1.26",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/141"
-    },
-    {
-      "number": 82434,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Update image tag from ubi9-v1.25 to ubi9-v1.26",
-      "url": "https://github.com/openshift/release/pull/82434"
-    },
-    {
-      "number": 82429,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26",
-      "url": "https://github.com/openshift/release/pull/82429"
-    },
-    {
-      "number": 544,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: [performance improvement] Remove redundant compinit",
-      "url": "https://github.com/kaovilai/dotfiles/pull/544"
     }
   ],
   "prsReviewed": [
@@ -1242,25 +1172,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/161"
     },
     {
-      "number": 31,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend",
-      "url": "https://github.com/migtools/filebrowser/pull/31"
-    },
-    {
       "number": 158,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "feat: add bound-sa-token projected volume to datamover pod for STS auth",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
-    },
-    {
-      "number": 138,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump github.com/google/cel-go from 0.26.0 to 0.29.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/138"
     },
     {
       "number": 10132,
@@ -1275,13 +1191,6 @@
       "org": "velero-io",
       "title": "feat(cli): add velero client set-context-as-velero-namespace command",
       "url": "https://github.com/velero-io/velero/pull/10127"
-    },
-    {
-      "number": 238,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Bump google.golang.org/grpc from 1.77.0 to 1.82.1",
-      "url": "https://github.com/migtools/oadp-cli/pull/238"
     },
     {
       "number": 159,
@@ -1744,6 +1653,27 @@
       "org": "velero-io",
       "title": "[Cherry-Pick] RIA MustInclude annotation and VSC fix for 1.18",
       "url": "https://github.com/velero-io/velero/pull/10101"
+    },
+    {
+      "number": 151,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] ci: fix lint for golangci-lint v2",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/151"
+    },
+    {
+      "number": 150,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] Issue #26: Azure BSL support",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/150"
+    },
+    {
+      "number": 239,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Backport must gather image 1.6",
+      "url": "https://github.com/migtools/oadp-cli/pull/239"
     }
   ],
   "issuesCommented": [

@@ -1,21 +1,21 @@
 # Activity Log
 
-> **Period:** 2026-07-24 — 2026-08-07
-> **Generated:** 2026-08-07 23:38:08 UTC
+> **Period:** 2026-07-25 — 2026-08-08
+> **Generated:** 2026-08-08 00:27:57 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 61 |
-| PRs Opened | 89 |
+| PRs Merged | 59 |
+| PRs Opened | 81 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 43 |
 | Issues Closed | 24 |
 
 ---
 
-## PRs Merged (61)
+## PRs Merged (59)
 
-**openshift** (37)
+**openshift** (35)
 - [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0](https://github.com/openshift/release/pull/83078) — openshift/release
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
 - [#2208 OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2208) — openshift/oadp-operator
@@ -51,8 +51,6 @@
 - [#560 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero/pull/560) — openshift/velero
 - [#5329 pkg/steps: pin bundle builds to amd64 nodes](https://github.com/openshift/ci-tools/pull/5329) — openshift/ci-tools
 - [#2313 Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)](https://github.com/openshift/oadp-operator/pull/2313) — openshift/oadp-operator
-- [#82434 Update image tag from ubi9-v1.25 to ubi9-v1.26](https://github.com/openshift/release/pull/82434) — openshift/release
-- [#82429 Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26](https://github.com/openshift/release/pull/82429) — openshift/release
 
 **migtools** (10)
 - [#44 Clear PVC binding state and halt kubevirt VMs at restore time](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) — migtools/kubevirt-datamover-plugin
@@ -81,12 +79,12 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (89)
+## PRs Opened (81)
 
 **velero-io** (1)
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
 
-**openshift** (44)
+**openshift** (42)
 - [#83124 ixney on 5.1ney (rebased)](https://github.com/openshift/release/pull/83124) — openshift/release
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
 - [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0](https://github.com/openshift/release/pull/83078) — openshift/release
@@ -129,10 +127,8 @@
 - [#559 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero/pull/559) — openshift/velero
 - [#557 Remove inactive users from OWNERS](https://github.com/openshift/velero/pull/557) — openshift/velero
 - [#5334 test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream](https://github.com/openshift/ci-tools/pull/5334) — openshift/ci-tools
-- [#82434 Update image tag from ubi9-v1.25 to ubi9-v1.26](https://github.com/openshift/release/pull/82434) — openshift/release
-- [#82429 Bump migtools/kubevirt-datamover-controller build root to ubi9-v1.26](https://github.com/openshift/release/pull/82429) — openshift/release
 
-**migtools** (18)
+**migtools** (13)
 - [#170 fix: defer PVC/PV cleanup while datamover pod terminates](https://github.com/migtools/kubevirt-datamover-controller/pull/170) — migtools/kubevirt-datamover-controller
 - [#44 Clear PVC binding state and halt kubevirt VMs at restore time](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) — migtools/kubevirt-datamover-plugin
 - [#373 Document NADR (NonAdminDownloadRequest) usage](https://github.com/migtools/oadp-non-admin/pull/373) — migtools/oadp-non-admin
@@ -146,13 +142,8 @@
 - [#47 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/47) — migtools/kopia
 - [#38 Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support](https://github.com/migtools/kubevirt-datamover-plugin/pull/38) — migtools/kubevirt-datamover-plugin
 - [#149 Cherry-pick #131: Azure BSL support to oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/149) — migtools/kubevirt-datamover-controller
-- [#146 Fix E2E manager image build by copying all manager source in Dockerfile](https://github.com/migtools/kubevirt-datamover-controller/pull/146) — migtools/kubevirt-datamover-controller
-- [#144 Bump golangci-lint to v2.12.2 to match CI and support Go 1.26](https://github.com/migtools/kubevirt-datamover-controller/pull/144) — migtools/kubevirt-datamover-controller
-- [#143 oadp-1.6: Bump GitHub Actions to node24 runtime versions](https://github.com/migtools/kubevirt-datamover-controller/pull/143) — migtools/kubevirt-datamover-controller
-- [#142 Bump GitHub Actions to node24 runtime versions](https://github.com/migtools/kubevirt-datamover-controller/pull/142) — migtools/kubevirt-datamover-controller
-- [#141 1.6: Bump Dockerfile Go version from 1.25 to 1.26](https://github.com/migtools/kubevirt-datamover-controller/pull/141) — migtools/kubevirt-datamover-controller
 
-**Other** (26)
+**Other** (25)
 - [#1 Add daily gh-aw upstream parity workflow for single-cluster OADP UI](https://github.com/kaovilai/oadp-ui/pull/1) — kaovilai/oadp-ui
 - [#177 Group “Currently Working On” contributions by organization before repository](https://github.com/kaovilai/kaovilai.pw/pull/177) — kaovilai/kaovilai.pw
 - [#18725 Release the VMBackup finalizer when its BackupTracker is gone](https://github.com/kubevirt/kubevirt/pull/18725) — kubevirt/kubevirt
@@ -178,7 +169,6 @@
 - [#549 ⚡ Bolt: [performance improvement] Remove redundant compinit](https://github.com/kaovilai/dotfiles/pull/549) — kaovilai/dotfiles
 - [#548 ⚡ Bolt: Remove redundant compinit call for faster startup](https://github.com/kaovilai/dotfiles/pull/548) — kaovilai/dotfiles
 - [#545 ⚡ Bolt: Remove redundant compinit for faster shell startup](https://github.com/kaovilai/dotfiles/pull/545) — kaovilai/dotfiles
-- [#544 ⚡ Bolt: [performance improvement] Remove redundant compinit](https://github.com/kaovilai/dotfiles/pull/544) — kaovilai/dotfiles
 ## PRs Reviewed (97)
 
 **velero-io** (24)
@@ -254,10 +244,7 @@
 - [#255 Remove dead oadp-operator replace directive](https://github.com/migtools/oadp-cli/pull/255) — migtools/oadp-cli
 - [#372 ⬆ Bump hadolint/hadolint-action from 3.1.0 to 3.4.0](https://github.com/migtools/oadp-non-admin/pull/372) — migtools/oadp-non-admin
 - [#161 [oadp-1.6] feat: add bound-sa-token projected volume to datamover pod for STS auth](https://github.com/migtools/kubevirt-datamover-controller/pull/161) — migtools/kubevirt-datamover-controller
-- [#31 chore(deps): bump dompurify from 3.4.4 to 3.4.12 in /frontend](https://github.com/migtools/filebrowser/pull/31) — migtools/filebrowser
 - [#158 feat: add bound-sa-token projected volume to datamover pod for STS auth](https://github.com/migtools/kubevirt-datamover-controller/pull/158) — migtools/kubevirt-datamover-controller
-- [#138 build(deps): bump github.com/google/cel-go from 0.26.0 to 0.29.0](https://github.com/migtools/kubevirt-datamover-controller/pull/138) — migtools/kubevirt-datamover-controller
-- [#238 Bump google.golang.org/grpc from 1.77.0 to 1.82.1](https://github.com/migtools/oadp-cli/pull/238) — migtools/oadp-cli
 - [#242 Merge https://github.com/migtools/oadp-cli:oadp-1.4 (2c406b4) into oadp-1.4](https://github.com/migtools/oadp-cli/pull/242) — migtools/oadp-cli
 - [#156 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-controller/pull/156) — migtools/kubevirt-datamover-controller
 - [#247 [oadp-1.4] OADP-8508: Fix schedule create examples showing velero instead of oc oadp](https://github.com/migtools/oadp-cli/pull/247) — migtools/oadp-cli
@@ -278,6 +265,9 @@
 - [#369 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/369) — migtools/oadp-non-admin
 - [#45 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/45) — migtools/kopia
 - [#180 Remove inactive users from OWNERS](https://github.com/migtools/udistribution/pull/180) — migtools/udistribution
+- [#151 [oadp-1.6] ci: fix lint for golangci-lint v2](https://github.com/migtools/kubevirt-datamover-controller/pull/151) — migtools/kubevirt-datamover-controller
+- [#150 [oadp-1.6] Issue #26: Azure BSL support](https://github.com/migtools/kubevirt-datamover-controller/pull/150) — migtools/kubevirt-datamover-controller
+- [#239 Backport must gather image 1.6](https://github.com/migtools/oadp-cli/pull/239) — migtools/oadp-cli
 
 **Other** (5)
 - [#168 [ImgBot] Optimize images](https://github.com/kaovilai/kaovilai.pw/pull/168) — kaovilai/kaovilai.pw
