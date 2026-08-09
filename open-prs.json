@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T18:18:48Z",
+  "updatedAt": "2026-08-09T00:43:56Z",
   "prs": [
     {
       "number": 10051,
@@ -382,16 +382,6 @@
       "milestone": null
     },
     {
-      "number": 2234,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
-      "url": "https://github.com/openshift/oadp-operator/pull/2234",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null
-    },
-    {
       "number": 2207,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -472,6 +462,16 @@
       "milestone": null
     },
     {
+      "number": 2234,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+      "url": "https://github.com/openshift/oadp-operator/pull/2234",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null
+    },
+    {
       "number": 2360,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -507,6 +507,16 @@
       "org": "openshift",
       "title": "Document FBC catalog builds and OLM v1 testing workflows",
       "url": "https://github.com/openshift/ci-docs/pull/598",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null
+    },
+    {
+      "number": 79327,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+      "url": "https://github.com/openshift/release/pull/79327",
       "targetBranch": "main",
       "status": "stale",
       "milestone": null
@@ -637,16 +647,6 @@
       "org": "openshift",
       "title": "Export pod inspect functions for external consumption",
       "url": "https://github.com/openshift/oc/pull/2308",
-      "targetBranch": "main",
-      "status": "hold",
-      "milestone": null
-    },
-    {
-      "number": 79327,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-      "url": "https://github.com/openshift/release/pull/79327",
       "targetBranch": "main",
       "status": "hold",
       "milestone": null
