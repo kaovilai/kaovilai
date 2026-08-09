@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-09 12:22:26 UTC
+> Last updated: 2026-08-09 18:20:41 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,6 +10,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10047](https://img.shields.io/badge/PR%20%2310047-ready-green)](https://github.com/velero-io/velero/pull/10047) **velero-io/velero** → `main` - Fix restore-wait init container ignoring pod-level securityContext (milestone: **v1.19**)
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
+- [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
@@ -33,6 +34,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
+- [![PR #10208](https://img.shields.io/badge/PR%20%2310208-failing--ci-red)](https://github.com/velero-io/velero/pull/10208) **velero-io/velero** → `main` - Re-request maintainer review when only one CODEOWNERS approval exists
+- [![PR #10211](https://img.shields.io/badge/PR%20%2310211-failing--ci-red)](https://github.com/velero-io/velero/pull/10211) **velero-io/velero** → `main` - backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
@@ -106,6 +109,7 @@ No open PRs.
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
+- [![PR #15](https://img.shields.io/badge/PR%20%2315-ready-green)](https://github.com/kaovilai/oadp-ui/pull/15) **kaovilai/oadp-ui** → `main` - Merge open Dependabot PRs; pin back major bumps that break console peer compatibility
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
