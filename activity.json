@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-25",
-    "end": "2026-08-08"
+    "start": "2026-07-26",
+    "end": "2026-08-09"
   },
-  "generatedAt": "2026-08-08T18:50:13Z",
+  "generatedAt": "2026-08-09T02:19:36Z",
   "metrics": {
     "prsMerged": 61,
-    "prsOpened": 81,
+    "prsOpened": 78,
     "prsReviewed": 97,
     "issuesCommented": 44,
-    "issuesClosed": 24
+    "issuesClosed": 23
   },
   "prsMerged": [
     {
@@ -986,30 +986,23 @@
       "org": "kaovilai",
       "title": "⚡ Bolt: Remove redundant compinit call for faster startup",
       "url": "https://github.com/kaovilai/dotfiles/pull/548"
-    },
-    {
-      "number": 10077,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Dependabot auto-approve workflow",
-      "url": "https://github.com/velero-io/velero/pull/10077"
-    },
-    {
-      "number": 5334,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
-      "url": "https://github.com/openshift/ci-tools/pull/5334"
-    },
-    {
-      "number": 545,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Remove redundant compinit for faster shell startup",
-      "url": "https://github.com/kaovilai/dotfiles/pull/545"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10202,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump actions/setup-go from 6 to 7",
+      "url": "https://github.com/velero-io/velero/pull/10202"
+    },
+    {
+      "number": 10200,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for Backup and Restore CRDs",
+      "url": "https://github.com/velero-io/velero/pull/10200"
+    },
     {
       "number": 10158,
       "repo": "velero-io/velero",
@@ -1235,13 +1228,6 @@
       "url": "https://github.com/velero-io/velero/pull/10147"
     },
     {
-      "number": 323,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Bump google.golang.org/grpc from 1.79.3 to 1.82.1",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/323"
-    },
-    {
       "number": 10157,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1366,13 +1352,6 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/456"
-    },
-    {
-      "number": 453,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump google.golang.org/grpc from 1.81.1 to 1.82.1",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/453"
     },
     {
       "number": 159,
@@ -2161,13 +2140,6 @@
       "org": "velero-io",
       "title": "Add `.github` repo",
       "url": "https://github.com/velero-io/velero/issues/10042"
-    },
-    {
-      "number": 10050,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "nits for fine-grained filter docs",
-      "url": "https://github.com/velero-io/velero/issues/10050"
     }
   ]
 }
