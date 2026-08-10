@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T21:46:45Z",
+  "updatedAt": "2026-08-10T22:41:51Z",
   "prs": [
     {
       "number": 10010,
@@ -1409,7 +1409,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-10T20:27:43Z"
+      "updatedAt": "2026-08-10T22:11:21Z"
     },
     {
       "number": 260,
@@ -2887,7 +2887,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-10T21:46:45Z",
+    "updatedAt": "2026-08-10T22:41:51Z",
     "needsReview": [
       {
         "number": 68,
@@ -3301,8 +3301,35 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-07-03T22:28:56Z"
+      },
+      {
+        "number": 81508,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "WIP rehearse change: update e2e test command to include DNM flag",
+        "url": "https://github.com/openshift/release/pull/81508",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/work-in-progress",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "Joeavaikath",
+          "mpryc"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 35,
+        "updatedAt": "2026-07-06T21:56:02Z"
       },
       {
         "number": 9646,
@@ -3331,33 +3358,6 @@
         "reason": "awaitingReview",
         "waitingDays": 35,
         "updatedAt": "2026-07-06T11:28:58Z"
-      },
-      {
-        "number": 81508,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "WIP rehearse change: update e2e test command to include DNM flag",
-        "url": "https://github.com/openshift/release/pull/81508",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/work-in-progress",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "Joeavaikath",
-          "mpryc"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 34,
-        "updatedAt": "2026-07-06T21:56:02Z"
       },
       {
         "number": 2308,
@@ -3423,7 +3423,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3825,8 +3825,34 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-08-05T22:33:26Z"
+      },
+      {
+        "number": 2134,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "DNM: Test: disable pod restart workaround after file-system restore",
+        "url": "https://github.com/openshift/oadp-operator/pull/2134",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 2152,
@@ -3854,32 +3880,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-08-07T20:51:31Z"
-      },
-      {
-        "number": 2134,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "DNM: Test: disable pod restart workaround after file-system restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2134",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 10210,
@@ -3923,7 +3923,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4008,7 +4008,7 @@
           "do-not-merge/hold",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4019,7 +4019,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-10T20:27:43Z"
+        "updatedAt": "2026-08-10T22:11:21Z"
       },
       {
         "number": 10211,
@@ -4488,35 +4488,6 @@
         "updatedAt": "2026-07-17T09:11:39Z"
       },
       {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 18,
-        "updatedAt": "2026-07-23T20:58:34Z"
-      },
-      {
         "number": 10027,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4544,8 +4515,37 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-07-23T22:40:21Z"
+      },
+      {
+        "number": 10034,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "chore: pin helm/kind-action to commit with curl retry fix",
+        "url": "https://github.com/velero-io/velero/pull/10034",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "kaovilai",
+          "chlins"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 18,
+        "updatedAt": "2026-07-23T20:58:34Z"
       },
       {
         "number": 8793,
@@ -4783,7 +4783,7 @@
           "lgtm",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4821,6 +4821,33 @@
         "reason": "pendingMerge",
         "waitingDays": 4,
         "updatedAt": "2026-08-06T16:42:28Z"
+      },
+      {
+        "number": 2205,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2205",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-07T22:11:15Z"
       },
       {
         "number": 2206,
@@ -4876,33 +4903,6 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-08-07T18:22:38Z"
-      },
-      {
-        "number": 2205,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
-        "url": "https://github.com/openshift/oadp-operator/pull/2205",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-07T22:11:15Z"
       },
       {
         "number": 2346,
