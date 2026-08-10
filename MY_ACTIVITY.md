@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-07-27 — 2026-08-10
-> **Generated:** 2026-08-10 13:14:03 UTC
+> **Generated:** 2026-08-10 15:01:05 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 64 |
-| PRs Opened | 85 |
+| PRs Merged | 65 |
+| PRs Opened | 88 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 44 |
 | Issues Closed | 25 |
 
 ---
 
-## PRs Merged (64)
+## PRs Merged (65)
 
 **openshift** (36)
 - [#83124 ixney on 5.1ney (rebased)](https://github.com/openshift/release/pull/83124) — openshift/release
@@ -65,7 +65,8 @@
 - [#142 Bump GitHub Actions to node24 runtime versions](https://github.com/migtools/kubevirt-datamover-controller/pull/142) — migtools/kubevirt-datamover-controller
 - [#115 feat: implement downloader runtime for VM restore (issue #73 Phase 2)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) — migtools/kubevirt-datamover-controller
 
-**Other** (18)
+**Other** (19)
+- [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
 - [#8 Add grouped Dependabot updates with CI-gated auto-merge](https://github.com/kaovilai/oadp-ui/pull/8) — kaovilai/oadp-ui
@@ -84,14 +85,17 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (85)
+## PRs Opened (88)
 
 **velero-io** (3)
 - [#10211 backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions](https://github.com/velero-io/velero/pull/10211) — velero-io/velero
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
-**openshift** (41)
+**openshift** (44)
+- [#2368 [oadp-1.4] Make controller-gen/kustomize/golangci-lint version checks reliable](https://github.com/openshift/oadp-operator/pull/2368) — openshift/oadp-operator
+- [#2367 Make controller-gen/kustomize/golangci-lint version checks reliable](https://github.com/openshift/oadp-operator/pull/2367) — openshift/oadp-operator
+- [#2366 [oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent](https://github.com/openshift/oadp-operator/pull/2366) — openshift/oadp-operator
 - [#83124 ixney on 5.1ney (rebased)](https://github.com/openshift/release/pull/83124) — openshift/release
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
 - [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0](https://github.com/openshift/release/pull/83078) — openshift/release
@@ -181,9 +185,9 @@
 ## PRs Reviewed (97)
 
 **velero-io** (27)
+- [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10158 ci: add backport/cherry-pick GitHub Action for release branches](https://github.com/velero-io/velero/pull/10158) — velero-io/velero
-- [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 - [#10159 Fix excluded namespace objects leaking into backup with cross-namespa…](https://github.com/velero-io/velero/pull/10159) — velero-io/velero
 - [#10202 Bump actions/setup-go from 6 to 7](https://github.com/velero-io/velero/pull/10202) — velero-io/velero
 - [#10200 Add printer columns for Backup and Restore CRDs](https://github.com/velero-io/velero/pull/10200) — velero-io/velero

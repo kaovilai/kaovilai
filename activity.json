@@ -3,15 +3,22 @@
     "start": "2026-07-27",
     "end": "2026-08-10"
   },
-  "generatedAt": "2026-08-10T13:14:03Z",
+  "generatedAt": "2026-08-10T15:01:05Z",
   "metrics": {
-    "prsMerged": 64,
-    "prsOpened": 85,
+    "prsMerged": 65,
+    "prsOpened": 88,
     "prsReviewed": 97,
     "issuesCommented": 44,
     "issuesClosed": 25
   },
   "prsMerged": [
+    {
+      "number": 15,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Merge open Dependabot PRs; pin back major bumps that break console peer compatibility",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/15"
+    },
     {
       "number": 28,
       "repo": "Nanako0129/SocksBypass",
@@ -462,6 +469,27 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2368,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint version checks reliable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2368"
+    },
+    {
+      "number": 2367,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Make controller-gen/kustomize/golangci-lint version checks reliable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2367"
+    },
+    {
+      "number": 2366,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent",
+      "url": "https://github.com/openshift/oadp-operator/pull/2366"
+    },
     {
       "number": 28,
       "repo": "Nanako0129/SocksBypass",
@@ -1060,6 +1088,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10208,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
+      "url": "https://github.com/velero-io/velero/pull/10208"
+    },
+    {
       "number": 10210,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1079,13 +1114,6 @@
       "org": "velero-io",
       "title": "ci: add backport/cherry-pick GitHub Action for release branches",
       "url": "https://github.com/velero-io/velero/pull/10158"
-    },
-    {
-      "number": 10208,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
-      "url": "https://github.com/velero-io/velero/pull/10208"
     },
     {
       "number": 10159,
