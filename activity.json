@@ -3,10 +3,10 @@
     "start": "2026-07-27",
     "end": "2026-08-10"
   },
-  "generatedAt": "2026-08-10T20:44:50Z",
+  "generatedAt": "2026-08-10T21:43:37Z",
   "metrics": {
     "prsMerged": 71,
-    "prsOpened": 93,
+    "prsOpened": 94,
     "prsReviewed": 97,
     "issuesCommented": 44,
     "issuesClosed": 28
@@ -511,6 +511,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 20,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Add `__mocks__/**` to allowed-files for upstream-parity agent",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/20"
+    },
     {
       "number": 10222,
       "repo": "velero-io/velero",
@@ -1165,6 +1172,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 2361,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
+      "url": "https://github.com/openshift/oadp-operator/pull/2361"
+    },
+    {
       "number": 10189,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1212,13 +1226,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] Clear PVC binding state and halt kubevirt VMs at restore time",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/46"
-    },
-    {
-      "number": 2361,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
-      "url": "https://github.com/openshift/oadp-operator/pull/2361"
     },
     {
       "number": 167,
