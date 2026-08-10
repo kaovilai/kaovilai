@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T15:02:42Z",
+  "updatedAt": "2026-08-10T16:57:15Z",
   "prs": [
     {
       "number": 10210,
@@ -227,16 +227,6 @@
       "org": "velero-io",
       "title": "backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions",
       "url": "https://github.com/velero-io/velero/pull/10211",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null
-    },
-    {
-      "number": 10208,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
-      "url": "https://github.com/velero-io/velero/pull/10208",
       "targetBranch": "main",
       "status": "failing-ci",
       "milestone": null
@@ -492,16 +482,6 @@
       "milestone": null
     },
     {
-      "number": 2366,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent",
-      "url": "https://github.com/openshift/oadp-operator/pull/2366",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
-      "milestone": null
-    },
-    {
       "number": 5334,
       "repo": "openshift/ci-tools",
       "org": "openshift",
@@ -549,16 +529,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2350",
       "targetBranch": "oadp-dev",
       "status": "draft",
-      "milestone": null
-    },
-    {
-      "number": 404,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
-      "targetBranch": "oadp-1.5",
-      "status": "stale",
       "milestone": null
     },
     {
@@ -708,6 +678,16 @@
       "title": "Export pod inspect functions for external consumption",
       "url": "https://github.com/openshift/oc/pull/2308",
       "targetBranch": "main",
+      "status": "hold",
+      "milestone": null
+    },
+    {
+      "number": 404,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
+      "targetBranch": "oadp-1.5",
       "status": "hold",
       "milestone": null
     },

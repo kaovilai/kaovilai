@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-10 15:02:42 UTC
+> Last updated: 2026-08-10 16:57:15 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -34,7 +34,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
-- [![PR #10208](https://img.shields.io/badge/PR%20%2310208-failing--ci-red)](https://github.com/velero-io/velero/pull/10208) **velero-io/velero** → `main` - Re-request maintainer review when only one CODEOWNERS approval exists
 - [![PR #10211](https://img.shields.io/badge/PR%20%2310211-failing--ci-red)](https://github.com/velero-io/velero/pull/10211) **velero-io/velero** → `main` - backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
@@ -60,7 +59,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
-- [![PR #2366](https://img.shields.io/badge/PR%20%232366-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2366) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-draft-gray)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
@@ -74,11 +72,11 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
-- [![PR #404](https://img.shields.io/badge/PR%20%23404-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
+- [![PR #404](https://img.shields.io/badge/PR%20%23404-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/404) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #83049](https://img.shields.io/badge/PR%20%2383049-hold-yellow)](https://github.com/openshift/release/pull/83049) **openshift/release** → `main` - Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
