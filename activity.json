@@ -3,15 +3,36 @@
     "start": "2026-07-27",
     "end": "2026-08-10"
   },
-  "generatedAt": "2026-08-10T19:00:34Z",
+  "generatedAt": "2026-08-10T19:55:30Z",
   "metrics": {
-    "prsMerged": 67,
-    "prsOpened": 88,
+    "prsMerged": 70,
+    "prsOpened": 90,
     "prsReviewed": 97,
     "issuesCommented": 44,
-    "issuesClosed": 25
+    "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 71,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Export review-queue panel data in open-prs.json for kaovilai.pw",
+      "url": "https://github.com/kaovilai/kaovilai/pull/71"
+    },
+    {
+      "number": 10047,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10047"
+    },
+    {
+      "number": 17,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Recompile Daily Upstream Parity lock file and add license attribution rules",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/17"
+    },
     {
       "number": 10208,
       "repo": "velero-io/velero",
@@ -483,6 +504,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 71,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Export review-queue panel data in open-prs.json for kaovilai.pw",
+      "url": "https://github.com/kaovilai/kaovilai/pull/71"
+    },
+    {
+      "number": 17,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Recompile Daily Upstream Parity lock file and add license attribution rules",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/17"
+    },
     {
       "number": 2368,
       "repo": "openshift/oadp-operator",
@@ -1102,11 +1137,39 @@
   ],
   "prsReviewed": [
     {
+      "number": 10192,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix: correct typos in log messages and status strings",
+      "url": "https://github.com/velero-io/velero/pull/10192"
+    },
+    {
+      "number": 46,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "[oadp-1.6] Clear PVC binding state and halt kubevirt VMs at restore time",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/46"
+    },
+    {
+      "number": 2361,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
+      "url": "https://github.com/openshift/oadp-operator/pull/2361"
+    },
+    {
       "number": 167,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "feat: add BSL config parity with Velero AWS plugin",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
+    },
+    {
+      "number": 172,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add staleness check for per-VM DataUpload serialization",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
     },
     {
       "number": 10200,
@@ -1751,34 +1814,6 @@
       "org": "velero-io",
       "title": "Site: update homepage CTA and add LinkedIn to footer",
       "url": "https://github.com/velero-io/velero/pull/10113"
-    },
-    {
-      "number": 157,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.4)",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/157"
-    },
-    {
-      "number": 156,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.3)",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/156"
-    },
-    {
-      "number": 158,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/158"
-    },
-    {
-      "number": 10101,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Cherry-Pick] RIA MustInclude annotation and VSC fix for 1.18",
-      "url": "https://github.com/velero-io/velero/pull/10101"
     }
   ],
   "issuesCommented": [
@@ -2092,6 +2127,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10046,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fs-backup restore deadlocks at Init:0/1 on owner-restricted volumes — restore-wait init container ignores pod-level securityContext, falls back to hardcoded runAsUser 1000",
+      "url": "https://github.com/velero-io/velero/issues/10046"
+    },
     {
       "number": 2209,
       "repo": "openshift/oadp-operator",

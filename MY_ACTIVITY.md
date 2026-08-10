@@ -1,21 +1,22 @@
 # Activity Log
 
 > **Period:** 2026-07-27 — 2026-08-10
-> **Generated:** 2026-08-10 19:00:34 UTC
+> **Generated:** 2026-08-10 19:55:30 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 67 |
-| PRs Opened | 88 |
+| PRs Merged | 70 |
+| PRs Opened | 90 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 44 |
-| Issues Closed | 25 |
+| Issues Closed | 26 |
 
 ---
 
-## PRs Merged (67)
+## PRs Merged (70)
 
-**velero-io** (1)
+**velero-io** (2)
+- [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
 **openshift** (37)
@@ -69,7 +70,9 @@
 - [#142 Bump GitHub Actions to node24 runtime versions](https://github.com/migtools/kubevirt-datamover-controller/pull/142) — migtools/kubevirt-datamover-controller
 - [#115 feat: implement downloader runtime for VM restore (issue #73 Phase 2)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) — migtools/kubevirt-datamover-controller
 
-**Other** (19)
+**Other** (21)
+- [#71 Export review-queue panel data in open-prs.json for kaovilai.pw](https://github.com/kaovilai/kaovilai/pull/71) — kaovilai/kaovilai
+- [#17 Recompile Daily Upstream Parity lock file and add license attribution rules](https://github.com/kaovilai/oadp-ui/pull/17) — kaovilai/oadp-ui
 - [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
@@ -89,7 +92,7 @@
 - [#1 Add Dependabot config with grouped PRs](https://github.com/kaovilai/redirector/pull/1) — kaovilai/redirector
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
-## PRs Opened (88)
+## PRs Opened (90)
 
 **velero-io** (3)
 - [#10211 backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions](https://github.com/velero-io/velero/pull/10211) — velero-io/velero
@@ -157,7 +160,9 @@
 - [#38 Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support](https://github.com/migtools/kubevirt-datamover-plugin/pull/38) — migtools/kubevirt-datamover-plugin
 - [#149 Cherry-pick #131: Azure BSL support to oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/149) — migtools/kubevirt-datamover-controller
 
-**Other** (28)
+**Other** (30)
+- [#71 Export review-queue panel data in open-prs.json for kaovilai.pw](https://github.com/kaovilai/kaovilai/pull/71) — kaovilai/kaovilai
+- [#17 Recompile Daily Upstream Parity lock file and add license attribution rules](https://github.com/kaovilai/oadp-ui/pull/17) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
 - [#1 Dual-stack listening + structured startup output with per-interface shell env examples](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) — kaovilai/iOS-SOCKS-Server
 - [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
@@ -189,6 +194,7 @@
 ## PRs Reviewed (97)
 
 **velero-io** (27)
+- [#10192 fix: correct typos in log messages and status strings](https://github.com/velero-io/velero/pull/10192) — velero-io/velero
 - [#10200 Add printer columns for Backup and Restore CRDs](https://github.com/velero-io/velero/pull/10200) — velero-io/velero
 - [#10202 Bump actions/setup-go from 6 to 7](https://github.com/velero-io/velero/pull/10202) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
@@ -215,9 +221,9 @@
 - [#10110 refactor(serverstatus): Remove outdated Kubernetes v1.9.0 workaround](https://github.com/velero-io/velero/pull/10110) — velero-io/velero
 - [#10090 fix(kopia): fix block restore write loop slice bounds](https://github.com/velero-io/velero/pull/10090) — velero-io/velero
 - [#10113 Site: update homepage CTA and add LinkedIn to footer](https://github.com/velero-io/velero/pull/10113) — velero-io/velero
-- [#10101 [Cherry-Pick] RIA MustInclude annotation and VSC fix for 1.18](https://github.com/velero-io/velero/pull/10101) — velero-io/velero
 
-**openshift** (36)
+**openshift** (34)
+- [#2361 feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig](https://github.com/openshift/oadp-operator/pull/2361) — openshift/oadp-operator
 - [#83117 ixney on 5.1ney](https://github.com/openshift/release/pull/83117) — openshift/release
 - [#2356 [oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2356) — openshift/oadp-operator
 - [#2349 feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2349) — openshift/oadp-operator
@@ -251,12 +257,11 @@
 - [#2335 docs: fix restic→kopia, field names, and plugin refs in config docs](https://github.com/openshift/oadp-operator/pull/2335) — openshift/oadp-operator
 - [#2332 docs: move obsolete designs to docs/design/obsolete/ and update design docs](https://github.com/openshift/oadp-operator/pull/2332) — openshift/oadp-operator
 - [#2333 docs: add deprecation banners to obsolete VSM/ODF blog posts](https://github.com/openshift/oadp-operator/pull/2333) — openshift/oadp-operator
-- [#157 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.4)](https://github.com/openshift/velero-plugin-for-gcp/pull/157) — openshift/velero-plugin-for-gcp
-- [#156 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.3)](https://github.com/openshift/velero-plugin-for-gcp/pull/156) — openshift/velero-plugin-for-gcp
-- [#158 Fix ObjectExists to handle wrapped storage.ErrObjectNotExist errors (oadp-1.5)](https://github.com/openshift/velero-plugin-for-gcp/pull/158) — openshift/velero-plugin-for-gcp
 
-**migtools** (28)
+**migtools** (30)
+- [#46 [oadp-1.6] Clear PVC binding state and halt kubevirt VMs at restore time](https://github.com/migtools/kubevirt-datamover-plugin/pull/46) — migtools/kubevirt-datamover-plugin
 - [#167 feat: add BSL config parity with Velero AWS plugin](https://github.com/migtools/kubevirt-datamover-controller/pull/167) — migtools/kubevirt-datamover-controller
+- [#172 feat: add staleness check for per-VM DataUpload serialization](https://github.com/migtools/kubevirt-datamover-controller/pull/172) — migtools/kubevirt-datamover-controller
 - [#176 [oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods](https://github.com/migtools/kubevirt-datamover-controller/pull/176) — migtools/kubevirt-datamover-controller
 - [#166 feat: add BSL config parity with Velero AWS plugin](https://github.com/migtools/kubevirt-datamover-controller/pull/166) — migtools/kubevirt-datamover-controller
 - [#164 fix: handle hyphenated disk names in extractDiskName](https://github.com/migtools/kubevirt-datamover-controller/pull/164) — migtools/kubevirt-datamover-controller
@@ -345,9 +350,10 @@
 - [#255 Advertise if a Storage Solution requires Long-Term Retention of Snapshots](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/255) — kubernetes-csi/external-snapshot-metadata
 - [#4564 Upgrade AWS SDK to /v2](https://github.com/distribution/distribution/issues/4564) — distribution/distribution
 - [#8 [FEATURE] Support Vertex AI via ADC credentials](https://github.com/ferrumclaudepilgrim/claude-code-android/issues/8) — ferrumclaudepilgrim/claude-code-android
-## Issues Closed (25)
+## Issues Closed (26)
 
-**velero-io** (6)
+**velero-io** (7)
+- [#10046 fs-backup restore deadlocks at Init:0/1 on owner-restricted volumes — restore-wait init container ignores pod-level securityContext, falls back to hardcoded runAsUser 1000](https://github.com/velero-io/velero/issues/10046) — velero-io/velero
 - [#9603 Backport/Cherry-pick GitHub action](https://github.com/velero-io/velero/issues/9603) — velero-io/velero
 - [#10044 Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface](https://github.com/velero-io/velero/issues/10044) — velero-io/velero
 - [#10099 Update velero.io community pages](https://github.com/velero-io/velero/issues/10099) — velero-io/velero
