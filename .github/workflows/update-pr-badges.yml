@@ -33,6 +33,10 @@ jobs:
         run: |
           bash .github/scripts/update-pr-list.sh
 
+      - name: Validate open-prs.json schema
+        run: |
+          bash .github/scripts/validate-open-prs-json.sh open-prs.json
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"

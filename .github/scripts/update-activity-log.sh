@@ -1,6 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 
+# Shared utilities
+# shellcheck source=lib-common.sh
+source "$(dirname "$0")/lib-common.sh"
+
 OUTPUT_FILE="MY_ACTIVITY.md"
 
 # JSON output for structured consumption (e.g. kaovilai.pw)
@@ -10,29 +14,6 @@ CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 GENERATED_AT_ISO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 TODAY=$(date -u +%Y-%m-%d)
 TWO_WEEKS_AGO=$(date -u -d '14 days ago' +%Y-%m-%d 2>/dev/null || date -u -v-14d +%Y-%m-%d)
-
-# Retry wrapper with exponential backoff
-retry_with_backoff() {
-    local max_retries=3
-    local delay=2
-    local attempt=0
-    local output=""
-
-    while [ $attempt -lt $max_retries ]; do
-        if output=$("$@" 2>/dev/null); then
-            echo "$output"
-            return 0
-        fi
-        attempt=$((attempt + 1))
-        if [ $attempt -lt $max_retries ]; then
-            echo "  Retry $attempt/$max_retries after ${delay}s..." >&2
-            sleep $delay
-            delay=$((delay * 2))
-        fi
-    done
-    echo "[]"
-    return 1
-}
 
 # Org grouping helper: takes JSON array, groups by org, outputs markdown
 group_by_org() {

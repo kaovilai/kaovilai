@@ -96,3 +96,74 @@ In red below are some places I have lived in, visited, or transited through. Scr
 ![Map screenshot showing places lived, visited, or transited through](worldmap.png)
 
 [North Carolina destinations map](nc_destinations.html)
+
+## open-prs.json Schema
+
+`open-prs.json` is automatically generated on the `update-pr-badges` workflow schedule and exported for consumption by [kaovilai.pw](https://www.kaovilai.pw).
+
+### Top-level fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `updatedAt` | string (ISO 8601) | Timestamp of last generation |
+| `prs` | array | All open PRs by kaovilai (sorted by org then status priority) |
+| `reviewQueue` | object | Professional review-queue panel data |
+
+### `prs[]` item fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `number` | number | PR number |
+| `repo` | string | `owner/name` |
+| `org` | string | Repository owner/org login |
+| `title` | string | PR title |
+| `url` | string | PR URL |
+| `targetBranch` | string | Base branch |
+| `status` | string | Badge status: `ready`, `waiting-merge`, `ci-pending`, `draft`, `stale`, `hold`, `failing-ci`, `needs-attention` |
+| `milestone` | string\|null | Linked issue milestone (velero repos only) |
+| `author` | string | GitHub login of PR author |
+| `isCopilotAuthored` | boolean | True when authored by a Copilot coding-agent bot |
+| `assignees` | string[] | Assignee logins |
+| `isDraft` | boolean | Draft state |
+| `labels` | string[] | Label names |
+| `updatedAt` | string (ISO 8601) | Last activity timestamp |
+
+### `reviewQueue` fields
+
+Includes only **public professional contributions** (repos owned by GitHub organizations, not personal accounts). Excludes drafts, rebase-blocked PRs, and merge-conflicted PRs.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `updatedAt` | string (ISO 8601) | Timestamp of last generation |
+| `needsReview` | array | Open PRs still waiting for human review/approval, sorted by longest waiting first |
+| `approvedWaitingToLand` | array | Sufficiently approved PRs still open (CI, merge queue, hold, etc.), sorted by longest waiting first |
+
+### `reviewQueue.needsReview[]` / `reviewQueue.approvedWaitingToLand[]` item fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `number` | number | PR number |
+| `repo` | string | `owner/name` |
+| `org` | string | Organization login |
+| `title` | string | PR title |
+| `url` | string | PR URL |
+| `targetBranch` | string | Base branch |
+| `author` | string | GitHub login of PR author |
+| `isCopilotAuthored` | boolean | True when authored by Copilot coding-agent bot |
+| `assignees` | string[] | Assignee logins |
+| `labels` | string[] | Label names |
+| `mergeStateStatus` | string | GitHub merge state: `CLEAN`, `DIRTY`, `BEHIND`, `BLOCKED`, `UNKNOWN`, etc. |
+| `isApproved` | boolean | True if sufficiently approved (native GitHub approval OR both `lgtm`+`approved` Prow labels) |
+| `hasProwApproval` | boolean | True if both `lgtm` and `approved` labels are present |
+| `hasGithubApproval` | boolean | True if at least one native GitHub approving review exists |
+| `reviewRequests` | string[] | Requested reviewer/team logins |
+| `group` | string | `needsReview` or `approvedWaitingToLand` |
+| `reason` | string | Classification reason: `awaitingReview`, `hold`, `pendingMerge` |
+| `waitingDays` | number | Days since last activity |
+| `updatedAt` | string (ISO 8601) | Last activity timestamp |
+
+### Validation
+
+```bash
+bash .github/scripts/validate-open-prs-json.sh open-prs.json
+```
