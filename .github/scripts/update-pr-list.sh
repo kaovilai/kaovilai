@@ -1,6 +1,10 @@
 #!/bin/bash
 set -euo pipefail
 
+# Shared utilities
+# shellcheck source=lib-common.sh
+source "$(dirname "$0")/lib-common.sh"
+
 # File to update
 OUTPUT_FILE="MY_PULL_REQUESTS.md"
 
@@ -43,29 +47,6 @@ fetch_assigned_prs() {
 
 # Copilot bot logins used by GitHub Copilot coding agent
 COPILOT_LOGINS=("copilot-swe-agent[bot]" "github-copilot[bot]" "copilot[bot]" "github-advanced-security[bot]")
-
-# Retry wrapper with exponential backoff
-retry_with_backoff() {
-    local max_retries=3
-    local delay=2
-    local attempt=0
-    local output=""
-
-    while [ $attempt -lt $max_retries ]; do
-        if output=$("$@" 2>/dev/null); then
-            echo "$output"
-            return 0
-        fi
-        attempt=$((attempt + 1))
-        if [ $attempt -lt $max_retries ]; then
-            echo "  Retry $attempt/$max_retries after ${delay}s..." >&2
-            sleep $delay
-            delay=$((delay * 2))
-        fi
-    done
-    echo ""
-    return 1
-}
 
 # Function to get PR details (CI status, base branch, linked issues, review state, merge state)
 get_pr_details() {
