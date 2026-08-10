@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-07-27 — 2026-08-10
-> **Generated:** 2026-08-10 15:01:05 UTC
+> **Generated:** 2026-08-10 16:55:45 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 65 |
+| PRs Merged | 67 |
 | PRs Opened | 88 |
 | PRs Reviewed | 97 |
 | Issues/PRs Commented | 44 |
@@ -13,9 +13,13 @@
 
 ---
 
-## PRs Merged (65)
+## PRs Merged (67)
 
-**openshift** (36)
+**velero-io** (1)
+- [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
+
+**openshift** (37)
+- [#2366 [oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent](https://github.com/openshift/oadp-operator/pull/2366) — openshift/oadp-operator
 - [#83124 ixney on 5.1ney (rebased)](https://github.com/openshift/release/pull/83124) — openshift/release
 - [#83078 Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0](https://github.com/openshift/release/pull/83078) — openshift/release
 - [#83110 Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83110) — openshift/release
