@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-07-26 — 2026-08-09
-> **Generated:** 2026-08-09 18:52:25 UTC
+> **Period:** 2026-07-27 — 2026-08-10
+> **Generated:** 2026-08-10 02:12:02 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -149,6 +149,7 @@
 - [#149 Cherry-pick #131: Azure BSL support to oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/149) — migtools/kubevirt-datamover-controller
 
 **Other** (27)
+- [#1 Dual-stack listening + structured startup output with per-interface shell env examples](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) — kaovilai/iOS-SOCKS-Server
 - [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
 - [#8 Add grouped Dependabot updates with CI-gated auto-merge](https://github.com/kaovilai/oadp-ui/pull/8) — kaovilai/oadp-ui
@@ -175,7 +176,6 @@
 - [#551 ⚡ Bolt: Remove redundant manual compinit](https://github.com/kaovilai/dotfiles/pull/551) — kaovilai/dotfiles
 - [#550 ⚡ Bolt: [performance improvement] Remove redundant manual compinit execution](https://github.com/kaovilai/dotfiles/pull/550) — kaovilai/dotfiles
 - [#549 ⚡ Bolt: [performance improvement] Remove redundant compinit](https://github.com/kaovilai/dotfiles/pull/549) — kaovilai/dotfiles
-- [#548 ⚡ Bolt: Remove redundant compinit call for faster startup](https://github.com/kaovilai/dotfiles/pull/548) — kaovilai/dotfiles
 ## PRs Reviewed (97)
 
 **velero-io** (27)
