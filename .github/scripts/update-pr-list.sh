@@ -27,12 +27,22 @@ EOF
 # Replace TIMESTAMP with actual timestamp
 sed -i "s/TIMESTAMP/$CURRENT_DATE/" "$OUTPUT_FILE"
 
-# Function to fetch PRs
+# Function to fetch PRs authored by kaovilai
 fetch_prs() {
     gh search prs --author=kaovilai --state=open --archived=false \
-        --json number,title,repository,url,isDraft,updatedAt,labels \
+        --json number,title,repository,url,isDraft,updatedAt,labels,author,assignees \
         --limit 1000 2>/dev/null || echo "[]"
 }
+
+# Function to fetch PRs assigned to kaovilai (catches Copilot-authored PRs)
+fetch_assigned_prs() {
+    gh search prs --assignee=kaovilai --state=open --archived=false \
+        --json number,title,repository,url,isDraft,updatedAt,labels,author,assignees \
+        --limit 1000 2>/dev/null || echo "[]"
+}
+
+# Copilot bot logins used by GitHub Copilot coding agent
+COPILOT_LOGINS=("copilot-swe-agent[bot]" "github-copilot[bot]" "copilot[bot]" "github-advanced-security[bot]")
 
 # Retry wrapper with exponential backoff
 retry_with_backoff() {
@@ -57,12 +67,12 @@ retry_with_backoff() {
     return 1
 }
 
-# Function to get PR details (CI status, base branch, linked issues)
+# Function to get PR details (CI status, base branch, linked issues, review state, merge state)
 get_pr_details() {
     local repo="$1"
     local number="$2"
     retry_with_backoff gh pr view "$number" --repo "$repo" \
-        --json statusCheckRollup,baseRefName,closingIssuesReferences || echo "{}"
+        --json statusCheckRollup,baseRefName,closingIssuesReferences,reviews,reviewRequests,mergeStateStatus || echo "{}"
 }
 
 # Function to get milestone from linked issues (for velero repos)
@@ -211,8 +221,33 @@ create_badge() {
 }
 
 # Fetch all open PRs authored by the user
-echo "Fetching open PRs..."
+echo "Fetching open PRs authored by kaovilai..."
 PRS_JSON=$(fetch_prs)
+
+# Fetch PRs assigned to kaovilai (to catch Copilot-authored PRs)
+echo "Fetching open PRs assigned to kaovilai (for Copilot-authored PRs)..."
+ASSIGNED_PRS_JSON=$(fetch_assigned_prs)
+
+# Merge: start from authored PRs, then add assigned PRs authored by Copilot bots not already included
+# Build set of already-seen "repo#number" keys from authored PRs
+SEEN_KEYS=$(echo "$PRS_JSON" | jq -r '.[] | "\(.repository.nameWithOwner)#\(.number)"')
+
+# For assigned PRs: keep only those authored by Copilot bots and not already in authored list
+COPILOT_PRS_JSON=$(echo "$ASSIGNED_PRS_JSON" | jq --arg logins "copilot-swe-agent[bot] github-copilot[bot] copilot[bot] github-advanced-security[bot]" '
+    [.[] | select(.author.login as $a | ($logins | split(" ") | any(. == $a)))]
+')
+
+# Merge into single list; track which are Copilot-authored via a flag
+# We'll add isCopilotAuthored field to each PR JSON object
+PRS_MERGED=$(jq -n \
+    --argjson authored "$PRS_JSON" \
+    --argjson copilot "$COPILOT_PRS_JSON" \
+    '
+    ($authored | map(. + {isCopilotAuthored: false})) +
+    ($copilot | map(. + {isCopilotAuthored: true}))
+    | group_by(.repository.nameWithOwner + "#" + (.number|tostring))
+    | map(.[0])
+    ')
 
 # Org order: velero-io first, openshift, migtools, then others
 ORG_ORDER=("velero-io" "openshift" "migtools" "oadp-rebase")
@@ -229,7 +264,7 @@ TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
 
 # Phase 1: Parse search results and launch parallel detail fetches
-PR_COUNT=$(echo "$PRS_JSON" | jq 'length')
+PR_COUNT=$(echo "$PRS_MERGED" | jq 'length')
 echo "Found $PR_COUNT open PRs. Fetching details (max $MAX_PARALLEL parallel)..."
 
 running=0
@@ -256,13 +291,20 @@ while IFS= read -r pr; do
     fi
 
     index=$((index + 1))
-done < <(echo "$PRS_JSON" | jq -c '.[]')
+done < <(echo "$PRS_MERGED" | jq -c '.[]')
 
 # Wait for all remaining background jobs
 wait
 echo "All detail fetches complete."
 
 # Phase 2: Process results and build badges
+# Also track review-queue items for org-owned repos
+REVIEW_QUEUE_JSONL="$TMPDIR/review_queue.jsonl"
+touch "$REVIEW_QUEUE_JSONL"
+
+# Rebase-blocking labels (hidden from review queue)
+REBASE_LABELS=("needs-rebase" "do-not-merge/needs-rebase" "do-not-merge/rebase-needed")
+
 for i in $(seq 0 $((index - 1))); do
     pr=$(cat "$TMPDIR/${i}.search")
     pr_details=$(cat "$TMPDIR/${i}.details" 2>/dev/null || echo "{}")
@@ -274,16 +316,20 @@ for i in $(seq 0 $((index - 1))); do
     url=$(echo "$pr" | jq -r '.url')
     is_draft=$(echo "$pr" | jq -r '.isDraft')
     updated_at=$(echo "$pr" | jq -r '.updatedAt')
+    author=$(echo "$pr" | jq -r '.author.login // "unknown"')
+    is_copilot=$(echo "$pr" | jq -r '.isCopilotAuthored // false')
+    assignees_json=$(echo "$pr" | jq -c '[.assignees[]?.login] // []')
 
     # Extract label names
     label_names=$(echo "$pr" | jq -r '[.labels[].name] | join(",")')
+    labels_json=$(echo "$pr" | jq -c '[.labels[].name] // []')
     has_needs_rebase="false"
     has_hold_label="false"
     has_approved="false"
     has_lgtm="false"
     has_do_not_merge="false"
 
-    if echo ",$label_names," | grep -q ',needs-rebase,'; then
+    if echo ",$label_names," | grep -qE ',(needs-rebase|do-not-merge/needs-rebase|do-not-merge/rebase-needed),'; then
         has_needs_rebase="true"
     fi
     if echo ",$label_names," | grep -q ',do-not-merge/hold,'; then
@@ -301,6 +347,20 @@ for i in $(seq 0 $((index - 1))); do
 
     status_checks=$(echo "$pr_details" | jq -c '.statusCheckRollup' 2>/dev/null)
     base_branch=$(echo "$pr_details" | jq -r '.baseRefName // "unknown"' 2>/dev/null)
+    merge_state=$(echo "$pr_details" | jq -r '.mergeStateStatus // "UNKNOWN"' 2>/dev/null)
+
+    # Determine if repo is org-owned (for review queue filtering)
+    # repository.owner.type from search results; if missing, derive from nameWithOwner
+    repo_owner_type=$(echo "$pr" | jq -r '.repository.owner.type // "unknown"')
+    # If owner type not available in search results, use gh api
+    if [ "$repo_owner_type" = "unknown" ] || [ -z "$repo_owner_type" ]; then
+        owner_login=$(echo "$repo" | cut -d'/' -f1)
+        repo_owner_type=$(gh api "users/$owner_login" --jq '.type' 2>/dev/null || echo "unknown")
+    fi
+    is_org_repo="false"
+    if [ "$repo_owner_type" = "Organization" ]; then
+        is_org_repo="true"
+    fi
 
     # Get badge info
     badge_info=$(get_badge_info "$is_draft" "$updated_at" "$status_checks" "$has_needs_rebase" "$has_hold_label" "$has_approved" "$has_lgtm" "$has_do_not_merge")
@@ -371,8 +431,85 @@ for i in $(seq 0 $((index - 1))); do
         --argjson milestone "$milestone_json" \
         --argjson orgSort "$org_sort" \
         --argjson statusSort "$sort_key" \
-        '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, status:$status, milestone:$milestone, _orgSort:$orgSort, _statusSort:$statusSort}' \
+        --arg author "$author" \
+        --argjson isCopilotAuthored "$is_copilot" \
+        --argjson assignees "$assignees_json" \
+        --argjson isDraft "$is_draft" \
+        --argjson labels "$labels_json" \
+        --arg updatedAt "$updated_at" \
+        '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, status:$status, milestone:$milestone, author:$author, isCopilotAuthored:$isCopilotAuthored, assignees:$assignees, isDraft:$isDraft, labels:$labels, updatedAt:$updatedAt, _orgSort:$orgSort, _statusSort:$statusSort}' \
         >> "$TMPDIR/prs.jsonl"
+
+    # --- Review queue classification (org-owned repos, non-draft, non-rebase-blocked) ---
+    if [ "$is_org_repo" = "true" ] && [ "$is_draft" = "false" ] && [ "$has_needs_rebase" = "false" ]; then
+        # Compute approval state from GitHub reviews
+        has_github_approval="false"
+        if echo "$pr_details" | jq -e '.reviews[]? | select(.state == "APPROVED")' > /dev/null 2>&1; then
+            has_github_approval="true"
+        fi
+        # Combine: Prow labels OR native GitHub approval
+        is_approved="false"
+        if [ "$has_github_approval" = "true" ] || \
+           ( [ "$has_approved" = "true" ] && [ "$has_lgtm" = "true" ] ); then
+            is_approved="true"
+        fi
+        # Merge-conflict state hides PR from review queue
+        merge_conflict="false"
+        if [ "$merge_state" = "DIRTY" ] || [ "$merge_state" = "BEHIND" ]; then
+            merge_conflict="true"
+        fi
+
+        if [ "$merge_conflict" = "false" ]; then
+            # Determine waiting age (seconds since updatedAt, formatted as days)
+            updated_ts=$(date -d "$updated_at" +%s 2>/dev/null || date -j -f "%Y-%m-%dT%H:%M:%SZ" "$updated_at" +%s)
+            now_ts=$(date -u +%s)
+            waiting_seconds=$(( now_ts - updated_ts ))
+            waiting_days=$(( waiting_seconds / 86400 ))
+
+            # Determine group and reason
+            if [ "$is_approved" = "true" ] && [ "$has_do_not_merge" = "false" ]; then
+                rq_group="approvedWaitingToLand"
+                if [ "$has_hold_label" = "true" ]; then
+                    rq_reason="hold"
+                else
+                    rq_reason="pendingMerge"
+                fi
+            else
+                rq_group="needsReview"
+                if [ "$has_hold_label" = "true" ]; then
+                    rq_reason="hold"
+                else
+                    rq_reason="awaitingReview"
+                fi
+            fi
+
+            # Build review requests list
+            review_requests_json=$(echo "$pr_details" | jq -c '[.reviewRequests[]? | .login // .name // ""] | map(select(. != ""))' 2>/dev/null || echo "[]")
+
+            jq -nc \
+                --argjson number "$number" \
+                --arg repo "$repo" \
+                --arg org "$org" \
+                --arg title "$title" \
+                --arg url "$url" \
+                --arg targetBranch "$base_branch" \
+                --arg author "$author" \
+                --argjson isCopilotAuthored "$is_copilot" \
+                --argjson assignees "$assignees_json" \
+                --argjson labels "$labels_json" \
+                --arg mergeStateStatus "$merge_state" \
+                --argjson isApproved "$is_approved" \
+                --argjson hasProwApproval "$([ "$has_approved" = "true" ] && [ "$has_lgtm" = "true" ] && echo true || echo false)" \
+                --argjson hasGithubApproval "$has_github_approval" \
+                --argjson reviewRequests "$review_requests_json" \
+                --arg group "$rq_group" \
+                --arg reason "$rq_reason" \
+                --argjson waitingDays "$waiting_days" \
+                --arg updatedAt "$updated_at" \
+                '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, author:$author, isCopilotAuthored:$isCopilotAuthored, assignees:$assignees, labels:$labels, mergeStateStatus:$mergeStateStatus, isApproved:$isApproved, hasProwApproval:$hasProwApproval, hasGithubApproval:$hasGithubApproval, reviewRequests:$reviewRequests, group:$group, reason:$reason, waitingDays:$waitingDays, updatedAt:$updatedAt}' \
+                >> "$REVIEW_QUEUE_JSONL"
+        fi
+    fi
 done
 
 # Helper to write a section for an org (sorts by priority prefix, strips it)
@@ -425,6 +562,24 @@ jq -s \
     'sort_by(._orgSort, ._statusSort)
      | map(del(._orgSort, ._statusSort))
      | {updatedAt: $updatedAt, prs: .}' \
-    "$TMPDIR/prs.jsonl" > "$JSON_OUTPUT_FILE"
+    "$TMPDIR/prs.jsonl" > "$TMPDIR/prs_base.json"
+
+# Build reviewQueue from review_queue.jsonl
+touch "$REVIEW_QUEUE_JSONL"
+jq -s \
+    --arg updatedAt "$UPDATED_AT_ISO" \
+    '{
+        updatedAt: $updatedAt,
+        needsReview: [.[] | select(.group == "needsReview")] | sort_by(-.waitingDays),
+        approvedWaitingToLand: [.[] | select(.group == "approvedWaitingToLand")] | sort_by(-.waitingDays)
+    }' \
+    "$REVIEW_QUEUE_JSONL" > "$TMPDIR/review_queue.json"
+
+# Merge prs and reviewQueue into final JSON output
+jq -n \
+    --slurpfile base "$TMPDIR/prs_base.json" \
+    --slurpfile rq "$TMPDIR/review_queue.json" \
+    '$base[0] + {reviewQueue: $rq[0]}' \
+    > "$JSON_OUTPUT_FILE"
 
 echo "PR list updated successfully!"
