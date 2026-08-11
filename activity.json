@@ -3,15 +3,22 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T15:00:27Z",
+  "generatedAt": "2026-08-11T16:07:26Z",
   "metrics": {
-    "prsMerged": 77,
+    "prsMerged": 78,
     "prsOpened": 100,
-    "prsReviewed": 97,
-    "issuesCommented": 41,
+    "prsReviewed": 96,
+    "issuesCommented": 42,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 180,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: wire BSL profile config through to S3 credential resolution",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/180"
+    },
     {
       "number": 23,
       "repo": "kaovilai/oadp-ui",
@@ -1256,6 +1263,55 @@
   ],
   "prsReviewed": [
     {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
+    },
+    {
+      "number": 10180,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Site: add conference talks to resources and LinkedIn to community page",
+      "url": "https://github.com/velero-io/velero/pull/10180"
+    },
+    {
+      "number": 10234,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Make restore logs testable by returning errors instead of calling cmd.Exit",
+      "url": "https://github.com/velero-io/velero/pull/10234"
+    },
+    {
+      "number": 181,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: wire BSL profile config through to S3 credential resolution",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/181"
+    },
+    {
+      "number": 10231,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Site: add a troubleshooting entry for log downloads failing with \"no such host\"",
+      "url": "https://github.com/velero-io/velero/pull/10231"
+    },
+    {
+      "number": 10200,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for Backup and Restore CRDs",
+      "url": "https://github.com/velero-io/velero/pull/10200"
+    },
+    {
+      "number": 2370,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
+      "url": "https://github.com/openshift/oadp-operator/pull/2370"
+    },
+    {
       "number": 177,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1275,20 +1331,6 @@
       "org": "velero-io",
       "title": "docs: fix grammar and typos in backup-restore-windows",
       "url": "https://github.com/velero-io/velero/pull/10228"
-    },
-    {
-      "number": 2370,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
-      "url": "https://github.com/openshift/oadp-operator/pull/2370"
-    },
-    {
-      "number": 10200,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for Backup and Restore CRDs",
-      "url": "https://github.com/velero-io/velero/pull/10200"
     },
     {
       "number": 2361,
@@ -1891,51 +1933,16 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/39"
-    },
-    {
-      "number": 158,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/158"
-    },
-    {
-      "number": 369,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/369"
-    },
-    {
-      "number": 45,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/45"
-    },
-    {
-      "number": 180,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/udistribution/pull/180"
-    },
-    {
-      "number": 2337,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "update TROUBLESHOOTING.md to use oc oadp CLI instead of velero pod -exec alias",
-      "url": "https://github.com/openshift/oadp-operator/pull/2337"
-    },
-    {
-      "number": 2331,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: fix links, restic refs, and typos in examples and root-level docs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2331"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10232,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
+      "url": "https://github.com/velero-io/velero/issues/10232"
+    },
     {
       "number": 8457,
       "repo": "velero-io/velero",
