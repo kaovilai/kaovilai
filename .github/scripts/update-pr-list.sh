@@ -53,7 +53,65 @@ get_pr_details() {
     local repo="$1"
     local number="$2"
     retry_with_backoff gh pr view "$number" --repo "$repo" \
-        --json statusCheckRollup,baseRefName,closingIssuesReferences,reviews,reviewRequests,mergeStateStatus || echo "{}"
+        --json statusCheckRollup,baseRefName,closingIssuesReferences,reviews,latestReviews,reviewRequests,mergeStateStatus,reviewDecision || echo "{}"
+}
+
+# Function to resolve the required approving review count for a repo/branch.
+# Prefers GraphQL branch protection rules; falls back to the openshift/release
+# Prow branch-protector config when the token cannot read protection settings.
+# Echoes a number, or an empty string when unknown. Results are cached per repo+branch.
+get_required_approvals() {
+    local repo="$1"
+    local branch="$2"
+    local owner="${repo%%/*}"
+    local name="${repo##*/}"
+
+    local cache_file
+    cache_file="$TMPDIR/required-approvals-$(echo "${repo}#${branch}" | tr '/#' '__')"
+    if [ -f "$cache_file" ]; then
+        cat "$cache_file"
+        return
+    fi
+
+    local rules=""
+    rules=$(gh api graphql \
+        -f query='query($owner:String!, $name:String!) {
+            repository(owner:$owner, name:$name) {
+                branchProtectionRules(first: 50) {
+                    nodes { pattern requiresApprovingReviews requiredApprovingReviewCount }
+                }
+            }
+        }' -F owner="$owner" -F name="$name" \
+        --jq '.data.repository.branchProtectionRules.nodes[]? | select(.requiresApprovingReviews == true) | "\(.pattern)\t\(.requiredApprovingReviewCount // 0)"' 2>/dev/null || echo "")
+
+    local required=""
+    if [ -n "$rules" ]; then
+        while IFS=$'\t' read -r pattern count; do
+            [ -z "$pattern" ] && continue
+            # shellcheck disable=SC2053 # intentional glob match of branch protection pattern
+            if [[ "$branch" == $pattern ]]; then
+                required="$count"
+                break
+            fi
+        done <<< "$rules"
+    fi
+
+    # Fallback: openshift/release Prow branch-protector config
+    if [ -z "$required" ] && { [ "$owner" = "openshift" ] || [ "$owner" = "migtools" ] || [ "$owner" = "openshift-eng" ]; }; then
+        local prow_config=""
+        prow_config=$(gh api "repos/openshift/release/contents/core-services/prow/02_config/$owner/$name/_prowconfig.yaml" \
+            --jq '.content' 2>/dev/null | base64 -d 2>/dev/null || echo "")
+        if [ -z "$prow_config" ]; then
+            prow_config=$(gh api "repos/openshift/release/contents/core-services/prow/02_config/$owner/_prowconfig.yaml" \
+                --jq '.content' 2>/dev/null | base64 -d 2>/dev/null || echo "")
+        fi
+        if [ -n "$prow_config" ]; then
+            required=$(echo "$prow_config" | grep -oE 'required_approving_review_count:[[:space:]]*[0-9]+' | head -1 | grep -oE '[0-9]+$' || echo "")
+        fi
+    fi
+
+    echo "$required" > "$cache_file"
+    echo "$required"
 }
 
 # Function to get milestone from linked issues (for velero repos)
@@ -428,11 +486,31 @@ for i in $(seq 0 $((index - 1))); do
         if echo "$pr_details" | jq -e '.reviews[]? | select(.state == "APPROVED")' > /dev/null 2>&1; then
             has_github_approval="true"
         fi
-        # Combine: Prow labels OR native GitHub approval
+        # GitHub's own review decision (honors required approving review count,
+        # whether set by branch protection or the Prow branch-protector)
+        review_decision=$(echo "$pr_details" | jq -r '.reviewDecision // empty' 2>/dev/null)
+        # Combine: Prow labels OR GitHub's review decision (falling back to a
+        # single approving review when no review decision is reported)
         is_approved="false"
-        if [ "$has_github_approval" = "true" ] || \
-           ( [ "$has_approved" = "true" ] && [ "$has_lgtm" = "true" ] ); then
+        if ( [ "$has_approved" = "true" ] && [ "$has_lgtm" = "true" ] ) || \
+           [ "$review_decision" = "APPROVED" ] || \
+           ( [ -z "$review_decision" ] && [ "$has_github_approval" = "true" ] ); then
             is_approved="true"
+        fi
+        if [ -n "$review_decision" ]; then
+            review_decision_json=$(jq -n --arg d "$review_decision" '$d')
+        else
+            review_decision_json="null"
+        fi
+        # Count of latest APPROVED reviews (one per reviewer)
+        approval_count=$(echo "$pr_details" | jq '[.latestReviews[]? | select(.state == "APPROVED")] | length' 2>/dev/null || echo 0)
+        [ -z "$approval_count" ] && approval_count=0
+        # Required approving review count from branch protection / Prow config
+        required_approvals=$(get_required_approvals "$repo" "$base_branch")
+        if [ -n "$required_approvals" ]; then
+            required_approvals_json="$required_approvals"
+        else
+            required_approvals_json="null"
         fi
         # Merge-conflict state hides PR from review queue
         merge_conflict="false"
@@ -482,12 +560,15 @@ for i in $(seq 0 $((index - 1))); do
                 --argjson isApproved "$is_approved" \
                 --argjson hasProwApproval "$([ "$has_approved" = "true" ] && [ "$has_lgtm" = "true" ] && echo true || echo false)" \
                 --argjson hasGithubApproval "$has_github_approval" \
+                --argjson reviewDecision "$review_decision_json" \
+                --argjson approvalCount "$approval_count" \
+                --argjson requiredApprovals "$required_approvals_json" \
                 --argjson reviewRequests "$review_requests_json" \
                 --arg group "$rq_group" \
                 --arg reason "$rq_reason" \
                 --argjson waitingDays "$waiting_days" \
                 --arg updatedAt "$updated_at" \
-                '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, author:$author, isCopilotAuthored:$isCopilotAuthored, assignees:$assignees, labels:$labels, mergeStateStatus:$mergeStateStatus, isApproved:$isApproved, hasProwApproval:$hasProwApproval, hasGithubApproval:$hasGithubApproval, reviewRequests:$reviewRequests, group:$group, reason:$reason, waitingDays:$waitingDays, updatedAt:$updatedAt}' \
+                '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, author:$author, isCopilotAuthored:$isCopilotAuthored, assignees:$assignees, labels:$labels, mergeStateStatus:$mergeStateStatus, isApproved:$isApproved, hasProwApproval:$hasProwApproval, hasGithubApproval:$hasGithubApproval, reviewDecision:$reviewDecision, approvalCount:$approvalCount, requiredApprovals:$requiredApprovals, reviewRequests:$reviewRequests, group:$group, reason:$reason, waitingDays:$waitingDays, updatedAt:$updatedAt}' \
                 >> "$REVIEW_QUEUE_JSONL"
         fi
     fi

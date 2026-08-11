@@ -43,6 +43,24 @@ for group in needsReview approvedWaitingToLand; do
     done
 done
 
+# Optional review-decision fields must have the right type when present
+BAD=$(jq '[.reviewQueue.needsReview[], .reviewQueue.approvedWaitingToLand[]
+           | select(has("reviewDecision") and (.reviewDecision != null) and ((.reviewDecision | type) != "string"))
+           | .url] | length' "$JSON_FILE")
+if [ "$BAD" -gt 0 ]; then
+    echo "ERROR: $BAD reviewQueue items have a non-string reviewDecision" >&2
+    exit 1
+fi
+for field in approvalCount requiredApprovals; do
+    BAD=$(jq --arg f "$field" '[.reviewQueue.needsReview[], .reviewQueue.approvedWaitingToLand[]
+               | select(has($f) and (.[$f] != null) and ((.[$f] | type) != "number"))
+               | .url] | length' "$JSON_FILE")
+    if [ "$BAD" -gt 0 ]; then
+        echo "ERROR: $BAD reviewQueue items have a non-numeric $field" >&2
+        exit 1
+    fi
+done
+
 # All reviewQueue items must be from org-owned repos (no kaovilai/* personal repos)
 PERSONAL=$(jq '[.reviewQueue.needsReview[], .reviewQueue.approvedWaitingToLand[] | select(.org == "kaovilai")] | length' "$JSON_FILE")
 if [ "$PERSONAL" -gt 0 ]; then

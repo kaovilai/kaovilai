@@ -153,9 +153,12 @@ Includes only **public professional contributions** (repos owned by GitHub organ
 | `assignees` | string[] | Assignee logins |
 | `labels` | string[] | Label names |
 | `mergeStateStatus` | string | GitHub merge state: `CLEAN`, `DIRTY`, `BEHIND`, `BLOCKED`, `UNKNOWN`, etc. |
-| `isApproved` | boolean | True if sufficiently approved (native GitHub approval OR both `lgtm`+`approved` Prow labels) |
+| `isApproved` | boolean | True if sufficiently approved (`reviewDecision` is `APPROVED`, OR both `lgtm`+`approved` Prow labels, OR an approving review when no `reviewDecision` is reported) |
 | `hasProwApproval` | boolean | True if both `lgtm` and `approved` labels are present |
 | `hasGithubApproval` | boolean | True if at least one native GitHub approving review exists |
+| `reviewDecision` | string\|null | GitHub `PullRequest.reviewDecision`: `APPROVED`, `REVIEW_REQUIRED`, or `CHANGES_REQUESTED` (null when reviews are not required). Honors the required approving review count wherever it is configured (direct branch protection or the openshift/release Prow branch-protector) |
+| `approvalCount` | number | Number of latest reviews in the `APPROVED` state (one per reviewer) |
+| `requiredApprovals` | number\|null | Required approving review count from branch protection rules, falling back to the openshift/release Prow branch-protector config; null when unknown |
 | `reviewRequests` | string[] | Requested reviewer/team logins |
 | `group` | string | `needsReview` or `approvedWaitingToLand` |
 | `reason` | string | Classification reason: `awaitingReview`, `hold`, `pendingMerge` |
