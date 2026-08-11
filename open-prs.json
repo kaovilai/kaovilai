@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T01:21:52Z",
+  "updatedAt": "2026-08-11T06:59:37Z",
   "prs": [
     {
       "number": 10010,
@@ -86,6 +86,50 @@
         "has-unit-tests"
       ],
       "updatedAt": "2026-08-10T20:26:17Z"
+    },
+    {
+      "number": 10223,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10223",
+      "targetBranch": "release-1.17",
+      "status": "ready",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-11T03:49:18Z"
+    },
+    {
+      "number": 10224,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10224",
+      "targetBranch": "release-1.18",
+      "status": "ready",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-11T03:52:18Z"
     },
     {
       "number": 8884,
@@ -618,7 +662,7 @@
         "kind/changelog-not-required",
         "has-unit-tests"
       ],
-      "updatedAt": "2026-08-10T20:35:34Z"
+      "updatedAt": "2026-08-11T03:44:30Z"
     },
     {
       "number": 7941,
@@ -995,6 +1039,24 @@
       "updatedAt": "2026-07-06T21:56:02Z"
     },
     {
+      "number": 83221,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+      "url": "https://github.com/openshift/release/pull/83221",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-11T04:25:42Z"
+    },
+    {
       "number": 5334,
       "repo": "openshift/ci-tools",
       "org": "openshift",
@@ -1074,7 +1136,7 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-10T18:21:26Z"
+      "updatedAt": "2026-08-11T03:50:44Z"
     },
     {
       "number": 2360,
@@ -1431,6 +1493,24 @@
       "updatedAt": "2026-07-15T12:41:12Z"
     },
     {
+      "number": 124,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-11T03:40:12Z"
+    },
+    {
       "number": 216,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1700,24 +1780,6 @@
         "do-not-merge/hold"
       ],
       "updatedAt": "2026-08-03T14:39:22Z"
-    },
-    {
-      "number": 124,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124",
-      "targetBranch": "oadp-dev",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-11T00:20:31Z"
     },
     {
       "number": 88,
@@ -2164,11 +2226,11 @@
       "updatedAt": "2026-08-10T13:32:40Z"
     },
     {
-      "number": 20,
+      "number": 23,
       "repo": "kaovilai/oadp-ui",
       "org": "kaovilai",
-      "title": "Add `__mocks__/**` to allowed-files for upstream-parity agent",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/20",
+      "title": "Recompile stale daily-upstream-parity.lock.yml",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/23",
       "targetBranch": "main",
       "status": "draft",
       "milestone": null,
@@ -2180,7 +2242,7 @@
       ],
       "isDraft": true,
       "labels": [],
-      "updatedAt": "2026-08-10T21:09:38Z"
+      "updatedAt": "2026-08-11T04:18:25Z"
     },
     {
       "number": 1,
@@ -2887,7 +2949,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-11T01:21:52Z",
+    "updatedAt": "2026-08-11T06:59:37Z",
     "needsReview": [
       {
         "number": 68,
@@ -2928,7 +2990,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 483,
+        "waitingDays": 484,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -2949,7 +3011,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 472,
+        "waitingDays": 473,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -2970,7 +3032,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 465,
+        "waitingDays": 466,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3011,7 +3073,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3022,7 +3084,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 243,
+        "waitingDays": 244,
         "updatedAt": "2025-12-10T06:37:59Z"
       },
       {
@@ -3036,7 +3098,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3118,7 +3180,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3221,33 +3283,6 @@
         "updatedAt": "2026-05-15T20:42:37Z"
       },
       {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 62,
-        "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
         "number": 2241,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -3318,7 +3353,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3474,7 +3509,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3486,6 +3521,36 @@
         "reason": "awaitingReview",
         "waitingDays": 25,
         "updatedAt": "2026-07-16T16:05:03Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 25,
+        "updatedAt": "2026-07-16T15:28:53Z"
       },
       {
         "number": 46,
@@ -3530,7 +3595,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3559,7 +3624,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3585,7 +3650,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3686,7 +3751,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-07-23T05:47:21Z"
       },
       {
@@ -3841,7 +3906,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3867,7 +3932,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3898,7 +3963,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3934,7 +3999,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-11T00:20:31Z"
+        "updatedAt": "2026-08-11T03:40:12Z"
       },
       {
         "number": 2367,
@@ -3949,7 +4014,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4008,7 +4073,7 @@
           "do-not-merge/hold",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4020,6 +4085,32 @@
         "reason": "hold",
         "waitingDays": 0,
         "updatedAt": "2026-08-10T22:11:21Z"
+      },
+      {
+        "number": 83221,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+        "url": "https://github.com/openshift/release/pull/83221",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "dgoodwin",
+          "stbenjam"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T04:25:42Z"
       },
       {
         "number": 10211,
@@ -4035,7 +4126,7 @@
           "Copilot"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4075,6 +4166,60 @@
         "updatedAt": "2026-08-10T20:26:17Z"
       },
       {
+        "number": 10223,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+        "url": "https://github.com/velero-io/velero/pull/10223",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T03:49:18Z"
+      },
+      {
+        "number": 10224,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+        "url": "https://github.com/velero-io/velero/pull/10224",
+        "targetBranch": "release-1.18",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T03:52:18Z"
+      },
+      {
         "number": 9772,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4090,7 +4235,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4229,7 +4374,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4255,7 +4400,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4504,7 +4649,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4517,6 +4662,33 @@
         "reason": "pendingMerge",
         "waitingDays": 18,
         "updatedAt": "2026-07-23T22:40:21Z"
+      },
+      {
+        "number": 10028,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Bump actions/labeler from v5 to v6",
+        "url": "https://github.com/velero-io/velero/pull/10028",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 18,
+        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 10034,
@@ -4563,7 +4735,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4601,7 +4773,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-07-28T04:24:27Z"
       },
       {
@@ -4823,39 +4995,6 @@
         "updatedAt": "2026-08-06T16:42:28Z"
       },
       {
-        "number": 2139,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
-        "url": "https://github.com/openshift/oadp-operator/pull/2139",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin"
-        ],
-        "labels": [
-          "approved",
-          "jira/valid-reference",
-          "ai-generated-test",
-          "ai-gen-bugfix"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "sseago",
-          "weshayutin",
-          "mpryc"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-07T23:05:50Z"
-      },
-      {
         "number": 2205,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4869,7 +5008,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4896,7 +5035,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4924,7 +5063,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5071,7 +5210,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-10T20:35:34Z"
+        "updatedAt": "2026-08-11T03:44:30Z"
       }
     ]
   }

@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-11 01:21:52 UTC
+> Last updated: 2026-08-11 06:59:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -11,6 +11,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10222](https://img.shields.io/badge/PR%20%2310222-ready-green)](https://github.com/velero-io/velero/pull/10222) **velero-io/velero** → `release-1.18` - 1.18 Backport: correct typos in log messages and status strings (#10192)
+- [![PR #10223](https://img.shields.io/badge/PR%20%2310223-ready-green)](https://github.com/velero-io/velero/pull/10223) **velero-io/velero** → `release-1.17` - [release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext
+- [![PR #10224](https://img.shields.io/badge/PR%20%2310224-ready-green)](https://github.com/velero-io/velero/pull/10224) **velero-io/velero** → `release-1.18` - 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
@@ -60,6 +62,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
+- [![PR #83221](https://img.shields.io/badge/PR%20%2383221-ready-green)](https://github.com/openshift/release/pull/83221) **openshift/release** → `main` - gather-must-gather: retry camgi download, don't fail gather on it
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
@@ -85,6 +88,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
+- [![PR #124](https://img.shields.io/badge/PR%20%23124-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
@@ -99,7 +103,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #124](https://img.shields.io/badge/PR%20%23124-failing--ci-red)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #88](https://img.shields.io/badge/PR%20%2388-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/88) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Correct S3 checkpoint index when backup type mismatch is detected
 
 ## oadp-rebase
@@ -119,7 +122,7 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
-- [![PR #20](https://img.shields.io/badge/PR%20%2320-draft-gray)](https://github.com/kaovilai/oadp-ui/pull/20) **kaovilai/oadp-ui** → `main` - Add `__mocks__/**` to allowed-files for upstream-parity agent
+- [![PR #23](https://img.shields.io/badge/PR%20%2323-draft-gray)](https://github.com/kaovilai/oadp-ui/pull/23) **kaovilai/oadp-ui** → `main` - Recompile stale daily-upstream-parity.lock.yml
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #538](https://img.shields.io/badge/PR%20%23538-draft-gray)](https://github.com/kaovilai/dotfiles/pull/538) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit to improve shell startup time
