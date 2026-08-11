@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-07-28 — 2026-08-11
-> **Generated:** 2026-08-11 16:07:26 UTC
+> **Generated:** 2026-08-11 17:58:59 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 78 |
+| PRs Merged | 82 |
 | PRs Opened | 100 |
 | PRs Reviewed | 96 |
 | Issues/PRs Commented | 42 |
@@ -13,9 +13,11 @@
 
 ---
 
-## PRs Merged (78)
+## PRs Merged (82)
 
-**velero-io** (4)
+**velero-io** (6)
+- [#10222 1.18 Backport: correct typos in log messages and status strings (#10192)](https://github.com/velero-io/velero/pull/10222) — velero-io/velero
+- [#10223 [release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10223) — velero-io/velero
 - [#10221 1.17 Backport #10192: correct typos in log messages and status strings](https://github.com/velero-io/velero/pull/10221) — velero-io/velero
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
@@ -75,7 +77,9 @@
 - [#142 Bump GitHub Actions to node24 runtime versions](https://github.com/migtools/kubevirt-datamover-controller/pull/142) — migtools/kubevirt-datamover-controller
 - [#115 feat: implement downloader runtime for VM restore (issue #73 Phase 2)](https://github.com/migtools/kubevirt-datamover-controller/pull/115) — migtools/kubevirt-datamover-controller
 
-**Other** (24)
+**Other** (26)
+- [#183 Add review queue panel consuming reviewQueue data from open-prs.json](https://github.com/kaovilai/kaovilai.pw/pull/183) — kaovilai/kaovilai.pw
+- [#72 Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue](https://github.com/kaovilai/kaovilai/pull/72) — kaovilai/kaovilai
 - [#23 Recompile stale daily-upstream-parity.lock.yml](https://github.com/kaovilai/oadp-ui/pull/23) — kaovilai/oadp-ui
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
 - [#20 Add `__mocks__/**` to allowed-files for upstream-parity agent](https://github.com/kaovilai/oadp-ui/pull/20) — kaovilai/oadp-ui
@@ -112,7 +116,8 @@
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
-**openshift** (45)
+**openshift** (46)
+- [#83282 Promote oadp-operator bundle directly instead of a broken index](https://github.com/openshift/release/pull/83282) — openshift/release
 - [#83221 gather-must-gather: retry camgi download, don't fail gather on it](https://github.com/openshift/release/pull/83221) — openshift/release
 - [#2368 [oadp-1.4] Make controller-gen/kustomize/golangci-lint version checks reliable](https://github.com/openshift/oadp-operator/pull/2368) — openshift/oadp-operator
 - [#2367 Make controller-gen/kustomize/golangci-lint version checks reliable](https://github.com/openshift/oadp-operator/pull/2367) — openshift/oadp-operator
@@ -159,7 +164,7 @@
 - [#559 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero/pull/559) — openshift/velero
 - [#557 Remove inactive users from OWNERS](https://github.com/openshift/velero/pull/557) — openshift/velero
 
-**migtools** (14)
+**migtools** (13)
 - [#180 fix: wire BSL profile config through to S3 credential resolution](https://github.com/migtools/kubevirt-datamover-controller/pull/180) — migtools/kubevirt-datamover-controller
 - [#170 fix: defer PVC/PV cleanup while datamover pod terminates](https://github.com/migtools/kubevirt-datamover-controller/pull/170) — migtools/kubevirt-datamover-controller
 - [#44 Clear PVC binding state and halt kubevirt VMs at restore time](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) — migtools/kubevirt-datamover-plugin
@@ -173,9 +178,9 @@
 - [#371 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/371) — migtools/oadp-non-admin
 - [#47 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/47) — migtools/kopia
 - [#38 Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support](https://github.com/migtools/kubevirt-datamover-plugin/pull/38) — migtools/kubevirt-datamover-plugin
-- [#149 Cherry-pick #131: Azure BSL support to oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/149) — migtools/kubevirt-datamover-controller
 
 **Other** (33)
+- [#72 Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue](https://github.com/kaovilai/kaovilai/pull/72) — kaovilai/kaovilai
 - [#185 Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs](https://github.com/kaovilai/kaovilai.pw/pull/185) — kaovilai/kaovilai.pw
 - [#183 Add review queue panel consuming reviewQueue data from open-prs.json](https://github.com/kaovilai/kaovilai.pw/pull/183) — kaovilai/kaovilai.pw
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
@@ -208,15 +213,14 @@
 - [#137 Add OpenShift static command profiles (payload, verified, jira, labels, specialized)](https://github.com/kaovilai/github-bot-command-palette/pull/137) — kaovilai/github-bot-command-palette
 - [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
 - [#552 ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing](https://github.com/kaovilai/dotfiles/pull/552) — kaovilai/dotfiles
-- [#551 ⚡ Bolt: Remove redundant manual compinit](https://github.com/kaovilai/dotfiles/pull/551) — kaovilai/dotfiles
 ## PRs Reviewed (96)
 
 **velero-io** (35)
+- [#10234 Make restore logs testable by returning errors instead of calling cmd.Exit](https://github.com/velero-io/velero/pull/10234) — velero-io/velero
+- [#10200 Add printer columns for Backup and Restore CRDs](https://github.com/velero-io/velero/pull/10200) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10180 Site: add conference talks to resources and LinkedIn to community page](https://github.com/velero-io/velero/pull/10180) — velero-io/velero
-- [#10234 Make restore logs testable by returning errors instead of calling cmd.Exit](https://github.com/velero-io/velero/pull/10234) — velero-io/velero
 - [#10231 Site: add a troubleshooting entry for log downloads failing with "no such host"](https://github.com/velero-io/velero/pull/10231) — velero-io/velero
-- [#10200 Add printer columns for Backup and Restore CRDs](https://github.com/velero-io/velero/pull/10200) — velero-io/velero
 - [#10228 docs: fix grammar and typos in backup-restore-windows](https://github.com/velero-io/velero/pull/10228) — velero-io/velero
 - [#10189 Make backupType case insensitive in the CLI.](https://github.com/velero-io/velero/pull/10189) — velero-io/velero
 - [#10190 docs: fix grammar and typos in customize-installation](https://github.com/velero-io/velero/pull/10190) — velero-io/velero
@@ -317,9 +321,9 @@
 ## Issues/PRs Commented On (42)
 
 **velero-io** (17)
+- [#10199 Backup and Restore CRDs have no printer columns since the 2021 revert](https://github.com/velero-io/velero/issues/10199) — velero-io/velero
 - [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
 - [#8457 Configurable pull policy when `velero install`](https://github.com/velero-io/velero/issues/8457) — velero-io/velero
-- [#10199 Backup and Restore CRDs have no printer columns since the 2021 revert](https://github.com/velero-io/velero/issues/10199) — velero-io/velero
 - [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
 - [#8807 Support per-storageclass VSClass annotation](https://github.com/velero-io/velero/issues/8807) — velero-io/velero
 - [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero

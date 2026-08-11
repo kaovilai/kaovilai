@@ -3,15 +3,43 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T16:07:26Z",
+  "generatedAt": "2026-08-11T17:58:59Z",
   "metrics": {
-    "prsMerged": 78,
+    "prsMerged": 82,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 42,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 183,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Add review queue panel consuming reviewQueue data from open-prs.json",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/183"
+    },
+    {
+      "number": 72,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue",
+      "url": "https://github.com/kaovilai/kaovilai/pull/72"
+    },
+    {
+      "number": 10222,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18 Backport: correct typos in log messages and status strings (#10192)",
+      "url": "https://github.com/velero-io/velero/pull/10222"
+    },
+    {
+      "number": 10223,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10223"
+    },
     {
       "number": 180,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -560,6 +588,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 83282,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Promote oadp-operator bundle directly instead of a broken index",
+      "url": "https://github.com/openshift/release/pull/83282"
+    },
+    {
+      "number": 72,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue",
+      "url": "https://github.com/kaovilai/kaovilai/pull/72"
+    },
     {
       "number": 185,
       "repo": "kaovilai/kaovilai.pw",
@@ -1245,43 +1287,29 @@
       "org": "migtools",
       "title": "Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/38"
-    },
-    {
-      "number": 149,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Cherry-pick #131: Azure BSL support to oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/149"
-    },
-    {
-      "number": 551,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Remove redundant manual compinit",
-      "url": "https://github.com/kaovilai/dotfiles/pull/551"
     }
   ],
   "prsReviewed": [
-    {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
-    },
-    {
-      "number": 10180,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Site: add conference talks to resources and LinkedIn to community page",
-      "url": "https://github.com/velero-io/velero/pull/10180"
-    },
     {
       "number": 10234,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Make restore logs testable by returning errors instead of calling cmd.Exit",
       "url": "https://github.com/velero-io/velero/pull/10234"
+    },
+    {
+      "number": 10200,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for Backup and Restore CRDs",
+      "url": "https://github.com/velero-io/velero/pull/10200"
+    },
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 181,
@@ -1291,18 +1319,18 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/181"
     },
     {
+      "number": 10180,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Site: add conference talks to resources and LinkedIn to community page",
+      "url": "https://github.com/velero-io/velero/pull/10180"
+    },
+    {
       "number": 10231,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Site: add a troubleshooting entry for log downloads failing with \"no such host\"",
       "url": "https://github.com/velero-io/velero/pull/10231"
-    },
-    {
-      "number": 10200,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for Backup and Restore CRDs",
-      "url": "https://github.com/velero-io/velero/pull/10200"
     },
     {
       "number": 2370,
@@ -1937,6 +1965,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 10199,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup and Restore CRDs have no printer columns since the 2021 revert",
+      "url": "https://github.com/velero-io/velero/issues/10199"
+    },
+    {
       "number": 10232,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1970,13 +2005,6 @@
       "org": "cncf",
       "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
       "url": "https://github.com/cncf/mentoring/issues/1997"
-    },
-    {
-      "number": 10199,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup and Restore CRDs have no printer columns since the 2021 revert",
-      "url": "https://github.com/velero-io/velero/issues/10199"
     },
     {
       "number": 175,
