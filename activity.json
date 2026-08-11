@@ -3,7 +3,7 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T17:58:59Z",
+  "generatedAt": "2026-08-11T19:14:10Z",
   "metrics": {
     "prsMerged": 82,
     "prsOpened": 100,
@@ -588,6 +588,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 83286,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e",
+      "url": "https://github.com/openshift/release/pull/83286"
+    },
     {
       "number": 83282,
       "repo": "openshift/release",
@@ -1280,16 +1287,23 @@
       "org": "kaovilai",
       "title": "⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing",
       "url": "https://github.com/kaovilai/dotfiles/pull/552"
-    },
-    {
-      "number": 38,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/38"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
+    },
+    {
+      "number": 10236,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: add kind VolumeSnapshotClass test data",
+      "url": "https://github.com/velero-io/velero/pull/10236"
+    },
     {
       "number": 10234,
       "repo": "velero-io/velero",
@@ -1298,18 +1312,25 @@
       "url": "https://github.com/velero-io/velero/pull/10234"
     },
     {
+      "number": 10127,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
+      "url": "https://github.com/velero-io/velero/pull/10127"
+    },
+    {
+      "number": 2370,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
+      "url": "https://github.com/openshift/oadp-operator/pull/2370"
+    },
+    {
       "number": 10200,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Add printer columns for Backup and Restore CRDs",
       "url": "https://github.com/velero-io/velero/pull/10200"
-    },
-    {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 181,
@@ -1331,13 +1352,6 @@
       "org": "velero-io",
       "title": "Site: add a troubleshooting entry for log downloads failing with \"no such host\"",
       "url": "https://github.com/velero-io/velero/pull/10231"
-    },
-    {
-      "number": 2370,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
-      "url": "https://github.com/openshift/oadp-operator/pull/2370"
     },
     {
       "number": 177,
@@ -1632,13 +1646,6 @@
       "org": "velero-io",
       "title": "Do not assume a port name is a string when clearing node ports",
       "url": "https://github.com/velero-io/velero/pull/10132"
-    },
-    {
-      "number": 10127,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
-      "url": "https://github.com/velero-io/velero/pull/10127"
     },
     {
       "number": 159,
@@ -1954,16 +1961,16 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
-    },
-    {
-      "number": 39,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/39"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 1832,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e jobs for other repos",
+      "url": "https://github.com/openshift/oadp-operator/issues/1832"
+    },
     {
       "number": 10199,
       "repo": "velero-io/velero",
@@ -2117,13 +2124,6 @@
       "org": "velero-io",
       "title": "Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure",
       "url": "https://github.com/velero-io/velero/issues/10120"
-    },
-    {
-      "number": 1832,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e jobs for other repos",
-      "url": "https://github.com/openshift/oadp-operator/issues/1832"
     },
     {
       "number": 2343,
