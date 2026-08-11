@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-27",
-    "end": "2026-08-10"
+    "start": "2026-07-28",
+    "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-10T23:40:10Z",
+  "generatedAt": "2026-08-11T02:06:37Z",
   "metrics": {
     "prsMerged": 71,
-    "prsOpened": 94,
+    "prsOpened": 93,
     "prsReviewed": 97,
-    "issuesCommented": 44,
-    "issuesClosed": 28
+    "issuesCommented": 40,
+    "issuesClosed": 26
   },
   "prsMerged": [
     {
@@ -1161,22 +1161,15 @@
       "org": "kaovilai",
       "title": "⚡ Bolt: [performance improvement] Remove redundant manual compinit execution",
       "url": "https://github.com/kaovilai/dotfiles/pull/550"
-    },
-    {
-      "number": 549,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: [performance improvement] Remove redundant compinit",
-      "url": "https://github.com/kaovilai/dotfiles/pull/549"
     }
   ],
   "prsReviewed": [
     {
-      "number": 167,
+      "number": 178,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "feat: add BSL config parity with Velero AWS plugin",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
+      "title": "[oadp-1.6] feat: add BSL config parity with Velero AWS plugin",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/178"
     },
     {
       "number": 2361,
@@ -1184,6 +1177,13 @@
       "org": "openshift",
       "title": "feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
       "url": "https://github.com/openshift/oadp-operator/pull/2361"
+    },
+    {
+      "number": 167,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add BSL config parity with Velero AWS plugin",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
     },
     {
       "number": 10189,
@@ -1842,13 +1842,6 @@
       "org": "openshift",
       "title": "docs: remove entirely obsolete documentation files",
       "url": "https://github.com/openshift/oadp-operator/pull/2336"
-    },
-    {
-      "number": 2335,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: fix restic→kopia, field names, and plugin refs in config docs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2335"
     }
   ],
   "issuesCommented": [
@@ -2131,34 +2124,6 @@
       "org": "velero-io",
       "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
       "url": "https://github.com/velero-io/velero/issues/9600"
-    },
-    {
-      "number": 10078,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CI to check doc compliance with code change",
-      "url": "https://github.com/velero-io/velero/issues/10078"
-    },
-    {
-      "number": 4564,
-      "repo": "distribution/distribution",
-      "org": "distribution",
-      "title": "Upgrade AWS SDK to /v2",
-      "url": "https://github.com/distribution/distribution/issues/4564"
-    },
-    {
-      "number": 9093,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Publish releases to winget-pkgs",
-      "url": "https://github.com/velero-io/velero/issues/9093"
-    },
-    {
-      "number": 8,
-      "repo": "ferrumclaudepilgrim/claude-code-android",
-      "org": "ferrumclaudepilgrim",
-      "title": "[FEATURE] Support Vertex AI via ADC credentials",
-      "url": "https://github.com/ferrumclaudepilgrim/claude-code-android/issues/8"
     }
   ],
   "issuesClosed": [
@@ -2343,20 +2308,6 @@
       "org": "velero-io",
       "title": "Flaky unit test:  TestBlockUploaderBackup/success_full_backup",
       "url": "https://github.com/velero-io/velero/issues/10022"
-    },
-    {
-      "number": 8,
-      "repo": "ferrumclaudepilgrim/claude-code-android",
-      "org": "ferrumclaudepilgrim",
-      "title": "[FEATURE] Support Vertex AI via ADC credentials",
-      "url": "https://github.com/ferrumclaudepilgrim/claude-code-android/issues/8"
-    },
-    {
-      "number": 10042,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add `.github` repo",
-      "url": "https://github.com/velero-io/velero/issues/10042"
     }
   ]
 }
