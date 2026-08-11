@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-28 — 2026-08-11
-> **Generated:** 2026-08-11 22:45:15 UTC
+> **Generated:** 2026-08-11 23:49:04 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -120,7 +120,8 @@
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
-**openshift** (47)
+**openshift** (48)
+- [#83299 gather-extra: don't let PLATFORM lookup abort entire gather step](https://github.com/openshift/release/pull/83299) — openshift/release
 - [#83286 Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e](https://github.com/openshift/release/pull/83286) — openshift/release
 - [#83282 Promote oadp-operator bundle directly instead of a broken index](https://github.com/openshift/release/pull/83282) — openshift/release
 - [#83221 gather-must-gather: retry camgi download, don't fail gather on it](https://github.com/openshift/release/pull/83221) — openshift/release
@@ -183,7 +184,7 @@
 - [#371 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/371) — migtools/oadp-non-admin
 - [#47 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/47) — migtools/kopia
 
-**Other** (33)
+**Other** (32)
 - [#187 Implementing recent review display feature](https://github.com/kaovilai/kaovilai.pw/pull/187) — kaovilai/kaovilai.pw
 - [#72 Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue](https://github.com/kaovilai/kaovilai/pull/72) — kaovilai/kaovilai
 - [#185 Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs](https://github.com/kaovilai/kaovilai.pw/pull/185) — kaovilai/kaovilai.pw
@@ -216,16 +217,15 @@
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 - [#138 Add structured payload picker dialog (stacked on #137)](https://github.com/kaovilai/github-bot-command-palette/pull/138) — kaovilai/github-bot-command-palette
 - [#137 Add OpenShift static command profiles (payload, verified, jira, labels, specialized)](https://github.com/kaovilai/github-bot-command-palette/pull/137) — kaovilai/github-bot-command-palette
-- [#68 Emit JSON exports (open-prs.json, activity.json) alongside markdown reports](https://github.com/kaovilai/kaovilai/pull/68) — kaovilai/kaovilai
 ## PRs Reviewed (96)
 
 **velero-io** (38)
+- [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 - [#10189 Make backupType case insensitive in the CLI.](https://github.com/velero-io/velero/pull/10189) — velero-io/velero
 - [#10201 Bump kentaro-m/auto-assign-action from 2.0.0 to 2.0.2](https://github.com/velero-io/velero/pull/10201) — velero-io/velero
 - [#10127 feat(cli): add velero client set-context-as-velero-namespace command](https://github.com/velero-io/velero/pull/10127) — velero-io/velero
-- [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10236 E2E: add kind VolumeSnapshotClass test data](https://github.com/velero-io/velero/pull/10236) — velero-io/velero
 - [#10234 Make restore logs testable by returning errors instead of calling cmd.Exit](https://github.com/velero-io/velero/pull/10234) — velero-io/velero
 - [#10200 Add printer columns for Backup and Restore CRDs](https://github.com/velero-io/velero/pull/10200) — velero-io/velero

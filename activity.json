@@ -3,7 +3,7 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T22:45:15Z",
+  "generatedAt": "2026-08-11T23:49:04Z",
   "metrics": {
     "prsMerged": 86,
     "prsOpened": 100,
@@ -616,6 +616,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 83299,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "gather-extra: don't let PLATFORM lookup abort entire gather step",
+      "url": "https://github.com/openshift/release/pull/83299"
+    },
     {
       "number": 187,
       "repo": "kaovilai/kaovilai.pw",
@@ -1308,16 +1315,16 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/velero/pull/557"
-    },
-    {
-      "number": 68,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Emit JSON exports (open-prs.json, activity.json) alongside markdown reports",
-      "url": "https://github.com/kaovilai/kaovilai/pull/68"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
+    },
     {
       "number": 2370,
       "repo": "openshift/oadp-operator",
@@ -1359,13 +1366,6 @@
       "org": "velero-io",
       "title": "feat(cli): add velero client set-context-as-velero-namespace command",
       "url": "https://github.com/velero-io/velero/pull/10127"
-    },
-    {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10236,
