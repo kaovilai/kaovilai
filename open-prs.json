@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T13:15:21Z",
+  "updatedAt": "2026-08-11T15:02:11Z",
   "prs": [
     {
       "number": 10010,
@@ -1010,7 +1010,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-11T13:13:35Z"
+      "updatedAt": "2026-08-11T14:47:42Z"
     },
     {
       "number": 5334,
@@ -1033,6 +1033,51 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T08:25:34Z"
+    },
+    {
+      "number": 225,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "fix: add velero to renovate ignoreDeps",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "sseago",
+        "jparrill",
+        "mpryc"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved"
+      ],
+      "updatedAt": "2026-08-11T13:26:20Z"
+    },
+    {
+      "number": 233,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Add CODEOWNERS file based on OWNERS approvers",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+      "targetBranch": "oadp-1.5",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin",
+        "jparrill"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved"
+      ],
+      "updatedAt": "2026-08-11T13:26:37Z"
     },
     {
       "number": 2234,
@@ -1132,51 +1177,6 @@
         "approved"
       ],
       "updatedAt": "2026-05-15T20:42:37Z"
-    },
-    {
-      "number": 225,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "fix: add velero to renovate ignoreDeps",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "jparrill",
-        "mpryc"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved"
-      ],
-      "updatedAt": "2026-04-22T18:41:47Z"
-    },
-    {
-      "number": 233,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Add CODEOWNERS file based on OWNERS approvers",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-      "targetBranch": "oadp-1.5",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "weshayutin",
-        "jparrill"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved"
-      ],
-      "updatedAt": "2026-04-08T15:20:56Z"
     },
     {
       "number": 237,
@@ -1400,10 +1400,9 @@
       "assignees": [],
       "isDraft": false,
       "labels": [
-        "do-not-merge/hold",
-        "approved"
+        "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-10T22:11:21Z"
+      "updatedAt": "2026-08-11T14:57:45Z"
     },
     {
       "number": 260,
@@ -1441,6 +1440,24 @@
         "approved"
       ],
       "updatedAt": "2026-08-11T03:40:12Z"
+    },
+    {
+      "number": 180,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: wire BSL profile config through to S3 credential resolution",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/180",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-11T14:07:17Z"
     },
     {
       "number": 216,
@@ -1754,7 +1771,7 @@
       ],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-08-11T13:14:12Z"
+      "updatedAt": "2026-08-11T13:35:31Z"
     },
     {
       "number": 125,
@@ -1809,6 +1826,25 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-07-07T14:35:12Z"
+    },
+    {
+      "number": 46,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Centralize build scheduling into a single version-aware dispatcher",
+      "url": "https://github.com/konveyor/builder/pull/46",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-11T13:19:55Z"
     },
     {
       "number": 218,
@@ -2175,6 +2211,25 @@
       "isDraft": true,
       "labels": [],
       "updatedAt": "2026-08-10T13:32:40Z"
+    },
+    {
+      "number": 185,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/185",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": true,
+      "labels": [],
+      "updatedAt": "2026-08-11T14:07:30Z"
     },
     {
       "number": 1,
@@ -2859,29 +2914,10 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2025-04-14T05:34:25Z"
-    },
-    {
-      "number": 46,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Centralize build scheduling into a single version-aware dispatcher",
-      "url": "https://github.com/konveyor/builder/pull/46",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-07-21T00:23:58Z"
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-11T13:15:21Z",
+    "updatedAt": "2026-08-11T15:02:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3005,7 +3041,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3112,7 +3148,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3141,7 +3177,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3172,7 +3208,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3314,7 +3350,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3468,7 +3504,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3480,62 +3516,6 @@
         "reason": "awaitingReview",
         "waitingDays": 25,
         "updatedAt": "2026-07-16T16:05:03Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 25,
-        "updatedAt": "2026-07-16T15:28:53Z"
-      },
-      {
-        "number": 46,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Centralize build scheduling into a single version-aware dispatcher",
-        "url": "https://github.com/konveyor/builder/pull/46",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 21,
-        "updatedAt": "2026-07-21T00:23:58Z"
       },
       {
         "number": 8673,
@@ -3564,7 +3544,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3583,7 +3563,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3609,7 +3589,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3639,7 +3619,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3700,7 +3680,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3729,7 +3709,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3758,7 +3738,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3799,7 +3779,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3825,7 +3805,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-05T14:54:17Z"
       },
       {
@@ -3922,7 +3902,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3933,6 +3913,32 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-09T16:54:19Z"
+      },
+      {
+        "number": 46,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Centralize build scheduling into a single version-aware dispatcher",
+        "url": "https://github.com/konveyor/builder/pull/46",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
         "number": 124,
@@ -3959,6 +3965,32 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-11T03:40:12Z"
+      },
+      {
+        "number": 180,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: wire BSL profile config through to S3 credential resolution",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/180",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T14:07:17Z"
       },
       {
         "number": 2367,
@@ -3997,10 +4029,9 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "do-not-merge/hold",
-          "approved"
+          "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4011,7 +4042,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-10T22:11:21Z"
+        "updatedAt": "2026-08-11T14:57:45Z"
       },
       {
         "number": 83221,
@@ -4026,7 +4057,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4037,7 +4068,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-11T13:13:35Z"
+        "updatedAt": "2026-08-11T14:47:42Z"
       },
       {
         "number": 10211,
@@ -4053,7 +4084,7 @@
           "Copilot"
         ],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4081,7 +4112,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4096,33 +4127,6 @@
       }
     ],
     "approvedWaitingToLand": [
-      {
-        "number": 9388,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add lint-fix make targets",
-        "url": "https://github.com/velero-io/velero/pull/9388",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "blackpiglet"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 260,
-        "updatedAt": "2025-11-24T10:40:40Z"
-      },
       {
         "number": 243,
         "repo": "migtools/oadp-non-admin",
@@ -4173,66 +4177,6 @@
         "reason": "pendingMerge",
         "waitingDays": 124,
         "updatedAt": "2026-04-08T15:22:30Z"
-      },
-      {
-        "number": 233,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "Add CODEOWNERS file based on OWNERS approvers",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "jparrill"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "devguyio"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 124,
-        "updatedAt": "2026-04-08T15:20:56Z"
-      },
-      {
-        "number": 225,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "fix: add velero to renovate ignoreDeps",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago",
-          "jparrill",
-          "mpryc"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "csrwng",
-          "muraee"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 110,
-        "updatedAt": "2026-04-22T18:41:47Z"
       },
       {
         "number": 2019,
@@ -4352,7 +4296,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4522,7 +4466,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4535,33 +4479,6 @@
         "reason": "pendingMerge",
         "waitingDays": 18,
         "updatedAt": "2026-07-23T22:40:21Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 18,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 10034,
@@ -4579,7 +4496,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4608,7 +4525,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4635,7 +4552,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4648,6 +4565,62 @@
         "reason": "pendingMerge",
         "waitingDays": 14,
         "updatedAt": "2026-07-28T04:24:27Z"
+      },
+      {
+        "number": 48,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "Remove inactive users from OWNERS",
+        "url": "https://github.com/migtools/kopia/pull/48",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-05T14:45:16Z"
+      },
+      {
+        "number": 253,
+        "repo": "migtools/oadp-cli",
+        "org": "migtools",
+        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 5334,
@@ -4679,39 +4652,11 @@
         "updatedAt": "2026-08-05T08:25:34Z"
       },
       {
-        "number": 48,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "Remove inactive users from OWNERS",
-        "url": "https://github.com/migtools/kopia/pull/48",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
-        "number": 253,
-        "repo": "migtools/oadp-cli",
-        "org": "migtools",
-        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "number": 449,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Detect SCC UID/GID-range mismatch on namespace restore",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
         "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -4731,8 +4676,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-05T14:29:52Z"
+        "waitingDays": 6,
+        "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
         "number": 2357,
@@ -4779,34 +4724,6 @@
         "reason": "pendingMerge",
         "waitingDays": 5,
         "updatedAt": "2026-08-05T16:31:32Z"
-      },
-      {
-        "number": 449,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Detect SCC UID/GID-range mismatch on namespace restore",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
         "number": 18725,
@@ -5004,6 +4921,66 @@
         "updatedAt": "2026-08-08T16:43:13Z"
       },
       {
+        "number": 225,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "fix: add velero to renovate ignoreDeps",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago",
+          "jparrill",
+          "mpryc"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "csrwng",
+          "muraee"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T13:26:20Z"
+      },
+      {
+        "number": 233,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "Add CODEOWNERS file based on OWNERS approvers",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "jparrill"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "devguyio"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-11T13:26:37Z"
+      },
+      {
         "number": 2368,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5044,7 +5021,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
