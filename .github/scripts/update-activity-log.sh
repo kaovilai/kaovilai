@@ -71,6 +71,52 @@ REVIEWED_PRS=$(retry_with_backoff gh search prs --reviewed-by=kaovilai --sort=up
 # Exclude own PRs from reviews
 REVIEWED_PRS=$(echo "$REVIEWED_PRS" | jq -c '[.[] | select(.author.login != "kaovilai")]')
 
+# Fetch per-PR review metadata (review timestamp/state, PR merged/state) in a single
+# GraphQL query. Failures are non-fatal: the extra fields are simply omitted so that
+# consumers relying on them degrade gracefully.
+echo "Fetching review metadata..."
+REVIEW_METADATA='{}'
+if review_nodes=$(gh api graphql --paginate \
+    -f query='query($q: String!, $endCursor: String) {
+        search(query: $q, type: ISSUE, first: 50, after: $endCursor) {
+            pageInfo { hasNextPage endCursor }
+            nodes {
+                ... on PullRequest {
+                    url
+                    state
+                    merged
+                    author { login }
+                    reviews(first: 100, author: "kaovilai") {
+                        nodes { state submittedAt }
+                    }
+                }
+            }
+        }
+    }' -F q="is:pr reviewed-by:kaovilai created:>=$TWO_WEEKS_AGO" \
+    --jq '.data.search.nodes[] | select(.url != null)' 2>/dev/null); then
+    REVIEW_METADATA=$(echo "$review_nodes" | jq -s '
+        map(
+            . as $pr
+            | (($pr.reviews.nodes // []) | map(select(.submittedAt != null)) | sort_by(.submittedAt) | last) as $latest
+            | {
+                key: $pr.url,
+                value: {
+                    reviewedAt: ($latest.submittedAt // null),
+                    reviewState: (
+                        if $latest == null then null
+                        else ($latest.state | ascii_downcase | gsub("_"; "-"))
+                        end
+                    ),
+                    author: ($pr.author.login // null),
+                    merged: ($pr.merged // false),
+                    prState: (if $pr.merged then "merged" else (($pr.state // "") | ascii_downcase) end)
+                }
+            }
+        ) | from_entries')
+else
+    echo "  Warning: review metadata unavailable; continuing without per-review fields" >&2
+fi
+
 echo "Fetching PRs/issues commented on..."
 COMMENTED=$(retry_with_backoff gh search issues --commenter=kaovilai --updated=">=$TWO_WEEKS_AGO" \
     --json number,title,repository,url --sort=updated --limit 100)
@@ -131,13 +177,24 @@ echo "Activity log generated successfully!"
 # Maps raw gh search results to a compact shape: {number, repo, org, title, url}
 JSON_ITEM_FILTER='map({number:.number, repo:.repository.nameWithOwner, org:(.repository.nameWithOwner|split("/")[0]), title:.title, url:.url})'
 
+# Reviewed PRs additionally carry per-entry review metadata when available:
+# reviewedAt, reviewState, author, merged, prState. Entries are sorted by
+# reviewedAt descending (entries without a timestamp sort last).
+REVIEWED_JSON=$(echo "$REVIEWED_PRS" | jq -c --argjson meta "$REVIEW_METADATA" '
+    map(
+        {number:.number, repo:.repository.nameWithOwner, org:(.repository.nameWithOwner|split("/")[0]), title:.title, url:.url}
+        + ((.author.login // null) | if . == null then {} else {author: .} end)
+        + (($meta[.url] // {}) | with_entries(select(.value != null)))
+    )
+    | sort_by(.reviewedAt // "") | reverse')
+
 jq -n \
     --arg start "$TWO_WEEKS_AGO" \
     --arg end "$TODAY" \
     --arg generatedAt "$GENERATED_AT_ISO" \
     --argjson prsMerged "$(echo "$MERGED_PRS" | jq "$JSON_ITEM_FILTER")" \
     --argjson prsOpened "$(echo "$OPENED_PRS" | jq "$JSON_ITEM_FILTER")" \
-    --argjson prsReviewed "$(echo "$REVIEWED_PRS" | jq "$JSON_ITEM_FILTER")" \
+    --argjson prsReviewed "$REVIEWED_JSON" \
     --argjson issuesCommented "$(echo "$COMMENTED" | jq "$JSON_ITEM_FILTER")" \
     --argjson issuesClosed "$(echo "$CLOSED_ISSUES" | jq "$JSON_ITEM_FILTER")" \
     '{

@@ -170,3 +170,42 @@ Includes only **public professional contributions** (repos owned by GitHub organ
 ```bash
 bash .github/scripts/validate-open-prs-json.sh open-prs.json
 ```
+
+## activity.json Schema
+
+`activity.json` is automatically generated on the `update-activity-log` workflow schedule and exported for consumption by [kaovilai.pw](https://www.kaovilai.pw). It covers the trailing two-week period.
+
+### Top-level fields
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `period` | object | `{start, end}` dates (`YYYY-MM-DD`) covered by the report |
+| `generatedAt` | string (ISO 8601) | Timestamp of last generation |
+| `metrics` | object | Counts for each activity list |
+| `prsMerged` | array | PRs authored by kaovilai merged in the period |
+| `prsOpened` | array | PRs authored by kaovilai opened in the period |
+| `prsReviewed` | array | PRs reviewed by kaovilai (own PRs excluded), sorted by `reviewedAt` descending |
+| `issuesCommented` | array | Issues/PRs commented on |
+| `issuesClosed` | array | Issues authored by kaovilai that were closed |
+
+### Item fields (all lists)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `number` | number | Issue/PR number |
+| `repo` | string | `owner/name` |
+| `org` | string | Repository owner/org login |
+| `title` | string | Issue/PR title |
+| `url` | string | Issue/PR URL |
+
+### Additional `prsReviewed[]` item fields
+
+These fields are best effort: when the review metadata query fails, they are omitted and consumers should degrade gracefully.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `author` | string | GitHub login of the PR author |
+| `reviewedAt` | string (ISO 8601) | Submission timestamp of kaovilai's most recent review on the PR |
+| `reviewState` | string | State of that most recent review: `approved`, `changes-requested`, `commented`, or `dismissed` |
+| `merged` | boolean | True when the PR has been merged |
+| `prState` | string | PR state: `open`, `closed`, or `merged` |
