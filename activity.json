@@ -3,15 +3,22 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T02:06:37Z",
+  "generatedAt": "2026-08-11T07:16:29Z",
   "metrics": {
-    "prsMerged": 71,
-    "prsOpened": 93,
+    "prsMerged": 72,
+    "prsOpened": 97,
     "prsReviewed": 97,
     "issuesCommented": 40,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 20,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Add `__mocks__/**` to allowed-files for upstream-parity agent",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/20"
+    },
     {
       "number": 170,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -511,6 +518,34 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 23,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Recompile stale daily-upstream-parity.lock.yml",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/23"
+    },
+    {
+      "number": 83221,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+      "url": "https://github.com/openshift/release/pull/83221"
+    },
+    {
+      "number": 10224,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10224"
+    },
+    {
+      "number": 10223,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10223"
+    },
     {
       "number": 20,
       "repo": "kaovilai/oadp-ui",
@@ -1165,6 +1200,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 2370,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
+      "url": "https://github.com/openshift/oadp-operator/pull/2370"
+    },
+    {
+      "number": 10200,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for Backup and Restore CRDs",
+      "url": "https://github.com/velero-io/velero/pull/10200"
+    },
+    {
       "number": 178,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1240,13 +1289,6 @@
       "org": "migtools",
       "title": "feat: add staleness check for per-VM DataUpload serialization",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
-    },
-    {
-      "number": 10200,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for Backup and Restore CRDs",
-      "url": "https://github.com/velero-io/velero/pull/10200"
     },
     {
       "number": 10208,
@@ -1835,16 +1877,16 @@
       "org": "openshift",
       "title": "docs: fix broken links, stale paths, and typos across root and developer docs",
       "url": "https://github.com/openshift/oadp-operator/pull/2334"
-    },
-    {
-      "number": 2336,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: remove entirely obsolete documentation files",
-      "url": "https://github.com/openshift/oadp-operator/pull/2336"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
     {
       "number": 168,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1858,13 +1900,6 @@
       "org": "cncf",
       "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
       "url": "https://github.com/cncf/mentoring/issues/1997"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 10199,
