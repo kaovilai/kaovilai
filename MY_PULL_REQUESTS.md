@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-11 17:15:30 UTC
+> Last updated: 2026-08-11 19:07:11 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -49,7 +49,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
-- [![PR #2346](https://img.shields.io/badge/PR%20%232346-ready-green)](https://github.com/openshift/oadp-operator/pull/2346) **openshift/oadp-operator** → `oadp-dev` - docs: add CI plugin image sync guidance to common.go
 - [![PR #2357](https://img.shields.io/badge/PR%20%232357-ready-green)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #2358](https://img.shields.io/badge/PR%20%232358-ready-green)](https://github.com/openshift/oadp-operator/pull/2358) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #2367](https://img.shields.io/badge/PR%20%232367-ready-green)](https://github.com/openshift/oadp-operator/pull/2367) **openshift/oadp-operator** → `oadp-dev` - Make controller-gen/kustomize/golangci-lint version checks reliable
@@ -58,10 +57,13 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #83221](https://img.shields.io/badge/PR%20%2383221-ready-green)](https://github.com/openshift/release/pull/83221) **openshift/release** → `main` - gather-must-gather: retry camgi download, don't fail gather on it
+- [![PR #83282](https://img.shields.io/badge/PR%20%2383282-ready-green)](https://github.com/openshift/release/pull/83282) **openshift/release** → `main` - Promote oadp-operator bundle directly instead of a broken index
+- [![PR #83286](https://img.shields.io/badge/PR%20%2383286-ready-green)](https://github.com/openshift/release/pull/83286) **openshift/release** → `main` - Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e
 - [![PR #2206](https://img.shields.io/badge/PR%20%232206-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2206) **openshift/oadp-operator** → `oadp-1.6` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
+- [![PR #2346](https://img.shields.io/badge/PR%20%232346-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2346) **openshift/oadp-operator** → `oadp-dev` - docs: add CI plugin image sync guidance to common.go
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-draft-gray)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
@@ -109,7 +111,6 @@ No open PRs.
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
-- [![PR #183](https://img.shields.io/badge/PR%20%23183-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/183) **kaovilai/kaovilai.pw** → `main` - Add review queue panel consuming reviewQueue data from open-prs.json
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
