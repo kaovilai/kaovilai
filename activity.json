@@ -3,15 +3,43 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T19:14:10Z",
+  "generatedAt": "2026-08-11T20:48:56Z",
   "metrics": {
-    "prsMerged": 82,
+    "prsMerged": 85,
     "prsOpened": 100,
     "prsReviewed": 96,
-    "issuesCommented": 42,
-    "issuesClosed": 26
+    "issuesCommented": 44,
+    "issuesClosed": 25
   },
   "prsMerged": [
+    {
+      "number": 10208,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
+      "url": "https://github.com/velero-io/velero/pull/10208"
+    },
+    {
+      "number": 187,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Implementing recent review display feature",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/187"
+    },
+    {
+      "number": 10220,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Group Dependabot GitHub Actions updates",
+      "url": "https://github.com/velero-io/velero/pull/10220"
+    },
+    {
+      "number": 10211,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions",
+      "url": "https://github.com/velero-io/velero/pull/10211"
+    },
     {
       "number": 183,
       "repo": "kaovilai/kaovilai.pw",
@@ -116,13 +144,6 @@
       "org": "kaovilai",
       "title": "Recompile Daily Upstream Parity lock file and add license attribution rules",
       "url": "https://github.com/kaovilai/oadp-ui/pull/17"
-    },
-    {
-      "number": 10208,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
-      "url": "https://github.com/velero-io/velero/pull/10208"
     },
     {
       "number": 2366,
@@ -588,6 +609,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 187,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Implementing recent review display feature",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/187"
+    },
     {
       "number": 83286,
       "repo": "openshift/release",
@@ -1280,16 +1308,44 @@
       "org": "kaovilai",
       "title": "Emit JSON exports (open-prs.json, activity.json) alongside markdown reports",
       "url": "https://github.com/kaovilai/kaovilai/pull/68"
-    },
-    {
-      "number": 552,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing",
-      "url": "https://github.com/kaovilai/dotfiles/pull/552"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10229,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
+      "url": "https://github.com/velero-io/velero/pull/10229"
+    },
+    {
+      "number": 10208,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
+      "url": "https://github.com/velero-io/velero/pull/10208"
+    },
+    {
+      "number": 10189,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Make backupType case insensitive in the CLI.",
+      "url": "https://github.com/velero-io/velero/pull/10189"
+    },
+    {
+      "number": 10201,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump kentaro-m/auto-assign-action from 2.0.0 to 2.0.2",
+      "url": "https://github.com/velero-io/velero/pull/10201"
+    },
+    {
+      "number": 10127,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
+      "url": "https://github.com/velero-io/velero/pull/10127"
+    },
     {
       "number": 10235,
       "repo": "velero-io/velero",
@@ -1310,13 +1366,6 @@
       "org": "velero-io",
       "title": "Make restore logs testable by returning errors instead of calling cmd.Exit",
       "url": "https://github.com/velero-io/velero/pull/10234"
-    },
-    {
-      "number": 10127,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
-      "url": "https://github.com/velero-io/velero/pull/10127"
     },
     {
       "number": 2370,
@@ -1389,13 +1438,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
     },
     {
-      "number": 10189,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Make backupType case insensitive in the CLI.",
-      "url": "https://github.com/velero-io/velero/pull/10189"
-    },
-    {
       "number": 10190,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1443,13 +1485,6 @@
       "org": "migtools",
       "title": "feat: add staleness check for per-VM DataUpload serialization",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
-    },
-    {
-      "number": 10208,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
-      "url": "https://github.com/velero-io/velero/pull/10208"
     },
     {
       "number": 10210,
@@ -1947,23 +1982,23 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/248"
-    },
-    {
-      "number": 2338,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2338"
-    },
-    {
-      "number": 96,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 22368,
+      "repo": "kubernetes/kubernetes",
+      "org": "kubernetes",
+      "title": "Facilitate ConfigMap rollouts / management",
+      "url": "https://github.com/kubernetes/kubernetes/issues/22368"
+    },
+    {
+      "number": 9603,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport/Cherry-pick GitHub action",
+      "url": "https://github.com/velero-io/velero/issues/9603"
+    },
     {
       "number": 1832,
       "repo": "openshift/oadp-operator",
@@ -2287,13 +2322,6 @@
       "org": "openshift",
       "title": "Feature request: Additive extraArgs for Velero server and node-agent",
       "url": "https://github.com/openshift/oadp-operator/issues/2209"
-    },
-    {
-      "number": 9603,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backport/Cherry-pick GitHub action",
-      "url": "https://github.com/velero-io/velero/issues/9603"
     },
     {
       "number": 148413,
