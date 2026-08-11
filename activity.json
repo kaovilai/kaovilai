@@ -3,15 +3,50 @@
     "start": "2026-07-28",
     "end": "2026-08-11"
   },
-  "generatedAt": "2026-08-11T07:16:29Z",
+  "generatedAt": "2026-08-11T13:10:55Z",
   "metrics": {
-    "prsMerged": 72,
-    "prsOpened": 97,
+    "prsMerged": 77,
+    "prsOpened": 98,
     "prsReviewed": 97,
-    "issuesCommented": 40,
+    "issuesCommented": 41,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 23,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Recompile stale daily-upstream-parity.lock.yml",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/23"
+    },
+    {
+      "number": 24,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Fix Dependabot security alerts in yarn.lock",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/24"
+    },
+    {
+      "number": 404,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404"
+    },
+    {
+      "number": 10221,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.17 Backport #10192: correct typos in log messages and status strings",
+      "url": "https://github.com/velero-io/velero/pull/10221"
+    },
+    {
+      "number": 10224,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
+      "url": "https://github.com/velero-io/velero/pull/10224"
+    },
     {
       "number": 20,
       "repo": "kaovilai/oadp-ui",
@@ -518,6 +553,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 24,
+      "repo": "kaovilai/oadp-ui",
+      "org": "kaovilai",
+      "title": "Fix Dependabot security alerts in yarn.lock",
+      "url": "https://github.com/kaovilai/oadp-ui/pull/24"
+    },
     {
       "number": 23,
       "repo": "kaovilai/oadp-ui",
@@ -1200,6 +1242,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 177,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: defer PVC/PV cleanup while datamover pod terminates",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/177"
+    },
+    {
+      "number": 178,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] feat: add BSL config parity with Velero AWS plugin",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/178"
+    },
+    {
+      "number": 10228,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix grammar and typos in backup-restore-windows",
+      "url": "https://github.com/velero-io/velero/pull/10228"
+    },
+    {
       "number": 2370,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1212,13 +1275,6 @@
       "org": "velero-io",
       "title": "Add printer columns for Backup and Restore CRDs",
       "url": "https://github.com/velero-io/velero/pull/10200"
-    },
-    {
-      "number": 178,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] feat: add BSL config parity with Velero AWS plugin",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/178"
     },
     {
       "number": 2361,
@@ -1863,23 +1919,16 @@
       "org": "openshift",
       "title": "docs: fix links, restic refs, and typos in examples and root-level docs",
       "url": "https://github.com/openshift/oadp-operator/pull/2331"
-    },
-    {
-      "number": 455,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.4 (b4148a4) into oadp-1.4",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/455"
-    },
-    {
-      "number": 2334,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: fix broken links, stale paths, and typos across root and developer docs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2334"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8457,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Configurable pull policy when `velero install`",
+      "url": "https://github.com/velero-io/velero/issues/8457"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
