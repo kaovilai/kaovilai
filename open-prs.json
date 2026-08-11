@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T20:51:38Z",
+  "updatedAt": "2026-08-11T21:53:33Z",
   "prs": [
     {
       "number": 10010,
@@ -889,7 +889,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-11T15:32:28Z"
+      "updatedAt": "2026-08-11T21:05:33Z"
     },
     {
       "number": 83282,
@@ -2839,7 +2839,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-11T20:51:38Z",
+    "updatedAt": "2026-08-11T21:53:33Z",
     "needsReview": [
       {
         "number": 68,
@@ -2962,36 +2962,6 @@
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
-        "number": 9388,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add lint-fix make targets",
-        "url": "https://github.com/velero-io/velero/pull/9388",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 260,
-        "updatedAt": "2025-11-24T10:40:40Z"
-      },
-      {
         "number": 9221,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3008,7 +2978,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3095,7 +3065,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3127,7 +3097,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3217,7 +3187,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3469,7 +3439,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3622,6 +3592,34 @@
         "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
+        "number": 267,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Fix silent volume restoration failures for encrypted snapshots",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 27,
+        "updatedAt": "2026-07-15T20:53:27Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3652,67 +3650,6 @@
         "reason": "awaitingReview",
         "waitingDays": 26,
         "updatedAt": "2026-07-16T16:05:03Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 26,
-        "updatedAt": "2026-07-16T15:28:53Z"
-      },
-      {
-        "number": 267,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Fix silent volume restoration failures for encrypted snapshots",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 26,
-        "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
         "number": 261,
@@ -3860,7 +3797,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3925,7 +3862,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3958,7 +3895,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4021,7 +3958,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4036,6 +3973,38 @@
         "reason": "awaitingReview",
         "waitingDays": 20,
         "updatedAt": "2026-07-22T08:06:39Z"
+      },
+      {
+        "number": 10034,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "chore: pin helm/kind-action to commit with curl retry fix",
+        "url": "https://github.com/velero-io/velero/pull/10034",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "chlins"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 19,
+        "updatedAt": "2026-07-23T20:58:34Z"
       },
       {
         "number": 9236,
@@ -4054,7 +4023,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4087,7 +4056,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4105,38 +4074,6 @@
         "updatedAt": "2026-07-23T22:40:21Z"
       },
       {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 18,
-        "updatedAt": "2026-07-23T20:58:34Z"
-      },
-      {
         "number": 8793,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4152,7 +4089,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4213,7 +4150,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4261,7 +4198,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4429,7 +4366,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4521,7 +4458,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4609,7 +4546,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4696,7 +4633,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4710,7 +4647,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-11T15:32:28Z"
+        "updatedAt": "2026-08-11T21:05:33Z"
       },
       {
         "number": 83282,
@@ -4754,7 +4691,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4827,36 +4764,6 @@
         "reason": "pendingMerge",
         "waitingDays": 26,
         "updatedAt": "2026-07-16T17:00:18Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 18,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 48,
