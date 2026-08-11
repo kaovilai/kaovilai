@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T06:59:37Z",
+  "updatedAt": "2026-08-11T13:15:21Z",
   "prs": [
     {
       "number": 10010,
@@ -66,28 +66,6 @@
       "updatedAt": "2026-08-09T16:54:19Z"
     },
     {
-      "number": 10222,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18 Backport: correct typos in log messages and status strings (#10192)",
-      "url": "https://github.com/velero-io/velero/pull/10222",
-      "targetBranch": "release-1.18",
-      "status": "ready",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required",
-        "has-unit-tests"
-      ],
-      "updatedAt": "2026-08-10T20:26:17Z"
-    },
-    {
       "number": 10223,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -107,29 +85,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-11T03:49:18Z"
-    },
-    {
-      "number": 10224,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10224",
-      "targetBranch": "release-1.18",
-      "status": "ready",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-11T03:52:18Z"
+      "updatedAt": "2026-08-11T08:33:53Z"
     },
     {
       "number": 8884,
@@ -643,12 +599,12 @@
       "updatedAt": "2026-08-10T20:27:39Z"
     },
     {
-      "number": 10221,
+      "number": 10222,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "1.17 Backport #10192: correct typos in log messages and status strings",
-      "url": "https://github.com/velero-io/velero/pull/10221",
-      "targetBranch": "release-1.17",
+      "title": "1.18 Backport: correct typos in log messages and status strings (#10192)",
+      "url": "https://github.com/velero-io/velero/pull/10222",
+      "targetBranch": "release-1.18",
       "status": "failing-ci",
       "milestone": null,
       "author": "Copilot",
@@ -662,7 +618,7 @@
         "kind/changelog-not-required",
         "has-unit-tests"
       ],
-      "updatedAt": "2026-08-11T03:44:30Z"
+      "updatedAt": "2026-08-11T08:44:56Z"
     },
     {
       "number": 7941,
@@ -1054,7 +1010,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-11T04:25:42Z"
+      "updatedAt": "2026-08-11T13:13:35Z"
     },
     {
       "number": 5334,
@@ -1136,7 +1092,7 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-11T03:50:44Z"
+      "updatedAt": "2026-08-11T12:44:44Z"
     },
     {
       "number": 2360,
@@ -1410,30 +1366,6 @@
         "do-not-merge/hold"
       ],
       "updatedAt": "2026-07-15T09:18:53Z"
-    },
-    {
-      "number": 404,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
-      "targetBranch": "oadp-1.5",
-      "status": "hold",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm",
-        "do-not-merge/hold",
-        "jira/valid-reference"
-      ],
-      "updatedAt": "2026-08-10T16:45:26Z"
     },
     {
       "number": 442,
@@ -1804,6 +1736,25 @@
         "needs-rebase"
       ],
       "updatedAt": "2026-07-17T14:25:32Z"
+    },
+    {
+      "number": 183,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Add review queue panel consuming reviewQueue data from open-prs.json",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/183",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-11T13:14:12Z"
     },
     {
       "number": 125,
@@ -2224,25 +2175,6 @@
       "isDraft": true,
       "labels": [],
       "updatedAt": "2026-08-10T13:32:40Z"
-    },
-    {
-      "number": 23,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Recompile stale daily-upstream-parity.lock.yml",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/23",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": true,
-      "labels": [],
-      "updatedAt": "2026-08-11T04:18:25Z"
     },
     {
       "number": 1,
@@ -2949,7 +2881,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-11T06:59:37Z",
+    "updatedAt": "2026-08-11T13:15:21Z",
     "needsReview": [
       {
         "number": 68,
@@ -3053,7 +2985,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 431,
+        "waitingDays": 432,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3190,7 +3122,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 131,
+        "waitingDays": 132,
         "updatedAt": "2026-04-01T08:21:20Z"
       },
       {
@@ -3209,7 +3141,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3218,7 +3150,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 96,
+        "waitingDays": 97,
         "updatedAt": "2026-05-06T08:23:18Z"
       },
       {
@@ -3240,7 +3172,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3251,7 +3183,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 88,
+        "waitingDays": 89,
         "updatedAt": "2026-05-14T08:51:53Z"
       },
       {
@@ -3281,6 +3213,33 @@
         "reason": "awaitingReview",
         "waitingDays": 87,
         "updatedAt": "2026-05-15T20:42:37Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 62,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 2241,
@@ -3340,33 +3299,6 @@
         "updatedAt": "2026-07-03T22:28:56Z"
       },
       {
-        "number": 81508,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "WIP rehearse change: update e2e test command to include DNM flag",
-        "url": "https://github.com/openshift/release/pull/81508",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/work-in-progress",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "Joeavaikath",
-          "mpryc"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 35,
-        "updatedAt": "2026-07-06T21:56:02Z"
-      },
-      {
         "number": 9646,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3382,7 +3314,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3391,29 +3323,35 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-06T11:28:58Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
+        "number": 81508,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "WIP rehearse change: update e2e test command to include DNM flag",
+        "url": "https://github.com/openshift/release/pull/81508",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "labels": [
+          "do-not-merge/work-in-progress",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "Joeavaikath",
+          "mpryc"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 27,
-        "updatedAt": "2026-07-15T00:42:51Z"
+        "waitingDays": 35,
+        "updatedAt": "2026-07-06T21:56:02Z"
       },
       {
         "number": 2308,
@@ -3438,8 +3376,29 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 27,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -3595,7 +3554,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3665,6 +3624,35 @@
         "updatedAt": "2026-07-20T19:47:24Z"
       },
       {
+        "number": 10051,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+        "url": "https://github.com/velero-io/velero/pull/10051",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewRequests": [
+          "kaovilai",
+          "adam-jian-zhang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-07-22T08:06:39Z"
+      },
+      {
         "number": 297,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -3696,35 +3684,6 @@
         "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
-        "number": 10051,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-        "url": "https://github.com/velero-io/velero/pull/10051",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [
-          "kaovilai",
-          "adam-jian-zhang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-07-22T08:06:39Z"
-      },
-      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3741,7 +3700,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3770,7 +3729,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3799,7 +3758,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4028,38 +3987,6 @@
         "updatedAt": "2026-08-10T17:10:33Z"
       },
       {
-        "number": 404,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/404",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago",
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "approved",
-          "lgtm",
-          "do-not-merge/hold",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "eemcmullan",
-          "savitharaghunathan"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-10T16:45:26Z"
-      },
-      {
         "number": 83049,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4073,7 +4000,7 @@
           "do-not-merge/hold",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4099,7 +4026,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4110,7 +4037,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-11T04:25:42Z"
+        "updatedAt": "2026-08-11T13:13:35Z"
       },
       {
         "number": 10211,
@@ -4137,87 +4064,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-10T19:56:39Z"
-      },
-      {
-        "number": 10222,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.18 Backport: correct typos in log messages and status strings (#10192)",
-        "url": "https://github.com/velero-io/velero/pull/10222",
-        "targetBranch": "release-1.18",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-10T20:26:17Z"
-      },
-      {
-        "number": 10223,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-        "url": "https://github.com/velero-io/velero/pull/10223",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-11T03:49:18Z"
-      },
-      {
-        "number": 10224,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-        "url": "https://github.com/velero-io/velero/pull/10224",
-        "targetBranch": "release-1.18",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-11T03:52:18Z"
       },
       {
         "number": 9772,
@@ -4250,6 +4096,33 @@
       }
     ],
     "approvedWaitingToLand": [
+      {
+        "number": 9388,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add lint-fix make targets",
+        "url": "https://github.com/velero-io/velero/pull/9388",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 260,
+        "updatedAt": "2025-11-24T10:40:40Z"
+      },
       {
         "number": 243,
         "repo": "migtools/oadp-non-admin",
@@ -4464,6 +4337,35 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 9795,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/9795",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "anshulahuja98",
+          "blackpiglet"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 25,
+        "updatedAt": "2026-07-17T09:11:39Z"
+      },
+      {
         "number": 312,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -4604,35 +4506,6 @@
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
-        "number": 9795,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/9795",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "anshulahuja98",
-          "blackpiglet"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 24,
-        "updatedAt": "2026-07-17T09:11:39Z"
-      },
-      {
         "number": 10027,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4706,7 +4579,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4762,7 +4635,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4775,6 +4648,35 @@
         "reason": "pendingMerge",
         "waitingDays": 14,
         "updatedAt": "2026-07-28T04:24:27Z"
+      },
+      {
+        "number": 5334,
+        "repo": "openshift/ci-tools",
+        "org": "openshift",
+        "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
+        "url": "https://github.com/openshift/ci-tools/pull/5334",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "droslean",
+          "Prucek"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewRequests": [
+          "droslean"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-05T08:25:34Z"
       },
       {
         "number": 48,
@@ -4831,35 +4733,6 @@
         "reason": "pendingMerge",
         "waitingDays": 5,
         "updatedAt": "2026-08-05T14:29:52Z"
-      },
-      {
-        "number": 5334,
-        "repo": "openshift/ci-tools",
-        "org": "openshift",
-        "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
-        "url": "https://github.com/openshift/ci-tools/pull/5334",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "droslean",
-          "Prucek"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "droslean"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-05T08:25:34Z"
       },
       {
         "number": 2357,
@@ -5035,7 +4908,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5063,7 +4936,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5171,7 +5044,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5182,35 +5055,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-10T20:27:39Z"
-      },
-      {
-        "number": 10221,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.17 Backport #10192: correct typos in log messages and status strings",
-        "url": "https://github.com/velero-io/velero/pull/10221",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-11T03:44:30Z"
       }
     ]
   }
