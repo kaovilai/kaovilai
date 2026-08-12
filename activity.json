@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-28",
-    "end": "2026-08-11"
+    "start": "2026-07-29",
+    "end": "2026-08-12"
   },
-  "generatedAt": "2026-08-11T23:49:04Z",
+  "generatedAt": "2026-08-12T02:24:22Z",
   "metrics": {
-    "prsMerged": 86,
+    "prsMerged": 82,
     "prsOpened": 100,
     "prsReviewed": 96,
-    "issuesCommented": 44,
-    "issuesClosed": 25
+    "issuesCommented": 42,
+    "issuesClosed": 24
   },
   "prsMerged": [
     {
@@ -585,34 +585,6 @@
       "org": "openshift",
       "title": "pkg/steps: pin bundle builds to amd64 nodes",
       "url": "https://github.com/openshift/ci-tools/pull/5329"
-    },
-    {
-      "number": 2313,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2313"
-    },
-    {
-      "number": 144,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Bump golangci-lint to v2.12.2 to match CI and support Go 1.26",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/144"
-    },
-    {
-      "number": 142,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Bump GitHub Actions to node24 runtime versions",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/142"
-    },
-    {
-      "number": 115,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: implement downloader runtime for VM restore (issue #73 Phase 2)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/115"
     }
   ],
   "prsOpened": [
@@ -1319,11 +1291,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 10235,
+      "number": 10229,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
+      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
+      "url": "https://github.com/velero-io/velero/pull/10229"
     },
     {
       "number": 2370,
@@ -1333,11 +1305,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2370"
     },
     {
-      "number": 10229,
+      "number": 10235,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
-      "url": "https://github.com/velero-io/velero/pull/10229"
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10208,
@@ -1550,13 +1522,6 @@
       "url": "https://github.com/velero-io/velero/pull/10102"
     },
     {
-      "number": 10096,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(e2e) :- add E2E test for BSL ReadOnly mode validation",
-      "url": "https://github.com/velero-io/velero/pull/10096"
-    },
-    {
       "number": 166,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1604,13 +1569,6 @@
       "org": "migtools",
       "title": "fix: handle hyphenated disk names in extractDiskName",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/164"
-    },
-    {
-      "number": 2328,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2328"
     },
     {
       "number": 10163,
@@ -1739,25 +1697,11 @@
       "url": "https://github.com/velero-io/velero/pull/10106"
     },
     {
-      "number": 10098,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Implement server default restore resource modifier",
-      "url": "https://github.com/velero-io/velero/pull/10098"
-    },
-    {
       "number": 10135,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Bump github/codeql-action from 3 to 4.37.3",
       "url": "https://github.com/velero-io/velero/pull/10135"
-    },
-    {
-      "number": 10097,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(e2e) :- add E2E test for restore hook failure policies",
-      "url": "https://github.com/velero-io/velero/pull/10097"
     },
     {
       "number": 10123,
@@ -1772,13 +1716,6 @@
       "org": "velero-io",
       "title": "refactor(serverstatus): Remove outdated Kubernetes v1.9.0 workaround",
       "url": "https://github.com/velero-io/velero/pull/10110"
-    },
-    {
-      "number": 2329,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] Add e2e test for ImageStream stale cross-namespace tag reference (OVP#443)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2329"
     },
     {
       "number": 242,
@@ -1814,13 +1751,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] OADP-8508: Fix schedule create examples showing velero instead of oc oadp",
       "url": "https://github.com/migtools/oadp-cli/pull/245"
-    },
-    {
-      "number": 10090,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(kopia): fix block restore write loop slice bounds",
-      "url": "https://github.com/velero-io/velero/pull/10090"
     },
     {
       "number": 246,
@@ -1989,6 +1919,48 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/248"
+    },
+    {
+      "number": 2338,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2338"
+    },
+    {
+      "number": 96,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
+    },
+    {
+      "number": 39,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/39"
+    },
+    {
+      "number": 158,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/158"
+    },
+    {
+      "number": 369,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/369"
+    },
+    {
+      "number": 45,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/kopia/pull/45"
     }
   ],
   "issuesCommented": [
@@ -2285,20 +2257,6 @@
       "org": "velero-io",
       "title": "Deprecate the block volume backup/restore functionality through Kopia file system uploader",
       "url": "https://github.com/velero-io/velero/issues/10092"
-    },
-    {
-      "number": 255,
-      "repo": "kubernetes-csi/external-snapshot-metadata",
-      "org": "kubernetes-csi",
-      "title": "Advertise if a Storage Solution requires Long-Term Retention of Snapshots",
-      "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/issues/255"
-    },
-    {
-      "number": 9600,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
-      "url": "https://github.com/velero-io/velero/issues/9600"
     }
   ],
   "issuesClosed": [
@@ -2469,13 +2427,6 @@
       "org": "stolostron",
       "title": "Move CRD installs out of Reconcile",
       "url": "https://github.com/stolostron/multiclusterhub-operator/issues/1492"
-    },
-    {
-      "number": 10022,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Flaky unit test:  TestBlockUploaderBackup/success_full_backup",
-      "url": "https://github.com/velero-io/velero/issues/10022"
     }
   ]
 }
