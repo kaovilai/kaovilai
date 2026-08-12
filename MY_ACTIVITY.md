@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-29 — 2026-08-12
-> **Generated:** 2026-08-12 17:58:33 UTC
+> **Generated:** 2026-08-12 19:13:55 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -282,6 +282,7 @@
 - [#2338 Remove inactive users from OWNERS](https://github.com/openshift/oadp-operator/pull/2338) — openshift/oadp-operator
 
 **migtools** (31)
+- [#183 [oadp-1.6] feat: add staleness check for per-VM DataUpload serialization](https://github.com/migtools/kubevirt-datamover-controller/pull/183) — migtools/kubevirt-datamover-controller
 - [#172 feat: add staleness check for per-VM DataUpload serialization](https://github.com/migtools/kubevirt-datamover-controller/pull/172) — migtools/kubevirt-datamover-controller
 - [#165 [oadp-1.6] fix: handle hyphenated disk names in extractDiskName](https://github.com/migtools/kubevirt-datamover-controller/pull/165) — migtools/kubevirt-datamover-controller
 - [#181 [oadp-1.6] fix: wire BSL profile config through to S3 credential resolution](https://github.com/migtools/kubevirt-datamover-controller/pull/181) — migtools/kubevirt-datamover-controller
@@ -312,7 +313,6 @@
 - [#250 Remove inactive users from OWNERS](https://github.com/migtools/oadp-cli/pull/250) — migtools/oadp-cli
 - [#248 Remove inactive users from OWNERS](https://github.com/migtools/oadp-cli/pull/248) — migtools/oadp-cli
 - [#96 Remove inactive users from OWNERS](https://github.com/migtools/oadp-vm-file-restore/pull/96) — migtools/oadp-vm-file-restore
-- [#39 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/39) — migtools/kubevirt-datamover-plugin
 
 **Other** (5)
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
