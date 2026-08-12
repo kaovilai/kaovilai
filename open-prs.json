@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T01:38:15Z",
+  "updatedAt": "2026-08-12T07:18:19Z",
   "prs": [
     {
       "number": 10010,
@@ -63,7 +63,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-09T16:54:19Z"
+      "updatedAt": "2026-08-12T05:10:33Z"
     },
     {
       "number": 8884,
@@ -648,6 +648,22 @@
       "updatedAt": "2026-08-05T22:33:26Z"
     },
     {
+      "number": 5363,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
+      "url": "https://github.com/openshift/ci-tools/pull/5363",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-12T03:39:38Z"
+    },
+    {
       "number": 297,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -706,24 +722,6 @@
         "ai-gen-bugfix"
       ],
       "updatedAt": "2026-08-07T23:05:50Z"
-    },
-    {
-      "number": 2152,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove setup-envtest if different arch during `make test`",
-      "url": "https://github.com/openshift/oadp-operator/pull/2152",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-07T20:51:31Z"
     },
     {
       "number": 2205,
@@ -822,7 +820,7 @@
       "number": 2367,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Make controller-gen/kustomize/golangci-lint version checks reliable",
+      "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
       "url": "https://github.com/openshift/oadp-operator/pull/2367",
       "targetBranch": "oadp-dev",
       "status": "ready",
@@ -834,13 +832,13 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-10T17:10:33Z"
+      "updatedAt": "2026-08-12T06:40:28Z"
     },
     {
       "number": 2368,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint version checks reliable",
+      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
       "url": "https://github.com/openshift/oadp-operator/pull/2368",
       "targetBranch": "oadp-1.4",
       "status": "ready",
@@ -852,7 +850,43 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-10T18:05:26Z"
+      "updatedAt": "2026-08-12T07:06:33Z"
+    },
+    {
+      "number": 2373,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2373",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-12T04:36:08Z"
+    },
+    {
+      "number": 2374,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2374",
+      "targetBranch": "oadp-1.6",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-12T07:09:50Z"
     },
     {
       "number": 81508,
@@ -925,7 +959,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-11T23:56:44Z"
+      "updatedAt": "2026-08-12T03:58:12Z"
     },
     {
       "number": 83299,
@@ -940,8 +974,10 @@
       "isCopilotAuthored": false,
       "assignees": [],
       "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-08-12T01:38:13Z"
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-12T04:35:00Z"
     },
     {
       "number": 5334,
@@ -1030,7 +1066,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-12T01:22:44Z"
+      "updatedAt": "2026-08-12T05:20:37Z"
     },
     {
       "number": 2234,
@@ -1353,9 +1389,10 @@
       "assignees": [],
       "isDraft": false,
       "labels": [
-        "do-not-merge/hold"
+        "do-not-merge/hold",
+        "do-not-merge/invalid-owners-file"
       ],
-      "updatedAt": "2026-08-11T17:45:07Z"
+      "updatedAt": "2026-08-12T06:15:37Z"
     },
     {
       "number": 260,
@@ -1689,6 +1726,38 @@
         "needs-rebase"
       ],
       "updatedAt": "2026-07-17T14:25:32Z"
+    },
+    {
+      "number": 35,
+      "repo": "HASHCUT69/Blend-n-Run",
+      "org": "HASHCUT69",
+      "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+      "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+      "targetBranch": "master",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-12T04:09:10Z"
+    },
+    {
+      "number": 155,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix detectTargetBranch resolving head branch instead of base",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/155",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-12T04:43:41Z"
     },
     {
       "number": 125,
@@ -2834,7 +2903,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-12T01:38:15Z",
+    "updatedAt": "2026-08-12T07:18:19Z",
     "needsReview": [
       {
         "number": 68,
@@ -2881,7 +2950,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 484,
+        "waitingDays": 485,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -2929,7 +2998,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 466,
+        "waitingDays": 467,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3017,7 +3086,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 244,
+        "waitingDays": 245,
         "updatedAt": "2025-12-10T06:37:59Z"
       },
       {
@@ -3275,7 +3344,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4033,6 +4102,39 @@
         "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
+        "number": 9236,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "CHANGES_REQUESTED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-07-23T05:47:21Z"
+      },
+      {
         "number": 10027,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4130,39 +4232,6 @@
         "updatedAt": "2026-07-23T22:46:17Z"
       },
       {
-        "number": 9236,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "CHANGES_REQUESTED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-07-23T05:47:21Z"
-      },
-      {
         "number": 10077,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4222,7 +4291,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-07-28T04:24:27Z"
       },
       {
@@ -4242,7 +4311,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4408,36 +4477,6 @@
         "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
-        "number": 2152,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Remove setup-envtest if different arch during `make test`",
-        "url": "https://github.com/openshift/oadp-operator/pull/2152",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-07T20:51:31Z"
-      },
-      {
         "number": 2205,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4500,95 +4539,6 @@
         "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
-        "number": 10210,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-        "url": "https://github.com/velero-io/velero/pull/10210",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-09T16:54:19Z"
-      },
-      {
-        "number": 2367,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Make controller-gen/kustomize/golangci-lint version checks reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2367",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-10T17:10:33Z"
-      },
-      {
-        "number": 2368,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint version checks reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2368",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-10T18:05:26Z"
-      },
-      {
         "number": 9772,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4621,6 +4571,30 @@
         "updatedAt": "2026-08-10T16:09:09Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -4650,6 +4624,148 @@
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
+        "number": 5363,
+        "repo": "openshift/ci-tools",
+        "org": "openshift",
+        "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
+        "url": "https://github.com/openshift/ci-tools/pull/5363",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "jmguzik",
+          "Prucek"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T03:39:38Z"
+      },
+      {
+        "number": 2367,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2367",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T06:40:28Z"
+      },
+      {
+        "number": 2368,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2368",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T07:06:33Z"
+      },
+      {
+        "number": 2373,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2373",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T04:36:08Z"
+      },
+      {
+        "number": 2374,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2374",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T07:09:50Z"
+      },
+      {
         "number": 83049,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4660,9 +4776,10 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "do-not-merge/hold"
+          "do-not-merge/hold",
+          "do-not-merge/invalid-owners-file"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4676,7 +4793,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-11T17:45:07Z"
+        "updatedAt": "2026-08-12T06:15:37Z"
       },
       {
         "number": 83221,
@@ -4749,7 +4866,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4763,7 +4880,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-11T23:56:44Z"
+        "updatedAt": "2026-08-12T03:58:12Z"
       },
       {
         "number": 83299,
@@ -4775,8 +4892,10 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4790,7 +4909,39 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T01:38:13Z"
+        "updatedAt": "2026-08-12T04:35:00Z"
+      },
+      {
+        "number": 10210,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
+        "url": "https://github.com/velero-io/velero/pull/10210",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T05:10:33Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5205,7 +5356,7 @@
           "lgtm",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -5218,7 +5369,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T01:22:44Z"
+        "updatedAt": "2026-08-12T05:20:37Z"
       }
     ]
   }
