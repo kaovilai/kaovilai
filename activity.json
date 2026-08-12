@@ -3,15 +3,22 @@
     "start": "2026-07-29",
     "end": "2026-08-12"
   },
-  "generatedAt": "2026-08-12T14:59:19Z",
+  "generatedAt": "2026-08-12T17:58:33Z",
   "metrics": {
-    "prsMerged": 83,
+    "prsMerged": 84,
     "prsOpened": 100,
     "prsReviewed": 96,
-    "issuesCommented": 43,
+    "issuesCommented": 44,
     "issuesClosed": 24
   },
   "prsMerged": [
+    {
+      "number": 2206,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2206"
+    },
     {
       "number": 155,
       "repo": "kaovilai/github-bot-command-palette",
@@ -595,6 +602,41 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 182,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182"
+    },
+    {
+      "number": 188,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Fix review queue card deadspace",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/188"
+    },
+    {
+      "number": 83341,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "ci-tools: bump bin build memory request to 3Gi",
+      "url": "https://github.com/openshift/release/pull/83341"
+    },
+    {
+      "number": 2379,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+      "url": "https://github.com/openshift/oadp-operator/pull/2379"
+    },
+    {
+      "number": 2378,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+      "url": "https://github.com/openshift/oadp-operator/pull/2378"
+    },
     {
       "number": 2376,
       "repo": "openshift/oadp-operator",
@@ -1259,44 +1301,37 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/kopia/pull/47"
-    },
-    {
-      "number": 161,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/161"
-    },
-    {
-      "number": 458,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/458"
-    },
-    {
-      "number": 73,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/73"
-    },
-    {
-      "number": 72,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/72"
-    },
-    {
-      "number": 161,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/161"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 172,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: add staleness check for per-VM DataUpload serialization",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
+    },
+    {
+      "number": 165,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: handle hyphenated disk names in extractDiskName",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/165"
+    },
+    {
+      "number": 10251,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix wrong node-agent check result when PVR restorer run concurrently",
+      "url": "https://github.com/velero-io/velero/pull/10251"
+    },
+    {
+      "number": 10245,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Document what the DownloadRequest Processed phase means",
+      "url": "https://github.com/velero-io/velero/pull/10245"
+    },
     {
       "number": 10235,
       "repo": "velero-io/velero",
@@ -1471,13 +1506,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] Clear PVC binding state and halt kubevirt VMs at restore time",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/46"
-    },
-    {
-      "number": 172,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add staleness check for per-VM DataUpload serialization",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
     },
     {
       "number": 13,
@@ -1947,30 +1975,23 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/39"
-    },
-    {
-      "number": 158,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/158"
-    },
-    {
-      "number": 369,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/369"
-    },
-    {
-      "number": 45,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/45"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 477,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "branchprotector: excluded branches retain existing protection instead of being removed",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/477"
+    },
+    {
+      "number": 10232,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
+      "url": "https://github.com/velero-io/velero/issues/10232"
+    },
     {
       "number": 2906,
       "repo": "aws/aws-sdk-go-v2",
@@ -1984,13 +2005,6 @@
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
-      "number": 10232,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
-      "url": "https://github.com/velero-io/velero/issues/10232"
     },
     {
       "number": 22368,
