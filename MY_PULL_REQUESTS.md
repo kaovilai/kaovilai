@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-12 13:19:11 UTC
+> Last updated: 2026-08-12 15:01:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -52,6 +52,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2368](https://img.shields.io/badge/PR%20%232368-ready-green)](https://github.com/openshift/oadp-operator/pull/2368) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #2373](https://img.shields.io/badge/PR%20%232373-ready-green)](https://github.com/openshift/oadp-operator/pull/2373) **openshift/oadp-operator** → `oadp-dev` - fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #2374](https://img.shields.io/badge/PR%20%232374-ready-green)](https://github.com/openshift/oadp-operator/pull/2374) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
+- [![PR #2375](https://img.shields.io/badge/PR%20%232375-ready-green)](https://github.com/openshift/oadp-operator/pull/2375) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
+- [![PR #2376](https://img.shields.io/badge/PR%20%232376-ready-green)](https://github.com/openshift/oadp-operator/pull/2376) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
@@ -111,7 +113,6 @@ No open PRs.
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
-- [![PR #155](https://img.shields.io/badge/PR%20%23155-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/155) **kaovilai/github-bot-command-palette** → `main` - Fix detectTargetBranch resolving head branch instead of base
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
