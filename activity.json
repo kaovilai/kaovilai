@@ -3,15 +3,22 @@
     "start": "2026-07-29",
     "end": "2026-08-12"
   },
-  "generatedAt": "2026-08-12T19:13:55Z",
+  "generatedAt": "2026-08-12T20:49:20Z",
   "metrics": {
-    "prsMerged": 84,
+    "prsMerged": 85,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
     "issuesClosed": 24
   },
   "prsMerged": [
+    {
+      "number": 5363,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
+      "url": "https://github.com/openshift/ci-tools/pull/5363"
+    },
     {
       "number": 2206,
       "repo": "openshift/oadp-operator",
@@ -1979,6 +1986,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
+    },
+    {
       "number": 477,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
@@ -2082,13 +2096,6 @@
       "org": "migtools",
       "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
       "number": 169,
