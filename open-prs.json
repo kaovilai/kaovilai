@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T20:01:39Z",
+  "updatedAt": "2026-08-12T21:51:10Z",
   "prs": [
     {
       "number": 10010,
@@ -1057,28 +1057,6 @@
       "updatedAt": "2026-08-05T08:25:34Z"
     },
     {
-      "number": 5363,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
-      "url": "https://github.com/openshift/ci-tools/pull/5363",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "deepsm007",
-        "Prucek"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-12T19:59:58Z"
-    },
-    {
       "number": 225,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -1203,7 +1181,7 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-12T19:52:26Z"
+      "updatedAt": "2026-08-12T20:46:31Z"
     },
     {
       "number": 2360,
@@ -1469,7 +1447,7 @@
         "do-not-merge/hold",
         "do-not-merge/invalid-owners-file"
       ],
-      "updatedAt": "2026-08-12T19:22:24Z"
+      "updatedAt": "2026-08-12T21:08:47Z"
     },
     {
       "number": 260,
@@ -2973,7 +2951,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-12T20:01:39Z",
+    "updatedAt": "2026-08-12T21:51:10Z",
     "needsReview": [
       {
         "number": 68,
@@ -2986,7 +2964,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3140,7 +3118,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3153,7 +3131,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 183,
+        "waitingDays": 184,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3362,7 +3340,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 95,
+        "waitingDays": 96,
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
@@ -3429,7 +3407,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 88,
+        "waitingDays": 89,
         "updatedAt": "2026-05-15T20:42:37Z"
       },
       {
@@ -3459,7 +3437,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
@@ -3726,6 +3704,34 @@
         "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
+        "number": 267,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Fix silent volume restoration failures for encrypted snapshots",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 28,
+        "updatedAt": "2026-07-15T20:53:27Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3756,34 +3762,6 @@
         "reason": "awaitingReview",
         "waitingDays": 27,
         "updatedAt": "2026-07-16T16:05:03Z"
-      },
-      {
-        "number": 267,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Fix silent volume restoration failures for encrypted snapshots",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 27,
-        "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
         "number": 261,
@@ -4109,6 +4087,38 @@
         "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
+        "number": 10034,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "chore: pin helm/kind-action to commit with curl retry fix",
+        "url": "https://github.com/velero-io/velero/pull/10034",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "chlins"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-07-23T20:58:34Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4174,38 +4184,6 @@
         "reason": "awaitingReview",
         "waitingDays": 19,
         "updatedAt": "2026-07-23T22:40:21Z"
-      },
-      {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-07-23T20:58:34Z"
       },
       {
         "number": 8793,
@@ -4332,7 +4310,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4408,7 +4386,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4901,7 +4879,7 @@
           "do-not-merge/hold",
           "do-not-merge/invalid-owners-file"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4915,7 +4893,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T19:22:24Z"
+        "updatedAt": "2026-08-12T21:08:47Z"
       },
       {
         "number": 83221,
@@ -4960,7 +4938,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5047,7 +5025,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5460,39 +5438,6 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-08-11T13:26:37Z"
-      },
-      {
-        "number": 5363,
-        "repo": "openshift/ci-tools",
-        "org": "openshift",
-        "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
-        "url": "https://github.com/openshift/ci-tools/pull/5363",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "deepsm007",
-          "Prucek"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "jmguzik",
-          "Prucek"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T19:59:58Z"
       },
       {
         "number": 2205,
