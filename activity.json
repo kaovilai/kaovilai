@@ -3,7 +3,7 @@
     "start": "2026-07-29",
     "end": "2026-08-12"
   },
-  "generatedAt": "2026-08-12T02:24:22Z",
+  "generatedAt": "2026-08-12T07:40:35Z",
   "metrics": {
     "prsMerged": 82,
     "prsOpened": 100,
@@ -589,6 +589,41 @@
   ],
   "prsOpened": [
     {
+      "number": 155,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix detectTargetBranch resolving head branch instead of base",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/155"
+    },
+    {
+      "number": 2374,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2374"
+    },
+    {
+      "number": 2373,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2373"
+    },
+    {
+      "number": 35,
+      "repo": "HASHCUT69/Blend-n-Run",
+      "org": "HASHCUT69",
+      "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+      "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35"
+    },
+    {
+      "number": 5363,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
+      "url": "https://github.com/openshift/ci-tools/pull/5363"
+    },
+    {
       "number": 83299,
       "repo": "openshift/release",
       "org": "openshift",
@@ -725,14 +760,14 @@
       "number": 2368,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint version checks reliable",
+      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
       "url": "https://github.com/openshift/oadp-operator/pull/2368"
     },
     {
       "number": 2367,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Make controller-gen/kustomize/golangci-lint version checks reliable",
+      "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
       "url": "https://github.com/openshift/oadp-operator/pull/2367"
     },
     {
@@ -1252,44 +1287,37 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/oadp-operator/pull/2341"
-    },
-    {
-      "number": 2340,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2340"
-    },
-    {
-      "number": 561,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/561"
-    },
-    {
-      "number": 560,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/560"
-    },
-    {
-      "number": 559,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/559"
-    },
-    {
-      "number": 557,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/velero/pull/557"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10127,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
+      "url": "https://github.com/velero-io/velero/pull/10127"
+    },
+    {
+      "number": 10210,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
+      "url": "https://github.com/velero-io/velero/pull/10210"
+    },
+    {
+      "number": 10196,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "test: add unit tests for boolptr and stringptr utilities",
+      "url": "https://github.com/velero-io/velero/pull/10196"
+    },
+    {
+      "number": 10236,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: add kind VolumeSnapshotClass test data",
+      "url": "https://github.com/velero-io/velero/pull/10236"
+    },
     {
       "number": 10229,
       "repo": "velero-io/velero",
@@ -1331,20 +1359,6 @@
       "org": "velero-io",
       "title": "Bump kentaro-m/auto-assign-action from 2.0.0 to 2.0.2",
       "url": "https://github.com/velero-io/velero/pull/10201"
-    },
-    {
-      "number": 10127,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
-      "url": "https://github.com/velero-io/velero/pull/10127"
-    },
-    {
-      "number": 10236,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: add kind VolumeSnapshotClass test data",
-      "url": "https://github.com/velero-io/velero/pull/10236"
     },
     {
       "number": 10234,
@@ -1438,13 +1452,6 @@
       "url": "https://github.com/velero-io/velero/pull/10202"
     },
     {
-      "number": 10196,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "test: add unit tests for boolptr and stringptr utilities",
-      "url": "https://github.com/velero-io/velero/pull/10196"
-    },
-    {
       "number": 10192,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1464,13 +1471,6 @@
       "org": "migtools",
       "title": "feat: add staleness check for per-VM DataUpload serialization",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
-    },
-    {
-      "number": 10210,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-      "url": "https://github.com/velero-io/velero/pull/10210"
     },
     {
       "number": 13,
@@ -1965,6 +1965,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 10232,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
+      "url": "https://github.com/velero-io/velero/issues/10232"
+    },
+    {
       "number": 22368,
       "repo": "kubernetes/kubernetes",
       "org": "kubernetes",
@@ -1993,25 +2007,11 @@
       "url": "https://github.com/velero-io/velero/issues/10199"
     },
     {
-      "number": 10232,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
-      "url": "https://github.com/velero-io/velero/issues/10232"
-    },
-    {
       "number": 8457,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Configurable pull policy when `velero install`",
       "url": "https://github.com/velero-io/velero/issues/8457"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 168,
