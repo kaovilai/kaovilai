@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-12 18:02:03 UTC
+> Last updated: 2026-08-12 20:01:39 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -90,11 +90,11 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #124](https://img.shields.io/badge/PR%20%23124-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
+- [![PR #182](https://img.shields.io/badge/PR%20%23182-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/182) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: correct S3 checkpoint index when backup type mismatch detected
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
-- [![PR #182](https://img.shields.io/badge/PR%20%23182-ci--pending-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/182) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: correct S3 checkpoint index when backup type mismatch detected
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
