@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-12 15:01:02 UTC
+> Last updated: 2026-08-12 16:59:55 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -43,7 +43,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
-- [![PR #2205](https://img.shields.io/badge/PR%20%232205-ready-green)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2241](https://img.shields.io/badge/PR%20%232241-ready-green)](https://github.com/openshift/oadp-operator/pull/2241) **openshift/oadp-operator** → `oadp-1.4` - OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs
 - [![PR #2357](https://img.shields.io/badge/PR%20%232357-ready-green)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
@@ -54,6 +53,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2374](https://img.shields.io/badge/PR%20%232374-ready-green)](https://github.com/openshift/oadp-operator/pull/2374) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #2375](https://img.shields.io/badge/PR%20%232375-ready-green)](https://github.com/openshift/oadp-operator/pull/2375) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #2376](https://img.shields.io/badge/PR%20%232376-ready-green)](https://github.com/openshift/oadp-operator/pull/2376) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
+- [![PR #2378](https://img.shields.io/badge/PR%20%232378-ready-green)](https://github.com/openshift/oadp-operator/pull/2378) **openshift/oadp-operator** → `oadp-1.3` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
+- [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
@@ -61,7 +62,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #83282](https://img.shields.io/badge/PR%20%2383282-ready-green)](https://github.com/openshift/release/pull/83282) **openshift/release** → `main` - Promote oadp-operator bundle directly instead of a broken index
 - [![PR #83286](https://img.shields.io/badge/PR%20%2383286-ready-green)](https://github.com/openshift/release/pull/83286) **openshift/release** → `main` - Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e
 - [![PR #83299](https://img.shields.io/badge/PR%20%2383299-ready-green)](https://github.com/openshift/release/pull/83299) **openshift/release** → `main` - gather-extra: don't let PLATFORM lookup abort entire gather step
-- [![PR #2206](https://img.shields.io/badge/PR%20%232206-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2206) **openshift/oadp-operator** → `oadp-1.6` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
+- [![PR #83341](https://img.shields.io/badge/PR%20%2383341-ready-green)](https://github.com/openshift/release/pull/83341) **openshift/release** → `main` - ci-tools: bump bin build memory request to 3Gi
+- [![PR #2205](https://img.shields.io/badge/PR%20%232205-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
@@ -177,6 +179,7 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #188](https://img.shields.io/badge/PR%20%23188-failing--ci-red)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 
 ---
 
