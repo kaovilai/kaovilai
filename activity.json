@@ -3,15 +3,22 @@
     "start": "2026-07-29",
     "end": "2026-08-12"
   },
-  "generatedAt": "2026-08-12T13:14:54Z",
+  "generatedAt": "2026-08-12T14:59:19Z",
   "metrics": {
-    "prsMerged": 82,
+    "prsMerged": 83,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 43,
     "issuesClosed": 24
   },
   "prsMerged": [
+    {
+      "number": 155,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix detectTargetBranch resolving head branch instead of base",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/155"
+    },
     {
       "number": 2346,
       "repo": "openshift/oadp-operator",
@@ -588,6 +595,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2376,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2376"
+    },
+    {
+      "number": 2375,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2375"
+    },
     {
       "number": 155,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1273,23 +1294,16 @@
       "org": "openshift",
       "title": "Remove inactive users from DOWNSTREAM_OWNERS",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/161"
-    },
-    {
-      "number": 2342,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2342"
-    },
-    {
-      "number": 2341,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2341"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
+    },
     {
       "number": 10229,
       "repo": "velero-io/velero",
@@ -1331,13 +1345,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
       "url": "https://github.com/openshift/oadp-operator/pull/2370"
-    },
-    {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10208,
