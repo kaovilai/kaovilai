@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T07:18:19Z",
+  "updatedAt": "2026-08-12T13:19:11Z",
   "prs": [
     {
       "number": 10010,
@@ -648,22 +648,6 @@
       "updatedAt": "2026-08-05T22:33:26Z"
     },
     {
-      "number": 5363,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
-      "url": "https://github.com/openshift/ci-tools/pull/5363",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-08-12T03:39:38Z"
-    },
-    {
       "number": 297,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -868,7 +852,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-12T04:36:08Z"
+      "updatedAt": "2026-08-12T07:26:41Z"
     },
     {
       "number": 2374,
@@ -1000,6 +984,27 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T08:25:34Z"
+    },
+    {
+      "number": 5363,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
+      "url": "https://github.com/openshift/ci-tools/pull/5363",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "Prucek"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-12T13:02:29Z"
     },
     {
       "number": 225,
@@ -1392,7 +1397,7 @@
         "do-not-merge/hold",
         "do-not-merge/invalid-owners-file"
       ],
-      "updatedAt": "2026-08-12T06:15:37Z"
+      "updatedAt": "2026-08-12T12:05:00Z"
     },
     {
       "number": 260,
@@ -2903,7 +2908,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-12T07:18:19Z",
+    "updatedAt": "2026-08-12T13:19:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3022,7 +3027,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 432,
+        "waitingDays": 433,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3052,7 +3057,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 260,
+        "waitingDays": 261,
         "updatedAt": "2025-11-24T10:40:40Z"
       },
       {
@@ -3159,7 +3164,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3204,7 +3209,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 132,
+        "waitingDays": 133,
         "updatedAt": "2026-04-01T08:21:20Z"
       },
       {
@@ -3293,7 +3298,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 97,
+        "waitingDays": 98,
         "updatedAt": "2026-05-06T08:23:18Z"
       },
       {
@@ -3358,7 +3363,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 89,
+        "waitingDays": 90,
         "updatedAt": "2026-05-14T08:51:53Z"
       },
       {
@@ -3518,6 +3523,37 @@
         "updatedAt": "2026-07-03T22:28:56Z"
       },
       {
+        "number": 9646,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+        "url": "https://github.com/velero-io/velero/pull/9646",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 37,
+        "updatedAt": "2026-07-06T11:28:58Z"
+      },
+      {
         "number": 81508,
         "repo": "openshift/release",
         "org": "openshift",
@@ -3548,37 +3584,6 @@
         "updatedAt": "2026-07-06T21:56:02Z"
       },
       {
-        "number": 9646,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-        "url": "https://github.com/velero-io/velero/pull/9646",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 36,
-        "updatedAt": "2026-07-06T11:28:58Z"
-      },
-      {
         "number": 285,
         "repo": "vmware-tanzu/crash-diagnostics",
         "org": "vmware-tanzu",
@@ -3601,30 +3606,6 @@
         "reason": "awaitingReview",
         "waitingDays": 33,
         "updatedAt": "2026-07-09T18:02:34Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 28,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 2308,
@@ -3652,8 +3633,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 28,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -3746,11 +3751,11 @@
         "updatedAt": "2026-07-16T16:05:03Z"
       },
       {
-        "number": 9910,
+        "number": 9795,
         "repo": "velero-io/velero",
         "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
+        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/9795",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -3759,24 +3764,23 @@
         ],
         "labels": [
           "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
+          "has-changelog"
         ],
         "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
+          "anshulahuja98",
+          "blackpiglet"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 26,
-        "updatedAt": "2026-07-16T15:28:53Z"
+        "updatedAt": "2026-07-17T09:11:39Z"
       },
       {
         "number": 261,
@@ -3909,38 +3913,6 @@
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
-        "number": 9795,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/9795",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 25,
-        "updatedAt": "2026-07-17T09:11:39Z"
-      },
-      {
         "number": 8673,
         "repo": "kubernetes/community",
         "org": "kubernetes",
@@ -3957,7 +3929,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4036,6 +4008,38 @@
         "updatedAt": "2026-07-20T19:47:24Z"
       },
       {
+        "number": 10051,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+        "url": "https://github.com/velero-io/velero/pull/10051",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "adam-jian-zhang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 21,
+        "updatedAt": "2026-07-22T08:06:39Z"
+      },
+      {
         "number": 297,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -4068,38 +4072,6 @@
         "reason": "awaitingReview",
         "waitingDays": 20,
         "updatedAt": "2026-07-22T17:33:01Z"
-      },
-      {
-        "number": 10051,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-        "url": "https://github.com/velero-io/velero/pull/10051",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "adam-jian-zhang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
         "number": 9236,
@@ -4624,33 +4596,6 @@
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
-        "number": 5363,
-        "repo": "openshift/ci-tools",
-        "org": "openshift",
-        "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
-        "url": "https://github.com/openshift/ci-tools/pull/5363",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "jmguzik",
-          "Prucek"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T03:39:38Z"
-      },
-      {
         "number": 2367,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4734,7 +4679,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T04:36:08Z"
+        "updatedAt": "2026-08-12T07:26:41Z"
       },
       {
         "number": 2374,
@@ -4793,7 +4738,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T06:15:37Z"
+        "updatedAt": "2026-08-12T12:05:00Z"
       },
       {
         "number": 83221,
@@ -4928,7 +4873,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5032,6 +4977,38 @@
         "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
+        "number": 5334,
+        "repo": "openshift/ci-tools",
+        "org": "openshift",
+        "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
+        "url": "https://github.com/openshift/ci-tools/pull/5334",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "droslean",
+          "Prucek"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-05T08:25:34Z"
+      },
+      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5092,38 +5069,6 @@
         "reason": "pendingMerge",
         "waitingDays": 6,
         "updatedAt": "2026-08-05T14:29:52Z"
-      },
-      {
-        "number": 5334,
-        "repo": "openshift/ci-tools",
-        "org": "openshift",
-        "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
-        "url": "https://github.com/openshift/ci-tools/pull/5334",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "droslean",
-          "Prucek"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-05T08:25:34Z"
       },
       {
         "number": 2357,
@@ -5272,6 +5217,38 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-08-08T23:03:19Z"
+      },
+      {
+        "number": 5363,
+        "repo": "openshift/ci-tools",
+        "org": "openshift",
+        "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
+        "url": "https://github.com/openshift/ci-tools/pull/5363",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Prucek"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "jmguzik",
+          "Prucek"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-12T13:02:29Z"
       },
       {
         "number": 225,
