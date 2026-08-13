@@ -3,15 +3,22 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T16:05:25Z",
+  "generatedAt": "2026-08-13T17:58:41Z",
   "metrics": {
-    "prsMerged": 84,
+    "prsMerged": 85,
     "prsOpened": 100,
     "prsReviewed": 96,
-    "issuesCommented": 40,
-    "issuesClosed": 21
+    "issuesCommented": 42,
+    "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 124,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124"
+    },
     {
       "number": 2241,
       "repo": "openshift/oadp-operator",
@@ -602,6 +609,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10263,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Backport #10250: Fix pod volume restore deadlock",
+      "url": "https://github.com/velero-io/velero/pull/10263"
+    },
+    {
+      "number": 10262,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Backport #10250: Fix pod volume restore deadlock",
+      "url": "https://github.com/velero-io/velero/pull/10262"
+    },
     {
       "number": 182,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1282,34 +1303,34 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/371"
     },
     {
-      "number": 162,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/162"
-    },
-    {
       "number": 459,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/459"
-    },
-    {
-      "number": 47,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/47"
     }
   ],
   "prsReviewed": [
     {
-      "number": 10187,
+      "number": 2382,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "PodResources must be complete for Velero parser",
+      "url": "https://github.com/openshift/oadp-operator/pull/2382"
+    },
+    {
+      "number": 185,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/185"
+    },
+    {
+      "number": 10167,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "thread context through GetVolumeSnapshotContentForVolumeSnapshot",
-      "url": "https://github.com/velero-io/velero/pull/10187"
+      "title": "validate backup name format before contacting the API server",
+      "url": "https://github.com/velero-io/velero/pull/10167"
     },
     {
       "number": 10250,
@@ -1317,6 +1338,13 @@
       "org": "velero-io",
       "title": "Fix pvr deadlock",
       "url": "https://github.com/velero-io/velero/pull/10250"
+    },
+    {
+      "number": 10187,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "thread context through GetVolumeSnapshotContentForVolumeSnapshot",
+      "url": "https://github.com/velero-io/velero/pull/10187"
     },
     {
       "number": 10255,
@@ -1954,30 +1982,65 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
-    },
-    {
-      "number": 39,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/39"
-    },
-    {
-      "number": 158,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/158"
-    },
-    {
-      "number": 369,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/369"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 841,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
+    },
+    {
+      "number": 184,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
+    },
+    {
+      "number": 153,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
+    },
+    {
+      "number": 154,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154"
+    },
+    {
+      "number": 155,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155"
+    },
+    {
+      "number": 152,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152"
+    },
+    {
+      "number": 123,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
+    },
+    {
+      "number": 122,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122"
+    },
     {
       "number": 477,
       "repo": "kubernetes-sigs/prow",
@@ -2091,13 +2154,6 @@
       "url": "https://github.com/microsoft/vscode/issues/148413"
     },
     {
-      "number": 123,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
-    },
-    {
       "number": 169,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -2117,41 +2173,6 @@
       "org": "velero-io",
       "title": "Support per-storageclass VSClass annotation",
       "url": "https://github.com/velero-io/velero/issues/8807"
-    },
-    {
-      "number": 155,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155"
-    },
-    {
-      "number": 154,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154"
-    },
-    {
-      "number": 153,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
-    },
-    {
-      "number": 152,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152"
-    },
-    {
-      "number": 122,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122"
     },
     {
       "number": 162,
@@ -2260,6 +2281,62 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 841,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
+    },
+    {
+      "number": 153,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
+    },
+    {
+      "number": 154,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154"
+    },
+    {
+      "number": 155,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155"
+    },
+    {
+      "number": 152,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152"
+    },
+    {
+      "number": 121,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Spec.OperationTimeout is not honored by either DataUpload or DataDownload controller",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/121"
+    },
+    {
+      "number": 123,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
+    },
+    {
+      "number": 122,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122"
+    },
     {
       "number": 168,
       "repo": "migtools/kubevirt-datamover-controller",
