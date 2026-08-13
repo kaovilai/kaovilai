@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-13 18:02:20 UTC
+> Last updated: 2026-08-13 19:56:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -44,11 +44,7 @@ This file is automatically updated every hour by GitHub Actions.
 ## openshift
 
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
-- [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
-- [![PR #2350](https://img.shields.io/badge/PR%20%232350-ready-green)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
-- [![PR #2357](https://img.shields.io/badge/PR%20%232357-ready-green)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
-- [![PR #2358](https://img.shields.io/badge/PR%20%232358-ready-green)](https://github.com/openshift/oadp-operator/pull/2358) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #2367](https://img.shields.io/badge/PR%20%232367-ready-green)](https://github.com/openshift/oadp-operator/pull/2367) **openshift/oadp-operator** → `oadp-dev` - Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #2368](https://img.shields.io/badge/PR%20%232368-ready-green)](https://github.com/openshift/oadp-operator/pull/2368) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #2373](https://img.shields.io/badge/PR%20%232373-ready-green)](https://github.com/openshift/oadp-operator/pull/2373) **openshift/oadp-operator** → `oadp-dev` - fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
@@ -61,14 +57,14 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #83221](https://img.shields.io/badge/PR%20%2383221-ready-green)](https://github.com/openshift/release/pull/83221) **openshift/release** → `main` - gather-must-gather: retry camgi download, don't fail gather on it
-- [![PR #83282](https://img.shields.io/badge/PR%20%2383282-ready-green)](https://github.com/openshift/release/pull/83282) **openshift/release** → `main` - Promote oadp-operator bundle directly instead of a broken index
-- [![PR #83286](https://img.shields.io/badge/PR%20%2383286-ready-green)](https://github.com/openshift/release/pull/83286) **openshift/release** → `main` - Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e
 - [![PR #83299](https://img.shields.io/badge/PR%20%2383299-ready-green)](https://github.com/openshift/release/pull/83299) **openshift/release** → `main` - gather-extra: don't let PLATFORM lookup abort entire gather step
 - [![PR #83341](https://img.shields.io/badge/PR%20%2383341-ready-green)](https://github.com/openshift/release/pull/83341) **openshift/release** → `main` - ci-tools: bump bin build memory request to 3Gi
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
+- [![PR #2357](https://img.shields.io/badge/PR%20%232357-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
+- [![PR #2358](https://img.shields.io/badge/PR%20%232358-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2358) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
@@ -83,8 +79,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
+- [![PR #2350](https://img.shields.io/badge/PR%20%232350-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #83049](https://img.shields.io/badge/PR%20%2383049-hold-yellow)](https://github.com/openshift/release/pull/83049) **openshift/release** → `main` - Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)
+- [![PR #2139](https://img.shields.io/badge/PR%20%232139-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 
 ## migtools

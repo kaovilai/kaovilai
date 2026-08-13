@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T18:02:20Z",
+  "updatedAt": "2026-08-13T19:56:47Z",
   "prs": [
     {
       "number": 10010,
@@ -727,29 +727,6 @@
       "updatedAt": "2026-08-07T21:59:39Z"
     },
     {
-      "number": 2139,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
-      "url": "https://github.com/openshift/oadp-operator/pull/2139",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "weshayutin"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "jira/valid-reference",
-        "ai-generated-test",
-        "ai-gen-bugfix"
-      ],
-      "updatedAt": "2026-08-07T23:05:50Z"
-    },
-    {
       "number": 2207,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -766,61 +743,7 @@
         "approved",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-06T16:42:28Z"
-    },
-    {
-      "number": 2350,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
-      "url": "https://github.com/openshift/oadp-operator/pull/2350",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-13T17:41:28Z"
-    },
-    {
-      "number": 2357,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2357",
-      "targetBranch": "oadp-1.5",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-05T17:01:03Z"
-    },
-    {
-      "number": 2358,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2358",
-      "targetBranch": "oadp-1.4",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-05T16:31:32Z"
+      "updatedAt": "2026-08-13T19:02:47Z"
     },
     {
       "number": 2367,
@@ -838,7 +761,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-12T18:49:37Z"
+      "updatedAt": "2026-08-13T19:09:03Z"
     },
     {
       "number": 2368,
@@ -874,7 +797,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-12T18:13:40Z"
+      "updatedAt": "2026-08-13T19:09:38Z"
     },
     {
       "number": 2374,
@@ -892,7 +815,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-12T17:40:46Z"
+      "updatedAt": "2026-08-13T19:02:15Z"
     },
     {
       "number": 2375,
@@ -910,7 +833,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-12T22:25:03Z"
+      "updatedAt": "2026-08-13T19:00:15Z"
     },
     {
       "number": 2376,
@@ -928,7 +851,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-12T17:04:37Z"
+      "updatedAt": "2026-08-13T19:10:24Z"
     },
     {
       "number": 2378,
@@ -1002,42 +925,6 @@
         "approved"
       ],
       "updatedAt": "2026-08-12T14:01:01Z"
-    },
-    {
-      "number": 83282,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Promote oadp-operator bundle directly instead of a broken index",
-      "url": "https://github.com/openshift/release/pull/83282",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-12T19:08:52Z"
-    },
-    {
-      "number": 83286,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e",
-      "url": "https://github.com/openshift/release/pull/83286",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-12T03:58:12Z"
     },
     {
       "number": 83299,
@@ -1182,7 +1069,45 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-08T23:03:19Z"
+      "updatedAt": "2026-08-13T19:05:52Z"
+    },
+    {
+      "number": 2357,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2357",
+      "targetBranch": "oadp-1.5",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-13T19:55:35Z"
+    },
+    {
+      "number": 2358,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2358",
+      "targetBranch": "oadp-1.4",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-13T19:55:16Z"
     },
     {
       "number": 449,
@@ -1416,6 +1341,25 @@
       "updatedAt": "2026-03-23T20:15:58Z"
     },
     {
+      "number": 2350,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
+      "url": "https://github.com/openshift/oadp-operator/pull/2350",
+      "targetBranch": "oadp-dev",
+      "status": "hold",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "do-not-merge/hold",
+        "approved"
+      ],
+      "updatedAt": "2026-08-13T18:59:01Z"
+    },
+    {
       "number": 2308,
       "repo": "openshift/oc",
       "org": "openshift",
@@ -1489,6 +1433,30 @@
         "needs-rebase"
       ],
       "updatedAt": "2026-07-15T12:41:12Z"
+    },
+    {
+      "number": 2139,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
+      "url": "https://github.com/openshift/oadp-operator/pull/2139",
+      "targetBranch": "oadp-dev",
+      "status": "needs-attention",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin"
+      ],
+      "isDraft": false,
+      "labels": [
+        "needs-rebase",
+        "approved",
+        "jira/valid-reference",
+        "ai-generated-test",
+        "ai-gen-bugfix"
+      ],
+      "updatedAt": "2026-08-13T18:59:08Z"
     },
     {
       "number": 182,
@@ -2956,7 +2924,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-13T18:02:20Z",
+    "updatedAt": "2026-08-13T19:56:47Z",
     "needsReview": [
       {
         "number": 68,
@@ -3123,7 +3091,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3285,7 +3253,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 99,
+        "waitingDays": 100,
         "updatedAt": "2026-05-05T18:21:10Z"
       },
       {
@@ -3572,7 +3540,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3898,35 +3866,6 @@
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-07-21T00:29:16Z"
-      },
-      {
         "number": 8884,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3956,8 +3895,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-07-20T19:47:24Z"
+      },
+      {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 23,
+        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 297,
@@ -4342,18 +4310,20 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 2207,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
-        "url": "https://github.com/openshift/oadp-operator/pull/2207",
-        "targetBranch": "oadp-1.5",
+        "number": 9384,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip restore informer cache for resources without watch support",
+        "url": "https://github.com/velero-io/velero/pull/9384",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [],
+        "assignees": [
+          "kaovilai"
+        ],
         "labels": [
-          "approved",
-          "jira/valid-reference"
+          "has-unit-tests",
+          "has-changelog"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
@@ -4361,15 +4331,15 @@
         "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 1,
-        "requiredApprovals": 2,
+        "requiredApprovals": null,
         "reviewRequests": [
-          "mrnold",
-          "shubham-pampattiwar"
+          "Lyndon-Li",
+          "ywk253100"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-08-06T16:42:28Z"
+        "waitingDays": 6,
+        "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
         "number": 2134,
@@ -4399,38 +4369,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-08-07T21:59:39Z"
-      },
-      {
-        "number": 9384,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip restore informer cache for resources without watch support",
-        "url": "https://github.com/velero-io/velero/pull/9384",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
         "number": 9772,
@@ -4518,12 +4456,40 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
-        "number": 2374,
+        "number": 2368,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2374",
-        "targetBranch": "oadp-1.6",
+        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2368",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-12T19:01:32Z"
+      },
+      {
+        "number": 2378,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2378",
+        "targetBranch": "oadp-1.3",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
@@ -4544,14 +4510,14 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 1,
-        "updatedAt": "2026-08-12T17:40:46Z"
+        "updatedAt": "2026-08-12T18:06:50Z"
       },
       {
-        "number": 2376,
+        "number": 2379,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2376",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2379",
         "targetBranch": "oadp-1.4",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -4573,7 +4539,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 1,
-        "updatedAt": "2026-08-12T17:04:37Z"
+        "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
         "number": 83221,
@@ -4606,35 +4572,6 @@
         "updatedAt": "2026-08-12T14:01:01Z"
       },
       {
-        "number": 83286,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e",
-        "url": "https://github.com/openshift/release/pull/83286",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "mpryc"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T03:58:12Z"
-      },
-      {
         "number": 83299,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4662,6 +4599,35 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-12T04:35:00Z"
+      },
+      {
+        "number": 83341,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-tools: bump bin build memory request to 3Gi",
+        "url": "https://github.com/openshift/release/pull/83341",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pruan-rht",
+          "smg247"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-12T19:29:09Z"
       },
       {
         "number": 10210,
@@ -4762,6 +4728,36 @@
         "updatedAt": "2026-08-13T17:53:09Z"
       },
       {
+        "number": 2207,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2207",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mrnold",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T19:02:47Z"
+      },
+      {
         "number": 2350,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4772,6 +4768,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
+          "do-not-merge/hold",
           "approved"
         ],
         "mergeStateStatus": "BLOCKED",
@@ -4782,14 +4779,13 @@
         "approvalCount": 0,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "shubham-pampattiwar",
           "sseago",
           "eemcmullan"
         ],
         "group": "needsReview",
-        "reason": "awaitingReview",
+        "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T17:41:28Z"
+        "updatedAt": "2026-08-13T18:59:01Z"
       },
       {
         "number": 2367,
@@ -4817,35 +4813,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T18:49:37Z"
-      },
-      {
-        "number": 2368,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2368",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T19:01:32Z"
+        "updatedAt": "2026-08-13T19:09:03Z"
       },
       {
         "number": 2373,
@@ -4874,7 +4842,36 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T18:13:40Z"
+        "updatedAt": "2026-08-13T19:09:38Z"
+      },
+      {
+        "number": 2374,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2374",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T19:02:15Z"
       },
       {
         "number": 2375,
@@ -4903,43 +4900,14 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T22:25:03Z"
+        "updatedAt": "2026-08-13T19:00:15Z"
       },
       {
-        "number": 2378,
+        "number": 2376,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2378",
-        "targetBranch": "oadp-1.3",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T18:06:50Z"
-      },
-      {
-        "number": 2379,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2379",
+        "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2376",
         "targetBranch": "oadp-1.4",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -4961,7 +4929,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-12T18:07:16Z"
+        "updatedAt": "2026-08-13T19:10:24Z"
       },
       {
         "number": 83049,
@@ -4992,64 +4960,6 @@
         "reason": "hold",
         "waitingDays": 0,
         "updatedAt": "2026-08-12T21:08:47Z"
-      },
-      {
-        "number": 83282,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "Promote oadp-operator bundle directly instead of a broken index",
-        "url": "https://github.com/openshift/release/pull/83282",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "mpryc"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T19:08:52Z"
-      },
-      {
-        "number": 83341,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-tools: bump bin build memory request to 3Gi",
-        "url": "https://github.com/openshift/release/pull/83341",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pruan-rht",
-          "smg247"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T19:29:09Z"
       },
       {
         "number": 10262,
@@ -5262,58 +5172,6 @@
         "updatedAt": "2026-08-05T08:25:34Z"
       },
       {
-        "number": 2357,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
-        "url": "https://github.com/openshift/oadp-operator/pull/2357",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 8,
-        "updatedAt": "2026-08-05T17:01:03Z"
-      },
-      {
-        "number": 2358,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
-        "url": "https://github.com/openshift/oadp-operator/pull/2358",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 8,
-        "updatedAt": "2026-08-05T16:31:32Z"
-      },
-      {
         "number": 449,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -5364,7 +5222,7 @@
           "lgtm",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5378,36 +5236,6 @@
         "reason": "pendingMerge",
         "waitingDays": 6,
         "updatedAt": "2026-08-06T20:00:57Z"
-      },
-      {
-        "number": 2234,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
-        "url": "https://github.com/openshift/oadp-operator/pull/2234",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-08T23:03:19Z"
       },
       {
         "number": 225,
@@ -5505,8 +5333,92 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-08-12T19:50:15Z"
+      },
+      {
+        "number": 2234,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+        "url": "https://github.com/openshift/oadp-operator/pull/2234",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mrnold"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T19:05:52Z"
+      },
+      {
+        "number": 2357,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
+        "url": "https://github.com/openshift/oadp-operator/pull/2357",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T19:55:35Z"
+      },
+      {
+        "number": 2358,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
+        "url": "https://github.com/openshift/oadp-operator/pull/2358",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T19:55:16Z"
       }
     ]
   }
