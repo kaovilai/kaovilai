@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-13 16:59:45 UTC
+> Last updated: 2026-08-13 18:02:20 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -21,7 +21,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
-- [![PR #10263](https://img.shields.io/badge/PR%20%2310263-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10263) **velero-io/velero** → `release-1.18` - [release-1.18] Backport #10250: Fix pod volume restore deadlock
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
@@ -35,6 +34,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
 - [![PR #10262](https://img.shields.io/badge/PR%20%2310262-failing--ci-red)](https://github.com/velero-io/velero/pull/10262) **velero-io/velero** → `release-1.17` - [release-1.17] Backport #10250: Fix pod volume restore deadlock
+- [![PR #10263](https://img.shields.io/badge/PR%20%2310263-failing--ci-red)](https://github.com/velero-io/velero/pull/10263) **velero-io/velero** → `release-1.18` - [release-1.18] Backport #10250: Fix pod volume restore deadlock
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
@@ -46,6 +46,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2134](https://img.shields.io/badge/PR%20%232134-ready-green)](https://github.com/openshift/oadp-operator/pull/2134) **openshift/oadp-operator** → `oadp-dev` - DNM: Test: disable pod restart workaround after file-system restore
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-ready-green)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
+- [![PR #2350](https://img.shields.io/badge/PR%20%232350-ready-green)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
 - [![PR #2357](https://img.shields.io/badge/PR%20%232357-ready-green)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #2358](https://img.shields.io/badge/PR%20%232358-ready-green)](https://github.com/openshift/oadp-operator/pull/2358) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #2367](https://img.shields.io/badge/PR%20%232367-ready-green)](https://github.com/openshift/oadp-operator/pull/2367) **openshift/oadp-operator** → `oadp-dev` - Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
@@ -70,7 +71,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
-- [![PR #2350](https://img.shields.io/badge/PR%20%232350-draft-gray)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -89,7 +89,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #124](https://img.shields.io/badge/PR%20%23124-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: implement DataDownload controller for VM restore (issue #73 Phase 3)
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/182) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: correct S3 checkpoint index when backup type mismatch detected
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
