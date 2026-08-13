@@ -3,15 +3,29 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T21:49:26Z",
+  "generatedAt": "2026-08-13T22:44:42Z",
   "metrics": {
-    "prsMerged": 88,
+    "prsMerged": 90,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
-    "issuesClosed": 30
+    "issuesClosed": 31
   },
   "prsMerged": [
+    {
+      "number": 159,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add ship skill for solo-repo commit-to-merge cycle",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/159"
+    },
+    {
+      "number": 5334,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
+      "url": "https://github.com/openshift/ci-tools/pull/5334"
+    },
     {
       "number": 158,
       "repo": "kaovilai/github-bot-command-palette",
@@ -630,6 +644,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 187,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187"
+    },
+    {
+      "number": 83416,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add watch-ci-status skill: watch postsubmit refresh + PR status",
+      "url": "https://github.com/openshift/release/pull/83416"
+    },
     {
       "number": 159,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1315,23 +1343,23 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/oadp-must-gather/pull/152"
-    },
-    {
-      "number": 162,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/162"
-    },
-    {
-      "number": 251,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-cli/pull/251"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 160,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.4 (832961f) into oadp-1.4",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/160"
+    },
+    {
+      "number": 562,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Rebase oadp-dev onto upstream/main (4f55fb5a6)",
+      "url": "https://github.com/openshift/velero/pull/562"
+    },
     {
       "number": 2382,
       "repo": "openshift/oadp-operator",
@@ -1989,23 +2017,16 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/248"
-    },
-    {
-      "number": 2338,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2338"
-    },
-    {
-      "number": 96,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 175,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Implement concurrency limiter for DataDownload controller",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175"
+    },
     {
       "number": 169,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -2182,13 +2203,6 @@
       "url": "https://github.com/cncf/mentoring/issues/1997"
     },
     {
-      "number": 175,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrency limiter for DataDownload controller",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175"
-    },
-    {
       "number": 84,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -2316,6 +2330,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 5333,
+      "repo": "openshift/ci-tools",
+      "org": "openshift",
+      "title": "e2e-oo permanently failing: fixture pins EOL integrated stream ocp/4.6, configresolver returns 400",
+      "url": "https://github.com/openshift/ci-tools/issues/5333"
+    },
     {
       "number": 169,
       "repo": "migtools/kubevirt-datamover-controller",
