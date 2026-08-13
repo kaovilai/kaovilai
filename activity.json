@@ -3,15 +3,29 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T22:44:42Z",
+  "generatedAt": "2026-08-13T23:48:51Z",
   "metrics": {
-    "prsMerged": 90,
+    "prsMerged": 92,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
     "issuesClosed": 31
   },
   "prsMerged": [
+    {
+      "number": 2376,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2376"
+    },
+    {
+      "number": 182,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182"
+    },
     {
       "number": 159,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1347,18 +1361,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 160,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.4 (832961f) into oadp-1.4",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/160"
-    },
-    {
       "number": 562,
       "repo": "openshift/velero",
       "org": "openshift",
       "title": "Rebase oadp-dev onto upstream/main (4f55fb5a6)",
       "url": "https://github.com/openshift/velero/pull/562"
+    },
+    {
+      "number": 160,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.4 (832961f) into oadp-1.4",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/160"
     },
     {
       "number": 2382,
