@@ -3,15 +3,29 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T17:58:41Z",
+  "generatedAt": "2026-08-13T19:14:32Z",
   "metrics": {
-    "prsMerged": 85,
+    "prsMerged": 87,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 42,
     "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 83286,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e",
+      "url": "https://github.com/openshift/release/pull/83286"
+    },
+    {
+      "number": 83282,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Promote oadp-operator bundle directly instead of a broken index",
+      "url": "https://github.com/openshift/release/pull/83282"
+    },
     {
       "number": 124,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1986,11 +2000,11 @@
   ],
   "issuesCommented": [
     {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
       "number": 184,
@@ -1998,6 +2012,13 @@
       "org": "migtools",
       "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
+    },
+    {
+      "number": 841,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
     },
     {
       "number": 153,
@@ -2061,13 +2082,6 @@
       "org": "velero-io",
       "title": "S3 client-side encryption support",
       "url": "https://github.com/velero-io/velero/issues/3218"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
       "number": 10232,
