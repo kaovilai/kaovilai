@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-30 — 2026-08-13
-> **Generated:** 2026-08-13 13:16:52 UTC
+> **Generated:** 2026-08-13 14:59:41 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -216,7 +216,8 @@
 - [#137 Add OpenShift static command profiles (payload, verified, jira, labels, specialized)](https://github.com/kaovilai/github-bot-command-palette/pull/137) — kaovilai/github-bot-command-palette
 ## PRs Reviewed (96)
 
-**velero-io** (34)
+**velero-io** (35)
+- [#10250 Fix pvr deadlock](https://github.com/velero-io/velero/pull/10250) — velero-io/velero
 - [#10255 Use thread safe map for cancel recorder](https://github.com/velero-io/velero/pull/10255) — velero-io/velero
 - [#10254 credentialFile in Config of BSL should be used internally](https://github.com/velero-io/velero/pull/10254) — velero-io/velero
 - [#10185 Full backup for all data movers](https://github.com/velero-io/velero/pull/10185) — velero-io/velero
@@ -278,7 +279,7 @@
 - [#2338 Remove inactive users from OWNERS](https://github.com/openshift/oadp-operator/pull/2338) — openshift/oadp-operator
 - [#158 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero-plugin-for-aws/pull/158) — openshift/velero-plugin-for-aws
 
-**migtools** (34)
+**migtools** (33)
 - [#183 [oadp-1.6] feat: add staleness check for per-VM DataUpload serialization](https://github.com/migtools/kubevirt-datamover-controller/pull/183) — migtools/kubevirt-datamover-controller
 - [#172 feat: add staleness check for per-VM DataUpload serialization](https://github.com/migtools/kubevirt-datamover-controller/pull/172) — migtools/kubevirt-datamover-controller
 - [#165 [oadp-1.6] fix: handle hyphenated disk names in extractDiskName](https://github.com/migtools/kubevirt-datamover-controller/pull/165) — migtools/kubevirt-datamover-controller
@@ -312,7 +313,6 @@
 - [#39 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/39) — migtools/kubevirt-datamover-plugin
 - [#369 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/369) — migtools/oadp-non-admin
 - [#45 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/45) — migtools/kopia
-- [#180 Remove inactive users from OWNERS](https://github.com/migtools/udistribution/pull/180) — migtools/udistribution
 
 **Other** (4)
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
