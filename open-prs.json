@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T20:53:29Z",
+  "updatedAt": "2026-08-13T21:51:24Z",
   "prs": [
     {
       "number": 10010,
@@ -964,7 +964,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-13T20:13:42Z"
+      "updatedAt": "2026-08-13T21:07:11Z"
     },
     {
       "number": 225,
@@ -1070,7 +1070,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-13T19:55:35Z"
+      "updatedAt": "2026-08-13T21:46:25Z"
     },
     {
       "number": 2358,
@@ -1414,7 +1414,7 @@
         "do-not-merge/hold",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-13T20:30:53Z"
+      "updatedAt": "2026-08-13T21:19:21Z"
     },
     {
       "number": 260,
@@ -1785,6 +1785,22 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-12T04:09:10Z"
+    },
+    {
+      "number": 159,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add ship skill for solo-repo commit-to-merge cycle",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/159",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-13T21:49:36Z"
     },
     {
       "number": 188,
@@ -2948,7 +2964,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-13T20:53:29Z",
+    "updatedAt": "2026-08-13T21:51:24Z",
     "needsReview": [
       {
         "number": 68,
@@ -3115,7 +3131,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3873,7 +3889,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4018,6 +4034,38 @@
         "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
+        "number": 10034,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "chore: pin helm/kind-action to commit with curl retry fix",
+        "url": "https://github.com/velero-io/velero/pull/10034",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "chlins"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 21,
+        "updatedAt": "2026-07-23T20:58:34Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4083,38 +4131,6 @@
         "reason": "awaitingReview",
         "waitingDays": 20,
         "updatedAt": "2026-07-23T22:40:21Z"
-      },
-      {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-07-23T20:58:34Z"
       },
       {
         "number": 8793,
@@ -4241,7 +4257,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4578,7 +4594,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4608,7 +4624,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4637,7 +4653,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5225,7 +5241,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5288,7 +5304,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -5301,7 +5317,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:13:42Z"
+        "updatedAt": "2026-08-13T21:07:11Z"
       },
       {
         "number": 2234,
@@ -5347,7 +5363,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -5358,7 +5374,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:55:35Z"
+        "updatedAt": "2026-08-13T21:46:25Z"
       },
       {
         "number": 2358,

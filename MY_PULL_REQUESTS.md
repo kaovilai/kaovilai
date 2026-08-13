@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-13 20:53:29 UTC
+> Last updated: 2026-08-13 21:51:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -113,6 +113,7 @@ No open PRs.
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-ready-green)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
+- [![PR #159](https://img.shields.io/badge/PR%20%23159-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/159) **kaovilai/github-bot-command-palette** → `main` - Add ship skill for solo-repo commit-to-merge cycle
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
