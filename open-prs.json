@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T13:21:11Z",
+  "updatedAt": "2026-08-13T15:01:22Z",
   "prs": [
     {
       "number": 10010,
@@ -2953,7 +2953,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-13T13:21:11Z",
+    "updatedAt": "2026-08-13T15:01:22Z",
     "needsReview": [
       {
         "number": 68,
@@ -3092,7 +3092,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3120,7 +3120,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3211,7 +3211,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3732,39 +3732,6 @@
         "updatedAt": "2026-07-17T09:11:39Z"
       },
       {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 27,
-        "updatedAt": "2026-07-16T15:28:53Z"
-      },
-      {
         "number": 261,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -3924,7 +3891,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3943,7 +3910,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3972,7 +3939,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4005,7 +3972,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4105,7 +4072,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4138,7 +4105,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4170,7 +4137,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4201,7 +4168,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4312,7 +4279,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 9,
+        "waitingDays": 10,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -4341,7 +4308,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-08-05T14:54:17Z"
       },
       {
@@ -4446,7 +4413,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4507,7 +4474,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4546,6 +4513,36 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
+        "number": 83221,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+        "url": "https://github.com/openshift/release/pull/83221",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "dgoodwin",
+          "stbenjam",
+          "petr-muller"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-12T14:01:01Z"
       },
       {
         "number": 83286,
@@ -4622,7 +4619,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4992,36 +4989,6 @@
         "updatedAt": "2026-08-12T21:08:47Z"
       },
       {
-        "number": 83221,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-        "url": "https://github.com/openshift/release/pull/83221",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "dgoodwin",
-          "stbenjam",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T14:01:01Z"
-      },
-      {
         "number": 83282,
         "repo": "openshift/release",
         "org": "openshift",
@@ -5138,34 +5105,66 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
+        "number": 48,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "Remove inactive users from OWNERS",
+        "url": "https://github.com/migtools/kopia/pull/48",
+        "targetBranch": "oadp-1.6",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
-          "kaovilai"
+          "sseago"
         ],
         "labels": [
-          "kind/changelog-not-required"
+          "lgtm",
+          "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
-        "hasProwApproval": false,
+        "hasProwApproval": true,
         "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 8,
+        "updatedAt": "2026-08-05T14:45:16Z"
+      },
+      {
+        "number": 253,
+        "repo": "migtools/oadp-cli",
+        "org": "migtools",
+        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
         "reviewRequests": [
           "shubham-pampattiwar"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
-        "updatedAt": "2026-07-23T20:59:18Z"
+        "waitingDays": 8,
+        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 5334,
@@ -5200,42 +5199,11 @@
         "updatedAt": "2026-08-05T08:25:34Z"
       },
       {
-        "number": 48,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "Remove inactive users from OWNERS",
-        "url": "https://github.com/migtools/kopia/pull/48",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 7,
-        "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
-        "number": 253,
-        "repo": "migtools/oadp-cli",
-        "org": "migtools",
-        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "number": 449,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Detect SCC UID/GID-range mismatch on namespace restore",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
         "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -5258,8 +5226,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 7,
-        "updatedAt": "2026-08-05T14:29:52Z"
+        "waitingDays": 8,
+        "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
         "number": 2357,
@@ -5312,37 +5280,6 @@
         "reason": "pendingMerge",
         "waitingDays": 7,
         "updatedAt": "2026-08-05T16:31:32Z"
-      },
-      {
-        "number": 449,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Detect SCC UID/GID-range mismatch on namespace restore",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 7,
-        "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
         "number": 18725,
@@ -5440,7 +5377,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5472,7 +5409,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
