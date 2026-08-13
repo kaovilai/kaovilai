@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T19:56:47Z",
+  "updatedAt": "2026-08-13T20:53:29Z",
   "prs": [
     {
       "number": 10010,
@@ -761,7 +761,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-13T19:09:03Z"
+      "updatedAt": "2026-08-13T19:59:49Z"
     },
     {
       "number": 2368,
@@ -797,7 +797,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-13T19:09:38Z"
+      "updatedAt": "2026-08-13T20:07:14Z"
     },
     {
       "number": 2374,
@@ -815,7 +815,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-13T19:02:15Z"
+      "updatedAt": "2026-08-13T20:07:16Z"
     },
     {
       "number": 2375,
@@ -833,25 +833,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-13T19:00:15Z"
-    },
-    {
-      "number": 2376,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2376",
-      "targetBranch": "oadp-1.4",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-13T19:10:24Z"
+      "updatedAt": "2026-08-13T20:07:17Z"
     },
     {
       "number": 2378,
@@ -982,7 +964,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-05T08:25:34Z"
+      "updatedAt": "2026-08-13T20:13:42Z"
     },
     {
       "number": 225,
@@ -1108,6 +1090,25 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-13T19:55:16Z"
+    },
+    {
+      "number": 2376,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2376",
+      "targetBranch": "oadp-1.4",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-13T20:43:03Z"
     },
     {
       "number": 449,
@@ -1357,7 +1358,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-13T18:59:01Z"
+      "updatedAt": "2026-08-13T20:23:28Z"
     },
     {
       "number": 2308,
@@ -1408,12 +1409,12 @@
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [],
-      "isDraft": false,
+      "isDraft": true,
       "labels": [
         "do-not-merge/hold",
-        "do-not-merge/invalid-owners-file"
+        "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-12T21:08:47Z"
+      "updatedAt": "2026-08-13T20:30:53Z"
     },
     {
       "number": 260,
@@ -1457,24 +1458,6 @@
         "ai-gen-bugfix"
       ],
       "updatedAt": "2026-08-13T18:59:08Z"
-    },
-    {
-      "number": 182,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-13T17:53:09Z"
     },
     {
       "number": 216,
@@ -1538,6 +1521,27 @@
       "updatedAt": "2026-08-05T14:45:16Z"
     },
     {
+      "number": 182,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-13T20:22:49Z"
+    },
+    {
       "number": 253,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1557,6 +1561,25 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:29:52Z"
+    },
+    {
+      "number": 186,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
+      "targetBranch": "oadp-dev",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "approved",
+        "do-not-merge/work-in-progress"
+      ],
+      "updatedAt": "2026-08-13T20:10:02Z"
     },
     {
       "number": 66,
@@ -1939,9 +1962,10 @@
         "sig/storage",
         "release-note",
         "lgtm",
-        "dco-signoff: yes"
+        "dco-signoff: yes",
+        "needs-approver-review"
       ],
-      "updatedAt": "2026-08-06T20:00:57Z"
+      "updatedAt": "2026-08-13T20:17:52Z"
     },
     {
       "number": 1034,
@@ -2924,7 +2948,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-13T19:56:47Z",
+    "updatedAt": "2026-08-13T20:53:29Z",
     "needsReview": [
       {
         "number": 68,
@@ -3104,7 +3128,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 184,
+        "waitingDays": 185,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3313,7 +3337,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 96,
+        "waitingDays": 97,
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
@@ -3344,7 +3368,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 89,
+        "waitingDays": 90,
         "updatedAt": "2026-05-15T20:42:37Z"
       },
       {
@@ -3374,7 +3398,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
@@ -3540,7 +3564,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3611,6 +3635,34 @@
         "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
+        "number": 267,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Fix silent volume restoration failures for encrypted snapshots",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 29,
+        "updatedAt": "2026-07-15T20:53:27Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3641,34 +3693,6 @@
         "reason": "awaitingReview",
         "waitingDays": 28,
         "updatedAt": "2026-07-16T16:05:03Z"
-      },
-      {
-        "number": 267,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Fix silent volume restoration failures for encrypted snapshots",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 28,
-        "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
         "number": 261,
@@ -3849,7 +3873,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4699,35 +4723,6 @@
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
-        "number": 182,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T17:53:09Z"
-      },
-      {
         "number": 2207,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4785,7 +4780,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T18:59:01Z"
+        "updatedAt": "2026-08-13T20:23:28Z"
       },
       {
         "number": 2367,
@@ -4808,12 +4803,13 @@
         "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "mpryc"
+          "mpryc",
+          "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:09:03Z"
+        "updatedAt": "2026-08-13T19:59:49Z"
       },
       {
         "number": 2373,
@@ -4831,9 +4827,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
           "mpryc",
@@ -4842,7 +4838,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:09:38Z"
+        "updatedAt": "2026-08-13T20:07:14Z"
       },
       {
         "number": 2374,
@@ -4860,18 +4856,17 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "Joeavaikath",
           "shubham-pampattiwar"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:02:15Z"
+        "updatedAt": "2026-08-13T20:07:16Z"
       },
       {
         "number": 2375,
@@ -4889,77 +4884,17 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "Joeavaikath",
           "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:00:15Z"
-      },
-      {
-        "number": 2376,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2376",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:10:24Z"
-      },
-      {
-        "number": 83049,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-        "url": "https://github.com/openshift/release/pull/83049",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "do-not-merge/invalid-owners-file"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "mpryc"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-12T21:08:47Z"
+        "updatedAt": "2026-08-13T20:07:17Z"
       },
       {
         "number": 10262,
@@ -5140,38 +5075,6 @@
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
-        "number": 5334,
-        "repo": "openshift/ci-tools",
-        "org": "openshift",
-        "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
-        "url": "https://github.com/openshift/ci-tools/pull/5334",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "droslean",
-          "Prucek"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 8,
-        "updatedAt": "2026-08-05T08:25:34Z"
-      },
-      {
         "number": 449,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -5201,41 +5104,6 @@
         "reason": "pendingMerge",
         "waitingDays": 8,
         "updatedAt": "2026-08-05T14:48:33Z"
-      },
-      {
-        "number": 18725,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Acedus"
-        ],
-        "labels": [
-          "size/S",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lgtm",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ShellyKa13"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-06T20:00:57Z"
       },
       {
         "number": 225,
@@ -5337,6 +5205,105 @@
         "updatedAt": "2026-08-12T19:50:15Z"
       },
       {
+        "number": 18725,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Acedus"
+        ],
+        "labels": [
+          "size/S",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lgtm",
+          "dco-signoff: yes",
+          "needs-approver-review"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ShellyKa13"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T20:17:52Z"
+      },
+      {
+        "number": 182,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T20:22:49Z"
+      },
+      {
+        "number": 5334,
+        "repo": "openshift/ci-tools",
+        "org": "openshift",
+        "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
+        "url": "https://github.com/openshift/ci-tools/pull/5334",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "droslean",
+          "Prucek"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T20:13:42Z"
+      },
+      {
         "number": 2234,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5419,6 +5386,33 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T19:55:16Z"
+      },
+      {
+        "number": 2376,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2376",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-13T20:43:03Z"
       }
     ]
   }

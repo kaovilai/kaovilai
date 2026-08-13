@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-13 19:56:47 UTC
+> Last updated: 2026-08-13 20:53:29 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -50,7 +50,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2373](https://img.shields.io/badge/PR%20%232373-ready-green)](https://github.com/openshift/oadp-operator/pull/2373) **openshift/oadp-operator** → `oadp-dev` - fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #2374](https://img.shields.io/badge/PR%20%232374-ready-green)](https://github.com/openshift/oadp-operator/pull/2374) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #2375](https://img.shields.io/badge/PR%20%232375-ready-green)](https://github.com/openshift/oadp-operator/pull/2375) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
-- [![PR #2376](https://img.shields.io/badge/PR%20%232376-ready-green)](https://github.com/openshift/oadp-operator/pull/2376) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #2378](https://img.shields.io/badge/PR%20%232378-ready-green)](https://github.com/openshift/oadp-operator/pull/2378) **openshift/oadp-operator** → `oadp-1.3` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
@@ -65,6 +64,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2357](https://img.shields.io/badge/PR%20%232357-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2357) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update
 - [![PR #2358](https://img.shields.io/badge/PR%20%232358-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2358) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update
+- [![PR #2376](https://img.shields.io/badge/PR%20%232376-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2376) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #5334](https://img.shields.io/badge/PR%20%235334-waiting--merge-blue)](https://github.com/openshift/ci-tools/pull/5334) **openshift/ci-tools** → `main` - test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
@@ -87,11 +87,12 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #182](https://img.shields.io/badge/PR%20%23182-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/182) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: correct S3 checkpoint index when backup type mismatch detected
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
+- [![PR #182](https://img.shields.io/badge/PR%20%23182-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/182) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: correct S3 checkpoint index when backup type mismatch detected
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
+- [![PR #186](https://img.shields.io/badge/PR%20%23186-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
