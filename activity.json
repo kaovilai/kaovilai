@@ -3,13 +3,13 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T19:14:32Z",
+  "generatedAt": "2026-08-13T20:46:45Z",
   "metrics": {
     "prsMerged": 87,
     "prsOpened": 100,
     "prsReviewed": 96,
-    "issuesCommented": 42,
-    "issuesClosed": 29
+    "issuesCommented": 44,
+    "issuesClosed": 30
   },
   "prsMerged": [
     {
@@ -623,6 +623,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 186,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
+    },
     {
       "number": 10263,
       "repo": "velero-io/velero",
@@ -1315,16 +1322,16 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-non-admin/pull/371"
-    },
-    {
-      "number": 459,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/459"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10132,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Do not assume a port name is a string when clearing node ports",
+      "url": "https://github.com/velero-io/velero/pull/10132"
+    },
     {
       "number": 2382,
       "repo": "openshift/oadp-operator",
@@ -1739,13 +1746,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
     },
     {
-      "number": 10132,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Do not assume a port name is a string when clearing node ports",
-      "url": "https://github.com/velero-io/velero/pull/10132"
-    },
-    {
       "number": 159,
       "repo": "openshift/oadp-must-gather",
       "org": "openshift",
@@ -2000,6 +2000,34 @@
   ],
   "issuesCommented": [
     {
+      "number": 169,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169"
+    },
+    {
+      "number": 120,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
+    },
+    {
+      "number": 10266,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: how to run CSI e2e specs against a local Kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/10266"
+    },
+    {
+      "number": 10265,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`",
+      "url": "https://github.com/velero-io/velero/issues/10265"
+    },
+    {
       "number": 7507,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2168,13 +2196,6 @@
       "url": "https://github.com/microsoft/vscode/issues/148413"
     },
     {
-      "number": 169,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169"
-    },
-    {
       "number": 45,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
@@ -2194,13 +2215,6 @@
       "org": "migtools",
       "title": "Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/162"
-    },
-    {
-      "number": 120,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
     },
     {
       "number": 10120,
@@ -2295,6 +2309,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 169,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169"
+    },
     {
       "number": 841,
       "repo": "kubernetes-sigs/prow",
