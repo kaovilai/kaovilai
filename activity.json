@@ -3,7 +3,7 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T02:26:04Z",
+  "generatedAt": "2026-08-13T07:42:06Z",
   "metrics": {
     "prsMerged": 83,
     "prsOpened": 100,
@@ -1298,6 +1298,41 @@
   ],
   "prsReviewed": [
     {
+      "number": 10255,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Use thread safe map for cancel recorder",
+      "url": "https://github.com/velero-io/velero/pull/10255"
+    },
+    {
+      "number": 10254,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "credentialFile in Config of BSL should be used internally",
+      "url": "https://github.com/velero-io/velero/pull/10254"
+    },
+    {
+      "number": 10185,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Full backup for all data movers",
+      "url": "https://github.com/velero-io/velero/pull/10185"
+    },
+    {
+      "number": 10229,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
+      "url": "https://github.com/velero-io/velero/pull/10229"
+    },
+    {
+      "number": 10251,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix wrong node-agent check result when PVR restorer run concurrently",
+      "url": "https://github.com/velero-io/velero/pull/10251"
+    },
+    {
       "number": 10127,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1326,13 +1361,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/165"
     },
     {
-      "number": 10251,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix wrong node-agent check result when PVR restorer run concurrently",
-      "url": "https://github.com/velero-io/velero/pull/10251"
-    },
-    {
       "number": 10245,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1345,13 +1373,6 @@
       "org": "velero-io",
       "title": "Allow configuration of page buffer size in Item Collector (#10219)",
       "url": "https://github.com/velero-io/velero/pull/10235"
-    },
-    {
-      "number": 10229,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
-      "url": "https://github.com/velero-io/velero/pull/10229"
     },
     {
       "number": 10210,
@@ -1947,30 +1968,16 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/udistribution/pull/180"
-    },
-    {
-      "number": 2337,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "update TROUBLESHOOTING.md to use oc oadp CLI instead of velero pod -exec alias",
-      "url": "https://github.com/openshift/oadp-operator/pull/2337"
-    },
-    {
-      "number": 2331,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: fix links, restic refs, and typos in examples and root-level docs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2331"
-    },
-    {
-      "number": 2334,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: fix broken links, stale paths, and typos across root and developer docs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2334"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
     {
       "number": 3218,
       "repo": "velero-io/velero",
@@ -2005,13 +2012,6 @@
       "org": "aws",
       "title": "EFS should have snapshot function similar to EBS",
       "url": "https://github.com/aws/aws-sdk-go-v2/issues/2906"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 22368,
