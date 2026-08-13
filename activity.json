@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-29",
-    "end": "2026-08-12"
+    "start": "2026-07-30",
+    "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-12T23:48:36Z",
+  "generatedAt": "2026-08-13T02:26:04Z",
   "metrics": {
-    "prsMerged": 85,
+    "prsMerged": 83,
     "prsOpened": 100,
     "prsReviewed": 96,
-    "issuesCommented": 44,
-    "issuesClosed": 24
+    "issuesCommented": 40,
+    "issuesClosed": 21
   },
   "prsMerged": [
     {
@@ -592,20 +592,6 @@
       "org": "migtools",
       "title": "Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/38"
-    },
-    {
-      "number": 143,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "oadp-1.6: Bump GitHub Actions to node24 runtime versions",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/143"
-    },
-    {
-      "number": 5329,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "pkg/steps: pin bundle builds to amd64 nodes",
-      "url": "https://github.com/openshift/ci-tools/pull/5329"
     }
   ],
   "prsOpened": [
@@ -1564,25 +1550,11 @@
       "url": "https://github.com/velero-io/velero/pull/10162"
     },
     {
-      "number": 10102,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Verify extracted item paths stay inside the backup directory",
-      "url": "https://github.com/velero-io/velero/pull/10102"
-    },
-    {
       "number": 166,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "feat: add BSL config parity with Velero AWS plugin",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/166"
-    },
-    {
-      "number": 10104,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update Restore Exposer and PVC CSI to support in-place restore",
-      "url": "https://github.com/velero-io/velero/pull/10104"
     },
     {
       "number": 10121,
@@ -1639,13 +1611,6 @@
       "org": "migtools",
       "title": "Remove dead oadp-operator replace directive",
       "url": "https://github.com/migtools/oadp-cli/pull/255"
-    },
-    {
-      "number": 168,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "[ImgBot] Optimize images",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/168"
     },
     {
       "number": 175,
@@ -1732,20 +1697,6 @@
       "url": "https://github.com/velero-io/velero/pull/10157"
     },
     {
-      "number": 10103,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add regression test for additional item with invalid JSON",
-      "url": "https://github.com/velero-io/velero/pull/10103"
-    },
-    {
-      "number": 10106,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix some issues for CBT features:",
-      "url": "https://github.com/velero-io/velero/pull/10106"
-    },
-    {
       "number": 10135,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1758,20 +1709,6 @@
       "org": "velero-io",
       "title": "Feature: Add support for server args to velero install Deployment",
       "url": "https://github.com/velero-io/velero/pull/10123"
-    },
-    {
-      "number": 10110,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "refactor(serverstatus): Remove outdated Kubernetes v1.9.0 workaround",
-      "url": "https://github.com/velero-io/velero/pull/10110"
-    },
-    {
-      "number": 242,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.4 (2c406b4) into oadp-1.4",
-      "url": "https://github.com/migtools/oadp-cli/pull/242"
     },
     {
       "number": 156,
@@ -1807,13 +1744,6 @@
       "org": "migtools",
       "title": "[oadp-1.5] OADP-8508: Fix schedule create examples showing velero instead of oc oadp",
       "url": "https://github.com/migtools/oadp-cli/pull/246"
-    },
-    {
-      "number": 2330,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.5 (a9247ea) into oadp-1.5",
-      "url": "https://github.com/openshift/oadp-operator/pull/2330"
     },
     {
       "number": 456,
@@ -1982,9 +1912,72 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
+    },
+    {
+      "number": 39,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/39"
+    },
+    {
+      "number": 158,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/158"
+    },
+    {
+      "number": 369,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/369"
+    },
+    {
+      "number": 45,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/kopia/pull/45"
+    },
+    {
+      "number": 180,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/udistribution/pull/180"
+    },
+    {
+      "number": 2337,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "update TROUBLESHOOTING.md to use oc oadp CLI instead of velero pod -exec alias",
+      "url": "https://github.com/openshift/oadp-operator/pull/2337"
+    },
+    {
+      "number": 2331,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: fix links, restic refs, and typos in examples and root-level docs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2331"
+    },
+    {
+      "number": 2334,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: fix broken links, stale paths, and typos across root and developer docs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2334"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 3218,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "S3 client-side encryption support",
+      "url": "https://github.com/velero-io/velero/issues/3218"
+    },
     {
       "number": 7507,
       "repo": "velero-io/velero",
@@ -2257,41 +2250,6 @@
       "org": "velero-io",
       "title": "velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory",
       "url": "https://github.com/velero-io/velero/issues/9963"
-    },
-    {
-      "number": 736,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "Tide status controller falsely reports \"In merge pool.\" for PRs blocked by a never-triggered required context",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/736"
-    },
-    {
-      "number": 110,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "[improve] Performance: add Vite manual chunk splitting for better browser caching",
-      "url": "https://github.com/kaovilai/kaovilai.pw/issues/110"
-    },
-    {
-      "number": 8466,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero doesnt do well with Minio bucket versioning ",
-      "url": "https://github.com/velero-io/velero/issues/8466"
-    },
-    {
-      "number": 9957,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "`VolumeSnapshotContent` resources are forcefully restored, ignoring `includedResources` and `excludedResources` filters",
-      "url": "https://github.com/velero-io/velero/issues/9957"
-    },
-    {
-      "number": 10092,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Deprecate the block volume backup/restore functionality through Kopia file system uploader",
-      "url": "https://github.com/velero-io/velero/issues/10092"
     }
   ],
   "issuesClosed": [
@@ -2441,27 +2399,6 @@
       "org": "kaovilai",
       "title": "Add JSON export alongside MY_ACTIVITY.md / MY_PULL_REQUESTS.md for site consumption",
       "url": "https://github.com/kaovilai/kaovilai/issues/67"
-    },
-    {
-      "number": 74,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "gh aw compile isn't available in this environment prevent use gh aw install action",
-      "url": "https://github.com/kaovilai/kaovilai.pw/issues/74"
-    },
-    {
-      "number": 5328,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "src-bundle build flake: no node selector lets buildah pod land on arm64 node, fails pulling amd64-only pipeline:src manifest list",
-      "url": "https://github.com/openshift/ci-tools/issues/5328"
-    },
-    {
-      "number": 1492,
-      "repo": "stolostron/multiclusterhub-operator",
-      "org": "stolostron",
-      "title": "Move CRD installs out of Reconcile",
-      "url": "https://github.com/stolostron/multiclusterhub-operator/issues/1492"
     }
   ]
 }
