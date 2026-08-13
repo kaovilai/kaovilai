@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-13 22:48:51 UTC
+> Last updated: 2026-08-13 23:36:38 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -58,7 +58,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #83221](https://img.shields.io/badge/PR%20%2383221-ready-green)](https://github.com/openshift/release/pull/83221) **openshift/release** → `main` - gather-must-gather: retry camgi download, don't fail gather on it
 - [![PR #83299](https://img.shields.io/badge/PR%20%2383299-ready-green)](https://github.com/openshift/release/pull/83299) **openshift/release** → `main` - gather-extra: don't let PLATFORM lookup abort entire gather step
 - [![PR #83341](https://img.shields.io/badge/PR%20%2383341-ready-green)](https://github.com/openshift/release/pull/83341) **openshift/release** → `main` - ci-tools: bump bin build memory request to 3Gi
-- [![PR #83416](https://img.shields.io/badge/PR%20%2383416-ready-green)](https://github.com/openshift/release/pull/83416) **openshift/release** → `main` - Add watch-ci-status skill: watch postsubmit refresh + PR status
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
@@ -91,7 +90,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #187](https://img.shields.io/badge/PR%20%23187-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: concurrency limiter for DataUpload controller (issue #174)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
-- [![PR #182](https://img.shields.io/badge/PR%20%23182-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/182) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: correct S3 checkpoint index when backup type mismatch detected
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability

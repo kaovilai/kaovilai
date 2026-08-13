@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T22:48:51Z",
+  "updatedAt": "2026-08-13T23:36:38Z",
   "prs": [
     {
       "number": 10010,
@@ -945,24 +945,6 @@
       "updatedAt": "2026-08-12T19:29:09Z"
     },
     {
-      "number": 83416,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add watch-ci-status skill: watch postsubmit refresh + PR status",
-      "url": "https://github.com/openshift/release/pull/83416",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-13T22:09:46Z"
-    },
-    {
       "number": 225,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -1354,7 +1336,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-13T20:23:28Z"
+      "updatedAt": "2026-08-13T23:08:03Z"
     },
     {
       "number": 2308,
@@ -1410,7 +1392,7 @@
         "do-not-merge/hold",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-13T21:56:10Z"
+      "updatedAt": "2026-08-13T23:24:50Z"
     },
     {
       "number": 260,
@@ -1551,27 +1533,6 @@
         "approved"
       ],
       "updatedAt": "2026-08-05T14:45:16Z"
-    },
-    {
-      "number": 182,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-13T20:22:49Z"
     },
     {
       "number": 253,
@@ -2961,7 +2922,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-13T22:48:51Z",
+    "updatedAt": "2026-08-13T23:36:38Z",
     "needsReview": [
       {
         "number": 68,
@@ -4300,7 +4261,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4821,7 +4782,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:23:28Z"
+        "updatedAt": "2026-08-13T23:08:03Z"
       },
       {
         "number": 2367,
@@ -4936,35 +4897,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T20:07:17Z"
-      },
-      {
-        "number": 83416,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "Add watch-ci-status skill: watch postsubmit refresh + PR status",
-        "url": "https://github.com/openshift/release/pull/83416",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "Prucek"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T22:09:46Z"
       },
       {
         "number": 10262,
@@ -5309,37 +5241,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T20:17:52Z"
-      },
-      {
-        "number": 182,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "sseago"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:22:49Z"
       },
       {
         "number": 2234,
