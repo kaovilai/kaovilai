@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-07-30 — 2026-08-13
-> **Generated:** 2026-08-13 20:46:45 UTC
+> **Generated:** 2026-08-13 21:49:26 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 87 |
+| PRs Merged | 88 |
 | PRs Opened | 100 |
 | PRs Reviewed | 96 |
 | Issues/PRs Commented | 44 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (87)
+## PRs Merged (88)
 
 **velero-io** (8)
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
@@ -80,7 +80,8 @@
 - [#157 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-controller/pull/157) — migtools/kubevirt-datamover-controller
 - [#38 Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support](https://github.com/migtools/kubevirt-datamover-plugin/pull/38) — migtools/kubevirt-datamover-plugin
 
-**Other** (28)
+**Other** (29)
+- [#158 Fix job picker status mismatching GitHub's real check state](https://github.com/kaovilai/github-bot-command-palette/pull/158) — kaovilai/github-bot-command-palette
 - [#155 Fix detectTargetBranch resolving head branch instead of base](https://github.com/kaovilai/github-bot-command-palette/pull/155) — kaovilai/github-bot-command-palette
 - [#187 Implementing recent review display feature](https://github.com/kaovilai/kaovilai.pw/pull/187) — kaovilai/kaovilai.pw
 - [#183 Add review queue panel consuming reviewQueue data from open-prs.json](https://github.com/kaovilai/kaovilai.pw/pull/183) — kaovilai/kaovilai.pw
@@ -123,7 +124,7 @@
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
-**openshift** (42)
+**openshift** (41)
 - [#83341 ci-tools: bump bin build memory request to 3Gi](https://github.com/openshift/release/pull/83341) — openshift/release
 - [#2379 Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/](https://github.com/openshift/oadp-operator/pull/2379) — openshift/oadp-operator
 - [#2378 Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/](https://github.com/openshift/oadp-operator/pull/2378) — openshift/oadp-operator
@@ -165,9 +166,8 @@
 - [#153 Remove inactive users from OWNERS](https://github.com/openshift/oadp-must-gather/pull/153) — openshift/oadp-must-gather
 - [#152 Remove inactive users from OWNERS](https://github.com/openshift/oadp-must-gather/pull/152) — openshift/oadp-must-gather
 - [#162 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero-plugin-for-gcp/pull/162) — openshift/velero-plugin-for-gcp
-- [#460 Remove inactive users from OWNERS](https://github.com/openshift/openshift-velero-plugin/pull/460) — openshift/openshift-velero-plugin
 
-**migtools** (13)
+**migtools** (12)
 - [#186 feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) — migtools/kubevirt-datamover-controller
 - [#182 fix: correct S3 checkpoint index when backup type mismatch detected](https://github.com/migtools/kubevirt-datamover-controller/pull/182) — migtools/kubevirt-datamover-controller
 - [#180 fix: wire BSL profile config through to S3 credential resolution](https://github.com/migtools/kubevirt-datamover-controller/pull/180) — migtools/kubevirt-datamover-controller
@@ -180,9 +180,10 @@
 - [#40 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/40) — migtools/kubevirt-datamover-plugin
 - [#157 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-controller/pull/157) — migtools/kubevirt-datamover-controller
 - [#251 Remove inactive users from OWNERS](https://github.com/migtools/oadp-cli/pull/251) — migtools/oadp-cli
-- [#371 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/371) — migtools/oadp-non-admin
 
-**Other** (35)
+**Other** (37)
+- [#159 Add ship skill for solo-repo commit-to-merge cycle](https://github.com/kaovilai/github-bot-command-palette/pull/159) — kaovilai/github-bot-command-palette
+- [#158 Fix job picker status mismatching GitHub's real check state](https://github.com/kaovilai/github-bot-command-palette/pull/158) — kaovilai/github-bot-command-palette
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
 - [#155 Fix detectTargetBranch resolving head branch instead of base](https://github.com/kaovilai/github-bot-command-palette/pull/155) — kaovilai/github-bot-command-palette
 - [#35 Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site](https://github.com/HASHCUT69/Blend-n-Run/pull/35) — HASHCUT69/Blend-n-Run

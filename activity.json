@@ -3,15 +3,22 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T20:46:45Z",
+  "generatedAt": "2026-08-13T21:49:26Z",
   "metrics": {
-    "prsMerged": 87,
+    "prsMerged": 88,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 158,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix job picker status mismatching GitHub's real check state",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/158"
+    },
     {
       "number": 83286,
       "repo": "openshift/release",
@@ -623,6 +630,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 159,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add ship skill for solo-repo commit-to-merge cycle",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/159"
+    },
+    {
+      "number": 158,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fix job picker status mismatching GitHub's real check state",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/158"
+    },
     {
       "number": 186,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1308,36 +1329,22 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/251"
-    },
-    {
-      "number": 460,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/460"
-    },
-    {
-      "number": 371,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/371"
     }
   ],
   "prsReviewed": [
-    {
-      "number": 10132,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Do not assume a port name is a string when clearing node ports",
-      "url": "https://github.com/velero-io/velero/pull/10132"
-    },
     {
       "number": 2382,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "PodResources must be complete for Velero parser",
       "url": "https://github.com/openshift/oadp-operator/pull/2382"
+    },
+    {
+      "number": 10132,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Do not assume a port name is a string when clearing node ports",
+      "url": "https://github.com/velero-io/velero/pull/10132"
     },
     {
       "number": 185,
