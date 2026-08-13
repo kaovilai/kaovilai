@@ -3,15 +3,22 @@
     "start": "2026-07-30",
     "end": "2026-08-13"
   },
-  "generatedAt": "2026-08-13T14:59:41Z",
+  "generatedAt": "2026-08-13T16:05:25Z",
   "metrics": {
-    "prsMerged": 83,
+    "prsMerged": 84,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 40,
     "issuesClosed": 21
   },
   "prsMerged": [
+    {
+      "number": 2241,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2241"
+    },
     {
       "number": 5363,
       "repo": "openshift/ci-tools",
@@ -1298,6 +1305,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10187,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "thread context through GetVolumeSnapshotContentForVolumeSnapshot",
+      "url": "https://github.com/velero-io/velero/pull/10187"
+    },
+    {
       "number": 10250,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1961,13 +1975,6 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-non-admin/pull/369"
-    },
-    {
-      "number": 45,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/45"
     }
   ],
   "issuesCommented": [
