@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T01:39:16Z",
+  "updatedAt": "2026-08-14T07:17:59Z",
   "prs": [
     {
       "number": 10010,
@@ -555,7 +555,7 @@
       "labels": [
         "has-changelog"
       ],
-      "updatedAt": "2026-08-13T16:57:14Z"
+      "updatedAt": "2026-08-14T03:44:19Z"
     },
     {
       "number": 10263,
@@ -576,7 +576,7 @@
       "labels": [
         "has-changelog"
       ],
-      "updatedAt": "2026-08-13T17:08:51Z"
+      "updatedAt": "2026-08-14T03:44:04Z"
     },
     {
       "number": 7941,
@@ -1032,25 +1032,6 @@
       "updatedAt": "2026-08-13T19:05:52Z"
     },
     {
-      "number": 2358,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2358",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-13T22:38:01Z"
-    },
-    {
       "number": 449,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -1317,7 +1298,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-14T00:39:27Z"
+      "updatedAt": "2026-08-14T03:17:58Z"
     },
     {
       "number": 2308,
@@ -2903,7 +2884,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T01:39:16Z",
+    "updatedAt": "2026-08-14T07:17:59Z",
     "needsReview": [
       {
         "number": 68,
@@ -2916,7 +2897,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -2950,7 +2931,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 486,
+        "waitingDays": 487,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -2998,7 +2979,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 468,
+        "waitingDays": 469,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3056,7 +3037,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 246,
+        "waitingDays": 247,
         "updatedAt": "2025-12-10T06:37:59Z"
       },
       {
@@ -3070,7 +3051,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3973,6 +3954,39 @@
         "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
+        "number": 9236,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "CHANGES_REQUESTED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 22,
+        "updatedAt": "2026-07-23T05:47:21Z"
+      },
+      {
         "number": 10027,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4070,39 +4084,6 @@
         "updatedAt": "2026-07-23T22:46:17Z"
       },
       {
-        "number": 9236,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "CHANGES_REQUESTED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 21,
-        "updatedAt": "2026-07-23T05:47:21Z"
-      },
-      {
         "number": 10077,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4162,7 +4143,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-07-28T04:24:27Z"
       },
       {
@@ -4382,6 +4363,30 @@
         "updatedAt": "2026-08-10T16:09:09Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -4411,16 +4416,51 @@
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
+        "number": 83299,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "gather-extra: don't let PLATFORM lookup abort entire gather step",
+        "url": "https://github.com/openshift/release/pull/83299",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean",
+          "sosiouxme"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T04:35:00Z"
+      },
+      {
+        "number": 10210,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
+        "url": "https://github.com/velero-io/velero/pull/10210",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
@@ -4428,11 +4468,13 @@
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "kaovilai"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T04:09:10Z"
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T05:10:33Z"
       },
       {
         "number": 2368,
@@ -4551,35 +4593,6 @@
         "updatedAt": "2026-08-12T14:01:01Z"
       },
       {
-        "number": 83299,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "gather-extra: don't let PLATFORM lookup abort entire gather step",
-        "url": "https://github.com/openshift/release/pull/83299",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "sosiouxme"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T04:35:00Z"
-      },
-      {
         "number": 83341,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4607,38 +4620,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-12T19:29:09Z"
-      },
-      {
-        "number": 10210,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-        "url": "https://github.com/velero-io/velero/pull/10210",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T05:10:33Z"
       },
       {
         "number": 478,
@@ -4793,7 +4774,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T00:39:27Z"
+        "updatedAt": "2026-08-14T03:17:58Z"
       },
       {
         "number": 2367,
@@ -4928,15 +4909,15 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T16:57:14Z"
+        "updatedAt": "2026-08-14T03:44:19Z"
       },
       {
         "number": 10263,
@@ -4957,15 +4938,15 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T17:08:51Z"
+        "updatedAt": "2026-08-14T03:44:04Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5282,33 +5263,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T19:05:52Z"
-      },
-      {
-        "number": 2358,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
-        "url": "https://github.com/openshift/oadp-operator/pull/2358",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T22:38:01Z"
       }
     ]
   }
