@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-07-30",
-    "end": "2026-08-13"
+    "start": "2026-07-31",
+    "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-13T23:48:51Z",
+  "generatedAt": "2026-08-14T02:24:10Z",
   "metrics": {
-    "prsMerged": 92,
+    "prsMerged": 91,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
-    "issuesClosed": 31
+    "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 2357,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2357"
+    },
     {
       "number": 2376,
       "repo": "openshift/oadp-operator",
@@ -641,23 +648,16 @@
       "org": "openshift",
       "title": "Remove inactive users from DOWNSTREAM_OWNERS",
       "url": "https://github.com/openshift/velero/pull/560"
-    },
-    {
-      "number": 68,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Emit JSON exports (open-prs.json, activity.json) alongside markdown reports",
-      "url": "https://github.com/kaovilai/kaovilai/pull/68"
-    },
-    {
-      "number": 38,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Cherry-pick PR #37: bump kubevirt-datamover-controller for Azure support",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/38"
     }
   ],
   "prsOpened": [
+    {
+      "number": 2387,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD",
+      "url": "https://github.com/openshift/oadp-operator/pull/2387"
+    },
     {
       "number": 187,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1350,16 +1350,16 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/157"
-    },
-    {
-      "number": 152,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/152"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 188,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: correct S3 checkpoint index when backup type mismatch detected",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/188"
+    },
     {
       "number": 562,
       "repo": "openshift/velero",
@@ -1697,13 +1697,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/166"
     },
     {
-      "number": 10121,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Enhancement: fail-fast on velero install wait",
-      "url": "https://github.com/velero-io/velero/pull/10121"
-    },
-    {
       "number": 2356,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1767,13 +1760,6 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/372"
     },
     {
-      "number": 10119,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix csi pvc restore action",
-      "url": "https://github.com/velero-io/velero/pull/10119"
-    },
-    {
       "number": 3,
       "repo": "kaovilai/redirector",
       "org": "kaovilai",
@@ -1835,13 +1821,6 @@
       "org": "velero-io",
       "title": "Bump github/codeql-action from 3 to 4.37.3",
       "url": "https://github.com/velero-io/velero/pull/10135"
-    },
-    {
-      "number": 10123,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Feature: Add support for server args to velero install Deployment",
-      "url": "https://github.com/velero-io/velero/pull/10123"
     },
     {
       "number": 156,
@@ -2031,9 +2010,30 @@
       "org": "migtools",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/migtools/oadp-cli/pull/248"
+    },
+    {
+      "number": 2338,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2338"
+    },
+    {
+      "number": 96,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Remove inactive users from OWNERS",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 597,
+      "repo": "openshift/ci-docs",
+      "org": "openshift",
+      "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
+      "url": "https://github.com/openshift/ci-docs/issues/597"
+    },
     {
       "number": 175,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -2334,13 +2334,6 @@
       "org": "velero-io",
       "title": "Add safe auto-merge workflow for high-confidence Dependabot PRs",
       "url": "https://github.com/velero-io/velero/issues/9965"
-    },
-    {
-      "number": 9963,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory",
-      "url": "https://github.com/velero-io/velero/issues/9963"
     }
   ],
   "issuesClosed": [
@@ -2546,20 +2539,6 @@
       "org": "kaovilai",
       "title": "Implement my gemini app into github pages static",
       "url": "https://github.com/kaovilai/route-127-trailer-nc/issues/1"
-    },
-    {
-      "number": 146,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "https://legacy.kaovilai.pw/pay-me this section has thai qr code payment info. add it to here",
-      "url": "https://github.com/kaovilai/kaovilai.pw/issues/146"
-    },
-    {
-      "number": 67,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Add JSON export alongside MY_ACTIVITY.md / MY_PULL_REQUESTS.md for site consumption",
-      "url": "https://github.com/kaovilai/kaovilai/issues/67"
     }
   ]
 }
