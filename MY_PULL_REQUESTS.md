@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-14 22:27:31 UTC
+> Last updated: 2026-08-14 23:17:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -26,6 +26,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
+- [![PR #10281](https://img.shields.io/badge/PR%20%2310281-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10276](https://img.shields.io/badge/PR%20%2310276-draft-gray)](https://github.com/velero-io/velero/pull/10276) **velero-io/velero** → `main` - Fail fast with clear error when data mover pod is unschedulable (milestone: **v1.19**)
@@ -40,7 +41,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
-- [![PR #10281](https://img.shields.io/badge/PR%20%2310281-failing--ci-red)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
@@ -60,6 +60,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
+- [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
 - [![PR #83221](https://img.shields.io/badge/PR%20%2383221-ready-green)](https://github.com/openshift/release/pull/83221) **openshift/release** → `main` - gather-must-gather: retry camgi download, don't fail gather on it
 - [![PR #83299](https://img.shields.io/badge/PR%20%2383299-ready-green)](https://github.com/openshift/release/pull/83299) **openshift/release** → `main` - gather-extra: don't let PLATFORM lookup abort entire gather step
@@ -79,7 +80,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
-- [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
