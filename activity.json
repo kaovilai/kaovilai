@@ -3,12 +3,12 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T21:27:07Z",
+  "generatedAt": "2026-08-14T22:25:59Z",
   "metrics": {
     "prsMerged": 95,
     "prsOpened": 100,
     "prsReviewed": 95,
-    "issuesCommented": 44,
+    "issuesCommented": 45,
     "issuesClosed": 29
   },
   "prsMerged": [
@@ -679,6 +679,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 321,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321"
+    },
+    {
+      "number": 320,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/320"
+    },
     {
       "number": 324,
       "repo": "velero-io/velero-plugin-for-microsoft-azure",
@@ -1364,20 +1378,6 @@
       "org": "openshift",
       "title": "Remove unused releases: blocks from OADP ci-operator configs",
       "url": "https://github.com/openshift/release/pull/82747"
-    },
-    {
-      "number": 77,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/77"
-    },
-    {
-      "number": 76,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/76"
     }
   ],
   "prsReviewed": [
@@ -2048,6 +2048,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9964,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backup-finalizer retries forever when object-store PUT hits a non-retryable error (e.g. Azure BlobImmutableDueToPolicy 409)",
+      "url": "https://github.com/velero-io/velero/issues/9964"
+    },
     {
       "number": 7507,
       "repo": "velero-io/velero",
