@@ -3,7 +3,7 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T13:11:09Z",
+  "generatedAt": "2026-08-14T14:53:57Z",
   "metrics": {
     "prsMerged": 95,
     "prsOpened": 100,
@@ -725,7 +725,7 @@
       "number": 186,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)",
+      "title": "test: prove multi-disk restore isolation under concurrency + scratch PVC provisioning hardening (issue #73 Phase 4)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
     },
     {
@@ -1382,11 +1382,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 10236,
+      "number": 10273,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "E2E: add kind VolumeSnapshotClass test data",
-      "url": "https://github.com/velero-io/velero/pull/10236"
+      "title": "Fix PVR regression",
+      "url": "https://github.com/velero-io/velero/pull/10273"
     },
     {
       "number": 10229,
@@ -1394,6 +1394,13 @@
       "org": "velero-io",
       "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
       "url": "https://github.com/velero-io/velero/pull/10229"
+    },
+    {
+      "number": 10236,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: add kind VolumeSnapshotClass test data",
+      "url": "https://github.com/velero-io/velero/pull/10236"
     },
     {
       "number": 10245,
@@ -2045,13 +2052,6 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/oadp-operator/pull/2338"
-    },
-    {
-      "number": 96,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/96"
     }
   ],
   "issuesCommented": [
