@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:36:38Z",
+  "updatedAt": "2026-08-14T01:39:16Z",
   "prs": [
     {
       "number": 10010,
@@ -1032,25 +1032,6 @@
       "updatedAt": "2026-08-13T19:05:52Z"
     },
     {
-      "number": 2357,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2357",
-      "targetBranch": "oadp-1.5",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-13T21:46:25Z"
-    },
-    {
       "number": 2358,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1068,25 +1049,6 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-13T22:38:01Z"
-    },
-    {
-      "number": 2376,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2376",
-      "targetBranch": "oadp-1.4",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-13T20:43:03Z"
     },
     {
       "number": 449,
@@ -1127,6 +1089,25 @@
         "do-not-merge/work-in-progress"
       ],
       "updatedAt": "2026-08-07T06:04:11Z"
+    },
+    {
+      "number": 2387,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD",
+      "url": "https://github.com/openshift/oadp-operator/pull/2387",
+      "targetBranch": "oadp-dev",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "approved",
+        "do-not-merge/work-in-progress"
+      ],
+      "updatedAt": "2026-08-14T00:34:08Z"
     },
     {
       "number": 598,
@@ -1336,7 +1317,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-13T23:08:03Z"
+      "updatedAt": "2026-08-14T00:39:27Z"
     },
     {
       "number": 2308,
@@ -2922,7 +2903,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-13T23:36:38Z",
+    "updatedAt": "2026-08-14T01:39:16Z",
     "needsReview": [
       {
         "number": 68,
@@ -2945,7 +2926,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 637,
+        "waitingDays": 638,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -2993,7 +2974,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 475,
+        "waitingDays": 476,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -3089,7 +3070,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3346,6 +3327,36 @@
         "updatedAt": "2026-05-15T20:42:37Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 65,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -3424,7 +3435,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3496,6 +3507,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 30,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3553,30 +3588,6 @@
         "reason": "hold",
         "waitingDays": 29,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 29,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3834,6 +3845,35 @@
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 24,
+        "updatedAt": "2026-07-21T00:29:16Z"
+      },
+      {
         "number": 8884,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3865,35 +3905,6 @@
         "reason": "awaitingReview",
         "waitingDays": 24,
         "updatedAt": "2026-07-20T19:47:24Z"
-      },
-      {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 297,
@@ -4119,7 +4130,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-07-25T23:41:12Z"
       },
       {
@@ -4436,7 +4447,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4493,7 +4504,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4522,7 +4533,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4552,7 +4563,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4581,7 +4592,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4738,7 +4749,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4782,7 +4793,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T23:08:03Z"
+        "updatedAt": "2026-08-14T00:39:27Z"
       },
       {
         "number": 2367,
@@ -4883,7 +4894,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5273,33 +5284,6 @@
         "updatedAt": "2026-08-13T19:05:52Z"
       },
       {
-        "number": 2357,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
-        "url": "https://github.com/openshift/oadp-operator/pull/2357",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T21:46:25Z"
-      },
-      {
         "number": 2358,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5325,33 +5309,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T22:38:01Z"
-      },
-      {
-        "number": 2376,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2376",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:43:03Z"
       }
     ]
   }
