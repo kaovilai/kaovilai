@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-14 21:28:26 UTC
+> Last updated: 2026-08-14 22:27:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -14,7 +14,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
+- [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/320) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
+- [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/321) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)

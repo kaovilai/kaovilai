@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T21:28:26Z",
+  "updatedAt": "2026-08-14T22:27:31Z",
   "prs": [
     {
       "number": 10010,
@@ -267,6 +267,42 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-14T21:03:43Z"
+    },
+    {
+      "number": 320,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/320",
+      "targetBranch": "release-1.14",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T22:12:01Z"
+    },
+    {
+      "number": 321,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T22:23:25Z"
     },
     {
       "number": 266,
@@ -1483,7 +1519,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-14T20:57:56Z"
+      "updatedAt": "2026-08-14T22:19:28Z"
     },
     {
       "number": 187,
@@ -2952,7 +2988,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T21:28:26Z",
+    "updatedAt": "2026-08-14T22:27:31Z",
     "needsReview": [
       {
         "number": 68,
@@ -3497,7 +3533,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-06T21:56:02Z"
       },
       {
@@ -4182,7 +4218,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4275,6 +4311,35 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 2134,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "DNM: Test: disable pod restart workaround after file-system restore",
+        "url": "https://github.com/openshift/oadp-operator/pull/2134",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-07T21:59:39Z"
+      },
+      {
         "number": 9384,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4305,35 +4370,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-08-07T18:22:38Z"
-      },
-      {
-        "number": 2134,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "DNM: Test: disable pod restart workaround after file-system restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2134",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 9772,
@@ -4519,7 +4555,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4549,7 +4585,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4578,7 +4614,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4662,6 +4698,35 @@
         "reason": "hold",
         "waitingDays": 1,
         "updatedAt": "2026-08-13T12:14:37Z"
+      },
+      {
+        "number": 187,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T22:15:24Z"
       },
       {
         "number": 2207,
@@ -4834,36 +4899,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T20:57:56Z"
-      },
-      {
-        "number": 187,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T22:15:24Z"
+        "updatedAt": "2026-08-14T22:19:28Z"
       },
       {
         "number": 2350,
@@ -5016,6 +5052,64 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-14T21:03:43Z"
+      },
+      {
+        "number": 320,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/320",
+        "targetBranch": "release-1.14",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "reasonerjt",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T22:12:01Z"
+      },
+      {
+        "number": 321,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T22:23:25Z"
       },
       {
         "number": 266,
