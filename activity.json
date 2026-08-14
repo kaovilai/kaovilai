@@ -3,15 +3,29 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T07:39:45Z",
+  "generatedAt": "2026-08-14T13:11:09Z",
   "metrics": {
-    "prsMerged": 93,
+    "prsMerged": 95,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
     "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 10262,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Backport #10250: Fix pod volume restore deadlock",
+      "url": "https://github.com/velero-io/velero/pull/10262"
+    },
+    {
+      "number": 10263,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Backport #10250: Fix pod volume restore deadlock",
+      "url": "https://github.com/velero-io/velero/pull/10263"
+    },
     {
       "number": 160,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1368,6 +1382,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10236,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: add kind VolumeSnapshotClass test data",
+      "url": "https://github.com/velero-io/velero/pull/10236"
+    },
+    {
+      "number": 10229,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
+      "url": "https://github.com/velero-io/velero/pull/10229"
+    },
+    {
       "number": 10245,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1459,13 +1487,6 @@
       "url": "https://github.com/velero-io/velero/pull/10185"
     },
     {
-      "number": 10229,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
-      "url": "https://github.com/velero-io/velero/pull/10229"
-    },
-    {
       "number": 10251,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1520,13 +1541,6 @@
       "org": "velero-io",
       "title": "test: add unit tests for boolptr and stringptr utilities",
       "url": "https://github.com/velero-io/velero/pull/10196"
-    },
-    {
-      "number": 10236,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: add kind VolumeSnapshotClass test data",
-      "url": "https://github.com/velero-io/velero/pull/10236"
     },
     {
       "number": 2370,
@@ -2042,6 +2056,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 10265,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`",
+      "url": "https://github.com/velero-io/velero/issues/10265"
+    },
+    {
+      "number": 841,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2084,13 +2112,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
     },
     {
-      "number": 10265,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`",
-      "url": "https://github.com/velero-io/velero/issues/10265"
-    },
-    {
       "number": 7507,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2103,13 +2124,6 @@
       "org": "migtools",
       "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
-    },
-    {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
     },
     {
       "number": 153,
@@ -2352,6 +2366,13 @@
   ],
   "issuesClosed": [
     {
+      "number": 841,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
+    },
+    {
       "number": 5333,
       "repo": "openshift/ci-tools",
       "org": "openshift",
@@ -2364,13 +2385,6 @@
       "org": "migtools",
       "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169"
-    },
-    {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
     },
     {
       "number": 153,
