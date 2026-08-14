@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T17:01:50Z",
+  "updatedAt": "2026-08-14T18:59:44Z",
   "prs": [
     {
       "number": 10010,
@@ -1003,7 +1003,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-12T19:50:15Z"
+      "updatedAt": "2026-08-14T17:29:50Z"
     },
     {
       "number": 2234,
@@ -1292,7 +1292,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-14T03:17:58Z"
+      "updatedAt": "2026-08-14T18:48:19Z"
     },
     {
       "number": 2308,
@@ -1348,7 +1348,7 @@
         "do-not-merge/hold",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-13T23:24:50Z"
+      "updatedAt": "2026-08-14T17:36:16Z"
     },
     {
       "number": 260,
@@ -1397,7 +1397,7 @@
       "number": 186,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "test: prove multi-disk restore isolation under concurrency + scratch PVC provisioning hardening (issue #73 Phase 4)",
+      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
       "targetBranch": "oadp-dev",
       "status": "ready",
@@ -1409,7 +1409,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-14T14:45:49Z"
+      "updatedAt": "2026-08-14T18:00:40Z"
     },
     {
       "number": 187,
@@ -2878,7 +2878,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T17:01:50Z",
+    "updatedAt": "2026-08-14T18:59:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -3194,7 +3194,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3207,7 +3207,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 100,
+        "waitingDays": 101,
         "updatedAt": "2026-05-05T18:21:10Z"
       },
       {
@@ -3254,7 +3254,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3478,7 +3478,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3882,38 +3882,6 @@
         "updatedAt": "2026-07-20T19:47:24Z"
       },
       {
-        "number": 10051,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-        "url": "https://github.com/velero-io/velero/pull/10051",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "adam-jian-zhang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-07-22T08:06:39Z"
-      },
-      {
         "number": 297,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -3944,8 +3912,40 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-07-22T17:33:01Z"
+      },
+      {
+        "number": 10051,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+        "url": "https://github.com/velero-io/velero/pull/10051",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "adam-jian-zhang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 23,
+        "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
         "number": 9236,
@@ -4157,7 +4157,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4264,35 +4264,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 2134,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "DNM: Test: disable pod restart workaround after file-system restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2134",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-07T21:59:39Z"
-      },
-      {
         "number": 9384,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4321,8 +4292,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-08-07T18:22:38Z"
+      },
+      {
+        "number": 2134,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "DNM: Test: disable pod restart workaround after file-system restore",
+        "url": "https://github.com/openshift/oadp-operator/pull/2134",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 9772,
@@ -4408,6 +4408,64 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
+        "number": 2378,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2378",
+        "targetBranch": "oadp-1.3",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T18:06:50Z"
+      },
+      {
+        "number": 2379,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2379",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
         "number": 83221,
@@ -4520,7 +4578,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4566,64 +4624,6 @@
         "updatedAt": "2026-08-12T19:01:32Z"
       },
       {
-        "number": 2378,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2378",
-        "targetBranch": "oadp-1.3",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T18:06:50Z"
-      },
-      {
-        "number": 2379,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2379",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T18:07:16Z"
-      },
-      {
         "number": 83341,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4656,7 +4656,7 @@
         "number": 186,
         "repo": "migtools/kubevirt-datamover-controller",
         "org": "migtools",
-        "title": "test: prove multi-disk restore isolation under concurrency + scratch PVC provisioning hardening (issue #73 Phase 4)",
+        "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
         "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
         "targetBranch": "oadp-dev",
         "author": "kaovilai",
@@ -4679,7 +4679,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T14:45:49Z"
+        "updatedAt": "2026-08-14T18:00:40Z"
       },
       {
         "number": 187,
@@ -4768,7 +4768,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T03:17:58Z"
+        "updatedAt": "2026-08-14T18:48:19Z"
       },
       {
         "number": 2367,
@@ -4783,7 +4783,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4812,7 +4812,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5102,39 +5102,6 @@
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
-        "number": 2205,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
-        "url": "https://github.com/openshift/oadp-operator/pull/2205",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T19:50:15Z"
-      },
-      {
         "number": 18725,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -5169,6 +5136,39 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T20:17:52Z"
+      },
+      {
+        "number": 2205,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2205",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T17:29:50Z"
       },
       {
         "number": 2234,
