@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-31 — 2026-08-14
-> **Generated:** 2026-08-14 19:51:08 UTC
+> **Generated:** 2026-08-14 20:33:18 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -119,7 +119,9 @@
 - [#2 Implement Route 127 trailer strategy calculator as a static GitHub Pages site](https://github.com/kaovilai/route-127-trailer-nc/pull/2) — kaovilai/route-127-trailer-nc
 ## PRs Opened (100)
 
-**velero-io** (12)
+**velero-io** (14)
+- [#319 Use velero-io/velero's shared reusable workflows instead of local copies](https://github.com/velero-io/velero-plugin-for-aws/pull/319) — velero-io/velero-plugin-for-aws
+- [#10281 Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos](https://github.com/velero-io/velero/pull/10281) — velero-io/velero
 - [#10276 Fail fast with clear error when data mover pod is unschedulable](https://github.com/velero-io/velero/pull/10276) — velero-io/velero
 - [#10275 Implement namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10275) — velero-io/velero
 - [#10263 [release-1.18] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10263) — velero-io/velero
@@ -133,7 +135,7 @@
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
-**openshift** (39)
+**openshift** (38)
 - [#2387 Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/pull/2387) — openshift/oadp-operator
 - [#83416 Add watch-ci-status skill: watch postsubmit refresh + PR status](https://github.com/openshift/release/pull/83416) — openshift/release
 - [#83341 ci-tools: bump bin build memory request to 3Gi](https://github.com/openshift/release/pull/83341) — openshift/release
@@ -172,9 +174,8 @@
 - [#76 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/76) — openshift/velero-plugin-for-legacy-aws
 - [#75 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/75) — openshift/velero-plugin-for-legacy-aws
 - [#74 Remove inactive users from DOWNSTREAM_OWNERS](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/74) — openshift/velero-plugin-for-legacy-aws
-- [#155 Remove inactive users from OWNERS](https://github.com/openshift/oadp-must-gather/pull/155) — openshift/oadp-must-gather
 
-**migtools** (11)
+**migtools** (10)
 - [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
 - [#186 feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) — migtools/kubevirt-datamover-controller
 - [#182 fix: correct S3 checkpoint index when backup type mismatch detected](https://github.com/migtools/kubevirt-datamover-controller/pull/182) — migtools/kubevirt-datamover-controller
@@ -185,7 +186,6 @@
 - [#41 Add RestoreItemAction plugins to trigger kubevirt datamover restore](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) — migtools/kubevirt-datamover-plugin
 - [#253 Fix #252: Add exact-output assertion for schedule create example normalization](https://github.com/migtools/oadp-cli/pull/253) — migtools/oadp-cli
 - [#48 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/48) — migtools/kopia
-- [#40 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/40) — migtools/kubevirt-datamover-plugin
 
 **Other** (38)
 - [#160 Skip /test on non-Prow checks, add optional Actions rerun](https://github.com/kaovilai/github-bot-command-palette/pull/160) — kaovilai/github-bot-command-palette
@@ -229,6 +229,7 @@
 ## PRs Reviewed (96)
 
 **velero-io** (36)
+- [#10127 feat(cli): add velero client set-context-as-velero-namespace command](https://github.com/velero-io/velero/pull/10127) — velero-io/velero
 - [#318 Add descriptive error message when SSE-C is denied on S3 buckets](https://github.com/velero-io/velero-plugin-for-aws/pull/318) — velero-io/velero-plugin-for-aws
 - [#10273 Fix PVR regression](https://github.com/velero-io/velero/pull/10273) — velero-io/velero
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
@@ -242,7 +243,6 @@
 - [#10254 credentialFile in Config of BSL should be used internally](https://github.com/velero-io/velero/pull/10254) — velero-io/velero
 - [#10185 Full backup for all data movers](https://github.com/velero-io/velero/pull/10185) — velero-io/velero
 - [#10251 Fix wrong node-agent check result when PVR restorer run concurrently](https://github.com/velero-io/velero/pull/10251) — velero-io/velero
-- [#10127 feat(cli): add velero client set-context-as-velero-namespace command](https://github.com/velero-io/velero/pull/10127) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10196 test: add unit tests for boolptr and stringptr utilities](https://github.com/velero-io/velero/pull/10196) — velero-io/velero

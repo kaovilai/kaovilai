@@ -3,7 +3,7 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T19:51:08Z",
+  "generatedAt": "2026-08-14T20:33:18Z",
   "metrics": {
     "prsMerged": 95,
     "prsOpened": 100,
@@ -679,6 +679,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 319,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319"
+    },
+    {
+      "number": 10281,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
+      "url": "https://github.com/velero-io/velero/pull/10281"
+    },
     {
       "number": 10276,
       "repo": "velero-io/velero",
@@ -1364,23 +1378,16 @@
       "org": "openshift",
       "title": "Remove inactive users from DOWNSTREAM_OWNERS",
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/74"
-    },
-    {
-      "number": 155,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/155"
-    },
-    {
-      "number": 40,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/40"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10127,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
+      "url": "https://github.com/velero-io/velero/pull/10127"
+    },
     {
       "number": 318,
       "repo": "velero-io/velero-plugin-for-aws",
@@ -1520,13 +1527,6 @@
       "org": "velero-io",
       "title": "Fix wrong node-agent check result when PVR restorer run concurrently",
       "url": "https://github.com/velero-io/velero/pull/10251"
-    },
-    {
-      "number": 10127,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
-      "url": "https://github.com/velero-io/velero/pull/10127"
     },
     {
       "number": 183,
