@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T18:59:44Z",
+  "updatedAt": "2026-08-14T19:51:26Z",
   "prs": [
     {
       "number": 10010,
@@ -130,27 +130,6 @@
       "updatedAt": "2026-08-07T18:22:38Z"
     },
     {
-      "number": 9646,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-      "url": "https://github.com/velero-io/velero/pull/9646",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-07-06T11:28:58Z"
-    },
-    {
       "number": 9772,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -190,7 +169,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-07-17T09:11:39Z"
+      "updatedAt": "2026-08-14T19:40:54Z"
     },
     {
       "number": 9910,
@@ -285,6 +264,27 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-07-16T16:57:12Z"
+    },
+    {
+      "number": 9646,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/pull/9646",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-14T19:48:31Z"
     },
     {
       "number": 10025,
@@ -1348,7 +1348,7 @@
         "do-not-merge/hold",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-14T17:36:16Z"
+      "updatedAt": "2026-08-14T19:30:34Z"
     },
     {
       "number": 260,
@@ -2878,7 +2878,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T18:59:44Z",
+    "updatedAt": "2026-08-14T19:51:26Z",
     "needsReview": [
       {
         "number": 68,
@@ -3194,7 +3194,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3254,7 +3254,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3395,37 +3395,6 @@
         "reason": "awaitingReview",
         "waitingDays": 41,
         "updatedAt": "2026-07-03T22:28:56Z"
-      },
-      {
-        "number": 9646,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-        "url": "https://github.com/velero-io/velero/pull/9646",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 39,
-        "updatedAt": "2026-07-06T11:28:58Z"
       },
       {
         "number": 81508,
@@ -3755,38 +3724,6 @@
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
-        "number": 9795,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/9795",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 28,
-        "updatedAt": "2026-07-17T09:11:39Z"
-      },
-      {
         "number": 8673,
         "repo": "kubernetes/community",
         "org": "kubernetes",
@@ -3820,35 +3757,6 @@
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 24,
-        "updatedAt": "2026-07-21T00:29:16Z"
-      },
-      {
         "number": 8884,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3878,8 +3786,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-07-20T19:47:24Z"
+      },
+      {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 24,
+        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 297,
@@ -4308,7 +4245,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4408,6 +4345,34 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
+        "number": 2368,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2368",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T19:01:32Z"
       },
       {
         "number": 2378,
@@ -4527,6 +4492,35 @@
         "updatedAt": "2026-08-12T04:35:00Z"
       },
       {
+        "number": 83341,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-tools: bump bin build memory request to 3Gi",
+        "url": "https://github.com/openshift/release/pull/83341",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pruan-rht",
+          "smg247"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-12T19:29:09Z"
+      },
+      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4596,61 +4590,34 @@
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
-        "number": 2368,
+        "number": 2207,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2368",
-        "targetBranch": "oadp-1.4",
+        "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2207",
+        "targetBranch": "oadp-1.5",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "approved"
+          "approved",
+          "jira/valid-reference"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
+          "mrnold",
           "shubham-pampattiwar"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 1,
-        "updatedAt": "2026-08-12T19:01:32Z"
-      },
-      {
-        "number": 83341,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-tools: bump bin build memory request to 3Gi",
-        "url": "https://github.com/openshift/release/pull/83341",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pruan-rht",
-          "smg247"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-12T19:29:09Z"
+        "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
         "number": 186,
@@ -4711,36 +4678,6 @@
         "updatedAt": "2026-08-13T22:15:24Z"
       },
       {
-        "number": 2207,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
-        "url": "https://github.com/openshift/oadp-operator/pull/2207",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:02:47Z"
-      },
-      {
         "number": 2350,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4783,7 +4720,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4812,7 +4749,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4883,6 +4820,71 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-13T20:07:17Z"
+      },
+      {
+        "number": 9646,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+        "url": "https://github.com/velero-io/velero/pull/9646",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T19:48:31Z"
+      },
+      {
+        "number": 9795,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/9795",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "anshulahuja98",
+          "blackpiglet",
+          "shubham-pampattiwar",
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T19:40:54Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5102,6 +5104,36 @@
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
+        "number": 2234,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+        "url": "https://github.com/openshift/oadp-operator/pull/2234",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mrnold"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T19:05:52Z"
+      },
+      {
         "number": 18725,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -5169,36 +5201,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-14T17:29:50Z"
-      },
-      {
-        "number": 2234,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
-        "url": "https://github.com/openshift/oadp-operator/pull/2234",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:05:52Z"
       }
     ]
   }
