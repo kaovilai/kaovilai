@@ -3,7 +3,7 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T16:58:07Z",
+  "generatedAt": "2026-08-14T17:55:33Z",
   "metrics": {
     "prsMerged": 95,
     "prsOpened": 100,
@@ -739,7 +739,7 @@
       "number": 186,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "test: prove multi-disk restore isolation under concurrency + scratch PVC provisioning hardening (issue #73 Phase 4)",
+      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
     },
     {
@@ -1381,6 +1381,20 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 12323,
+      "repo": "openshift-eng/ocp-build-data",
+      "org": "openshift-eng",
+      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
+      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
+    },
+    {
+      "number": 12324,
+      "repo": "openshift-eng/ocp-build-data",
+      "org": "openshift-eng",
+      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.3",
+      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12324"
+    },
     {
       "number": 10273,
       "repo": "velero-io/velero",
@@ -2038,20 +2052,6 @@
       "org": "openshift",
       "title": "Remove inactive users from DOWNSTREAM_OWNERS",
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/70"
-    },
-    {
-      "number": 248,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-cli/pull/248"
-    },
-    {
-      "number": 2338,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2338"
     }
   ],
   "issuesCommented": [
