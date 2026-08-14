@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T19:51:26Z",
+  "updatedAt": "2026-08-14T20:34:40Z",
   "prs": [
     {
       "number": 10010,
@@ -130,6 +130,27 @@
       "updatedAt": "2026-08-07T18:22:38Z"
     },
     {
+      "number": 9646,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/pull/9646",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-14T20:11:22Z"
+    },
+    {
       "number": 9772,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -230,6 +251,24 @@
       "updatedAt": "2026-07-16T17:00:18Z"
     },
     {
+      "number": 319,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T20:33:31Z"
+    },
+    {
       "number": 320,
       "repo": "velero-io/velero-plugin-for-microsoft-azure",
       "org": "velero-io",
@@ -264,27 +303,6 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-07-16T16:57:12Z"
-    },
-    {
-      "number": 9646,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-      "url": "https://github.com/velero-io/velero/pull/9646",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-14T19:48:31Z"
     },
     {
       "number": 10025,
@@ -571,6 +589,26 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-07-25T23:41:12Z"
+    },
+    {
+      "number": 10281,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
+      "url": "https://github.com/velero-io/velero/pull/10281",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-14T20:28:50Z"
     },
     {
       "number": 7941,
@@ -1003,7 +1041,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-14T17:29:50Z"
+      "updatedAt": "2026-08-14T20:01:56Z"
     },
     {
       "number": 2234,
@@ -1292,7 +1330,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-08-14T18:48:19Z"
+      "updatedAt": "2026-08-14T20:09:09Z"
     },
     {
       "number": 2308,
@@ -1394,24 +1432,6 @@
       "updatedAt": "2026-08-13T18:59:08Z"
     },
     {
-      "number": 186,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-14T18:00:40Z"
-    },
-    {
       "number": 187,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1510,6 +1530,24 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:29:52Z"
+    },
+    {
+      "number": 186,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
+      "targetBranch": "oadp-dev",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-14T20:34:31Z"
     },
     {
       "number": 66,
@@ -2878,7 +2916,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T19:51:26Z",
+    "updatedAt": "2026-08-14T20:34:40Z",
     "needsReview": [
       {
         "number": 68,
@@ -3058,7 +3096,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 185,
+        "waitingDays": 186,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3302,36 +3340,6 @@
         "updatedAt": "2026-05-15T20:42:37Z"
       },
       {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 65,
-        "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -3410,7 +3418,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3578,7 +3586,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4445,7 +4453,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4475,7 +4483,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4504,7 +4512,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4620,6 +4628,120 @@
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
+        "number": 2367,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2367",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T19:59:49Z"
+      },
+      {
+        "number": 2373,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2373",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T20:07:14Z"
+      },
+      {
+        "number": 2374,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2374",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T20:07:16Z"
+      },
+      {
+        "number": 2375,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+        "url": "https://github.com/openshift/oadp-operator/pull/2375",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T20:07:17Z"
+      },
+      {
         "number": 186,
         "repo": "migtools/kubevirt-datamover-controller",
         "org": "migtools",
@@ -4646,7 +4768,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T18:00:40Z"
+        "updatedAt": "2026-08-14T20:34:31Z"
       },
       {
         "number": 187,
@@ -4705,121 +4827,35 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T18:48:19Z"
+        "updatedAt": "2026-08-14T20:09:09Z"
       },
       {
-        "number": 2367,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2367",
-        "targetBranch": "oadp-dev",
+        "number": 10281,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
+        "url": "https://github.com/velero-io/velero/pull/10281",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [],
+        "assignees": [
+          "kaovilai"
+        ],
         "labels": [
-          "approved"
+          "kind/changelog-not-required"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": true,
+        "hasGithubApproval": false,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "sseago"
-        ],
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-13T19:59:49Z"
-      },
-      {
-        "number": 2373,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2373",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:07:14Z"
-      },
-      {
-        "number": 2374,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2374",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:07:16Z"
-      },
-      {
-        "number": 2375,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2375",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-13T20:07:17Z"
+        "updatedAt": "2026-08-14T20:28:50Z"
       },
       {
         "number": 9646,
@@ -4850,7 +4886,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T19:48:31Z"
+        "updatedAt": "2026-08-14T20:11:22Z"
       },
       {
         "number": 9795,
@@ -4885,6 +4921,35 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-14T19:40:54Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "sseago",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T20:33:31Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4929,7 +4994,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5104,36 +5169,6 @@
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
-        "number": 2234,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
-        "url": "https://github.com/openshift/oadp-operator/pull/2234",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-13T19:05:52Z"
-      },
-      {
         "number": 18725,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -5166,8 +5201,38 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-08-13T20:17:52Z"
+      },
+      {
+        "number": 2234,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+        "url": "https://github.com/openshift/oadp-operator/pull/2234",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mrnold"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-13T19:05:52Z"
       },
       {
         "number": 2205,
@@ -5200,7 +5265,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T17:29:50Z"
+        "updatedAt": "2026-08-14T20:01:56Z"
       }
     ]
   }

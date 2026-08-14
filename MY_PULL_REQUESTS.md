@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-14 19:51:26 UTC
+> Last updated: 2026-08-14 20:34:40 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -12,15 +12,16 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
+- [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.19**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-ready-green)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
+- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
-- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10276](https://img.shields.io/badge/PR%20%2310276-draft-gray)](https://github.com/velero-io/velero/pull/10276) **velero-io/velero** → `main` - Fail fast with clear error when data mover pod is unschedulable (milestone: **v1.19**)
@@ -35,6 +36,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
+- [![PR #10281](https://img.shields.io/badge/PR%20%2310281-failing--ci-red)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
@@ -84,12 +86,12 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #186](https://img.shields.io/badge/PR%20%23186-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)
 - [![PR #187](https://img.shields.io/badge/PR%20%23187-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: concurrency limiter for DataUpload controller (issue #174)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
+- [![PR #186](https://img.shields.io/badge/PR%20%23186-ci--pending-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
