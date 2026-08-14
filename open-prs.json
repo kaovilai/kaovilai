@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T20:34:40Z",
+  "updatedAt": "2026-08-14T21:28:26Z",
   "prs": [
     {
       "number": 10010,
@@ -266,7 +266,25 @@
       ],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-08-14T20:33:31Z"
+      "updatedAt": "2026-08-14T21:03:43Z"
+    },
+    {
+      "number": 266,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T21:03:44Z"
     },
     {
       "number": 320,
@@ -303,6 +321,24 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-07-16T16:57:12Z"
+    },
+    {
+      "number": 324,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T21:05:20Z"
     },
     {
       "number": 10025,
@@ -608,7 +644,7 @@
       "labels": [
         "kind/changelog-not-required"
       ],
-      "updatedAt": "2026-08-14T20:28:50Z"
+      "updatedAt": "2026-08-14T20:58:23Z"
     },
     {
       "number": 7941,
@@ -1432,6 +1468,24 @@
       "updatedAt": "2026-08-13T18:59:08Z"
     },
     {
+      "number": 186,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-14T20:57:56Z"
+    },
+    {
       "number": 187,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1530,24 +1584,6 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:29:52Z"
-    },
-    {
-      "number": 186,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
-      "targetBranch": "oadp-dev",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-14T20:34:31Z"
     },
     {
       "number": 66,
@@ -2916,7 +2952,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T20:34:40Z",
+    "updatedAt": "2026-08-14T21:28:26Z",
     "needsReview": [
       {
         "number": 68,
@@ -3305,7 +3341,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 97,
+        "waitingDays": 98,
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
@@ -3336,8 +3372,38 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 90,
+        "waitingDays": 91,
         "updatedAt": "2026-05-15T20:42:37Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 66,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -3418,7 +3484,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3542,6 +3608,34 @@
         "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
+        "number": 267,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Fix silent volume restoration failures for encrypted snapshots",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 30,
+        "updatedAt": "2026-07-15T20:53:27Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3572,34 +3666,6 @@
         "reason": "awaitingReview",
         "waitingDays": 29,
         "updatedAt": "2026-07-16T16:05:03Z"
-      },
-      {
-        "number": 267,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Fix silent volume restoration failures for encrypted snapshots",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 29,
-        "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
         "number": 261,
@@ -3893,6 +3959,38 @@
         "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
+        "number": 10034,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "chore: pin helm/kind-action to commit with curl retry fix",
+        "url": "https://github.com/velero-io/velero/pull/10034",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "chlins"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 22,
+        "updatedAt": "2026-07-23T20:58:34Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3958,38 +4056,6 @@
         "reason": "awaitingReview",
         "waitingDays": 21,
         "updatedAt": "2026-07-23T22:40:21Z"
-      },
-      {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 21,
-        "updatedAt": "2026-07-23T20:58:34Z"
       },
       {
         "number": 8793,
@@ -4768,7 +4834,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T20:34:31Z"
+        "updatedAt": "2026-08-14T20:57:56Z"
       },
       {
         "number": 187,
@@ -4855,7 +4921,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T20:28:50Z"
+        "updatedAt": "2026-08-14T20:58:23Z"
       },
       {
         "number": 9646,
@@ -4949,7 +5015,59 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-14T20:33:31Z"
+        "updatedAt": "2026-08-14T21:03:43Z"
+      },
+      {
+        "number": 266,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T21:03:44Z"
+      },
+      {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T21:05:20Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4994,7 +5112,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
