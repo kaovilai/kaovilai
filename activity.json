@@ -3,11 +3,11 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T20:33:18Z",
+  "generatedAt": "2026-08-14T21:27:07Z",
   "metrics": {
     "prsMerged": 95,
     "prsOpened": 100,
-    "prsReviewed": 96,
+    "prsReviewed": 95,
     "issuesCommented": 44,
     "issuesClosed": 29
   },
@@ -679,6 +679,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 324,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324"
+    },
+    {
+      "number": 266,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266"
+    },
     {
       "number": 319,
       "repo": "velero-io/velero-plugin-for-aws",
@@ -1364,20 +1378,6 @@
       "org": "openshift",
       "title": "Remove inactive users from DOWNSTREAM_OWNERS",
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/76"
-    },
-    {
-      "number": 75,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/75"
-    },
-    {
-      "number": 74,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/74"
     }
   ],
   "prsReviewed": [
@@ -2045,13 +2045,6 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/oadp-operator/pull/2339"
-    },
-    {
-      "number": 457,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/457"
     }
   ],
   "issuesCommented": [
