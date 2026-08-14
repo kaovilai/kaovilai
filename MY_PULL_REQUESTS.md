@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-14 13:15:47 UTC
+> Last updated: 2026-08-14 14:55:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -82,7 +82,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #186](https://img.shields.io/badge/PR%20%23186-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)
+- [![PR #186](https://img.shields.io/badge/PR%20%23186-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - test: prove multi-disk restore isolation under concurrency + scratch PVC provisioning hardening (issue #73 Phase 4)
 - [![PR #187](https://img.shields.io/badge/PR%20%23187-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: concurrency limiter for DataUpload controller (issue #174)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
