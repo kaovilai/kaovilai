@@ -3,15 +3,29 @@
     "start": "2026-07-31",
     "end": "2026-08-14"
   },
-  "generatedAt": "2026-08-14T02:24:10Z",
+  "generatedAt": "2026-08-14T07:39:45Z",
   "metrics": {
-    "prsMerged": 91,
+    "prsMerged": 93,
     "prsOpened": 100,
     "prsReviewed": 96,
     "issuesCommented": 44,
     "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 160,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Skip /test on non-Prow checks, add optional Actions rerun",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/160"
+    },
+    {
+      "number": 2358,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
+      "url": "https://github.com/openshift/oadp-operator/pull/2358"
+    },
     {
       "number": 2357,
       "repo": "openshift/oadp-operator",
@@ -651,6 +665,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 160,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Skip /test on non-Prow checks, add optional Actions rerun",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/160"
+    },
     {
       "number": 2387,
       "repo": "openshift/oadp-operator",
@@ -1343,16 +1364,23 @@
       "org": "openshift",
       "title": "Remove inactive users from OWNERS",
       "url": "https://github.com/openshift/oadp-must-gather/pull/153"
-    },
-    {
-      "number": 157,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/157"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10245,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Document what the DownloadRequest Processed phase means",
+      "url": "https://github.com/velero-io/velero/pull/10245"
+    },
+    {
+      "number": 10167,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "validate backup name format before contacting the API server",
+      "url": "https://github.com/velero-io/velero/pull/10167"
+    },
     {
       "number": 188,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1394,13 +1422,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/185"
-    },
-    {
-      "number": 10167,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "validate backup name format before contacting the API server",
-      "url": "https://github.com/velero-io/velero/pull/10167"
     },
     {
       "number": 10250,
@@ -1478,13 +1499,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] fix: handle hyphenated disk names in extractDiskName",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/165"
-    },
-    {
-      "number": 10245,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Document what the DownloadRequest Processed phase means",
-      "url": "https://github.com/velero-io/velero/pull/10245"
     },
     {
       "number": 10235,
@@ -2028,6 +2042,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 10266,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: how to run CSI e2e specs against a local Kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/10266"
+    },
+    {
       "number": 597,
       "repo": "openshift/ci-docs",
       "org": "openshift",
@@ -2054,13 +2082,6 @@
       "org": "migtools",
       "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
-    },
-    {
-      "number": 10266,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: how to run CSI e2e specs against a local Kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/10266"
     },
     {
       "number": 10265,
@@ -2138,13 +2159,6 @@
       "org": "kubernetes-sigs",
       "title": "branchprotector: excluded branches retain existing protection instead of being removed",
       "url": "https://github.com/kubernetes-sigs/prow/issues/477"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 3218,

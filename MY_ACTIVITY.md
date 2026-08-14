@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-07-31 — 2026-08-14
-> **Generated:** 2026-08-14 02:24:10 UTC
+> **Generated:** 2026-08-14 07:39:45 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 91 |
+| PRs Merged | 93 |
 | PRs Opened | 100 |
 | PRs Reviewed | 96 |
 | Issues/PRs Commented | 44 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (91)
+## PRs Merged (93)
 
 **velero-io** (8)
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
@@ -25,7 +25,8 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 
-**openshift** (45)
+**openshift** (46)
+- [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
 - [#2357 [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2357) — openshift/oadp-operator
 - [#2376 [oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2376) — openshift/oadp-operator
 - [#5334 test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream](https://github.com/openshift/ci-tools/pull/5334) — openshift/ci-tools
@@ -83,7 +84,8 @@
 - [#40 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/40) — migtools/kubevirt-datamover-plugin
 - [#157 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-controller/pull/157) — migtools/kubevirt-datamover-controller
 
-**Other** (29)
+**Other** (30)
+- [#160 Skip /test on non-Prow checks, add optional Actions rerun](https://github.com/kaovilai/github-bot-command-palette/pull/160) — kaovilai/github-bot-command-palette
 - [#159 Add ship skill for solo-repo commit-to-merge cycle](https://github.com/kaovilai/github-bot-command-palette/pull/159) — kaovilai/github-bot-command-palette
 - [#158 Fix job picker status mismatching GitHub's real check state](https://github.com/kaovilai/github-bot-command-palette/pull/158) — kaovilai/github-bot-command-palette
 - [#155 Fix detectTargetBranch resolving head branch instead of base](https://github.com/kaovilai/github-bot-command-palette/pull/155) — kaovilai/github-bot-command-palette
@@ -170,7 +172,7 @@
 - [#154 Remove inactive users from OWNERS](https://github.com/openshift/oadp-must-gather/pull/154) — openshift/oadp-must-gather
 - [#153 Remove inactive users from OWNERS](https://github.com/openshift/oadp-must-gather/pull/153) — openshift/oadp-must-gather
 
-**migtools** (12)
+**migtools** (11)
 - [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
 - [#186 feat: multi-disk isolation + scratch PVC provisioning hardening (issue #73 Phase 4)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) — migtools/kubevirt-datamover-controller
 - [#182 fix: correct S3 checkpoint index when backup type mismatch detected](https://github.com/migtools/kubevirt-datamover-controller/pull/182) — migtools/kubevirt-datamover-controller
@@ -182,9 +184,9 @@
 - [#253 Fix #252: Add exact-output assertion for schedule create example normalization](https://github.com/migtools/oadp-cli/pull/253) — migtools/oadp-cli
 - [#48 Remove inactive users from OWNERS](https://github.com/migtools/kopia/pull/48) — migtools/kopia
 - [#40 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-plugin/pull/40) — migtools/kubevirt-datamover-plugin
-- [#157 Remove inactive users from OWNERS](https://github.com/migtools/kubevirt-datamover-controller/pull/157) — migtools/kubevirt-datamover-controller
 
-**Other** (37)
+**Other** (38)
+- [#160 Skip /test on non-Prow checks, add optional Actions rerun](https://github.com/kaovilai/github-bot-command-palette/pull/160) — kaovilai/github-bot-command-palette
 - [#159 Add ship skill for solo-repo commit-to-merge cycle](https://github.com/kaovilai/github-bot-command-palette/pull/159) — kaovilai/github-bot-command-palette
 - [#158 Fix job picker status mismatching GitHub's real check state](https://github.com/kaovilai/github-bot-command-palette/pull/158) — kaovilai/github-bot-command-palette
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
@@ -225,8 +227,9 @@
 ## PRs Reviewed (96)
 
 **velero-io** (34)
-- [#10132 Do not assume a port name is a string when clearing node ports](https://github.com/velero-io/velero/pull/10132) — velero-io/velero
+- [#10245 Document what the DownloadRequest Processed phase means](https://github.com/velero-io/velero/pull/10245) — velero-io/velero
 - [#10167 validate backup name format before contacting the API server](https://github.com/velero-io/velero/pull/10167) — velero-io/velero
+- [#10132 Do not assume a port name is a string when clearing node ports](https://github.com/velero-io/velero/pull/10132) — velero-io/velero
 - [#10250 Fix pvr deadlock](https://github.com/velero-io/velero/pull/10250) — velero-io/velero
 - [#10187 thread context through GetVolumeSnapshotContentForVolumeSnapshot](https://github.com/velero-io/velero/pull/10187) — velero-io/velero
 - [#10255 Use thread safe map for cancel recorder](https://github.com/velero-io/velero/pull/10255) — velero-io/velero
@@ -235,7 +238,6 @@
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
 - [#10251 Fix wrong node-agent check result when PVR restorer run concurrently](https://github.com/velero-io/velero/pull/10251) — velero-io/velero
 - [#10127 feat(cli): add velero client set-context-as-velero-namespace command](https://github.com/velero-io/velero/pull/10127) — velero-io/velero
-- [#10245 Document what the DownloadRequest Processed phase means](https://github.com/velero-io/velero/pull/10245) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10196 test: add unit tests for boolptr and stringptr utilities](https://github.com/velero-io/velero/pull/10196) — velero-io/velero
@@ -371,9 +373,9 @@
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 
 **Other** (9)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#841 `status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`](https://github.com/kubernetes-sigs/prow/issues/841) — kubernetes-sigs/prow
 - [#477 branchprotector: excluded branches retain existing protection instead of being removed](https://github.com/kubernetes-sigs/prow/issues/477) — kubernetes-sigs/prow
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#2906 EFS should have snapshot function similar to EBS](https://github.com/aws/aws-sdk-go-v2/issues/2906) — aws/aws-sdk-go-v2
 - [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
 - [#1997 [CNCF LFX Proposal] Velero CSI E2E Testing](https://github.com/cncf/mentoring/issues/1997) — cncf/mentoring
