@@ -3,15 +3,29 @@
     "start": "2026-08-01",
     "end": "2026-08-15"
   },
-  "generatedAt": "2026-08-15T01:42:18Z",
+  "generatedAt": "2026-08-15T06:50:47Z",
   "metrics": {
-    "prsMerged": 73,
+    "prsMerged": 75,
     "prsOpened": 100,
     "prsReviewed": 76,
     "issuesCommented": 43,
     "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 163,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Refresh screenshots to reflect current profiles and rehearsal button",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/163"
+    },
+    {
+      "number": 162,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Resolve rehearsal rerun job names from presubmit config, not comment scraping",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/162"
+    },
     {
       "number": 10262,
       "repo": "velero-io/velero",
@@ -525,6 +539,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 163,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Refresh screenshots to reflect current profiles and rehearsal button",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/163"
+    },
+    {
+      "number": 162,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Resolve rehearsal rerun job names from presubmit config, not comment scraping",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/162"
+    },
     {
       "number": 47,
       "repo": "migtools/kubevirt-datamover-plugin",
@@ -1210,23 +1238,30 @@
       "org": "kaovilai",
       "title": "Sync activity log update schedule with PR badges workflow",
       "url": "https://github.com/kaovilai/kaovilai/pull/70"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/kubevirt-datamover-controller",
-      "org": "kaovilai",
-      "title": "fix: enforce Spec.OperationTimeout in DataUpload/DataDownload controllers",
-      "url": "https://github.com/kaovilai/kubevirt-datamover-controller/pull/1"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/redirector",
-      "org": "kaovilai",
-      "title": "Add design docs for one-click community rule install via marketplace deep links",
-      "url": "https://github.com/kaovilai/redirector/pull/3"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
+    },
+    {
+      "number": 10167,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "validate backup name format before contacting the API server",
+      "url": "https://github.com/velero-io/velero/pull/10167"
+    },
+    {
+      "number": 10273,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix PVR regression",
+      "url": "https://github.com/velero-io/velero/pull/10273"
+    },
     {
       "number": 2385,
       "repo": "openshift/oadp-operator",
@@ -1263,13 +1298,6 @@
       "url": "https://github.com/velero-io/velero/pull/10270"
     },
     {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
-    },
-    {
       "number": 318,
       "repo": "velero-io/velero-plugin-for-aws",
       "org": "velero-io",
@@ -1291,13 +1319,6 @@
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12324"
     },
     {
-      "number": 10273,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix PVR regression",
-      "url": "https://github.com/velero-io/velero/pull/10273"
-    },
-    {
       "number": 10229,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1317,13 +1338,6 @@
       "org": "velero-io",
       "title": "Document what the DownloadRequest Processed phase means",
       "url": "https://github.com/velero-io/velero/pull/10245"
-    },
-    {
-      "number": 10167,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "validate backup name format before contacting the API server",
-      "url": "https://github.com/velero-io/velero/pull/10167"
     },
     {
       "number": 188,
@@ -1762,6 +1776,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 9964,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1788,13 +1809,6 @@
       "org": "kubernetes-sigs",
       "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
       "url": "https://github.com/kubernetes-sigs/prow/issues/841"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 10266,
