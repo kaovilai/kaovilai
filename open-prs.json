@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T23:17:21Z",
+  "updatedAt": "2026-08-15T00:30:57Z",
   "prs": [
     {
       "number": 10010,
@@ -64,6 +64,26 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-12T05:10:33Z"
+    },
+    {
+      "number": 10281,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
+      "url": "https://github.com/velero-io/velero/pull/10281",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-14T22:55:52Z"
     },
     {
       "number": 8884,
@@ -305,6 +325,78 @@
       "updatedAt": "2026-08-14T22:23:25Z"
     },
     {
+      "number": 322,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/322",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:40:39Z"
+    },
+    {
+      "number": 323,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:41:46Z"
+    },
+    {
+      "number": 324,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:42:00Z"
+    },
+    {
+      "number": 325,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325",
+      "targetBranch": "release-1.14",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:42:02Z"
+    },
+    {
       "number": 266,
       "repo": "velero-io/velero-plugin-for-gcp",
       "org": "velero-io",
@@ -321,6 +413,42 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-14T21:03:44Z"
+    },
+    {
+      "number": 268,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/268",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:55:08Z"
+    },
+    {
+      "number": 269,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/269",
+      "targetBranch": "release-1.13",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:55:53Z"
     },
     {
       "number": 320,
@@ -375,26 +503,6 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-14T21:05:20Z"
-    },
-    {
-      "number": 10281,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-      "url": "https://github.com/velero-io/velero/pull/10281",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-08-14T22:55:52Z"
     },
     {
       "number": 10025,
@@ -742,6 +850,24 @@
       "updatedAt": "2026-07-16T16:58:37Z"
     },
     {
+      "number": 267,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/267",
+      "targetBranch": "release-1.13",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:54:13Z"
+    },
+    {
       "number": 318,
       "repo": "velero-io/velero-plugin-for-microsoft-azure",
       "org": "velero-io",
@@ -776,6 +902,78 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-07-16T16:57:45Z"
+    },
+    {
+      "number": 325,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325",
+      "targetBranch": "release-1.13",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:52:37Z"
+    },
+    {
+      "number": 326,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+      "targetBranch": "release-1.13",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:54:24Z"
+    },
+    {
+      "number": 327,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327",
+      "targetBranch": "release-1.14",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:54:52Z"
+    },
+    {
+      "number": 328,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328",
+      "targetBranch": "release-1.13",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-14T23:59:30Z"
     },
     {
       "number": 598,
@@ -2988,7 +3186,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-14T23:17:21Z",
+    "updatedAt": "2026-08-15T00:30:57Z",
     "needsReview": [
       {
         "number": 68,
@@ -3011,7 +3209,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 638,
+        "waitingDays": 639,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3789,7 +3987,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3804,6 +4002,35 @@
         "reason": "awaitingReview",
         "waitingDays": 25,
         "updatedAt": "2026-07-20T14:46:51Z"
+      },
+      {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 25,
+        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 8884,
@@ -3837,35 +4064,6 @@
         "reason": "awaitingReview",
         "waitingDays": 25,
         "updatedAt": "2026-07-20T19:47:24Z"
-      },
-      {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 24,
-        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 297,
@@ -4091,7 +4289,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 19,
+        "waitingDays": 20,
         "updatedAt": "2026-07-25T23:41:12Z"
       },
       {
@@ -5083,6 +5281,122 @@
         "updatedAt": "2026-08-14T22:23:25Z"
       },
       {
+        "number": 322,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/322",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "reasonerjt",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:40:39Z"
+      },
+      {
+        "number": 323,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:41:46Z"
+      },
+      {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:42:00Z"
+      },
+      {
+        "number": 325,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325",
+        "targetBranch": "release-1.14",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:42:02Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -5109,6 +5423,84 @@
         "updatedAt": "2026-08-14T21:03:44Z"
       },
       {
+        "number": 267,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/267",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:54:13Z"
+      },
+      {
+        "number": 268,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "[release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/268",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:55:08Z"
+      },
+      {
+        "number": 269,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "[release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/269",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:55:53Z"
+      },
+      {
         "number": 324,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -5133,6 +5525,110 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-14T21:05:20Z"
+      },
+      {
+        "number": 325,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:52:37Z"
+      },
+      {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:54:24Z"
+      },
+      {
+        "number": 327,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327",
+        "targetBranch": "release-1.14",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:54:52Z"
+      },
+      {
+        "number": 328,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-14T23:59:30Z"
       }
     ],
     "approvedWaitingToLand": [
