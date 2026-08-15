@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-07-31",
-    "end": "2026-08-14"
+    "start": "2026-08-01",
+    "end": "2026-08-15"
   },
-  "generatedAt": "2026-08-14T23:26:24Z",
+  "generatedAt": "2026-08-15T01:42:18Z",
   "metrics": {
-    "prsMerged": 95,
+    "prsMerged": 73,
     "prsOpened": 100,
-    "prsReviewed": 95,
-    "issuesCommented": 45,
+    "prsReviewed": 76,
+    "issuesCommented": 43,
     "issuesClosed": 29
   },
   "prsMerged": [
@@ -522,163 +522,100 @@
       "org": "openshift",
       "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
       "url": "https://github.com/openshift/release/pull/82764"
-    },
-    {
-      "number": 2344,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add missing image-producing repo badges to README",
-      "url": "https://github.com/openshift/oadp-operator/pull/2344"
-    },
-    {
-      "number": 2341,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2341"
-    },
-    {
-      "number": 2342,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2342"
-    },
-    {
-      "number": 559,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/559"
-    },
-    {
-      "number": 561,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/561"
-    },
-    {
-      "number": 557,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/velero/pull/557"
-    },
-    {
-      "number": 82747,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Remove unused releases: blocks from OADP ci-operator configs",
-      "url": "https://github.com/openshift/release/pull/82747"
-    },
-    {
-      "number": 161,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/161"
-    },
-    {
-      "number": 76,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/76"
-    },
-    {
-      "number": 75,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/75"
-    },
-    {
-      "number": 74,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/74"
-    },
-    {
-      "number": 162,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/162"
-    },
-    {
-      "number": 40,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/40"
-    },
-    {
-      "number": 157,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/157"
-    },
-    {
-      "number": 154,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/154"
-    },
-    {
-      "number": 153,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/153"
-    },
-    {
-      "number": 155,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/155"
-    },
-    {
-      "number": 152,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/152"
-    },
-    {
-      "number": 77,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/77"
-    },
-    {
-      "number": 161,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/161"
-    },
-    {
-      "number": 162,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/162"
-    },
-    {
-      "number": 560,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/560"
     }
   ],
   "prsOpened": [
+    {
+      "number": 47,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47"
+    },
+    {
+      "number": 10286,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+      "url": "https://github.com/velero-io/velero/pull/10286"
+    },
+    {
+      "number": 328,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328"
+    },
+    {
+      "number": 327,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327"
+    },
+    {
+      "number": 326,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326"
+    },
+    {
+      "number": 325,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325"
+    },
+    {
+      "number": 325,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325"
+    },
+    {
+      "number": 324,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324"
+    },
+    {
+      "number": 323,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323"
+    },
+    {
+      "number": 322,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/322"
+    },
+    {
+      "number": 269,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/269"
+    },
+    {
+      "number": 268,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/268"
+    },
+    {
+      "number": 267,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/267"
+    },
     {
       "number": 321,
       "repo": "velero-io/velero-plugin-for-aws",
@@ -1287,106 +1224,50 @@
       "org": "kaovilai",
       "title": "Add design docs for one-click community rule install via marketplace deep links",
       "url": "https://github.com/kaovilai/redirector/pull/3"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/redirector",
-      "org": "kaovilai",
-      "title": "Add PAT-free gh-aw agentic workflows",
-      "url": "https://github.com/kaovilai/redirector/pull/2"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/redirector",
-      "org": "kaovilai",
-      "title": "Add Dependabot config with grouped PRs",
-      "url": "https://github.com/kaovilai/redirector/pull/1"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/route-127-trailer-nc",
-      "org": "kaovilai",
-      "title": "Implement Route 127 trailer strategy calculator as a static GitHub Pages site",
-      "url": "https://github.com/kaovilai/route-127-trailer-nc/pull/2"
-    },
-    {
-      "number": 138,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add structured payload picker dialog (stacked on #137)",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/138"
-    },
-    {
-      "number": 137,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add OpenShift static command profiles (payload, verified, jira, labels, specialized)",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/137"
-    },
-    {
-      "number": 2346,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: add CI plugin image sync guidance to common.go",
-      "url": "https://github.com/openshift/oadp-operator/pull/2346"
-    },
-    {
-      "number": 82764,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
-      "url": "https://github.com/openshift/release/pull/82764"
-    },
-    {
-      "number": 253,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-      "url": "https://github.com/migtools/oadp-cli/pull/253"
-    },
-    {
-      "number": 2345,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add CI plugin image substitution guide and developer comments",
-      "url": "https://github.com/openshift/oadp-operator/pull/2345"
-    },
-    {
-      "number": 82762,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)",
-      "url": "https://github.com/openshift/release/pull/82762"
-    },
-    {
-      "number": 2344,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add missing image-producing repo badges to README",
-      "url": "https://github.com/openshift/oadp-operator/pull/2344"
-    },
-    {
-      "number": 48,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/48"
-    },
-    {
-      "number": 82747,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Remove unused releases: blocks from OADP ci-operator configs",
-      "url": "https://github.com/openshift/release/pull/82747"
     }
   ],
   "prsReviewed": [
     {
-      "number": 10127,
+      "number": 2385,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
+      "url": "https://github.com/openshift/oadp-operator/pull/2385"
+    },
+    {
+      "number": 10258,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "feat(cli): add velero client set-context-as-velero-namespace command",
-      "url": "https://github.com/velero-io/velero/pull/10127"
+      "title": "Cap the unzip of metadata download to avoid OOM kill",
+      "url": "https://github.com/velero-io/velero/pull/10258"
+    },
+    {
+      "number": 10283,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "test: add verification for skippedPVTracker in backup tests",
+      "url": "https://github.com/velero-io/velero/pull/10283"
+    },
+    {
+      "number": 10253,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Refactor: Remove legacy resticrepositories hardcoding from restore controller",
+      "url": "https://github.com/velero-io/velero/pull/10253"
+    },
+    {
+      "number": 10270,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cap the metadata decompression in object store",
+      "url": "https://github.com/velero-io/velero/pull/10270"
+    },
+    {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
     },
     {
       "number": 318,
@@ -1877,174 +1758,6 @@
       "org": "velero-io",
       "title": "Bump github/codeql-action from 3 to 4.37.3",
       "url": "https://github.com/velero-io/velero/pull/10135"
-    },
-    {
-      "number": 156,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/156"
-    },
-    {
-      "number": 151,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/151"
-    },
-    {
-      "number": 247,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "[oadp-1.4] OADP-8508: Fix schedule create examples showing velero instead of oc oadp",
-      "url": "https://github.com/migtools/oadp-cli/pull/247"
-    },
-    {
-      "number": 245,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "[oadp-1.6] OADP-8508: Fix schedule create examples showing velero instead of oc oadp",
-      "url": "https://github.com/migtools/oadp-cli/pull/245"
-    },
-    {
-      "number": 246,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "[oadp-1.5] OADP-8508: Fix schedule create examples showing velero instead of oc oadp",
-      "url": "https://github.com/migtools/oadp-cli/pull/246"
-    },
-    {
-      "number": 456,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/456"
-    },
-    {
-      "number": 159,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/159"
-    },
-    {
-      "number": 160,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/160"
-    },
-    {
-      "number": 160,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/160"
-    },
-    {
-      "number": 159,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/159"
-    },
-    {
-      "number": 161,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/161"
-    },
-    {
-      "number": 159,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/159"
-    },
-    {
-      "number": 160,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/160"
-    },
-    {
-      "number": 34,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/34"
-    },
-    {
-      "number": 558,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove inactive users from DOWNSTREAM_OWNERS",
-      "url": "https://github.com/openshift/velero/pull/558"
-    },
-    {
-      "number": 32,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/filebrowser/pull/32"
-    },
-    {
-      "number": 33,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/filebrowser/pull/33"
-    },
-    {
-      "number": 249,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-cli/pull/249"
-    },
-    {
-      "number": 97,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/97"
-    },
-    {
-      "number": 35,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/35"
-    },
-    {
-      "number": 370,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/370"
-    },
-    {
-      "number": 46,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/46"
-    },
-    {
-      "number": 250,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-cli/pull/250"
-    },
-    {
-      "number": 2339,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2339"
     }
   ],
   "issuesCommented": [
@@ -2348,20 +2061,6 @@
       "org": "velero-io",
       "title": "Velero Server Default Restore Resource Modifier",
       "url": "https://github.com/velero-io/velero/issues/9719"
-    },
-    {
-      "number": 3194,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Have the Velero CLI use the active namespace in the current context",
-      "url": "https://github.com/velero-io/velero/issues/3194"
-    },
-    {
-      "number": 9965,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add safe auto-merge workflow for high-confidence Dependabot PRs",
-      "url": "https://github.com/velero-io/velero/issues/9965"
     }
   ],
   "issuesClosed": [
