@@ -1,13 +1,13 @@
 {
   "period": {
-    "start": "2026-08-01",
-    "end": "2026-08-15"
+    "start": "2026-08-02",
+    "end": "2026-08-16"
   },
-  "generatedAt": "2026-08-15T18:39:56Z",
+  "generatedAt": "2026-08-16T01:49:38Z",
   "metrics": {
-    "prsMerged": 75,
+    "prsMerged": 74,
     "prsOpened": 100,
-    "prsReviewed": 79,
+    "prsReviewed": 77,
     "issuesCommented": 43,
     "issuesClosed": 29
   },
@@ -529,16 +529,16 @@
       "org": "kaovilai",
       "title": "Implement Route 127 trailer strategy calculator as a static GitHub Pages site",
       "url": "https://github.com/kaovilai/route-127-trailer-nc/pull/2"
-    },
-    {
-      "number": 82764,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Bump openshift-velero-plugin CI memory limit from 4Gi to 8Gi",
-      "url": "https://github.com/openshift/release/pull/82764"
     }
   ],
   "prsOpened": [
+    {
+      "number": 576,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(openshift): preflight-check EC release signatures, offer nightly-style bypass",
+      "url": "https://github.com/kaovilai/dotfiles/pull/576"
+    },
     {
       "number": 163,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1231,13 +1231,6 @@
       "org": "openshift",
       "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
       "url": "https://github.com/openshift/ci-tools/pull/5354"
-    },
-    {
-      "number": 70,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Sync activity log update schedule with PR badges workflow",
-      "url": "https://github.com/kaovilai/kaovilai/pull/70"
     }
   ],
   "prsReviewed": [
@@ -1387,13 +1380,6 @@
       "org": "openshift",
       "title": "PodResources must be complete for Velero parser",
       "url": "https://github.com/openshift/oadp-operator/pull/2382"
-    },
-    {
-      "number": 10132,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Do not assume a port name is a string when clearing node ports",
-      "url": "https://github.com/velero-io/velero/pull/10132"
     },
     {
       "number": 185,
@@ -1786,13 +1772,6 @@
       "org": "velero-io",
       "title": "docs: update community page backlog links away from classic projects",
       "url": "https://github.com/velero-io/velero/pull/10157"
-    },
-    {
-      "number": 10135,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump github/codeql-action from 3 to 4.37.3",
-      "url": "https://github.com/velero-io/velero/pull/10135"
     }
   ],
   "issuesCommented": [
