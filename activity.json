@@ -3,15 +3,22 @@
     "start": "2026-08-02",
     "end": "2026-08-16"
   },
-  "generatedAt": "2026-08-16T01:49:38Z",
+  "generatedAt": "2026-08-16T06:52:01Z",
   "metrics": {
-    "prsMerged": 74,
+    "prsMerged": 75,
     "prsOpened": 100,
     "prsReviewed": 77,
     "issuesCommented": 43,
     "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 576,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(openshift): preflight-check EC release signatures, offer nightly-style bypass",
+      "url": "https://github.com/kaovilai/dotfiles/pull/576"
+    },
     {
       "number": 163,
       "repo": "kaovilai/github-bot-command-palette",
@@ -851,7 +858,7 @@
       "number": 83299,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "gather-extra: don't let PLATFORM lookup abort entire gather step",
+      "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
       "url": "https://github.com/openshift/release/pull/83299"
     },
     {
@@ -1235,6 +1242,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
+    },
+    {
       "number": 2385,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1268,13 +1282,6 @@
       "org": "velero-io",
       "title": "Use k8s.io/api well-known label constants instead of hardcoded strings",
       "url": "https://github.com/velero-io/velero/pull/10279"
-    },
-    {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
     },
     {
       "number": 10167,

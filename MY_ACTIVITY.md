@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-02 — 2026-08-16
-> **Generated:** 2026-08-16 01:49:38 UTC
+> **Generated:** 2026-08-16 06:52:01 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 74 |
+| PRs Merged | 75 |
 | PRs Opened | 100 |
 | PRs Reviewed | 77 |
 | Issues/PRs Commented | 43 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (74)
+## PRs Merged (75)
 
 **velero-io** (10)
 - [#10262 [release-1.17] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10262) — velero-io/velero
@@ -63,7 +63,8 @@
 - [#41 Add RestoreItemAction plugins to trigger kubevirt datamover restore](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) — migtools/kubevirt-datamover-plugin
 - [#371 Remove inactive users from OWNERS](https://github.com/migtools/oadp-non-admin/pull/371) — migtools/oadp-non-admin
 
-**Other** (32)
+**Other** (33)
+- [#576 feat(openshift): preflight-check EC release signatures, offer nightly-style bypass](https://github.com/kaovilai/dotfiles/pull/576) — kaovilai/dotfiles
 - [#163 Refresh screenshots to reflect current profiles and rehearsal button](https://github.com/kaovilai/github-bot-command-palette/pull/163) — kaovilai/github-bot-command-palette
 - [#162 Resolve rehearsal rerun job names from presubmit config, not comment scraping](https://github.com/kaovilai/github-bot-command-palette/pull/162) — kaovilai/github-bot-command-palette
 - [#160 Skip /test on non-Prow checks, add optional Actions rerun](https://github.com/kaovilai/github-bot-command-palette/pull/160) — kaovilai/github-bot-command-palette
@@ -141,7 +142,7 @@
 - [#2374 [oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2374) — openshift/oadp-operator
 - [#2373 fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2373) — openshift/oadp-operator
 - [#5363 pkg/steps: retry network-unreachable builds, capture failed build logs](https://github.com/openshift/ci-tools/pull/5363) — openshift/ci-tools
-- [#83299 gather-extra: don't let PLATFORM lookup abort entire gather step](https://github.com/openshift/release/pull/83299) — openshift/release
+- [#83299 gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR](https://github.com/openshift/release/pull/83299) — openshift/release
 - [#83286 Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e](https://github.com/openshift/release/pull/83286) — openshift/release
 - [#83282 Promote oadp-operator bundle directly instead of a broken index](https://github.com/openshift/release/pull/83282) — openshift/release
 - [#83221 gather-must-gather: retry camgi download, don't fail gather on it](https://github.com/openshift/release/pull/83221) — openshift/release
@@ -208,10 +209,10 @@
 ## PRs Reviewed (77)
 
 **velero-io** (40)
+- [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
 - [#10264 Fix loadConcurrency slot leak on forced cancel](https://github.com/velero-io/velero/pull/10264) — velero-io/velero
 - [#10279 Use k8s.io/api well-known label constants instead of hardcoded strings](https://github.com/velero-io/velero/pull/10279) — velero-io/velero
-- [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
 - [#10167 validate backup name format before contacting the API server](https://github.com/velero-io/velero/pull/10167) — velero-io/velero
 - [#10273 Fix PVR regression](https://github.com/velero-io/velero/pull/10273) — velero-io/velero
 - [#10258 Cap the unzip of metadata download to avoid OOM kill](https://github.com/velero-io/velero/pull/10258) — velero-io/velero
