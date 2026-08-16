@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-02 — 2026-08-16
-> **Generated:** 2026-08-16 06:52:01 UTC
+> **Generated:** 2026-08-16 12:53:45 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -209,11 +209,11 @@
 ## PRs Reviewed (77)
 
 **velero-io** (40)
+- [#10167 validate backup name format before contacting the API server](https://github.com/velero-io/velero/pull/10167) — velero-io/velero
 - [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
 - [#10264 Fix loadConcurrency slot leak on forced cancel](https://github.com/velero-io/velero/pull/10264) — velero-io/velero
 - [#10279 Use k8s.io/api well-known label constants instead of hardcoded strings](https://github.com/velero-io/velero/pull/10279) — velero-io/velero
-- [#10167 validate backup name format before contacting the API server](https://github.com/velero-io/velero/pull/10167) — velero-io/velero
 - [#10273 Fix PVR regression](https://github.com/velero-io/velero/pull/10273) — velero-io/velero
 - [#10258 Cap the unzip of metadata download to avoid OOM kill](https://github.com/velero-io/velero/pull/10258) — velero-io/velero
 - [#10283 test: add verification for skippedPVTracker in backup tests](https://github.com/velero-io/velero/pull/10283) — velero-io/velero
