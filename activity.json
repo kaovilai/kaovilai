@@ -3,13 +3,13 @@
     "start": "2026-08-02",
     "end": "2026-08-16"
   },
-  "generatedAt": "2026-08-16T12:53:45Z",
+  "generatedAt": "2026-08-16T18:39:03Z",
   "metrics": {
     "prsMerged": 75,
     "prsOpened": 100,
     "prsReviewed": 77,
-    "issuesCommented": 43,
-    "issuesClosed": 29
+    "issuesCommented": 47,
+    "issuesClosed": 31
   },
   "prsMerged": [
     {
@@ -1242,6 +1242,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 12323,
+      "repo": "openshift-eng/ocp-build-data",
+      "org": "openshift-eng",
+      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
+      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
+    },
+    {
       "number": 10167,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1331,13 +1338,6 @@
       "org": "velero-io",
       "title": "Add descriptive error message when SSE-C is denied on S3 buckets",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/318"
-    },
-    {
-      "number": 12323,
-      "repo": "openshift-eng/ocp-build-data",
-      "org": "openshift-eng",
-      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
-      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
     },
     {
       "number": 12324,
@@ -1783,6 +1783,34 @@
   ],
   "issuesCommented": [
     {
+      "number": 10297,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
+      "url": "https://github.com/velero-io/velero/issues/10297"
+    },
+    {
+      "number": 9833,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup/restore describe for block data mover",
+      "url": "https://github.com/velero-io/velero/issues/9833"
+    },
+    {
+      "number": 9835,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup deletion for block data mover",
+      "url": "https://github.com/velero-io/velero/issues/9835"
+    },
+    {
+      "number": 10302,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
+      "url": "https://github.com/velero-io/velero/issues/10302"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2085,6 +2113,20 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10304,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: retained CBT base snapshots are never reclaimed at backup deletion (design L370-371/L474 unimplemented)",
+      "url": "https://github.com/velero-io/velero/issues/10304"
+    },
+    {
+      "number": 10302,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
+      "url": "https://github.com/velero-io/velero/issues/10302"
+    },
     {
       "number": 841,
       "repo": "kubernetes-sigs/prow",
