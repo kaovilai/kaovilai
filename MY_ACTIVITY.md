@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-03 — 2026-08-17
-> **Generated:** 2026-08-17 18:42:15 UTC
+> **Generated:** 2026-08-17 19:30:09 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 75 |
+| PRs Merged | 76 |
 | PRs Opened | 100 |
 | PRs Reviewed | 76 |
 | Issues/PRs Commented | 48 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (75)
+## PRs Merged (76)
 
 **velero-io** (10)
 - [#10262 [release-1.17] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10262) — velero-io/velero
@@ -27,7 +27,8 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 
-**openshift** (25)
+**openshift** (26)
+- [#83299 gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR](https://github.com/openshift/release/pull/83299) — openshift/release
 - [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
 - [#2357 [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2357) — openshift/oadp-operator
 - [#2376 [oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2376) — openshift/oadp-operator

@@ -3,15 +3,22 @@
     "start": "2026-08-03",
     "end": "2026-08-17"
   },
-  "generatedAt": "2026-08-17T18:42:15Z",
+  "generatedAt": "2026-08-17T19:30:09Z",
   "metrics": {
-    "prsMerged": 75,
+    "prsMerged": 76,
     "prsOpened": 100,
     "prsReviewed": 76,
     "issuesCommented": 48,
     "issuesClosed": 32
   },
   "prsMerged": [
+    {
+      "number": 83299,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
+      "url": "https://github.com/openshift/release/pull/83299"
+    },
     {
       "number": 576,
       "repo": "kaovilai/dotfiles",
@@ -1242,18 +1249,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
-    },
-    {
       "number": 2385,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
       "url": "https://github.com/openshift/oadp-operator/pull/2385"
+    },
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10187,
