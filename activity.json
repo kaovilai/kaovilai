@@ -3,13 +3,13 @@
     "start": "2026-08-03",
     "end": "2026-08-17"
   },
-  "generatedAt": "2026-08-17T07:05:28Z",
+  "generatedAt": "2026-08-17T12:48:36Z",
   "metrics": {
     "prsMerged": 75,
     "prsOpened": 100,
     "prsReviewed": 76,
-    "issuesCommented": 47,
-    "issuesClosed": 31
+    "issuesCommented": 48,
+    "issuesClosed": 32
   },
   "prsMerged": [
     {
@@ -1242,6 +1242,55 @@
   ],
   "prsReviewed": [
     {
+      "number": 10185,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Full backup for all data movers",
+      "url": "https://github.com/velero-io/velero/pull/10185"
+    },
+    {
+      "number": 10187,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "thread context through GetVolumeSnapshotContentForVolumeSnapshot",
+      "url": "https://github.com/velero-io/velero/pull/10187"
+    },
+    {
+      "number": 10229,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
+      "url": "https://github.com/velero-io/velero/pull/10229"
+    },
+    {
+      "number": 10255,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Use thread safe map for cancel recorder",
+      "url": "https://github.com/velero-io/velero/pull/10255"
+    },
+    {
+      "number": 10258,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cap the unzip of metadata download to avoid OOM kill",
+      "url": "https://github.com/velero-io/velero/pull/10258"
+    },
+    {
+      "number": 10270,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cap the metadata decompression in object store",
+      "url": "https://github.com/velero-io/velero/pull/10270"
+    },
+    {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
+    },
+    {
       "number": 10264,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1277,13 +1326,6 @@
       "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
-      "number": 10229,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
-      "url": "https://github.com/velero-io/velero/pull/10229"
-    },
-    {
       "number": 10167,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1296,13 +1338,6 @@
       "org": "openshift-eng",
       "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
-    },
-    {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
     },
     {
       "number": 2385,
@@ -1326,25 +1361,11 @@
       "url": "https://github.com/velero-io/velero/pull/10273"
     },
     {
-      "number": 10258,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cap the unzip of metadata download to avoid OOM kill",
-      "url": "https://github.com/velero-io/velero/pull/10258"
-    },
-    {
       "number": 10253,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Refactor: Remove legacy resticrepositories hardcoding from restore controller",
       "url": "https://github.com/velero-io/velero/pull/10253"
-    },
-    {
-      "number": 10270,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cap the metadata decompression in object store",
-      "url": "https://github.com/velero-io/velero/pull/10270"
     },
     {
       "number": 318,
@@ -1415,27 +1436,6 @@
       "org": "velero-io",
       "title": "Fix pvr deadlock",
       "url": "https://github.com/velero-io/velero/pull/10250"
-    },
-    {
-      "number": 10187,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "thread context through GetVolumeSnapshotContentForVolumeSnapshot",
-      "url": "https://github.com/velero-io/velero/pull/10187"
-    },
-    {
-      "number": 10255,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Use thread safe map for cancel recorder",
-      "url": "https://github.com/velero-io/velero/pull/10255"
-    },
-    {
-      "number": 10185,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Full backup for all data movers",
-      "url": "https://github.com/velero-io/velero/pull/10185"
     },
     {
       "number": 10251,
@@ -1776,13 +1776,6 @@
   ],
   "issuesCommented": [
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
       "number": 9603,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1790,11 +1783,25 @@
       "url": "https://github.com/velero-io/velero/issues/9603"
     },
     {
+      "number": 8815,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
+      "url": "https://github.com/velero-io/velero/issues/8815"
+    },
+    {
       "number": 10297,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
       "url": "https://github.com/velero-io/velero/issues/10297"
+    },
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9833,
@@ -2106,6 +2113,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10301,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable",
+      "url": "https://github.com/velero-io/velero/issues/10301"
+    },
     {
       "number": 10304,
       "repo": "velero-io/velero",
