@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T15:28:43Z",
+  "updatedAt": "2026-08-17T16:32:33Z",
   "prs": [
     {
       "number": 10010,
@@ -49,7 +49,7 @@
       "org": "velero-io",
       "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
       "url": "https://github.com/velero-io/velero/pull/10210",
-      "targetBranch": "unknown",
+      "targetBranch": "main",
       "status": "ready",
       "milestone": null,
       "author": "Copilot",
@@ -1642,7 +1642,7 @@
       "org": "openshift",
       "title": "OADP-6675: Update Azure registry configuration for workload identity support",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/350",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-dev",
       "status": "stale",
       "milestone": null,
       "author": "kaovilai",
@@ -1738,7 +1738,7 @@
       "org": "openshift",
       "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-dev",
       "status": "hold",
       "milestone": null,
       "author": "kaovilai",
@@ -2144,7 +2144,7 @@
       "org": "HASHCUT69",
       "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
       "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-      "targetBranch": "unknown",
+      "targetBranch": "master",
       "status": "ready",
       "milestone": null,
       "author": "kaovilai",
@@ -3316,7 +3316,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-17T15:28:43Z",
+    "updatedAt": "2026-08-17T16:32:33Z",
     "needsReview": [
       {
         "number": 68,
@@ -3555,7 +3555,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 152,
+        "waitingDays": 153,
         "updatedAt": "2026-03-17T15:49:38Z"
       },
       {
@@ -3709,6 +3709,36 @@
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 68,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -3737,7 +3767,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3827,6 +3857,36 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
+        "number": 442,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "do-not-merge/hold"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "savitharaghunathan",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 33,
+        "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
         "number": 1531,
         "repo": "slopus/happy",
         "org": "slopus",
@@ -3849,61 +3909,6 @@
         "reason": "awaitingReview",
         "waitingDays": 33,
         "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
-        "number": 442,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
-        "targetBranch": "unknown",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "do-not-merge/hold"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 32,
-        "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 267,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Fix silent volume restoration failures for encrypted snapshots",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 32,
-        "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
         "number": 10010,
@@ -3934,8 +3939,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T16:05:03Z"
+      },
+      {
+        "number": 267,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Fix silent volume restoration failures for encrypted snapshots",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 32,
+        "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
         "number": 261,
@@ -4606,6 +4639,38 @@
         "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
+        "number": 9772,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Design: namespace selection by label in resource policy",
+        "url": "https://github.com/velero-io/velero/pull/9772",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "anshulahuja98",
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-10T16:09:09Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -4635,53 +4700,21 @@
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
-        "number": 9772,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Design: namespace selection by label in resource policy",
-        "url": "https://github.com/velero-io/velero/pull/9772",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-10T16:09:09Z"
-      },
-      {
         "number": 35,
         "repo": "HASHCUT69/Blend-n-Run",
         "org": "HASHCUT69",
         "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
         "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "unknown",
+        "targetBranch": "master",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": null,
+        "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [],
@@ -4703,7 +4736,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4726,7 +4759,7 @@
         "org": "velero-io",
         "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
         "url": "https://github.com/velero-io/velero/pull/10210",
-        "targetBranch": "unknown",
+        "targetBranch": "main",
         "author": "Copilot",
         "isCopilotAuthored": false,
         "assignees": [
@@ -4737,14 +4770,16 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": null,
+        "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "kaovilai"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 5,
@@ -4886,7 +4921,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5209,7 +5244,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5766,7 +5801,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
