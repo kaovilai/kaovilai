@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T13:41:49Z",
+  "updatedAt": "2026-08-17T14:31:50Z",
   "prs": [
     {
       "number": 10010,
@@ -3316,7 +3316,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-17T13:41:49Z",
+    "updatedAt": "2026-08-17T14:31:50Z",
     "needsReview": [
       {
         "number": 68,
@@ -3707,36 +3707,6 @@
         "reason": "awaitingReview",
         "waitingDays": 100,
         "updatedAt": "2026-05-08T20:48:25Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 68,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -4724,6 +4694,36 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
+        "number": 83221,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+        "url": "https://github.com/openshift/release/pull/83221",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "dgoodwin",
+          "stbenjam",
+          "petr-muller"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-08-12T14:01:01Z"
+      },
+      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4879,36 +4879,6 @@
         "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
-        "number": 83221,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-        "url": "https://github.com/openshift/release/pull/83221",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "dgoodwin",
-          "stbenjam",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-12T14:01:01Z"
-      },
-      {
         "number": 83341,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4921,7 +4891,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5244,7 +5214,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5801,7 +5771,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5912,6 +5882,37 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
+        "number": 253,
+        "repo": "migtools/oadp-cli",
+        "org": "migtools",
+        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 12,
+        "updatedAt": "2026-08-05T14:29:52Z"
+      },
+      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5941,37 +5942,6 @@
         "reason": "pendingMerge",
         "waitingDays": 11,
         "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
-        "number": 253,
-        "repo": "migtools/oadp-cli",
-        "org": "migtools",
-        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-        "url": "https://github.com/migtools/oadp-cli/pull/253",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 449,
