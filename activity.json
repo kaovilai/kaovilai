@@ -3,7 +3,7 @@
     "start": "2026-08-03",
     "end": "2026-08-17"
   },
-  "generatedAt": "2026-08-17T01:40:34Z",
+  "generatedAt": "2026-08-17T07:05:28Z",
   "metrics": {
     "prsMerged": 75,
     "prsOpened": 100,
@@ -1242,11 +1242,46 @@
   ],
   "prsReviewed": [
     {
-      "number": 12323,
-      "repo": "openshift-eng/ocp-build-data",
-      "org": "openshift-eng",
-      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
-      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
+      "number": 10264,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix loadConcurrency slot leak on forced cancel",
+      "url": "https://github.com/velero-io/velero/pull/10264"
+    },
+    {
+      "number": 10254,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "credentialFile in Config of BSL should be used internally",
+      "url": "https://github.com/velero-io/velero/pull/10254"
+    },
+    {
+      "number": 10283,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "test: add verification for skippedPVTracker in backup tests",
+      "url": "https://github.com/velero-io/velero/pull/10283"
+    },
+    {
+      "number": 10279,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Use k8s.io/api well-known label constants instead of hardcoded strings",
+      "url": "https://github.com/velero-io/velero/pull/10279"
+    },
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
+    },
+    {
+      "number": 10229,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
+      "url": "https://github.com/velero-io/velero/pull/10229"
     },
     {
       "number": 10167,
@@ -1254,6 +1289,13 @@
       "org": "velero-io",
       "title": "validate backup name format before contacting the API server",
       "url": "https://github.com/velero-io/velero/pull/10167"
+    },
+    {
+      "number": 12323,
+      "repo": "openshift-eng/ocp-build-data",
+      "org": "openshift-eng",
+      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
+      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
     },
     {
       "number": 10280,
@@ -1270,32 +1312,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2385"
     },
     {
-      "number": 10229,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
-      "url": "https://github.com/velero-io/velero/pull/10229"
-    },
-    {
-      "number": 10264,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix loadConcurrency slot leak on forced cancel",
-      "url": "https://github.com/velero-io/velero/pull/10264"
-    },
-    {
       "number": 849,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
       "title": "fix: status-reconciler track own config state for dropped deltas",
       "url": "https://github.com/kubernetes-sigs/prow/pull/849"
-    },
-    {
-      "number": 10279,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Use k8s.io/api well-known label constants instead of hardcoded strings",
-      "url": "https://github.com/velero-io/velero/pull/10279"
     },
     {
       "number": 10273,
@@ -1310,13 +1331,6 @@
       "org": "velero-io",
       "title": "Cap the unzip of metadata download to avoid OOM kill",
       "url": "https://github.com/velero-io/velero/pull/10258"
-    },
-    {
-      "number": 10283,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "test: add verification for skippedPVTracker in backup tests",
-      "url": "https://github.com/velero-io/velero/pull/10283"
     },
     {
       "number": 10253,
@@ -1417,13 +1431,6 @@
       "url": "https://github.com/velero-io/velero/pull/10255"
     },
     {
-      "number": 10254,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "credentialFile in Config of BSL should be used internally",
-      "url": "https://github.com/velero-io/velero/pull/10254"
-    },
-    {
       "number": 10185,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1457,13 +1464,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] fix: handle hyphenated disk names in extractDiskName",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/165"
-    },
-    {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10210,
@@ -1776,6 +1776,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 9603,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport/Cherry-pick GitHub action",
+      "url": "https://github.com/velero-io/velero/issues/9603"
+    },
+    {
       "number": 10297,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1802,13 +1816,6 @@
       "org": "velero-io",
       "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
       "url": "https://github.com/velero-io/velero/issues/10302"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9964,
@@ -1956,13 +1963,6 @@
       "org": "kubernetes",
       "title": "Facilitate ConfigMap rollouts / management",
       "url": "https://github.com/kubernetes/kubernetes/issues/22368"
-    },
-    {
-      "number": 9603,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backport/Cherry-pick GitHub action",
-      "url": "https://github.com/velero-io/velero/issues/9603"
     },
     {
       "number": 1832,
