@@ -1,13 +1,13 @@
 {
   "period": {
-    "start": "2026-08-02",
-    "end": "2026-08-16"
+    "start": "2026-08-03",
+    "end": "2026-08-17"
   },
-  "generatedAt": "2026-08-16T18:39:03Z",
+  "generatedAt": "2026-08-17T01:40:34Z",
   "metrics": {
     "prsMerged": 75,
     "prsOpened": 100,
-    "prsReviewed": 77,
+    "prsReviewed": 76,
     "issuesCommented": 47,
     "issuesClosed": 31
   },
@@ -539,6 +539,41 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10309,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report a measured zero incremental instead of erasing it",
+      "url": "https://github.com/velero-io/velero/pull/10309"
+    },
+    {
+      "number": 10308,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Detect block uploader cancellation through wrapped errors",
+      "url": "https://github.com/velero-io/velero/pull/10308"
+    },
+    {
+      "number": 10307,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention",
+      "url": "https://github.com/velero-io/velero/pull/10307"
+    },
+    {
+      "number": 10306,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
+      "url": "https://github.com/velero-io/velero/pull/10306"
+    },
+    {
+      "number": 10305,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Log the discovered parent snapshot ID, not the empty lookup parameter",
+      "url": "https://github.com/velero-io/velero/pull/10305"
+    },
     {
       "number": 576,
       "repo": "kaovilai/dotfiles",
@@ -1203,41 +1238,6 @@
       "org": "kaovilai",
       "title": "Reduce permission-classifier false positives on injected subagent routing block",
       "url": "https://github.com/kaovilai/context-mode/pull/2"
-    },
-    {
-      "number": 2352,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add datadownloads RBAC to kubevirt-datamover ClusterRole",
-      "url": "https://github.com/openshift/oadp-operator/pull/2352"
-    },
-    {
-      "number": 2350,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
-      "url": "https://github.com/openshift/oadp-operator/pull/2350"
-    },
-    {
-      "number": 148,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Group Dependabot updates per ecosystem",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/148"
-    },
-    {
-      "number": 41,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Add RestoreItemAction plugins to trigger kubevirt datamover restore",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/41"
-    },
-    {
-      "number": 5354,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
-      "url": "https://github.com/openshift/ci-tools/pull/5354"
     }
   ],
   "prsReviewed": [
@@ -1716,13 +1716,6 @@
       "org": "kaovilai",
       "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
       "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
-    },
-    {
-      "number": 372,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "⬆ Bump hadolint/hadolint-action from 3.1.0 to 3.4.0",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/372"
     },
     {
       "number": 3,
