@@ -3,7 +3,7 @@
     "start": "2026-08-03",
     "end": "2026-08-17"
   },
-  "generatedAt": "2026-08-17T15:27:15Z",
+  "generatedAt": "2026-08-17T16:29:43Z",
   "metrics": {
     "prsMerged": 75,
     "prsOpened": 100,
@@ -1242,6 +1242,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 2385,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
+      "url": "https://github.com/openshift/oadp-operator/pull/2385"
+    },
+    {
       "number": 10187,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1338,13 +1345,6 @@
       "org": "openshift-eng",
       "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
-    },
-    {
-      "number": 2385,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2385"
     },
     {
       "number": 849,
