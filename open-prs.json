@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T18:45:27Z",
+  "updatedAt": "2026-08-17T19:31:13Z",
   "prs": [
     {
       "number": 10010,
@@ -1342,7 +1342,7 @@
         "lgtm",
         "rehearsals-ack"
       ],
-      "updatedAt": "2026-08-17T18:03:03Z"
+      "updatedAt": "2026-08-17T18:56:08Z"
     },
     {
       "number": 83221,
@@ -1487,28 +1487,6 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:48:33Z"
-    },
-    {
-      "number": 83299,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
-      "url": "https://github.com/openshift/release/pull/83299",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "bear-redhat"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-17T18:35:39Z"
     },
     {
       "number": 2360,
@@ -1720,25 +1698,6 @@
       "updatedAt": "2026-03-23T20:15:58Z"
     },
     {
-      "number": 2350,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
-      "url": "https://github.com/openshift/oadp-operator/pull/2350",
-      "targetBranch": "oadp-dev",
-      "status": "hold",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "do-not-merge/hold",
-        "approved"
-      ],
-      "updatedAt": "2026-08-14T20:09:09Z"
-    },
-    {
       "number": 2308,
       "repo": "openshift/oc",
       "org": "openshift",
@@ -1817,6 +1776,25 @@
         "ai-gen-bugfix"
       ],
       "updatedAt": "2026-08-13T18:59:08Z"
+    },
+    {
+      "number": 2350,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
+      "url": "https://github.com/openshift/oadp-operator/pull/2350",
+      "targetBranch": "oadp-dev",
+      "status": "needs-attention",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "needs-rebase",
+        "approved"
+      ],
+      "updatedAt": "2026-08-17T19:29:26Z"
     },
     {
       "number": 47,
@@ -3326,7 +3304,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-17T18:45:27Z",
+    "updatedAt": "2026-08-17T19:31:13Z",
     "needsReview": [
       {
         "number": 68,
@@ -3493,7 +3471,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4481,7 +4459,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4734,6 +4712,34 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
+        "number": 2368,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2368",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-08-12T19:01:32Z"
+      },
+      {
         "number": 2378,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4822,6 +4828,35 @@
         "updatedAt": "2026-08-12T14:01:01Z"
       },
       {
+        "number": 83341,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-tools: bump bin build memory request to 3Gi",
+        "url": "https://github.com/openshift/release/pull/83341",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pruan-rht",
+          "smg247"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-08-12T19:29:09Z"
+      },
+      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4873,7 +4908,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4889,63 +4924,6 @@
         "reason": "hold",
         "waitingDays": 4,
         "updatedAt": "2026-08-13T12:14:37Z"
-      },
-      {
-        "number": 2368,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2368",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-12T19:01:32Z"
-      },
-      {
-        "number": 83341,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-tools: bump bin build memory request to 3Gi",
-        "url": "https://github.com/openshift/release/pull/83341",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pruan-rht",
-          "smg247"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-12T19:29:09Z"
       },
       {
         "number": 2207,
@@ -4974,7 +4952,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
@@ -5151,36 +5129,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-08-14T22:38:52Z"
-      },
-      {
-        "number": 2350,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2350",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "sseago",
-          "eemcmullan"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-14T20:09:09Z"
       },
       {
         "number": 81508,
@@ -6054,42 +6002,6 @@
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
-        "number": 18725,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Acedus"
-        ],
-        "labels": [
-          "size/S",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lgtm",
-          "dco-signoff: yes",
-          "needs-approver-review"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ShellyKa13"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-13T20:17:52Z"
-      },
-      {
         "number": 2234,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -6116,8 +6028,44 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-08-13T19:05:52Z"
+      },
+      {
+        "number": 18725,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Acedus"
+        ],
+        "labels": [
+          "size/S",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lgtm",
+          "dco-signoff: yes",
+          "needs-approver-review"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ShellyKa13"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-13T20:17:52Z"
       },
       {
         "number": 2205,
@@ -6168,7 +6116,7 @@
           "lgtm",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -6182,42 +6130,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-17T18:03:03Z"
-      },
-      {
-        "number": 83299,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
-        "url": "https://github.com/openshift/release/pull/83299",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "bear-redhat"
-        ],
-        "labels": [
-          "lgtm",
-          "approved",
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "sosiouxme",
-          "neisw",
-          "smg247"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-17T18:35:39Z"
+        "updatedAt": "2026-08-17T18:56:08Z"
       }
     ]
   }
