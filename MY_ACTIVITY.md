@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-03 — 2026-08-17
-> **Generated:** 2026-08-17 12:48:36 UTC
+> **Generated:** 2026-08-17 13:41:07 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -209,8 +209,8 @@
 ## PRs Reviewed (76)
 
 **velero-io** (40)
-- [#10185 Full backup for all data movers](https://github.com/velero-io/velero/pull/10185) — velero-io/velero
 - [#10187 thread context through GetVolumeSnapshotContentForVolumeSnapshot](https://github.com/velero-io/velero/pull/10187) — velero-io/velero
+- [#10185 Full backup for all data movers](https://github.com/velero-io/velero/pull/10185) — velero-io/velero
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
 - [#10255 Use thread safe map for cancel recorder](https://github.com/velero-io/velero/pull/10255) — velero-io/velero
 - [#10258 Cap the unzip of metadata download to avoid OOM kill](https://github.com/velero-io/velero/pull/10258) — velero-io/velero
