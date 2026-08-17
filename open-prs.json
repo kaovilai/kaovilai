@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T14:31:50Z",
+  "updatedAt": "2026-08-17T15:28:43Z",
   "prs": [
     {
       "number": 10010,
@@ -49,7 +49,7 @@
       "org": "velero-io",
       "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
       "url": "https://github.com/velero-io/velero/pull/10210",
-      "targetBranch": "main",
+      "targetBranch": "unknown",
       "status": "ready",
       "milestone": null,
       "author": "Copilot",
@@ -1642,7 +1642,7 @@
       "org": "openshift",
       "title": "OADP-6675: Update Azure registry configuration for workload identity support",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/350",
-      "targetBranch": "oadp-dev",
+      "targetBranch": "unknown",
       "status": "stale",
       "milestone": null,
       "author": "kaovilai",
@@ -1738,7 +1738,7 @@
       "org": "openshift",
       "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
-      "targetBranch": "oadp-dev",
+      "targetBranch": "unknown",
       "status": "hold",
       "milestone": null,
       "author": "kaovilai",
@@ -2144,7 +2144,7 @@
       "org": "HASHCUT69",
       "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
       "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-      "targetBranch": "master",
+      "targetBranch": "unknown",
       "status": "ready",
       "milestone": null,
       "author": "kaovilai",
@@ -3316,7 +3316,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-17T14:31:50Z",
+    "updatedAt": "2026-08-17T15:28:43Z",
     "needsReview": [
       {
         "number": 68,
@@ -3523,7 +3523,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 157,
+        "waitingDays": 158,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3616,7 +3616,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 130,
+        "waitingDays": 131,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3856,7 +3856,7 @@
         "org": "openshift",
         "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
         "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
-        "targetBranch": "oadp-dev",
+        "targetBranch": "unknown",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
@@ -3864,17 +3864,14 @@
           "approved",
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": 2,
-        "reviewRequests": [
-          "savitharaghunathan",
-          "sseago"
-        ],
+        "reviewRequests": [],
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 32,
@@ -4100,7 +4097,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -4488,7 +4485,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -4517,7 +4514,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-05T14:54:17Z"
       },
       {
@@ -4675,16 +4672,16 @@
         "org": "HASHCUT69",
         "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
         "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
+        "targetBranch": "unknown",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [],
@@ -4729,7 +4726,7 @@
         "org": "velero-io",
         "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
         "url": "https://github.com/velero-io/velero/pull/10210",
-        "targetBranch": "main",
+        "targetBranch": "unknown",
         "author": "Copilot",
         "isCopilotAuthored": false,
         "assignees": [
@@ -4740,16 +4737,14 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
+        "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 5,
@@ -5850,7 +5845,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 130,
+        "waitingDays": 131,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5880,6 +5875,37 @@
         "reason": "pendingMerge",
         "waitingDays": 31,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 48,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "Remove inactive users from OWNERS",
+        "url": "https://github.com/migtools/kopia/pull/48",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 12,
+        "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
         "number": 253,
@@ -5913,37 +5939,6 @@
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
-        "number": 48,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "Remove inactive users from OWNERS",
-        "url": "https://github.com/migtools/kopia/pull/48",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
         "number": 449,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -5971,7 +5966,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-05T14:48:33Z"
       },
       {

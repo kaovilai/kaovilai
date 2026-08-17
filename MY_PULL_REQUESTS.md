@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-17 14:31:50 UTC
+> Last updated: 2026-08-17 15:28:43 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -9,7 +9,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
-- [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
+- [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `unknown` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-ready-green)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ready-green)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
@@ -95,12 +95,12 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
-- [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
+- [![PR #350](https://img.shields.io/badge/PR%20%23350-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `unknown` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #2350](https://img.shields.io/badge/PR%20%232350-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2350) **openshift/oadp-operator** → `oadp-dev` - Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore
-- [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
+- [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `unknown` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #83049](https://img.shields.io/badge/PR%20%2383049-hold-yellow)](https://github.com/openshift/release/pull/83049) **openshift/release** → `main` - Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
@@ -138,7 +138,7 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
-- [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
+- [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `unknown` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #3](https://img.shields.io/badge/PR%20%233-ready-green)](https://github.com/kaovilai/redirector/pull/3) **kaovilai/redirector** → `main` - Add design docs for one-click community rule install via marketplace deep links
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-ready-green)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
