@@ -3,7 +3,7 @@
     "start": "2026-08-03",
     "end": "2026-08-17"
   },
-  "generatedAt": "2026-08-17T20:29:37Z",
+  "generatedAt": "2026-08-17T21:27:40Z",
   "metrics": {
     "prsMerged": 76,
     "prsOpened": 100,
@@ -1249,6 +1249,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10264,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix loadConcurrency slot leak on forced cancel",
+      "url": "https://github.com/velero-io/velero/pull/10264"
+    },
+    {
       "number": 2385,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1310,13 +1317,6 @@
       "org": "velero-io",
       "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
       "url": "https://github.com/velero-io/velero/pull/10280"
-    },
-    {
-      "number": 10264,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix loadConcurrency slot leak on forced cancel",
-      "url": "https://github.com/velero-io/velero/pull/10264"
     },
     {
       "number": 10254,
