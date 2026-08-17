@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T21:29:08Z",
+  "updatedAt": "2026-08-17T22:28:26Z",
   "prs": [
     {
       "number": 10010,
@@ -3283,7 +3283,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-17T21:29:08Z",
+    "updatedAt": "2026-08-17T22:28:26Z",
     "needsReview": [
       {
         "number": 68,
@@ -3676,6 +3676,36 @@
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 69,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -3737,7 +3767,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-07-03T22:28:56Z"
       },
       {
@@ -4408,7 +4438,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4422,7 +4452,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4515,6 +4545,35 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 2134,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "DNM: Test: disable pod restart workaround after file-system restore",
+        "url": "https://github.com/openshift/oadp-operator/pull/2134",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-08-07T21:59:39Z"
+      },
+      {
         "number": 9384,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4545,35 +4604,6 @@
         "reason": "awaitingReview",
         "waitingDays": 10,
         "updatedAt": "2026-08-07T18:22:38Z"
-      },
-      {
-        "number": 2134,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "DNM: Test: disable pod restart workaround after file-system restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2134",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 9772,
@@ -4759,7 +4789,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4789,7 +4819,7 @@
         "labels": [
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4857,7 +4887,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5048,6 +5078,35 @@
         "updatedAt": "2026-08-14T21:03:43Z"
       },
       {
+        "number": 321,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-14T22:23:25Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -5174,7 +5233,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5308,35 +5367,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-08-14T22:31:17Z"
-      },
-      {
-        "number": 321,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-14T22:23:25Z"
       },
       {
         "number": 322,
