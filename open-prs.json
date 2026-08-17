@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T16:32:33Z",
+  "updatedAt": "2026-08-17T17:30:43Z",
   "prs": [
     {
       "number": 10010,
@@ -1763,12 +1763,11 @@
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [],
-      "isDraft": true,
+      "isDraft": false,
       "labels": [
-        "do-not-merge/hold",
-        "do-not-merge/work-in-progress"
+        "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-16T18:36:27Z"
+      "updatedAt": "2026-08-17T17:29:21Z"
     },
     {
       "number": 260,
@@ -3316,7 +3315,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-17T16:32:33Z",
+    "updatedAt": "2026-08-17T17:30:43Z",
     "needsReview": [
       {
         "number": 68,
@@ -3993,7 +3992,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -4019,7 +4018,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -4045,7 +4044,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -4071,7 +4070,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T16:58:01Z"
       },
       {
@@ -4097,7 +4096,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -5788,6 +5787,36 @@
         "updatedAt": "2026-08-14T23:59:30Z"
       },
       {
+        "number": 83049,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
+        "url": "https://github.com/openshift/release/pull/83049",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "mpryc",
+          "nunnatsa"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-17T17:29:21Z"
+      },
+      {
         "number": 83299,
         "repo": "openshift/release",
         "org": "openshift",
@@ -5908,7 +5937,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
