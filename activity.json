@@ -3,15 +3,22 @@
     "start": "2026-08-04",
     "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-18T16:33:57Z",
+  "generatedAt": "2026-08-18T17:29:17Z",
   "metrics": {
-    "prsMerged": 67,
+    "prsMerged": 68,
     "prsOpened": 100,
     "prsReviewed": 83,
     "issuesCommented": 52,
-    "issuesClosed": 32
+    "issuesClosed": 33
   },
   "prsMerged": [
+    {
+      "number": 186,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
+    },
     {
       "number": 83299,
       "repo": "openshift/release",
@@ -1769,6 +1776,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 175,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Implement concurrency limiter for DataDownload controller",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175"
+    },
+    {
+      "number": 184,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
+    },
+    {
       "number": 481,
       "repo": "actions/setup-go",
       "org": "actions",
@@ -1895,13 +1916,6 @@
       "url": "https://github.com/openshift/ci-docs/issues/597"
     },
     {
-      "number": 175,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrency limiter for DataDownload controller",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175"
-    },
-    {
       "number": 169,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1914,13 +1928,6 @@
       "org": "migtools",
       "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
-    },
-    {
-      "number": 184,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
     },
     {
       "number": 153,
@@ -2134,6 +2141,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 184,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
+    },
     {
       "number": 10303,
       "repo": "velero-io/velero",
