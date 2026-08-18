@@ -3,11 +3,11 @@
     "start": "2026-08-04",
     "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-18T18:40:35Z",
+  "generatedAt": "2026-08-18T19:29:16Z",
   "metrics": {
     "prsMerged": 68,
     "prsOpened": 100,
-    "prsReviewed": 83,
+    "prsReviewed": 84,
     "issuesCommented": 52,
     "issuesClosed": 33
   },
@@ -1198,6 +1198,13 @@
       "org": "openshift",
       "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
       "url": "https://github.com/openshift/oadp-operator/pull/2385"
+    },
+    {
+      "number": 2390,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Deprecate config.credentialsFile; translate to spec.credential",
+      "url": "https://github.com/openshift/oadp-operator/pull/2390"
     },
     {
       "number": 10237,
