@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T12:53:55Z",
+  "updatedAt": "2026-08-18T14:37:09Z",
   "prs": [
     {
       "number": 10010,
@@ -66,6 +66,27 @@
       "updatedAt": "2026-08-12T05:10:33Z"
     },
     {
+      "number": 10276,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail fast with clear error when data mover pod is unschedulable",
+      "url": "https://github.com/velero-io/velero/pull/10276",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-18T14:06:05Z"
+    },
+    {
       "number": 10281,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -105,6 +126,27 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-15T01:46:23Z"
+    },
+    {
+      "number": 10306,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
+      "url": "https://github.com/velero-io/velero/pull/10306",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-18T13:18:57Z"
     },
     {
       "number": 10308,
@@ -603,6 +645,25 @@
       "updatedAt": "2026-08-18T06:39:25Z"
     },
     {
+      "number": 10327,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Detect data path pod deletion via informer DeleteFunc",
+      "url": "https://github.com/velero-io/velero/pull/10327",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-18T13:33:24Z"
+    },
+    {
       "number": 7344,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -813,26 +874,6 @@
       "updatedAt": "2026-07-25T23:41:12Z"
     },
     {
-      "number": 10276,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fail fast with clear error when data mover pod is unschedulable",
-      "url": "https://github.com/velero-io/velero/pull/10276",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests"
-      ],
-      "updatedAt": "2026-08-18T03:17:39Z"
-    },
-    {
       "number": 10305,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -852,27 +893,6 @@
         "has-unit-tests"
       ],
       "updatedAt": "2026-08-18T05:04:14Z"
-    },
-    {
-      "number": 10306,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
-      "url": "https://github.com/velero-io/velero/pull/10306",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-18T07:40:35Z"
     },
     {
       "number": 10307,
@@ -1084,7 +1104,7 @@
       ],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-08-14T23:54:24Z"
+      "updatedAt": "2026-08-18T14:29:42Z"
     },
     {
       "number": 327,
@@ -1520,7 +1540,7 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-18T07:11:02Z"
+      "updatedAt": "2026-08-18T13:28:34Z"
     },
     {
       "number": 2360,
@@ -3320,7 +3340,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-18T12:53:55Z",
+    "updatedAt": "2026-08-18T14:37:09Z",
     "needsReview": [
       {
         "number": 68,
@@ -3459,7 +3479,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3578,7 +3598,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3927,7 +3947,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3942,39 +3962,6 @@
         "reason": "awaitingReview",
         "waitingDays": 32,
         "updatedAt": "2026-07-16T16:05:03Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 32,
-        "updatedAt": "2026-07-16T15:28:53Z"
       },
       {
         "number": 261,
@@ -4155,7 +4142,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4184,7 +4171,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4217,7 +4204,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4317,7 +4304,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4350,7 +4337,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4382,7 +4369,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4413,7 +4400,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4628,7 +4615,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4643,6 +4630,35 @@
         "reason": "awaitingReview",
         "waitingDays": 10,
         "updatedAt": "2026-08-07T18:22:38Z"
+      },
+      {
+        "number": 46,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Centralize build scheduling into a single version-aware dispatcher",
+        "url": "https://github.com/konveyor/builder/pull/46",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
         "number": 9772,
@@ -4660,7 +4676,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4701,20 +4717,19 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
-        "number": 46,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Centralize build scheduling into a single version-aware dispatcher",
-        "url": "https://github.com/konveyor/builder/pull/46",
+        "number": 83221,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+        "url": "https://github.com/openshift/release/pull/83221",
         "targetBranch": "main",
-        "author": "Copilot",
+        "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
+        "assignees": [],
+        "labels": [
+          "approved"
         ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4722,12 +4737,14 @@
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
-          "kaovilai"
+          "dgoodwin",
+          "stbenjam",
+          "petr-muller"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 6,
-        "updatedAt": "2026-08-11T13:19:55Z"
+        "updatedAt": "2026-08-12T14:01:01Z"
       },
       {
         "number": 10210,
@@ -4746,7 +4763,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4883,36 +4900,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-08-12T18:07:16Z"
-      },
-      {
-        "number": 83221,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-        "url": "https://github.com/openshift/release/pull/83221",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "dgoodwin",
-          "stbenjam",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-12T14:01:01Z"
       },
       {
         "number": 83341,
@@ -5131,7 +5118,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5193,7 +5180,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5222,7 +5209,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5628,32 +5615,6 @@
         "updatedAt": "2026-08-14T23:52:37Z"
       },
       {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-14T23:54:24Z"
-      },
-      {
         "number": 327,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -5846,7 +5807,8 @@
           "kaovilai"
         ],
         "labels": [
-          "has-unit-tests"
+          "has-unit-tests",
+          "has-changelog"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
@@ -5859,7 +5821,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T03:17:39Z"
+        "updatedAt": "2026-08-18T14:06:05Z"
       },
       {
         "number": 10305,
@@ -5917,7 +5879,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T07:40:35Z"
+        "updatedAt": "2026-08-18T13:18:57Z"
       },
       {
         "number": 10307,
@@ -6036,6 +5998,32 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-18T03:00:33Z"
+      },
+      {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-18T14:29:42Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -6096,34 +6084,35 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
+        "number": 253,
+        "repo": "migtools/oadp-cli",
+        "org": "migtools",
+        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
-          "kaovilai"
+          "sseago"
         ],
         "labels": [
-          "kind/changelog-not-required"
+          "approved",
+          "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
-        "hasProwApproval": false,
+        "hasProwApproval": true,
         "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
         "reviewRequests": [
           "shubham-pampattiwar"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
-        "updatedAt": "2026-07-23T20:59:18Z"
+        "waitingDays": 13,
+        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 48,
@@ -6155,37 +6144,6 @@
         "reason": "pendingMerge",
         "waitingDays": 12,
         "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
-        "number": 253,
-        "repo": "migtools/oadp-cli",
-        "org": "migtools",
-        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-        "url": "https://github.com/migtools/oadp-cli/pull/253",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 449,
@@ -6249,7 +6207,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -6281,7 +6239,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
@@ -6305,7 +6263,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
