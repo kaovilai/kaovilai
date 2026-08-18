@@ -3,7 +3,7 @@
     "start": "2026-08-04",
     "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-18T17:29:17Z",
+  "generatedAt": "2026-08-18T18:40:35Z",
   "metrics": {
     "prsMerged": 68,
     "prsOpened": 100,
@@ -1193,6 +1193,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 2385,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
+      "url": "https://github.com/openshift/oadp-operator/pull/2385"
+    },
+    {
       "number": 10237,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1296,13 +1303,6 @@
       "org": "velero-io",
       "title": "Fix loadConcurrency slot leak on forced cancel",
       "url": "https://github.com/velero-io/velero/pull/10264"
-    },
-    {
-      "number": 2385,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2385"
     },
     {
       "number": 10229,
@@ -1776,6 +1776,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 481,
+      "repo": "actions/setup-go",
+      "org": "actions",
+      "title": "Support using a later patch release than what's in go.mod",
+      "url": "https://github.com/actions/setup-go/issues/481"
+    },
+    {
       "number": 175,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1788,13 +1795,6 @@
       "org": "migtools",
       "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
-    },
-    {
-      "number": 481,
-      "repo": "actions/setup-go",
-      "org": "actions",
-      "title": "Support using a later patch release than what's in go.mod",
-      "url": "https://github.com/actions/setup-go/issues/481"
     },
     {
       "number": 9951,
