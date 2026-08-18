@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-04 — 2026-08-18
-> **Generated:** 2026-08-18 15:33:50 UTC
+> **Generated:** 2026-08-18 16:33:57 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -201,12 +201,12 @@
 ## PRs Reviewed (83)
 
 **velero-io** (47)
+- [#10237 Reject negative --ttl in backup create validation](https://github.com/velero-io/velero/pull/10237) — velero-io/velero
 - [#10252 Skip signing a download URL when no artifacts can exist yet](https://github.com/velero-io/velero/pull/10252) — velero-io/velero
 - [#10322 Issue 10321: fill the error to the corresponding CR when data mover pod is evicted](https://github.com/velero-io/velero/pull/10322) — velero-io/velero
 - [#10319 [cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10319) — velero-io/velero
 - [#10269 Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10269) — velero-io/velero
 - [#10253 Refactor: Remove legacy resticrepositories hardcoding from restore controller](https://github.com/velero-io/velero/pull/10253) — velero-io/velero
-- [#10237 Reject negative --ttl in backup create validation](https://github.com/velero-io/velero/pull/10237) — velero-io/velero
 - [#10187 thread context through GetVolumeSnapshotContentForVolumeSnapshot](https://github.com/velero-io/velero/pull/10187) — velero-io/velero
 - [#10185 Full backup for all data movers](https://github.com/velero-io/velero/pull/10185) — velero-io/velero
 - [#10317 Cleanup: Remove deprecated --wait flag from velero uninstall](https://github.com/velero-io/velero/pull/10317) — velero-io/velero
