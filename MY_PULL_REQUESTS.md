@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-18 19:30:37 UTC
+> Last updated: 2026-08-18 20:28:32 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -110,7 +110,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/migtools/kubevirt-datamover-plugin/pull/47) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage
-- [![PR #187](https://img.shields.io/badge/PR%20%23187-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: concurrency limiter for DataUpload controller (issue #174)
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
