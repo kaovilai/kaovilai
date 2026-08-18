@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-18 14:37:09 UTC
+> Last updated: 2026-08-18 15:35:40 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -107,9 +107,11 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
+- [![PR #187](https://img.shields.io/badge/PR%20%23187-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: concurrency limiter for DataUpload controller (issue #174)
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-ready-green)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/migtools/kubevirt-datamover-plugin/pull/47) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage
+- [![PR #186](https://img.shields.io/badge/PR%20%23186-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
@@ -121,8 +123,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
-- [![PR #186](https://img.shields.io/badge/PR%20%23186-hold-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)
-- [![PR #187](https://img.shields.io/badge/PR%20%23187-hold-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) **migtools/kubevirt-datamover-controller** → `oadp-dev` - feat: concurrency limiter for DataUpload controller (issue #174)
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
 
 ## oadp-rebase

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T14:37:09Z",
+  "updatedAt": "2026-08-18T15:35:40Z",
   "prs": [
     {
       "number": 10010,
@@ -1787,7 +1787,7 @@
       "labels": [
         "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-18T09:09:11Z"
+      "updatedAt": "2026-08-18T15:21:05Z"
     },
     {
       "number": 260,
@@ -1831,6 +1831,24 @@
         "ai-gen-bugfix"
       ],
       "updatedAt": "2026-08-13T18:59:08Z"
+    },
+    {
+      "number": 187,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-18T15:34:49Z"
     },
     {
       "number": 47,
@@ -1910,6 +1928,27 @@
         "approved"
       ],
       "updatedAt": "2026-08-05T14:45:16Z"
+    },
+    {
+      "number": 186,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-18T15:34:31Z"
     },
     {
       "number": 253,
@@ -2098,47 +2137,6 @@
         "do-not-merge/hold"
       ],
       "updatedAt": "2026-04-09T20:18:56Z"
-    },
-    {
-      "number": 186,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
-      "targetBranch": "oadp-dev",
-      "status": "hold",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm",
-        "do-not-merge/hold"
-      ],
-      "updatedAt": "2026-08-18T06:29:46Z"
-    },
-    {
-      "number": 187,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187",
-      "targetBranch": "oadp-dev",
-      "status": "hold",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "do-not-merge/hold"
-      ],
-      "updatedAt": "2026-08-18T06:29:38Z"
     },
     {
       "number": 251,
@@ -3340,7 +3338,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-18T14:37:09Z",
+    "updatedAt": "2026-08-18T15:35:40Z",
     "needsReview": [
       {
         "number": 68,
@@ -3547,7 +3545,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 158,
+        "waitingDays": 159,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3640,7 +3638,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 131,
+        "waitingDays": 132,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3760,7 +3758,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -4123,7 +4121,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -4511,7 +4509,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -4540,7 +4538,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-08-05T14:54:17Z"
       },
       {
@@ -5118,7 +5116,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5701,39 +5699,6 @@
         "updatedAt": "2026-08-17T02:30:41Z"
       },
       {
-        "number": 186,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "approved",
-          "lgtm",
-          "do-not-merge/hold"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-18T06:29:46Z"
-      },
-      {
         "number": 187,
         "repo": "migtools/kubevirt-datamover-controller",
         "org": "migtools",
@@ -5744,8 +5709,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "approved",
-          "do-not-merge/hold"
+          "approved"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
@@ -5759,9 +5723,9 @@
           "weshayutin"
         ],
         "group": "needsReview",
-        "reason": "hold",
+        "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T06:29:38Z"
+        "updatedAt": "2026-08-18T15:34:49Z"
       },
       {
         "number": 83049,
@@ -5792,7 +5756,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T09:09:11Z"
+        "updatedAt": "2026-08-18T15:21:05Z"
       },
       {
         "number": 10276,
@@ -6052,7 +6016,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 131,
+        "waitingDays": 132,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -6082,6 +6046,37 @@
         "reason": "pendingMerge",
         "waitingDays": 32,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 48,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "Remove inactive users from OWNERS",
+        "url": "https://github.com/migtools/kopia/pull/48",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
         "number": 253,
@@ -6115,37 +6110,6 @@
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
-        "number": 48,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "Remove inactive users from OWNERS",
-        "url": "https://github.com/migtools/kopia/pull/48",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
         "number": 449,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -6173,7 +6137,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
@@ -6263,7 +6227,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -6340,6 +6304,38 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-08-14T20:01:56Z"
+      },
+      {
+        "number": 186,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-18T15:34:31Z"
       }
     ]
   }
