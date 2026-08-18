@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T06:40:08Z",
+  "updatedAt": "2026-08-18T12:53:55Z",
   "prs": [
     {
       "number": 10010,
@@ -105,27 +105,6 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-15T01:46:23Z"
-    },
-    {
-      "number": 10306,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
-      "url": "https://github.com/velero-io/velero/pull/10306",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-18T03:49:15Z"
     },
     {
       "number": 10308,
@@ -612,7 +591,7 @@
       "url": "https://github.com/velero-io/velero/pull/10318",
       "targetBranch": "main",
       "status": "draft",
-      "milestone": null,
+      "milestone": "v1.19",
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [],
@@ -875,6 +854,27 @@
       "updatedAt": "2026-08-18T05:04:14Z"
     },
     {
+      "number": 10306,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
+      "url": "https://github.com/velero-io/velero/pull/10306",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-18T07:40:35Z"
+    },
+    {
       "number": 10307,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -882,7 +882,7 @@
       "url": "https://github.com/velero-io/velero/pull/10307",
       "targetBranch": "main",
       "status": "failing-ci",
-      "milestone": null,
+      "milestone": "v1.19",
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [
@@ -1520,7 +1520,7 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-08-18T05:44:21Z"
+      "updatedAt": "2026-08-18T07:11:02Z"
     },
     {
       "number": 2360,
@@ -1765,10 +1765,9 @@
       ],
       "isDraft": false,
       "labels": [
-        "do-not-merge/hold",
-        "do-not-merge/invalid-owners-file"
+        "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-18T05:36:06Z"
+      "updatedAt": "2026-08-18T09:09:11Z"
     },
     {
       "number": 260,
@@ -3321,7 +3320,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-18T06:40:08Z",
+    "updatedAt": "2026-08-18T12:53:55Z",
     "needsReview": [
       {
         "number": 68,
@@ -3440,7 +3439,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 438,
+        "waitingDays": 439,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3592,7 +3591,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 138,
+        "waitingDays": 139,
         "updatedAt": "2026-04-01T08:21:20Z"
       },
       {
@@ -3802,30 +3801,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 34,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3851,8 +3826,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 33,
+        "waitingDays": 34,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 34,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -4156,7 +4155,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4203,6 +4202,38 @@
         "updatedAt": "2026-07-20T19:47:24Z"
       },
       {
+        "number": 10051,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+        "url": "https://github.com/velero-io/velero/pull/10051",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "adam-jian-zhang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 27,
+        "updatedAt": "2026-07-22T08:06:39Z"
+      },
+      {
         "number": 297,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -4235,38 +4266,6 @@
         "reason": "awaitingReview",
         "waitingDays": 26,
         "updatedAt": "2026-07-22T17:33:01Z"
-      },
-      {
-        "number": 10051,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-        "url": "https://github.com/velero-io/velero/pull/10051",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "adam-jian-zhang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 26,
-        "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
         "number": 9236,
@@ -4478,7 +4477,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4763,6 +4762,43 @@
         "updatedAt": "2026-08-12T05:10:33Z"
       },
       {
+        "number": 478,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "branchprotector: remove protection from excluded branches",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Prucek"
+        ],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "do-not-merge/hold",
+          "size/M",
+          "lgtm",
+          "area/branchprotector"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean",
+          "petr-muller",
+          "matthyx"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 5,
+        "updatedAt": "2026-08-13T12:14:37Z"
+      },
+      {
         "number": 2368,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4906,43 +4942,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-08-12T19:29:09Z"
-      },
-      {
-        "number": 478,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "branchprotector: remove protection from excluded branches",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Prucek"
-        ],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "do-not-merge/hold",
-          "size/M",
-          "lgtm",
-          "area/branchprotector"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "petr-muller",
-          "matthyx"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
         "number": 2207,
@@ -5816,8 +5815,7 @@
           "Joeavaikath"
         ],
         "labels": [
-          "do-not-merge/hold",
-          "do-not-merge/invalid-owners-file"
+          "do-not-merge/hold"
         ],
         "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
@@ -5833,7 +5831,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T05:36:06Z"
+        "updatedAt": "2026-08-18T09:09:11Z"
       },
       {
         "number": 10276,
@@ -5919,7 +5917,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T03:49:15Z"
+        "updatedAt": "2026-08-18T07:40:35Z"
       },
       {
         "number": 10307,
