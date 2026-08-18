@@ -3,13 +3,13 @@
     "start": "2026-08-04",
     "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-18T01:35:39Z",
+  "generatedAt": "2026-08-18T06:53:21Z",
   "metrics": {
     "prsMerged": 67,
     "prsOpened": 100,
-    "prsReviewed": 73,
-    "issuesCommented": 49,
-    "issuesClosed": 30
+    "prsReviewed": 81,
+    "issuesCommented": 51,
+    "issuesClosed": 32
   },
   "prsMerged": [
     {
@@ -483,6 +483,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10318,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix datamover backup arg mismatch for CSI CBT service account name",
+      "url": "https://github.com/velero-io/velero/pull/10318"
+    },
     {
       "number": 13882,
       "repo": "ghostty-org/ghostty",
@@ -1175,36 +1182,29 @@
       "org": "mksglu",
       "title": "fix(routing): self-identify subagent routing block, add opt-out (#967)",
       "url": "https://github.com/mksglu/context-mode/pull/1034"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "Follow-up fixes for #967 subagent routing opt-out and provenance scoping",
-      "url": "https://github.com/kaovilai/context-mode/pull/3"
     }
   ],
   "prsReviewed": [
     {
-      "number": 10264,
+      "number": 10253,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Fix loadConcurrency slot leak on forced cancel",
-      "url": "https://github.com/velero-io/velero/pull/10264"
+      "title": "Refactor: Remove legacy resticrepositories hardcoding from restore controller",
+      "url": "https://github.com/velero-io/velero/pull/10253"
     },
     {
-      "number": 2385,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2385"
-    },
-    {
-      "number": 10235,
+      "number": 10237,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
+      "title": "Reject negative --ttl in backup create validation",
+      "url": "https://github.com/velero-io/velero/pull/10237"
+    },
+    {
+      "number": 10252,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip signing a download URL when no artifacts can exist yet",
+      "url": "https://github.com/velero-io/velero/pull/10252"
     },
     {
       "number": 10187,
@@ -1219,6 +1219,69 @@
       "org": "velero-io",
       "title": "Full backup for all data movers",
       "url": "https://github.com/velero-io/velero/pull/10185"
+    },
+    {
+      "number": 10317,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cleanup: Remove deprecated --wait flag from velero uninstall",
+      "url": "https://github.com/velero-io/velero/pull/10317"
+    },
+    {
+      "number": 162,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.12.2 (82b9141) into oadp-1.5",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/162"
+    },
+    {
+      "number": 10312,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "assert expected errors from the test case rather than the returned error",
+      "url": "https://github.com/velero-io/velero/pull/10312"
+    },
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
+    },
+    {
+      "number": 257,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.5 (f2cb269) into oadp-1.5",
+      "url": "https://github.com/migtools/oadp-cli/pull/257"
+    },
+    {
+      "number": 10315,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
+      "url": "https://github.com/velero-io/velero/pull/10315"
+    },
+    {
+      "number": 10269,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove PVC and PV inclusion check during creating PVR.",
+      "url": "https://github.com/velero-io/velero/pull/10269"
+    },
+    {
+      "number": 10264,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix loadConcurrency slot leak on forced cancel",
+      "url": "https://github.com/velero-io/velero/pull/10264"
+    },
+    {
+      "number": 2385,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
+      "url": "https://github.com/openshift/oadp-operator/pull/2385"
     },
     {
       "number": 10229,
@@ -1303,13 +1366,6 @@
       "org": "velero-io",
       "title": "Fix PVR regression",
       "url": "https://github.com/velero-io/velero/pull/10273"
-    },
-    {
-      "number": 10253,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Refactor: Remove legacy resticrepositories hardcoding from restore controller",
-      "url": "https://github.com/velero-io/velero/pull/10253"
     },
     {
       "number": 318,
@@ -1699,11 +1755,32 @@
   ],
   "issuesCommented": [
     {
-      "number": 101,
-      "repo": "pyamsoft/tetherfusenet",
-      "org": "pyamsoft",
-      "title": "UDP support",
-      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
+      "url": "https://github.com/velero-io/velero/issues/10303"
+    },
+    {
+      "number": 9951,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults",
+      "url": "https://github.com/velero-io/velero/issues/9951"
+    },
+    {
+      "number": 10232,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
+      "url": "https://github.com/velero-io/velero/issues/10232"
     },
     {
       "number": 7507,
@@ -1713,20 +1790,6 @@
       "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
-      "number": 9603,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backport/Cherry-pick GitHub action",
-      "url": "https://github.com/velero-io/velero/issues/9603"
-    },
-    {
-      "number": 8815,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
-      "url": "https://github.com/velero-io/velero/issues/8815"
-    },
-    {
       "number": 10297,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1734,11 +1797,25 @@
       "url": "https://github.com/velero-io/velero/issues/10297"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+      "number": 9603,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport/Cherry-pick GitHub action",
+      "url": "https://github.com/velero-io/velero/issues/9603"
+    },
+    {
+      "number": 101,
+      "repo": "pyamsoft/tetherfusenet",
+      "org": "pyamsoft",
+      "title": "UDP support",
+      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
+    },
+    {
+      "number": 8815,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
+      "url": "https://github.com/velero-io/velero/issues/8815"
     },
     {
       "number": 9833,
@@ -1879,13 +1956,6 @@
       "org": "velero-io",
       "title": "S3 client-side encryption support",
       "url": "https://github.com/velero-io/velero/issues/3218"
-    },
-    {
-      "number": 10232,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
-      "url": "https://github.com/velero-io/velero/issues/10232"
     },
     {
       "number": 2906,
@@ -2043,6 +2113,20 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
+      "url": "https://github.com/velero-io/velero/issues/10303"
+    },
+    {
+      "number": 10300,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)",
+      "url": "https://github.com/velero-io/velero/issues/10300"
+    },
     {
       "number": 10301,
       "repo": "velero-io/velero",
