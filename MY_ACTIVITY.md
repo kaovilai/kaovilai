@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-04 — 2026-08-18
-> **Generated:** 2026-08-18 19:29:16 UTC
+> **Generated:** 2026-08-18 20:26:40 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 68 |
+| PRs Merged | 69 |
 | PRs Opened | 100 |
 | PRs Reviewed | 84 |
 | Issues/PRs Commented | 52 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (68)
+## PRs Merged (69)
 
 **velero-io** (10)
 - [#10262 [release-1.17] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10262) — velero-io/velero
@@ -50,7 +50,8 @@
 - [#2352 Add datadownloads RBAC to kubevirt-datamover ClusterRole](https://github.com/openshift/oadp-operator/pull/2352) — openshift/oadp-operator
 - [#82762 Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)](https://github.com/openshift/release/pull/82762) — openshift/release
 
-**migtools** (7)
+**migtools** (8)
+- [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
 - [#186 feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) — migtools/kubevirt-datamover-controller
 - [#182 fix: correct S3 checkpoint index when backup type mismatch detected](https://github.com/migtools/kubevirt-datamover-controller/pull/182) — migtools/kubevirt-datamover-controller
 - [#124 feat: implement DataDownload controller for VM restore (issue #73 Phase 3)](https://github.com/migtools/kubevirt-datamover-controller/pull/124) — migtools/kubevirt-datamover-controller
