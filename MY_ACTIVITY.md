@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-04 — 2026-08-18
-> **Generated:** 2026-08-18 06:53:21 UTC
+> **Generated:** 2026-08-18 12:50:46 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 67 |
 | PRs Opened | 100 |
-| PRs Reviewed | 81 |
+| PRs Reviewed | 82 |
 | Issues/PRs Commented | 51 |
 | Issues Closed | 32 |
 
@@ -198,19 +198,20 @@
 - [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
 - [#174 Addressing date and time display per browser timezone](https://github.com/kaovilai/kaovilai.pw/pull/174) — kaovilai/kaovilai.pw
 - [#1034 fix(routing): self-identify subagent routing block, add opt-out (#967)](https://github.com/mksglu/context-mode/pull/1034) — mksglu/context-mode
-## PRs Reviewed (81)
+## PRs Reviewed (82)
 
-**velero-io** (45)
+**velero-io** (46)
+- [#10252 Skip signing a download URL when no artifacts can exist yet](https://github.com/velero-io/velero/pull/10252) — velero-io/velero
+- [#10319 [cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10319) — velero-io/velero
+- [#10269 Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10269) — velero-io/velero
 - [#10253 Refactor: Remove legacy resticrepositories hardcoding from restore controller](https://github.com/velero-io/velero/pull/10253) — velero-io/velero
 - [#10237 Reject negative --ttl in backup create validation](https://github.com/velero-io/velero/pull/10237) — velero-io/velero
-- [#10252 Skip signing a download URL when no artifacts can exist yet](https://github.com/velero-io/velero/pull/10252) — velero-io/velero
 - [#10187 thread context through GetVolumeSnapshotContentForVolumeSnapshot](https://github.com/velero-io/velero/pull/10187) — velero-io/velero
 - [#10185 Full backup for all data movers](https://github.com/velero-io/velero/pull/10185) — velero-io/velero
 - [#10317 Cleanup: Remove deprecated --wait flag from velero uninstall](https://github.com/velero-io/velero/pull/10317) — velero-io/velero
 - [#10312 assert expected errors from the test case rather than the returned error](https://github.com/velero-io/velero/pull/10312) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10315 Testing: Implement missing unit tests for pkg/backup/snapshots.go](https://github.com/velero-io/velero/pull/10315) — velero-io/velero
-- [#10269 Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10269) — velero-io/velero
 - [#10264 Fix loadConcurrency slot leak on forced cancel](https://github.com/velero-io/velero/pull/10264) — velero-io/velero
 - [#10229 Add printer columns for DownloadRequest and ServerStatusRequest](https://github.com/velero-io/velero/pull/10229) — velero-io/velero
 - [#10255 Use thread safe map for cancel recorder](https://github.com/velero-io/velero/pull/10255) — velero-io/velero
@@ -291,8 +292,8 @@
 ## Issues/PRs Commented On (51)
 
 **velero-io** (22)
-- [#10303 Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#9951 v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults](https://github.com/velero-io/velero/issues/9951) — velero-io/velero
+- [#10303 Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
 - [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
 - [#10297 A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields](https://github.com/velero-io/velero/issues/10297) — velero-io/velero

@@ -3,11 +3,11 @@
     "start": "2026-08-04",
     "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-18T06:53:21Z",
+  "generatedAt": "2026-08-18T12:50:46Z",
   "metrics": {
     "prsMerged": 67,
     "prsOpened": 100,
-    "prsReviewed": 81,
+    "prsReviewed": 82,
     "issuesCommented": 51,
     "issuesClosed": 32
   },
@@ -1186,6 +1186,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 10252,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip signing a download URL when no artifacts can exist yet",
+      "url": "https://github.com/velero-io/velero/pull/10252"
+    },
+    {
+      "number": 10319,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.",
+      "url": "https://github.com/velero-io/velero/pull/10319"
+    },
+    {
+      "number": 10269,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove PVC and PV inclusion check during creating PVR.",
+      "url": "https://github.com/velero-io/velero/pull/10269"
+    },
+    {
       "number": 10253,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1198,13 +1219,6 @@
       "org": "velero-io",
       "title": "Reject negative --ttl in backup create validation",
       "url": "https://github.com/velero-io/velero/pull/10237"
-    },
-    {
-      "number": 10252,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip signing a download URL when no artifacts can exist yet",
-      "url": "https://github.com/velero-io/velero/pull/10252"
     },
     {
       "number": 10187,
@@ -1261,13 +1275,6 @@
       "org": "velero-io",
       "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
       "url": "https://github.com/velero-io/velero/pull/10315"
-    },
-    {
-      "number": 10269,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove PVC and PV inclusion check during creating PVR.",
-      "url": "https://github.com/velero-io/velero/pull/10269"
     },
     {
       "number": 10264,
@@ -1755,6 +1762,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 9951,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults",
+      "url": "https://github.com/velero-io/velero/issues/9951"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1767,13 +1781,6 @@
       "org": "velero-io",
       "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
       "url": "https://github.com/velero-io/velero/issues/10303"
-    },
-    {
-      "number": 9951,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults",
-      "url": "https://github.com/velero-io/velero/issues/9951"
     },
     {
       "number": 10232,
