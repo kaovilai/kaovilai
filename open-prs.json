@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T16:35:58Z",
+  "updatedAt": "2026-08-18T17:30:32Z",
   "prs": [
     {
       "number": 10010,
@@ -1848,7 +1848,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-18T15:34:49Z"
+      "updatedAt": "2026-08-18T17:16:43Z"
     },
     {
       "number": 47,
@@ -1928,28 +1928,6 @@
         "approved"
       ],
       "updatedAt": "2026-08-05T14:45:16Z"
-    },
-    {
-      "number": 186,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "weshayutin",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-18T16:35:16Z"
     },
     {
       "number": 253,
@@ -3339,7 +3317,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-18T16:35:58Z",
+    "updatedAt": "2026-08-18T17:30:32Z",
     "needsReview": [
       {
         "number": 68,
@@ -3985,7 +3963,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -4011,7 +3989,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -4037,7 +4015,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -4063,7 +4041,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-16T16:58:01Z"
       },
       {
@@ -4089,7 +4067,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -5720,13 +5698,12 @@
         "approvalCount": 0,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "shubham-pampattiwar",
           "weshayutin"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-18T15:34:49Z"
+        "updatedAt": "2026-08-18T17:16:43Z"
       },
       {
         "number": 83049,
@@ -6045,7 +6022,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -6305,38 +6282,6 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-08-14T20:01:56Z"
-      },
-      {
-        "number": 186,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-18T16:35:16Z"
       }
     ]
   }
