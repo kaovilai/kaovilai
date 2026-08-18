@@ -3,11 +3,11 @@
     "start": "2026-08-04",
     "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-18T12:50:46Z",
+  "generatedAt": "2026-08-18T13:46:21Z",
   "metrics": {
     "prsMerged": 67,
     "prsOpened": 100,
-    "prsReviewed": 82,
+    "prsReviewed": 83,
     "issuesCommented": 51,
     "issuesClosed": 32
   },
@@ -483,6 +483,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10327,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Detect data path pod deletion via informer DeleteFunc",
+      "url": "https://github.com/velero-io/velero/pull/10327"
+    },
     {
       "number": 10318,
       "repo": "velero-io/velero",
@@ -1175,13 +1182,6 @@
       "org": "kaovilai",
       "title": "Addressing date and time display per browser timezone",
       "url": "https://github.com/kaovilai/kaovilai.pw/pull/174"
-    },
-    {
-      "number": 1034,
-      "repo": "mksglu/context-mode",
-      "org": "mksglu",
-      "title": "fix(routing): self-identify subagent routing block, add opt-out (#967)",
-      "url": "https://github.com/mksglu/context-mode/pull/1034"
     }
   ],
   "prsReviewed": [
@@ -1191,6 +1191,13 @@
       "org": "velero-io",
       "title": "Skip signing a download URL when no artifacts can exist yet",
       "url": "https://github.com/velero-io/velero/pull/10252"
+    },
+    {
+      "number": 10322,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue 10321: fill the error to the corresponding CR when data mover pod is evicted",
+      "url": "https://github.com/velero-io/velero/pull/10322"
     },
     {
       "number": 10319,
