@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-03",
-    "end": "2026-08-17"
+    "start": "2026-08-04",
+    "end": "2026-08-18"
   },
-  "generatedAt": "2026-08-17T23:27:47Z",
+  "generatedAt": "2026-08-18T01:35:39Z",
   "metrics": {
-    "prsMerged": 76,
+    "prsMerged": 67,
     "prsOpened": 100,
-    "prsReviewed": 76,
-    "issuesCommented": 48,
-    "issuesClosed": 32
+    "prsReviewed": 73,
+    "issuesCommented": 49,
+    "issuesClosed": 30
   },
   "prsMerged": [
     {
@@ -480,72 +480,23 @@
       "org": "kaovilai",
       "title": "Sync activity log update schedule with PR badges workflow",
       "url": "https://github.com/kaovilai/kaovilai/pull/70"
-    },
-    {
-      "number": 2340,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2340"
-    },
-    {
-      "number": 460,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/460"
-    },
-    {
-      "number": 458,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/458"
-    },
-    {
-      "number": 150,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/150"
-    },
-    {
-      "number": 459,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/459"
-    },
-    {
-      "number": 371,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Remove inactive users from OWNERS",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/371"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/redirector",
-      "org": "kaovilai",
-      "title": "Add PAT-free gh-aw agentic workflows",
-      "url": "https://github.com/kaovilai/redirector/pull/2"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/redirector",
-      "org": "kaovilai",
-      "title": "Add Dependabot config with grouped PRs",
-      "url": "https://github.com/kaovilai/redirector/pull/1"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/route-127-trailer-nc",
-      "org": "kaovilai",
-      "title": "Implement Route 127 trailer strategy calculator as a static GitHub Pages site",
-      "url": "https://github.com/kaovilai/route-127-trailer-nc/pull/2"
     }
   ],
   "prsOpened": [
+    {
+      "number": 13882,
+      "repo": "ghostty-org/ghostty",
+      "org": "ghostty-org",
+      "title": "macos: add regression test for double-click rename after dragging tab…",
+      "url": "https://github.com/ghostty-org/ghostty/pull/13882"
+    },
+    {
+      "number": 13881,
+      "repo": "ghostty-org/ghostty",
+      "org": "ghostty-org",
+      "title": "macos: add regression test for double-click rename after dragging tab between windows",
+      "url": "https://github.com/ghostty-org/ghostty/pull/13881"
+    },
     {
       "number": 10309,
       "repo": "velero-io/velero",
@@ -1231,20 +1182,6 @@
       "org": "kaovilai",
       "title": "Follow-up fixes for #967 subagent routing opt-out and provenance scoping",
       "url": "https://github.com/kaovilai/context-mode/pull/3"
-    },
-    {
-      "number": 2353,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2353"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "Reduce permission-classifier false positives on injected subagent routing block",
-      "url": "https://github.com/kaovilai/context-mode/pull/2"
     }
   ],
   "prsReviewed": [
@@ -1704,13 +1641,6 @@
       "url": "https://github.com/velero-io/velero/pull/10163"
     },
     {
-      "number": 158,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "[oadp-1.4] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/158"
-    },
-    {
       "number": 255,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1746,13 +1676,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/158"
     },
     {
-      "number": 159,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "[oadp-1.6] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/159"
-    },
-    {
       "number": 70,
       "repo": "kaovilai/kaovilai",
       "org": "kaovilai",
@@ -1767,13 +1690,6 @@
       "url": "https://github.com/openshift/release/pull/82902"
     },
     {
-      "number": 10147,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: document ownership loss on mount-constant filesystems",
-      "url": "https://github.com/velero-io/velero/pull/10147"
-    },
-    {
       "number": 10157,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1782,6 +1698,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 101,
+      "repo": "pyamsoft/tetherfusenet",
+      "org": "pyamsoft",
+      "title": "UDP support",
+      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
+    },
     {
       "number": 7507,
       "repo": "velero-io/velero",
@@ -2329,20 +2252,6 @@
       "org": "velero-io",
       "title": "Velero Server Default Restore Resource Modifier",
       "url": "https://github.com/velero-io/velero/issues/9719"
-    },
-    {
-      "number": 149,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Gather PVC/PV/Namespace(SCC) data for backed-up/restored app namespaces to diagnose restore permission/ownership bugs",
-      "url": "https://github.com/openshift/oadp-must-gather/issues/149"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/route-127-trailer-nc",
-      "org": "kaovilai",
-      "title": "Implement my gemini app into github pages static",
-      "url": "https://github.com/kaovilai/route-127-trailer-nc/issues/1"
     }
   ]
 }
