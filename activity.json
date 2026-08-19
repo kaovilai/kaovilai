@@ -3,7 +3,7 @@
     "start": "2026-08-05",
     "end": "2026-08-19"
   },
-  "generatedAt": "2026-08-19T21:27:11Z",
+  "generatedAt": "2026-08-19T22:26:57Z",
   "metrics": {
     "prsMerged": 66,
     "prsOpened": 100,
@@ -1179,6 +1179,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 2395,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
       "number": 10337,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1191,13 +1198,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
       "url": "https://github.com/openshift/oadp-operator/pull/2396"
-    },
-    {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
     },
     {
       "number": 10329,
@@ -1762,6 +1762,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 10297,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
+      "url": "https://github.com/velero-io/velero/issues/10297"
+    },
+    {
       "number": 201,
       "repo": "socktainer/socktainer",
       "org": "socktainer",
@@ -1837,13 +1844,6 @@
       "org": "velero-io",
       "title": "E2E: Add CSI snapshot tests to kind cluster",
       "url": "https://github.com/velero-io/velero/issues/7507"
-    },
-    {
-      "number": 10297,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
-      "url": "https://github.com/velero-io/velero/issues/10297"
     },
     {
       "number": 9603,
