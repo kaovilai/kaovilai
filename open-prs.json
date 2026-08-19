@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T13:48:32Z",
+  "updatedAt": "2026-08-19T14:37:50Z",
   "prs": [
     {
       "number": 10010,
@@ -1229,7 +1229,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-19T07:56:35Z"
+      "updatedAt": "2026-08-19T13:50:54Z"
     },
     {
       "number": 2367,
@@ -3016,41 +3016,6 @@
     },
     {
       "number": 1,
-      "repo": "kaovilai/socktainer",
-      "org": "kaovilai",
-      "title": "feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures",
-      "url": "https://github.com/kaovilai/socktainer/pull/1",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-05-05T20:06:22Z"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/socktainer",
-      "org": "kaovilai",
-      "title": "feat(libpod): Add Podman /libpod/* API endpoints",
-      "url": "https://github.com/kaovilai/socktainer/pull/2",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [],
-      "updatedAt": "2026-05-20T16:38:44Z"
-    },
-    {
-      "number": 1,
       "repo": "kbralten/aruco_online",
       "org": "kbralten",
       "title": "Fix arucogen SVG support, detection robustness, and memory leaks",
@@ -3277,7 +3242,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-19T13:48:32Z",
+    "updatedAt": "2026-08-19T14:37:50Z",
     "needsReview": [
       {
         "number": 68,
@@ -3444,7 +3409,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3637,36 +3602,6 @@
         "reason": "awaitingReview",
         "waitingDays": 102,
         "updatedAt": "2026-05-08T20:48:25Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 70,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -5056,7 +4991,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5697,6 +5632,32 @@
         "updatedAt": "2026-08-18T03:00:33Z"
       },
       {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-18T14:29:42Z"
+      },
+      {
         "number": 2350,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5724,7 +5685,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-19T07:56:35Z"
+        "updatedAt": "2026-08-19T13:50:54Z"
       },
       {
         "number": 83049,
@@ -5741,7 +5702,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5770,7 +5731,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5873,32 +5834,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-19T07:02:02Z"
-      },
-      {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-18T14:29:42Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5959,6 +5894,37 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
+        "number": 253,
+        "repo": "migtools/oadp-cli",
+        "org": "migtools",
+        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 14,
+        "updatedAt": "2026-08-05T14:29:52Z"
+      },
+      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5988,37 +5954,6 @@
         "reason": "pendingMerge",
         "waitingDays": 13,
         "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
-        "number": 253,
-        "repo": "migtools/oadp-cli",
-        "org": "migtools",
-        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-        "url": "https://github.com/migtools/oadp-cli/pull/253",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 13,
-        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 449,

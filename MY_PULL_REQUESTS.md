@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-19 13:48:32 UTC
+> Last updated: 2026-08-19 14:37:50 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -165,7 +165,6 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/localsend/pull/1) **kaovilai/localsend** → `main` - feat: Bluetooth (BLE) device discovery for LocalSend (issue #850) with iOS and Android support
-- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/socktainer/pull/1) **kaovilai/socktainer** → `main` - feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/mpryc/velero/pull/1) **mpryc/velero** → `aws_creds_exposed` - Simplify cred scrubbing
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/oadp-operator/pull/1) **shubham-pampattiwar/oadp-operator** → `lease-duration` - Resolve build imports to match velero versions
@@ -177,7 +176,6 @@ No open PRs.
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/github-mcp-server/pull/2) **kaovilai/github-mcp-server** → `main` - feat: Add edit_issue_comment tool
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/oadp-vmdp/pull/2) **kaovilai/oadp-vmdp** → `master` - https://github.com/kopia/kopia/pull/4303 test preview
-- [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/socktainer/pull/2) **kaovilai/socktainer** → `main` - feat(libpod): Add Podman /libpod/* API endpoints
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/mowhammadrezaa/SmartFormFiller/pull/2) **mowhammadrezaa/SmartFormFiller** → `main` - WIP: ollama
 - [![PR #31](https://img.shields.io/badge/PR%20%2331-stale-yellow)](https://github.com/kaovilai/AdJS/pull/31) **kaovilai/AdJS** → `master` - Update main.yml
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
