@@ -3,11 +3,11 @@
     "start": "2026-08-05",
     "end": "2026-08-19"
   },
-  "generatedAt": "2026-08-19T01:37:34Z",
+  "generatedAt": "2026-08-19T06:53:07Z",
   "metrics": {
     "prsMerged": 62,
     "prsOpened": 100,
-    "prsReviewed": 76,
+    "prsReviewed": 77,
     "issuesCommented": 43,
     "issuesClosed": 25
   },
@@ -1151,18 +1151,25 @@
   ],
   "prsReviewed": [
     {
-      "number": 2390,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Deprecate config.credentialsFile; translate to spec.credential",
-      "url": "https://github.com/openshift/oadp-operator/pull/2390"
-    },
-    {
       "number": 2393,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
       "url": "https://github.com/openshift/oadp-operator/pull/2393"
+    },
+    {
+      "number": 190,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] feat: concurrency limiter for DataUpload controller (issue #174)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/190"
+    },
+    {
+      "number": 2390,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Deprecate config.credentialsFile; translate to spec.credential",
+      "url": "https://github.com/openshift/oadp-operator/pull/2390"
     },
     {
       "number": 2385,
