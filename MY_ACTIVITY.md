@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-05 — 2026-08-19
-> **Generated:** 2026-08-19 15:33:33 UTC
+> **Generated:** 2026-08-19 16:34:06 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 65 |
 | PRs Opened | 100 |
-| PRs Reviewed | 78 |
+| PRs Reviewed | 79 |
 | Issues/PRs Commented | 44 |
 | Issues Closed | 27 |
 
@@ -196,9 +196,10 @@
 - [#18725 Release the VMBackup finalizer when its BackupTracker is gone](https://github.com/kubevirt/kubevirt/pull/18725) — kubevirt/kubevirt
 - [#149 Fix command bar overlapping review dialog comment box](https://github.com/kaovilai/github-bot-command-palette/pull/149) — kaovilai/github-bot-command-palette
 - [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
-## PRs Reviewed (78)
+## PRs Reviewed (79)
 
-**velero-io** (45)
+**velero-io** (46)
+- [#10335 [release-1.18] Support copying namespace-scoped secrets/configmaps for backup and restore PVC provisioning](https://github.com/velero-io/velero/pull/10335) — velero-io/velero
 - [#10322 Issue 10321: fill the error to the corresponding CR when data mover pod is evicted](https://github.com/velero-io/velero/pull/10322) — velero-io/velero
 - [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
 - [#10315 Testing: Implement missing unit tests for pkg/backup/snapshots.go](https://github.com/velero-io/velero/pull/10315) — velero-io/velero
