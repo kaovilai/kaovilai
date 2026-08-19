@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T21:29:02Z",
+  "updatedAt": "2026-08-19T22:28:22Z",
   "prs": [
     {
       "number": 10010,
@@ -913,7 +913,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-19T20:50:51Z"
+      "updatedAt": "2026-08-19T21:38:50Z"
     },
     {
       "number": 7941,
@@ -1747,7 +1747,7 @@
       "labels": [
         "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-19T20:27:11Z"
+      "updatedAt": "2026-08-19T22:12:46Z"
     },
     {
       "number": 260,
@@ -3224,7 +3224,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-19T21:29:02Z",
+    "updatedAt": "2026-08-19T22:28:22Z",
     "needsReview": [
       {
         "number": 68,
@@ -3677,7 +3677,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-07-03T22:28:56Z"
       },
       {
@@ -4362,7 +4362,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4455,6 +4455,35 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 2134,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "DNM: Test: disable pod restart workaround after file-system restore",
+        "url": "https://github.com/openshift/oadp-operator/pull/2134",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-08-07T21:59:39Z"
+      },
+      {
         "number": 9384,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4485,35 +4514,6 @@
         "reason": "awaitingReview",
         "waitingDays": 12,
         "updatedAt": "2026-08-07T18:22:38Z"
-      },
-      {
-        "number": 2134,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "DNM: Test: disable pod restart workaround after file-system restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2134",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 9772,
@@ -4958,6 +4958,35 @@
         "updatedAt": "2026-08-14T21:03:43Z"
       },
       {
+        "number": 321,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-08-14T22:23:25Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -5218,35 +5247,6 @@
         "reason": "awaitingReview",
         "waitingDays": 4,
         "updatedAt": "2026-08-14T22:31:17Z"
-      },
-      {
-        "number": 321,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-14T22:23:25Z"
       },
       {
         "number": 322,
@@ -5684,7 +5684,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5698,7 +5698,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-19T20:27:11Z"
+        "updatedAt": "2026-08-19T22:12:46Z"
       },
       {
         "number": 83221,
@@ -5786,7 +5786,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-19T20:50:51Z"
+        "updatedAt": "2026-08-19T21:38:50Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -6026,7 +6026,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
