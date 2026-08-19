@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T19:29:21Z",
+  "updatedAt": "2026-08-19T20:32:51Z",
   "prs": [
     {
       "number": 10010,
@@ -1459,7 +1459,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-19T03:04:55Z"
+      "updatedAt": "2026-08-19T20:02:03Z"
     },
     {
       "number": 2234,
@@ -1747,7 +1747,7 @@
       "labels": [
         "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-19T17:31:23Z"
+      "updatedAt": "2026-08-19T20:27:11Z"
     },
     {
       "number": 260,
@@ -3224,7 +3224,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-19T19:29:21Z",
+    "updatedAt": "2026-08-19T20:32:51Z",
     "needsReview": [
       {
         "number": 68,
@@ -4011,35 +4011,6 @@
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 29,
-        "updatedAt": "2026-07-21T00:29:16Z"
-      },
-      {
         "number": 8884,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4069,8 +4040,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-07-20T19:47:24Z"
+      },
+      {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 29,
+        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 297,
@@ -4438,7 +4438,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4840,7 +4840,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-13T19:59:49Z"
       },
       {
@@ -4869,7 +4869,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-13T20:07:14Z"
       },
       {
@@ -4897,7 +4897,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-13T20:07:16Z"
       },
       {
@@ -4925,7 +4925,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-13T20:07:17Z"
       },
       {
@@ -5684,7 +5684,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5698,7 +5698,7 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-19T17:31:23Z"
+        "updatedAt": "2026-08-19T20:27:11Z"
       },
       {
         "number": 83221,
@@ -6006,36 +6006,6 @@
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
-        "number": 2234,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
-        "url": "https://github.com/openshift/oadp-operator/pull/2234",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "lgtm",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-13T19:05:52Z"
-      },
-      {
         "number": 18725,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -6068,8 +6038,38 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-13T20:17:52Z"
+      },
+      {
+        "number": 2234,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+        "url": "https://github.com/openshift/oadp-operator/pull/2234",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "lgtm",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mrnold"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-13T19:05:52Z"
       },
       {
         "number": 2205,
@@ -6102,7 +6102,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-19T03:04:55Z"
+        "updatedAt": "2026-08-19T20:02:03Z"
       }
     ]
   }
