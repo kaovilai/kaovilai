@@ -1,19 +1,19 @@
 # Activity Log
 
-> **Period:** 2026-08-04 — 2026-08-18
-> **Generated:** 2026-08-18 23:26:54 UTC
+> **Period:** 2026-08-05 — 2026-08-19
+> **Generated:** 2026-08-19 01:37:34 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 69 |
+| PRs Merged | 62 |
 | PRs Opened | 100 |
-| PRs Reviewed | 84 |
-| Issues/PRs Commented | 52 |
-| Issues Closed | 33 |
+| PRs Reviewed | 76 |
+| Issues/PRs Commented | 43 |
+| Issues Closed | 25 |
 
 ---
 
-## PRs Merged (69)
+## PRs Merged (62)
 
 **velero-io** (10)
 - [#10262 [release-1.17] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10262) — velero-io/velero
@@ -27,7 +27,7 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 
-**openshift** (21)
+**openshift** (19)
 - [#83299 gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR](https://github.com/openshift/release/pull/83299) — openshift/release
 - [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
 - [#2357 [oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2357) — openshift/oadp-operator
@@ -47,8 +47,6 @@
 - [#2208 OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2208) — openshift/oadp-operator
 - [#434 OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic](https://github.com/openshift/velero/pull/434) — openshift/velero
 - [#2353 Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2353) — openshift/oadp-operator
-- [#2352 Add datadownloads RBAC to kubevirt-datamover ClusterRole](https://github.com/openshift/oadp-operator/pull/2352) — openshift/oadp-operator
-- [#82762 Add CI image substitutions for OADP plugin images (base_images + operator.substitutions)](https://github.com/openshift/release/pull/82762) — openshift/release
 
 **migtools** (8)
 - [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
@@ -60,7 +58,8 @@
 - [#44 Clear PVC binding state and halt kubevirt VMs at restore time](https://github.com/migtools/kubevirt-datamover-plugin/pull/44) — migtools/kubevirt-datamover-plugin
 - [#41 Add RestoreItemAction plugins to trigger kubevirt datamover restore](https://github.com/migtools/kubevirt-datamover-plugin/pull/41) — migtools/kubevirt-datamover-plugin
 
-**Other** (30)
+**Other** (25)
+- [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#576 feat(openshift): preflight-check EC release signatures, offer nightly-style bypass](https://github.com/kaovilai/dotfiles/pull/576) — kaovilai/dotfiles
 - [#163 Refresh screenshots to reflect current profiles and rehearsal button](https://github.com/kaovilai/github-bot-command-palette/pull/163) — kaovilai/github-bot-command-palette
 - [#162 Resolve rehearsal rerun job names from presubmit config, not comment scraping](https://github.com/kaovilai/github-bot-command-palette/pull/162) — kaovilai/github-bot-command-palette
@@ -85,12 +84,6 @@
 - [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
 - [#149 Fix command bar overlapping review dialog comment box](https://github.com/kaovilai/github-bot-command-palette/pull/149) — kaovilai/github-bot-command-palette
 - [#174 Addressing date and time display per browser timezone](https://github.com/kaovilai/kaovilai.pw/pull/174) — kaovilai/kaovilai.pw
-- [#3 Follow-up fixes for #967 subagent routing opt-out and provenance scoping](https://github.com/kaovilai/context-mode/pull/3) — kaovilai/context-mode
-- [#2 Reduce permission-classifier false positives on injected subagent routing block](https://github.com/kaovilai/context-mode/pull/2) — kaovilai/context-mode
-- [#148 Group Dependabot updates per ecosystem](https://github.com/kaovilai/github-bot-command-palette/pull/148) — kaovilai/github-bot-command-palette
-- [#138 Add structured payload picker dialog (stacked on #137)](https://github.com/kaovilai/github-bot-command-palette/pull/138) — kaovilai/github-bot-command-palette
-- [#137 Add OpenShift static command profiles (payload, verified, jira, labels, specialized)](https://github.com/kaovilai/github-bot-command-palette/pull/137) — kaovilai/github-bot-command-palette
-- [#70 Sync activity log update schedule with PR badges workflow](https://github.com/kaovilai/kaovilai/pull/70) — kaovilai/kaovilai
 ## PRs Opened (100)
 
 **velero-io** (37)
@@ -169,6 +162,7 @@
 - [#373 Document NADR (NonAdminDownloadRequest) usage](https://github.com/migtools/oadp-non-admin/pull/373) — migtools/oadp-non-admin
 
 **Other** (31)
+- [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#13882 macos: add regression test for double-click rename after dragging tab…](https://github.com/ghostty-org/ghostty/pull/13882) — ghostty-org/ghostty
 - [#13881 macos: add regression test for double-click rename after dragging tab between windows](https://github.com/ghostty-org/ghostty/pull/13881) — ghostty-org/ghostty
 - [#576 feat(openshift): preflight-check EC release signatures, offer nightly-style bypass](https://github.com/kaovilai/dotfiles/pull/576) — kaovilai/dotfiles
@@ -199,10 +193,9 @@
 - [#18725 Release the VMBackup finalizer when its BackupTracker is gone](https://github.com/kubevirt/kubevirt/pull/18725) — kubevirt/kubevirt
 - [#149 Fix command bar overlapping review dialog comment box](https://github.com/kaovilai/github-bot-command-palette/pull/149) — kaovilai/github-bot-command-palette
 - [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
-- [#174 Addressing date and time display per browser timezone](https://github.com/kaovilai/kaovilai.pw/pull/174) — kaovilai/kaovilai.pw
-## PRs Reviewed (84)
+## PRs Reviewed (76)
 
-**velero-io** (47)
+**velero-io** (45)
 - [#10315 Testing: Implement missing unit tests for pkg/backup/snapshots.go](https://github.com/velero-io/velero/pull/10315) — velero-io/velero
 - [#10322 Issue 10321: fill the error to the corresponding CR when data mover pod is evicted](https://github.com/velero-io/velero/pull/10322) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
@@ -245,14 +238,13 @@
 - [#10203 Bump github/codeql-action from 4.37.3 to 4.37.6](https://github.com/velero-io/velero/pull/10203) — velero-io/velero
 - [#10202 Bump actions/setup-go from 6 to 7](https://github.com/velero-io/velero/pull/10202) — velero-io/velero
 - [#10192 fix: correct typos in log messages and status strings](https://github.com/velero-io/velero/pull/10192) — velero-io/velero
-- [#10158 ci: add backport/cherry-pick GitHub Action for release branches](https://github.com/velero-io/velero/pull/10158) — velero-io/velero
 - [#10159 Fix excluded namespace objects leaking into backup with cross-namespa…](https://github.com/velero-io/velero/pull/10159) — velero-io/velero
 - [#10162 [release-1.16] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)](https://github.com/velero-io/velero/pull/10162) — velero-io/velero
 - [#10163 [release-1.17] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)](https://github.com/velero-io/velero/pull/10163) — velero-io/velero
-- [#10157 docs: update community page backlog links away from classic projects](https://github.com/velero-io/velero/pull/10157) — velero-io/velero
 
-**openshift** (13)
+**openshift** (12)
 - [#2390 Deprecate config.credentialsFile; translate to spec.credential](https://github.com/openshift/oadp-operator/pull/2390) — openshift/oadp-operator
+- [#2393 [oadp-1.6] OADP-8548: PodResources unset fields should be output as "0" to fix parsing errors results in ignored resource settings](https://github.com/openshift/oadp-operator/pull/2393) — openshift/oadp-operator
 - [#2385 OADP-8548: PodResources unset fields should be output as "0" to fix parsing errors results in ignored resource settings](https://github.com/openshift/oadp-operator/pull/2385) — openshift/oadp-operator
 - [#162 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.12.2 (82b9141) into oadp-1.5](https://github.com/openshift/velero-plugin-for-aws/pull/162) — openshift/velero-plugin-for-aws
 - [#562 Rebase oadp-dev onto upstream/main (4f55fb5a6)](https://github.com/openshift/velero/pull/562) — openshift/velero
@@ -262,11 +254,9 @@
 - [#2361 feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig](https://github.com/openshift/oadp-operator/pull/2361) — openshift/oadp-operator
 - [#83117 ixney on 5.1ney](https://github.com/openshift/release/pull/83117) — openshift/release
 - [#2356 [oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2356) — openshift/oadp-operator
-- [#2349 feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2349) — openshift/oadp-operator
 - [#2359 [oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller](https://github.com/openshift/oadp-operator/pull/2359) — openshift/oadp-operator
-- [#82902 tide: set github_merge_blocks_policy to block for OADP repos](https://github.com/openshift/release/pull/82902) — openshift/release
 
-**migtools** (17)
+**migtools** (14)
 - [#257 Merge https://github.com/migtools/oadp-cli:oadp-1.5 (f2cb269) into oadp-1.5](https://github.com/migtools/oadp-cli/pull/257) — migtools/oadp-cli
 - [#188 [oadp-1.6] fix: correct S3 checkpoint index when backup type mismatch detected](https://github.com/migtools/kubevirt-datamover-controller/pull/188) — migtools/kubevirt-datamover-controller
 - [#185 [oadp-1.6] feat: implement DataDownload controller for VM restore (issue #73 Phase 3)](https://github.com/migtools/kubevirt-datamover-controller/pull/185) — migtools/kubevirt-datamover-controller
@@ -281,21 +271,16 @@
 - [#176 [oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods](https://github.com/migtools/kubevirt-datamover-controller/pull/176) — migtools/kubevirt-datamover-controller
 - [#166 feat: add BSL config parity with Velero AWS plugin](https://github.com/migtools/kubevirt-datamover-controller/pull/166) — migtools/kubevirt-datamover-controller
 - [#164 fix: handle hyphenated disk names in extractDiskName](https://github.com/migtools/kubevirt-datamover-controller/pull/164) — migtools/kubevirt-datamover-controller
-- [#255 Remove dead oadp-operator replace directive](https://github.com/migtools/oadp-cli/pull/255) — migtools/oadp-cli
-- [#161 [oadp-1.6] feat: add bound-sa-token projected volume to datamover pod for STS auth](https://github.com/migtools/kubevirt-datamover-controller/pull/161) — migtools/kubevirt-datamover-controller
-- [#158 feat: add bound-sa-token projected volume to datamover pod for STS auth](https://github.com/migtools/kubevirt-datamover-controller/pull/158) — migtools/kubevirt-datamover-controller
 
-**Other** (7)
+**Other** (5)
 - [#12323 Fix kubevirt-velero-plugin branch target for oadp-1.4](https://github.com/openshift-eng/ocp-build-data/pull/12323) — openshift-eng/ocp-build-data
 - [#849 fix: status-reconciler track own config state for dropped deltas](https://github.com/kubernetes-sigs/prow/pull/849) — kubernetes-sigs/prow
 - [#12324 Fix kubevirt-velero-plugin branch target for oadp-1.3](https://github.com/openshift-eng/ocp-build-data/pull/12324) — openshift-eng/ocp-build-data
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
 - [#175 Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes](https://github.com/kaovilai/kaovilai.pw/pull/175) — kaovilai/kaovilai.pw
-- [#3 Add design docs for one-click community rule install via marketplace deep links](https://github.com/kaovilai/redirector/pull/3) — kaovilai/redirector
-- [#70 Sync activity log update schedule with PR badges workflow](https://github.com/kaovilai/kaovilai/pull/70) — kaovilai/kaovilai
-## Issues/PRs Commented On (52)
+## Issues/PRs Commented On (43)
 
-**velero-io** (22)
+**velero-io** (17)
 - [#9951 v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults](https://github.com/velero-io/velero/issues/9951) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
@@ -313,18 +298,13 @@
 - [#10199 Backup and Restore CRDs have no printer columns since the 2021 revert](https://github.com/velero-io/velero/issues/10199) — velero-io/velero
 - [#8457 Configurable pull policy when `velero install`](https://github.com/velero-io/velero/issues/8457) — velero-io/velero
 - [#8807 Support per-storageclass VSClass annotation](https://github.com/velero-io/velero/issues/8807) — velero-io/velero
-- [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
-- [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
-- [#10044 Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface](https://github.com/velero-io/velero/issues/10044) — velero-io/velero
-- [#8686 Avoid overwriting during backup to support object lock enabled buckets](https://github.com/velero-io/velero/issues/8686) — velero-io/velero
-- [#9719 Velero Server Default Restore Resource Modifier](https://github.com/velero-io/velero/issues/9719) — velero-io/velero
 
 **openshift** (3)
+- [#2391 Follow up: simplify and document PodResources defaulting](https://github.com/openshift/oadp-operator/issues/2391) — openshift/oadp-operator
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#1832 e2e jobs for other repos](https://github.com/openshift/oadp-operator/issues/1832) — openshift/oadp-operator
-- [#2343 Investigate making plugin repo changes immediately available for OADP-operator e2e tests](https://github.com/openshift/oadp-operator/issues/2343) — openshift/oadp-operator
 
-**migtools** (16)
+**migtools** (14)
 - [#175 Implement concurrency limiter for DataDownload controller](https://github.com/migtools/kubevirt-datamover-controller/issues/175) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 - [#169 VM run-state restore sibling correlation should scope by restore attempt, not just VM identity](https://github.com/migtools/kubevirt-datamover-controller/issues/169) — migtools/kubevirt-datamover-controller
@@ -339,10 +319,8 @@
 - [#84 Implement concurrent data mover limiter for DU and DD controllers](https://github.com/migtools/kubevirt-datamover-controller/issues/84) — migtools/kubevirt-datamover-controller
 - [#45 VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration](https://github.com/migtools/kubevirt-datamover-plugin/issues/45) — migtools/kubevirt-datamover-plugin
 - [#162 Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash](https://github.com/migtools/kubevirt-datamover-controller/issues/162) — migtools/kubevirt-datamover-controller
-- [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
-- [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 
-**Other** (11)
+**Other** (9)
 - [#481 Support using a later patch release than what's in go.mod](https://github.com/actions/setup-go/issues/481) — actions/setup-go
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
@@ -352,28 +330,22 @@
 - [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
 - [#1997 [CNCF LFX Proposal] Velero CSI E2E Testing](https://github.com/cncf/mentoring/issues/1997) — cncf/mentoring
 - [#148413 View multiple debug consoles side by side in editor areas](https://github.com/microsoft/vscode/issues/148413) — microsoft/vscode
-- [#673 Tide gets stuck retrying unmergeable PR instead of advancing to next candidate](https://github.com/kubernetes-sigs/prow/issues/673) — kubernetes-sigs/prow
-- [#132 Dynamic Prow Plugin Detection per Repo](https://github.com/kaovilai/github-bot-command-palette/issues/132) — kaovilai/github-bot-command-palette
-## Issues Closed (33)
+## Issues Closed (25)
 
-**velero-io** (9)
+**velero-io** (6)
 - [#10303 Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10300 Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)](https://github.com/velero-io/velero/issues/10300) — velero-io/velero
 - [#10301 Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable](https://github.com/velero-io/velero/issues/10301) — velero-io/velero
 - [#10304 Block data mover: retained CBT base snapshots are never reclaimed at backup deletion (design L370-371/L474 unimplemented)](https://github.com/velero-io/velero/issues/10304) — velero-io/velero
 - [#10302 Block data mover silently falls back to the filesystem uploader when no volume policy is supplied](https://github.com/velero-io/velero/issues/10302) — velero-io/velero
 - [#10046 fs-backup restore deadlocks at Init:0/1 on owner-restricted volumes — restore-wait init container ignores pod-level securityContext, falls back to hardcoded runAsUser 1000](https://github.com/velero-io/velero/issues/10046) — velero-io/velero
-- [#10044 Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface](https://github.com/velero-io/velero/issues/10044) — velero-io/velero
-- [#10099 Update velero.io community pages](https://github.com/velero-io/velero/issues/10099) — velero-io/velero
-- [#9719 Velero Server Default Restore Resource Modifier](https://github.com/velero-io/velero/issues/9719) — velero-io/velero
 
-**openshift** (4)
+**openshift** (3)
 - [#5333 e2e-oo permanently failing: fixture pins EOL integrated stream ocp/4.6, configresolver returns 400](https://github.com/openshift/ci-tools/issues/5333) — openshift/ci-tools
 - [#2209 Feature request: Additive extraArgs for Velero server and node-agent](https://github.com/openshift/oadp-operator/issues/2209) — openshift/oadp-operator
 - [#2236 Flaky E2E: DPA reconciliation race condition causes NoDefaultBackupLocation test failure](https://github.com/openshift/oadp-operator/issues/2236) — openshift/oadp-operator
-- [#2351 kubevirt-datamover ClusterRole missing RBAC for Phase 3 (DataDownload) support](https://github.com/openshift/oadp-operator/issues/2351) — openshift/oadp-operator
 
-**migtools** (14)
+**migtools** (13)
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 - [#169 VM run-state restore sibling correlation should scope by restore attempt, not just VM identity](https://github.com/migtools/kubevirt-datamover-controller/issues/169) — migtools/kubevirt-datamover-controller
 - [#153 rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)](https://github.com/migtools/kubevirt-datamover-controller/issues/153) — migtools/kubevirt-datamover-controller
@@ -387,15 +359,11 @@
 - [#171 DataUpload cleanup blocks reconcile worker when pod cleanup hasn't finished before PVC/PV cleanup](https://github.com/migtools/kubevirt-datamover-controller/issues/171) — migtools/kubevirt-datamover-controller
 - [#45 VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration](https://github.com/migtools/kubevirt-datamover-plugin/issues/45) — migtools/kubevirt-datamover-plugin
 - [#162 Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash](https://github.com/migtools/kubevirt-datamover-controller/issues/162) — migtools/kubevirt-datamover-controller
-- [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 
-**Other** (6)
+**Other** (3)
 - [#841 `status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`](https://github.com/kubernetes-sigs/prow/issues/841) — kubernetes-sigs/prow
 - [#148413 View multiple debug consoles side by side in editor areas](https://github.com/microsoft/vscode/issues/148413) — microsoft/vscode
 - [#176 Group my contributions by organization than by repository of the repos](https://github.com/kaovilai/kaovilai.pw/issues/176) — kaovilai/kaovilai.pw
-- [#147 group dependabot prs into ecosystems.. ie typescript, actions, etc.](https://github.com/kaovilai/github-bot-command-palette/issues/147) — kaovilai/github-bot-command-palette
-- [#69 activity.json is not updated the same time as .md files.](https://github.com/kaovilai/kaovilai/issues/69) — kaovilai/kaovilai
-- [#673 Tide gets stuck retrying unmergeable PR instead of advancing to next candidate](https://github.com/kubernetes-sigs/prow/issues/673) — kubernetes-sigs/prow
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*
