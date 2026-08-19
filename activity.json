@@ -3,15 +3,29 @@
     "start": "2026-08-05",
     "end": "2026-08-19"
   },
-  "generatedAt": "2026-08-19T13:46:02Z",
+  "generatedAt": "2026-08-19T14:36:15Z",
   "metrics": {
-    "prsMerged": 63,
+    "prsMerged": 65,
     "prsOpened": 100,
     "prsReviewed": 77,
-    "issuesCommented": 43,
+    "issuesCommented": 44,
     "issuesClosed": 27
   },
   "prsMerged": [
+    {
+      "number": 1,
+      "repo": "kaovilai/socktainer",
+      "org": "kaovilai",
+      "title": "feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures",
+      "url": "https://github.com/kaovilai/socktainer/pull/1"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/socktainer",
+      "org": "kaovilai",
+      "title": "feat(libpod): Add Podman /libpod/* API endpoints",
+      "url": "https://github.com/kaovilai/socktainer/pull/2"
+    },
     {
       "number": 10308,
       "repo": "velero-io/velero",
@@ -1698,6 +1712,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 201,
+      "repo": "socktainer/socktainer",
+      "org": "socktainer",
+      "title": "feat: Add Podman libpod API endpoints for native podman CLI support",
+      "url": "https://github.com/socktainer/socktainer/issues/201"
+    },
     {
       "number": 101,
       "repo": "pyamsoft/tetherfusenet",
