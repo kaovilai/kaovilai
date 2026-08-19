@@ -3,15 +3,22 @@
     "start": "2026-08-05",
     "end": "2026-08-19"
   },
-  "generatedAt": "2026-08-19T06:53:07Z",
+  "generatedAt": "2026-08-19T12:51:39Z",
   "metrics": {
-    "prsMerged": 62,
+    "prsMerged": 63,
     "prsOpened": 100,
     "prsReviewed": 77,
     "issuesCommented": 43,
-    "issuesClosed": 25
+    "issuesClosed": 27
   },
   "prsMerged": [
+    {
+      "number": 10308,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Detect block uploader cancellation through wrapped errors",
+      "url": "https://github.com/velero-io/velero/pull/10308"
+    },
     {
       "number": 1,
       "repo": "kaovilai/pdf2text-pwa",
@@ -1151,6 +1158,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10322,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue 10321: fill the error to the corresponding CR when data mover pod is evicted",
+      "url": "https://github.com/velero-io/velero/pull/10322"
+    },
+    {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
+    },
+    {
       "number": 2393,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1184,13 +1205,6 @@
       "org": "velero-io",
       "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
       "url": "https://github.com/velero-io/velero/pull/10315"
-    },
-    {
-      "number": 10322,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue 10321: fill the error to the corresponding CR when data mover pod is evicted",
-      "url": "https://github.com/velero-io/velero/pull/10322"
     },
     {
       "number": 10235,
@@ -1310,13 +1324,6 @@
       "org": "velero-io",
       "title": "Cap the metadata decompression in object store",
       "url": "https://github.com/velero-io/velero/pull/10270"
-    },
-    {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
     },
     {
       "number": 10254,
@@ -1692,6 +1699,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 101,
+      "repo": "pyamsoft/tetherfusenet",
+      "org": "pyamsoft",
+      "title": "UDP support",
+      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
+    },
+    {
       "number": 2391,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1767,13 +1781,6 @@
       "org": "velero-io",
       "title": "Backport/Cherry-pick GitHub action",
       "url": "https://github.com/velero-io/velero/issues/9603"
-    },
-    {
-      "number": 101,
-      "repo": "pyamsoft/tetherfusenet",
-      "org": "pyamsoft",
-      "title": "UDP support",
-      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
     },
     {
       "number": 8815,
@@ -1994,6 +2001,20 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 625,
+      "repo": "github/github-mcp-server",
+      "org": "github",
+      "title": "Add pagination support for get_pull_request_diff to handle large PRs",
+      "url": "https://github.com/github/github-mcp-server/issues/625"
+    },
+    {
+      "number": 10296,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error",
+      "url": "https://github.com/velero-io/velero/issues/10296"
+    },
     {
       "number": 184,
       "repo": "migtools/kubevirt-datamover-controller",
