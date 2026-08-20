@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T13:51:54Z",
+  "updatedAt": "2026-08-20T14:39:28Z",
   "prs": [
     {
       "number": 10010,
@@ -1359,24 +1359,6 @@
       "updatedAt": "2026-08-15T06:21:35Z"
     },
     {
-      "number": 83221,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-      "url": "https://github.com/openshift/release/pull/83221",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-20T12:09:10Z"
-    },
-    {
       "number": 83341,
       "repo": "openshift/release",
       "org": "openshift",
@@ -1501,6 +1483,27 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:48:33Z"
+    },
+    {
+      "number": 83221,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+      "url": "https://github.com/openshift/release/pull/83221",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved"
+      ],
+      "updatedAt": "2026-08-20T13:53:39Z"
     },
     {
       "number": 2360,
@@ -3224,7 +3227,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-20T13:51:54Z",
+    "updatedAt": "2026-08-20T14:39:28Z",
     "needsReview": [
       {
         "number": 68,
@@ -3962,7 +3965,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4363,7 +4366,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -5612,6 +5615,32 @@
         "updatedAt": "2026-08-18T03:00:33Z"
       },
       {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-18T14:29:42Z"
+      },
+      {
         "number": 10276,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5639,32 +5668,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-19T06:58:36Z"
-      },
-      {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-18T14:29:42Z"
       },
       {
         "number": 83049,
@@ -5696,36 +5699,6 @@
         "reason": "hold",
         "waitingDays": 0,
         "updatedAt": "2026-08-19T22:12:46Z"
-      },
-      {
-        "number": 83221,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-        "url": "https://github.com/openshift/release/pull/83221",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "dgoodwin",
-          "stbenjam",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-20T12:09:10Z"
       },
       {
         "number": 10010,
@@ -5847,6 +5820,37 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
+        "number": 253,
+        "repo": "migtools/oadp-cli",
+        "org": "migtools",
+        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+        "url": "https://github.com/migtools/oadp-cli/pull/253",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 15,
+        "updatedAt": "2026-08-05T14:29:52Z"
+      },
+      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5876,37 +5880,6 @@
         "reason": "pendingMerge",
         "waitingDays": 14,
         "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
-        "number": 253,
-        "repo": "migtools/oadp-cli",
-        "org": "migtools",
-        "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-        "url": "https://github.com/migtools/oadp-cli/pull/253",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 14,
-        "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
         "number": 449,
@@ -6103,6 +6076,39 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-19T20:02:03Z"
+      },
+      {
+        "number": 83221,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+        "url": "https://github.com/openshift/release/pull/83221",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "dgoodwin",
+          "stbenjam",
+          "petr-muller"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-20T13:53:39Z"
       }
     ]
   }
