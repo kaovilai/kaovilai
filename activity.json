@@ -3,13 +3,13 @@
     "start": "2026-08-06",
     "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T06:54:27Z",
+  "generatedAt": "2026-08-20T12:53:33Z",
   "metrics": {
     "prsMerged": 60,
     "prsOpened": 92,
-    "prsReviewed": 73,
+    "prsReviewed": 74,
     "issuesCommented": 42,
-    "issuesClosed": 24
+    "issuesClosed": 25
   },
   "prsMerged": [
     {
@@ -1081,6 +1081,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10347,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Only sync finished backups from object storage",
+      "url": "https://github.com/velero-io/velero/pull/10347"
+    },
+    {
+      "number": 2393,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
+      "url": "https://github.com/openshift/oadp-operator/pull/2393"
+    },
+    {
       "number": 10337,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1100,13 +1114,6 @@
       "org": "velero-io",
       "title": "Issue 10321: fill the error to the corresponding CR when data mover pod is evicted",
       "url": "https://github.com/velero-io/velero/pull/10322"
-    },
-    {
-      "number": 2393,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2393"
     },
     {
       "number": 2396,
@@ -1889,6 +1896,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 868,
+      "repo": "github/github-mcp-server",
+      "org": "github",
+      "title": "Feature Request: Add support for editing issue comments",
+      "url": "https://github.com/github/github-mcp-server/issues/868"
+    },
     {
       "number": 625,
       "repo": "github/github-mcp-server",
