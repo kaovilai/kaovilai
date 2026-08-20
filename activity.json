@@ -3,13 +3,13 @@
     "start": "2026-08-06",
     "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T17:31:38Z",
+  "generatedAt": "2026-08-20T18:41:47Z",
   "metrics": {
     "prsMerged": 61,
-    "prsOpened": 92,
-    "prsReviewed": 74,
-    "issuesCommented": 46,
-    "issuesClosed": 25
+    "prsOpened": 94,
+    "prsReviewed": 76,
+    "issuesCommented": 47,
+    "issuesClosed": 26
   },
   "prsMerged": [
     {
@@ -441,6 +441,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10348,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
+      "url": "https://github.com/velero-io/velero/pull/10348"
+    },
+    {
+      "number": 375,
+      "repo": "socktainer/socktainer",
+      "org": "socktainer",
+      "title": "feat(libpod): add Podman libpod API endpoints for native podman CLI support",
+      "url": "https://github.com/socktainer/socktainer/pull/375"
+    },
     {
       "number": 1,
       "repo": "kaovilai/pdf2text-pwa",
@@ -1088,6 +1102,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 98,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-dev (2768b89) into oadp-dev",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/98"
+    },
+    {
+      "number": 10342,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix LoadAffinity mutation accumulating OS node selector terms",
+      "url": "https://github.com/velero-io/velero/pull/10342"
+    },
+    {
+      "number": 10337,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Document secretNames/configMapNames for backup/restore PVC config",
+      "url": "https://github.com/velero-io/velero/pull/10337"
+    },
+    {
       "number": 2390,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1114,13 +1149,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
       "url": "https://github.com/openshift/oadp-operator/pull/2393"
-    },
-    {
-      "number": 10337,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Document secretNames/configMapNames for backup/restore PVC config",
-      "url": "https://github.com/velero-io/velero/pull/10337"
     },
     {
       "number": 10335,
@@ -1608,6 +1636,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 73,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Implement DataDownload controller for VM restore",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/73"
+    },
+    {
+      "number": 10340,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
+      "url": "https://github.com/velero-io/velero/issues/10340"
+    },
+    {
       "number": 84,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1620,13 +1662,6 @@
       "org": "rxliuli",
       "title": "Chrome Web Store listing reports location permission",
       "url": "https://github.com/rxliuli/redirector/issues/43"
-    },
-    {
-      "number": 10340,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
-      "url": "https://github.com/velero-io/velero/issues/10340"
     },
     {
       "number": 8265,
@@ -1931,6 +1966,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 130,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/130"
+    },
     {
       "number": 868,
       "repo": "github/github-mcp-server",
