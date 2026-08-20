@@ -3,12 +3,12 @@
     "start": "2026-08-06",
     "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T19:33:07Z",
+  "generatedAt": "2026-08-20T20:31:11Z",
   "metrics": {
     "prsMerged": 61,
     "prsOpened": 94,
     "prsReviewed": 76,
-    "issuesCommented": 47,
+    "issuesCommented": 48,
     "issuesClosed": 26
   },
   "prsMerged": [
@@ -1102,6 +1102,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10315,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
+      "url": "https://github.com/velero-io/velero/pull/10315"
+    },
+    {
       "number": 98,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
@@ -1128,13 +1135,6 @@
       "org": "openshift",
       "title": "Deprecate config.credentialsFile; translate to spec.credential",
       "url": "https://github.com/openshift/oadp-operator/pull/2390"
-    },
-    {
-      "number": 10315,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
-      "url": "https://github.com/velero-io/velero/pull/10315"
     },
     {
       "number": 10347,
@@ -1635,6 +1635,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 99,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Add OADP e2e test coverage for kubevirt-datamover",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/99"
+    },
     {
       "number": 73,
       "repo": "migtools/kubevirt-datamover-controller",
