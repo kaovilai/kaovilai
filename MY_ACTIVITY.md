@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-06 — 2026-08-20
-> **Generated:** 2026-08-20 21:30:12 UTC
+> **Generated:** 2026-08-20 22:29:53 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -86,7 +86,7 @@
 ## PRs Opened (94)
 
 **velero-io** (38)
-- [#10348 Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
+- [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
 - [#10327 Detect data path pod deletion via informer DeleteFunc](https://github.com/velero-io/velero/pull/10327) — velero-io/velero
 - [#10318 Fix datamover backup arg mismatch for CSI CBT service account name](https://github.com/velero-io/velero/pull/10318) — velero-io/velero
 - [#10309 Report a measured zero incremental instead of erasing it](https://github.com/velero-io/velero/pull/10309) — velero-io/velero
