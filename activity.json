@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-05",
-    "end": "2026-08-19"
+    "start": "2026-08-06",
+    "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-19T23:27:40Z",
+  "generatedAt": "2026-08-20T01:36:46Z",
   "metrics": {
-    "prsMerged": 66,
-    "prsOpened": 100,
-    "prsReviewed": 83,
-    "issuesCommented": 44,
-    "issuesClosed": 27
+    "prsMerged": 60,
+    "prsOpened": 92,
+    "prsReviewed": 73,
+    "issuesCommented": 42,
+    "issuesClosed": 24
   },
   "prsMerged": [
     {
@@ -431,48 +431,6 @@
       "org": "openshift",
       "title": "OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic",
       "url": "https://github.com/openshift/velero/pull/434"
-    },
-    {
-      "number": 41,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Add RestoreItemAction plugins to trigger kubevirt datamover restore",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/41"
-    },
-    {
-      "number": 177,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Group “Currently Working On” contributions by organization before repository",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/177"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
-    },
-    {
-      "number": 149,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fix command bar overlapping review dialog comment box",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/149"
-    },
-    {
-      "number": 174,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Addressing date and time display per browser timezone",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/174"
-    },
-    {
-      "number": 2353,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2353"
     }
   ],
   "prsOpened": [
@@ -1119,62 +1077,6 @@
       "org": "openshift",
       "title": "docs: kubevirt-datamover design doc — 2026-08-06 implementation status",
       "url": "https://github.com/openshift/oadp-operator/pull/2360"
-    },
-    {
-      "number": 44,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44"
-    },
-    {
-      "number": 177,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Group “Currently Working On” contributions by organization before repository",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/177"
-    },
-    {
-      "number": 18725,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-      "url": "https://github.com/kubevirt/kubevirt/pull/18725"
-    },
-    {
-      "number": 373,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Document NADR (NonAdminDownloadRequest) usage",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/373"
-    },
-    {
-      "number": 2358,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2358"
-    },
-    {
-      "number": 2357,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2357"
-    },
-    {
-      "number": 149,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fix command bar overlapping review dialog comment box",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/149"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
     }
   ],
   "prsReviewed": [
@@ -1410,13 +1312,6 @@
       "url": "https://github.com/velero-io/velero/pull/10279"
     },
     {
-      "number": 10167,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "validate backup name format before contacting the API server",
-      "url": "https://github.com/velero-io/velero/pull/10167"
-    },
-    {
       "number": 12323,
       "repo": "openshift-eng/ocp-build-data",
       "org": "openshift-eng",
@@ -1527,13 +1422,6 @@
       "org": "migtools",
       "title": "feat: add staleness check for per-VM DataUpload serialization",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
-    },
-    {
-      "number": 165,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: handle hyphenated disk names in extractDiskName",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/165"
     },
     {
       "number": 10210,
@@ -1690,13 +1578,6 @@
       "url": "https://github.com/kaovilai/oadp-ui/pull/13"
     },
     {
-      "number": 10159,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix excluded namespace objects leaking into backup with cross-namespa…",
-      "url": "https://github.com/velero-io/velero/pull/10159"
-    },
-    {
       "number": 83117,
       "repo": "openshift/release",
       "org": "openshift",
@@ -1709,55 +1590,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/176"
-    },
-    {
-      "number": 10162,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.16] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
-      "url": "https://github.com/velero-io/velero/pull/10162"
-    },
-    {
-      "number": 166,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add BSL config parity with Velero AWS plugin",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/166"
-    },
-    {
-      "number": 2356,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2356"
-    },
-    {
-      "number": 2359,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] feat: use velero SA and add bound-sa-token volume for KDM controller",
-      "url": "https://github.com/openshift/oadp-operator/pull/2359"
-    },
-    {
-      "number": 164,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: handle hyphenated disk names in extractDiskName",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/164"
-    },
-    {
-      "number": 10163,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17] Fix ResourceDeletionStatusTracker key Kind mismatch in terminating-namespace wait (#9987)",
-      "url": "https://github.com/velero-io/velero/pull/10163"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Bump actions to latest and apply blocked Dependabot updates (vite 8, TypeScript 6) with config fixes",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/175"
     }
   ],
   "issuesCommented": [
@@ -2054,20 +1886,6 @@
       "org": "migtools",
       "title": "VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/45"
-    },
-    {
-      "number": 8807,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support per-storageclass VSClass annotation",
-      "url": "https://github.com/velero-io/velero/issues/8807"
-    },
-    {
-      "number": 162,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/162"
     }
   ],
   "issuesClosed": [
@@ -2238,27 +2056,6 @@
       "org": "migtools",
       "title": "VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/45"
-    },
-    {
-      "number": 176,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Group my contributions by organization than by repository of the repos",
-      "url": "https://github.com/kaovilai/kaovilai.pw/issues/176"
-    },
-    {
-      "number": 162,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/162"
-    },
-    {
-      "number": 2236,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Flaky E2E: DPA reconciliation race condition causes NoDefaultBackupLocation test failure",
-      "url": "https://github.com/openshift/oadp-operator/issues/2236"
     }
   ]
 }
