@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-20 21:31:57 UTC
+> Last updated: 2026-08-20 22:31:28 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -40,7 +40,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10318](https://img.shields.io/badge/PR%20%2310318-draft-gray)](https://github.com/velero-io/velero/pull/10318) **velero-io/velero** → `main` - Fix datamover backup arg mismatch for CSI CBT service account name (milestone: **v1.19**)
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
-- [![PR #10348](https://img.shields.io/badge/PR%20%2310348-draft-gray)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
@@ -54,6 +53,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10305](https://img.shields.io/badge/PR%20%2310305-failing--ci-red)](https://github.com/velero-io/velero/pull/10305) **velero-io/velero** → `main` - Log the discovered parent snapshot ID, not the empty lookup parameter
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-failing--ci-red)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
 - [![PR #10309](https://img.shields.io/badge/PR%20%2310309-failing--ci-red)](https://github.com/velero-io/velero/pull/10309) **velero-io/velero** → `main` - Report a measured zero incremental instead of erasing it (milestone: **v1.19**)
+- [![PR #10348](https://img.shields.io/badge/PR%20%2310348-failing--ci-red)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/267) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
