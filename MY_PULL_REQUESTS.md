@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-20 14:39:28 UTC
+> Last updated: 2026-08-20 15:37:29 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -132,7 +132,6 @@ No open PRs.
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
-- [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218) **kubernetes-csi/external-snapshot-metadata** → `main` - Add Renovate automation for container image updates
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #3](https://img.shields.io/badge/PR%20%233-ready-green)](https://github.com/kaovilai/redirector/pull/3) **kaovilai/redirector** → `main` - Add design docs for one-click community rule install via marketplace deep links

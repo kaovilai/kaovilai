@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T14:39:28Z",
+  "updatedAt": "2026-08-20T15:37:29Z",
   "prs": [
     {
       "number": 10010,
@@ -1372,9 +1372,10 @@
       "assignees": [],
       "isDraft": false,
       "labels": [
+        "approved",
         "rehearsals-ack"
       ],
-      "updatedAt": "2026-08-12T19:29:09Z"
+      "updatedAt": "2026-08-20T15:28:08Z"
     },
     {
       "number": 225,
@@ -1496,14 +1497,16 @@
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [
+        "weshayutin",
         "shubham-pampattiwar"
       ],
       "isDraft": false,
       "labels": [
         "lgtm",
-        "approved"
+        "approved",
+        "rehearsals-ack"
       ],
-      "updatedAt": "2026-08-20T13:53:39Z"
+      "updatedAt": "2026-08-20T15:24:27Z"
     },
     {
       "number": 2360,
@@ -1750,7 +1753,7 @@
       "labels": [
         "do-not-merge/hold"
       ],
-      "updatedAt": "2026-08-19T22:12:46Z"
+      "updatedAt": "2026-08-20T15:21:37Z"
     },
     {
       "number": 260,
@@ -2172,28 +2175,6 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-11T13:19:55Z"
-    },
-    {
-      "number": 218,
-      "repo": "kubernetes-csi/external-snapshot-metadata",
-      "org": "kubernetes-csi",
-      "title": "Add Renovate automation for container image updates",
-      "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "do-not-merge/release-note-label-needed",
-        "size/M",
-        "needs-ok-to-test",
-        "cncf-cla: yes",
-        "lifecycle/rotten"
-      ],
-      "updatedAt": "2026-07-03T22:28:56Z"
     },
     {
       "number": 674,
@@ -3227,7 +3208,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-20T14:39:28Z",
+    "updatedAt": "2026-08-20T15:37:29Z",
     "needsReview": [
       {
         "number": 68,
@@ -3434,7 +3415,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 160,
+        "waitingDays": 161,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3527,7 +3508,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 133,
+        "waitingDays": 134,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3647,41 +3628,8 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 49,
+        "waitingDays": 50,
         "updatedAt": "2026-07-01T15:33:31Z"
-      },
-      {
-        "number": 218,
-        "repo": "kubernetes-csi/external-snapshot-metadata",
-        "org": "kubernetes-csi",
-        "title": "Add Renovate automation for container image updates",
-        "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/pull/218",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/release-note-label-needed",
-          "size/M",
-          "needs-ok-to-test",
-          "cncf-cla: yes",
-          "lifecycle/rotten"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "carlbraganza",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 47,
-        "updatedAt": "2026-07-03T22:28:56Z"
       },
       {
         "number": 285,
@@ -3978,7 +3926,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -4395,7 +4343,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-08-05T14:54:17Z"
       },
       {
@@ -4725,35 +4673,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-08-12T18:07:16Z"
-      },
-      {
-        "number": 83341,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-tools: bump bin build memory request to 3Gi",
-        "url": "https://github.com/openshift/release/pull/83341",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pruan-rht",
-          "smg247"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-08-12T19:29:09Z"
       },
       {
         "number": 2207,
@@ -5684,7 +5603,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5698,7 +5617,37 @@
         "group": "needsReview",
         "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-08-19T22:12:46Z"
+        "updatedAt": "2026-08-20T15:21:37Z"
+      },
+      {
+        "number": 83341,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-tools: bump bin build memory request to 3Gi",
+        "url": "https://github.com/openshift/release/pull/83341",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pruan-rht",
+          "smg247"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-20T15:28:08Z"
       },
       {
         "number": 10010,
@@ -5788,7 +5737,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 133,
+        "waitingDays": 134,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5818,6 +5767,37 @@
         "reason": "pendingMerge",
         "waitingDays": 34,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 48,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "Remove inactive users from OWNERS",
+        "url": "https://github.com/migtools/kopia/pull/48",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 15,
+        "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
         "number": 253,
@@ -5851,37 +5831,6 @@
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
-        "number": 48,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "Remove inactive users from OWNERS",
-        "url": "https://github.com/migtools/kopia/pull/48",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 14,
-        "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
         "number": 449,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -5909,7 +5858,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
@@ -6087,18 +6036,20 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
+          "weshayutin",
           "shubham-pampattiwar"
         ],
         "labels": [
           "lgtm",
-          "approved"
+          "approved",
+          "rehearsals-ack"
         ],
         "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
         "reviewDecision": null,
-        "approvalCount": 1,
+        "approvalCount": 2,
         "requiredApprovals": null,
         "reviewRequests": [
           "dgoodwin",
@@ -6108,7 +6059,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-20T13:53:39Z"
+        "updatedAt": "2026-08-20T15:24:27Z"
       }
     ]
   }
