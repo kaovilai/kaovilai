@@ -3,7 +3,7 @@
     "start": "2026-08-06",
     "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T01:36:46Z",
+  "generatedAt": "2026-08-20T06:54:27Z",
   "metrics": {
     "prsMerged": 60,
     "prsOpened": 92,
@@ -1081,32 +1081,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 2396,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2396"
-    },
-    {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
-    },
-    {
       "number": 10337,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Document secretNames/configMapNames for backup/restore PVC config",
       "url": "https://github.com/velero-io/velero/pull/10337"
-    },
-    {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
     },
     {
       "number": 10335,
@@ -1123,6 +1102,34 @@
       "url": "https://github.com/velero-io/velero/pull/10322"
     },
     {
+      "number": 2393,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
+      "url": "https://github.com/openshift/oadp-operator/pull/2393"
+    },
+    {
+      "number": 2396,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2396"
+    },
+    {
+      "number": 2395,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 10329,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Embed CRD manifests via go:embed instead of codegen",
+      "url": "https://github.com/velero-io/velero/pull/10329"
+    },
+    {
       "number": 2394,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1135,13 +1142,6 @@
       "org": "velero-io",
       "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
       "url": "https://github.com/velero-io/velero/pull/10280"
-    },
-    {
-      "number": 2393,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2393"
     },
     {
       "number": 190,
@@ -1594,6 +1594,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 10297,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1648,13 +1655,6 @@
       "org": "velero-io",
       "title": "v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults",
       "url": "https://github.com/velero-io/velero/issues/9951"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 10303,
