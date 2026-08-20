@@ -3,15 +3,22 @@
     "start": "2026-08-06",
     "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T15:35:59Z",
+  "generatedAt": "2026-08-20T16:37:20Z",
   "metrics": {
-    "prsMerged": 60,
+    "prsMerged": 61,
     "prsOpened": 92,
     "prsReviewed": 74,
     "issuesCommented": 46,
     "issuesClosed": 25
   },
   "prsMerged": [
+    {
+      "number": 83221,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
+      "url": "https://github.com/openshift/release/pull/83221"
+    },
     {
       "number": 2350,
       "repo": "openshift/oadp-operator",
@@ -1081,6 +1088,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10315,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
+      "url": "https://github.com/velero-io/velero/pull/10315"
+    },
+    {
       "number": 10347,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1170,13 +1184,6 @@
       "org": "openshift",
       "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
       "url": "https://github.com/openshift/oadp-operator/pull/2385"
-    },
-    {
-      "number": 10315,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
-      "url": "https://github.com/velero-io/velero/pull/10315"
     },
     {
       "number": 10235,

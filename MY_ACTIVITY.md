@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-06 — 2026-08-20
-> **Generated:** 2026-08-20 15:35:59 UTC
+> **Generated:** 2026-08-20 16:37:20 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 60 |
+| PRs Merged | 61 |
 | PRs Opened | 92 |
 | PRs Reviewed | 74 |
 | Issues/PRs Commented | 46 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (60)
+## PRs Merged (61)
 
 **velero-io** (11)
 - [#10308 Detect block uploader cancellation through wrapped errors](https://github.com/velero-io/velero/pull/10308) — velero-io/velero
@@ -28,7 +28,8 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 
-**openshift** (19)
+**openshift** (20)
+- [#83221 gather-must-gather: retry camgi download, don't fail gather on it](https://github.com/openshift/release/pull/83221) — openshift/release
 - [#2350 Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)](https://github.com/openshift/oadp-operator/pull/2350) — openshift/oadp-operator
 - [#83299 gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR](https://github.com/openshift/release/pull/83299) — openshift/release
 - [#2358 [oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update](https://github.com/openshift/oadp-operator/pull/2358) — openshift/oadp-operator
@@ -186,13 +187,13 @@
 ## PRs Reviewed (74)
 
 **velero-io** (45)
+- [#10315 Testing: Implement missing unit tests for pkg/backup/snapshots.go](https://github.com/velero-io/velero/pull/10315) — velero-io/velero
 - [#10347 1.18: Only sync finished backups from object storage](https://github.com/velero-io/velero/pull/10347) — velero-io/velero
 - [#10337 Document secretNames/configMapNames for backup/restore PVC config](https://github.com/velero-io/velero/pull/10337) — velero-io/velero
 - [#10335 [release-1.18] Support copying namespace-scoped secrets/configmaps for backup and restore PVC provisioning](https://github.com/velero-io/velero/pull/10335) — velero-io/velero
 - [#10322 Issue 10321: fill the error to the corresponding CR when data mover pod is evicted](https://github.com/velero-io/velero/pull/10322) — velero-io/velero
 - [#10329 Embed CRD manifests via go:embed instead of codegen](https://github.com/velero-io/velero/pull/10329) — velero-io/velero
 - [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
-- [#10315 Testing: Implement missing unit tests for pkg/backup/snapshots.go](https://github.com/velero-io/velero/pull/10315) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10237 Reject negative --ttl in backup create validation](https://github.com/velero-io/velero/pull/10237) — velero-io/velero
 - [#10252 Skip signing a download URL when no artifacts can exist yet](https://github.com/velero-io/velero/pull/10252) — velero-io/velero
