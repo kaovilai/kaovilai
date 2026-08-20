@@ -3,7 +3,7 @@
     "start": "2026-08-06",
     "end": "2026-08-20"
   },
-  "generatedAt": "2026-08-20T16:37:20Z",
+  "generatedAt": "2026-08-20T17:31:38Z",
   "metrics": {
     "prsMerged": 61,
     "prsOpened": 92,
@@ -1088,6 +1088,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 2390,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Deprecate config.credentialsFile; translate to spec.credential",
+      "url": "https://github.com/openshift/oadp-operator/pull/2390"
+    },
+    {
       "number": 10315,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1170,13 +1177,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] feat: concurrency limiter for DataUpload controller (issue #174)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/190"
-    },
-    {
-      "number": 2390,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Deprecate config.credentialsFile; translate to spec.credential",
-      "url": "https://github.com/openshift/oadp-operator/pull/2390"
     },
     {
       "number": 2385,
@@ -1608,6 +1608,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 84,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Implement concurrent data mover limiter for DU and DD controllers",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/84"
+    },
+    {
       "number": 43,
       "repo": "rxliuli/redirector",
       "org": "rxliuli",
@@ -1907,13 +1914,6 @@
       "org": "cncf",
       "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
       "url": "https://github.com/cncf/mentoring/issues/1997"
-    },
-    {
-      "number": 84,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrent data mover limiter for DU and DD controllers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/84"
     },
     {
       "number": 148413,
