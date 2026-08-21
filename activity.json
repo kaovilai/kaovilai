@@ -3,7 +3,7 @@
     "start": "2026-08-07",
     "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-21T14:37:36Z",
+  "generatedAt": "2026-08-21T15:35:37Z",
   "metrics": {
     "prsMerged": 59,
     "prsOpened": 91,
@@ -1067,6 +1067,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 2395,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 2390,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Deprecate config.credentialsFile; translate to spec.credential",
+      "url": "https://github.com/openshift/oadp-operator/pull/2390"
+    },
+    {
       "number": 10252,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1137,13 +1151,6 @@
       "url": "https://github.com/velero-io/velero/pull/10337"
     },
     {
-      "number": 2390,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Deprecate config.credentialsFile; translate to spec.credential",
-      "url": "https://github.com/openshift/oadp-operator/pull/2390"
-    },
-    {
       "number": 10347,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1177,13 +1184,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
       "url": "https://github.com/openshift/oadp-operator/pull/2396"
-    },
-    {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
     },
     {
       "number": 10329,
