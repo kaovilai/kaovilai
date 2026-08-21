@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-21 20:30:03 UTC
+> Last updated: 2026-08-21 21:28:44 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -50,7 +50,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
-- [![PR #10305](https://img.shields.io/badge/PR%20%2310305-failing--ci-red)](https://github.com/velero-io/velero/pull/10305) **velero-io/velero** → `main` - Log the discovered parent snapshot ID, not the empty lookup parameter
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-failing--ci-red)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
 - [![PR #10309](https://img.shields.io/badge/PR%20%2310309-failing--ci-red)](https://github.com/velero-io/velero/pull/10309) **velero-io/velero** → `main` - Report a measured zero incremental instead of erasing it (milestone: **v1.19**)
 - [![PR #10348](https://img.shields.io/badge/PR%20%2310348-failing--ci-red)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms

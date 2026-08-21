@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T20:30:03Z",
+  "updatedAt": "2026-08-21T21:28:44Z",
   "prs": [
     {
       "number": 10010,
@@ -853,27 +853,6 @@
       "updatedAt": "2026-07-25T23:41:12Z"
     },
     {
-      "number": 10305,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Log the discovered parent snapshot ID, not the empty lookup parameter",
-      "url": "https://github.com/velero-io/velero/pull/10305",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required",
-        "has-unit-tests"
-      ],
-      "updatedAt": "2026-08-18T05:04:14Z"
-    },
-    {
       "number": 10307,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -997,7 +976,7 @@
         "Area/Design",
         "kind/changelog-not-required"
       ],
-      "updatedAt": "2026-08-18T03:00:33Z"
+      "updatedAt": "2026-08-21T20:50:45Z"
     },
     {
       "number": 261,
@@ -1105,7 +1084,7 @@
       ],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-08-18T14:29:42Z"
+      "updatedAt": "2026-08-21T20:43:44Z"
     },
     {
       "number": 327,
@@ -1747,7 +1726,7 @@
         "needs-rebase",
         "rehearsals-ack"
       ],
-      "updatedAt": "2026-08-21T20:25:10Z"
+      "updatedAt": "2026-08-21T21:11:07Z"
     },
     {
       "number": 216,
@@ -3160,7 +3139,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-21T20:30:03Z",
+    "updatedAt": "2026-08-21T21:28:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -3283,6 +3262,36 @@
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
+        "number": 9388,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add lint-fix make targets",
+        "url": "https://github.com/velero-io/velero/pull/9388",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 270,
+        "updatedAt": "2025-11-24T10:40:40Z"
+      },
+      {
         "number": 9221,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3299,7 +3308,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3340,7 +3349,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 192,
+        "waitingDays": 193,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3386,7 +3395,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3418,7 +3427,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3518,38 +3527,8 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 104,
+        "waitingDays": 105,
         "updatedAt": "2026-05-08T20:48:25Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 72,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -3715,8 +3694,41 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 36,
+        "waitingDays": 37,
         "updatedAt": "2026-07-15T20:53:27Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 36,
+        "updatedAt": "2026-07-16T15:28:53Z"
       },
       {
         "number": 261,
@@ -3930,7 +3942,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3978,6 +3990,38 @@
         "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
+        "number": 10034,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "chore: pin helm/kind-action to commit with curl retry fix",
+        "url": "https://github.com/velero-io/velero/pull/10034",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "chlins"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 29,
+        "updatedAt": "2026-07-23T20:58:34Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3994,7 +4038,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4027,7 +4071,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4045,38 +4089,6 @@
         "updatedAt": "2026-07-23T22:40:21Z"
       },
       {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 28,
-        "updatedAt": "2026-07-23T20:58:34Z"
-      },
-      {
         "number": 8793,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4092,7 +4104,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4123,7 +4135,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4153,7 +4165,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4280,7 +4292,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4341,7 +4353,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4513,7 +4525,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4579,7 +4591,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4623,6 +4635,87 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-08-13T19:59:49Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "sseago",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-14T21:03:43Z"
+      },
+      {
+        "number": 266,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-14T21:03:44Z"
+      },
+      {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
         "number": 598,
@@ -4670,7 +4763,7 @@
           "do-not-merge/work-in-progress",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4701,7 +4794,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4730,7 +4823,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4761,7 +4854,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4775,35 +4868,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-08-14T22:44:58Z"
-      },
-      {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "sseago",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-14T21:03:43Z"
       },
       {
         "number": 320,
@@ -4980,32 +5044,6 @@
         "updatedAt": "2026-08-14T23:42:02Z"
       },
       {
-        "number": 266,
-        "repo": "velero-io/velero-plugin-for-gcp",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-14T21:03:44Z"
-      },
-      {
         "number": 267,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -5082,32 +5120,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-08-14T23:55:53Z"
-      },
-      {
-        "number": 324,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
         "number": 325,
@@ -5188,35 +5200,6 @@
         "updatedAt": "2026-08-14T23:59:30Z"
       },
       {
-        "number": 10305,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Log the discovered parent snapshot ID, not the empty lookup parameter",
-        "url": "https://github.com/velero-io/velero/pull/10305",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-18T05:04:14Z"
-      },
-      {
         "number": 10306,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5232,7 +5215,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5244,63 +5227,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-08-18T13:18:57Z"
-      },
-      {
-        "number": 9770,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "design: Kubernetes name length enforcement for Velero-created objects (#8815)",
-        "url": "https://github.com/velero-io/velero/pull/9770",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-18T03:00:33Z"
-      },
-      {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-18T14:29:42Z"
       },
       {
         "number": 375,
@@ -5450,6 +5376,63 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-21T19:16:50Z"
+      },
+      {
+        "number": 9770,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "design: Kubernetes name length enforcement for Velero-created objects (#8815)",
+        "url": "https://github.com/velero-io/velero/pull/9770",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T20:50:45Z"
+      },
+      {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T20:43:44Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5508,6 +5491,36 @@
         "reason": "pendingMerge",
         "waitingDays": 36,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 10028,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Bump actions/labeler from v5 to v6",
+        "url": "https://github.com/velero-io/velero/pull/10028",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 29,
+        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 48,
@@ -5658,7 +5671,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
