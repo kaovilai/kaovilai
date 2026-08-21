@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T15:37:18Z",
+  "updatedAt": "2026-08-21T16:38:54Z",
   "prs": [
     {
       "number": 10010,
@@ -273,7 +273,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-17T02:30:41Z"
+      "updatedAt": "2026-08-21T15:39:08Z"
     },
     {
       "number": 9910,
@@ -1327,28 +1327,6 @@
       "updatedAt": "2026-08-15T06:21:35Z"
     },
     {
-      "number": 83049,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83049",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "shubham-pampattiwar",
-        "Joeavaikath"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-21T15:21:08Z"
-    },
-    {
       "number": 225,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -1454,7 +1432,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-21T13:58:27Z"
+      "updatedAt": "2026-08-21T16:09:43Z"
     },
     {
       "number": 2374,
@@ -1520,6 +1498,31 @@
       "updatedAt": "2026-08-05T14:48:33Z"
     },
     {
+      "number": 83049,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/83049",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "sseago",
+        "shubham-pampattiwar",
+        "Joeavaikath",
+        "amp-rh"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved",
+        "rehearsals-ack"
+      ],
+      "updatedAt": "2026-08-21T16:01:49Z"
+    },
+    {
       "number": 83341,
       "repo": "openshift/release",
       "org": "openshift",
@@ -1541,7 +1544,7 @@
         "approved",
         "rehearsals-ack"
       ],
-      "updatedAt": "2026-08-21T15:29:21Z"
+      "updatedAt": "2026-08-21T16:08:00Z"
     },
     {
       "number": 2360,
@@ -1812,24 +1815,6 @@
         "ai-gen-bugfix"
       ],
       "updatedAt": "2026-08-13T18:59:08Z"
-    },
-    {
-      "number": 47,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-21T15:19:17Z"
     },
     {
       "number": 216,
@@ -2572,7 +2557,7 @@
       "assignees": [],
       "isDraft": true,
       "labels": [],
-      "updatedAt": "2026-08-21T02:09:45Z"
+      "updatedAt": "2026-08-21T15:58:12Z"
     },
     {
       "number": 1,
@@ -3242,7 +3227,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-21T15:37:18Z",
+    "updatedAt": "2026-08-21T16:38:54Z",
     "needsReview": [
       {
         "number": 68,
@@ -3481,7 +3466,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 156,
+        "waitingDays": 157,
         "updatedAt": "2026-03-17T15:49:38Z"
       },
       {
@@ -3719,30 +3704,6 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 37,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 442,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -3769,8 +3730,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 36,
+        "waitingDays": 37,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 37,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -4269,7 +4254,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4408,35 +4393,6 @@
         "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
-        "number": 46,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Centralize build scheduling into a single version-aware dispatcher",
-        "url": "https://github.com/konveyor/builder/pull/46",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
         "number": 9772,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4465,8 +4421,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-08-10T16:09:09Z"
+      },
+      {
+        "number": 46,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Centralize build scheduling into a single version-aware dispatcher",
+        "url": "https://github.com/konveyor/builder/pull/46",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
         "number": 35,
@@ -4544,7 +4529,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5270,40 +5255,6 @@
         "updatedAt": "2026-08-14T23:59:30Z"
       },
       {
-        "number": 9795,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/9795",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "blackpiglet",
-          "shubham-pampattiwar",
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-17T02:30:41Z"
-      },
-      {
         "number": 10305,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5417,35 +5368,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-08-18T14:29:42Z"
-      },
-      {
-        "number": 47,
-        "repo": "migtools/kubevirt-datamover-plugin",
-        "org": "migtools",
-        "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
-        "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-21T15:19:17Z"
       },
       {
         "number": 10010,
@@ -5949,7 +5871,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-21T13:58:27Z"
+        "updatedAt": "2026-08-21T16:09:43Z"
       },
       {
         "number": 2374,
@@ -6023,17 +5945,20 @@
         "assignees": [
           "sseago",
           "shubham-pampattiwar",
-          "Joeavaikath"
+          "Joeavaikath",
+          "amp-rh"
         ],
         "labels": [
-          "lgtm"
+          "lgtm",
+          "approved",
+          "rehearsals-ack"
         ],
         "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
-        "hasProwApproval": false,
+        "hasProwApproval": true,
         "hasGithubApproval": true,
         "reviewDecision": null,
-        "approvalCount": 3,
+        "approvalCount": 4,
         "requiredApprovals": null,
         "reviewRequests": [
           "mpryc",
@@ -6042,7 +5967,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-21T15:21:08Z"
+        "updatedAt": "2026-08-21T16:01:49Z"
       },
       {
         "number": 83341,
@@ -6063,7 +5988,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -6077,7 +6002,41 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-21T15:29:21Z"
+        "updatedAt": "2026-08-21T16:08:00Z"
+      },
+      {
+        "number": 9795,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/9795",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "anshulahuja98",
+          "blackpiglet",
+          "shubham-pampattiwar",
+          "Lyndon-Li"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T15:39:08Z"
       }
     ]
   }
