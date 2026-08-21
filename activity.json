@@ -3,11 +3,11 @@
     "start": "2026-08-07",
     "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-21T01:41:48Z",
+  "generatedAt": "2026-08-21T06:55:38Z",
   "metrics": {
     "prsMerged": 59,
     "prsOpened": 91,
-    "prsReviewed": 71,
+    "prsReviewed": 75,
     "issuesCommented": 46,
     "issuesClosed": 24
   },
@@ -1067,6 +1067,41 @@
   ],
   "prsReviewed": [
     {
+      "number": 10346,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Double check the label for backup when deleting VSC",
+      "url": "https://github.com/velero-io/velero/pull/10346"
+    },
+    {
+      "number": 10331,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Preserve PVC selected-node annotation via carrier annotation for in-place restore",
+      "url": "https://github.com/velero-io/velero/pull/10331"
+    },
+    {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163"
+    },
+    {
+      "number": 463,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-dev (033e6b1) into oadp-dev",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/463"
+    },
+    {
       "number": 10315,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1156,13 +1191,6 @@
       "org": "openshift",
       "title": "[OADP-8700] Guard NodeAgent.ExtraArgs access against nil when using restic config",
       "url": "https://github.com/openshift/oadp-operator/pull/2394"
-    },
-    {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
     },
     {
       "number": 190,
@@ -1566,6 +1594,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 10340,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1613,13 +1648,6 @@
       "org": "github",
       "title": "Feature Request: Add support for editing issue comments",
       "url": "https://github.com/github/github-mcp-server/issues/868"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 10297,
