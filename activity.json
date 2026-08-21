@@ -3,15 +3,22 @@
     "start": "2026-08-07",
     "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-21T19:27:23Z",
+  "generatedAt": "2026-08-21T20:28:02Z",
   "metrics": {
-    "prsMerged": 63,
+    "prsMerged": 64,
     "prsOpened": 92,
     "prsReviewed": 75,
     "issuesCommented": 49,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 2375,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2375"
+    },
     {
       "number": 2374,
       "repo": "openshift/oadp-operator",
