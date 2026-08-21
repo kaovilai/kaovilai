@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-07 — 2026-08-21
-> **Generated:** 2026-08-21 20:28:02 UTC
+> **Generated:** 2026-08-21 21:26:43 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 64 |
+| PRs Merged | 65 |
 | PRs Opened | 92 |
 | PRs Reviewed | 75 |
 | Issues/PRs Commented | 49 |
@@ -13,9 +13,10 @@
 
 ---
 
-## PRs Merged (64)
+## PRs Merged (65)
 
-**velero-io** (11)
+**velero-io** (12)
+- [#10305 Log the discovered parent snapshot ID, not the empty lookup parameter](https://github.com/velero-io/velero/pull/10305) — velero-io/velero
 - [#10308 Detect block uploader cancellation through wrapped errors](https://github.com/velero-io/velero/pull/10308) — velero-io/velero
 - [#10262 [release-1.17] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10262) — velero-io/velero
 - [#10263 [release-1.18] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10263) — velero-io/velero
