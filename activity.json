@@ -3,12 +3,12 @@
     "start": "2026-08-07",
     "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-21T17:31:11Z",
+  "generatedAt": "2026-08-21T18:39:23Z",
   "metrics": {
     "prsMerged": 63,
     "prsOpened": 92,
     "prsReviewed": 75,
-    "issuesCommented": 47,
+    "issuesCommented": 48,
     "issuesClosed": 25
   },
   "prsMerged": [
@@ -473,7 +473,7 @@
       "number": 375,
       "repo": "socktainer/socktainer",
       "org": "socktainer",
-      "title": "feat(libpod): add Podman libpod API endpoints for native podman CLI support",
+      "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
       "url": "https://github.com/socktainer/socktainer/pull/375"
     },
     {
@@ -1109,6 +1109,27 @@
       "url": "https://github.com/velero-io/velero/pull/10329"
     },
     {
+      "number": 463,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-dev (033e6b1) into oadp-dev",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/463"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163"
+    },
+    {
+      "number": 849,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "fix: status-reconciler track own config state for dropped deltas",
+      "url": "https://github.com/kubernetes-sigs/prow/pull/849"
+    },
+    {
       "number": 2395,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1149,20 +1170,6 @@
       "org": "velero-io",
       "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
       "url": "https://github.com/velero-io/velero/pull/10280"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163"
-    },
-    {
-      "number": 463,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-dev (033e6b1) into oadp-dev",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/463"
     },
     {
       "number": 10315,
@@ -1387,13 +1394,6 @@
       "org": "openshift-eng",
       "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
-    },
-    {
-      "number": 849,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "fix: status-reconciler track own config state for dropped deltas",
-      "url": "https://github.com/kubernetes-sigs/prow/pull/849"
     },
     {
       "number": 10273,
@@ -1628,6 +1628,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 378,
+      "repo": "socktainer/socktainer",
+      "org": "socktainer",
+      "title": "ci on real hw",
+      "url": "https://github.com/socktainer/socktainer/issues/378"
+    },
     {
       "number": 99,
       "repo": "migtools/kubevirt-datamover-controller",
