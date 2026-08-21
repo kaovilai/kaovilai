@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-06",
-    "end": "2026-08-20"
+    "start": "2026-08-07",
+    "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-20T23:30:50Z",
+  "generatedAt": "2026-08-21T01:41:48Z",
   "metrics": {
-    "prsMerged": 61,
-    "prsOpened": 94,
-    "prsReviewed": 76,
-    "issuesCommented": 48,
-    "issuesClosed": 26
+    "prsMerged": 59,
+    "prsOpened": 91,
+    "prsReviewed": 71,
+    "issuesCommented": 46,
+    "issuesClosed": 24
   },
   "prsMerged": [
     {
@@ -424,20 +424,6 @@
       "org": "migtools",
       "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44"
-    },
-    {
-      "number": 2208,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7943, OADP-7829: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2208"
-    },
-    {
-      "number": 434,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "OADP-6536: Call WaitGroup.Done() once only when PVB changes to final status the first time to avoid panic",
-      "url": "https://github.com/openshift/velero/pull/434"
     }
   ],
   "prsOpened": [
@@ -1077,27 +1063,6 @@
       "org": "openshift",
       "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0",
       "url": "https://github.com/openshift/release/pull/83078"
-    },
-    {
-      "number": 83049,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83049"
-    },
-    {
-      "number": 170,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: defer PVC/PV cleanup while datamover pod terminates",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/170"
-    },
-    {
-      "number": 2360,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: kubevirt-datamover design doc — 2026-08-06 implementation status",
-      "url": "https://github.com/openshift/oadp-operator/pull/2360"
     }
   ],
   "prsReviewed": [
@@ -1375,13 +1340,6 @@
       "url": "https://github.com/velero-io/velero/pull/10273"
     },
     {
-      "number": 318,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Add descriptive error message when SSE-C is denied on S3 buckets",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/318"
-    },
-    {
       "number": 12324,
       "repo": "openshift-eng/ocp-build-data",
       "org": "openshift-eng",
@@ -1459,13 +1417,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/183"
     },
     {
-      "number": 172,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add staleness check for per-VM DataUpload serialization",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/172"
-    },
-    {
       "number": 10210,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1529,13 +1480,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/181"
     },
     {
-      "number": 10180,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Site: add conference talks to resources and LinkedIn to community page",
-      "url": "https://github.com/velero-io/velero/pull/10180"
-    },
-    {
       "number": 10231,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1562,20 +1506,6 @@
       "org": "velero-io",
       "title": "docs: fix grammar and typos in backup-restore-windows",
       "url": "https://github.com/velero-io/velero/pull/10228"
-    },
-    {
-      "number": 2361,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: expose staleDataUploadThreshold in DPA KubevirtDatamoverConfig",
-      "url": "https://github.com/openshift/oadp-operator/pull/2361"
-    },
-    {
-      "number": 167,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: add BSL config parity with Velero AWS plugin",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/167"
     },
     {
       "number": 10190,
@@ -1956,20 +1886,6 @@
       "org": "cncf",
       "title": "[CNCF LFX Proposal] Velero CSI E2E Testing",
       "url": "https://github.com/cncf/mentoring/issues/1997"
-    },
-    {
-      "number": 148413,
-      "repo": "microsoft/vscode",
-      "org": "microsoft",
-      "title": "View multiple debug consoles side by side in editor areas",
-      "url": "https://github.com/microsoft/vscode/issues/148413"
-    },
-    {
-      "number": 45,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/45"
     }
   ],
   "issuesClosed": [
@@ -2140,20 +2056,6 @@
       "org": "openshift",
       "title": "Feature request: Additive extraArgs for Velero server and node-agent",
       "url": "https://github.com/openshift/oadp-operator/issues/2209"
-    },
-    {
-      "number": 148413,
-      "repo": "microsoft/vscode",
-      "org": "microsoft",
-      "title": "View multiple debug consoles side by side in editor areas",
-      "url": "https://github.com/microsoft/vscode/issues/148413"
-    },
-    {
-      "number": 45,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/45"
     }
   ]
 }
