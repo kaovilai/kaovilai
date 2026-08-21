@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T14:39:11Z",
+  "updatedAt": "2026-08-21T15:37:18Z",
   "prs": [
     {
       "number": 10010,
@@ -1338,6 +1338,7 @@
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [
+        "sseago",
         "shubham-pampattiwar",
         "Joeavaikath"
       ],
@@ -1345,26 +1346,7 @@
       "labels": [
         "lgtm"
       ],
-      "updatedAt": "2026-08-20T18:52:56Z"
-    },
-    {
-      "number": 83341,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ci-tools: bump bin build memory request to 3Gi",
-      "url": "https://github.com/openshift/release/pull/83341",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-20T15:28:08Z"
+      "updatedAt": "2026-08-21T15:21:08Z"
     },
     {
       "number": 225,
@@ -1536,6 +1518,30 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:48:33Z"
+    },
+    {
+      "number": 83341,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "ci-tools: bump bin build memory request to 3Gi",
+      "url": "https://github.com/openshift/release/pull/83341",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin",
+        "sseago",
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved",
+        "rehearsals-ack"
+      ],
+      "updatedAt": "2026-08-21T15:29:21Z"
     },
     {
       "number": 2360,
@@ -1823,7 +1829,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-15T01:39:28Z"
+      "updatedAt": "2026-08-21T15:19:17Z"
     },
     {
       "number": 216,
@@ -3236,7 +3242,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-21T14:39:11Z",
+    "updatedAt": "2026-08-21T15:37:18Z",
     "needsReview": [
       {
         "number": 68,
@@ -3443,7 +3449,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 161,
+        "waitingDays": 162,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3536,7 +3542,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 134,
+        "waitingDays": 135,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3656,7 +3662,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 50,
+        "waitingDays": 51,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3954,7 +3960,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -4263,7 +4269,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4538,7 +4544,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4699,35 +4705,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-08-13T19:59:49Z"
-      },
-      {
-        "number": 47,
-        "repo": "migtools/kubevirt-datamover-plugin",
-        "org": "migtools",
-        "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
-        "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-15T01:39:28Z"
       },
       {
         "number": 598,
@@ -5442,34 +5419,33 @@
         "updatedAt": "2026-08-18T14:29:42Z"
       },
       {
-        "number": 83341,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-tools: bump bin build memory request to 3Gi",
-        "url": "https://github.com/openshift/release/pull/83341",
-        "targetBranch": "main",
+        "number": 47,
+        "repo": "migtools/kubevirt-datamover-plugin",
+        "org": "migtools",
+        "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
+        "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "approved",
-          "rehearsals-ack"
+          "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
         "reviewRequests": [
-          "pruan-rht",
-          "smg247"
+          "shubham-pampattiwar",
+          "weshayutin"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-20T15:28:08Z"
+        "updatedAt": "2026-08-21T15:19:17Z"
       },
       {
         "number": 10010,
@@ -5623,7 +5599,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 134,
+        "waitingDays": 135,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5653,6 +5629,37 @@
         "reason": "pendingMerge",
         "waitingDays": 35,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 48,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "Remove inactive users from OWNERS",
+        "url": "https://github.com/migtools/kopia/pull/48",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 16,
+        "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
         "number": 253,
@@ -5686,37 +5693,6 @@
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
-        "number": 48,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "Remove inactive users from OWNERS",
-        "url": "https://github.com/migtools/kopia/pull/48",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 15,
-        "updatedAt": "2026-08-05T14:45:16Z"
-      },
-      {
         "number": 449,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -5744,7 +5720,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-08-05T14:48:33Z"
       },
       {
@@ -6045,18 +6021,19 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
+          "sseago",
           "shubham-pampattiwar",
           "Joeavaikath"
         ],
         "labels": [
           "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
         "reviewDecision": null,
-        "approvalCount": 2,
+        "approvalCount": 3,
         "requiredApprovals": null,
         "reviewRequests": [
           "mpryc",
@@ -6065,7 +6042,42 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-20T18:52:56Z"
+        "updatedAt": "2026-08-21T15:21:08Z"
+      },
+      {
+        "number": 83341,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-tools: bump bin build memory request to 3Gi",
+        "url": "https://github.com/openshift/release/pull/83341",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "sseago",
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "lgtm",
+          "approved",
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pruan-rht",
+          "smg247"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T15:29:21Z"
       }
     ]
   }
