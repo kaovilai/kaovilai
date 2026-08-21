@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T16:38:54Z",
+  "updatedAt": "2026-08-21T17:32:49Z",
   "prs": [
     {
       "number": 10010,
@@ -1327,6 +1327,24 @@
       "updatedAt": "2026-08-15T06:21:35Z"
     },
     {
+      "number": 83833,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
+      "url": "https://github.com/openshift/release/pull/83833",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-21T17:24:35Z"
+    },
+    {
       "number": 225,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -1435,27 +1453,6 @@
       "updatedAt": "2026-08-21T16:09:43Z"
     },
     {
-      "number": 2374,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2374",
-      "targetBranch": "oadp-1.6",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-21T14:08:11Z"
-    },
-    {
       "number": 2375,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1474,7 +1471,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-21T14:00:07Z"
+      "updatedAt": "2026-08-21T17:10:18Z"
     },
     {
       "number": 449,
@@ -1496,55 +1493,6 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:48:33Z"
-    },
-    {
-      "number": 83049,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83049",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "shubham-pampattiwar",
-        "Joeavaikath",
-        "amp-rh"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-21T16:01:49Z"
-    },
-    {
-      "number": 83341,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ci-tools: bump bin build memory request to 3Gi",
-      "url": "https://github.com/openshift/release/pull/83341",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "weshayutin",
-        "sseago",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-21T16:08:00Z"
     },
     {
       "number": 2360,
@@ -3227,7 +3175,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-21T16:38:54Z",
+    "updatedAt": "2026-08-21T17:32:49Z",
     "needsReview": [
       {
         "number": 68,
@@ -3808,7 +3756,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -3834,7 +3782,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -3860,7 +3808,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -3886,7 +3834,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-16T16:58:01Z"
       },
       {
@@ -3912,7 +3860,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -4041,7 +3989,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
@@ -5370,6 +5318,35 @@
         "updatedAt": "2026-08-18T14:29:42Z"
       },
       {
+        "number": 83833,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
+        "url": "https://github.com/openshift/release/pull/83833",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "chaclark1974",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T17:24:35Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5549,7 +5526,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -5874,37 +5851,6 @@
         "updatedAt": "2026-08-21T16:09:43Z"
       },
       {
-        "number": 2374,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-        "url": "https://github.com/openshift/oadp-operator/pull/2374",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-21T14:08:11Z"
-      },
-      {
         "number": 2375,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5931,78 +5877,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-21T14:00:07Z"
-      },
-      {
-        "number": 83049,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-        "url": "https://github.com/openshift/release/pull/83049",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago",
-          "shubham-pampattiwar",
-          "Joeavaikath",
-          "amp-rh"
-        ],
-        "labels": [
-          "lgtm",
-          "approved",
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 4,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "nunnatsa"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-21T16:01:49Z"
-      },
-      {
-        "number": 83341,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-tools: bump bin build memory request to 3Gi",
-        "url": "https://github.com/openshift/release/pull/83341",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "sseago",
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "lgtm",
-          "approved",
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pruan-rht",
-          "smg247"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-21T16:08:00Z"
+        "updatedAt": "2026-08-21T17:10:18Z"
       },
       {
         "number": 9795,
