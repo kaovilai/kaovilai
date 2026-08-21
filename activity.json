@@ -3,15 +3,36 @@
     "start": "2026-08-07",
     "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-21T16:37:03Z",
+  "generatedAt": "2026-08-21T17:31:11Z",
   "metrics": {
-    "prsMerged": 60,
-    "prsOpened": 91,
+    "prsMerged": 63,
+    "prsOpened": 92,
     "prsReviewed": 75,
     "issuesCommented": 47,
     "issuesClosed": 25
   },
   "prsMerged": [
+    {
+      "number": 2374,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2374"
+    },
+    {
+      "number": 83341,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "ci-tools: bump bin build memory request to 3Gi",
+      "url": "https://github.com/openshift/release/pull/83341"
+    },
+    {
+      "number": 83049,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/83049"
+    },
     {
       "number": 47,
       "repo": "migtools/kubevirt-datamover-plugin",
@@ -434,6 +455,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 83833,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
+      "url": "https://github.com/openshift/release/pull/83833"
+    },
     {
       "number": 10348,
       "repo": "velero-io/velero",
@@ -1074,6 +1102,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10329,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Embed CRD manifests via go:embed instead of codegen",
+      "url": "https://github.com/velero-io/velero/pull/10329"
+    },
+    {
       "number": 2395,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1191,13 +1226,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
       "url": "https://github.com/openshift/oadp-operator/pull/2396"
-    },
-    {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
     },
     {
       "number": 2394,

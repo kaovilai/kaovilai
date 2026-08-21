@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-08-07 — 2026-08-21
-> **Generated:** 2026-08-21 16:37:03 UTC
+> **Generated:** 2026-08-21 17:31:11 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 60 |
-| PRs Opened | 91 |
+| PRs Merged | 63 |
+| PRs Opened | 92 |
 | PRs Reviewed | 75 |
 | Issues/PRs Commented | 47 |
 | Issues Closed | 25 |
 
 ---
 
-## PRs Merged (60)
+## PRs Merged (63)
 
 **velero-io** (11)
 - [#10308 Detect block uploader cancellation through wrapped errors](https://github.com/velero-io/velero/pull/10308) — velero-io/velero
@@ -28,7 +28,10 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 
-**openshift** (18)
+**openshift** (21)
+- [#2374 [oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2374) — openshift/oadp-operator
+- [#83341 ci-tools: bump bin build memory request to 3Gi](https://github.com/openshift/release/pull/83341) — openshift/release
+- [#83049 Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)](https://github.com/openshift/release/pull/83049) — openshift/release
 - [#83221 gather-must-gather: retry camgi download, don't fail gather on it](https://github.com/openshift/release/pull/83221) — openshift/release
 - [#2350 Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)](https://github.com/openshift/oadp-operator/pull/2350) — openshift/oadp-operator
 - [#83299 gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR](https://github.com/openshift/release/pull/83299) — openshift/release
@@ -82,7 +85,7 @@
 - [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
 - [#8 Add grouped Dependabot updates with CI-gated auto-merge](https://github.com/kaovilai/oadp-ui/pull/8) — kaovilai/oadp-ui
 - [#1 Add daily gh-aw upstream parity workflow for single-cluster OADP UI](https://github.com/kaovilai/oadp-ui/pull/1) — kaovilai/oadp-ui
-## PRs Opened (91)
+## PRs Opened (92)
 
 **velero-io** (38)
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
@@ -124,7 +127,8 @@
 - [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
 - [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
-**openshift** (20)
+**openshift** (21)
+- [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 - [#2387 Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/pull/2387) — openshift/oadp-operator
 - [#83416 Add watch-ci-status skill: watch postsubmit refresh + PR status](https://github.com/openshift/release/pull/83416) — openshift/release
 - [#83341 ci-tools: bump bin build memory request to 3Gi](https://github.com/openshift/release/pull/83341) — openshift/release
@@ -185,6 +189,7 @@
 ## PRs Reviewed (75)
 
 **velero-io** (46)
+- [#10329 Embed CRD manifests via go:embed instead of codegen](https://github.com/velero-io/velero/pull/10329) — velero-io/velero
 - [#10252 Skip signing a download URL when no artifacts can exist yet](https://github.com/velero-io/velero/pull/10252) — velero-io/velero
 - [#10346 Double check the label for backup when deleting VSC](https://github.com/velero-io/velero/pull/10346) — velero-io/velero
 - [#10331 Preserve PVC selected-node annotation via carrier annotation for in-place restore](https://github.com/velero-io/velero/pull/10331) — velero-io/velero
@@ -195,7 +200,6 @@
 - [#10347 1.18: Only sync finished backups from object storage](https://github.com/velero-io/velero/pull/10347) — velero-io/velero
 - [#10335 [release-1.18] Support copying namespace-scoped secrets/configmaps for backup and restore PVC provisioning](https://github.com/velero-io/velero/pull/10335) — velero-io/velero
 - [#10322 Issue 10321: fill the error to the corresponding CR when data mover pod is evicted](https://github.com/velero-io/velero/pull/10322) — velero-io/velero
-- [#10329 Embed CRD manifests via go:embed instead of codegen](https://github.com/velero-io/velero/pull/10329) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10237 Reject negative --ttl in backup create validation](https://github.com/velero-io/velero/pull/10237) — velero-io/velero
 - [#10319 [cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10319) — velero-io/velero
