@@ -3,12 +3,12 @@
     "start": "2026-08-07",
     "end": "2026-08-21"
   },
-  "generatedAt": "2026-08-21T06:55:38Z",
+  "generatedAt": "2026-08-21T12:52:41Z",
   "metrics": {
     "prsMerged": 59,
     "prsOpened": 91,
     "prsReviewed": 75,
-    "issuesCommented": 46,
+    "issuesCommented": 47,
     "issuesClosed": 24
   },
   "prsMerged": [
@@ -1067,6 +1067,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10252,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip signing a download URL when no artifacts can exist yet",
+      "url": "https://github.com/velero-io/velero/pull/10252"
+    },
+    {
       "number": 10346,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1219,13 +1226,6 @@
       "org": "velero-io",
       "title": "Reject negative --ttl in backup create validation",
       "url": "https://github.com/velero-io/velero/pull/10237"
-    },
-    {
-      "number": 10252,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip signing a download URL when no artifacts can exist yet",
-      "url": "https://github.com/velero-io/velero/pull/10252"
     },
     {
       "number": 10319,
@@ -1594,6 +1594,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 10020,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
+      "url": "https://github.com/velero-io/velero/issues/10020"
+    },
+    {
+      "number": 43,
+      "repo": "rxliuli/redirector",
+      "org": "rxliuli",
+      "title": "Chrome Web Store listing reports location permission",
+      "url": "https://github.com/rxliuli/redirector/issues/43"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1627,13 +1641,6 @@
       "org": "migtools",
       "title": "Implement concurrent data mover limiter for DU and DD controllers",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/84"
-    },
-    {
-      "number": 43,
-      "repo": "rxliuli/redirector",
-      "org": "rxliuli",
-      "title": "Chrome Web Store listing reports location permission",
-      "url": "https://github.com/rxliuli/redirector/issues/43"
     },
     {
       "number": 8265,
