@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:55:57Z",
+  "updatedAt": "2026-08-21T13:50:04Z",
   "prs": [
     {
       "number": 10010,
@@ -41,7 +41,7 @@
       "labels": [
         "kind/changelog-not-required"
       ],
-      "updatedAt": "2026-07-22T08:06:39Z"
+      "updatedAt": "2026-08-21T13:46:33Z"
     },
     {
       "number": 10210,
@@ -1839,24 +1839,6 @@
       "updatedAt": "2026-07-01T15:33:31Z"
     },
     {
-      "number": 373,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Document NADR (NonAdminDownloadRequest) usage",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-05T14:54:17Z"
-    },
-    {
       "number": 48,
       "repo": "migtools/kopia",
       "org": "migtools",
@@ -1897,6 +1879,27 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-05T14:29:52Z"
+    },
+    {
+      "number": 373,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Document NADR (NonAdminDownloadRequest) usage",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/373",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "sseago"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-21T13:48:45Z"
     },
     {
       "number": 66,
@@ -3224,7 +3227,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-21T12:55:57Z",
+    "updatedAt": "2026-08-21T13:50:04Z",
     "needsReview": [
       {
         "number": 68,
@@ -3363,7 +3366,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3482,7 +3485,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3961,7 +3964,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3990,7 +3993,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4006,38 +4009,6 @@
         "reason": "awaitingReview",
         "waitingDays": 31,
         "updatedAt": "2026-07-20T19:47:24Z"
-      },
-      {
-        "number": 10051,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-        "url": "https://github.com/velero-io/velero/pull/10051",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "adam-jian-zhang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 30,
-        "updatedAt": "2026-07-22T08:06:39Z"
       },
       {
         "number": 297,
@@ -4123,7 +4094,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4156,7 +4127,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4188,7 +4159,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4219,7 +4190,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4283,7 +4254,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4334,35 +4305,6 @@
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
-        "number": 373,
-        "repo": "migtools/oadp-non-admin",
-        "org": "migtools",
-        "title": "Document NADR (NonAdminDownloadRequest) usage",
-        "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 15,
-        "updatedAt": "2026-08-05T14:54:17Z"
-      },
-      {
         "number": 5354,
         "repo": "openshift/ci-tools",
         "org": "openshift",
@@ -4373,7 +4315,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4434,7 +4376,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4449,6 +4391,35 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-08-07T18:22:38Z"
+      },
+      {
+        "number": 46,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Centralize build scheduling into a single version-aware dispatcher",
+        "url": "https://github.com/konveyor/builder/pull/46",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
         "number": 9772,
@@ -4466,7 +4437,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4507,35 +4478,6 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
-        "number": 46,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Centralize build scheduling into a single version-aware dispatcher",
-        "url": "https://github.com/konveyor/builder/pull/46",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4552,7 +4494,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4587,7 +4529,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4940,7 +4882,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4969,7 +4911,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5476,7 +5418,7 @@
           "kind/changelog-not-required",
           "has-unit-tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5488,6 +5430,35 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-08-18T05:04:14Z"
+      },
+      {
+        "number": 10306,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
+        "url": "https://github.com/velero-io/velero/pull/10306",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-18T13:18:57Z"
       },
       {
         "number": 9770,
@@ -5521,64 +5492,6 @@
         "updatedAt": "2026-08-18T03:00:33Z"
       },
       {
-        "number": 10306,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
-        "url": "https://github.com/velero-io/velero/pull/10306",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-18T13:18:57Z"
-      },
-      {
-        "number": 10307,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention",
-        "url": "https://github.com/velero-io/velero/pull/10307",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-18T18:01:03Z"
-      },
-      {
         "number": 326,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -5603,35 +5516,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-08-18T14:29:42Z"
-      },
-      {
-        "number": 10309,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Report a measured zero incremental instead of erasing it",
-        "url": "https://github.com/velero-io/velero/pull/10309",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-20T06:01:51Z"
       },
       {
         "number": 83341,
@@ -5694,6 +5578,38 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-21T11:19:54Z"
+      },
+      {
+        "number": 10051,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+        "url": "https://github.com/velero-io/velero/pull/10051",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "adam-jian-zhang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T13:46:33Z"
       },
       {
         "number": 10276,
@@ -5813,36 +5729,6 @@
         "reason": "pendingMerge",
         "waitingDays": 35,
         "updatedAt": "2026-07-16T17:00:18Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 28,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 48,
@@ -5968,7 +5854,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 9,
+        "waitingDays": 10,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -6000,7 +5886,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 9,
+        "waitingDays": 10,
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
@@ -6024,7 +5910,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -6101,6 +5987,38 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-08-19T20:02:03Z"
+      },
+      {
+        "number": 373,
+        "repo": "migtools/oadp-non-admin",
+        "org": "migtools",
+        "title": "Document NADR (NonAdminDownloadRequest) usage",
+        "url": "https://github.com/migtools/oadp-non-admin/pull/373",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
         "number": 83049,
