@@ -3,15 +3,22 @@
     "start": "2026-08-08",
     "end": "2026-08-22"
   },
-  "generatedAt": "2026-08-22T01:41:55Z",
+  "generatedAt": "2026-08-22T06:52:44Z",
   "metrics": {
-    "prsMerged": 62,
+    "prsMerged": 63,
     "prsOpened": 88,
-    "prsReviewed": 68,
+    "prsReviewed": 69,
     "issuesCommented": 49,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 2373,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
+      "url": "https://github.com/openshift/oadp-operator/pull/2373"
+    },
     {
       "number": 10305,
       "repo": "velero-io/velero",
@@ -1067,6 +1074,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10359,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix e2e kind matrix misparsing pre-release node tags",
+      "url": "https://github.com/velero-io/velero/pull/10359"
+    },
+    {
       "number": 10235,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1545,6 +1559,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 9744,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1578,13 +1599,6 @@
       "org": "rxliuli",
       "title": "Chrome Web Store listing reports location permission",
       "url": "https://github.com/rxliuli/redirector/issues/43"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 10340,
