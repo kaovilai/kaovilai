@@ -1,13 +1,13 @@
 {
   "period": {
-    "start": "2026-08-07",
-    "end": "2026-08-21"
+    "start": "2026-08-08",
+    "end": "2026-08-22"
   },
-  "generatedAt": "2026-08-21T23:29:17Z",
+  "generatedAt": "2026-08-22T01:41:55Z",
   "metrics": {
-    "prsMerged": 65,
-    "prsOpened": 92,
-    "prsReviewed": 75,
+    "prsMerged": 62,
+    "prsOpened": 88,
+    "prsReviewed": 68,
     "issuesCommented": 49,
     "issuesClosed": 26
   },
@@ -445,27 +445,6 @@
       "org": "openshift",
       "title": "ixney on 5.1ney (rebased)",
       "url": "https://github.com/openshift/release/pull/83124"
-    },
-    {
-      "number": 83078,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0",
-      "url": "https://github.com/openshift/release/pull/83078"
-    },
-    {
-      "number": 83110,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83110"
-    },
-    {
-      "number": 44,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Clear PVC binding state and halt kubevirt VMs at restore time",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/44"
     }
   ],
   "prsOpened": [
@@ -1084,34 +1063,6 @@
       "org": "velero-io",
       "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
       "url": "https://github.com/velero-io/velero/pull/10208"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Add daily gh-aw upstream parity workflow for single-cluster OADP UI",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/1"
-    },
-    {
-      "number": 83124,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ixney on 5.1ney (rebased)",
-      "url": "https://github.com/openshift/release/pull/83124"
-    },
-    {
-      "number": 83110,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Promote oadp-operator bundle/index/e2e-test-binary images (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83110"
-    },
-    {
-      "number": 83078,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add e2e-test-kubevirt-aws presubmit for oadp-dev 5.0",
-      "url": "https://github.com/openshift/release/pull/83078"
     }
   ],
   "prsReviewed": [
@@ -1303,20 +1254,6 @@
       "org": "velero-io",
       "title": "Refactor: Remove legacy resticrepositories hardcoding from restore controller",
       "url": "https://github.com/velero-io/velero/pull/10253"
-    },
-    {
-      "number": 10187,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "thread context through GetVolumeSnapshotContentForVolumeSnapshot",
-      "url": "https://github.com/velero-io/velero/pull/10187"
-    },
-    {
-      "number": 10185,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Full backup for all data movers",
-      "url": "https://github.com/velero-io/velero/pull/10185"
     },
     {
       "number": 10317,
@@ -1522,13 +1459,6 @@
       "url": "https://github.com/velero-io/velero/pull/10208"
     },
     {
-      "number": 10189,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Make backupType case insensitive in the CLI.",
-      "url": "https://github.com/velero-io/velero/pull/10189"
-    },
-    {
       "number": 10201,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1585,13 +1515,6 @@
       "url": "https://github.com/velero-io/velero/pull/10228"
     },
     {
-      "number": 10190,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix grammar and typos in customize-installation",
-      "url": "https://github.com/velero-io/velero/pull/10190"
-    },
-    {
       "number": 10203,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1613,32 +1536,11 @@
       "url": "https://github.com/velero-io/velero/pull/10192"
     },
     {
-      "number": 46,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "[oadp-1.6] Clear PVC binding state and halt kubevirt VMs at restore time",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/46"
-    },
-    {
       "number": 13,
       "repo": "kaovilai/oadp-ui",
       "org": "kaovilai",
       "title": "Exclude README.md from protected-files denylist in daily-upstream-parity workflow",
       "url": "https://github.com/kaovilai/oadp-ui/pull/13"
-    },
-    {
-      "number": 83117,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ixney on 5.1ney",
-      "url": "https://github.com/openshift/release/pull/83117"
-    },
-    {
-      "number": 176,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] issue #98: inject Azure Workload Identity env vars into datamover pods",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/176"
     }
   ],
   "issuesCommented": [
