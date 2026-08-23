@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-22 18:11:04 UTC
+> Last updated: 2026-08-23 00:32:40 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,6 +77,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #81508](https://img.shields.io/badge/PR%20%2381508-ready-green)](https://github.com/openshift/release/pull/81508) **openshift/release** → `main` - WIP rehearse change: update e2e test command to include DNM flag
+- [![PR #83833](https://img.shields.io/badge/PR%20%2383833-ready-green)](https://github.com/openshift/release/pull/83833) **openshift/release** → `main` - Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
@@ -96,7 +97,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
-- [![PR #83833](https://img.shields.io/badge/PR%20%2383833-needs--attention-orange)](https://github.com/openshift/release/pull/83833) **openshift/release** → `main` - Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs
 
 ## migtools
 
