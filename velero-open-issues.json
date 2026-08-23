@@ -1,0 +1,1090 @@
+{
+  "updatedAt": "2026-08-22T19:37:22Z",
+  "recognizedMilestones": [
+    "2.0",
+    "v1.19"
+  ],
+  "issues": [
+    {
+      "number": 176,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "unit test functions that have panicked before",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/176",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "lifecycle/frozen"
+      ],
+      "updatedAt": "2023-03-14T18:10:10Z",
+      "milestone": null
+    },
+    {
+      "number": 448,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Feature request: detect/reconcile SCC UID/GID-range mismatch on Namespace restore",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/448",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-07-21T00:17:38Z",
+      "milestone": null
+    },
+    {
+      "number": 10018,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos",
+      "url": "https://github.com/velero-io/velero/issues/10018",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "reasonerjt",
+        "kaovilai",
+        "Copilot"
+      ],
+      "labels": [],
+      "updatedAt": "2026-07-20T06:37:34Z",
+      "milestone": null
+    },
+    {
+      "number": 10020,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
+      "url": "https://github.com/velero-io/velero/issues/10020",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "labels": [
+        "Enhancement/Dev",
+        "CI/CD",
+        "E2E Tests"
+      ],
+      "updatedAt": "2026-08-21T09:15:00Z",
+      "milestone": null
+    },
+    {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-04T18:43:32Z",
+      "milestone": null
+    },
+    {
+      "number": 10076,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Dependabot auto approve action",
+      "url": "https://github.com/velero-io/velero/issues/10076",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "labels": [
+        "Enhancement/Dev"
+      ],
+      "updatedAt": "2026-07-25T23:21:16Z",
+      "milestone": null
+    },
+    {
+      "number": 10078,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CI to check doc compliance with code change",
+      "url": "https://github.com/velero-io/velero/issues/10078",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/Dev"
+      ],
+      "updatedAt": "2026-07-27T23:36:19Z",
+      "milestone": null
+    },
+    {
+      "number": 10209,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Excluded namespace still backed up when its labels match the backup LabelSelector",
+      "url": "https://github.com/velero-io/velero/issues/10209",
+      "status": "open",
+      "author": "Ralthos",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-09T16:23:17Z",
+      "milestone": null
+    },
+    {
+      "number": 10284,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows",
+      "url": "https://github.com/velero-io/velero/issues/10284",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/Dev"
+      ],
+      "updatedAt": "2026-08-14T22:10:51Z",
+      "milestone": null
+    },
+    {
+      "number": 10294,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Generic CSI changeID retrieval returns empty — all non-vSphere drivers silently fall back to full backups",
+      "url": "https://github.com/velero-io/velero/issues/10294",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-18T07:16:40Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 10295,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CBT delta-error fallback marks the whole device dirty instead of the design's allocated-blocks full backup",
+      "url": "https://github.com/velero-io/velero/issues/10295",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-18T07:15:05Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 10297,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
+      "url": "https://github.com/velero-io/velero/issues/10297",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-19T21:39:12Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 10298,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Setting node-agent csiSnapshotMetadataServiceConfigs.saName breaks all CSI snapshot datamover backups (arg/flag name mismatch)",
+      "url": "https://github.com/velero-io/velero/issues/10298",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-18T07:14:19Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 10299,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag",
+      "url": "https://github.com/velero-io/velero/issues/10299",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-08-21T09:53:30Z",
+      "milestone": null
+    },
+    {
+      "number": 2812,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore fails with error \"no space left on device\" if PVCs are 100% utilised during backup",
+      "url": "https://github.com/velero-io/velero/issues/2812",
+      "status": "stale",
+      "author": "nrb",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "kind/Bug",
+        "Restic - GA",
+        "Reviewed Q2 2021",
+        "Needs triage",
+        "backlog",
+        "area/fs-backup",
+        "Reviewed Q3 2025"
+      ],
+      "updatedAt": "2026-06-11T20:28:20Z",
+      "milestone": "Prioritized issues"
+    },
+    {
+      "number": 2898,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow `velero install` to specify tolerations for daemonset",
+      "url": "https://github.com/velero-io/velero/issues/2898",
+      "status": "stale",
+      "author": "jbmassicotte",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Needs Product",
+        "Restic",
+        "Reviewed Q2 2021",
+        "Icebox",
+        "Kopia"
+      ],
+      "updatedAt": "2024-11-26T20:45:00Z",
+      "milestone": null
+    },
+    {
+      "number": 3145,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "EBS Snapshot restores do not show failures when KMS permission is denied",
+      "url": "https://github.com/velero-io/velero/issues/3145",
+      "status": "stale",
+      "author": "geofffranks",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "kind/Bug",
+        "Area/Cloud/AWS",
+        "Reviewed Q2 2021"
+      ],
+      "updatedAt": "2025-12-23T15:07:37Z",
+      "milestone": null
+    },
+    {
+      "number": 3519,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow not skipping Complete jobs in velero restores.",
+      "url": "https://github.com/velero-io/velero/issues/3519",
+      "status": "stale",
+      "author": "daguilarv",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Needs triage",
+        "backlog",
+        "Needs Design",
+        "Reviewed Q2 2025",
+        "Reviewed Q3 2025"
+      ],
+      "updatedAt": "2025-11-04T15:11:19Z",
+      "milestone": null
+    },
+    {
+      "number": 4067,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Request four new plugin hooks: Pre backup, Post Backup, Pre Restore and Post Restore",
+      "url": "https://github.com/velero-io/velero/issues/4067",
+      "status": "stale",
+      "author": "brito-rafa",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Icebox",
+        "kind/requirement"
+      ],
+      "updatedAt": "2024-07-29T15:35:56Z",
+      "milestone": null
+    },
+    {
+      "number": 6142,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add support for delete and recreate option to `ExistingResourcePolicy` feature",
+      "url": "https://github.com/velero-io/velero/issues/6142",
+      "status": "stale",
+      "author": "shubham-pampattiwar",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "kind/requirement",
+        "backlog",
+        "Needs Design",
+        "Reviewed Q3 2023",
+        "2024 Q1 reviewed"
+      ],
+      "updatedAt": "2024-04-16T16:13:20Z",
+      "milestone": null
+    },
+    {
+      "number": 6167,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Download server for Velero client",
+      "url": "https://github.com/velero-io/velero/issues/6167",
+      "status": "stale",
+      "author": "Lyndon-Li",
+      "assignees": [
+        "ywk253100",
+        "kaovilai"
+      ],
+      "labels": [
+        "kind/requirement",
+        "defer-candidate",
+        "backlog",
+        "Needs Design",
+        "Reviewed Q3 2023"
+      ],
+      "updatedAt": "2025-11-26T21:19:43Z",
+      "milestone": null
+    },
+    {
+      "number": 6854,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "API-Update-Guidelines.md",
+      "url": "https://github.com/velero-io/velero/issues/6854",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai",
+        "Lyndon-Li"
+      ],
+      "labels": [
+        "Needs Testing",
+        "backlog"
+      ],
+      "updatedAt": "2024-06-27T04:08:44Z",
+      "milestone": null
+    },
+    {
+      "number": 7432,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: Download server for Velero client",
+      "url": "https://github.com/velero-io/velero/issues/7432",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "backlog"
+      ],
+      "updatedAt": "2025-01-11T10:55:47Z",
+      "milestone": null
+    },
+    {
+      "number": 7492,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ResourcePolicy-based namespace selection by label",
+      "url": "https://github.com/velero-io/velero/issues/7492",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "kind/requirement",
+        "kind/release-note",
+        "Needs Design",
+        "Reviewed Q2 2025",
+        "Reviewed Q3 2025"
+      ],
+      "updatedAt": "2026-04-21T21:20:35Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 7809,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Possibility to edit timestamp format on scheduled backup",
+      "url": "https://github.com/velero-io/velero/issues/7809",
+      "status": "stale",
+      "author": "WRKT",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "backlog",
+        "Area/schedule"
+      ],
+      "updatedAt": "2025-01-06T05:17:11Z",
+      "milestone": null
+    },
+    {
+      "number": 7868,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Finalizer controllers should use predicate during SetupWithManager() to filter instead of switch/case inside Reconcile()",
+      "url": "https://github.com/velero-io/velero/issues/7868",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "backlog"
+      ],
+      "updatedAt": "2024-12-20T09:26:04Z",
+      "milestone": null
+    },
+    {
+      "number": 8095,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Include additional helpful information in default DataUpload/DataDownload display.",
+      "url": "https://github.com/velero-io/velero/issues/8095",
+      "status": "stale",
+      "author": "mrnold",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Help wanted",
+        "Icebox",
+        "kind/requirement",
+        "area/datamover",
+        "Needs Design",
+        "Reviewed Q3 2024"
+      ],
+      "updatedAt": "2025-05-14T13:12:01Z",
+      "milestone": null
+    },
+    {
+      "number": 8107,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Document limitations: NFS volume with root_squash will require setting supplementalGroups on the nodeAgent",
+      "url": "https://github.com/velero-io/velero/issues/8107",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Needs investigation"
+      ],
+      "updatedAt": "2024-08-19T06:19:09Z",
+      "milestone": null
+    },
+    {
+      "number": 8200,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero not automatically detecting aws s3 region for buckets anymore after updating to v1.14.1",
+      "url": "https://github.com/velero-io/velero/issues/8200",
+      "status": "stale",
+      "author": "thomaspeitz",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Cloud/AWS"
+      ],
+      "updatedAt": "2024-09-14T06:12:06Z",
+      "milestone": null
+    },
+    {
+      "number": 8272,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CI: Require apiVersion change if changed CRD fails Upgrade Safety Checks",
+      "url": "https://github.com/velero-io/velero/issues/8272",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "backlog"
+      ],
+      "updatedAt": "2024-12-05T15:46:52Z",
+      "milestone": null
+    },
+    {
+      "number": 8279,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
+      "url": "https://github.com/velero-io/velero/issues/8279",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Kopia",
+        "repository",
+        "Reviewed Q2 2025",
+        "Reviewed Q3 2025"
+      ],
+      "updatedAt": "2026-07-16T20:27:47Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 8365,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DeleteBackupRequest can trigger kopia cleanup",
+      "url": "https://github.com/velero-io/velero/issues/8365",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Icebox",
+        "kind/requirement"
+      ],
+      "updatedAt": "2024-11-06T00:35:40Z",
+      "milestone": null
+    },
+    {
+      "number": 8457,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Configurable pull policy when `velero install`",
+      "url": "https://github.com/velero-io/velero/issues/8457",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai",
+        "sahilnyk"
+      ],
+      "labels": [
+        "Area/CLI",
+        "backlog"
+      ],
+      "updatedAt": "2026-08-11T12:30:36Z",
+      "milestone": null
+    },
+    {
+      "number": 8461,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Documentation and scripts should use full name ie. backups.velero.io",
+      "url": "https://github.com/velero-io/velero/issues/8461",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Documentation",
+        "Documentation"
+      ],
+      "updatedAt": "2024-11-26T15:32:17Z",
+      "milestone": null
+    },
+    {
+      "number": 8462,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs/*/api-types should be generated",
+      "url": "https://github.com/velero-io/velero/issues/8462",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Documentation",
+        "Documentation"
+      ],
+      "updatedAt": "2024-11-26T22:10:12Z",
+      "milestone": null
+    },
+    {
+      "number": 8466,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero doesnt do well with Minio bucket versioning ",
+      "url": "https://github.com/velero-io/velero/issues/8466",
+      "status": "open",
+      "author": "pdstefan",
+      "assignees": [
+        "kaovilai",
+        "mpryc"
+      ],
+      "labels": [
+        "Enhancement/User",
+        "Area/Storage/Minio",
+        "backlog"
+      ],
+      "updatedAt": "2026-07-29T09:38:30Z",
+      "milestone": null
+    },
+    {
+      "number": 8468,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "In OpenShift env (installed in azure), velero is not able to backup PVCs those were created using file.csi.azure.com provisioner while it works for PVCs those were created using disk.csi.azure.com provisioner",
+      "url": "https://github.com/velero-io/velero/issues/8468",
+      "status": "stale",
+      "author": "adityagu0910",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Cloud/Azure",
+        "Area/CSI",
+        "env/openshift"
+      ],
+      "updatedAt": "2024-12-09T16:27:07Z",
+      "milestone": null
+    },
+    {
+      "number": 8473,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "velero completely ignores `--csi-snapshot-timeout` flag",
+      "url": "https://github.com/velero-io/velero/issues/8473",
+      "status": "stale",
+      "author": "jmtx1020",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/CSI"
+      ],
+      "updatedAt": "2024-12-04T00:52:47Z",
+      "milestone": null
+    },
+    {
+      "number": 8670,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Documentation of Velero traffic",
+      "url": "https://github.com/velero-io/velero/issues/8670",
+      "status": "stale",
+      "author": "rk9qn3j",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Documentation"
+      ],
+      "updatedAt": "2025-02-13T20:50:39Z",
+      "milestone": null
+    },
+    {
+      "number": 8686,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Avoid overwriting during backup to support object lock enabled buckets",
+      "url": "https://github.com/velero-io/velero/issues/8686",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/User",
+        "Needs triage",
+        "backlog",
+        "Needs Design",
+        "1.20-candidate"
+      ],
+      "updatedAt": "2026-08-04T09:05:03Z",
+      "milestone": null
+    },
+    {
+      "number": 8689,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report Object Lock when PutObject errors patching backup to Completed, and Fail backup",
+      "url": "https://github.com/velero-io/velero/issues/8689",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/User"
+      ],
+      "updatedAt": "2025-02-17T17:49:08Z",
+      "milestone": null
+    },
+    {
+      "number": 8726,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Kopia Maintenance Object Lock support",
+      "url": "https://github.com/velero-io/velero/issues/8726",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Needs triage"
+      ],
+      "updatedAt": "2025-10-21T20:42:39Z",
+      "milestone": null
+    },
+    {
+      "number": 8765,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: configurable storageclass names",
+      "url": "https://github.com/velero-io/velero/issues/8765",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "E2E Tests",
+        "backlog"
+      ],
+      "updatedAt": "2025-03-07T14:17:47Z",
+      "milestone": null
+    },
+    {
+      "number": 8800,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Configurable restore include/exclude Jobs for Running/Completed/Failed",
+      "url": "https://github.com/velero-io/velero/issues/8800",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/User",
+        "Needs Design",
+        "Reviewed Q2 2025"
+      ],
+      "updatedAt": "2025-05-21T01:12:02Z",
+      "milestone": null
+    },
+    {
+      "number": 8801,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design configurable restore of Running/Completed/Failed Jobs",
+      "url": "https://github.com/velero-io/velero/issues/8801",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Design",
+        "Reviewed Q2 2025"
+      ],
+      "updatedAt": "2026-07-16T16:54:10Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 8815,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
+      "url": "https://github.com/velero-io/velero/issues/8815",
+      "status": "open",
+      "author": "msfrucht",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/User",
+        "Needs triage",
+        "Needs Design",
+        "repository",
+        "Reviewed Q2 2025",
+        "Reviewed Q3 2025",
+        "1.20-candidate"
+      ],
+      "updatedAt": "2026-08-17T12:44:34Z",
+      "milestone": null
+    },
+    {
+      "number": 8881,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ASAP: Upgrade setup-kind to use actions/cache v4",
+      "url": "https://github.com/velero-io/velero/issues/8881",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/Dev",
+        "Backports",
+        "E2E Tests",
+        "backlog",
+        "Reviewed Q2 2025"
+      ],
+      "updatedAt": "2025-05-29T21:27:09Z",
+      "milestone": null
+    },
+    {
+      "number": 9109,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add comprehensive make target for E2E testing with MinIO setup and fresh builds",
+      "url": "https://github.com/velero-io/velero/issues/9109",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "E2E Tests",
+        "backlog"
+      ],
+      "updatedAt": "2026-04-17T07:21:24Z",
+      "milestone": null
+    },
+    {
+      "number": 9260,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add CRD version compatibility validation during server startup",
+      "url": "https://github.com/velero-io/velero/issues/9260",
+      "status": "open",
+      "author": "shubham-pampattiwar",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/User",
+        "feature",
+        "Needs Design",
+        "Reviewed Q3 2025"
+      ],
+      "updatedAt": "2026-07-16T15:08:53Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9356,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add log message when backup reaches final completion state",
+      "url": "https://github.com/velero-io/velero/issues/9356",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Logging",
+        "backlog"
+      ],
+      "updatedAt": "2025-10-27T13:39:32Z",
+      "milestone": null
+    },
+    {
+      "number": 9429,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "velero doesn't correctly handle an empty ProviderSnapshotID",
+      "url": "https://github.com/velero-io/velero/issues/9429",
+      "status": "open",
+      "author": "kayrus",
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "labels": [
+        "native-snapshot"
+      ],
+      "updatedAt": "2026-07-16T20:19:51Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9600,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
+      "url": "https://github.com/velero-io/velero/issues/9600",
+      "status": "open",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "backlog",
+        "feature-deprecation",
+        "1.20-candidate"
+      ],
+      "updatedAt": "2026-07-28T17:33:56Z",
+      "milestone": null
+    },
+    {
+      "number": 9645,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/issues/9645",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-04-22T05:22:01Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9714,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Verify ChangeId retrieve for Ceph",
+      "url": "https://github.com/velero-io/velero/issues/9714",
+      "status": "stale",
+      "author": "Lyndon-Li",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-05-14T02:05:25Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9735,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero should add a clear error when data mover pod is unschedulable due to affinity/topology mismatch",
+      "url": "https://github.com/velero-io/velero/issues/9735",
+      "status": "stale",
+      "author": "PrasadJoshi12",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Enhancement/User",
+        "area/datamover"
+      ],
+      "updatedAt": "2026-04-21T05:02:12Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9769,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: ensure object creation does not exceed Kubernetes maximum name length.",
+      "url": "https://github.com/velero-io/velero/issues/9769",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Design"
+      ],
+      "updatedAt": "2026-05-02T03:04:40Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9771,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: ResourcePolicy-based namespace selection by label",
+      "url": "https://github.com/velero-io/velero/issues/9771",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Area/Design",
+        "Area/Filters"
+      ],
+      "updatedAt": "2026-05-02T03:03:21Z",
+      "milestone": "v1.19"
+    },
+    {
+      "number": 9837,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Codify backup storage directory layout as a supported contract for external consumers",
+      "url": "https://github.com/velero-io/velero/issues/9837",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Needs triage"
+      ],
+      "updatedAt": "2026-05-22T00:43:28Z",
+      "milestone": null
+    },
+    {
+      "number": 9894,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Transition all project meetings to CNCF Zoom",
+      "url": "https://github.com/velero-io/velero/issues/9894",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [],
+      "updatedAt": "2026-06-17T21:14:38Z",
+      "milestone": null
+    },
+    {
+      "number": 9922,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Identify e2e (nightly) requirements for CNCF-managed cloud accounts onboarding (AWS, GCP, Azure, vSphere)",
+      "url": "https://github.com/velero-io/velero/issues/9922",
+      "status": "stale",
+      "author": "kaovilai",
+      "assignees": [
+        "kaovilai"
+      ],
+      "labels": [
+        "Needs triage"
+      ],
+      "updatedAt": "2026-06-23T14:08:11Z",
+      "milestone": null
+    }
+  ]
+}

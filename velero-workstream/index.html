@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Velero Workstream — kaovilai</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <h1><span class="wave" aria-hidden="true">🌊</span> Velero Workstream</h1>
+    <div class="topbar-controls">
+      <span class="scroll-hint" aria-hidden="true">newest → right edge · scroll ← for history</span>
+      <span id="freshness" class="freshness" role="status" aria-live="polite">Loading…</span>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle light/dark theme">
+        <span id="theme-icon" aria-hidden="true">🌓</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <div id="load-error" class="load-error" hidden role="alert"></div>
+  <p id="empty-state" class="empty-state" hidden>Nothing to show yet — no open issues or pull requests found.</p>
+
+  <section id="issues-section" class="workstream-section" aria-labelledby="issues-heading" hidden>
+    <h2 id="issues-heading">📋 Issues assigned to me</h2>
+    <div id="issues-groups" class="group-stack"></div>
+  </section>
+
+  <section id="prs-section" class="workstream-section" aria-labelledby="prs-heading" hidden>
+    <h2 id="prs-heading">🔧 PRs opened by me</h2>
+    <div id="prs-groups" class="group-stack"></div>
+  </section>
+
+  <svg id="arrow-overlay" aria-hidden="true"></svg>
+</main>
+
+<footer class="site-footer">
+  <p>Static dashboard · data refreshed by scheduled workflow · <a href="https://github.com/kaovilai" target="_blank" rel="noopener">github.com/kaovilai</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
