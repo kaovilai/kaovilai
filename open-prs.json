@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T15:42:43Z",
+  "updatedAt": "2026-08-24T16:42:27Z",
   "prs": [
     {
       "number": 10010,
@@ -1347,28 +1347,6 @@
       "updatedAt": "2026-08-15T06:21:35Z"
     },
     {
-      "number": 83833,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
-      "url": "https://github.com/openshift/release/pull/83833",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-22T19:04:18Z"
-    },
-    {
       "number": 225,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -1475,6 +1453,30 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-21T19:27:36Z"
+    },
+    {
+      "number": 83833,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
+      "url": "https://github.com/openshift/release/pull/83833",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin",
+        "sseago",
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved",
+        "rehearsals-ack"
+      ],
+      "updatedAt": "2026-08-24T16:41:30Z"
     },
     {
       "number": 2360,
@@ -1765,24 +1767,6 @@
       "updatedAt": "2026-08-24T13:52:19Z"
     },
     {
-      "number": 197,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-24T15:37:08Z"
-    },
-    {
       "number": 216,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1824,6 +1808,27 @@
         "approved"
       ],
       "updatedAt": "2026-08-05T14:45:16Z"
+    },
+    {
+      "number": 197,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "PrasadJoshi12"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-24T15:43:41Z"
     },
     {
       "number": 253,
@@ -3211,7 +3216,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-24T15:42:43Z",
+    "updatedAt": "2026-08-24T16:42:27Z",
     "needsReview": [
       {
         "number": 68,
@@ -3450,7 +3455,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 159,
+        "waitingDays": 160,
         "updatedAt": "2026-03-17T15:49:38Z"
       },
       {
@@ -3688,30 +3693,6 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 40,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 442,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -3738,8 +3719,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 40,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -4377,35 +4382,6 @@
         "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
-        "number": 46,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Centralize build scheduling into a single version-aware dispatcher",
-        "url": "https://github.com/konveyor/builder/pull/46",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
         "number": 9772,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4434,8 +4410,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-10T16:09:09Z"
+      },
+      {
+        "number": 46,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Centralize build scheduling into a single version-aware dispatcher",
+        "url": "https://github.com/konveyor/builder/pull/46",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
         "number": 35,
@@ -5442,35 +5447,6 @@
         "updatedAt": "2026-08-24T13:52:19Z"
       },
       {
-        "number": 197,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-24T15:37:08Z"
-      },
-      {
         "number": 182,
         "repo": "migtools/udistribution",
         "org": "migtools",
@@ -5941,6 +5917,38 @@
         "updatedAt": "2026-08-21T19:27:36Z"
       },
       {
+        "number": 197,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "PrasadJoshi12"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T15:43:41Z"
+      },
+      {
         "number": 83833,
         "repo": "openshift/release",
         "org": "openshift",
@@ -5950,19 +5958,21 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
+          "weshayutin",
           "sseago",
           "shubham-pampattiwar"
         ],
         "labels": [
+          "lgtm",
           "approved",
           "rehearsals-ack"
         ],
         "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
-        "hasProwApproval": false,
+        "hasProwApproval": true,
         "hasGithubApproval": true,
         "reviewDecision": null,
-        "approvalCount": 2,
+        "approvalCount": 3,
         "requiredApprovals": null,
         "reviewRequests": [
           "chaclark1974",
@@ -5970,8 +5980,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-22T19:04:18Z"
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T16:41:30Z"
       }
     ]
   }
