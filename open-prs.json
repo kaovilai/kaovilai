@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T06:50:10Z",
+  "updatedAt": "2026-08-24T12:58:11Z",
   "prs": [
     {
       "number": 10010,
@@ -3134,7 +3134,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-24T06:50:10Z",
+    "updatedAt": "2026-08-24T12:58:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3253,8 +3253,38 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 444,
+        "waitingDays": 445,
         "updatedAt": "2025-06-05T09:59:18Z"
+      },
+      {
+        "number": 9388,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add lint-fix make targets",
+        "url": "https://github.com/velero-io/velero/pull/9388",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 273,
+        "updatedAt": "2025-11-24T10:40:40Z"
       },
       {
         "number": 9221,
@@ -3291,30 +3321,6 @@
         "updatedAt": "2025-12-10T06:37:59Z"
       },
       {
-        "number": 290,
-        "repo": "hashicorp/go-plugin",
-        "org": "hashicorp",
-        "title": "Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17",
-        "url": "https://github.com/hashicorp/go-plugin/pull/290",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 216,
-        "updatedAt": "2026-01-19T06:59:02Z"
-      },
-      {
         "number": 10032,
         "repo": "openshift/installer",
         "org": "openshift",
@@ -3325,7 +3331,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3384,7 +3390,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3429,7 +3435,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 144,
+        "waitingDays": 145,
         "updatedAt": "2026-04-01T08:21:20Z"
       },
       {
@@ -3606,30 +3612,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 40,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3655,8 +3637,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 40,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -4025,7 +4031,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4184,7 +4190,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4474,6 +4480,43 @@
         "updatedAt": "2026-08-12T05:10:33Z"
       },
       {
+        "number": 478,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "branchprotector: remove protection from excluded branches",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Prucek"
+        ],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "do-not-merge/hold",
+          "size/M",
+          "lgtm",
+          "area/branchprotector"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean",
+          "petr-muller",
+          "matthyx"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-13T12:14:37Z"
+      },
+      {
         "number": 2368,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4558,43 +4601,6 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-08-12T18:07:16Z"
-      },
-      {
-        "number": 478,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "branchprotector: remove protection from excluded branches",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Prucek"
-        ],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "do-not-merge/hold",
-          "size/M",
-          "lgtm",
-          "area/branchprotector"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "petr-muller",
-          "matthyx"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
         "number": 2207,
@@ -5248,30 +5254,6 @@
         "updatedAt": "2026-08-18T18:01:03Z"
       },
       {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-21T18:49:03Z"
-      },
-      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5300,8 +5282,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-08-21T11:19:54Z"
+      },
+      {
+        "number": 375,
+        "repo": "socktainer/socktainer",
+        "org": "socktainer",
+        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
+        "url": "https://github.com/socktainer/socktainer/pull/375",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-21T18:49:03Z"
       },
       {
         "number": 10051,
@@ -5381,7 +5387,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5412,7 +5418,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5876,7 +5882,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
