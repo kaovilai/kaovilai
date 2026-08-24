@@ -2,7 +2,11 @@
 
 /* ==========================================================================
    Velero Workstream Dashboard — vanilla JS, no build step, no deps.
+   Renders two real Sankey diagrams (Milestone -> Repo -> Status) for
+   issues assigned to me and PRs opened by me.
    ========================================================================== */
+
+/* ---------- repo identity (colorblind-validated, do not change hues) ---------- */
 
 const REPO_COLORS = {
   "velero-io/velero": { color: "var(--repo-velero)", label: "velero" },
@@ -14,6 +18,22 @@ const REPO_COLORS = {
 
 const DEFAULT_REPO = { color: "var(--repo-other)", label: null };
 
+/* Fixed node identity + stacking order for the Repo column. Any repo not in
+   the first four keys collapses into "other" — identity is never re-ranked
+   by count. */
+const REPO_NODE_ORDER = [
+  { key: "velero-io/velero", label: "velero", color: "var(--repo-velero)" },
+  { key: "velero-io/velero-plugin-for-aws", label: "aws", color: "var(--repo-aws)" },
+  { key: "velero-io/velero-plugin-for-gcp", label: "gcp", color: "var(--repo-gcp)" },
+  { key: "velero-io/velero-plugin-for-microsoft-azure", label: "azure", color: "var(--repo-azure)" },
+  { key: "other", label: "other", color: "var(--repo-other)" },
+];
+const KNOWN_REPO_KEYS = new Set(REPO_NODE_ORDER.slice(0, 4).map((r) => r.key));
+
+function repoNodeKey(repo) {
+  return KNOWN_REPO_KEYS.has(repo) ? repo : "other";
+}
+
 const PR_STATUS_META = {
   ready: { pill: "good", icon: "✅", label: "ready" },
   "waiting-merge": { pill: "warning", icon: "⏳", label: "waiting merge" },
@@ -24,9 +44,13 @@ const PR_STATUS_META = {
 };
 
 const ISSUE_STATUS_META = {
-  open: null,
+  open: { pill: "good", icon: "🟢", label: "open" },
   stale: { pill: "neutral", icon: "🕸️", label: "stale" },
 };
+
+/* Fixed status column order per section — never sorted by count. */
+const ISSUE_STATUS_ORDER = ["open", "stale"];
+const PR_STATUS_ORDER = ["ready", "waiting-merge", "hold", "failing-ci", "draft", "stale"];
 
 function repoMeta(repo) {
   return REPO_COLORS[repo] || { ...DEFAULT_REPO, label: shortRepoLabel(repo) };
@@ -35,6 +59,10 @@ function repoMeta(repo) {
 function shortRepoLabel(repo) {
   const parts = repo.split("/");
   return parts[parts.length - 1] || repo;
+}
+
+function statusLabel(key, metaMap) {
+  return (metaMap[key] && metaMap[key].label) || key;
 }
 
 function relativeAge(isoString) {
@@ -68,43 +96,6 @@ function escapeHtml(str) {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
-}
-
-/**
- * Buckets items into the four fixed groups per the milestone contract,
- * omitting empty buckets. `recognizedMilestones[0]` is current release,
- * `[1]` (if present) is next release.
- */
-function bucketize(items, recognizedMilestones) {
-  const current = recognizedMilestones[0];
-  const next = recognizedMilestones[1];
-  const buckets = {
-    current: { key: "current", label: current ? `🚀 ${current} · current release` : null, items: [], isCurrentRelease: true },
-    next: { key: "next", label: next ? `🔭 ${next} · next release` : null, items: [] },
-    other: { key: "other", label: "📌 other milestone", items: [] },
-    none: { key: "none", label: "◌ no milestone", items: [] },
-  };
-
-  for (const item of items) {
-    const m = item.milestone;
-    if (m && m === current) {
-      buckets.current.items.push(item);
-    } else if (m && next && m === next) {
-      buckets.next.items.push(item);
-    } else if (m) {
-      buckets.other.items.push(item);
-    } else {
-      buckets.none.items.push(item);
-    }
-  }
-
-  for (const bucket of Object.values(buckets)) {
-    bucket.items.sort((a, b) => new Date(a.updatedAt) - new Date(b.updatedAt));
-  }
-
-  return [buckets.current, buckets.next, buckets.other, buckets.none].filter(
-    (b) => b.items.length > 0
-  );
 }
 
 function renderRepoTag(repo) {
@@ -142,215 +133,371 @@ function renderBlockedGraphic() {
   </svg>`;
 }
 
-function renderIssueCard(issue) {
-  const meta = ISSUE_STATUS_META[issue.status] || null;
-  const cardId = cardIdFor(issue.repo, issue.number);
-  const showMilestoneNote = issue._bucketKey === "other" && issue.milestone;
-  return `<a class="card" id="${cardId}" href="${escapeHtml(issue.url)}" target="_blank" rel="noopener"
-      title="${escapeHtml(issue.title)}" data-repo="${escapeHtml(issue.repo)}" data-number="${issue.number}">
-    <p class="card-title">${escapeHtml(issue.title)}</p>
-    <div class="card-meta-row">
-      ${renderRepoTag(issue.repo)}
-      <span class="number-tag">#${issue.number}</span>
-      ${renderPill(meta)}
-      <span class="age">${escapeHtml(relativeAge(issue.updatedAt))}</span>
-      ${showMilestoneNote ? `<span class="milestone-tag">${escapeHtml(issue.milestone)}</span>` : ""}
-    </div>
-  </a>`;
+/* ==========================================================================
+   Sankey data model
+   ========================================================================== */
+
+/**
+ * Fixed milestone bucket order + labels. `recognizedMilestones[0]` is the
+ * current release, `[1]` (if present) is the next release. Buckets with no
+ * matching slot are omitted entirely (not just left empty).
+ */
+function milestoneBucketDefs(recognizedMilestones) {
+  const current = recognizedMilestones[0] || null;
+  const next = recognizedMilestones[1] || null;
+  return [
+    { key: "current", enabled: !!current, rawLabel: current ? `current release — ${current}` : null },
+    { key: "next", enabled: !!next, rawLabel: next ? `next release — ${next}` : null },
+    { key: "other", enabled: true, rawLabel: "other milestone" },
+    { key: "none", enabled: true, rawLabel: "no milestone" },
+  ].filter((d) => d.enabled);
 }
 
-function renderPrCard(pr) {
-  const meta = PR_STATUS_META[pr.status] || null;
-  const cardId = cardIdFor(pr.repo, pr.number);
-  const showMilestoneNote = pr._bucketKey === "other" && pr.milestone;
-  const isBlockedOnReview = pr.status === "waiting-merge";
-  return `<a class="card${isBlockedOnReview ? " is-blocked" : ""}" id="${cardId}" href="${escapeHtml(pr.url)}" target="_blank" rel="noopener"
-      title="${escapeHtml(pr.title)}" data-repo="${escapeHtml(pr.repo)}" data-number="${pr.number}">
-    <p class="card-title">${escapeHtml(pr.title)}</p>
-    <div class="card-meta-row">
-      ${renderRepoTag(pr.repo)}
-      <span class="number-tag">#${pr.number}</span>
-      ${renderPill(meta)}
-      <span class="age">${escapeHtml(relativeAge(pr.updatedAt))}</span>
-      ${showMilestoneNote ? `<span class="milestone-tag">${escapeHtml(pr.milestone)}</span>` : ""}
-      ${isBlockedOnReview ? renderBlockedGraphic() : ""}
-    </div>
-  </a>`;
-}
-
-function cardIdFor(repo, number) {
-  return `card--${repo.replace(/[^a-zA-Z0-9]/g, "-")}--${number}`;
-}
-
-function renderGroups(containerEl, buckets, cardRenderer, sectionKind) {
-  containerEl.innerHTML = "";
-  for (const bucket of buckets) {
-    const groupEl = document.createElement("div");
-    groupEl.className = "group" + (bucket.isCurrentRelease ? " is-current-release" : "");
-
-    const labelEl = document.createElement("p");
-    labelEl.className = "group-label";
-    labelEl.innerHTML = `${bucket.label} <span class="group-count">(${bucket.items.length})</span>`;
-    groupEl.appendChild(labelEl);
-
-    const gridEl = document.createElement("div");
-    gridEl.className = "card-grid";
-    for (const item of bucket.items) {
-      item._bucketKey = bucket.key;
-    }
-    gridEl.innerHTML = bucket.items.map(cardRenderer).join("");
-    groupEl.appendChild(gridEl);
-
-    containerEl.appendChild(groupEl);
-  }
-}
-
-/* ---------- arrows ---------- */
-
-function computeArrowPairs(prs, issues) {
-  const issueByKey = new Map();
-  for (const issue of issues) {
-    issueByKey.set(`${issue.repo}#${issue.number}`, issue);
-  }
-
-  const pairs = [];
-  for (const pr of prs) {
-    const refs = pr.closingIssuesReferences || [];
-    for (const ref of refs) {
-      const key = `${ref.repo}#${ref.number}`;
-      if (issueByKey.has(key)) {
-        pairs.push({ pr, issue: issueByKey.get(key) });
-      }
-    }
-  }
-  return pairs;
-}
-
-function isClippedByLane(el) {
-  const lane = el.closest(".card-grid");
-  if (!lane) return false;
-  const laneRect = lane.getBoundingClientRect();
-  const elRect = el.getBoundingClientRect();
-  return elRect.right <= laneRect.left || elRect.left >= laneRect.right;
-}
-
-/* Quadratic bezier point + tangent at parameter t (0..1). */
-function quadPoint(x0, y0, cx, cy, x1, y1, t) {
-  const mt = 1 - t;
-  const x = mt * mt * x0 + 2 * mt * t * cx + t * t * x1;
-  const y = mt * mt * y0 + 2 * mt * t * cy + t * t * y1;
-  const tx = 2 * mt * (cx - x0) + 2 * t * (x1 - cx);
-  const ty = 2 * mt * (cy - y0) + 2 * t * (y1 - cy);
-  return { x, y, tx, ty };
+function milestoneKeyFor(item, recognizedMilestones) {
+  const current = recognizedMilestones[0];
+  const next = recognizedMilestones[1];
+  const m = item.milestone;
+  if (m && current && m === current) return "current";
+  if (m && next && m === next) return "next";
+  if (m) return "other";
+  return "none";
 }
 
 /**
- * Builds a Sankey-style flow ribbon: a filled band that follows the same
- * bow-curve as before, tapering to a point at each card (width ~ sin(pi*t))
- * rather than a thin stroked line. Returns an SVG path `d` string.
+ * Builds the three fixed-order node columns (Milestone -> Repo -> Status)
+ * and the two link sets between them, for one section (issues or PRs).
+ * Column order and per-node sub-flow order are both driven by the fixed
+ * category arrays — never re-ranked by count.
  */
-function ribbonPath(x0, y0, cx, cy, x1, y1, maxWidth, steps = 20) {
-  const top = [];
-  const bottom = [];
-  for (let i = 0; i <= steps; i++) {
-    const t = i / steps;
-    const { x, y, tx, ty } = quadPoint(x0, y0, cx, cy, x1, y1, t);
-    const tlen = Math.sqrt(tx * tx + ty * ty) || 1;
-    const nx = -ty / tlen;
-    const ny = tx / tlen;
-    const w = (maxWidth / 2) * Math.sin(Math.PI * t);
-    top.push(`${x + nx * w} ${y + ny * w}`);
-    bottom.push(`${x - nx * w} ${y - ny * w}`);
+function buildSankeyData(items, recognizedMilestones, statusOrder, statusMetaMap) {
+  const milestoneNodes = [];
+  for (const def of milestoneBucketDefs(recognizedMilestones)) {
+    const subset = items.filter((it) => milestoneKeyFor(it, recognizedMilestones) === def.key);
+    if (!subset.length) continue;
+    milestoneNodes.push({ key: def.key, rawLabel: def.rawLabel, count: subset.length, items: subset });
   }
-  const d =
-    `M ${top[0]} ` +
-    top.slice(1).map((p) => `L ${p}`).join(" ") +
-    " " +
-    bottom.slice().reverse().map((p) => `L ${p}`).join(" ") +
-    " Z";
-  return d;
+
+  const repoNodes = [];
+  for (const rdef of REPO_NODE_ORDER) {
+    const subset = items.filter((it) => repoNodeKey(it.repo) === rdef.key);
+    if (!subset.length) continue;
+    repoNodes.push({ key: rdef.key, rawLabel: rdef.label, color: rdef.color, count: subset.length, items: subset });
+  }
+
+  const statusNodes = [];
+  for (const skey of statusOrder) {
+    const subset = items.filter((it) => it.status === skey);
+    if (!subset.length) continue;
+    statusNodes.push({ key: skey, rawLabel: statusLabel(skey, statusMetaMap), count: subset.length, items: subset });
+  }
+
+  const linksMS = [];
+  for (const mnode of milestoneNodes) {
+    for (const rdef of REPO_NODE_ORDER) {
+      const subset = mnode.items.filter((it) => repoNodeKey(it.repo) === rdef.key);
+      if (!subset.length) continue;
+      linksMS.push({
+        source: mnode.key,
+        sourceLabel: mnode.rawLabel,
+        target: rdef.key,
+        targetLabel: rdef.label,
+        count: subset.length,
+        items: subset,
+        color: rdef.color,
+      });
+    }
+  }
+
+  const linksRS = [];
+  for (const rnode of repoNodes) {
+    for (const skey of statusOrder) {
+      const subset = rnode.items.filter((it) => it.status === skey);
+      if (!subset.length) continue;
+      linksRS.push({
+        source: rnode.key,
+        sourceLabel: rnode.rawLabel,
+        target: skey,
+        targetLabel: statusLabel(skey, statusMetaMap),
+        count: subset.length,
+        items: subset,
+        color: rnode.color,
+      });
+    }
+  }
+
+  return { milestoneNodes, repoNodes, statusNodes, linksMS, linksRS, total: items.length };
 }
 
-function drawArrows(pairs) {
-  const svg = document.getElementById("arrow-overlay");
-  const appEl = document.getElementById("app");
+/* ==========================================================================
+   Sankey layout
+   ========================================================================== */
+
+const VIEW_W = 1100;
+const NODE_W = 16;
+const NODE_GAP = 6;
+const COL0_X = 210;
+const COL2_X = VIEW_W - 210 - NODE_W;
+const COL1_X = Math.round((COL0_X + NODE_W + COL2_X) / 2 - NODE_W / 2);
+const PLOT_TOP = 46;
+const PLOT_BOTTOM = 20;
+
+function layoutColumn(nodes, total, plotTop, plotHeight, gap) {
+  const usable = plotHeight - gap * Math.max(0, nodes.length - 1);
+  let y = plotTop;
+  for (const node of nodes) {
+    const h = Math.max(2, (node.count / total) * usable);
+    node.y = y;
+    node.height = h;
+    y += h + gap;
+  }
+}
+
+function assignOutgoing(nodes, links, sourceProp) {
+  for (const node of nodes) {
+    const subset = links.filter((l) => l[sourceProp] === node.key);
+    let y = node.y;
+    for (const link of subset) {
+      const h = (link.count / node.count) * node.height;
+      link._srcY0 = y;
+      link._srcY1 = y + h;
+      y += h;
+    }
+  }
+}
+
+function assignIncoming(nodes, links, targetProp) {
+  for (const node of nodes) {
+    const subset = links.filter((l) => l[targetProp] === node.key);
+    let y = node.y;
+    for (const link of subset) {
+      const h = (link.count / node.count) * node.height;
+      link._tgtY0 = y;
+      link._tgtY1 = y + h;
+      y += h;
+    }
+  }
+}
+
+const SVG_NS = "http://www.w3.org/2000/svg";
+
+function svgEl(tag, attrs) {
+  const el = document.createElementNS(SVG_NS, tag);
+  for (const [k, v] of Object.entries(attrs || {})) el.setAttribute(k, v);
+  return el;
+}
+
+function makeInteractive(el, onActivate, ariaLabel) {
+  el.setAttribute("tabindex", "0");
+  el.setAttribute("role", "button");
+  el.setAttribute("aria-label", ariaLabel);
+  el.addEventListener("click", onActivate);
+  el.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      onActivate();
+    }
+  });
+}
+
+function buildBlockedIcon(x, y) {
+  const wrapper = document.createElement("div");
+  wrapper.innerHTML = renderBlockedGraphic();
+  const inner = wrapper.firstElementChild;
+  inner.setAttribute("x", x);
+  inner.setAttribute("y", y);
+  return inner;
+}
+
+/**
+ * Classic two-bezier Sankey link shape: an independent cubic curve along
+ * the top edge and along the bottom edge (both using a mid-column control
+ * x), so band thickness stays constant along its length instead of
+ * tapering to a point.
+ */
+function sankeyLinkPath(sourceX, targetX, srcY0, srcY1, tgtY0, tgtY1) {
+  const midX = (sourceX + targetX) / 2;
+  return (
+    `M ${sourceX} ${srcY0} ` +
+    `C ${midX} ${srcY0} ${midX} ${tgtY0} ${targetX} ${tgtY0} ` +
+    `L ${targetX} ${tgtY1} ` +
+    `C ${midX} ${tgtY1} ${midX} ${srcY1} ${sourceX} ${srcY1} Z`
+  );
+}
+
+function drawLinks(layer, links, xA, xB, onLinkActivate) {
+  const sourceX = xA + NODE_W;
+  const targetX = xB;
+  for (const link of links) {
+    const path = svgEl("path", {
+      d: sankeyLinkPath(sourceX, targetX, link._srcY0, link._srcY1, link._tgtY0, link._tgtY1),
+      fill: link.color,
+      class: "sankey-link",
+    });
+    const label = `${link.sourceLabel} → ${link.targetLabel}: ${link.count} item${link.count === 1 ? "" : "s"}`;
+    const title = svgEl("title", {});
+    title.textContent = label;
+    path.appendChild(title);
+    makeInteractive(path, () => onLinkActivate(link), label);
+    layer.appendChild(path);
+  }
+}
+
+function drawNodes(nodeLayer, labelLayer, nodes, x, side, onNodeActivate) {
+  for (const node of nodes) {
+    const isRepoCol = side === "middle";
+    const rect = svgEl("rect", {
+      x,
+      y: node.y,
+      width: NODE_W,
+      height: Math.max(node.height, 1),
+      rx: 2,
+      class: "sankey-node" + (isRepoCol ? " sankey-node-repo" : " sankey-node-neutral"),
+    });
+    if (isRepoCol) rect.setAttribute("fill", node.color);
+
+    const displayLabel = `${node.rawLabel} (${node.count})`;
+    const title = svgEl("title", {});
+    title.textContent = displayLabel;
+    rect.appendChild(title);
+    makeInteractive(rect, () => onNodeActivate(node, displayLabel), `${displayLabel} — show items`);
+    nodeLayer.appendChild(rect);
+
+    const centerY = node.y + node.height / 2;
+    let iconOffset = 0;
+    if (side === "right" && node.key === "waiting-merge") {
+      labelLayer.appendChild(buildBlockedIcon(x + NODE_W + 10, centerY - 9));
+      iconOffset = 46 + 6;
+    }
+
+    const text = svgEl("text", { class: "sankey-node-label" });
+    if (side === "left") {
+      text.setAttribute("x", x - 10);
+      text.setAttribute("y", centerY);
+      text.setAttribute("text-anchor", "end");
+      text.setAttribute("dominant-baseline", "middle");
+    } else if (side === "right") {
+      text.setAttribute("x", x + NODE_W + 10 + iconOffset);
+      text.setAttribute("y", centerY);
+      text.setAttribute("text-anchor", "start");
+      text.setAttribute("dominant-baseline", "middle");
+    } else {
+      text.setAttribute("x", x + NODE_W / 2);
+      text.setAttribute("y", node.y - 6);
+      text.setAttribute("text-anchor", "middle");
+    }
+    text.textContent = displayLabel;
+    labelLayer.appendChild(text);
+  }
+}
+
+function addColumnHeader(layer, x, text) {
+  const t = svgEl("text", {
+    x,
+    y: PLOT_TOP - 22,
+    "text-anchor": "middle",
+    class: "sankey-col-header",
+  });
+  t.textContent = text;
+  layer.appendChild(t);
+}
+
+function renderSankeySection({ svg, data, height, sectionLabel, onNodeActivate, onLinkActivate }) {
+  const plotHeight = height - PLOT_TOP - PLOT_BOTTOM;
+  layoutColumn(data.milestoneNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
+  layoutColumn(data.repoNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
+  layoutColumn(data.statusNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
+
+  assignOutgoing(data.milestoneNodes, data.linksMS, "source");
+  assignIncoming(data.repoNodes, data.linksMS, "target");
+  assignOutgoing(data.repoNodes, data.linksRS, "source");
+  assignIncoming(data.statusNodes, data.linksRS, "target");
+
   svg.innerHTML = "";
+  svg.setAttribute("viewBox", `0 0 ${VIEW_W} ${height}`);
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", `${sectionLabel} Sankey diagram: milestone to repo to status`);
 
-  if (!pairs.length) return;
+  const linkLayer = svgEl("g", { class: "sankey-link-layer" });
+  const nodeLayer = svgEl("g", { class: "sankey-node-layer" });
+  const labelLayer = svgEl("g", { class: "sankey-label-layer" });
+  svg.appendChild(linkLayer);
+  svg.appendChild(nodeLayer);
+  svg.appendChild(labelLayer);
 
-  const appRect = appEl.getBoundingClientRect();
-  const scrollX = window.scrollX || window.pageXOffset;
-  const scrollY = window.scrollY || window.pageYOffset;
+  addColumnHeader(labelLayer, COL0_X + NODE_W / 2, "Milestone");
+  addColumnHeader(labelLayer, COL1_X + NODE_W / 2, "Repo");
+  addColumnHeader(labelLayer, COL2_X + NODE_W / 2, "Status");
 
-  let drawn = 0;
-  for (const { pr, issue } of pairs) {
-    const prEl = document.getElementById(cardIdFor(pr.repo, pr.number));
-    const issueEl = document.getElementById(cardIdFor(issue.repo, issue.number));
-    if (!prEl || !issueEl) continue;
-    if (isClippedByLane(prEl) || isClippedByLane(issueEl)) continue;
+  drawLinks(linkLayer, data.linksMS, COL0_X, COL1_X, onLinkActivate);
+  drawLinks(linkLayer, data.linksRS, COL1_X, COL2_X, onLinkActivate);
 
-    const a = prEl.getBoundingClientRect();
-    const b = issueEl.getBoundingClientRect();
-
-    const x1 = a.left + a.width / 2 + scrollX - (appRect.left + scrollX);
-    const y1 = a.top + a.height / 2 + scrollY - (appRect.top + scrollY);
-    const x2 = b.left + b.width / 2 + scrollX - (appRect.left + scrollX);
-    const y2 = b.top + b.height / 2 + scrollY - (appRect.top + scrollY);
-
-    const midX = (x1 + x2) / 2;
-    const midY = (y1 + y2) / 2;
-    const dx = x2 - x1;
-    const dy = y2 - y1;
-    const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-    const curveAmount = Math.min(dist * 0.2, 60);
-    const nx = -dy / dist;
-    const ny = dx / dist;
-    const ctrlX = midX + nx * curveAmount;
-    const ctrlY = midY + ny * curveAmount;
-
-    const flowColor = repoMeta(pr.repo).color;
-
-    const ribbon = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    ribbon.setAttribute("d", ribbonPath(x1, y1, ctrlX, ctrlY, x2, y2, 26));
-    ribbon.setAttribute("fill", flowColor);
-    ribbon.setAttribute("fill-opacity", "0.32");
-    svg.appendChild(ribbon);
-
-    // small directional arrowhead where the flow meets the issue card
-    const tip = quadPoint(x1, y1, ctrlX, ctrlY, x2, y2, 0.94);
-    const end = quadPoint(x1, y1, ctrlX, ctrlY, x2, y2, 1);
-    const tlen = Math.sqrt(tip.tx * tip.tx + tip.ty * tip.ty) || 1;
-    const ux = tip.tx / tlen;
-    const uy = tip.ty / tlen;
-    const nxp = -uy;
-    const nyp = ux;
-    const headLen = 11;
-    const headHalfWidth = 8;
-    const baseX = end.x - ux * headLen;
-    const baseY = end.y - uy * headLen;
-    const head = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    head.setAttribute(
-      "d",
-      `M ${end.x} ${end.y} L ${baseX + nxp * headHalfWidth} ${baseY + nyp * headHalfWidth} L ${baseX - nxp * headHalfWidth} ${baseY - nyp * headHalfWidth} Z`
-    );
-    head.setAttribute("fill", flowColor);
-    head.setAttribute("fill-opacity", "0.75");
-    svg.appendChild(head);
-
-    drawn++;
-  }
-
-  svg.style.width = `${appRect.width}px`;
-  svg.style.height = `${appEl.scrollHeight}px`;
+  drawNodes(nodeLayer, labelLayer, data.milestoneNodes, COL0_X, "left", onNodeActivate);
+  drawNodes(nodeLayer, labelLayer, data.repoNodes, COL1_X, "middle", onNodeActivate);
+  drawNodes(nodeLayer, labelLayer, data.statusNodes, COL2_X, "right", onNodeActivate);
 }
 
+/* ==========================================================================
+   Detail side panel
+   ========================================================================== */
 
-function debounce(fn, wait) {
-  let t = null;
-  return (...args) => {
-    clearTimeout(t);
-    t = setTimeout(() => fn(...args), wait);
-  };
+let lastFocusedEl = null;
+
+function renderPanelItem(item) {
+  const metaMap = item._kind === "issue" ? ISSUE_STATUS_META : PR_STATUS_META;
+  const meta = metaMap[item.status] || null;
+  return `<li class="panel-item">
+    <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
+    <div class="panel-item-meta">
+      ${renderRepoTag(item.repo)}
+      <span class="number-tag">#${item.number}</span>
+      ${renderPill(meta)}
+      <span class="age">${escapeHtml(relativeAge(item.updatedAt))}</span>
+      ${item.milestone ? `<span class="milestone-tag">${escapeHtml(item.milestone)}</span>` : ""}
+    </div>
+  </li>`;
+}
+
+function openPanel(titleText, items) {
+  lastFocusedEl = document.activeElement;
+  const panel = document.getElementById("detail-panel");
+  const backdrop = document.getElementById("detail-backdrop");
+
+  document.getElementById("panel-title").textContent = titleText;
+  const sorted = [...items].sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+  document.getElementById("panel-list").innerHTML = sorted.map(renderPanelItem).join("");
+  document.getElementById("panel-count").textContent = `${sorted.length} item${sorted.length === 1 ? "" : "s"}`;
+
+  panel.classList.add("open");
+  backdrop.classList.add("open");
+  panel.setAttribute("aria-hidden", "false");
+  document.getElementById("panel-close").focus();
+}
+
+function closePanel() {
+  const panel = document.getElementById("detail-panel");
+  const backdrop = document.getElementById("detail-backdrop");
+  panel.classList.remove("open");
+  backdrop.classList.remove("open");
+  panel.setAttribute("aria-hidden", "true");
+  if (lastFocusedEl && typeof lastFocusedEl.focus === "function") lastFocusedEl.focus();
+}
+
+function initPanel() {
+  document.getElementById("panel-close").addEventListener("click", closePanel);
+  document.getElementById("detail-backdrop").addEventListener("click", closePanel);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && document.getElementById("detail-panel").classList.contains("open")) {
+      closePanel();
+    }
+  });
+}
+
+function onNodeActivate(node, displayLabel) {
+  openPanel(displayLabel, node.items);
+}
+
+function onLinkActivate(link) {
+  openPanel(`${link.sourceLabel} → ${link.targetLabel}`, link.items);
 }
 
 /* ---------- theme toggle ---------- */
@@ -385,6 +532,7 @@ async function fetchJson(path) {
 
 async function main() {
   initTheme();
+  initPanel();
 
   let issuesData, prsData;
   try {
@@ -401,8 +549,8 @@ async function main() {
     return;
   }
 
-  const issues = issuesData.issues || [];
-  const prs = prsData.prs || [];
+  const issues = (issuesData.issues || []).map((i) => ({ ...i, _kind: "issue" }));
+  const prs = (prsData.prs || []).map((p) => ({ ...p, _kind: "pr" }));
   const recognizedMilestones = issuesData.recognizedMilestones || prsData.recognizedMilestones || [];
 
   if (!issues.length && !prs.length) {
@@ -411,35 +559,33 @@ async function main() {
     return;
   }
 
-  const issuesSection = document.getElementById("issues-section");
-  const prsSection = document.getElementById("prs-section");
-
   if (issues.length) {
-    issuesSection.hidden = false;
-    const issueBuckets = bucketize(issues, recognizedMilestones);
-    renderGroups(document.getElementById("issues-groups"), issueBuckets, renderIssueCard, "issues");
+    document.getElementById("issues-section").hidden = false;
+    const data = buildSankeyData(issues, recognizedMilestones, ISSUE_STATUS_ORDER, ISSUE_STATUS_META);
+    renderSankeySection({
+      svg: document.getElementById("issues-sankey"),
+      data,
+      height: 460,
+      sectionLabel: "Issues",
+      onNodeActivate,
+      onLinkActivate,
+    });
   }
 
   if (prs.length) {
-    prsSection.hidden = false;
-    const prBuckets = bucketize(prs, recognizedMilestones);
-    renderGroups(document.getElementById("prs-groups"), prBuckets, renderPrCard, "prs");
+    document.getElementById("prs-section").hidden = false;
+    const data = buildSankeyData(prs, recognizedMilestones, PR_STATUS_ORDER, PR_STATUS_META);
+    renderSankeySection({
+      svg: document.getElementById("prs-sankey"),
+      data,
+      height: 520,
+      sectionLabel: "PRs",
+      onNodeActivate,
+      onLinkActivate,
+    });
   }
 
   updateFreshness(issuesData.updatedAt || prsData.updatedAt);
-
-  const pairs = computeArrowPairs(prs, issues);
-  const redraw = () => drawArrows(pairs);
-
-  const lanes = document.querySelectorAll(".card-grid");
-  for (const lane of lanes) {
-    lane.scrollLeft = lane.scrollWidth;
-    lane.addEventListener("scroll", debounce(redraw, 80), { passive: true });
-  }
-
-  requestAnimationFrame(redraw);
-  window.addEventListener("resize", debounce(redraw, 120));
-  window.addEventListener("scroll", debounce(redraw, 120), { passive: true });
 }
 
 function updateFreshness(isoString) {

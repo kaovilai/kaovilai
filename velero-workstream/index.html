@@ -12,7 +12,7 @@
   <div class="topbar-inner">
     <h1><span class="wave" aria-hidden="true">🌊</span> Velero Workstream</h1>
     <div class="topbar-controls">
-      <span class="scroll-hint" aria-hidden="true">newest → right edge · scroll ← for history</span>
+      <span class="scroll-hint" aria-hidden="true">click any node or flow band for details</span>
       <span id="freshness" class="freshness" role="status" aria-live="polite">Loading…</span>
       <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle light/dark theme">
         <span id="theme-icon" aria-hidden="true">🌓</span>
@@ -25,18 +25,38 @@
   <div id="load-error" class="load-error" hidden role="alert"></div>
   <p id="empty-state" class="empty-state" hidden>Nothing to show yet — no open issues or pull requests found.</p>
 
+  <div class="repo-legend" aria-hidden="true">
+    <span class="repo-legend-item"><span class="repo-dot" style="background:var(--repo-velero)"></span>velero</span>
+    <span class="repo-legend-item"><span class="repo-dot" style="background:var(--repo-aws)"></span>aws</span>
+    <span class="repo-legend-item"><span class="repo-dot" style="background:var(--repo-gcp)"></span>gcp</span>
+    <span class="repo-legend-item"><span class="repo-dot" style="background:var(--repo-azure)"></span>azure</span>
+    <span class="repo-legend-item"><span class="repo-dot" style="background:var(--repo-other)"></span>other</span>
+  </div>
+
   <section id="issues-section" class="workstream-section" aria-labelledby="issues-heading" hidden>
     <h2 id="issues-heading">📋 Issues assigned to me</h2>
-    <div id="issues-groups" class="group-stack"></div>
+    <div class="sankey-scroll">
+      <svg id="issues-sankey" class="sankey-svg" focusable="false"></svg>
+    </div>
   </section>
 
   <section id="prs-section" class="workstream-section" aria-labelledby="prs-heading" hidden>
     <h2 id="prs-heading">🔧 PRs opened by me</h2>
-    <div id="prs-groups" class="group-stack"></div>
+    <div class="sankey-scroll">
+      <svg id="prs-sankey" class="sankey-svg" focusable="false"></svg>
+    </div>
   </section>
-
-  <svg id="arrow-overlay" aria-hidden="true"></svg>
 </main>
+
+<div id="detail-backdrop" class="detail-backdrop"></div>
+<aside id="detail-panel" class="detail-panel" aria-hidden="true" aria-label="Item details">
+  <div class="panel-header">
+    <h3 id="panel-title">Details</h3>
+    <button id="panel-close" class="panel-close" type="button" aria-label="Close panel">✕</button>
+  </div>
+  <p id="panel-count" class="panel-count" role="status" aria-live="polite"></p>
+  <ul id="panel-list" class="panel-list"></ul>
+</aside>
 
 <footer class="site-footer">
   <p>Static dashboard · data refreshed by scheduled workflow · <a href="https://github.com/kaovilai" target="_blank" rel="noopener">github.com/kaovilai</a></p>
