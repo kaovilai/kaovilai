@@ -234,6 +234,43 @@ function isClippedByLane(el) {
   return elRect.right <= laneRect.left || elRect.left >= laneRect.right;
 }
 
+/* Quadratic bezier point + tangent at parameter t (0..1). */
+function quadPoint(x0, y0, cx, cy, x1, y1, t) {
+  const mt = 1 - t;
+  const x = mt * mt * x0 + 2 * mt * t * cx + t * t * x1;
+  const y = mt * mt * y0 + 2 * mt * t * cy + t * t * y1;
+  const tx = 2 * mt * (cx - x0) + 2 * t * (x1 - cx);
+  const ty = 2 * mt * (cy - y0) + 2 * t * (y1 - cy);
+  return { x, y, tx, ty };
+}
+
+/**
+ * Builds a Sankey-style flow ribbon: a filled band that follows the same
+ * bow-curve as before, tapering to a point at each card (width ~ sin(pi*t))
+ * rather than a thin stroked line. Returns an SVG path `d` string.
+ */
+function ribbonPath(x0, y0, cx, cy, x1, y1, maxWidth, steps = 20) {
+  const top = [];
+  const bottom = [];
+  for (let i = 0; i <= steps; i++) {
+    const t = i / steps;
+    const { x, y, tx, ty } = quadPoint(x0, y0, cx, cy, x1, y1, t);
+    const tlen = Math.sqrt(tx * tx + ty * ty) || 1;
+    const nx = -ty / tlen;
+    const ny = tx / tlen;
+    const w = (maxWidth / 2) * Math.sin(Math.PI * t);
+    top.push(`${x + nx * w} ${y + ny * w}`);
+    bottom.push(`${x - nx * w} ${y - ny * w}`);
+  }
+  const d =
+    `M ${top[0]} ` +
+    top.slice(1).map((p) => `L ${p}`).join(" ") +
+    " " +
+    bottom.slice().reverse().map((p) => `L ${p}`).join(" ") +
+    " Z";
+  return d;
+}
+
 function drawArrows(pairs) {
   const svg = document.getElementById("arrow-overlay");
   const appEl = document.getElementById("app");
@@ -244,13 +281,6 @@ function drawArrows(pairs) {
   const appRect = appEl.getBoundingClientRect();
   const scrollX = window.scrollX || window.pageXOffset;
   const scrollY = window.scrollY || window.pageYOffset;
-
-  const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
-  defs.innerHTML = `
-    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="var(--brand-link-blue)" />
-    </marker>`;
-  svg.appendChild(defs);
 
   let drawn = 0;
   for (const { pr, issue } of pairs) {
@@ -278,20 +308,42 @@ function drawArrows(pairs) {
     const ctrlX = midX + nx * curveAmount;
     const ctrlY = midY + ny * curveAmount;
 
-    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    path.setAttribute("d", `M ${x1} ${y1} Q ${ctrlX} ${ctrlY} ${x2} ${y2}`);
-    path.setAttribute("fill", "none");
-    path.setAttribute("stroke", "var(--brand-link-blue)");
-    path.setAttribute("stroke-width", "1.75");
-    path.setAttribute("stroke-opacity", "0.55");
-    path.setAttribute("marker-end", "url(#arrowhead)");
-    svg.appendChild(path);
+    const flowColor = repoMeta(pr.repo).color;
+
+    const ribbon = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    ribbon.setAttribute("d", ribbonPath(x1, y1, ctrlX, ctrlY, x2, y2, 26));
+    ribbon.setAttribute("fill", flowColor);
+    ribbon.setAttribute("fill-opacity", "0.32");
+    svg.appendChild(ribbon);
+
+    // small directional arrowhead where the flow meets the issue card
+    const tip = quadPoint(x1, y1, ctrlX, ctrlY, x2, y2, 0.94);
+    const end = quadPoint(x1, y1, ctrlX, ctrlY, x2, y2, 1);
+    const tlen = Math.sqrt(tip.tx * tip.tx + tip.ty * tip.ty) || 1;
+    const ux = tip.tx / tlen;
+    const uy = tip.ty / tlen;
+    const nxp = -uy;
+    const nyp = ux;
+    const headLen = 11;
+    const headHalfWidth = 8;
+    const baseX = end.x - ux * headLen;
+    const baseY = end.y - uy * headLen;
+    const head = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    head.setAttribute(
+      "d",
+      `M ${end.x} ${end.y} L ${baseX + nxp * headHalfWidth} ${baseY + nyp * headHalfWidth} L ${baseX - nxp * headHalfWidth} ${baseY - nyp * headHalfWidth} Z`
+    );
+    head.setAttribute("fill", flowColor);
+    head.setAttribute("fill-opacity", "0.75");
+    svg.appendChild(head);
+
     drawn++;
   }
 
   svg.style.width = `${appRect.width}px`;
   svg.style.height = `${appEl.scrollHeight}px`;
 }
+
 
 function debounce(fn, wait) {
   let t = null;
