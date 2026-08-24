@@ -3,11 +3,11 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T18:42:40Z",
+  "generatedAt": "2026-08-24T19:34:22Z",
   "metrics": {
     "prsMerged": 62,
-    "prsOpened": 90,
-    "prsReviewed": 60,
+    "prsOpened": 92,
+    "prsReviewed": 63,
     "issuesCommented": 52,
     "issuesClosed": 29
   },
@@ -448,6 +448,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 200,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "test: pin that a same-restore-name incomplete sibling still blocks the VM flip",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/200"
+    },
+    {
+      "number": 10389,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs",
+      "url": "https://github.com/velero-io/velero/pull/10389"
+    },
     {
       "number": 50,
       "repo": "migtools/kubevirt-datamover-plugin",
@@ -1081,6 +1095,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 10387,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Avoid io.ReadAll in buildFinalTarball()",
+      "url": "https://github.com/velero-io/velero/pull/10387"
+    },
+    {
+      "number": 10388,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.17] Avoid io.ReadAll in buildFinalTarball()",
+      "url": "https://github.com/velero-io/velero/pull/10388"
+    },
+    {
+      "number": 10366,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump github/codeql-action from 4.37.6 to 4.37.7 in the github-actions group",
+      "url": "https://github.com/velero-io/velero/pull/10366"
+    },
+    {
       "number": 10329,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1503,6 +1538,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 9603,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport/Cherry-pick GitHub action",
+      "url": "https://github.com/velero-io/velero/issues/9603"
+    },
+    {
       "number": 10791,
       "repo": "openshift/installer",
       "org": "openshift",
@@ -1676,13 +1718,6 @@
       "org": "velero-io",
       "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
       "url": "https://github.com/velero-io/velero/issues/10232"
-    },
-    {
-      "number": 9603,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backport/Cherry-pick GitHub action",
-      "url": "https://github.com/velero-io/velero/issues/9603"
     },
     {
       "number": 8815,
