@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-10 — 2026-08-24
-> **Generated:** 2026-08-24 16:39:54 UTC
+> **Generated:** 2026-08-24 17:33:04 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 60 |
+| PRs Merged | 61 |
 | PRs Opened | 88 |
 | PRs Reviewed | 60 |
 | Issues/PRs Commented | 51 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (60)
+## PRs Merged (61)
 
 **velero-io** (13)
 - [#9795 Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/9795) — velero-io/velero
@@ -30,7 +30,8 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10047 Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10047) — velero-io/velero
 
-**openshift** (20)
+**openshift** (21)
+- [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 - [#2373 fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2373) — openshift/oadp-operator
 - [#2375 [oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2375) — openshift/oadp-operator
 - [#2374 [oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile](https://github.com/openshift/oadp-operator/pull/2374) — openshift/oadp-operator
