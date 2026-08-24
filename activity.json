@@ -3,10 +3,10 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T14:44:38Z",
+  "generatedAt": "2026-08-24T15:41:29Z",
   "metrics": {
     "prsMerged": 60,
-    "prsOpened": 86,
+    "prsOpened": 88,
     "prsReviewed": 60,
     "issuesCommented": 51,
     "issuesClosed": 26
@@ -434,6 +434,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 197,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
+    },
+    {
+      "number": 2404,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "test: unpend two kdm restore PIts now that upstream fixes landed",
+      "url": "https://github.com/openshift/oadp-operator/pull/2404"
+    },
     {
       "number": 10382,
       "repo": "velero-io/velero",

@@ -1,12 +1,12 @@
 # Activity Log
 
 > **Period:** 2026-08-10 — 2026-08-24
-> **Generated:** 2026-08-24 14:44:38 UTC
+> **Generated:** 2026-08-24 15:41:29 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 60 |
-| PRs Opened | 86 |
+| PRs Opened | 88 |
 | PRs Reviewed | 60 |
 | Issues/PRs Commented | 51 |
 | Issues Closed | 26 |
@@ -82,7 +82,7 @@
 - [#17 Recompile Daily Upstream Parity lock file and add license attribution rules](https://github.com/kaovilai/oadp-ui/pull/17) — kaovilai/oadp-ui
 - [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
-## PRs Opened (86)
+## PRs Opened (88)
 
 **velero-io** (37)
 - [#10382 1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/10382) — velero-io/velero
@@ -123,7 +123,8 @@
 - [#10221 1.17 Backport #10192: correct typos in log messages and status strings](https://github.com/velero-io/velero/pull/10221) — velero-io/velero
 - [#10220 Group Dependabot GitHub Actions updates](https://github.com/velero-io/velero/pull/10220) — velero-io/velero
 
-**openshift** (19)
+**openshift** (20)
+- [#2404 test: unpend two kdm restore PIts now that upstream fixes landed](https://github.com/openshift/oadp-operator/pull/2404) — openshift/oadp-operator
 - [#2402 Unpend two kdm restore e2e tests now that phase 4 landed](https://github.com/openshift/oadp-operator/pull/2402) — openshift/oadp-operator
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 - [#2387 Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/pull/2387) — openshift/oadp-operator
@@ -144,7 +145,8 @@
 - [#2367 Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable](https://github.com/openshift/oadp-operator/pull/2367) — openshift/oadp-operator
 - [#2366 [oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent](https://github.com/openshift/oadp-operator/pull/2366) — openshift/oadp-operator
 
-**migtools** (7)
+**migtools** (8)
+- [#197 fix: work PVC must be ReadWriteOnce, not the target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/pull/197) — migtools/kubevirt-datamover-controller
 - [#195 fix: name root cause in restore PVC-conflict error messages](https://github.com/migtools/kubevirt-datamover-controller/pull/195) — migtools/kubevirt-datamover-controller
 - [#182 fix: use %s format verb for cmp.Diff in t.Errorf calls](https://github.com/migtools/udistribution/pull/182) — migtools/udistribution
 - [#47 Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage](https://github.com/migtools/kubevirt-datamover-plugin/pull/47) — migtools/kubevirt-datamover-plugin
