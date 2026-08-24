@@ -35,7 +35,7 @@ function repoNodeKey(repo) {
 }
 
 const PR_STATUS_META = {
-  ready: { pill: "good", icon: "✅", label: "ready" },
+  ready: { pill: "good", icon: "✅", label: "mergeable" },
   "waiting-merge": { pill: "warning", icon: "⏳", label: "waiting merge" },
   hold: { pill: "warning", icon: "✋", label: "hold" },
   "failing-ci": { pill: "critical", icon: "❌", label: "failing CI" },
