@@ -3,15 +3,22 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T19:34:22Z",
+  "generatedAt": "2026-08-24T20:33:19Z",
   "metrics": {
-    "prsMerged": 62,
-    "prsOpened": 92,
-    "prsReviewed": 63,
+    "prsMerged": 63,
+    "prsOpened": 93,
+    "prsReviewed": 64,
     "issuesCommented": 52,
     "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 182,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
+      "url": "https://github.com/migtools/udistribution/pull/182"
+    },
     {
       "number": 10034,
       "repo": "velero-io/velero",
@@ -448,6 +455,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10390,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip kind e2e matrix entries for kindest/node tags with missing manifests",
+      "url": "https://github.com/velero-io/velero/pull/10390"
+    },
     {
       "number": 200,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1095,6 +1109,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10356,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add volumeName condition to VolumePolicy resource filtering",
+      "url": "https://github.com/velero-io/velero/pull/10356"
+    },
+    {
+      "number": 10366,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump github/codeql-action from 4.37.6 to 4.37.7 in the github-actions group",
+      "url": "https://github.com/velero-io/velero/pull/10366"
+    },
+    {
       "number": 10387,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1107,13 +1135,6 @@
       "org": "velero-io",
       "title": "[Backport release-1.17] Avoid io.ReadAll in buildFinalTarball()",
       "url": "https://github.com/velero-io/velero/pull/10388"
-    },
-    {
-      "number": 10366,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump github/codeql-action from 4.37.6 to 4.37.7 in the github-actions group",
-      "url": "https://github.com/velero-io/velero/pull/10366"
     },
     {
       "number": 10329,
