@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T22:30:31Z",
+  "updatedAt": "2026-08-24T23:18:36Z",
   "prs": [
     {
       "number": 10010,
@@ -1808,7 +1808,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-24T22:26:47Z"
+      "updatedAt": "2026-08-24T23:18:22Z"
     },
     {
       "number": 199,
@@ -1829,7 +1829,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-24T21:08:52Z"
+      "updatedAt": "2026-08-24T23:14:45Z"
     },
     {
       "number": 253,
@@ -3218,7 +3218,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-24T22:30:31Z",
+    "updatedAt": "2026-08-24T23:18:36Z",
     "needsReview": [
       {
         "number": 68,
@@ -4036,6 +4036,71 @@
         "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
+        "number": 10027,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add set-based label selector test and docs coverage for restore",
+        "url": "https://github.com/velero-io/velero/pull/10027",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "has-unit-tests",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "anshulahuja98",
+          "shubham-pampattiwar",
+          "chlins"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 32,
+        "updatedAt": "2026-07-23T22:40:21Z"
+      },
+      {
+        "number": 8793,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Make daemonset running error describe pod status",
+        "url": "https://github.com/velero-io/velero/pull/8793",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 32,
+        "updatedAt": "2026-07-23T22:46:17Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4067,71 +4132,6 @@
         "reason": "awaitingReview",
         "waitingDays": 32,
         "updatedAt": "2026-07-23T05:47:21Z"
-      },
-      {
-        "number": 10027,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add set-based label selector test and docs coverage for restore",
-        "url": "https://github.com/velero-io/velero/pull/10027",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "shubham-pampattiwar",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 31,
-        "updatedAt": "2026-07-23T22:40:21Z"
-      },
-      {
-        "number": 8793,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Make daemonset running error describe pod status",
-        "url": "https://github.com/velero-io/velero/pull/8793",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 31,
-        "updatedAt": "2026-07-23T22:46:17Z"
       },
       {
         "number": 10077,
@@ -4287,7 +4287,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -4651,6 +4651,69 @@
         "updatedAt": "2026-08-13T19:59:49Z"
       },
       {
+        "number": 598,
+        "repo": "openshift/ci-docs",
+        "org": "openshift",
+        "title": "Document FBC catalog builds and OLM v1 testing workflows",
+        "url": "https://github.com/openshift/ci-docs/pull/598",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "hector-vido"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hector-vido",
+          "jmguzik",
+          "joelanford"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-08-14T22:38:52Z"
+      },
+      {
+        "number": 9646,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+        "url": "https://github.com/velero-io/velero/pull/9646",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-08-14T22:44:58Z"
+      },
+      {
         "number": 319,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -4732,38 +4795,6 @@
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
-        "number": 598,
-        "repo": "openshift/ci-docs",
-        "org": "openshift",
-        "title": "Document FBC catalog builds and OLM v1 testing workflows",
-        "url": "https://github.com/openshift/ci-docs/pull/598",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "hector-vido"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "jmguzik",
-          "joelanford"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-08-14T22:38:52Z"
-      },
-      {
         "number": 81508,
         "repo": "openshift/release",
         "org": "openshift",
@@ -4792,37 +4823,6 @@
         "reason": "awaitingReview",
         "waitingDays": 9,
         "updatedAt": "2026-08-15T06:21:35Z"
-      },
-      {
-        "number": 9646,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-        "url": "https://github.com/velero-io/velero/pull/9646",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-08-14T22:44:58Z"
       },
       {
         "number": 375,
@@ -5670,7 +5670,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-24T22:26:47Z"
+        "updatedAt": "2026-08-24T23:18:22Z"
       },
       {
         "number": 199,
@@ -5701,7 +5701,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-24T21:08:52Z"
+        "updatedAt": "2026-08-24T23:14:45Z"
       },
       {
         "number": 320,
