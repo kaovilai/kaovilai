@@ -1,19 +1,19 @@
 # Activity Log
 
-> **Period:** 2026-08-09 — 2026-08-23
-> **Generated:** 2026-08-23 18:39:26 UTC
+> **Period:** 2026-08-10 — 2026-08-24
+> **Generated:** 2026-08-24 01:42:19 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 61 |
-| PRs Opened | 88 |
-| PRs Reviewed | 63 |
+| PRs Merged | 59 |
+| PRs Opened | 81 |
+| PRs Reviewed | 60 |
 | Issues/PRs Commented | 49 |
 | Issues Closed | 26 |
 
 ---
 
-## PRs Merged (61)
+## PRs Merged (59)
 
 **velero-io** (12)
 - [#10305 Log the discovered parent snapshot ID, not the empty lookup parameter](https://github.com/velero-io/velero/pull/10305) — velero-io/velero
@@ -60,7 +60,7 @@
 - [#180 fix: wire BSL profile config through to S3 credential resolution](https://github.com/migtools/kubevirt-datamover-controller/pull/180) — migtools/kubevirt-datamover-controller
 - [#170 fix: defer PVC/PV cleanup while datamover pod terminates](https://github.com/migtools/kubevirt-datamover-controller/pull/170) — migtools/kubevirt-datamover-controller
 
-**Other** (22)
+**Other** (20)
 - [#1 feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures](https://github.com/kaovilai/socktainer/pull/1) — kaovilai/socktainer
 - [#2 feat(libpod): Add Podman /libpod/* API endpoints](https://github.com/kaovilai/socktainer/pull/2) — kaovilai/socktainer
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
@@ -81,11 +81,9 @@
 - [#17 Recompile Daily Upstream Parity lock file and add license attribution rules](https://github.com/kaovilai/oadp-ui/pull/17) — kaovilai/oadp-ui
 - [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
-- [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
-- [#8 Add grouped Dependabot updates with CI-gated auto-merge](https://github.com/kaovilai/oadp-ui/pull/8) — kaovilai/oadp-ui
-## PRs Opened (88)
+## PRs Opened (81)
 
-**velero-io** (38)
+**velero-io** (35)
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
 - [#10327 Detect data path pod deletion via informer DeleteFunc](https://github.com/velero-io/velero/pull/10327) — velero-io/velero
 - [#10318 Fix datamover backup arg mismatch for CSI CBT service account name](https://github.com/velero-io/velero/pull/10318) — velero-io/velero
@@ -121,9 +119,6 @@
 - [#10222 1.18 Backport: correct typos in log messages and status strings (#10192)](https://github.com/velero-io/velero/pull/10222) — velero-io/velero
 - [#10221 1.17 Backport #10192: correct typos in log messages and status strings](https://github.com/velero-io/velero/pull/10221) — velero-io/velero
 - [#10220 Group Dependabot GitHub Actions updates](https://github.com/velero-io/velero/pull/10220) — velero-io/velero
-- [#10211 backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions](https://github.com/velero-io/velero/pull/10211) — velero-io/velero
-- [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
-- [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 
 **openshift** (18)
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
@@ -152,7 +147,7 @@
 - [#182 fix: correct S3 checkpoint index when backup type mismatch detected](https://github.com/migtools/kubevirt-datamover-controller/pull/182) — migtools/kubevirt-datamover-controller
 - [#180 fix: wire BSL profile config through to S3 credential resolution](https://github.com/migtools/kubevirt-datamover-controller/pull/180) — migtools/kubevirt-datamover-controller
 
-**Other** (27)
+**Other** (23)
 - [#375 feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support](https://github.com/socktainer/socktainer/pull/375) — socktainer/socktainer
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#13882 macos: add regression test for double-click rename after dragging tab…](https://github.com/ghostty-org/ghostty/pull/13882) — ghostty-org/ghostty
@@ -176,13 +171,9 @@
 - [#71 Export review-queue panel data in open-prs.json for kaovilai.pw](https://github.com/kaovilai/kaovilai/pull/71) — kaovilai/kaovilai
 - [#17 Recompile Daily Upstream Parity lock file and add license attribution rules](https://github.com/kaovilai/oadp-ui/pull/17) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
-- [#1 Dual-stack listening + structured startup output with per-interface shell env examples](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) — kaovilai/iOS-SOCKS-Server
-- [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
-- [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
-- [#8 Add grouped Dependabot updates with CI-gated auto-merge](https://github.com/kaovilai/oadp-ui/pull/8) — kaovilai/oadp-ui
-## PRs Reviewed (63)
+## PRs Reviewed (60)
 
-**velero-io** (37)
+**velero-io** (35)
 - [#10359 Fix e2e kind matrix misparsing pre-release node tags](https://github.com/velero-io/velero/pull/10359) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
@@ -215,8 +206,6 @@
 - [#10245 Document what the DownloadRequest Processed phase means](https://github.com/velero-io/velero/pull/10245) — velero-io/velero
 - [#10250 Fix pvr deadlock](https://github.com/velero-io/velero/pull/10250) — velero-io/velero
 - [#10251 Fix wrong node-agent check result when PVR restorer run concurrently](https://github.com/velero-io/velero/pull/10251) — velero-io/velero
-- [#10210 Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match](https://github.com/velero-io/velero/pull/10210) — velero-io/velero
-- [#10208 Re-request maintainer review when only one CODEOWNERS approval exists](https://github.com/velero-io/velero/pull/10208) — velero-io/velero
 - [#10234 Make restore logs testable by returning errors instead of calling cmd.Exit](https://github.com/velero-io/velero/pull/10234) — velero-io/velero
 - [#10231 Site: add a troubleshooting entry for log downloads failing with "no such host"](https://github.com/velero-io/velero/pull/10231) — velero-io/velero
 - [#10228 docs: fix grammar and typos in backup-restore-windows](https://github.com/velero-io/velero/pull/10228) — velero-io/velero
@@ -247,11 +236,10 @@
 - [#177 [oadp-1.6] fix: defer PVC/PV cleanup while datamover pod terminates](https://github.com/migtools/kubevirt-datamover-controller/pull/177) — migtools/kubevirt-datamover-controller
 - [#178 [oadp-1.6] feat: add BSL config parity with Velero AWS plugin](https://github.com/migtools/kubevirt-datamover-controller/pull/178) — migtools/kubevirt-datamover-controller
 
-**Other** (4)
+**Other** (3)
 - [#849 fix: status-reconciler track own config state for dropped deltas](https://github.com/kubernetes-sigs/prow/pull/849) — kubernetes-sigs/prow
 - [#12323 Fix kubevirt-velero-plugin branch target for oadp-1.4](https://github.com/openshift-eng/ocp-build-data/pull/12323) — openshift-eng/ocp-build-data
 - [#12324 Fix kubevirt-velero-plugin branch target for oadp-1.3](https://github.com/openshift-eng/ocp-build-data/pull/12324) — openshift-eng/ocp-build-data
-- [#13 Exclude README.md from protected-files denylist in daily-upstream-parity workflow](https://github.com/kaovilai/oadp-ui/pull/13) — kaovilai/oadp-ui
 ## Issues/PRs Commented On (49)
 
 **velero-io** (20)
