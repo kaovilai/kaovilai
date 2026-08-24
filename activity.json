@@ -3,12 +3,12 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T12:54:33Z",
+  "generatedAt": "2026-08-24T13:53:43Z",
   "metrics": {
     "prsMerged": 59,
-    "prsOpened": 82,
+    "prsOpened": 83,
     "prsReviewed": 60,
-    "issuesCommented": 49,
+    "issuesCommented": 50,
     "issuesClosed": 26
   },
   "prsMerged": [
@@ -427,6 +427,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 195,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: name root cause in restore PVC-conflict error messages",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195"
+    },
     {
       "number": 182,
       "repo": "migtools/udistribution",
@@ -1431,6 +1438,13 @@
       "org": "socktainer",
       "title": "ci on real hw",
       "url": "https://github.com/socktainer/socktainer/issues/378"
+    },
+    {
+      "number": 10590,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
+      "url": "https://github.com/openshift/installer/issues/10590"
     },
     {
       "number": 39,
