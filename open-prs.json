@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T17:34:11Z",
+  "updatedAt": "2026-08-24T18:47:00Z",
   "prs": [
     {
       "number": 10010,
@@ -622,6 +622,25 @@
       "updatedAt": "2026-08-18T13:33:24Z"
     },
     {
+      "number": 10389,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs",
+      "url": "https://github.com/velero-io/velero/pull/10389",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": true,
+      "labels": [],
+      "updatedAt": "2026-08-24T18:46:52Z"
+    },
+    {
       "number": 7344,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -769,27 +788,6 @@
       "updatedAt": "2026-07-23T20:59:18Z"
     },
     {
-      "number": 10034,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "chore: pin helm/kind-action to commit with curl retry fix",
-      "url": "https://github.com/velero-io/velero/pull/10034",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-07-23T20:58:34Z"
-    },
-    {
       "number": 10041,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -915,7 +913,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-24T15:34:03Z"
+      "updatedAt": "2026-08-24T18:23:24Z"
     },
     {
       "number": 10382,
@@ -937,7 +935,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-24T15:14:17Z"
+      "updatedAt": "2026-08-24T18:23:17Z"
     },
     {
       "number": 7941,
@@ -1325,7 +1323,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-24T15:20:15Z"
+      "updatedAt": "2026-08-24T18:32:07Z"
     },
     {
       "number": 81508,
@@ -1725,11 +1723,31 @@
       "updatedAt": "2026-08-13T18:59:08Z"
     },
     {
-      "number": 195,
+      "number": 197,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "fix: name root cause in restore PVC-conflict error messages",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "PrasadJoshi12"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-24T18:26:35Z"
+    },
+    {
+      "number": 199,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: honor matchLabels selector on restore target PVC instead of failing",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/199",
       "targetBranch": "oadp-dev",
       "status": "ready",
       "milestone": null,
@@ -1740,7 +1758,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-24T13:52:19Z"
+      "updatedAt": "2026-08-24T17:54:27Z"
     },
     {
       "number": 216,
@@ -1786,27 +1804,6 @@
       "updatedAt": "2026-08-05T14:45:16Z"
     },
     {
-      "number": 197,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "PrasadJoshi12"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-24T15:43:41Z"
-    },
-    {
       "number": 253,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1847,6 +1844,25 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-21T13:48:45Z"
+    },
+    {
+      "number": 50,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Set binding-blocking spec.selector on restore-target PVCs",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50",
+      "targetBranch": "oadp-dev",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "approved"
+      ],
+      "updatedAt": "2026-08-24T18:07:18Z"
     },
     {
       "number": 66,
@@ -3192,7 +3208,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-24T17:34:11Z",
+    "updatedAt": "2026-08-24T18:47:00Z",
     "needsReview": [
       {
         "number": 68,
@@ -3315,6 +3331,36 @@
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
+        "number": 9388,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add lint-fix make targets",
+        "url": "https://github.com/velero-io/velero/pull/9388",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 273,
+        "updatedAt": "2025-11-24T10:40:40Z"
+      },
+      {
         "number": 9221,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3331,7 +3377,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3359,7 +3405,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3418,7 +3464,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3450,7 +3496,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3521,7 +3567,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 110,
+        "waitingDays": 111,
         "updatedAt": "2026-05-05T18:21:10Z"
       },
       {
@@ -3636,7 +3682,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 45,
+        "waitingDays": 46,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3721,6 +3767,39 @@
         "reason": "awaitingReview",
         "waitingDays": 40,
         "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 39,
+        "updatedAt": "2026-07-16T15:28:53Z"
       },
       {
         "number": 267,
@@ -3929,7 +4008,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4026,7 +4105,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4059,7 +4138,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4077,38 +4156,6 @@
         "updatedAt": "2026-07-23T22:40:21Z"
       },
       {
-        "number": 10034,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "chore: pin helm/kind-action to commit with curl retry fix",
-        "url": "https://github.com/velero-io/velero/pull/10034",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "chlins"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 31,
-        "updatedAt": "2026-07-23T20:58:34Z"
-      },
-      {
         "number": 8793,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4124,7 +4171,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4155,7 +4202,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4185,7 +4232,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4297,6 +4344,38 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 9384,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip restore informer cache for resources without watch support",
+        "url": "https://github.com/velero-io/velero/pull/9384",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 17,
+        "updatedAt": "2026-08-07T18:22:38Z"
+      },
+      {
         "number": 2134,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4326,38 +4405,6 @@
         "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
-        "number": 9384,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip restore informer cache for resources without watch support",
-        "url": "https://github.com/velero-io/velero/pull/9384",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 16,
-        "updatedAt": "2026-08-07T18:22:38Z"
-      },
-      {
         "number": 9772,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4373,7 +4420,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4443,6 +4490,64 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
+        "number": 2378,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2378",
+        "targetBranch": "oadp-1.3",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-08-12T18:06:50Z"
+      },
+      {
+        "number": 2379,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2379",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-08-12T18:07:16Z"
+      },
+      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4459,7 +4564,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4538,64 +4643,6 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-08-12T19:01:32Z"
-      },
-      {
-        "number": 2378,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2378",
-        "targetBranch": "oadp-1.3",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-12T18:06:50Z"
-      },
-      {
-        "number": 2379,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2379",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
         "number": 2207,
@@ -4733,7 +4780,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4762,7 +4809,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4793,7 +4840,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5220,6 +5267,64 @@
         "updatedAt": "2026-08-14T23:59:30Z"
       },
       {
+        "number": 10307,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention",
+        "url": "https://github.com/velero-io/velero/pull/10307",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-18T18:01:03Z"
+      },
+      {
+        "number": 10309,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Report a measured zero incremental instead of erasing it",
+        "url": "https://github.com/velero-io/velero/pull/10309",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-08-20T06:01:51Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5235,7 +5340,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5267,7 +5372,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5323,7 +5428,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5352,7 +5457,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5394,11 +5499,42 @@
         "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
-        "number": 195,
+        "number": 197,
         "repo": "migtools/kubevirt-datamover-controller",
         "org": "migtools",
-        "title": "fix: name root cause in restore PVC-conflict error messages",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195",
+        "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "PrasadJoshi12"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T18:26:35Z"
+      },
+      {
+        "number": 199,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: honor matchLabels selector on restore target PVC instead of failing",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/199",
         "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -5414,13 +5550,13 @@
         "approvalCount": 0,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "shubham-pampattiwar",
-          "sseago"
+          "mpryc",
+          "shubham-pampattiwar"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-24T13:52:19Z"
+        "updatedAt": "2026-08-24T17:54:27Z"
       },
       {
         "number": 182,
@@ -5467,9 +5603,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
           "hhpatel14",
@@ -5478,7 +5614,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-24T15:20:15Z"
+        "updatedAt": "2026-08-24T18:32:07Z"
       },
       {
         "number": 10381,
@@ -5500,9 +5636,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
           "kaovilai"
@@ -5510,7 +5646,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-24T15:34:03Z"
+        "updatedAt": "2026-08-24T18:23:24Z"
       },
       {
         "number": 10382,
@@ -5532,9 +5668,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
           "kaovilai"
@@ -5542,7 +5678,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-24T15:14:17Z"
+        "updatedAt": "2026-08-24T18:23:17Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5601,6 +5737,36 @@
         "reason": "pendingMerge",
         "waitingDays": 39,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 10028,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Bump actions/labeler from v5 to v6",
+        "url": "https://github.com/velero-io/velero/pull/10028",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 31,
+        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 48,
@@ -5891,38 +6057,6 @@
         "reason": "pendingMerge",
         "waitingDays": 2,
         "updatedAt": "2026-08-21T19:27:36Z"
-      },
-      {
-        "number": 197,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "PrasadJoshi12"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "sseago"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-24T15:43:41Z"
       }
     ]
   }

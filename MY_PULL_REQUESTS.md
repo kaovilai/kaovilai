@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-24 17:34:11 UTC
+> Last updated: 2026-08-24 18:47:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -39,6 +39,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10318](https://img.shields.io/badge/PR%20%2310318-draft-gray)](https://github.com/velero-io/velero/pull/10318) **velero-io/velero** → `main` - Fix datamover backup arg mismatch for CSI CBT service account name (milestone: **v1.19**)
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
+- [![PR #10389](https://img.shields.io/badge/PR%20%2310389-draft-gray)](https://github.com/velero-io/velero/pull/10389) **velero-io/velero** → `main` - Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
@@ -46,7 +47,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9575](https://img.shields.io/badge/PR%20%239575-stale-yellow)](https://github.com/velero-io/velero/pull/9575) **velero-io/velero** → `main` - Remove toleration whitelist for PodVolumeBackup and data mover pods (milestone: **v1.19**)
 - [![PR #10027](https://img.shields.io/badge/PR%20%2310027-failing--ci-red)](https://github.com/velero-io/velero/pull/10027) **velero-io/velero** → `main` - Add set-based label selector test and docs coverage for restore
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-failing--ci-red)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
-- [![PR #10034](https://img.shields.io/badge/PR%20%2310034-failing--ci-red)](https://github.com/velero-io/velero/pull/10034) **velero-io/velero** → `main` - chore: pin helm/kind-action to commit with curl retry fix
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-failing--ci-red)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
@@ -101,12 +101,13 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #195](https://img.shields.io/badge/PR%20%23195-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/195) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: name root cause in restore PVC-conflict error messages
+- [![PR #197](https://img.shields.io/badge/PR%20%23197-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/197) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: work PVC must be ReadWriteOnce, not the target's AccessModes
+- [![PR #199](https://img.shields.io/badge/PR%20%23199-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/199) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: honor matchLabels selector on restore target PVC instead of failing
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
-- [![PR #197](https://img.shields.io/badge/PR%20%23197-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/197) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: work PVC must be ReadWriteOnce, not the target's AccessModes
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
+- [![PR #50](https://img.shields.io/badge/PR%20%2350-draft-gray)](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) **migtools/kubevirt-datamover-plugin** → `oadp-dev` - Set binding-blocking spec.selector on restore-target PVCs
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
