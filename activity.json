@@ -1,17 +1,31 @@
 {
   "period": {
-    "start": "2026-08-08",
-    "end": "2026-08-22"
+    "start": "2026-08-10",
+    "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-22T12:53:07Z",
+  "generatedAt": "2026-08-24T17:33:04Z",
   "metrics": {
-    "prsMerged": 63,
+    "prsMerged": 61,
     "prsOpened": 88,
-    "prsReviewed": 69,
-    "issuesCommented": 49,
+    "prsReviewed": 60,
+    "issuesCommented": 51,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 83833,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
+      "url": "https://github.com/openshift/release/pull/83833"
+    },
+    {
+      "number": 9795,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/9795"
+    },
     {
       "number": 2373,
       "repo": "openshift/oadp-operator",
@@ -424,37 +438,58 @@
       "org": "Nanako0129",
       "title": "docs: note full Xcode requirement for hev-socks5-server build script",
       "url": "https://github.com/Nanako0129/SocksBypass/pull/28"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Exclude README.md from protected-files denylist in daily-upstream-parity workflow",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/13"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Add grouped Dependabot updates with CI-gated auto-merge",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/8"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Add daily gh-aw upstream parity workflow for single-cluster OADP UI",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/1"
-    },
-    {
-      "number": 83124,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ixney on 5.1ney (rebased)",
-      "url": "https://github.com/openshift/release/pull/83124"
     }
   ],
   "prsOpened": [
+    {
+      "number": 197,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
+    },
+    {
+      "number": 2404,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "test: unpend two kdm restore PIts now that upstream fixes landed",
+      "url": "https://github.com/openshift/oadp-operator/pull/2404"
+    },
+    {
+      "number": 10382,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10382"
+    },
+    {
+      "number": 2402,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Unpend two kdm restore e2e tests now that phase 4 landed",
+      "url": "https://github.com/openshift/oadp-operator/pull/2402"
+    },
+    {
+      "number": 10381,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10381"
+    },
+    {
+      "number": 195,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: name root cause in restore PVC-conflict error messages",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195"
+    },
+    {
+      "number": 182,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
+      "url": "https://github.com/migtools/udistribution/pull/182"
+    },
     {
       "number": 83833,
       "repo": "openshift/release",
@@ -1021,55 +1056,6 @@
       "org": "Nanako0129",
       "title": "docs: note full Xcode requirement for hev-socks5-server build script",
       "url": "https://github.com/Nanako0129/SocksBypass/pull/28"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/iOS-SOCKS-Server",
-      "org": "kaovilai",
-      "title": "Dual-stack listening + structured startup output with per-interface shell env examples",
-      "url": "https://github.com/kaovilai/iOS-SOCKS-Server/pull/1"
-    },
-    {
-      "number": 15,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Merge open Dependabot PRs; pin back major bumps that break console peer compatibility",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/15"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Exclude README.md from protected-files denylist in daily-upstream-parity workflow",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/13"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Add grouped Dependabot updates with CI-gated auto-merge",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/8"
-    },
-    {
-      "number": 10211,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions",
-      "url": "https://github.com/velero-io/velero/pull/10211"
-    },
-    {
-      "number": 10210,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-      "url": "https://github.com/velero-io/velero/pull/10210"
-    },
-    {
-      "number": 10208,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
-      "url": "https://github.com/velero-io/velero/pull/10208"
     }
   ],
   "prsReviewed": [
@@ -1081,18 +1067,25 @@
       "url": "https://github.com/velero-io/velero/pull/10359"
     },
     {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
-    },
-    {
       "number": 2395,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 10329,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Embed CRD manifests via go:embed instead of codegen",
+      "url": "https://github.com/velero-io/velero/pull/10329"
+    },
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10280,
@@ -1114,13 +1107,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-dev (033e6b1) into oadp-dev",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/463"
-    },
-    {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
     },
     {
       "number": 163,
@@ -1445,20 +1431,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/183"
     },
     {
-      "number": 10210,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-      "url": "https://github.com/velero-io/velero/pull/10210"
-    },
-    {
-      "number": 10196,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "test: add unit tests for boolptr and stringptr utilities",
-      "url": "https://github.com/velero-io/velero/pull/10196"
-    },
-    {
       "number": 2370,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1466,32 +1438,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2370"
     },
     {
-      "number": 10208,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-request maintainer review when only one CODEOWNERS approval exists",
-      "url": "https://github.com/velero-io/velero/pull/10208"
-    },
-    {
-      "number": 10201,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump kentaro-m/auto-assign-action from 2.0.0 to 2.0.2",
-      "url": "https://github.com/velero-io/velero/pull/10201"
-    },
-    {
       "number": 10234,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Make restore logs testable by returning errors instead of calling cmd.Exit",
       "url": "https://github.com/velero-io/velero/pull/10234"
-    },
-    {
-      "number": 10200,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for Backup and Restore CRDs",
-      "url": "https://github.com/velero-io/velero/pull/10200"
     },
     {
       "number": 181,
@@ -1527,43 +1478,29 @@
       "org": "velero-io",
       "title": "docs: fix grammar and typos in backup-restore-windows",
       "url": "https://github.com/velero-io/velero/pull/10228"
-    },
-    {
-      "number": 10203,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump github/codeql-action from 4.37.3 to 4.37.6",
-      "url": "https://github.com/velero-io/velero/pull/10203"
-    },
-    {
-      "number": 10202,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump actions/setup-go from 6 to 7",
-      "url": "https://github.com/velero-io/velero/pull/10202"
-    },
-    {
-      "number": 10192,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix: correct typos in log messages and status strings",
-      "url": "https://github.com/velero-io/velero/pull/10192"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Exclude README.md from protected-files denylist in daily-upstream-parity workflow",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/13"
     }
   ],
   "issuesCommented": [
     {
-      "number": 7507,
+      "number": 9429,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
+      "title": "velero doesn't correctly handle an empty ProviderSnapshotID",
+      "url": "https://github.com/velero-io/velero/issues/9429"
+    },
+    {
+      "number": 378,
+      "repo": "socktainer/socktainer",
+      "org": "socktainer",
+      "title": "ci on real hw",
+      "url": "https://github.com/socktainer/socktainer/issues/378"
+    },
+    {
+      "number": 10590,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
+      "url": "https://github.com/openshift/installer/issues/10590"
     },
     {
       "number": 39,
@@ -1573,18 +1510,18 @@
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
+    },
+    {
       "number": 9744,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Bug: Restore stuck in Finalizing phase indefinitely due to unbounded hook-tracker wait",
       "url": "https://github.com/velero-io/velero/issues/9744"
-    },
-    {
-      "number": 378,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "ci on real hw",
-      "url": "https://github.com/socktainer/socktainer/issues/378"
     },
     {
       "number": 99,

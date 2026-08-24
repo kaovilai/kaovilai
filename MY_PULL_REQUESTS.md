@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-22 18:11:04 UTC
+> Last updated: 2026-08-24 17:34:11 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -34,7 +34,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-ready-green)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
-- [![PR #9795](https://img.shields.io/badge/PR%20%239795-ready-green)](https://github.com/velero-io/velero/pull/9795) **velero-io/velero** → `main` - Skip DeleteSnapshot when ProviderSnapshotID is empty (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
@@ -53,6 +52,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-failing--ci-red)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
 - [![PR #10309](https://img.shields.io/badge/PR%20%2310309-failing--ci-red)](https://github.com/velero-io/velero/pull/10309) **velero-io/velero** → `main` - Report a measured zero incremental instead of erasing it (milestone: **v1.19**)
 - [![PR #10348](https://img.shields.io/badge/PR%20%2310348-failing--ci-red)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
+- [![PR #10381](https://img.shields.io/badge/PR%20%2310381-failing--ci-red)](https://github.com/velero-io/velero/pull/10381) **velero-io/velero** → `release-1.18` - 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
+- [![PR #10382](https://img.shields.io/badge/PR%20%2310382-failing--ci-red)](https://github.com/velero-io/velero/pull/10382) **velero-io/velero** → `release-1.17` - 1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/267) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
@@ -73,6 +74,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2368](https://img.shields.io/badge/PR%20%232368-ready-green)](https://github.com/openshift/oadp-operator/pull/2368) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #2378](https://img.shields.io/badge/PR%20%232378-ready-green)](https://github.com/openshift/oadp-operator/pull/2378) **openshift/oadp-operator** → `oadp-1.3` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
+- [![PR #2404](https://img.shields.io/badge/PR%20%232404-ready-green)](https://github.com/openshift/oadp-operator/pull/2404) **openshift/oadp-operator** → `oadp-dev` - test: unpend two kdm restore PIts now that upstream fixes landed
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
@@ -96,11 +98,12 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #2139](https://img.shields.io/badge/PR%20%232139-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2139) **openshift/oadp-operator** → `oadp-dev` - OADP-7665: Pass --log-level to NodeAgent DaemonSet container args
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
-- [![PR #83833](https://img.shields.io/badge/PR%20%2383833-needs--attention-orange)](https://github.com/openshift/release/pull/83833) **openshift/release** → `main` - Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs
 
 ## migtools
 
+- [![PR #195](https://img.shields.io/badge/PR%20%23195-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/195) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: name root cause in restore PVC-conflict error messages
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
+- [![PR #197](https://img.shields.io/badge/PR%20%23197-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/197) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: work PVC must be ReadWriteOnce, not the target's AccessModes
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
@@ -114,6 +117,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
+- [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/migtools/udistribution/pull/182) **migtools/udistribution** → `main` - fix: use %s format verb for cmp.Diff in t.Errorf calls
 
 ## oadp-rebase
 

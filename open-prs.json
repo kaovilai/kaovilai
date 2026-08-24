@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T18:11:04Z",
+  "updatedAt": "2026-08-24T17:34:11Z",
   "prs": [
     {
       "number": 10010,
@@ -146,7 +146,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-18T13:18:57Z"
+      "updatedAt": "2026-08-24T03:21:10Z"
     },
     {
       "number": 8884,
@@ -253,27 +253,6 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-08-10T16:09:09Z"
-    },
-    {
-      "number": 9795,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/9795",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-21T15:39:08Z"
     },
     {
       "number": 9910,
@@ -917,6 +896,50 @@
       "updatedAt": "2026-08-21T19:16:50Z"
     },
     {
+      "number": 10381,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10381",
+      "targetBranch": "release-1.18",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-24T15:34:03Z"
+    },
+    {
+      "number": 10382,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10382",
+      "targetBranch": "release-1.17",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-24T15:14:17Z"
+    },
+    {
       "number": 7941,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1285,6 +1308,24 @@
         "approved"
       ],
       "updatedAt": "2026-08-12T18:07:16Z"
+    },
+    {
+      "number": 2404,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "test: unpend two kdm restore PIts now that upstream fixes landed",
+      "url": "https://github.com/openshift/oadp-operator/pull/2404",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-24T15:20:15Z"
     },
     {
       "number": 81508,
@@ -1684,29 +1725,22 @@
       "updatedAt": "2026-08-13T18:59:08Z"
     },
     {
-      "number": 83833,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
-      "url": "https://github.com/openshift/release/pull/83833",
-      "targetBranch": "main",
-      "status": "needs-attention",
+      "number": 195,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: name root cause in restore PVC-conflict error messages",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
       "milestone": null,
       "author": "kaovilai",
       "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "shubham-pampattiwar"
-      ],
+      "assignees": [],
       "isDraft": false,
       "labels": [
-        "do-not-merge/hold",
-        "lgtm",
-        "approved",
-        "needs-rebase",
-        "rehearsals-ack"
+        "approved"
       ],
-      "updatedAt": "2026-08-22T00:44:56Z"
+      "updatedAt": "2026-08-24T13:52:19Z"
     },
     {
       "number": 216,
@@ -1750,6 +1784,27 @@
         "approved"
       ],
       "updatedAt": "2026-08-05T14:45:16Z"
+    },
+    {
+      "number": 197,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "PrasadJoshi12"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-24T15:43:41Z"
     },
     {
       "number": 253,
@@ -1981,6 +2036,24 @@
         "do-not-merge/hold"
       ],
       "updatedAt": "2026-08-03T14:39:22Z"
+    },
+    {
+      "number": 182,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
+      "url": "https://github.com/migtools/udistribution/pull/182",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-24T02:56:01Z"
     },
     {
       "number": 35,
@@ -3119,7 +3192,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-22T18:11:04Z",
+    "updatedAt": "2026-08-24T17:34:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3142,7 +3215,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 646,
+        "waitingDays": 648,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3166,7 +3239,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 495,
+        "waitingDays": 497,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -3190,7 +3263,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 484,
+        "waitingDays": 486,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -3214,7 +3287,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 477,
+        "waitingDays": 479,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3238,7 +3311,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 443,
+        "waitingDays": 445,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3272,7 +3345,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 255,
+        "waitingDays": 257,
         "updatedAt": "2025-12-10T06:37:59Z"
       },
       {
@@ -3299,7 +3372,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 193,
+        "waitingDays": 195,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3326,7 +3399,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 163,
+        "waitingDays": 165,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3358,7 +3431,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 158,
+        "waitingDays": 160,
         "updatedAt": "2026-03-17T15:49:38Z"
       },
       {
@@ -3390,7 +3463,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 143,
+        "waitingDays": 145,
         "updatedAt": "2026-04-01T08:21:20Z"
       },
       {
@@ -3419,7 +3492,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 136,
+        "waitingDays": 138,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3448,7 +3521,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 108,
+        "waitingDays": 110,
         "updatedAt": "2026-05-05T18:21:10Z"
       },
       {
@@ -3477,7 +3550,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 105,
+        "waitingDays": 107,
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
@@ -3507,7 +3580,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 73,
+        "waitingDays": 75,
         "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
@@ -3539,7 +3612,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 52,
+        "waitingDays": 54,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3563,7 +3636,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3592,7 +3665,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 38,
+        "waitingDays": 40,
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
@@ -3622,7 +3695,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 38,
+        "waitingDays": 40,
         "updatedAt": "2026-07-15T16:14:06Z"
       },
       {
@@ -3646,7 +3719,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 40,
         "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
@@ -3674,7 +3747,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -3700,7 +3773,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -3726,7 +3799,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -3752,7 +3825,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -3778,7 +3851,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:58:01Z"
       },
       {
@@ -3804,7 +3877,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -3837,7 +3910,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 33,
+        "waitingDays": 35,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3866,7 +3939,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 34,
         "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
@@ -3899,7 +3972,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 34,
         "updatedAt": "2026-07-20T19:47:24Z"
       },
       {
@@ -3933,7 +4006,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 33,
         "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
@@ -3966,7 +4039,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 32,
         "updatedAt": "2026-07-23T05:47:21Z"
       },
       {
@@ -4000,7 +4073,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 31,
         "updatedAt": "2026-07-23T22:40:21Z"
       },
       {
@@ -4032,7 +4105,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 31,
         "updatedAt": "2026-07-23T20:58:34Z"
       },
       {
@@ -4063,7 +4136,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 31,
         "updatedAt": "2026-07-23T22:46:17Z"
       },
       {
@@ -4094,7 +4167,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 27,
+        "waitingDays": 29,
         "updatedAt": "2026-07-25T23:41:12Z"
       },
       {
@@ -4126,7 +4199,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 25,
+        "waitingDays": 27,
         "updatedAt": "2026-07-28T04:24:27Z"
       },
       {
@@ -4160,7 +4233,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 23,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -4193,7 +4266,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 19,
+        "waitingDays": 21,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -4220,7 +4293,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 18,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -4249,7 +4322,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 16,
         "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
@@ -4281,7 +4354,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 16,
         "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
@@ -4313,7 +4386,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 12,
+        "waitingDays": 14,
         "updatedAt": "2026-08-10T16:09:09Z"
       },
       {
@@ -4342,7 +4415,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 13,
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
@@ -4366,66 +4439,8 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 10,
+        "waitingDays": 12,
         "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
-        "number": 2378,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2378",
-        "targetBranch": "oadp-1.3",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-12T18:06:50Z"
-      },
-      {
-        "number": 2379,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2379",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
         "number": 10210,
@@ -4456,7 +4471,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 10,
+        "waitingDays": 12,
         "updatedAt": "2026-08-12T05:10:33Z"
       },
       {
@@ -4493,7 +4508,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 9,
+        "waitingDays": 11,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -4521,8 +4536,66 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 9,
+        "waitingDays": 11,
         "updatedAt": "2026-08-12T19:01:32Z"
+      },
+      {
+        "number": 2378,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2378",
+        "targetBranch": "oadp-1.3",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-12T18:06:50Z"
+      },
+      {
+        "number": 2379,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2379",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
         "number": 2207,
@@ -4551,7 +4624,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 8,
+        "waitingDays": 10,
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
@@ -4580,7 +4653,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 8,
+        "waitingDays": 10,
         "updatedAt": "2026-08-13T19:59:49Z"
       },
       {
@@ -4612,7 +4685,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
@@ -4642,7 +4715,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-15T06:21:35Z"
       },
       {
@@ -4670,7 +4743,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T22:55:52Z"
       },
       {
@@ -4701,7 +4774,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-15T01:46:23Z"
       },
       {
@@ -4732,7 +4805,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T22:44:58Z"
       },
       {
@@ -4761,7 +4834,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T21:03:43Z"
       },
       {
@@ -4790,7 +4863,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T22:31:17Z"
       },
       {
@@ -4819,7 +4892,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T22:23:25Z"
       },
       {
@@ -4848,7 +4921,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:40:39Z"
       },
       {
@@ -4877,7 +4950,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:41:46Z"
       },
       {
@@ -4906,7 +4979,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:42:00Z"
       },
       {
@@ -4935,7 +5008,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:42:02Z"
       },
       {
@@ -4961,7 +5034,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T21:03:44Z"
       },
       {
@@ -4987,7 +5060,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:54:13Z"
       },
       {
@@ -5013,7 +5086,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:55:08Z"
       },
       {
@@ -5039,7 +5112,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:55:53Z"
       },
       {
@@ -5065,7 +5138,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
@@ -5091,7 +5164,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:52:37Z"
       },
       {
@@ -5117,7 +5190,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:54:52Z"
       },
       {
@@ -5143,7 +5216,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 9,
         "updatedAt": "2026-08-14T23:59:30Z"
       },
       {
@@ -5175,7 +5248,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 3,
         "updatedAt": "2026-08-21T11:19:54Z"
       },
       {
@@ -5207,7 +5280,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 3,
         "updatedAt": "2026-08-21T13:46:33Z"
       },
       {
@@ -5231,7 +5304,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 2,
         "updatedAt": "2026-08-21T18:49:03Z"
       },
       {
@@ -5260,40 +5333,8 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 2,
         "updatedAt": "2026-08-22T02:05:27Z"
-      },
-      {
-        "number": 10348,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
-        "url": "https://github.com/velero-io/velero/pull/10348",
-        "targetBranch": "release-1.18",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-21T19:16:50Z"
       },
       {
         "number": 9770,
@@ -5323,7 +5364,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 2,
         "updatedAt": "2026-08-21T20:50:45Z"
       },
       {
@@ -5349,8 +5390,159 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 2,
         "updatedAt": "2026-08-21T20:43:44Z"
+      },
+      {
+        "number": 195,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: name root cause in restore PVC-conflict error messages",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T13:52:19Z"
+      },
+      {
+        "number": 182,
+        "repo": "migtools/udistribution",
+        "org": "migtools",
+        "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
+        "url": "https://github.com/migtools/udistribution/pull/182",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T02:56:01Z"
+      },
+      {
+        "number": 2404,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "test: unpend two kdm restore PIts now that upstream fixes landed",
+        "url": "https://github.com/openshift/oadp-operator/pull/2404",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "savitharaghunathan"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T15:20:15Z"
+      },
+      {
+        "number": 10381,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/10381",
+        "targetBranch": "release-1.18",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T15:34:03Z"
+      },
+      {
+        "number": 10382,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/10382",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T15:14:17Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5379,7 +5571,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 136,
+        "waitingDays": 138,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5407,7 +5599,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -5438,7 +5630,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 17,
+        "waitingDays": 19,
         "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
@@ -5469,7 +5661,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 17,
+        "waitingDays": 19,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -5503,7 +5695,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 11,
+        "waitingDays": 13,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5535,7 +5727,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 11,
+        "waitingDays": 13,
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
@@ -5571,7 +5763,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 8,
+        "waitingDays": 10,
         "updatedAt": "2026-08-13T20:17:52Z"
       },
       {
@@ -5601,7 +5793,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 8,
+        "waitingDays": 10,
         "updatedAt": "2026-08-13T19:05:52Z"
       },
       {
@@ -5633,42 +5825,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 3,
         "updatedAt": "2026-08-21T13:48:45Z"
-      },
-      {
-        "number": 9795,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/9795",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "blackpiglet",
-          "shubham-pampattiwar",
-          "Lyndon-Li"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-21T15:39:08Z"
       },
       {
         "number": 2205,
@@ -5700,7 +5858,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 2,
         "updatedAt": "2026-08-22T05:11:52Z"
       },
       {
@@ -5731,8 +5889,40 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 2,
         "updatedAt": "2026-08-21T19:27:36Z"
+      },
+      {
+        "number": 197,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "PrasadJoshi12"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-24T15:43:41Z"
       }
     ]
   }
