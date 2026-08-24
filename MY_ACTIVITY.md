@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-10 — 2026-08-24
-> **Generated:** 2026-08-24 20:33:19 UTC
+> **Generated:** 2026-08-24 21:31:45 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -129,7 +129,7 @@
 - [#10220 Group Dependabot GitHub Actions updates](https://github.com/velero-io/velero/pull/10220) — velero-io/velero
 
 **openshift** (20)
-- [#2404 test: unpend two kdm restore PIts now that upstream fixes landed](https://github.com/openshift/oadp-operator/pull/2404) — openshift/oadp-operator
+- [#2404 test: unpend two kdm restore PIts, fixing bugs found via live e2e validation](https://github.com/openshift/oadp-operator/pull/2404) — openshift/oadp-operator
 - [#2402 Unpend two kdm restore e2e tests now that phase 4 landed](https://github.com/openshift/oadp-operator/pull/2402) — openshift/oadp-operator
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 - [#2387 Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/pull/2387) — openshift/oadp-operator
