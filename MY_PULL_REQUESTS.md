@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-24 01:03:11 UTC
+> Last updated: 2026-08-24 06:50:10 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -114,6 +114,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
+- [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/migtools/udistribution/pull/182) **migtools/udistribution** → `main` - fix: use %s format verb for cmp.Diff in t.Errorf calls
 
 ## oadp-rebase
 
