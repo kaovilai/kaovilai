@@ -123,7 +123,24 @@ while IFS= read -r pr; do
         details='{}'
     fi
 
-    jq -n --argjson pr "$pr" --argjson details "$details" --arg staleCutoff "$STALE_CUTOFF" '
+    owner="${repo%%/*}"
+    name="${repo##*/}"
+    blocker=$(retry_with_backoff gh api graphql -f query='
+        query($owner:String!, $name:String!, $number:Int!) {
+          repository(owner:$owner, name:$name) {
+            pullRequest(number:$number) {
+              mergeable
+              reviewDecision
+              reviewThreads(first: 50) { nodes { isResolved } }
+            }
+          }
+        }' -F owner="$owner" -F name="$name" -F number="$number" \
+        --jq '.data.repository.pullRequest')
+    if ! jq -e 'type == "object"' <<< "$blocker" > /dev/null 2>&1; then
+        blocker='{}'
+    fi
+
+    jq -n --argjson pr "$pr" --argjson details "$details" --argjson blocker "$blocker" --arg staleCutoff "$STALE_CUTOFF" '
         ($details.milestone.title // null) as $milestone
         | ($details.baseRefName // "unknown") as $targetBranch
         | ($pr.updatedAt) as $u
@@ -136,6 +153,7 @@ while IFS= read -r pr; do
                 name: (.name // .context // ""),
                 conclusion: (.conclusion // .state // "")
             } | select(.name | test("tide|auto request review"; "i") | not)]) as $ci
+        | ($blocker.reviewThreads.nodes // []) as $threads
         | (
             if $pr.isDraft then "draft"
             elif ($pr.labels | index("do-not-merge/hold")) then "hold"
@@ -145,7 +163,15 @@ while IFS= read -r pr; do
                 then "stale"
             elif ($details.mergeStateStatus | IN("CLEAN", "HAS_HOOKS", "UNSTABLE"))
                 then "ready"
-            else "waiting-merge"
+            elif ($blocker.mergeable == "CONFLICTING")
+                then "conflicts"
+            elif ([$ci[] | select(.conclusion == "" or .conclusion == null)] | length > 0)
+                then "missing-checks"
+            elif ($blocker.reviewDecision | IN("REVIEW_REQUIRED", "CHANGES_REQUESTED"))
+                then "missing-reviews"
+            elif ([$threads[] | select(.isResolved == false)] | length > 0)
+                then "unresolved-conversations"
+            else "blocked"
             end
         ) as $status
         | {

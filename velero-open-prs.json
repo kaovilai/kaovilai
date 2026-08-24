@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T19:37:22Z",
+  "updatedAt": "2026-08-24T15:03:33Z",
   "recognizedMilestones": [
     "2.0",
     "v1.19"
@@ -82,7 +82,7 @@
       "title": "Detect SCC UID/GID-range mismatch on namespace restore",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
       "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -131,7 +131,7 @@
       "title": "Design for CRD schema validation at server startup",
       "url": "https://github.com/velero-io/velero/pull/10010",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -1186,7 +1186,7 @@
       "title": "Fail fast with clear error when data mover pod is unschedulable",
       "url": "https://github.com/velero-io/velero/pull/10276",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -1491,7 +1491,7 @@
       "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
       "url": "https://github.com/velero-io/velero/pull/10281",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -1773,7 +1773,7 @@
       "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
       "url": "https://github.com/velero-io/velero/pull/10306",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "conflicts",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -1784,7 +1784,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-18T13:18:57Z",
+      "updatedAt": "2026-08-24T03:21:10Z",
       "ciChecks": [
         {
           "name": "triage",
@@ -3863,7 +3863,7 @@
       "title": "Design proposal for handling restoration of Kubernetes Jobs",
       "url": "https://github.com/velero-io/velero/pull/8884",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -4166,7 +4166,7 @@
       "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
       "url": "https://github.com/velero-io/velero/pull/9236",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -4484,7 +4484,7 @@
       "title": "Skip restore informer cache for resources without watch support",
       "url": "https://github.com/velero-io/velero/pull/9384",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -5264,7 +5264,7 @@
       "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
       "url": "https://github.com/velero-io/velero/pull/9646",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -5638,7 +5638,7 @@
       "title": "Design: namespace selection by label in resource policy",
       "url": "https://github.com/velero-io/velero/pull/9772",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -5693,302 +5693,13 @@
       ]
     },
     {
-      "number": 9795,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/9795",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-21T15:39:08Z",
-      "ciChecks": [
-        {
-          "name": "add-reviews",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "add-reviews",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "triage",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run Changelog Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run Codespell",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Check for invalid characters in file paths",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "re-request-review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "re-request-review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run CI",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run Linter Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "setup-test-matrix",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.36.1, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.36.1, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.36.1, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedRe...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.36.1, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple &...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.35.5, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.35.5, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.35.5, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedRe...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.35.5, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple &...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.34.8, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.34.8, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.34.8, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedRe...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.34.8, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple &...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.33.12, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.33.12, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.33.12, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.33.12, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.32.11, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.32.11, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.32.11, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.32.11, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.31.14, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.31.14, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.31.14, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.31.14, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.30.13, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.30.13, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.30.13, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.30.13, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.29.14, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.29.14, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.29.14, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.29.14, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.28.15, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.28.15, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.28.15, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.28.15, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.27.16, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.27.16, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.27.16, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.27.16, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.26.15, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.26.15, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.26.15, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.26.15, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.25.16, Basic && (ClusterResource || NodePort || StorageClass))",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.25.16, ResourceFiltering && !FSBackup)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.25.16, ResourceModifier || (Backups && BackupsSync) || PrivilegesMgmt || OrderedR...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "run-e2e-test (1.25.16, (NamespaceMapping && Single && FSBackup) || (NamespaceMapping && Multiple ...",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "DCO",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "codecov/patch",
-          "conclusion": "SUCCESS"
-        }
-      ],
-      "closingIssuesReferences": [
-        {
-          "number": 9429,
-          "repo": "velero-io/velero",
-          "url": "https://github.com/velero-io/velero/issues/9429"
-        }
-      ]
-    },
-    {
       "number": 9910,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "feat: add CRD schema validation during server startup",
       "url": "https://github.com/velero-io/velero/pull/9910",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "conflicts",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6310,7 +6021,7 @@
       "title": "Fix silent volume restoration failures for encrypted snapshots",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/267",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6348,7 +6059,7 @@
       "title": "Add CODEOWNERS for automatic review requests",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/312",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "blocked",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6388,7 +6099,7 @@
       "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6420,7 +6131,7 @@
       "title": "[release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/320",
       "targetBranch": "release-1.14",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6452,7 +6163,7 @@
       "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6484,7 +6195,7 @@
       "title": "[release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/322",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6516,7 +6227,7 @@
       "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6548,7 +6259,7 @@
       "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6580,7 +6291,7 @@
       "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325",
       "targetBranch": "release-1.14",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6616,7 +6327,7 @@
       "title": "Add CODEOWNERS for automatic review requests",
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/261",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6656,7 +6367,7 @@
       "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6724,7 +6435,7 @@
       "title": "[release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)",
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/268",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6760,7 +6471,7 @@
       "title": "[release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)",
       "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/269",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6792,7 +6503,7 @@
       "title": "Fix Auto Request Review workflow: bump action version and pass token",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6832,7 +6543,7 @@
       "title": "Add CODEOWNERS for automatic review requests",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6868,7 +6579,7 @@
       "title": "[release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320",
       "targetBranch": "release-1.14",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6900,7 +6611,7 @@
       "title": "[release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6928,7 +6639,7 @@
       "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
       "targetBranch": "main",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6964,7 +6675,7 @@
       "title": "[release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -6996,7 +6707,7 @@
       "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -7028,7 +6739,7 @@
       "title": "[release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327",
       "targetBranch": "release-1.14",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [
@@ -7064,7 +6775,7 @@
       "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328",
       "targetBranch": "release-1.13",
-      "status": "waiting-merge",
+      "status": "missing-reviews",
       "milestone": null,
       "author": "kaovilai",
       "assignees": [

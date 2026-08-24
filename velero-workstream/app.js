@@ -36,7 +36,11 @@ function repoNodeKey(repo) {
 
 const PR_STATUS_META = {
   ready: { pill: "good", icon: "✅", label: "mergeable" },
-  "waiting-merge": { pill: "warning", icon: "⏳", label: "waiting merge" },
+  conflicts: { pill: "critical", icon: "💥", label: "conflicts" },
+  "missing-checks": { pill: "warning", icon: "⏳", label: "missing checks" },
+  "missing-reviews": { pill: "warning", icon: "👀", label: "missing reviews" },
+  "unresolved-conversations": { pill: "warning", icon: "💬", label: "unresolved conversations" },
+  blocked: { pill: "warning", icon: "🚧", label: "blocked (other)" },
   hold: { pill: "warning", icon: "✋", label: "hold" },
   "failing-ci": { pill: "critical", icon: "❌", label: "failing CI" },
   draft: { pill: "neutral", icon: "📝", label: "draft" },
@@ -50,7 +54,18 @@ const ISSUE_STATUS_META = {
 
 /* Fixed status column order per section — never sorted by count. */
 const ISSUE_STATUS_ORDER = ["open", "stale"];
-const PR_STATUS_ORDER = ["ready", "waiting-merge", "hold", "failing-ci", "draft", "stale"];
+const PR_STATUS_ORDER = [
+  "ready",
+  "conflicts",
+  "missing-checks",
+  "missing-reviews",
+  "unresolved-conversations",
+  "blocked",
+  "hold",
+  "failing-ci",
+  "draft",
+  "stale",
+];
 
 function repoMeta(repo) {
   return REPO_COLORS[repo] || { ...DEFAULT_REPO, label: shortRepoLabel(repo) };
@@ -364,7 +379,7 @@ function drawNodes(nodeLayer, labelLayer, nodes, x, side, onNodeActivate) {
 
     const centerY = node.y + node.height / 2;
     let iconOffset = 0;
-    if (side === "right" && node.key === "waiting-merge") {
+    if (side === "right" && node.key === "missing-reviews") {
       labelLayer.appendChild(buildBlockedIcon(x + NODE_W + 10, centerY - 9));
       iconOffset = 46 + 6;
     }
