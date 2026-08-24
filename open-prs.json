@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T16:42:27Z",
+  "updatedAt": "2026-08-24T17:34:11Z",
   "prs": [
     {
       "number": 10010,
@@ -1453,30 +1453,6 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-21T19:27:36Z"
-    },
-    {
-      "number": 83833,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
-      "url": "https://github.com/openshift/release/pull/83833",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "weshayutin",
-        "sseago",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-24T16:41:30Z"
     },
     {
       "number": 2360,
@@ -3216,7 +3192,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-24T16:42:27Z",
+    "updatedAt": "2026-08-24T17:34:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3797,7 +3773,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -3823,7 +3799,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -3849,7 +3825,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -3875,7 +3851,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:58:01Z"
       },
       {
@@ -3901,7 +3877,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -4030,7 +4006,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
@@ -5623,7 +5599,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -5947,41 +5923,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-24T15:43:41Z"
-      },
-      {
-        "number": 83833,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
-        "url": "https://github.com/openshift/release/pull/83833",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "sseago",
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "lgtm",
-          "approved",
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "chaclark1974",
-          "Joeavaikath"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-24T16:41:30Z"
       }
     ]
   }
