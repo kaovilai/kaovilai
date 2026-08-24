@@ -1,9 +1,9 @@
 /* ==========================================================================
-   Velero Workstream Dashboard
+   Workstream Dashboard
    Brand chrome: navy/blue/teal (velero.io accents) on a light-neutral page.
-   Repo-identity colors and status pills use a fixed, colorblind-validated
-   palette — never change these hues; they were validated via OKLCH ΔE
-   checks against CVD simulation.
+   Workstream-identity colors and status pills use a fixed, colorblind-
+   validated palette — never change these hues; they were validated via
+   OKLCH ΔE checks against CVD simulation.
    ========================================================================== */
 
 :root {
@@ -31,12 +31,13 @@
   --shadow: 0 1px 2px rgba(0, 37, 56, 0.06), 0 2px 8px rgba(0, 37, 56, 0.05);
   --shadow-hover: 0 2px 4px rgba(0, 37, 56, 0.08), 0 6px 16px rgba(0, 37, 56, 0.10);
 
-  /* repo-identity categorical colors (light mode) */
-  --repo-velero: #0072B2;
-  --repo-aws: #009E73;
-  --repo-gcp: #E69F00;
-  --repo-azure: #CC79A7;
-  --repo-other: #898781;
+  /* workstream-identity categorical colors (light mode) */
+  --ws-velero: #0072B2;
+  --ws-oadp: #009E73;
+  --ws-kubevirt-dm: #E69F00;
+  --ws-kubernetes: #CC79A7;
+  --ws-cncf: #9260da;
+  --ws-uncategorized: #898781;
 
   /* status pill colors (light mode) */
   --status-good: #0ca30c;
@@ -67,8 +68,9 @@
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.25);
     --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.35), 0 6px 16px rgba(0, 0, 0, 0.3);
 
-    --repo-gcp: #b46f00;
-    --repo-azure: #a94b83;
+    --ws-kubevirt-dm: #b46f00;
+    --ws-kubernetes: #a94b83;
+    --ws-cncf: #9b6ae4;
 
     --status-critical: #e66767;
   }
@@ -94,8 +96,9 @@
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 8px rgba(0, 0, 0, 0.25);
   --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.35), 0 6px 16px rgba(0, 0, 0, 0.3);
 
-  --repo-gcp: #b46f00;
-  --repo-azure: #a94b83;
+  --ws-kubevirt-dm: #b46f00;
+  --ws-kubernetes: #a94b83;
+  --ws-cncf: #9b6ae4;
 
   --status-critical: #e66767;
 }
@@ -202,6 +205,77 @@ button:focus-visible,
 
 .theme-toggle:hover {
   background: rgba(255, 255, 255, 0.22);
+}
+
+/* ---------- filter bar ---------- */
+
+.filter-bar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-bar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.6rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.filter-bar label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.filter-bar select {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+/* ---------- status filter chips ---------- */
+
+.status-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.85rem;
+}
+
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-faint);
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.status-chip.active {
+  opacity: 1;
+  color: var(--text);
+  border-color: var(--brand-link-blue);
+}
+
+.status-chip:hover {
+  opacity: 0.85;
+}
+
+.status-chip-count {
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- main layout ---------- */
@@ -495,6 +569,13 @@ button:focus-visible,
   text-align: center;
   padding: 3rem 1rem;
   font-size: 1rem;
+}
+
+.no-match {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  padding: 1.5rem 0;
 }
 
 /* ---------- footer ---------- */

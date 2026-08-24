@@ -1,37 +1,34 @@
 "use strict";
 
 /* ==========================================================================
-   Velero Workstream Dashboard — vanilla JS, no build step, no deps.
-   Renders two real Sankey diagrams (Milestone -> Repo -> Status) for
-   issues assigned to me and PRs opened by me.
+   Workstream Dashboard — vanilla JS, no build step, no deps.
+   Renders two real Sankey diagrams (Milestone -> Workstream -> Status) for
+   issues assigned to me and PRs opened by me, across every repo/org.
    ========================================================================== */
 
-/* ---------- repo identity (colorblind-validated, do not change hues) ---------- */
+/* ---------- workstream identity (colorblind-validated, do not change hues) ---------- */
 
-const REPO_COLORS = {
-  "velero-io/velero": { color: "var(--repo-velero)", label: "velero" },
-  "velero-io/velero-plugin-for-aws": { color: "var(--repo-aws)", label: "aws" },
-  "velero-io/velero-plugin-for-gcp": { color: "var(--repo-gcp)", label: "gcp" },
-  "velero-io/velero-plugin-for-microsoft-azure": { color: "var(--repo-azure)", label: "azure" },
-  "openshift/openshift-velero-plugin": { color: "var(--repo-other)", label: "openshift-plugin" },
-};
-
-const DEFAULT_REPO = { color: "var(--repo-other)", label: null };
-
-/* Fixed node identity + stacking order for the Repo column. Any repo not in
-   the first four keys collapses into "other" — identity is never re-ranked
-   by count. */
-const REPO_NODE_ORDER = [
-  { key: "velero-io/velero", label: "velero", color: "var(--repo-velero)" },
-  { key: "velero-io/velero-plugin-for-aws", label: "aws", color: "var(--repo-aws)" },
-  { key: "velero-io/velero-plugin-for-gcp", label: "gcp", color: "var(--repo-gcp)" },
-  { key: "velero-io/velero-plugin-for-microsoft-azure", label: "azure", color: "var(--repo-azure)" },
-  { key: "other", label: "other", color: "var(--repo-other)" },
+/* Fixed node identity + stacking order for the Workstream column. Every
+   issue/PR is pre-classified by the data-fetch script into exactly one of
+   these keys — identity is never re-ranked by count, and an unrecognized
+   key falls back to "Uncategorized". */
+const WORKSTREAM_NODE_ORDER = [
+  { key: "Velero", label: "Velero", color: "var(--ws-velero)" },
+  { key: "OADP", label: "OADP", color: "var(--ws-oadp)" },
+  { key: "KubeVirt Data Mover", label: "KubeVirt Data Mover", color: "var(--ws-kubevirt-dm)" },
+  { key: "Kubernetes", label: "Kubernetes", color: "var(--ws-kubernetes)" },
+  { key: "CNCF Landscape", label: "CNCF Landscape", color: "var(--ws-cncf)" },
+  { key: "Uncategorized", label: "Uncategorized", color: "var(--ws-uncategorized)" },
 ];
-const KNOWN_REPO_KEYS = new Set(REPO_NODE_ORDER.slice(0, 4).map((r) => r.key));
+const KNOWN_WORKSTREAM_KEYS = new Set(WORKSTREAM_NODE_ORDER.map((w) => w.key));
 
-function repoNodeKey(repo) {
-  return KNOWN_REPO_KEYS.has(repo) ? repo : "other";
+function workstreamKeyFor(item) {
+  return KNOWN_WORKSTREAM_KEYS.has(item.workstream) ? item.workstream : "Uncategorized";
+}
+
+function workstreamColor(key) {
+  const def = WORKSTREAM_NODE_ORDER.find((w) => w.key === key);
+  return def ? def.color : "var(--ws-uncategorized)";
 }
 
 const PR_STATUS_META = {
@@ -66,10 +63,6 @@ const PR_STATUS_ORDER = [
   "draft",
   "stale",
 ];
-
-function repoMeta(repo) {
-  return REPO_COLORS[repo] || { ...DEFAULT_REPO, label: shortRepoLabel(repo) };
-}
 
 function shortRepoLabel(repo) {
   const parts = repo.split("/");
@@ -113,11 +106,11 @@ function escapeHtml(str) {
     .replace(/'/g, "&#39;");
 }
 
-function renderRepoTag(repo) {
-  const meta = repoMeta(repo);
+function renderRepoTag(repo, workstream) {
+  const color = workstreamColor(workstreamKeyFor({ workstream }));
   return `<span class="repo-tag">
-    <span class="repo-dot" style="background:${meta.color}" aria-hidden="true"></span>
-    <span>${escapeHtml(meta.label)}</span>
+    <span class="repo-dot" style="background:${color}" aria-hidden="true"></span>
+    <span>${escapeHtml(shortRepoLabel(repo))}</span>
   </span>`;
 }
 
@@ -179,10 +172,10 @@ function milestoneKeyFor(item, recognizedMilestones) {
 }
 
 /**
- * Builds the three fixed-order node columns (Milestone -> Repo -> Status)
- * and the two link sets between them, for one section (issues or PRs).
- * Column order and per-node sub-flow order are both driven by the fixed
- * category arrays — never re-ranked by count.
+ * Builds the three fixed-order node columns (Milestone -> Workstream ->
+ * Status) and the two link sets between them, for one section (issues or
+ * PRs). Column order and per-node sub-flow order are both driven by the
+ * fixed category arrays — never re-ranked by count.
  */
 function buildSankeyData(items, recognizedMilestones, statusOrder, statusMetaMap) {
   const milestoneNodes = [];
@@ -192,11 +185,11 @@ function buildSankeyData(items, recognizedMilestones, statusOrder, statusMetaMap
     milestoneNodes.push({ key: def.key, rawLabel: def.rawLabel, count: subset.length, items: subset });
   }
 
-  const repoNodes = [];
-  for (const rdef of REPO_NODE_ORDER) {
-    const subset = items.filter((it) => repoNodeKey(it.repo) === rdef.key);
+  const workstreamNodes = [];
+  for (const wdef of WORKSTREAM_NODE_ORDER) {
+    const subset = items.filter((it) => workstreamKeyFor(it) === wdef.key);
     if (!subset.length) continue;
-    repoNodes.push({ key: rdef.key, rawLabel: rdef.label, color: rdef.color, count: subset.length, items: subset });
+    workstreamNodes.push({ key: wdef.key, rawLabel: wdef.label, color: wdef.color, count: subset.length, items: subset });
   }
 
   const statusNodes = [];
@@ -208,39 +201,39 @@ function buildSankeyData(items, recognizedMilestones, statusOrder, statusMetaMap
 
   const linksMS = [];
   for (const mnode of milestoneNodes) {
-    for (const rdef of REPO_NODE_ORDER) {
-      const subset = mnode.items.filter((it) => repoNodeKey(it.repo) === rdef.key);
+    for (const wdef of WORKSTREAM_NODE_ORDER) {
+      const subset = mnode.items.filter((it) => workstreamKeyFor(it) === wdef.key);
       if (!subset.length) continue;
       linksMS.push({
         source: mnode.key,
         sourceLabel: mnode.rawLabel,
-        target: rdef.key,
-        targetLabel: rdef.label,
+        target: wdef.key,
+        targetLabel: wdef.label,
         count: subset.length,
         items: subset,
-        color: rdef.color,
+        color: wdef.color,
       });
     }
   }
 
   const linksRS = [];
-  for (const rnode of repoNodes) {
+  for (const wnode of workstreamNodes) {
     for (const skey of statusOrder) {
-      const subset = rnode.items.filter((it) => it.status === skey);
+      const subset = wnode.items.filter((it) => it.status === skey);
       if (!subset.length) continue;
       linksRS.push({
-        source: rnode.key,
-        sourceLabel: rnode.rawLabel,
+        source: wnode.key,
+        sourceLabel: wnode.rawLabel,
         target: skey,
         targetLabel: statusLabel(skey, statusMetaMap),
         count: subset.length,
         items: subset,
-        color: rnode.color,
+        color: wnode.color,
       });
     }
   }
 
-  return { milestoneNodes, repoNodes, statusNodes, linksMS, linksRS, total: items.length };
+  return { milestoneNodes, workstreamNodes, statusNodes, linksMS, linksRS, total: items.length };
 }
 
 /* ==========================================================================
@@ -359,16 +352,16 @@ function drawLinks(layer, links, xA, xB, onLinkActivate) {
 
 function drawNodes(nodeLayer, labelLayer, nodes, x, side, onNodeActivate) {
   for (const node of nodes) {
-    const isRepoCol = side === "middle";
+    const isWorkstreamCol = side === "middle";
     const rect = svgEl("rect", {
       x,
       y: node.y,
       width: NODE_W,
       height: Math.max(node.height, 1),
       rx: 2,
-      class: "sankey-node" + (isRepoCol ? " sankey-node-repo" : " sankey-node-neutral"),
+      class: "sankey-node" + (isWorkstreamCol ? " sankey-node-repo" : " sankey-node-neutral"),
     });
-    if (isRepoCol) rect.setAttribute("fill", node.color);
+    if (isWorkstreamCol) rect.setAttribute("fill", node.color);
 
     const displayLabel = `${node.rawLabel} (${node.count})`;
     const title = svgEl("title", {});
@@ -419,18 +412,18 @@ function addColumnHeader(layer, x, text) {
 function renderSankeySection({ svg, data, height, sectionLabel, onNodeActivate, onLinkActivate }) {
   const plotHeight = height - PLOT_TOP - PLOT_BOTTOM;
   layoutColumn(data.milestoneNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
-  layoutColumn(data.repoNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
+  layoutColumn(data.workstreamNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
   layoutColumn(data.statusNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
 
   assignOutgoing(data.milestoneNodes, data.linksMS, "source");
-  assignIncoming(data.repoNodes, data.linksMS, "target");
-  assignOutgoing(data.repoNodes, data.linksRS, "source");
+  assignIncoming(data.workstreamNodes, data.linksMS, "target");
+  assignOutgoing(data.workstreamNodes, data.linksRS, "source");
   assignIncoming(data.statusNodes, data.linksRS, "target");
 
   svg.innerHTML = "";
   svg.setAttribute("viewBox", `0 0 ${VIEW_W} ${height}`);
   svg.setAttribute("role", "img");
-  svg.setAttribute("aria-label", `${sectionLabel} Sankey diagram: milestone to repo to status`);
+  svg.setAttribute("aria-label", `${sectionLabel} Sankey diagram: milestone to workstream to status`);
 
   const linkLayer = svgEl("g", { class: "sankey-link-layer" });
   const nodeLayer = svgEl("g", { class: "sankey-node-layer" });
@@ -440,14 +433,14 @@ function renderSankeySection({ svg, data, height, sectionLabel, onNodeActivate, 
   svg.appendChild(labelLayer);
 
   addColumnHeader(labelLayer, COL0_X + NODE_W / 2, "Milestone");
-  addColumnHeader(labelLayer, COL1_X + NODE_W / 2, "Repo");
+  addColumnHeader(labelLayer, COL1_X + NODE_W / 2, "Workstream");
   addColumnHeader(labelLayer, COL2_X + NODE_W / 2, "Status");
 
   drawLinks(linkLayer, data.linksMS, COL0_X, COL1_X, onLinkActivate);
   drawLinks(linkLayer, data.linksRS, COL1_X, COL2_X, onLinkActivate);
 
   drawNodes(nodeLayer, labelLayer, data.milestoneNodes, COL0_X, "left", onNodeActivate);
-  drawNodes(nodeLayer, labelLayer, data.repoNodes, COL1_X, "middle", onNodeActivate);
+  drawNodes(nodeLayer, labelLayer, data.workstreamNodes, COL1_X, "middle", onNodeActivate);
   drawNodes(nodeLayer, labelLayer, data.statusNodes, COL2_X, "right", onNodeActivate);
 }
 
@@ -463,7 +456,7 @@ function renderPanelItem(item) {
   return `<li class="panel-item">
     <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
     <div class="panel-item-meta">
-      ${renderRepoTag(item.repo)}
+      ${renderRepoTag(item.repo, item.workstream)}
       <span class="number-tag">#${item.number}</span>
       ${renderPill(meta)}
       <span class="age">${escapeHtml(relativeAge(item.updatedAt))}</span>
@@ -515,6 +508,16 @@ function onLinkActivate(link) {
   openPanel(`${link.sourceLabel} → ${link.targetLabel}`, link.items);
 }
 
+/* ---------- workstream legend ---------- */
+
+function renderLegend() {
+  const el = document.getElementById("workstream-legend");
+  el.innerHTML = WORKSTREAM_NODE_ORDER.map(
+    (w) =>
+      `<span class="repo-legend-item"><span class="repo-dot" style="background:${w.color}"></span>${escapeHtml(w.label)}</span>`
+  ).join("");
+}
+
 /* ---------- theme toggle ---------- */
 
 function initTheme() {
@@ -537,6 +540,118 @@ function initTheme() {
   });
 }
 
+/* ==========================================================================
+   Filters: shared repo dropdown + per-section status chips
+   ========================================================================== */
+
+let allIssues = [];
+let allPrs = [];
+let selectedRepo = "";
+const issuesDisabledStatuses = new Set();
+const prsDisabledStatuses = new Set();
+
+function populateRepoFilter() {
+  const select = document.getElementById("repo-filter");
+  const repos = Array.from(new Set([...allIssues, ...allPrs].map((it) => it.repo))).sort();
+  for (const repo of repos) {
+    const opt = document.createElement("option");
+    opt.value = repo;
+    opt.textContent = repo;
+    select.appendChild(opt);
+  }
+  select.addEventListener("change", () => {
+    selectedRepo = select.value;
+    rerender();
+  });
+}
+
+function repoFiltered(items) {
+  return selectedRepo ? items.filter((it) => it.repo === selectedRepo) : items.slice();
+}
+
+/**
+ * Renders one row of status-filter chips into `containerId`, populated from
+ * whichever statuses are actually present in `items` (already repo-filtered,
+ * but NOT yet status-filtered — so a toggled-off chip stays visible to be
+ * re-enabled). Clicking a chip toggles its key in `disabledSet` and
+ * triggers a full re-render.
+ */
+function renderStatusChips(containerId, items, statusOrder, statusMetaMap, disabledSet) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = "";
+  for (const key of statusOrder) {
+    const count = items.filter((it) => it.status === key).length;
+    if (!count) continue;
+    const meta = statusMetaMap[key] || { icon: "", label: key };
+    const active = !disabledSet.has(key);
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "status-chip" + (active ? " active" : "");
+    btn.setAttribute("aria-pressed", String(active));
+    btn.innerHTML = `<span aria-hidden="true">${meta.icon}</span>${escapeHtml(meta.label)} <span class="status-chip-count">${count}</span>`;
+    btn.addEventListener("click", () => {
+      if (disabledSet.has(key)) disabledSet.delete(key);
+      else disabledSet.add(key);
+      rerender();
+    });
+    container.appendChild(btn);
+  }
+}
+
+function renderSection({ sectionId, chipsId, svgId, items, statusOrder, statusMetaMap, disabledSet, recognizedMilestones, height, sectionLabel }) {
+  const section = document.getElementById(sectionId);
+  const repoScoped = repoFiltered(items);
+  renderStatusChips(chipsId, repoScoped, statusOrder, statusMetaMap, disabledSet);
+
+  const finalItems = repoScoped.filter((it) => !disabledSet.has(it.status));
+  const svg = document.getElementById(svgId);
+  const noMatchEl = document.getElementById(svgId.replace("-sankey", "-no-match"));
+
+  if (!finalItems.length) {
+    svg.innerHTML = "";
+    svg.removeAttribute("viewBox");
+    if (noMatchEl) noMatchEl.hidden = false;
+    return;
+  }
+  if (noMatchEl) noMatchEl.hidden = true;
+
+  const data = buildSankeyData(finalItems, recognizedMilestones, statusOrder, statusMetaMap);
+  renderSankeySection({ svg, data, height, sectionLabel, onNodeActivate, onLinkActivate });
+}
+
+let recognizedMilestonesGlobal = [];
+
+function rerender() {
+  if (allIssues.length) {
+    renderSection({
+      sectionId: "issues-section",
+      chipsId: "issues-status-chips",
+      svgId: "issues-sankey",
+      items: allIssues,
+      statusOrder: ISSUE_STATUS_ORDER,
+      statusMetaMap: ISSUE_STATUS_META,
+      disabledSet: issuesDisabledStatuses,
+      recognizedMilestones: recognizedMilestonesGlobal,
+      height: 460,
+      sectionLabel: "Issues",
+    });
+  }
+  if (allPrs.length) {
+    renderSection({
+      sectionId: "prs-section",
+      chipsId: "prs-status-chips",
+      svgId: "prs-sankey",
+      items: allPrs,
+      statusOrder: PR_STATUS_ORDER,
+      statusMetaMap: PR_STATUS_META,
+      disabledSet: prsDisabledStatuses,
+      recognizedMilestones: recognizedMilestonesGlobal,
+      height: 520,
+      sectionLabel: "PRs",
+    });
+  }
+}
+
 /* ---------- boot ---------- */
 
 async function fetchJson(path) {
@@ -548,57 +663,39 @@ async function fetchJson(path) {
 async function main() {
   initTheme();
   initPanel();
+  renderLegend();
 
   let issuesData, prsData;
   try {
     [issuesData, prsData] = await Promise.all([
-      fetchJson("../velero-open-issues.json"),
-      fetchJson("../velero-open-prs.json"),
+      fetchJson("../workstream-issues.json"),
+      fetchJson("../workstream-prs.json"),
     ]);
   } catch (err) {
     const errEl = document.getElementById("load-error");
     errEl.hidden = false;
     errEl.textContent =
-      "Couldn't load workstream data yet (velero-open-issues.json / velero-open-prs.json missing or unreadable). " +
+      "Couldn't load workstream data yet (workstream-issues.json / workstream-prs.json missing or unreadable). " +
       "The data-fetch workflow may not have run yet. Try again in a bit.";
     return;
   }
 
-  const issues = (issuesData.issues || []).map((i) => ({ ...i, _kind: "issue" }));
-  const prs = (prsData.prs || []).map((p) => ({ ...p, _kind: "pr" }));
-  const recognizedMilestones = issuesData.recognizedMilestones || prsData.recognizedMilestones || [];
+  allIssues = (issuesData.issues || []).map((i) => ({ ...i, _kind: "issue" }));
+  allPrs = (prsData.prs || []).map((p) => ({ ...p, _kind: "pr" }));
+  recognizedMilestonesGlobal = issuesData.recognizedMilestones || prsData.recognizedMilestones || [];
 
-  if (!issues.length && !prs.length) {
+  if (!allIssues.length && !allPrs.length) {
     document.getElementById("empty-state").hidden = false;
     updateFreshness(issuesData.updatedAt || prsData.updatedAt);
     return;
   }
 
-  if (issues.length) {
-    document.getElementById("issues-section").hidden = false;
-    const data = buildSankeyData(issues, recognizedMilestones, ISSUE_STATUS_ORDER, ISSUE_STATUS_META);
-    renderSankeySection({
-      svg: document.getElementById("issues-sankey"),
-      data,
-      height: 460,
-      sectionLabel: "Issues",
-      onNodeActivate,
-      onLinkActivate,
-    });
-  }
+  populateRepoFilter();
 
-  if (prs.length) {
-    document.getElementById("prs-section").hidden = false;
-    const data = buildSankeyData(prs, recognizedMilestones, PR_STATUS_ORDER, PR_STATUS_META);
-    renderSankeySection({
-      svg: document.getElementById("prs-sankey"),
-      data,
-      height: 520,
-      sectionLabel: "PRs",
-      onNodeActivate,
-      onLinkActivate,
-    });
-  }
+  if (allIssues.length) document.getElementById("issues-section").hidden = false;
+  if (allPrs.length) document.getElementById("prs-section").hidden = false;
+
+  rerender();
 
   updateFreshness(issuesData.updatedAt || prsData.updatedAt);
 }

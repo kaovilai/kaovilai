@@ -1,24 +1,42 @@
 #!/bin/bash
-# Generates velero-open-issues.json and velero-open-prs.json: kaovilai's open
-# issues/PRs restricted to the Velero family of repos (velero-io/* plus
-# openshift/openshift-velero-plugin). Feeds a Velero-only dashboard, separate
-# from the general cross-project open-prs.json/open-issues.json.
+# Generates workstream-issues.json and workstream-prs.json: ALL of kaovilai's
+# public open issues/PRs across every repo/org, classified into workstream
+# categories (Velero, OADP, KubeVirt Data Mover, Kubernetes, CNCF Landscape,
+# Uncategorized). Feeds the general workstream dashboard, separate from the
+# unrelated open-prs.json/activity.json pipeline.
 set -euo pipefail
 
 # Shared utilities
 # shellcheck source=lib-common.sh
 source "$(dirname "$0")/lib-common.sh"
 
-ISSUES_OUTPUT_FILE="velero-open-issues.json"
-PRS_OUTPUT_FILE="velero-open-prs.json"
-
-OSVP_REPO="openshift/openshift-velero-plugin"
+ISSUES_OUTPUT_FILE="workstream-issues.json"
+PRS_OUTPUT_FILE="workstream-prs.json"
 
 UPDATED_AT_ISO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 STALE_CUTOFF=$(date -u -d '60 days ago' +%Y-%m-%dT%H:%M:%SZ 2>/dev/null || date -u -v-60d +%Y-%m-%dT%H:%M:%SZ)
 
 TMPDIR=$(mktemp -d)
 trap 'rm -rf "$TMPDIR"' EXIT
+
+# Classifies a repo (owner/name) into one of the fixed workstream categories.
+# Keep in sync with WORKSTREAM_NODE_ORDER in workstream/app.js.
+classify_workstream() {
+    local repo="$1"
+    case "$repo" in
+        velero-io/*) echo "Velero" ;;
+        openshift/oadp-operator) echo "OADP" ;;
+        migtools/*[Oo][Aa][Dd][Pp]*) echo "OADP" ;;
+        kubevirt/*) echo "KubeVirt Data Mover" ;;
+        migtools/*datamover*|migtools/*data-mover*|migtools/*[Dd]ata[Mm]over*) echo "KubeVirt Data Mover" ;;
+        */velero-plugin-for-*) echo "Velero" ;;
+        openshift/openshift-velero-plugin) echo "Velero" ;;
+        cncf/*) echo "CNCF Landscape" ;;
+        kubernetes/*) echo "Kubernetes" ;;
+        kubernetes-sigs/*) echo "Kubernetes" ;;
+        *) echo "Uncategorized" ;;
+    esac
+}
 
 echo "Fetching recognized milestones from velero-io/velero..."
 RECOGNIZED_MILESTONES=$(gh api repos/velero-io/velero/milestones --paginate --jq \
@@ -33,43 +51,33 @@ echo "Recognized milestones: $RECOGNIZED_MILESTONES"
 
 ### Issues ###
 
-echo "Fetching issues assigned to kaovilai (owner:velero-io)..."
-VELERO_IO_ISSUES=$(gh search issues is:public --assignee=kaovilai --owner=velero-io --state=open --archived=false \
+echo "Fetching all public issues assigned to kaovilai..."
+ISSUES_RAW=$(gh search issues is:public --assignee=kaovilai --state=open --archived=false \
     --json number,title,repository,url,updatedAt,labels,author,assignees --limit 1000 2>/dev/null || echo "[]")
-VELERO_IO_ISSUES_NORM=$(jq -c '[.[] | {
+ISSUES_MERGED=$(jq -c '[.[] | {
     number, repo: .repository.nameWithOwner, title, url, updatedAt,
     labels: [.labels[].name], author: .author.login,
     assignees: [.assignees[].login]
-}]' <<< "$VELERO_IO_ISSUES")
-
-echo "Fetching issues assigned to kaovilai ($OSVP_REPO)..."
-OSVP_ISSUES=$(gh issue list --repo "$OSVP_REPO" --assignee=kaovilai --state=open \
-    --json number,title,url,updatedAt,labels,author,assignees --limit 1000 2>/dev/null || echo "[]")
-OSVP_ISSUES_NORM=$(jq -c --arg repo "$OSVP_REPO" '[.[] | {
-    number, repo: $repo, title, url, updatedAt,
-    labels: [.labels[].name], author: .author.login,
-    assignees: [.assignees[].login]
-}]' <<< "$OSVP_ISSUES")
-
-ISSUES_MERGED=$(jq -c -n --argjson a "$VELERO_IO_ISSUES_NORM" --argjson b "$OSVP_ISSUES_NORM" \
-    '($a + $b) | unique_by(.repo + "#" + (.number | tostring))')
+}] | unique_by(.repo + "#" + (.number | tostring))' <<< "$ISSUES_RAW")
 ISSUE_COUNT=$(jq 'length' <<< "$ISSUES_MERGED")
-echo "Found $ISSUE_COUNT open issues assigned to kaovilai in Velero family repos."
+echo "Found $ISSUE_COUNT open issues assigned to kaovilai."
 
 : > "$TMPDIR/issues.jsonl"
 while IFS= read -r issue; do
     [ -z "$issue" ] && continue
     repo=$(jq -r '.repo' <<< "$issue")
     number=$(jq -r '.number' <<< "$issue")
-    echo "  Enriching issue $repo#$number..." >&2
+    workstream=$(classify_workstream "$repo")
+    echo "  Enriching issue $repo#$number ($workstream)..." >&2
     milestone=$(retry_with_backoff gh issue view "$number" --repo "$repo" --json milestone --jq '.milestone.title // empty')
 
-    jq -n --argjson issue "$issue" --arg milestone "$milestone" --arg staleCutoff "$STALE_CUTOFF" '
+    jq -n --argjson issue "$issue" --arg milestone "$milestone" --arg staleCutoff "$STALE_CUTOFF" --arg workstream "$workstream" '
         ($issue.updatedAt) as $u
         | {
             number: $issue.number,
             repo: $issue.repo,
             org: ($issue.repo | split("/")[0]),
+            workstream: $workstream,
             title: $issue.title,
             url: $issue.url,
             status: (if $u < $staleCutoff then "stale" else "open" end),
@@ -88,35 +96,24 @@ jq -s --arg updatedAt "$UPDATED_AT_ISO" --argjson recognizedMilestones "$RECOGNI
 
 ### PRs ###
 
-echo "Fetching PRs authored by kaovilai (owner:velero-io)..."
-VELERO_IO_PRS=$(gh search prs is:public --author=kaovilai --owner=velero-io --state=open --archived=false \
+echo "Fetching all public PRs authored by kaovilai..."
+PRS_RAW=$(gh search prs is:public --author=kaovilai --state=open --archived=false \
     --json number,title,repository,url,updatedAt,labels,author,assignees,isDraft --limit 1000 2>/dev/null || echo "[]")
-VELERO_IO_PRS_NORM=$(jq -c '[.[] | select(.author.login == "kaovilai") | {
+PRS_MERGED=$(jq -c '[.[] | select(.author.login == "kaovilai") | {
     number, repo: .repository.nameWithOwner, title, url, updatedAt,
     labels: [.labels[].name], author: .author.login,
     assignees: [.assignees[].login], isDraft
-}]' <<< "$VELERO_IO_PRS")
-
-echo "Fetching PRs authored by kaovilai ($OSVP_REPO)..."
-OSVP_PRS=$(gh pr list --repo "$OSVP_REPO" --author=kaovilai --state=open \
-    --json number,title,url,updatedAt,labels,author,assignees,isDraft --limit 1000 2>/dev/null || echo "[]")
-OSVP_PRS_NORM=$(jq -c --arg repo "$OSVP_REPO" '[.[] | select(.author.login == "kaovilai") | {
-    number, repo: $repo, title, url, updatedAt,
-    labels: [.labels[].name], author: .author.login,
-    assignees: [.assignees[].login], isDraft
-}]' <<< "$OSVP_PRS")
-
-PRS_MERGED=$(jq -c -n --argjson a "$VELERO_IO_PRS_NORM" --argjson b "$OSVP_PRS_NORM" \
-    '($a + $b) | unique_by(.repo + "#" + (.number | tostring))')
+}] | unique_by(.repo + "#" + (.number | tostring))' <<< "$PRS_RAW")
 PR_COUNT=$(jq 'length' <<< "$PRS_MERGED")
-echo "Found $PR_COUNT open PRs authored by kaovilai in Velero family repos."
+echo "Found $PR_COUNT open PRs authored by kaovilai."
 
 : > "$TMPDIR/prs.jsonl"
 while IFS= read -r pr; do
     [ -z "$pr" ] && continue
     repo=$(jq -r '.repo' <<< "$pr")
     number=$(jq -r '.number' <<< "$pr")
-    echo "  Enriching PR $repo#$number..." >&2
+    workstream=$(classify_workstream "$repo")
+    echo "  Enriching PR $repo#$number ($workstream)..." >&2
     details=$(retry_with_backoff gh pr view "$number" --repo "$repo" \
         --json milestone,statusCheckRollup,mergeStateStatus,baseRefName,closingIssuesReferences)
     if ! jq -e 'type == "object"' <<< "$details" > /dev/null 2>&1; then
@@ -140,7 +137,7 @@ while IFS= read -r pr; do
         blocker='{}'
     fi
 
-    jq -n --argjson pr "$pr" --argjson details "$details" --argjson blocker "$blocker" --arg staleCutoff "$STALE_CUTOFF" '
+    jq -n --argjson pr "$pr" --argjson details "$details" --argjson blocker "$blocker" --arg staleCutoff "$STALE_CUTOFF" --arg workstream "$workstream" '
         ($details.milestone.title // null) as $milestone
         | ($details.baseRefName // "unknown") as $targetBranch
         | ($pr.updatedAt) as $u
@@ -178,6 +175,7 @@ while IFS= read -r pr; do
             number: $pr.number,
             repo: $pr.repo,
             org: ($pr.repo | split("/")[0]),
+            workstream: $workstream,
             title: $pr.title,
             url: $pr.url,
             targetBranch: $targetBranch,
@@ -198,6 +196,6 @@ jq -s --arg updatedAt "$UPDATED_AT_ISO" --argjson recognizedMilestones "$RECOGNI
     '{updatedAt: $updatedAt, recognizedMilestones: $recognizedMilestones, prs: .}' \
     "$TMPDIR/prs.jsonl" > "$PRS_OUTPUT_FILE"
 
-echo "Velero workstream data updated successfully!"
+echo "Workstream data updated successfully!"
 echo "  $ISSUES_OUTPUT_FILE: $ISSUE_COUNT issues"
 echo "  $PRS_OUTPUT_FILE: $PR_COUNT PRs"
