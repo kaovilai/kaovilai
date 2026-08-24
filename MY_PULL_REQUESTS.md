@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-24 21:33:31 UTC
+> Last updated: 2026-08-24 22:30:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -105,7 +105,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #197](https://img.shields.io/badge/PR%20%23197-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/197) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: work PVC must be ReadWriteOnce, not the target's AccessModes
 - [![PR #199](https://img.shields.io/badge/PR%20%23199-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/199) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: honor matchLabels selector on restore target PVC instead of failing
-- [![PR #200](https://img.shields.io/badge/PR%20%23200-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/200) **migtools/kubevirt-datamover-controller** → `oadp-dev` - test: pin that a same-restore-name incomplete sibling still blocks the VM flip
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
