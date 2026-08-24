@@ -3,15 +3,22 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T13:53:43Z",
+  "generatedAt": "2026-08-24T14:44:38Z",
   "metrics": {
-    "prsMerged": 59,
-    "prsOpened": 83,
+    "prsMerged": 60,
+    "prsOpened": 86,
     "prsReviewed": 60,
-    "issuesCommented": 50,
+    "issuesCommented": 51,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 9795,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/9795"
+    },
     {
       "number": 2373,
       "repo": "openshift/oadp-operator",
@@ -427,6 +434,27 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10382,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10382"
+    },
+    {
+      "number": 2402,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Unpend two kdm restore e2e tests now that phase 4 landed",
+      "url": "https://github.com/openshift/oadp-operator/pull/2402"
+    },
+    {
+      "number": 10381,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10381"
+    },
     {
       "number": 195,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1011,13 +1039,6 @@
   ],
   "prsReviewed": [
     {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
-    },
-    {
       "number": 10359,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1025,18 +1046,25 @@
       "url": "https://github.com/velero-io/velero/pull/10359"
     },
     {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
-    },
-    {
       "number": 2395,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 10329,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Embed CRD manifests via go:embed instead of codegen",
+      "url": "https://github.com/velero-io/velero/pull/10329"
+    },
+    {
+      "number": 10235,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
+      "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
       "number": 10280,
@@ -1432,6 +1460,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9429,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "velero doesn't correctly handle an empty ProviderSnapshotID",
+      "url": "https://github.com/velero-io/velero/issues/9429"
+    },
     {
       "number": 378,
       "repo": "socktainer/socktainer",
