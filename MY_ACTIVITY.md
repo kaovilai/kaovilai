@@ -1,12 +1,12 @@
 # Activity Log
 
 > **Period:** 2026-08-10 — 2026-08-24
-> **Generated:** 2026-08-24 01:42:19 UTC
+> **Generated:** 2026-08-24 07:08:32 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 59 |
-| PRs Opened | 81 |
+| PRs Opened | 82 |
 | PRs Reviewed | 60 |
 | Issues/PRs Commented | 49 |
 | Issues Closed | 26 |
@@ -81,7 +81,7 @@
 - [#17 Recompile Daily Upstream Parity lock file and add license attribution rules](https://github.com/kaovilai/oadp-ui/pull/17) — kaovilai/oadp-ui
 - [#15 Merge open Dependabot PRs; pin back major bumps that break console peer compatibility](https://github.com/kaovilai/oadp-ui/pull/15) — kaovilai/oadp-ui
 - [#28 docs: note full Xcode requirement for hev-socks5-server build script](https://github.com/Nanako0129/SocksBypass/pull/28) — Nanako0129/SocksBypass
-## PRs Opened (81)
+## PRs Opened (82)
 
 **velero-io** (35)
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
@@ -140,7 +140,8 @@
 - [#2367 Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable](https://github.com/openshift/oadp-operator/pull/2367) — openshift/oadp-operator
 - [#2366 [oadp-1.4] OADP-7829: Add additive extraArgs support for Velero server and node-agent](https://github.com/openshift/oadp-operator/pull/2366) — openshift/oadp-operator
 
-**migtools** (5)
+**migtools** (6)
+- [#182 fix: use %s format verb for cmp.Diff in t.Errorf calls](https://github.com/migtools/udistribution/pull/182) — migtools/udistribution
 - [#47 Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage](https://github.com/migtools/kubevirt-datamover-plugin/pull/47) — migtools/kubevirt-datamover-plugin
 - [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
 - [#186 feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) — migtools/kubevirt-datamover-controller
@@ -174,10 +175,10 @@
 ## PRs Reviewed (60)
 
 **velero-io** (35)
+- [#10329 Embed CRD manifests via go:embed instead of codegen](https://github.com/velero-io/velero/pull/10329) — velero-io/velero
 - [#10359 Fix e2e kind matrix misparsing pre-release node tags](https://github.com/velero-io/velero/pull/10359) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10280 fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10280) — velero-io/velero
-- [#10329 Embed CRD manifests via go:embed instead of codegen](https://github.com/velero-io/velero/pull/10329) — velero-io/velero
 - [#10252 Skip signing a download URL when no artifacts can exist yet](https://github.com/velero-io/velero/pull/10252) — velero-io/velero
 - [#10346 Double check the label for backup when deleting VSC](https://github.com/velero-io/velero/pull/10346) — velero-io/velero
 - [#10331 Preserve PVC selected-node annotation via carrier annotation for in-place restore](https://github.com/velero-io/velero/pull/10331) — velero-io/velero

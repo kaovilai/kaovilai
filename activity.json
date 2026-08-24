@@ -3,10 +3,10 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T01:42:19Z",
+  "generatedAt": "2026-08-24T07:08:32Z",
   "metrics": {
     "prsMerged": 59,
-    "prsOpened": 81,
+    "prsOpened": 82,
     "prsReviewed": 60,
     "issuesCommented": 49,
     "issuesClosed": 26
@@ -427,6 +427,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 182,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
+      "url": "https://github.com/migtools/udistribution/pull/182"
+    },
     {
       "number": 83833,
       "repo": "openshift/release",
@@ -997,6 +1004,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10329,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Embed CRD manifests via go:embed instead of codegen",
+      "url": "https://github.com/velero-io/velero/pull/10329"
+    },
+    {
       "number": 10359,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1037,13 +1051,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-dev (033e6b1) into oadp-dev",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/463"
-    },
-    {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
     },
     {
       "number": 163,
