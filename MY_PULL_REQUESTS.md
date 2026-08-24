@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-24 20:35:30 UTC
+> Last updated: 2026-08-24 21:33:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -11,10 +11,12 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10276](https://img.shields.io/badge/PR%20%2310276-ready-green)](https://github.com/velero-io/velero/pull/10276) **velero-io/velero** → `main` - Fail fast with clear error when data mover pod is unschedulable (milestone: **v1.19**)
+- [![PR #10281](https://img.shields.io/badge/PR%20%2310281-ready-green)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ready-green)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
 - [![PR #10306](https://img.shields.io/badge/PR%20%2310306-ready-green)](https://github.com/velero-io/velero/pull/10306) **velero-io/velero** → `main` - Degrade CBT bitmap failures to allocated blocks instead of whole-device (milestone: **v1.19**)
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-ready-green)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
 - [![PR #10381](https://img.shields.io/badge/PR%20%2310381-ready-green)](https://github.com/velero-io/velero/pull/10381) **velero-io/velero** → `release-1.18` - 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
+- [![PR #10389](https://img.shields.io/badge/PR%20%2310389-ready-green)](https://github.com/velero-io/velero/pull/10389) **velero-io/velero** → `main` - Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #268](https://img.shields.io/badge/PR%20%23268-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/268) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)
@@ -35,9 +37,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-ready-green)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
-- [![PR #10281](https://img.shields.io/badge/PR%20%2310281-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
-- [![PR #10389](https://img.shields.io/badge/PR%20%2310389-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10389) **velero-io/velero** → `main` - Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs
-- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ci--pending-yellow)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
+- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10318](https://img.shields.io/badge/PR%20%2310318-draft-gray)](https://github.com/velero-io/velero/pull/10318) **velero-io/velero** → `main` - Fix datamover backup arg mismatch for CSI CBT service account name (milestone: **v1.19**)
@@ -75,7 +75,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2368](https://img.shields.io/badge/PR%20%232368-ready-green)](https://github.com/openshift/oadp-operator/pull/2368) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #2378](https://img.shields.io/badge/PR%20%232378-ready-green)](https://github.com/openshift/oadp-operator/pull/2378) **openshift/oadp-operator** → `oadp-1.3` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
-- [![PR #2404](https://img.shields.io/badge/PR%20%232404-ready-green)](https://github.com/openshift/oadp-operator/pull/2404) **openshift/oadp-operator** → `oadp-dev` - test: unpend two kdm restore PIts now that upstream fixes landed
+- [![PR #2404](https://img.shields.io/badge/PR%20%232404-ready-green)](https://github.com/openshift/oadp-operator/pull/2404) **openshift/oadp-operator** → `oadp-dev` - test: unpend two kdm restore PIts, fixing bugs found via live e2e validation
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
@@ -102,9 +102,9 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #199](https://img.shields.io/badge/PR%20%23199-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/199) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: honor matchLabels selector on restore target PVC instead of failing
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #197](https://img.shields.io/badge/PR%20%23197-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/197) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: work PVC must be ReadWriteOnce, not the target's AccessModes
+- [![PR #199](https://img.shields.io/badge/PR%20%23199-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/199) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: honor matchLabels selector on restore target PVC instead of failing
 - [![PR #200](https://img.shields.io/badge/PR%20%23200-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/200) **migtools/kubevirt-datamover-controller** → `oadp-dev` - test: pin that a same-restore-name incomplete sibling still blocks the VM flip
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
