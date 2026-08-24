@@ -3,15 +3,22 @@
     "start": "2026-08-10",
     "end": "2026-08-24"
   },
-  "generatedAt": "2026-08-24T17:33:04Z",
+  "generatedAt": "2026-08-24T18:42:40Z",
   "metrics": {
-    "prsMerged": 61,
-    "prsOpened": 88,
+    "prsMerged": 62,
+    "prsOpened": 90,
     "prsReviewed": 60,
-    "issuesCommented": 51,
-    "issuesClosed": 26
+    "issuesCommented": 52,
+    "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 10034,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "chore: pin helm/kind-action to commit with curl retry fix",
+      "url": "https://github.com/velero-io/velero/pull/10034"
+    },
     {
       "number": 83833,
       "repo": "openshift/release",
@@ -441,6 +448,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 50,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Set binding-blocking spec.selector on restore-target PVCs",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50"
+    },
+    {
+      "number": 199,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: honor matchLabels selector on restore target PVC instead of failing",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/199"
+    },
     {
       "number": 197,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1060,6 +1081,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10329,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Embed CRD manifests via go:embed instead of codegen",
+      "url": "https://github.com/velero-io/velero/pull/10329"
+    },
+    {
       "number": 10359,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1072,13 +1100,6 @@
       "org": "openshift",
       "title": "e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2395"
-    },
-    {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
     },
     {
       "number": 10235,
@@ -1482,6 +1503,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 10791,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap",
+      "url": "https://github.com/openshift/installer/issues/10791"
+    },
+    {
+      "number": 10020,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
+      "url": "https://github.com/velero-io/velero/issues/10020"
+    },
+    {
       "number": 9429,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1529,13 +1564,6 @@
       "org": "migtools",
       "title": "Add OADP e2e test coverage for kubevirt-datamover",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/99"
-    },
-    {
-      "number": 10020,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
-      "url": "https://github.com/velero-io/velero/issues/10020"
     },
     {
       "number": 43,
@@ -1840,6 +1868,27 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10791,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap",
+      "url": "https://github.com/openshift/installer/issues/10791"
+    },
+    {
+      "number": 10328,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Stop committing generated config/crd/*/crds/crds.go; embed CRDs via go:embed at build time",
+      "url": "https://github.com/velero-io/velero/issues/10328"
+    },
+    {
+      "number": 10020,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
+      "url": "https://github.com/velero-io/velero/issues/10020"
+    },
     {
       "number": 2383,
       "repo": "openshift/oadp-operator",
