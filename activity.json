@@ -3,10 +3,10 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T06:56:35Z",
+  "generatedAt": "2026-08-25T12:51:27Z",
   "metrics": {
     "prsMerged": 58,
-    "prsOpened": 85,
+    "prsOpened": 87,
     "prsReviewed": 75,
     "issuesCommented": 53,
     "issuesClosed": 26
@@ -420,6 +420,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2409,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2409"
+    },
+    {
+      "number": 2408,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2408"
+    },
     {
       "number": 83957,
       "repo": "openshift/release",
@@ -1545,18 +1559,18 @@
   ],
   "issuesCommented": [
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
       "number": 2407,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern",
       "url": "https://github.com/openshift/oadp-operator/issues/2407"
+    },
+    {
+      "number": 9603,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport/Cherry-pick GitHub action",
+      "url": "https://github.com/velero-io/velero/issues/9603"
     },
     {
       "number": 9839,
@@ -1566,18 +1580,32 @@
       "url": "https://github.com/velero-io/velero/issues/9839"
     },
     {
+      "number": 9833,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup/restore describe for block data mover",
+      "url": "https://github.com/velero-io/velero/issues/9833"
+    },
+    {
+      "number": 9835,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup deletion for block data mover",
+      "url": "https://github.com/velero-io/velero/issues/9835"
+    },
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 9894,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Transition all project meetings to CNCF Zoom",
       "url": "https://github.com/velero-io/velero/issues/9894"
-    },
-    {
-      "number": 9603,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backport/Cherry-pick GitHub action",
-      "url": "https://github.com/velero-io/velero/issues/9603"
     },
     {
       "number": 10791,
@@ -1753,20 +1781,6 @@
       "org": "velero-io",
       "title": "Ensure object creation does not exceed Kubernetes maximum name length",
       "url": "https://github.com/velero-io/velero/issues/8815"
-    },
-    {
-      "number": 9833,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup/restore describe for block data mover",
-      "url": "https://github.com/velero-io/velero/issues/9833"
-    },
-    {
-      "number": 9835,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup deletion for block data mover",
-      "url": "https://github.com/velero-io/velero/issues/9835"
     },
     {
       "number": 10302,
