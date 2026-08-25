@@ -3,15 +3,22 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T16:39:53Z",
+  "generatedAt": "2026-08-25T17:33:28Z",
   "metrics": {
-    "prsMerged": 60,
-    "prsOpened": 89,
+    "prsMerged": 61,
+    "prsOpened": 90,
     "prsReviewed": 79,
     "issuesCommented": 53,
     "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 10390,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip kind e2e matrix entries for kindest/node tags with missing manifests",
+      "url": "https://github.com/velero-io/velero/pull/10390"
+    },
     {
       "number": 50,
       "repo": "migtools/kubevirt-datamover-plugin",
@@ -434,6 +441,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10401,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix e2e build-artifact handoff race (velero.tar missing after force-push)",
+      "url": "https://github.com/velero-io/velero/pull/10401"
+    },
     {
       "number": 10399,
       "repo": "velero-io/velero",

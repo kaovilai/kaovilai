@@ -1,21 +1,22 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-08-25
-> **Generated:** 2026-08-25 16:39:53 UTC
+> **Generated:** 2026-08-25 17:33:28 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 60 |
-| PRs Opened | 89 |
+| PRs Merged | 61 |
+| PRs Opened | 90 |
 | PRs Reviewed | 79 |
 | Issues/PRs Commented | 53 |
 | Issues Closed | 26 |
 
 ---
 
-## PRs Merged (60)
+## PRs Merged (61)
 
-**velero-io** (13)
+**velero-io** (14)
+- [#10390 Skip kind e2e matrix entries for kindest/node tags with missing manifests](https://github.com/velero-io/velero/pull/10390) — velero-io/velero
 - [#10389 Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs](https://github.com/velero-io/velero/pull/10389) — velero-io/velero
 - [#10034 chore: pin helm/kind-action to commit with curl retry fix](https://github.com/velero-io/velero/pull/10034) — velero-io/velero
 - [#9795 Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/9795) — velero-io/velero
@@ -82,9 +83,10 @@
 - [#23 Recompile stale daily-upstream-parity.lock.yml](https://github.com/kaovilai/oadp-ui/pull/23) — kaovilai/oadp-ui
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
 - [#20 Add `__mocks__/**` to allowed-files for upstream-parity agent](https://github.com/kaovilai/oadp-ui/pull/20) — kaovilai/oadp-ui
-## PRs Opened (89)
+## PRs Opened (90)
 
-**velero-io** (37)
+**velero-io** (38)
+- [#10401 Fix e2e build-artifact handoff race (velero.tar missing after force-push)](https://github.com/velero-io/velero/pull/10401) — velero-io/velero
 - [#10399 [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags](https://github.com/velero-io/velero/pull/10399) — velero-io/velero
 - [#10390 Skip kind e2e matrix entries for kindest/node tags with missing manifests](https://github.com/velero-io/velero/pull/10390) — velero-io/velero
 - [#10389 Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs](https://github.com/velero-io/velero/pull/10389) — velero-io/velero
