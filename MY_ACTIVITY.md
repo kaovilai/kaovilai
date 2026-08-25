@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-08-25
-> **Generated:** 2026-08-25 12:51:27 UTC
+> **Generated:** 2026-08-25 13:52:27 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 58 |
-| PRs Opened | 87 |
-| PRs Reviewed | 75 |
+| PRs Opened | 89 |
+| PRs Reviewed | 77 |
 | Issues/PRs Commented | 53 |
 | Issues Closed | 26 |
 
@@ -80,9 +80,10 @@
 - [#23 Recompile stale daily-upstream-parity.lock.yml](https://github.com/kaovilai/oadp-ui/pull/23) — kaovilai/oadp-ui
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
 - [#20 Add `__mocks__/**` to allowed-files for upstream-parity agent](https://github.com/kaovilai/oadp-ui/pull/20) — kaovilai/oadp-ui
-## PRs Opened (87)
+## PRs Opened (89)
 
-**velero-io** (36)
+**velero-io** (37)
+- [#10399 [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags](https://github.com/velero-io/velero/pull/10399) — velero-io/velero
 - [#10390 Skip kind e2e matrix entries for kindest/node tags with missing manifests](https://github.com/velero-io/velero/pull/10390) — velero-io/velero
 - [#10389 Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs](https://github.com/velero-io/velero/pull/10389) — velero-io/velero
 - [#10382 1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/10382) — velero-io/velero
@@ -120,11 +121,12 @@
 - [#10224 1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10224) — velero-io/velero
 - [#10223 [release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext](https://github.com/velero-io/velero/pull/10223) — velero-io/velero
 
-**openshift** (21)
+**openshift** (22)
+- [#2411 [oadp-1.4] Add --ginkgo.junit-report flag to test-e2e target](https://github.com/openshift/oadp-operator/pull/2411) — openshift/oadp-operator
 - [#2409 [oadp-1.6] Migrate Claude e2e failure analysis to claude-ai-helpers step-registry](https://github.com/openshift/oadp-operator/pull/2409) — openshift/oadp-operator
 - [#2408 Migrate Claude e2e failure analysis to claude-ai-helpers step-registry](https://github.com/openshift/oadp-operator/pull/2408) — openshift/oadp-operator
 - [#83957 oadp-operator: migrate e2e Claude failure analysis to claude-ai-helpers post-step](https://github.com/openshift/release/pull/83957) — openshift/release
-- [#2406 [OADP-8716] Pin MCE channel and add HyperShift diagnostics in HCP e2e suite](https://github.com/openshift/oadp-operator/pull/2406) — openshift/oadp-operator
+- [#2406 [OADP-8716] Fall back to previous MCE patch version if HyperShift operator fails to start](https://github.com/openshift/oadp-operator/pull/2406) — openshift/oadp-operator
 - [#2404 test: unpend two kdm restore PIts, fixing bugs found via live e2e validation](https://github.com/openshift/oadp-operator/pull/2404) — openshift/oadp-operator
 - [#2402 Unpend two kdm restore e2e tests now that phase 4 landed](https://github.com/openshift/oadp-operator/pull/2402) — openshift/oadp-operator
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
@@ -176,9 +178,10 @@
 - [#183 Add review queue panel consuming reviewQueue data from open-prs.json](https://github.com/kaovilai/kaovilai.pw/pull/183) — kaovilai/kaovilai.pw
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
 - [#23 Recompile stale daily-upstream-parity.lock.yml](https://github.com/kaovilai/oadp-ui/pull/23) — kaovilai/oadp-ui
-## PRs Reviewed (75)
+## PRs Reviewed (77)
 
-**velero-io** (40)
+**velero-io** (41)
+- [#10360 [cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent](https://github.com/velero-io/velero/pull/10360) — velero-io/velero
 - [#10356 Add volumeName condition to VolumePolicy resource filtering](https://github.com/velero-io/velero/pull/10356) — velero-io/velero
 - [#10354 Re-process InProgress DeleteBackupRequests on retry](https://github.com/velero-io/velero/pull/10354) — velero-io/velero
 - [#10331 Preserve PVC selected-node annotation via carrier annotation for in-place restore](https://github.com/velero-io/velero/pull/10331) — velero-io/velero
@@ -220,14 +223,15 @@
 - [#10231 Site: add a troubleshooting entry for log downloads failing with "no such host"](https://github.com/velero-io/velero/pull/10231) — velero-io/velero
 - [#10228 docs: fix grammar and typos in backup-restore-windows](https://github.com/velero-io/velero/pull/10228) — velero-io/velero
 
-**openshift** (21)
-- [#2398 docs: add KubeVirt DataMover user-facing documentation](https://github.com/openshift/oadp-operator/pull/2398) — openshift/oadp-operator
-- [#165 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6](https://github.com/openshift/velero-plugin-for-gcp/pull/165) — openshift/velero-plugin-for-gcp
+**openshift** (22)
 - [#163 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6](https://github.com/openshift/velero-plugin-for-aws/pull/163) — openshift/velero-plugin-for-aws
+- [#165 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6](https://github.com/openshift/velero-plugin-for-gcp/pull/165) — openshift/velero-plugin-for-gcp
+- [#164 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.12.2 (c25b809) into oadp-1.5](https://github.com/openshift/velero-plugin-for-gcp/pull/164) — openshift/velero-plugin-for-gcp
+- [#163 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.12.2 (bef8467) into oadp-1.5](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/163) — openshift/velero-plugin-for-microsoft-azure
+- [#2398 docs: add KubeVirt DataMover user-facing documentation](https://github.com/openshift/oadp-operator/pull/2398) — openshift/oadp-operator
 - [#464 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.5 (84ccff9) into oadp-1.5](https://github.com/openshift/openshift-velero-plugin/pull/464) — openshift/openshift-velero-plugin
 - [#304 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (538be00) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/304) — openshift/hypershift-oadp-plugin
 - [#162 Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (1b098f8) into oadp-1.5](https://github.com/openshift/oadp-must-gather/pull/162) — openshift/oadp-must-gather
-- [#163 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.12.2 (bef8467) into oadp-1.5](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/163) — openshift/velero-plugin-for-microsoft-azure
 - [#163 Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (6cfe3b2) into oadp-1.6](https://github.com/openshift/oadp-must-gather/pull/163) — openshift/oadp-must-gather
 - [#164 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/164) — openshift/velero-plugin-for-microsoft-azure
 - [#2395 e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2395) — openshift/oadp-operator

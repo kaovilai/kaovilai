@@ -3,11 +3,11 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T12:51:27Z",
+  "generatedAt": "2026-08-25T13:52:27Z",
   "metrics": {
     "prsMerged": 58,
-    "prsOpened": 87,
-    "prsReviewed": 75,
+    "prsOpened": 89,
+    "prsReviewed": 77,
     "issuesCommented": 53,
     "issuesClosed": 26
   },
@@ -421,6 +421,20 @@
   ],
   "prsOpened": [
     {
+      "number": 10399,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
+      "url": "https://github.com/velero-io/velero/pull/10399"
+    },
+    {
+      "number": 2411,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Add --ginkgo.junit-report flag to test-e2e target",
+      "url": "https://github.com/openshift/oadp-operator/pull/2411"
+    },
+    {
       "number": 2409,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -445,7 +459,7 @@
       "number": 2406,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[OADP-8716] Pin MCE channel and add HyperShift diagnostics in HCP e2e suite",
+      "title": "[OADP-8716] Fall back to previous MCE patch version if HyperShift operator fails to start",
       "url": "https://github.com/openshift/oadp-operator/pull/2406"
     },
     {
@@ -1032,6 +1046,41 @@
   ],
   "prsReviewed": [
     {
+      "number": 10360,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent",
+      "url": "https://github.com/velero-io/velero/pull/10360"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+    },
+    {
+      "number": 164,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.12.2 (c25b809) into oadp-1.5",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/164"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.12.2 (bef8467) into oadp-1.5",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/163"
+    },
+    {
       "number": 10356,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1074,20 +1123,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
     },
     {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
-    },
-    {
       "number": 10280,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1114,13 +1149,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (1b098f8) into oadp-1.5",
       "url": "https://github.com/openshift/oadp-must-gather/pull/162"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.12.2 (bef8467) into oadp-1.5",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/163"
     },
     {
       "number": 163,
