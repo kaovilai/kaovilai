@@ -3,15 +3,29 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T20:31:21Z",
+  "generatedAt": "2026-08-25T21:30:35Z",
   "metrics": {
-    "prsMerged": 65,
-    "prsOpened": 93,
-    "prsReviewed": 79,
+    "prsMerged": 67,
+    "prsOpened": 94,
+    "prsReviewed": 80,
     "issuesCommented": 54,
-    "issuesClosed": 28
+    "issuesClosed": 29
   },
   "prsMerged": [
+    {
+      "number": 84043,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Retry operator-sdk run bundle on transient opm pull failures",
+      "url": "https://github.com/openshift/release/pull/84043"
+    },
+    {
+      "number": 83957,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: migrate e2e Claude failure analysis to claude-ai-helpers post-step",
+      "url": "https://github.com/openshift/release/pull/83957"
+    },
     {
       "number": 170,
       "repo": "kaovilai/github-bot-command-palette",
@@ -469,6 +483,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 84048,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-analyze-e2e-failure: give Claude explicit source-clone instructions",
+      "url": "https://github.com/openshift/release/pull/84048"
+    },
     {
       "number": 170,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1123,18 +1144,25 @@
   ],
   "prsReviewed": [
     {
-      "number": 10397,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix node agent rediness check issue",
-      "url": "https://github.com/velero-io/velero/pull/10397"
-    },
-    {
       "number": 2395,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 10397,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix node agent rediness check issue",
+      "url": "https://github.com/velero-io/velero/pull/10397"
     },
     {
       "number": 2371,
@@ -2057,6 +2085,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2384,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests",
+      "url": "https://github.com/openshift/oadp-operator/issues/2384"
+    },
     {
       "number": 2410,
       "repo": "openshift/oadp-operator",
