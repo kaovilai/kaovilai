@@ -3,15 +3,22 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T22:29:57Z",
+  "generatedAt": "2026-08-25T23:29:18Z",
   "metrics": {
     "prsMerged": 68,
     "prsOpened": 94,
-    "prsReviewed": 80,
+    "prsReviewed": 81,
     "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 170,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add Velero backport button for velero-io/velero",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/170"
+    },
     {
       "number": 10309,
       "repo": "velero-io/velero",
@@ -32,13 +39,6 @@
       "org": "openshift",
       "title": "oadp-operator: migrate e2e Claude failure analysis to claude-ai-helpers post-step",
       "url": "https://github.com/openshift/release/pull/83957"
-    },
-    {
-      "number": 170,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add Velero backport button for velero-io/velero",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/170"
     },
     {
       "number": 2409,
@@ -1151,25 +1151,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
-    },
-    {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
-    },
-    {
-      "number": 10397,
+      "number": 10405,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Fix node agent rediness check issue",
-      "url": "https://github.com/velero-io/velero/pull/10397"
+      "title": "[Backport release-1.18] Fix node agent readiness check issue",
+      "url": "https://github.com/velero-io/velero/pull/10405"
     },
     {
       "number": 2371,
@@ -1179,11 +1165,32 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2371"
     },
     {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
       "number": 10360,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "[cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent",
       "url": "https://github.com/velero-io/velero/pull/10360"
+    },
+    {
+      "number": 2395,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 10397,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix node agent rediness check issue",
+      "url": "https://github.com/velero-io/velero/pull/10397"
     },
     {
       "number": 163,
@@ -1713,18 +1720,18 @@
   ],
   "issuesCommented": [
     {
-      "number": 10297,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
-      "url": "https://github.com/velero-io/velero/issues/10297"
-    },
-    {
       "number": 2403,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
       "url": "https://github.com/openshift/oadp-operator/issues/2403"
+    },
+    {
+      "number": 10297,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
+      "url": "https://github.com/velero-io/velero/issues/10297"
     },
     {
       "number": 2407,

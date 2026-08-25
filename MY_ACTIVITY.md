@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-08-25
-> **Generated:** 2026-08-25 22:29:57 UTC
+> **Generated:** 2026-08-25 23:29:18 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 68 |
 | PRs Opened | 94 |
-| PRs Reviewed | 80 |
+| PRs Reviewed | 81 |
 | Issues/PRs Commented | 54 |
 | Issues Closed | 30 |
 
@@ -193,11 +193,12 @@
 - [#183 Add review queue panel consuming reviewQueue data from open-prs.json](https://github.com/kaovilai/kaovilai.pw/pull/183) — kaovilai/kaovilai.pw
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
 - [#23 Recompile stale daily-upstream-parity.lock.yml](https://github.com/kaovilai/oadp-ui/pull/23) — kaovilai/oadp-ui
-## PRs Reviewed (80)
+## PRs Reviewed (81)
 
-**velero-io** (42)
-- [#10397 Fix node agent rediness check issue](https://github.com/velero-io/velero/pull/10397) — velero-io/velero
+**velero-io** (43)
+- [#10405 [Backport release-1.18] Fix node agent readiness check issue](https://github.com/velero-io/velero/pull/10405) — velero-io/velero
 - [#10360 [cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent](https://github.com/velero-io/velero/pull/10360) — velero-io/velero
+- [#10397 Fix node agent rediness check issue](https://github.com/velero-io/velero/pull/10397) — velero-io/velero
 - [#10356 Add volumeName condition to VolumePolicy resource filtering](https://github.com/velero-io/velero/pull/10356) — velero-io/velero
 - [#10354 Re-process InProgress DeleteBackupRequests on retry](https://github.com/velero-io/velero/pull/10354) — velero-io/velero
 - [#10331 Preserve PVC selected-node annotation via carrier annotation for in-place restore](https://github.com/velero-io/velero/pull/10331) — velero-io/velero
@@ -240,9 +241,9 @@
 - [#10228 docs: fix grammar and typos in backup-restore-windows](https://github.com/velero-io/velero/pull/10228) — velero-io/velero
 
 **openshift** (24)
-- [#2395 e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2395) — openshift/oadp-operator
-- [#2405 feat: Add NetworkPolicy support for OADP operands (OADP-6074)](https://github.com/openshift/oadp-operator/pull/2405) — openshift/oadp-operator
 - [#2371 docs: AllNamespaces install mode design proposal](https://github.com/openshift/oadp-operator/pull/2371) — openshift/oadp-operator
+- [#2405 feat: Add NetworkPolicy support for OADP operands (OADP-6074)](https://github.com/openshift/oadp-operator/pull/2405) — openshift/oadp-operator
+- [#2395 e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2395) — openshift/oadp-operator
 - [#163 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6](https://github.com/openshift/velero-plugin-for-aws/pull/163) — openshift/velero-plugin-for-aws
 - [#165 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6](https://github.com/openshift/velero-plugin-for-gcp/pull/165) — openshift/velero-plugin-for-gcp
 - [#164 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.12.2 (c25b809) into oadp-1.5](https://github.com/openshift/velero-plugin-for-gcp/pull/164) — openshift/velero-plugin-for-gcp
