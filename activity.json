@@ -3,21 +3,35 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T19:33:40Z",
+  "generatedAt": "2026-08-25T20:31:21Z",
   "metrics": {
-    "prsMerged": 62,
-    "prsOpened": 91,
+    "prsMerged": 65,
+    "prsOpened": 93,
     "prsReviewed": 79,
     "issuesCommented": 54,
-    "issuesClosed": 27
+    "issuesClosed": 28
   },
   "prsMerged": [
     {
-      "number": 2408,
+      "number": 170,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add Velero backport button for velero-io/velero",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/170"
+    },
+    {
+      "number": 2409,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
-      "url": "https://github.com/openshift/oadp-operator/pull/2408"
+      "title": "[oadp-1.6] Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2409"
+    },
+    {
+      "number": 2411,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Add --ginkgo.junit-report flag to test-e2e target",
+      "url": "https://github.com/openshift/oadp-operator/pull/2411"
     },
     {
       "number": 10390,
@@ -25,6 +39,13 @@
       "org": "velero-io",
       "title": "Skip kind e2e matrix entries for kindest/node tags with missing manifests",
       "url": "https://github.com/velero-io/velero/pull/10390"
+    },
+    {
+      "number": 2408,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2408"
     },
     {
       "number": 50,
@@ -448,6 +469,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 170,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add Velero backport button for velero-io/velero",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/170"
+    },
+    {
+      "number": 84043,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Retry operator-sdk run bundle on transient opm pull failures",
+      "url": "https://github.com/openshift/release/pull/84043"
+    },
     {
       "number": 10403,
       "repo": "velero-io/velero",
@@ -2022,6 +2057,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2410,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "oadp-1.4: test-e2e Makefile target doesn't generate junit_report.xml",
+      "url": "https://github.com/openshift/oadp-operator/issues/2410"
+    },
     {
       "number": 2407,
       "repo": "openshift/oadp-operator",
