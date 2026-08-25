@@ -3,21 +3,21 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T13:52:27Z",
+  "generatedAt": "2026-08-25T14:48:30Z",
   "metrics": {
-    "prsMerged": 58,
+    "prsMerged": 59,
     "prsOpened": 89,
-    "prsReviewed": 77,
+    "prsReviewed": 78,
     "issuesCommented": 53,
     "issuesClosed": 26
   },
   "prsMerged": [
     {
-      "number": 197,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
+      "number": 10389,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs",
+      "url": "https://github.com/velero-io/velero/pull/10389"
     },
     {
       "number": 199,
@@ -32,6 +32,13 @@
       "org": "migtools",
       "title": "test: pin that a same-restore-name incomplete sibling still blocks the VM flip",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/200"
+    },
+    {
+      "number": 197,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
     },
     {
       "number": 182,
@@ -1045,6 +1052,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10397,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix node agent rediness check issue",
+      "url": "https://github.com/velero-io/velero/pull/10397"
+    },
     {
       "number": 10360,
       "repo": "velero-io/velero",

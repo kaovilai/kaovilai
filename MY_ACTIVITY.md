@@ -1,21 +1,22 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-08-25
-> **Generated:** 2026-08-25 13:52:27 UTC
+> **Generated:** 2026-08-25 14:48:30 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 58 |
+| PRs Merged | 59 |
 | PRs Opened | 89 |
-| PRs Reviewed | 77 |
+| PRs Reviewed | 78 |
 | Issues/PRs Commented | 53 |
 | Issues Closed | 26 |
 
 ---
 
-## PRs Merged (58)
+## PRs Merged (59)
 
-**velero-io** (12)
+**velero-io** (13)
+- [#10389 Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs](https://github.com/velero-io/velero/pull/10389) — velero-io/velero
 - [#10034 chore: pin helm/kind-action to commit with curl retry fix](https://github.com/velero-io/velero/pull/10034) — velero-io/velero
 - [#9795 Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/9795) — velero-io/velero
 - [#10305 Log the discovered parent snapshot ID, not the empty lookup parameter](https://github.com/velero-io/velero/pull/10305) — velero-io/velero
@@ -52,9 +53,9 @@
 - [#404 [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings](https://github.com/openshift/openshift-velero-plugin/pull/404) — openshift/openshift-velero-plugin
 
 **migtools** (10)
-- [#197 fix: work PVC must be ReadWriteOnce, not the target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/pull/197) — migtools/kubevirt-datamover-controller
 - [#199 fix: honor matchLabels selector on restore target PVC instead of failing](https://github.com/migtools/kubevirt-datamover-controller/pull/199) — migtools/kubevirt-datamover-controller
 - [#200 test: pin that a same-restore-name incomplete sibling still blocks the VM flip](https://github.com/migtools/kubevirt-datamover-controller/pull/200) — migtools/kubevirt-datamover-controller
+- [#197 fix: work PVC must be ReadWriteOnce, not the target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/pull/197) — migtools/kubevirt-datamover-controller
 - [#182 fix: use %s format verb for cmp.Diff in t.Errorf calls](https://github.com/migtools/udistribution/pull/182) — migtools/udistribution
 - [#47 Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage](https://github.com/migtools/kubevirt-datamover-plugin/pull/47) — migtools/kubevirt-datamover-plugin
 - [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
@@ -178,9 +179,10 @@
 - [#183 Add review queue panel consuming reviewQueue data from open-prs.json](https://github.com/kaovilai/kaovilai.pw/pull/183) — kaovilai/kaovilai.pw
 - [#24 Fix Dependabot security alerts in yarn.lock](https://github.com/kaovilai/oadp-ui/pull/24) — kaovilai/oadp-ui
 - [#23 Recompile stale daily-upstream-parity.lock.yml](https://github.com/kaovilai/oadp-ui/pull/23) — kaovilai/oadp-ui
-## PRs Reviewed (77)
+## PRs Reviewed (78)
 
-**velero-io** (41)
+**velero-io** (42)
+- [#10397 Fix node agent rediness check issue](https://github.com/velero-io/velero/pull/10397) — velero-io/velero
 - [#10360 [cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent](https://github.com/velero-io/velero/pull/10360) — velero-io/velero
 - [#10356 Add volumeName condition to VolumePolicy resource filtering](https://github.com/velero-io/velero/pull/10356) — velero-io/velero
 - [#10354 Re-process InProgress DeleteBackupRequests on retry](https://github.com/velero-io/velero/pull/10354) — velero-io/velero
