@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-25 06:38:59 UTC
+> Last updated: 2026-08-25 12:54:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,6 +77,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2404](https://img.shields.io/badge/PR%20%232404-ready-green)](https://github.com/openshift/oadp-operator/pull/2404) **openshift/oadp-operator** → `oadp-dev` - test: unpend two kdm restore PIts, fixing bugs found via live e2e validation
 - [![PR #2406](https://img.shields.io/badge/PR%20%232406-ready-green)](https://github.com/openshift/oadp-operator/pull/2406) **openshift/oadp-operator** → `oadp-dev` - [OADP-8716] Pin MCE channel and add HyperShift diagnostics in HCP e2e suite
+- [![PR #2408](https://img.shields.io/badge/PR%20%232408-ready-green)](https://github.com/openshift/oadp-operator/pull/2408) **openshift/oadp-operator** → `oadp-dev` - Migrate Claude e2e failure analysis to claude-ai-helpers step-registry
+- [![PR #2409](https://img.shields.io/badge/PR%20%232409-ready-green)](https://github.com/openshift/oadp-operator/pull/2409) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] Migrate Claude e2e failure analysis to claude-ai-helpers step-registry
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
@@ -84,9 +86,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #83957](https://img.shields.io/badge/PR%20%2383957-ready-green)](https://github.com/openshift/release/pull/83957) **openshift/release** → `main` - oadp-operator: migrate e2e Claude failure analysis to claude-ai-helpers post-step
 - [![PR #2205](https://img.shields.io/badge/PR%20%232205-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2205) **openshift/oadp-operator** → `oadp-dev` - OADP-7943: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
-- [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
+- [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `unknown` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
+- [![PR #2411](https://img.shields.io/badge/PR%20%232411-ci--pending-yellow)](https://github.com/openshift/oadp-operator/pull/2411) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Add --ginkgo.junit-report flag to test-e2e target
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -129,7 +132,7 @@ No open PRs.
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
-- [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
+- [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `unknown` - Fix review queue card deadspace
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
@@ -138,7 +141,7 @@ No open PRs.
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-ready-green)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
-- [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `main` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
+- [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `unknown` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup

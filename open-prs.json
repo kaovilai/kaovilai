@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T06:38:59Z",
+  "updatedAt": "2026-08-25T12:54:21Z",
   "prs": [
     {
       "number": 10010,
@@ -1346,7 +1346,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-25T06:18:23Z"
+      "updatedAt": "2026-08-25T12:40:31Z"
     },
     {
       "number": 2406,
@@ -1365,6 +1365,42 @@
         "approved"
       ],
       "updatedAt": "2026-08-25T06:10:56Z"
+    },
+    {
+      "number": 2408,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2408",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-25T12:54:07Z"
+    },
+    {
+      "number": 2409,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2409",
+      "targetBranch": "oadp-1.6",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-25T12:53:18Z"
     },
     {
       "number": 81508,
@@ -1401,7 +1437,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-25T03:42:00Z"
+      "updatedAt": "2026-08-25T12:54:14Z"
     },
     {
       "number": 225,
@@ -1409,7 +1445,7 @@
       "org": "openshift",
       "title": "fix: add velero to renovate ignoreDeps",
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
-      "targetBranch": "main",
+      "targetBranch": "unknown",
       "status": "waiting-merge",
       "milestone": null,
       "author": "kaovilai",
@@ -1510,6 +1546,22 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-21T19:27:36Z"
+    },
+    {
+      "number": 2411,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Add --ginkgo.junit-report flag to test-e2e target",
+      "url": "https://github.com/openshift/oadp-operator/pull/2411",
+      "targetBranch": "oadp-1.4",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-25T12:54:17Z"
     },
     {
       "number": 2360,
@@ -2095,7 +2147,7 @@
       "org": "kaovilai",
       "title": "Fix review queue card deadspace",
       "url": "https://github.com/kaovilai/kaovilai.pw/pull/188",
-      "targetBranch": "main",
+      "targetBranch": "unknown",
       "status": "ready",
       "milestone": null,
       "author": "kaovilai",
@@ -2529,7 +2581,7 @@
       "org": "kaovilai",
       "title": "Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs",
       "url": "https://github.com/kaovilai/kaovilai.pw/pull/185",
-      "targetBranch": "main",
+      "targetBranch": "unknown",
       "status": "draft",
       "milestone": null,
       "author": "Copilot",
@@ -3210,7 +3262,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-25T06:38:59Z",
+    "updatedAt": "2026-08-25T12:54:21Z",
     "needsReview": [
       {
         "number": 68,
@@ -3329,7 +3381,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 445,
+        "waitingDays": 446,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3349,7 +3401,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3468,7 +3520,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3481,7 +3533,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 145,
+        "waitingDays": 146,
         "updatedAt": "2026-04-01T08:21:20Z"
       },
       {
@@ -3526,7 +3578,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3555,7 +3607,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3658,30 +3710,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 41,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3707,8 +3735,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 41,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -3947,7 +3999,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3976,7 +4028,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3992,40 +4044,6 @@
         "reason": "awaitingReview",
         "waitingDays": 35,
         "updatedAt": "2026-07-20T19:47:24Z"
-      },
-      {
-        "number": 297,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "[oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/297",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "jira/valid-reference",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": 0,
-        "reviewRequests": [
-          "enxebre",
-          "sjenning",
-          "devguyio",
-          "muraee",
-          "mgencur",
-          "jparrill"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 33,
-        "updatedAt": "2026-07-22T17:33:01Z"
       },
       {
         "number": 9236,
@@ -4077,7 +4095,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4110,7 +4128,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4141,7 +4159,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4266,7 +4284,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4295,7 +4313,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4327,7 +4345,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4359,7 +4377,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4445,7 +4463,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4459,6 +4477,43 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-08-12T05:10:33Z"
+      },
+      {
+        "number": 478,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "branchprotector: remove protection from excluded branches",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Prucek"
+        ],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "do-not-merge/hold",
+          "size/M",
+          "lgtm",
+          "area/branchprotector"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean",
+          "petr-muller",
+          "matthyx"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 12,
+        "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
         "number": 2368,
@@ -4547,43 +4602,6 @@
         "updatedAt": "2026-08-12T18:07:16Z"
       },
       {
-        "number": 478,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "branchprotector: remove protection from excluded branches",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Prucek"
-        ],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "do-not-merge/hold",
-          "size/M",
-          "lgtm",
-          "area/branchprotector"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "petr-muller",
-          "matthyx"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-13T12:14:37Z"
-      },
-      {
         "number": 2207,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4626,7 +4644,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4801,7 +4819,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4814,7 +4832,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-08-21T11:19:54Z"
       },
       {
@@ -4833,7 +4851,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4962,7 +4980,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T06:18:23Z"
+        "updatedAt": "2026-08-25T12:40:31Z"
       },
       {
         "number": 2406,
@@ -4994,6 +5012,88 @@
         "updatedAt": "2026-08-25T06:10:56Z"
       },
       {
+        "number": 2408,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+        "url": "https://github.com/openshift/oadp-operator/pull/2408",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-25T12:54:07Z"
+      },
+      {
+        "number": 2409,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+        "url": "https://github.com/openshift/oadp-operator/pull/2409",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "sseago",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-25T12:53:18Z"
+      },
+      {
+        "number": 2411,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] Add --ginkgo.junit-report flag to test-e2e target",
+        "url": "https://github.com/openshift/oadp-operator/pull/2411",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-25T12:54:17Z"
+      },
+      {
         "number": 83957,
         "repo": "openshift/release",
         "org": "openshift",
@@ -5006,7 +5106,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5020,7 +5120,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T03:42:00Z"
+        "updatedAt": "2026-08-25T12:54:14Z"
       },
       {
         "number": 375,
@@ -5092,7 +5192,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5121,7 +5221,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5434,36 +5534,6 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 32,
-        "updatedAt": "2026-07-23T20:59:18Z"
-      },
-      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5531,7 +5601,7 @@
         "org": "openshift",
         "title": "fix: add velero to renovate ignoreDeps",
         "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/225",
-        "targetBranch": "main",
+        "targetBranch": "unknown",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
@@ -5543,17 +5613,14 @@
           "lgtm",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": true,
-        "hasGithubApproval": true,
+        "hasGithubApproval": false,
         "reviewDecision": null,
-        "approvalCount": 1,
+        "approvalCount": 0,
         "requiredApprovals": 0,
-        "reviewRequests": [
-          "csrwng",
-          "muraee"
-        ],
+        "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 13,
@@ -5612,7 +5679,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
