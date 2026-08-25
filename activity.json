@@ -3,15 +3,22 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T01:37:12Z",
+  "generatedAt": "2026-08-25T06:56:35Z",
   "metrics": {
-    "prsMerged": 57,
-    "prsOpened": 83,
-    "prsReviewed": 73,
-    "issuesCommented": 50,
-    "issuesClosed": 25
+    "prsMerged": 58,
+    "prsOpened": 85,
+    "prsReviewed": 75,
+    "issuesCommented": 53,
+    "issuesClosed": 26
   },
   "prsMerged": [
+    {
+      "number": 197,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
+    },
     {
       "number": 199,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -413,6 +420,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 83957,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: migrate e2e Claude failure analysis to claude-ai-helpers post-step",
+      "url": "https://github.com/openshift/release/pull/83957"
+    },
+    {
+      "number": 2406,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[OADP-8716] Pin MCE channel and add HyperShift diagnostics in HCP e2e suite",
+      "url": "https://github.com/openshift/oadp-operator/pull/2406"
+    },
     {
       "number": 10390,
       "repo": "velero-io/velero",
@@ -997,6 +1018,69 @@
   ],
   "prsReviewed": [
     {
+      "number": 10356,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add volumeName condition to VolumePolicy resource filtering",
+      "url": "https://github.com/velero-io/velero/pull/10356"
+    },
+    {
+      "number": 10354,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Re-process InProgress DeleteBackupRequests on retry",
+      "url": "https://github.com/velero-io/velero/pull/10354"
+    },
+    {
+      "number": 2398,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: add KubeVirt DataMover user-facing documentation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2398"
+    },
+    {
+      "number": 10331,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Preserve PVC selected-node annotation via carrier annotation for in-place restore",
+      "url": "https://github.com/velero-io/velero/pull/10331"
+    },
+    {
+      "number": 375,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/375"
+    },
+    {
+      "number": 49,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
+    },
+    {
+      "number": 10280,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10280"
+    },
+    {
       "number": 464,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -1016,13 +1100,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (1b098f8) into oadp-1.5",
       "url": "https://github.com/openshift/oadp-must-gather/pull/162"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
     },
     {
       "number": 163,
@@ -1046,13 +1123,6 @@
       "url": "https://github.com/migtools/oadp-cli/pull/258"
     },
     {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
-    },
-    {
       "number": 164,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
@@ -1065,27 +1135,6 @@
       "org": "migtools",
       "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (2f3a322) into oadp-1.6",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/100"
-    },
-    {
-      "number": 375,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/375"
-    },
-    {
-      "number": 49,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
-    },
-    {
-      "number": 10356,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add volumeName condition to VolumePolicy resource filtering",
-      "url": "https://github.com/velero-io/velero/pull/10356"
     },
     {
       "number": 10366,
@@ -1137,13 +1186,6 @@
       "url": "https://github.com/velero-io/velero/pull/10235"
     },
     {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
-    },
-    {
       "number": 2390,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1184,13 +1226,6 @@
       "org": "velero-io",
       "title": "Double check the label for backup when deleting VSC",
       "url": "https://github.com/velero-io/velero/pull/10346"
-    },
-    {
-      "number": 10331,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Preserve PVC selected-node annotation via carrier annotation for in-place restore",
-      "url": "https://github.com/velero-io/velero/pull/10331"
     },
     {
       "number": 10315,
@@ -1510,6 +1545,34 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 2407,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern",
+      "url": "https://github.com/openshift/oadp-operator/issues/2407"
+    },
+    {
+      "number": 9839,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CBT availability detection per volume",
+      "url": "https://github.com/velero-io/velero/issues/9839"
+    },
+    {
+      "number": 9894,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Transition all project meetings to CNCF Zoom",
+      "url": "https://github.com/velero-io/velero/issues/9894"
+    },
+    {
       "number": 9603,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1550,13 +1613,6 @@
       "org": "openshift",
       "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
       "url": "https://github.com/openshift/installer/issues/10590"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 7507,
@@ -1861,6 +1917,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 198,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/198"
+    },
     {
       "number": 10791,
       "repo": "openshift/installer",
