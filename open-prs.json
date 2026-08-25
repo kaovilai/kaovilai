@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T18:44:46Z",
+  "updatedAt": "2026-08-25T19:35:04Z",
   "prs": [
     {
       "number": 10010,
@@ -1507,7 +1507,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-25T18:44:30Z"
+      "updatedAt": "2026-08-25T19:24:02Z"
     },
     {
       "number": 449,
@@ -3234,7 +3234,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-25T18:44:46Z",
+    "updatedAt": "2026-08-25T19:35:04Z",
     "needsReview": [
       {
         "number": 68,
@@ -3580,7 +3580,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3609,7 +3609,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3969,7 +3969,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4316,7 +4316,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4418,6 +4418,34 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
+        "number": 2368,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2368",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-12T19:01:32Z"
+      },
+      {
         "number": 2378,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4513,34 +4541,6 @@
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
-        "number": 2368,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2368",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-12T19:01:32Z"
-      },
-      {
         "number": 2207,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4567,7 +4567,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
@@ -4583,7 +4583,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4798,6 +4798,39 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-08-21T20:43:44Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-24T19:31:39Z"
       },
       {
         "number": 2404,
@@ -5279,39 +5312,6 @@
         "updatedAt": "2026-08-25T02:05:28Z"
       },
       {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-24T19:31:39Z"
-      },
-      {
         "number": 328,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -5554,42 +5554,6 @@
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
-        "number": 18725,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Acedus"
-        ],
-        "labels": [
-          "size/S",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lgtm",
-          "dco-signoff: yes",
-          "needs-approver-review"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ShellyKa13"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 11,
-        "updatedAt": "2026-08-13T20:17:52Z"
-      },
-      {
         "number": 2234,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5616,8 +5580,44 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-13T19:05:52Z"
+      },
+      {
+        "number": 18725,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Acedus"
+        ],
+        "labels": [
+          "size/S",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lgtm",
+          "dco-signoff: yes",
+          "needs-approver-review"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ShellyKa13"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-13T20:17:52Z"
       },
       {
         "number": 373,
@@ -5650,6 +5650,37 @@
         "reason": "pendingMerge",
         "waitingDays": 4,
         "updatedAt": "2026-08-21T13:48:45Z"
+      },
+      {
+        "number": 449,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Detect SCC UID/GID-range mismatch on namespace restore",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 4,
+        "updatedAt": "2026-08-21T19:27:36Z"
       },
       {
         "number": 2205,
@@ -5685,37 +5716,6 @@
         "updatedAt": "2026-08-22T05:11:52Z"
       },
       {
-        "number": 449,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Detect SCC UID/GID-range mismatch on namespace restore",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/449",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-21T19:27:36Z"
-      },
-      {
         "number": 2406,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5731,21 +5731,20 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "eemcmullan",
-          "shubham-pampattiwar"
+          "eemcmullan"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T18:44:30Z"
+        "updatedAt": "2026-08-25T19:24:02Z"
       },
       {
         "number": 83957,
@@ -5765,7 +5764,7 @@
           "lgtm",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
