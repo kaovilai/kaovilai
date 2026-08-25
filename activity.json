@@ -3,15 +3,22 @@
     "start": "2026-08-11",
     "end": "2026-08-25"
   },
-  "generatedAt": "2026-08-25T17:33:28Z",
+  "generatedAt": "2026-08-25T18:42:07Z",
   "metrics": {
-    "prsMerged": 61,
-    "prsOpened": 90,
+    "prsMerged": 62,
+    "prsOpened": 91,
     "prsReviewed": 79,
-    "issuesCommented": 53,
-    "issuesClosed": 26
+    "issuesCommented": 54,
+    "issuesClosed": 27
   },
   "prsMerged": [
+    {
+      "number": 2408,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
+      "url": "https://github.com/openshift/oadp-operator/pull/2408"
+    },
     {
       "number": 10390,
       "repo": "velero-io/velero",
@@ -442,6 +449,13 @@
   ],
   "prsOpened": [
     {
+      "number": 10403,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
+      "url": "https://github.com/velero-io/velero/pull/10403"
+    },
+    {
       "number": 10401,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -487,7 +501,7 @@
       "number": 2406,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[OADP-8716] Fall back to previous MCE patch version if HyperShift operator fails to start",
+      "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
       "url": "https://github.com/openshift/oadp-operator/pull/2406"
     },
     {
@@ -1074,18 +1088,25 @@
   ],
   "prsReviewed": [
     {
-      "number": 2371,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: AllNamespaces install mode design proposal",
-      "url": "https://github.com/openshift/oadp-operator/pull/2371"
-    },
-    {
       "number": 10397,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Fix node agent rediness check issue",
       "url": "https://github.com/velero-io/velero/pull/10397"
+    },
+    {
+      "number": 2395,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 2371,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: AllNamespaces install mode design proposal",
+      "url": "https://github.com/openshift/oadp-operator/pull/2371"
     },
     {
       "number": 10360,
@@ -1254,13 +1275,6 @@
       "org": "velero-io",
       "title": "Fix e2e kind matrix misparsing pre-release node tags",
       "url": "https://github.com/velero-io/velero/pull/10359"
-    },
-    {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
     },
     {
       "number": 10235,
@@ -1628,6 +1642,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 2403,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
+      "url": "https://github.com/openshift/oadp-operator/issues/2403"
+    },
     {
       "number": 2407,
       "repo": "openshift/oadp-operator",
@@ -2001,6 +2022,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2407,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern",
+      "url": "https://github.com/openshift/oadp-operator/issues/2407"
+    },
     {
       "number": 198,
       "repo": "migtools/kubevirt-datamover-controller",
