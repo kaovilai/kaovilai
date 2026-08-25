@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-08-25
-> **Generated:** 2026-08-25 15:43:53 UTC
+> **Generated:** 2026-08-25 16:39:53 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 59 |
+| PRs Merged | 60 |
 | PRs Opened | 89 |
 | PRs Reviewed | 79 |
 | Issues/PRs Commented | 53 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (59)
+## PRs Merged (60)
 
 **velero-io** (13)
 - [#10389 Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs](https://github.com/velero-io/velero/pull/10389) — velero-io/velero
@@ -52,7 +52,8 @@
 - [#2346 docs: add CI plugin image sync guidance to common.go](https://github.com/openshift/oadp-operator/pull/2346) — openshift/oadp-operator
 - [#404 [oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings](https://github.com/openshift/openshift-velero-plugin/pull/404) — openshift/openshift-velero-plugin
 
-**migtools** (10)
+**migtools** (11)
+- [#50 Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) — migtools/kubevirt-datamover-plugin
 - [#199 fix: honor matchLabels selector on restore target PVC instead of failing](https://github.com/migtools/kubevirt-datamover-controller/pull/199) — migtools/kubevirt-datamover-controller
 - [#200 test: pin that a same-restore-name incomplete sibling still blocks the VM flip](https://github.com/migtools/kubevirt-datamover-controller/pull/200) — migtools/kubevirt-datamover-controller
 - [#197 fix: work PVC must be ReadWriteOnce, not the target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/pull/197) — migtools/kubevirt-datamover-controller
