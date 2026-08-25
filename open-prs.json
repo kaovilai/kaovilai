@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T17:34:52Z",
+  "updatedAt": "2026-08-25T18:44:46Z",
   "prs": [
     {
       "number": 10010,
@@ -601,12 +601,12 @@
       "updatedAt": "2026-08-25T06:23:09Z"
     },
     {
-      "number": 10399,
+      "number": 10403,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
-      "url": "https://github.com/velero-io/velero/pull/10399",
-      "targetBranch": "release-1.17",
+      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
+      "url": "https://github.com/velero-io/velero/pull/10403",
+      "targetBranch": "main",
       "status": "draft",
       "milestone": null,
       "author": "Copilot",
@@ -616,10 +616,8 @@
         "Copilot"
       ],
       "isDraft": true,
-      "labels": [
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-25T14:58:50Z"
+      "labels": [],
+      "updatedAt": "2026-08-25T18:28:16Z"
     },
     {
       "number": 7344,
@@ -938,6 +936,27 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-25T15:04:30Z"
+    },
+    {
+      "number": 10399,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
+      "url": "https://github.com/velero-io/velero/pull/10399",
+      "targetBranch": "release-1.17",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-25T18:30:05Z"
     },
     {
       "number": 7941,
@@ -1328,24 +1347,6 @@
       "updatedAt": "2026-08-25T15:42:29Z"
     },
     {
-      "number": 2408,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
-      "url": "https://github.com/openshift/oadp-operator/pull/2408",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-25T15:53:53Z"
-    },
-    {
       "number": 2409,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1488,6 +1489,27 @@
       "updatedAt": "2026-08-13T19:05:52Z"
     },
     {
+      "number": 2406,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
+      "url": "https://github.com/openshift/oadp-operator/pull/2406",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-25T18:44:30Z"
+    },
+    {
       "number": 449,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -1521,6 +1543,7 @@
       "isCopilotAuthored": false,
       "assignees": [
         "weshayutin",
+        "sseago",
         "shubham-pampattiwar"
       ],
       "isDraft": false,
@@ -1528,7 +1551,7 @@
         "lgtm",
         "approved"
       ],
-      "updatedAt": "2026-08-25T15:20:22Z"
+      "updatedAt": "2026-08-25T18:43:17Z"
     },
     {
       "number": 2360,
@@ -1719,25 +1742,6 @@
         "do-not-merge/work-in-progress"
       ],
       "updatedAt": "2026-03-23T20:15:58Z"
-    },
-    {
-      "number": 2406,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[OADP-8716] Fall back to previous MCE patch version if HyperShift operator fails to start",
-      "url": "https://github.com/openshift/oadp-operator/pull/2406",
-      "targetBranch": "oadp-dev",
-      "status": "hold",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "do-not-merge/hold",
-        "approved"
-      ],
-      "updatedAt": "2026-08-25T17:34:36Z"
     },
     {
       "number": 2308,
@@ -3230,7 +3234,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-25T17:34:52Z",
+    "updatedAt": "2026-08-25T18:44:46Z",
     "needsReview": [
       {
         "number": 68,
@@ -3576,7 +3580,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3589,7 +3593,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 111,
+        "waitingDays": 112,
         "updatedAt": "2026-05-05T18:21:10Z"
       },
       {
@@ -3605,7 +3609,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3704,7 +3708,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -4190,7 +4194,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4268,35 +4272,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 2134,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "DNM: Test: disable pod restart workaround after file-system restore",
-        "url": "https://github.com/openshift/oadp-operator/pull/2134",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 17,
-        "updatedAt": "2026-08-07T21:59:39Z"
-      },
-      {
         "number": 9384,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4325,8 +4300,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-08-07T18:22:38Z"
+      },
+      {
+        "number": 2134,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "DNM: Test: disable pod restart workaround after file-system restore",
+        "url": "https://github.com/openshift/oadp-operator/pull/2134",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 17,
+        "updatedAt": "2026-08-07T21:59:39Z"
       },
       {
         "number": 9772,
@@ -4414,6 +4418,64 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
+        "number": 2378,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2378",
+        "targetBranch": "oadp-1.3",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-12T18:06:50Z"
+      },
+      {
+        "number": 2379,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+        "url": "https://github.com/openshift/oadp-operator/pull/2379",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-12T18:07:16Z"
+      },
+      {
         "number": 478,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -4433,7 +4495,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4479,64 +4541,6 @@
         "updatedAt": "2026-08-12T19:01:32Z"
       },
       {
-        "number": 2378,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2378",
-        "targetBranch": "oadp-1.3",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-12T18:06:50Z"
-      },
-      {
-        "number": 2379,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2379",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-12T18:07:16Z"
-      },
-      {
         "number": 2207,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -4579,7 +4583,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4823,65 +4827,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-25T15:42:29Z"
-      },
-      {
-        "number": 2406,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[OADP-8716] Fall back to previous MCE patch version if HyperShift operator fails to start",
-        "url": "https://github.com/openshift/oadp-operator/pull/2406",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T17:34:36Z"
-      },
-      {
-        "number": 2408,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
-        "url": "https://github.com/openshift/oadp-operator/pull/2408",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T15:53:53Z"
       },
       {
         "number": 2409,
@@ -5270,6 +5215,37 @@
         "updatedAt": "2026-08-25T05:36:55Z"
       },
       {
+        "number": 10399,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
+        "url": "https://github.com/velero-io/velero/pull/10399",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-25T18:30:05Z"
+      },
+      {
         "number": 9646,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5598,7 +5574,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5740,6 +5716,38 @@
         "updatedAt": "2026-08-21T19:27:36Z"
       },
       {
+        "number": 2406,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
+        "url": "https://github.com/openshift/oadp-operator/pull/2406",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-25T18:44:30Z"
+      },
+      {
         "number": 83957,
         "repo": "openshift/release",
         "org": "openshift",
@@ -5750,18 +5758,19 @@
         "isCopilotAuthored": false,
         "assignees": [
           "weshayutin",
+          "sseago",
           "shubham-pampattiwar"
         ],
         "labels": [
           "lgtm",
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
         "reviewDecision": null,
-        "approvalCount": 2,
+        "approvalCount": 3,
         "requiredApprovals": null,
         "reviewRequests": [
           "Joeavaikath",
@@ -5770,7 +5779,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T15:20:22Z"
+        "updatedAt": "2026-08-25T18:43:17Z"
       },
       {
         "number": 320,
