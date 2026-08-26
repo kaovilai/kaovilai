@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T13:00:25Z",
+  "updatedAt": "2026-08-26T14:48:44Z",
   "prs": [
     {
       "number": 10010,
@@ -62,51 +62,6 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-24T19:47:27Z"
-    },
-    {
-      "number": 10381,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10381",
-      "targetBranch": "release-1.18",
-      "status": "ready",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-24T19:34:39Z"
-    },
-    {
-      "number": 10403,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
-      "url": "https://github.com/velero-io/velero/pull/10403",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog",
-        "backport release-1.18"
-      ],
-      "updatedAt": "2026-08-26T01:08:57Z"
     },
     {
       "number": 8884,
@@ -507,6 +462,115 @@
       "updatedAt": "2026-08-14T21:05:20Z"
     },
     {
+      "number": 10286,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+      "url": "https://github.com/velero-io/velero/pull/10286",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-26T14:24:19Z"
+    },
+    {
+      "number": 10348,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
+      "url": "https://github.com/velero-io/velero/pull/10348",
+      "targetBranch": "release-1.18",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-26T14:25:10Z"
+    },
+    {
+      "number": 10381,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10381",
+      "targetBranch": "release-1.18",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-26T14:30:42Z"
+    },
+    {
+      "number": 10403,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
+      "url": "https://github.com/velero-io/velero/pull/10403",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog",
+        "backport release-1.18"
+      ],
+      "updatedAt": "2026-08-26T14:28:56Z"
+    },
+    {
+      "number": 10407,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10407",
+      "targetBranch": "release-1.18",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-26T14:32:22Z"
+    },
+    {
       "number": 10025,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -622,48 +686,6 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-25T06:23:09Z"
-    },
-    {
-      "number": 10406,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10406",
-      "targetBranch": "release-1.17",
-      "status": "draft",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": true,
-      "labels": [
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-08-26T00:13:24Z"
-    },
-    {
-      "number": 10407,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10407",
-      "targetBranch": "release-1.18",
-      "status": "draft",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": true,
-      "labels": [
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-08-26T00:13:47Z"
     },
     {
       "number": 7344,
@@ -898,49 +920,6 @@
       "updatedAt": "2026-08-25T15:04:52Z"
     },
     {
-      "number": 10286,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-      "url": "https://github.com/velero-io/velero/pull/10286",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-25T15:04:53Z"
-    },
-    {
-      "number": 10348,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
-      "url": "https://github.com/velero-io/velero/pull/10348",
-      "targetBranch": "release-1.18",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-25T15:04:27Z"
-    },
-    {
       "number": 10382,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -982,6 +961,27 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-26T00:50:32Z"
+    },
+    {
+      "number": 10406,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10406",
+      "targetBranch": "release-1.17",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-26T14:33:01Z"
     },
     {
       "number": 7941,
@@ -1401,7 +1401,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-26T11:55:39Z"
+      "updatedAt": "2026-08-26T13:36:01Z"
     },
     {
       "number": 2234,
@@ -3146,7 +3146,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-26T13:00:25Z",
+    "updatedAt": "2026-08-26T14:48:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -3402,7 +3402,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3894,7 +3894,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 36,
+        "waitingDays": 37,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -4153,7 +4153,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -4245,6 +4245,35 @@
         "updatedAt": "2026-08-07T18:22:38Z"
       },
       {
+        "number": 46,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Centralize build scheduling into a single version-aware dispatcher",
+        "url": "https://github.com/konveyor/builder/pull/46",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 15,
+        "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
         "number": 9772,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4299,35 +4328,6 @@
         "reason": "awaitingReview",
         "waitingDays": 14,
         "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
-        "number": 46,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Centralize build scheduling into a single version-aware dispatcher",
-        "url": "https://github.com/konveyor/builder/pull/46",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 14,
-        "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
         "number": 478,
@@ -4692,7 +4692,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4721,7 +4721,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4755,7 +4755,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4874,7 +4874,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4907,7 +4907,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4951,7 +4951,73 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T15:04:53Z"
+        "updatedAt": "2026-08-26T14:24:19Z"
+      },
+      {
+        "number": 10348,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
+        "url": "https://github.com/velero-io/velero/pull/10348",
+        "targetBranch": "release-1.18",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-26T14:25:10Z"
+      },
+      {
+        "number": 10381,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/10381",
+        "targetBranch": "release-1.18",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-26T14:30:42Z"
       },
       {
         "number": 10403,
@@ -4984,7 +5050,67 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T01:08:57Z"
+        "updatedAt": "2026-08-26T14:28:56Z"
+      },
+      {
+        "number": 10406,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+        "url": "https://github.com/velero-io/velero/pull/10406",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-26T14:33:01Z"
+      },
+      {
+        "number": 10407,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+        "url": "https://github.com/velero-io/velero/pull/10407",
+        "targetBranch": "release-1.18",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-26T14:32:22Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5102,7 +5228,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
@@ -5133,7 +5259,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -5167,7 +5293,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5199,7 +5325,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-08-11T13:26:37Z"
       },
       {
@@ -5297,7 +5423,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -5665,7 +5791,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T11:55:39Z"
+        "updatedAt": "2026-08-26T13:36:01Z"
       },
       {
         "number": 2368,
@@ -5712,7 +5838,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,

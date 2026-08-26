@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-26 13:00:25 UTC
+> Last updated: 2026-08-26 14:48:44 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,8 +10,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-ready-green)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-ready-green)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
-- [![PR #10381](https://img.shields.io/badge/PR%20%2310381-ready-green)](https://github.com/velero-io/velero/pull/10381) **velero-io/velero** → `release-1.18` - 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
-- [![PR #10403](https://img.shields.io/badge/PR%20%2310403-ready-green)](https://github.com/velero-io/velero/pull/10403) **velero-io/velero** → `main` - Check both daemonsets before returning non-NotFound lookup error in IsReady
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #268](https://img.shields.io/badge/PR%20%23268-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/268) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)
@@ -33,14 +31,17 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9772](https://img.shields.io/badge/PR%20%239772-ready-green)](https://github.com/velero-io/velero/pull/9772) **velero-io/velero** → `main` - Design: namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
+- [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
+- [![PR #10348](https://img.shields.io/badge/PR%20%2310348-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
+- [![PR #10381](https://img.shields.io/badge/PR%20%2310381-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10381) **velero-io/velero** → `release-1.18` - 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
+- [![PR #10403](https://img.shields.io/badge/PR%20%2310403-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10403) **velero-io/velero** → `main` - Check both daemonsets before returning non-NotFound lookup error in IsReady
+- [![PR #10407](https://img.shields.io/badge/PR%20%2310407-ci--pending-yellow)](https://github.com/velero-io/velero/pull/10407) **velero-io/velero** → `release-1.18` - 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10276](https://img.shields.io/badge/PR%20%2310276-draft-gray)](https://github.com/velero-io/velero/pull/10276) **velero-io/velero** → `main` - Fail fast with clear error when data mover pod is unschedulable (milestone: **v1.19**)
 - [![PR #10306](https://img.shields.io/badge/PR%20%2310306-draft-gray)](https://github.com/velero-io/velero/pull/10306) **velero-io/velero** → `main` - Degrade CBT bitmap failures to allocated blocks instead of whole-device (milestone: **v1.19**)
 - [![PR #10318](https://img.shields.io/badge/PR%20%2310318-draft-gray)](https://github.com/velero-io/velero/pull/10318) **velero-io/velero** → `main` - Fix datamover backup arg mismatch for CSI CBT service account name (milestone: **v1.19**)
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
-- [![PR #10406](https://img.shields.io/badge/PR%20%2310406-draft-gray)](https://github.com/velero-io/velero/pull/10406) **velero-io/velero** → `release-1.17` - release-1.17: validate kind node tags before adding to e2e test matrix
-- [![PR #10407](https://img.shields.io/badge/PR%20%2310407-draft-gray)](https://github.com/velero-io/velero/pull/10407) **velero-io/velero** → `release-1.18` - 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #9221](https://img.shields.io/badge/PR%20%239221-stale-yellow)](https://github.com/velero-io/velero/pull/9221) **velero-io/velero** → `main` - docs: Document --write-sparse-files flag for disk space issues during restore (milestone: **Prioritized issues**)
@@ -52,10 +53,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-failing--ci-red)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-failing--ci-red)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
-- [![PR #10286](https://img.shields.io/badge/PR%20%2310286-failing--ci-red)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
-- [![PR #10348](https://img.shields.io/badge/PR%20%2310348-failing--ci-red)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
 - [![PR #10382](https://img.shields.io/badge/PR%20%2310382-failing--ci-red)](https://github.com/velero-io/velero/pull/10382) **velero-io/velero** → `release-1.17` - 1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-failing--ci-red)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
+- [![PR #10406](https://img.shields.io/badge/PR%20%2310406-failing--ci-red)](https://github.com/velero-io/velero/pull/10406) **velero-io/velero** → `release-1.17` - release-1.17: validate kind node tags before adding to e2e test matrix
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/267) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
