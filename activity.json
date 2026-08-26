@@ -1,17 +1,31 @@
 {
   "period": {
-    "start": "2026-08-11",
-    "end": "2026-08-25"
+    "start": "2026-08-12",
+    "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-25T23:29:18Z",
+  "generatedAt": "2026-08-26T01:42:10Z",
   "metrics": {
-    "prsMerged": 68,
-    "prsOpened": 94,
-    "prsReviewed": 81,
-    "issuesCommented": 54,
+    "prsMerged": 55,
+    "prsOpened": 83,
+    "prsReviewed": 72,
+    "issuesCommented": 50,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 84048,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-analyze-e2e-failure: give Claude explicit source-clone instructions",
+      "url": "https://github.com/openshift/release/pull/84048"
+    },
+    {
+      "number": 2406,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
+      "url": "https://github.com/openshift/oadp-operator/pull/2406"
+    },
     {
       "number": 170,
       "repo": "kaovilai/github-bot-command-palette",
@@ -382,114 +396,23 @@
       "org": "kaovilai",
       "title": "Fix detectTargetBranch resolving head branch instead of base",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/155"
-    },
-    {
-      "number": 2346,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: add CI plugin image sync guidance to common.go",
-      "url": "https://github.com/openshift/oadp-operator/pull/2346"
-    },
-    {
-      "number": 187,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Implementing recent review display feature",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/187"
-    },
-    {
-      "number": 10220,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Group Dependabot GitHub Actions updates",
-      "url": "https://github.com/velero-io/velero/pull/10220"
-    },
-    {
-      "number": 10211,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backport: add pre-merge label-on-comment support; add copilot-instructions and auto-labeler for changelog exemptions",
-      "url": "https://github.com/velero-io/velero/pull/10211"
-    },
-    {
-      "number": 183,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Add review queue panel consuming reviewQueue data from open-prs.json",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/183"
-    },
-    {
-      "number": 72,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue",
-      "url": "https://github.com/kaovilai/kaovilai/pull/72"
-    },
-    {
-      "number": 10222,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18 Backport: correct typos in log messages and status strings (#10192)",
-      "url": "https://github.com/velero-io/velero/pull/10222"
-    },
-    {
-      "number": 10223,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10223"
-    },
-    {
-      "number": 180,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: wire BSL profile config through to S3 credential resolution",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/180"
-    },
-    {
-      "number": 23,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Recompile stale daily-upstream-parity.lock.yml",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/23"
-    },
-    {
-      "number": 24,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Fix Dependabot security alerts in yarn.lock",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/24"
-    },
-    {
-      "number": 404,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-6540: Skip restore of k8s RBAC system rolebindings",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/404"
-    },
-    {
-      "number": 10221,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.17 Backport #10192: correct typos in log messages and status strings",
-      "url": "https://github.com/velero-io/velero/pull/10221"
-    },
-    {
-      "number": 10224,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10224"
-    },
-    {
-      "number": 20,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Add `__mocks__/**` to allowed-files for upstream-parity agent",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/20"
     }
   ],
   "prsOpened": [
+    {
+      "number": 10407,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10407"
+    },
+    {
+      "number": 10406,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10406"
+    },
     {
       "number": 84048,
       "repo": "openshift/release",
@@ -1056,97 +979,6 @@
       "org": "openshift",
       "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
       "url": "https://github.com/openshift/ci-tools/pull/5363"
-    },
-    {
-      "number": 83299,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
-      "url": "https://github.com/openshift/release/pull/83299"
-    },
-    {
-      "number": 187,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Implementing recent review display feature",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/187"
-    },
-    {
-      "number": 83286,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e",
-      "url": "https://github.com/openshift/release/pull/83286"
-    },
-    {
-      "number": 83282,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Promote oadp-operator bundle directly instead of a broken index",
-      "url": "https://github.com/openshift/release/pull/83282"
-    },
-    {
-      "number": 72,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Add reviewDecision, approvalCount, and requiredApprovals to open-prs.json reviewQueue",
-      "url": "https://github.com/kaovilai/kaovilai/pull/72"
-    },
-    {
-      "number": 185,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/185"
-    },
-    {
-      "number": 180,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: wire BSL profile config through to S3 credential resolution",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/180"
-    },
-    {
-      "number": 183,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Add review queue panel consuming reviewQueue data from open-prs.json",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/183"
-    },
-    {
-      "number": 24,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Fix Dependabot security alerts in yarn.lock",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/24"
-    },
-    {
-      "number": 23,
-      "repo": "kaovilai/oadp-ui",
-      "org": "kaovilai",
-      "title": "Recompile stale daily-upstream-parity.lock.yml",
-      "url": "https://github.com/kaovilai/oadp-ui/pull/23"
-    },
-    {
-      "number": 83221,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-      "url": "https://github.com/openshift/release/pull/83221"
-    },
-    {
-      "number": 10224,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10224"
-    },
-    {
-      "number": 10223,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17] Backport #10047: Fix restore-wait init container ignoring pod-level securityContext",
-      "url": "https://github.com/velero-io/velero/pull/10223"
     }
   ],
   "prsReviewed": [
@@ -1156,13 +988,6 @@
       "org": "velero-io",
       "title": "[Backport release-1.18] Fix node agent readiness check issue",
       "url": "https://github.com/velero-io/velero/pull/10405"
-    },
-    {
-      "number": 2371,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: AllNamespaces install mode design proposal",
-      "url": "https://github.com/openshift/oadp-operator/pull/2371"
     },
     {
       "number": 2405,
@@ -1354,13 +1179,6 @@
       "url": "https://github.com/velero-io/velero/pull/10359"
     },
     {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235"
-    },
-    {
       "number": 2390,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1487,13 +1305,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2385"
     },
     {
-      "number": 10237,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reject negative --ttl in backup create validation",
-      "url": "https://github.com/velero-io/velero/pull/10237"
-    },
-    {
       "number": 10319,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1548,13 +1359,6 @@
       "org": "velero-io",
       "title": "Fix loadConcurrency slot leak on forced cancel",
       "url": "https://github.com/velero-io/velero/pull/10264"
-    },
-    {
-      "number": 10229,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add printer columns for DownloadRequest and ServerStatusRequest",
-      "url": "https://github.com/velero-io/velero/pull/10229"
     },
     {
       "number": 10255,
@@ -1620,13 +1424,6 @@
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12324"
     },
     {
-      "number": 10236,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: add kind VolumeSnapshotClass test data",
-      "url": "https://github.com/velero-io/velero/pull/10236"
-    },
-    {
       "number": 10245,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1688,34 +1485,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] feat: add staleness check for per-VM DataUpload serialization",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/183"
-    },
-    {
-      "number": 10234,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Make restore logs testable by returning errors instead of calling cmd.Exit",
-      "url": "https://github.com/velero-io/velero/pull/10234"
-    },
-    {
-      "number": 181,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: wire BSL profile config through to S3 credential resolution",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/181"
-    },
-    {
-      "number": 10231,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Site: add a troubleshooting entry for log downloads failing with \"no such host\"",
-      "url": "https://github.com/velero-io/velero/pull/10231"
-    },
-    {
-      "number": 10228,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix grammar and typos in backup-restore-windows",
-      "url": "https://github.com/velero-io/velero/pull/10228"
     }
   ],
   "issuesCommented": [
@@ -2068,34 +1837,6 @@
       "org": "aws",
       "title": "EFS should have snapshot function similar to EBS",
       "url": "https://github.com/aws/aws-sdk-go-v2/issues/2906"
-    },
-    {
-      "number": 22368,
-      "repo": "kubernetes/kubernetes",
-      "org": "kubernetes",
-      "title": "Facilitate ConfigMap rollouts / management",
-      "url": "https://github.com/kubernetes/kubernetes/issues/22368"
-    },
-    {
-      "number": 1832,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e jobs for other repos",
-      "url": "https://github.com/openshift/oadp-operator/issues/1832"
-    },
-    {
-      "number": 10199,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup and Restore CRDs have no printer columns since the 2021 revert",
-      "url": "https://github.com/velero-io/velero/issues/10199"
-    },
-    {
-      "number": 8457,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Configurable pull policy when `velero install`",
-      "url": "https://github.com/velero-io/velero/issues/8457"
     }
   ],
   "issuesClosed": [
