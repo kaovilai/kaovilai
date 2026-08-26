@@ -3,15 +3,22 @@
     "start": "2026-08-12",
     "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-26T14:52:56Z",
+  "generatedAt": "2026-08-26T16:19:49Z",
   "metrics": {
-    "prsMerged": 58,
+    "prsMerged": 59,
     "prsOpened": 86,
-    "prsReviewed": 74,
+    "prsReviewed": 75,
     "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 2205,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2205"
+    },
     {
       "number": 5,
       "repo": "kaovilai/copilot-api",
@@ -1030,6 +1037,13 @@
       "org": "velero-io",
       "title": "Show validation frequency in backup-location get output",
       "url": "https://github.com/velero-io/velero/pull/10372"
+    },
+    {
+      "number": 10286,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+      "url": "https://github.com/velero-io/velero/pull/10286"
     },
     {
       "number": 2405,

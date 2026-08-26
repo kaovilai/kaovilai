@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-08-12 — 2026-08-26
-> **Generated:** 2026-08-26 14:52:56 UTC
+> **Generated:** 2026-08-26 16:19:49 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 58 |
+| PRs Merged | 59 |
 | PRs Opened | 86 |
-| PRs Reviewed | 74 |
+| PRs Reviewed | 75 |
 | Issues/PRs Commented | 54 |
 | Issues Closed | 30 |
 
 ---
 
-## PRs Merged (58)
+## PRs Merged (59)
 
 **velero-io** (10)
 - [#10409 Update community meeting links to LFX Zoom, add calendar](https://github.com/velero-io/velero/pull/10409) — velero-io/velero
@@ -27,7 +27,8 @@
 - [#10262 [release-1.17] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10262) — velero-io/velero
 - [#10263 [release-1.18] Backport #10250: Fix pod volume restore deadlock](https://github.com/velero-io/velero/pull/10263) — velero-io/velero
 
-**openshift** (26)
+**openshift** (27)
+- [#2205 OADP-7943: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2205) — openshift/oadp-operator
 - [#2367 Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable](https://github.com/openshift/oadp-operator/pull/2367) — openshift/oadp-operator
 - [#84048 oadp-analyze-e2e-failure: give Claude explicit source-clone instructions](https://github.com/openshift/release/pull/84048) — openshift/release
 - [#2406 [OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env](https://github.com/openshift/oadp-operator/pull/2406) — openshift/oadp-operator
@@ -175,10 +176,11 @@
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
 - [#155 Fix detectTargetBranch resolving head branch instead of base](https://github.com/kaovilai/github-bot-command-palette/pull/155) — kaovilai/github-bot-command-palette
 - [#35 Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site](https://github.com/HASHCUT69/Blend-n-Run/pull/35) — HASHCUT69/Blend-n-Run
-## PRs Reviewed (74)
+## PRs Reviewed (75)
 
-**velero-io** (38)
+**velero-io** (39)
 - [#10372 Show validation frequency in backup-location get output](https://github.com/velero-io/velero/pull/10372) — velero-io/velero
+- [#10286 Fix re-request-review workflow for fork-originated PRs (privilege separation)](https://github.com/velero-io/velero/pull/10286) — velero-io/velero
 - [#10353 Reject velero backup delete when BSL is read-only](https://github.com/velero-io/velero/pull/10353) — velero-io/velero
 - [#10405 [Backport release-1.18] Fix node agent readiness check issue](https://github.com/velero-io/velero/pull/10405) — velero-io/velero
 - [#10360 [cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent](https://github.com/velero-io/velero/pull/10360) — velero-io/velero
