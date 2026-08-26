@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:21:05Z",
+  "updatedAt": "2026-08-26T01:04:08Z",
   "prs": [
     {
       "number": 10010,
@@ -23,27 +23,6 @@
       "updatedAt": "2026-08-25T15:24:13Z"
     },
     {
-      "number": 10276,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fail fast with clear error when data mover pod is unschedulable",
-      "url": "https://github.com/velero-io/velero/pull/10276",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-25T03:27:45Z"
-    },
-    {
       "number": 10281,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -62,27 +41,6 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-08-24T20:31:37Z"
-    },
-    {
-      "number": 10306,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
-      "url": "https://github.com/velero-io/velero/pull/10306",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-24T19:46:37Z"
     },
     {
       "number": 10307,
@@ -126,6 +84,29 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-24T19:34:39Z"
+    },
+    {
+      "number": 10403,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
+      "url": "https://github.com/velero-io/velero/pull/10403",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog",
+        "backport release-1.18"
+      ],
+      "updatedAt": "2026-08-25T23:46:36Z"
     },
     {
       "number": 8884,
@@ -563,6 +544,48 @@
       "updatedAt": "2026-08-14T16:18:53Z"
     },
     {
+      "number": 10276,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail fast with clear error when data mover pod is unschedulable",
+      "url": "https://github.com/velero-io/velero/pull/10276",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": true,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-26T00:25:49Z"
+    },
+    {
+      "number": 10306,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
+      "url": "https://github.com/velero-io/velero/pull/10306",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": true,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-26T00:26:40Z"
+    },
+    {
       "number": 10318,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -599,6 +622,48 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-25T06:23:09Z"
+    },
+    {
+      "number": 10406,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10406",
+      "targetBranch": "release-1.17",
+      "status": "draft",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": true,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-26T00:13:24Z"
+    },
+    {
+      "number": 10407,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10407",
+      "targetBranch": "release-1.18",
+      "status": "draft",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": true,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-26T00:13:47Z"
     },
     {
       "number": 7344,
@@ -916,30 +981,7 @@
       "labels": [
         "has-changelog"
       ],
-      "updatedAt": "2026-08-25T21:12:54Z"
-    },
-    {
-      "number": 10403,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
-      "url": "https://github.com/velero-io/velero/pull/10403",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog",
-        "backport release-1.18"
-      ],
-      "updatedAt": "2026-08-25T20:36:48Z"
+      "updatedAt": "2026-08-26T00:50:32Z"
     },
     {
       "number": 7941,
@@ -1240,24 +1282,6 @@
       "updatedAt": "2026-08-13T19:02:47Z"
     },
     {
-      "number": 2368,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-      "url": "https://github.com/openshift/oadp-operator/pull/2368",
-      "targetBranch": "oadp-1.4",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-25T23:17:22Z"
-    },
-    {
       "number": 2378,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1376,7 +1400,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-25T22:14:57Z"
+      "updatedAt": "2026-08-25T23:47:16Z"
     },
     {
       "number": 2234,
@@ -1417,28 +1441,28 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-25T21:24:02Z"
+      "updatedAt": "2026-08-26T00:19:59Z"
     },
     {
-      "number": 2406,
+      "number": 2368,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
-      "url": "https://github.com/openshift/oadp-operator/pull/2406",
-      "targetBranch": "oadp-dev",
+      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2368",
+      "targetBranch": "oadp-1.4",
       "status": "waiting-merge",
       "milestone": null,
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [
-        "weshayutin"
+        "shubham-pampattiwar"
       ],
       "isDraft": false,
       "labels": [
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-25T21:19:28Z"
+      "updatedAt": "2026-08-25T23:45:35Z"
     },
     {
       "number": 449,
@@ -1460,29 +1484,6 @@
         "lgtm"
       ],
       "updatedAt": "2026-08-21T19:27:36Z"
-    },
-    {
-      "number": 84048,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-analyze-e2e-failure: give Claude explicit source-clone instructions",
-      "url": "https://github.com/openshift/release/pull/84048",
-      "targetBranch": "main",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "lgtm",
-        "approved",
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-08-25T23:12:06Z"
     },
     {
       "number": 2360,
@@ -3165,7 +3166,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-25T23:21:05Z",
+    "updatedAt": "2026-08-26T01:04:08Z",
     "needsReview": [
       {
         "number": 68,
@@ -3188,7 +3189,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 649,
+        "waitingDays": 650,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3481,7 +3482,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3510,7 +3511,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3613,6 +3614,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 42,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3670,30 +3695,6 @@
         "reason": "hold",
         "waitingDays": 41,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 41,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3887,6 +3888,35 @@
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 36,
+        "updatedAt": "2026-07-21T00:29:16Z"
+      },
+      {
         "number": 8884,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3918,35 +3948,6 @@
         "reason": "awaitingReview",
         "waitingDays": 36,
         "updatedAt": "2026-07-20T19:47:24Z"
-      },
-      {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 35,
-        "updatedAt": "2026-07-21T00:29:16Z"
       },
       {
         "number": 10027,
@@ -4095,7 +4096,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4185,7 +4186,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4396,7 +4397,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4642,35 +4643,6 @@
         "updatedAt": "2026-08-24T20:31:37Z"
       },
       {
-        "number": 10306,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
-        "url": "https://github.com/velero-io/velero/pull/10306",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-24T19:46:37Z"
-      },
-      {
         "number": 10307,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4757,34 +4729,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-24T20:26:38Z"
-      },
-      {
-        "number": 2368,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2368",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T23:17:22Z"
       },
       {
         "number": 2404,
@@ -4936,37 +4880,6 @@
         "updatedAt": "2026-08-25T15:04:52Z"
       },
       {
-        "number": 10276,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fail fast with clear error when data mover pod is unschedulable",
-        "url": "https://github.com/velero-io/velero/pull/10276",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T03:27:45Z"
-      },
-      {
         "number": 10286,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4998,70 +4911,6 @@
         "updatedAt": "2026-08-25T15:04:53Z"
       },
       {
-        "number": 10348,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
-        "url": "https://github.com/velero-io/velero/pull/10348",
-        "targetBranch": "release-1.18",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T15:04:27Z"
-      },
-      {
-        "number": 10399,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
-        "url": "https://github.com/velero-io/velero/pull/10399",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T21:12:54Z"
-      },
-      {
         "number": 10403,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5082,9 +4931,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": true,
+        "hasGithubApproval": false,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
+        "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
           "kaovilai"
@@ -5092,7 +4941,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T20:36:48Z"
+        "updatedAt": "2026-08-25T23:46:36Z"
       },
       {
         "number": 9646,
@@ -5334,7 +5183,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5775,7 +5624,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T22:14:57Z"
+        "updatedAt": "2026-08-25T23:47:16Z"
       },
       {
         "number": 2367,
@@ -5793,7 +5642,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -5806,19 +5655,19 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T21:24:02Z"
+        "updatedAt": "2026-08-26T00:19:59Z"
       },
       {
-        "number": 2406,
+        "number": 2368,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
-        "url": "https://github.com/openshift/oadp-operator/pull/2406",
-        "targetBranch": "oadp-dev",
+        "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2368",
+        "targetBranch": "oadp-1.4",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
-          "weshayutin"
+          "shubham-pampattiwar"
         ],
         "labels": [
           "approved",
@@ -5829,49 +5678,13 @@
         "hasProwApproval": true,
         "hasGithubApproval": true,
         "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T21:19:28Z"
-      },
-      {
-        "number": 84048,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "oadp-analyze-e2e-failure: give Claude explicit source-clone instructions",
-        "url": "https://github.com/openshift/release/pull/84048",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago",
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "lgtm",
-          "approved",
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
         "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "sg-rh"
-        ],
+        "requiredApprovals": 2,
+        "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T23:12:06Z"
+        "updatedAt": "2026-08-25T23:45:35Z"
       },
       {
         "number": 10077,
@@ -5903,6 +5716,37 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-25T22:09:26Z"
+      },
+      {
+        "number": 10399,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
+        "url": "https://github.com/velero-io/velero/pull/10399",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-26T00:50:32Z"
       }
     ]
   }
