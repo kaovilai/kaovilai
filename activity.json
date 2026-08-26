@@ -3,15 +3,22 @@
     "start": "2026-08-12",
     "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-26T19:04:39Z",
+  "generatedAt": "2026-08-26T22:52:12Z",
   "metrics": {
-    "prsMerged": 61,
-    "prsOpened": 86,
-    "prsReviewed": 77,
+    "prsMerged": 62,
+    "prsOpened": 87,
+    "prsReviewed": 79,
     "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 2019,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
+      "url": "https://github.com/openshift/oadp-operator/pull/2019"
+    },
     {
       "number": 2368,
       "repo": "openshift/oadp-operator",
@@ -441,6 +448,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 18949,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18949"
+    },
     {
       "number": 5,
       "repo": "kaovilai/copilot-api",
@@ -1051,6 +1065,20 @@
       "org": "openshift",
       "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 2412,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] [OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
+      "url": "https://github.com/openshift/oadp-operator/pull/2412"
+    },
+    {
+      "number": 2415,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
+      "url": "https://github.com/openshift/oadp-operator/pull/2415"
     },
     {
       "number": 3,
