@@ -3,15 +3,22 @@
     "start": "2026-08-12",
     "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-26T13:57:58Z",
+  "generatedAt": "2026-08-26T14:52:56Z",
   "metrics": {
-    "prsMerged": 57,
-    "prsOpened": 84,
-    "prsReviewed": 73,
+    "prsMerged": 58,
+    "prsOpened": 86,
+    "prsReviewed": 74,
     "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 5,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Add .github/pull.yml to sync dev branch from upstream via rebase",
+      "url": "https://github.com/kaovilai/copilot-api/pull/5"
+    },
     {
       "number": 10409,
       "repo": "velero-io/velero",
@@ -413,6 +420,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 5,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Add .github/pull.yml to sync dev branch from upstream via rebase",
+      "url": "https://github.com/kaovilai/copilot-api/pull/5"
+    },
+    {
+      "number": 10416,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix re-request-review workflow token permissions for fork-originated PRs",
+      "url": "https://github.com/velero-io/velero/pull/10416"
+    },
     {
       "number": 10409,
       "repo": "velero-io/velero",
@@ -1004,11 +1025,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 10353,
+      "number": 10372,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Reject velero backup delete when BSL is read-only",
-      "url": "https://github.com/velero-io/velero/pull/10353"
+      "title": "Show validation frequency in backup-location get output",
+      "url": "https://github.com/velero-io/velero/pull/10372"
     },
     {
       "number": 2405,
@@ -1016,6 +1037,13 @@
       "org": "openshift",
       "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 10353,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Reject velero backup delete when BSL is read-only",
+      "url": "https://github.com/velero-io/velero/pull/10353"
     },
     {
       "number": 10405,
