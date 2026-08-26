@@ -3,15 +3,29 @@
     "start": "2026-08-12",
     "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-26T16:19:49Z",
+  "generatedAt": "2026-08-26T19:04:39Z",
   "metrics": {
-    "prsMerged": 59,
+    "prsMerged": 61,
     "prsOpened": 86,
-    "prsReviewed": 75,
+    "prsReviewed": 77,
     "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 2368,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2368"
+    },
+    {
+      "number": 10407,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10407"
+    },
     {
       "number": 2205,
       "repo": "openshift/oadp-operator",
@@ -977,7 +991,7 @@
       "number": 2378,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
+      "title": "1.3: Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
       "url": "https://github.com/openshift/oadp-operator/pull/2378"
     },
     {
@@ -1032,6 +1046,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 3,
+      "repo": "shubham-pampattiwar/oadp-operator",
+      "org": "shubham-pampattiwar",
+      "title": "fix: allow unrestricted egress for operator pod NetworkPolicy",
+      "url": "https://github.com/shubham-pampattiwar/oadp-operator/pull/3"
+    },
+    {
+      "number": 181,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump the go-dependencies group across 1 directory with 7 updates",
+      "url": "https://github.com/migtools/udistribution/pull/181"
+    },
+    {
       "number": 10372,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1044,13 +1079,6 @@
       "org": "velero-io",
       "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
       "url": "https://github.com/velero-io/velero/pull/10286"
-    },
-    {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 10353,
