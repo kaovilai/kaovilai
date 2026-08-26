@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T01:04:08Z",
+  "updatedAt": "2026-08-26T06:40:33Z",
   "prs": [
     {
       "number": 10010,
@@ -106,7 +106,7 @@
         "has-changelog",
         "backport release-1.18"
       ],
-      "updatedAt": "2026-08-25T23:46:36Z"
+      "updatedAt": "2026-08-26T01:08:57Z"
     },
     {
       "number": 8884,
@@ -984,6 +984,27 @@
       "updatedAt": "2026-08-26T00:50:32Z"
     },
     {
+      "number": 10409,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update community meeting links to LFX Zoom, add calendar",
+      "url": "https://github.com/velero-io/velero/pull/10409",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "Website",
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-26T06:35:54Z"
+    },
+    {
       "number": 7941,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1333,7 +1354,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-25T23:17:16Z"
+      "updatedAt": "2026-08-26T02:10:30Z"
     },
     {
       "number": 225,
@@ -1400,7 +1421,7 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-08-25T23:47:16Z"
+      "updatedAt": "2026-08-26T06:14:39Z"
     },
     {
       "number": 2234,
@@ -1423,27 +1444,6 @@
       "updatedAt": "2026-08-13T19:05:52Z"
     },
     {
-      "number": 2367,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-      "url": "https://github.com/openshift/oadp-operator/pull/2367",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-26T00:19:59Z"
-    },
-    {
       "number": 2368,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1462,7 +1462,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-08-25T23:45:35Z"
+      "updatedAt": "2026-08-26T04:39:52Z"
     },
     {
       "number": 449,
@@ -3166,7 +3166,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-26T01:04:08Z",
+    "updatedAt": "2026-08-26T06:40:33Z",
     "needsReview": [
       {
         "number": 68,
@@ -3213,7 +3213,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 498,
+        "waitingDays": 499,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -3237,7 +3237,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 487,
+        "waitingDays": 488,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -3261,7 +3261,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 480,
+        "waitingDays": 481,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3319,7 +3319,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 258,
+        "waitingDays": 259,
         "updatedAt": "2025-12-10T06:37:59Z"
       },
       {
@@ -3624,7 +3624,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3950,6 +3950,39 @@
         "updatedAt": "2026-07-20T19:47:24Z"
       },
       {
+        "number": 9236,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "CHANGES_REQUESTED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 34,
+        "updatedAt": "2026-07-23T05:47:21Z"
+      },
+      {
         "number": 10027,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4015,39 +4048,6 @@
         "updatedAt": "2026-07-23T22:46:17Z"
       },
       {
-        "number": 9236,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "CHANGES_REQUESTED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 33,
-        "updatedAt": "2026-07-23T05:47:21Z"
-      },
-      {
         "number": 7941,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4076,7 +4076,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-07-28T04:24:27Z"
       },
       {
@@ -4267,6 +4267,30 @@
         "updatedAt": "2026-08-10T16:09:09Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -4294,30 +4318,6 @@
         "reason": "awaitingReview",
         "waitingDays": 14,
         "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 2378,
@@ -4615,6 +4615,30 @@
         "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
+        "number": 375,
+        "repo": "socktainer/socktainer",
+        "org": "socktainer",
+        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
+        "url": "https://github.com/socktainer/socktainer/pull/375",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-25T01:21:43Z"
+      },
+      {
         "number": 10281,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4670,6 +4694,72 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-24T19:47:27Z"
+      },
+      {
+        "number": 10381,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+        "url": "https://github.com/velero-io/velero/pull/10381",
+        "targetBranch": "release-1.18",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-24T19:34:39Z"
+      },
+      {
+        "number": 9646,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+        "url": "https://github.com/velero-io/velero/pull/9646",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "priyansh17",
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-25T02:05:28Z"
       },
       {
         "number": 9910,
@@ -4757,31 +4847,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T23:17:16Z"
-      },
-      {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T01:21:43Z"
+        "updatedAt": "2026-08-26T02:10:30Z"
       },
       {
         "number": 10010,
@@ -4931,9 +4997,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
           "kaovilai"
@@ -4941,40 +5007,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T23:46:36Z"
-      },
-      {
-        "number": 9646,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-        "url": "https://github.com/velero-io/velero/pull/9646",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "priyansh17",
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T02:05:28Z"
+        "updatedAt": "2026-08-26T01:08:57Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5624,38 +5657,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T23:47:16Z"
-      },
-      {
-        "number": 2367,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2367",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-26T00:19:59Z"
+        "updatedAt": "2026-08-26T06:14:39Z"
       },
       {
         "number": 2368,
@@ -5684,7 +5686,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-25T23:45:35Z"
+        "updatedAt": "2026-08-26T04:39:52Z"
       },
       {
         "number": 10077,
@@ -5747,6 +5749,35 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-26T00:50:32Z"
+      },
+      {
+        "number": 10409,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Update community meeting links to LFX Zoom, add calendar",
+        "url": "https://github.com/velero-io/velero/pull/10409",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Website",
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-26T06:35:54Z"
       }
     ]
   }

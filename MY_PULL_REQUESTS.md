@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-26 01:04:08 UTC
+> Last updated: 2026-08-26 06:40:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -56,6 +56,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10348](https://img.shields.io/badge/PR%20%2310348-failing--ci-red)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
 - [![PR #10382](https://img.shields.io/badge/PR%20%2310382-failing--ci-red)](https://github.com/velero-io/velero/pull/10382) **velero-io/velero** → `release-1.17` - 1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-failing--ci-red)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
+- [![PR #10409](https://img.shields.io/badge/PR%20%2310409-failing--ci-red)](https://github.com/velero-io/velero/pull/10409) **velero-io/velero** → `main` - Update community meeting links to LFX Zoom, add calendar
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/267) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
@@ -82,7 +83,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
-- [![PR #2367](https://img.shields.io/badge/PR%20%232367-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2367) **openshift/oadp-operator** → `oadp-dev` - Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #2368](https://img.shields.io/badge/PR%20%232368-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2368) **openshift/oadp-operator** → `oadp-1.4` - [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
