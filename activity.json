@@ -3,15 +3,22 @@
     "start": "2026-08-12",
     "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-26T01:42:10Z",
+  "generatedAt": "2026-08-26T06:57:43Z",
   "metrics": {
-    "prsMerged": 55,
-    "prsOpened": 83,
+    "prsMerged": 56,
+    "prsOpened": 84,
     "prsReviewed": 72,
-    "issuesCommented": 50,
+    "issuesCommented": 53,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 2367,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2367"
+    },
     {
       "number": 84048,
       "repo": "openshift/release",
@@ -399,6 +406,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10409,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update community meeting links to LFX Zoom, add calendar",
+      "url": "https://github.com/velero-io/velero/pull/10409"
+    },
     {
       "number": 10407,
       "repo": "velero-io/velero",
@@ -983,18 +997,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 10405,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Fix node agent readiness check issue",
-      "url": "https://github.com/velero-io/velero/pull/10405"
-    },
-    {
       "number": 2405,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 10405,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix node agent readiness check issue",
+      "url": "https://github.com/velero-io/velero/pull/10405"
     },
     {
       "number": 10360,
@@ -1489,6 +1503,34 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 9656,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs",
+      "url": "https://github.com/velero-io/velero/issues/9656"
+    },
+    {
+      "number": 9714,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Verify ChangeId retrieve for Ceph",
+      "url": "https://github.com/velero-io/velero/issues/9714"
+    },
+    {
+      "number": 9760,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.",
+      "url": "https://github.com/velero-io/velero/issues/9760"
+    },
+    {
       "number": 2403,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1536,13 +1578,6 @@
       "org": "velero-io",
       "title": "Backup deletion for block data mover",
       "url": "https://github.com/velero-io/velero/issues/9835"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9894,
