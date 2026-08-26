@@ -3,15 +3,22 @@
     "start": "2026-08-12",
     "end": "2026-08-26"
   },
-  "generatedAt": "2026-08-26T06:57:43Z",
+  "generatedAt": "2026-08-26T12:56:34Z",
   "metrics": {
-    "prsMerged": 56,
+    "prsMerged": 57,
     "prsOpened": 84,
     "prsReviewed": 72,
-    "issuesCommented": 53,
+    "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 10409,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update community meeting links to LFX Zoom, add calendar",
+      "url": "https://github.com/velero-io/velero/pull/10409"
+    },
     {
       "number": 2367,
       "repo": "openshift/oadp-operator",
@@ -1503,6 +1510,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 8363,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "VolumePolicies filter volumes to snapshot by volume name",
+      "url": "https://github.com/velero-io/velero/issues/8363"
+    },
+    {
+      "number": 481,
+      "repo": "actions/setup-go",
+      "org": "actions",
+      "title": "Support using a later patch release than what's in go.mod",
+      "url": "https://github.com/actions/setup-go/issues/481"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1704,13 +1725,6 @@
       "org": "openshift",
       "title": "Follow up: simplify and document PodResources defaulting",
       "url": "https://github.com/openshift/oadp-operator/issues/2391"
-    },
-    {
-      "number": 481,
-      "repo": "actions/setup-go",
-      "org": "actions",
-      "title": "Support using a later patch release than what's in go.mod",
-      "url": "https://github.com/actions/setup-go/issues/481"
     },
     {
       "number": 175,
