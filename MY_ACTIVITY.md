@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-12 — 2026-08-26
-> **Generated:** 2026-08-26 12:56:34 UTC
+> **Generated:** 2026-08-26 13:57:58 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 57 |
 | PRs Opened | 84 |
-| PRs Reviewed | 72 |
+| PRs Reviewed | 73 |
 | Issues/PRs Commented | 54 |
 | Issues Closed | 30 |
 
@@ -172,9 +172,10 @@
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
 - [#155 Fix detectTargetBranch resolving head branch instead of base](https://github.com/kaovilai/github-bot-command-palette/pull/155) — kaovilai/github-bot-command-palette
 - [#35 Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site](https://github.com/HASHCUT69/Blend-n-Run/pull/35) — HASHCUT69/Blend-n-Run
-## PRs Reviewed (72)
+## PRs Reviewed (73)
 
-**velero-io** (36)
+**velero-io** (37)
+- [#10353 Reject velero backup delete when BSL is read-only](https://github.com/velero-io/velero/pull/10353) — velero-io/velero
 - [#10405 [Backport release-1.18] Fix node agent readiness check issue](https://github.com/velero-io/velero/pull/10405) — velero-io/velero
 - [#10360 [cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent](https://github.com/velero-io/velero/pull/10360) — velero-io/velero
 - [#10397 Fix node agent rediness check issue](https://github.com/velero-io/velero/pull/10397) — velero-io/velero
