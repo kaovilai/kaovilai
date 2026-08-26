@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T19:06:07Z",
+  "updatedAt": "2026-08-26T22:56:36Z",
   "prs": [
     {
       "number": 10010,
@@ -281,6 +281,28 @@
       "updatedAt": "2026-08-26T17:07:48Z"
     },
     {
+      "number": 9236,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+      "url": "https://github.com/velero-io/velero/pull/9236",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog",
+        "has-e2e-2tests"
+      ],
+      "updatedAt": "2026-08-26T19:53:27Z"
+    },
+    {
       "number": 9384,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -300,6 +322,28 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-26T15:03:22Z"
+    },
+    {
+      "number": 9575,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add configurable tolerations for PodVolumeBackup and data mover pods",
+      "url": "https://github.com/velero-io/velero/pull/9575",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "Documentation",
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-26T19:27:30Z"
     },
     {
       "number": 9646,
@@ -656,28 +700,6 @@
       "updatedAt": "2026-08-26T15:05:47Z"
     },
     {
-      "number": 9236,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-      "url": "https://github.com/velero-io/velero/pull/9236",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog",
-        "has-e2e-2tests"
-      ],
-      "updatedAt": "2026-08-26T18:46:58Z"
-    },
-    {
       "number": 9388,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -696,28 +718,6 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-08-26T17:02:15Z"
-    },
-    {
-      "number": 9575,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add configurable tolerations for PodVolumeBackup and data mover pods",
-      "url": "https://github.com/velero-io/velero/pull/9575",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "Documentation",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-26T19:02:03Z"
     },
     {
       "number": 9772,
@@ -1277,7 +1277,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-26T18:06:07Z"
+      "updatedAt": "2026-08-26T21:24:30Z"
     },
     {
       "number": 225,
@@ -1325,27 +1325,6 @@
       "updatedAt": "2026-08-26T14:58:57Z"
     },
     {
-      "number": 2019,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
-      "url": "https://github.com/openshift/oadp-operator/pull/2019",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-26T17:04:36Z"
-    },
-    {
       "number": 2139,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1368,7 +1347,7 @@
         "ai-generated-test",
         "ai-gen-bugfix"
       ],
-      "updatedAt": "2026-08-26T17:40:12Z"
+      "updatedAt": "2026-08-26T21:48:32Z"
     },
     {
       "number": 2234,
@@ -2071,6 +2050,27 @@
         "needs-approver-review"
       ],
       "updatedAt": "2026-08-13T20:17:52Z"
+    },
+    {
+      "number": 18949,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18949",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "size/M",
+        "sig/storage",
+        "release-note",
+        "dco-signoff: yes"
+      ],
+      "updatedAt": "2026-08-26T20:27:46Z"
     },
     {
       "number": 1034,
@@ -3050,7 +3050,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-26T19:06:07Z",
+    "updatedAt": "2026-08-26T22:56:36Z",
     "needsReview": [
       {
         "number": 68,
@@ -3196,7 +3196,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 197,
+        "waitingDays": 198,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3268,7 +3268,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3281,7 +3281,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 109,
+        "waitingDays": 110,
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
@@ -3311,7 +3311,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 77,
+        "waitingDays": 78,
         "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
@@ -3466,7 +3466,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3478,7 +3478,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -3709,7 +3709,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -3756,7 +3756,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3769,7 +3769,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -3921,7 +3921,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
@@ -3947,7 +3947,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-14T21:03:44Z"
       },
       {
@@ -3973,7 +3973,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
@@ -3999,8 +3999,34 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-08-21T20:43:44Z"
+      },
+      {
+        "number": 328,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
         "number": 375,
@@ -4027,59 +4053,36 @@
         "updatedAt": "2026-08-25T01:21:43Z"
       },
       {
-        "number": 328,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-24T20:26:38Z"
-      },
-      {
-        "number": 2379,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-        "url": "https://github.com/openshift/oadp-operator/pull/2379",
-        "targetBranch": "oadp-1.4",
+        "number": 18949,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18949",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "approved"
+          "size/M",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
-        "requiredApprovals": 2,
+        "requiredApprovals": null,
         "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
+          "Acedus",
+          "alromeros"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T17:33:09Z"
+        "updatedAt": "2026-08-26T20:27:46Z"
       },
       {
         "number": 2404,
@@ -4094,7 +4097,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4108,7 +4111,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T18:06:07Z"
+        "updatedAt": "2026-08-26T21:24:30Z"
       },
       {
         "number": 10010,
@@ -4356,39 +4359,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-08-26T15:55:39Z"
-      },
-      {
-        "number": 10381,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/10381",
-        "targetBranch": "release-1.18",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-26T14:30:42Z"
       },
       {
         "number": 10382,
@@ -4674,12 +4644,13 @@
         "requiredApprovals": null,
         "reviewRequests": [
           "blackpiglet",
-          "shubham-pampattiwar"
+          "shubham-pampattiwar",
+          "Lyndon-Li"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T18:46:58Z"
+        "updatedAt": "2026-08-26T19:53:27Z"
       },
       {
         "number": 9384,
@@ -4763,19 +4734,18 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
           "anshulahuja98",
-          "blackpiglet",
-          "sseago"
+          "blackpiglet"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T19:02:03Z"
+        "updatedAt": "2026-08-26T19:27:30Z"
       },
       {
         "number": 9646,
@@ -4919,7 +4889,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4977,7 +4947,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5089,6 +5059,42 @@
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
+        "number": 18725,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Acedus"
+        ],
+        "labels": [
+          "size/S",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lgtm",
+          "dco-signoff: yes",
+          "needs-approver-review"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ShellyKa13"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-13T20:17:52Z"
+      },
+      {
         "number": 2234,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5117,42 +5123,6 @@
         "reason": "pendingMerge",
         "waitingDays": 13,
         "updatedAt": "2026-08-13T19:05:52Z"
-      },
-      {
-        "number": 18725,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Acedus"
-        ],
-        "labels": [
-          "size/S",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lgtm",
-          "dco-signoff: yes",
-          "needs-approver-review"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ShellyKa13"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-13T20:17:52Z"
       },
       {
         "number": 373,
@@ -5214,7 +5184,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-08-21T19:27:36Z"
       },
       {
@@ -5243,7 +5213,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:13Z"
       },
       {
@@ -5272,7 +5242,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:20Z"
       },
       {
@@ -5300,7 +5270,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:41Z"
       },
       {
@@ -5328,7 +5298,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:55:02Z"
       },
       {
@@ -5357,7 +5327,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:55Z"
       },
       {
@@ -5386,7 +5356,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:55:08Z"
       },
       {
@@ -5412,7 +5382,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:27Z"
       },
       {
@@ -5438,7 +5408,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:48Z"
       },
       {
@@ -5464,7 +5434,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:55:14Z"
       },
       {
@@ -5490,7 +5460,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
@@ -5516,8 +5486,39 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-24T20:54:02Z"
+      },
+      {
+        "number": 10077,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add Dependabot auto-approve workflow",
+        "url": "https://github.com/velero-io/velero/pull/10077",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-25T22:09:26Z"
       },
       {
         "number": 233,
@@ -5550,37 +5551,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-08-26T14:58:57Z"
-      },
-      {
-        "number": 2019,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
-        "url": "https://github.com/openshift/oadp-operator/pull/2019",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-26T17:04:36Z"
       },
       {
         "number": 2139,
@@ -5617,38 +5587,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-08-26T17:40:12Z"
-      },
-      {
-        "number": 10077,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot auto-approve workflow",
-        "url": "https://github.com/velero-io/velero/pull/10077",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-25T22:09:26Z"
+        "updatedAt": "2026-08-26T21:48:32Z"
       },
       {
         "number": 10399,
