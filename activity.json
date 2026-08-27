@@ -3,15 +3,22 @@
     "start": "2026-08-13",
     "end": "2026-08-27"
   },
-  "generatedAt": "2026-08-27T17:30:53Z",
+  "generatedAt": "2026-08-27T22:01:15Z",
   "metrics": {
     "prsMerged": 61,
-    "prsOpened": 82,
-    "prsReviewed": 73,
+    "prsOpened": 86,
+    "prsReviewed": 75,
     "issuesCommented": 58,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 50,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Set binding-blocking spec.selector on restore-target PVCs",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50"
+    },
     {
       "number": 2139,
       "repo": "openshift/oadp-operator",
@@ -144,13 +151,6 @@
       "org": "openshift",
       "title": "Migrate Claude e2e failure analysis to claude-ai-helpers step-registry",
       "url": "https://github.com/openshift/oadp-operator/pull/2408"
-    },
-    {
-      "number": 50,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Set binding-blocking spec.selector on restore-target PVCs",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50"
     },
     {
       "number": 10389,
@@ -441,6 +441,34 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 208,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: recognize VirtualMachineBackup's renamed Complete condition",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/208"
+    },
+    {
+      "number": 10428,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.14] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10428"
+    },
+    {
+      "number": 10427,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10427"
+    },
+    {
+      "number": 207,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "alt: merge-patch expected-backup-type annotation instead of retrying Update",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/207"
+    },
     {
       "number": 206,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1018,6 +1046,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 53,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "[oadp-1.6] Set binding-blocking spec.selector on restore-target PVCs",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/53"
+    },
+    {
       "number": 2397,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1025,18 +1067,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2397"
     },
     {
+      "number": 192,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "docs: add architecture and testing guides, refresh README",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
+    },
+    {
       "number": 10286,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
       "url": "https://github.com/velero-io/velero/pull/10286"
-    },
-    {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 10353,
