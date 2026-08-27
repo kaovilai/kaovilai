@@ -3,15 +3,22 @@
     "start": "2026-08-13",
     "end": "2026-08-27"
   },
-  "generatedAt": "2026-08-27T04:26:31Z",
+  "generatedAt": "2026-08-27T17:30:53Z",
   "metrics": {
-    "prsMerged": 60,
-    "prsOpened": 75,
-    "prsReviewed": 72,
-    "issuesCommented": 54,
+    "prsMerged": 61,
+    "prsOpened": 82,
+    "prsReviewed": 73,
+    "issuesCommented": 58,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 2139,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
+      "url": "https://github.com/openshift/oadp-operator/pull/2139"
+    },
     {
       "number": 10348,
       "repo": "velero-io/velero",
@@ -434,6 +441,55 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 206,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: retry expected-backup-type annotation on conflict instead of giving up",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/206"
+    },
+    {
+      "number": 10426,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10426"
+    },
+    {
+      "number": 10425,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10425"
+    },
+    {
+      "number": 10424,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10424"
+    },
+    {
+      "number": 565,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)",
+      "url": "https://github.com/openshift/velero/pull/565"
+    },
+    {
+      "number": 10423,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.16] DM controller refactor for cancel (cherry-pick #8952)",
+      "url": "https://github.com/velero-io/velero/pull/10423"
+    },
+    {
+      "number": 18957,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18957"
+    },
     {
       "number": 18949,
       "repo": "kubevirt/kubevirt",
@@ -962,11 +1018,32 @@
   ],
   "prsReviewed": [
     {
+      "number": 2397,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
+      "url": "https://github.com/openshift/oadp-operator/pull/2397"
+    },
+    {
+      "number": 10286,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+      "url": "https://github.com/velero-io/velero/pull/10286"
+    },
+    {
       "number": 2405,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 10353,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Reject velero backup delete when BSL is read-only",
+      "url": "https://github.com/velero-io/velero/pull/10353"
     },
     {
       "number": 2415,
@@ -1002,20 +1079,6 @@
       "org": "velero-io",
       "title": "Show validation frequency in backup-location get output",
       "url": "https://github.com/velero-io/velero/pull/10372"
-    },
-    {
-      "number": 10286,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-      "url": "https://github.com/velero-io/velero/pull/10286"
-    },
-    {
-      "number": 10353,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reject velero backup delete when BSL is read-only",
-      "url": "https://github.com/velero-io/velero/pull/10353"
     },
     {
       "number": 10405,
@@ -1468,6 +1531,48 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 18963,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP #25: Infer backup target StorageClass from source VM volumes",
+      "url": "https://github.com/kubevirt/kubevirt/issues/18963"
+    },
+    {
+      "number": 9476,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove whitelist for tolerations of PodVolumeBackup Pod",
+      "url": "https://github.com/velero-io/velero/issues/9476"
+    },
+    {
+      "number": 2403,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
+      "url": "https://github.com/openshift/oadp-operator/issues/2403"
+    },
+    {
+      "number": 18959,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race",
+      "url": "https://github.com/kubevirt/kubevirt/issues/18959"
+    },
+    {
+      "number": 18950,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending",
+      "url": "https://github.com/kubevirt/kubevirt/issues/18950"
+    },
+    {
       "number": 9645,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1489,13 +1594,6 @@
       "url": "https://github.com/actions/setup-go/issues/481"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
       "number": 9656,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1515,13 +1613,6 @@
       "org": "velero-io",
       "title": "Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.",
       "url": "https://github.com/velero-io/velero/issues/9760"
-    },
-    {
-      "number": 2403,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
-      "url": "https://github.com/openshift/oadp-operator/issues/2403"
     },
     {
       "number": 10297,
