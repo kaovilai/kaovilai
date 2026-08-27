@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-08-12",
-    "end": "2026-08-26"
+    "start": "2026-08-13",
+    "end": "2026-08-27"
   },
-  "generatedAt": "2026-08-26T22:52:12Z",
+  "generatedAt": "2026-08-27T04:26:31Z",
   "metrics": {
-    "prsMerged": 62,
-    "prsOpened": 87,
-    "prsReviewed": 79,
+    "prsMerged": 60,
+    "prsOpened": 75,
+    "prsReviewed": 72,
     "issuesCommented": 54,
     "issuesClosed": 30
   },
   "prsMerged": [
+    {
+      "number": 10348,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
+      "url": "https://github.com/velero-io/velero/pull/10348"
+    },
     {
       "number": 2019,
       "repo": "openshift/oadp-operator",
@@ -424,27 +431,6 @@
       "org": "openshift",
       "title": "OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs",
       "url": "https://github.com/openshift/oadp-operator/pull/2241"
-    },
-    {
-      "number": 5363,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
-      "url": "https://github.com/openshift/ci-tools/pull/5363"
-    },
-    {
-      "number": 2206,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2206"
-    },
-    {
-      "number": 155,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fix detectTargetBranch resolving head branch instead of base",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/155"
     }
   ],
   "prsOpened": [
@@ -972,90 +958,6 @@
       "org": "velero-io",
       "title": "[release-1.17] Backport #10250: Fix pod volume restore deadlock",
       "url": "https://github.com/velero-io/velero/pull/10262"
-    },
-    {
-      "number": 182,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182"
-    },
-    {
-      "number": 188,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Fix review queue card deadspace",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/188"
-    },
-    {
-      "number": 83341,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ci-tools: bump bin build memory request to 3Gi",
-      "url": "https://github.com/openshift/release/pull/83341"
-    },
-    {
-      "number": 2379,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-      "url": "https://github.com/openshift/oadp-operator/pull/2379"
-    },
-    {
-      "number": 2378,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "1.3: Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/",
-      "url": "https://github.com/openshift/oadp-operator/pull/2378"
-    },
-    {
-      "number": 2376,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2376"
-    },
-    {
-      "number": 2375,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2375"
-    },
-    {
-      "number": 155,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fix detectTargetBranch resolving head branch instead of base",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/155"
-    },
-    {
-      "number": 2374,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2374"
-    },
-    {
-      "number": 2373,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2373"
-    },
-    {
-      "number": 35,
-      "repo": "HASHCUT69/Blend-n-Run",
-      "org": "HASHCUT69",
-      "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-      "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35"
-    },
-    {
-      "number": 5363,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "pkg/steps: retry network-unreachable builds, capture failed build logs",
-      "url": "https://github.com/openshift/ci-tools/pull/5363"
     }
   ],
   "prsReviewed": [
@@ -1067,18 +969,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
-      "number": 2412,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] [OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
-      "url": "https://github.com/openshift/oadp-operator/pull/2412"
-    },
-    {
       "number": 2415,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.5] Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
       "url": "https://github.com/openshift/oadp-operator/pull/2415"
+    },
+    {
+      "number": 2412,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] [OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
+      "url": "https://github.com/openshift/oadp-operator/pull/2412"
     },
     {
       "number": 3,
@@ -1333,13 +1235,6 @@
       "url": "https://github.com/kubernetes-sigs/prow/pull/849"
     },
     {
-      "number": 10252,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip signing a download URL when no artifacts can exist yet",
-      "url": "https://github.com/velero-io/velero/pull/10252"
-    },
-    {
       "number": 10346,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1445,13 +1340,6 @@
       "url": "https://github.com/velero-io/velero/pull/10269"
     },
     {
-      "number": 10253,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Refactor: Remove legacy resticrepositories hardcoding from restore controller",
-      "url": "https://github.com/velero-io/velero/pull/10253"
-    },
-    {
       "number": 10317,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1550,13 +1438,6 @@
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12324"
     },
     {
-      "number": 10245,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Document what the DownloadRequest Processed phase means",
-      "url": "https://github.com/velero-io/velero/pull/10245"
-    },
-    {
       "number": 188,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -1578,42 +1459,21 @@
       "url": "https://github.com/openshift/oadp-must-gather/pull/160"
     },
     {
-      "number": 2382,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "PodResources must be complete for Velero parser",
-      "url": "https://github.com/openshift/oadp-operator/pull/2382"
-    },
-    {
       "number": 185,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "[oadp-1.6] feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/185"
-    },
-    {
-      "number": 10250,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix pvr deadlock",
-      "url": "https://github.com/velero-io/velero/pull/10250"
-    },
-    {
-      "number": 10251,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix wrong node-agent check result when PVR restorer run concurrently",
-      "url": "https://github.com/velero-io/velero/pull/10251"
-    },
-    {
-      "number": 183,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] feat: add staleness check for per-VM DataUpload serialization",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/183"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9645,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/issues/9645"
+    },
     {
       "number": 8363,
       "repo": "velero-io/velero",
@@ -1984,13 +1844,6 @@
       "org": "velero-io",
       "title": "S3 client-side encryption support",
       "url": "https://github.com/velero-io/velero/issues/3218"
-    },
-    {
-      "number": 2906,
-      "repo": "aws/aws-sdk-go-v2",
-      "org": "aws",
-      "title": "EFS should have snapshot function similar to EBS",
-      "url": "https://github.com/aws/aws-sdk-go-v2/issues/2906"
     }
   ],
   "issuesClosed": [
