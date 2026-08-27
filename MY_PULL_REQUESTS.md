@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-26 22:56:36 UTC
+> Last updated: 2026-08-27 04:12:03 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -13,7 +13,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-ready-green)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ready-green)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
-- [![PR #10348](https://img.shields.io/badge/PR%20%2310348-ready-green)](https://github.com/velero-io/velero/pull/10348) **velero-io/velero** → `release-1.18` - 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms
 - [![PR #10381](https://img.shields.io/badge/PR%20%2310381-ready-green)](https://github.com/velero-io/velero/pull/10381) **velero-io/velero** → `release-1.18` - 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
 - [![PR #10403](https://img.shields.io/badge/PR%20%2310403-ready-green)](https://github.com/velero-io/velero/pull/10403) **velero-io/velero** → `main` - Check both daemonsets before returning non-NotFound lookup error in IsReady
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
