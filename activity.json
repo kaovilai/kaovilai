@@ -3,13 +3,13 @@
     "start": "2026-08-14",
     "end": "2026-08-28"
   },
-  "generatedAt": "2026-08-28T06:49:48Z",
+  "generatedAt": "2026-08-28T21:51:52Z",
   "metrics": {
     "prsMerged": 53,
     "prsOpened": 79,
     "prsReviewed": 64,
     "issuesCommented": 48,
-    "issuesClosed": 20
+    "issuesClosed": 21
   },
   "prsMerged": [
     {
@@ -1391,6 +1391,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 481,
+      "repo": "actions/setup-go",
+      "org": "actions",
+      "title": "Support using a later patch release than what's in go.mod",
+      "url": "https://github.com/actions/setup-go/issues/481"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1445,13 +1452,6 @@
       "org": "velero-io",
       "title": "VolumePolicies filter volumes to snapshot by volume name",
       "url": "https://github.com/velero-io/velero/issues/8363"
-    },
-    {
-      "number": 481,
-      "repo": "actions/setup-go",
-      "org": "actions",
-      "title": "Support using a later patch release than what's in go.mod",
-      "url": "https://github.com/actions/setup-go/issues/481"
     },
     {
       "number": 9656,
@@ -1728,6 +1728,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 1623,
+      "repo": "sooperset/mcp-atlassian",
+      "org": "sooperset",
+      "title": "jira_transition_issue's `comment` argument silently dropped on Jira Cloud (transition succeeds, comment never posts)",
+      "url": "https://github.com/sooperset/mcp-atlassian/issues/1623"
+    },
     {
       "number": 10297,
       "repo": "velero-io/velero",
