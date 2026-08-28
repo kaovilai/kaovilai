@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-08-13",
-    "end": "2026-08-27"
+    "start": "2026-08-14",
+    "end": "2026-08-28"
   },
-  "generatedAt": "2026-08-27T22:01:15Z",
+  "generatedAt": "2026-08-28T06:03:45Z",
   "metrics": {
-    "prsMerged": 61,
-    "prsOpened": 86,
-    "prsReviewed": 75,
-    "issuesCommented": 58,
-    "issuesClosed": 30
+    "prsMerged": 53,
+    "prsOpened": 79,
+    "prsReviewed": 64,
+    "issuesCommented": 48,
+    "issuesClosed": 20
   },
   "prsMerged": [
+    {
+      "number": 10381,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10381"
+    },
     {
       "number": 50,
       "repo": "migtools/kubevirt-datamover-plugin",
@@ -375,69 +382,6 @@
       "org": "openshift",
       "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
       "url": "https://github.com/openshift/oadp-operator/pull/2357"
-    },
-    {
-      "number": 2376,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2376"
-    },
-    {
-      "number": 182,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: correct S3 checkpoint index when backup type mismatch detected",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/182"
-    },
-    {
-      "number": 159,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add ship skill for solo-repo commit-to-merge cycle",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/159"
-    },
-    {
-      "number": 5334,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "test/e2e: unpin optional-operators fixture from EOL ocp/4.6 integrated stream",
-      "url": "https://github.com/openshift/ci-tools/pull/5334"
-    },
-    {
-      "number": 158,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fix job picker status mismatching GitHub's real check state",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/158"
-    },
-    {
-      "number": 83286,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Prep oadp-1.4/1.5 with bundle promotion for future cross-repo e2e",
-      "url": "https://github.com/openshift/release/pull/83286"
-    },
-    {
-      "number": 83282,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Promote oadp-operator bundle directly instead of a broken index",
-      "url": "https://github.com/openshift/release/pull/83282"
-    },
-    {
-      "number": 124,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/124"
-    },
-    {
-      "number": 2241,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-4817, OADP-1945, OADP-641: Add AWS_CA_BUNDLE support for custom CA certificates in BSLs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2241"
     }
   ],
   "prsOpened": [
@@ -993,64 +937,22 @@
       "org": "openshift",
       "title": "Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD",
       "url": "https://github.com/openshift/oadp-operator/pull/2387"
-    },
-    {
-      "number": 187,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187"
-    },
-    {
-      "number": 83416,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add watch-ci-status skill: watch postsubmit refresh + PR status",
-      "url": "https://github.com/openshift/release/pull/83416"
-    },
-    {
-      "number": 159,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add ship skill for solo-repo commit-to-merge cycle",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/159"
-    },
-    {
-      "number": 158,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fix job picker status mismatching GitHub's real check state",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/158"
-    },
-    {
-      "number": 186,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
-    },
-    {
-      "number": 10263,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Backport #10250: Fix pod volume restore deadlock",
-      "url": "https://github.com/velero-io/velero/pull/10263"
-    },
-    {
-      "number": 10262,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17] Backport #10250: Fix pod volume restore deadlock",
-      "url": "https://github.com/velero-io/velero/pull/10262"
     }
   ],
   "prsReviewed": [
     {
-      "number": 2405,
+      "number": 2397,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+      "title": "[OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
+      "url": "https://github.com/openshift/oadp-operator/pull/2397"
+    },
+    {
+      "number": 10393,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.17] fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
+      "url": "https://github.com/velero-io/velero/pull/10393"
     },
     {
       "number": 53,
@@ -1060,11 +962,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/53"
     },
     {
-      "number": 2397,
+      "number": 2405,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
-      "url": "https://github.com/openshift/oadp-operator/pull/2397"
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 192,
@@ -1319,20 +1221,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2390"
     },
     {
-      "number": 463,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-dev (033e6b1) into oadp-dev",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/463"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163"
-    },
-    {
       "number": 849,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
@@ -1352,13 +1240,6 @@
       "org": "velero-io",
       "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
       "url": "https://github.com/velero-io/velero/pull/10315"
-    },
-    {
-      "number": 98,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-dev (2768b89) into oadp-dev",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/98"
     },
     {
       "number": 10342,
@@ -1424,13 +1305,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/190"
     },
     {
-      "number": 2385,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2385"
-    },
-    {
       "number": 10319,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1473,39 +1347,11 @@
       "url": "https://github.com/migtools/oadp-cli/pull/257"
     },
     {
-      "number": 10264,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix loadConcurrency slot leak on forced cancel",
-      "url": "https://github.com/velero-io/velero/pull/10264"
-    },
-    {
-      "number": 10255,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Use thread safe map for cancel recorder",
-      "url": "https://github.com/velero-io/velero/pull/10255"
-    },
-    {
-      "number": 10258,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cap the unzip of metadata download to avoid OOM kill",
-      "url": "https://github.com/velero-io/velero/pull/10258"
-    },
-    {
       "number": 10270,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Cap the metadata decompression in object store",
       "url": "https://github.com/velero-io/velero/pull/10270"
-    },
-    {
-      "number": 10254,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "credentialFile in Config of BSL should be used internally",
-      "url": "https://github.com/velero-io/velero/pull/10254"
     },
     {
       "number": 10283,
@@ -1541,34 +1387,6 @@
       "org": "openshift-eng",
       "title": "Fix kubevirt-velero-plugin branch target for oadp-1.3",
       "url": "https://github.com/openshift-eng/ocp-build-data/pull/12324"
-    },
-    {
-      "number": 188,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: correct S3 checkpoint index when backup type mismatch detected",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/188"
-    },
-    {
-      "number": 562,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Rebase oadp-dev onto upstream/main (4f55fb5a6)",
-      "url": "https://github.com/openshift/velero/pull/562"
-    },
-    {
-      "number": 160,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.4 (832961f) into oadp-1.4",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/160"
-    },
-    {
-      "number": 185,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] feat: implement DataDownload controller for VM restore (issue #73 Phase 3)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/185"
     }
   ],
   "issuesCommented": [
@@ -1907,76 +1725,6 @@
       "org": "openshift",
       "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
       "url": "https://github.com/openshift/ci-docs/issues/597"
-    },
-    {
-      "number": 169,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169"
-    },
-    {
-      "number": 120,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120"
-    },
-    {
-      "number": 153,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
-    },
-    {
-      "number": 154,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154"
-    },
-    {
-      "number": 155,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155"
-    },
-    {
-      "number": 152,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152"
-    },
-    {
-      "number": 123,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
-    },
-    {
-      "number": 122,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122"
-    },
-    {
-      "number": 477,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "branchprotector: excluded branches retain existing protection instead of being removed",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/477"
-    },
-    {
-      "number": 3218,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "S3 client-side encryption support",
-      "url": "https://github.com/velero-io/velero/issues/3218"
     }
   ],
   "issuesClosed": [
@@ -2119,76 +1867,6 @@
       "org": "velero-io",
       "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
       "url": "https://github.com/velero-io/velero/issues/10302"
-    },
-    {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
-    },
-    {
-      "number": 5333,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "e2e-oo permanently failing: fixture pins EOL integrated stream ocp/4.6, configresolver returns 400",
-      "url": "https://github.com/openshift/ci-tools/issues/5333"
-    },
-    {
-      "number": 169,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169"
-    },
-    {
-      "number": 153,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153"
-    },
-    {
-      "number": 154,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154"
-    },
-    {
-      "number": 155,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155"
-    },
-    {
-      "number": 152,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152"
-    },
-    {
-      "number": 121,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Spec.OperationTimeout is not honored by either DataUpload or DataDownload controller",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/121"
-    },
-    {
-      "number": 123,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123"
-    },
-    {
-      "number": 122,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122"
     }
   ]
 }
