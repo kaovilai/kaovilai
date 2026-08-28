@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T22:09:25Z",
+  "updatedAt": "2026-08-28T06:44:15Z",
   "prs": [
     {
       "number": 10010,
@@ -66,12 +66,12 @@
       "updatedAt": "2026-08-27T16:51:50Z"
     },
     {
-      "number": 10381,
+      "number": 10406,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10381",
-      "targetBranch": "release-1.18",
+      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10406",
+      "targetBranch": "release-1.17",
       "status": "ready",
       "milestone": null,
       "author": "Copilot",
@@ -82,10 +82,50 @@
       ],
       "isDraft": false,
       "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-08-28T03:42:29Z"
+    },
+    {
+      "number": 10423,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.16] DM controller refactor for cancel (cherry-pick #8952)",
+      "url": "https://github.com/velero-io/velero/pull/10423",
+      "targetBranch": "release-1.16",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-27T04:47:27Z"
+      "updatedAt": "2026-08-28T03:47:44Z"
+    },
+    {
+      "number": 10424,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10424",
+      "targetBranch": "release-1.16",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-28T03:47:41Z"
     },
     {
       "number": 10425,
@@ -108,12 +148,12 @@
       "updatedAt": "2026-08-27T19:09:33Z"
     },
     {
-      "number": 10426,
+      "number": 10427,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10426",
-      "targetBranch": "release-1.18",
+      "title": "[release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10427",
+      "targetBranch": "release-1.15",
       "status": "ready",
       "milestone": null,
       "author": "kaovilai",
@@ -123,9 +163,10 @@
       ],
       "isDraft": false,
       "labels": [
-        "has-changelog"
+        "kind/changelog-not-required",
+        "has-unit-tests"
       ],
-      "updatedAt": "2026-08-27T19:09:16Z"
+      "updatedAt": "2026-08-27T23:46:04Z"
     },
     {
       "number": 10428,
@@ -147,7 +188,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-27T21:38:49Z"
+      "updatedAt": "2026-08-27T23:45:57Z"
     },
     {
       "number": 8793,
@@ -589,27 +630,6 @@
       "updatedAt": "2026-08-14T21:05:20Z"
     },
     {
-      "number": 10427,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10427",
-      "targetBranch": "release-1.15",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required",
-        "has-unit-tests"
-      ],
-      "updatedAt": "2026-08-27T21:38:53Z"
-    },
-    {
       "number": 10025,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -725,6 +745,26 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-27T16:55:07Z"
+    },
+    {
+      "number": 10426,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10426",
+      "targetBranch": "release-1.18",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": true,
+      "labels": [
+        "has-changelog"
+      ],
+      "updatedAt": "2026-08-28T04:37:42Z"
     },
     {
       "number": 7344,
@@ -958,68 +998,6 @@
         "backport release-1.18"
       ],
       "updatedAt": "2026-08-27T16:47:34Z"
-    },
-    {
-      "number": 10406,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10406",
-      "targetBranch": "release-1.17",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-08-26T17:22:30Z"
-    },
-    {
-      "number": 10423,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.16] DM controller refactor for cancel (cherry-pick #8952)",
-      "url": "https://github.com/velero-io/velero/pull/10423",
-      "targetBranch": "release-1.16",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-27T13:37:55Z"
-    },
-    {
-      "number": 10424,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10424",
-      "targetBranch": "release-1.16",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-27T19:09:49Z"
     },
     {
       "number": 7941,
@@ -1379,7 +1357,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-27T21:53:05Z"
+      "updatedAt": "2026-08-28T04:25:32Z"
     },
     {
       "number": 225,
@@ -1748,7 +1726,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-27T21:29:13Z"
+      "updatedAt": "2026-08-27T22:15:44Z"
     },
     {
       "number": 216,
@@ -3204,7 +3182,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-27T22:09:25Z",
+    "updatedAt": "2026-08-28T06:44:15Z",
     "needsReview": [
       {
         "number": 68,
@@ -3227,7 +3205,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 651,
+        "waitingDays": 652,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3251,7 +3229,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 500,
+        "waitingDays": 501,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -3275,7 +3253,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 489,
+        "waitingDays": 490,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -3299,7 +3277,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 482,
+        "waitingDays": 483,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3422,7 +3400,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3525,6 +3503,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 44,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3582,30 +3584,6 @@
         "reason": "hold",
         "waitingDays": 43,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 43,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3726,7 +3704,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3910,7 +3888,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3923,8 +3901,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-05T22:33:26Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 16,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 46,
@@ -3954,30 +3956,6 @@
         "reason": "awaitingReview",
         "waitingDays": 16,
         "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 15,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -4047,6 +4025,38 @@
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
+        "number": 598,
+        "repo": "openshift/ci-docs",
+        "org": "openshift",
+        "title": "Document FBC catalog builds and OLM v1 testing workflows",
+        "url": "https://github.com/openshift/ci-docs/pull/598",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "hector-vido"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hector-vido",
+          "jmguzik",
+          "joelanford"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-08-14T22:38:52Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -4099,38 +4109,6 @@
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
-        "number": 598,
-        "repo": "openshift/ci-docs",
-        "org": "openshift",
-        "title": "Document FBC catalog builds and OLM v1 testing workflows",
-        "url": "https://github.com/openshift/ci-docs/pull/598",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "hector-vido"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "jmguzik",
-          "joelanford"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-08-14T22:38:52Z"
-      },
-      {
         "number": 326,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -4155,6 +4133,30 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-08-21T20:43:44Z"
+      },
+      {
+        "number": 375,
+        "repo": "socktainer/socktainer",
+        "org": "socktainer",
+        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
+        "url": "https://github.com/socktainer/socktainer/pull/375",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-25T01:21:43Z"
       },
       {
         "number": 328,
@@ -4183,30 +4185,6 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-25T01:21:43Z"
-      },
-      {
         "number": 18949,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -4222,7 +4200,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4237,69 +4215,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-08-26T20:27:46Z"
-      },
-      {
-        "number": 10382,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/10382",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-26T14:54:14Z"
-      },
-      {
-        "number": 10406,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
-        "url": "https://github.com/velero-io/velero/pull/10406",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-26T17:22:30Z"
       },
       {
         "number": 319,
@@ -4389,7 +4304,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-27T21:29:13Z"
+        "updatedAt": "2026-08-27T22:15:44Z"
       },
       {
         "number": 2404,
@@ -4418,7 +4333,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-27T21:53:05Z"
+        "updatedAt": "2026-08-28T04:25:32Z"
       },
       {
         "number": 565,
@@ -4698,39 +4613,6 @@
         "updatedAt": "2026-08-27T16:57:58Z"
       },
       {
-        "number": 10381,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-        "url": "https://github.com/velero-io/velero/pull/10381",
-        "targetBranch": "release-1.18",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-27T04:47:27Z"
-      },
-      {
         "number": 10403,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4764,6 +4646,37 @@
         "updatedAt": "2026-08-27T16:47:34Z"
       },
       {
+        "number": 10406,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+        "url": "https://github.com/velero-io/velero/pull/10406",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-28T03:42:29Z"
+      },
+      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4790,7 +4703,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-27T13:37:55Z"
+        "updatedAt": "2026-08-28T03:47:44Z"
       },
       {
         "number": 10424,
@@ -4810,9 +4723,9 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": true,
+        "hasGithubApproval": false,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
+        "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
           "shubham-pampattiwar"
@@ -4820,67 +4733,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-27T19:09:49Z"
-      },
-      {
-        "number": 10425,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10425",
-        "targetBranch": "release-1.17",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-27T19:09:33Z"
-      },
-      {
-        "number": 10426,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10426",
-        "targetBranch": "release-1.18",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-27T19:09:16Z"
+        "updatedAt": "2026-08-28T03:47:41Z"
       },
       {
         "number": 10427,
@@ -4909,7 +4762,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-27T21:38:53Z"
+        "updatedAt": "2026-08-27T23:46:04Z"
       },
       {
         "number": 10428,
@@ -4939,7 +4792,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-27T21:38:49Z"
+        "updatedAt": "2026-08-27T23:45:57Z"
       },
       {
         "number": 7941,
@@ -5656,7 +5509,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5932,7 +5785,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -6007,37 +5860,6 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-08-26T14:58:57Z"
-      },
-      {
-        "number": 10399,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
-        "url": "https://github.com/velero-io/velero/pull/10399",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-08-26T00:50:32Z"
       },
       {
         "number": 207,
