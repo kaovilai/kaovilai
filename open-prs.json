@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T11:51:35Z",
+  "updatedAt": "2026-08-29T15:49:48Z",
   "prs": [
     {
       "number": 10010,
@@ -1335,7 +1335,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-29T11:41:26Z"
+      "updatedAt": "2026-08-29T14:15:00Z"
     },
     {
       "number": 225,
@@ -1760,7 +1760,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-29T08:25:31Z"
+      "updatedAt": "2026-08-29T15:18:08Z"
     },
     {
       "number": 213,
@@ -3234,7 +3234,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-29T11:51:35Z",
+    "updatedAt": "2026-08-29T15:49:48Z",
     "needsReview": [
       {
         "number": 68,
@@ -3407,7 +3407,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 169,
+        "waitingDays": 170,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3436,7 +3436,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 142,
+        "waitingDays": 143,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3497,7 +3497,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 58,
+        "waitingDays": 59,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3769,7 +3769,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3870,7 +3870,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3901,30 +3901,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 17,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3950,8 +3926,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 17,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -3987,7 +3987,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -4213,34 +4213,6 @@
         "updatedAt": "2026-08-26T20:27:46Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -4257,7 +4229,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4270,7 +4242,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
@@ -4300,8 +4272,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-08-27T14:30:50Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 10010,
@@ -4319,7 +4319,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4352,7 +4352,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4385,7 +4385,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4414,7 +4414,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4477,7 +4477,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4506,7 +4506,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4537,7 +4537,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4568,7 +4568,7 @@
           "has-changelog",
           "backport release-1.18"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4747,7 +4747,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4779,7 +4779,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4810,7 +4810,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4842,7 +4842,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4876,7 +4876,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4910,7 +4910,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4943,7 +4943,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4974,7 +4974,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5006,7 +5006,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5038,7 +5038,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5071,7 +5071,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5135,7 +5135,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5235,7 +5235,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-29T08:25:31Z"
+        "updatedAt": "2026-08-29T15:18:08Z"
       },
       {
         "number": 213,
@@ -5293,7 +5293,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-29T11:41:26Z"
+        "updatedAt": "2026-08-29T14:15:00Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5322,7 +5322,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 142,
+        "waitingDays": 143,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5354,6 +5354,36 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
+        "number": 10028,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Bump actions/labeler from v5 to v6",
+        "url": "https://github.com/velero-io/velero/pull/10028",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 36,
+        "updatedAt": "2026-07-23T20:59:18Z"
+      },
+      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5381,7 +5411,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
@@ -5412,7 +5442,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -5446,7 +5476,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5470,7 +5500,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5544,7 +5574,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -5855,37 +5885,6 @@
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
-        "number": 10077,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot auto-approve workflow",
-        "url": "https://github.com/velero-io/velero/pull/10077",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-25T22:09:26Z"
-      },
-      {
         "number": 233,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -5914,8 +5913,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-08-26T14:58:57Z"
+      },
+      {
+        "number": 10077,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add Dependabot auto-approve workflow",
+        "url": "https://github.com/velero-io/velero/pull/10077",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-25T22:09:26Z"
       }
     ]
   }
