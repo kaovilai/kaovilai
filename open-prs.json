@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T03:40:10Z",
+  "updatedAt": "2026-08-29T03:59:55Z",
   "prs": [
     {
       "number": 10010,
@@ -1357,7 +1357,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-29T02:51:26Z"
+      "updatedAt": "2026-08-29T03:53:18Z"
     },
     {
       "number": 225,
@@ -1729,6 +1729,24 @@
       "updatedAt": "2026-08-28T21:34:09Z"
     },
     {
+      "number": 212,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: retry VMB creation instead of waiting forever for cache visibility",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-29T03:56:39Z"
+    },
+    {
       "number": 216,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1798,7 +1816,7 @@
       "org": "migtools",
       "title": "Document NADR (NonAdminDownloadRequest) usage",
       "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-dev",
       "status": "waiting-merge",
       "milestone": null,
       "author": "kaovilai",
@@ -1872,7 +1890,7 @@
       "org": "migtools",
       "title": "Add GitHub Actions workflow to update OADP Go dependencies automatically",
       "url": "https://github.com/migtools/oadp-non-admin/pull/273",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-dev",
       "status": "stale",
       "milestone": null,
       "author": "kaovilai",
@@ -1890,7 +1908,7 @@
       "org": "migtools",
       "title": "ghactions check2",
       "url": "https://github.com/migtools/oadp-non-admin/pull/299",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-1.5",
       "status": "stale",
       "milestone": null,
       "author": "kaovilai",
@@ -3182,7 +3200,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-29T03:40:10Z",
+    "updatedAt": "2026-08-29T03:59:55Z",
     "needsReview": [
       {
         "number": 68,
@@ -3386,32 +3404,6 @@
         "reason": "awaitingReview",
         "waitingDays": 142,
         "updatedAt": "2026-04-08T15:23:08Z"
-      },
-      {
-        "number": 273,
-        "repo": "migtools/oadp-non-admin",
-        "org": "migtools",
-        "title": "Add GitHub Actions workflow to update OADP Go dependencies automatically",
-        "url": "https://github.com/migtools/oadp-non-admin/pull/273",
-        "targetBranch": "unknown",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 142,
-        "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
         "number": 2198,
@@ -3797,7 +3789,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3947,7 +3939,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4558,6 +4550,96 @@
         "updatedAt": "2026-08-27T16:47:34Z"
       },
       {
+        "number": 10406,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+        "url": "https://github.com/velero-io/velero/pull/10406",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-28T03:42:29Z"
+      },
+      {
+        "number": 10423,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[release-1.16] DM controller refactor for cancel (cherry-pick #8952)",
+        "url": "https://github.com/velero-io/velero/pull/10423",
+        "targetBranch": "release-1.16",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-28T03:47:44Z"
+      },
+      {
+        "number": 10424,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
+        "url": "https://github.com/velero-io/velero/pull/10424",
+        "targetBranch": "release-1.16",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-08-28T03:47:41Z"
+      },
+      {
         "number": 10427,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5093,6 +5175,35 @@
         "updatedAt": "2026-08-28T21:34:09Z"
       },
       {
+        "number": 212,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: retry VMB creation instead of waiting forever for cache visibility",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-29T03:56:39Z"
+      },
+      {
         "number": 2404,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -5119,100 +5230,38 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-29T02:51:26Z"
-      },
-      {
-        "number": 10406,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
-        "url": "https://github.com/velero-io/velero/pull/10406",
-        "targetBranch": "release-1.17",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-28T03:42:29Z"
-      },
-      {
-        "number": 10423,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.16] DM controller refactor for cancel (cherry-pick #8952)",
-        "url": "https://github.com/velero-io/velero/pull/10423",
-        "targetBranch": "release-1.16",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-28T03:47:44Z"
-      },
-      {
-        "number": 10424,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10424",
-        "targetBranch": "release-1.16",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-28T03:47:41Z"
+        "updatedAt": "2026-08-29T03:53:18Z"
       }
     ],
     "approvedWaitingToLand": [
+      {
+        "number": 273,
+        "repo": "migtools/oadp-non-admin",
+        "org": "migtools",
+        "title": "Add GitHub Actions workflow to update OADP Go dependencies automatically",
+        "url": "https://github.com/migtools/oadp-non-admin/pull/273",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 142,
+        "updatedAt": "2026-04-08T15:22:30Z"
+      },
       {
         "number": 312,
         "repo": "velero-io/velero-plugin-for-aws",
@@ -5409,7 +5458,7 @@
         "org": "migtools",
         "title": "Document NADR (NonAdminDownloadRequest) usage",
         "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-        "targetBranch": "unknown",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
@@ -5419,14 +5468,17 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
         "requiredApprovals": 2,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 7,
