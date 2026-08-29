@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-29 15:49:48 UTC
+> Last updated: 2026-08-29 20:04:17 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -102,7 +102,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #207](https://img.shields.io/badge/PR%20%23207-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/207) **migtools/kubevirt-datamover-controller** → `oadp-dev` - alt: merge-patch expected-backup-type annotation instead of retrying Update
 - [![PR #208](https://img.shields.io/badge/PR%20%23208-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/208) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: recognize VirtualMachineBackup's renamed Complete condition
-- [![PR #212](https://img.shields.io/badge/PR%20%23212-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: retry VMB creation instead of waiting forever for cache visibility
+- [![PR #212](https://img.shields.io/badge/PR%20%23212-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
