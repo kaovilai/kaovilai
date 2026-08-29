@@ -3,11 +3,11 @@
     "start": "2026-08-15",
     "end": "2026-08-29"
   },
-  "generatedAt": "2026-08-29T16:38:28Z",
+  "generatedAt": "2026-08-29T20:50:14Z",
   "metrics": {
     "prsMerged": 48,
     "prsOpened": 62,
-    "prsReviewed": 55,
+    "prsReviewed": 56,
     "issuesCommented": 43,
     "issuesClosed": 21
   },
@@ -375,7 +375,7 @@
       "number": 212,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
-      "title": "fix: retry VMB creation instead of waiting forever for cache visibility",
+      "title": "fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212"
     },
     {
@@ -786,6 +786,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10447,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bump the github-actions group with 2 updates",
+      "url": "https://github.com/velero-io/velero/pull/10447"
+    },
     {
       "number": 2405,
       "repo": "openshift/oadp-operator",
