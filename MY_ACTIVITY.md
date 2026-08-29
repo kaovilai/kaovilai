@@ -1,12 +1,12 @@
 # Activity Log
 
 > **Period:** 2026-08-15 — 2026-08-29
-> **Generated:** 2026-08-29 03:33:55 UTC
+> **Generated:** 2026-08-29 04:05:07 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 48 |
-| PRs Opened | 58 |
+| PRs Opened | 59 |
 | PRs Reviewed | 55 |
 | Issues/PRs Commented | 43 |
 | Issues Closed | 21 |
@@ -70,7 +70,7 @@
 - [#576 feat(openshift): preflight-check EC release signatures, offer nightly-style bypass](https://github.com/kaovilai/dotfiles/pull/576) — kaovilai/dotfiles
 - [#163 Refresh screenshots to reflect current profiles and rehearsal button](https://github.com/kaovilai/github-bot-command-palette/pull/163) — kaovilai/github-bot-command-palette
 - [#162 Resolve rehearsal rerun job names from presubmit config, not comment scraping](https://github.com/kaovilai/github-bot-command-palette/pull/162) — kaovilai/github-bot-command-palette
-## PRs Opened (58)
+## PRs Opened (59)
 
 **velero-io** (26)
 - [#10428 [release-1.14] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10428) — velero-io/velero
@@ -113,7 +113,8 @@
 - [#2402 Unpend two kdm restore e2e tests now that phase 4 landed](https://github.com/openshift/oadp-operator/pull/2402) — openshift/oadp-operator
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 
-**migtools** (10)
+**migtools** (11)
+- [#212 fix: retry VMB creation instead of waiting forever for cache visibility](https://github.com/migtools/kubevirt-datamover-controller/pull/212) — migtools/kubevirt-datamover-controller
 - [#208 fix: recognize VirtualMachineBackup's renamed Complete condition](https://github.com/migtools/kubevirt-datamover-controller/pull/208) — migtools/kubevirt-datamover-controller
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#206 fix: retry expected-backup-type annotation on conflict instead of giving up](https://github.com/migtools/kubevirt-datamover-controller/pull/206) — migtools/kubevirt-datamover-controller
