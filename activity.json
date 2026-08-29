@@ -3,10 +3,10 @@
     "start": "2026-08-15",
     "end": "2026-08-29"
   },
-  "generatedAt": "2026-08-29T04:05:07Z",
+  "generatedAt": "2026-08-29T06:53:39Z",
   "metrics": {
     "prsMerged": 48,
-    "prsOpened": 59,
+    "prsOpened": 62,
     "prsReviewed": 55,
     "issuesCommented": 43,
     "issuesClosed": 21
@@ -350,6 +350,27 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 213,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: speed up Dockerfile builds with cache mounts",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213"
+    },
+    {
+      "number": 84229,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h",
+      "url": "https://github.com/openshift/release/pull/84229"
+    },
+    {
+      "number": 84228,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add Depends-On cross-repo image build for KDM and oadp-operator e2e jobs",
+      "url": "https://github.com/openshift/release/pull/84228"
+    },
     {
       "number": 212,
       "repo": "migtools/kubevirt-datamover-controller",
