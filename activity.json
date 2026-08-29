@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-08-14",
-    "end": "2026-08-28"
+    "start": "2026-08-15",
+    "end": "2026-08-29"
   },
-  "generatedAt": "2026-08-28T21:51:52Z",
+  "generatedAt": "2026-08-29T03:33:55Z",
   "metrics": {
-    "prsMerged": 53,
-    "prsOpened": 79,
-    "prsReviewed": 64,
-    "issuesCommented": 48,
+    "prsMerged": 48,
+    "prsOpened": 58,
+    "prsReviewed": 55,
+    "issuesCommented": 43,
     "issuesClosed": 21
   },
   "prsMerged": [
@@ -347,41 +347,6 @@
       "org": "kaovilai",
       "title": "Resolve rehearsal rerun job names from presubmit config, not comment scraping",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/162"
-    },
-    {
-      "number": 10262,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17] Backport #10250: Fix pod volume restore deadlock",
-      "url": "https://github.com/velero-io/velero/pull/10262"
-    },
-    {
-      "number": 10263,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Backport #10250: Fix pod volume restore deadlock",
-      "url": "https://github.com/velero-io/velero/pull/10263"
-    },
-    {
-      "number": 160,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Skip /test on non-Prow checks, add optional Actions rerun",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/160"
-    },
-    {
-      "number": 2358,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2358"
-    },
-    {
-      "number": 2357,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] Fix DPA reconcile race: use MergeFrom patch for status update",
-      "url": "https://github.com/openshift/oadp-operator/pull/2357"
     }
   ],
   "prsOpened": [
@@ -790,153 +755,6 @@
       "org": "velero-io",
       "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
       "url": "https://github.com/velero-io/velero/pull/10286"
-    },
-    {
-      "number": 328,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "[release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328"
-    },
-    {
-      "number": 327,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "[release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327"
-    },
-    {
-      "number": 326,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326"
-    },
-    {
-      "number": 325,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "[release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325"
-    },
-    {
-      "number": 325,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325"
-    },
-    {
-      "number": 324,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324"
-    },
-    {
-      "number": 323,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323"
-    },
-    {
-      "number": 322,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/322"
-    },
-    {
-      "number": 269,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "[release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/269"
-    },
-    {
-      "number": 268,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "[release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/268"
-    },
-    {
-      "number": 267,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "[release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/267"
-    },
-    {
-      "number": 321,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321"
-    },
-    {
-      "number": 320,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/320"
-    },
-    {
-      "number": 324,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324"
-    },
-    {
-      "number": 266,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266"
-    },
-    {
-      "number": 319,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319"
-    },
-    {
-      "number": 10281,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-      "url": "https://github.com/velero-io/velero/pull/10281"
-    },
-    {
-      "number": 10276,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fail fast with clear error when data mover pod is unschedulable",
-      "url": "https://github.com/velero-io/velero/pull/10276"
-    },
-    {
-      "number": 10275,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Implement namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10275"
-    },
-    {
-      "number": 160,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Skip /test on non-Prow checks, add optional Actions rerun",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/160"
-    },
-    {
-      "number": 2387,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Expose kubevirt-datamover --max-concurrent-data-movers via DPA CRD",
-      "url": "https://github.com/openshift/oadp-operator/pull/2387"
     }
   ],
   "prsReviewed": [
@@ -1123,13 +941,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
     },
     {
-      "number": 10280,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…",
-      "url": "https://github.com/velero-io/velero/pull/10280"
-    },
-    {
       "number": 464,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -1221,13 +1032,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2390"
     },
     {
-      "number": 849,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "fix: status-reconciler track own config state for dropped deltas",
-      "url": "https://github.com/kubernetes-sigs/prow/pull/849"
-    },
-    {
       "number": 10346,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1312,13 +1116,6 @@
       "url": "https://github.com/velero-io/velero/pull/10319"
     },
     {
-      "number": 10269,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove PVC and PV inclusion check during creating PVR.",
-      "url": "https://github.com/velero-io/velero/pull/10269"
-    },
-    {
       "number": 10317,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1345,48 +1142,6 @@
       "org": "migtools",
       "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.5 (f2cb269) into oadp-1.5",
       "url": "https://github.com/migtools/oadp-cli/pull/257"
-    },
-    {
-      "number": 10270,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cap the metadata decompression in object store",
-      "url": "https://github.com/velero-io/velero/pull/10270"
-    },
-    {
-      "number": 10283,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "test: add verification for skippedPVTracker in backup tests",
-      "url": "https://github.com/velero-io/velero/pull/10283"
-    },
-    {
-      "number": 10279,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Use k8s.io/api well-known label constants instead of hardcoded strings",
-      "url": "https://github.com/velero-io/velero/pull/10279"
-    },
-    {
-      "number": 12323,
-      "repo": "openshift-eng/ocp-build-data",
-      "org": "openshift-eng",
-      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.4",
-      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12323"
-    },
-    {
-      "number": 10273,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix PVR regression",
-      "url": "https://github.com/velero-io/velero/pull/10273"
-    },
-    {
-      "number": 12324,
-      "repo": "openshift-eng/ocp-build-data",
-      "org": "openshift-eng",
-      "title": "Fix kubevirt-velero-plugin branch target for oadp-1.3",
-      "url": "https://github.com/openshift-eng/ocp-build-data/pull/12324"
     }
   ],
   "issuesCommented": [
@@ -1690,41 +1445,6 @@
       "org": "velero-io",
       "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
       "url": "https://github.com/velero-io/velero/issues/10302"
-    },
-    {
-      "number": 9964,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backup-finalizer retries forever when object-store PUT hits a non-retryable error (e.g. Azure BlobImmutableDueToPolicy 409)",
-      "url": "https://github.com/velero-io/velero/issues/9964"
-    },
-    {
-      "number": 10265,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`",
-      "url": "https://github.com/velero-io/velero/issues/10265"
-    },
-    {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841"
-    },
-    {
-      "number": 10266,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: how to run CSI e2e specs against a local Kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/10266"
-    },
-    {
-      "number": 597,
-      "repo": "openshift/ci-docs",
-      "org": "openshift",
-      "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
-      "url": "https://github.com/openshift/ci-docs/issues/597"
     }
   ],
   "issuesClosed": [
