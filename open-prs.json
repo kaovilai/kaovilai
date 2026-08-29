@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T04:30:37Z",
+  "updatedAt": "2026-08-29T11:51:35Z",
   "prs": [
     {
       "number": 10010,
@@ -934,28 +934,6 @@
       "updatedAt": "2026-08-27T16:57:58Z"
     },
     {
-      "number": 10382,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10382",
-      "targetBranch": "release-1.17",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-26T14:54:14Z"
-    },
-    {
       "number": 10399,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1357,7 +1335,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-29T04:26:55Z"
+      "updatedAt": "2026-08-29T11:41:26Z"
     },
     {
       "number": 225,
@@ -1463,6 +1441,44 @@
         "do-not-merge/work-in-progress"
       ],
       "updatedAt": "2026-08-07T06:04:11Z"
+    },
+    {
+      "number": 84228,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add Depends-On cross-repo image build for KDM and oadp-operator e2e jobs",
+      "url": "https://github.com/openshift/release/pull/84228",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "approved"
+      ],
+      "updatedAt": "2026-08-29T10:08:14Z"
+    },
+    {
+      "number": 84229,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h",
+      "url": "https://github.com/openshift/release/pull/84229",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "approved"
+      ],
+      "updatedAt": "2026-08-29T05:19:58Z"
     },
     {
       "number": 237,
@@ -1726,7 +1742,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-28T21:34:09Z"
+      "updatedAt": "2026-08-29T07:09:19Z"
     },
     {
       "number": 212,
@@ -1744,7 +1760,25 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-29T03:56:39Z"
+      "updatedAt": "2026-08-29T08:25:31Z"
+    },
+    {
+      "number": 213,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: speed up Dockerfile builds with cache mounts",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-08-29T05:51:46Z"
     },
     {
       "number": 216,
@@ -3200,7 +3234,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-29T04:30:37Z",
+    "updatedAt": "2026-08-29T11:51:35Z",
     "needsReview": [
       {
         "number": 68,
@@ -3247,7 +3281,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 501,
+        "waitingDays": 502,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -3319,7 +3353,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 449,
+        "waitingDays": 450,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3491,30 +3525,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 45,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3540,8 +3550,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 45,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -5172,7 +5206,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-28T21:34:09Z"
+        "updatedAt": "2026-08-29T07:09:19Z"
       },
       {
         "number": 212,
@@ -5201,7 +5235,36 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-29T03:56:39Z"
+        "updatedAt": "2026-08-29T08:25:31Z"
+      },
+      {
+        "number": 213,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: speed up Dockerfile builds with cache mounts",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-29T05:51:46Z"
       },
       {
         "number": 2404,
@@ -5230,7 +5293,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-29T04:26:55Z"
+        "updatedAt": "2026-08-29T11:41:26Z"
       }
     ],
     "approvedWaitingToLand": [

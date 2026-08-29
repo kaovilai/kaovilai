@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-29 04:30:37 UTC
+> Last updated: 2026-08-29 11:51:35 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -54,7 +54,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-failing--ci-red)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-failing--ci-red)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
 - [![PR #10307](https://img.shields.io/badge/PR%20%2310307-failing--ci-red)](https://github.com/velero-io/velero/pull/10307) **velero-io/velero** → `main` - Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention (milestone: **v1.19**)
-- [![PR #10382](https://img.shields.io/badge/PR%20%2310382-failing--ci-red)](https://github.com/velero-io/velero/pull/10382) **velero-io/velero** → `release-1.17` - 1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-failing--ci-red)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
 - [![PR #10403](https://img.shields.io/badge/PR%20%2310403-failing--ci-red)](https://github.com/velero-io/velero/pull/10403) **velero-io/velero** → `main` - Check both daemonsets before returning non-NotFound lookup error in IsReady
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
@@ -84,6 +83,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
+- [![PR #84228](https://img.shields.io/badge/PR%20%2384228-draft-gray)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build for KDM and oadp-operator e2e jobs
+- [![PR #84229](https://img.shields.io/badge/PR%20%2384229-draft-gray)](https://github.com/openshift/release/pull/84229) **openshift/release** → `main` - oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -102,6 +103,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #207](https://img.shields.io/badge/PR%20%23207-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/207) **migtools/kubevirt-datamover-controller** → `oadp-dev` - alt: merge-patch expected-backup-type annotation instead of retrying Update
 - [![PR #208](https://img.shields.io/badge/PR%20%23208-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/208) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: recognize VirtualMachineBackup's renamed Complete condition
 - [![PR #212](https://img.shields.io/badge/PR%20%23212-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: retry VMB creation instead of waiting forever for cache visibility
+- [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
