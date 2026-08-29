@@ -3,7 +3,7 @@
     "start": "2026-08-15",
     "end": "2026-08-29"
   },
-  "generatedAt": "2026-08-29T06:53:39Z",
+  "generatedAt": "2026-08-29T16:38:28Z",
   "metrics": {
     "prsMerged": 48,
     "prsOpened": 62,
@@ -787,6 +787,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
       "number": 10372,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -813,13 +820,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] Set binding-blocking spec.selector on restore-target PVCs",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/53"
-    },
-    {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 192,
@@ -1174,18 +1174,18 @@
   ],
   "issuesCommented": [
     {
-      "number": 481,
-      "repo": "actions/setup-go",
-      "org": "actions",
-      "title": "Support using a later patch release than what's in go.mod",
-      "url": "https://github.com/actions/setup-go/issues/481"
-    },
-    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 481,
+      "repo": "actions/setup-go",
+      "org": "actions",
+      "title": "Support using a later patch release than what's in go.mod",
+      "url": "https://github.com/actions/setup-go/issues/481"
     },
     {
       "number": 18963,
