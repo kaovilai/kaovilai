@@ -1,14 +1,14 @@
 # Activity Log
 
 > **Period:** 2026-08-16 — 2026-08-30
-> **Generated:** 2026-08-30 16:33:44 UTC
+> **Generated:** 2026-08-30 20:55:45 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 46 |
 | PRs Opened | 58 |
 | PRs Reviewed | 55 |
-| Issues/PRs Commented | 44 |
+| Issues/PRs Commented | 45 |
 | Issues Closed | 21 |
 
 ---
@@ -199,7 +199,7 @@
 
 **Other** (1)
 - [#3 fix: allow unrestricted egress for operator pod NetworkPolicy](https://github.com/shubham-pampattiwar/oadp-operator/pull/3) — shubham-pampattiwar/oadp-operator
-## Issues/PRs Commented On (44)
+## Issues/PRs Commented On (45)
 
 **velero-io** (24)
 - [#9556 Block level backup/restore support](https://github.com/velero-io/velero/issues/9556) — velero-io/velero
@@ -241,7 +241,8 @@
 - [#175 Implement concurrency limiter for DataDownload controller](https://github.com/migtools/kubevirt-datamover-controller/issues/175) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (10)
+**Other** (11)
+- [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#481 Support using a later patch release than what's in go.mod](https://github.com/actions/setup-go/issues/481) — actions/setup-go
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
