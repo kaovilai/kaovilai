@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-08-15",
-    "end": "2026-08-29"
+    "start": "2026-08-16",
+    "end": "2026-08-30"
   },
-  "generatedAt": "2026-08-29T20:50:14Z",
+  "generatedAt": "2026-08-30T05:08:08Z",
   "metrics": {
-    "prsMerged": 48,
-    "prsOpened": 62,
-    "prsReviewed": 56,
-    "issuesCommented": 43,
+    "prsMerged": 46,
+    "prsOpened": 57,
+    "prsReviewed": 55,
+    "issuesCommented": 44,
     "issuesClosed": 21
   },
   "prsMerged": [
@@ -333,20 +333,6 @@
       "org": "kaovilai",
       "title": "feat(openshift): preflight-check EC release signatures, offer nightly-style bypass",
       "url": "https://github.com/kaovilai/dotfiles/pull/576"
-    },
-    {
-      "number": 163,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Refresh screenshots to reflect current profiles and rehearsal button",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/163"
-    },
-    {
-      "number": 162,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Resolve rehearsal rerun job names from presubmit config, not comment scraping",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/162"
     }
   ],
   "prsOpened": [
@@ -748,41 +734,6 @@
       "org": "velero-io",
       "title": "Log the discovered parent snapshot ID, not the empty lookup parameter",
       "url": "https://github.com/velero-io/velero/pull/10305"
-    },
-    {
-      "number": 576,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(openshift): preflight-check EC release signatures, offer nightly-style bypass",
-      "url": "https://github.com/kaovilai/dotfiles/pull/576"
-    },
-    {
-      "number": 163,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Refresh screenshots to reflect current profiles and rehearsal button",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/163"
-    },
-    {
-      "number": 162,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Resolve rehearsal rerun job names from presubmit config, not comment scraping",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/162"
-    },
-    {
-      "number": 47,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47"
-    },
-    {
-      "number": 10286,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-      "url": "https://github.com/velero-io/velero/pull/10286"
     }
   ],
   "prsReviewed": [
@@ -834,13 +785,6 @@
       "org": "migtools",
       "title": "docs: add architecture and testing guides, refresh README",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
-    },
-    {
-      "number": 10286,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-      "url": "https://github.com/velero-io/velero/pull/10286"
     },
     {
       "number": 10353,
@@ -962,18 +906,18 @@
       "url": "https://github.com/velero-io/velero/pull/10331"
     },
     {
-      "number": 375,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/375"
-    },
-    {
       "number": 49,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
       "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
+    },
+    {
+      "number": 375,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/375"
     },
     {
       "number": 464,
@@ -1180,6 +1124,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9556,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block level backup/restore support",
+      "url": "https://github.com/velero-io/velero/issues/9556"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",

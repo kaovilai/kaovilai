@@ -1,19 +1,19 @@
 # Activity Log
 
-> **Period:** 2026-08-15 — 2026-08-29
-> **Generated:** 2026-08-29 20:50:14 UTC
+> **Period:** 2026-08-16 — 2026-08-30
+> **Generated:** 2026-08-30 05:08:08 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 48 |
-| PRs Opened | 62 |
-| PRs Reviewed | 56 |
-| Issues/PRs Commented | 43 |
+| PRs Merged | 46 |
+| PRs Opened | 57 |
+| PRs Reviewed | 55 |
+| Issues/PRs Commented | 44 |
 | Issues Closed | 21 |
 
 ---
 
-## PRs Merged (48)
+## PRs Merged (46)
 
 **velero-io** (11)
 - [#10381 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/10381) — velero-io/velero
@@ -61,18 +61,16 @@
 - [#187 feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/187) — migtools/kubevirt-datamover-controller
 - [#186 feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)](https://github.com/migtools/kubevirt-datamover-controller/pull/186) — migtools/kubevirt-datamover-controller
 
-**Other** (8)
+**Other** (6)
 - [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
 - [#170 Add Velero backport button for velero-io/velero](https://github.com/kaovilai/github-bot-command-palette/pull/170) — kaovilai/github-bot-command-palette
 - [#1 feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures](https://github.com/kaovilai/socktainer/pull/1) — kaovilai/socktainer
 - [#2 feat(libpod): Add Podman /libpod/* API endpoints](https://github.com/kaovilai/socktainer/pull/2) — kaovilai/socktainer
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#576 feat(openshift): preflight-check EC release signatures, offer nightly-style bypass](https://github.com/kaovilai/dotfiles/pull/576) — kaovilai/dotfiles
-- [#163 Refresh screenshots to reflect current profiles and rehearsal button](https://github.com/kaovilai/github-bot-command-palette/pull/163) — kaovilai/github-bot-command-palette
-- [#162 Resolve rehearsal rerun job names from presubmit config, not comment scraping](https://github.com/kaovilai/github-bot-command-palette/pull/162) — kaovilai/github-bot-command-palette
-## PRs Opened (62)
+## PRs Opened (57)
 
-**velero-io** (26)
+**velero-io** (25)
 - [#10428 [release-1.14] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10428) — velero-io/velero
 - [#10427 [release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10427) — velero-io/velero
 - [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
@@ -98,7 +96,6 @@
 - [#10307 Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention](https://github.com/velero-io/velero/pull/10307) — velero-io/velero
 - [#10306 Degrade CBT bitmap failures to allocated blocks instead of whole-device](https://github.com/velero-io/velero/pull/10306) — velero-io/velero
 - [#10305 Log the discovered parent snapshot ID, not the empty lookup parameter](https://github.com/velero-io/velero/pull/10305) — velero-io/velero
-- [#10286 Fix re-request-review workflow for fork-originated PRs (privilege separation)](https://github.com/velero-io/velero/pull/10286) — velero-io/velero
 
 **openshift** (13)
 - [#84229 oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h](https://github.com/openshift/release/pull/84229) — openshift/release
@@ -115,7 +112,7 @@
 - [#2402 Unpend two kdm restore e2e tests now that phase 4 landed](https://github.com/openshift/oadp-operator/pull/2402) — openshift/oadp-operator
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 
-**migtools** (12)
+**migtools** (11)
 - [#213 fix: speed up Dockerfile builds with cache mounts](https://github.com/migtools/kubevirt-datamover-controller/pull/213) — migtools/kubevirt-datamover-controller
 - [#212 fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) — migtools/kubevirt-datamover-controller
 - [#208 fix: recognize VirtualMachineBackup's renamed Complete condition](https://github.com/migtools/kubevirt-datamover-controller/pull/208) — migtools/kubevirt-datamover-controller
@@ -127,9 +124,8 @@
 - [#197 fix: work PVC must be ReadWriteOnce, not the target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/pull/197) — migtools/kubevirt-datamover-controller
 - [#195 fix: name root cause in restore PVC-conflict error messages](https://github.com/migtools/kubevirt-datamover-controller/pull/195) — migtools/kubevirt-datamover-controller
 - [#182 fix: use %s format verb for cmp.Diff in t.Errorf calls](https://github.com/migtools/udistribution/pull/182) — migtools/udistribution
-- [#47 Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage](https://github.com/migtools/kubevirt-datamover-plugin/pull/47) — migtools/kubevirt-datamover-plugin
 
-**Other** (11)
+**Other** (8)
 - [#18957 storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost](https://github.com/kubevirt/kubevirt/pull/18957) — kubevirt/kubevirt
 - [#18949 storage/cbt: fix VMBackup status freeze during target PVC attach](https://github.com/kubevirt/kubevirt/pull/18949) — kubevirt/kubevirt
 - [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
@@ -138,16 +134,12 @@
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#13882 macos: add regression test for double-click rename after dragging tab…](https://github.com/ghostty-org/ghostty/pull/13882) — ghostty-org/ghostty
 - [#13881 macos: add regression test for double-click rename after dragging tab between windows](https://github.com/ghostty-org/ghostty/pull/13881) — ghostty-org/ghostty
-- [#576 feat(openshift): preflight-check EC release signatures, offer nightly-style bypass](https://github.com/kaovilai/dotfiles/pull/576) — kaovilai/dotfiles
-- [#163 Refresh screenshots to reflect current profiles and rehearsal button](https://github.com/kaovilai/github-bot-command-palette/pull/163) — kaovilai/github-bot-command-palette
-- [#162 Resolve rehearsal rerun job names from presubmit config, not comment scraping](https://github.com/kaovilai/github-bot-command-palette/pull/162) — kaovilai/github-bot-command-palette
-## PRs Reviewed (56)
+## PRs Reviewed (55)
 
-**velero-io** (26)
+**velero-io** (25)
 - [#10447 Bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10447) — velero-io/velero
 - [#10372 Show validation frequency in backup-location get output](https://github.com/velero-io/velero/pull/10372) — velero-io/velero
 - [#10393 [Backport release-1.17] fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10393) — velero-io/velero
-- [#10286 Fix re-request-review workflow for fork-originated PRs (privilege separation)](https://github.com/velero-io/velero/pull/10286) — velero-io/velero
 - [#10353 Reject velero backup delete when BSL is read-only](https://github.com/velero-io/velero/pull/10353) — velero-io/velero
 - [#10405 [Backport release-1.18] Fix node agent readiness check issue](https://github.com/velero-io/velero/pull/10405) — velero-io/velero
 - [#10360 [cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent](https://github.com/velero-io/velero/pull/10360) — velero-io/velero
@@ -197,8 +189,8 @@
 - [#53 [oadp-1.6] Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/53) — migtools/kubevirt-datamover-plugin
 - [#192 docs: add architecture and testing guides, refresh README](https://github.com/migtools/kubevirt-datamover-controller/pull/192) — migtools/kubevirt-datamover-controller
 - [#181 Bump the go-dependencies group across 1 directory with 7 updates](https://github.com/migtools/udistribution/pull/181) — migtools/udistribution
-- [#375 Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6](https://github.com/migtools/oadp-non-admin/pull/375) — migtools/oadp-non-admin
 - [#49 Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-plugin/pull/49) — migtools/kubevirt-datamover-plugin
+- [#375 Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6](https://github.com/migtools/oadp-non-admin/pull/375) — migtools/oadp-non-admin
 - [#258 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (0aeee34) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/258) — migtools/oadp-cli
 - [#100 Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (2f3a322) into oadp-1.6](https://github.com/migtools/oadp-vm-file-restore/pull/100) — migtools/oadp-vm-file-restore
 - [#190 [oadp-1.6] feat: concurrency limiter for DataUpload controller (issue #174)](https://github.com/migtools/kubevirt-datamover-controller/pull/190) — migtools/kubevirt-datamover-controller
@@ -206,9 +198,10 @@
 
 **Other** (1)
 - [#3 fix: allow unrestricted egress for operator pod NetworkPolicy](https://github.com/shubham-pampattiwar/oadp-operator/pull/3) — shubham-pampattiwar/oadp-operator
-## Issues/PRs Commented On (43)
+## Issues/PRs Commented On (44)
 
-**velero-io** (23)
+**velero-io** (24)
+- [#9556 Block level backup/restore support](https://github.com/velero-io/velero/issues/9556) — velero-io/velero
 - [#9476 Remove whitelist for tolerations of PodVolumeBackup Pod](https://github.com/velero-io/velero/issues/9476) — velero-io/velero
 - [#9645 backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds](https://github.com/velero-io/velero/issues/9645) — velero-io/velero
 - [#8363 VolumePolicies filter volumes to snapshot by volume name](https://github.com/velero-io/velero/issues/8363) — velero-io/velero
