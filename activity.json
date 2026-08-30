@@ -3,10 +3,10 @@
     "start": "2026-08-16",
     "end": "2026-08-30"
   },
-  "generatedAt": "2026-08-30T11:45:52Z",
+  "generatedAt": "2026-08-30T16:33:44Z",
   "metrics": {
     "prsMerged": 46,
-    "prsOpened": 57,
+    "prsOpened": 58,
     "prsReviewed": 55,
     "issuesCommented": 44,
     "issuesClosed": 21
@@ -336,6 +336,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 4552,
+      "repo": "kubevirt/hyperconverged-cluster-operator",
+      "org": "kubevirt",
+      "title": "Fix conversion webhook crash on legacy featureGates empty-object shape",
+      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552"
+    },
     {
       "number": 213,
       "repo": "migtools/kubevirt-datamover-controller",
