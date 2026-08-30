@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-29 20:04:17 UTC
+> Last updated: 2026-08-30 01:59:44 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -129,7 +129,6 @@ No open PRs.
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
-- [![PR #18949](https://img.shields.io/badge/PR%20%2318949-ready-green)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
@@ -140,6 +139,7 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `main` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
+- [![PR #18949](https://img.shields.io/badge/PR%20%2318949-draft-gray)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
