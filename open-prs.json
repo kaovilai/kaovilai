@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:48:43Z",
+  "updatedAt": "2026-08-30T15:35:32Z",
   "prs": [
     {
       "number": 10010,
@@ -1335,7 +1335,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-08-30T08:59:08Z"
+      "updatedAt": "2026-08-30T12:45:34Z"
     },
     {
       "number": 225,
@@ -1781,28 +1781,6 @@
       "updatedAt": "2026-08-29T05:51:46Z"
     },
     {
-      "number": 216,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "test: assert schedule, backup-location, must-gather, setup commands in root help",
-      "url": "https://github.com/migtools/oadp-cli/pull/216",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "needs-ok-to-test"
-      ],
-      "updatedAt": "2026-07-01T15:33:31Z"
-    },
-    {
       "number": 48,
       "repo": "migtools/kopia",
       "org": "migtools",
@@ -1899,6 +1877,28 @@
       "isDraft": true,
       "labels": [],
       "updatedAt": "2025-11-10T17:28:39Z"
+    },
+    {
+      "number": 216,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "test: assert schedule, backup-location, must-gather, setup commands in root help",
+      "url": "https://github.com/migtools/oadp-cli/pull/216",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "needs-ok-to-test"
+      ],
+      "updatedAt": "2026-07-01T15:33:31Z"
     },
     {
       "number": 243,
@@ -2188,6 +2188,28 @@
       "updatedAt": "2026-07-20T14:46:51Z"
     },
     {
+      "number": 4552,
+      "repo": "kubevirt/hyperconverged-cluster-operator",
+      "org": "kubevirt",
+      "title": "Fix conversion webhook crash on legacy featureGates empty-object shape",
+      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "do-not-merge/release-note-label-needed",
+        "size/M",
+        "needs-ok-to-test",
+        "dco-signoff: yes",
+        "do-not-merge/invalid-commit-message"
+      ],
+      "updatedAt": "2026-08-30T15:04:45Z"
+    },
+    {
       "number": 18725,
       "repo": "kubevirt/kubevirt",
       "org": "kubevirt",
@@ -2212,6 +2234,28 @@
         "needs-approver-review"
       ],
       "updatedAt": "2026-08-13T20:17:52Z"
+    },
+    {
+      "number": 18949,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18949",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "size/M",
+        "area/controller",
+        "sig/storage",
+        "release-note",
+        "dco-signoff: yes"
+      ],
+      "updatedAt": "2026-08-30T15:16:53Z"
     },
     {
       "number": 18957,
@@ -2544,28 +2588,6 @@
       "isDraft": true,
       "labels": [],
       "updatedAt": "2026-08-11T17:27:46Z"
-    },
-    {
-      "number": 18949,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
-      "url": "https://github.com/kubevirt/kubevirt/pull/18949",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [
-        "size/M",
-        "sig/storage",
-        "release-note",
-        "do-not-merge/work-in-progress",
-        "dco-signoff: yes"
-      ],
-      "updatedAt": "2026-08-30T00:25:18Z"
     },
     {
       "number": 1,
@@ -3235,7 +3257,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-08-30T10:48:43Z",
+    "updatedAt": "2026-08-30T15:35:32Z",
     "needsReview": [
       {
         "number": 68,
@@ -3408,7 +3430,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 170,
+        "waitingDays": 171,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3437,7 +3459,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 143,
+        "waitingDays": 144,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3470,36 +3492,6 @@
         "updatedAt": "2026-05-08T20:48:25Z"
       },
       {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 81,
-        "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -3528,7 +3520,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 59,
+        "waitingDays": 60,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3800,7 +3792,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3901,7 +3893,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3932,30 +3924,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 18,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3981,8 +3949,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 18,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -4018,7 +4010,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -4162,30 +4154,6 @@
         "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-25T01:21:43Z"
-      },
-      {
         "number": 328,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -4210,34 +4178,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-08-24T20:26:38Z"
-      },
-      {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 18957,
@@ -4269,7 +4209,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
@@ -4299,8 +4239,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-08-27T14:30:50Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 10010,
@@ -5237,6 +5205,73 @@
         "updatedAt": "2026-08-29T05:51:46Z"
       },
       {
+        "number": 4552,
+        "repo": "kubevirt/hyperconverged-cluster-operator",
+        "org": "kubevirt",
+        "title": "Fix conversion webhook crash on legacy featureGates empty-object shape",
+        "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/release-note-label-needed",
+          "size/M",
+          "needs-ok-to-test",
+          "dco-signoff: yes",
+          "do-not-merge/invalid-commit-message"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "orenc1",
+          "sradco"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-30T15:04:45Z"
+      },
+      {
+        "number": 18949,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18949",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Acedus",
+          "alromeros",
+          "ShellyKa13"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-08-30T15:16:53Z"
+      },
+      {
         "number": 212,
         "repo": "migtools/kubevirt-datamover-controller",
         "org": "migtools",
@@ -5292,7 +5327,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-30T08:59:08Z"
+        "updatedAt": "2026-08-30T12:45:34Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5321,7 +5356,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 143,
+        "waitingDays": 144,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5380,7 +5415,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
@@ -5411,7 +5446,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -5445,7 +5480,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5543,7 +5578,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 8,
+        "waitingDays": 9,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -5854,6 +5889,38 @@
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
+        "number": 233,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "Add CODEOWNERS file based on OWNERS approvers",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "jparrill"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": 0,
+        "reviewRequests": [
+          "devguyio"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 4,
+        "updatedAt": "2026-08-26T14:58:57Z"
+      },
+      {
         "number": 10077,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5883,38 +5950,6 @@
         "reason": "pendingMerge",
         "waitingDays": 4,
         "updatedAt": "2026-08-25T22:09:26Z"
-      },
-      {
-        "number": 233,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "Add CODEOWNERS file based on OWNERS approvers",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "jparrill"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": 0,
-        "reviewRequests": [
-          "devguyio"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-08-26T14:58:57Z"
       }
     ]
   }
