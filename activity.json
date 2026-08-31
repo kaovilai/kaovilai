@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-16",
-    "end": "2026-08-30"
+    "start": "2026-08-17",
+    "end": "2026-08-31"
   },
-  "generatedAt": "2026-08-30T20:55:45Z",
+  "generatedAt": "2026-08-31T04:54:49Z",
   "metrics": {
-    "prsMerged": 46,
-    "prsOpened": 58,
-    "prsReviewed": 55,
-    "issuesCommented": 45,
-    "issuesClosed": 21
+    "prsMerged": 45,
+    "prsOpened": 53,
+    "prsReviewed": 56,
+    "issuesCommented": 48,
+    "issuesClosed": 19
   },
   "prsMerged": [
     {
@@ -326,13 +326,6 @@
       "org": "openshift",
       "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
       "url": "https://github.com/openshift/release/pull/83299"
-    },
-    {
-      "number": 576,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(openshift): preflight-check EC release signatures, offer nightly-style bypass",
-      "url": "https://github.com/kaovilai/dotfiles/pull/576"
     }
   ],
   "prsOpened": [
@@ -706,44 +699,16 @@
       "org": "ghostty-org",
       "title": "macos: add regression test for double-click rename after dragging tab between windows",
       "url": "https://github.com/ghostty-org/ghostty/pull/13881"
-    },
-    {
-      "number": 10309,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Report a measured zero incremental instead of erasing it",
-      "url": "https://github.com/velero-io/velero/pull/10309"
-    },
-    {
-      "number": 10308,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Detect block uploader cancellation through wrapped errors",
-      "url": "https://github.com/velero-io/velero/pull/10308"
-    },
-    {
-      "number": 10307,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention",
-      "url": "https://github.com/velero-io/velero/pull/10307"
-    },
-    {
-      "number": 10306,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Degrade CBT bitmap failures to allocated blocks instead of whole-device",
-      "url": "https://github.com/velero-io/velero/pull/10306"
-    },
-    {
-      "number": 10305,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Log the discovered parent snapshot ID, not the empty lookup parameter",
-      "url": "https://github.com/velero-io/velero/pull/10305"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10421,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add \"IncrementalBytes\" field to status of DataDownload and PVR to indicate data transfered by the incremental restore",
+      "url": "https://github.com/velero-io/velero/pull/10421"
+    },
     {
       "number": 10447,
       "repo": "velero-io/velero",
@@ -913,18 +878,18 @@
       "url": "https://github.com/velero-io/velero/pull/10331"
     },
     {
-      "number": 49,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
-    },
-    {
       "number": 375,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
       "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6",
       "url": "https://github.com/migtools/oadp-non-admin/pull/375"
+    },
+    {
+      "number": 49,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
     },
     {
       "number": 464,
@@ -1131,6 +1096,34 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8263,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fatal: unable to open config file results in PartiallyFailed Backup",
+      "url": "https://github.com/velero-io/velero/issues/8263"
+    },
+    {
+      "number": 9318,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Behavior of skip volume policy is strange/problematic",
+      "url": "https://github.com/velero-io/velero/issues/9318"
+    },
+    {
+      "number": 9453,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DataUpload tasks stuck in Prepared phase for extended periods",
+      "url": "https://github.com/velero-io/velero/issues/9453"
+    },
+    {
+      "number": 10440,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
+      "url": "https://github.com/velero-io/velero/issues/10440"
+    },
     {
       "number": 1013,
       "repo": "tailscale/tailscale",
@@ -1438,13 +1431,6 @@
       "org": "velero-io",
       "title": "Ensure object creation does not exceed Kubernetes maximum name length",
       "url": "https://github.com/velero-io/velero/issues/8815"
-    },
-    {
-      "number": 10302,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
-      "url": "https://github.com/velero-io/velero/issues/10302"
     }
   ],
   "issuesClosed": [
@@ -1580,20 +1566,6 @@
       "org": "velero-io",
       "title": "Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable",
       "url": "https://github.com/velero-io/velero/issues/10301"
-    },
-    {
-      "number": 10304,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: retained CBT base snapshots are never reclaimed at backup deletion (design L370-371/L474 unimplemented)",
-      "url": "https://github.com/velero-io/velero/issues/10304"
-    },
-    {
-      "number": 10302,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
-      "url": "https://github.com/velero-io/velero/issues/10302"
     }
   ]
 }
