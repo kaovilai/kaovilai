@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-08-31 12:35:21 UTC
+> Last updated: 2026-08-31 18:59:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -99,10 +99,9 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #207](https://img.shields.io/badge/PR%20%23207-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/207) **migtools/kubevirt-datamover-controller** → `oadp-dev` - alt: merge-patch expected-backup-type annotation instead of retrying Update
-- [![PR #208](https://img.shields.io/badge/PR%20%23208-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/208) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: recognize VirtualMachineBackup's renamed Complete condition
-- [![PR #212](https://img.shields.io/badge/PR%20%23212-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
+- [![PR #208](https://img.shields.io/badge/PR%20%23208-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/208) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: recognize VirtualMachineBackup's renamed Complete condition
+- [![PR #212](https://img.shields.io/badge/PR%20%23212-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
