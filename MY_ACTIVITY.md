@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-08-17 — 2026-08-31
-> **Generated:** 2026-08-31 04:54:49 UTC
+> **Generated:** 2026-08-31 13:16:39 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 45 |
+| PRs Merged | 46 |
 | PRs Opened | 53 |
 | PRs Reviewed | 56 |
 | Issues/PRs Commented | 48 |
@@ -13,9 +13,10 @@
 
 ---
 
-## PRs Merged (45)
+## PRs Merged (46)
 
-**velero-io** (11)
+**velero-io** (12)
+- [#10406 release-1.17: validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10406) — velero-io/velero
 - [#10381 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/10381) — velero-io/velero
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
 - [#10407 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10407) — velero-io/velero
@@ -132,8 +133,8 @@
 ## PRs Reviewed (56)
 
 **velero-io** (26)
-- [#10421 Add "IncrementalBytes" field to status of DataDownload and PVR to indicate data transfered by the incremental restore](https://github.com/velero-io/velero/pull/10421) — velero-io/velero
 - [#10447 Bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10447) — velero-io/velero
+- [#10421 Add "IncrementalBytes" field to status of DataDownload and PVR to indicate data transfered by the incremental restore](https://github.com/velero-io/velero/pull/10421) — velero-io/velero
 - [#10372 Show validation frequency in backup-location get output](https://github.com/velero-io/velero/pull/10372) — velero-io/velero
 - [#10393 [Backport release-1.17] fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10393) — velero-io/velero
 - [#10353 Reject velero backup delete when BSL is read-only](https://github.com/velero-io/velero/pull/10353) — velero-io/velero
@@ -240,8 +241,8 @@
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
 **Other** (11)
-- [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#481 Support using a later patch release than what's in go.mod](https://github.com/actions/setup-go/issues/481) — actions/setup-go
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt

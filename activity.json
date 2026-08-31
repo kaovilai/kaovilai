@@ -3,15 +3,22 @@
     "start": "2026-08-17",
     "end": "2026-08-31"
   },
-  "generatedAt": "2026-08-31T04:54:49Z",
+  "generatedAt": "2026-08-31T13:16:39Z",
   "metrics": {
-    "prsMerged": 45,
+    "prsMerged": 46,
     "prsOpened": 53,
     "prsReviewed": 56,
     "issuesCommented": 48,
     "issuesClosed": 19
   },
   "prsMerged": [
+    {
+      "number": 10406,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10406"
+    },
     {
       "number": 10381,
       "repo": "velero-io/velero",
@@ -703,18 +710,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 10421,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add \"IncrementalBytes\" field to status of DataDownload and PVR to indicate data transfered by the incremental restore",
-      "url": "https://github.com/velero-io/velero/pull/10421"
-    },
-    {
       "number": 10447,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Bump the github-actions group with 2 updates",
       "url": "https://github.com/velero-io/velero/pull/10447"
+    },
+    {
+      "number": 10421,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add \"IncrementalBytes\" field to status of DataDownload and PVR to indicate data transfered by the incremental restore",
+      "url": "https://github.com/velero-io/velero/pull/10421"
     },
     {
       "number": 2405,
@@ -1097,6 +1104,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 8263,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1130,13 +1144,6 @@
       "org": "tailscale",
       "title": "Support mDNS for name and service resolution",
       "url": "https://github.com/tailscale/tailscale/issues/1013"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9556,
