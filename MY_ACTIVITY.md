@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-08-17 — 2026-08-31
-> **Generated:** 2026-08-31 13:16:39 UTC
+> **Generated:** 2026-08-31 18:56:01 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 46 |
+| PRs Merged | 47 |
 | PRs Opened | 53 |
-| PRs Reviewed | 56 |
-| Issues/PRs Commented | 48 |
+| PRs Reviewed | 60 |
+| Issues/PRs Commented | 50 |
 | Issues Closed | 19 |
 
 ---
 
-## PRs Merged (46)
+## PRs Merged (47)
 
 **velero-io** (12)
 - [#10406 release-1.17: validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10406) — velero-io/velero
@@ -52,7 +52,8 @@
 - [#2350 Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)](https://github.com/openshift/oadp-operator/pull/2350) — openshift/oadp-operator
 - [#83299 gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR](https://github.com/openshift/release/pull/83299) — openshift/release
 
-**migtools** (8)
+**migtools** (9)
+- [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#50 Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) — migtools/kubevirt-datamover-plugin
 - [#199 fix: honor matchLabels selector on restore target PVC instead of failing](https://github.com/migtools/kubevirt-datamover-controller/pull/199) — migtools/kubevirt-datamover-controller
 - [#200 test: pin that a same-restore-name incomplete sibling still blocks the VM flip](https://github.com/migtools/kubevirt-datamover-controller/pull/200) — migtools/kubevirt-datamover-controller
@@ -130,9 +131,12 @@
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#13882 macos: add regression test for double-click rename after dragging tab…](https://github.com/ghostty-org/ghostty/pull/13882) — ghostty-org/ghostty
 - [#13881 macos: add regression test for double-click rename after dragging tab between windows](https://github.com/ghostty-org/ghostty/pull/13881) — ghostty-org/ghostty
-## PRs Reviewed (56)
+## PRs Reviewed (60)
 
-**velero-io** (26)
+**velero-io** (29)
+- [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
+- [#10436 Add block data mover support for Velero backup/restore describe CLI.](https://github.com/velero-io/velero/pull/10436) — velero-io/velero
+- [#10449 Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label](https://github.com/velero-io/velero/pull/10449) — velero-io/velero
 - [#10447 Bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10447) — velero-io/velero
 - [#10421 Add "IncrementalBytes" field to status of DataDownload and PVR to indicate data transfered by the incremental restore](https://github.com/velero-io/velero/pull/10421) — velero-io/velero
 - [#10372 Show validation frequency in backup-location get output](https://github.com/velero-io/velero/pull/10372) — velero-io/velero
@@ -182,7 +186,8 @@
 - [#2394 [OADP-8700] Guard NodeAgent.ExtraArgs access against nil when using restic config](https://github.com/openshift/oadp-operator/pull/2394) — openshift/oadp-operator
 - [#162 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.12.2 (82b9141) into oadp-1.5](https://github.com/openshift/velero-plugin-for-aws/pull/162) — openshift/velero-plugin-for-aws
 
-**migtools** (9)
+**migtools** (10)
+- [#205 fix(#14): default SkipQuiesce=false, opt-in application-consistent backup](https://github.com/migtools/kubevirt-datamover-controller/pull/205) — migtools/kubevirt-datamover-controller
 - [#53 [oadp-1.6] Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/53) — migtools/kubevirt-datamover-plugin
 - [#192 docs: add architecture and testing guides, refresh README](https://github.com/migtools/kubevirt-datamover-controller/pull/192) — migtools/kubevirt-datamover-controller
 - [#181 Bump the go-dependencies group across 1 directory with 7 updates](https://github.com/migtools/udistribution/pull/181) — migtools/udistribution
@@ -195,9 +200,10 @@
 
 **Other** (1)
 - [#3 fix: allow unrestricted egress for operator pod NetworkPolicy](https://github.com/shubham-pampattiwar/oadp-operator/pull/3) — shubham-pampattiwar/oadp-operator
-## Issues/PRs Commented On (48)
+## Issues/PRs Commented On (50)
 
-**velero-io** (27)
+**velero-io** (28)
+- [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
 - [#8263 Fatal: unable to open config file results in PartiallyFailed Backup](https://github.com/velero-io/velero/issues/8263) — velero-io/velero
 - [#9318 Behavior of skip volume policy is strange/problematic](https://github.com/velero-io/velero/issues/9318) — velero-io/velero
 - [#9453 DataUpload tasks stuck in Prepared phase for extended periods](https://github.com/velero-io/velero/issues/9453) — velero-io/velero
@@ -226,7 +232,8 @@
 - [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
 - [#8815 Ensure object creation does not exceed Kubernetes maximum name length](https://github.com/velero-io/velero/issues/8815) — velero-io/velero
 
-**openshift** (5)
+**openshift** (6)
+- [#2413 Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout](https://github.com/openshift/oadp-operator/issues/2413) — openshift/oadp-operator
 - [#2403 e2e: Simple backup and restore flow using MinIO w/ TLS certs](https://github.com/openshift/oadp-operator/issues/2403) — openshift/oadp-operator
 - [#2407 Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern](https://github.com/openshift/oadp-operator/issues/2407) — openshift/oadp-operator
 - [#10791 Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap](https://github.com/openshift/installer/issues/10791) — openshift/installer

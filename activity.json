@@ -3,15 +3,22 @@
     "start": "2026-08-17",
     "end": "2026-08-31"
   },
-  "generatedAt": "2026-08-31T13:16:39Z",
+  "generatedAt": "2026-08-31T18:56:01Z",
   "metrics": {
-    "prsMerged": 46,
+    "prsMerged": 47,
     "prsOpened": 53,
-    "prsReviewed": 56,
-    "issuesCommented": 48,
+    "prsReviewed": 60,
+    "issuesCommented": 50,
     "issuesClosed": 19
   },
   "prsMerged": [
+    {
+      "number": 207,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "alt: merge-patch expected-backup-type annotation instead of retrying Update",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/207"
+    },
     {
       "number": 10406,
       "repo": "velero-io/velero",
@@ -710,6 +717,41 @@
   ],
   "prsReviewed": [
     {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
+      "number": 205,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix(#14): default SkipQuiesce=false, opt-in application-consistent backup",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/205"
+    },
+    {
+      "number": 10438,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
+      "url": "https://github.com/velero-io/velero/pull/10438"
+    },
+    {
+      "number": 10436,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add block data mover support for Velero backup/restore describe CLI.",
+      "url": "https://github.com/velero-io/velero/pull/10436"
+    },
+    {
+      "number": 10449,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
+      "url": "https://github.com/velero-io/velero/pull/10449"
+    },
+    {
       "number": 10447,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -722,13 +764,6 @@
       "org": "velero-io",
       "title": "Add \"IncrementalBytes\" field to status of DataDownload and PVR to indicate data transfered by the incremental restore",
       "url": "https://github.com/velero-io/velero/pull/10421"
-    },
-    {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 10372,
@@ -1103,6 +1138,20 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 2413,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
+      "url": "https://github.com/openshift/oadp-operator/issues/2413"
+    },
+    {
+      "number": 10437,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
+      "url": "https://github.com/velero-io/velero/issues/10437"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
