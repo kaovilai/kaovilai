@@ -3,15 +3,29 @@
     "start": "2026-08-17",
     "end": "2026-08-31"
   },
-  "generatedAt": "2026-08-31T18:56:01Z",
+  "generatedAt": "2026-08-31T23:09:39Z",
   "metrics": {
-    "prsMerged": 47,
-    "prsOpened": 53,
-    "prsReviewed": 60,
-    "issuesCommented": 50,
-    "issuesClosed": 19
+    "prsMerged": 49,
+    "prsOpened": 54,
+    "prsReviewed": 64,
+    "issuesCommented": 51,
+    "issuesClosed": 20
   },
   "prsMerged": [
+    {
+      "number": 212,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212"
+    },
+    {
+      "number": 208,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: recognize VirtualMachineBackup's renamed Complete condition",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/208"
+    },
     {
       "number": 207,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -343,6 +357,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2423,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2423"
+    },
     {
       "number": 4552,
       "repo": "kubevirt/hyperconverged-cluster-operator",
@@ -717,18 +738,60 @@
   ],
   "prsReviewed": [
     {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
-    },
-    {
       "number": 205,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "fix(#14): default SkipQuiesce=false, opt-in application-consistent backup",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/205"
+    },
+    {
+      "number": 214,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] alt: merge-patch expected-backup-type annotation instead of retrying Update",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/214"
+    },
+    {
+      "number": 215,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: recognize VirtualMachineBackup's renamed Complete condition",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/215"
+    },
+    {
+      "number": 216,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/216"
+    },
+    {
+      "number": 2422,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2422"
+    },
+    {
+      "number": 2395,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2395"
+    },
+    {
+      "number": 10449,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
+      "url": "https://github.com/velero-io/velero/pull/10449"
+    },
+    {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 10438,
@@ -743,13 +806,6 @@
       "org": "velero-io",
       "title": "Add block data mover support for Velero backup/restore describe CLI.",
       "url": "https://github.com/velero-io/velero/pull/10436"
-    },
-    {
-      "number": 10449,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
-      "url": "https://github.com/velero-io/velero/pull/10449"
     },
     {
       "number": 10447,
@@ -848,13 +904,6 @@
       "org": "velero-io",
       "title": "[cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent",
       "url": "https://github.com/velero-io/velero/pull/10360"
-    },
-    {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
     },
     {
       "number": 10397,
@@ -1138,6 +1187,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 1847,
+      "repo": "ghostty-org/ghostty",
+      "org": "ghostty-org",
+      "title": "Include scrollback history in state restoration",
+      "url": "https://github.com/ghostty-org/ghostty/issues/1847"
+    },
     {
       "number": 2413,
       "repo": "openshift/oadp-operator",
@@ -1490,6 +1546,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 211,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "DataUpload stuck forever: \"VMBT already prepared but VMB not yet visible in cache, requeuing\"",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/211"
+    },
     {
       "number": 1623,
       "repo": "sooperset/mcp-atlassian",
