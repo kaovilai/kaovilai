@@ -3,15 +3,29 @@
     "start": "2026-08-18",
     "end": "2026-09-01"
   },
-  "generatedAt": "2026-09-01T16:15:58Z",
+  "generatedAt": "2026-09-01T19:46:21Z",
   "metrics": {
-    "prsMerged": 50,
+    "prsMerged": 52,
     "prsOpened": 58,
     "prsReviewed": 56,
     "issuesCommented": 51,
-    "issuesClosed": 20
+    "issuesClosed": 19
   },
   "prsMerged": [
+    {
+      "number": 84337,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin",
+      "url": "https://github.com/openshift/release/pull/84337"
+    },
+    {
+      "number": 566,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "1.4: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+      "url": "https://github.com/openshift/velero/pull/566"
+    },
     {
       "number": 2423,
       "repo": "openshift/oadp-operator",
@@ -773,11 +787,25 @@
   ],
   "prsReviewed": [
     {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+    },
+    {
       "number": 2424,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
       "url": "https://github.com/openshift/oadp-operator/pull/2424"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
     },
     {
       "number": 10421,
@@ -953,20 +981,6 @@
       "org": "velero-io",
       "title": "Fix node agent rediness check issue",
       "url": "https://github.com/velero-io/velero/pull/10397"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
     },
     {
       "number": 10356,
@@ -1167,6 +1181,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 10437,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
+      "url": "https://github.com/velero-io/velero/issues/10437"
+    },
+    {
       "number": 2413,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1193,13 +1214,6 @@
       "org": "ghostty-org",
       "title": "Include scrollback history in state restoration",
       "url": "https://github.com/ghostty-org/ghostty/issues/1847"
-    },
-    {
-      "number": 10437,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
-      "url": "https://github.com/velero-io/velero/issues/10437"
     },
     {
       "number": 9556,
@@ -1525,13 +1539,6 @@
     }
   ],
   "issuesClosed": [
-    {
-      "number": 2413,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
-      "url": "https://github.com/openshift/oadp-operator/issues/2413"
-    },
     {
       "number": 211,
       "repo": "migtools/kubevirt-datamover-controller",
