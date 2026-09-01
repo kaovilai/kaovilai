@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-17",
-    "end": "2026-08-31"
+    "start": "2026-08-18",
+    "end": "2026-09-01"
   },
-  "generatedAt": "2026-08-31T23:09:39Z",
+  "generatedAt": "2026-09-01T01:44:14Z",
   "metrics": {
-    "prsMerged": 49,
+    "prsMerged": 48,
     "prsOpened": 54,
-    "prsReviewed": 64,
-    "issuesCommented": 51,
-    "issuesClosed": 20
+    "prsReviewed": 55,
+    "issuesCommented": 50,
+    "issuesClosed": 19
   },
   "prsMerged": [
     {
@@ -347,13 +347,6 @@
       "org": "migtools",
       "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
-    },
-    {
-      "number": 83299,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "gather-extra: harden against oc timeouts/flakes; jq to ARTIFACT_DIR",
-      "url": "https://github.com/openshift/release/pull/83299"
     }
   ],
   "prsOpened": [
@@ -738,6 +731,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 215,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: recognize VirtualMachineBackup's renamed Complete condition",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/215"
+    },
+    {
+      "number": 2422,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS",
+      "url": "https://github.com/openshift/oadp-operator/pull/2422"
+    },
+    {
       "number": 205,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -752,25 +759,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/214"
     },
     {
-      "number": 215,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: recognize VirtualMachineBackup's renamed Complete condition",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/215"
-    },
-    {
       "number": 216,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "[oadp-1.6] fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/216"
-    },
-    {
-      "number": 2422,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2422"
     },
     {
       "number": 2395,
@@ -927,20 +920,6 @@
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
     },
     {
-      "number": 164,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.12.2 (c25b809) into oadp-1.5",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/164"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.12.2 (bef8467) into oadp-1.5",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/163"
-    },
-    {
       "number": 10356,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -983,25 +962,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
     },
     {
-      "number": 464,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.5 (84ccff9) into oadp-1.5",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/464"
-    },
-    {
       "number": 304,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
       "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (538be00) into oadp-1.6",
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/304"
-    },
-    {
-      "number": 162,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (1b098f8) into oadp-1.5",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/162"
     },
     {
       "number": 163,
@@ -1081,13 +1046,6 @@
       "url": "https://github.com/velero-io/velero/pull/10346"
     },
     {
-      "number": 10315,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Testing: Implement missing unit tests for pkg/backup/snapshots.go",
-      "url": "https://github.com/velero-io/velero/pull/10315"
-    },
-    {
       "number": 10342,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1156,37 +1114,16 @@
       "org": "velero-io",
       "title": "[cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.",
       "url": "https://github.com/velero-io/velero/pull/10319"
-    },
-    {
-      "number": 10317,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cleanup: Remove deprecated --wait flag from velero uninstall",
-      "url": "https://github.com/velero-io/velero/pull/10317"
-    },
-    {
-      "number": 162,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.12.2 (82b9141) into oadp-1.5",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/162"
-    },
-    {
-      "number": 10312,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "assert expected errors from the test case rather than the returned error",
-      "url": "https://github.com/velero-io/velero/pull/10312"
-    },
-    {
-      "number": 257,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.5 (f2cb269) into oadp-1.5",
-      "url": "https://github.com/migtools/oadp-cli/pull/257"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10440,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
+      "url": "https://github.com/velero-io/velero/issues/10440"
+    },
     {
       "number": 1847,
       "repo": "ghostty-org/ghostty",
@@ -1235,13 +1172,6 @@
       "org": "velero-io",
       "title": "DataUpload tasks stuck in Prepared phase for extended periods",
       "url": "https://github.com/velero-io/velero/issues/9453"
-    },
-    {
-      "number": 10440,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
-      "url": "https://github.com/velero-io/velero/issues/10440"
     },
     {
       "number": 1013,
@@ -1536,13 +1466,6 @@
       "org": "velero-io",
       "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
       "url": "https://github.com/velero-io/velero/issues/10232"
-    },
-    {
-      "number": 8815,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
-      "url": "https://github.com/velero-io/velero/issues/8815"
     }
   ],
   "issuesClosed": [
@@ -1678,13 +1601,6 @@
       "org": "velero-io",
       "title": "Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)",
       "url": "https://github.com/velero-io/velero/issues/10300"
-    },
-    {
-      "number": 10301,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable",
-      "url": "https://github.com/velero-io/velero/issues/10301"
     }
   ]
 }
