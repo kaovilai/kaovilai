@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-09-01
-> **Generated:** 2026-09-01 19:46:21 UTC
+> **Generated:** 2026-09-01 22:27:17 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 52 |
-| PRs Opened | 58 |
-| PRs Reviewed | 56 |
+| PRs Opened | 59 |
+| PRs Reviewed | 57 |
 | Issues/PRs Commented | 51 |
-| Issues Closed | 19 |
+| Issues Closed | 20 |
 
 ---
 
@@ -74,7 +74,7 @@
 - [#1 feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures](https://github.com/kaovilai/socktainer/pull/1) — kaovilai/socktainer
 - [#2 feat(libpod): Add Podman /libpod/* API endpoints](https://github.com/kaovilai/socktainer/pull/2) — kaovilai/socktainer
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
-## PRs Opened (58)
+## PRs Opened (59)
 
 **velero-io** (21)
 - [#10458 Skip kind E2E tests on PRs that don't touch Go code or the workflow itself](https://github.com/velero-io/velero/pull/10458) — velero-io/velero
@@ -118,7 +118,8 @@
 - [#2402 Unpend two kdm restore e2e tests now that phase 4 landed](https://github.com/openshift/oadp-operator/pull/2402) — openshift/oadp-operator
 - [#83833 Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs](https://github.com/openshift/release/pull/83833) — openshift/release
 
-**migtools** (11)
+**migtools** (12)
+- [#218 Detect VMI guest-agent availability before quiesce, with explicit user override](https://github.com/migtools/kubevirt-datamover-controller/pull/218) — migtools/kubevirt-datamover-controller
 - [#213 fix: speed up Dockerfile builds with cache mounts](https://github.com/migtools/kubevirt-datamover-controller/pull/213) — migtools/kubevirt-datamover-controller
 - [#212 fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)](https://github.com/migtools/kubevirt-datamover-controller/pull/212) — migtools/kubevirt-datamover-controller
 - [#208 fix: recognize VirtualMachineBackup's renamed Complete condition](https://github.com/migtools/kubevirt-datamover-controller/pull/208) — migtools/kubevirt-datamover-controller
@@ -141,7 +142,7 @@
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
 - [#13882 macos: add regression test for double-click rename after dragging tab…](https://github.com/ghostty-org/ghostty/pull/13882) — ghostty-org/ghostty
 - [#13881 macos: add regression test for double-click rename after dragging tab between windows](https://github.com/ghostty-org/ghostty/pull/13881) — ghostty-org/ghostty
-## PRs Reviewed (56)
+## PRs Reviewed (57)
 
 **velero-io** (26)
 - [#10421 Add "IncrementalBytes" field to status of DataDownload and PVR to indicate data transfered by the incremental restore](https://github.com/velero-io/velero/pull/10421) — velero-io/velero
@@ -171,13 +172,14 @@
 - [#10322 Issue 10321: fill the error to the corresponding CR when data mover pod is evicted](https://github.com/velero-io/velero/pull/10322) — velero-io/velero
 - [#10319 [cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.](https://github.com/velero-io/velero/pull/10319) — velero-io/velero
 
-**openshift** (17)
+**openshift** (18)
+- [#2426 [oadp-1.6] feat: Add NetworkPolicy support for OADP operands (OADP-6074)](https://github.com/openshift/oadp-operator/pull/2426) — openshift/oadp-operator
+- [#2405 feat: Add NetworkPolicy support for OADP operands (OADP-6074)](https://github.com/openshift/oadp-operator/pull/2405) — openshift/oadp-operator
 - [#165 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6](https://github.com/openshift/velero-plugin-for-gcp/pull/165) — openshift/velero-plugin-for-gcp
 - [#2424 [oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)](https://github.com/openshift/oadp-operator/pull/2424) — openshift/oadp-operator
 - [#163 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6](https://github.com/openshift/velero-plugin-for-aws/pull/163) — openshift/velero-plugin-for-aws
 - [#2422 [oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2422) — openshift/oadp-operator
 - [#2395 e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2395) — openshift/oadp-operator
-- [#2405 feat: Add NetworkPolicy support for OADP operands (OADP-6074)](https://github.com/openshift/oadp-operator/pull/2405) — openshift/oadp-operator
 - [#2397 [OADP-8704] fix: only set region in BSL config for AWS CloudStorage](https://github.com/openshift/oadp-operator/pull/2397) — openshift/oadp-operator
 - [#2415 [oadp-1.5] Add uploader-type argument to Velero deployment configuration when configuration.args is used.](https://github.com/openshift/oadp-operator/pull/2415) — openshift/oadp-operator
 - [#2412 [oadp-1.6] [OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env](https://github.com/openshift/oadp-operator/pull/2412) — openshift/oadp-operator
@@ -266,7 +268,7 @@
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-## Issues Closed (19)
+## Issues Closed (20)
 
 **velero-io** (6)
 - [#10297 A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields](https://github.com/velero-io/velero/issues/10297) — velero-io/velero
@@ -290,7 +292,8 @@
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (3)
+**Other** (4)
+- [#4549 v1beta1→v1 conversion webhook fails on spec.featureGates: "cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates"](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549) — kubevirt/hyperconverged-cluster-operator
 - [#1623 jira_transition_issue's `comment` argument silently dropped on Jira Cloud (transition succeeds, comment never posts)](https://github.com/sooperset/mcp-atlassian/issues/1623) — sooperset/mcp-atlassian
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#625 Add pagination support for get_pull_request_diff to handle large PRs](https://github.com/github/github-mcp-server/issues/625) — github/github-mcp-server

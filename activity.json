@@ -3,13 +3,13 @@
     "start": "2026-08-18",
     "end": "2026-09-01"
   },
-  "generatedAt": "2026-09-01T19:46:21Z",
+  "generatedAt": "2026-09-01T22:27:17Z",
   "metrics": {
     "prsMerged": 52,
-    "prsOpened": 58,
-    "prsReviewed": 56,
+    "prsOpened": 59,
+    "prsReviewed": 57,
     "issuesCommented": 51,
-    "issuesClosed": 19
+    "issuesClosed": 20
   },
   "prsMerged": [
     {
@@ -378,6 +378,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 218,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Detect VMI guest-agent availability before quiesce, with explicit user override",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/218"
+    },
     {
       "number": 567,
       "repo": "openshift/velero",
@@ -787,6 +794,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 2426,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2426"
+    },
+    {
+      "number": 2405,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2405"
+    },
+    {
       "number": 165,
       "repo": "openshift/velero-plugin-for-gcp",
       "org": "openshift",
@@ -876,13 +897,6 @@
       "org": "openshift",
       "title": "e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2395"
-    },
-    {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
       "number": 10447,
@@ -1539,6 +1553,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 4549,
+      "repo": "kubevirt/hyperconverged-cluster-operator",
+      "org": "kubevirt",
+      "title": "v1beta1→v1 conversion webhook fails on spec.featureGates: \"cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates\"",
+      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549"
+    },
     {
       "number": 211,
       "repo": "migtools/kubevirt-datamover-controller",
