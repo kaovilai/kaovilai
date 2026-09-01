@@ -3,15 +3,22 @@
     "start": "2026-08-18",
     "end": "2026-09-01"
   },
-  "generatedAt": "2026-09-01T11:26:25Z",
+  "generatedAt": "2026-09-01T16:15:58Z",
   "metrics": {
-    "prsMerged": 49,
-    "prsOpened": 55,
-    "prsReviewed": 55,
-    "issuesCommented": 50,
-    "issuesClosed": 19
+    "prsMerged": 50,
+    "prsOpened": 58,
+    "prsReviewed": 56,
+    "issuesCommented": 51,
+    "issuesClosed": 20
   },
   "prsMerged": [
+    {
+      "number": 2423,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2423"
+    },
     {
       "number": 10403,
       "repo": "velero-io/velero",
@@ -358,10 +365,31 @@
   ],
   "prsOpened": [
     {
+      "number": 567,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "1.5: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+      "url": "https://github.com/openshift/velero/pull/567"
+    },
+    {
+      "number": 566,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "1.4: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+      "url": "https://github.com/openshift/velero/pull/566"
+    },
+    {
+      "number": 10458,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip kind E2E tests on PRs that don't touch Go code or the workflow itself",
+      "url": "https://github.com/velero-io/velero/pull/10458"
+    },
+    {
       "number": 84337,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (5.0)",
+      "title": "oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin",
       "url": "https://github.com/openshift/release/pull/84337"
     },
     {
@@ -744,6 +772,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2424,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2424"
+    },
     {
       "number": 10421,
       "repo": "velero-io/velero",
@@ -1132,6 +1167,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 2413,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
+      "url": "https://github.com/openshift/oadp-operator/issues/2413"
+    },
+    {
+      "number": 190,
+      "repo": "EmixamPP/linux-enable-ir-emitter",
+      "org": "EmixamPP",
+      "title": "Web Camera is broken",
+      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1165,13 +1214,6 @@
       "org": "velero-io",
       "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
       "url": "https://github.com/velero-io/velero/issues/10440"
-    },
-    {
-      "number": 2413,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
-      "url": "https://github.com/openshift/oadp-operator/issues/2413"
     },
     {
       "number": 8263,
@@ -1483,6 +1525,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2413,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
+      "url": "https://github.com/openshift/oadp-operator/issues/2413"
+    },
     {
       "number": 211,
       "repo": "migtools/kubevirt-datamover-controller",
