@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T11:01:48Z",
+  "updatedAt": "2026-09-01T16:21:11Z",
   "prs": [
     {
       "number": 10010,
@@ -108,26 +108,6 @@
       "updatedAt": "2026-08-31T20:24:39Z"
     },
     {
-      "number": 10424,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10424",
-      "targetBranch": "release-1.16",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-28T03:47:41Z"
-    },
-    {
       "number": 10425,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -148,12 +128,12 @@
       "updatedAt": "2026-08-27T19:09:33Z"
     },
     {
-      "number": 10427,
+      "number": 10426,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "[release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10427",
-      "targetBranch": "release-1.15",
+      "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
+      "url": "https://github.com/velero-io/velero/pull/10426",
+      "targetBranch": "release-1.18",
       "status": "ready",
       "milestone": null,
       "author": "kaovilai",
@@ -163,32 +143,9 @@
       ],
       "isDraft": false,
       "labels": [
-        "kind/changelog-not-required",
-        "has-unit-tests"
-      ],
-      "updatedAt": "2026-08-31T20:40:24Z"
-    },
-    {
-      "number": 10428,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.14] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10428",
-      "targetBranch": "release-1.14",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required",
-        "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-31T20:41:01Z"
+      "updatedAt": "2026-09-01T14:20:04Z"
     },
     {
       "number": 8793,
@@ -747,26 +704,6 @@
       "updatedAt": "2026-08-27T16:55:07Z"
     },
     {
-      "number": 10426,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10426",
-      "targetBranch": "release-1.18",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": true,
-      "labels": [
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-28T04:37:42Z"
-    },
-    {
       "number": 7344,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -932,6 +869,27 @@
         "has-changelog"
       ],
       "updatedAt": "2026-08-27T16:57:58Z"
+    },
+    {
+      "number": 10458,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip kind E2E tests on PRs that don't touch Go code or the workflow itself",
+      "url": "https://github.com/velero-io/velero/pull/10458",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "Copilot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai",
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-09-01T14:09:20Z"
     },
     {
       "number": 7941,
@@ -1291,15 +1249,15 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-09-01T10:53:48Z"
+      "updatedAt": "2026-09-01T14:03:19Z"
     },
     {
-      "number": 2423,
-      "repo": "openshift/oadp-operator",
+      "number": 566,
+      "repo": "openshift/velero",
       "org": "openshift",
-      "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2423",
-      "targetBranch": "oadp-dev",
+      "title": "1.4: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+      "url": "https://github.com/openshift/velero/pull/566",
+      "targetBranch": "oadp-1.4",
       "status": "ready",
       "milestone": null,
       "author": "kaovilai",
@@ -1309,7 +1267,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-09-01T01:30:55Z"
+      "updatedAt": "2026-09-01T15:37:45Z"
     },
     {
       "number": 225,
@@ -1458,20 +1416,23 @@
       "number": 84337,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (5.0)",
+      "title": "oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin",
       "url": "https://github.com/openshift/release/pull/84337",
       "targetBranch": "main",
       "status": "draft",
       "milestone": null,
       "author": "kaovilai",
       "isCopilotAuthored": false,
-      "assignees": [],
+      "assignees": [
+        "shubham-pampattiwar"
+      ],
       "isDraft": true,
       "labels": [
+        "lgtm",
         "do-not-merge/work-in-progress",
         "approved"
       ],
-      "updatedAt": "2026-09-01T04:19:45Z"
+      "updatedAt": "2026-09-01T16:20:46Z"
     },
     {
       "number": 237,
@@ -1681,6 +1642,24 @@
         "jira/valid-reference"
       ],
       "updatedAt": "2026-08-27T14:30:50Z"
+    },
+    {
+      "number": 567,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "1.5: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+      "url": "https://github.com/openshift/velero/pull/567",
+      "targetBranch": "oadp-1.5",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-09-01T16:07:26Z"
     },
     {
       "number": 260,
@@ -3197,7 +3176,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-01T11:01:48Z",
+    "updatedAt": "2026-09-01T16:21:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3320,30 +3299,6 @@
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
-        "number": 290,
-        "repo": "hashicorp/go-plugin",
-        "org": "hashicorp",
-        "title": "Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17",
-        "url": "https://github.com/hashicorp/go-plugin/pull/290",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 225,
-        "updatedAt": "2026-01-19T06:59:02Z"
-      },
-      {
         "number": 10032,
         "repo": "openshift/installer",
         "org": "openshift",
@@ -3394,7 +3349,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 172,
+        "waitingDays": 173,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3423,7 +3378,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 145,
+        "waitingDays": 146,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3439,7 +3394,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3514,7 +3469,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3571,30 +3526,6 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 48,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 442,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -3621,8 +3552,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 48,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3786,7 +3741,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 42,
+        "waitingDays": 43,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3887,7 +3842,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3918,30 +3873,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3967,8 +3898,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -4004,7 +3959,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -4174,34 +4129,6 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -4218,7 +4145,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4231,7 +4158,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
@@ -4261,8 +4188,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-08-27T14:30:50Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 10010,
@@ -4280,7 +4235,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4313,7 +4268,7 @@
           "has-unit-tests",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4346,7 +4301,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4375,7 +4330,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4408,7 +4363,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4438,7 +4393,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4498,7 +4453,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4510,36 +4465,6 @@
         "reason": "awaitingReview",
         "waitingDays": 4,
         "updatedAt": "2026-08-27T16:57:58Z"
-      },
-      {
-        "number": 10424,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.16] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10424",
-        "targetBranch": "release-1.16",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-08-28T03:47:41Z"
       },
       {
         "number": 7941,
@@ -4588,7 +4513,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4619,7 +4544,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4651,7 +4576,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4685,7 +4610,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4752,7 +4677,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4911,7 +4836,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4944,7 +4869,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4977,7 +4902,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5012,7 +4937,7 @@
           "dco-signoff: yes",
           "do-not-merge/invalid-commit-message"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -5055,36 +4980,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-01T10:53:48Z"
-      },
-      {
-        "number": 2423,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
-        "url": "https://github.com/openshift/oadp-operator/pull/2423",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-09-01T01:30:55Z"
+        "updatedAt": "2026-09-01T14:03:19Z"
       },
       {
         "number": 10423,
@@ -5116,20 +5012,20 @@
         "updatedAt": "2026-08-31T20:24:39Z"
       },
       {
-        "number": 10427,
+        "number": 10458,
         "repo": "velero-io/velero",
         "org": "velero-io",
-        "title": "[release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10427",
-        "targetBranch": "release-1.15",
-        "author": "kaovilai",
+        "title": "Skip kind E2E tests on PRs that don't touch Go code or the workflow itself",
+        "url": "https://github.com/velero-io/velero/pull/10458",
+        "targetBranch": "main",
+        "author": "Copilot",
         "isCopilotAuthored": false,
         "assignees": [
-          "kaovilai"
+          "kaovilai",
+          "Copilot"
         ],
         "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests"
+          "kind/changelog-not-required"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
@@ -5142,37 +5038,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-08-31T20:40:24Z"
-      },
-      {
-        "number": 10428,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.14] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10428",
-        "targetBranch": "release-1.14",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-08-31T20:41:01Z"
+        "updatedAt": "2026-09-01T14:09:20Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5201,7 +5067,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 145,
+        "waitingDays": 146,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -5233,36 +5099,6 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 39,
-        "updatedAt": "2026-07-23T20:59:18Z"
-      },
-      {
         "number": 48,
         "repo": "migtools/kopia",
         "org": "migtools",
@@ -5290,7 +5126,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
@@ -5321,7 +5157,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -5355,7 +5191,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5417,7 +5253,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -5728,37 +5564,6 @@
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
-        "number": 10077,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot auto-approve workflow",
-        "url": "https://github.com/velero-io/velero/pull/10077",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-25T22:09:26Z"
-      },
-      {
         "number": 233,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -5787,8 +5592,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-26T14:58:57Z"
+      },
+      {
+        "number": 10077,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add Dependabot auto-approve workflow",
+        "url": "https://github.com/velero-io/velero/pull/10077",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-25T22:09:26Z"
       },
       {
         "number": 18725,
@@ -5811,7 +5647,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5825,6 +5661,63 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-08-30T17:39:09Z"
+      },
+      {
+        "number": 566,
+        "repo": "openshift/velero",
+        "org": "openshift",
+        "title": "1.4: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+        "url": "https://github.com/openshift/velero/pull/566",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-01T15:37:45Z"
+      },
+      {
+        "number": 567,
+        "repo": "openshift/velero",
+        "org": "openshift",
+        "title": "1.5: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
+        "url": "https://github.com/openshift/velero/pull/567",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-01T16:07:26Z"
       }
     ]
   }
