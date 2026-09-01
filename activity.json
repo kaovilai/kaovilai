@@ -3,15 +3,22 @@
     "start": "2026-08-18",
     "end": "2026-09-01"
   },
-  "generatedAt": "2026-09-01T01:44:14Z",
+  "generatedAt": "2026-09-01T11:26:25Z",
   "metrics": {
-    "prsMerged": 48,
-    "prsOpened": 54,
+    "prsMerged": 49,
+    "prsOpened": 55,
     "prsReviewed": 55,
     "issuesCommented": 50,
     "issuesClosed": 19
   },
   "prsMerged": [
+    {
+      "number": 10403,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
+      "url": "https://github.com/velero-io/velero/pull/10403"
+    },
     {
       "number": 212,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -350,6 +357,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 84337,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (5.0)",
+      "url": "https://github.com/openshift/release/pull/84337"
+    },
     {
       "number": 2423,
       "repo": "openshift/oadp-operator",
@@ -731,11 +745,46 @@
   ],
   "prsReviewed": [
     {
+      "number": 10421,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add \"IncrementalBytes\" field to status of DataDownload and PVR to indicate data transfered by the incremental restore",
+      "url": "https://github.com/velero-io/velero/pull/10421"
+    },
+    {
       "number": 215,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "[oadp-1.6] fix: recognize VirtualMachineBackup's renamed Complete condition",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/215"
+    },
+    {
+      "number": 10449,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
+      "url": "https://github.com/velero-io/velero/pull/10449"
+    },
+    {
+      "number": 10438,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
+      "url": "https://github.com/velero-io/velero/pull/10438"
+    },
+    {
+      "number": 10436,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add block data mover support for Velero backup/restore describe CLI.",
+      "url": "https://github.com/velero-io/velero/pull/10436"
+    },
+    {
+      "number": 216,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/216"
     },
     {
       "number": 2422,
@@ -759,25 +808,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/214"
     },
     {
-      "number": 216,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/216"
-    },
-    {
       "number": 2395,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2395"
-    },
-    {
-      "number": 10449,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
-      "url": "https://github.com/velero-io/velero/pull/10449"
     },
     {
       "number": 2405,
@@ -787,32 +822,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
-      "number": 10438,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
-      "url": "https://github.com/velero-io/velero/pull/10438"
-    },
-    {
-      "number": 10436,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add block data mover support for Velero backup/restore describe CLI.",
-      "url": "https://github.com/velero-io/velero/pull/10436"
-    },
-    {
       "number": 10447,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Bump the github-actions group with 2 updates",
       "url": "https://github.com/velero-io/velero/pull/10447"
-    },
-    {
-      "number": 10421,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add \"IncrementalBytes\" field to status of DataDownload and PVR to indicate data transfered by the incremental restore",
-      "url": "https://github.com/velero-io/velero/pull/10421"
     },
     {
       "number": 10372,
@@ -1118,11 +1132,11 @@
   ],
   "issuesCommented": [
     {
-      "number": 10440,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
-      "url": "https://github.com/velero-io/velero/issues/10440"
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 1847,
@@ -1132,13 +1146,6 @@
       "url": "https://github.com/ghostty-org/ghostty/issues/1847"
     },
     {
-      "number": 2413,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
-      "url": "https://github.com/openshift/oadp-operator/issues/2413"
-    },
-    {
       "number": 10437,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1146,11 +1153,25 @@
       "url": "https://github.com/velero-io/velero/issues/10437"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+      "number": 9556,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block level backup/restore support",
+      "url": "https://github.com/velero-io/velero/issues/9556"
+    },
+    {
+      "number": 10440,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
+      "url": "https://github.com/velero-io/velero/issues/10440"
+    },
+    {
+      "number": 2413,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
+      "url": "https://github.com/openshift/oadp-operator/issues/2413"
     },
     {
       "number": 8263,
@@ -1179,13 +1200,6 @@
       "org": "tailscale",
       "title": "Support mDNS for name and service resolution",
       "url": "https://github.com/tailscale/tailscale/issues/1013"
-    },
-    {
-      "number": 9556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block level backup/restore support",
-      "url": "https://github.com/velero-io/velero/issues/9556"
     },
     {
       "number": 481,
