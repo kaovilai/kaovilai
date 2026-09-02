@@ -3,15 +3,22 @@
     "start": "2026-08-19",
     "end": "2026-09-02"
   },
-  "generatedAt": "2026-09-02T16:11:58Z",
+  "generatedAt": "2026-09-02T19:38:50Z",
   "metrics": {
-    "prsMerged": 52,
-    "prsOpened": 55,
-    "prsReviewed": 52,
-    "issuesCommented": 47,
+    "prsMerged": 53,
+    "prsOpened": 57,
+    "prsReviewed": 58,
+    "issuesCommented": 48,
     "issuesClosed": 17
   },
   "prsMerged": [
+    {
+      "number": 173,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Combo auto-submit window, override on pending checks, native Approve sync",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173"
+    },
     {
       "number": 10458,
       "repo": "velero-io/velero",
@@ -378,6 +385,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 173,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Combo auto-submit window, override on pending checks, native Approve sync",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173"
+    },
+    {
+      "number": 84490,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/84490"
+    },
     {
       "number": 218,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -766,6 +787,69 @@
   ],
   "prsReviewed": [
     {
+      "number": 102,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (1208cdf) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/102"
+    },
+    {
+      "number": 378,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (63a89f8) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/378"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
+    },
+    {
+      "number": 164,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/165"
+    },
+    {
+      "number": 467,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+    },
+    {
+      "number": 57,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Bump google.golang.org/grpc from 1.82.1 to 1.83.1",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/57"
+    },
+    {
+      "number": 192,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "docs: add architecture and testing guides, refresh README",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
+    },
+    {
       "number": 10464,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -794,25 +878,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2405"
     },
     {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
-    },
-    {
       "number": 2424,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
       "url": "https://github.com/openshift/oadp-operator/pull/2424"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
     },
     {
       "number": 10421,
@@ -911,13 +981,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] Set binding-blocking spec.selector on restore-target PVCs",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/53"
-    },
-    {
-      "number": 192,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "docs: add architecture and testing guides, refresh README",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
     },
     {
       "number": 10353,
@@ -1131,6 +1194,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero backups failing due to blob missing from the repository",
+      "url": "https://github.com/velero-io/velero/issues/8654"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
