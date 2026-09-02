@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-19 — 2026-09-02
-> **Generated:** 2026-09-02 10:59:53 UTC
+> **Generated:** 2026-09-02 16:11:58 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 52 |
 | PRs Opened | 55 |
-| PRs Reviewed | 51 |
+| PRs Reviewed | 52 |
 | Issues/PRs Commented | 47 |
 | Issues Closed | 17 |
 
@@ -138,9 +138,10 @@
 - [#170 Add Velero backport button for velero-io/velero](https://github.com/kaovilai/github-bot-command-palette/pull/170) — kaovilai/github-bot-command-palette
 - [#375 feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support](https://github.com/socktainer/socktainer/pull/375) — socktainer/socktainer
 - [#1 Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation](https://github.com/kaovilai/pdf2text-pwa/pull/1) — kaovilai/pdf2text-pwa
-## PRs Reviewed (51)
+## PRs Reviewed (52)
 
-**velero-io** (23)
+**velero-io** (24)
+- [#10464 Add operation context to user-facing error messages](https://github.com/velero-io/velero/pull/10464) — velero-io/velero
 - [#10436 Add block data mover support for Velero backup/restore describe CLI.](https://github.com/velero-io/velero/pull/10436) — velero-io/velero
 - [#10421 Add "IncrementalBytes" field to status of DataDownload and PVR to indicate data transfered by the incremental restore](https://github.com/velero-io/velero/pull/10421) — velero-io/velero
 - [#10449 Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label](https://github.com/velero-io/velero/pull/10449) — velero-io/velero
