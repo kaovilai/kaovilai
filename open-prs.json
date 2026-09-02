@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T10:32:36Z",
+  "updatedAt": "2026-09-02T16:18:26Z",
   "prs": [
     {
       "number": 10010,
@@ -2094,7 +2094,7 @@
         "release-note",
         "dco-signoff: yes"
       ],
-      "updatedAt": "2026-08-30T17:38:44Z"
+      "updatedAt": "2026-09-02T10:57:56Z"
     },
     {
       "number": 18957,
@@ -3119,7 +3119,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-02T10:32:36Z",
+    "updatedAt": "2026-09-02T16:18:26Z",
     "needsReview": [
       {
         "number": 68,
@@ -3252,7 +3252,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3292,7 +3292,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 173,
+        "waitingDays": 174,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3321,7 +3321,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 146,
+        "waitingDays": 147,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3383,7 +3383,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 62,
+        "waitingDays": 63,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3423,7 +3423,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3438,30 +3438,6 @@
         "reason": "hold",
         "waitingDays": 49,
         "updatedAt": "2026-07-15T09:18:53Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 49,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -3490,8 +3466,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 49,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3506,7 +3506,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3655,7 +3655,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3709,7 +3709,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3756,7 +3756,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3787,30 +3787,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 21,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3836,8 +3812,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 21,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -3859,7 +3859,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3873,7 +3873,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 19,
+        "waitingDays": 20,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -4043,34 +4043,6 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -4100,8 +4072,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-08-27T12:05:51Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 6,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 10010,
@@ -4306,7 +4306,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4365,7 +4365,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4528,7 +4528,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4592,7 +4592,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4624,7 +4624,7 @@
           "Documentation",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4656,7 +4656,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4689,7 +4689,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4770,40 +4770,6 @@
         "updatedAt": "2026-08-27T17:03:26Z"
       },
       {
-        "number": 18949,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18949",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Acedus",
-          "alromeros",
-          "ShellyKa13"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-08-30T17:38:44Z"
-      },
-      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4865,6 +4831,39 @@
         "reason": "hold",
         "waitingDays": 0,
         "updatedAt": "2026-09-02T03:04:55Z"
+      },
+      {
+        "number": 18949,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18949",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "alromeros",
+          "ShellyKa13"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-02T10:57:56Z"
       },
       {
         "number": 2198,
@@ -4951,7 +4950,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 146,
+        "waitingDays": 147,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -4967,7 +4966,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5040,7 +5039,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-08-05T14:45:16Z"
       },
       {
@@ -5071,7 +5070,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -5105,7 +5104,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -5137,7 +5136,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 11,
+        "waitingDays": 12,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -5448,6 +5447,38 @@
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
+        "number": 233,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "Add CODEOWNERS file based on OWNERS approvers",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "jparrill"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": 0,
+        "reviewRequests": [
+          "devguyio"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 7,
+        "updatedAt": "2026-08-26T14:58:57Z"
+      },
+      {
         "number": 10077,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -5477,38 +5508,6 @@
         "reason": "pendingMerge",
         "waitingDays": 7,
         "updatedAt": "2026-08-25T22:09:26Z"
-      },
-      {
-        "number": 233,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "Add CODEOWNERS file based on OWNERS approvers",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "jparrill"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": 0,
-        "reviewRequests": [
-          "devguyio"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-08-26T14:58:57Z"
       },
       {
         "number": 18725,
