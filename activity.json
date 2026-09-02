@@ -3,15 +3,29 @@
     "start": "2026-08-19",
     "end": "2026-09-02"
   },
-  "generatedAt": "2026-09-02T00:55:11Z",
+  "generatedAt": "2026-09-02T10:59:53Z",
   "metrics": {
-    "prsMerged": 50,
+    "prsMerged": 52,
     "prsOpened": 55,
     "prsReviewed": 51,
-    "issuesCommented": 46,
+    "issuesCommented": 47,
     "issuesClosed": 17
   },
   "prsMerged": [
+    {
+      "number": 10458,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Skip kind E2E tests on PRs that don't touch Go code or the workflow itself",
+      "url": "https://github.com/velero-io/velero/pull/10458"
+    },
+    {
+      "number": 2404,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "test: unpend two kdm restore PIts, fixing bugs found via live e2e validation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2404"
+    },
     {
       "number": 84337,
       "repo": "openshift/release",
@@ -752,6 +766,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10436,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add block data mover support for Velero backup/restore describe CLI.",
+      "url": "https://github.com/velero-io/velero/pull/10436"
+    },
+    {
       "number": 2426,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -813,13 +834,6 @@
       "org": "velero-io",
       "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
       "url": "https://github.com/velero-io/velero/pull/10438"
-    },
-    {
-      "number": 10436,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add block data mover support for Velero backup/restore describe CLI.",
-      "url": "https://github.com/velero-io/velero/pull/10436"
     },
     {
       "number": 216,
@@ -1111,6 +1125,27 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 10440,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
+      "url": "https://github.com/velero-io/velero/issues/10440"
+    },
+    {
+      "number": 10584,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
+      "url": "https://github.com/openshift/installer/issues/10584"
+    },
+    {
       "number": 10437,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1132,13 +1167,6 @@
       "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
       "number": 1847,
       "repo": "ghostty-org/ghostty",
       "org": "ghostty-org",
@@ -1151,13 +1179,6 @@
       "org": "velero-io",
       "title": "Block level backup/restore support",
       "url": "https://github.com/velero-io/velero/issues/9556"
-    },
-    {
-      "number": 10440,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
-      "url": "https://github.com/velero-io/velero/issues/10440"
     },
     {
       "number": 8263,
