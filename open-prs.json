@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T22:29:24Z",
+  "updatedAt": "2026-09-02T00:46:56Z",
   "prs": [
     {
       "number": 10010,
@@ -1267,7 +1267,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-09-01T21:39:01Z"
+      "updatedAt": "2026-09-02T00:29:27Z"
     },
     {
       "number": 84229,
@@ -1640,24 +1640,6 @@
       "updatedAt": "2026-07-15T12:41:12Z"
     },
     {
-      "number": 213,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: speed up Dockerfile builds with cache mounts",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-08-29T05:51:46Z"
-    },
-    {
       "number": 48,
       "repo": "migtools/kopia",
       "org": "migtools",
@@ -1952,6 +1934,25 @@
         "do-not-merge/hold"
       ],
       "updatedAt": "2026-08-03T14:39:22Z"
+    },
+    {
+      "number": 213,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: speed up Dockerfile builds with cache mounts",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
+      "targetBranch": "oadp-dev",
+      "status": "needs-attention",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "needs-rebase"
+      ],
+      "updatedAt": "2026-09-01T23:05:55Z"
     },
     {
       "number": 35,
@@ -3157,7 +3158,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-01T22:29:24Z",
+    "updatedAt": "2026-09-02T00:46:56Z",
     "needsReview": [
       {
         "number": 68,
@@ -3180,7 +3181,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 656,
+        "waitingDays": 657,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3449,6 +3450,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 49,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3506,30 +3531,6 @@
         "reason": "hold",
         "waitingDays": 48,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 48,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3821,7 +3822,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -3945,6 +3946,38 @@
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
+        "number": 598,
+        "repo": "openshift/ci-docs",
+        "org": "openshift",
+        "title": "Document FBC catalog builds and OLM v1 testing workflows",
+        "url": "https://github.com/openshift/ci-docs/pull/598",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "hector-vido"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hector-vido",
+          "jmguzik",
+          "joelanford"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 18,
+        "updatedAt": "2026-08-14T22:38:52Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -3995,38 +4028,6 @@
         "reason": "awaitingReview",
         "waitingDays": 18,
         "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
-        "number": 598,
-        "repo": "openshift/ci-docs",
-        "org": "openshift",
-        "title": "Document FBC catalog builds and OLM v1 testing workflows",
-        "url": "https://github.com/openshift/ci-docs/pull/598",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "hector-vido"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "jmguzik",
-          "joelanford"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 17,
-        "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
         "number": 326,
@@ -4888,7 +4889,7 @@
           "dco-signoff: yes",
           "do-not-merge/invalid-commit-message"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4932,35 +4933,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-09-01T20:44:35Z"
-      },
-      {
-        "number": 2404,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "test: unpend two kdm restore PIts, fixing bugs found via live e2e validation",
-        "url": "https://github.com/openshift/oadp-operator/pull/2404",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "savitharaghunathan"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-09-01T21:39:01Z"
       },
       {
         "number": 84229,
@@ -5612,6 +5584,35 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-09-01T21:04:49Z"
+      },
+      {
+        "number": 2404,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "test: unpend two kdm restore PIts, fixing bugs found via live e2e validation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2404",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "savitharaghunathan"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-02T00:29:27Z"
       },
       {
         "number": 565,
