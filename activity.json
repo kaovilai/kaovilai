@@ -3,15 +3,22 @@
     "start": "2026-08-19",
     "end": "2026-09-02"
   },
-  "generatedAt": "2026-09-02T19:38:50Z",
+  "generatedAt": "2026-09-02T22:26:36Z",
   "metrics": {
-    "prsMerged": 53,
+    "prsMerged": 54,
     "prsOpened": 57,
     "prsReviewed": 58,
     "issuesCommented": 48,
     "issuesClosed": 17
   },
   "prsMerged": [
+    {
+      "number": 84490,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (oadp-1.6)",
+      "url": "https://github.com/openshift/release/pull/84490"
+    },
     {
       "number": 173,
       "repo": "kaovilai/github-bot-command-palette",
@@ -787,6 +794,34 @@
   ],
   "prsReviewed": [
     {
+      "number": 164,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
+    },
+    {
+      "number": 57,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Bump google.golang.org/grpc from 1.82.1 to 1.83.1",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/57"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/165"
+    },
+    {
+      "number": 467,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
+    },
+    {
       "number": 102,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
@@ -808,39 +843,11 @@
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
     },
     {
-      "number": 164,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/165"
-    },
-    {
-      "number": 467,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
-    },
-    {
       "number": 165,
       "repo": "openshift/velero-plugin-for-gcp",
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
-    },
-    {
-      "number": 57,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Bump google.golang.org/grpc from 1.82.1 to 1.83.1",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/57"
     },
     {
       "number": 192,
