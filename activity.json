@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-18",
-    "end": "2026-09-01"
+    "start": "2026-08-19",
+    "end": "2026-09-02"
   },
-  "generatedAt": "2026-09-01T22:27:17Z",
+  "generatedAt": "2026-09-02T00:55:11Z",
   "metrics": {
-    "prsMerged": 52,
-    "prsOpened": 59,
-    "prsReviewed": 57,
-    "issuesCommented": 51,
-    "issuesClosed": 20
+    "prsMerged": 50,
+    "prsOpened": 55,
+    "prsReviewed": 51,
+    "issuesCommented": 46,
+    "issuesClosed": 17
   },
   "prsMerged": [
     {
@@ -361,20 +361,6 @@
       "org": "kaovilai",
       "title": "Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation",
       "url": "https://github.com/kaovilai/pdf2text-pwa/pull/1"
-    },
-    {
-      "number": 187,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: concurrency limiter for DataUpload controller (issue #174)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/187"
-    },
-    {
-      "number": 186,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "feat: DD concurrency limiter (#175), scratch PVC hardening, multi-disk isolation test (issue #73 Phase 4)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/186"
     }
   ],
   "prsOpened": [
@@ -762,34 +748,6 @@
       "org": "kaovilai",
       "title": "Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation",
       "url": "https://github.com/kaovilai/pdf2text-pwa/pull/1"
-    },
-    {
-      "number": 10327,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Detect data path pod deletion via informer DeleteFunc",
-      "url": "https://github.com/velero-io/velero/pull/10327"
-    },
-    {
-      "number": 10318,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix datamover backup arg mismatch for CSI CBT service account name",
-      "url": "https://github.com/velero-io/velero/pull/10318"
-    },
-    {
-      "number": 13882,
-      "repo": "ghostty-org/ghostty",
-      "org": "ghostty-org",
-      "title": "macos: add regression test for double-click rename after dragging tab…",
-      "url": "https://github.com/ghostty-org/ghostty/pull/13882"
-    },
-    {
-      "number": 13881,
-      "repo": "ghostty-org/ghostty",
-      "org": "ghostty-org",
-      "title": "macos: add regression test for double-click rename after dragging tab between windows",
-      "url": "https://github.com/ghostty-org/ghostty/pull/13881"
     }
   ],
   "prsReviewed": [
@@ -1095,25 +1053,11 @@
       "url": "https://github.com/velero-io/velero/pull/10388"
     },
     {
-      "number": 10329,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Embed CRD manifests via go:embed instead of codegen",
-      "url": "https://github.com/velero-io/velero/pull/10329"
-    },
-    {
       "number": 10359,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Fix e2e kind matrix misparsing pre-release node tags",
       "url": "https://github.com/velero-io/velero/pull/10359"
-    },
-    {
-      "number": 2390,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Deprecate config.credentialsFile; translate to spec.credential",
-      "url": "https://github.com/openshift/oadp-operator/pull/2390"
     },
     {
       "number": 10346,
@@ -1144,25 +1088,11 @@
       "url": "https://github.com/velero-io/velero/pull/10347"
     },
     {
-      "number": 2393,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-8548: PodResources unset fields should be output as \"0\" to fix parsing errors results in ignored resource settings",
-      "url": "https://github.com/openshift/oadp-operator/pull/2393"
-    },
-    {
       "number": 10335,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "[release-1.18] Support copying namespace-scoped secrets/configmaps for backup and restore PVC provisioning",
       "url": "https://github.com/velero-io/velero/pull/10335"
-    },
-    {
-      "number": 10322,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue 10321: fill the error to the corresponding CR when data mover pod is evicted",
-      "url": "https://github.com/velero-io/velero/pull/10322"
     },
     {
       "number": 2396,
@@ -1177,20 +1107,6 @@
       "org": "openshift",
       "title": "[OADP-8700] Guard NodeAgent.ExtraArgs access against nil when using restic config",
       "url": "https://github.com/openshift/oadp-operator/pull/2394"
-    },
-    {
-      "number": 190,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] feat: concurrency limiter for DataUpload controller (issue #174)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/190"
-    },
-    {
-      "number": 10319,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[cherry-pick][1.18] Remove PVC and PV inclusion check during creating PVR.",
-      "url": "https://github.com/velero-io/velero/pull/10319"
     }
   ],
   "issuesCommented": [
@@ -1515,41 +1431,6 @@
       "org": "openshift",
       "title": "Follow up: simplify and document PodResources defaulting",
       "url": "https://github.com/openshift/oadp-operator/issues/2391"
-    },
-    {
-      "number": 175,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrency limiter for DataDownload controller",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175"
-    },
-    {
-      "number": 184,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
-    },
-    {
-      "number": 9951,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "v1.14.2 AWS plugin corrupts backups on S3-compatible backends via SDK checksum defaults",
-      "url": "https://github.com/velero-io/velero/issues/9951"
-    },
-    {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
-      "url": "https://github.com/velero-io/velero/issues/10303"
-    },
-    {
-      "number": 10232,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
-      "url": "https://github.com/velero-io/velero/issues/10232"
     }
   ],
   "issuesClosed": [
@@ -1671,27 +1552,6 @@
       "org": "velero-io",
       "title": "Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error",
       "url": "https://github.com/velero-io/velero/issues/10296"
-    },
-    {
-      "number": 184,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184"
-    },
-    {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
-      "url": "https://github.com/velero-io/velero/issues/10303"
-    },
-    {
-      "number": 10300,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)",
-      "url": "https://github.com/velero-io/velero/issues/10300"
     }
   ]
 }
