@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-19",
-    "end": "2026-09-02"
+    "start": "2026-08-20",
+    "end": "2026-09-03"
   },
-  "generatedAt": "2026-09-02T22:26:36Z",
+  "generatedAt": "2026-09-03T01:01:42Z",
   "metrics": {
-    "prsMerged": 54,
-    "prsOpened": 57,
-    "prsReviewed": 58,
-    "issuesCommented": 48,
-    "issuesClosed": 17
+    "prsMerged": 49,
+    "prsOpened": 56,
+    "prsReviewed": 52,
+    "issuesCommented": 45,
+    "issuesClosed": 15
   },
   "prsMerged": [
     {
@@ -354,41 +354,6 @@
       "org": "openshift",
       "title": "gather-must-gather: retry camgi download, don't fail gather on it",
       "url": "https://github.com/openshift/release/pull/83221"
-    },
-    {
-      "number": 2350,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2350"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/socktainer",
-      "org": "kaovilai",
-      "title": "feat: multi-arch builds via comma-separated --platform and automatic QEMU builder for non-native architectures",
-      "url": "https://github.com/kaovilai/socktainer/pull/1"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/socktainer",
-      "org": "kaovilai",
-      "title": "feat(libpod): Add Podman /libpod/* API endpoints",
-      "url": "https://github.com/kaovilai/socktainer/pull/2"
-    },
-    {
-      "number": 10308,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Detect block uploader cancellation through wrapped errors",
-      "url": "https://github.com/velero-io/velero/pull/10308"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/pdf2text-pwa",
-      "org": "kaovilai",
-      "title": "Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation",
-      "url": "https://github.com/kaovilai/pdf2text-pwa/pull/1"
     }
   ],
   "prsOpened": [
@@ -783,13 +748,6 @@
       "org": "socktainer",
       "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
       "url": "https://github.com/socktainer/socktainer/pull/375"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/pdf2text-pwa",
-      "org": "kaovilai",
-      "title": "Make pdf2text-ocr an installable, colorful, foldable-friendly PWA with progress, print, and page navigation",
-      "url": "https://github.com/kaovilai/pdf2text-pwa/pull/1"
     }
   ],
   "prsReviewed": [
@@ -948,13 +906,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/214"
     },
     {
-      "number": 2395,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2395"
-    },
-    {
       "number": 10447,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1067,13 +1018,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2398"
     },
     {
-      "number": 10331,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Preserve PVC selected-node annotation via carrier annotation for in-place restore",
-      "url": "https://github.com/velero-io/velero/pull/10331"
-    },
-    {
       "number": 375,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
@@ -1165,39 +1109,11 @@
       "url": "https://github.com/velero-io/velero/pull/10342"
     },
     {
-      "number": 10337,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Document secretNames/configMapNames for backup/restore PVC config",
-      "url": "https://github.com/velero-io/velero/pull/10337"
-    },
-    {
       "number": 10347,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "1.18: Only sync finished backups from object storage",
       "url": "https://github.com/velero-io/velero/pull/10347"
-    },
-    {
-      "number": 10335,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Support copying namespace-scoped secrets/configmaps for backup and restore PVC provisioning",
-      "url": "https://github.com/velero-io/velero/pull/10335"
-    },
-    {
-      "number": 2396,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Add e2e coverage for kubevirt-datamover VM backup/restore: multi-PVC, incremental sequence, and CBT restore (+ max-concurrent-data-movers config)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2396"
-    },
-    {
-      "number": 2394,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[OADP-8700] Guard NodeAgent.ExtraArgs access against nil when using restic config",
-      "url": "https://github.com/openshift/oadp-operator/pull/2394"
     }
   ],
   "issuesCommented": [
@@ -1515,27 +1431,6 @@
       "org": "github",
       "title": "Feature Request: Add support for editing issue comments",
       "url": "https://github.com/github/github-mcp-server/issues/868"
-    },
-    {
-      "number": 201,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "feat: Add Podman libpod API endpoints for native podman CLI support",
-      "url": "https://github.com/socktainer/socktainer/issues/201"
-    },
-    {
-      "number": 101,
-      "repo": "pyamsoft/tetherfusenet",
-      "org": "pyamsoft",
-      "title": "UDP support",
-      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
-    },
-    {
-      "number": 2391,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Follow up: simplify and document PodResources defaulting",
-      "url": "https://github.com/openshift/oadp-operator/issues/2391"
     }
   ],
   "issuesClosed": [
@@ -1643,20 +1538,6 @@
       "org": "github",
       "title": "Feature Request: Add support for editing issue comments",
       "url": "https://github.com/github/github-mcp-server/issues/868"
-    },
-    {
-      "number": 625,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "Add pagination support for get_pull_request_diff to handle large PRs",
-      "url": "https://github.com/github/github-mcp-server/issues/625"
-    },
-    {
-      "number": 10296,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error",
-      "url": "https://github.com/velero-io/velero/issues/10296"
     }
   ]
 }
