@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-03 00:55:07 UTC
+> Last updated: 2026-09-03 10:36:54 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -185,7 +185,6 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
-- [![PR #4552](https://img.shields.io/badge/PR%20%234552-hold-yellow)](https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552) **kubevirt/hyperconverged-cluster-operator** → `main` - Fix conversion webhook crash on legacy featureGates empty-object shape
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-hold-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 
 ---
