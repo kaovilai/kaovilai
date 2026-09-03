@@ -3,12 +3,12 @@
     "start": "2026-08-20",
     "end": "2026-09-03"
   },
-  "generatedAt": "2026-09-03T01:01:42Z",
+  "generatedAt": "2026-09-03T10:58:37Z",
   "metrics": {
     "prsMerged": 49,
     "prsOpened": 56,
-    "prsReviewed": 52,
-    "issuesCommented": 45,
+    "prsReviewed": 53,
+    "issuesCommented": 46,
     "issuesClosed": 15
   },
   "prsMerged": [
@@ -752,6 +752,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 10449,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
+      "url": "https://github.com/velero-io/velero/pull/10449"
+    },
+    {
+      "number": 10474,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Add operation context to user-facing error messages",
+      "url": "https://github.com/velero-io/velero/pull/10474"
+    },
+    {
+      "number": 10464,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add operation context to user-facing error messages",
+      "url": "https://github.com/velero-io/velero/pull/10464"
+    },
+    {
       "number": 164,
       "repo": "openshift/oadp-must-gather",
       "org": "openshift",
@@ -815,13 +836,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
     },
     {
-      "number": 10464,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add operation context to user-facing error messages",
-      "url": "https://github.com/velero-io/velero/pull/10464"
-    },
-    {
       "number": 10436,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -862,13 +876,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] fix: recognize VirtualMachineBackup's renamed Complete condition",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/215"
-    },
-    {
-      "number": 10449,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
-      "url": "https://github.com/velero-io/velero/pull/10449"
     },
     {
       "number": 10438,
@@ -1118,6 +1125,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 8654,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1125,11 +1139,11 @@
       "url": "https://github.com/velero-io/velero/issues/8654"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+      "number": 4549,
+      "repo": "kubevirt/hyperconverged-cluster-operator",
+      "org": "kubevirt",
+      "title": "v1beta1→v1 conversion webhook fails on spec.featureGates: \"cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates\"",
+      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549"
     },
     {
       "number": 10440,
