@@ -3,15 +3,29 @@
     "start": "2026-08-20",
     "end": "2026-09-03"
   },
-  "generatedAt": "2026-09-03T16:01:14Z",
+  "generatedAt": "2026-09-03T19:40:41Z",
   "metrics": {
-    "prsMerged": 49,
-    "prsOpened": 56,
-    "prsReviewed": 53,
-    "issuesCommented": 46,
+    "prsMerged": 51,
+    "prsOpened": 58,
+    "prsReviewed": 58,
+    "issuesCommented": 48,
     "issuesClosed": 15
   },
   "prsMerged": [
+    {
+      "number": 175,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Skip Test/Override buttons on tide's own status context",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175"
+    },
+    {
+      "number": 174,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Extend combo window to per-check Override, add pending-button spinner",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174"
+    },
     {
       "number": 84490,
       "repo": "openshift/release",
@@ -357,6 +371,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 175,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Skip Test/Override buttons on tide's own status context",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175"
+    },
+    {
+      "number": 174,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Extend combo window to per-check Override, add pending-button spinner",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174"
+    },
     {
       "number": 173,
       "repo": "kaovilai/github-bot-command-palette",
@@ -752,6 +780,55 @@
   ],
   "prsReviewed": [
     {
+      "number": 2418,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs(kubevirt-datamover): fix HCO featureGates patch, CR name typo, and log-capture accuracy",
+      "url": "https://github.com/openshift/oadp-operator/pull/2418"
+    },
+    {
+      "number": 10468,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add Community section with meeting info to README",
+      "url": "https://github.com/velero-io/velero/pull/10468"
+    },
+    {
+      "number": 2432,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Fix VMFR NetworkPolicy egress to BSL endpoints",
+      "url": "https://github.com/openshift/oadp-operator/pull/2432"
+    },
+    {
+      "number": 205,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix(#14): default SkipQuiesce=false, opt-in application-consistent backup",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/205"
+    },
+    {
+      "number": 2431,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7895 CRD changes for the non admin describe command issue",
+      "url": "https://github.com/openshift/oadp-operator/pull/2431"
+    },
+    {
+      "number": 2430,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix VMFR NetworkPolicy egress to BSL endpoints",
+      "url": "https://github.com/openshift/oadp-operator/pull/2430"
+    },
+    {
+      "number": 192,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "docs: add architecture and testing guides, refresh README",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
+    },
+    {
       "number": 10449,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -829,13 +906,6 @@
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
     },
     {
-      "number": 192,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "docs: add architecture and testing guides, refresh README",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
-    },
-    {
       "number": 10436,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -897,13 +967,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS",
       "url": "https://github.com/openshift/oadp-operator/pull/2422"
-    },
-    {
-      "number": 205,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix(#14): default SkipQuiesce=false, opt-in application-consistent backup",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/205"
     },
     {
       "number": 214,
@@ -1124,6 +1187,20 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10478,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support structured output for multi-item backup and restore describe",
+      "url": "https://github.com/velero-io/velero/issues/10478"
+    },
+    {
+      "number": 7564,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add support to output restore describe in multiple format like backups",
+      "url": "https://github.com/velero-io/velero/issues/7564"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
