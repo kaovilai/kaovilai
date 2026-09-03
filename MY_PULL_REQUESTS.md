@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-03 16:08:49 UTC
+> Last updated: 2026-09-03 22:25:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,6 +77,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2234](https://img.shields.io/badge/PR%20%232234-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2234) **openshift/oadp-operator** → `oadp-dev` - OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
+- [![PR #2435](https://img.shields.io/badge/PR%20%232435-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2435) **openshift/oadp-operator** → `oadp-dev` - fix: vendor virtualmachineinstances RBAC from KDM PR #218
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-draft-gray)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build for KDM and oadp-operator e2e jobs
@@ -95,7 +96,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #218](https://img.shields.io/badge/PR%20%23218-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/218) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Detect VMI guest-agent availability before quiesce, with explicit user override
+- [![PR #218](https://img.shields.io/badge/PR%20%23218-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/218) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Detect VMI guest-agent availability before quiesce, with explicit user override
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-waiting--merge-blue)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
