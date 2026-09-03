@@ -3,15 +3,22 @@
     "start": "2026-08-20",
     "end": "2026-09-03"
   },
-  "generatedAt": "2026-09-03T19:40:41Z",
+  "generatedAt": "2026-09-03T22:23:47Z",
   "metrics": {
-    "prsMerged": 51,
-    "prsOpened": 58,
-    "prsReviewed": 58,
+    "prsMerged": 52,
+    "prsOpened": 60,
+    "prsReviewed": 76,
     "issuesCommented": 48,
     "issuesClosed": 15
   },
   "prsMerged": [
+    {
+      "number": 176,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add per-command cancel-x to pending combo buttons",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176"
+    },
     {
       "number": 175,
       "repo": "kaovilai/github-bot-command-palette",
@@ -371,6 +378,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 176,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add per-command cancel-x to pending combo buttons",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176"
+    },
+    {
+      "number": 2435,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: vendor virtualmachineinstances RBAC from KDM PR #218",
+      "url": "https://github.com/openshift/oadp-operator/pull/2435"
+    },
     {
       "number": 175,
       "repo": "kaovilai/github-bot-command-palette",
@@ -780,6 +801,160 @@
   ],
   "prsReviewed": [
     {
+      "number": 164,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
+    },
+    {
+      "number": 58,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/58"
+    },
+    {
+      "number": 103,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/103"
+    },
+    {
+      "number": 227,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/227"
+    },
+    {
+      "number": 83,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/83"
+    },
+    {
+      "number": 467,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
+    },
+    {
+      "number": 263,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-cli/pull/263"
+    },
+    {
+      "number": 37,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/filebrowser/pull/37"
+    },
+    {
+      "number": 468,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/468"
+    },
+    {
+      "number": 570,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero/pull/570"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/165"
+    },
+    {
+      "number": 308,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/308"
+    },
+    {
+      "number": 380,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/380"
+    },
+    {
+      "number": 49,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kopia/pull/49"
+    },
+    {
+      "number": 2434,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/oadp-operator/pull/2434"
+    },
+    {
+      "number": 166,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/166"
+    },
+    {
+      "number": 36,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/36"
+    },
+    {
+      "number": 188,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/udistribution/pull/188"
+    },
+    {
+      "number": 164,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/164"
+    },
+    {
+      "number": 166,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166"
+    },
+    {
+      "number": 2431,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7895 CRD changes for the non admin describe command issue",
+      "url": "https://github.com/openshift/oadp-operator/pull/2431"
+    },
+    {
+      "number": 2432,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Fix VMFR NetworkPolicy egress to BSL endpoints",
+      "url": "https://github.com/openshift/oadp-operator/pull/2432"
+    },
+    {
       "number": 2418,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -794,25 +969,11 @@
       "url": "https://github.com/velero-io/velero/pull/10468"
     },
     {
-      "number": 2432,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Fix VMFR NetworkPolicy egress to BSL endpoints",
-      "url": "https://github.com/openshift/oadp-operator/pull/2432"
-    },
-    {
       "number": 205,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "fix(#14): default SkipQuiesce=false, opt-in application-consistent backup",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/205"
-    },
-    {
-      "number": 2431,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7895 CRD changes for the non admin describe command issue",
-      "url": "https://github.com/openshift/oadp-operator/pull/2431"
     },
     {
       "number": 2430,
@@ -850,13 +1011,6 @@
       "url": "https://github.com/velero-io/velero/pull/10464"
     },
     {
-      "number": 164,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
-    },
-    {
       "number": 57,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
@@ -869,13 +1023,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6",
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/165"
-    },
-    {
-      "number": 467,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
     },
     {
       "number": 102,
