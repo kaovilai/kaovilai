@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-20",
-    "end": "2026-09-03"
+    "start": "2026-08-21",
+    "end": "2026-09-04"
   },
-  "generatedAt": "2026-09-03T22:23:47Z",
+  "generatedAt": "2026-09-04T00:52:57Z",
   "metrics": {
-    "prsMerged": 52,
-    "prsOpened": 60,
-    "prsReviewed": 76,
-    "issuesCommented": 48,
-    "issuesClosed": 15
+    "prsMerged": 51,
+    "prsOpened": 59,
+    "prsReviewed": 73,
+    "issuesCommented": 43,
+    "issuesClosed": 13
   },
   "prsMerged": [
     {
@@ -368,16 +368,16 @@
       "org": "migtools",
       "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47"
-    },
-    {
-      "number": 83221,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "gather-must-gather: retry camgi download, don't fail gather on it",
-      "url": "https://github.com/openshift/release/pull/83221"
     }
   ],
   "prsOpened": [
+    {
+      "number": 84592,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
+      "url": "https://github.com/openshift/release/pull/84592"
+    },
     {
       "number": 176,
       "repo": "kaovilai/github-bot-command-palette",
@@ -783,23 +783,58 @@
       "org": "openshift",
       "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
       "url": "https://github.com/openshift/release/pull/83833"
-    },
-    {
-      "number": 10348,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
-      "url": "https://github.com/velero-io/velero/pull/10348"
-    },
-    {
-      "number": 375,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-      "url": "https://github.com/socktainer/socktainer/pull/375"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+    },
+    {
+      "number": 2434,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/oadp-operator/pull/2434"
+    },
+    {
+      "number": 2436,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] OADP-7895 CRD changes for the non admin describe command issue",
+      "url": "https://github.com/openshift/oadp-operator/pull/2436"
+    },
+    {
+      "number": 2419,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] [OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
+      "url": "https://github.com/openshift/oadp-operator/pull/2419"
+    },
+    {
+      "number": 379,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "[oadp-1.6] OADP-7895 : Fix for oc oadp nonadmin backup describe shows Pod Volume…",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/379"
+    },
+    {
+      "number": 2431,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7895 CRD changes for the non admin describe command issue",
+      "url": "https://github.com/openshift/oadp-operator/pull/2431"
+    },
+    {
+      "number": 2418,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs(kubevirt-datamover): fix HCO featureGates patch, CR name typo, and log-capture accuracy",
+      "url": "https://github.com/openshift/oadp-operator/pull/2418"
+    },
     {
       "number": 164,
       "repo": "openshift/oadp-must-gather",
@@ -899,13 +934,6 @@
       "url": "https://github.com/migtools/kopia/pull/49"
     },
     {
-      "number": 2434,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-operator/pull/2434"
-    },
-    {
       "number": 166,
       "repo": "openshift/velero-plugin-for-gcp",
       "org": "openshift",
@@ -941,25 +969,11 @@
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166"
     },
     {
-      "number": 2431,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7895 CRD changes for the non admin describe command issue",
-      "url": "https://github.com/openshift/oadp-operator/pull/2431"
-    },
-    {
       "number": 2432,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] Fix VMFR NetworkPolicy egress to BSL endpoints",
       "url": "https://github.com/openshift/oadp-operator/pull/2432"
-    },
-    {
-      "number": 2418,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs(kubevirt-datamover): fix HCO featureGates patch, CR name typo, and log-capture accuracy",
-      "url": "https://github.com/openshift/oadp-operator/pull/2418"
     },
     {
       "number": 10468,
@@ -981,13 +995,6 @@
       "org": "openshift",
       "title": "Fix VMFR NetworkPolicy egress to BSL endpoints",
       "url": "https://github.com/openshift/oadp-operator/pull/2430"
-    },
-    {
-      "number": 192,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "docs: add architecture and testing guides, refresh README",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/192"
     },
     {
       "number": 10449,
@@ -1044,13 +1051,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
     },
     {
       "number": 10436,
@@ -1137,13 +1137,6 @@
       "url": "https://github.com/velero-io/velero/pull/10372"
     },
     {
-      "number": 2397,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
-      "url": "https://github.com/openshift/oadp-operator/pull/2397"
-    },
-    {
       "number": 10393,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1228,13 +1221,6 @@
       "url": "https://github.com/velero-io/velero/pull/10354"
     },
     {
-      "number": 2398,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: add KubeVirt DataMover user-facing documentation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2398"
-    },
-    {
       "number": 375,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
@@ -1310,27 +1296,6 @@
       "org": "velero-io",
       "title": "Fix e2e kind matrix misparsing pre-release node tags",
       "url": "https://github.com/velero-io/velero/pull/10359"
-    },
-    {
-      "number": 10346,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Double check the label for backup when deleting VSC",
-      "url": "https://github.com/velero-io/velero/pull/10346"
-    },
-    {
-      "number": 10342,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix LoadAffinity mutation accumulating OS node selector terms",
-      "url": "https://github.com/velero-io/velero/pull/10342"
-    },
-    {
-      "number": 10347,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Only sync finished backups from object storage",
-      "url": "https://github.com/velero-io/velero/pull/10347"
     }
   ],
   "issuesCommented": [
@@ -1634,41 +1599,6 @@
       "org": "rxliuli",
       "title": "Chrome Web Store listing reports location permission",
       "url": "https://github.com/rxliuli/redirector/issues/43"
-    },
-    {
-      "number": 10340,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
-      "url": "https://github.com/velero-io/velero/issues/10340"
-    },
-    {
-      "number": 73,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement DataDownload controller for VM restore",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/73"
-    },
-    {
-      "number": 84,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrent data mover limiter for DU and DD controllers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/84"
-    },
-    {
-      "number": 8265,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Provide S3 plugin that aims to support any S3 compatible object storage.",
-      "url": "https://github.com/velero-io/velero/issues/8265"
-    },
-    {
-      "number": 868,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "Feature Request: Add support for editing issue comments",
-      "url": "https://github.com/github/github-mcp-server/issues/868"
     }
   ],
   "issuesClosed": [
@@ -1762,20 +1692,6 @@
       "org": "migtools",
       "title": "Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/42"
-    },
-    {
-      "number": 130,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/130"
-    },
-    {
-      "number": 868,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "Feature Request: Add support for editing issue comments",
-      "url": "https://github.com/github/github-mcp-server/issues/868"
     }
   ]
 }
