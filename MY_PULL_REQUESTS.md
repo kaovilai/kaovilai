@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-04 16:03:39 UTC
+> Last updated: 2026-09-04 19:21:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -78,7 +78,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #449](https://img.shields.io/badge/PR%20%23449-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/449) **openshift/openshift-velero-plugin** → `oadp-dev` - Detect SCC UID/GID-range mismatch on namespace restore
-- [![PR #84592](https://img.shields.io/badge/PR%20%2384592-waiting--merge-blue)](https://github.com/openshift/release/pull/84592) **openshift/release** → `main` - oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-stale-yellow)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -89,7 +88,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-hold-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
-- [![PR #565](https://img.shields.io/badge/PR%20%23565-failing--ci-red)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
+- [![PR #565](https://img.shields.io/badge/PR%20%23565-hold-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #567](https://img.shields.io/badge/PR%20%23567-failing--ci-red)](https://github.com/openshift/velero/pull/567) **openshift/velero** → `oadp-1.5` - 1.5: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
