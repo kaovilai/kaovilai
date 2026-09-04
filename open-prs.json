@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T22:25:47Z",
+  "updatedAt": "2026-09-04T00:42:24Z",
   "prs": [
     {
       "number": 10010,
@@ -1157,25 +1157,6 @@
       "updatedAt": "2026-08-05T22:33:26Z"
     },
     {
-      "number": 297,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/297",
-      "targetBranch": "oadp-1.6",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "jira/valid-reference",
-        "approved"
-      ],
-      "updatedAt": "2026-07-22T17:33:01Z"
-    },
-    {
       "number": 2198,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1332,7 +1313,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-09-03T22:07:37Z"
+      "updatedAt": "2026-09-04T00:39:07Z"
     },
     {
       "number": 449,
@@ -1392,6 +1373,25 @@
         "approved"
       ],
       "updatedAt": "2026-09-03T19:59:56Z"
+    },
+    {
+      "number": 84592,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
+      "url": "https://github.com/openshift/release/pull/84592",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "approved"
+      ],
+      "updatedAt": "2026-09-04T00:34:03Z"
     },
     {
       "number": 237,
@@ -1620,6 +1620,26 @@
         "needs-rebase"
       ],
       "updatedAt": "2026-07-15T12:41:12Z"
+    },
+    {
+      "number": 297,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/297",
+      "targetBranch": "oadp-1.6",
+      "status": "needs-attention",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "jira/valid-reference",
+        "approved",
+        "needs-rebase"
+      ],
+      "updatedAt": "2026-09-03T22:44:14Z"
     },
     {
       "number": 48,
@@ -3119,7 +3139,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-03T22:25:47Z",
+    "updatedAt": "2026-09-04T00:42:24Z",
     "needsReview": [
       {
         "number": 68,
@@ -3132,7 +3152,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3142,7 +3162,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 658,
+        "waitingDays": 659,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3308,7 +3328,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3371,7 +3391,7 @@
           "approved",
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3409,6 +3429,30 @@
         "reason": "awaitingReview",
         "waitingDays": 56,
         "updatedAt": "2026-07-09T18:02:34Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 51,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 2308,
@@ -3453,7 +3497,7 @@
           "approved",
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3468,30 +3512,6 @@
         "reason": "hold",
         "waitingDays": 50,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 50,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3749,7 +3769,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -3873,6 +3893,38 @@
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
+        "number": 598,
+        "repo": "openshift/ci-docs",
+        "org": "openshift",
+        "title": "Document FBC catalog builds and OLM v1 testing workflows",
+        "url": "https://github.com/openshift/ci-docs/pull/598",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "hector-vido"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hector-vido",
+          "jmguzik",
+          "joelanford"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-08-14T22:38:52Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -3923,38 +3975,6 @@
         "reason": "awaitingReview",
         "waitingDays": 20,
         "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
-        "number": 598,
-        "repo": "openshift/ci-docs",
-        "org": "openshift",
-        "title": "Document FBC catalog builds and OLM v1 testing workflows",
-        "url": "https://github.com/openshift/ci-docs/pull/598",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "hector-vido"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "jmguzik",
-          "joelanford"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
         "number": 326,
@@ -4053,7 +4073,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4744,7 +4764,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4870,7 +4890,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5401,7 +5421,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5553,7 +5573,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -5564,7 +5584,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-09-03T22:07:37Z"
+        "updatedAt": "2026-09-04T00:39:07Z"
       },
       {
         "number": 449,
