@@ -3,15 +3,36 @@
     "start": "2026-08-21",
     "end": "2026-09-04"
   },
-  "generatedAt": "2026-09-04T15:58:04Z",
+  "generatedAt": "2026-09-04T18:57:01Z",
   "metrics": {
-    "prsMerged": 54,
-    "prsOpened": 60,
-    "prsReviewed": 90,
+    "prsMerged": 57,
+    "prsOpened": 62,
+    "prsReviewed": 95,
     "issuesCommented": 43,
     "issuesClosed": 13
   },
   "prsMerged": [
+    {
+      "number": 179,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Improve mobile touch interactions and settings persistence",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/179"
+    },
+    {
+      "number": 178,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Make auto-submit/combo path touch-friendly and add a form-submit fallback",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178"
+    },
+    {
+      "number": 84592,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
+      "url": "https://github.com/openshift/release/pull/84592"
+    },
     {
       "number": 218,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -392,6 +413,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 179,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Improve mobile touch interactions and settings persistence",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/179"
+    },
+    {
+      "number": 178,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Make auto-submit/combo path touch-friendly and add a form-submit fallback",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178"
+    },
     {
       "number": 177,
       "repo": "kaovilai/github-bot-command-palette",
@@ -814,6 +849,62 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 384,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Fix CVE-2026-46600, CVE-2026-56852",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/384"
+    },
+    {
+      "number": 573,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Fix OADP 1.5 release branch CI checks",
+      "url": "https://github.com/openshift/velero/pull/573"
+    },
+    {
+      "number": 572,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Fix 7 CVEs (CVE-2026-56854, CVE-2026-56864, CVE-2026-56865, ...)",
+      "url": "https://github.com/openshift/velero/pull/572"
+    },
+    {
+      "number": 2439,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix 5 CVEs (CVE-2026-56854, CVE-2026-46600, CVE-2026-56852, ...)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2439"
+    },
+    {
+      "number": 184,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Fix CVE remediation dependency rollbacks",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/184"
+    },
+    {
+      "number": 230,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "[oadp-1.6] Detect VMI guest-agent availability before quiesce, with explicit user override",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/230"
+    },
+    {
+      "number": 229,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Updated annotation name for consistency with naming conventions",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/229"
+    },
+    {
+      "number": 2438,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix: vendor virtualmachineinstances RBAC from KDM PR #218",
+      "url": "https://github.com/openshift/oadp-operator/pull/2438"
+    },
     {
       "number": 228,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1422,30 +1513,16 @@
       "org": "velero-io",
       "title": "Bump github/codeql-action from 4.37.6 to 4.37.7 in the github-actions group",
       "url": "https://github.com/velero-io/velero/pull/10366"
-    },
-    {
-      "number": 10387,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Avoid io.ReadAll in buildFinalTarball()",
-      "url": "https://github.com/velero-io/velero/pull/10387"
-    },
-    {
-      "number": 10388,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.17] Avoid io.ReadAll in buildFinalTarball()",
-      "url": "https://github.com/velero-io/velero/pull/10388"
-    },
-    {
-      "number": 10359,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix e2e kind matrix misparsing pre-release node tags",
-      "url": "https://github.com/velero-io/velero/pull/10359"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 2403,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
+      "url": "https://github.com/openshift/oadp-operator/issues/2403"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -1578,13 +1655,6 @@
       "org": "velero-io",
       "title": "Remove whitelist for tolerations of PodVolumeBackup Pod",
       "url": "https://github.com/velero-io/velero/issues/9476"
-    },
-    {
-      "number": 2403,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
-      "url": "https://github.com/openshift/oadp-operator/issues/2403"
     },
     {
       "number": 18959,
