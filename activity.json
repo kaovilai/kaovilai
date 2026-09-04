@@ -3,15 +3,36 @@
     "start": "2026-08-21",
     "end": "2026-09-04"
   },
-  "generatedAt": "2026-09-04T00:52:57Z",
+  "generatedAt": "2026-09-04T10:58:56Z",
   "metrics": {
-    "prsMerged": 51,
-    "prsOpened": 59,
-    "prsReviewed": 73,
+    "prsMerged": 54,
+    "prsOpened": 60,
+    "prsReviewed": 90,
     "issuesCommented": 43,
     "issuesClosed": 13
   },
   "prsMerged": [
+    {
+      "number": 177,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add hover/click popups for Claude analysis links and failed-step logs",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177"
+    },
+    {
+      "number": 2435,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: vendor virtualmachineinstances RBAC from KDM PR #218",
+      "url": "https://github.com/openshift/oadp-operator/pull/2435"
+    },
+    {
+      "number": 218,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Detect VMI guest-agent availability before quiesce, with explicit user override",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/218"
+    },
     {
       "number": 176,
       "repo": "kaovilai/github-bot-command-palette",
@@ -371,6 +392,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 177,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add hover/click popups for Claude analysis links and failed-step logs",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177"
+    },
     {
       "number": 84592,
       "repo": "openshift/release",
@@ -787,18 +815,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+      "number": 10436,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add block data mover support for Velero backup/restore describe CLI.",
+      "url": "https://github.com/velero-io/velero/pull/10436"
     },
     {
-      "number": 2434,
+      "number": 2437,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-operator/pull/2434"
+      "url": "https://github.com/openshift/oadp-operator/pull/2437"
     },
     {
       "number": 2436,
@@ -808,11 +836,137 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2436"
     },
     {
+      "number": 37,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/37"
+    },
+    {
+      "number": 264,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-cli/pull/264"
+    },
+    {
+      "number": 84,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/84"
+    },
+    {
+      "number": 382,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/382"
+    },
+    {
+      "number": 38,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/filebrowser/pull/38"
+    },
+    {
+      "number": 104,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/104"
+    },
+    {
+      "number": 571,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero/pull/571"
+    },
+    {
+      "number": 309,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/309"
+    },
+    {
+      "number": 50,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kopia/pull/50"
+    },
+    {
+      "number": 167,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/167"
+    },
+    {
+      "number": 167,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/167"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/165"
+    },
+    {
+      "number": 166,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/166"
+    },
+    {
+      "number": 469,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/469"
+    },
+    {
+      "number": 228,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/228"
+    },
+    {
+      "number": 59,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/59"
+    },
+    {
+      "number": 165,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
+    },
+    {
       "number": 2419,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] [OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
       "url": "https://github.com/openshift/oadp-operator/pull/2419"
+    },
+    {
+      "number": 2434,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/oadp-operator/pull/2434"
     },
     {
       "number": 379,
@@ -878,18 +1032,18 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
     },
     {
-      "number": 263,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-cli/pull/263"
-    },
-    {
       "number": 37,
       "repo": "migtools/filebrowser",
       "org": "migtools",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/migtools/filebrowser/pull/37"
+    },
+    {
+      "number": 263,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/oadp-cli/pull/263"
     },
     {
       "number": 468,
@@ -1051,13 +1205,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
-    },
-    {
-      "number": 10436,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add block data mover support for Velero backup/restore describe CLI.",
-      "url": "https://github.com/velero-io/velero/pull/10436"
     },
     {
       "number": 2426,
@@ -1300,6 +1447,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 10478,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1312,13 +1466,6 @@
       "org": "velero-io",
       "title": "Add support to output restore describe in multiple format like backups",
       "url": "https://github.com/velero-io/velero/issues/7564"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 8654,
