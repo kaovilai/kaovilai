@@ -3,15 +3,36 @@
     "start": "2026-08-22",
     "end": "2026-09-05"
   },
-  "generatedAt": "2026-09-05T15:01:00Z",
+  "generatedAt": "2026-09-05T20:14:19Z",
   "metrics": {
-    "prsMerged": 51,
-    "prsOpened": 61,
+    "prsMerged": 54,
+    "prsOpened": 65,
     "prsReviewed": 83,
     "issuesCommented": 40,
     "issuesClosed": 11
   },
   "prsMerged": [
+    {
+      "number": 7,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Bump n8n 2.0.3 -> 2.37.10, chromium stage alpine 3.22 -> 3.24",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/7"
+    },
+    {
+      "number": 6,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Neuter setup-browsers.js -- n8n runs it at every boot, undoing the build-time fix",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/6"
+    },
+    {
+      "number": 4,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Bake browsers at build time + add CI and Dependabot",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/4"
+    },
     {
       "number": 179,
       "repo": "kaovilai/github-bot-command-palette",
@@ -371,6 +392,34 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 7,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Bump n8n 2.0.3 -> 2.37.10, chromium stage alpine 3.22 -> 3.24",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/7"
+    },
+    {
+      "number": 6,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Neuter setup-browsers.js -- n8n runs it at every boot, undoing the build-time fix",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/6"
+    },
+    {
+      "number": 5,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Add CI (lint+build) and Dependabot config",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/5"
+    },
+    {
+      "number": 4,
+      "repo": "kaovilai/n8n-playwright",
+      "org": "kaovilai",
+      "title": "Bake browsers at build time + add CI and Dependabot",
+      "url": "https://github.com/kaovilai/n8n-playwright/pull/4"
+    },
     {
       "number": 179,
       "repo": "kaovilai/github-bot-command-palette",
