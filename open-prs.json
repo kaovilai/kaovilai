@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:35:07Z",
+  "updatedAt": "2026-09-05T01:39:45Z",
   "prs": [
     {
       "number": 10010,
@@ -1629,7 +1629,7 @@
       "org": "migtools",
       "title": "Document NADR (NonAdminDownloadRequest) usage",
       "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-dev",
       "status": "waiting-merge",
       "milestone": null,
       "author": "kaovilai",
@@ -1707,7 +1707,7 @@
       "org": "migtools",
       "title": "vscode sample settings.json",
       "url": "https://github.com/migtools/oadp-non-admin/pull/243",
-      "targetBranch": "unknown",
+      "targetBranch": "oadp-dev",
       "status": "stale",
       "milestone": null,
       "author": "kaovilai",
@@ -3078,7 +3078,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-05T00:35:07Z",
+    "updatedAt": "2026-09-05T01:39:45Z",
     "needsReview": [
       {
         "number": 68,
@@ -3149,7 +3149,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 497,
+        "waitingDays": 498,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -3260,21 +3260,24 @@
         "org": "migtools",
         "title": "vscode sample settings.json",
         "url": "https://github.com/migtools/oadp-non-admin/pull/243",
-        "targetBranch": "unknown",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
         "requiredApprovals": 2,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "sseago"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 149,
@@ -3367,6 +3370,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 52,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3424,30 +3451,6 @@
         "reason": "hold",
         "waitingDays": 51,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 51,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -4971,7 +4974,7 @@
         "org": "migtools",
         "title": "Document NADR (NonAdminDownloadRequest) usage",
         "url": "https://github.com/migtools/oadp-non-admin/pull/373",
-        "targetBranch": "unknown",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
@@ -4981,14 +4984,17 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
         "requiredApprovals": 2,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 14,
