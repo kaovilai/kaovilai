@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-21",
-    "end": "2026-09-04"
+    "start": "2026-08-22",
+    "end": "2026-09-05"
   },
-  "generatedAt": "2026-09-04T23:48:06Z",
+  "generatedAt": "2026-09-05T00:46:29Z",
   "metrics": {
-    "prsMerged": 57,
-    "prsOpened": 62,
-    "prsReviewed": 95,
-    "issuesCommented": 43,
-    "issuesClosed": 13
+    "prsMerged": 51,
+    "prsOpened": 61,
+    "prsReviewed": 83,
+    "issuesCommented": 40,
+    "issuesClosed": 11
   },
   "prsMerged": [
     {
@@ -368,48 +368,6 @@
       "org": "openshift",
       "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
       "url": "https://github.com/openshift/oadp-operator/pull/2373"
-    },
-    {
-      "number": 10305,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Log the discovered parent snapshot ID, not the empty lookup parameter",
-      "url": "https://github.com/velero-io/velero/pull/10305"
-    },
-    {
-      "number": 2375,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2375"
-    },
-    {
-      "number": 2374,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2374"
-    },
-    {
-      "number": 83341,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "ci-tools: bump bin build memory request to 3Gi",
-      "url": "https://github.com/openshift/release/pull/83341"
-    },
-    {
-      "number": 83049,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Run oadp-operator e2e against kdm-controller/kdm-plugin PRs (oadp-dev, oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/83049"
-    },
-    {
-      "number": 47,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Address declined CodeRabbit follow-ups from PR #41, add missing unit test coverage",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/47"
     }
   ],
   "prsOpened": [
@@ -839,13 +797,6 @@
       "org": "migtools",
       "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
       "url": "https://github.com/migtools/udistribution/pull/182"
-    },
-    {
-      "number": 83833,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
-      "url": "https://github.com/openshift/release/pull/83833"
     }
   ],
   "prsReviewed": [
@@ -885,18 +836,18 @@
       "url": "https://github.com/openshift/velero/pull/573"
     },
     {
-      "number": 572,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Fix 7 CVEs (CVE-2026-56854, CVE-2026-56864, CVE-2026-56865, ...)",
-      "url": "https://github.com/openshift/velero/pull/572"
-    },
-    {
       "number": 2439,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "Fix 5 CVEs (CVE-2026-56854, CVE-2026-46600, CVE-2026-56852, ...)",
       "url": "https://github.com/openshift/oadp-operator/pull/2439"
+    },
+    {
+      "number": 572,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Fix 7 CVEs (CVE-2026-56854, CVE-2026-56864, CVE-2026-56865, ...)",
+      "url": "https://github.com/openshift/velero/pull/572"
     },
     {
       "number": 184,
@@ -1044,13 +995,6 @@
       "org": "migtools",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/59"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.1 (6902b36) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/165"
     },
     {
       "number": 2419,
@@ -1298,13 +1242,6 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/378"
     },
     {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.1 (96a651c) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/163"
-    },
-    {
       "number": 2426,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1389,13 +1326,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/53"
     },
     {
-      "number": 10353,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reject velero backup delete when BSL is read-only",
-      "url": "https://github.com/velero-io/velero/pull/10353"
-    },
-    {
       "number": 2415,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1417,25 +1347,11 @@
       "url": "https://github.com/shubham-pampattiwar/oadp-operator/pull/3"
     },
     {
-      "number": 181,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump the go-dependencies group across 1 directory with 7 updates",
-      "url": "https://github.com/migtools/udistribution/pull/181"
-    },
-    {
       "number": 10405,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "[Backport release-1.18] Fix node agent readiness check issue",
       "url": "https://github.com/velero-io/velero/pull/10405"
-    },
-    {
-      "number": 10360,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[cherry-pick release-1.18] Fast-fail backup when built-in data mover has no running node-agent",
-      "url": "https://github.com/velero-io/velero/pull/10360"
     },
     {
       "number": 10397,
@@ -1445,74 +1361,25 @@
       "url": "https://github.com/velero-io/velero/pull/10397"
     },
     {
-      "number": 10356,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add volumeName condition to VolumePolicy resource filtering",
-      "url": "https://github.com/velero-io/velero/pull/10356"
-    },
-    {
-      "number": 10354,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Re-process InProgress DeleteBackupRequests on retry",
-      "url": "https://github.com/velero-io/velero/pull/10354"
-    },
-    {
-      "number": 375,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (b85b84a) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/375"
-    },
-    {
-      "number": 49,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (9531d54) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/49"
-    },
-    {
-      "number": 304,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (538be00) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/304"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (6cfe3b2) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/163"
-    },
-    {
-      "number": 258,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.6 (0aeee34) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-cli/pull/258"
-    },
-    {
-      "number": 164,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/164"
-    },
-    {
-      "number": 100,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (2f3a322) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/100"
-    },
-    {
       "number": 10366,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Bump github/codeql-action from 4.37.6 to 4.37.7 in the github-actions group",
       "url": "https://github.com/velero-io/velero/pull/10366"
+    },
+    {
+      "number": 10387,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Avoid io.ReadAll in buildFinalTarball()",
+      "url": "https://github.com/velero-io/velero/pull/10387"
+    },
+    {
+      "number": 10388,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.17] Avoid io.ReadAll in buildFinalTarball()",
+      "url": "https://github.com/velero-io/velero/pull/10388"
     }
   ],
   "issuesCommented": [
@@ -1795,27 +1662,6 @@
       "org": "velero-io",
       "title": "E2E: Add CSI snapshot tests to kind cluster",
       "url": "https://github.com/velero-io/velero/issues/7507"
-    },
-    {
-      "number": 9744,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bug: Restore stuck in Finalizing phase indefinitely due to unbounded hook-tracker wait",
-      "url": "https://github.com/velero-io/velero/issues/9744"
-    },
-    {
-      "number": 99,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Add OADP e2e test coverage for kubevirt-datamover",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/99"
-    },
-    {
-      "number": 43,
-      "repo": "rxliuli/redirector",
-      "org": "rxliuli",
-      "title": "Chrome Web Store listing reports location permission",
-      "url": "https://github.com/rxliuli/redirector/issues/43"
     }
   ],
   "issuesClosed": [
@@ -1895,20 +1741,6 @@
       "org": "velero-io",
       "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
       "url": "https://github.com/velero-io/velero/issues/10020"
-    },
-    {
-      "number": 2383,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Evaluate and migrate user-provided credentialsFile handling for Velero #10254",
-      "url": "https://github.com/openshift/oadp-operator/issues/2383"
-    },
-    {
-      "number": 42,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/42"
     }
   ]
 }
