@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-08-22",
-    "end": "2026-09-05"
+    "start": "2026-08-23",
+    "end": "2026-09-06"
   },
-  "generatedAt": "2026-09-05T20:14:19Z",
+  "generatedAt": "2026-09-06T04:19:00Z",
   "metrics": {
-    "prsMerged": 54,
+    "prsMerged": 53,
     "prsOpened": 65,
-    "prsReviewed": 83,
-    "issuesCommented": 40,
+    "prsReviewed": 82,
+    "issuesCommented": 39,
     "issuesClosed": 11
   },
   "prsMerged": [
@@ -382,13 +382,6 @@
       "org": "velero-io",
       "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
       "url": "https://github.com/velero-io/velero/pull/9795"
-    },
-    {
-      "number": 2373,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: check errors.IsNotFound before failing DaemonSet delete in NodeAgent reconcile",
-      "url": "https://github.com/openshift/oadp-operator/pull/2373"
     }
   ],
   "prsOpened": [
@@ -849,6 +842,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2415,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
+      "url": "https://github.com/openshift/oadp-operator/pull/2415"
+    },
     {
       "number": 10438,
       "repo": "velero-io/velero",
@@ -1375,13 +1375,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/53"
     },
     {
-      "number": 2415,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
-      "url": "https://github.com/openshift/oadp-operator/pull/2415"
-    },
-    {
       "number": 2412,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1408,13 +1401,6 @@
       "org": "velero-io",
       "title": "Fix node agent rediness check issue",
       "url": "https://github.com/velero-io/velero/pull/10397"
-    },
-    {
-      "number": 10366,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump github/codeql-action from 4.37.6 to 4.37.7 in the github-actions group",
-      "url": "https://github.com/velero-io/velero/pull/10366"
     },
     {
       "number": 10387,
@@ -1704,13 +1690,6 @@
       "org": "openshift",
       "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
       "url": "https://github.com/openshift/installer/issues/10590"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
     }
   ],
   "issuesClosed": [
