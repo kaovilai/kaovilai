@@ -1,14 +1,14 @@
 # Activity Log
 
-> **Period:** 2026-08-23 — 2026-09-06
-> **Generated:** 2026-09-06 20:18:25 UTC
+> **Period:** 2026-08-24 — 2026-09-07
+> **Generated:** 2026-09-07 03:59:22 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 53 |
 | PRs Opened | 65 |
-| PRs Reviewed | 82 |
-| Issues/PRs Commented | 39 |
+| PRs Reviewed | 81 |
+| Issues/PRs Commented | 40 |
 | Issues Closed | 11 |
 
 ---
@@ -149,9 +149,9 @@
 - [#18949 storage/cbt: fix VMBackup status freeze during target PVC attach](https://github.com/kubevirt/kubevirt/pull/18949) — kubevirt/kubevirt
 - [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
 - [#170 Add Velero backport button for velero-io/velero](https://github.com/kaovilai/github-bot-command-palette/pull/170) — kaovilai/github-bot-command-palette
-## PRs Reviewed (82)
+## PRs Reviewed (81)
 
-**velero-io** (14)
+**velero-io** (13)
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#10436 Add block data mover support for Velero backup/restore describe CLI.](https://github.com/velero-io/velero/pull/10436) — velero-io/velero
 - [#10468 Add Community section with meeting info to README](https://github.com/velero-io/velero/pull/10468) — velero-io/velero
@@ -160,7 +160,6 @@
 - [#10464 Add operation context to user-facing error messages](https://github.com/velero-io/velero/pull/10464) — velero-io/velero
 - [#10421 Add "IncrementalBytes" field to status of DataDownload and PVR to indicate data transfered by the incremental restore](https://github.com/velero-io/velero/pull/10421) — velero-io/velero
 - [#10447 Bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10447) — velero-io/velero
-- [#10372 Show validation frequency in backup-location get output](https://github.com/velero-io/velero/pull/10372) — velero-io/velero
 - [#10393 [Backport release-1.17] fix(restore_finalizer): bound WaitRestoreExecHook poll with resourceT…](https://github.com/velero-io/velero/pull/10393) — velero-io/velero
 - [#10405 [Backport release-1.18] Fix node agent readiness check issue](https://github.com/velero-io/velero/pull/10405) — velero-io/velero
 - [#10397 Fix node agent rediness check issue](https://github.com/velero-io/velero/pull/10397) — velero-io/velero
@@ -170,8 +169,8 @@
 **openshift** (35)
 - [#2415 [oadp-1.5] Add uploader-type argument to Velero deployment configuration when configuration.args is used.](https://github.com/openshift/oadp-operator/pull/2415) — openshift/oadp-operator
 - [#573 Fix OADP 1.5 release branch CI checks](https://github.com/openshift/velero/pull/573) — openshift/velero
-- [#2439 Fix 5 CVEs (CVE-2026-56854, CVE-2026-46600, CVE-2026-56852, ...)](https://github.com/openshift/oadp-operator/pull/2439) — openshift/oadp-operator
 - [#572 Fix 7 CVEs (CVE-2026-56854, CVE-2026-56864, CVE-2026-56865, ...)](https://github.com/openshift/velero/pull/572) — openshift/velero
+- [#2439 Fix 5 CVEs (CVE-2026-56854, CVE-2026-46600, CVE-2026-56852, ...)](https://github.com/openshift/oadp-operator/pull/2439) — openshift/oadp-operator
 - [#2438 [oadp-1.6] fix: vendor virtualmachineinstances RBAC from KDM PR #218](https://github.com/openshift/oadp-operator/pull/2438) — openshift/oadp-operator
 - [#2437 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/oadp-operator/pull/2437) — openshift/oadp-operator
 - [#2436 [oadp-1.6] OADP-7895 CRD changes for the non admin describe command issue](https://github.com/openshift/oadp-operator/pull/2436) — openshift/oadp-operator
@@ -219,8 +218,8 @@
 - [#59 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-plugin/pull/59) — migtools/kubevirt-datamover-plugin
 - [#379 [oadp-1.6] OADP-7895 : Fix for oc oadp nonadmin backup describe shows Pod Volume…](https://github.com/migtools/oadp-non-admin/pull/379) — migtools/oadp-non-admin
 - [#58 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-plugin/pull/58) — migtools/kubevirt-datamover-plugin
-- [#103 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-vm-file-restore/pull/103) — migtools/oadp-vm-file-restore
 - [#227 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-controller/pull/227) — migtools/kubevirt-datamover-controller
+- [#103 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-vm-file-restore/pull/103) — migtools/oadp-vm-file-restore
 - [#83 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-velero-plugin/pull/83) — migtools/kubevirt-velero-plugin
 - [#263 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-cli/pull/263) — migtools/oadp-cli
 - [#37 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/filebrowser/pull/37) — migtools/filebrowser
@@ -240,7 +239,7 @@
 **Other** (2)
 - [#184 Fix CVE remediation dependency rollbacks](https://github.com/oadp-rebasebot/oadp-rebase/pull/184) — oadp-rebasebot/oadp-rebase
 - [#3 fix: allow unrestricted egress for operator pod NetworkPolicy](https://github.com/shubham-pampattiwar/oadp-operator/pull/3) — shubham-pampattiwar/oadp-operator
-## Issues/PRs Commented On (39)
+## Issues/PRs Commented On (40)
 
 **velero-io** (23)
 - [#10478 Support structured output for multi-item backup and restore describe](https://github.com/velero-io/velero/issues/10478) — velero-io/velero
@@ -275,7 +274,8 @@
 - [#10791 Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap](https://github.com/openshift/installer/issues/10791) — openshift/installer
 - [#10590 GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning](https://github.com/openshift/installer/issues/10590) — openshift/installer
 
-**Other** (10)
+**Other** (11)
+- [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#4549 v1beta1→v1 conversion webhook fails on spec.featureGates: "cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates"](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549) — kubevirt/hyperconverged-cluster-operator
 - [#190 Web Camera is broken](https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190) — EmixamPP/linux-enable-ir-emitter
