@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-07 17:35:09 UTC
+> Last updated: 2026-09-07 21:21:05 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -123,7 +123,6 @@ No open PRs.
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-ready-green)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
-- [![PR #285](https://img.shields.io/badge/PR%20%23285-ready-green)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #3](https://img.shields.io/badge/PR%20%233-ready-green)](https://github.com/kaovilai/redirector/pull/3) **kaovilai/redirector** → `main` - Add design docs for one-click community rule install via marketplace deep links
@@ -162,6 +161,7 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/shubham-pampattiwar/velero/pull/1) **shubham-pampattiwar/velero** → `del-vsb-final` - revert to using controller-gen@v0.7.0
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-stale-yellow)](https://github.com/engineerd/setup-kind/pull/260) **engineerd/setup-kind** → `master` - chore(package): update @actions/cache to version 4.0.0 due to deprecation.
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/engineerd/setup-kind/pull/261) **engineerd/setup-kind** → `master` - npm audit fix
+- [![PR #285](https://img.shields.io/badge/PR%20%23285-stale-yellow)](https://github.com/vmware-tanzu/crash-diagnostics/pull/285) **vmware-tanzu/crash-diagnostics** → `main` - Add exclude directive for phantom kcp/sdk version (#283)
 - [![PR #290](https://img.shields.io/badge/PR%20%23290-stale-yellow)](https://github.com/hashicorp/go-plugin/pull/290) **hashicorp/go-plugin** → `main` - Use google.golang.org/protobuf && go get google.golang.org/protobuf && go mod tidy -compat=1.17
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/eemcmullan/oadp-operator/pull/2) **eemcmullan/oadp-operator** → `vsm-batching` - add default CRD validation
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/kaovilai/containerd/pull/2) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
@@ -175,7 +175,6 @@ No open PRs.
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
 - [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
-- [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/nezhar/claude-container/pull/48) **nezhar/claude-container** → `main` - feat: add linux/arm64 platform support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
 - [![PR #63](https://img.shields.io/badge/PR%20%2363-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts

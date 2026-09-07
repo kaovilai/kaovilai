@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T17:35:09Z",
+  "updatedAt": "2026-09-07T21:21:05Z",
   "prs": [
     {
       "number": 10010,
@@ -2130,22 +2130,6 @@
       "updatedAt": "2026-08-25T01:21:43Z"
     },
     {
-      "number": 285,
-      "repo": "vmware-tanzu/crash-diagnostics",
-      "org": "vmware-tanzu",
-      "title": "Add exclude directive for phantom kcp/sdk version (#283)",
-      "url": "https://github.com/vmware-tanzu/crash-diagnostics/pull/285",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-07-09T18:02:34Z"
-    },
-    {
       "number": 532,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -2903,22 +2887,6 @@
       "updatedAt": "2024-09-04T08:46:55Z"
     },
     {
-      "number": 48,
-      "repo": "nezhar/claude-container",
-      "org": "nezhar",
-      "title": "feat: add linux/arm64 platform support",
-      "url": "https://github.com/nezhar/claude-container/pull/48",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-03-25T06:52:37Z"
-    },
-    {
       "number": 974,
       "repo": "onsi/ginkgo",
       "org": "onsi",
@@ -3052,6 +3020,22 @@
       "updatedAt": "2025-04-14T05:34:25Z"
     },
     {
+      "number": 285,
+      "repo": "vmware-tanzu/crash-diagnostics",
+      "org": "vmware-tanzu",
+      "title": "Add exclude directive for phantom kcp/sdk version (#283)",
+      "url": "https://github.com/vmware-tanzu/crash-diagnostics/pull/285",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-07-09T18:02:34Z"
+    },
+    {
       "number": 478,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
@@ -3078,7 +3062,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-07T17:35:09Z",
+    "updatedAt": "2026-09-07T21:21:05Z",
     "needsReview": [
       {
         "number": 68,
@@ -3211,7 +3195,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3224,7 +3208,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 209,
+        "waitingDays": 210,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3310,7 +3294,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 89,
+        "waitingDays": 90,
         "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
@@ -3366,7 +3350,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 59,
+        "waitingDays": 60,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3477,7 +3461,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 53,
+        "waitingDays": 54,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -3601,7 +3585,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3828,8 +3812,60 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-08-13T19:02:47Z"
+      },
+      {
+        "number": 266,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 24,
+        "updatedAt": "2026-08-14T21:03:44Z"
+      },
+      {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 24,
+        "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
         "number": 598,
@@ -3864,58 +3900,6 @@
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
-        "number": 266,
-        "repo": "velero-io/velero-plugin-for-gcp",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-08-14T21:03:44Z"
-      },
-      {
-        "number": 324,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
         "number": 326,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -3938,7 +3922,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
@@ -3964,7 +3948,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
@@ -4281,6 +4265,38 @@
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
+        "number": 8862,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command",
+        "url": "https://github.com/velero-io/velero/pull/8862",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "anshulahuja98",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-27T18:24:55Z"
+      },
+      {
         "number": 8884,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4312,6 +4328,40 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-08-27T17:09:00Z"
+      },
+      {
+        "number": 9221,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
+        "url": "https://github.com/velero-io/velero/pull/9221",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "Documentation",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "anshulahuja98",
+          "ywk253100",
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-27T18:23:26Z"
       },
       {
         "number": 9236,
@@ -4378,6 +4428,36 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-08-27T17:07:21Z"
+      },
+      {
+        "number": 9388,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add lint-fix make targets",
+        "url": "https://github.com/velero-io/velero/pull/9388",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
         "number": 9770,
@@ -4476,102 +4556,6 @@
         "updatedAt": "2026-08-27T17:03:26Z"
       },
       {
-        "number": 8862,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command",
-        "url": "https://github.com/velero-io/velero/pull/8862",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-27T18:24:55Z"
-      },
-      {
-        "number": 9221,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
-        "url": "https://github.com/velero-io/velero/pull/9221",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "Documentation",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "ywk253100",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-27T18:23:26Z"
-      },
-      {
-        "number": 9388,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add lint-fix make targets",
-        "url": "https://github.com/velero-io/velero/pull/9388",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-08-27T18:24:07Z"
-      },
-      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4597,7 +4581,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-08-31T20:24:39Z"
       },
       {
@@ -4626,7 +4610,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-09-01T20:44:35Z"
       },
       {
@@ -4655,7 +4639,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-09-01T18:37:25Z"
       },
       {
@@ -4842,7 +4826,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-09-04T18:26:55Z"
       }
     ],
@@ -5026,7 +5010,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:54:13Z"
       },
       {
@@ -5055,7 +5039,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:54:20Z"
       },
       {
@@ -5083,7 +5067,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:54:41Z"
       },
       {
@@ -5111,7 +5095,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:55:02Z"
       },
       {
@@ -5140,7 +5124,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:54:55Z"
       },
       {
@@ -5169,7 +5153,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:55:08Z"
       },
       {
@@ -5195,7 +5179,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:54:27Z"
       },
       {
@@ -5221,7 +5205,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:54:48Z"
       },
       {
@@ -5247,7 +5231,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:55:14Z"
       },
       {
@@ -5273,7 +5257,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
@@ -5372,7 +5356,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-08-30T17:39:09Z"
       },
       {
@@ -5402,7 +5386,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-09-01T21:04:49Z"
       },
       {
@@ -5433,7 +5417,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-09-03T20:48:48Z"
       }
     ]
