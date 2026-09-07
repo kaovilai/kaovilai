@@ -3,11 +3,11 @@
     "start": "2026-08-24",
     "end": "2026-09-07"
   },
-  "generatedAt": "2026-09-07T12:07:02Z",
+  "generatedAt": "2026-09-07T17:30:52Z",
   "metrics": {
     "prsMerged": 53,
     "prsOpened": 65,
-    "prsReviewed": 81,
+    "prsReviewed": 82,
     "issuesCommented": 40,
     "issuesClosed": 11
   },
@@ -843,6 +843,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 84713,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "remove github action 'run ci' requirement",
+      "url": "https://github.com/openshift/release/pull/84713"
+    },
+    {
+      "number": 384,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Fix CVE-2026-46600, CVE-2026-56852",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/384"
+    },
+    {
       "number": 10436,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -862,13 +876,6 @@
       "org": "velero-io",
       "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
       "url": "https://github.com/velero-io/velero/pull/10438"
-    },
-    {
-      "number": 384,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Fix CVE-2026-46600, CVE-2026-56852",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/384"
     },
     {
       "number": 230,
@@ -1095,18 +1102,18 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/58"
     },
     {
-      "number": 227,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/227"
-    },
-    {
       "number": 103,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/103"
+    },
+    {
+      "number": 227,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/227"
     },
     {
       "number": 83,
@@ -1412,18 +1419,18 @@
   ],
   "issuesCommented": [
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
       "number": 181212,
       "repo": "home-assistant/core",
       "org": "home-assistant",
       "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
       "url": "https://github.com/home-assistant/core/issues/181212"
+    },
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 190,
