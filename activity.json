@@ -3,12 +3,12 @@
     "start": "2026-08-25",
     "end": "2026-09-08"
   },
-  "generatedAt": "2026-09-08T16:16:06Z",
+  "generatedAt": "2026-09-08T19:46:02Z",
   "metrics": {
     "prsMerged": 48,
     "prsOpened": 53,
     "prsReviewed": 80,
-    "issuesCommented": 35,
+    "issuesCommented": 36,
     "issuesClosed": 8
   },
   "prsMerged": [
@@ -724,6 +724,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 164,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
+    },
+    {
       "number": 310,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -974,13 +981,6 @@
       "org": "openshift",
       "title": "docs(kubevirt-datamover): fix HCO featureGates patch, CR name typo, and log-capture accuracy",
       "url": "https://github.com/openshift/oadp-operator/pull/2418"
-    },
-    {
-      "number": 164,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (4dd1b5d) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/164"
     },
     {
       "number": 58,
@@ -1286,6 +1286,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 181212,
+      "repo": "home-assistant/core",
+      "org": "home-assistant",
+      "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
+      "url": "https://github.com/home-assistant/core/issues/181212"
+    },
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
+    },
+    {
       "number": 9714,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1319,13 +1333,6 @@
       "org": "velero-io",
       "title": "Support structured output for multi-item backup and restore describe",
       "url": "https://github.com/velero-io/velero/issues/10478"
-    },
-    {
-      "number": 181212,
-      "repo": "home-assistant/core",
-      "org": "home-assistant",
-      "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
-      "url": "https://github.com/home-assistant/core/issues/181212"
     },
     {
       "number": 190,
