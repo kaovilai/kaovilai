@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-24",
-    "end": "2026-09-07"
+    "start": "2026-08-25",
+    "end": "2026-09-08"
   },
-  "generatedAt": "2026-09-07T21:15:51Z",
+  "generatedAt": "2026-09-08T00:02:38Z",
   "metrics": {
-    "prsMerged": 53,
-    "prsOpened": 65,
-    "prsReviewed": 82,
-    "issuesCommented": 40,
-    "issuesClosed": 11
+    "prsMerged": 48,
+    "prsOpened": 53,
+    "prsReviewed": 80,
+    "issuesCommented": 35,
+    "issuesClosed": 8
   },
   "prsMerged": [
     {
@@ -342,46 +342,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/199"
     },
     {
-      "number": 200,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "test: pin that a same-restore-name incomplete sibling still blocks the VM flip",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/200"
-    },
-    {
       "number": 197,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
-    },
-    {
-      "number": 182,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
-      "url": "https://github.com/migtools/udistribution/pull/182"
-    },
-    {
-      "number": 10034,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "chore: pin helm/kind-action to commit with curl retry fix",
-      "url": "https://github.com/velero-io/velero/pull/10034"
-    },
-    {
-      "number": 83833,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Rename KDM e2e job to virt-kdm, fix operator-sdk-bundle-image step bugs",
-      "url": "https://github.com/openshift/release/pull/83833"
-    },
-    {
-      "number": 9795,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/9795"
     }
   ],
   "prsOpened": [
@@ -755,93 +720,16 @@
       "org": "openshift",
       "title": "[OADP-8716] Pin MCE to stable-2.8 only below OCP 4.19, matching HCP target env",
       "url": "https://github.com/openshift/oadp-operator/pull/2406"
-    },
-    {
-      "number": 10390,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip kind e2e matrix entries for kindest/node tags with missing manifests",
-      "url": "https://github.com/velero-io/velero/pull/10390"
-    },
-    {
-      "number": 200,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "test: pin that a same-restore-name incomplete sibling still blocks the VM flip",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/200"
-    },
-    {
-      "number": 10389,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support `/backport 1.17` shorthand and auto-fix changelog filename in backport PRs",
-      "url": "https://github.com/velero-io/velero/pull/10389"
-    },
-    {
-      "number": 50,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Set binding-blocking spec.selector on restore-target PVCs",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50"
-    },
-    {
-      "number": 199,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: honor matchLabels selector on restore target PVC instead of failing",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/199"
-    },
-    {
-      "number": 197,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: work PVC must be ReadWriteOnce, not the target's AccessModes",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/197"
-    },
-    {
-      "number": 2404,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "test: unpend two kdm restore PIts, fixing bugs found via live e2e validation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2404"
-    },
-    {
-      "number": 10382,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.17: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10382"
-    },
-    {
-      "number": 2402,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Unpend two kdm restore e2e tests now that phase 4 landed",
-      "url": "https://github.com/openshift/oadp-operator/pull/2402"
-    },
-    {
-      "number": 10381,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10381"
-    },
-    {
-      "number": 195,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: name root cause in restore PVC-conflict error messages",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/195"
-    },
-    {
-      "number": 182,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "fix: use %s format verb for cmp.Diff in t.Errorf calls",
-      "url": "https://github.com/migtools/udistribution/pull/182"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 310,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Fix 4 CVEs (CVE-2026-46600, CVE-2026-56852, GHSA-hrxh-6v49-42gf, ...)",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/310"
+    },
     {
       "number": 84713,
       "repo": "openshift/release",
@@ -1305,13 +1193,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2426"
     },
     {
-      "number": 2405,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "feat: Add NetworkPolicy support for OADP operands (OADP-6074)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2405"
-    },
-    {
       "number": 2424,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1401,20 +1282,6 @@
       "org": "velero-io",
       "title": "Fix node agent rediness check issue",
       "url": "https://github.com/velero-io/velero/pull/10397"
-    },
-    {
-      "number": 10387,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Avoid io.ReadAll in buildFinalTarball()",
-      "url": "https://github.com/velero-io/velero/pull/10387"
-    },
-    {
-      "number": 10388,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.17] Avoid io.ReadAll in buildFinalTarball()",
-      "url": "https://github.com/velero-io/velero/pull/10388"
     }
   ],
   "issuesCommented": [
@@ -1662,41 +1529,6 @@
       "org": "velero-io",
       "title": "Transition all project meetings to CNCF Zoom",
       "url": "https://github.com/velero-io/velero/issues/9894"
-    },
-    {
-      "number": 10791,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap",
-      "url": "https://github.com/openshift/installer/issues/10791"
-    },
-    {
-      "number": 10020,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
-      "url": "https://github.com/velero-io/velero/issues/10020"
-    },
-    {
-      "number": 9429,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "velero doesn't correctly handle an empty ProviderSnapshotID",
-      "url": "https://github.com/velero-io/velero/issues/9429"
-    },
-    {
-      "number": 378,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "ci on real hw",
-      "url": "https://github.com/socktainer/socktainer/issues/378"
-    },
-    {
-      "number": 10590,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
-      "url": "https://github.com/openshift/installer/issues/10590"
     }
   ],
   "issuesClosed": [
@@ -1755,27 +1587,6 @@
       "org": "migtools",
       "title": "Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/198"
-    },
-    {
-      "number": 10791,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap",
-      "url": "https://github.com/openshift/installer/issues/10791"
-    },
-    {
-      "number": 10328,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Stop committing generated config/crd/*/crds/crds.go; embed CRDs via go:embed at build time",
-      "url": "https://github.com/velero-io/velero/issues/10328"
-    },
-    {
-      "number": 10020,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
-      "url": "https://github.com/velero-io/velero/issues/10020"
     }
   ]
 }
