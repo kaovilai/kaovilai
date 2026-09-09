@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-08-26 — 2026-09-09
-> **Generated:** 2026-09-09 19:37:18 UTC
+> **Generated:** 2026-09-09 22:20:36 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 47 |
-| PRs Opened | 51 |
-| PRs Reviewed | 77 |
+| PRs Merged | 48 |
+| PRs Opened | 52 |
+| PRs Reviewed | 79 |
 | Issues/PRs Commented | 33 |
 | Issues Closed | 5 |
 
 ---
 
-## PRs Merged (47)
+## PRs Merged (48)
 
 **velero-io** (9)
 - [#10318 Fix datamover backup arg mismatch for CSI CBT service account name](https://github.com/velero-io/velero/pull/10318) — velero-io/velero
@@ -47,7 +47,8 @@
 - [#208 fix: recognize VirtualMachineBackup's renamed Complete condition](https://github.com/migtools/kubevirt-datamover-controller/pull/208) — migtools/kubevirt-datamover-controller
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 
-**Other** (21)
+**Other** (22)
+- [#12 Address CodeRabbit findings on the streaming chat-completions handler](https://github.com/kaovilai/copilot-api/pull/12) — kaovilai/copilot-api
 - [#11 Handle client abort gracefully in streaming chat-completions](https://github.com/kaovilai/copilot-api/pull/11) — kaovilai/copilot-api
 - [#10 Fix desktop typecheck failure (missing files in tsconfig.node.json)](https://github.com/kaovilai/copilot-api/pull/10) — kaovilai/copilot-api
 - [#9 Fix streaming tool_calls with a non-zero starting index (crashes n8n's AI SDK)](https://github.com/kaovilai/copilot-api/pull/9) — kaovilai/copilot-api
@@ -69,7 +70,7 @@
 - [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 - [#173 Combo auto-submit window, override on pending checks, native Approve sync](https://github.com/kaovilai/github-bot-command-palette/pull/173) — kaovilai/github-bot-command-palette
 - [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
-## PRs Opened (51)
+## PRs Opened (52)
 
 **velero-io** (10)
 - [#10458 Skip kind E2E tests on PRs that don't touch Go code or the workflow itself](https://github.com/velero-io/velero/pull/10458) — velero-io/velero
@@ -103,7 +104,8 @@
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#206 fix: retry expected-backup-type annotation on conflict instead of giving up](https://github.com/migtools/kubevirt-datamover-controller/pull/206) — migtools/kubevirt-datamover-controller
 
-**Other** (25)
+**Other** (26)
+- [#12 Address CodeRabbit findings on the streaming chat-completions handler](https://github.com/kaovilai/copilot-api/pull/12) — kaovilai/copilot-api
 - [#11 Handle client abort gracefully in streaming chat-completions](https://github.com/kaovilai/copilot-api/pull/11) — kaovilai/copilot-api
 - [#10 Fix desktop typecheck failure (missing files in tsconfig.node.json)](https://github.com/kaovilai/copilot-api/pull/10) — kaovilai/copilot-api
 - [#9 Fix streaming tool_calls with a non-zero starting index (crashes n8n's AI SDK)](https://github.com/kaovilai/copilot-api/pull/9) — kaovilai/copilot-api
@@ -129,9 +131,10 @@
 - [#18957 storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost](https://github.com/kubevirt/kubevirt/pull/18957) — kubevirt/kubevirt
 - [#18949 storage/cbt: fix VMBackup status freeze during target PVC attach](https://github.com/kubevirt/kubevirt/pull/18949) — kubevirt/kubevirt
 - [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
-## PRs Reviewed (77)
+## PRs Reviewed (79)
 
-**velero-io** (9)
+**velero-io** (10)
+- [#10507 install: default --wait to true and add --no-wait flag](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
 - [#10479 Report incremental fallback message](https://github.com/velero-io/velero/pull/10479) — velero-io/velero
 - [#10436 Add block data mover support for Velero backup/restore describe CLI.](https://github.com/velero-io/velero/pull/10436) — velero-io/velero
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
@@ -179,7 +182,8 @@
 - [#2424 [oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)](https://github.com/openshift/oadp-operator/pull/2424) — openshift/oadp-operator
 - [#2422 [oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2422) — openshift/oadp-operator
 
-**migtools** (31)
+**migtools** (32)
+- [#51 issue #14: allow users to skip quiesce via Backup or VM](https://github.com/migtools/kubevirt-datamover-plugin/pull/51) — migtools/kubevirt-datamover-plugin
 - [#231 [oadp-1.6] Updated annotation name for consistency with naming conventions](https://github.com/migtools/kubevirt-datamover-controller/pull/231) — migtools/kubevirt-datamover-controller
 - [#229 Updated annotation name for consistency with naming conventions](https://github.com/migtools/kubevirt-datamover-controller/pull/229) — migtools/kubevirt-datamover-controller
 - [#188 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/udistribution/pull/188) — migtools/udistribution
