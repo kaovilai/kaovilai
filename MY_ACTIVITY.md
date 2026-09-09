@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-26 — 2026-09-09
-> **Generated:** 2026-09-09 11:03:59 UTC
+> **Generated:** 2026-09-09 16:09:52 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 46 |
 | PRs Opened | 50 |
-| PRs Reviewed | 76 |
+| PRs Reviewed | 77 |
 | Issues/PRs Commented | 33 |
 | Issues Closed | 5 |
 
@@ -127,7 +127,7 @@
 - [#18957 storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost](https://github.com/kubevirt/kubevirt/pull/18957) — kubevirt/kubevirt
 - [#18949 storage/cbt: fix VMBackup status freeze during target PVC attach](https://github.com/kubevirt/kubevirt/pull/18949) — kubevirt/kubevirt
 - [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
-## PRs Reviewed (76)
+## PRs Reviewed (77)
 
 **velero-io** (9)
 - [#10479 Report incremental fallback message](https://github.com/velero-io/velero/pull/10479) — velero-io/velero
@@ -177,11 +177,12 @@
 - [#2424 [oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)](https://github.com/openshift/oadp-operator/pull/2424) — openshift/oadp-operator
 - [#2422 [oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS](https://github.com/openshift/oadp-operator/pull/2422) — openshift/oadp-operator
 
-**migtools** (30)
+**migtools** (31)
+- [#231 [oadp-1.6] Updated annotation name for consistency with naming conventions](https://github.com/migtools/kubevirt-datamover-controller/pull/231) — migtools/kubevirt-datamover-controller
+- [#229 Updated annotation name for consistency with naming conventions](https://github.com/migtools/kubevirt-datamover-controller/pull/229) — migtools/kubevirt-datamover-controller
 - [#188 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/udistribution/pull/188) — migtools/udistribution
 - [#384 Fix CVE-2026-46600, CVE-2026-56852](https://github.com/migtools/oadp-non-admin/pull/384) — migtools/oadp-non-admin
 - [#230 [oadp-1.6] Detect VMI guest-agent availability before quiesce, with explicit user override](https://github.com/migtools/kubevirt-datamover-controller/pull/230) — migtools/kubevirt-datamover-controller
-- [#229 Updated annotation name for consistency with naming conventions](https://github.com/migtools/kubevirt-datamover-controller/pull/229) — migtools/kubevirt-datamover-controller
 - [#228 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-controller/pull/228) — migtools/kubevirt-datamover-controller
 - [#37 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-vmdp/pull/37) — migtools/oadp-vmdp
 - [#264 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-cli/pull/264) — migtools/oadp-cli
