@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-10 16:08:14 UTC
+> Last updated: 2026-09-10 19:29:11 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -68,6 +68,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
+- [![PR #2446](https://img.shields.io/badge/PR%20%232446-ready-green)](https://github.com/openshift/oadp-operator/pull/2446) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
@@ -93,6 +94,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
+- [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
@@ -106,7 +108,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #213](https://img.shields.io/badge/PR%20%23213-needs--attention-orange)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-needs--attention-orange)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 
 ## oadp-rebase
@@ -129,7 +130,6 @@ No open PRs.
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-ready-green)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `main` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
-- [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/playwright-crx/pull/3) **kaovilai/playwright-crx** → `main` - Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal
 - [![PR #532](https://img.shields.io/badge/PR%20%23532-draft-gray)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-draft-gray)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #538](https://img.shields.io/badge/PR%20%23538-draft-gray)](https://github.com/kaovilai/dotfiles/pull/538) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit to improve shell startup time

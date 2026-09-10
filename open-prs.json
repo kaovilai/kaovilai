@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:08:14Z",
+  "updatedAt": "2026-09-10T19:29:11Z",
   "prs": [
     {
       "number": 10010,
@@ -1172,6 +1172,25 @@
       "updatedAt": "2026-08-26T17:33:09Z"
     },
     {
+      "number": 2446,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2446",
+      "targetBranch": "oadp-1.5",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "jira/valid-reference"
+      ],
+      "updatedAt": "2026-09-10T18:05:34Z"
+    },
+    {
       "number": 84228,
       "repo": "openshift/release",
       "org": "openshift",
@@ -1271,7 +1290,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-09-10T15:16:34Z"
+      "updatedAt": "2026-09-10T18:21:07Z"
     },
     {
       "number": 449,
@@ -1564,6 +1583,24 @@
       "updatedAt": "2026-09-04T22:37:17Z"
     },
     {
+      "number": 213,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: speed up Dockerfile builds with cache mounts",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-09-10T17:40:32Z"
+    },
+    {
       "number": 253,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -1838,25 +1875,6 @@
         "needs-rebase"
       ],
       "updatedAt": "2026-09-04T13:53:26Z"
-    },
-    {
-      "number": 213,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: speed up Dockerfile builds with cache mounts",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
-      "targetBranch": "oadp-dev",
-      "status": "needs-attention",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "needs-rebase"
-      ],
-      "updatedAt": "2026-09-01T23:05:55Z"
     },
     {
       "number": 35,
@@ -2335,25 +2353,6 @@
       "isDraft": true,
       "labels": [],
       "updatedAt": "2026-08-11T17:27:46Z"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/3",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "Copilot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "Copilot"
-      ],
-      "isDraft": true,
-      "labels": [],
-      "updatedAt": "2026-09-10T13:56:32Z"
     },
     {
       "number": 1,
@@ -3042,7 +3041,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-10T16:08:14Z",
+    "updatedAt": "2026-09-10T19:29:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3175,7 +3174,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3330,7 +3329,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 62,
+        "waitingDays": 63,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3363,30 +3362,6 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 57,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 442,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -3413,8 +3388,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 57,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3467,7 +3466,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -3493,7 +3492,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -3519,7 +3518,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -3545,7 +3544,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -3565,7 +3564,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3598,7 +3597,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3748,7 +3747,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3792,7 +3791,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
@@ -3810,7 +3809,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3932,6 +3931,34 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 15,
+        "updatedAt": "2026-08-26T17:05:08Z"
+      },
+      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -3965,34 +3992,6 @@
         "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 14,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4021,7 +4020,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:02:53Z"
       },
       {
@@ -4055,7 +4054,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:01:49Z"
       },
       {
@@ -4084,7 +4083,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:00:09Z"
       },
       {
@@ -4116,7 +4115,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T16:51:50Z"
       },
       {
@@ -4148,7 +4147,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T16:47:42Z"
       },
       {
@@ -4179,7 +4178,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T16:47:39Z"
       },
       {
@@ -4210,7 +4209,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -4241,7 +4240,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -4273,7 +4272,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -4306,7 +4305,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:09:00Z"
       },
       {
@@ -4340,7 +4339,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T18:23:26Z"
       },
       {
@@ -4372,7 +4371,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T17:07:21Z"
       },
       {
@@ -4402,8 +4401,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-08-27T18:24:07Z"
+      },
+      {
+        "number": 84229,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h",
+        "url": "https://github.com/openshift/release/pull/84229",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 9,
+        "updatedAt": "2026-09-01T18:37:25Z"
       },
       {
         "number": 10423,
@@ -4462,35 +4490,6 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-09-01T20:44:35Z"
-      },
-      {
-        "number": 84229,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h",
-        "url": "https://github.com/openshift/release/pull/84229",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 8,
-        "updatedAt": "2026-09-01T18:37:25Z"
       },
       {
         "number": 18949,
@@ -4552,7 +4551,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-09-04T18:26:55Z"
       },
       {
@@ -4678,6 +4677,65 @@
         "updatedAt": "2026-09-09T11:23:38Z"
       },
       {
+        "number": 213,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: speed up Dockerfile builds with cache mounts",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-10T17:40:32Z"
+      },
+      {
+        "number": 2446,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
+        "url": "https://github.com/openshift/oadp-operator/pull/2446",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-10T18:05:34Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4798,7 +4856,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -5270,7 +5328,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-08-30T17:39:09Z"
       },
       {
@@ -5365,7 +5423,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-09-10T15:16:34Z"
+        "updatedAt": "2026-09-10T18:21:07Z"
       }
     ]
   }
