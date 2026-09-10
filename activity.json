@@ -3,13 +3,13 @@
     "start": "2026-08-27",
     "end": "2026-09-10"
   },
-  "generatedAt": "2026-09-10T00:56:25Z",
+  "generatedAt": "2026-09-10T11:00:05Z",
   "metrics": {
     "prsMerged": 41,
-    "prsOpened": 47,
+    "prsOpened": 48,
     "prsReviewed": 76,
     "issuesCommented": 30,
-    "issuesClosed": 5
+    "issuesClosed": 6
   },
   "prsMerged": [
     {
@@ -301,6 +301,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 1,
+      "repo": "kaovilai/playwright-crx",
+      "org": "kaovilai",
+      "title": "Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions",
+      "url": "https://github.com/kaovilai/playwright-crx/pull/1"
+    },
     {
       "number": 12,
       "repo": "kaovilai/copilot-api",
@@ -640,6 +647,13 @@
       "url": "https://github.com/velero-io/velero/pull/10507"
     },
     {
+      "number": 10479,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report incremental fallback message",
+      "url": "https://github.com/velero-io/velero/pull/10479"
+    },
+    {
       "number": 231,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -652,13 +666,6 @@
       "org": "migtools",
       "title": "Updated annotation name for consistency with naming conventions",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/229"
-    },
-    {
-      "number": 10479,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Report incremental fallback message",
-      "url": "https://github.com/velero-io/velero/pull/10479"
     },
     {
       "number": 188,
@@ -1174,6 +1181,13 @@
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
+      "number": 36873,
+      "repo": "n8n-io/n8n",
+      "org": "n8n-io",
+      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
+      "url": "https://github.com/n8n-io/n8n/issues/36873"
+    },
+    {
       "number": 7507,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1186,13 +1200,6 @@
       "org": "kubernetes-sigs",
       "title": "branchprotector cannot manage required status check GitHub App identity",
       "url": "https://github.com/kubernetes-sigs/prow/issues/915"
-    },
-    {
-      "number": 36873,
-      "repo": "n8n-io/n8n",
-      "org": "n8n-io",
-      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
-      "url": "https://github.com/n8n-io/n8n/issues/36873"
     },
     {
       "number": 181212,
@@ -1378,6 +1385,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10295,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CBT delta-error fallback marks the whole device dirty instead of the design's allocated-blocks full backup",
+      "url": "https://github.com/velero-io/velero/issues/10295"
+    },
     {
       "number": 10298,
       "repo": "velero-io/velero",
