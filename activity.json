@@ -3,15 +3,22 @@
     "start": "2026-08-27",
     "end": "2026-09-10"
   },
-  "generatedAt": "2026-09-10T16:02:08Z",
+  "generatedAt": "2026-09-10T19:28:32Z",
   "metrics": {
-    "prsMerged": 42,
-    "prsOpened": 50,
-    "prsReviewed": 77,
+    "prsMerged": 43,
+    "prsOpened": 51,
+    "prsReviewed": 78,
     "issuesCommented": 30,
     "issuesClosed": 6
   },
   "prsMerged": [
+    {
+      "number": 3,
+      "repo": "kaovilai/playwright-crx",
+      "org": "kaovilai",
+      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
+      "url": "https://github.com/kaovilai/playwright-crx/pull/3"
+    },
     {
       "number": 1,
       "repo": "kaovilai/playwright-crx",
@@ -308,6 +315,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2446,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2446"
+    },
     {
       "number": 2445,
       "repo": "openshift/oadp-operator",
@@ -660,6 +674,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2444,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
+      "url": "https://github.com/openshift/oadp-operator/pull/2444"
+    },
     {
       "number": 221,
       "repo": "migtools/kubevirt-datamover-controller",
