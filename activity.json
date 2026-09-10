@@ -3,15 +3,22 @@
     "start": "2026-08-27",
     "end": "2026-09-10"
   },
-  "generatedAt": "2026-09-10T11:00:05Z",
+  "generatedAt": "2026-09-10T16:02:08Z",
   "metrics": {
-    "prsMerged": 41,
-    "prsOpened": 48,
-    "prsReviewed": 76,
+    "prsMerged": 42,
+    "prsOpened": 50,
+    "prsReviewed": 77,
     "issuesCommented": 30,
     "issuesClosed": 6
   },
   "prsMerged": [
+    {
+      "number": 1,
+      "repo": "kaovilai/playwright-crx",
+      "org": "kaovilai",
+      "title": "Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions",
+      "url": "https://github.com/kaovilai/playwright-crx/pull/1"
+    },
     {
       "number": 2234,
       "repo": "openshift/oadp-operator",
@@ -301,6 +308,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 2445,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: don't check VEP-25 CRDs before the feature gate that creates them",
+      "url": "https://github.com/openshift/oadp-operator/pull/2445"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/playwright-crx",
+      "org": "kaovilai",
+      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
+      "url": "https://github.com/kaovilai/playwright-crx/pull/3"
+    },
     {
       "number": 1,
       "repo": "kaovilai/playwright-crx",
@@ -639,6 +660,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 221,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/221"
+    },
     {
       "number": 10507,
       "repo": "velero-io/velero",
