@@ -3,15 +3,50 @@
     "start": "2026-08-27",
     "end": "2026-09-10"
   },
-  "generatedAt": "2026-09-10T19:28:32Z",
+  "generatedAt": "2026-09-10T22:20:01Z",
   "metrics": {
-    "prsMerged": 43,
-    "prsOpened": 51,
-    "prsReviewed": 78,
+    "prsMerged": 47,
+    "prsOpened": 53,
+    "prsReviewed": 79,
     "issuesCommented": 30,
     "issuesClosed": 6
   },
   "prsMerged": [
+    {
+      "number": 2446,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2446"
+    },
+    {
+      "number": 182,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182"
+    },
+    {
+      "number": 176,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Add per-command cancel-x to pending combo buttons",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176"
+    },
+    {
+      "number": 6,
+      "repo": "kaovilai/bandwidth-hero-proxy2",
+      "org": "kaovilai",
+      "title": "Fix Netlify build failure: bump Node version and sync yarn.lock",
+      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6"
+    },
+    {
+      "number": 2445,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: don't check VEP-25 CRDs before the feature gate that creates them",
+      "url": "https://github.com/openshift/oadp-operator/pull/2445"
+    },
     {
       "number": 3,
       "repo": "kaovilai/playwright-crx",
@@ -188,13 +223,6 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177"
     },
     {
-      "number": 176,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add per-command cancel-x to pending combo buttons",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176"
-    },
-    {
       "number": 175,
       "repo": "kaovilai/github-bot-command-palette",
       "org": "kaovilai",
@@ -315,6 +343,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 182,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182"
+    },
+    {
+      "number": 6,
+      "repo": "kaovilai/bandwidth-hero-proxy2",
+      "org": "kaovilai",
+      "title": "Fix Netlify build failure: bump Node version and sync yarn.lock",
+      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6"
+    },
     {
       "number": 2446,
       "repo": "openshift/oadp-operator",
@@ -674,6 +716,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2447,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix: don't check VEP-25 CRDs before the feature gate that creates them",
+      "url": "https://github.com/openshift/oadp-operator/pull/2447"
+    },
     {
       "number": 2444,
       "repo": "openshift/oadp-operator",
@@ -1223,6 +1272,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 181212,
+      "repo": "home-assistant/core",
+      "org": "home-assistant",
+      "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
+      "url": "https://github.com/home-assistant/core/issues/181212"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1249,13 +1305,6 @@
       "org": "kubernetes-sigs",
       "title": "branchprotector cannot manage required status check GitHub App identity",
       "url": "https://github.com/kubernetes-sigs/prow/issues/915"
-    },
-    {
-      "number": 181212,
-      "repo": "home-assistant/core",
-      "org": "home-assistant",
-      "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
-      "url": "https://github.com/home-assistant/core/issues/181212"
     },
     {
       "number": 9714,
