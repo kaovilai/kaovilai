@@ -3,11 +3,11 @@
     "start": "2026-08-28",
     "end": "2026-09-11"
   },
-  "generatedAt": "2026-09-11T19:28:59Z",
+  "generatedAt": "2026-09-11T22:19:39Z",
   "metrics": {
     "prsMerged": 48,
     "prsOpened": 45,
-    "prsReviewed": 79,
+    "prsReviewed": 82,
     "issuesCommented": 27,
     "issuesClosed": 6
   },
@@ -668,6 +668,34 @@
   ],
   "prsReviewed": [
     {
+      "number": 221,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/221"
+    },
+    {
+      "number": 394,
+      "repo": "socktainer/socktainer",
+      "org": "socktainer",
+      "title": "feat(network): support internal networks",
+      "url": "https://github.com/socktainer/socktainer/pull/394"
+    },
+    {
+      "number": 10524,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "test: use the Kind constant instead of the string literal",
+      "url": "https://github.com/velero-io/velero/pull/10524"
+    },
+    {
+      "number": 10526,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix schedule create dropping backup type",
+      "url": "https://github.com/velero-io/velero/pull/10526"
+    },
+    {
       "number": 61,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
@@ -708,13 +736,6 @@
       "org": "openshift",
       "title": "[oadp-1.6] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
       "url": "https://github.com/openshift/oadp-operator/pull/2444"
-    },
-    {
-      "number": 221,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/221"
     },
     {
       "number": 10479,
