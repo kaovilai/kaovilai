@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T22:21:59Z",
+  "updatedAt": "2026-09-11T00:48:05Z",
   "prs": [
     {
       "number": 10010,
@@ -3001,7 +3001,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-10T22:21:59Z",
+    "updatedAt": "2026-09-11T00:48:05Z",
     "needsReview": [
       {
         "number": 68,
@@ -3024,7 +3024,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 665,
+        "waitingDays": 666,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3293,6 +3293,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 58,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3350,30 +3374,6 @@
         "reason": "hold",
         "waitingDays": 57,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 57,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3524,7 +3524,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3631,7 +3631,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -3738,7 +3738,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3753,6 +3753,38 @@
         "reason": "awaitingReview",
         "waitingDays": 28,
         "updatedAt": "2026-08-13T19:02:47Z"
+      },
+      {
+        "number": 598,
+        "repo": "openshift/ci-docs",
+        "org": "openshift",
+        "title": "Document FBC catalog builds and OLM v1 testing workflows",
+        "url": "https://github.com/openshift/ci-docs/pull/598",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "hector-vido"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hector-vido",
+          "jmguzik",
+          "joelanford"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 27,
+        "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
         "number": 266,
@@ -3805,38 +3837,6 @@
         "reason": "awaitingReview",
         "waitingDays": 27,
         "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
-        "number": 598,
-        "repo": "openshift/ci-docs",
-        "org": "openshift",
-        "title": "Document FBC catalog builds and OLM v1 testing workflows",
-        "url": "https://github.com/openshift/ci-docs/pull/598",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "hector-vido"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "jmguzik",
-          "joelanford"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 26,
-        "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
         "number": 326,
@@ -4406,7 +4406,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4649,7 +4649,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
