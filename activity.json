@@ -3,12 +3,12 @@
     "start": "2026-08-28",
     "end": "2026-09-11"
   },
-  "generatedAt": "2026-09-11T00:53:13Z",
+  "generatedAt": "2026-09-11T10:58:28Z",
   "metrics": {
     "prsMerged": 45,
     "prsOpened": 42,
-    "prsReviewed": 76,
-    "issuesCommented": 26,
+    "prsReviewed": 77,
+    "issuesCommented": 27,
     "issuesClosed": 6
   },
   "prsMerged": [
@@ -626,6 +626,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "install: default --wait to true and add --no-wait flag",
+      "url": "https://github.com/velero-io/velero/pull/10507"
+    },
+    {
+      "number": 10523,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Let uploader to control fallback centrally",
+      "url": "https://github.com/velero-io/velero/pull/10523"
+    },
+    {
       "number": 2447,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -645,13 +659,6 @@
       "org": "migtools",
       "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/221"
-    },
-    {
-      "number": 10507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "install: default --wait to true and add --no-wait flag",
-      "url": "https://github.com/velero-io/velero/pull/10507"
     },
     {
       "number": 10479,
@@ -1160,11 +1167,11 @@
   ],
   "issuesCommented": [
     {
-      "number": 2525,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
-      "url": "https://github.com/github/github-mcp-server/issues/2525"
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 181212,
@@ -1174,11 +1181,18 @@
       "url": "https://github.com/home-assistant/core/issues/181212"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+      "number": 3218,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "S3 client-side encryption support",
+      "url": "https://github.com/velero-io/velero/issues/3218"
+    },
+    {
+      "number": 2525,
+      "repo": "github/github-mcp-server",
+      "org": "github",
+      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
+      "url": "https://github.com/github/github-mcp-server/issues/2525"
     },
     {
       "number": 36873,
