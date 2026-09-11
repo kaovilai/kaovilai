@@ -3,15 +3,36 @@
     "start": "2026-08-28",
     "end": "2026-09-11"
   },
-  "generatedAt": "2026-09-11T16:05:43Z",
+  "generatedAt": "2026-09-11T19:28:59Z",
   "metrics": {
-    "prsMerged": 45,
-    "prsOpened": 42,
-    "prsReviewed": 77,
+    "prsMerged": 48,
+    "prsOpened": 45,
+    "prsReviewed": 79,
     "issuesCommented": 27,
     "issuesClosed": 6
   },
   "prsMerged": [
+    {
+      "number": 7,
+      "repo": "kaovilai/bandwidth-hero-proxy2",
+      "org": "kaovilai",
+      "title": "Add safe Dependabot auto-merge workflow for npm patch/minor updates",
+      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7"
+    },
+    {
+      "number": 14,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Fix healthcheck: use 127.0.0.1 instead of localhost",
+      "url": "https://github.com/kaovilai/copilot-api/pull/14"
+    },
+    {
+      "number": 13,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Lower ambiguous-timeout budget to 80s to beat client watchdogs",
+      "url": "https://github.com/kaovilai/copilot-api/pull/13"
+    },
     {
       "number": 2446,
       "repo": "openshift/oadp-operator",
@@ -330,6 +351,27 @@
   ],
   "prsOpened": [
     {
+      "number": 7,
+      "repo": "kaovilai/bandwidth-hero-proxy2",
+      "org": "kaovilai",
+      "title": "Add safe Dependabot auto-merge workflow for npm patch/minor updates",
+      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7"
+    },
+    {
+      "number": 14,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Fix healthcheck: use 127.0.0.1 instead of localhost",
+      "url": "https://github.com/kaovilai/copilot-api/pull/14"
+    },
+    {
+      "number": 13,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Lower ambiguous-timeout budget to 80s to beat client watchdogs",
+      "url": "https://github.com/kaovilai/copilot-api/pull/13"
+    },
+    {
       "number": 182,
       "repo": "kaovilai/github-bot-command-palette",
       "org": "kaovilai",
@@ -625,6 +667,20 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 61,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "[oadp-1.6] issue #14: allow users to skip quiesce via Backup or VM",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/61"
+    },
+    {
+      "number": 84954,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Remove OADP rebasebot periodic jobs",
+      "url": "https://github.com/openshift/release/pull/84954"
+    },
     {
       "number": 10507,
       "repo": "velero-io/velero",
