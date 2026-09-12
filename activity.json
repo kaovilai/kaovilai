@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-08-28",
-    "end": "2026-09-11"
+    "start": "2026-08-29",
+    "end": "2026-09-12"
   },
-  "generatedAt": "2026-09-11T22:19:39Z",
+  "generatedAt": "2026-09-12T00:58:35Z",
   "metrics": {
-    "prsMerged": 48,
+    "prsMerged": 47,
     "prsOpened": 45,
-    "prsReviewed": 82,
-    "issuesCommented": 27,
+    "prsReviewed": 79,
+    "issuesCommented": 29,
     "issuesClosed": 6
   },
   "prsMerged": [
@@ -340,13 +340,6 @@
       "org": "velero-io",
       "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
       "url": "https://github.com/velero-io/velero/pull/10406"
-    },
-    {
-      "number": 10381,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10381"
     }
   ],
   "prsOpened": [
@@ -794,20 +787,6 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/384"
     },
     {
-      "number": 10436,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add block data mover support for Velero backup/restore describe CLI.",
-      "url": "https://github.com/velero-io/velero/pull/10436"
-    },
-    {
-      "number": 10438,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
-      "url": "https://github.com/velero-io/velero/pull/10438"
-    },
-    {
       "number": 230,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -974,13 +953,6 @@
       "org": "migtools",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/59"
-    },
-    {
-      "number": 2419,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] [OADP-8704] fix: only set region in BSL config for AWS CloudStorage",
-      "url": "https://github.com/openshift/oadp-operator/pull/2419"
     },
     {
       "number": 2434,
@@ -1244,6 +1216,27 @@
   ],
   "issuesCommented": [
     {
+      "number": 9963,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory",
+      "url": "https://github.com/velero-io/velero/issues/9963"
+    },
+    {
+      "number": 2386,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD",
+      "url": "https://github.com/openshift/oadp-operator/issues/2386"
+    },
+    {
+      "number": 9735,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero should add a clear error when data mover pod is unschedulable due to affinity/topology mismatch",
+      "url": "https://github.com/velero-io/velero/issues/9735"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1424,16 +1417,16 @@
       "org": "tailscale",
       "title": "Support mDNS for name and service resolution",
       "url": "https://github.com/tailscale/tailscale/issues/1013"
-    },
-    {
-      "number": 481,
-      "repo": "actions/setup-go",
-      "org": "actions",
-      "title": "Support using a later patch release than what's in go.mod",
-      "url": "https://github.com/actions/setup-go/issues/481"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2386,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD",
+      "url": "https://github.com/openshift/oadp-operator/issues/2386"
+    },
     {
       "number": 10295,
       "repo": "velero-io/velero",
@@ -1468,13 +1461,6 @@
       "org": "migtools",
       "title": "DataUpload stuck forever: \"VMBT already prepared but VMB not yet visible in cache, requeuing\"",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/211"
-    },
-    {
-      "number": 1623,
-      "repo": "sooperset/mcp-atlassian",
-      "org": "sooperset",
-      "title": "jira_transition_issue's `comment` argument silently dropped on Jira Cloud (transition succeeds, comment never posts)",
-      "url": "https://github.com/sooperset/mcp-atlassian/issues/1623"
     }
   ]
 }
