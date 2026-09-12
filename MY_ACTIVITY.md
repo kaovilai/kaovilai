@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-29 — 2026-09-12
-> **Generated:** 2026-09-12 04:19:39 UTC
+> **Generated:** 2026-09-12 10:34:25 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -126,8 +126,8 @@
 ## PRs Reviewed (79)
 
 **velero-io** (10)
-- [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
+- [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
 - [#10507 install: default --wait to true and add --no-wait flag](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
 - [#10523 Let uploader to control fallback centrally](https://github.com/velero-io/velero/pull/10523) — velero-io/velero
 - [#10479 Report incremental fallback message](https://github.com/velero-io/velero/pull/10479) — velero-io/velero
