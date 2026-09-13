@@ -1,13 +1,13 @@
 {
   "period": {
-    "start": "2026-08-29",
-    "end": "2026-09-12"
+    "start": "2026-08-30",
+    "end": "2026-09-13"
   },
-  "generatedAt": "2026-09-12T20:27:53Z",
+  "generatedAt": "2026-09-13T04:33:04Z",
   "metrics": {
     "prsMerged": 47,
-    "prsOpened": 45,
-    "prsReviewed": 79,
+    "prsOpened": 41,
+    "prsReviewed": 78,
     "issuesCommented": 29,
     "issuesClosed": 6
   },
@@ -629,34 +629,6 @@
       "org": "kubevirt",
       "title": "Fix conversion webhook crash on legacy featureGates empty-object shape",
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552"
-    },
-    {
-      "number": 213,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: speed up Dockerfile builds with cache mounts",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213"
-    },
-    {
-      "number": 84229,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: bump e2e-test-kubevirt-aws timeout to 3h",
-      "url": "https://github.com/openshift/release/pull/84229"
-    },
-    {
-      "number": 84228,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
-      "url": "https://github.com/openshift/release/pull/84228"
-    },
-    {
-      "number": 212,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212"
     }
   ],
   "prsReviewed": [
@@ -1205,13 +1177,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] alt: merge-patch expected-backup-type annotation instead of retrying Update",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/214"
-    },
-    {
-      "number": 10447,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump the github-actions group with 2 updates",
-      "url": "https://github.com/velero-io/velero/pull/10447"
     }
   ],
   "issuesCommented": [
