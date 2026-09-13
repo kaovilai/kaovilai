@@ -1,14 +1,14 @@
 # Activity Log
 
 > **Period:** 2026-08-30 — 2026-09-13
-> **Generated:** 2026-09-13 04:33:04 UTC
+> **Generated:** 2026-09-13 11:37:28 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 47 |
 | PRs Opened | 41 |
 | PRs Reviewed | 78 |
-| Issues/PRs Commented | 29 |
+| Issues/PRs Commented | 30 |
 | Issues Closed | 6 |
 
 ---
@@ -206,7 +206,7 @@
 **Other** (2)
 - [#394 feat(network): support internal networks](https://github.com/socktainer/socktainer/pull/394) — socktainer/socktainer
 - [#184 Fix CVE remediation dependency rollbacks](https://github.com/oadp-rebasebot/oadp-rebase/pull/184) — oadp-rebasebot/oadp-rebase
-## Issues/PRs Commented On (29)
+## Issues/PRs Commented On (30)
 
 **velero-io** (16)
 - [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
@@ -226,7 +226,8 @@
 - [#9318 Behavior of skip volume policy is strange/problematic](https://github.com/velero-io/velero/issues/9318) — velero-io/velero
 - [#9453 DataUpload tasks stuck in Prepared phase for extended periods](https://github.com/velero-io/velero/issues/9453) — velero-io/velero
 
-**openshift** (4)
+**openshift** (5)
+- [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#2386 Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/issues/2386) — openshift/oadp-operator
 - [#2403 e2e: Simple backup and restore flow using MinIO w/ TLS certs](https://github.com/openshift/oadp-operator/issues/2403) — openshift/oadp-operator
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
