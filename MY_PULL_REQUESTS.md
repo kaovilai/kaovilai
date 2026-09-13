@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-12 19:45:34 UTC
+> Last updated: 2026-09-13 01:41:05 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -115,7 +115,6 @@ No open PRs.
 ## Other
 
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
-- [![PR #1531](https://img.shields.io/badge/PR%20%231531-ready-green)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-ready-green)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
@@ -145,6 +144,7 @@ No open PRs.
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #126](https://img.shields.io/badge/PR%20%23126-stale-yellow)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
+- [![PR #1531](https://img.shields.io/badge/PR%20%231531-stale-yellow)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/CarmiWisemon/openshift-docs/pull/1) **CarmiWisemon/openshift-docs** → `oadp1178flags` - keep .gitignore
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/ci-docs/pull/1) **kaovilai/ci-docs** → `main` - docs: Testing OLM-Deployed Operators in CI — add FBC catalog image and OLMv1 guidance
