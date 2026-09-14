@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-13 19:56:15 UTC
+> Last updated: 2026-09-14 03:11:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -15,7 +15,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10425](https://img.shields.io/badge/PR%20%2310425-ready-green)](https://github.com/velero-io/velero/pull/10425) **velero-io/velero** → `release-1.17` - [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10426](https://img.shields.io/badge/PR%20%2310426-ready-green)](https://github.com/velero-io/velero/pull/10426) **velero-io/velero** → `release-1.18` - [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
-- [![PR #267](https://img.shields.io/badge/PR%20%23267-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #268](https://img.shields.io/badge/PR%20%23268-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/268) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)
 - [![PR #269](https://img.shields.io/badge/PR%20%23269-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/269) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
@@ -44,6 +43,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10306](https://img.shields.io/badge/PR%20%2310306-draft-gray)](https://github.com/velero-io/velero/pull/10306) **velero-io/velero** → `main` - Degrade CBT bitmap failures to allocated blocks instead of whole-device (milestone: **v1.19**)
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
+- [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-failing--ci-red)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
