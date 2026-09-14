@@ -3,12 +3,12 @@
     "start": "2026-08-31",
     "end": "2026-09-14"
   },
-  "generatedAt": "2026-09-14T12:22:59Z",
+  "generatedAt": "2026-09-14T17:53:51Z",
   "metrics": {
     "prsMerged": 47,
     "prsOpened": 40,
     "prsReviewed": 77,
-    "issuesCommented": 29,
+    "issuesCommented": 30,
     "issuesClosed": 6
   },
   "prsMerged": [
@@ -626,18 +626,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 10507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "install: clarify --wait flag behavior, default false",
-      "url": "https://github.com/velero-io/velero/pull/10507"
-    },
-    {
       "number": 10526,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Fix schedule create dropping backup type",
       "url": "https://github.com/velero-io/velero/pull/10526"
+    },
+    {
+      "number": 10507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "install: clarify --wait flag behavior, default false",
+      "url": "https://github.com/velero-io/velero/pull/10507"
     },
     {
       "number": 221,
@@ -1166,6 +1166,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 14,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/14"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
