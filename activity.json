@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-08-30",
-    "end": "2026-09-13"
+    "start": "2026-08-31",
+    "end": "2026-09-14"
   },
-  "generatedAt": "2026-09-13T20:39:16Z",
+  "generatedAt": "2026-09-14T04:22:57Z",
   "metrics": {
     "prsMerged": 47,
-    "prsOpened": 41,
-    "prsReviewed": 78,
-    "issuesCommented": 30,
+    "prsOpened": 40,
+    "prsReviewed": 77,
+    "issuesCommented": 29,
     "issuesClosed": 6
   },
   "prsMerged": [
@@ -622,13 +622,6 @@
       "org": "openshift",
       "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
       "url": "https://github.com/openshift/oadp-operator/pull/2423"
-    },
-    {
-      "number": 4552,
-      "repo": "kubevirt/hyperconverged-cluster-operator",
-      "org": "kubevirt",
-      "title": "Fix conversion webhook crash on legacy featureGates empty-object shape",
-      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552"
     }
   ],
   "prsReviewed": [
@@ -1088,13 +1081,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2430"
     },
     {
-      "number": 10449,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix snapshot-location get --selector flag to actually filter VolumeSnapshotLocations by label",
-      "url": "https://github.com/velero-io/velero/pull/10449"
-    },
-    {
       "number": 10474,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1181,6 +1167,34 @@
   ],
   "issuesCommented": [
     {
+      "number": 2525,
+      "repo": "github/github-mcp-server",
+      "org": "github",
+      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
+      "url": "https://github.com/github/github-mcp-server/issues/2525"
+    },
+    {
+      "number": 8263,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fatal: unable to open config file results in PartiallyFailed Backup",
+      "url": "https://github.com/velero-io/velero/issues/8263"
+    },
+    {
+      "number": 9318,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Behavior of skip volume policy is strange/problematic",
+      "url": "https://github.com/velero-io/velero/issues/9318"
+    },
+    {
+      "number": 9453,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DataUpload tasks stuck in Prepared phase for extended periods",
+      "url": "https://github.com/velero-io/velero/issues/9453"
+    },
+    {
       "number": 36873,
       "repo": "n8n-io/n8n",
       "org": "n8n-io",
@@ -1235,13 +1249,6 @@
       "org": "velero-io",
       "title": "S3 client-side encryption support",
       "url": "https://github.com/velero-io/velero/issues/3218"
-    },
-    {
-      "number": 2525,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
-      "url": "https://github.com/github/github-mcp-server/issues/2525"
     },
     {
       "number": 7507,
@@ -1361,34 +1368,6 @@
       "org": "velero-io",
       "title": "Block level backup/restore support",
       "url": "https://github.com/velero-io/velero/issues/9556"
-    },
-    {
-      "number": 8263,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fatal: unable to open config file results in PartiallyFailed Backup",
-      "url": "https://github.com/velero-io/velero/issues/8263"
-    },
-    {
-      "number": 9318,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Behavior of skip volume policy is strange/problematic",
-      "url": "https://github.com/velero-io/velero/issues/9318"
-    },
-    {
-      "number": 9453,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DataUpload tasks stuck in Prepared phase for extended periods",
-      "url": "https://github.com/velero-io/velero/issues/9453"
-    },
-    {
-      "number": 1013,
-      "repo": "tailscale/tailscale",
-      "org": "tailscale",
-      "title": "Support mDNS for name and service resolution",
-      "url": "https://github.com/tailscale/tailscale/issues/1013"
     }
   ],
   "issuesClosed": [
