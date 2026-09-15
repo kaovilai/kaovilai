@@ -3,15 +3,22 @@
     "start": "2026-09-01",
     "end": "2026-09-15"
   },
-  "generatedAt": "2026-09-15T01:17:55Z",
+  "generatedAt": "2026-09-15T11:28:42Z",
   "metrics": {
-    "prsMerged": 45,
+    "prsMerged": 46,
     "prsOpened": 40,
-    "prsReviewed": 74,
-    "issuesCommented": 31,
+    "prsReviewed": 75,
+    "issuesCommented": 33,
     "issuesClosed": 5
   },
   "prsMerged": [
+    {
+      "number": 10027,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add set-based label selector test and docs coverage for restore",
+      "url": "https://github.com/velero-io/velero/pull/10027"
+    },
     {
       "number": 9575,
       "repo": "velero-io/velero",
@@ -612,11 +619,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 192,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "update plugins to 1.14.3-rc.2",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/192"
+      "number": 10507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "install: clarify --wait flag behavior, default false",
+      "url": "https://github.com/velero-io/velero/pull/10507"
     },
     {
       "number": 10526,
@@ -626,11 +633,18 @@
       "url": "https://github.com/velero-io/velero/pull/10526"
     },
     {
-      "number": 10507,
+      "number": 10530,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "install: clarify --wait flag behavior, default false",
-      "url": "https://github.com/velero-io/velero/pull/10507"
+      "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
+      "url": "https://github.com/velero-io/velero/pull/10530"
+    },
+    {
+      "number": 192,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "update plugins to 1.14.3-rc.2",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/192"
     },
     {
       "number": 221,
@@ -1132,6 +1146,27 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 10232,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
+      "url": "https://github.com/velero-io/velero/issues/10232"
+    },
+    {
+      "number": 8279,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
+      "url": "https://github.com/velero-io/velero/issues/8279"
+    },
+    {
       "number": 9476,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1144,13 +1179,6 @@
       "org": "migtools",
       "title": "Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/14"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 2525,
