@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-09-01 — 2026-09-15
-> **Generated:** 2026-09-15 16:32:15 UTC
+> **Generated:** 2026-09-15 20:03:28 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -121,8 +121,8 @@
 ## PRs Reviewed (78)
 
 **velero-io** (10)
-- [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
+- [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
 - [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
@@ -208,8 +208,8 @@
 ## Issues/PRs Commented On (33)
 
 **velero-io** (19)
-- [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
+- [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
 - [#9476 Remove whitelist for tolerations of PodVolumeBackup Pod](https://github.com/velero-io/velero/issues/9476) — velero-io/velero
 - [#8263 Fatal: unable to open config file results in PartiallyFailed Backup](https://github.com/velero-io/velero/issues/8263) — velero-io/velero
 - [#9318 Behavior of skip volume policy is strange/problematic](https://github.com/velero-io/velero/issues/9318) — velero-io/velero

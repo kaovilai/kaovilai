@@ -3,7 +3,7 @@
     "start": "2026-09-01",
     "end": "2026-09-15"
   },
-  "generatedAt": "2026-09-15T16:32:15Z",
+  "generatedAt": "2026-09-15T20:03:28Z",
   "metrics": {
     "prsMerged": 46,
     "prsOpened": 41,
@@ -633,6 +633,13 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2448"
     },
     {
+      "number": 10507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "install: clarify --wait flag behavior, default false",
+      "url": "https://github.com/velero-io/velero/pull/10507"
+    },
+    {
       "number": 62,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
@@ -645,13 +652,6 @@
       "org": "velero-io",
       "title": "Fix stale contributor documentation link",
       "url": "https://github.com/velero-io/velero/pull/10463"
-    },
-    {
-      "number": 10507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "install: clarify --wait flag behavior, default false",
-      "url": "https://github.com/velero-io/velero/pull/10507"
     },
     {
       "number": 10526,
@@ -1174,6 +1174,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 8279,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
+      "url": "https://github.com/velero-io/velero/issues/8279"
+    },
+    {
       "number": 10232,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1186,13 +1193,6 @@
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
-      "number": 8279,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
-      "url": "https://github.com/velero-io/velero/issues/8279"
     },
     {
       "number": 9476,
