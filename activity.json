@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-08-31",
-    "end": "2026-09-14"
+    "start": "2026-09-01",
+    "end": "2026-09-15"
   },
-  "generatedAt": "2026-09-14T21:37:46Z",
+  "generatedAt": "2026-09-15T00:23:11Z",
   "metrics": {
-    "prsMerged": 48,
-    "prsOpened": 41,
-    "prsReviewed": 78,
-    "issuesCommented": 30,
-    "issuesClosed": 6
+    "prsMerged": 45,
+    "prsOpened": 40,
+    "prsReviewed": 74,
+    "issuesCommented": 31,
+    "issuesClosed": 5
   },
   "prsMerged": [
+    {
+      "number": 9575,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add configurable tolerations for PodVolumeBackup and data mover pods",
+      "url": "https://github.com/velero-io/velero/pull/9575"
+    },
     {
       "number": 1,
       "repo": "kaovilai/android_vendor_amazon_maverick",
@@ -319,34 +326,6 @@
       "org": "velero-io",
       "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
       "url": "https://github.com/velero-io/velero/pull/10403"
-    },
-    {
-      "number": 212,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212"
-    },
-    {
-      "number": 208,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: recognize VirtualMachineBackup's renamed Complete condition",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/208"
-    },
-    {
-      "number": 207,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "alt: merge-patch expected-backup-type annotation instead of retrying Update",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/207"
-    },
-    {
-      "number": 10406,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10406"
     }
   ],
   "prsOpened": [
@@ -629,13 +608,6 @@
       "org": "openshift",
       "title": "oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin",
       "url": "https://github.com/openshift/release/pull/84337"
-    },
-    {
-      "number": 2423,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2423"
     }
   ],
   "prsReviewed": [
@@ -1156,37 +1128,16 @@
       "org": "openshift",
       "title": "[oadp-1.6] fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
       "url": "https://github.com/openshift/oadp-operator/pull/2424"
-    },
-    {
-      "number": 215,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: recognize VirtualMachineBackup's renamed Complete condition",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/215"
-    },
-    {
-      "number": 216,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/216"
-    },
-    {
-      "number": 2422,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] e2e: add cacert tests using in-cluster minio with TLS",
-      "url": "https://github.com/openshift/oadp-operator/pull/2422"
-    },
-    {
-      "number": 214,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] alt: merge-patch expected-backup-type annotation instead of retrying Update",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/214"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9476,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove whitelist for tolerations of PodVolumeBackup Pod",
+      "url": "https://github.com/velero-io/velero/issues/9476"
+    },
     {
       "number": 14,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -1433,13 +1384,6 @@
       "org": "kubevirt",
       "title": "v1beta1→v1 conversion webhook fails on spec.featureGates: \"cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates\"",
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549"
-    },
-    {
-      "number": 211,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload stuck forever: \"VMBT already prepared but VMB not yet visible in cache, requeuing\"",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/211"
     }
   ]
 }
