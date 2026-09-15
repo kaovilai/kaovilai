@@ -3,11 +3,11 @@
     "start": "2026-09-01",
     "end": "2026-09-15"
   },
-  "generatedAt": "2026-09-15T20:03:28Z",
+  "generatedAt": "2026-09-15T23:27:03Z",
   "metrics": {
     "prsMerged": 46,
     "prsOpened": 41,
-    "prsReviewed": 78,
+    "prsReviewed": 80,
     "issuesCommented": 33,
     "issuesClosed": 5
   },
@@ -625,6 +625,20 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2449,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] chore(deps): migrate MinIO image registry from Docker Hub to Quay",
+      "url": "https://github.com/openshift/oadp-operator/pull/2449"
+    },
+    {
+      "number": 10521,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10521"
+    },
     {
       "number": 2448,
       "repo": "openshift/oadp-operator",

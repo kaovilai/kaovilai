@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-01 — 2026-09-15
-> **Generated:** 2026-09-15 20:03:28 UTC
+> **Generated:** 2026-09-15 23:27:03 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 46 |
 | PRs Opened | 41 |
-| PRs Reviewed | 78 |
+| PRs Reviewed | 80 |
 | Issues/PRs Commented | 33 |
 | Issues Closed | 5 |
 
@@ -118,9 +118,10 @@
 - [#175 Skip Test/Override buttons on tide's own status context](https://github.com/kaovilai/github-bot-command-palette/pull/175) — kaovilai/github-bot-command-palette
 - [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 - [#173 Combo auto-submit window, override on pending checks, native Approve sync](https://github.com/kaovilai/github-bot-command-palette/pull/173) — kaovilai/github-bot-command-palette
-## PRs Reviewed (78)
+## PRs Reviewed (80)
 
-**velero-io** (10)
+**velero-io** (11)
+- [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
 - [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
@@ -132,7 +133,8 @@
 - [#10474 [release-1.18] Add operation context to user-facing error messages](https://github.com/velero-io/velero/pull/10474) — velero-io/velero
 - [#10464 Add operation context to user-facing error messages](https://github.com/velero-io/velero/pull/10464) — velero-io/velero
 
-**openshift** (35)
+**openshift** (36)
+- [#2449 [oadp-1.6] chore(deps): migrate MinIO image registry from Docker Hub to Quay](https://github.com/openshift/oadp-operator/pull/2449) — openshift/oadp-operator
 - [#2448 chore(deps): migrate MinIO image registry from Docker Hub to Quay](https://github.com/openshift/oadp-operator/pull/2448) — openshift/oadp-operator
 - [#84954 Remove OADP rebasebot periodic jobs](https://github.com/openshift/release/pull/84954) — openshift/release
 - [#2447 [oadp-1.6] fix: don't check VEP-25 CRDs before the feature gate that creates them](https://github.com/openshift/oadp-operator/pull/2447) — openshift/oadp-operator
