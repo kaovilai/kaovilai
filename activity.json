@@ -3,7 +3,7 @@
     "start": "2026-09-02",
     "end": "2026-09-16"
   },
-  "generatedAt": "2026-09-16T01:12:13Z",
+  "generatedAt": "2026-09-16T11:14:30Z",
   "metrics": {
     "prsMerged": 42,
     "prsOpened": 36,
@@ -563,6 +563,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10530,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
+      "url": "https://github.com/velero-io/velero/pull/10530"
+    },
+    {
+      "number": 10507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "install: clarify --wait flag behavior, default false",
+      "url": "https://github.com/velero-io/velero/pull/10507"
+    },
+    {
       "number": 2449,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -584,13 +598,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2448"
     },
     {
-      "number": 10507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "install: clarify --wait flag behavior, default false",
-      "url": "https://github.com/velero-io/velero/pull/10507"
-    },
-    {
       "number": 62,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
@@ -610,13 +617,6 @@
       "org": "velero-io",
       "title": "Fix schedule create dropping backup type",
       "url": "https://github.com/velero-io/velero/pull/10526"
-    },
-    {
-      "number": 10530,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
-      "url": "https://github.com/velero-io/velero/pull/10530"
     },
     {
       "number": 192,
@@ -1097,6 +1097,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 8279,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1109,13 +1116,6 @@
       "org": "velero-io",
       "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
       "url": "https://github.com/velero-io/velero/issues/10232"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9476,
