@@ -3,11 +3,11 @@
     "start": "2026-09-02",
     "end": "2026-09-16"
   },
-  "generatedAt": "2026-09-16T11:14:30Z",
+  "generatedAt": "2026-09-16T16:24:24Z",
   "metrics": {
     "prsMerged": 42,
     "prsOpened": 36,
-    "prsReviewed": 76,
+    "prsReviewed": 77,
     "issuesCommented": 29,
     "issuesClosed": 4
   },
@@ -563,6 +563,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 10537,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add doc for block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10537"
+    },
+    {
+      "number": 10521,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10521"
+    },
+    {
+      "number": 62,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "update kubevirt-datamover-controller dependency and remove replace",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/62"
+    },
+    {
       "number": 10530,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -584,25 +605,11 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2449"
     },
     {
-      "number": 10521,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10521"
-    },
-    {
       "number": 2448,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "chore(deps): migrate MinIO image registry from Docker Hub to Quay",
       "url": "https://github.com/openshift/oadp-operator/pull/2448"
-    },
-    {
-      "number": 62,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "update kubevirt-datamover-controller dependency and remove replace",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/62"
     },
     {
       "number": 10463,

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-02 — 2026-09-16
-> **Generated:** 2026-09-16 11:14:30 UTC
+> **Generated:** 2026-09-16 16:24:24 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 42 |
 | PRs Opened | 36 |
-| PRs Reviewed | 76 |
+| PRs Reviewed | 77 |
 | Issues/PRs Commented | 29 |
 | Issues Closed | 4 |
 
@@ -107,12 +107,13 @@
 - [#175 Skip Test/Override buttons on tide's own status context](https://github.com/kaovilai/github-bot-command-palette/pull/175) — kaovilai/github-bot-command-palette
 - [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 - [#173 Combo auto-submit window, override on pending checks, native Approve sync](https://github.com/kaovilai/github-bot-command-palette/pull/173) — kaovilai/github-bot-command-palette
-## PRs Reviewed (76)
+## PRs Reviewed (77)
 
-**velero-io** (11)
+**velero-io** (12)
+- [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
+- [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
-- [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
