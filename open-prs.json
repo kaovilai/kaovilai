@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:27:50Z",
+  "updatedAt": "2026-09-16T01:02:09Z",
   "prs": [
     {
       "number": 10010,
@@ -273,6 +273,27 @@
       "updatedAt": "2026-09-15T14:05:49Z"
     },
     {
+      "number": 9772,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/pull/9772",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "Area/Design",
+        "kind/changelog-not-required"
+      ],
+      "updatedAt": "2026-09-15T23:14:52Z"
+    },
+    {
       "number": 9910,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -491,27 +512,6 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-14T21:05:20Z"
-    },
-    {
-      "number": 9772,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/9772",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "Area/Design",
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-09-15T23:14:52Z"
     },
     {
       "number": 10025,
@@ -2936,7 +2936,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-15T23:27:50Z",
+    "updatedAt": "2026-09-16T01:02:09Z",
     "needsReview": [
       {
         "number": 68,
@@ -2959,7 +2959,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 670,
+        "waitingDays": 671,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3228,6 +3228,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 63,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3285,30 +3309,6 @@
         "reason": "hold",
         "waitingDays": 62,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 62,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3553,7 +3553,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
