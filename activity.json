@@ -3,11 +3,11 @@
     "start": "2026-09-02",
     "end": "2026-09-16"
   },
-  "generatedAt": "2026-09-16T19:52:23Z",
+  "generatedAt": "2026-09-16T22:43:26Z",
   "metrics": {
     "prsMerged": 42,
     "prsOpened": 36,
-    "prsReviewed": 77,
+    "prsReviewed": 81,
     "issuesCommented": 29,
     "issuesClosed": 4
   },
@@ -563,6 +563,69 @@
   ],
   "prsReviewed": [
     {
+      "number": 620,
+      "repo": "konveyor/operator",
+      "org": "konveyor",
+      "title": ":sparkles: Restrict operand egress via NetworkPolicy",
+      "url": "https://github.com/konveyor/operator/pull/620"
+    },
+    {
+      "number": 236,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Fix default max concurrent data movers",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 167,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/167"
+    },
+    {
+      "number": 59,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/59"
+    },
+    {
+      "number": 469,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/469"
+    },
+    {
+      "number": 167,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/167"
+    },
+    {
+      "number": 235,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Fix default max concurrent data movers",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/235"
+    },
+    {
+      "number": 10530,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
+      "url": "https://github.com/velero-io/velero/pull/10530"
+    },
+    {
+      "number": 10539,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10539"
+    },
+    {
       "number": 10521,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -582,13 +645,6 @@
       "org": "migtools",
       "title": "update kubevirt-datamover-controller dependency and remove replace",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/62"
-    },
-    {
-      "number": 10530,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
-      "url": "https://github.com/velero-io/velero/pull/10530"
     },
     {
       "number": 10507,
@@ -864,20 +920,6 @@
       "url": "https://github.com/migtools/kopia/pull/50"
     },
     {
-      "number": 167,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/167"
-    },
-    {
-      "number": 167,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/167"
-    },
-    {
       "number": 165,
       "repo": "openshift/velero-plugin-for-aws",
       "org": "openshift",
@@ -890,20 +932,6 @@
       "org": "openshift",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/openshift/oadp-must-gather/pull/166"
-    },
-    {
-      "number": 469,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/469"
-    },
-    {
-      "number": 59,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/59"
     },
     {
       "number": 2434,
@@ -955,18 +983,18 @@
       "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/83"
     },
     {
-      "number": 467,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
-    },
-    {
       "number": 263,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/migtools/oadp-cli/pull/263"
+    },
+    {
+      "number": 467,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
     },
     {
       "number": 37,

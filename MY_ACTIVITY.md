@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-02 — 2026-09-16
-> **Generated:** 2026-09-16 19:52:23 UTC
+> **Generated:** 2026-09-16 22:43:26 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 42 |
 | PRs Opened | 36 |
-| PRs Reviewed | 77 |
+| PRs Reviewed | 81 |
 | Issues/PRs Commented | 29 |
 | Issues Closed | 4 |
 
@@ -107,12 +107,13 @@
 - [#175 Skip Test/Override buttons on tide's own status context](https://github.com/kaovilai/github-bot-command-palette/pull/175) — kaovilai/github-bot-command-palette
 - [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 - [#173 Combo auto-submit window, override on pending checks, native Approve sync](https://github.com/kaovilai/github-bot-command-palette/pull/173) — kaovilai/github-bot-command-palette
-## PRs Reviewed (77)
+## PRs Reviewed (81)
 
-**velero-io** (12)
+**velero-io** (13)
+- [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
+- [#10539 [Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10539) — velero-io/velero
 - [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
-- [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
 - [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
@@ -124,6 +125,9 @@
 - [#10464 Add operation context to user-facing error messages](https://github.com/velero-io/velero/pull/10464) — velero-io/velero
 
 **openshift** (33)
+- [#167 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-gcp/pull/167) — openshift/velero-plugin-for-gcp
+- [#469 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/openshift-velero-plugin/pull/469) — openshift/openshift-velero-plugin
+- [#167 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/167) — openshift/velero-plugin-for-microsoft-azure
 - [#2449 [oadp-1.6] chore(deps): migrate MinIO image registry from Docker Hub to Quay](https://github.com/openshift/oadp-operator/pull/2449) — openshift/oadp-operator
 - [#2448 chore(deps): migrate MinIO image registry from Docker Hub to Quay](https://github.com/openshift/oadp-operator/pull/2448) — openshift/oadp-operator
 - [#84954 Remove OADP rebasebot periodic jobs](https://github.com/openshift/release/pull/84954) — openshift/release
@@ -139,11 +143,8 @@
 - [#2436 [oadp-1.6] OADP-7895 CRD changes for the non admin describe command issue](https://github.com/openshift/oadp-operator/pull/2436) — openshift/oadp-operator
 - [#571 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero/pull/571) — openshift/velero
 - [#309 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/hypershift-oadp-plugin/pull/309) — openshift/hypershift-oadp-plugin
-- [#167 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/167) — openshift/velero-plugin-for-microsoft-azure
-- [#167 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-gcp/pull/167) — openshift/velero-plugin-for-gcp
 - [#165 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-aws/pull/165) — openshift/velero-plugin-for-aws
 - [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/oadp-must-gather/pull/166) — openshift/oadp-must-gather
-- [#469 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/openshift-velero-plugin/pull/469) — openshift/openshift-velero-plugin
 - [#2434 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/oadp-operator/pull/2434) — openshift/oadp-operator
 - [#2431 OADP-7895 CRD changes for the non admin describe command issue](https://github.com/openshift/oadp-operator/pull/2431) — openshift/oadp-operator
 - [#467 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6](https://github.com/openshift/openshift-velero-plugin/pull/467) — openshift/openshift-velero-plugin
@@ -158,7 +159,10 @@
 - [#2430 Fix VMFR NetworkPolicy egress to BSL endpoints](https://github.com/openshift/oadp-operator/pull/2430) — openshift/oadp-operator
 - [#165 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/165) — openshift/velero-plugin-for-microsoft-azure
 
-**migtools** (29)
+**migtools** (31)
+- [#236 Fix default max concurrent data movers](https://github.com/migtools/kubevirt-datamover-controller/pull/236) — migtools/kubevirt-datamover-controller
+- [#59 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-plugin/pull/59) — migtools/kubevirt-datamover-plugin
+- [#235 Fix default max concurrent data movers](https://github.com/migtools/kubevirt-datamover-controller/pull/235) — migtools/kubevirt-datamover-controller
 - [#62 update kubevirt-datamover-controller dependency and remove replace](https://github.com/migtools/kubevirt-datamover-plugin/pull/62) — migtools/kubevirt-datamover-plugin
 - [#221 build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1](https://github.com/migtools/kubevirt-datamover-controller/pull/221) — migtools/kubevirt-datamover-controller
 - [#61 [oadp-1.6] issue #14: allow users to skip quiesce via Backup or VM](https://github.com/migtools/kubevirt-datamover-plugin/pull/61) — migtools/kubevirt-datamover-plugin
@@ -175,7 +179,6 @@
 - [#38 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/filebrowser/pull/38) — migtools/filebrowser
 - [#104 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-vm-file-restore/pull/104) — migtools/oadp-vm-file-restore
 - [#50 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kopia/pull/50) — migtools/kopia
-- [#59 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-plugin/pull/59) — migtools/kubevirt-datamover-plugin
 - [#379 [oadp-1.6] OADP-7895 : Fix for oc oadp nonadmin backup describe shows Pod Volume…](https://github.com/migtools/oadp-non-admin/pull/379) — migtools/oadp-non-admin
 - [#58 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/kubevirt-datamover-plugin/pull/58) — migtools/kubevirt-datamover-plugin
 - [#103 Add PrasadJoshi12 as approver and reviewer](https://github.com/migtools/oadp-vm-file-restore/pull/103) — migtools/oadp-vm-file-restore
@@ -189,7 +192,8 @@
 - [#57 Bump google.golang.org/grpc from 1.82.1 to 1.83.1](https://github.com/migtools/kubevirt-datamover-plugin/pull/57) — migtools/kubevirt-datamover-plugin
 - [#102 Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (1208cdf) into oadp-1.6](https://github.com/migtools/oadp-vm-file-restore/pull/102) — migtools/oadp-vm-file-restore
 
-**Other** (3)
+**Other** (4)
+- [#620 :sparkles: Restrict operand egress via NetworkPolicy](https://github.com/konveyor/operator/pull/620) — konveyor/operator
 - [#192 update plugins to 1.14.3-rc.2](https://github.com/oadp-rebasebot/oadp-rebase/pull/192) — oadp-rebasebot/oadp-rebase
 - [#394 feat(network): support internal networks](https://github.com/socktainer/socktainer/pull/394) — socktainer/socktainer
 - [#184 Fix CVE remediation dependency rollbacks](https://github.com/oadp-rebasebot/oadp-rebase/pull/184) — oadp-rebasebot/oadp-rebase
