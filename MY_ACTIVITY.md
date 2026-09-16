@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-09-02 — 2026-09-16
-> **Generated:** 2026-09-16 16:24:24 UTC
+> **Generated:** 2026-09-16 19:52:23 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -110,8 +110,8 @@
 ## PRs Reviewed (77)
 
 **velero-io** (12)
-- [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
 - [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
+- [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
 - [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
 - [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
