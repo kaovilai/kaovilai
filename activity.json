@@ -3,15 +3,29 @@
     "start": "2026-09-03",
     "end": "2026-09-17"
   },
-  "generatedAt": "2026-09-17T01:13:34Z",
+  "generatedAt": "2026-09-17T11:22:58Z",
   "metrics": {
-    "prsMerged": 38,
+    "prsMerged": 40,
     "prsOpened": 34,
     "prsReviewed": 73,
-    "issuesCommented": 27,
-    "issuesClosed": 4
+    "issuesCommented": 29,
+    "issuesClosed": 6
   },
   "prsMerged": [
+    {
+      "number": 9221,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
+      "url": "https://github.com/velero-io/velero/pull/9221"
+    },
+    {
+      "number": 9772,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/pull/9772"
+    },
     {
       "number": 10027,
       "repo": "velero-io/velero",
@@ -521,6 +535,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 10539,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10539"
+    },
+    {
+      "number": 10521,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10521"
+    },
+    {
+      "number": 10537,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add doc for block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10537"
+    },
+    {
       "number": 236,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -575,27 +610,6 @@
       "org": "velero-io",
       "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
       "url": "https://github.com/velero-io/velero/pull/10530"
-    },
-    {
-      "number": 10539,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10539"
-    },
-    {
-      "number": 10521,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10521"
-    },
-    {
-      "number": 10537,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add doc for block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10537"
     },
     {
       "number": 62,
@@ -1041,6 +1055,20 @@
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
+      "number": 8363,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "VolumePolicies filter volumes to snapshot by volume name",
+      "url": "https://github.com/velero-io/velero/issues/8363"
+    },
+    {
+      "number": 2812,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore fails with error \"no space left on device\" if PVCs are 100% utilised during backup",
+      "url": "https://github.com/velero-io/velero/issues/2812"
+    },
+    {
       "number": 8279,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1224,6 +1252,20 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 8363,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "VolumePolicies filter volumes to snapshot by volume name",
+      "url": "https://github.com/velero-io/velero/issues/8363"
+    },
+    {
+      "number": 9771,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: ResourcePolicy-based namespace selection by label",
+      "url": "https://github.com/velero-io/velero/issues/9771"
+    },
     {
       "number": 2386,
       "repo": "openshift/oadp-operator",

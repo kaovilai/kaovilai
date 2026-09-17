@@ -1,21 +1,23 @@
 # Activity Log
 
 > **Period:** 2026-09-03 — 2026-09-17
-> **Generated:** 2026-09-17 01:13:34 UTC
+> **Generated:** 2026-09-17 11:22:58 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 38 |
+| PRs Merged | 40 |
 | PRs Opened | 34 |
 | PRs Reviewed | 73 |
-| Issues/PRs Commented | 27 |
-| Issues Closed | 4 |
+| Issues/PRs Commented | 29 |
+| Issues Closed | 6 |
 
 ---
 
-## PRs Merged (38)
+## PRs Merged (40)
 
-**velero-io** (4)
+**velero-io** (6)
+- [#9221 docs: Document --write-sparse-files flag for disk space issues during restore](https://github.com/velero-io/velero/pull/9221) — velero-io/velero
+- [#9772 Design: namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/9772) — velero-io/velero
 - [#10027 Add set-based label selector test and docs coverage for restore](https://github.com/velero-io/velero/pull/10027) — velero-io/velero
 - [#9575 Add configurable tolerations for PodVolumeBackup and data mover pods](https://github.com/velero-io/velero/pull/9575) — velero-io/velero
 - [#10318 Fix datamover backup arg mismatch for CSI CBT service account name](https://github.com/velero-io/velero/pull/10318) — velero-io/velero
@@ -104,10 +106,10 @@
 ## PRs Reviewed (73)
 
 **velero-io** (10)
-- [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10539 [Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10539) — velero-io/velero
 - [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
+- [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
@@ -183,9 +185,11 @@
 - [#192 update plugins to 1.14.3-rc.2](https://github.com/oadp-rebasebot/oadp-rebase/pull/192) — oadp-rebasebot/oadp-rebase
 - [#394 feat(network): support internal networks](https://github.com/socktainer/socktainer/pull/394) — socktainer/socktainer
 - [#184 Fix CVE remediation dependency rollbacks](https://github.com/oadp-rebasebot/oadp-rebase/pull/184) — oadp-rebasebot/oadp-rebase
-## Issues/PRs Commented On (27)
+## Issues/PRs Commented On (29)
 
-**velero-io** (16)
+**velero-io** (18)
+- [#8363 VolumePolicies filter volumes to snapshot by volume name](https://github.com/velero-io/velero/issues/8363) — velero-io/velero
+- [#2812 Restore fails with error "no space left on device" if PVCs are 100% utilised during backup](https://github.com/velero-io/velero/issues/2812) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
 - [#9476 Remove whitelist for tolerations of PodVolumeBackup Pod](https://github.com/velero-io/velero/issues/9476) — velero-io/velero
@@ -219,9 +223,11 @@
 - [#915 branchprotector cannot manage required status check GitHub App identity](https://github.com/kubernetes-sigs/prow/issues/915) — kubernetes-sigs/prow
 - [#190 Web Camera is broken](https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190) — EmixamPP/linux-enable-ir-emitter
 - [#4549 v1beta1→v1 conversion webhook fails on spec.featureGates: "cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates"](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549) — kubevirt/hyperconverged-cluster-operator
-## Issues Closed (4)
+## Issues Closed (6)
 
-**velero-io** (3)
+**velero-io** (5)
+- [#8363 VolumePolicies filter volumes to snapshot by volume name](https://github.com/velero-io/velero/issues/8363) — velero-io/velero
+- [#9771 Design: ResourcePolicy-based namespace selection by label](https://github.com/velero-io/velero/issues/9771) — velero-io/velero
 - [#10295 CBT delta-error fallback marks the whole device dirty instead of the design's allocated-blocks full backup](https://github.com/velero-io/velero/issues/10295) — velero-io/velero
 - [#10298 Setting node-agent csiSnapshotMetadataServiceConfigs.saName breaks all CSI snapshot datamover backups (arg/flag name mismatch)](https://github.com/velero-io/velero/issues/10298) — velero-io/velero
 - [#10294 Generic CSI changeID retrieval returns empty — all non-vSphere drivers silently fall back to full backups](https://github.com/velero-io/velero/issues/10294) — velero-io/velero
