@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T01:03:37Z",
+  "updatedAt": "2026-09-17T10:53:43Z",
   "prs": [
     {
       "number": 10010,
@@ -62,7 +62,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-09-16T21:40:54Z"
+      "updatedAt": "2026-09-17T03:09:11Z"
     },
     {
       "number": 10399,
@@ -294,27 +294,6 @@
       "updatedAt": "2026-09-15T14:05:49Z"
     },
     {
-      "number": 9772,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/9772",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "Area/Design",
-        "kind/changelog-not-required"
-      ],
-      "updatedAt": "2026-09-16T20:48:11Z"
-    },
-    {
       "number": 9910,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -334,7 +313,7 @@
         "has-changelog",
         "has-e2e-2tests"
       ],
-      "updatedAt": "2026-09-16T20:56:23Z"
+      "updatedAt": "2026-09-17T03:26:42Z"
     },
     {
       "number": 319,
@@ -881,28 +860,6 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-08-27T17:10:31Z"
-    },
-    {
-      "number": 9221,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
-      "url": "https://github.com/velero-io/velero/pull/9221",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": "Prioritized issues",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "Documentation",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-08-27T18:23:26Z"
     },
     {
       "number": 9384,
@@ -1988,22 +1945,6 @@
       "updatedAt": "2026-08-25T01:21:43Z"
     },
     {
-      "number": 538,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Remove redundant compinit to improve shell startup time",
-      "url": "https://github.com/kaovilai/dotfiles/pull/538",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [],
-      "updatedAt": "2026-07-19T05:18:30Z"
-    },
-    {
       "number": 540,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -2500,6 +2441,22 @@
       "updatedAt": "2026-07-18T05:30:05Z"
     },
     {
+      "number": 538,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "⚡ Bolt: Remove redundant compinit to improve shell startup time",
+      "url": "https://github.com/kaovilai/dotfiles/pull/538",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [],
+      "updatedAt": "2026-07-19T05:18:30Z"
+    },
+    {
       "number": 2,
       "repo": "kaovilai/github-mcp-server",
       "org": "kaovilai",
@@ -2936,7 +2893,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-17T01:03:37Z",
+    "updatedAt": "2026-09-17T10:53:43Z",
     "needsReview": [
       {
         "number": 68,
@@ -2983,7 +2940,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 520,
+        "waitingDays": 521,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -3007,7 +2964,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 509,
+        "waitingDays": 510,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -3031,7 +2988,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 502,
+        "waitingDays": 503,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -3055,7 +3012,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 468,
+        "waitingDays": 469,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -3228,30 +3185,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 64,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3277,8 +3210,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 64,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -3553,7 +3510,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3568,6 +3525,30 @@
         "reason": "awaitingReview",
         "waitingDays": 42,
         "updatedAt": "2026-08-05T22:33:26Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 36,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 46,
@@ -3597,30 +3578,6 @@
         "reason": "awaitingReview",
         "waitingDays": 36,
         "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 35,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -3870,7 +3827,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4105,40 +4062,6 @@
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
-        "number": 9221,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
-        "url": "https://github.com/velero-io/velero/pull/9221",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "Documentation",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "ywk253100",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-08-27T18:23:26Z"
-      },
-      {
         "number": 9384,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4304,7 +4227,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4349,6 +4272,35 @@
         "reason": "hold",
         "waitingDays": 12,
         "updatedAt": "2026-09-04T18:26:55Z"
+      },
+      {
+        "number": 84228,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
+        "url": "https://github.com/openshift/release/pull/84228",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "shakyav"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-09-09T13:32:12Z"
       },
       {
         "number": 213,
@@ -4446,6 +4398,39 @@
         "updatedAt": "2026-09-15T22:50:21Z"
       },
       {
+        "number": 9236,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-09-16T03:44:16Z"
+      },
+      {
         "number": 9770,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4529,20 +4514,18 @@
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
+        "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-16T21:40:54Z"
+        "updatedAt": "2026-09-17T03:09:11Z"
       },
       {
-        "number": 9236,
+        "number": 9910,
         "repo": "velero-io/velero",
         "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -4562,13 +4545,13 @@
         "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
+          "shubham-pampattiwar",
+          "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-16T03:44:16Z"
+        "updatedAt": "2026-09-17T03:26:42Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -5085,7 +5068,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5130,39 +5113,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-09-16T21:50:23Z"
-      },
-      {
-        "number": 9772,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Design: namespace selection by label in resource policy",
-        "url": "https://github.com/velero-io/velero/pull/9772",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "anshulahuja98",
-          "reasonerjt",
-          "Ralthos"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-09-16T20:48:11Z"
       }
     ]
   }
