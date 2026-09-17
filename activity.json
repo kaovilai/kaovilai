@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-02",
-    "end": "2026-09-16"
+    "start": "2026-09-03",
+    "end": "2026-09-17"
   },
-  "generatedAt": "2026-09-16T22:43:26Z",
+  "generatedAt": "2026-09-17T01:13:34Z",
   "metrics": {
-    "prsMerged": 42,
-    "prsOpened": 36,
-    "prsReviewed": 81,
-    "issuesCommented": 29,
+    "prsMerged": 38,
+    "prsOpened": 34,
+    "prsReviewed": 73,
+    "issuesCommented": 27,
     "issuesClosed": 4
   },
   "prsMerged": [
@@ -277,34 +277,6 @@
       "org": "kaovilai",
       "title": "Extend combo window to per-check Override, add pending-button spinner",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174"
-    },
-    {
-      "number": 84490,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/84490"
-    },
-    {
-      "number": 173,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Combo auto-submit window, override on pending checks, native Approve sync",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173"
-    },
-    {
-      "number": 10458,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip kind E2E tests on PRs that don't touch Go code or the workflow itself",
-      "url": "https://github.com/velero-io/velero/pull/10458"
-    },
-    {
-      "number": 2404,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "test: unpend two kdm restore PIts, fixing bugs found via live e2e validation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2404"
     }
   ],
   "prsOpened": [
@@ -545,36 +517,22 @@
       "org": "kaovilai",
       "title": "Extend combo window to per-check Override, add pending-button spinner",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174"
-    },
-    {
-      "number": 173,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Combo auto-submit window, override on pending checks, native Approve sync",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173"
-    },
-    {
-      "number": 84490,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/84490"
     }
   ],
   "prsReviewed": [
-    {
-      "number": 620,
-      "repo": "konveyor/operator",
-      "org": "konveyor",
-      "title": ":sparkles: Restrict operand egress via NetworkPolicy",
-      "url": "https://github.com/konveyor/operator/pull/620"
-    },
     {
       "number": 236,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "Fix default max concurrent data movers",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 620,
+      "repo": "konveyor/operator",
+      "org": "konveyor",
+      "title": ":sparkles: Restrict operand egress via NetworkPolicy",
+      "url": "https://github.com/konveyor/operator/pull/620"
     },
     {
       "number": 167,
@@ -668,13 +626,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2448"
     },
     {
-      "number": 10463,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix stale contributor documentation link",
-      "url": "https://github.com/velero-io/velero/pull/10463"
-    },
-    {
       "number": 10526,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -687,13 +638,6 @@
       "org": "oadp-rebasebot",
       "title": "update plugins to 1.14.3-rc.2",
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/192"
-    },
-    {
-      "number": 221,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/221"
     },
     {
       "number": 394,
@@ -990,13 +934,6 @@
       "url": "https://github.com/migtools/oadp-cli/pull/263"
     },
     {
-      "number": 467,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4fbd08e) into oadp-1.6",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/467"
-    },
-    {
       "number": 37,
       "repo": "migtools/filebrowser",
       "org": "migtools",
@@ -1081,13 +1018,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2432"
     },
     {
-      "number": 10468,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Community section with meeting info to README",
-      "url": "https://github.com/velero-io/velero/pull/10468"
-    },
-    {
       "number": 2430,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1100,34 +1030,6 @@
       "org": "velero-io",
       "title": "[release-1.18] Add operation context to user-facing error messages",
       "url": "https://github.com/velero-io/velero/pull/10474"
-    },
-    {
-      "number": 10464,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add operation context to user-facing error messages",
-      "url": "https://github.com/velero-io/velero/pull/10464"
-    },
-    {
-      "number": 57,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Bump google.golang.org/grpc from 1.82.1 to 1.83.1",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/57"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.1 (6fb0379) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/165"
-    },
-    {
-      "number": 102,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (1208cdf) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/102"
     }
   ],
   "issuesCommented": [
@@ -1319,20 +1221,6 @@
       "org": "kubevirt",
       "title": "v1beta1→v1 conversion webhook fails on spec.featureGates: \"cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates\"",
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549"
-    },
-    {
-      "number": 10440,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
-      "url": "https://github.com/velero-io/velero/issues/10440"
-    },
-    {
-      "number": 10584,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
-      "url": "https://github.com/openshift/installer/issues/10584"
     }
   ],
   "issuesClosed": [
