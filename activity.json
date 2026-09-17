@@ -3,11 +3,11 @@
     "start": "2026-09-03",
     "end": "2026-09-17"
   },
-  "generatedAt": "2026-09-17T20:04:05Z",
+  "generatedAt": "2026-09-17T23:26:11Z",
   "metrics": {
     "prsMerged": 41,
     "prsOpened": 34,
-    "prsReviewed": 73,
+    "prsReviewed": 75,
     "issuesCommented": 30,
     "issuesClosed": 7
   },
@@ -542,6 +542,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 236,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Fix default max concurrent data movers",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 189,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
+      "url": "https://github.com/migtools/udistribution/pull/189"
+    },
+    {
+      "number": 190,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0",
+      "url": "https://github.com/migtools/udistribution/pull/190"
+    },
+    {
       "number": 620,
       "repo": "konveyor/operator",
       "org": "konveyor",
@@ -554,13 +575,6 @@
       "org": "velero-io",
       "title": "Add doc for block data mover",
       "url": "https://github.com/velero-io/velero/pull/10537"
-    },
-    {
-      "number": 236,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Fix default max concurrent data movers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
     },
     {
       "number": 10539,
