@@ -3,15 +3,22 @@
     "start": "2026-09-03",
     "end": "2026-09-17"
   },
-  "generatedAt": "2026-09-17T16:31:10Z",
+  "generatedAt": "2026-09-17T20:04:05Z",
   "metrics": {
-    "prsMerged": 40,
+    "prsMerged": 41,
     "prsOpened": 34,
     "prsReviewed": 73,
-    "issuesCommented": 29,
-    "issuesClosed": 6
+    "issuesCommented": 30,
+    "issuesClosed": 7
   },
   "prsMerged": [
+    {
+      "number": 449,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Detect SCC UID/GID-range mismatch on namespace restore",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/449"
+    },
     {
       "number": 9221,
       "repo": "velero-io/velero",
@@ -542,20 +549,6 @@
       "url": "https://github.com/konveyor/operator/pull/620"
     },
     {
-      "number": 10539,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10539"
-    },
-    {
-      "number": 10521,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10521"
-    },
-    {
       "number": 10537,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -568,6 +561,20 @@
       "org": "migtools",
       "title": "Fix default max concurrent data movers",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 10539,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10539"
+    },
+    {
+      "number": 10521,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10521"
     },
     {
       "number": 167,
@@ -1048,6 +1055,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 10340,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
+      "url": "https://github.com/velero-io/velero/issues/10340"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -1252,6 +1266,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 448,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Feature request: detect/reconcile SCC UID/GID-range mismatch on Namespace restore",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/448"
+    },
     {
       "number": 8363,
       "repo": "velero-io/velero",
