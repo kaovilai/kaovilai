@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-03",
-    "end": "2026-09-17"
+    "start": "2026-09-04",
+    "end": "2026-09-18"
   },
-  "generatedAt": "2026-09-17T23:26:11Z",
+  "generatedAt": "2026-09-18T01:09:06Z",
   "metrics": {
-    "prsMerged": 41,
-    "prsOpened": 34,
-    "prsReviewed": 75,
-    "issuesCommented": 30,
+    "prsMerged": 38,
+    "prsOpened": 30,
+    "prsReviewed": 51,
+    "issuesCommented": 27,
     "issuesClosed": 7
   },
   "prsMerged": [
@@ -88,13 +88,6 @@
       "org": "kaovilai",
       "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182"
-    },
-    {
-      "number": 176,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add per-command cancel-x to pending combo buttons",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176"
     },
     {
       "number": 6,
@@ -284,20 +277,6 @@
       "org": "kaovilai",
       "title": "Add hover/click popups for Claude analysis links and failed-step logs",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Skip Test/Override buttons on tide's own status context",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175"
-    },
-    {
-      "number": 174,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Extend combo window to per-check Override, add pending-button spinner",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174"
     }
   ],
   "prsOpened": [
@@ -510,34 +489,6 @@
       "org": "openshift",
       "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
       "url": "https://github.com/openshift/release/pull/84592"
-    },
-    {
-      "number": 176,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add per-command cancel-x to pending combo buttons",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176"
-    },
-    {
-      "number": 2435,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: vendor virtualmachineinstances RBAC from KDM PR #218",
-      "url": "https://github.com/openshift/oadp-operator/pull/2435"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Skip Test/Override buttons on tide's own status context",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175"
-    },
-    {
-      "number": 174,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Extend combo window to per-check Override, add pending-button spinner",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174"
     }
   ],
   "prsReviewed": [
@@ -745,13 +696,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/229"
     },
     {
-      "number": 188,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/udistribution/pull/188"
-    },
-    {
       "number": 310,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -829,13 +773,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2437"
     },
     {
-      "number": 2436,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-7895 CRD changes for the non admin describe command issue",
-      "url": "https://github.com/openshift/oadp-operator/pull/2436"
-    },
-    {
       "number": 37,
       "repo": "migtools/oadp-vmdp",
       "org": "migtools",
@@ -911,160 +848,6 @@
       "org": "openshift",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/openshift/oadp-must-gather/pull/166"
-    },
-    {
-      "number": 2434,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-operator/pull/2434"
-    },
-    {
-      "number": 379,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "[oadp-1.6] OADP-7895 : Fix for oc oadp nonadmin backup describe shows Pod Volume…",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/379"
-    },
-    {
-      "number": 2431,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7895 CRD changes for the non admin describe command issue",
-      "url": "https://github.com/openshift/oadp-operator/pull/2431"
-    },
-    {
-      "number": 58,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/58"
-    },
-    {
-      "number": 103,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/103"
-    },
-    {
-      "number": 227,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/227"
-    },
-    {
-      "number": 83,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/83"
-    },
-    {
-      "number": 263,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-cli/pull/263"
-    },
-    {
-      "number": 37,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/filebrowser/pull/37"
-    },
-    {
-      "number": 468,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/468"
-    },
-    {
-      "number": 570,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero/pull/570"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/165"
-    },
-    {
-      "number": 308,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/308"
-    },
-    {
-      "number": 380,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/380"
-    },
-    {
-      "number": 49,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kopia/pull/49"
-    },
-    {
-      "number": 166,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/166"
-    },
-    {
-      "number": 36,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/36"
-    },
-    {
-      "number": 164,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/164"
-    },
-    {
-      "number": 166,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166"
-    },
-    {
-      "number": 2432,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Fix VMFR NetworkPolicy egress to BSL endpoints",
-      "url": "https://github.com/openshift/oadp-operator/pull/2432"
-    },
-    {
-      "number": 2430,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix VMFR NetworkPolicy egress to BSL endpoints",
-      "url": "https://github.com/openshift/oadp-operator/pull/2430"
-    },
-    {
-      "number": 10474,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Add operation context to user-facing error messages",
-      "url": "https://github.com/velero-io/velero/pull/10474"
     }
   ],
   "issuesCommented": [
@@ -1256,27 +1039,6 @@
       "org": "openshift",
       "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
       "url": "https://github.com/openshift/oadp-operator/issues/2403"
-    },
-    {
-      "number": 7564,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add support to output restore describe in multiple format like backups",
-      "url": "https://github.com/velero-io/velero/issues/7564"
-    },
-    {
-      "number": 8654,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero backups failing due to blob missing from the repository",
-      "url": "https://github.com/velero-io/velero/issues/8654"
-    },
-    {
-      "number": 4549,
-      "repo": "kubevirt/hyperconverged-cluster-operator",
-      "org": "kubevirt",
-      "title": "v1beta1→v1 conversion webhook fails on spec.featureGates: \"cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates\"",
-      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549"
     }
   ],
   "issuesClosed": [
