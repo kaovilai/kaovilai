@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T10:29:28Z",
+  "updatedAt": "2026-09-18T16:08:43Z",
   "prs": [
     {
       "number": 10010,
@@ -1066,6 +1066,24 @@
       "updatedAt": "2026-08-26T17:33:09Z"
     },
     {
+      "number": 2450,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
+      "url": "https://github.com/openshift/oadp-operator/pull/2450",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-09-18T15:18:09Z"
+    },
+    {
       "number": 84228,
       "repo": "openshift/release",
       "org": "openshift",
@@ -1084,6 +1102,24 @@
         "approved"
       ],
       "updatedAt": "2026-09-17T21:24:04Z"
+    },
+    {
+      "number": 85460,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
+      "url": "https://github.com/openshift/release/pull/85460",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-09-18T11:42:54Z"
     },
     {
       "number": 225,
@@ -1710,6 +1746,38 @@
       "updatedAt": "2026-08-12T04:09:10Z"
     },
     {
+      "number": 116,
+      "repo": "geekflyer/cliprelay",
+      "org": "geekflyer",
+      "title": "OtpExtractor: support alphanumeric OTP codes",
+      "url": "https://github.com/geekflyer/cliprelay/pull/116",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-09-18T10:44:16Z"
+    },
+    {
+      "number": 4,
+      "repo": "kaovilai/cliprelay",
+      "org": "kaovilai",
+      "title": "Throwaway: trigger fork CI",
+      "url": "https://github.com/kaovilai/cliprelay/pull/4",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-09-18T10:57:26Z"
+    },
+    {
       "number": 188,
       "repo": "kaovilai/kaovilai.pw",
       "org": "kaovilai",
@@ -1784,28 +1852,6 @@
         "area/tide"
       ],
       "updatedAt": "2026-07-31T21:47:00Z"
-    },
-    {
-      "number": 8673,
-      "repo": "kubernetes/community",
-      "org": "kubernetes",
-      "title": "Update meeting link with password for DP WG",
-      "url": "https://github.com/kubernetes/community/pull/8673",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "cncf-cla: yes",
-        "needs-ok-to-test",
-        "size/XS",
-        "lifecycle/rotten",
-        "wg/data-protection"
-      ],
-      "updatedAt": "2026-07-20T14:46:51Z"
     },
     {
       "number": 18725,
@@ -1908,6 +1954,22 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-08-25T01:21:43Z"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/cliprelay",
+      "org": "kaovilai",
+      "title": "WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)",
+      "url": "https://github.com/kaovilai/cliprelay/pull/3",
+      "targetBranch": "main",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [],
+      "updatedAt": "2026-09-18T11:01:07Z"
     },
     {
       "number": 540,
@@ -2631,6 +2693,28 @@
       "updatedAt": "2026-04-21T15:39:26Z"
     },
     {
+      "number": 8673,
+      "repo": "kubernetes/community",
+      "org": "kubernetes",
+      "title": "Update meeting link with password for DP WG",
+      "url": "https://github.com/kubernetes/community/pull/8673",
+      "targetBranch": "main",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "cncf-cla: yes",
+        "needs-ok-to-test",
+        "size/XS",
+        "lifecycle/rotten",
+        "wg/data-protection"
+      ],
+      "updatedAt": "2026-07-20T14:46:51Z"
+    },
+    {
       "number": 2,
       "repo": "mowhammadrezaa/SmartFormFiller",
       "org": "mowhammadrezaa",
@@ -2858,7 +2942,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-18T10:29:28Z",
+    "updatedAt": "2026-09-18T16:08:43Z",
     "needsReview": [
       {
         "number": 68,
@@ -2991,7 +3075,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3031,8 +3115,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 189,
+        "waitingDays": 190,
         "updatedAt": "2026-03-12T15:09:43Z"
+      },
+      {
+        "number": 737,
+        "repo": "actions/setup-go",
+        "org": "actions",
+        "title": "feat: support non-standard .mod files in go-version-file",
+        "url": "https://github.com/actions/setup-go/pull/737",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 177,
+        "updatedAt": "2026-03-25T00:43:21Z"
       },
       {
         "number": 243,
@@ -3060,7 +3168,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 162,
+        "waitingDays": 163,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3122,7 +3230,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 78,
+        "waitingDays": 79,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3189,7 +3297,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3394,7 +3502,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 59,
+        "waitingDays": 60,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3461,7 +3569,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 45,
+        "waitingDays": 46,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3492,30 +3600,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 37,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3541,8 +3625,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 37,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -3578,7 +3686,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -3748,6 +3856,39 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 22,
+        "updatedAt": "2026-08-27T12:05:51Z"
+      },
+      {
         "number": 319,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -3774,39 +3915,6 @@
         "reason": "awaitingReview",
         "waitingDays": 22,
         "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 21,
-        "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
         "number": 10010,
@@ -4163,7 +4271,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4176,7 +4284,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-09-04T13:34:37Z"
       },
       {
@@ -4272,6 +4380,35 @@
         "updatedAt": "2026-09-14T18:02:35Z"
       },
       {
+        "number": 9770,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "design: Kubernetes name length enforcement for Velero-created objects (#8815)",
+        "url": "https://github.com/velero-io/velero/pull/9770",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-09-15T14:05:49Z"
+      },
+      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4303,35 +4440,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-09-16T03:44:16Z"
-      },
-      {
-        "number": 9770,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "design: Kubernetes name length enforcement for Velero-created objects (#8815)",
-        "url": "https://github.com/velero-io/velero/pull/9770",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-09-15T14:05:49Z"
       },
       {
         "number": 10210,
@@ -4393,6 +4501,64 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-09-17T03:09:11Z"
+      },
+      {
+        "number": 2450,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
+        "url": "https://github.com/openshift/oadp-operator/pull/2450",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "savitharaghunathan",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-18T15:18:09Z"
+      },
+      {
+        "number": 85460,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
+        "url": "https://github.com/openshift/release/pull/85460",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-18T11:42:54Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4421,7 +4587,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 162,
+        "waitingDays": 163,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -4480,7 +4646,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -4514,7 +4680,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -4546,7 +4712,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -4826,6 +4992,38 @@
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
+        "number": 233,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "Add CODEOWNERS file based on OWNERS approvers",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "jparrill"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": 0,
+        "reviewRequests": [
+          "devguyio"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 23,
+        "updatedAt": "2026-08-26T14:58:57Z"
+      },
+      {
         "number": 10077,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4857,38 +5055,6 @@
         "updatedAt": "2026-08-25T22:09:26Z"
       },
       {
-        "number": 233,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "Add CODEOWNERS file based on OWNERS approvers",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "jparrill"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": 0,
-        "reviewRequests": [
-          "devguyio"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 22,
-        "updatedAt": "2026-08-26T14:58:57Z"
-      },
-      {
         "number": 18725,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -4909,7 +5075,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
