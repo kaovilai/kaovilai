@@ -3,15 +3,29 @@
     "start": "2026-09-04",
     "end": "2026-09-18"
   },
-  "generatedAt": "2026-09-18T16:02:44Z",
+  "generatedAt": "2026-09-18T19:27:48Z",
   "metrics": {
-    "prsMerged": 38,
-    "prsOpened": 35,
-    "prsReviewed": 51,
-    "issuesCommented": 30,
+    "prsMerged": 40,
+    "prsOpened": 38,
+    "prsReviewed": 55,
+    "issuesCommented": 31,
     "issuesClosed": 7
   },
   "prsMerged": [
+    {
+      "number": 2450,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
+      "url": "https://github.com/openshift/oadp-operator/pull/2450"
+    },
+    {
+      "number": 85460,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
+      "url": "https://github.com/openshift/release/pull/85460"
+    },
     {
       "number": 449,
       "repo": "openshift/openshift-velero-plugin",
@@ -281,6 +295,27 @@
   ],
   "prsOpened": [
     {
+      "number": 2454,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2454"
+    },
+    {
+      "number": 2453,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2453"
+    },
+    {
+      "number": 2452,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
+      "url": "https://github.com/openshift/oadp-operator/pull/2452"
+    },
+    {
       "number": 2450,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -528,11 +563,46 @@
   ],
   "prsReviewed": [
     {
+      "number": 2455,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
+      "url": "https://github.com/openshift/oadp-operator/pull/2455"
+    },
+    {
+      "number": 85502,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Update OADP builder images to ubi9-v1.26",
+      "url": "https://github.com/openshift/release/pull/85502"
+    },
+    {
+      "number": 85499,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Update migtools/oadp-cli builder to ubi9-v1.26 for oadp-dev, oadp-1.5, oadp-1.6",
+      "url": "https://github.com/openshift/release/pull/85499"
+    },
+    {
+      "number": 474,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Bump google.golang.org/grpc from 1.83.1 to 1.83.2",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/474"
+    },
+    {
       "number": 236,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "Fix default max concurrent data movers",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 190,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0",
+      "url": "https://github.com/migtools/udistribution/pull/190"
     },
     {
       "number": 10537,
@@ -547,13 +617,6 @@
       "org": "migtools",
       "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
       "url": "https://github.com/migtools/udistribution/pull/189"
-    },
-    {
-      "number": 190,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0",
-      "url": "https://github.com/migtools/udistribution/pull/190"
     },
     {
       "number": 620,
@@ -886,6 +949,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 99,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Add OADP e2e test coverage for kubevirt-datamover",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/99"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
