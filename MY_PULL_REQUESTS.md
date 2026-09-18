@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-18 16:08:43 UTC
+> Last updated: 2026-09-18 19:28:41 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -63,11 +63,12 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
-- [![PR #2450](https://img.shields.io/badge/PR%20%232450-ready-green)](https://github.com/openshift/oadp-operator/pull/2450) **openshift/oadp-operator** → `oadp-dev` - fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths
+- [![PR #2452](https://img.shields.io/badge/PR%20%232452-ready-green)](https://github.com/openshift/oadp-operator/pull/2452) **openshift/oadp-operator** → `oadp-dev` - fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap
+- [![PR #2453](https://img.shields.io/badge/PR%20%232453-ready-green)](https://github.com/openshift/oadp-operator/pull/2453) **openshift/oadp-operator** → `oadp-dev` - OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs
+- [![PR #2454](https://img.shields.io/badge/PR%20%232454-ready-green)](https://github.com/openshift/oadp-operator/pull/2454) **openshift/oadp-operator** → `oadp-dev` - OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-ready-green)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
-- [![PR #85460](https://img.shields.io/badge/PR%20%2385460-ready-green)](https://github.com/openshift/release/pull/85460) **openshift/release** → `main` - oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T16:08:43Z",
+  "updatedAt": "2026-09-18T19:28:41Z",
   "prs": [
     {
       "number": 10010,
@@ -1066,11 +1066,11 @@
       "updatedAt": "2026-08-26T17:33:09Z"
     },
     {
-      "number": 2450,
+      "number": 2452,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
-      "url": "https://github.com/openshift/oadp-operator/pull/2450",
+      "title": "fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
+      "url": "https://github.com/openshift/oadp-operator/pull/2452",
       "targetBranch": "oadp-dev",
       "status": "ready",
       "milestone": null,
@@ -1081,7 +1081,45 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-09-18T15:18:09Z"
+      "updatedAt": "2026-09-18T18:38:18Z"
+    },
+    {
+      "number": 2453,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2453",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "jira/valid-reference"
+      ],
+      "updatedAt": "2026-09-18T19:05:16Z"
+    },
+    {
+      "number": 2454,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2454",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "jira/valid-reference"
+      ],
+      "updatedAt": "2026-09-18T19:15:05Z"
     },
     {
       "number": 84228,
@@ -1102,24 +1140,6 @@
         "approved"
       ],
       "updatedAt": "2026-09-17T21:24:04Z"
-    },
-    {
-      "number": 85460,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
-      "url": "https://github.com/openshift/release/pull/85460",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-09-18T11:42:54Z"
     },
     {
       "number": 225,
@@ -2942,7 +2962,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-18T16:08:43Z",
+    "updatedAt": "2026-09-18T19:28:41Z",
     "needsReview": [
       {
         "number": 68,
@@ -3119,30 +3139,6 @@
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
-        "number": 737,
-        "repo": "actions/setup-go",
-        "org": "actions",
-        "title": "feat: support non-standard .mod files in go-version-file",
-        "url": "https://github.com/actions/setup-go/pull/737",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 177,
-        "updatedAt": "2026-03-25T00:43:21Z"
-      },
-      {
         "number": 243,
         "repo": "migtools/oadp-non-admin",
         "org": "migtools",
@@ -3254,7 +3250,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 70,
+        "waitingDays": 71,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3287,6 +3283,36 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
+        "number": 442,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "do-not-merge/hold"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "savitharaghunathan",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 65,
+        "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
         "number": 1531,
         "repo": "slopus/happy",
         "org": "slopus",
@@ -3309,36 +3335,6 @@
         "reason": "awaitingReview",
         "waitingDays": 65,
         "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
-        "number": 442,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Support Azure Workload Identity (WIF) in image stream registry env vars",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/442",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "do-not-merge/hold"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "savitharaghunathan",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 64,
-        "updatedAt": "2026-07-15T16:14:06Z"
       },
       {
         "number": 267,
@@ -3391,7 +3387,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -3417,7 +3413,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -3443,7 +3439,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -3469,7 +3465,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -3522,7 +3518,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3672,7 +3668,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3716,7 +3712,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 35,
+        "waitingDays": 36,
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
@@ -3856,39 +3852,6 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 22,
-        "updatedAt": "2026-08-27T12:05:51Z"
-      },
-      {
         "number": 319,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -3913,8 +3876,41 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-08-26T17:05:08Z"
+      },
+      {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 22,
+        "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
         "number": 10010,
@@ -3945,7 +3941,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T17:02:53Z"
       },
       {
@@ -3974,7 +3970,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T17:00:09Z"
       },
       {
@@ -4006,7 +4002,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T16:51:50Z"
       },
       {
@@ -4037,7 +4033,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T16:47:39Z"
       },
       {
@@ -4068,7 +4064,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -4099,7 +4095,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -4131,7 +4127,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -4163,7 +4159,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T17:07:21Z"
       },
       {
@@ -4193,7 +4189,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -4238,7 +4234,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4271,7 +4267,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4314,7 +4310,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-09-04T18:26:55Z"
       },
       {
@@ -4376,7 +4372,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-09-14T18:02:35Z"
       },
       {
@@ -4503,11 +4499,11 @@
         "updatedAt": "2026-09-17T03:09:11Z"
       },
       {
-        "number": 2450,
+        "number": 2452,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
-        "url": "https://github.com/openshift/oadp-operator/pull/2450",
+        "title": "fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
+        "url": "https://github.com/openshift/oadp-operator/pull/2452",
         "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -4523,42 +4519,73 @@
         "approvalCount": 0,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "savitharaghunathan",
-          "weshayutin"
+          "shubham-pampattiwar",
+          "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-18T15:18:09Z"
+        "updatedAt": "2026-09-18T18:38:18Z"
       },
       {
-        "number": 85460,
-        "repo": "openshift/release",
+        "number": 2453,
+        "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
-        "url": "https://github.com/openshift/release/pull/85460",
-        "targetBranch": "main",
+        "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
+        "url": "https://github.com/openshift/oadp-operator/pull/2453",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "approved"
+          "approved",
+          "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": null,
+        "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
-        "requiredApprovals": null,
+        "requiredApprovals": 2,
         "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
+          "PrasadJoshi12",
+          "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-18T11:42:54Z"
+        "updatedAt": "2026-09-18T19:05:16Z"
+      },
+      {
+        "number": 2454,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2454",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "mpryc"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-18T19:15:05Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4615,7 +4642,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -5075,7 +5102,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5087,7 +5114,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-08-30T17:39:09Z"
       },
       {
