@@ -3,12 +3,12 @@
     "start": "2026-09-04",
     "end": "2026-09-18"
   },
-  "generatedAt": "2026-09-18T01:09:06Z",
+  "generatedAt": "2026-09-18T10:56:55Z",
   "metrics": {
     "prsMerged": 38,
-    "prsOpened": 30,
+    "prsOpened": 33,
     "prsReviewed": 51,
-    "issuesCommented": 27,
+    "issuesCommented": 30,
     "issuesClosed": 7
   },
   "prsMerged": [
@@ -281,6 +281,27 @@
   ],
   "prsOpened": [
     {
+      "number": 4,
+      "repo": "kaovilai/cliprelay",
+      "org": "kaovilai",
+      "title": "Throwaway: trigger fork CI",
+      "url": "https://github.com/kaovilai/cliprelay/pull/4"
+    },
+    {
+      "number": 116,
+      "repo": "geekflyer/cliprelay",
+      "org": "geekflyer",
+      "title": "OtpExtractor: support alphanumeric OTP codes",
+      "url": "https://github.com/geekflyer/cliprelay/pull/116"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/cliprelay",
+      "org": "kaovilai",
+      "title": "WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)",
+      "url": "https://github.com/kaovilai/cliprelay/pull/3"
+    },
+    {
       "number": 10534,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -493,6 +514,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 10537,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add doc for block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10537"
+    },
+    {
       "number": 236,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -519,13 +547,6 @@
       "org": "konveyor",
       "title": ":sparkles: Restrict operand egress via NetworkPolicy",
       "url": "https://github.com/konveyor/operator/pull/620"
-    },
-    {
-      "number": 10537,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add doc for block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10537"
     },
     {
       "number": 10539,
@@ -852,18 +873,46 @@
   ],
   "issuesCommented": [
     {
-      "number": 10340,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
-      "url": "https://github.com/velero-io/velero/issues/10340"
-    },
-    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/cliprelay",
+      "org": "kaovilai",
+      "title": "OtpExtractor: support alphanumeric OTP codes",
+      "url": "https://github.com/kaovilai/cliprelay/issues/2"
+    },
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
+    },
+    {
+      "number": 9556,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block level backup/restore support",
+      "url": "https://github.com/velero-io/velero/issues/9556"
+    },
+    {
+      "number": 8707,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support multiple transmission protocols",
+      "url": "https://github.com/velero-io/velero/issues/8707"
+    },
+    {
+      "number": 10340,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
+      "url": "https://github.com/velero-io/velero/issues/10340"
     },
     {
       "number": 8363,
@@ -983,13 +1032,6 @@
       "org": "velero-io",
       "title": "S3 client-side encryption support",
       "url": "https://github.com/velero-io/velero/issues/3218"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
       "number": 915,
