@@ -3,11 +3,11 @@
     "start": "2026-09-04",
     "end": "2026-09-18"
   },
-  "generatedAt": "2026-09-18T19:27:48Z",
+  "generatedAt": "2026-09-18T22:23:07Z",
   "metrics": {
     "prsMerged": 40,
-    "prsOpened": 38,
-    "prsReviewed": 55,
+    "prsOpened": 39,
+    "prsReviewed": 57,
     "issuesCommented": 31,
     "issuesClosed": 7
   },
@@ -295,6 +295,13 @@
   ],
   "prsOpened": [
     {
+      "number": 107,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Fix MinIO create-bucket Job timeout by switching mc image to quay.io",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/107"
+    },
+    {
       "number": 2454,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -563,11 +570,32 @@
   ],
   "prsReviewed": [
     {
+      "number": 2456,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Grant VMFR controller PVC delete permission",
+      "url": "https://github.com/openshift/oadp-operator/pull/2456"
+    },
+    {
       "number": 2455,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
       "url": "https://github.com/openshift/oadp-operator/pull/2455"
+    },
+    {
+      "number": 236,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Fix default max concurrent data movers",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 105,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "[oadp-1.6] OADP-7467: Fix VMFR restore namespace access",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/105"
     },
     {
       "number": 85502,
@@ -589,13 +617,6 @@
       "org": "openshift",
       "title": "Bump google.golang.org/grpc from 1.83.1 to 1.83.2",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/474"
-    },
-    {
-      "number": 236,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Fix default max concurrent data movers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
     },
     {
       "number": 190,
