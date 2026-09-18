@@ -3,10 +3,10 @@
     "start": "2026-09-04",
     "end": "2026-09-18"
   },
-  "generatedAt": "2026-09-18T10:56:55Z",
+  "generatedAt": "2026-09-18T16:02:44Z",
   "metrics": {
     "prsMerged": 38,
-    "prsOpened": 33,
+    "prsOpened": 35,
     "prsReviewed": 51,
     "issuesCommented": 30,
     "issuesClosed": 7
@@ -281,6 +281,20 @@
   ],
   "prsOpened": [
     {
+      "number": 2450,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
+      "url": "https://github.com/openshift/oadp-operator/pull/2450"
+    },
+    {
+      "number": 85460,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
+      "url": "https://github.com/openshift/release/pull/85460"
+    },
+    {
       "number": 4,
       "repo": "kaovilai/cliprelay",
       "org": "kaovilai",
@@ -514,18 +528,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 10537,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add doc for block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10537"
-    },
-    {
       "number": 236,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
       "title": "Fix default max concurrent data movers",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
+    },
+    {
+      "number": 10537,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add doc for block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10537"
     },
     {
       "number": 189,
