@@ -3,15 +3,22 @@
     "start": "2026-09-05",
     "end": "2026-09-19"
   },
-  "generatedAt": "2026-09-19T01:03:21Z",
+  "generatedAt": "2026-09-19T04:22:35Z",
   "metrics": {
-    "prsMerged": 34,
-    "prsOpened": 35,
+    "prsMerged": 35,
+    "prsOpened": 36,
     "prsReviewed": 30,
-    "issuesCommented": 30,
-    "issuesClosed": 7
+    "issuesCommented": 33,
+    "issuesClosed": 8
   },
   "prsMerged": [
+    {
+      "number": 107,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Fix MinIO create-bucket Job timeout by switching mc image to quay.io",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/107"
+    },
     {
       "number": 2450,
       "repo": "openshift/oadp-operator",
@@ -252,6 +259,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 108,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "[oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/108"
+    },
     {
       "number": 107,
       "repo": "migtools/oadp-vm-file-restore",
@@ -500,18 +514,25 @@
   ],
   "prsReviewed": [
     {
-      "number": 2456,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Grant VMFR controller PVC delete permission",
-      "url": "https://github.com/openshift/oadp-operator/pull/2456"
-    },
-    {
       "number": 2455,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-1.6] fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
       "url": "https://github.com/openshift/oadp-operator/pull/2455"
+    },
+    {
+      "number": 189,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
+      "url": "https://github.com/migtools/udistribution/pull/189"
+    },
+    {
+      "number": 2456,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Grant VMFR controller PVC delete permission",
+      "url": "https://github.com/openshift/oadp-operator/pull/2456"
     },
     {
       "number": 236,
@@ -561,13 +582,6 @@
       "org": "velero-io",
       "title": "Add doc for block data mover",
       "url": "https://github.com/velero-io/velero/pull/10537"
-    },
-    {
-      "number": 189,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
-      "url": "https://github.com/migtools/udistribution/pull/189"
     },
     {
       "number": 620,
@@ -711,6 +725,27 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9260,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add CRD version compatibility validation during server startup",
+      "url": "https://github.com/velero-io/velero/issues/9260"
+    },
+    {
+      "number": 10545,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
+      "url": "https://github.com/velero-io/velero/issues/10545"
+    },
+    {
+      "number": 10544,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CRD schema check: self-resolution for `strict` mode failures (`/readyz` instead of crash-loop)",
+      "url": "https://github.com/velero-io/velero/issues/10544"
+    },
     {
       "number": 99,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -923,6 +958,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10545,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
+      "url": "https://github.com/velero-io/velero/issues/10545"
+    },
     {
       "number": 448,
       "repo": "openshift/openshift-velero-plugin",
