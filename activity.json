@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-04",
-    "end": "2026-09-18"
+    "start": "2026-09-05",
+    "end": "2026-09-19"
   },
-  "generatedAt": "2026-09-18T22:23:07Z",
+  "generatedAt": "2026-09-19T01:03:21Z",
   "metrics": {
-    "prsMerged": 40,
-    "prsOpened": 39,
-    "prsReviewed": 57,
-    "issuesCommented": 31,
+    "prsMerged": 34,
+    "prsOpened": 35,
+    "prsReviewed": 30,
+    "issuesCommented": 30,
     "issuesClosed": 7
   },
   "prsMerged": [
@@ -249,48 +249,6 @@
       "org": "kaovilai",
       "title": "Bake browsers at build time + add CI and Dependabot",
       "url": "https://github.com/kaovilai/n8n-playwright/pull/4"
-    },
-    {
-      "number": 179,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Improve mobile touch interactions and settings persistence",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/179"
-    },
-    {
-      "number": 178,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Make auto-submit/combo path touch-friendly and add a form-submit fallback",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178"
-    },
-    {
-      "number": 84592,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
-      "url": "https://github.com/openshift/release/pull/84592"
-    },
-    {
-      "number": 218,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Detect VMI guest-agent availability before quiesce, with explicit user override",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/218"
-    },
-    {
-      "number": 2435,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: vendor virtualmachineinstances RBAC from KDM PR #218",
-      "url": "https://github.com/openshift/oadp-operator/pull/2435"
-    },
-    {
-      "number": 177,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add hover/click popups for Claude analysis links and failed-step logs",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177"
     }
   ],
   "prsOpened": [
@@ -538,34 +496,6 @@
       "org": "kaovilai",
       "title": "Bake browsers at build time + add CI and Dependabot",
       "url": "https://github.com/kaovilai/n8n-playwright/pull/4"
-    },
-    {
-      "number": 179,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Improve mobile touch interactions and settings persistence",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/179"
-    },
-    {
-      "number": 178,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Make auto-submit/combo path touch-friendly and add a form-submit fallback",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178"
-    },
-    {
-      "number": 177,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add hover/click popups for Claude analysis links and failed-step logs",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177"
-    },
-    {
-      "number": 84592,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
-      "url": "https://github.com/openshift/release/pull/84592"
     }
   ],
   "prsReviewed": [
@@ -659,34 +589,6 @@
       "org": "velero-io",
       "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
       "url": "https://github.com/velero-io/velero/pull/10521"
-    },
-    {
-      "number": 167,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/167"
-    },
-    {
-      "number": 59,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/59"
-    },
-    {
-      "number": 469,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/469"
-    },
-    {
-      "number": 167,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/167"
     },
     {
       "number": 235,
@@ -794,13 +696,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2444"
     },
     {
-      "number": 10479,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Report incremental fallback message",
-      "url": "https://github.com/velero-io/velero/pull/10479"
-    },
-    {
       "number": 231,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -808,165 +703,11 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/231"
     },
     {
-      "number": 229,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Updated annotation name for consistency with naming conventions",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/229"
-    },
-    {
-      "number": 310,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Fix 4 CVEs (CVE-2026-46600, CVE-2026-56852, GHSA-hrxh-6v49-42gf, ...)",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/310"
-    },
-    {
       "number": 84713,
       "repo": "openshift/release",
       "org": "openshift",
       "title": "remove github action 'run ci' requirement",
       "url": "https://github.com/openshift/release/pull/84713"
-    },
-    {
-      "number": 384,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Fix CVE-2026-46600, CVE-2026-56852",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/384"
-    },
-    {
-      "number": 230,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "[oadp-1.6] Detect VMI guest-agent availability before quiesce, with explicit user override",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/230"
-    },
-    {
-      "number": 573,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Fix OADP 1.5 release branch CI checks",
-      "url": "https://github.com/openshift/velero/pull/573"
-    },
-    {
-      "number": 572,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Fix 7 CVEs (CVE-2026-56854, CVE-2026-56864, CVE-2026-56865, ...)",
-      "url": "https://github.com/openshift/velero/pull/572"
-    },
-    {
-      "number": 2439,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix 5 CVEs (CVE-2026-56854, CVE-2026-46600, CVE-2026-56852, ...)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2439"
-    },
-    {
-      "number": 184,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "Fix CVE remediation dependency rollbacks",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/184"
-    },
-    {
-      "number": 2438,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix: vendor virtualmachineinstances RBAC from KDM PR #218",
-      "url": "https://github.com/openshift/oadp-operator/pull/2438"
-    },
-    {
-      "number": 228,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/228"
-    },
-    {
-      "number": 2437,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-operator/pull/2437"
-    },
-    {
-      "number": 37,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/37"
-    },
-    {
-      "number": 264,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-cli/pull/264"
-    },
-    {
-      "number": 84,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/84"
-    },
-    {
-      "number": 382,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/382"
-    },
-    {
-      "number": 38,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/filebrowser/pull/38"
-    },
-    {
-      "number": 104,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/104"
-    },
-    {
-      "number": 571,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero/pull/571"
-    },
-    {
-      "number": 309,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/309"
-    },
-    {
-      "number": 50,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/kopia/pull/50"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/165"
-    },
-    {
-      "number": 166,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/166"
     }
   ],
   "issuesCommented": [
@@ -1179,13 +920,6 @@
       "org": "EmixamPP",
       "title": "Web Camera is broken",
       "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
-    },
-    {
-      "number": 2403,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
-      "url": "https://github.com/openshift/oadp-operator/issues/2403"
     }
   ],
   "issuesClosed": [
