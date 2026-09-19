@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-18 22:24:37 UTC
+> Last updated: 2026-09-19 00:55:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -88,10 +88,10 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
+- [![PR #107](https://img.shields.io/badge/PR%20%23107-ready-green)](https://github.com/migtools/oadp-vm-file-restore/pull/107) **migtools/oadp-vm-file-restore** → `oadp-dev` - Fix MinIO create-bucket Job timeout by switching mc image to quay.io
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
-- [![PR #107](https://img.shields.io/badge/PR%20%23107-draft-gray)](https://github.com/migtools/oadp-vm-file-restore/pull/107) **migtools/oadp-vm-file-restore** → `oadp-dev` - Fix MinIO create-bucket Job timeout by switching mc image to quay.io
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #170](https://img.shields.io/badge/PR%20%23170-stale-yellow)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-stale-yellow)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
