@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-19 01:55:00 UTC
+> Last updated: 2026-09-19 09:49:52 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,6 +10,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
+- [![PR #10275](https://img.shields.io/badge/PR%20%2310275-ready-green)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10276](https://img.shields.io/badge/PR%20%2310276-ready-green)](https://github.com/velero-io/velero/pull/10276) **velero-io/velero** → `main` - Surface pod scheduling failure reason in data mover preparing-timeout error (milestone: **v1.19**)
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-ready-green)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
 - [![PR #10423](https://img.shields.io/badge/PR%20%2310423-ready-green)](https://github.com/velero-io/velero/pull/10423) **velero-io/velero** → `release-1.16` - [release-1.16] DM controller refactor for cancel (cherry-pick #8952)
@@ -32,9 +33,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-ready-green)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
+- [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
-- [![PR #10275](https://img.shields.io/badge/PR%20%2310275-draft-gray)](https://github.com/velero-io/velero/pull/10275) **velero-io/velero** → `main` - Implement namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
@@ -56,7 +57,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-failing--ci-red)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-failing--ci-red)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
-- [![PR #9770](https://img.shields.io/badge/PR%20%239770-failing--ci-red)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 
 ## openshift
 
@@ -88,6 +88,7 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
+- [![PR #108](https://img.shields.io/badge/PR%20%23108-ready-green)](https://github.com/migtools/oadp-vm-file-restore/pull/108) **migtools/oadp-vm-file-restore** → `oadp-1.6` - [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
@@ -125,7 +126,6 @@ No open PRs.
 - [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `main` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
-- [![PR #540](https://img.shields.io/badge/PR%20%23540-draft-gray)](https://github.com/kaovilai/dotfiles/pull/540) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #541](https://img.shields.io/badge/PR%20%23541-draft-gray)](https://github.com/kaovilai/dotfiles/pull/541) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster startup
 - [![PR #543](https://img.shields.io/badge/PR%20%23543-draft-gray)](https://github.com/kaovilai/dotfiles/pull/543) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
 - [![PR #544](https://img.shields.io/badge/PR%20%23544-draft-gray)](https://github.com/kaovilai/dotfiles/pull/544) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
@@ -172,6 +172,7 @@ No open PRs.
 - [![PR #536](https://img.shields.io/badge/PR%20%23536-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #538](https://img.shields.io/badge/PR%20%23538-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/538) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit to improve shell startup time
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
+- [![PR #540](https://img.shields.io/badge/PR%20%23540-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/540) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #63](https://img.shields.io/badge/PR%20%2363-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #65](https://img.shields.io/badge/PR%20%2365-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65) **kaovilai/k8s-cbt-s3mover-demo** → `main` - [improve] ci: add concurrency groups to prevent stale demo workflow overlap
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
