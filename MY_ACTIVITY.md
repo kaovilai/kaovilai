@@ -1,19 +1,19 @@
 # Activity Log
 
-> **Period:** 2026-09-05 — 2026-09-19
-> **Generated:** 2026-09-19 20:28:48 UTC
+> **Period:** 2026-09-06 — 2026-09-20
+> **Generated:** 2026-09-20 04:41:07 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 35 |
-| PRs Opened | 36 |
+| PRs Merged | 32 |
+| PRs Opened | 32 |
 | PRs Reviewed | 30 |
 | Issues/PRs Commented | 33 |
 | Issues Closed | 8 |
 
 ---
 
-## PRs Merged (35)
+## PRs Merged (32)
 
 **velero-io** (6)
 - [#9221 docs: Document --write-sparse-files flag for disk space issues during restore](https://github.com/velero-io/velero/pull/9221) — velero-io/velero
@@ -34,7 +34,7 @@
 **migtools** (1)
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (22)
+**Other** (19)
 - [#1 Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest](https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1) — kaovilai/android_vendor_amazon_maverick
 - [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
 - [#14 Fix healthcheck: use 127.0.0.1 instead of localhost](https://github.com/kaovilai/copilot-api/pull/14) — kaovilai/copilot-api
@@ -54,10 +54,7 @@
 - [#10 Publish this fork's package to GitHub Packages (@kaovilai scope)](https://github.com/kaovilai/n8n-playwright/pull/10) — kaovilai/n8n-playwright
 - [#9 Add browser session reuse across Playwright nodes, capped by memory budget](https://github.com/kaovilai/n8n-playwright/pull/9) — kaovilai/n8n-playwright
 - [#8 Fix browser-close leak, update deps, add Dependabot auto-merge](https://github.com/kaovilai/n8n-playwright/pull/8) — kaovilai/n8n-playwright
-- [#7 Bump n8n 2.0.3 -> 2.37.10, chromium stage alpine 3.22 -> 3.24](https://github.com/kaovilai/n8n-playwright/pull/7) — kaovilai/n8n-playwright
-- [#6 Neuter setup-browsers.js -- n8n runs it at every boot, undoing the build-time fix](https://github.com/kaovilai/n8n-playwright/pull/6) — kaovilai/n8n-playwright
-- [#4 Bake browsers at build time + add CI and Dependabot](https://github.com/kaovilai/n8n-playwright/pull/4) — kaovilai/n8n-playwright
-## PRs Opened (36)
+## PRs Opened (32)
 
 **velero-io** (1)
 - [#10534 Add changelog-bot workflow to add changelogs via /changelog comment](https://github.com/velero-io/velero/pull/10534) — velero-io/velero
@@ -75,7 +72,7 @@
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (26)
+**Other** (22)
 - [#4 Throwaway: trigger fork CI](https://github.com/kaovilai/cliprelay/pull/4) — kaovilai/cliprelay
 - [#116 OtpExtractor: support alphanumeric OTP codes](https://github.com/geekflyer/cliprelay/pull/116) — geekflyer/cliprelay
 - [#3 WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)](https://github.com/kaovilai/cliprelay/pull/3) — kaovilai/cliprelay
@@ -98,10 +95,6 @@
 - [#10 Publish this fork's package to GitHub Packages (@kaovilai scope)](https://github.com/kaovilai/n8n-playwright/pull/10) — kaovilai/n8n-playwright
 - [#9 Add browser session reuse across Playwright nodes, capped by memory budget](https://github.com/kaovilai/n8n-playwright/pull/9) — kaovilai/n8n-playwright
 - [#8 Fix browser-close leak, update deps, add Dependabot auto-merge](https://github.com/kaovilai/n8n-playwright/pull/8) — kaovilai/n8n-playwright
-- [#7 Bump n8n 2.0.3 -> 2.37.10, chromium stage alpine 3.22 -> 3.24](https://github.com/kaovilai/n8n-playwright/pull/7) — kaovilai/n8n-playwright
-- [#6 Neuter setup-browsers.js -- n8n runs it at every boot, undoing the build-time fix](https://github.com/kaovilai/n8n-playwright/pull/6) — kaovilai/n8n-playwright
-- [#5 Add CI (lint+build) and Dependabot config](https://github.com/kaovilai/n8n-playwright/pull/5) — kaovilai/n8n-playwright
-- [#4 Bake browsers at build time + add CI and Dependabot](https://github.com/kaovilai/n8n-playwright/pull/4) — kaovilai/n8n-playwright
 ## PRs Reviewed (30)
 
 **velero-io** (8)
