@@ -3,15 +3,22 @@
     "start": "2026-09-07",
     "end": "2026-09-21"
   },
-  "generatedAt": "2026-09-21T12:30:23Z",
+  "generatedAt": "2026-09-21T18:00:19Z",
   "metrics": {
-    "prsMerged": 32,
+    "prsMerged": 33,
     "prsOpened": 32,
-    "prsReviewed": 30,
+    "prsReviewed": 31,
     "issuesCommented": 34,
     "issuesClosed": 8
   },
   "prsMerged": [
+    {
+      "number": 2452,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
+      "url": "https://github.com/openshift/oadp-operator/pull/2452"
+    },
     {
       "number": 107,
       "repo": "migtools/oadp-vm-file-restore",
@@ -270,7 +277,7 @@
       "number": 2452,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
+      "title": "OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
       "url": "https://github.com/openshift/oadp-operator/pull/2452"
     },
     {
@@ -464,6 +471,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2457,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] Grant VMFR controller PVC delete permission",
+      "url": "https://github.com/openshift/oadp-operator/pull/2457"
+    },
     {
       "number": 2455,
       "repo": "openshift/oadp-operator",
