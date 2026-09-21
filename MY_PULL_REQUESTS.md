@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-21 03:08:41 UTC
+> Last updated: 2026-09-21 11:53:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -126,7 +126,6 @@ No open PRs.
 - [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `main` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
-- [![PR #543](https://img.shields.io/badge/PR%20%23543-draft-gray)](https://github.com/kaovilai/dotfiles/pull/543) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
 - [![PR #544](https://img.shields.io/badge/PR%20%23544-draft-gray)](https://github.com/kaovilai/dotfiles/pull/544) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
 - [![PR #545](https://img.shields.io/badge/PR%20%23545-draft-gray)](https://github.com/kaovilai/dotfiles/pull/545) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #548](https://img.shields.io/badge/PR%20%23548-draft-gray)](https://github.com/kaovilai/dotfiles/pull/548) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit call for faster startup
@@ -173,6 +172,7 @@ No open PRs.
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
 - [![PR #540](https://img.shields.io/badge/PR%20%23540-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/540) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #541](https://img.shields.io/badge/PR%20%23541-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/541) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster startup
+- [![PR #543](https://img.shields.io/badge/PR%20%23543-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/543) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
 - [![PR #63](https://img.shields.io/badge/PR%20%2363-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #65](https://img.shields.io/badge/PR%20%2365-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65) **kaovilai/k8s-cbt-s3mover-demo** → `main` - [improve] ci: add concurrency groups to prevent stale demo workflow overlap
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
