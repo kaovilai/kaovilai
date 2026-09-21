@@ -3,15 +3,22 @@
     "start": "2026-09-07",
     "end": "2026-09-21"
   },
-  "generatedAt": "2026-09-21T18:00:19Z",
+  "generatedAt": "2026-09-21T22:30:05Z",
   "metrics": {
-    "prsMerged": 33,
-    "prsOpened": 32,
-    "prsReviewed": 31,
+    "prsMerged": 34,
+    "prsOpened": 33,
+    "prsReviewed": 33,
     "issuesCommented": 34,
     "issuesClosed": 8
   },
   "prsMerged": [
+    {
+      "number": 2453,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2453"
+    },
     {
       "number": 2452,
       "repo": "openshift/oadp-operator",
@@ -246,6 +253,13 @@
   ],
   "prsOpened": [
     {
+      "number": 10555,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix e2e-test-kind and changelog-check CI flakes",
+      "url": "https://github.com/velero-io/velero/pull/10555"
+    },
+    {
       "number": 108,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
@@ -479,6 +493,20 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2457"
     },
     {
+      "number": 41,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "Merge https://github.com/filebrowser/filebrowser:v2.63.23 (e8a388f) into oadp-1.6",
+      "url": "https://github.com/migtools/filebrowser/pull/41"
+    },
+    {
+      "number": 43,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "[oadp-1.6] remove release job in filebrowser",
+      "url": "https://github.com/migtools/filebrowser/pull/43"
+    },
+    {
       "number": 2455,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -691,6 +719,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 9260,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add CRD version compatibility validation during server startup",
+      "url": "https://github.com/velero-io/velero/issues/9260"
+    },
+    {
+      "number": 10545,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
+      "url": "https://github.com/velero-io/velero/issues/10545"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -710,20 +752,6 @@
       "org": "kubevirt",
       "title": "VEP #25: Infer backup target StorageClass from source VM volumes",
       "url": "https://github.com/kubevirt/kubevirt/issues/18963"
-    },
-    {
-      "number": 9260,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add CRD version compatibility validation during server startup",
-      "url": "https://github.com/velero-io/velero/issues/9260"
-    },
-    {
-      "number": 10545,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
-      "url": "https://github.com/velero-io/velero/issues/10545"
     },
     {
       "number": 10544,
