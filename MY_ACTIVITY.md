@@ -1,14 +1,14 @@
 # Activity Log
 
-> **Period:** 2026-09-06 — 2026-09-20
-> **Generated:** 2026-09-20 20:40:40 UTC
+> **Period:** 2026-09-07 — 2026-09-21
+> **Generated:** 2026-09-21 04:23:12 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 32 |
 | PRs Opened | 32 |
 | PRs Reviewed | 30 |
-| Issues/PRs Commented | 33 |
+| Issues/PRs Commented | 34 |
 | Issues Closed | 8 |
 
 ---
@@ -134,7 +134,7 @@
 - [#620 :sparkles: Restrict operand egress via NetworkPolicy](https://github.com/konveyor/operator/pull/620) — konveyor/operator
 - [#192 update plugins to 1.14.3-rc.2](https://github.com/oadp-rebasebot/oadp-rebase/pull/192) — oadp-rebasebot/oadp-rebase
 - [#394 feat(network): support internal networks](https://github.com/socktainer/socktainer/pull/394) — socktainer/socktainer
-## Issues/PRs Commented On (33)
+## Issues/PRs Commented On (34)
 
 **velero-io** (22)
 - [#9260 Add CRD version compatibility validation during server startup](https://github.com/velero-io/velero/issues/9260) — velero-io/velero
@@ -168,7 +168,8 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
-**Other** (7)
+**Other** (8)
+- [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
