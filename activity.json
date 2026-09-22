@@ -3,15 +3,22 @@
     "start": "2026-09-08",
     "end": "2026-09-22"
   },
-  "generatedAt": "2026-09-22T11:18:53Z",
+  "generatedAt": "2026-09-22T16:32:44Z",
   "metrics": {
-    "prsMerged": 36,
-    "prsOpened": 33,
-    "prsReviewed": 32,
+    "prsMerged": 37,
+    "prsOpened": 34,
+    "prsReviewed": 33,
     "issuesCommented": 34,
     "issuesClosed": 9
   },
   "prsMerged": [
+    {
+      "number": 197,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197"
+    },
     {
       "number": 2454,
       "repo": "openshift/oadp-operator",
@@ -267,6 +274,13 @@
   ],
   "prsOpened": [
     {
+      "number": 197,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197"
+    },
+    {
       "number": 10555,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -500,6 +514,13 @@
   ],
   "prsReviewed": [
     {
+      "number": 313,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (d81e9e5) into oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/313"
+    },
+    {
       "number": 2457,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -726,6 +747,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 9260,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add CRD version compatibility validation during server startup",
+      "url": "https://github.com/velero-io/velero/issues/9260"
+    },
+    {
+      "number": 9735,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero should add a clear error when data mover pod is unschedulable due to affinity/topology mismatch",
+      "url": "https://github.com/velero-io/velero/issues/9735"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -738,13 +773,6 @@
       "org": "velero-io",
       "title": "ResourcePolicy-based namespace selection by label",
       "url": "https://github.com/velero-io/velero/issues/7492"
-    },
-    {
-      "number": 9260,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add CRD version compatibility validation during server startup",
-      "url": "https://github.com/velero-io/velero/issues/9260"
     },
     {
       "number": 10545,
@@ -906,13 +934,6 @@
       "org": "openshift",
       "title": "Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD",
       "url": "https://github.com/openshift/oadp-operator/issues/2386"
-    },
-    {
-      "number": 9735,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero should add a clear error when data mover pod is unschedulable due to affinity/topology mismatch",
-      "url": "https://github.com/velero-io/velero/issues/9735"
     },
     {
       "number": 181212,
