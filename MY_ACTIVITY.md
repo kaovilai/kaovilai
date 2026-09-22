@@ -1,21 +1,22 @@
 # Activity Log
 
-> **Period:** 2026-09-07 — 2026-09-21
-> **Generated:** 2026-09-21 22:30:05 UTC
+> **Period:** 2026-09-08 — 2026-09-22
+> **Generated:** 2026-09-22 01:31:41 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 34 |
+| PRs Merged | 35 |
 | PRs Opened | 33 |
-| PRs Reviewed | 33 |
+| PRs Reviewed | 32 |
 | Issues/PRs Commented | 34 |
-| Issues Closed | 8 |
+| Issues Closed | 9 |
 
 ---
 
-## PRs Merged (34)
+## PRs Merged (35)
 
-**velero-io** (6)
+**velero-io** (7)
+- [#10275 Implement namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10275) — velero-io/velero
 - [#9221 docs: Document --write-sparse-files flag for disk space issues during restore](https://github.com/velero-io/velero/pull/9221) — velero-io/velero
 - [#9772 Design: namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/9772) — velero-io/velero
 - [#10027 Add set-based label selector test and docs coverage for restore](https://github.com/velero-io/velero/pull/10027) — velero-io/velero
@@ -98,7 +99,7 @@
 - [#10 Publish this fork's package to GitHub Packages (@kaovilai scope)](https://github.com/kaovilai/n8n-playwright/pull/10) — kaovilai/n8n-playwright
 - [#9 Add browser session reuse across Playwright nodes, capped by memory budget](https://github.com/kaovilai/n8n-playwright/pull/9) — kaovilai/n8n-playwright
 - [#8 Fix browser-close leak, update deps, add Dependabot auto-merge](https://github.com/kaovilai/n8n-playwright/pull/8) — kaovilai/n8n-playwright
-## PRs Reviewed (33)
+## PRs Reviewed (32)
 
 **velero-io** (8)
 - [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
@@ -110,7 +111,7 @@
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
 - [#10523 Let uploader to control fallback centrally](https://github.com/velero-io/velero/pull/10523) — velero-io/velero
 
-**openshift** (12)
+**openshift** (11)
 - [#2457 [oadp-1.6] Grant VMFR controller PVC delete permission](https://github.com/openshift/oadp-operator/pull/2457) — openshift/oadp-operator
 - [#2455 [oadp-1.6] fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths](https://github.com/openshift/oadp-operator/pull/2455) — openshift/oadp-operator
 - [#2456 Grant VMFR controller PVC delete permission](https://github.com/openshift/oadp-operator/pull/2456) — openshift/oadp-operator
@@ -122,7 +123,6 @@
 - [#84954 Remove OADP rebasebot periodic jobs](https://github.com/openshift/release/pull/84954) — openshift/release
 - [#2447 [oadp-1.6] fix: don't check VEP-25 CRDs before the feature gate that creates them](https://github.com/openshift/oadp-operator/pull/2447) — openshift/oadp-operator
 - [#2444 [oadp-1.6] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts](https://github.com/openshift/oadp-operator/pull/2444) — openshift/oadp-operator
-- [#84713 remove github action 'run ci' requirement](https://github.com/openshift/release/pull/84713) — openshift/release
 
 **migtools** (10)
 - [#41 Merge https://github.com/filebrowser/filebrowser:v2.63.23 (e8a388f) into oadp-1.6](https://github.com/migtools/filebrowser/pull/41) — migtools/filebrowser
@@ -142,7 +142,8 @@
 - [#394 feat(network): support internal networks](https://github.com/socktainer/socktainer/pull/394) — socktainer/socktainer
 ## Issues/PRs Commented On (34)
 
-**velero-io** (22)
+**velero-io** (23)
+- [#7492 ResourcePolicy-based namespace selection by label](https://github.com/velero-io/velero/issues/7492) — velero-io/velero
 - [#9260 Add CRD version compatibility validation during server startup](https://github.com/velero-io/velero/issues/9260) — velero-io/velero
 - [#10545 CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout](https://github.com/velero-io/velero/issues/10545) — velero-io/velero
 - [#9476 Remove whitelist for tolerations of PodVolumeBackup Pod](https://github.com/velero-io/velero/issues/9476) — velero-io/velero
@@ -174,7 +175,7 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
-**Other** (8)
+**Other** (7)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
@@ -182,10 +183,10 @@
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#915 branchprotector cannot manage required status check GitHub App identity](https://github.com/kubernetes-sigs/prow/issues/915) — kubernetes-sigs/prow
-- [#190 Web Camera is broken](https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190) — EmixamPP/linux-enable-ir-emitter
-## Issues Closed (8)
+## Issues Closed (9)
 
-**velero-io** (6)
+**velero-io** (7)
+- [#7492 ResourcePolicy-based namespace selection by label](https://github.com/velero-io/velero/issues/7492) — velero-io/velero
 - [#10545 CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout](https://github.com/velero-io/velero/issues/10545) — velero-io/velero
 - [#8363 VolumePolicies filter volumes to snapshot by volume name](https://github.com/velero-io/velero/issues/8363) — velero-io/velero
 - [#9771 Design: ResourcePolicy-based namespace selection by label](https://github.com/velero-io/velero/issues/9771) — velero-io/velero

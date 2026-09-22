@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-09-07",
-    "end": "2026-09-21"
+    "start": "2026-09-08",
+    "end": "2026-09-22"
   },
-  "generatedAt": "2026-09-21T22:30:05Z",
+  "generatedAt": "2026-09-22T01:31:41Z",
   "metrics": {
-    "prsMerged": 34,
+    "prsMerged": 35,
     "prsOpened": 33,
-    "prsReviewed": 33,
+    "prsReviewed": 32,
     "issuesCommented": 34,
-    "issuesClosed": 8
+    "issuesClosed": 9
   },
   "prsMerged": [
+    {
+      "number": 10275,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Implement namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/pull/10275"
+    },
     {
       "number": 2453,
       "repo": "openshift/oadp-operator",
@@ -708,16 +715,16 @@
       "org": "migtools",
       "title": "[oadp-1.6] Updated annotation name for consistency with naming conventions",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/231"
-    },
-    {
-      "number": 84713,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "remove github action 'run ci' requirement",
-      "url": "https://github.com/openshift/release/pull/84713"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 7492,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ResourcePolicy-based namespace selection by label",
+      "url": "https://github.com/velero-io/velero/issues/7492"
+    },
     {
       "number": 9260,
       "repo": "velero-io/velero",
@@ -948,16 +955,16 @@
       "org": "velero-io",
       "title": "Support structured output for multi-item backup and restore describe",
       "url": "https://github.com/velero-io/velero/issues/10478"
-    },
-    {
-      "number": 190,
-      "repo": "EmixamPP/linux-enable-ir-emitter",
-      "org": "EmixamPP",
-      "title": "Web Camera is broken",
-      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 7492,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ResourcePolicy-based namespace selection by label",
+      "url": "https://github.com/velero-io/velero/issues/7492"
+    },
     {
       "number": 10545,
       "repo": "velero-io/velero",
