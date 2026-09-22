@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-08 — 2026-09-22
-> **Generated:** 2026-09-22 20:02:01 UTC
+> **Generated:** 2026-09-22 23:31:28 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 37 |
 | PRs Opened | 35 |
-| PRs Reviewed | 35 |
+| PRs Reviewed | 36 |
 | Issues/PRs Commented | 34 |
 | Issues Closed | 9 |
 
@@ -103,7 +103,7 @@
 - [#10 Publish this fork's package to GitHub Packages (@kaovilai scope)](https://github.com/kaovilai/n8n-playwright/pull/10) — kaovilai/n8n-playwright
 - [#9 Add browser session reuse across Playwright nodes, capped by memory budget](https://github.com/kaovilai/n8n-playwright/pull/9) — kaovilai/n8n-playwright
 - [#8 Fix browser-close leak, update deps, add Dependabot auto-merge](https://github.com/kaovilai/n8n-playwright/pull/8) — kaovilai/n8n-playwright
-## PRs Reviewed (35)
+## PRs Reviewed (36)
 
 **velero-io** (8)
 - [#10539 [Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10539) — velero-io/velero
@@ -115,8 +115,9 @@
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
 - [#10523 Let uploader to control fallback centrally](https://github.com/velero-io/velero/pull/10523) — velero-io/velero
 
-**openshift** (12)
+**openshift** (13)
 - [#2457 [oadp-1.6] Grant VMFR controller PVC delete permission](https://github.com/openshift/oadp-operator/pull/2457) — openshift/oadp-operator
+- [#578 Pin Bitnami MinIO source for kind E2E tests](https://github.com/openshift/velero/pull/578) — openshift/velero
 - [#313 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (d81e9e5) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/313) — openshift/hypershift-oadp-plugin
 - [#2455 [oadp-1.6] fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths](https://github.com/openshift/oadp-operator/pull/2455) — openshift/oadp-operator
 - [#2456 Grant VMFR controller PVC delete permission](https://github.com/openshift/oadp-operator/pull/2456) — openshift/oadp-operator
