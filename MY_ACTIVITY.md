@@ -1,11 +1,11 @@
 # Activity Log
 
 > **Period:** 2026-09-08 — 2026-09-22
-> **Generated:** 2026-09-22 01:31:41 UTC
+> **Generated:** 2026-09-22 11:18:53 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 35 |
+| PRs Merged | 36 |
 | PRs Opened | 33 |
 | PRs Reviewed | 32 |
 | Issues/PRs Commented | 34 |
@@ -13,7 +13,7 @@
 
 ---
 
-## PRs Merged (35)
+## PRs Merged (36)
 
 **velero-io** (7)
 - [#10275 Implement namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10275) — velero-io/velero
@@ -24,7 +24,8 @@
 - [#10318 Fix datamover backup arg mismatch for CSI CBT service account name](https://github.com/velero-io/velero/pull/10318) — velero-io/velero
 - [#10307 Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention](https://github.com/velero-io/velero/pull/10307) — velero-io/velero
 
-**openshift** (8)
+**openshift** (9)
+- [#2454 OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation](https://github.com/openshift/oadp-operator/pull/2454) — openshift/oadp-operator
 - [#2453 OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs](https://github.com/openshift/oadp-operator/pull/2453) — openshift/oadp-operator
 - [#2452 OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap](https://github.com/openshift/oadp-operator/pull/2452) — openshift/oadp-operator
 - [#2450 fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths](https://github.com/openshift/oadp-operator/pull/2450) — openshift/oadp-operator
@@ -102,8 +103,8 @@
 ## PRs Reviewed (32)
 
 **velero-io** (8)
-- [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
 - [#10539 [Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10539) — velero-io/velero
+- [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
 - [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10507 install: clarify --wait flag behavior, default false](https://github.com/velero-io/velero/pull/10507) — velero-io/velero

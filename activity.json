@@ -3,15 +3,22 @@
     "start": "2026-09-08",
     "end": "2026-09-22"
   },
-  "generatedAt": "2026-09-22T01:31:41Z",
+  "generatedAt": "2026-09-22T11:18:53Z",
   "metrics": {
-    "prsMerged": 35,
+    "prsMerged": 36,
     "prsOpened": 33,
     "prsReviewed": 32,
     "issuesCommented": 34,
     "issuesClosed": 9
   },
   "prsMerged": [
+    {
+      "number": 2454,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2454"
+    },
     {
       "number": 10275,
       "repo": "velero-io/velero",
@@ -500,6 +507,13 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2457"
     },
     {
+      "number": 10539,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
+      "url": "https://github.com/velero-io/velero/pull/10539"
+    },
+    {
       "number": 41,
       "repo": "migtools/filebrowser",
       "org": "migtools",
@@ -589,13 +603,6 @@
       "org": "konveyor",
       "title": ":sparkles: Restrict operand egress via NetworkPolicy",
       "url": "https://github.com/konveyor/operator/pull/620"
-    },
-    {
-      "number": 10539,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10539"
     },
     {
       "number": 10521,
@@ -719,6 +726,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
       "number": 7492,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -738,13 +752,6 @@
       "org": "velero-io",
       "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
       "url": "https://github.com/velero-io/velero/issues/10545"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 9476,
