@@ -3,11 +3,11 @@
     "start": "2026-09-08",
     "end": "2026-09-22"
   },
-  "generatedAt": "2026-09-22T16:32:44Z",
+  "generatedAt": "2026-09-22T20:02:01Z",
   "metrics": {
     "prsMerged": 37,
-    "prsOpened": 34,
-    "prsReviewed": 33,
+    "prsOpened": 35,
+    "prsReviewed": 35,
     "issuesCommented": 34,
     "issuesClosed": 9
   },
@@ -274,6 +274,13 @@
   ],
   "prsOpened": [
     {
+      "number": 10565,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add e2e test for namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/pull/10565"
+    },
+    {
       "number": 197,
       "repo": "oadp-rebasebot/oadp-rebase",
       "org": "oadp-rebasebot",
@@ -514,11 +521,11 @@
   ],
   "prsReviewed": [
     {
-      "number": 313,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (d81e9e5) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/313"
+      "number": 54,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "fix(gcs): use service-account credential options",
+      "url": "https://github.com/migtools/kopia/pull/54"
     },
     {
       "number": 2457,
@@ -526,6 +533,20 @@
       "org": "openshift",
       "title": "[oadp-1.6] Grant VMFR controller PVC delete permission",
       "url": "https://github.com/openshift/oadp-operator/pull/2457"
+    },
+    {
+      "number": 39,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "fix(gcs): use service-account credential options",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/39"
+    },
+    {
+      "number": 313,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (d81e9e5) into oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/313"
     },
     {
       "number": 10539,
