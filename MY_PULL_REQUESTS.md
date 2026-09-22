@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-22 10:54:07 UTC
+> Last updated: 2026-09-22 16:38:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -10,7 +10,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
-- [![PR #10276](https://img.shields.io/badge/PR%20%2310276-ready-green)](https://github.com/velero-io/velero/pull/10276) **velero-io/velero** → `main` - Surface pod scheduling failure reason in data mover preparing-timeout error (milestone: **v1.19**)
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-ready-green)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
 - [![PR #10423](https://img.shields.io/badge/PR%20%2310423-ready-green)](https://github.com/velero-io/velero/pull/10423) **velero-io/velero** → `release-1.16` - [release-1.16] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #10425](https://img.shields.io/badge/PR%20%2310425-ready-green)](https://github.com/velero-io/velero/pull/10425) **velero-io/velero** → `release-1.17` - [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)
@@ -34,10 +33,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-ready-green)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
+- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
-- [![PR #9910](https://img.shields.io/badge/PR%20%239910-draft-gray)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots

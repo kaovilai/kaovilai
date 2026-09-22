@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T10:54:07Z",
+  "updatedAt": "2026-09-22T16:38:33Z",
   "prs": [
     {
       "number": 10010,
@@ -64,27 +64,6 @@
         "has-changelog"
       ],
       "updatedAt": "2026-09-21T18:18:15Z"
-    },
-    {
-      "number": 10276,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Surface pod scheduling failure reason in data mover preparing-timeout error",
-      "url": "https://github.com/velero-io/velero/pull/10276",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-09-21T05:42:01Z"
     },
     {
       "number": 10399,
@@ -334,6 +313,28 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-09-21T20:11:19Z"
+    },
+    {
+      "number": 9910,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "feat: add CRD schema validation during server startup",
+      "url": "https://github.com/velero-io/velero/pull/9910",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": "v1.19",
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "kaovilai"
+      ],
+      "isDraft": false,
+      "labels": [
+        "has-unit-tests",
+        "has-changelog",
+        "has-e2e-2tests"
+      ],
+      "updatedAt": "2026-09-22T15:14:07Z"
     },
     {
       "number": 319,
@@ -591,28 +592,6 @@
         "kind/changelog-not-required"
       ],
       "updatedAt": "2026-08-27T17:11:00Z"
-    },
-    {
-      "number": 9910,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "feat: add CRD schema validation during server startup",
-      "url": "https://github.com/velero-io/velero/pull/9910",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": "v1.19",
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": true,
-      "labels": [
-        "has-unit-tests",
-        "has-changelog",
-        "has-e2e-2tests"
-      ],
-      "updatedAt": "2026-09-21T22:29:55Z"
     },
     {
       "number": 10028,
@@ -2924,7 +2903,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-22T10:54:07Z",
+    "updatedAt": "2026-09-22T16:38:33Z",
     "needsReview": [
       {
         "number": 68,
@@ -2937,7 +2916,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3057,7 +3036,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3097,7 +3076,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 193,
+        "waitingDays": 194,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3126,7 +3105,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 166,
+        "waitingDays": 167,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3176,7 +3155,7 @@
           "approved",
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3188,7 +3167,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 82,
+        "waitingDays": 83,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3228,7 +3207,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3243,30 +3222,6 @@
         "reason": "hold",
         "waitingDays": 69,
         "updatedAt": "2026-07-15T09:18:53Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 69,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -3295,8 +3250,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 68,
+        "waitingDays": 69,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 69,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3460,7 +3439,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3480,7 +3459,7 @@
           "lifecycle/stale",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3527,7 +3506,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 49,
+        "waitingDays": 50,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3558,30 +3537,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 41,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3607,8 +3562,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 41,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -3630,7 +3609,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3644,7 +3623,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -3814,6 +3793,39 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 26,
+        "updatedAt": "2026-08-27T12:05:51Z"
+      },
+      {
         "number": 319,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -3842,39 +3854,6 @@
         "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 25,
-        "updatedAt": "2026-08-27T12:05:51Z"
-      },
-      {
         "number": 10041,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3890,7 +3869,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3919,7 +3898,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3934,34 +3913,6 @@
         "reason": "awaitingReview",
         "waitingDays": 25,
         "updatedAt": "2026-08-27T16:51:50Z"
-      },
-      {
-        "number": 10281,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-        "url": "https://github.com/velero-io/velero/pull/10281",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 25,
-        "updatedAt": "2026-08-27T16:58:54Z"
       },
       {
         "number": 10286,
@@ -4041,7 +3992,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4072,7 +4023,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4104,7 +4055,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4192,7 +4143,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4207,36 +4158,6 @@
         "reason": "awaitingReview",
         "waitingDays": 20,
         "updatedAt": "2026-09-01T20:44:35Z"
-      },
-      {
-        "number": 10426,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10426",
-        "targetBranch": "release-1.18",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-09-01T14:20:04Z"
       },
       {
         "number": 18949,
@@ -4255,7 +4176,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4268,7 +4189,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-09-04T13:34:37Z"
       },
       {
@@ -4379,7 +4300,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4396,35 +4317,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-09-19T02:25:17Z"
-      },
-      {
-        "number": 10276,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Surface pod scheduling failure reason in data mover preparing-timeout error",
-        "url": "https://github.com/velero-io/velero/pull/10276",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-09-21T05:42:01Z"
       },
       {
         "number": 10010,
@@ -4473,7 +4365,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4516,6 +4408,38 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-09-21T20:11:19Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-22T15:14:07Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4544,7 +4468,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 166,
+        "waitingDays": 167,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -4576,36 +4500,6 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 60,
-        "updatedAt": "2026-07-23T20:59:18Z"
-      },
-      {
         "number": 253,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -4633,7 +4527,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -4667,7 +4561,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -4699,7 +4593,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -4864,37 +4758,6 @@
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
-        "number": 10077,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot auto-approve workflow",
-        "url": "https://github.com/velero-io/velero/pull/10077",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 27,
-        "updatedAt": "2026-08-25T22:09:26Z"
-      },
-      {
         "number": 233,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -4923,8 +4786,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-08-26T14:58:57Z"
+      },
+      {
+        "number": 10077,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add Dependabot auto-approve workflow",
+        "url": "https://github.com/velero-io/velero/pull/10077",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 27,
+        "updatedAt": "2026-08-25T22:09:26Z"
       },
       {
         "number": 18725,
@@ -4947,7 +4841,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
