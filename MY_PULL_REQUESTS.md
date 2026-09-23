@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-22 23:32:01 UTC
+> Last updated: 2026-09-23 01:12:35 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -30,12 +30,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-ready-green)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
-- [![PR #9646](https://img.shields.io/badge/PR%20%239646-ready-green)](https://github.com/velero-io/velero/pull/9646) **velero-io/velero** → `main` - Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds (milestone: **v1.19**)
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
-- [![PR #10565](https://img.shields.io/badge/PR%20%2310565-draft-gray)](https://github.com/velero-io/velero/pull/10565) **velero-io/velero** → `main` - Add e2e test for namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
@@ -50,6 +48,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-failing--ci-red)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-failing--ci-red)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
+- [![PR #10565](https://img.shields.io/badge/PR%20%2310565-failing--ci-red)](https://github.com/velero-io/velero/pull/10565) **velero-io/velero** → `main` - Add e2e test for namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-gcp/pull/267) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] feat: copy labels from Disk to Snapshot (cherry-pick #178)
 - [![PR #325](https://img.shields.io/badge/PR%20%23325-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)
 - [![PR #326](https://img.shields.io/badge/PR%20%23326-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
