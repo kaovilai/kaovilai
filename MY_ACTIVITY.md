@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-09 — 2026-09-23
-> **Generated:** 2026-09-23 11:12:44 UTC
+> **Generated:** 2026-09-23 16:22:58 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 35 |
 | PRs Opened | 31 |
-| PRs Reviewed | 36 |
+| PRs Reviewed | 38 |
 | Issues/PRs Commented | 31 |
 | Issues Closed | 10 |
 
@@ -97,9 +97,10 @@
 - [#8 Fix non-streaming chat-completions response missing required index/object/logprobs](https://github.com/kaovilai/copilot-api/pull/8) — kaovilai/copilot-api
 - [#7 Add dev-branch Docker build/push workflow](https://github.com/kaovilai/copilot-api/pull/7) — kaovilai/copilot-api
 - [#12 Land the CodeRabbit fixes that missed PR #11's merge](https://github.com/kaovilai/n8n-playwright/pull/12) — kaovilai/n8n-playwright
-## PRs Reviewed (36)
+## PRs Reviewed (38)
 
-**velero-io** (8)
+**velero-io** (9)
+- [#10568 Document maintainer contact info and shared responsibility](https://github.com/velero-io/velero/pull/10568) — velero-io/velero
 - [#10539 [Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10539) — velero-io/velero
 - [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
 - [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
@@ -109,7 +110,8 @@
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
 - [#10523 Let uploader to control fallback centrally](https://github.com/velero-io/velero/pull/10523) — velero-io/velero
 
-**openshift** (13)
+**openshift** (14)
+- [#2466 [oadp-1.4] OADP-8835: feat(bsl): concatenate all CA certificates from BSLs and include system defaults](https://github.com/openshift/oadp-operator/pull/2466) — openshift/oadp-operator
 - [#2457 [oadp-1.6] Grant VMFR controller PVC delete permission](https://github.com/openshift/oadp-operator/pull/2457) — openshift/oadp-operator
 - [#578 Pin Bitnami MinIO source for kind E2E tests](https://github.com/openshift/velero/pull/578) — openshift/velero
 - [#313 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (d81e9e5) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/313) — openshift/hypershift-oadp-plugin
