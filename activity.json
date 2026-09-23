@@ -1,17 +1,24 @@
 {
   "period": {
-    "start": "2026-09-08",
-    "end": "2026-09-22"
+    "start": "2026-09-09",
+    "end": "2026-09-23"
   },
-  "generatedAt": "2026-09-22T23:31:28Z",
+  "generatedAt": "2026-09-23T01:21:13Z",
   "metrics": {
-    "prsMerged": 37,
-    "prsOpened": 35,
+    "prsMerged": 35,
+    "prsOpened": 31,
     "prsReviewed": 36,
-    "issuesCommented": 34,
-    "issuesClosed": 9
+    "issuesCommented": 31,
+    "issuesClosed": 10
   },
   "prsMerged": [
+    {
+      "number": 9646,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/pull/9646"
+    },
     {
       "number": 197,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -249,27 +256,6 @@
       "org": "velero-io",
       "title": "Fix generic CSI changeID retrieval and honor snapshot class deletion policy for CBT retention",
       "url": "https://github.com/velero-io/velero/pull/10307"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Publish this fork's package to GitHub Packages (@kaovilai scope)",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/10"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Add browser session reuse across Playwright nodes, capped by memory budget",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/9"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Fix browser-close leak, update deps, add Dependabot auto-merge",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/8"
     }
   ],
   "prsOpened": [
@@ -489,34 +475,6 @@
       "org": "kaovilai",
       "title": "Land the CodeRabbit fixes that missed PR #11's merge",
       "url": "https://github.com/kaovilai/n8n-playwright/pull/12"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Consume the published @kaovilai fork in the Dockerfile instead of upstream's package",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/11"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Publish this fork's package to GitHub Packages (@kaovilai scope)",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/10"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Add browser session reuse across Playwright nodes, capped by memory budget",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/9"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Fix browser-close leak, update deps, add Dependabot auto-merge",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/8"
     }
   ],
   "prsReviewed": [
@@ -775,6 +733,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 9645,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/issues/9645"
+    },
+    {
       "number": 9260,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -983,37 +948,16 @@
       "org": "kubernetes-sigs",
       "title": "branchprotector cannot manage required status check GitHub App identity",
       "url": "https://github.com/kubernetes-sigs/prow/issues/915"
-    },
-    {
-      "number": 9714,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Verify ChangeId retrieve for Ceph",
-      "url": "https://github.com/velero-io/velero/issues/9714"
-    },
-    {
-      "number": 9833,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup/restore describe for block data mover",
-      "url": "https://github.com/velero-io/velero/issues/9833"
-    },
-    {
-      "number": 9835,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup deletion for block data mover",
-      "url": "https://github.com/velero-io/velero/issues/9835"
-    },
-    {
-      "number": 10478,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support structured output for multi-item backup and restore describe",
-      "url": "https://github.com/velero-io/velero/issues/10478"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 9645,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
+      "url": "https://github.com/velero-io/velero/issues/9645"
+    },
     {
       "number": 7492,
       "repo": "velero-io/velero",
