@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-24 20:18:37 UTC
+> Last updated: 2026-09-24 23:48:15 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -14,7 +14,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10425](https://img.shields.io/badge/PR%20%2310425-ready-green)](https://github.com/velero-io/velero/pull/10425) **velero-io/velero** → `release-1.17` - [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10426](https://img.shields.io/badge/PR%20%2310426-ready-green)](https://github.com/velero-io/velero/pull/10426) **velero-io/velero** → `release-1.18` - [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10555](https://img.shields.io/badge/PR%20%2310555-ready-green)](https://github.com/velero-io/velero/pull/10555) **velero-io/velero** → `main` - Fix e2e-test-kind and changelog-check CI flakes
-- [![PR #10565](https://img.shields.io/badge/PR%20%2310565-ready-green)](https://github.com/velero-io/velero/pull/10565) **velero-io/velero** → `main` - Add e2e test for namespace selection by label in resource policy (milestone: **v1.19**)
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #268](https://img.shields.io/badge/PR%20%23268-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/268) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)
 - [![PR #269](https://img.shields.io/badge/PR%20%23269-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/269) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)
@@ -109,6 +108,7 @@ No open PRs.
 
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
+- [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet (Perplexity) for real-profile browsing
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
