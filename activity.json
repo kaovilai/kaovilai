@@ -3,11 +3,11 @@
     "start": "2026-09-10",
     "end": "2026-09-24"
   },
-  "generatedAt": "2026-09-24T11:28:06Z",
+  "generatedAt": "2026-09-24T16:44:55Z",
   "metrics": {
     "prsMerged": 24,
     "prsOpened": 24,
-    "prsReviewed": 37,
+    "prsReviewed": 44,
     "issuesCommented": 30,
     "issuesClosed": 8
   },
@@ -352,6 +352,55 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 387,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (24ca6dd) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/387"
+    },
+    {
+      "number": 110,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (a725c94) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/110"
+    },
+    {
+      "number": 241,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (6a1a241) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/241"
+    },
+    {
+      "number": 480,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4ae9c74) into oadp-1.6",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/480"
+    },
+    {
+      "number": 10579,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Change hashing algorithm to HMAC-SHA256-128 for kopia repo",
+      "url": "https://github.com/velero-io/velero/pull/10579"
+    },
+    {
+      "number": 10580,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix --use-volume-snapshots=false in Tencent Cloud guide",
+      "url": "https://github.com/velero-io/velero/pull/10580"
+    },
+    {
+      "number": 10572,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add architecture entry point and roadmap change process",
+      "url": "https://github.com/velero-io/velero/pull/10572"
+    },
     {
       "number": 2466,
       "repo": "openshift/oadp-operator",
