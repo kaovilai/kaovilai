@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T23:29:33Z",
+  "updatedAt": "2026-09-24T01:01:14Z",
   "prs": [
     {
       "number": 10051,
@@ -1841,28 +1841,6 @@
       "updatedAt": "2026-08-30T17:39:09Z"
     },
     {
-      "number": 18949,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
-      "url": "https://github.com/kubevirt/kubevirt/pull/18949",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "size/M",
-        "area/controller",
-        "sig/storage",
-        "release-note",
-        "dco-signoff: yes"
-      ],
-      "updatedAt": "2026-09-04T13:34:37Z"
-    },
-    {
       "number": 18957,
       "repo": "kubevirt/kubevirt",
       "org": "kubevirt",
@@ -2900,10 +2878,33 @@
         "area/branchprotector"
       ],
       "updatedAt": "2026-08-13T12:14:37Z"
+    },
+    {
+      "number": 18949,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18949",
+      "targetBranch": "main",
+      "status": "needs-attention",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "size/M",
+        "area/controller",
+        "sig/storage",
+        "release-note",
+        "needs-rebase",
+        "dco-signoff: yes"
+      ],
+      "updatedAt": "2026-09-24T00:50:16Z"
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-23T23:29:33Z",
+    "updatedAt": "2026-09-24T01:01:14Z",
     "needsReview": [
       {
         "number": 68,
@@ -2926,7 +2927,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 678,
+        "waitingDays": 679,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -3195,6 +3196,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 71,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3252,30 +3277,6 @@
         "reason": "hold",
         "waitingDays": 70,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 70,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3837,7 +3838,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4160,39 +4161,6 @@
         "updatedAt": "2026-09-01T20:44:35Z"
       },
       {
-        "number": 18949,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix VMBackup status freeze during target PVC attach",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18949",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "alromeros",
-          "ShellyKa13"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-09-04T13:34:37Z"
-      },
-      {
         "number": 565,
         "repo": "openshift/velero",
         "org": "openshift",
@@ -4377,6 +4345,38 @@
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-09-23T00:27:32Z"
+      },
+      {
         "number": 10565,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4437,38 +4437,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-09-23T20:55:50Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-09-23T00:27:32Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4870,7 +4838,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
