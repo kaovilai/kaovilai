@@ -3,15 +3,22 @@
     "start": "2026-09-10",
     "end": "2026-09-24"
   },
-  "generatedAt": "2026-09-24T20:17:41Z",
+  "generatedAt": "2026-09-24T23:47:24Z",
   "metrics": {
-    "prsMerged": 24,
-    "prsOpened": 24,
+    "prsMerged": 25,
+    "prsOpened": 25,
     "prsReviewed": 45,
-    "issuesCommented": 30,
-    "issuesClosed": 8
+    "issuesCommented": 32,
+    "issuesClosed": 9
   },
   "prsMerged": [
+    {
+      "number": 10565,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add e2e test for namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/pull/10565"
+    },
     {
       "number": 9646,
       "repo": "velero-io/velero",
@@ -183,6 +190,13 @@
   ],
   "prsOpened": [
     {
+      "number": 121974,
+      "repo": "NousResearch/hermes-agent",
+      "org": "NousResearch",
+      "title": "feat(browser): recognize Comet (Perplexity) for real-profile browsing",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/121974"
+    },
+    {
       "number": 10565,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -353,6 +367,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 10572,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add architecture entry point and roadmap change process",
+      "url": "https://github.com/velero-io/velero/pull/10572"
+    },
+    {
+      "number": 10580,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix --use-volume-snapshots=false in Tencent Cloud guide",
+      "url": "https://github.com/velero-io/velero/pull/10580"
+    },
+    {
+      "number": 10579,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Change hashing algorithm to HMAC-SHA256-128 for kopia repo",
+      "url": "https://github.com/velero-io/velero/pull/10579"
+    },
+    {
       "number": 582,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -386,27 +421,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4ae9c74) into oadp-1.6",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/480"
-    },
-    {
-      "number": 10579,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Change hashing algorithm to HMAC-SHA256-128 for kopia repo",
-      "url": "https://github.com/velero-io/velero/pull/10579"
-    },
-    {
-      "number": 10580,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix --use-volume-snapshots=false in Tencent Cloud guide",
-      "url": "https://github.com/velero-io/velero/pull/10580"
-    },
-    {
-      "number": 10572,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add architecture entry point and roadmap change process",
-      "url": "https://github.com/velero-io/velero/pull/10572"
     },
     {
       "number": 2466,
@@ -670,6 +684,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 10310,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands",
+      "url": "https://github.com/velero-io/velero/issues/10310"
+    },
+    {
+      "number": 12543,
+      "repo": "paperclipai/paperclip",
+      "org": "paperclipai",
+      "title": "Issue can land permanently blocked on a \"recovery owner\"/disposition state when the run that created it terminates",
+      "url": "https://github.com/paperclipai/paperclip/issues/12543"
+    },
+    {
       "number": 7507,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -881,6 +909,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10564,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E test coverage for namespace selection by label in resource policy",
+      "url": "https://github.com/velero-io/velero/issues/10564"
+    },
     {
       "number": 9645,
       "repo": "velero-io/velero",
