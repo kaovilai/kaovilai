@@ -1,12 +1,13 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-25 01:06:53 UTC
+> Last updated: 2026-09-25 11:02:49 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
 
 ## velero-io
 
+- [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-ready-green)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
@@ -43,7 +44,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
-- [![PR #10010](https://img.shields.io/badge/PR%20%2310010-failing--ci-red)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10077](https://img.shields.io/badge/PR%20%2310077-failing--ci-red)](https://github.com/velero-io/velero/pull/10077) **velero-io/velero** → `main` - Add Dependabot auto-approve workflow
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-failing--ci-red)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
@@ -121,7 +121,6 @@ No open PRs.
 - [![PR #185](https://img.shields.io/badge/PR%20%23185-draft-gray)](https://github.com/kaovilai/kaovilai.pw/pull/185) **kaovilai/kaovilai.pw** → `main` - Use PAT for Dependabot auto-merge to fix failure on workflow-file PRs
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
-- [![PR #549](https://img.shields.io/badge/PR%20%23549-draft-gray)](https://github.com/kaovilai/dotfiles/pull/549) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
 - [![PR #550](https://img.shields.io/badge/PR%20%23550-draft-gray)](https://github.com/kaovilai/dotfiles/pull/550) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant manual compinit execution
 - [![PR #551](https://img.shields.io/badge/PR%20%23551-draft-gray)](https://github.com/kaovilai/dotfiles/pull/551) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant manual compinit
 - [![PR #552](https://img.shields.io/badge/PR%20%23552-draft-gray)](https://github.com/kaovilai/dotfiles/pull/552) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
@@ -168,6 +167,7 @@ No open PRs.
 - [![PR #544](https://img.shields.io/badge/PR%20%23544-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/544) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
 - [![PR #545](https://img.shields.io/badge/PR%20%23545-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/545) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
 - [![PR #548](https://img.shields.io/badge/PR%20%23548-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/548) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit call for faster startup
+- [![PR #549](https://img.shields.io/badge/PR%20%23549-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/549) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
 - [![PR #63](https://img.shields.io/badge/PR%20%2363-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #65](https://img.shields.io/badge/PR%20%2365-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65) **kaovilai/k8s-cbt-s3mover-demo** → `main` - [improve] ci: add concurrency groups to prevent stale demo workflow overlap
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
