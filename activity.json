@@ -3,15 +3,22 @@
     "start": "2026-09-11",
     "end": "2026-09-25"
   },
-  "generatedAt": "2026-09-25T16:49:39Z",
+  "generatedAt": "2026-09-25T20:18:44Z",
   "metrics": {
     "prsMerged": 19,
-    "prsOpened": 19,
-    "prsReviewed": 41,
-    "issuesCommented": 32,
+    "prsOpened": 20,
+    "prsReviewed": 52,
+    "issuesCommented": 33,
     "issuesClosed": 8
   },
   "prsMerged": [
+    {
+      "number": 2454,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2454"
+    },
     {
       "number": 10565,
       "repo": "velero-io/velero",
@@ -32,13 +39,6 @@
       "org": "oadp-rebasebot",
       "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197"
-    },
-    {
-      "number": 2454,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2454"
     },
     {
       "number": 10275,
@@ -147,6 +147,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 122945,
+      "repo": "NousResearch/hermes-agent",
+      "org": "NousResearch",
+      "title": "fix(tools): re-derive dependency env in bot_mode_dm background runner",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/122945"
+    },
     {
       "number": 121974,
       "repo": "NousResearch/hermes-agent",
@@ -282,6 +289,83 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 173,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Remove bz-pr-action GitHub Actions workflow",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/173"
+    },
+    {
+      "number": 2469,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "test(e2e): pin MinIO to migtools Bitnami image",
+      "url": "https://github.com/openshift/oadp-operator/pull/2469"
+    },
+    {
+      "number": 174,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Remove obsolete bz-on-pr-merge workflow",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/174"
+    },
+    {
+      "number": 477,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/477"
+    },
+    {
+      "number": 10578,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enable VGDP soothing by default and set queue length as 5",
+      "url": "https://github.com/velero-io/velero/pull/10578"
+    },
+    {
+      "number": 10570,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Warn when the volume data of an existing PVC backed up by snapshot is not restored",
+      "url": "https://github.com/velero-io/velero/pull/10570"
+    },
+    {
+      "number": 583,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Remove obsolete bz-on-pr-merge workflow",
+      "url": "https://github.com/openshift/velero/pull/583"
+    },
+    {
+      "number": 482,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Remove obsolete bz-on-pr-merge workflow",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/482"
+    },
+    {
+      "number": 175,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Remove obsolete bz-on-pr-merge workflow",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175"
+    },
+    {
+      "number": 175,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Remove obsolete bz-on-pr-merge workflow",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175"
+    },
+    {
+      "number": 69,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "Remove obsolete bz-on-pr-merge workflow",
+      "url": "https://github.com/openshift/restic/pull/69"
+    },
     {
       "number": 10579,
       "repo": "velero-io/velero",
@@ -571,6 +655,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10299,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag",
+      "url": "https://github.com/velero-io/velero/issues/10299"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
