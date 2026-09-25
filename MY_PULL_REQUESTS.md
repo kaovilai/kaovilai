@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-25 11:02:49 UTC
+> Last updated: 2026-09-25 16:55:13 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -98,7 +98,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #58](https://img.shields.io/badge/PR%20%2358-stale-yellow)](https://github.com/migtools/udistribution/pull/58) **migtools/udistribution** → `main` - VSCode Launch.json Sample
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-hold-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
-- [![PR #48](https://img.shields.io/badge/PR%20%2348-needs--attention-orange)](https://github.com/migtools/kopia/pull/48) **migtools/kopia** → `oadp-1.6` - Remove inactive users from OWNERS
 
 ## oadp-rebase
 
@@ -108,7 +107,7 @@ No open PRs.
 
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
-- [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet (Perplexity) for real-profile browsing
+- [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
