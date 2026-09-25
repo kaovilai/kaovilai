@@ -1,12 +1,12 @@
 # Activity Log
 
 > **Period:** 2026-09-11 — 2026-09-25
-> **Generated:** 2026-09-25 20:18:44 UTC
+> **Generated:** 2026-09-25 23:52:46 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 19 |
-| PRs Opened | 20 |
+| PRs Opened | 21 |
 | PRs Reviewed | 52 |
 | Issues/PRs Commented | 33 |
 | Issues Closed | 8 |
@@ -41,7 +41,7 @@
 - [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
 - [#14 Fix healthcheck: use 127.0.0.1 instead of localhost](https://github.com/kaovilai/copilot-api/pull/14) — kaovilai/copilot-api
 - [#13 Lower ambiguous-timeout budget to 80s to beat client watchdogs](https://github.com/kaovilai/copilot-api/pull/13) — kaovilai/copilot-api
-## PRs Opened (20)
+## PRs Opened (21)
 
 **velero-io** (3)
 - [#10565 Add e2e test for namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10565) — velero-io/velero
@@ -59,7 +59,8 @@
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (10)
+**Other** (11)
+- [#123138 fix(tools): hard-fail message_agent on a profile's old, renamed-away name](https://github.com/NousResearch/hermes-agent/pull/123138) — NousResearch/hermes-agent
 - [#122945 fix(tools): re-derive dependency env in bot_mode_dm background runner](https://github.com/NousResearch/hermes-agent/pull/122945) — NousResearch/hermes-agent
 - [#121974 feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
@@ -87,9 +88,9 @@
 - [#10523 Let uploader to control fallback centrally](https://github.com/velero-io/velero/pull/10523) — velero-io/velero
 
 **openshift** (25)
-- [#173 Remove bz-pr-action GitHub Actions workflow](https://github.com/openshift/velero-plugin-for-aws/pull/173) — openshift/velero-plugin-for-aws
 - [#2469 test(e2e): pin MinIO to migtools Bitnami image](https://github.com/openshift/oadp-operator/pull/2469) — openshift/oadp-operator
 - [#174 Remove obsolete bz-on-pr-merge workflow](https://github.com/openshift/velero-plugin-for-aws/pull/174) — openshift/velero-plugin-for-aws
+- [#173 Remove bz-pr-action GitHub Actions workflow](https://github.com/openshift/velero-plugin-for-aws/pull/173) — openshift/velero-plugin-for-aws
 - [#477 Bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0](https://github.com/openshift/openshift-velero-plugin/pull/477) — openshift/openshift-velero-plugin
 - [#583 Remove obsolete bz-on-pr-merge workflow](https://github.com/openshift/velero/pull/583) — openshift/velero
 - [#482 Remove obsolete bz-on-pr-merge workflow](https://github.com/openshift/openshift-velero-plugin/pull/482) — openshift/openshift-velero-plugin

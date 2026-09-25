@@ -3,10 +3,10 @@
     "start": "2026-09-11",
     "end": "2026-09-25"
   },
-  "generatedAt": "2026-09-25T20:18:44Z",
+  "generatedAt": "2026-09-25T23:52:46Z",
   "metrics": {
     "prsMerged": 19,
-    "prsOpened": 20,
+    "prsOpened": 21,
     "prsReviewed": 52,
     "issuesCommented": 33,
     "issuesClosed": 8
@@ -147,6 +147,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 123138,
+      "repo": "NousResearch/hermes-agent",
+      "org": "NousResearch",
+      "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/123138"
+    },
     {
       "number": 122945,
       "repo": "NousResearch/hermes-agent",
@@ -290,13 +297,6 @@
   ],
   "prsReviewed": [
     {
-      "number": 173,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove bz-pr-action GitHub Actions workflow",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/173"
-    },
-    {
       "number": 2469,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -309,6 +309,13 @@
       "org": "openshift",
       "title": "Remove obsolete bz-on-pr-merge workflow",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/174"
+    },
+    {
+      "number": 173,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Remove bz-pr-action GitHub Actions workflow",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/173"
     },
     {
       "number": 477,
