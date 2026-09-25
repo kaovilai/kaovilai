@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T20:20:02Z",
+  "updatedAt": "2026-09-25T23:53:37Z",
   "prs": [
     {
       "number": 10010,
@@ -758,7 +758,7 @@
       "labels": [
         "kind/changelog-not-required"
       ],
-      "updatedAt": "2026-08-25T22:09:26Z"
+      "updatedAt": "2026-09-25T21:32:41Z"
     },
     {
       "number": 10281,
@@ -799,7 +799,7 @@
       "labels": [
         "has-changelog"
       ],
-      "updatedAt": "2026-08-27T16:47:39Z"
+      "updatedAt": "2026-09-25T22:06:50Z"
     },
     {
       "number": 7941,
@@ -840,7 +840,7 @@
         "has-unit-tests",
         "has-changelog"
       ],
-      "updatedAt": "2026-08-27T17:07:21Z"
+      "updatedAt": "2026-09-25T21:32:44Z"
     },
     {
       "number": 267,
@@ -984,7 +984,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-09-01T20:44:35Z"
+      "updatedAt": "2026-09-25T23:45:09Z"
     },
     {
       "number": 2207,
@@ -1021,7 +1021,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-09-25T19:47:57Z"
+      "updatedAt": "2026-09-25T23:44:39Z"
     },
     {
       "number": 84228,
@@ -1702,7 +1702,30 @@
         "P2",
         "sweeper:risk-message-delivery"
       ],
-      "updatedAt": "2026-09-25T18:44:43Z"
+      "updatedAt": "2026-09-25T21:36:07Z"
+    },
+    {
+      "number": 123138,
+      "repo": "NousResearch/hermes-agent",
+      "org": "NousResearch",
+      "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "type/bug",
+        "comp/cli",
+        "comp/tools",
+        "P2",
+        "sweeper:risk-message-delivery",
+        "area/profiles"
+      ],
+      "updatedAt": "2026-09-25T22:12:21Z"
     },
     {
       "number": 116,
@@ -2902,7 +2925,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-25T20:20:02Z",
+    "updatedAt": "2026-09-25T23:53:37Z",
     "needsReview": [
       {
         "number": 68,
@@ -3048,7 +3071,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 227,
+        "waitingDays": 228,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -3134,7 +3157,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 107,
+        "waitingDays": 108,
         "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
@@ -3236,7 +3259,7 @@
           "approved",
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3301,7 +3324,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 71,
+        "waitingDays": 72,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -3472,7 +3495,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-07-31T21:47:00Z"
       },
       {
@@ -3532,7 +3555,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 50,
+        "waitingDays": 51,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -3684,7 +3707,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
@@ -3710,7 +3733,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-08-14T21:03:44Z"
       },
       {
@@ -3736,7 +3759,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
@@ -3762,7 +3785,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 34,
+        "waitingDays": 35,
         "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
@@ -3788,7 +3811,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
@@ -3880,37 +3903,6 @@
         "reason": "awaitingReview",
         "waitingDays": 29,
         "updatedAt": "2026-08-27T17:00:09Z"
-      },
-      {
-        "number": 10286,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-        "url": "https://github.com/velero-io/velero/pull/10286",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 29,
-        "updatedAt": "2026-08-27T16:47:39Z"
       },
       {
         "number": 7941,
@@ -4007,38 +3999,6 @@
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
-        "number": 9384,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip restore informer cache for resources without watch support",
-        "url": "https://github.com/velero-io/velero/pull/9384",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 29,
-        "updatedAt": "2026-08-27T17:07:21Z"
-      },
-      {
         "number": 9388,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4094,37 +4054,8 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-08-31T20:24:39Z"
-      },
-      {
-        "number": 2198,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix: handle not-found error in nodeagent DaemonSet deletion",
-        "url": "https://github.com/openshift/oadp-operator/pull/2198",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-09-01T20:44:35Z"
       },
       {
         "number": 565,
@@ -4334,7 +4265,67 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-25T18:44:43Z"
+        "updatedAt": "2026-09-25T21:36:07Z"
+      },
+      {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-25T22:12:21Z"
+      },
+      {
+        "number": 2198,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix: handle not-found error in nodeagent DaemonSet deletion",
+        "url": "https://github.com/openshift/oadp-operator/pull/2198",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-25T23:45:09Z"
       },
       {
         "number": 2379,
@@ -4363,7 +4354,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-09-25T19:47:57Z"
+        "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
         "number": 10010,
@@ -4427,6 +4418,69 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-09-25T19:10:46Z"
+      },
+      {
+        "number": 10286,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+        "url": "https://github.com/velero-io/velero/pull/10286",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-25T22:06:50Z"
+      },
+      {
+        "number": 9384,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip restore informer cache for resources without watch support",
+        "url": "https://github.com/velero-io/velero/pull/9384",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-25T21:32:44Z"
       },
       {
         "number": 9910,
@@ -4641,7 +4695,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:54:13Z"
       },
       {
@@ -4669,7 +4723,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:54:41Z"
       },
       {
@@ -4695,7 +4749,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:54:27Z"
       },
       {
@@ -4721,7 +4775,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:54:48Z"
       },
       {
@@ -4747,7 +4801,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:55:14Z"
       },
       {
@@ -4773,7 +4827,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
@@ -4807,37 +4861,6 @@
         "reason": "pendingMerge",
         "waitingDays": 30,
         "updatedAt": "2026-08-26T14:58:57Z"
-      },
-      {
-        "number": 10077,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot auto-approve workflow",
-        "url": "https://github.com/velero-io/velero/pull/10077",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 30,
-        "updatedAt": "2026-08-25T22:09:26Z"
       },
       {
         "number": 18725,
@@ -4919,7 +4942,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5075,6 +5098,37 @@
         "reason": "pendingMerge",
         "waitingDays": 4,
         "updatedAt": "2026-09-21T08:00:35Z"
+      },
+      {
+        "number": 10077,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add Dependabot auto-approve workflow",
+        "url": "https://github.com/velero-io/velero/pull/10077",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-09-25T21:32:41Z"
       },
       {
         "number": 9236,
