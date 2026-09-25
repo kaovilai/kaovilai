@@ -1,19 +1,19 @@
 # Activity Log
 
-> **Period:** 2026-09-10 — 2026-09-24
-> **Generated:** 2026-09-24 23:47:24 UTC
+> **Period:** 2026-09-11 — 2026-09-25
+> **Generated:** 2026-09-25 01:18:35 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 25 |
-| PRs Opened | 25 |
-| PRs Reviewed | 45 |
+| PRs Merged | 19 |
+| PRs Opened | 19 |
+| PRs Reviewed | 41 |
 | Issues/PRs Commented | 32 |
-| Issues Closed | 9 |
+| Issues Closed | 8 |
 
 ---
 
-## PRs Merged (25)
+## PRs Merged (19)
 
 **velero-io** (7)
 - [#10565 Add e2e test for namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10565) — velero-io/velero
@@ -24,50 +24,42 @@
 - [#10027 Add set-based label selector test and docs coverage for restore](https://github.com/velero-io/velero/pull/10027) — velero-io/velero
 - [#9575 Add configurable tolerations for PodVolumeBackup and data mover pods](https://github.com/velero-io/velero/pull/9575) — velero-io/velero
 
-**openshift** (8)
+**openshift** (6)
 - [#2454 OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation](https://github.com/openshift/oadp-operator/pull/2454) — openshift/oadp-operator
 - [#2453 OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs](https://github.com/openshift/oadp-operator/pull/2453) — openshift/oadp-operator
 - [#2452 OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap](https://github.com/openshift/oadp-operator/pull/2452) — openshift/oadp-operator
 - [#2450 fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths](https://github.com/openshift/oadp-operator/pull/2450) — openshift/oadp-operator
 - [#85460 oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake](https://github.com/openshift/release/pull/85460) — openshift/release
 - [#449 Detect SCC UID/GID-range mismatch on namespace restore](https://github.com/openshift/openshift-velero-plugin/pull/449) — openshift/openshift-velero-plugin
-- [#2446 [oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)](https://github.com/openshift/oadp-operator/pull/2446) — openshift/oadp-operator
-- [#2445 fix: don't check VEP-25 CRDs before the feature gate that creates them](https://github.com/openshift/oadp-operator/pull/2445) — openshift/oadp-operator
 
 **migtools** (1)
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (9)
+**Other** (5)
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
 - [#1 Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest](https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1) — kaovilai/android_vendor_amazon_maverick
 - [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
 - [#14 Fix healthcheck: use 127.0.0.1 instead of localhost](https://github.com/kaovilai/copilot-api/pull/14) — kaovilai/copilot-api
 - [#13 Lower ambiguous-timeout budget to 80s to beat client watchdogs](https://github.com/kaovilai/copilot-api/pull/13) — kaovilai/copilot-api
-- [#182 Fall back to top-level build-log.txt for steps that die before writing artifacts](https://github.com/kaovilai/github-bot-command-palette/pull/182) — kaovilai/github-bot-command-palette
-- [#6 Fix Netlify build failure: bump Node version and sync yarn.lock](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6) — kaovilai/bandwidth-hero-proxy2
-- [#3 Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal](https://github.com/kaovilai/playwright-crx/pull/3) — kaovilai/playwright-crx
-- [#1 Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions](https://github.com/kaovilai/playwright-crx/pull/1) — kaovilai/playwright-crx
-## PRs Opened (25)
+## PRs Opened (19)
 
 **velero-io** (3)
 - [#10565 Add e2e test for namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10565) — velero-io/velero
 - [#10555 Fix e2e-test-kind and changelog-check CI flakes](https://github.com/velero-io/velero/pull/10555) — velero-io/velero
 - [#10534 Add changelog-bot workflow to add changelogs via /changelog comment](https://github.com/velero-io/velero/pull/10534) — velero-io/velero
 
-**openshift** (7)
+**openshift** (5)
 - [#2454 OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation](https://github.com/openshift/oadp-operator/pull/2454) — openshift/oadp-operator
 - [#2453 OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs](https://github.com/openshift/oadp-operator/pull/2453) — openshift/oadp-operator
 - [#2452 OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap](https://github.com/openshift/oadp-operator/pull/2452) — openshift/oadp-operator
 - [#2450 fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths](https://github.com/openshift/oadp-operator/pull/2450) — openshift/oadp-operator
 - [#85460 oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake](https://github.com/openshift/release/pull/85460) — openshift/release
-- [#2446 [oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)](https://github.com/openshift/oadp-operator/pull/2446) — openshift/oadp-operator
-- [#2445 fix: don't check VEP-25 CRDs before the feature gate that creates them](https://github.com/openshift/oadp-operator/pull/2445) — openshift/oadp-operator
 
 **migtools** (2)
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (13)
+**Other** (9)
 - [#121974 feat(browser): recognize Comet (Perplexity) for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
 - [#4 Throwaway: trigger fork CI](https://github.com/kaovilai/cliprelay/pull/4) — kaovilai/cliprelay
@@ -77,26 +69,21 @@
 - [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
 - [#14 Fix healthcheck: use 127.0.0.1 instead of localhost](https://github.com/kaovilai/copilot-api/pull/14) — kaovilai/copilot-api
 - [#13 Lower ambiguous-timeout budget to 80s to beat client watchdogs](https://github.com/kaovilai/copilot-api/pull/13) — kaovilai/copilot-api
-- [#182 Fall back to top-level build-log.txt for steps that die before writing artifacts](https://github.com/kaovilai/github-bot-command-palette/pull/182) — kaovilai/github-bot-command-palette
-- [#6 Fix Netlify build failure: bump Node version and sync yarn.lock](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6) — kaovilai/bandwidth-hero-proxy2
-- [#3 Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal](https://github.com/kaovilai/playwright-crx/pull/3) — kaovilai/playwright-crx
-- [#1 Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions](https://github.com/kaovilai/playwright-crx/pull/1) — kaovilai/playwright-crx
-## PRs Reviewed (45)
+## PRs Reviewed (41)
 
-**velero-io** (11)
+**velero-io** (10)
 - [#10572 Add architecture entry point and roadmap change process](https://github.com/velero-io/velero/pull/10572) — velero-io/velero
 - [#10580 docs: fix --use-volume-snapshots=false in Tencent Cloud guide](https://github.com/velero-io/velero/pull/10580) — velero-io/velero
 - [#10579 Change hashing algorithm to HMAC-SHA256-128 for kopia repo](https://github.com/velero-io/velero/pull/10579) — velero-io/velero
 - [#10568 Document maintainer contact info and shared responsibility](https://github.com/velero-io/velero/pull/10568) — velero-io/velero
 - [#10539 [Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10539) — velero-io/velero
 - [#10537 Add doc for block data mover](https://github.com/velero-io/velero/pull/10537) — velero-io/velero
-- [#10521 Fix backup queue permanently stuck when a dequeued backup completes during the patch](https://github.com/velero-io/velero/pull/10521) — velero-io/velero
 - [#10530 Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check](https://github.com/velero-io/velero/pull/10530) — velero-io/velero
 - [#10526 Fix schedule create dropping backup type](https://github.com/velero-io/velero/pull/10526) — velero-io/velero
 - [#10524 test: use the Kind constant instead of the string literal](https://github.com/velero-io/velero/pull/10524) — velero-io/velero
 - [#10523 Let uploader to control fallback centrally](https://github.com/velero-io/velero/pull/10523) — velero-io/velero
 
-**openshift** (17)
+**openshift** (16)
 - [#582 Remove bz-pr-action GitHub Actions workflow](https://github.com/openshift/velero/pull/582) — openshift/velero
 - [#480 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.6 (4ae9c74) into oadp-1.6](https://github.com/openshift/openshift-velero-plugin/pull/480) — openshift/openshift-velero-plugin
 - [#2466 [oadp-1.4] OADP-8835: feat(bsl): concatenate all CA certificates from BSLs and include system defaults](https://github.com/openshift/oadp-operator/pull/2466) — openshift/oadp-operator
@@ -113,9 +100,8 @@
 - [#2449 [oadp-1.6] chore(deps): migrate MinIO image registry from Docker Hub to Quay](https://github.com/openshift/oadp-operator/pull/2449) — openshift/oadp-operator
 - [#2448 chore(deps): migrate MinIO image registry from Docker Hub to Quay](https://github.com/openshift/oadp-operator/pull/2448) — openshift/oadp-operator
 - [#84954 Remove OADP rebasebot periodic jobs](https://github.com/openshift/release/pull/84954) — openshift/release
-- [#2447 [oadp-1.6] fix: don't check VEP-25 CRDs before the feature gate that creates them](https://github.com/openshift/oadp-operator/pull/2447) — openshift/oadp-operator
 
-**migtools** (14)
+**migtools** (13)
 - [#110 Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (a725c94) into oadp-1.6](https://github.com/migtools/oadp-vm-file-restore/pull/110) — migtools/oadp-vm-file-restore
 - [#241 Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (6a1a241) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/241) — migtools/kubevirt-datamover-controller
 - [#387 Merge https://github.com/migtools/oadp-non-admin:oadp-1.6 (24ca6dd) into oadp-1.6](https://github.com/migtools/oadp-non-admin/pull/387) — migtools/oadp-non-admin
@@ -129,12 +115,10 @@
 - [#190 Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0](https://github.com/migtools/udistribution/pull/190) — migtools/udistribution
 - [#235 Fix default max concurrent data movers](https://github.com/migtools/kubevirt-datamover-controller/pull/235) — migtools/kubevirt-datamover-controller
 - [#62 update kubevirt-datamover-controller dependency and remove replace](https://github.com/migtools/kubevirt-datamover-plugin/pull/62) — migtools/kubevirt-datamover-plugin
-- [#61 [oadp-1.6] issue #14: allow users to skip quiesce via Backup or VM](https://github.com/migtools/kubevirt-datamover-plugin/pull/61) — migtools/kubevirt-datamover-plugin
 
-**Other** (3)
+**Other** (2)
 - [#620 :sparkles: Restrict operand egress via NetworkPolicy](https://github.com/konveyor/operator/pull/620) — konveyor/operator
 - [#192 update plugins to 1.14.3-rc.2](https://github.com/oadp-rebasebot/oadp-rebase/pull/192) — oadp-rebasebot/oadp-rebase
-- [#394 feat(network): support internal networks](https://github.com/socktainer/socktainer/pull/394) — socktainer/socktainer
 ## Issues/PRs Commented On (32)
 
 **velero-io** (21)
@@ -176,16 +160,15 @@
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
-## Issues Closed (9)
+## Issues Closed (8)
 
-**velero-io** (7)
+**velero-io** (6)
 - [#10564 E2E test coverage for namespace selection by label in resource policy](https://github.com/velero-io/velero/issues/10564) — velero-io/velero
 - [#9645 backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds](https://github.com/velero-io/velero/issues/9645) — velero-io/velero
 - [#7492 ResourcePolicy-based namespace selection by label](https://github.com/velero-io/velero/issues/7492) — velero-io/velero
 - [#10545 CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout](https://github.com/velero-io/velero/issues/10545) — velero-io/velero
 - [#8363 VolumePolicies filter volumes to snapshot by volume name](https://github.com/velero-io/velero/issues/8363) — velero-io/velero
 - [#9771 Design: ResourcePolicy-based namespace selection by label](https://github.com/velero-io/velero/issues/9771) — velero-io/velero
-- [#10295 CBT delta-error fallback marks the whole device dirty instead of the design's allocated-blocks full backup](https://github.com/velero-io/velero/issues/10295) — velero-io/velero
 
 **openshift** (2)
 - [#448 Feature request: detect/reconcile SCC UID/GID-range mismatch on Namespace restore](https://github.com/openshift/openshift-velero-plugin/issues/448) — openshift/openshift-velero-plugin

@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-09-10",
-    "end": "2026-09-24"
+    "start": "2026-09-11",
+    "end": "2026-09-25"
   },
-  "generatedAt": "2026-09-24T23:47:24Z",
+  "generatedAt": "2026-09-25T01:18:35Z",
   "metrics": {
-    "prsMerged": 25,
-    "prsOpened": 25,
-    "prsReviewed": 45,
+    "prsMerged": 19,
+    "prsOpened": 19,
+    "prsReviewed": 41,
     "issuesCommented": 32,
-    "issuesClosed": 9
+    "issuesClosed": 8
   },
   "prsMerged": [
     {
@@ -144,48 +144,6 @@
       "org": "kaovilai",
       "title": "Lower ambiguous-timeout budget to 80s to beat client watchdogs",
       "url": "https://github.com/kaovilai/copilot-api/pull/13"
-    },
-    {
-      "number": 2446,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2446"
-    },
-    {
-      "number": 182,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Fix Netlify build failure: bump Node version and sync yarn.lock",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6"
-    },
-    {
-      "number": 2445,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: don't check VEP-25 CRDs before the feature gate that creates them",
-      "url": "https://github.com/openshift/oadp-operator/pull/2445"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/3"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/1"
     }
   ],
   "prsOpened": [
@@ -321,48 +279,6 @@
       "org": "kaovilai",
       "title": "Lower ambiguous-timeout budget to 80s to beat client watchdogs",
       "url": "https://github.com/kaovilai/copilot-api/pull/13"
-    },
-    {
-      "number": 182,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Fix Netlify build failure: bump Node version and sync yarn.lock",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6"
-    },
-    {
-      "number": 2446,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2446"
-    },
-    {
-      "number": 2445,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: don't check VEP-25 CRDs before the feature gate that creates them",
-      "url": "https://github.com/openshift/oadp-operator/pull/2445"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/3"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/1"
     }
   ],
   "prsReviewed": [
@@ -584,13 +500,6 @@
       "url": "https://github.com/konveyor/operator/pull/620"
     },
     {
-      "number": 10521,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10521"
-    },
-    {
       "number": 235,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -640,25 +549,11 @@
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/192"
     },
     {
-      "number": 394,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "feat(network): support internal networks",
-      "url": "https://github.com/socktainer/socktainer/pull/394"
-    },
-    {
       "number": 10524,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "test: use the Kind constant instead of the string literal",
       "url": "https://github.com/velero-io/velero/pull/10524"
-    },
-    {
-      "number": 61,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "[oadp-1.6] issue #14: allow users to skip quiesce via Backup or VM",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/61"
     },
     {
       "number": 84954,
@@ -673,13 +568,6 @@
       "org": "velero-io",
       "title": "Let uploader to control fallback centrally",
       "url": "https://github.com/velero-io/velero/pull/10523"
-    },
-    {
-      "number": 2447,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix: don't check VEP-25 CRDs before the feature gate that creates them",
-      "url": "https://github.com/openshift/oadp-operator/pull/2447"
     }
   ],
   "issuesCommented": [
@@ -964,13 +852,6 @@
       "org": "openshift",
       "title": "Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD",
       "url": "https://github.com/openshift/oadp-operator/issues/2386"
-    },
-    {
-      "number": 10295,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CBT delta-error fallback marks the whole device dirty instead of the design's allocated-blocks full backup",
-      "url": "https://github.com/velero-io/velero/issues/10295"
     }
   ]
 }
