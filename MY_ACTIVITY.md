@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-09-11 — 2026-09-25
-> **Generated:** 2026-09-25 11:33:49 UTC
+> **Generated:** 2026-09-25 16:49:39 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -60,7 +60,7 @@
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
 **Other** (9)
-- [#121974 feat(browser): recognize Comet (Perplexity) for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
+- [#121974 feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
 - [#4 Throwaway: trigger fork CI](https://github.com/kaovilai/cliprelay/pull/4) — kaovilai/cliprelay
 - [#116 OtpExtractor: support alphanumeric OTP codes](https://github.com/geekflyer/cliprelay/pull/116) — geekflyer/cliprelay
