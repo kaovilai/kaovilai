@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-26 15:12:59 UTC
+> Last updated: 2026-09-26 20:16:25 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -110,6 +110,7 @@ No open PRs.
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #122945](https://img.shields.io/badge/PR%20%23122945-ready-green)](https://github.com/NousResearch/hermes-agent/pull/122945) **NousResearch/hermes-agent** → `main` - fix(tools): re-derive dependency env in bot_mode_dm background runner
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
+- [![PR #124184](https://img.shields.io/badge/PR%20%23124184-ready-green)](https://github.com/NousResearch/hermes-agent/pull/124184) **NousResearch/hermes-agent** → `main` - fix(desktop): recognize Copilot's dash-suffixed 1M-context model ids
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
