@@ -1,14 +1,14 @@
 # Activity Log
 
 > **Period:** 2026-09-12 — 2026-09-26
-> **Generated:** 2026-09-26 01:21:05 UTC
+> **Generated:** 2026-09-26 04:43:20 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 16 |
 | PRs Opened | 18 |
 | PRs Reviewed | 48 |
-| Issues/PRs Commented | 31 |
+| Issues/PRs Commented | 32 |
 | Issues Closed | 7 |
 
 ---
@@ -122,9 +122,10 @@
 **Other** (2)
 - [#620 :sparkles: Restrict operand egress via NetworkPolicy](https://github.com/konveyor/operator/pull/620) — konveyor/operator
 - [#192 update plugins to 1.14.3-rc.2](https://github.com/oadp-rebasebot/oadp-rebase/pull/192) — oadp-rebasebot/oadp-rebase
-## Issues/PRs Commented On (31)
+## Issues/PRs Commented On (32)
 
-**velero-io** (21)
+**velero-io** (22)
+- [#9093 Publish releases to winget-pkgs](https://github.com/velero-io/velero/issues/9093) — velero-io/velero
 - [#10299 Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag](https://github.com/velero-io/velero/issues/10299) — velero-io/velero
 - [#10310 Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands](https://github.com/velero-io/velero/issues/10310) — velero-io/velero
 - [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
