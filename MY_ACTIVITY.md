@@ -1,14 +1,14 @@
 # Activity Log
 
-> **Period:** 2026-09-12 — 2026-09-26
-> **Generated:** 2026-09-26 20:58:45 UTC
+> **Period:** 2026-09-13 — 2026-09-27
+> **Generated:** 2026-09-27 05:05:08 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 16 |
 | PRs Opened | 19 |
 | PRs Reviewed | 50 |
-| Issues/PRs Commented | 32 |
+| Issues/PRs Commented | 31 |
 | Issues Closed | 7 |
 
 ---
@@ -69,8 +69,8 @@
 ## PRs Reviewed (50)
 
 **velero-io** (11)
-- [#2 Document maintainer lifecycle, affiliation policy, and Code of Conduct](https://github.com/velero-io/.github/pull/2) — velero-io/.github
 - [#10588 e2e: make the StorageClass names configurable](https://github.com/velero-io/velero/pull/10588) — velero-io/velero
+- [#2 Document maintainer lifecycle, affiliation policy, and Code of Conduct](https://github.com/velero-io/.github/pull/2) — velero-io/.github
 - [#10578 Enable VGDP soothing by default and set queue length as 5](https://github.com/velero-io/velero/pull/10578) — velero-io/velero
 - [#10570 Warn when the volume data of an existing PVC backed up by snapshot is not restored](https://github.com/velero-io/velero/pull/10570) — velero-io/velero
 - [#10579 Change hashing algorithm to HMAC-SHA256-128 for kopia repo](https://github.com/velero-io/velero/pull/10579) — velero-io/velero
@@ -125,9 +125,9 @@
 **Other** (2)
 - [#620 :sparkles: Restrict operand egress via NetworkPolicy](https://github.com/konveyor/operator/pull/620) — konveyor/operator
 - [#192 update plugins to 1.14.3-rc.2](https://github.com/oadp-rebasebot/oadp-rebase/pull/192) — oadp-rebasebot/oadp-rebase
-## Issues/PRs Commented On (32)
+## Issues/PRs Commented On (31)
 
-**velero-io** (22)
+**velero-io** (21)
 - [#9093 Publish releases to winget-pkgs](https://github.com/velero-io/velero/issues/9093) — velero-io/velero
 - [#10299 Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag](https://github.com/velero-io/velero/issues/10299) — velero-io/velero
 - [#10310 Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands](https://github.com/velero-io/velero/issues/10310) — velero-io/velero
@@ -149,7 +149,6 @@
 - [#8263 Fatal: unable to open config file results in PartiallyFailed Backup](https://github.com/velero-io/velero/issues/8263) — velero-io/velero
 - [#9318 Behavior of skip volume policy is strange/problematic](https://github.com/velero-io/velero/issues/9318) — velero-io/velero
 - [#9453 DataUpload tasks stuck in Prepared phase for extended periods](https://github.com/velero-io/velero/issues/9453) — velero-io/velero
-- [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
 
 **openshift** (1)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
