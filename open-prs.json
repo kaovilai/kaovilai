@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T15:53:38Z",
+  "updatedAt": "2026-09-27T20:31:04Z",
   "prs": [
     {
       "number": 10010,
@@ -1748,7 +1748,7 @@
         "P3",
         "comp/desktop"
       ],
-      "updatedAt": "2026-09-26T18:13:00Z"
+      "updatedAt": "2026-09-27T19:54:07Z"
     },
     {
       "number": 116,
@@ -2948,7 +2948,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-09-27T15:53:38Z",
+    "updatedAt": "2026-09-27T20:31:04Z",
     "needsReview": [
       {
         "number": 68,
@@ -3154,36 +3154,6 @@
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 109,
-        "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -3236,7 +3206,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 79,
+        "waitingDays": 80,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -3269,30 +3239,6 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 74,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 442,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -3319,8 +3265,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 73,
+        "waitingDays": 74,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 74,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3373,7 +3343,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -3399,7 +3369,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -3425,7 +3395,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -3451,7 +3421,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -3698,7 +3668,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-08-13T19:02:47Z"
       },
       {
@@ -3834,8 +3804,36 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 33,
+        "waitingDays": 34,
         "updatedAt": "2026-08-24T20:26:38Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 32,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 18957,
@@ -3871,34 +3869,6 @@
         "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 31,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 10041,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -3924,7 +3894,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-08-27T17:00:09Z"
       },
       {
@@ -3955,7 +3925,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -3986,7 +3956,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -4018,7 +3988,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -4048,7 +4018,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -4077,7 +4047,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-08-31T20:24:39Z"
       },
       {
@@ -4107,7 +4077,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-09-04T18:26:55Z"
       },
       {
@@ -4136,7 +4106,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -4201,7 +4171,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -4263,6 +4233,98 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-09-25T01:51:25Z"
+      },
+      {
+        "number": 10051,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+        "url": "https://github.com/velero-io/velero/pull/10051",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "adam-jian-zhang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-09-25T19:10:46Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-09-25T19:28:47Z"
+      },
+      {
+        "number": 121974,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/feature",
+          "comp/cli",
+          "tool/browser",
+          "P3"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-09-26T17:36:37Z"
       },
       {
         "number": 122945,
@@ -4352,37 +4414,6 @@
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
-        "number": 10051,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-        "url": "https://github.com/velero-io/velero/pull/10051",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "adam-jian-zhang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-09-25T19:10:46Z"
-      },
-      {
         "number": 10286,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4444,67 +4475,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-09-25T21:32:44Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-09-25T19:28:47Z"
-      },
-      {
-        "number": 121974,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/feature",
-          "comp/cli",
-          "tool/browser",
-          "P3"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-09-26T17:36:37Z"
       },
       {
         "number": 123138,
@@ -4592,7 +4562,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -4918,7 +4888,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-08-30T17:39:09Z"
       },
       {
@@ -4979,6 +4949,38 @@
         "reason": "pendingMerge",
         "waitingDays": 6,
         "updatedAt": "2026-09-21T05:16:17Z"
+      },
+      {
+        "number": 10210,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
+        "url": "https://github.com/velero-io/velero/pull/10210",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 4,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-09-21T18:18:15Z"
       },
       {
         "number": 321,
@@ -5091,36 +5093,37 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
-        "number": 10210,
+        "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
-        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-        "url": "https://github.com/velero-io/velero/pull/10210",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
         "targetBranch": "main",
-        "author": "Copilot",
+        "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
-          "kaovilai",
-          "Copilot"
+          "kaovilai"
         ],
         "labels": [
           "has-unit-tests",
-          "has-changelog"
+          "has-changelog",
+          "has-e2e-2tests"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
         "reviewDecision": "APPROVED",
-        "approvalCount": 4,
+        "approvalCount": 2,
         "requiredApprovals": null,
         "reviewRequests": [
-          "kaovilai"
+          "blackpiglet",
+          "shubham-pampattiwar"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-09-21T18:18:15Z"
+        "waitingDays": 2,
+        "updatedAt": "2026-09-25T19:12:20Z"
       },
       {
         "number": 10077,
@@ -5152,39 +5155,6 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-09-25T21:32:41Z"
-      },
-      {
-        "number": 9236,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-09-25T19:12:20Z"
       }
     ]
   }
