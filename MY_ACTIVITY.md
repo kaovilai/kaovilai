@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-09-14 — 2026-09-28
-> **Generated:** 2026-09-28 04:48:48 UTC
+> **Generated:** 2026-09-28 13:28:27 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -69,8 +69,8 @@
 ## PRs Reviewed (50)
 
 **velero-io** (11)
-- [#10578 Enable VGDP soothing by default and set queue length as 5](https://github.com/velero-io/velero/pull/10578) — velero-io/velero
 - [#10588 e2e: make the StorageClass names configurable](https://github.com/velero-io/velero/pull/10588) — velero-io/velero
+- [#10578 Enable VGDP soothing by default and set queue length as 5](https://github.com/velero-io/velero/pull/10578) — velero-io/velero
 - [#2 Document maintainer lifecycle, affiliation policy, and Code of Conduct](https://github.com/velero-io/.github/pull/2) — velero-io/.github
 - [#10570 Warn when the volume data of an existing PVC backed up by snapshot is not restored](https://github.com/velero-io/velero/pull/10570) — velero-io/velero
 - [#10579 Change hashing algorithm to HMAC-SHA256-128 for kopia repo](https://github.com/velero-io/velero/pull/10579) — velero-io/velero
