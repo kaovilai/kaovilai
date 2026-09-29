@@ -3,10 +3,10 @@
     "start": "2026-09-15",
     "end": "2026-09-29"
   },
-  "generatedAt": "2026-09-29T12:31:17Z",
+  "generatedAt": "2026-09-29T17:50:40Z",
   "metrics": {
     "prsMerged": 15,
-    "prsOpened": 19,
+    "prsOpened": 20,
     "prsReviewed": 53,
     "issuesCommented": 24,
     "issuesClosed": 8
@@ -119,6 +119,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 10608,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix: regenerate CRD manifests for the status.activities field",
+      "url": "https://github.com/velero-io/velero/pull/10608"
+    },
     {
       "number": 126897,
       "repo": "NousResearch/hermes-agent",
@@ -255,18 +262,25 @@
   ],
   "prsReviewed": [
     {
-      "number": 10570,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[WIP] Warn when the volume data of an existing PVC backed up by snapshot is not restored",
-      "url": "https://github.com/velero-io/velero/pull/10570"
-    },
-    {
       "number": 10601,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)",
       "url": "https://github.com/velero-io/velero/pull/10601"
+    },
+    {
+      "number": 2,
+      "repo": "velero-io/.github",
+      "org": "velero-io",
+      "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
+      "url": "https://github.com/velero-io/.github/pull/2"
+    },
+    {
+      "number": 10570,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[WIP] Warn when the volume data of an existing PVC backed up by snapshot is not restored",
+      "url": "https://github.com/velero-io/velero/pull/10570"
     },
     {
       "number": 10588,
@@ -295,13 +309,6 @@
       "org": "velero-io",
       "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335"
-    },
-    {
-      "number": 2,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
-      "url": "https://github.com/velero-io/.github/pull/2"
     },
     {
       "number": 10590,
@@ -628,6 +635,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 9260,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add CRD version compatibility validation during server startup",
+      "url": "https://github.com/velero-io/velero/issues/9260"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -689,13 +703,6 @@
       "org": "velero-io",
       "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
       "url": "https://github.com/velero-io/velero/issues/9645"
-    },
-    {
-      "number": 9260,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add CRD version compatibility validation during server startup",
-      "url": "https://github.com/velero-io/velero/issues/9260"
     },
     {
       "number": 9735,
