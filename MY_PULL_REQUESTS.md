@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-09-28 19:28:04 UTC
+> Last updated: 2026-09-29 00:16:26 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -32,7 +32,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-ready-green)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
-- [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-draft-gray)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10327](https://img.shields.io/badge/PR%20%2310327-draft-gray)](https://github.com/velero-io/velero/pull/10327) **velero-io/velero** → `main` - Detect data path pod deletion via informer DeleteFunc
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-draft-gray)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
@@ -55,6 +54,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-failing--ci-red)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-failing--ci-red)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
+- [![PR #9910](https://img.shields.io/badge/PR%20%239910-failing--ci-red)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup (milestone: **v1.19**)
 
 ## openshift
 
@@ -110,7 +110,7 @@ No open PRs.
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #122945](https://img.shields.io/badge/PR%20%23122945-ready-green)](https://github.com/NousResearch/hermes-agent/pull/122945) **NousResearch/hermes-agent** → `main` - fix(tools): re-derive dependency env in bot_mode_dm background runner
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
-- [![PR #124184](https://img.shields.io/badge/PR%20%23124184-ready-green)](https://github.com/NousResearch/hermes-agent/pull/124184) **NousResearch/hermes-agent** → `main` - fix(desktop): recognize Copilot's dash-suffixed 1M-context model ids
+- [![PR #126897](https://img.shields.io/badge/PR%20%23126897-ready-green)](https://github.com/NousResearch/hermes-agent/pull/126897) **NousResearch/hermes-agent** → `main` - fix(copilot): send X-GitHub-Api-Version to unlock full model context windows
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #188](https://img.shields.io/badge/PR%20%23188-ready-green)](https://github.com/kaovilai/kaovilai.pw/pull/188) **kaovilai/kaovilai.pw** → `main` - Fix review queue card deadspace
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
