@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-14",
-    "end": "2026-09-28"
+    "start": "2026-09-15",
+    "end": "2026-09-29"
   },
-  "generatedAt": "2026-09-28T19:24:03Z",
+  "generatedAt": "2026-09-29T02:31:47Z",
   "metrics": {
-    "prsMerged": 16,
+    "prsMerged": 14,
     "prsOpened": 19,
     "prsReviewed": 50,
-    "issuesCommented": 29,
+    "issuesCommented": 24,
     "issuesClosed": 7
   },
   "prsMerged": [
@@ -109,23 +109,16 @@
       "org": "velero-io",
       "title": "Add set-based label selector test and docs coverage for restore",
       "url": "https://github.com/velero-io/velero/pull/10027"
-    },
-    {
-      "number": 9575,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add configurable tolerations for PodVolumeBackup and data mover pods",
-      "url": "https://github.com/velero-io/velero/pull/9575"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/android_vendor_amazon_maverick",
-      "org": "kaovilai",
-      "title": "Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest",
-      "url": "https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1"
     }
   ],
   "prsOpened": [
+    {
+      "number": 126897,
+      "repo": "NousResearch/hermes-agent",
+      "org": "NousResearch",
+      "title": "fix(copilot): send X-GitHub-Api-Version to unlock full model context windows",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/126897"
+    },
     {
       "number": 124184,
       "repo": "NousResearch/hermes-agent",
@@ -251,16 +244,23 @@
       "org": "velero-io",
       "title": "Add changelog-bot workflow to add changelogs via /changelog comment",
       "url": "https://github.com/velero-io/velero/pull/10534"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/android_vendor_amazon_maverick",
-      "org": "kaovilai",
-      "title": "Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest",
-      "url": "https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2470,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] test(e2e): pin MinIO to migtools Bitnami image",
+      "url": "https://github.com/openshift/oadp-operator/pull/2470"
+    },
+    {
+      "number": 10596,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a script to install CSI snapshot support on kind",
+      "url": "https://github.com/velero-io/velero/pull/10596"
+    },
     {
       "number": 10588,
       "repo": "velero-io/velero",
@@ -584,13 +584,6 @@
       "url": "https://github.com/velero-io/velero/pull/10530"
     },
     {
-      "number": 62,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "update kubevirt-datamover-controller dependency and remove replace",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/62"
-    },
-    {
       "number": 2449,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -603,13 +596,6 @@
       "org": "openshift",
       "title": "chore(deps): migrate MinIO image registry from Docker Hub to Quay",
       "url": "https://github.com/openshift/oadp-operator/pull/2448"
-    },
-    {
-      "number": 192,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "update plugins to 1.14.3-rc.2",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/192"
     }
   ],
   "issuesCommented": [
@@ -780,41 +766,6 @@
       "org": "velero-io",
       "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
       "url": "https://github.com/velero-io/velero/issues/10232"
-    },
-    {
-      "number": 14,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/14"
-    },
-    {
-      "number": 2525,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
-      "url": "https://github.com/github/github-mcp-server/issues/2525"
-    },
-    {
-      "number": 8263,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fatal: unable to open config file results in PartiallyFailed Backup",
-      "url": "https://github.com/velero-io/velero/issues/8263"
-    },
-    {
-      "number": 9318,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Behavior of skip volume policy is strange/problematic",
-      "url": "https://github.com/velero-io/velero/issues/9318"
-    },
-    {
-      "number": 9453,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DataUpload tasks stuck in Prepared phase for extended periods",
-      "url": "https://github.com/velero-io/velero/issues/9453"
     }
   ],
   "issuesClosed": [
