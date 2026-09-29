@@ -3,15 +3,22 @@
     "start": "2026-09-15",
     "end": "2026-09-29"
   },
-  "generatedAt": "2026-09-29T17:50:40Z",
+  "generatedAt": "2026-09-29T22:00:34Z",
   "metrics": {
-    "prsMerged": 15,
+    "prsMerged": 16,
     "prsOpened": 20,
-    "prsReviewed": 53,
+    "prsReviewed": 54,
     "issuesCommented": 24,
     "issuesClosed": 8
   },
   "prsMerged": [
+    {
+      "number": 10608,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix: regenerate CRD manifests for the status.activities field",
+      "url": "https://github.com/velero-io/velero/pull/10608"
+    },
     {
       "number": 10077,
       "repo": "velero-io/velero",
@@ -261,6 +268,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 586,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)",
+      "url": "https://github.com/openshift/velero/pull/586"
+    },
     {
       "number": 10601,
       "repo": "velero-io/velero",
