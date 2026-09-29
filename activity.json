@@ -3,15 +3,22 @@
     "start": "2026-09-15",
     "end": "2026-09-29"
   },
-  "generatedAt": "2026-09-29T02:31:47Z",
+  "generatedAt": "2026-09-29T12:31:17Z",
   "metrics": {
-    "prsMerged": 14,
+    "prsMerged": 15,
     "prsOpened": 19,
-    "prsReviewed": 50,
+    "prsReviewed": 53,
     "issuesCommented": 24,
-    "issuesClosed": 7
+    "issuesClosed": 8
   },
   "prsMerged": [
+    {
+      "number": 10077,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add Dependabot auto-approve workflow",
+      "url": "https://github.com/velero-io/velero/pull/10077"
+    },
     {
       "number": 2454,
       "repo": "openshift/oadp-operator",
@@ -248,18 +255,18 @@
   ],
   "prsReviewed": [
     {
-      "number": 2470,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] test(e2e): pin MinIO to migtools Bitnami image",
-      "url": "https://github.com/openshift/oadp-operator/pull/2470"
-    },
-    {
-      "number": 10596,
+      "number": 10570,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "e2e: add a script to install CSI snapshot support on kind",
-      "url": "https://github.com/velero-io/velero/pull/10596"
+      "title": "[WIP] Warn when the volume data of an existing PVC backed up by snapshot is not restored",
+      "url": "https://github.com/velero-io/velero/pull/10570"
+    },
+    {
+      "number": 10601,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)",
+      "url": "https://github.com/velero-io/velero/pull/10601"
     },
     {
       "number": 10588,
@@ -269,11 +276,25 @@
       "url": "https://github.com/velero-io/velero/pull/10588"
     },
     {
-      "number": 10578,
+      "number": 10572,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Enable VGDP soothing by default and set queue length as 5",
-      "url": "https://github.com/velero-io/velero/pull/10578"
+      "title": "Add architecture entry point and roadmap change process",
+      "url": "https://github.com/velero-io/velero/pull/10572"
+    },
+    {
+      "number": 10596,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a script to install CSI snapshot support on kind",
+      "url": "https://github.com/velero-io/velero/pull/10596"
+    },
+    {
+      "number": 335,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335"
     },
     {
       "number": 2,
@@ -281,6 +302,27 @@
       "org": "velero-io",
       "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
       "url": "https://github.com/velero-io/.github/pull/2"
+    },
+    {
+      "number": 10590,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix broken internal links and anchors in main docs",
+      "url": "https://github.com/velero-io/velero/pull/10590"
+    },
+    {
+      "number": 2470,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] test(e2e): pin MinIO to migtools Bitnami image",
+      "url": "https://github.com/openshift/oadp-operator/pull/2470"
+    },
+    {
+      "number": 10578,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enable VGDP soothing by default and set queue length as 5",
+      "url": "https://github.com/velero-io/velero/pull/10578"
     },
     {
       "number": 2469,
@@ -309,13 +351,6 @@
       "org": "openshift",
       "title": "Bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/477"
-    },
-    {
-      "number": 10570,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Warn when the volume data of an existing PVC backed up by snapshot is not restored",
-      "url": "https://github.com/velero-io/velero/pull/10570"
     },
     {
       "number": 583,
@@ -358,13 +393,6 @@
       "org": "velero-io",
       "title": "Change hashing algorithm to HMAC-SHA256-128 for kopia repo",
       "url": "https://github.com/velero-io/velero/pull/10579"
-    },
-    {
-      "number": 10572,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add architecture entry point and roadmap change process",
-      "url": "https://github.com/velero-io/velero/pull/10572"
     },
     {
       "number": 10580,
@@ -769,6 +797,13 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10076,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Dependabot auto approve action",
+      "url": "https://github.com/velero-io/velero/issues/10076"
+    },
     {
       "number": 10564,
       "repo": "velero-io/velero",
