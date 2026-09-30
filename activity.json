@@ -3,12 +3,12 @@
     "start": "2026-09-16",
     "end": "2026-09-30"
   },
-  "generatedAt": "2026-09-30T12:16:11Z",
+  "generatedAt": "2026-09-30T17:46:08Z",
   "metrics": {
     "prsMerged": 15,
     "prsOpened": 19,
-    "prsReviewed": 51,
-    "issuesCommented": 23,
+    "prsReviewed": 53,
+    "issuesCommented": 24,
     "issuesClosed": 8
   },
   "prsMerged": [
@@ -255,6 +255,34 @@
   ],
   "prsReviewed": [
     {
+      "number": 458,
+      "repo": "kubevirt/kubevirt-velero-plugin",
+      "org": "kubevirt",
+      "title": "update minio deployment after images were pulled",
+      "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/458"
+    },
+    {
+      "number": 10596,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a script to install CSI snapshot support on kind",
+      "url": "https://github.com/velero-io/velero/pull/10596"
+    },
+    {
+      "number": 318,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (636bec3) into oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/318"
+    },
+    {
+      "number": 10572,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add architecture entry point and roadmap change process",
+      "url": "https://github.com/velero-io/velero/pull/10572"
+    },
+    {
       "number": 10588,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -267,13 +295,6 @@
       "org": "velero-io",
       "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)",
       "url": "https://github.com/velero-io/velero/pull/10601"
-    },
-    {
-      "number": 10596,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a script to install CSI snapshot support on kind",
-      "url": "https://github.com/velero-io/velero/pull/10596"
     },
     {
       "number": 586,
@@ -295,13 +316,6 @@
       "org": "velero-io",
       "title": "[WIP] Warn when the volume data of an existing PVC backed up by snapshot is not restored",
       "url": "https://github.com/velero-io/velero/pull/10570"
-    },
-    {
-      "number": 10572,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add architecture entry point and roadmap change process",
-      "url": "https://github.com/velero-io/velero/pull/10572"
     },
     {
       "number": 335,
@@ -613,6 +627,13 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 4300,
+      "repo": "kubevirt/containerized-data-importer",
+      "org": "kubevirt",
+      "title": "cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)",
+      "url": "https://github.com/kubevirt/containerized-data-importer/issues/4300"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
