@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-15",
-    "end": "2026-09-29"
+    "start": "2026-09-16",
+    "end": "2026-09-30"
   },
-  "generatedAt": "2026-09-29T22:00:34Z",
+  "generatedAt": "2026-09-30T01:54:54Z",
   "metrics": {
-    "prsMerged": 16,
-    "prsOpened": 20,
-    "prsReviewed": 54,
-    "issuesCommented": 24,
+    "prsMerged": 15,
+    "prsOpened": 19,
+    "prsReviewed": 51,
+    "issuesCommented": 23,
     "issuesClosed": 8
   },
   "prsMerged": [
@@ -116,13 +116,6 @@
       "org": "velero-io",
       "title": "Design: namespace selection by label in resource policy",
       "url": "https://github.com/velero-io/velero/pull/9772"
-    },
-    {
-      "number": 10027,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add set-based label selector test and docs coverage for restore",
-      "url": "https://github.com/velero-io/velero/pull/10027"
     }
   ],
   "prsOpened": [
@@ -258,16 +251,23 @@
       "org": "kaovilai",
       "title": "WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)",
       "url": "https://github.com/kaovilai/cliprelay/pull/3"
-    },
-    {
-      "number": 10534,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add changelog-bot workflow to add changelogs via /changelog comment",
-      "url": "https://github.com/velero-io/velero/pull/10534"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10596,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a script to install CSI snapshot support on kind",
+      "url": "https://github.com/velero-io/velero/pull/10596"
+    },
+    {
+      "number": 10588,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: make the StorageClass names configurable",
+      "url": "https://github.com/velero-io/velero/pull/10588"
+    },
     {
       "number": 586,
       "repo": "openshift/velero",
@@ -297,25 +297,11 @@
       "url": "https://github.com/velero-io/velero/pull/10570"
     },
     {
-      "number": 10588,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: make the StorageClass names configurable",
-      "url": "https://github.com/velero-io/velero/pull/10588"
-    },
-    {
       "number": 10572,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Add architecture entry point and roadmap change process",
       "url": "https://github.com/velero-io/velero/pull/10572"
-    },
-    {
-      "number": 10596,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a script to install CSI snapshot support on kind",
-      "url": "https://github.com/velero-io/velero/pull/10596"
     },
     {
       "number": 335,
@@ -624,30 +610,16 @@
       "org": "migtools",
       "title": "Fix default max concurrent data movers",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/235"
-    },
-    {
-      "number": 10530,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Identify the backed-up volume by CSI volume handle in the in-place restore pre-flight check",
-      "url": "https://github.com/velero-io/velero/pull/10530"
-    },
-    {
-      "number": 2449,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] chore(deps): migrate MinIO image registry from Docker Hub to Quay",
-      "url": "https://github.com/openshift/oadp-operator/pull/2449"
-    },
-    {
-      "number": 2448,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "chore(deps): migrate MinIO image registry from Docker Hub to Quay",
-      "url": "https://github.com/openshift/oadp-operator/pull/2448"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507"
+    },
     {
       "number": 9260,
       "repo": "velero-io/velero",
@@ -661,13 +633,6 @@
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507"
     },
     {
       "number": 9093,
@@ -808,13 +773,6 @@
       "org": "velero-io",
       "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
       "url": "https://github.com/velero-io/velero/issues/8279"
-    },
-    {
-      "number": 10232,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DownloadRequest reaches Processed with a signed URL for an object that does not exist",
-      "url": "https://github.com/velero-io/velero/issues/10232"
     }
   ],
   "issuesClosed": [
