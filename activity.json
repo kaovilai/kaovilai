@@ -3,12 +3,12 @@
     "start": "2026-09-16",
     "end": "2026-09-30"
   },
-  "generatedAt": "2026-09-30T17:46:08Z",
+  "generatedAt": "2026-09-30T21:59:20Z",
   "metrics": {
     "prsMerged": 15,
-    "prsOpened": 19,
-    "prsReviewed": 53,
-    "issuesCommented": 24,
+    "prsOpened": 21,
+    "prsReviewed": 54,
+    "issuesCommented": 27,
     "issuesClosed": 8
   },
   "prsMerged": [
@@ -119,6 +119,20 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 1,
+      "repo": "msfrucht/oadp-operator",
+      "org": "msfrucht",
+      "title": "fix: remove unused bsl parameter (golangci-lint unparam)",
+      "url": "https://github.com/msfrucht/oadp-operator/pull/1"
+    },
+    {
+      "number": 2473,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
+      "url": "https://github.com/openshift/oadp-operator/pull/2473"
+    },
     {
       "number": 10608,
       "repo": "velero-io/velero",
@@ -254,6 +268,13 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 276,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.6 (f5ba313) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-cli/pull/276"
+    },
     {
       "number": 458,
       "repo": "kubevirt/kubevirt-velero-plugin",
@@ -628,11 +649,32 @@
   ],
   "issuesCommented": [
     {
+      "number": 9189,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support deleting running backups",
+      "url": "https://github.com/velero-io/velero/issues/9189"
+    },
+    {
+      "number": 2098,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Implement abort running backup job",
+      "url": "https://github.com/velero-io/velero/issues/2098"
+    },
+    {
       "number": 4300,
       "repo": "kubevirt/containerized-data-importer",
       "org": "kubevirt",
       "title": "cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)",
       "url": "https://github.com/kubevirt/containerized-data-importer/issues/4300"
+    },
+    {
+      "number": 7520,
+      "repo": "docker/for-mac",
+      "org": "docker",
+      "title": "[Workaround in description] Mac is detecting Docker as a malware and keeping it from starting",
+      "url": "https://github.com/docker/for-mac/issues/7520"
     },
     {
       "number": 39,
