@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-01 18:15:53 UTC
+> Last updated: 2026-10-01 23:02:04 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -84,7 +84,6 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-ready-green)](https://github.com/migtools/oadp-vm-file-restore/pull/108) **migtools/oadp-vm-file-restore** → `oadp-1.6` - [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)
-- [![PR #170](https://img.shields.io/badge/PR%20%23170-ready-green)](https://github.com/migtools/udistribution/pull/170) **migtools/udistribution** → `main` - Fix CI breakage from no-test coverage handling and deprecated setup-go action
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
