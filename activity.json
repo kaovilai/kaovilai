@@ -3,12 +3,12 @@
     "start": "2026-09-17",
     "end": "2026-10-01"
   },
-  "generatedAt": "2026-10-01T12:51:17Z",
+  "generatedAt": "2026-10-01T18:11:58Z",
   "metrics": {
     "prsMerged": 15,
     "prsOpened": 21,
-    "prsReviewed": 48,
-    "issuesCommented": 27,
+    "prsReviewed": 50,
+    "issuesCommented": 29,
     "issuesClosed": 8
   },
   "prsMerged": [
@@ -276,6 +276,27 @@
       "url": "https://github.com/velero-io/velero/pull/10572"
     },
     {
+      "number": 10612,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix: defer VGS cleanup until backup finalization",
+      "url": "https://github.com/velero-io/velero/pull/10612"
+    },
+    {
+      "number": 7381,
+      "repo": "quay/quay",
+      "org": "quay",
+      "title": "PROJQUAY-8767: fix(ui): load all tag history pages",
+      "url": "https://github.com/quay/quay/pull/7381"
+    },
+    {
+      "number": 335,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335"
+    },
+    {
       "number": 2,
       "repo": "velero-io/.github",
       "org": "velero-io",
@@ -337,13 +358,6 @@
       "org": "velero-io",
       "title": "[WIP] Warn when the volume data of an existing PVC backed up by snapshot is not restored",
       "url": "https://github.com/velero-io/velero/pull/10570"
-    },
-    {
-      "number": 335,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335"
     },
     {
       "number": 10590,
@@ -606,6 +620,20 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 1358,
+      "repo": "NVIDIA/OpenShell",
+      "org": "NVIDIA",
+      "title": "bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host",
+      "url": "https://github.com/NVIDIA/OpenShell/issues/1358"
+    },
+    {
+      "number": 1013,
+      "repo": "tailscale/tailscale",
+      "org": "tailscale",
+      "title": "Support mDNS for name and service resolution",
+      "url": "https://github.com/tailscale/tailscale/issues/1013"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
