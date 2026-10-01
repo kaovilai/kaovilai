@@ -3,11 +3,11 @@
     "start": "2026-09-17",
     "end": "2026-10-01"
   },
-  "generatedAt": "2026-10-01T18:11:58Z",
+  "generatedAt": "2026-10-01T23:01:28Z",
   "metrics": {
     "prsMerged": 15,
     "prsOpened": 21,
-    "prsReviewed": 50,
+    "prsReviewed": 55,
     "issuesCommented": 29,
     "issuesClosed": 8
   },
@@ -269,11 +269,53 @@
   ],
   "prsReviewed": [
     {
+      "number": 2474,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (fcf7610) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-operator/pull/2474"
+    },
+    {
+      "number": 2,
+      "repo": "velero-io/.github",
+      "org": "velero-io",
+      "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
+      "url": "https://github.com/velero-io/.github/pull/2"
+    },
+    {
       "number": 10572,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Add architecture entry point and roadmap change process",
       "url": "https://github.com/velero-io/velero/pull/10572"
+    },
+    {
+      "number": 118,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (33ef7bd) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/118"
+    },
+    {
+      "number": 96,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/96"
+    },
+    {
+      "number": 319,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (45480df) into oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/319"
+    },
+    {
+      "number": 178,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/178"
     },
     {
       "number": 10612,
@@ -295,13 +337,6 @@
       "org": "velero-io",
       "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335"
-    },
-    {
-      "number": 2,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
-      "url": "https://github.com/velero-io/.github/pull/2"
     },
     {
       "number": 276,
@@ -621,6 +656,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 9189,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support deleting running backups",
+      "url": "https://github.com/velero-io/velero/issues/9189"
+    },
+    {
       "number": 1358,
       "repo": "NVIDIA/OpenShell",
       "org": "NVIDIA",
@@ -647,13 +689,6 @@
       "org": "docker",
       "title": "Docker for Mac hangs while starting up.  Stuck on \"Docker Desktop is Starting\"",
       "url": "https://github.com/docker/for-mac/issues/5113"
-    },
-    {
-      "number": 9189,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support deleting running backups",
-      "url": "https://github.com/velero-io/velero/issues/9189"
     },
     {
       "number": 2098,

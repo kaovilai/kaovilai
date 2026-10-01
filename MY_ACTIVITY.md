@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-17 — 2026-10-01
-> **Generated:** 2026-10-01 18:11:58 UTC
+> **Generated:** 2026-10-01 23:01:28 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 15 |
 | PRs Opened | 21 |
-| PRs Reviewed | 50 |
+| PRs Reviewed | 55 |
 | Issues/PRs Commented | 29 |
 | Issues Closed | 8 |
 
@@ -67,13 +67,13 @@
 - [#4 Throwaway: trigger fork CI](https://github.com/kaovilai/cliprelay/pull/4) — kaovilai/cliprelay
 - [#116 OtpExtractor: support alphanumeric OTP codes](https://github.com/geekflyer/cliprelay/pull/116) — geekflyer/cliprelay
 - [#3 WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)](https://github.com/kaovilai/cliprelay/pull/3) — kaovilai/cliprelay
-## PRs Reviewed (50)
+## PRs Reviewed (55)
 
 **velero-io** (13)
+- [#2 Document maintainer lifecycle, affiliation policy, and Code of Conduct](https://github.com/velero-io/.github/pull/2) — velero-io/.github
 - [#10572 Add architecture entry point and roadmap change process](https://github.com/velero-io/velero/pull/10572) — velero-io/velero
 - [#10612 fix: defer VGS cleanup until backup finalization](https://github.com/velero-io/velero/pull/10612) — velero-io/velero
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
-- [#2 Document maintainer lifecycle, affiliation policy, and Code of Conduct](https://github.com/velero-io/.github/pull/2) — velero-io/.github
 - [#10596 e2e: add a script to install CSI snapshot support on kind](https://github.com/velero-io/velero/pull/10596) — velero-io/velero
 - [#10588 e2e: make the StorageClass names configurable](https://github.com/velero-io/velero/pull/10588) — velero-io/velero
 - [#10601 Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)](https://github.com/velero-io/velero/pull/10601) — velero-io/velero
@@ -84,7 +84,11 @@
 - [#10580 docs: fix --use-volume-snapshots=false in Tencent Cloud guide](https://github.com/velero-io/velero/pull/10580) — velero-io/velero
 - [#10568 Document maintainer contact info and shared responsibility](https://github.com/velero-io/velero/pull/10568) — velero-io/velero
 
-**openshift** (24)
+**openshift** (28)
+- [#2474 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (fcf7610) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2474) — openshift/oadp-operator
+- [#118 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (33ef7bd) into oadp-1.6](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/118) — openshift/velero-plugin-for-legacy-aws
+- [#319 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (45480df) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/319) — openshift/hypershift-oadp-plugin
+- [#178 Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6](https://github.com/openshift/velero-plugin-for-gcp/pull/178) — openshift/velero-plugin-for-gcp
 - [#318 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (636bec3) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/318) — openshift/hypershift-oadp-plugin
 - [#586 Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)](https://github.com/openshift/velero/pull/586) — openshift/velero
 - [#2470 [oadp-1.6] test(e2e): pin MinIO to migtools Bitnami image](https://github.com/openshift/oadp-operator/pull/2470) — openshift/oadp-operator
@@ -110,7 +114,8 @@
 - [#85502 Update OADP builder images to ubi9-v1.26](https://github.com/openshift/release/pull/85502) — openshift/release
 - [#85499 Update migtools/oadp-cli builder to ubi9-v1.26 for oadp-dev, oadp-1.5, oadp-1.6](https://github.com/openshift/release/pull/85499) — openshift/release
 
-**migtools** (11)
+**migtools** (12)
+- [#96 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/96) — migtools/kubevirt-velero-plugin
 - [#276 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (f5ba313) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/276) — migtools/oadp-cli
 - [#110 Merge https://github.com/migtools/oadp-vm-file-restore:oadp-1.6 (a725c94) into oadp-1.6](https://github.com/migtools/oadp-vm-file-restore/pull/110) — migtools/oadp-vm-file-restore
 - [#241 Merge https://github.com/migtools/kubevirt-datamover-controller:oadp-1.6 (6a1a241) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/241) — migtools/kubevirt-datamover-controller
