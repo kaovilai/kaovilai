@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-16",
-    "end": "2026-09-30"
+    "start": "2026-09-17",
+    "end": "2026-10-01"
   },
-  "generatedAt": "2026-09-30T21:59:20Z",
+  "generatedAt": "2026-10-01T01:12:56Z",
   "metrics": {
     "prsMerged": 15,
     "prsOpened": 21,
-    "prsReviewed": 54,
-    "issuesCommented": 27,
+    "prsReviewed": 48,
+    "issuesCommented": 26,
     "issuesClosed": 8
   },
   "prsMerged": [
@@ -542,13 +542,6 @@
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/313"
     },
     {
-      "number": 10539,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.18] Fix backup queue permanently stuck when a dequeued backup completes during the patch",
-      "url": "https://github.com/velero-io/velero/pull/10539"
-    },
-    {
       "number": 41,
       "repo": "migtools/filebrowser",
       "org": "migtools",
@@ -584,13 +577,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2456"
     },
     {
-      "number": 236,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Fix default max concurrent data movers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/236"
-    },
-    {
       "number": 105,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
@@ -612,39 +598,11 @@
       "url": "https://github.com/openshift/release/pull/85499"
     },
     {
-      "number": 474,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump google.golang.org/grpc from 1.83.1 to 1.83.2",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/474"
-    },
-    {
       "number": 190,
       "repo": "migtools/udistribution",
       "org": "migtools",
       "title": "Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0",
       "url": "https://github.com/migtools/udistribution/pull/190"
-    },
-    {
-      "number": 10537,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add doc for block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10537"
-    },
-    {
-      "number": 620,
-      "repo": "konveyor/operator",
-      "org": "konveyor",
-      "title": ":sparkles: Restrict operand egress via NetworkPolicy",
-      "url": "https://github.com/konveyor/operator/pull/620"
-    },
-    {
-      "number": 235,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Fix default max concurrent data movers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/235"
     }
   ],
   "issuesCommented": [
@@ -829,13 +787,6 @@
       "org": "velero-io",
       "title": "Restore fails with error \"no space left on device\" if PVCs are 100% utilised during backup",
       "url": "https://github.com/velero-io/velero/issues/2812"
-    },
-    {
-      "number": 8279,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
-      "url": "https://github.com/velero-io/velero/issues/8279"
     }
   ],
   "issuesClosed": [
