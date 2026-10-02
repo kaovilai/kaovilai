@@ -3,15 +3,22 @@
     "start": "2026-09-18",
     "end": "2026-10-02"
   },
-  "generatedAt": "2026-10-02T02:04:46Z",
+  "generatedAt": "2026-10-02T12:14:20Z",
   "metrics": {
-    "prsMerged": 12,
-    "prsOpened": 21,
-    "prsReviewed": 53,
-    "issuesCommented": 26,
+    "prsMerged": 13,
+    "prsOpened": 22,
+    "prsReviewed": 54,
+    "issuesCommented": 27,
     "issuesClosed": 5
   },
   "prsMerged": [
+    {
+      "number": 188,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "Fix review queue card deadspace",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/188"
+    },
     {
       "number": 10608,
       "repo": "velero-io/velero",
@@ -98,6 +105,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 192,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Fix CI coverage handling for no-test packages and update setup-go",
+      "url": "https://github.com/migtools/udistribution/pull/192"
+    },
     {
       "number": 1,
       "repo": "msfrucht/oadp-operator",
@@ -253,6 +267,13 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (fcf7610) into oadp-1.6",
       "url": "https://github.com/openshift/oadp-operator/pull/2474"
+    },
+    {
+      "number": 10556,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Design]Owner reference and dependency relink design",
+      "url": "https://github.com/velero-io/velero/pull/10556"
     },
     {
       "number": 2,
@@ -621,6 +642,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 10584,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
+      "url": "https://github.com/openshift/installer/issues/10584"
+    },
+    {
       "number": 9189,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -640,13 +675,6 @@
       "org": "tailscale",
       "title": "Support mDNS for name and service resolution",
       "url": "https://github.com/tailscale/tailscale/issues/1013"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
     },
     {
       "number": 5113,
