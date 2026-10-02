@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-09-17",
-    "end": "2026-10-01"
+    "start": "2026-09-18",
+    "end": "2026-10-02"
   },
-  "generatedAt": "2026-10-01T23:01:28Z",
+  "generatedAt": "2026-10-02T02:04:46Z",
   "metrics": {
-    "prsMerged": 15,
+    "prsMerged": 12,
     "prsOpened": 21,
-    "prsReviewed": 55,
-    "issuesCommented": 29,
-    "issuesClosed": 8
+    "prsReviewed": 53,
+    "issuesCommented": 26,
+    "issuesClosed": 5
   },
   "prsMerged": [
     {
@@ -95,27 +95,6 @@
       "org": "openshift",
       "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
       "url": "https://github.com/openshift/release/pull/85460"
-    },
-    {
-      "number": 449,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Detect SCC UID/GID-range mismatch on namespace restore",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/449"
-    },
-    {
-      "number": 9221,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: Document --write-sparse-files flag for disk space issues during restore",
-      "url": "https://github.com/velero-io/velero/pull/9221"
-    },
-    {
-      "number": 9772,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/9772"
     }
   ],
   "prsOpened": [
@@ -612,13 +591,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2455"
     },
     {
-      "number": 189,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
-      "url": "https://github.com/migtools/udistribution/pull/189"
-    },
-    {
       "number": 2456,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -645,13 +617,6 @@
       "org": "openshift",
       "title": "Update migtools/oadp-cli builder to ubi9-v1.26 for oadp-dev, oadp-1.5, oadp-1.6",
       "url": "https://github.com/openshift/release/pull/85499"
-    },
-    {
-      "number": 190,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0",
-      "url": "https://github.com/migtools/udistribution/pull/190"
     }
   ],
   "issuesCommented": [
@@ -836,27 +801,6 @@
       "org": "velero-io",
       "title": "Support multiple transmission protocols",
       "url": "https://github.com/velero-io/velero/issues/8707"
-    },
-    {
-      "number": 10340,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction",
-      "url": "https://github.com/velero-io/velero/issues/10340"
-    },
-    {
-      "number": 8363,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "VolumePolicies filter volumes to snapshot by volume name",
-      "url": "https://github.com/velero-io/velero/issues/8363"
-    },
-    {
-      "number": 2812,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restore fails with error \"no space left on device\" if PVCs are 100% utilised during backup",
-      "url": "https://github.com/velero-io/velero/issues/2812"
     }
   ],
   "issuesClosed": [
@@ -894,27 +838,6 @@
       "org": "velero-io",
       "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
       "url": "https://github.com/velero-io/velero/issues/10545"
-    },
-    {
-      "number": 448,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Feature request: detect/reconcile SCC UID/GID-range mismatch on Namespace restore",
-      "url": "https://github.com/openshift/openshift-velero-plugin/issues/448"
-    },
-    {
-      "number": 8363,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "VolumePolicies filter volumes to snapshot by volume name",
-      "url": "https://github.com/velero-io/velero/issues/8363"
-    },
-    {
-      "number": 9771,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: ResourcePolicy-based namespace selection by label",
-      "url": "https://github.com/velero-io/velero/issues/9771"
     }
   ]
 }
