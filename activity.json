@@ -3,15 +3,22 @@
     "start": "2026-09-18",
     "end": "2026-10-02"
   },
-  "generatedAt": "2026-10-02T12:14:20Z",
+  "generatedAt": "2026-10-02T17:37:34Z",
   "metrics": {
-    "prsMerged": 13,
+    "prsMerged": 14,
     "prsOpened": 22,
-    "prsReviewed": 54,
-    "issuesCommented": 27,
+    "prsReviewed": 56,
+    "issuesCommented": 26,
     "issuesClosed": 5
   },
   "prsMerged": [
+    {
+      "number": 108,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "[oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/108"
+    },
     {
       "number": 188,
       "repo": "kaovilai/kaovilai.pw",
@@ -261,6 +268,20 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 69,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (dc932cf) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/69"
+    },
+    {
+      "number": 10617,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix contributor and maintainer guidance links",
+      "url": "https://github.com/velero-io/velero/pull/10617"
+    },
     {
       "number": 2474,
       "repo": "openshift/oadp-operator",
@@ -675,13 +696,6 @@
       "org": "tailscale",
       "title": "Support mDNS for name and service resolution",
       "url": "https://github.com/tailscale/tailscale/issues/1013"
-    },
-    {
-      "number": 5113,
-      "repo": "docker/for-mac",
-      "org": "docker",
-      "title": "Docker for Mac hangs while starting up.  Stuck on \"Docker Desktop is Starting\"",
-      "url": "https://github.com/docker/for-mac/issues/5113"
     },
     {
       "number": 2098,
