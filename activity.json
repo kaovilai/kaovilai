@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-18",
-    "end": "2026-10-02"
+    "start": "2026-09-19",
+    "end": "2026-10-03"
   },
-  "generatedAt": "2026-10-02T21:57:11Z",
+  "generatedAt": "2026-10-03T01:02:21Z",
   "metrics": {
-    "prsMerged": 14,
-    "prsOpened": 22,
-    "prsReviewed": 57,
-    "issuesCommented": 26,
+    "prsMerged": 12,
+    "prsOpened": 13,
+    "prsReviewed": 49,
+    "issuesCommented": 22,
     "issuesClosed": 5
   },
   "prsMerged": [
@@ -95,20 +95,6 @@
       "org": "migtools",
       "title": "Fix MinIO create-bucket Job timeout by switching mc image to quay.io",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/107"
-    },
-    {
-      "number": 2450,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
-      "url": "https://github.com/openshift/oadp-operator/pull/2450"
-    },
-    {
-      "number": 85460,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
-      "url": "https://github.com/openshift/release/pull/85460"
     }
   ],
   "prsOpened": [
@@ -202,85 +188,22 @@
       "org": "migtools",
       "title": "[oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/108"
-    },
-    {
-      "number": 107,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Fix MinIO create-bucket Job timeout by switching mc image to quay.io",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/107"
-    },
-    {
-      "number": 2454,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2454"
-    },
-    {
-      "number": 2453,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2453"
-    },
-    {
-      "number": 2452,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
-      "url": "https://github.com/openshift/oadp-operator/pull/2452"
-    },
-    {
-      "number": 2450,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
-      "url": "https://github.com/openshift/oadp-operator/pull/2450"
-    },
-    {
-      "number": 85460,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp/operator-sdk-bundle-image: retry oc calls around MCP rollout DNS flake",
-      "url": "https://github.com/openshift/release/pull/85460"
-    },
-    {
-      "number": 4,
-      "repo": "kaovilai/cliprelay",
-      "org": "kaovilai",
-      "title": "Throwaway: trigger fork CI",
-      "url": "https://github.com/kaovilai/cliprelay/pull/4"
-    },
-    {
-      "number": 116,
-      "repo": "geekflyer/cliprelay",
-      "org": "geekflyer",
-      "title": "OtpExtractor: support alphanumeric OTP codes",
-      "url": "https://github.com/geekflyer/cliprelay/pull/116"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/cliprelay",
-      "org": "kaovilai",
-      "title": "WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)",
-      "url": "https://github.com/kaovilai/cliprelay/pull/3"
     }
   ],
   "prsReviewed": [
-    {
-      "number": 69,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (dc932cf) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/69"
-    },
     {
       "number": 2475,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "fix(e2e): add retry logic for empty sha256sum output in checksum helpers",
       "url": "https://github.com/openshift/oadp-operator/pull/2475"
+    },
+    {
+      "number": 69,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (dc932cf) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/69"
     },
     {
       "number": 2466,
@@ -365,13 +288,6 @@
       "org": "quay",
       "title": "PROJQUAY-8767: fix(ui): load all tag history pages",
       "url": "https://github.com/quay/quay/pull/7381"
-    },
-    {
-      "number": 335,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335"
     },
     {
       "number": 276,
@@ -470,13 +386,6 @@
       "org": "openshift",
       "title": "Remove bz-pr-action GitHub Actions workflow",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/173"
-    },
-    {
-      "number": 477,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/477"
     },
     {
       "number": 583,
@@ -584,13 +493,6 @@
       "url": "https://github.com/velero-io/velero/pull/10568"
     },
     {
-      "number": 2457,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] Grant VMFR controller PVC delete permission",
-      "url": "https://github.com/openshift/oadp-operator/pull/2457"
-    },
-    {
       "number": 578,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -631,41 +533,6 @@
       "org": "migtools",
       "title": "[oadp-1.6] remove release job in filebrowser",
       "url": "https://github.com/migtools/filebrowser/pull/43"
-    },
-    {
-      "number": 2455,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix(virt-kdm-e2e): retry known transient flakes in guest-exec/checksum paths",
-      "url": "https://github.com/openshift/oadp-operator/pull/2455"
-    },
-    {
-      "number": 2456,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Grant VMFR controller PVC delete permission",
-      "url": "https://github.com/openshift/oadp-operator/pull/2456"
-    },
-    {
-      "number": 105,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "[oadp-1.6] OADP-7467: Fix VMFR restore namespace access",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/105"
-    },
-    {
-      "number": 85502,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Update OADP builder images to ubi9-v1.26",
-      "url": "https://github.com/openshift/release/pull/85502"
-    },
-    {
-      "number": 85499,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Update migtools/oadp-cli builder to ubi9-v1.26 for oadp-dev, oadp-1.5, oadp-1.6",
-      "url": "https://github.com/openshift/release/pull/85499"
     }
   ],
   "issuesCommented": [
@@ -822,34 +689,6 @@
       "org": "velero-io",
       "title": "CRD schema check: self-resolution for `strict` mode failures (`/readyz` instead of crash-loop)",
       "url": "https://github.com/velero-io/velero/issues/10544"
-    },
-    {
-      "number": 99,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Add OADP e2e test coverage for kubevirt-datamover",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/99"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/cliprelay",
-      "org": "kaovilai",
-      "title": "OtpExtractor: support alphanumeric OTP codes",
-      "url": "https://github.com/kaovilai/cliprelay/issues/2"
-    },
-    {
-      "number": 9556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block level backup/restore support",
-      "url": "https://github.com/velero-io/velero/issues/9556"
-    },
-    {
-      "number": 8707,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support multiple transmission protocols",
-      "url": "https://github.com/velero-io/velero/issues/8707"
     }
   ],
   "issuesClosed": [
