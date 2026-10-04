@@ -1,14 +1,14 @@
 {
   "period": {
-    "start": "2026-09-19",
-    "end": "2026-10-03"
+    "start": "2026-09-20",
+    "end": "2026-10-04"
   },
-  "generatedAt": "2026-10-03T20:56:48Z",
+  "generatedAt": "2026-10-04T05:36:32Z",
   "metrics": {
-    "prsMerged": 12,
-    "prsOpened": 14,
-    "prsReviewed": 49,
-    "issuesCommented": 22,
+    "prsMerged": 11,
+    "prsOpened": 13,
+    "prsReviewed": 48,
+    "issuesCommented": 21,
     "issuesClosed": 5
   },
   "prsMerged": [
@@ -88,13 +88,6 @@
       "org": "openshift",
       "title": "OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
       "url": "https://github.com/openshift/oadp-operator/pull/2452"
-    },
-    {
-      "number": 107,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Fix MinIO create-bucket Job timeout by switching mc image to quay.io",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/107"
     }
   ],
   "prsOpened": [
@@ -188,13 +181,6 @@
       "org": "velero-io",
       "title": "Fix e2e-test-kind and changelog-check CI flakes",
       "url": "https://github.com/velero-io/velero/pull/10555"
-    },
-    {
-      "number": 108,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "[oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/108"
     }
   ],
   "prsReviewed": [
@@ -435,13 +421,6 @@
       "org": "velero-io",
       "title": "Change hashing algorithm to HMAC-SHA256-128 for kopia repo",
       "url": "https://github.com/velero-io/velero/pull/10579"
-    },
-    {
-      "number": 10580,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix --use-volume-snapshots=false in Tencent Cloud guide",
-      "url": "https://github.com/velero-io/velero/pull/10580"
     },
     {
       "number": 582,
@@ -689,13 +668,6 @@
       "org": "kubevirt",
       "title": "VEP #25: Infer backup target StorageClass from source VM volumes",
       "url": "https://github.com/kubevirt/kubevirt/issues/18963"
-    },
-    {
-      "number": 10544,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CRD schema check: self-resolution for `strict` mode failures (`/readyz` instead of crash-loop)",
-      "url": "https://github.com/velero-io/velero/issues/10544"
     }
   ],
   "issuesClosed": [
