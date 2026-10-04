@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-04 11:25:08 UTC
+> Last updated: 2026-10-04 16:03:11 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -84,12 +84,12 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
-- [![PR #253](https://img.shields.io/badge/PR%20%23253-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-stale-yellow)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
 - [![PR #251](https://img.shields.io/badge/PR%20%23251-stale-yellow)](https://github.com/migtools/oadp-cli/pull/251) **migtools/oadp-cli** → `oadp-1.4` - Remove inactive users from OWNERS
+- [![PR #253](https://img.shields.io/badge/PR%20%23253-stale-yellow)](https://github.com/migtools/oadp-cli/pull/253) **migtools/oadp-cli** → `oadp-dev` - Fix #252: Add exact-output assertion for schedule create example normalization
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/273) **migtools/oadp-non-admin** → `oadp-dev` - Add GitHub Actions workflow to update OADP Go dependencies automatically
 - [![PR #299](https://img.shields.io/badge/PR%20%23299-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/299) **migtools/oadp-non-admin** → `oadp-1.5` - ghactions check2
 - [![PR #2](https://img.shields.io/badge/PR%20%232-stale-yellow)](https://github.com/migtools/mm-ai-knowledge/pull/2) **migtools/mm-ai-knowledge** → `main` - Document repository scope to prevent overlap with openshift-eng/ai-helpers

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T11:25:08Z",
+  "updatedAt": "2026-10-04T16:03:11Z",
   "prs": [
     {
       "number": 10010,
@@ -1375,27 +1375,6 @@
       "updatedAt": "2026-09-10T20:07:54Z"
     },
     {
-      "number": 253,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
-      "url": "https://github.com/migtools/oadp-cli/pull/253",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-08-05T14:29:52Z"
-    },
-    {
       "number": 373,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
@@ -1494,6 +1473,27 @@
         "do-not-merge/hold"
       ],
       "updatedAt": "2026-08-03T14:39:22Z"
+    },
+    {
+      "number": 253,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Fix #252: Add exact-output assertion for schedule create example normalization",
+      "url": "https://github.com/migtools/oadp-cli/pull/253",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "sseago"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-08-05T14:29:52Z"
     },
     {
       "number": 243,
@@ -1703,7 +1703,7 @@
         "provider/copilot",
         "P3"
       ],
-      "updatedAt": "2026-10-04T00:34:53Z"
+      "updatedAt": "2026-10-04T13:41:39Z"
     },
     {
       "number": 116,
@@ -2900,7 +2900,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-04T11:25:08Z",
+    "updatedAt": "2026-10-04T16:03:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -3073,7 +3073,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 205,
+        "waitingDays": 206,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -3102,7 +3102,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 178,
+        "waitingDays": 179,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -3164,7 +3164,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 94,
+        "waitingDays": 95,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -3436,7 +3436,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 75,
+        "waitingDays": 76,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -3503,7 +3503,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -3534,30 +3534,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 53,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -3583,8 +3559,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 53,
+        "waitingDays": 54,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 53,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -3620,7 +3620,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -3790,34 +3790,6 @@
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 38,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -3847,8 +3819,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-08-27T12:05:51Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 38,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 10041,
@@ -3866,7 +3866,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3878,6 +3878,34 @@
         "reason": "awaitingReview",
         "waitingDays": 37,
         "updatedAt": "2026-08-27T17:00:09Z"
+      },
+      {
+        "number": 10281,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
+        "url": "https://github.com/velero-io/velero/pull/10281",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 37,
+        "updatedAt": "2026-08-27T16:58:54Z"
       },
       {
         "number": 7941,
@@ -3894,7 +3922,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3926,7 +3954,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3957,7 +3985,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3988,7 +4016,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4107,7 +4135,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4141,7 +4169,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4243,6 +4271,66 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 121974,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/feature",
+          "comp/cli",
+          "tool/browser",
+          "P3"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-09-30T15:11:21Z"
+      },
+      {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-09-30T15:17:14Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4259,7 +4347,7 @@
           "kind/changelog-not-required",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4293,7 +4381,7 @@
           "has-e2e-2tests",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4307,66 +4395,6 @@
         "reason": "awaitingReview",
         "waitingDays": 4,
         "updatedAt": "2026-09-29T21:00:44Z"
-      },
-      {
-        "number": 121974,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/feature",
-          "comp/cli",
-          "tool/browser",
-          "P3"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-09-30T15:11:21Z"
-      },
-      {
-        "number": 123138,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/bug",
-          "comp/cli",
-          "comp/tools",
-          "P2",
-          "sweeper:risk-message-delivery",
-          "area/profiles"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 2473,
@@ -4454,7 +4482,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-04T00:34:53Z"
+        "updatedAt": "2026-10-04T13:41:39Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -4483,7 +4511,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 178,
+        "waitingDays": 179,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -4515,6 +4543,36 @@
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
+        "number": 10028,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Bump actions/labeler from v5 to v6",
+        "url": "https://github.com/velero-io/velero/pull/10028",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 72,
+        "updatedAt": "2026-07-23T20:59:18Z"
+      },
+      {
         "number": 253,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -4542,7 +4600,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 59,
+        "waitingDays": 60,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -4576,7 +4634,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 53,
+        "waitingDays": 54,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -4608,7 +4666,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -4966,7 +5024,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4980,6 +5038,39 @@
         "reason": "pendingMerge",
         "waitingDays": 12,
         "updatedAt": "2026-09-21T18:18:15Z"
+      },
+      {
+        "number": 9236,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 8,
+        "updatedAt": "2026-09-25T19:12:20Z"
       },
       {
         "number": 10051,
@@ -4997,7 +5088,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5009,6 +5100,67 @@
         "reason": "pendingMerge",
         "waitingDays": 6,
         "updatedAt": "2026-09-28T01:10:11Z"
+      },
+      {
+        "number": 10286,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+        "url": "https://github.com/velero-io/velero/pull/10286",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 5,
+        "updatedAt": "2026-09-29T14:23:27Z"
+      },
+      {
+        "number": 9384,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Skip restore informer cache for resources without watch support",
+        "url": "https://github.com/velero-io/velero/pull/9384",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "ywk253100"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 5,
+        "updatedAt": "2026-09-29T13:39:02Z"
       },
       {
         "number": 233,
@@ -5039,67 +5191,6 @@
         "reason": "pendingMerge",
         "waitingDays": 4,
         "updatedAt": "2026-09-29T23:00:41Z"
-      },
-      {
-        "number": 10286,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-        "url": "https://github.com/velero-io/velero/pull/10286",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 4,
-        "updatedAt": "2026-09-29T14:23:27Z"
-      },
-      {
-        "number": 9384,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Skip restore informer cache for resources without watch support",
-        "url": "https://github.com/velero-io/velero/pull/9384",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "ywk253100"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 4,
-        "updatedAt": "2026-09-29T13:39:02Z"
       }
     ]
   }
