@@ -1,19 +1,19 @@
 # Activity Log
 
 > **Period:** 2026-09-22 — 2026-10-06
-> **Generated:** 2026-10-06 13:07:46 UTC
+> **Generated:** 2026-10-06 18:04:43 UTC
 
 | Metric | Count |
 |--------|-------|
-| PRs Merged | 11 |
-| PRs Opened | 13 |
+| PRs Merged | 13 |
+| PRs Opened | 15 |
 | PRs Reviewed | 46 |
 | Issues/PRs Commented | 19 |
 | Issues Closed | 4 |
 
 ---
 
-## PRs Merged (11)
+## PRs Merged (13)
 
 **velero-io** (5)
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
@@ -28,12 +28,14 @@
 **migtools** (1)
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 
-**Other** (4)
+**Other** (6)
+- [#189 fix(combo): don't re-submit form while GitHub's post is still in flight](https://github.com/kaovilai/github-bot-command-palette/pull/189) — kaovilai/github-bot-command-palette
+- [#188 fix(rehearse): accept gcs.ci.openshift.org listing URLs for full job list](https://github.com/kaovilai/github-bot-command-palette/pull/188) — kaovilai/github-bot-command-palette
 - [#2 fix: address shubham's review feedback on DPT CACertRef handling](https://github.com/msfrucht/oadp-operator/pull/2) — msfrucht/oadp-operator
 - [#1 fix: remove unused bsl parameter (golangci-lint unparam)](https://github.com/msfrucht/oadp-operator/pull/1) — msfrucht/oadp-operator
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
-## PRs Opened (13)
+## PRs Opened (15)
 
 **velero-io** (2)
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
@@ -45,7 +47,9 @@
 **migtools** (1)
 - [#192 Fix CI coverage handling for no-test packages and update setup-go](https://github.com/migtools/udistribution/pull/192) — migtools/udistribution
 
-**Other** (9)
+**Other** (11)
+- [#189 fix(combo): don't re-submit form while GitHub's post is still in flight](https://github.com/kaovilai/github-bot-command-palette/pull/189) — kaovilai/github-bot-command-palette
+- [#188 fix(rehearse): accept gcs.ci.openshift.org listing URLs for full job list](https://github.com/kaovilai/github-bot-command-palette/pull/188) — kaovilai/github-bot-command-palette
 - [#2 fix: address shubham's review feedback on DPT CACertRef handling](https://github.com/msfrucht/oadp-operator/pull/2) — msfrucht/oadp-operator
 - [#386 Make chain previews and panels respond to touch taps](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/386) — kaovilai/fidelity-margin-calculator-auto
 - [#1 fix: remove unused bsl parameter (golangci-lint unparam)](https://github.com/msfrucht/oadp-operator/pull/1) — msfrucht/oadp-operator
