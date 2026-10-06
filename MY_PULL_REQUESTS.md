@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-05 13:29:53 UTC
+> Last updated: 2026-10-06 01:41:42 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -108,16 +108,14 @@ No open PRs.
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
-- [![PR #126897](https://img.shields.io/badge/PR%20%23126897-ready-green)](https://github.com/NousResearch/hermes-agent/pull/126897) **NousResearch/hermes-agent** → `main` - fix(copilot): send X-GitHub-Api-Version to unlock full model context windows
+- [![PR #126897](https://img.shields.io/badge/PR%20%23126897-ready-green)](https://github.com/NousResearch/hermes-agent/pull/126897) **NousResearch/hermes-agent** → `main` - fix(copilot): send captured backend apiVersion to unlock 1M context
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
-- [![PR #1](https://img.shields.io/badge/PR%20%231-ready-green)](https://github.com/msfrucht/oadp-operator/pull/1) **msfrucht/oadp-operator** → `cacertref_dpt` - fix: remove unused bsl parameter (golangci-lint unparam)
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-ready-green)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
-- [![PR #386](https://img.shields.io/badge/PR%20%23386-draft-gray)](https://github.com/kaovilai/fidelity-margin-calculator-auto/pull/386) **kaovilai/fidelity-margin-calculator-auto** → `main` - Make chain previews and panels respond to touch taps
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
