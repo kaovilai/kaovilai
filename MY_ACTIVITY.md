@@ -1,14 +1,14 @@
 # Activity Log
 
 > **Period:** 2026-09-22 — 2026-10-06
-> **Generated:** 2026-10-06 18:04:43 UTC
+> **Generated:** 2026-10-06 22:56:01 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 13 |
 | PRs Opened | 15 |
 | PRs Reviewed | 46 |
-| Issues/PRs Commented | 19 |
+| Issues/PRs Commented | 20 |
 | Issues Closed | 4 |
 
 ---
@@ -114,7 +114,7 @@
 **Other** (2)
 - [#7381 PROJQUAY-8767: fix(ui): load all tag history pages](https://github.com/quay/quay/pull/7381) — quay/quay
 - [#458 update minio deployment after images were pulled](https://github.com/kubevirt/kubevirt-velero-plugin/pull/458) — kubevirt/kubevirt-velero-plugin
-## Issues/PRs Commented On (19)
+## Issues/PRs Commented On (20)
 
 **velero-io** (11)
 - [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
@@ -132,7 +132,8 @@
 **openshift** (1)
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 
-**Other** (7)
+**Other** (8)
+- [#190 Web Camera is broken](https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190) — EmixamPP/linux-enable-ir-emitter
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
