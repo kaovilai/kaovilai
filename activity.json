@@ -1,17 +1,31 @@
 {
   "period": {
-    "start": "2026-09-21",
-    "end": "2026-10-05"
+    "start": "2026-09-22",
+    "end": "2026-10-06"
   },
-  "generatedAt": "2026-10-05T14:11:29Z",
+  "generatedAt": "2026-10-06T01:41:11Z",
   "metrics": {
     "prsMerged": 11,
     "prsOpened": 13,
-    "prsReviewed": 49,
-    "issuesCommented": 21,
-    "issuesClosed": 5
+    "prsReviewed": 46,
+    "issuesCommented": 19,
+    "issuesClosed": 4
   },
   "prsMerged": [
+    {
+      "number": 2,
+      "repo": "msfrucht/oadp-operator",
+      "org": "msfrucht",
+      "title": "fix: address shubham's review feedback on DPT CACertRef handling",
+      "url": "https://github.com/msfrucht/oadp-operator/pull/2"
+    },
+    {
+      "number": 1,
+      "repo": "msfrucht/oadp-operator",
+      "org": "msfrucht",
+      "title": "fix: remove unused bsl parameter (golangci-lint unparam)",
+      "url": "https://github.com/msfrucht/oadp-operator/pull/1"
+    },
     {
       "number": 108,
       "repo": "migtools/oadp-vm-file-restore",
@@ -74,23 +88,16 @@
       "org": "velero-io",
       "title": "Implement namespace selection by label in resource policy",
       "url": "https://github.com/velero-io/velero/pull/10275"
-    },
-    {
-      "number": 2453,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2453"
-    },
-    {
-      "number": 2452,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7984: fix(nodeagent): propagate PodConfig.PriorityClassName to node-agent ConfigMap",
-      "url": "https://github.com/openshift/oadp-operator/pull/2452"
     }
   ],
   "prsOpened": [
+    {
+      "number": 2,
+      "repo": "msfrucht/oadp-operator",
+      "org": "msfrucht",
+      "title": "fix: address shubham's review feedback on DPT CACertRef handling",
+      "url": "https://github.com/msfrucht/oadp-operator/pull/2"
+    },
     {
       "number": 386,
       "repo": "kaovilai/fidelity-margin-calculator-auto",
@@ -130,7 +137,7 @@
       "number": 126897,
       "repo": "NousResearch/hermes-agent",
       "org": "NousResearch",
-      "title": "fix(copilot): send X-GitHub-Api-Version to unlock full model context windows",
+      "title": "fix(copilot): send captured backend apiVersion to unlock 1M context",
       "url": "https://github.com/NousResearch/hermes-agent/pull/126897"
     },
     {
@@ -174,16 +181,23 @@
       "org": "oadp-rebasebot",
       "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197"
-    },
-    {
-      "number": 10555,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix e2e-test-kind and changelog-check CI flakes",
-      "url": "https://github.com/velero-io/velero/pull/10555"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2475,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): add retry logic for empty sha256sum output in checksum helpers",
+      "url": "https://github.com/openshift/oadp-operator/pull/2475"
+    },
+    {
+      "number": 2466,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] OADP-8835: feat(bsl): concatenate all CA certificates from BSLs and include system defaults",
+      "url": "https://github.com/openshift/oadp-operator/pull/2466"
+    },
     {
       "number": 10588,
       "repo": "velero-io/velero",
@@ -206,25 +220,11 @@
       "url": "https://github.com/velero-io/velero/pull/10622"
     },
     {
-      "number": 2475,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): add retry logic for empty sha256sum output in checksum helpers",
-      "url": "https://github.com/openshift/oadp-operator/pull/2475"
-    },
-    {
       "number": 69,
       "repo": "migtools/kubevirt-datamover-plugin",
       "org": "migtools",
       "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (dc932cf) into oadp-1.6",
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/69"
-    },
-    {
-      "number": 2466,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] OADP-8835: feat(bsl): concatenate all CA certificates from BSLs and include system defaults",
-      "url": "https://github.com/openshift/oadp-operator/pull/2466"
     },
     {
       "number": 10617,
@@ -505,27 +505,6 @@
       "org": "migtools",
       "title": "fix(gcs): use service-account credential options",
       "url": "https://github.com/migtools/oadp-vmdp/pull/39"
-    },
-    {
-      "number": 313,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (d81e9e5) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/313"
-    },
-    {
-      "number": 41,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "Merge https://github.com/filebrowser/filebrowser:v2.63.23 (e8a388f) into oadp-1.6",
-      "url": "https://github.com/migtools/filebrowser/pull/41"
-    },
-    {
-      "number": 43,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "[oadp-1.6] remove release job in filebrowser",
-      "url": "https://github.com/migtools/filebrowser/pull/43"
     }
   ],
   "issuesCommented": [
@@ -661,20 +640,6 @@
       "org": "velero-io",
       "title": "ResourcePolicy-based namespace selection by label",
       "url": "https://github.com/velero-io/velero/issues/7492"
-    },
-    {
-      "number": 10545,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
-      "url": "https://github.com/velero-io/velero/issues/10545"
-    },
-    {
-      "number": 18963,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "VEP #25: Infer backup target StorageClass from source VM volumes",
-      "url": "https://github.com/kubevirt/kubevirt/issues/18963"
     }
   ],
   "issuesClosed": [
@@ -705,13 +670,6 @@
       "org": "velero-io",
       "title": "ResourcePolicy-based namespace selection by label",
       "url": "https://github.com/velero-io/velero/issues/7492"
-    },
-    {
-      "number": 10545,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CRD schema check: make `warn` mode non-blocking and bound `strict` mode with a shared timeout",
-      "url": "https://github.com/velero-io/velero/issues/10545"
     }
   ]
 }
