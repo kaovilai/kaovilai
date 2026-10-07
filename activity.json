@@ -3,15 +3,22 @@
     "start": "2026-09-23",
     "end": "2026-10-07"
   },
-  "generatedAt": "2026-10-07T13:02:16Z",
+  "generatedAt": "2026-10-07T18:37:37Z",
   "metrics": {
-    "prsMerged": 10,
-    "prsOpened": 13,
-    "prsReviewed": 43,
+    "prsMerged": 11,
+    "prsOpened": 14,
+    "prsReviewed": 46,
     "issuesCommented": 20,
     "issuesClosed": 3
   },
   "prsMerged": [
+    {
+      "number": 86664,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add release-4.21 to Prow configuration branches",
+      "url": "https://github.com/openshift/release/pull/86664"
+    },
     {
       "number": 189,
       "repo": "kaovilai/github-bot-command-palette",
@@ -84,6 +91,13 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 86664,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add release-4.21 to Prow configuration branches",
+      "url": "https://github.com/openshift/release/pull/86664"
+    },
     {
       "number": 189,
       "repo": "kaovilai/github-bot-command-palette",
@@ -178,6 +192,34 @@
   ],
   "prsReviewed": [
     {
+      "number": 321,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "OADP-8726: Remove committed kubeconfig with system:masters credentials",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/321"
+    },
+    {
+      "number": 10631,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix the MinIO image cache key in the kind e2e workflow",
+      "url": "https://github.com/velero-io/velero/pull/10631"
+    },
+    {
+      "number": 10621,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(controller): propagate context during backup request preparation",
+      "url": "https://github.com/velero-io/velero/pull/10621"
+    },
+    {
+      "number": 10588,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: make the StorageClass names configurable",
+      "url": "https://github.com/velero-io/velero/pull/10588"
+    },
+    {
       "number": 10593,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -190,13 +232,6 @@
       "org": "velero-io",
       "title": "docs: add local Kind setup for CSI e2e",
       "url": "https://github.com/velero-io/velero/pull/10609"
-    },
-    {
-      "number": 10588,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: make the StorageClass names configurable",
-      "url": "https://github.com/velero-io/velero/pull/10588"
     },
     {
       "number": 2475,
@@ -481,6 +516,13 @@
   ],
   "issuesCommented": [
     {
+      "number": 36873,
+      "repo": "n8n-io/n8n",
+      "org": "n8n-io",
+      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
+      "url": "https://github.com/n8n-io/n8n/issues/36873"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -493,13 +535,6 @@
       "org": "kubevirt",
       "title": "cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)",
       "url": "https://github.com/kubevirt/containerized-data-importer/issues/4300"
-    },
-    {
-      "number": 36873,
-      "repo": "n8n-io/n8n",
-      "org": "n8n-io",
-      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
-      "url": "https://github.com/n8n-io/n8n/issues/36873"
     },
     {
       "number": 101,
