@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-09-22",
-    "end": "2026-10-06"
+    "start": "2026-09-23",
+    "end": "2026-10-07"
   },
-  "generatedAt": "2026-10-06T22:56:01Z",
+  "generatedAt": "2026-10-07T02:11:12Z",
   "metrics": {
-    "prsMerged": 13,
-    "prsOpened": 15,
-    "prsReviewed": 46,
-    "issuesCommented": 20,
-    "issuesClosed": 4
+    "prsMerged": 10,
+    "prsOpened": 13,
+    "prsReviewed": 41,
+    "issuesCommented": 19,
+    "issuesClosed": 3
   },
   "prsMerged": [
     {
@@ -69,13 +69,6 @@
       "url": "https://github.com/velero-io/velero/pull/10077"
     },
     {
-      "number": 2454,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2454"
-    },
-    {
       "number": 10565,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -88,20 +81,6 @@
       "org": "velero-io",
       "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
       "url": "https://github.com/velero-io/velero/pull/9646"
-    },
-    {
-      "number": 197,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197"
-    },
-    {
-      "number": 10275,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Implement namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10275"
     }
   ],
   "prsOpened": [
@@ -195,20 +174,6 @@
       "org": "NousResearch",
       "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
       "url": "https://github.com/NousResearch/hermes-agent/pull/121974"
-    },
-    {
-      "number": 10565,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add e2e test for namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10565"
-    },
-    {
-      "number": 197,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197"
     }
   ],
   "prsReviewed": [
@@ -267,20 +232,6 @@
       "org": "openshift",
       "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (fcf7610) into oadp-1.6",
       "url": "https://github.com/openshift/oadp-operator/pull/2474"
-    },
-    {
-      "number": 10556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Design]Owner reference and dependency relink design",
-      "url": "https://github.com/velero-io/velero/pull/10556"
-    },
-    {
-      "number": 2,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
-      "url": "https://github.com/velero-io/.github/pull/2"
     },
     {
       "number": 10572,
@@ -512,27 +463,6 @@
       "org": "velero-io",
       "title": "Document maintainer contact info and shared responsibility",
       "url": "https://github.com/velero-io/velero/pull/10568"
-    },
-    {
-      "number": 578,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Pin Bitnami MinIO source for kind E2E tests",
-      "url": "https://github.com/openshift/velero/pull/578"
-    },
-    {
-      "number": 54,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "fix(gcs): use service-account credential options",
-      "url": "https://github.com/migtools/kopia/pull/54"
-    },
-    {
-      "number": 39,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "fix(gcs): use service-account credential options",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/39"
     }
   ],
   "issuesCommented": [
@@ -542,6 +472,13 @@
       "org": "EmixamPP",
       "title": "Web Camera is broken",
       "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
+    },
+    {
+      "number": 101,
+      "repo": "pyamsoft/tetherfusenet",
+      "org": "pyamsoft",
+      "title": "UDP support",
+      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
     },
     {
       "number": 39,
@@ -661,20 +598,6 @@
       "org": "velero-io",
       "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
       "url": "https://github.com/velero-io/velero/issues/9645"
-    },
-    {
-      "number": 9735,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero should add a clear error when data mover pod is unschedulable due to affinity/topology mismatch",
-      "url": "https://github.com/velero-io/velero/issues/9735"
-    },
-    {
-      "number": 7492,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "ResourcePolicy-based namespace selection by label",
-      "url": "https://github.com/velero-io/velero/issues/7492"
     }
   ],
   "issuesClosed": [
@@ -698,13 +621,6 @@
       "org": "velero-io",
       "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
       "url": "https://github.com/velero-io/velero/issues/9645"
-    },
-    {
-      "number": 7492,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "ResourcePolicy-based namespace selection by label",
-      "url": "https://github.com/velero-io/velero/issues/7492"
     }
   ]
 }
