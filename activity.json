@@ -3,12 +3,12 @@
     "start": "2026-09-23",
     "end": "2026-10-07"
   },
-  "generatedAt": "2026-10-07T02:11:12Z",
+  "generatedAt": "2026-10-07T13:02:16Z",
   "metrics": {
     "prsMerged": 10,
     "prsOpened": 13,
-    "prsReviewed": 41,
-    "issuesCommented": 19,
+    "prsReviewed": 43,
+    "issuesCommented": 20,
     "issuesClosed": 3
   },
   "prsMerged": [
@@ -177,6 +177,20 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10593,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify CSI snapshots on kind",
+      "url": "https://github.com/velero-io/velero/pull/10593"
+    },
+    {
+      "number": 10609,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: add local Kind setup for CSI e2e",
+      "url": "https://github.com/velero-io/velero/pull/10609"
+    },
     {
       "number": 10588,
       "repo": "velero-io/velero",
@@ -467,11 +481,25 @@
   ],
   "issuesCommented": [
     {
-      "number": 190,
-      "repo": "EmixamPP/linux-enable-ir-emitter",
-      "org": "EmixamPP",
-      "title": "Web Camera is broken",
-      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 4300,
+      "repo": "kubevirt/containerized-data-importer",
+      "org": "kubevirt",
+      "title": "cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)",
+      "url": "https://github.com/kubevirt/containerized-data-importer/issues/4300"
+    },
+    {
+      "number": 36873,
+      "repo": "n8n-io/n8n",
+      "org": "n8n-io",
+      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
+      "url": "https://github.com/n8n-io/n8n/issues/36873"
     },
     {
       "number": 101,
@@ -481,11 +509,11 @@
       "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+      "number": 190,
+      "repo": "EmixamPP/linux-enable-ir-emitter",
+      "org": "EmixamPP",
+      "title": "Web Camera is broken",
+      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
     },
     {
       "number": 10584,
@@ -521,13 +549,6 @@
       "org": "velero-io",
       "title": "Implement abort running backup job",
       "url": "https://github.com/velero-io/velero/issues/2098"
-    },
-    {
-      "number": 4300,
-      "repo": "kubevirt/containerized-data-importer",
-      "org": "kubevirt",
-      "title": "cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)",
-      "url": "https://github.com/kubevirt/containerized-data-importer/issues/4300"
     },
     {
       "number": 7520,
