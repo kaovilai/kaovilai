@@ -3,15 +3,22 @@
     "start": "2026-09-24",
     "end": "2026-10-08"
   },
-  "generatedAt": "2026-10-08T02:36:57Z",
+  "generatedAt": "2026-10-08T13:09:28Z",
   "metrics": {
-    "prsMerged": 10,
+    "prsMerged": 11,
     "prsOpened": 13,
     "prsReviewed": 36,
     "issuesCommented": 19,
     "issuesClosed": 2
   },
   "prsMerged": [
+    {
+      "number": 10051,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: use consistent excludedNames glob pattern in filter design examples",
+      "url": "https://github.com/velero-io/velero/pull/10051"
+    },
     {
       "number": 86664,
       "repo": "openshift/release",
@@ -178,6 +185,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 10609,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: add local Kind setup for CSI e2e",
+      "url": "https://github.com/velero-io/velero/pull/10609"
+    },
+    {
+      "number": 10588,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: make the StorageClass definitions configurable",
+      "url": "https://github.com/velero-io/velero/pull/10588"
+    },
+    {
       "number": 2478,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -206,25 +227,11 @@
       "url": "https://github.com/velero-io/velero/pull/10621"
     },
     {
-      "number": 10588,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: make the StorageClass names configurable",
-      "url": "https://github.com/velero-io/velero/pull/10588"
-    },
-    {
       "number": 10593,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "e2e: verify CSI snapshots on kind",
       "url": "https://github.com/velero-io/velero/pull/10593"
-    },
-    {
-      "number": 10609,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: add local Kind setup for CSI e2e",
-      "url": "https://github.com/velero-io/velero/pull/10609"
     },
     {
       "number": 2475,
@@ -432,6 +439,20 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
+    },
+    {
+      "number": 190,
+      "repo": "EmixamPP/linux-enable-ir-emitter",
+      "org": "EmixamPP",
+      "title": "Web Camera is broken",
+      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
+    },
+    {
       "number": 26598,
       "repo": "github/gh-aw",
       "org": "github",
@@ -446,13 +467,6 @@
       "url": "https://github.com/n8n-io/n8n/issues/36873"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39"
-    },
-    {
       "number": 4300,
       "repo": "kubevirt/containerized-data-importer",
       "org": "kubevirt",
@@ -465,13 +479,6 @@
       "org": "pyamsoft",
       "title": "UDP support",
       "url": "https://github.com/pyamsoft/tetherfusenet/issues/101"
-    },
-    {
-      "number": 190,
-      "repo": "EmixamPP/linux-enable-ir-emitter",
-      "org": "EmixamPP",
-      "title": "Web Camera is broken",
-      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190"
     },
     {
       "number": 10584,
