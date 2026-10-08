@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-08 02:26:51 UTC
+> Last updated: 2026-10-08 12:44:36 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -8,7 +8,6 @@ This file is automatically updated every hour by GitHub Actions.
 ## velero-io
 
 - [![PR #10010](https://img.shields.io/badge/PR%20%2310010-ready-green)](https://github.com/velero-io/velero/pull/10010) **velero-io/velero** → `main` - Design for CRD schema validation at server startup
-- [![PR #10051](https://img.shields.io/badge/PR%20%2310051-ready-green)](https://github.com/velero-io/velero/pull/10051) **velero-io/velero** → `main` - docs: use consistent excludedNames glob pattern in filter design examples
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ready-green)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-ready-green)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
@@ -30,7 +29,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-ready-green)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-ready-green)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
-- [![PR #9236](https://img.shields.io/badge/PR%20%239236-ready-green)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-ready-green)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
@@ -53,6 +51,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #327](https://img.shields.io/badge/PR%20%23327-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-failing--ci-red)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
+- [![PR #9236](https://img.shields.io/badge/PR%20%239236-failing--ci-red)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-failing--ci-red)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 
 ## openshift
