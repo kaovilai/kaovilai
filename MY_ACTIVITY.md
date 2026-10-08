@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-09-24 — 2026-10-08
-> **Generated:** 2026-10-08 18:36:22 UTC
+> **Generated:** 2026-10-08 23:40:57 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 11 |
 | PRs Opened | 13 |
-| PRs Reviewed | 36 |
+| PRs Reviewed | 38 |
 | Issues/PRs Commented | 19 |
 | Issues Closed | 2 |
 
@@ -55,9 +55,11 @@
 - [#123138 fix(tools): hard-fail message_agent on a profile's old, renamed-away name](https://github.com/NousResearch/hermes-agent/pull/123138) — NousResearch/hermes-agent
 - [#122945 fix(tools): re-derive dependency env in bot_mode_dm background runner](https://github.com/NousResearch/hermes-agent/pull/122945) — NousResearch/hermes-agent
 - [#121974 feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
-## PRs Reviewed (36)
+## PRs Reviewed (38)
 
-**velero-io** (13)
+**velero-io** (15)
+- [#10630 e2e: document running the CSI cases on kind](https://github.com/velero-io/velero/pull/10630) — velero-io/velero
+- [#10598 e2e: add VolumeGroupSnapshot coverage](https://github.com/velero-io/velero/pull/10598) — velero-io/velero
 - [#10609 docs: add local Kind setup for CSI e2e](https://github.com/velero-io/velero/pull/10609) — velero-io/velero
 - [#10588 e2e: make the StorageClass definitions configurable](https://github.com/velero-io/velero/pull/10588) — velero-io/velero
 - [#10631 Fix the MinIO image cache key in the kind e2e workflow](https://github.com/velero-io/velero/pull/10631) — velero-io/velero

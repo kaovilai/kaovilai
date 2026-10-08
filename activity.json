@@ -3,11 +3,11 @@
     "start": "2026-09-24",
     "end": "2026-10-08"
   },
-  "generatedAt": "2026-10-08T18:36:22Z",
+  "generatedAt": "2026-10-08T23:40:57Z",
   "metrics": {
     "prsMerged": 11,
     "prsOpened": 13,
-    "prsReviewed": 36,
+    "prsReviewed": 38,
     "issuesCommented": 19,
     "issuesClosed": 2
   },
@@ -185,6 +185,27 @@
   ],
   "prsReviewed": [
     {
+      "number": 2478,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
+      "url": "https://github.com/openshift/oadp-operator/pull/2478"
+    },
+    {
+      "number": 10630,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: document running the CSI cases on kind",
+      "url": "https://github.com/velero-io/velero/pull/10630"
+    },
+    {
+      "number": 10598,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add VolumeGroupSnapshot coverage",
+      "url": "https://github.com/velero-io/velero/pull/10598"
+    },
+    {
       "number": 10609,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -197,13 +218,6 @@
       "org": "velero-io",
       "title": "e2e: make the StorageClass definitions configurable",
       "url": "https://github.com/velero-io/velero/pull/10588"
-    },
-    {
-      "number": 2478,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
-      "url": "https://github.com/openshift/oadp-operator/pull/2478"
     },
     {
       "number": 10631,
