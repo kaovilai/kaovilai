@@ -3,12 +3,12 @@
     "start": "2026-09-25",
     "end": "2026-10-09"
   },
-  "generatedAt": "2026-10-09T18:07:19Z",
+  "generatedAt": "2026-10-09T23:05:08Z",
   "metrics": {
     "prsMerged": 10,
-    "prsOpened": 15,
-    "prsReviewed": 35,
-    "issuesCommented": 17,
+    "prsOpened": 20,
+    "prsReviewed": 36,
+    "issuesCommented": 20,
     "issuesClosed": 1
   },
   "prsMerged": [
@@ -84,6 +84,41 @@
     }
   ],
   "prsOpened": [
+    {
+      "number": 128,
+      "repo": "RedHatInsights/rhai-org-pulse",
+      "org": "RedHatInsights",
+      "title": "jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)",
+      "url": "https://github.com/RedHatInsights/rhai-org-pulse/pull/128"
+    },
+    {
+      "number": 17611,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
+      "url": "https://github.com/pingdotgg/t3code/pull/17611"
+    },
+    {
+      "number": 252,
+      "repo": "OpenPetsHQ/openpets",
+      "org": "OpenPetsHQ",
+      "title": "Speak question speech for Claude AskUserQuestion permission requests",
+      "url": "https://github.com/OpenPetsHQ/openpets/pull/252"
+    },
+    {
+      "number": 17606,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(models): Ultracode is offered on Sonnet 5, Sonnet 5.5 and Haiku 5.5",
+      "url": "https://github.com/pingdotgg/t3code/pull/17606"
+    },
+    {
+      "number": 17604,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "feat(provider): add Claude fork-subagents instance setting",
+      "url": "https://github.com/pingdotgg/t3code/pull/17604"
+    },
     {
       "number": 17527,
       "repo": "pingdotgg/t3code",
@@ -192,6 +227,20 @@
   ],
   "prsReviewed": [
     {
+      "number": 322,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "fix(etcdbackup): treat waiting for credentials as in progress",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/322"
+    },
+    {
+      "number": 10588,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: make the StorageClass definitions configurable",
+      "url": "https://github.com/velero-io/velero/pull/10588"
+    },
+    {
       "number": 10598,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -232,13 +281,6 @@
       "org": "velero-io",
       "title": "docs: add local Kind setup for CSI e2e",
       "url": "https://github.com/velero-io/velero/pull/10609"
-    },
-    {
-      "number": 10588,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: make the StorageClass definitions configurable",
-      "url": "https://github.com/velero-io/velero/pull/10588"
     },
     {
       "number": 10631,
@@ -438,6 +480,27 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8454,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Large PVCs are canceled",
+      "url": "https://github.com/velero-io/velero/issues/8454"
+    },
+    {
+      "number": 17422,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
+      "url": "https://github.com/pingdotgg/t3code/issues/17422"
+    },
+    {
+      "number": 13875,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex",
+      "url": "https://github.com/pingdotgg/t3code/issues/13875"
+    },
     {
       "number": 15234,
       "repo": "pingdotgg/t3code",
