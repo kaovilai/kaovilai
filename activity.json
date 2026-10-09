@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-09-24",
-    "end": "2026-10-08"
+    "start": "2026-09-25",
+    "end": "2026-10-09"
   },
-  "generatedAt": "2026-10-08T23:40:57Z",
+  "generatedAt": "2026-10-09T02:51:42Z",
   "metrics": {
-    "prsMerged": 11,
-    "prsOpened": 13,
-    "prsReviewed": 38,
-    "issuesCommented": 19,
-    "issuesClosed": 2
+    "prsMerged": 10,
+    "prsOpened": 12,
+    "prsReviewed": 35,
+    "issuesCommented": 16,
+    "issuesClosed": 1
   },
   "prsMerged": [
     {
@@ -81,13 +81,6 @@
       "org": "velero-io",
       "title": "Add Dependabot auto-approve workflow",
       "url": "https://github.com/velero-io/velero/pull/10077"
-    },
-    {
-      "number": 10565,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add e2e test for namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10565"
     }
   ],
   "prsOpened": [
@@ -174,16 +167,16 @@
       "org": "NousResearch",
       "title": "fix(tools): re-derive dependency env in bot_mode_dm background runner",
       "url": "https://github.com/NousResearch/hermes-agent/pull/122945"
-    },
-    {
-      "number": 121974,
-      "repo": "NousResearch/hermes-agent",
-      "org": "NousResearch",
-      "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/121974"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10636,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: correct why the kind backup cases are skipped",
+      "url": "https://github.com/velero-io/velero/pull/10636"
+    },
     {
       "number": 2478,
       "repo": "openshift/oadp-operator",
@@ -374,13 +367,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2470"
     },
     {
-      "number": 10578,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Enable VGDP soothing by default and set queue length as 5",
-      "url": "https://github.com/velero-io/velero/pull/10578"
-    },
-    {
       "number": 2469,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -393,13 +379,6 @@
       "org": "openshift",
       "title": "Remove obsolete bz-on-pr-merge workflow",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/174"
-    },
-    {
-      "number": 173,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Remove bz-pr-action GitHub Actions workflow",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/173"
     },
     {
       "number": 583,
@@ -435,20 +414,6 @@
       "org": "openshift",
       "title": "Remove obsolete bz-on-pr-merge workflow",
       "url": "https://github.com/openshift/restic/pull/69"
-    },
-    {
-      "number": 10579,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Change hashing algorithm to HMAC-SHA256-128 for kopia repo",
-      "url": "https://github.com/velero-io/velero/pull/10579"
-    },
-    {
-      "number": 582,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove bz-pr-action GitHub Actions workflow",
-      "url": "https://github.com/openshift/velero/pull/582"
     }
   ],
   "issuesCommented": [
@@ -563,27 +528,6 @@
       "org": "velero-io",
       "title": "Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag",
       "url": "https://github.com/velero-io/velero/issues/10299"
-    },
-    {
-      "number": 10310,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands",
-      "url": "https://github.com/velero-io/velero/issues/10310"
-    },
-    {
-      "number": 12543,
-      "repo": "paperclipai/paperclip",
-      "org": "paperclipai",
-      "title": "Issue can land permanently blocked on a \"recovery owner\"/disposition state when the run that created it terminates",
-      "url": "https://github.com/paperclipai/paperclip/issues/12543"
-    },
-    {
-      "number": 181212,
-      "repo": "home-assistant/core",
-      "org": "home-assistant",
-      "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
-      "url": "https://github.com/home-assistant/core/issues/181212"
     }
   ],
   "issuesClosed": [
@@ -593,13 +537,6 @@
       "org": "velero-io",
       "title": "Dependabot auto approve action",
       "url": "https://github.com/velero-io/velero/issues/10076"
-    },
-    {
-      "number": 10564,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E test coverage for namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/issues/10564"
     }
   ]
 }
