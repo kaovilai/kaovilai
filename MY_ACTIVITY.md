@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-09-25 — 2026-10-09
-> **Generated:** 2026-10-09 02:51:42 UTC
+> **Generated:** 2026-10-09 12:56:09 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -56,6 +56,7 @@
 ## PRs Reviewed (35)
 
 **velero-io** (14)
+- [#10612 fix: defer VGS cleanup until backup finalization](https://github.com/velero-io/velero/pull/10612) — velero-io/velero
 - [#10636 e2e: correct why the kind backup cases are skipped](https://github.com/velero-io/velero/pull/10636) — velero-io/velero
 - [#10630 e2e: document running the CSI cases on kind](https://github.com/velero-io/velero/pull/10630) — velero-io/velero
 - [#10598 e2e: add VolumeGroupSnapshot coverage](https://github.com/velero-io/velero/pull/10598) — velero-io/velero
@@ -67,7 +68,6 @@
 - [#10596 e2e: add a script to install CSI snapshot support on kind](https://github.com/velero-io/velero/pull/10596) — velero-io/velero
 - [#10622 Bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10622) — velero-io/velero
 - [#10617 docs: fix contributor and maintainer guidance links](https://github.com/velero-io/velero/pull/10617) — velero-io/velero
-- [#10612 fix: defer VGS cleanup until backup finalization](https://github.com/velero-io/velero/pull/10612) — velero-io/velero
 - [#10601 Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)](https://github.com/velero-io/velero/pull/10601) — velero-io/velero
 - [#10590 docs: fix broken internal links and anchors in main docs](https://github.com/velero-io/velero/pull/10590) — velero-io/velero
 
