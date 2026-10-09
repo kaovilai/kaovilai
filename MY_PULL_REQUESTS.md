@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-09 12:30:37 UTC
+> Last updated: 2026-10-09 18:11:03 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -108,13 +108,15 @@ No open PRs.
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
 - [![PR #126897](https://img.shields.io/badge/PR%20%23126897-ready-green)](https://github.com/NousResearch/hermes-agent/pull/126897) **NousResearch/hermes-agent** → `main` - fix(copilot): send captured backend apiVersion to unlock 1M context
+- [![PR #17509](https://img.shields.io/badge/PR%20%2317509-ready-green)](https://github.com/pingdotgg/t3code/pull/17509) **pingdotgg/t3code** → `main` - fix(server): show Antigravity's real sign-in failure reason
+- [![PR #17527](https://img.shields.io/badge/PR%20%2317527-ready-green)](https://github.com/pingdotgg/t3code/pull/17527) **pingdotgg/t3code** → `main` - fix(web): git actions menu no longer offers Create PR when the thread has a linked PR
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-ready-green)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #1](https://img.shields.io/badge/PR%20%231-draft-gray)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
+- [![PR #17521](https://img.shields.io/badge/PR%20%2317521-draft-gray)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
@@ -126,6 +128,7 @@ No open PRs.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/ci-docs/pull/1) **kaovilai/ci-docs** → `main` - docs: Testing OLM-Deployed Operators in CI — add FBC catalog image and OLMv1 guidance
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
+- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/localsend/pull/1) **kaovilai/localsend** → `main` - feat: Bluetooth (BLE) device discovery for LocalSend (issue #850) with iOS and Android support
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/tanzu-crash-diagnostics/pull/1) **kaovilai/tanzu-crash-diagnostics** → `main` - Fixing issue 283 in crash diagnostics
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kbralten/aruco_online/pull/1) **kbralten/aruco_online** → `main` - Fix arucogen SVG support, detection robustness, and memory leaks
@@ -150,20 +153,7 @@ No open PRs.
 - [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
-- [![PR #532](https://img.shields.io/badge/PR%20%23532-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/532) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit for faster shell startup
-- [![PR #536](https://img.shields.io/badge/PR%20%23536-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/536) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
-- [![PR #538](https://img.shields.io/badge/PR%20%23538-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/538) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit to improve shell startup time
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
-- [![PR #540](https://img.shields.io/badge/PR%20%23540-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/540) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
-- [![PR #541](https://img.shields.io/badge/PR%20%23541-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/541) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster startup
-- [![PR #543](https://img.shields.io/badge/PR%20%23543-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/543) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
-- [![PR #544](https://img.shields.io/badge/PR%20%23544-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/544) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
-- [![PR #545](https://img.shields.io/badge/PR%20%23545-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/545) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit for faster shell startup
-- [![PR #548](https://img.shields.io/badge/PR%20%23548-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/548) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant compinit call for faster startup
-- [![PR #549](https://img.shields.io/badge/PR%20%23549-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/549) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant compinit
-- [![PR #550](https://img.shields.io/badge/PR%20%23550-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/550) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Remove redundant manual compinit execution
-- [![PR #551](https://img.shields.io/badge/PR%20%23551-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/551) **kaovilai/dotfiles** → `main` - ⚡ Bolt: Remove redundant manual compinit
-- [![PR #552](https://img.shields.io/badge/PR%20%23552-stale-yellow)](https://github.com/kaovilai/dotfiles/pull/552) **kaovilai/dotfiles** → `main` - ⚡ Bolt: [performance improvement] Replace find subprocesses with native Zsh globbing
 - [![PR #63](https://img.shields.io/badge/PR%20%2363-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/63) **kaovilai/k8s-cbt-s3mover-demo** → `main` - Make base64 usage portable across Linux and macOS in operational scripts
 - [![PR #65](https://img.shields.io/badge/PR%20%2365-stale-yellow)](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65) **kaovilai/k8s-cbt-s3mover-demo** → `main` - [improve] ci: add concurrency groups to prevent stale demo workflow overlap
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-stale-yellow)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
