@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:41:17Z",
+  "updatedAt": "2026-10-09T02:43:45Z",
   "prs": [
     {
       "number": 10010,
@@ -2847,7 +2847,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-08T23:41:17Z",
+    "updatedAt": "2026-10-09T02:43:45Z",
     "needsReview": [
       {
         "number": 68,
@@ -2870,7 +2870,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 693,
+        "waitingDays": 694,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -2918,7 +2918,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 531,
+        "waitingDays": 532,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -2980,7 +2980,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3139,6 +3139,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 86,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -3196,30 +3220,6 @@
         "reason": "hold",
         "waitingDays": 85,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 85,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -3370,7 +3370,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3781,7 +3781,7 @@
           "release-note",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3813,7 +3813,7 @@
           "has-changelog",
           "has-e2e-2tests"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -3825,34 +3825,6 @@
         "reason": "awaitingReview",
         "waitingDays": 42,
         "updatedAt": "2026-08-27T17:00:09Z"
-      },
-      {
-        "number": 10281,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-        "url": "https://github.com/velero-io/velero/pull/10281",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 42,
-        "updatedAt": "2026-08-27T16:58:54Z"
       },
       {
         "number": 7941,
@@ -3869,7 +3841,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3901,7 +3873,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3932,7 +3904,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -3963,7 +3935,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4082,7 +4054,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4097,7 +4069,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 19,
+        "waitingDays": 20,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -4116,7 +4088,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4146,7 +4118,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4185,7 +4157,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -4218,30 +4190,6 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-09-29T11:36:47Z"
-      },
-      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -4258,7 +4206,7 @@
           "kind/changelog-not-required",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -4292,7 +4240,7 @@
           "has-e2e-2tests",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -4545,36 +4493,6 @@
         "reason": "pendingMerge",
         "waitingDays": 84,
         "updatedAt": "2026-07-16T17:00:18Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 77,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 253,
@@ -4855,7 +4773,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -5058,7 +4976,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
