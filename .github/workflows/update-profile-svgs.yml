@@ -1,0 +1,52 @@
+name: Update Profile SVGs
+
+on:
+  schedule:
+    - cron: '30 13 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-profile-svgs.yml'
+      - '.github/scripts/generate-profile-svgs.py'
+
+concurrency:
+  group: update-profile-svgs
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Generate and commit SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Other scheduled workflows push the JSON inputs to main. On a lost push race,
+          # reset to the new tip and regenerate so the SVGs always match their inputs.
+          for attempt in 1 2 3; do
+            python3 -I .github/scripts/generate-profile-svgs.py .
+            git add assets/profile
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+            git commit -s -m "Update profile SVGs"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), retrying from latest main"
+            git fetch origin main
+            git reset --hard origin/main
+          done
+          echo "Giving up after 3 attempts" >&2
+          exit 1
