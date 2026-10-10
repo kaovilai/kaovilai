@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-labelledby="t d">
+  <title id="t">Open pull request pipeline</title>
+  <desc id="d">Stacked bar of my open PRs by status: ready, waiting to merge, CI, drafts and stale.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fa"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#cc0000"/><stop offset="1" stop-color="#ee0000"/>
+    </linearGradient>
+    <radialGradient id="aura"><stop offset="0" stop-color="#ee0000" stop-opacity=".35"/><stop offset="1" stop-color="#ee0000" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="900" height="200" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .muted { fill: #59636e; }
+    
+    .wipe { transform-box: fill-box; transform-origin: left; animation: wipe 1.4s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes wipe { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .ready { animation: beat 2.6s ease-in-out 1.6s infinite; }
+    @keyframes beat { 0%,100% { opacity: 1; } 50% { opacity: .6; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }</style>
+  <rect width="900" height="200" rx="16" fill="url(#card)"/>
+  <g clip-path="url(#clip)">
+
+    <text x="32" y="38" font-size="18" font-weight="700">Open PR pipeline</text>
+    <text class="muted" x="32" y="58" font-size="12">129 open PRs in public org repos · 55 awaiting review · 29 approved and waiting to land</text>
+    <clipPath id="reveal"><rect class="wipe" x="32" y="78" width="836" height="30" rx="15"/></clipPath>
+    <rect x="32" y="78" width="836" height="30" rx="15" fill="#e6eaef"/>
+    <g clip-path="url(#reveal)"><rect class="ready" x="32.0" y="78" width="324.0" height="30" fill="#3fb950"/><rect class="" x="356.0" y="78" width="13.0" height="30" fill="#58a6ff"/><rect class="" x="369.0" y="78" width="6.5" height="30" fill="#d29922"/><rect class="" x="375.5" y="78" width="71.3" height="30" fill="#f85149"/><rect class="" x="446.8" y="78" width="25.9" height="30" fill="#db6d28"/><rect class="" x="472.7" y="78" width="13.0" height="30" fill="#a371f7"/><rect class="" x="485.6" y="78" width="38.9" height="30" fill="#6e7681"/><rect class="" x="524.5" y="78" width="343.5" height="30" fill="#484f58"/></g>
+    <circle cx="37" cy="134" r="5" fill="#3fb950"/><text class="mono" x="50" y="138" font-size="13" font-weight="700">50</text><text class="muted" x="74" y="138" font-size="12">ready</text><circle cx="247" cy="134" r="5" fill="#58a6ff"/><text class="mono" x="260" y="138" font-size="13" font-weight="700">2</text><text class="muted" x="276" y="138" font-size="12">waiting to merge</text><circle cx="457" cy="134" r="5" fill="#d29922"/><text class="mono" x="470" y="138" font-size="13" font-weight="700">1</text><text class="muted" x="486" y="138" font-size="12">CI running</text><circle cx="667" cy="134" r="5" fill="#f85149"/><text class="mono" x="680" y="138" font-size="13" font-weight="700">11</text><text class="muted" x="704" y="138" font-size="12">failing CI</text><circle cx="37" cy="160" r="5" fill="#db6d28"/><text class="mono" x="50" y="164" font-size="13" font-weight="700">4</text><text class="muted" x="66" y="164" font-size="12">needs attention</text><circle cx="247" cy="160" r="5" fill="#a371f7"/><text class="mono" x="260" y="164" font-size="13" font-weight="700">2</text><text class="muted" x="276" y="164" font-size="12">on hold</text><circle cx="457" cy="160" r="5" fill="#6e7681"/><text class="mono" x="470" y="164" font-size="13" font-weight="700">6</text><text class="muted" x="486" y="164" font-size="12">draft</text><circle cx="667" cy="160" r="5" fill="#484f58"/><text class="mono" x="680" y="164" font-size="13" font-weight="700">53</text><text class="muted" x="704" y="164" font-size="12">stale</text>
+  </g>
+  <rect x=".5" y=".5" width="899" height="199" rx="16" fill="none" stroke="#d0d7de"/>
+</svg>

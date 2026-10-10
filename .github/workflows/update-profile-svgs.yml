@@ -1,0 +1,39 @@
+name: Update Profile SVGs
+
+on:
+  schedule:
+    - cron: '30 13 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-profile-svgs.yml'
+      - '.github/scripts/generate-profile-svgs.py'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Generate SVGs
+        run: python3 -I .github/scripts/generate-profile-svgs.py .
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/profile
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -s -m "Update profile SVGs"
+            # other scheduled workflows push to main too
+            git pull --rebase origin main
+            git push
+          fi
