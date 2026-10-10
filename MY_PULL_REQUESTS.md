@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-10 03:00:24 UTC
+> Last updated: 2026-10-10 11:28:15 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -114,6 +114,9 @@ No open PRs.
 - [![PR #17604](https://img.shields.io/badge/PR%20%2317604-ready-green)](https://github.com/pingdotgg/t3code/pull/17604) **pingdotgg/t3code** → `main` - feat(provider): add Claude fork-subagents instance setting
 - [![PR #17606](https://img.shields.io/badge/PR%20%2317606-ready-green)](https://github.com/pingdotgg/t3code/pull/17606) **pingdotgg/t3code** → `main` - fix(models): Ultracode is offered on Sonnet 5, Sonnet 5.5 and Haiku 5.5
 - [![PR #17611](https://img.shields.io/badge/PR%20%2317611-ready-green)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
+- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
+- [![PR #17720](https://img.shields.io/badge/PR%20%2317720-ready-green)](https://github.com/pingdotgg/t3code/pull/17720) **pingdotgg/t3code** → `main` - fix(mobile): Android composer accepts images pasted from Gboard
+- [![PR #17721](https://img.shields.io/badge/PR%20%2317721-ready-green)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #252](https://img.shields.io/badge/PR%20%23252-ready-green)](https://github.com/OpenPetsHQ/openpets/pull/252) **OpenPetsHQ/openpets** → `main` - Speak question speech for Claude AskUserQuestion permission requests
