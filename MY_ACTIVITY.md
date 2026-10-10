@@ -1,14 +1,14 @@
 # Activity Log
 
 > **Period:** 2026-09-26 — 2026-10-10
-> **Generated:** 2026-10-10 02:12:12 UTC
+> **Generated:** 2026-10-10 05:34:40 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 10 |
-| PRs Opened | 18 |
+| PRs Opened | 22 |
 | PRs Reviewed | 29 |
-| Issues/PRs Commented | 19 |
+| Issues/PRs Commented | 20 |
 | Issues Closed | 1 |
 
 ---
@@ -32,7 +32,7 @@
 - [#2 fix: address shubham's review feedback on DPT CACertRef handling](https://github.com/msfrucht/oadp-operator/pull/2) — msfrucht/oadp-operator
 - [#1 fix: remove unused bsl parameter (golangci-lint unparam)](https://github.com/msfrucht/oadp-operator/pull/1) — msfrucht/oadp-operator
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
-## PRs Opened (18)
+## PRs Opened (22)
 
 **velero-io** (1)
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
@@ -44,7 +44,11 @@
 **migtools** (1)
 - [#192 Fix CI coverage handling for no-test packages and update setup-go](https://github.com/migtools/udistribution/pull/192) — migtools/udistribution
 
-**Other** (14)
+**Other** (18)
+- [#17722 fix(composer): a second skill can be added after the first on the same line](https://github.com/pingdotgg/t3code/pull/17722) — pingdotgg/t3code
+- [#17721 fix(mobile): iPad composer accepts dragged screenshots](https://github.com/pingdotgg/t3code/pull/17721) — pingdotgg/t3code
+- [#17720 fix(mobile): Android composer accepts images pasted from Gboard](https://github.com/pingdotgg/t3code/pull/17720) — pingdotgg/t3code
+- [#17717 fix(mobile): header menu and Git menu reach a thread's linked pull request](https://github.com/pingdotgg/t3code/pull/17717) — pingdotgg/t3code
 - [#128 jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) — RedHatInsights/rhai-org-pulse
 - [#17611 fix(mobile): new thread draft names its repo and says it is a new thread](https://github.com/pingdotgg/t3code/pull/17611) — pingdotgg/t3code
 - [#252 Speak question speech for Claude AskUserQuestion permission requests](https://github.com/OpenPetsHQ/openpets/pull/252) — OpenPetsHQ/openpets
@@ -97,7 +101,7 @@
 
 **Other** (1)
 - [#458 update minio deployment after images were pulled](https://github.com/kubevirt/kubevirt-velero-plugin/pull/458) — kubevirt/kubevirt-velero-plugin
-## Issues/PRs Commented On (19)
+## Issues/PRs Commented On (20)
 
 **velero-io** (6)
 - [#9093 Publish releases to winget-pkgs](https://github.com/velero-io/velero/issues/9093) — velero-io/velero
@@ -110,7 +114,8 @@
 **openshift** (1)
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 
-**Other** (12)
+**Other** (13)
+- [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#13875 [Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex](https://github.com/pingdotgg/t3code/issues/13875) — pingdotgg/t3code
 - [#15234 [Feature]: Continue a Codex or Claude Code session started in the terminal as a T3 Code thread](https://github.com/pingdotgg/t3code/issues/15234) — pingdotgg/t3code
