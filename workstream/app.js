@@ -1,713 +1,714 @@
-"use strict";
+(function () {
+  "use strict";
 
-/* ==========================================================================
-   Workstream Dashboard — vanilla JS, no build step, no deps.
-   Renders two real Sankey diagrams (Milestone -> Workstream -> Status) for
-   issues assigned to me and PRs opened by me, across every repo/org.
-   ========================================================================== */
+  const PX_PER_DAY_MIN = 1;
+  const PX_PER_DAY_MAX = 4000;
+  const DEFAULT_LANES = ["Velero", "OADP", "KubeVirt Data Mover", "Kubernetes", "CNCF Landscape", "Uncategorized"];
+  const LANE_COLOR_VAR = {
+    "Velero": "--lane-velero",
+    "OADP": "--lane-oadp",
+    "KubeVirt Data Mover": "--lane-datamover",
+    "Kubernetes": "--lane-kubernetes",
+    "CNCF Landscape": "--lane-cncf",
+    "Uncategorized": "--lane-uncategorized",
+  };
 
-/* ---------- workstream identity (colorblind-validated, do not change hues) ---------- */
+  const STATUS_META = {
+    "ready": { colorVar: "--status-good", icon: "●", label: "Ready" },
+    "waiting-merge": { colorVar: "--status-good", icon: "●", label: "Waiting to merge" },
+    "ci-pending": { colorVar: "--status-warning", icon: "▲", label: "CI pending" },
+    "needs-attention": { colorVar: "--status-warning", icon: "▲", label: "Needs attention" },
+    "hold": { colorVar: "--status-critical", icon: "✕", label: "On hold" },
+    "failing-ci": { colorVar: "--status-critical", icon: "✕", label: "Failing CI" },
+    "draft": { colorVar: "--status-neutral", icon: "■", label: "Draft", parked: true },
+    "stale": { colorVar: "--status-neutral", icon: "■", label: "Stale", parked: true },
+    "open": { colorVar: "--status-good", icon: "●", label: "Open" },
+    "merged": { colorVar: "--status-merged", icon: "◆", label: "Merged" },
+    "closed": { colorVar: "--status-neutral", icon: "■", label: "Closed", parked: true },
+    "reviewed": { colorVar: "--status-good", icon: "●", label: "Reviewed" },
+    "commented": { colorVar: "--status-good", icon: "●", label: "Commented" },
+  };
+  const UNKNOWN_STATUS = { colorVar: "--status-neutral", icon: "■", label: "Unknown", parked: true };
 
-/* Fixed node identity + stacking order for the Workstream column. Every
-   issue/PR is pre-classified by the data-fetch script into exactly one of
-   these keys — identity is never re-ranked by count, and an unrecognized
-   key falls back to "Uncategorized". */
-const WORKSTREAM_NODE_ORDER = [
-  { key: "Velero", label: "Velero", color: "var(--ws-velero)" },
-  { key: "OADP", label: "OADP", color: "var(--ws-oadp)" },
-  { key: "KubeVirt Data Mover", label: "KubeVirt Data Mover", color: "var(--ws-kubevirt-dm)" },
-  { key: "Kubernetes", label: "Kubernetes", color: "var(--ws-kubernetes)" },
-  { key: "CNCF Landscape", label: "CNCF Landscape", color: "var(--ws-cncf)" },
-  { key: "Uncategorized", label: "Uncategorized", color: "var(--ws-uncategorized)" },
-];
-const KNOWN_WORKSTREAM_KEYS = new Set(WORKSTREAM_NODE_ORDER.map((w) => w.key));
+  const state = {
+    items: [],
+    classification: {},
+    layout: { laneOrder: DEFAULT_LANES.slice(), pinned: {} },
+    pendingClassification: {},
+    pendingLayout: null,
+    serverOnline: false,
+    pxPerDay: 8,
+  };
 
-function workstreamKeyFor(item) {
-  return KNOWN_WORKSTREAM_KEYS.has(item.workstream) ? item.workstream : "Uncategorized";
-}
-
-function workstreamColor(key) {
-  const def = WORKSTREAM_NODE_ORDER.find((w) => w.key === key);
-  return def ? def.color : "var(--ws-uncategorized)";
-}
-
-const PR_STATUS_META = {
-  ready: { pill: "good", icon: "✅", label: "mergeable" },
-  conflicts: { pill: "critical", icon: "💥", label: "conflicts" },
-  "missing-checks": { pill: "warning", icon: "⏳", label: "missing checks" },
-  "missing-reviews": { pill: "warning", icon: "👀", label: "missing reviews" },
-  "unresolved-conversations": { pill: "warning", icon: "💬", label: "unresolved conversations" },
-  blocked: { pill: "warning", icon: "🚧", label: "blocked (other)" },
-  hold: { pill: "warning", icon: "✋", label: "hold" },
-  "failing-ci": { pill: "critical", icon: "❌", label: "failing CI" },
-  draft: { pill: "neutral", icon: "📝", label: "draft" },
-  stale: { pill: "neutral", icon: "🕸️", label: "stale" },
-};
-
-const ISSUE_STATUS_META = {
-  open: { pill: "good", icon: "🟢", label: "open" },
-  stale: { pill: "neutral", icon: "🕸️", label: "stale" },
-};
-
-/* Fixed status column order per section — never sorted by count. */
-const ISSUE_STATUS_ORDER = ["open", "stale"];
-const PR_STATUS_ORDER = [
-  "ready",
-  "conflicts",
-  "missing-checks",
-  "missing-reviews",
-  "unresolved-conversations",
-  "blocked",
-  "hold",
-  "failing-ci",
-  "draft",
-  "stale",
-];
-
-function shortRepoLabel(repo) {
-  const parts = repo.split("/");
-  return parts[parts.length - 1] || repo;
-}
-
-function statusLabel(key, metaMap) {
-  return (metaMap[key] && metaMap[key].label) || key;
-}
-
-function relativeAge(isoString) {
-  if (!isoString) return "";
-  const then = new Date(isoString).getTime();
-  if (Number.isNaN(then)) return "";
-  const diffMs = Date.now() - then;
-  const diffSec = Math.round(diffMs / 1000);
-  const abs = Math.abs(diffSec);
-
-  const units = [
-    ["y", 60 * 60 * 24 * 365],
-    ["mo", 60 * 60 * 24 * 30],
-    ["d", 60 * 60 * 24],
-    ["h", 60 * 60],
-    ["m", 60],
-  ];
-  for (const [suffix, secs] of units) {
-    if (abs >= secs) {
-      const val = Math.floor(abs / secs);
-      return diffSec >= 0 ? `${val}${suffix} ago` : `in ${val}${suffix}`;
-    }
-  }
-  return diffSec >= 0 ? "just now" : "shortly";
-}
-
-function escapeHtml(str) {
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-}
-
-function renderRepoTag(repo, workstream) {
-  const color = workstreamColor(workstreamKeyFor({ workstream }));
-  return `<span class="repo-tag">
-    <span class="repo-dot" style="background:${color}" aria-hidden="true"></span>
-    <span>${escapeHtml(shortRepoLabel(repo))}</span>
-  </span>`;
-}
-
-function renderPill(meta) {
-  if (!meta) return "";
-  return `<span class="pill pill-${meta.pill}"><span aria-hidden="true">${meta.icon}</span>${escapeHtml(meta.label)}</span>`;
-}
-
-function renderBlockedGraphic() {
-  return `<svg class="blocked-graphic" width="46" height="18" viewBox="0 0 46 18" aria-hidden="true">
-    <title>blocked on review — arrow hits the wall</title>
-    <line x1="1" y1="9" x2="29" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-    <polygon points="30,3.5 30,14.5 25,9" fill="currentColor"/>
-    <line x1="30" y1="2" x2="34" y2="-1" stroke="currentColor" stroke-width="1" stroke-linecap="round" transform="translate(0,3)"/>
-    <line x1="30" y1="16" x2="34" y2="19" stroke="currentColor" stroke-width="1" stroke-linecap="round" transform="translate(0,-3)"/>
-    <g class="brick-wall" fill="none" stroke="currentColor" stroke-width="1.25">
-      <rect x="33" y="1" width="12" height="16" rx="1.5"/>
-      <line x1="33" y1="5.3" x2="45" y2="5.3"/>
-      <line x1="33" y1="9" x2="45" y2="9"/>
-      <line x1="33" y1="12.7" x2="45" y2="12.7"/>
-      <line x1="39" y1="1" x2="39" y2="5.3"/>
-      <line x1="35.5" y1="5.3" x2="35.5" y2="9"/>
-      <line x1="42.5" y1="5.3" x2="42.5" y2="9"/>
-      <line x1="39" y1="9" x2="39" y2="12.7"/>
-      <line x1="35.5" y1="12.7" x2="35.5" y2="17"/>
-      <line x1="42.5" y1="12.7" x2="42.5" y2="17"/>
-    </g>
-  </svg>`;
-}
-
-/* ==========================================================================
-   Sankey data model
-   ========================================================================== */
-
-/**
- * Fixed milestone bucket order + labels. `recognizedMilestones[0]` is the
- * current release, `[1]` (if present) is the next release. Buckets with no
- * matching slot are omitted entirely (not just left empty).
- */
-function milestoneBucketDefs(recognizedMilestones) {
-  const current = recognizedMilestones[0] || null;
-  const next = recognizedMilestones[1] || null;
-  return [
-    { key: "current", enabled: !!current, rawLabel: current ? `current release — ${current}` : null },
-    { key: "next", enabled: !!next, rawLabel: next ? `next release — ${next}` : null },
-    { key: "other", enabled: true, rawLabel: "other milestone" },
-    { key: "none", enabled: true, rawLabel: "no milestone" },
-  ].filter((d) => d.enabled);
-}
-
-function milestoneKeyFor(item, recognizedMilestones) {
-  const current = recognizedMilestones[0];
-  const next = recognizedMilestones[1];
-  const m = item.milestone;
-  if (m && current && m === current) return "current";
-  if (m && next && m === next) return "next";
-  if (m) return "other";
-  return "none";
-}
-
-/**
- * Builds the three fixed-order node columns (Milestone -> Workstream ->
- * Status) and the two link sets between them, for one section (issues or
- * PRs). Column order and per-node sub-flow order are both driven by the
- * fixed category arrays — never re-ranked by count.
- */
-function buildSankeyData(items, recognizedMilestones, statusOrder, statusMetaMap) {
-  const milestoneNodes = [];
-  for (const def of milestoneBucketDefs(recognizedMilestones)) {
-    const subset = items.filter((it) => milestoneKeyFor(it, recognizedMilestones) === def.key);
-    if (!subset.length) continue;
-    milestoneNodes.push({ key: def.key, rawLabel: def.rawLabel, count: subset.length, items: subset });
-  }
-
-  const workstreamNodes = [];
-  for (const wdef of WORKSTREAM_NODE_ORDER) {
-    const subset = items.filter((it) => workstreamKeyFor(it) === wdef.key);
-    if (!subset.length) continue;
-    workstreamNodes.push({ key: wdef.key, rawLabel: wdef.label, color: wdef.color, count: subset.length, items: subset });
-  }
-
-  const statusNodes = [];
-  for (const skey of statusOrder) {
-    const subset = items.filter((it) => it.status === skey);
-    if (!subset.length) continue;
-    statusNodes.push({ key: skey, rawLabel: statusLabel(skey, statusMetaMap), count: subset.length, items: subset });
-  }
-
-  const linksMS = [];
-  for (const mnode of milestoneNodes) {
-    for (const wdef of WORKSTREAM_NODE_ORDER) {
-      const subset = mnode.items.filter((it) => workstreamKeyFor(it) === wdef.key);
-      if (!subset.length) continue;
-      linksMS.push({
-        source: mnode.key,
-        sourceLabel: mnode.rawLabel,
-        target: wdef.key,
-        targetLabel: wdef.label,
-        count: subset.length,
-        items: subset,
-        color: wdef.color,
-      });
-    }
-  }
-
-  const linksRS = [];
-  for (const wnode of workstreamNodes) {
-    for (const skey of statusOrder) {
-      const subset = wnode.items.filter((it) => it.status === skey);
-      if (!subset.length) continue;
-      linksRS.push({
-        source: wnode.key,
-        sourceLabel: wnode.rawLabel,
-        target: skey,
-        targetLabel: statusLabel(skey, statusMetaMap),
-        count: subset.length,
-        items: subset,
-        color: wnode.color,
-      });
-    }
-  }
-
-  return { milestoneNodes, workstreamNodes, statusNodes, linksMS, linksRS, total: items.length };
-}
-
-/* ==========================================================================
-   Sankey layout
-   ========================================================================== */
-
-const VIEW_W = 1100;
-const NODE_W = 16;
-const NODE_GAP = 6;
-const COL0_X = 210;
-const COL2_X = VIEW_W - 210 - NODE_W;
-const COL1_X = Math.round((COL0_X + NODE_W + COL2_X) / 2 - NODE_W / 2);
-const PLOT_TOP = 46;
-const PLOT_BOTTOM = 20;
-
-function layoutColumn(nodes, total, plotTop, plotHeight, gap) {
-  const usable = plotHeight - gap * Math.max(0, nodes.length - 1);
-  let y = plotTop;
-  for (const node of nodes) {
-    const h = Math.max(2, (node.count / total) * usable);
-    node.y = y;
-    node.height = h;
-    y += h + gap;
-  }
-}
-
-function assignOutgoing(nodes, links, sourceProp) {
-  for (const node of nodes) {
-    const subset = links.filter((l) => l[sourceProp] === node.key);
-    let y = node.y;
-    for (const link of subset) {
-      const h = (link.count / node.count) * node.height;
-      link._srcY0 = y;
-      link._srcY1 = y + h;
-      y += h;
-    }
-  }
-}
-
-function assignIncoming(nodes, links, targetProp) {
-  for (const node of nodes) {
-    const subset = links.filter((l) => l[targetProp] === node.key);
-    let y = node.y;
-    for (const link of subset) {
-      const h = (link.count / node.count) * node.height;
-      link._tgtY0 = y;
-      link._tgtY1 = y + h;
-      y += h;
-    }
-  }
-}
-
-const SVG_NS = "http://www.w3.org/2000/svg";
-
-function svgEl(tag, attrs) {
-  const el = document.createElementNS(SVG_NS, tag);
-  for (const [k, v] of Object.entries(attrs || {})) el.setAttribute(k, v);
-  return el;
-}
-
-function makeInteractive(el, onActivate, ariaLabel) {
-  el.setAttribute("tabindex", "0");
-  el.setAttribute("role", "button");
-  el.setAttribute("aria-label", ariaLabel);
-  el.addEventListener("click", onActivate);
-  el.addEventListener("keydown", (e) => {
-    if (e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
-      onActivate();
-    }
-  });
-}
-
-function buildBlockedIcon(x, y) {
-  const wrapper = document.createElement("div");
-  wrapper.innerHTML = renderBlockedGraphic();
-  const inner = wrapper.firstElementChild;
-  inner.setAttribute("x", x);
-  inner.setAttribute("y", y);
-  return inner;
-}
-
-/**
- * Classic two-bezier Sankey link shape: an independent cubic curve along
- * the top edge and along the bottom edge (both using a mid-column control
- * x), so band thickness stays constant along its length instead of
- * tapering to a point.
- */
-function sankeyLinkPath(sourceX, targetX, srcY0, srcY1, tgtY0, tgtY1) {
-  const midX = (sourceX + targetX) / 2;
-  return (
-    `M ${sourceX} ${srcY0} ` +
-    `C ${midX} ${srcY0} ${midX} ${tgtY0} ${targetX} ${tgtY0} ` +
-    `L ${targetX} ${tgtY1} ` +
-    `C ${midX} ${tgtY1} ${midX} ${srcY1} ${sourceX} ${srcY1} Z`
-  );
-}
-
-function drawLinks(layer, links, xA, xB, onLinkActivate) {
-  const sourceX = xA + NODE_W;
-  const targetX = xB;
-  for (const link of links) {
-    const path = svgEl("path", {
-      d: sankeyLinkPath(sourceX, targetX, link._srcY0, link._srcY1, link._tgtY0, link._tgtY1),
-      fill: link.color,
-      class: "sankey-link",
-    });
-    const label = `${link.sourceLabel} → ${link.targetLabel}: ${link.count} item${link.count === 1 ? "" : "s"}`;
-    const title = svgEl("title", {});
-    title.textContent = label;
-    path.appendChild(title);
-    makeInteractive(path, () => onLinkActivate(link), label);
-    layer.appendChild(path);
-  }
-}
-
-function drawNodes(nodeLayer, labelLayer, nodes, x, side, onNodeActivate) {
-  for (const node of nodes) {
-    const isWorkstreamCol = side === "middle";
-    const rect = svgEl("rect", {
-      x,
-      y: node.y,
-      width: NODE_W,
-      height: Math.max(node.height, 1),
-      rx: 2,
-      class: "sankey-node" + (isWorkstreamCol ? " sankey-node-repo" : " sankey-node-neutral"),
-    });
-    if (isWorkstreamCol) rect.setAttribute("fill", node.color);
-
-    const displayLabel = `${node.rawLabel} (${node.count})`;
-    const title = svgEl("title", {});
-    title.textContent = displayLabel;
-    rect.appendChild(title);
-    makeInteractive(rect, () => onNodeActivate(node, displayLabel), `${displayLabel} — show items`);
-    nodeLayer.appendChild(rect);
-
-    const centerY = node.y + node.height / 2;
-    let iconOffset = 0;
-    if (side === "right" && node.key === "missing-reviews") {
-      labelLayer.appendChild(buildBlockedIcon(x + NODE_W + 10, centerY - 9));
-      iconOffset = 46 + 6;
-    }
-
-    const text = svgEl("text", { class: "sankey-node-label" });
-    if (side === "left") {
-      text.setAttribute("x", x - 10);
-      text.setAttribute("y", centerY);
-      text.setAttribute("text-anchor", "end");
-      text.setAttribute("dominant-baseline", "middle");
-    } else if (side === "right") {
-      text.setAttribute("x", x + NODE_W + 10 + iconOffset);
-      text.setAttribute("y", centerY);
-      text.setAttribute("text-anchor", "start");
-      text.setAttribute("dominant-baseline", "middle");
-    } else {
-      text.setAttribute("x", x + NODE_W / 2);
-      text.setAttribute("y", node.y - 6);
-      text.setAttribute("text-anchor", "middle");
-    }
-    text.textContent = displayLabel;
-    labelLayer.appendChild(text);
-  }
-}
-
-function addColumnHeader(layer, x, text) {
-  const t = svgEl("text", {
-    x,
-    y: PLOT_TOP - 22,
-    "text-anchor": "middle",
-    class: "sankey-col-header",
-  });
-  t.textContent = text;
-  layer.appendChild(t);
-}
-
-function renderSankeySection({ svg, data, height, sectionLabel, onNodeActivate, onLinkActivate }) {
-  const plotHeight = height - PLOT_TOP - PLOT_BOTTOM;
-  layoutColumn(data.milestoneNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
-  layoutColumn(data.workstreamNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
-  layoutColumn(data.statusNodes, data.total, PLOT_TOP, plotHeight, NODE_GAP);
-
-  assignOutgoing(data.milestoneNodes, data.linksMS, "source");
-  assignIncoming(data.workstreamNodes, data.linksMS, "target");
-  assignOutgoing(data.workstreamNodes, data.linksRS, "source");
-  assignIncoming(data.statusNodes, data.linksRS, "target");
-
-  svg.innerHTML = "";
-  svg.setAttribute("viewBox", `0 0 ${VIEW_W} ${height}`);
-  svg.setAttribute("role", "img");
-  svg.setAttribute("aria-label", `${sectionLabel} Sankey diagram: milestone to workstream to status`);
-
-  const linkLayer = svgEl("g", { class: "sankey-link-layer" });
-  const nodeLayer = svgEl("g", { class: "sankey-node-layer" });
-  const labelLayer = svgEl("g", { class: "sankey-label-layer" });
-  svg.appendChild(linkLayer);
-  svg.appendChild(nodeLayer);
-  svg.appendChild(labelLayer);
-
-  addColumnHeader(labelLayer, COL0_X + NODE_W / 2, "Milestone");
-  addColumnHeader(labelLayer, COL1_X + NODE_W / 2, "Workstream");
-  addColumnHeader(labelLayer, COL2_X + NODE_W / 2, "Status");
-
-  drawLinks(linkLayer, data.linksMS, COL0_X, COL1_X, onLinkActivate);
-  drawLinks(linkLayer, data.linksRS, COL1_X, COL2_X, onLinkActivate);
-
-  drawNodes(nodeLayer, labelLayer, data.milestoneNodes, COL0_X, "left", onNodeActivate);
-  drawNodes(nodeLayer, labelLayer, data.workstreamNodes, COL1_X, "middle", onNodeActivate);
-  drawNodes(nodeLayer, labelLayer, data.statusNodes, COL2_X, "right", onNodeActivate);
-}
-
-/* ==========================================================================
-   Detail side panel
-   ========================================================================== */
-
-let lastFocusedEl = null;
-
-function renderPanelItem(item) {
-  const metaMap = item._kind === "issue" ? ISSUE_STATUS_META : PR_STATUS_META;
-  const meta = metaMap[item.status] || null;
-  return `<li class="panel-item">
-    <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
-    <div class="panel-item-meta">
-      ${renderRepoTag(item.repo, item.workstream)}
-      <span class="number-tag">#${item.number}</span>
-      ${renderPill(meta)}
-      <span class="age">${escapeHtml(relativeAge(item.updatedAt))}</span>
-      ${item.milestone ? `<span class="milestone-tag">${escapeHtml(item.milestone)}</span>` : ""}
-    </div>
-  </li>`;
-}
-
-function openPanel(titleText, items) {
-  lastFocusedEl = document.activeElement;
-  const panel = document.getElementById("detail-panel");
-  const backdrop = document.getElementById("detail-backdrop");
-
-  document.getElementById("panel-title").textContent = titleText;
-  const sorted = [...items].sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
-  document.getElementById("panel-list").innerHTML = sorted.map(renderPanelItem).join("");
-  document.getElementById("panel-count").textContent = `${sorted.length} item${sorted.length === 1 ? "" : "s"}`;
-
-  panel.classList.add("open");
-  backdrop.classList.add("open");
-  panel.setAttribute("aria-hidden", "false");
-  document.getElementById("panel-close").focus();
-}
-
-function closePanel() {
-  const panel = document.getElementById("detail-panel");
-  const backdrop = document.getElementById("detail-backdrop");
-  panel.classList.remove("open");
-  backdrop.classList.remove("open");
-  panel.setAttribute("aria-hidden", "true");
-  if (lastFocusedEl && typeof lastFocusedEl.focus === "function") lastFocusedEl.focus();
-}
-
-function initPanel() {
-  document.getElementById("panel-close").addEventListener("click", closePanel);
-  document.getElementById("detail-backdrop").addEventListener("click", closePanel);
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && document.getElementById("detail-panel").classList.contains("open")) {
-      closePanel();
-    }
-  });
-}
-
-function onNodeActivate(node, displayLabel) {
-  openPanel(displayLabel, node.items);
-}
-
-function onLinkActivate(link) {
-  openPanel(`${link.sourceLabel} → ${link.targetLabel}`, link.items);
-}
-
-/* ---------- workstream legend ---------- */
-
-function renderLegend() {
-  const el = document.getElementById("workstream-legend");
-  el.innerHTML = WORKSTREAM_NODE_ORDER.map(
-    (w) =>
-      `<span class="repo-legend-item"><span class="repo-dot" style="background:${w.color}"></span>${escapeHtml(w.label)}</span>`
-  ).join("");
-}
-
-/* ---------- theme toggle ---------- */
-
-function initTheme() {
-  const stored = localStorage.getItem("velero-workstream-theme");
-  if (stored === "light" || stored === "dark") {
-    document.documentElement.setAttribute("data-theme", stored);
-  }
-  const btn = document.getElementById("theme-toggle");
-  btn.addEventListener("click", () => {
-    const current = document.documentElement.getAttribute("data-theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const effectiveCurrent = current || (prefersDark ? "dark" : "light");
-    const next = effectiveCurrent === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
+  async function fetchJson(path) {
     try {
-      localStorage.setItem("velero-workstream-theme", next);
+      const res = await fetch(path, { cache: "no-store" });
+      if (!res.ok) return null;
+      return await res.json();
     } catch (e) {
-      /* storage unavailable; theme just won't persist */
+      return null;
     }
-  });
-}
-
-/* ==========================================================================
-   Filters: shared repo dropdown + per-section status chips
-   ========================================================================== */
-
-let allIssues = [];
-let allPrs = [];
-let selectedRepo = "";
-const issuesDisabledStatuses = new Set();
-const prsDisabledStatuses = new Set();
-
-function populateRepoFilter() {
-  const select = document.getElementById("repo-filter");
-  const repos = Array.from(new Set([...allIssues, ...allPrs].map((it) => it.repo))).sort();
-  for (const repo of repos) {
-    const opt = document.createElement("option");
-    opt.value = repo;
-    opt.textContent = repo;
-    select.appendChild(opt);
   }
-  select.addEventListener("change", () => {
-    selectedRepo = select.value;
-    rerender();
-  });
-}
 
-function repoFiltered(items) {
-  return selectedRepo ? items.filter((it) => it.repo === selectedRepo) : items.slice();
-}
-
-/**
- * Renders one row of status-filter chips into `containerId`, populated from
- * whichever statuses are actually present in `items` (already repo-filtered,
- * but NOT yet status-filtered — so a toggled-off chip stays visible to be
- * re-enabled). Clicking a chip toggles its key in `disabledSet` and
- * triggers a full re-render.
- */
-function renderStatusChips(containerId, items, statusOrder, statusMetaMap, disabledSet) {
-  const container = document.getElementById(containerId);
-  container.innerHTML = "";
-  for (const key of statusOrder) {
-    const count = items.filter((it) => it.status === key).length;
-    if (!count) continue;
-    const meta = statusMetaMap[key] || { icon: "", label: key };
-    const active = !disabledSet.has(key);
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "status-chip" + (active ? " active" : "");
-    btn.setAttribute("aria-pressed", String(active));
-    btn.innerHTML = `<span aria-hidden="true">${meta.icon}</span>${escapeHtml(meta.label)} <span class="status-chip-count">${count}</span>`;
-    btn.addEventListener("click", () => {
-      if (disabledSet.has(key)) disabledSet.delete(key);
-      else disabledSet.add(key);
-      rerender();
-    });
-    container.appendChild(btn);
+  function daysAgo(iso) {
+    const d = new Date(iso).getTime();
+    if (Number.isNaN(d)) return null;
+    return (Date.now() - d) / 86400000;
   }
-}
 
-function renderSection({ sectionId, chipsId, svgId, items, statusOrder, statusMetaMap, disabledSet, recognizedMilestones, height, sectionLabel }) {
-  const section = document.getElementById(sectionId);
-  const repoScoped = repoFiltered(items);
-  renderStatusChips(chipsId, repoScoped, statusOrder, statusMetaMap, disabledSet);
-
-  const finalItems = repoScoped.filter((it) => !disabledSet.has(it.status));
-  const svg = document.getElementById(svgId);
-  const noMatchEl = document.getElementById(svgId.replace("-sankey", "-no-match"));
-
-  if (!finalItems.length) {
-    svg.innerHTML = "";
-    svg.removeAttribute("viewBox");
-    if (noMatchEl) noMatchEl.hidden = false;
-    return;
+  function fmtAge(days) {
+    if (days === null) return "";
+    if (days < 1) return "today";
+    if (days < 2) return "1d";
+    if (days < 60) return Math.floor(days) + "d";
+    if (days < 730) return Math.floor(days / 30) + "mo";
+    return (days / 365).toFixed(1) + "y";
   }
-  if (noMatchEl) noMatchEl.hidden = true;
 
-  const data = buildSankeyData(finalItems, recognizedMilestones, statusOrder, statusMetaMap);
-  renderSankeySection({ svg, data, height, sectionLabel, onNodeActivate, onLinkActivate });
-}
-
-let recognizedMilestonesGlobal = [];
-
-function rerender() {
-  if (allIssues.length) {
-    renderSection({
-      sectionId: "issues-section",
-      chipsId: "issues-status-chips",
-      svgId: "issues-sankey",
-      items: allIssues,
-      statusOrder: ISSUE_STATUS_ORDER,
-      statusMetaMap: ISSUE_STATUS_META,
-      disabledSet: issuesDisabledStatuses,
-      recognizedMilestones: recognizedMilestonesGlobal,
-      height: 460,
-      sectionLabel: "Issues",
-    });
+  function ciSummary(ciChecks) {
+    if (!ciChecks || !ciChecks.length) return null;
+    const norm = (c) => (c.conclusion || "").toUpperCase();
+    if (ciChecks.some((c) => ["FAILURE", "ERROR", "CANCELLED", "TIMED_OUT"].includes(norm(c)))) {
+      return { colorVar: "--status-critical", icon: "✕", label: "CI failing" };
+    }
+    if (ciChecks.some((c) => ["IN_PROGRESS", "QUEUED", "PENDING", ""].includes(norm(c)))) {
+      return { colorVar: "--status-warning", icon: "▲", label: "CI pending" };
+    }
+    return { colorVar: "--status-good", icon: "●", label: "CI passing" };
   }
-  if (allPrs.length) {
-    renderSection({
-      sectionId: "prs-section",
-      chipsId: "prs-status-chips",
-      svgId: "prs-sankey",
-      items: allPrs,
-      statusOrder: PR_STATUS_ORDER,
-      statusMetaMap: PR_STATUS_META,
-      disabledSet: prsDisabledStatuses,
-      recognizedMilestones: recognizedMilestonesGlobal,
-      height: 520,
-      sectionLabel: "PRs",
-    });
-  }
-}
 
-/* ---------- boot ---------- */
-
-async function fetchJson(path) {
-  const res = await fetch(path, { cache: "no-store" });
-  if (!res.ok) throw new Error(`${path} responded ${res.status}`);
-  return res.json();
-}
-
-async function main() {
-  initTheme();
-  initPanel();
-  renderLegend();
-
-  let issuesData, prsData;
-  try {
-    [issuesData, prsData] = await Promise.all([
-      fetchJson("../workstream-issues.json"),
-      fetchJson("../workstream-prs.json"),
+  async function loadAll() {
+    const [prsData, issuesData, activityData, archiveData, classData, layoutData] = await Promise.all([
+      fetchJson("../open-prs.json"),
+      fetchJson("../open-issues.json"),
+      fetchJson("../activity.json"),
+      fetchJson("../workstream-archive.json"),
+      fetchJson("../workstream-classification.json"),
+      fetchJson("../workstream-layout.json"),
     ]);
-  } catch (err) {
-    const errEl = document.getElementById("load-error");
-    errEl.hidden = false;
-    errEl.textContent =
-      "Couldn't load workstream data yet (workstream-issues.json / workstream-prs.json missing or unreadable). " +
-      "The data-fetch workflow may not have run yet. Try again in a bit.";
-    return;
+
+    state.classification = classData || {};
+    if (layoutData && Array.isArray(layoutData.laneOrder)) {
+      state.layout = layoutData;
+    }
+
+    // merge in any not-yet-published edits saved locally from a session without a server
+    try {
+      const local = JSON.parse(localStorage.getItem("workstream-pending") || "null");
+      if (local) {
+        Object.assign(state.pendingClassification, local.classification || {});
+        if (local.layout) state.pendingLayout = local.layout;
+      }
+    } catch (e) { /* ignore corrupt local state */ }
+
+    const items = [];
+    const seenKeys = new Set();
+
+    if (prsData && Array.isArray(prsData.prs)) {
+      for (const p of prsData.prs) {
+        const key = p.repo + "#" + p.number;
+        seenKeys.add(key);
+        items.push({
+          key, repo: p.repo, org: p.org, number: p.number, title: p.title, url: p.url,
+          date: p.updatedAt, kind: "pr", status: p.status, workstreamDefault: p.workstream,
+          ciChecks: p.ciChecks || [], isDraft: p.isDraft,
+        });
+      }
+      setFreshness(prsData.updatedAt);
+    }
+
+    if (issuesData && Array.isArray(issuesData.issues)) {
+      for (const i of issuesData.issues) {
+        const key = i.repo + "#" + i.number;
+        seenKeys.add(key);
+        items.push({
+          key, repo: i.repo, org: i.org, number: i.number, title: i.title, url: i.url,
+          date: i.updatedAt, kind: "issue", status: i.status, workstreamDefault: i.workstream, ciChecks: [],
+        });
+      }
+    }
+
+    if (archiveData && Array.isArray(archiveData.items)) {
+      for (const a of archiveData.items) {
+        const key = a.repo + "#" + a.number;
+        if (seenKeys.has(key)) continue; // still live/open elsewhere, don't double-render
+        items.push({
+          key, repo: a.repo, org: a.org, number: a.number, title: a.title, url: a.url,
+          date: a.updatedAt, kind: a.type, status: a.state, workstreamDefault: a.workstream, ciChecks: [],
+          archived: true,
+        });
+      }
+    }
+
+    if (activityData) {
+      for (const cat of ["prsReviewed", "issuesCommented"]) {
+        const list = activityData[cat];
+        if (!Array.isArray(list)) continue;
+        const status = cat === "prsReviewed" ? "reviewed" : "commented";
+        for (const a of list) {
+          items.push({
+            key: "activity:" + status + ":" + a.repo + "#" + a.number,
+            repo: a.repo, org: a.org, number: a.number, title: a.title, url: a.url,
+            date: a.date, kind: "activity", status, workstreamDefault: a.workstream, ciChecks: [],
+            isActivity: true,
+          });
+        }
+      }
+    }
+
+    state.items = items.filter((it) => it.date);
+    render();
   }
 
-  allIssues = (issuesData.issues || []).map((i) => ({ ...i, _kind: "issue" }));
-  allPrs = (prsData.prs || []).map((p) => ({ ...p, _kind: "pr" }));
-  recognizedMilestonesGlobal = issuesData.recognizedMilestones || prsData.recognizedMilestones || [];
-
-  if (!allIssues.length && !allPrs.length) {
-    document.getElementById("empty-state").hidden = false;
-    updateFreshness(issuesData.updatedAt || prsData.updatedAt);
-    return;
+  function setFreshness(updatedAt) {
+    const el = document.getElementById("freshness");
+    if (!updatedAt) { el.textContent = "No data yet — run workstream/refresh-data.sh"; return; }
+    const mins = Math.round((Date.now() - new Date(updatedAt).getTime()) / 60000);
+    const ago = mins < 60 ? mins + "m ago" : Math.round(mins / 60) + "h ago";
+    el.textContent = "PR/CI status as of " + ago + " (hourly on weekday active hours, ~6h off-hours/weekends — see update-pr-badges.yml, or run workstream/refresh-data.sh)";
   }
 
-  populateRepoFilter();
-
-  if (allIssues.length) document.getElementById("issues-section").hidden = false;
-  if (allPrs.length) document.getElementById("prs-section").hidden = false;
-
-  rerender();
-
-  updateFreshness(issuesData.updatedAt || prsData.updatedAt);
-}
-
-function updateFreshness(isoString) {
-  const el = document.getElementById("freshness");
-  if (!isoString) {
-    el.textContent = "";
-    return;
+  function resolveWorkstream(item) {
+    const override = state.pendingClassification[item.key] || state.classification[item.key]
+      || state.pendingClassification[item.repo] || state.classification[item.repo];
+    if (override && override.workstream) {
+      return { name: override.workstream, source: override.source || "manual", note: override.note || "" };
+    }
+    return { name: item.workstreamDefault || "Uncategorized", source: "default", note: "" };
   }
-  el.textContent = `data as of ${relativeAge(isoString)}`;
-  el.title = new Date(isoString).toLocaleString();
-}
 
-main();
+  function laneColorVar(name) {
+    return LANE_COLOR_VAR[name] || "--lane-uncategorized";
+  }
+
+  function effectiveLayout() {
+    return state.pendingLayout || state.layout;
+  }
+
+  function buildLegend() {
+    const seen = new Map();
+    for (const key of ["ready", "ci-pending", "hold", "draft", "closed", "merged"]) {
+      const m = STATUS_META[key];
+      if (!seen.has(m.label)) seen.set(m.label, m);
+    }
+    const legend = document.getElementById("legend");
+    legend.innerHTML = "";
+    for (const m of seen.values()) {
+      const span = document.createElement("span");
+      span.className = "legend-item";
+      span.innerHTML = `<span style="color:var(${m.colorVar})">${m.icon}</span> ${m.label}`;
+      legend.appendChild(span);
+    }
+  }
+
+  function render() {
+    buildLegend();
+
+    const layout = effectiveLayout();
+    const grouped = {};
+    for (const item of state.items) {
+      const ws = resolveWorkstream(item);
+      item._resolved = ws;
+      (grouped[ws.name] = grouped[ws.name] || []).push(item);
+    }
+
+    const laneNames = layout.laneOrder.slice();
+    for (const name of Object.keys(grouped)) {
+      if (!laneNames.includes(name)) laneNames.push(name);
+    }
+
+    for (const name of laneNames) {
+      const list = grouped[name] || [];
+      const pinned = (layout.pinned && layout.pinned[name]) || [];
+      if (pinned.length) {
+        const byKey = new Map(list.map((it) => [it.key, it]));
+        const ordered = [];
+        for (const k of pinned) { if (byKey.has(k)) { ordered.push(byKey.get(k)); byKey.delete(k); } }
+        const rest = Array.from(byKey.values()).sort((a, b) => new Date(b.date) - new Date(a.date));
+        grouped[name] = ordered.concat(rest);
+      } else {
+        list.sort((a, b) => new Date(b.date) - new Date(a.date));
+      }
+    }
+
+    const cols = "100px " + laneNames.map(() => "minmax(230px, 1fr)").join(" ");
+
+    const header = document.getElementById("lanes-header");
+    header.style.gridTemplateColumns = cols;
+    header.innerHTML = "<div class=\"ruler-title\">Time</div>" + laneNames.map((name) =>
+      `<div class="lane-title"><span class="lane-swatch" style="background:var(${laneColorVar(name)})"></span>${escapeHtml(name)} (${(grouped[name] || []).length})</div>`
+    ).join("");
+
+    const timeline = document.getElementById("timeline");
+    timeline.style.gridTemplateColumns = cols;
+    timeline.innerHTML = "";
+
+    const ruler = document.createElement("div");
+    ruler.className = "ruler";
+    timeline.appendChild(ruler);
+
+    // Flat list of {item, card, connector} so zoom (relayout) can reposition
+    // everything cheaply — recomputing top/height only — without rebuilding
+    // ~thousands of DOM nodes and re-attaching listeners on every wheel tick.
+    state.renderedEntries = [];
+
+    for (const name of laneNames) {
+      const laneEl = document.createElement("div");
+      laneEl.className = "lane";
+      laneEl.dataset.lane = name;
+      laneEl.addEventListener("dragover", (e) => e.preventDefault());
+      laneEl.addEventListener("drop", (e) => onDrop(e, name));
+
+      const cardEls = [];
+
+      for (const item of grouped[name] || []) {
+        const meta = STATUS_META[item.status] || UNKNOWN_STATUS;
+        const connector = document.createElement("div");
+        connector.className = "connector";
+        connector.style.left = "18px";
+        connector.style.background = `var(${meta.colorVar})`;
+        laneEl.appendChild(connector);
+
+        const card = document.createElement("div");
+        card.className = "card" + (meta.parked ? " parked" : "");
+        card.draggable = !item.isActivity;
+        card.dataset.key = item.key;
+        card.dataset.lane = name;
+
+        const ci = ciSummary(item.ciChecks);
+        const overrideNote = (state.pendingClassification[item.key] || state.classification[item.key] || {}).note;
+
+        card.innerHTML = `
+          <span class="card-title">${escapeHtml(item.title)}</span>
+          <div class="card-meta">
+            <span class="status-pill" style="color:var(${meta.colorVar})">${meta.icon} ${meta.label}</span>
+            <span>${escapeHtml(item.repo)}#${item.number}</span>
+            <span class="age"></span>
+            ${ci ? `<span class="ci-pill" style="color:var(${ci.colorVar})">${ci.icon} ${ci.label}</span>` : ""}
+            ${overrideNote ? `<span class="note-flag" title="${escapeHtml(overrideNote)}">\u{1F4DD}</span>` : ""}
+          </div>`;
+
+        card.addEventListener("click", () => openPanel(item));
+        card.addEventListener("dragstart", (e) => {
+          e.dataTransfer.setData("text/plain", item.key);
+        });
+        const idx = cardEls.length;
+        card.addEventListener("mouseenter", () => dockFocus(cardEls, idx));
+        card.addEventListener("mouseleave", () => dockReset(cardEls));
+        laneEl.appendChild(card);
+        cardEls.push(card);
+        state.renderedEntries.push({ item, card, connector, ageEl: card.querySelector(".age") });
+      }
+
+      timeline.appendChild(laneEl);
+    }
+
+    relayout();
+  }
+
+  // Cheap zoom-time update: recompute pixel positions on the already-built DOM
+  // (state.renderedEntries) without touching classification/grouping/listeners.
+  // This is what makes pinch/ctrl+scroll zoom smooth — render() rebuilds
+  // thousands of nodes and is only needed when data or classification changes.
+  function relayout() {
+    let maxDays = 30;
+    for (const item of state.items) {
+      const d = daysAgo(item.date);
+      if (d !== null && d > maxDays) maxDays = d;
+    }
+    const heightPx = Math.ceil(maxDays * state.pxPerDay) + 80;
+
+    const timeline = document.getElementById("timeline");
+    timeline.style.height = heightPx + "px";
+    for (const lane of timeline.querySelectorAll(".lane, .ruler")) {
+      lane.style.height = heightPx + "px";
+    }
+
+    for (const entry of state.renderedEntries) {
+      const days = daysAgo(entry.item.date) || 0;
+      const top = Math.max(0, days * state.pxPerDay);
+      entry.card.style.top = top + "px";
+      entry.connector.style.height = top + "px";
+      if (entry.ageEl) entry.ageEl.textContent = fmtAge(days) + (entry.item.isActivity ? "" : " idle");
+    }
+
+    const ruler = timeline.querySelector(".ruler");
+    ruler.innerHTML = "";
+    ruler.appendChild(rulerTick(0, "now", true));
+    const scrollEl = document.querySelector(".timeline-scroll");
+    buildRulerTicks(ruler, new Date(), heightPx, state.pxPerDay, scrollEl.scrollTop, scrollEl.scrollTop + scrollEl.clientHeight);
+  }
+
+  // macOS-dock-style magnify: the hovered card lifts and scales slightly; its
+  // immediate time-neighbors in the same lane nudge aside to make room. The full
+  // title is shown via a floating tooltip (never reflows the card itself) —
+  // wrapping the title inline used to spill over neighboring cards' fixed
+  // positions, since those don't move to make room for taller text.
+  // Only nudge a neighbor if it's actually close on screen — with items sparse
+  // (zoomed in, or big time gaps), "next in the lane's date order" can be
+  // hundreds of pixels away, and shifting it there would look like unrelated
+  // cards randomly jumping.
+  const DOCK_NEIGHBOR_MAX_PX = 60;
+
+  function cardTop(el) {
+    return parseFloat(el.style.top) || 0;
+  }
+
+  function dockFocus(cardEls, idx) {
+    setDockStyle(cardEls[idx], 0, 1.06, 60);
+    showTooltip(cardEls[idx]);
+    const anchorTop = cardTop(cardEls[idx]);
+    const prev = cardEls[idx - 1];
+    const next = cardEls[idx + 1];
+    if (prev && Math.abs(cardTop(prev) - anchorTop) <= DOCK_NEIGHBOR_MAX_PX) setDockStyle(prev, -16, 1, 55);
+    if (next && Math.abs(cardTop(next) - anchorTop) <= DOCK_NEIGHBOR_MAX_PX) setDockStyle(next, 16, 1, 55);
+  }
+
+  function dockReset(cardEls) {
+    for (const el of cardEls) setDockStyle(el, 0, 1, "");
+    hideTooltip();
+  }
+
+  function setDockStyle(el, shift, scale, z) {
+    el.style.setProperty("--dock-shift", shift + "px");
+    el.style.setProperty("--dock-scale", scale);
+    el.style.zIndex = z;
+    el.style.boxShadow = (shift || scale !== 1) ? "0 6px 20px rgba(0,0,0,0.35)" : "";
+  }
+
+  function showTooltip(cardEl) {
+    const title = cardEl.querySelector(".card-title");
+    if (!title) return;
+    const tip = document.getElementById("hover-tooltip");
+    tip.textContent = title.textContent;
+    tip.classList.add("show");
+
+    const rect = cardEl.getBoundingClientRect();
+    const tipRect = tip.getBoundingClientRect();
+    let left = Math.min(rect.left, window.innerWidth - tipRect.width - 8);
+    left = Math.max(8, left);
+    let top = rect.top - tipRect.height - 8;
+    if (top < 4) top = rect.bottom + 8;
+    tip.style.left = left + "px";
+    tip.style.top = top + "px";
+  }
+
+  function hideTooltip() {
+    document.getElementById("hover-tooltip").classList.remove("show");
+  }
+
+  // Adaptive ruler granularity: pick the finest step (minute → hour → day → week →
+  // month → quarter → year) whose spacing on screen at the current zoom clears
+  // MIN_TICK_PX, so zooming in reveals minutes/hours and zooming out collapses to
+  // years, all on the same fixed px-per-day scale.
+  const MIN_TICK_PX = 56;
+  const SUB_MONTH_STEPS_MS = [
+    60e3, 5 * 60e3, 15 * 60e3, 30 * 60e3,
+    3600e3, 3 * 3600e3, 6 * 3600e3, 12 * 3600e3,
+    86400e3, 2 * 86400e3, 7 * 86400e3,
+  ];
+  // Intl.DateTimeFormat construction is expensive to repeat — building one per
+  // tick (potentially hundreds, at fine zoom) was a measured hotspot. Reuse.
+  const FMT_DATETIME = new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  const FMT_DATE = new Intl.DateTimeFormat(undefined, { weekday: "short", month: "short", day: "numeric" });
+  const FMT_MONTH = new Intl.DateTimeFormat(undefined, { month: "short", year: "numeric" });
+
+  function fmtTick(d, stepMs) {
+    return stepMs < 86400e3 ? FMT_DATETIME.format(d) : FMT_DATE.format(d);
+  }
+
+  // Only build ticks near the visible scroll viewport (+ a buffer), not across
+  // the entire timeline height — at fine zoom the full range can call for
+  // thousands of ticks even though at most a few dozen are ever on screen at
+  // once. This is what keeps zoom/scroll smooth regardless of total history depth.
+  function buildRulerTicks(ruler, now, heightPx, pxPerDay, viewTop, viewBottom) {
+    const buffer = Math.max(400, (viewBottom - viewTop) || 0);
+    const rangeTop = Math.max(0, (viewTop ?? 0) - buffer);
+    const rangeBottom = Math.min(heightPx, (viewBottom ?? heightPx) + buffer);
+
+    const subStep = SUB_MONTH_STEPS_MS.find((ms) => (ms / 86400000) * pxPerDay >= MIN_TICK_PX);
+
+    if (subStep) {
+      const stepPx = (subStep / 86400000) * pxPerDay;
+      const nowMs = Math.floor(now.getTime() / subStep) * subStep;
+      const startN = Math.max(0, Math.floor(rangeTop / stepPx));
+      for (let n = startN; n * stepPx <= rangeBottom; n++) {
+        const top = n * stepPx;
+        if (top > 0.5) ruler.appendChild(rulerTick(top, fmtTick(new Date(nowMs - n * subStep), subStep), false));
+      }
+      return;
+    }
+
+    // Month/quarter/year: calendar-aligned (variable-length units), not epoch-stepped.
+    const monthPx = 30 * pxPerDay, quarterPx = 91 * pxPerDay;
+    const unit = monthPx >= MIN_TICK_PX ? 1 : quarterPx >= MIN_TICK_PX ? 3 : 12;
+    const approxStepPx = 30.44 * unit * pxPerDay;
+    const startI = Math.max(1, Math.floor(rangeTop / approxStepPx));
+    for (let i = startI; ; i++) {
+      const d = new Date(now.getFullYear(), now.getMonth() - i * unit, 1);
+      const days = (now - d) / 86400000;
+      const top = days * pxPerDay;
+      if (top > rangeBottom) break;
+      if (top < rangeTop) continue;
+      const label = unit === 12 ? String(d.getFullYear()) : FMT_MONTH.format(d);
+      ruler.appendChild(rulerTick(top, label, false));
+    }
+  }
+
+  function rulerTick(top, label, isNow) {
+    const el = document.createElement("div");
+    el.className = "ruler-tick" + (isNow ? " now" : "");
+    el.style.top = top + "px";
+    el.textContent = label;
+    return el;
+  }
+
+  function onDrop(e, targetLane) {
+    e.preventDefault();
+    const key = e.dataTransfer.getData("text/plain");
+    if (!key) return;
+    const item = state.items.find((it) => it.key === key);
+    if (!item) return;
+    const sourceLane = item._resolved.name;
+
+    if (sourceLane !== targetLane) {
+      // cross-lane drop = reclassify
+      setPendingClassification(key, targetLane, currentNote(key));
+    } else {
+      // same-lane drop = manual reorder (pin this lane's order)
+      const laneEl = e.currentTarget;
+      const order = Array.from(laneEl.querySelectorAll(".card")).map((c) => c.dataset.key);
+      const withoutKey = order.filter((k) => k !== key);
+      withoutKey.unshift(key);
+      const layout = clonePendingLayout();
+      layout.pinned[targetLane] = withoutKey;
+      state.pendingLayout = layout;
+      markDirty();
+    }
+    render();
+  }
+
+  function currentNote(key) {
+    return (state.pendingClassification[key] || state.classification[key] || {}).note || "";
+  }
+
+  function clonePendingLayout() {
+    const base = state.pendingLayout || state.layout;
+    return { laneOrder: base.laneOrder.slice(), pinned: Object.assign({}, base.pinned) };
+  }
+
+  function setPendingClassification(key, workstream, note) {
+    state.pendingClassification[key] = { workstream, source: "manual", note: note || "" };
+    markDirty();
+  }
+
+  function markDirty() {
+    const btn = document.getElementById("publish-btn");
+    btn.disabled = false;
+    btn.dataset.pending = "true";
+    btn.textContent = "Save & Publish *";
+    persistLocalFallback();
+  }
+
+  function persistLocalFallback() {
+    localStorage.setItem("workstream-pending", JSON.stringify({
+      classification: state.pendingClassification,
+      layout: state.pendingLayout,
+    }));
+  }
+
+  // ---- annotate panel ----
+  let activeItem = null;
+
+  function openPanel(item) {
+    activeItem = item;
+    document.getElementById("panel-title").textContent = item.title;
+    document.getElementById("panel-meta").textContent = item.repo + "#" + item.number + " • " + (item.status || "");
+    document.getElementById("panel-link").href = item.url;
+
+    const laneOptions = document.getElementById("lane-options");
+    laneOptions.innerHTML = effectiveLayout().laneOrder.map((n) => `<option value="${escapeHtml(n)}">`).join("");
+    document.getElementById("panel-workstream").value = item._resolved.name;
+    document.getElementById("panel-note").value = currentNote(item.key);
+
+    const ciList = document.getElementById("panel-ci");
+    ciList.innerHTML = (item.ciChecks || []).map((c) => {
+      const conc = (c.conclusion || "").toUpperCase();
+      const bad = ["FAILURE", "ERROR", "CANCELLED", "TIMED_OUT"].includes(conc);
+      const pending = ["IN_PROGRESS", "QUEUED", "PENDING", ""].includes(conc);
+      const color = bad ? "--status-critical" : pending ? "--status-warning" : "--status-good";
+      const icon = bad ? "✕" : pending ? "▲" : "●";
+      return `<li><span style="color:var(${color})">${icon}</span> ${escapeHtml(c.name)} — ${escapeHtml(c.conclusion || "pending")}</li>`;
+    }).join("");
+
+    document.getElementById("panel").classList.add("open");
+  }
+
+  function closePanel() {
+    document.getElementById("panel").classList.remove("open");
+    activeItem = null;
+  }
+
+  function applyPanel() {
+    if (!activeItem) return;
+    const workstream = document.getElementById("panel-workstream").value.trim() || "Uncategorized";
+    const note = document.getElementById("panel-note").value.trim();
+    setPendingClassification(activeItem.key, workstream, note);
+    closePanel();
+    render();
+    showToast("Staged — click Save & Publish to write it out.");
+  }
+
+  // ---- server / publish ----
+  async function checkServer() {
+    try {
+      const res = await fetch("/api/health", { cache: "no-store" });
+      state.serverOnline = res.ok;
+    } catch (e) {
+      state.serverOnline = false;
+    }
+    const el = document.getElementById("server-state");
+    el.dataset.online = String(state.serverOnline);
+    el.textContent = state.serverOnline ? "local server: connected" : "local server: not running";
+  }
+
+  async function publish() {
+    const mergedClassification = Object.assign({}, state.classification, state.pendingClassification);
+    const mergedLayout = state.pendingLayout || state.layout;
+
+    if (!state.serverOnline) {
+      persistLocalFallback();
+      showToast("No local server — staged edits kept in this browser only. Run workstream/serve.sh, then Save & Publish again.");
+      return;
+    }
+
+    try {
+      const res = await fetch("/api/save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ classification: mergedClassification, layout: mergedLayout }),
+      });
+      const body = await res.json();
+      if (!res.ok || !body.ok) throw new Error(body.error || "save failed");
+
+      state.classification = mergedClassification;
+      state.layout = mergedLayout;
+      state.pendingClassification = {};
+      state.pendingLayout = null;
+      localStorage.removeItem("workstream-pending");
+
+      const btn = document.getElementById("publish-btn");
+      btn.disabled = true;
+      btn.dataset.pending = "false";
+      btn.textContent = "Save & Publish";
+
+      showToast(body.committed ? "Saved & pushed (" + body.sha + ")" : "Saved — no changes to commit.");
+    } catch (e) {
+      showToast("Publish failed: " + e.message);
+    }
+  }
+
+  let toastTimer = null;
+  function showToast(msg) {
+    const el = document.getElementById("toast");
+    el.textContent = msg;
+    el.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove("show"), 4000);
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;",
+    }[c]));
+  }
+
+  document.getElementById("panel-close").addEventListener("click", closePanel);
+  document.getElementById("panel-apply").addEventListener("click", applyPanel);
+  document.getElementById("publish-btn").addEventListener("click", publish);
+
+  // ---- zoom (pinch-to-zoom / ctrl+scroll / touch pinch) — rescales pxPerDay,
+  // keeping the date under the cursor/gesture anchored so zooming doesn't jump ----
+  const scrollEl = document.querySelector(".timeline-scroll");
+
+  // pxPerDay updates instantly (cheap arithmetic) on every wheel/touch event so no
+  // zoom "steps" are lost, but the expensive part — relayout() + the scrollTop
+  // anchor correction — is coalesced to at most once per animation frame via rAF.
+  // Without this, a fast trackpad pinch fires far more than 60 events/sec, each
+  // one previously triggering a full DOM rebuild (render()), which is what made
+  // zooming feel laggy.
+  let zoomRAF = null;
+  let zoomAnchorDay = 0;
+  let zoomAnchorOffset = 0;
+
+  function requestZoom(clientY, factor) {
+    const rect = scrollEl.getBoundingClientRect();
+    if (zoomRAF === null) {
+      // First event of a new batch: capture the calendar day under the cursor
+      // before any change, so it stays fixed however many events land before
+      // the next paint.
+      zoomAnchorDay = (scrollEl.scrollTop + (clientY - rect.top)) / state.pxPerDay;
+    }
+    zoomAnchorOffset = clientY - rect.top;
+    state.pxPerDay = Math.min(PX_PER_DAY_MAX, Math.max(PX_PER_DAY_MIN, state.pxPerDay * factor));
+
+    if (zoomRAF === null) {
+      zoomRAF = requestAnimationFrame(() => {
+        zoomRAF = null;
+        relayout();
+        scrollEl.scrollTop = zoomAnchorDay * state.pxPerDay - zoomAnchorOffset;
+      });
+    }
+  }
+
+  scrollEl.addEventListener("wheel", (e) => {
+    // Trackpad pinch-to-zoom is delivered by Chrome/Safari as a wheel event with ctrlKey set.
+    if (!e.ctrlKey) return;
+    e.preventDefault();
+    const factor = Math.exp(-e.deltaY * 0.01);
+    requestZoom(e.clientY, factor);
+  }, { passive: false });
+
+  let pinchStartDist = null;
+  let pinchStartPxPerDay = null;
+  scrollEl.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 2) return;
+    pinchStartDist = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    pinchStartPxPerDay = state.pxPerDay;
+  }, { passive: true });
+  scrollEl.addEventListener("touchmove", (e) => {
+    if (e.touches.length !== 2 || pinchStartDist === null) return;
+    e.preventDefault();
+    const dist = Math.hypot(
+      e.touches[0].clientX - e.touches[1].clientX,
+      e.touches[0].clientY - e.touches[1].clientY
+    );
+    const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+    requestZoom(midY, (pinchStartPxPerDay * (dist / pinchStartDist)) / state.pxPerDay);
+  }, { passive: false });
+  scrollEl.addEventListener("touchend", () => { pinchStartDist = null; });
+
+  // Ruler ticks are windowed to the visible viewport (see buildRulerTicks), so
+  // plain scrolling — with no zoom change — still needs to regenerate them for
+  // the newly-visible range. Cheap (only rebuilds the ruler column) and
+  // rAF-throttled the same way zoom is.
+  let scrollRAF = null;
+  scrollEl.addEventListener("scroll", () => {
+    if (scrollRAF !== null) return;
+    scrollRAF = requestAnimationFrame(() => {
+      scrollRAF = null;
+      const ruler = document.querySelector(".ruler");
+      if (!ruler) return;
+      const heightPx = parseFloat(document.getElementById("timeline").style.height) || 0;
+      ruler.innerHTML = "";
+      ruler.appendChild(rulerTick(0, "now", true));
+      buildRulerTicks(ruler, new Date(), heightPx, state.pxPerDay, scrollEl.scrollTop, scrollEl.scrollTop + scrollEl.clientHeight);
+    });
+  }, { passive: true });
+
+  checkServer().then(loadAll);
+  setInterval(checkServer, 15000);
+})();
