@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-12 — 2026-10-10
-> **Generated:** 2026-10-10 20:21:26 UTC
+> **Generated:** 2026-10-10 21:30:29 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -15,7 +15,7 @@
 
 ## PRs Merged (100)
 
-**velero-io** (20)
+**velero-io** (19)
 - [#10051 docs: use consistent excludedNames glob pattern in filter design examples](https://github.com/velero-io/velero/pull/10051) — velero-io/velero
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
@@ -35,7 +35,6 @@
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
 - [#10407 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10407) — velero-io/velero
 - [#10409 Update community meeting links to LFX Zoom, add calendar](https://github.com/velero-io/velero/pull/10409) — velero-io/velero
-- [#10309 Report a measured zero incremental instead of erasing it](https://github.com/velero-io/velero/pull/10309) — velero-io/velero
 
 **openshift** (24)
 - [#86664 Add release-4.21 to Prow configuration branches](https://github.com/openshift/release/pull/86664) — openshift/release
@@ -72,7 +71,8 @@
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#50 Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) — migtools/kubevirt-datamover-plugin
 
-**Other** (49)
+**Other** (50)
+- [#73 Refresh profile README with animated SVGs generated from repo data](https://github.com/kaovilai/kaovilai/pull/73) — kaovilai/kaovilai
 - [#252 Speak question speech for Claude AskUserQuestion permission requests](https://github.com/OpenPetsHQ/openpets/pull/252) — OpenPetsHQ/openpets
 - [#495 ⚡ Bolt: Optimize file staleness checks with native Zsh globbing](https://github.com/kaovilai/dotfiles/pull/495) — kaovilai/dotfiles
 - [#506 ⚡ Bolt: Optimize brew list performance by caching list into array](https://github.com/kaovilai/dotfiles/pull/506) — kaovilai/dotfiles
@@ -170,6 +170,7 @@
 - [#206 fix: retry expected-backup-type annotation on conflict instead of giving up](https://github.com/migtools/kubevirt-datamover-controller/pull/206) — migtools/kubevirt-datamover-controller
 
 **Other** (61)
+- [#73 Refresh profile README with animated SVGs generated from repo data](https://github.com/kaovilai/kaovilai/pull/73) — kaovilai/kaovilai
 - [#129 jira-solve-agent: add OADP to tracked Jira projects](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) — RedHatInsights/rhai-org-pulse
 - [#17831 feat(server): PR watch reports missing required checks and behind-base](https://github.com/pingdotgg/t3code/pull/17831) — pingdotgg/t3code
 - [#17722 fix(composer): a second skill can be added after the first on the same line](https://github.com/pingdotgg/t3code/pull/17722) — pingdotgg/t3code
@@ -230,7 +231,6 @@
 - [#4552 Fix conversion webhook crash on legacy featureGates empty-object shape](https://github.com/kubevirt/hyperconverged-cluster-operator/pull/4552) — kubevirt/hyperconverged-cluster-operator
 - [#18957 storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost](https://github.com/kubevirt/kubevirt/pull/18957) — kubevirt/kubevirt
 - [#18949 storage/cbt: fix VMBackup status freeze during target PVC attach](https://github.com/kubevirt/kubevirt/pull/18949) — kubevirt/kubevirt
-- [#5 Add .github/pull.yml to sync dev branch from upstream via rebase](https://github.com/kaovilai/copilot-api/pull/5) — kaovilai/copilot-api
 ## PRs Reviewed (83)
 
 **velero-io** (36)
