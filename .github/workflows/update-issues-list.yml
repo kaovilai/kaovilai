@@ -1,0 +1,49 @@
+name: Update Issues List
+
+on:
+  schedule:
+    # Keep in sync with update-pr-badges.yml / update-activity-log.yml
+    - cron: '0 12-22 * * 1-5'
+    - cron: '0 */6 * * 0,6'
+    - cron: '0 0,6,23 * * 1-5'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-issues-list.yml'
+      - '.github/scripts/update-issues-list.sh'
+      - '.github/scripts/lib-common.sh'
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  update-issues-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Update issues list
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          bash .github/scripts/update-issues-list.sh
+
+      - name: Validate open-issues.json schema
+        run: |
+          bash .github/scripts/validate-open-issues-json.sh open-issues.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add MY_ISSUES.md open-issues.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -s -m "Update issues list with latest status"
+            git push
+          fi

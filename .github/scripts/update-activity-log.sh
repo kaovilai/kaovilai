@@ -13,7 +13,7 @@ JSON_OUTPUT_FILE="activity.json"
 CURRENT_DATE=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
 GENERATED_AT_ISO=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 TODAY=$(date -u +%Y-%m-%d)
-TWO_WEEKS_AGO=$(date -u -d '14 days ago' +%Y-%m-%d 2>/dev/null || date -u -v-14d +%Y-%m-%d)
+NINETY_DAYS_AGO=$(date -u -d '90 days ago' +%Y-%m-%d 2>/dev/null || date -u -v-90d +%Y-%m-%d)
 
 # Org grouping helper: takes JSON array, groups by org, outputs markdown
 group_by_org() {
@@ -54,32 +54,32 @@ group_by_org() {
     fi
 }
 
-echo "Generating activity log for $TWO_WEEKS_AGO to $CURRENT_DATE..."
+echo "Generating activity log for $NINETY_DAYS_AGO to $CURRENT_DATE..."
 
 # Fetch all data
 echo "Fetching merged PRs..."
-MERGED_PRS=$(retry_with_backoff gh search prs --author=kaovilai --merged --merged-at=">=$TWO_WEEKS_AGO" \
-    --json number,title,repository,url --sort=updated --limit 100)
+MERGED_PRS=$(retry_with_backoff gh search prs is:public --author=kaovilai --merged --merged-at=">=$NINETY_DAYS_AGO" \
+    --json number,title,repository,url,closedAt --sort=updated --limit 100)
 
 echo "Fetching opened PRs..."
-OPENED_PRS=$(retry_with_backoff gh search prs --author=kaovilai --created=">=$TWO_WEEKS_AGO" \
-    --json number,title,repository,url,isDraft,state --sort=created --limit 100)
+OPENED_PRS=$(retry_with_backoff gh search prs is:public --author=kaovilai --created=">=$NINETY_DAYS_AGO" \
+    --json number,title,repository,url,isDraft,state,createdAt --sort=created --limit 100)
 
 echo "Fetching PRs reviewed..."
-REVIEWED_PRS=$(retry_with_backoff gh search prs --reviewed-by=kaovilai --sort=updated --created=">=$TWO_WEEKS_AGO" \
-    --json number,title,repository,url,author --limit 100)
+REVIEWED_PRS=$(retry_with_backoff gh search prs is:public --reviewed-by=kaovilai --sort=updated --created=">=$NINETY_DAYS_AGO" \
+    --json number,title,repository,url,author,updatedAt --limit 100)
 # Exclude own PRs from reviews
 REVIEWED_PRS=$(echo "$REVIEWED_PRS" | jq -c '[.[] | select(.author.login != "kaovilai")]')
 
 echo "Fetching PRs/issues commented on..."
-COMMENTED=$(retry_with_backoff gh search issues --commenter=kaovilai --updated=">=$TWO_WEEKS_AGO" \
-    --json number,title,repository,url --sort=updated --limit 100)
+COMMENTED=$(retry_with_backoff gh search issues is:public --commenter=kaovilai --updated=">=$NINETY_DAYS_AGO" \
+    --json number,title,repository,url,updatedAt --sort=updated --limit 100)
 # Exclude own issues/PRs
 COMMENTED=$(echo "$COMMENTED" | jq -c '[.[] | select(true)]')
 
 echo "Fetching issues closed..."
-CLOSED_ISSUES=$(retry_with_backoff gh search issues --author=kaovilai --state=closed --closed=">=$TWO_WEEKS_AGO" \
-    --json number,title,repository,url --sort=updated --limit 100)
+CLOSED_ISSUES=$(retry_with_backoff gh search issues is:public --author=kaovilai --state=closed --closed=">=$NINETY_DAYS_AGO" \
+    --json number,title,repository,url,closedAt --sort=updated --limit 100)
 
 # Count totals
 MERGED_COUNT=$(echo "$MERGED_PRS" | jq 'length')
@@ -92,7 +92,7 @@ CLOSED_COUNT=$(echo "$CLOSED_ISSUES" | jq 'length')
 cat > "$OUTPUT_FILE" << EOF
 # Activity Log
 
-> **Period:** $TWO_WEEKS_AGO — $(date -u +%Y-%m-%d)
+> **Period:** $NINETY_DAYS_AGO — $(date -u +%Y-%m-%d)
 > **Generated:** $CURRENT_DATE
 
 | Metric | Count |
@@ -128,18 +128,23 @@ EOF
 echo "Activity log generated successfully!"
 
 # Write structured JSON output
-# Maps raw gh search results to a compact shape: {number, repo, org, title, url}
-JSON_ITEM_FILTER='map({number:.number, repo:.repository.nameWithOwner, org:(.repository.nameWithOwner|split("/")[0]), title:.title, url:.url})'
+# Maps raw gh search results to a compact shape: {number, repo, org, title, url, date, workstream}
+# `date` is the field most relevant to that category (mergedAt/createdAt/updatedAt/closedAt) so the
+# /workstream/ timeline can place each event on the ruler.
+item_filter() {
+    local date_field="$1"
+    echo "${WORKSTREAM_JQ_DEF} map({number:.number, repo:.repository.nameWithOwner, org:(.repository.nameWithOwner|split(\"/\")[0]), title:.title, url:.url, date:.${date_field}} | . + {workstream: classify_workstream(.repo)})"
+}
 
 jq -n \
-    --arg start "$TWO_WEEKS_AGO" \
+    --arg start "$NINETY_DAYS_AGO" \
     --arg end "$TODAY" \
     --arg generatedAt "$GENERATED_AT_ISO" \
-    --argjson prsMerged "$(echo "$MERGED_PRS" | jq "$JSON_ITEM_FILTER")" \
-    --argjson prsOpened "$(echo "$OPENED_PRS" | jq "$JSON_ITEM_FILTER")" \
-    --argjson prsReviewed "$(echo "$REVIEWED_PRS" | jq "$JSON_ITEM_FILTER")" \
-    --argjson issuesCommented "$(echo "$COMMENTED" | jq "$JSON_ITEM_FILTER")" \
-    --argjson issuesClosed "$(echo "$CLOSED_ISSUES" | jq "$JSON_ITEM_FILTER")" \
+    --argjson prsMerged "$(echo "$MERGED_PRS" | jq "$(item_filter closedAt)")" \
+    --argjson prsOpened "$(echo "$OPENED_PRS" | jq "$(item_filter createdAt)")" \
+    --argjson prsReviewed "$(echo "$REVIEWED_PRS" | jq "$(item_filter updatedAt)")" \
+    --argjson issuesCommented "$(echo "$COMMENTED" | jq "$(item_filter updatedAt)")" \
+    --argjson issuesClosed "$(echo "$CLOSED_ISSUES" | jq "$(item_filter closedAt)")" \
     '{
         period: {start: $start, end: $end},
         generatedAt: $generatedAt,

@@ -1,0 +1,44 @@
+name: Update History Archive
+
+on:
+  schedule:
+    # Daily is plenty — this only checks activity since the last run, not full history.
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-history-archive.yml'
+      - '.github/scripts/update-history-archive.sh'
+      - '.github/scripts/lib-common.sh'
+
+permissions:
+  contents: write
+  pull-requests: read
+  issues: read
+
+jobs:
+  update-history-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Refresh workstream-archive.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          bash .github/scripts/update-history-archive.sh
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add workstream-archive.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -s -m "Refresh workstream history archive"
+            git push
+          fi

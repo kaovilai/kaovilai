@@ -33,14 +33,24 @@ sed -i "s/TIMESTAMP/$CURRENT_DATE/" "$OUTPUT_FILE"
 
 # Function to fetch PRs authored by kaovilai
 fetch_prs() {
-    gh search prs --author=kaovilai --state=open --archived=false \
+    gh search prs is:public --author=kaovilai --state=open --archived=false \
         --json number,title,repository,url,isDraft,updatedAt,labels,author,assignees \
         --limit 1000 2>/dev/null || echo "[]"
 }
 
 # Function to fetch PRs assigned to kaovilai (catches Copilot-authored PRs)
 fetch_assigned_prs() {
-    gh search prs --assignee=kaovilai --state=open --archived=false \
+    gh search prs is:public --assignee=kaovilai --state=open --archived=false \
+        --json number,title,repository,url,isDraft,updatedAt,labels,author,assignees \
+        --limit 1000 2>/dev/null || echo "[]"
+}
+
+# Function to fetch ALL open-PR involvement (mentioned, review-requested, etc. — not
+# just authored/assigned) within openshift + openshift-eng specifically, since those
+# are my employer's orgs and the dashboard should show full activity there, not just
+# my own authored work.
+fetch_openshift_involved_prs() {
+    gh search prs is:public --involves=kaovilai --owner=openshift --owner=openshift-eng --state=open --archived=false \
         --json number,title,repository,url,isDraft,updatedAt,labels,author,assignees \
         --limit 1000 2>/dev/null || echo "[]"
 }
@@ -267,6 +277,10 @@ PRS_JSON=$(fetch_prs)
 echo "Fetching open PRs assigned to kaovilai (for Copilot-authored PRs)..."
 ASSIGNED_PRS_JSON=$(fetch_assigned_prs)
 
+# Fetch ALL open-PR involvement in openshift + openshift-eng (mentions, review requests, etc.)
+echo "Fetching openshift/openshift-eng PR involvement (full org activity)..."
+OPENSHIFT_INVOLVED_PRS_JSON=$(fetch_openshift_involved_prs)
+
 # Merge: start from authored PRs, then add assigned PRs authored by Copilot bots not already included
 # Build set of already-seen "repo#number" keys from authored PRs
 SEEN_KEYS=$(echo "$PRS_JSON" | jq -r '.[] | "\(.repository.nameWithOwner)#\(.number)"')
@@ -281,9 +295,11 @@ COPILOT_PRS_JSON=$(echo "$ASSIGNED_PRS_JSON" | jq --arg logins "copilot-swe-agen
 PRS_MERGED=$(jq -n \
     --argjson authored "$PRS_JSON" \
     --argjson copilot "$COPILOT_PRS_JSON" \
+    --argjson openshiftInvolved "$OPENSHIFT_INVOLVED_PRS_JSON" \
     '
     ($authored | map(. + {isCopilotAuthored: false})) +
-    ($copilot | map(. + {isCopilotAuthored: true}))
+    ($copilot | map(. + {isCopilotAuthored: true})) +
+    ($openshiftInvolved | map(. + {isCopilotAuthored: false}))
     | group_by(.repository.nameWithOwner + "#" + (.number|tostring))
     | map(.[0])
     ')
@@ -385,6 +401,8 @@ for i in $(seq 0 $((index - 1))); do
     fi
 
     status_checks=$(echo "$pr_details" | jq -c '.statusCheckRollup' 2>/dev/null)
+    ci_checks="$(ci_checks_json "$pr_details")"
+    workstream="$(classify_workstream "$repo")"
     base_branch=$(echo "$pr_details" | jq -r '.baseRefName // "unknown"' 2>/dev/null)
     merge_state=$(echo "$pr_details" | jq -r '.mergeStateStatus // "UNKNOWN"' 2>/dev/null)
 
@@ -476,7 +494,9 @@ for i in $(seq 0 $((index - 1))); do
         --argjson isDraft "$is_draft" \
         --argjson labels "$labels_json" \
         --arg updatedAt "$updated_at" \
-        '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, status:$status, milestone:$milestone, author:$author, isCopilotAuthored:$isCopilotAuthored, assignees:$assignees, isDraft:$isDraft, labels:$labels, updatedAt:$updatedAt, _orgSort:$orgSort, _statusSort:$statusSort}' \
+        --arg workstream "$workstream" \
+        --argjson ciChecks "$ci_checks" \
+        '{number:$number, repo:$repo, org:$org, title:$title, url:$url, targetBranch:$targetBranch, status:$status, milestone:$milestone, author:$author, isCopilotAuthored:$isCopilotAuthored, assignees:$assignees, isDraft:$isDraft, labels:$labels, updatedAt:$updatedAt, workstream:$workstream, ciChecks:$ciChecks, _orgSort:$orgSort, _statusSort:$statusSort}' \
         >> "$TMPDIR/prs.jsonl"
 
     # --- Review queue classification (org-owned repos, non-draft, non-rebase-blocked) ---

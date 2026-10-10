@@ -22,7 +22,7 @@ jq -e '.reviewQueue.approvedWaitingToLand | type == "array"' "$JSON_FILE" > /dev
 # Each PR in the prs array has required fields
 PR_COUNT=$(jq '.prs | length' "$JSON_FILE")
 echo "Checking $PR_COUNT PRs in .prs[]..."
-for field in number repo org title url targetBranch status author isDraft labels updatedAt; do
+for field in number repo org title url targetBranch status author isDraft labels updatedAt workstream ciChecks; do
     BAD=$(jq --arg f "$field" '[.prs[] | select(has($f) | not) | .url] | length' "$JSON_FILE")
     if [ "$BAD" -gt 0 ]; then
         echo "ERROR: $BAD PRs missing field '$field'" >&2
