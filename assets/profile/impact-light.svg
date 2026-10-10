@@ -21,6 +21,7 @@
     .now { animation: rise 1s cubic-bezier(.2,.8,.2,1) both, glow 3s ease-in-out 2s infinite; }
     @keyframes glow { 0%,100% { filter: none; } 50% { filter: drop-shadow(0 0 8px rgba(238,0,0,.65)); } }
     .pop { opacity: 0; animation: fade .5s ease-out both; }
+    @media (prefers-reduced-motion: reduce) { .pop { opacity: 1; } }
     @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }

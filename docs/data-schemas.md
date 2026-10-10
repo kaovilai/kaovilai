@@ -32,7 +32,7 @@ Reference for the machine-generated JSON in this repo (moved out of the profile 
 | `isDraft` | boolean | Draft state |
 | `labels` | string[] | Label names |
 | `updatedAt` | string (ISO 8601) | Last activity timestamp |
-| `workstream` | string | Default workstream classification (`Velero` — includes the official Velero plugin repos, `OADP`, `KubeVirt Data Mover`, `Kubernetes` — `kubernetes/*`/`kubernetes-sigs/*`, e.g. Prow, kubectl, `CNCF Landscape`, or `Uncategorized`) — see [workstream-classification.json](#workstream-classificationjson) for overrides |
+| `workstream` | string | Default workstream classification (`Velero` — includes the official Velero plugin repos, `OADP`, `KubeVirt Data Mover`, `Kubernetes` — `kubernetes/*`/`kubernetes-sigs/*`, e.g. Prow, kubectl, `CNCF Landscape`, or `Uncategorized`) — see [workstream-classification.json](#workstream-classificationjson--workstream-layoutjson) for overrides |
 | `ciChecks` | array | Normalized `[{name, conclusion}]` CI checks from `statusCheckRollup`, with merge-queue noise (Tide, Auto Request Review) filtered out |
 
 ### `reviewQueue` fields

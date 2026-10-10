@@ -59,7 +59,7 @@ STATUS_COLORS = [  # (status, label, color)
 
 
 def load(name):
-    return json.loads((ROOT / name).read_text())
+    return json.loads((ROOT / name).read_text(encoding="utf-8"))
 
 
 def lane_for(repo, lane_votes):
@@ -143,7 +143,7 @@ def hero(t, s):
         (f"{s['merged_all']:,}", "PRs merged, all time"),
         (f"{s['merged_ytd']:,}", f"merged in {s['year']}"),
         (f"{s['open_prs']:,}", "PRs open now"),
-        (f"{s['reviewed_14d']:,}", "reviewed, last 14 days"),
+        (f"{s['reviewed']:,}", f"reviewed, last {s['period_days']} days"),
     ]
     chip_svg = []
     cx = 48
@@ -225,6 +225,7 @@ def impact(t, s):
     .now { animation: rise 1s cubic-bezier(.2,.8,.2,1) both, glow 3s ease-in-out 2s infinite; }
     @keyframes glow { 0%,100% { filter: none; } 50% { filter: drop-shadow(0 0 8px rgba(238,0,0,.65)); } }
     .pop { opacity: 0; animation: fade .5s ease-out both; }
+    @media (prefers-reduced-motion: reduce) { .pop { opacity: 1; } }
     @keyframes fade { from { opacity: 0; } to { opacity: 1; } }"""
     return shell(w, h, t, body, "Merged pull requests per year",
                  f"Bar chart of merged PRs per year, rising to {years[ys[-1]]} so far in {ys[-1]}.", css)
@@ -346,8 +347,9 @@ def build_stats():
     activity = load("activity.json")
 
     merged = [i for i in archive["items"] if i["type"] == "pr" and i["state"] == "merged" and i["org"] != OWNER]
-    year = max(int(i["closedAt"][:4]) for i in merged)
+    year = int(archive["generatedAt"][:4])
     by_year = Counter(i["closedAt"][:4] for i in merged)
+    by_year.setdefault(str(year), 0)
 
     lane_votes = {}
     for i in archive["items"]:
@@ -370,7 +372,8 @@ def build_stats():
         open_prs=len(open_prs),
         pr_status=Counter(p["status"] for p in open_prs),
         review_queue=dict(needs=len(rq.get("needsReview", [])), approved=len(rq.get("approvedWaitingToLand", []))),
-        reviewed_14d=activity["metrics"]["prsReviewed"],
+        reviewed=activity["metrics"]["prsReviewed"],
+        period_days=(datetime.fromisoformat(activity["period"]["end"]) - datetime.fromisoformat(activity["period"]["start"])).days,
     )
 
 
@@ -379,7 +382,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in (("hero", hero), ("impact", impact), ("orbit", orbit), ("pipeline", pipeline)):
         for mode, theme in THEMES.items():
-            (OUT / f"{name}-{mode}.svg").write_text(fn(theme, s))
+            (OUT / f"{name}-{mode}.svg").write_text(fn(theme, s), encoding="utf-8")
     print(f"wrote {len(THEMES) * 4} SVGs to {OUT} ({s['merged_all']} merged PRs, {s['open_prs']} open)")
 
 
