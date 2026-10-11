@@ -662,104 +662,245 @@ def build_stats():
 
 
 # ------------------------------------------------------------------------- bojangles
-FUR, FUR_DARK, STRIPE, CREAM = "#8c7a64", "#6c5c4b", "#2a2420", "#e0cdb0"
-EAR_INNER, NOSE, EYE = "#d79a94", "#c98a80", "#b89b3e"
+# Seconds, position above the ground, body angle, pose. All action tracks share this clock.
+BOJANGLES_STORY = (
+    (0, 126, 0, 0, "walk"), (4.5, 225, 0, 0, "walk"),
+    (4.8, 225, 0, 0, "nibble"), (9, 225, 0, 0, "nibble"),
+    (9.4, 225, 0, 0, "stand"), (13.5, 415, 0, 0, "walk"),
+    (14.2, 415, 10, 0, "crouch"), (14.6, 425, -22, -12, "leap"),
+    (15.2, 450, -58, -22, "reach"), (15.7, 470, -70, -12, "reach"),
+    (16.2, 486, -45, 0, "leap"), (16.7, 500, 0, 0, "stand"),
+    (17, 500, 10, 0, "crouch"), (17.4, 500, 0, 0, "stand"),
+    (21, 650, 0, 0, "walk"), (21.7, 650, 10, 0, "crouch"),
+    (22.2, 677, -35, -35, "leap"), (22.7, 697, -57, -60, "cling"),
+    (23.7, 697, -57, -60, "cling"), (24.2, 697, -49, -60, "cling"),
+    (24.8, 693, -32, -60, "cling"), (25.4, 681, -5, -45, "fall"),
+    (25.9, 662, 0, 0, "stand"), (26.2, 662, 10, 0, "crouch"),
+    (26.7, 662, 0, 0, "stand"), (27.4, 662, 0, 0, "stand"),
+    (36.7, 126, 0, 0, "walk"), (37.4, 126, 0, 0, "stand"),
+    (40, 126, 0, 0, "stand"),
+)
+BOJANGLES_WALKS = ((0, 4.5), (9.4, 13.5), (17.4, 21), (27.4, 36.7))
 
 
 def bojangles(t, _s):
-    """Footer strip: Bojangles the tabby patrols back and forth, blinking and swishing his tail."""
-    w, h, ground = 900, 204, 186
+    """Photo-inspired tabby, articulated limbs and a CSS-only backyard story."""
+    w, h, ground, duration = 900, 340, 290, BOJANGLES_STORY[-1][0]
+    stripe, cream = "#292824", "#c9c1aa"
+    # Upper/lower foreleg, upper/lower hind leg, head. Angles pivot at joints, not bounding boxes.
+    poses = dict(stand=(0, 0, 0, 0, 0), walk=(0, 0, 0, 0, 0),
+                 nibble=(0, 0, 0, 0, 13), crouch=(-42, 75, -52, 59, -5),
+                 leap=(-48, -12, 40, -65, -9), reach=(-82, -20, 52, -72, -12),
+                 cling=(0, 0, 36, -50, 9), fall=(-26, 30, -30, 45, 12))
 
-    def leg(x, y, dark, phase):
-        c = FUR_DARK if dark else FUR
-        return (
-            f'<g transform="translate({x},{y})"><g class="leg" style="animation-delay:{phase}s">'
-            f'<rect x="-4.5" y="0" width="9" height="31" rx="4.5" fill="{c}"/>'
-            f'<rect x="-4.5" y="9" width="9" height="3.2" fill="{STRIPE}" opacity=".75"/>'
-            f'<rect x="-4.5" y="16" width="9" height="3.2" fill="{STRIPE}" opacity=".75"/>'
-            f'<ellipse cx="1" cy="30.5" rx="7" ry="4" fill="{CREAM if not dark else FUR_DARK}"/></g></g>'
-        )
+    def track(name, frames, prop="transform", timing="linear"):
+        """Map seconds to CSS percentages on the shared story clock."""
+        rules = "".join(f"{sec / duration * 100:.4f}% {{{prop}:{value};}}" for sec, value in frames)
+        return f".{name} {{animation:{name} {duration}s {timing} infinite;}} @keyframes {name} {{{rules}}}"
 
-    body_stripes = "".join(
-        f'<path d="{d}" fill="none" stroke="{STRIPE}" stroke-width="3.6" stroke-linecap="round" opacity=".85"/>'
-        for d in ("M-26,-63 q4,10 -2,22", "M-12,-65 q4,12 -1,24", "M2,-65 q4,12 0,24", "M16,-62 q3,10 0,20")
-    )
+    css = track("bj-travel", [(s, f"translate({x}px,{y}px)") for s, x, y, _, _ in BOJANGLES_STORY])
+    css += track("bj-pitch", [(s, f"rotate({angle}deg)") for s, _, _, angle, _ in BOJANGLES_STORY])
+    css += track("bj-facing", [(0, "scaleX(1)"), (27, "scaleX(-1)"),
+                                (37.1, "scaleX(1)"), (40, "scaleX(1)")], timing="steps(1, end)")
+    css += track("bj-head", [(s, f"rotate({poses[pose][4]}deg)") for s, _, _, _, pose in BOJANGLES_STORY])
+    # Quarter-stride samples keep gait on the same clock as the pauses and jumps.
+    for name, index, phase in (("fore-near", 0, 0), ("fore-far", 0, math.pi),
+                               ("hind-near", 2, math.pi), ("hind-far", 2, 0)):
+        upper = {s: poses[pose][index] for s, _, _, _, pose in BOJANGLES_STORY}
+        lower = {s: poses[pose][index + 1] for s, _, _, _, pose in BOJANGLES_STORY}
+        for start, end in BOJANGLES_WALKS:
+            steps = max(4, round((end - start) / .9) * 4)
+            for step in range(steps + 1):
+                sec = start + (end - start) * step / steps
+                swing = math.sin(step * math.pi / 2 + phase)
+                # Ease into and out of walking rather than snapping a planted paw.
+                envelope = min(step, steps - step, 1)
+                upper[sec] = 23 * swing * envelope
+                lower[sec] = max(0, -swing) * 28 * envelope
+        css += track(f"bj-{name}", [(s, f"rotate({a:.1f}deg)") for s, a in sorted(upper.items())])
+        css += track(f"bj-{name}-lower", [(s, f"rotate({a:.1f}deg)") for s, a in sorted(lower.items())])
+
+    torso = "M-51,-60 C-54,-78 -39,-88 -22,-87 C-5,-85 11,-89 29,-87 C44,-87 48,-74 44,-60 L39,-42 C27,-34 15,-40 1,-39 C-16,-34 -43,-35 -49,-47 Z"
+    head = "M32,-110 C40,-120 59,-120 69,-112 C77,-106 78,-94 76,-85 L82,-78 L77,-73 C71,-62 55,-62 45,-69 C36,-72 28,-83 28,-92 Z"
+    defs = f"""<defs>
+      <linearGradient id="bj-coat" x1="0" y1="0" x2=".2" y2="1">
+        <stop stop-color="#55544c"/><stop offset=".4" stop-color="#938b76"/>
+        <stop offset=".76" stop-color="#a29980"/><stop offset="1" stop-color="#6a6659"/>
+      </linearGradient>
+      <radialGradient id="bj-face" cx=".66" cy=".65" r=".75">
+        <stop stop-color="#b3a58b"/><stop offset=".65" stop-color="#8a8270"/><stop offset="1" stop-color="#54544c"/>
+      </radialGradient>
+      <linearGradient id="bj-limb" x1="0" y1="0" x2="1" y2="0">
+        <stop stop-color="#57574e"/><stop offset=".48" stop-color="#a19a83"/><stop offset="1" stop-color="#777565"/>
+      </linearGradient>
+      <radialGradient id="bj-iris"><stop stop-color="#a19468"/><stop offset=".8" stop-color="#706747"/><stop offset="1" stop-color="#393b2e"/></radialGradient>
+      <linearGradient id="bj-ear"><stop stop-color="#6a5b53"/><stop offset=".55" stop-color="#ad8174"/><stop offset="1" stop-color="#534b44"/></linearGradient>
+      <clipPath id="bj-torso-clip"><path d="{torso}"/></clipPath>
+      <clipPath id="bj-head-clip"><path d="{head}"/></clipPath>
+    </defs>"""
+
+    def fur_patch(clip, count, x, y, width, height):
+        # Deterministic short guard hairs; no raster photo, random seed, or SVG noise filter.
+        hairs = []
+        for i in range(count):
+            hx, hy = x + (i * 37 % 101) / 101 * width, y + (i * 61 % 103) / 103 * height
+            hairs.append(f'<path d="M{hx:.1f},{hy:.1f} l{1 + i % 3:.1f},{2 + i % 2}"/>')
+        return f'<g clip-path="url(#{clip})" fill="none" stroke="{cream}" stroke-width=".55" opacity=".32">{"".join(hairs)}</g>'
+
+    def leg(name, x, y, hind=False, far=False):
+        thigh = ("M-9,-6 C-22,1 -18,18 -6,29 Q0,33 6,25 L9,1 Z" if hind else
+                 "M-8,-5 Q-13,8 -6,29 Q0,34 6,28 L8,-3 Z")
+        return f"""<g transform="translate({x},{y})"><g class="bj-{name}">
+          <path d="{thigh}" fill="url(#bj-limb)"/>
+          <path d="M-9,4 Q0,9 8,5 M-9,13 Q0,18 7,13 M-6,22 l11,1" fill="none" stroke="{stripe}" stroke-width="3.7"/>
+          <g transform="translate(0,27)"><g class="bj-{name}-lower">
+            <path d="M-5,-3 Q-8,10 -5,24 C-10,29 -7,33 0,33 L9,33 Q16,30 9,26 L5,23 L5,-2 Z" fill="url(#bj-limb)" stroke="#555348" stroke-width=".65"/>
+            <path d="M-5,5 l10,1 M-5,12 l10,1 M-5,19 l10,1" stroke="{stripe}" stroke-width="3.2"/>
+            <path d="M-2,28 v4 M3,28 v4 M8,28 l-1,4" stroke="#4e4a40" stroke-width=".8"/>
+            <path d="M-3,24 l1,-3 M1,24 l1,-3 M5,24 v-3" stroke="{cream}" stroke-width=".7"/>
+          </g></g>
+        {'<path d="M-8,-4 L6,0 L4,27 L-5,27 Z" fill="#151815" opacity=".18"/>' if far else ''}</g></g>"""
+
+    stripes = "".join(f'<path d="{d}"/>' for d in (
+        "M-42,-86 Q-27,-80 -36,-64 L-40,-55 L-40,-65 Q-31,-78 -46,-82 Z",
+        "M-30,-88 Q-16,-79 -24,-65 L-24,-54 L-29,-46 L-27,-61 Q-20,-76 -35,-83 Z",
+        "M-17,-89 Q-3,-80 -12,-68 L-9,-58 L-13,-47 L-14,-60 L-18,-66 Q-9,-78 -23,-85 Z",
+        "M-3,-89 Q9,-81 3,-70 L6,-64 L4,-55 L0,-60 L-1,-69 Q4,-79 -8,-86 Z",
+        "M10,-90 Q25,-79 17,-66 L20,-55 L16,-45 L14,-58 L11,-68 Q17,-78 5,-85 Z",
+        "M25,-88 Q37,-78 30,-69 L34,-59 L31,-49 L27,-56 L25,-69 Q30,-79 20,-85 Z",
+        "M-20,-56 l4,5 l-1,6 l-4,-3 Z M-4,-49 l5,-3 l3,5 l-5,3 Z M8,-57 l4,3 l-1,5 l-4,-2 Z",
+    ))
     whiskers = "".join(
-        f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="#cdbfa9" stroke-width="1" stroke-linecap="round" opacity=".9"/>'
-        for x1, y1, x2, y2 in (
-            (41, -54, 14, -59), (41, -52, 13, -52), (42, -50, 16, -45),
-            (59, -54, 86, -59), (59, -52, 87, -52), (58, -50, 84, -45),
-        )
+        f'<path d="M{x},{y} Q{(x + ex) / 2},{y - 3} {ex},{ey}"/>'
+        for x, y, ex, ey in ((63,-75,24,-84), (64,-73,20,-75), (65,-71,25,-65),
+                             (66,-70,33,-58), (75,-76,106,-88), (76,-74,111,-78),
+                             (76,-72,110,-68), (75,-70,103,-60))
     )
-
-    def eye(cx):
-        return (
-            f'<g class="eye" transform="translate({cx},-65)"><g class="blink">'
-            f'<ellipse rx="5.6" ry="6" fill="{EYE}"/><ellipse rx="1.7" ry="4.9" fill="#14100d"/>'
-            f'<circle cx="-1.8" cy="-2.2" r="1.3" fill="#fff" opacity=".9"/></g></g>'
-        )
-
-    cat = f"""
-    <g class="body-bob">
-      {leg(-30, -33, True, -0.35)}{leg(20, -33, True, 0)}
-      <g class="tail" transform="translate(-40,-50)"><g class="tail-sway">
-        <path d="M0,0 C-22,-4 -36,-24 -31,-52" fill="none" stroke="{FUR}" stroke-width="8" stroke-linecap="round"/>
-        <path d="M0,0 C-22,-4 -36,-24 -31,-52" fill="none" stroke="{STRIPE}" stroke-width="8.2" stroke-dasharray="5 6" opacity=".85"/>
-      </g></g>
-      <ellipse cx="0" cy="-44" rx="45" ry="21" fill="{FUR}"/>
-      <ellipse cx="3" cy="-31" rx="34" ry="8.5" fill="{CREAM}" opacity=".55"/>
-      <path d="M-40,-59 Q0,-72 36,-59" fill="none" stroke="{STRIPE}" stroke-width="5" stroke-linecap="round" opacity=".6"/>
-      {body_stripes}
-      {leg(-22, -33, False, 0)}{leg(28, -33, False, -0.35)}
-      <ellipse cx="40" cy="-42" rx="13" ry="15" fill="{CREAM}"/>
-      <g class="head-bob">
-        <g class="ear ear-l"><polygon points="31,-75 29,-107 48,-83" fill="{FUR}"/><polygon points="33,-79 32,-99 43,-84" fill="{EAR_INNER}"/></g>
-        <g class="ear ear-r"><polygon points="52,-83 73,-107 71,-74" fill="{FUR}"/><polygon points="56,-84 71,-99 69,-80" fill="{EAR_INNER}"/></g>
-        <ellipse cx="50" cy="-62" rx="24.5" ry="20.5" fill="{FUR}"/>
-        <path d="M44,-81 l2,9 M50,-83 v10 M56,-81 l-2,9 M26,-65 q6,2 9,0 M74,-65 q-6,2 -9,0" fill="none" stroke="{STRIPE}" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
-        <ellipse cx="50" cy="-53" rx="12.5" ry="8.5" fill="{CREAM}"/>
-        {eye(40)}{eye(60)}
-        <path d="M46.5,-58.5 h7 l-3.5,4.5 z" fill="{NOSE}"/>
-        <path d="M50,-54 v2 M50,-52 q-3,3 -6,1 M50,-52 q3,3 6,1" fill="none" stroke="{STRIPE}" stroke-width="1" stroke-linecap="round" opacity=".7"/>
-        {whiskers}
+    eyes = "".join(
+        f'''<g transform="translate({x},{y}) rotate({angle})"><g class="bj-blink">
+          <path d="M-7,0 Q-1,-7 7,-1 Q2,6 -5,3 Z" fill="url(#bj-iris)" stroke="#242522" stroke-width="1.6"/>
+          <ellipse cx="1" cy="-.2" rx="2.4" ry="4.1" fill="#131716"/>
+          <path d="M-6,-2 Q0,-7 6,-3" fill="none" stroke="#d3cbb2" stroke-width="1"/>
+          <ellipse cx="-.6" cy="-2.2" rx="1.1" ry="1.7" fill="#dce6e1" opacity=".85"/>
+        </g></g>''' for x, y, angle in ((43, -95, 16), (67, -95, -15))
+    )
+    cat_head = f"""<g class="bj-head">
+      <g class="bj-ear"><path d="M30,-104 Q22,-116 25,-140 Q39,-132 45,-116 Z" fill="url(#bj-coat)" stroke="#4a4b43" stroke-width="1"/>
+        <path d="M30,-112 L28,-135 Q40,-126 40,-116 Z" fill="url(#bj-ear)"/>
+        <path d="M30,-129 l8,12 M30,-123 l6,9 M29,-118 l7,7" stroke="{cream}" stroke-width=".65" opacity=".7"/>
+      </g>
+      <path d="M58,-114 Q66,-133 80,-136 Q82,-118 73,-102 Z" fill="url(#bj-coat)" stroke="#4a4b43" stroke-width="1"/>
+      <path d="M64,-116 Q70,-128 77,-131 L74,-114 Z" fill="url(#bj-ear)"/>
+      <path d="M76,-125 l-7,12 M77,-119 l-7,8" stroke="{cream}" stroke-width=".65"/>
+      <path d="{head}" fill="url(#bj-face)"/>
+      <g clip-path="url(#bj-head-clip)" fill="{stripe}">
+        <path d="M33,-118 l7,1 l7,16 l-5,-2 Z M45,-121 l6,1 l3,13 l5,-12 l6,1 l-7,21 l-6,-6 l-5,5 Z M68,-116 l6,3 l-9,13 l-3,-1 Z"/>
+        <path d="M28,-91 Q35,-87 42,-84 L39,-81 Q31,-82 28,-85 Z M28,-81 Q38,-77 47,-76 L43,-73 Q34,-73 31,-76 Z M76,-90 L69,-84 L80,-88 Z M78,-83 L71,-79 L80,-81 Z"/>
+        <path d="M31,-105 l7,4 l-1,2 l-8,-2 Z M57,-106 l2,11 l-2,4 l-2,-13 Z"/>
+      </g>
+      {fur_patch('bj-head-clip', 100, 26, -119, 58, 58)}
+      {eyes}
+      <path d="M52,-91 Q57,-87 56,-81 L65,-79 Q69,-85 63,-92" fill="#b4a489" opacity=".7"/>
+      <path d="M52,-76 Q48,-68 61,-66 Q75,-62 80,-72 L72,-79 L63,-76 Z" fill="{cream}"/>
+      <g class="bj-jaw"><path d="M58,-67 Q68,-58 77,-68 L73,-71 L61,-72 Z" fill="#d5d0be"/>
+        <path d="M62,-67 Q70,-65 75,-69" fill="none" stroke="#53473f" stroke-width=".8"/>
+      </g>
+      <path d="M61,-80 Q67,-83 74,-79 L70,-73 Q67,-71 64,-75 Z" fill="#9d7067" stroke="#342e2b" stroke-width="1.3"/>
+      <path d="M64,-79 Q69,-80 71,-78 M68,-75 v5 Q62,-66 58,-71 M68,-70 Q73,-66 78,-72" fill="none" stroke="#443932" stroke-width="1"/>
+      <g fill="#53473b"><circle cx="55" cy="-74" r=".8"/><circle cx="59" cy="-72" r=".7"/><circle cx="58" cy="-76" r=".7"/><circle cx="76" cy="-73" r=".7"/></g>
+      <g fill="none" stroke="#e3dfce" stroke-width=".65" stroke-linecap="round" opacity=".9">{whiskers}
+        <path d="M43,-105 Q39,-122 32,-127 M48,-108 Q46,-125 44,-130 M66,-107 Q77,-120 88,-123"/>
       </g>
     </g>"""
+    cat = f"""<g class="bj-pitch">
+      <g transform="translate(-47,-65)"><g class="bj-tail">
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#787767" stroke-width="10" stroke-linecap="round"/>
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{stripe}" stroke-width="10.2" stroke-dasharray="5 7"/>
+        <path d="M-5,-3 Q-36,-11 -43,-28" fill="none" stroke="{cream}" stroke-width="1.1" opacity=".5"/>
+      </g></g>
+      {leg('hind-far', -35, -60, True, True)}{leg('fore-far', 26, -60, far=True)}
+      <path d="{torso}" fill="url(#bj-coat)"/>
+      <g clip-path="url(#bj-torso-clip)">
+        <path d="M-52,-81 Q-3,-98 43,-84" fill="none" stroke="{stripe}" stroke-width="11"/>
+        <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="{cream}" stroke-width="9" opacity=".65"/>
+        <g fill="{stripe}" opacity=".93">{stripes}</g>
+        <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{stripe}" stroke-width="2.5"/>
+      </g>
+      {fur_patch('bj-torso-clip', 155, -54, -90, 104, 59)}
+      {leg('hind-near', -32, -60, True)}
+      <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bj-coat)"/>
+      <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{stripe}" stroke-width="4.5"/>
+      {leg('fore-near', 34, -60)}{cat_head}
+    </g>"""
 
-    grass = "".join(
-        f'<path d="M{x},{ground + 6} q1,-7 3,-9 M{x + 4},{ground + 6} q0,-9 -2,-11 M{x + 7},{ground + 6} q-1,-6 1,-8" fill="none" stroke="{t["muted"]}" stroke-width="1.2" stroke-linecap="round" opacity=".5"/>'
-        for x in (60, 210, 330, 520, 650, 790)
-    )
-    body = f"""
-    <text class="mono" x="450" y="30" font-size="13" font-weight="700" text-anchor="middle">Bojangles</text>
-    <text class="muted" x="450" y="46" font-size="11" text-anchor="middle">repo mascot · chief nap officer · on patrol</text>
-    <line x1="24" x2="{w - 24}" y1="{ground + 6}" y2="{ground + 6}" stroke="{t['border']}" stroke-dasharray="3 7" stroke-linecap="round"/>
-    {grass}
-    <g class="walker"><g transform="translate(0,{ground}) scale(1.15)">{cat}</g></g>"""
-    css = """
-    .walker { transform: translateX(450px); animation: patrol 30s linear infinite; }
-    @keyframes patrol {
-      0% { transform: translateX(120px) scaleX(1); }
-      46% { transform: translateX(780px) scaleX(1); }
-      50% { transform: translateX(780px) scaleX(-1); }
-      96% { transform: translateX(120px) scaleX(-1); }
-      100% { transform: translateX(120px) scaleX(1); }
-    }
-    .leg { transform-box: fill-box; transform-origin: 50% 5%; animation: step .7s ease-in-out infinite alternate; }
-    @keyframes step { from { transform: rotate(-24deg); } to { transform: rotate(24deg); } }
-    .body-bob { animation: bob .35s ease-in-out infinite alternate; }
-    @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-1.6px); } }
-    .head-bob { animation: nod .7s ease-in-out infinite alternate; }
-    @keyframes nod { from { transform: translateY(0) rotate(-1deg); } to { transform: translateY(-1.2px) rotate(1.5deg); } }
-    .tail-sway { transform-box: fill-box; transform-origin: 100% 100%; animation: sway 1.9s ease-in-out infinite alternate; }
-    @keyframes sway { from { transform: rotate(-7deg); } to { transform: rotate(11deg); } }
-    .blink { transform-box: fill-box; transform-origin: center; animation: blink 4.6s infinite; }
-    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.08); } }
-    .ear { transform-box: fill-box; transform-origin: 50% 100%; }
-    .ear-r { animation: twitch 7s ease-in-out infinite; }
-    .ear-l { animation: twitch 9s ease-in-out 2.4s infinite; }
-    @keyframes twitch { 0%, 90%, 100% { transform: rotate(0); } 93% { transform: rotate(9deg); } 96% { transform: rotate(-3deg); } }"""
-    return shell(w, h, t, body, "Bojangles the cat",
-                 "An animated tabby cat named Bojangles walking back and forth, blinking and swishing his tail.", css)
+    flowers = []
+    for x, top in ((286, 226), (299, 208), (312, 230)):
+        petals = "".join(f'<ellipse cx="{x + side * 3}" cy="{top + i * 5}" rx="3.3" ry="2.3" fill="{color}"/>'
+                         for i, color in enumerate(("#d9c1e6", "#b49dcd", "#987daf")) for side in (-1, 1))
+        flowers.append(f'<path d="M{x},284 Q{x - 7},251 {x},{top}" stroke="#688969" stroke-width="2" fill="none"/>'
+                       f'<path d="M{x - 2},262 q-18,-18 -14,-4 q6,11 14,4 M{x - 2},249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/>{petals}')
+    grass = "".join(f'<path d="M{x},291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/>' for x in (42, 168, 350, 580, 818, 851))
+    captions = ((0, "Backyard patrol"), (4.8, "A little catnip nibble"), (9.4, "Something fishy…"),
+                (14.2, "Almost got it!"), (17.4, "One more adventure"), (21.7, "That ledge looked wider"),
+                (24.2, "No grip. Slow slide. Soft landing."), (26.7, "Meant to do that."),
+                (37.4, "Backyard patrol"), (40, "Backyard patrol"))
+    labels = []
+    for i, (start, label) in enumerate(captions[:-1]):
+        end = captions[i + 1][0]
+        labels.append(f'<text class="bj-caption bj-caption-{i} muted" x="450" y="322" text-anchor="middle" font-size="12">{escape(label)}</text>')
+        frames = [(0, "0"), (start, "1"), (end, "0"), (duration, "0")]
+        css += track(f"bj-caption-{i}", sorted(dict(frames).items()), "opacity", "steps(1, end)")
+    body = f"""{defs}
+      <text x="28" y="33" font-size="19" font-weight="650">Bojangles</text>
+      <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
+      <path d="M28,292 H872" stroke="{t['border']}" fill="none"/>
+      <g fill="none" stroke="#68816c" stroke-width="1.1" opacity=".65">{grass}</g>
+      <g class="bj-flowers">{''.join(flowers)}</g>
+      <path d="M282,284 H316 L312,292 H286 Z" fill="#806a59"/>
+      <g transform="translate(540,68)"><g class="bj-fish">
+        <path d="M0,0 Q-6,38 0,70" fill="none" stroke="{t['muted']}" stroke-width="1" stroke-dasharray="3 3"/>
+        <g transform="translate(0,79)">
+          <path d="M-13,0 L-27,-11 L-25,11 Z" fill="#739eae"/>
+          <path d="M-18,0 Q0,-19 18,-1 Q4,18 -18,0 Z" fill="#94bdc3" stroke="#567986" stroke-width="1.2"/>
+          <path d="M-8,1 Q1,5 0,10 L8,3 M-10,-4 l6,3 M-3,-7 l6,3" fill="none" stroke="#608a95" stroke-width="1.1"/>
+          <circle cx="11" cy="-2" r="1.9" fill="#223d49"/>
+          <path d="M-12,1 L10,1" stroke="#d8e6df" stroke-width=".8" stroke-dasharray="2 3"/>
+        </g>
+      </g></g>
+      <path d="M766,171 H776 V291 H766 Z" fill="{t['grid']}" stroke="{t['border']}"/>
+      <path d="M759,166 H781 V172 H759 Z" fill="{t['muted']}"/>
+      <path d="M766,197 h10 M766,225 h10 M766,253 h10 M766,280 h10" stroke="{t['border']}"/>
+      <g class="bj-shadow-travel"><ellipse class="bj-shadow" cy="292" rx="65" ry="5" fill="{t['muted']}" opacity=".16"/></g>
+      <g transform="translate(0,{ground})"><g class="bj-travel"><g class="bj-facing">{cat}</g></g></g>
+      {''.join(labels)}
+      <text class="bj-still muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol · flowers, fish toys and questionable ledges</text>"""
+    css += track("bj-shadow-travel", [(s, f"translateX({x}px)") for s, x, _, _, _ in BOJANGLES_STORY])
+    css += track("bj-shadow", [(s, f"scaleX({max(.4, 1 + y / 150):.2f})") for s, _, y, _, _ in BOJANGLES_STORY])
+    css += track("bj-flowers", [(0, "rotate(0deg)"), (4.8, "rotate(0deg)")] +
+                 [(5 + i * .25, f"rotate({-2 if i % 2 else 2}deg)") for i in range(16)] + [(9, "rotate(0deg)"), (40, "rotate(0deg)")])
+    css += track("bj-jaw", [(0, "translateY(0)")] +
+                 [(4.8 + i * .2, f"translateY({1.3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (40, "translateY(0)")])
+    css += """
+      .bj-travel, .bj-shadow-travel {transform:translateX(126px);}
+      .bj-pitch {transform-origin:0px -65px;}
+      .bj-head {transform-origin:40px -82px;}
+      .bj-flowers {transform-origin:299px 284px;}
+      .bj-fish {animation:bj-fish-sway 4s ease-in-out infinite alternate;}
+      @keyframes bj-fish-sway {from {transform:rotate(-12deg);} to {transform:rotate(12deg);}}
+      .bj-tail {animation:bj-tail-swish 3.4s ease-in-out infinite alternate;}
+      @keyframes bj-tail-swish {from {transform:rotate(-5deg);} to {transform:rotate(7deg);}}
+      .bj-blink {transform-box:fill-box;transform-origin:center;animation:bj-blink 5.3s infinite;}
+      @keyframes bj-blink {0%,89%,96%,100% {transform:scaleY(1);} 92%,93% {transform:scaleY(.06);}}
+      .bj-ear {transform-origin:35px -110px;animation:bj-ear-twitch 8.7s infinite;}
+      @keyframes bj-ear-twitch {0%,91%,100% {transform:rotate(0deg);} 94% {transform:rotate(-7deg);} 97% {transform:rotate(2deg);}}
+      .bj-caption, .bj-still {opacity:0;}
+      @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}}
+    """
+    return shell(w, h, t, body, "Bojangles · backyard adventures",
+                 "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers. "
+                 "Bojangles nibbles catnip flowers, leaps for a moving toy fish, tries a narrow wall, "
+                 "loses his grip, slides down, lands on his paws and walks on. "
+                 "With reduced motion he stands quietly in the garden.", css)
 
 
 

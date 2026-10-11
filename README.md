@@ -139,5 +139,5 @@ In red below are some places I have lived in, visited, or transited through. Scr
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/bojangles-dark.svg">
-  <img alt="Bojangles, a tabby cat, walking back and forth, blinking and swishing his tail" src="assets/profile/bojangles-light.svg" width="100%">
+  <img alt="Bojangles the tabby nibbles catnip flowers, leaps for a toy fish, slips down a narrow wall, lands on his paws and walks on" src="assets/profile/bojangles-light.svg" width="100%">
 </picture>
