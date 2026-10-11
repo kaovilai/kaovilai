@@ -721,22 +721,21 @@ def bojangles(t, _s):
         css += track(f"bj-{name}-lower", [(s, f"rotate({a:.1f}deg)") for s, a in sorted(lower.items())])
 
     torso = "M-51,-60 C-54,-78 -39,-88 -22,-87 C-5,-85 11,-89 29,-87 C44,-87 48,-74 44,-60 L39,-42 C27,-34 15,-40 1,-39 C-16,-34 -43,-35 -49,-47 Z"
-    head = "M32,-110 C40,-120 59,-120 69,-112 C77,-106 78,-94 76,-85 L82,-78 L77,-73 C71,-62 55,-62 45,-69 C36,-72 28,-83 28,-92 Z"
+    # Artwork is vector geometry only; the daily renderer never needs the private photo or Pillow.
+    face_path = Path(__file__).resolve().parents[1] / "artwork" / "bojangles-face.json"
+    try:
+        face = json.loads(face_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Cannot load Bojangles vector artwork from {face_path}: {exc}") from exc
     defs = f"""<defs>
       <linearGradient id="bj-coat" x1="0" y1="0" x2=".2" y2="1">
         <stop stop-color="#55544c"/><stop offset=".4" stop-color="#938b76"/>
         <stop offset=".76" stop-color="#a29980"/><stop offset="1" stop-color="#6a6659"/>
       </linearGradient>
-      <radialGradient id="bj-face" cx=".66" cy=".65" r=".75">
-        <stop stop-color="#b3a58b"/><stop offset=".65" stop-color="#8a8270"/><stop offset="1" stop-color="#54544c"/>
-      </radialGradient>
       <linearGradient id="bj-limb" x1="0" y1="0" x2="1" y2="0">
         <stop stop-color="#57574e"/><stop offset=".48" stop-color="#a19a83"/><stop offset="1" stop-color="#777565"/>
       </linearGradient>
-      <radialGradient id="bj-iris"><stop stop-color="#a19468"/><stop offset=".8" stop-color="#706747"/><stop offset="1" stop-color="#393b2e"/></radialGradient>
-      <linearGradient id="bj-ear"><stop stop-color="#6a5b53"/><stop offset=".55" stop-color="#ad8174"/><stop offset="1" stop-color="#534b44"/></linearGradient>
       <clipPath id="bj-torso-clip"><path d="{torso}"/></clipPath>
-      <clipPath id="bj-head-clip"><path d="{head}"/></clipPath>
     </defs>"""
 
     def fur_patch(clip, count, x, y, width, height):
@@ -770,48 +769,47 @@ def bojangles(t, _s):
         "M25,-88 Q37,-78 30,-69 L34,-59 L31,-49 L27,-56 L25,-69 Q30,-79 20,-85 Z",
         "M-20,-56 l4,5 l-1,6 l-4,-3 Z M-4,-49 l5,-3 l3,5 l-5,3 Z M8,-57 l4,3 l-1,5 l-4,-2 Z",
     ))
-    whiskers = "".join(
-        f'<path d="M{x},{y} Q{(x + ex) / 2},{y - 3} {ex},{ey}"/>'
-        for x, y, ex, ey in ((63,-75,24,-84), (64,-73,20,-75), (65,-71,25,-65),
-                             (66,-70,33,-58), (75,-76,106,-88), (76,-74,111,-78),
-                             (76,-72,110,-68), (75,-70,103,-60))
-    )
+    face_layers = {}
+    for layer in face["layers"]:
+        # A tiny same-color stroke closes subpixel seams between simplified contours.
+        face_layers[layer["name"]] = '<g fill-rule="evenodd" stroke-width=".35" stroke-linejoin="round">' + "".join(
+            f'<path fill="{p["fill"]}" stroke="{p["fill"]}" d="{p["d"]}"/>' for p in layer["paths"]
+        ) + '</g>'
     eyes = "".join(
-        f'''<g transform="translate({x},{y}) rotate({angle})"><g class="bj-blink">
-          <path d="M-7,0 Q-1,-7 7,-1 Q2,6 -5,3 Z" fill="url(#bj-iris)" stroke="#242522" stroke-width="1.6"/>
-          <ellipse cx="1" cy="-.2" rx="2.4" ry="4.1" fill="#131716"/>
-          <path d="M-6,-2 Q0,-7 6,-3" fill="none" stroke="#d3cbb2" stroke-width="1"/>
-          <ellipse cx="-.6" cy="-2.2" rx="1.1" ry="1.7" fill="#dce6e1" opacity=".85"/>
-        </g></g>''' for x, y, angle in ((43, -95, 16), (67, -95, -15))
+        f'''<g id="bj-eye-{side}">
+          <path d="{face['regions'][f'eye-{side}']}" fill="#756559"/>
+          <path d="{lid}" fill="none" stroke="#3d342e" stroke-width="1"/>
+          <g class="bj-blink">{face_layers[f'eye-{side}']}
+            <ellipse cx="{x}" cy="{y}" rx=".65" ry="1" fill="#deded0" opacity=".7"/>
+          </g>
+        </g>''' for side, lid, x, y in (
+            ("near", "M59,106 Q67,114 78,112", 68, 108),
+            ("far", "M109,112 Q122,116 133,107", 121, 108),
+        )
     )
-    cat_head = f"""<g class="bj-head">
-      <g class="bj-ear"><path d="M30,-104 Q22,-116 25,-140 Q39,-132 45,-116 Z" fill="url(#bj-coat)" stroke="#4a4b43" stroke-width="1"/>
-        <path d="M30,-112 L28,-135 Q40,-126 40,-116 Z" fill="url(#bj-ear)"/>
-        <path d="M30,-129 l8,12 M30,-123 l6,9 M29,-118 l7,7" stroke="{cream}" stroke-width=".65" opacity=".7"/>
+    whiskers = " ".join(
+        f'M{x},{y} Q{cx},{cy} {ex},{ey}'
+        for x, y, cx, cy, ex, ey in (
+            (77,149,51,132,17,137), (76,153,47,147,12,151),
+            (77,157,44,160,17,169), (82,159,59,178,33,185),
+            (104,151,139,128,174,137), (106,153,144,144,185,150),
+            (107,155,151,158,185,175), (106,159,142,175,169,188),
+        )
+    )
+    # Mirror the portrait's three-quarter view to match the right-facing body.
+    cat_head = f"""<g class="bj-head"><g transform="translate(104,-142) scale(-.42,.42)">
+      <g class="bj-ear">
+        <path d="{face['regions']['ear']}" fill="#766b60"/>{face_layers['ear']}
       </g>
-      <path d="M58,-114 Q66,-133 80,-136 Q82,-118 73,-102 Z" fill="url(#bj-coat)" stroke="#4a4b43" stroke-width="1"/>
-      <path d="M64,-116 Q70,-128 77,-131 L74,-114 Z" fill="url(#bj-ear)"/>
-      <path d="M76,-125 l-7,12 M77,-119 l-7,8" stroke="{cream}" stroke-width=".65"/>
-      <path d="{head}" fill="url(#bj-face)"/>
-      <g clip-path="url(#bj-head-clip)" fill="{stripe}">
-        <path d="M33,-118 l7,1 l7,16 l-5,-2 Z M45,-121 l6,1 l3,13 l5,-12 l6,1 l-7,21 l-6,-6 l-5,5 Z M68,-116 l6,3 l-9,13 l-3,-1 Z"/>
-        <path d="M28,-91 Q35,-87 42,-84 L39,-81 Q31,-82 28,-85 Z M28,-81 Q38,-77 47,-76 L43,-73 Q34,-73 31,-76 Z M76,-90 L69,-84 L80,-88 Z M78,-83 L71,-79 L80,-81 Z"/>
-        <path d="M31,-105 l7,4 l-1,2 l-8,-2 Z M57,-106 l2,11 l-2,4 l-2,-13 Z"/>
-      </g>
-      {fur_patch('bj-head-clip', 100, 26, -119, 58, 58)}
+      <path d="{face['base']}" fill="#8b7961"/>{face_layers['head']}
       {eyes}
-      <path d="M52,-91 Q57,-87 56,-81 L65,-79 Q69,-85 63,-92" fill="#b4a489" opacity=".7"/>
-      <path d="M52,-76 Q48,-68 61,-66 Q75,-62 80,-72 L72,-79 L63,-76 Z" fill="{cream}"/>
-      <g class="bj-jaw"><path d="M58,-67 Q68,-58 77,-68 L73,-71 L61,-72 Z" fill="#d5d0be"/>
-        <path d="M62,-67 Q70,-65 75,-69" fill="none" stroke="#53473f" stroke-width=".8"/>
+      <path d="{face['regions']['jaw']}" fill="#41332d"/>
+      <g class="bj-jaw">{face_layers['jaw']}</g>
+      <g fill="none" stroke="#ded9c8" stroke-width=".55" stroke-linecap="round" opacity=".8">
+        <path d="{whiskers}"/>
+        <path d="M64,101 Q51,77 34,71 M70,99 Q66,74 51,65 M119,99 Q140,70 158,70 M125,101 Q148,83 167,87"/>
       </g>
-      <path d="M61,-80 Q67,-83 74,-79 L70,-73 Q67,-71 64,-75 Z" fill="#9d7067" stroke="#342e2b" stroke-width="1.3"/>
-      <path d="M64,-79 Q69,-80 71,-78 M68,-75 v5 Q62,-66 58,-71 M68,-70 Q73,-66 78,-72" fill="none" stroke="#443932" stroke-width="1"/>
-      <g fill="#53473b"><circle cx="55" cy="-74" r=".8"/><circle cx="59" cy="-72" r=".7"/><circle cx="58" cy="-76" r=".7"/><circle cx="76" cy="-73" r=".7"/></g>
-      <g fill="none" stroke="#e3dfce" stroke-width=".65" stroke-linecap="round" opacity=".9">{whiskers}
-        <path d="M43,-105 Q39,-122 32,-127 M48,-108 Q46,-125 44,-130 M66,-107 Q77,-120 88,-123"/>
-      </g>
-    </g>"""
+    </g></g>"""
     cat = f"""<g class="bj-pitch">
       <g transform="translate(-47,-65)"><g class="bj-tail">
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#787767" stroke-width="10" stroke-linecap="round"/>
@@ -879,7 +877,7 @@ def bojangles(t, _s):
     css += track("bj-flowers", [(0, "rotate(0deg)"), (4.8, "rotate(0deg)")] +
                  [(5 + i * .25, f"rotate({-2 if i % 2 else 2}deg)") for i in range(16)] + [(9, "rotate(0deg)"), (40, "rotate(0deg)")])
     css += track("bj-jaw", [(0, "translateY(0)")] +
-                 [(4.8 + i * .2, f"translateY({1.3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (40, "translateY(0)")])
+                 [(4.8 + i * .2, f"translateY({3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (40, "translateY(0)")])
     css += """
       .bj-travel, .bj-shadow-travel {transform:translateX(126px);}
       .bj-pitch {transform-origin:0px -65px;}
@@ -891,7 +889,7 @@ def bojangles(t, _s):
       @keyframes bj-tail-swish {from {transform:rotate(-5deg);} to {transform:rotate(7deg);}}
       .bj-blink {transform-box:fill-box;transform-origin:center;animation:bj-blink 5.3s infinite;}
       @keyframes bj-blink {0%,89%,96%,100% {transform:scaleY(1);} 92%,93% {transform:scaleY(.06);}}
-      .bj-ear {transform-origin:35px -110px;animation:bj-ear-twitch 8.7s infinite;}
+      .bj-ear {transform-origin:57px 80px;animation:bj-ear-twitch 8.7s infinite;}
       @keyframes bj-ear-twitch {0%,91%,100% {transform:rotate(0deg);} 94% {transform:rotate(-7deg);} 97% {transform:rotate(2deg);}}
       .bj-caption, .bj-still {opacity:0;}
       @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}}

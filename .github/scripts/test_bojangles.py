@@ -7,16 +7,18 @@ self-contained, deterministic, in sync with the committed assets, and that the
 CSS timeline tells the story: nibble, leap, wall slip, paws-first landing, walk on.
 """
 import importlib.util
+import json
 import re
 import subprocess
 import sys
 import unittest
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from unittest.mock import patch
 
 SCRIPT = Path(__file__).resolve().parent / "generate-profile-svgs.py"
 REPO = SCRIPT.parents[2]
-SIZE_BUDGET = 100_000  # bytes per theme
+SIZE_BUDGET = 150_000  # bytes per theme, including photo-derived vector contours
 NS = "{http://www.w3.org/2000/svg}"
 
 
@@ -194,6 +196,54 @@ class RenderTests(unittest.TestCase):
                     self.assertNotIn(needle, stripped)
 
 
+class FaceArtworkTests(unittest.TestCase):
+    def test_unreadable_artwork_has_context(self):
+        for error in (FileNotFoundError("missing"), json.JSONDecodeError("invalid", "{", 1)):
+            with self.subTest(error=type(error).__name__):
+                with patch.object(Path, "read_text", side_effect=error):
+                    with self.assertRaisesRegex(ValueError, r"Cannot load Bojangles vector artwork.*bojangles-face\.json"):
+                        GEN.bojangles(GEN.THEMES["dark"], None)
+
+    def test_source_contains_only_vector_geometry(self):
+        face = json.loads((REPO / ".github/artwork/bojangles-face.json").read_text(encoding="utf-8"))
+        self.assertEqual(set(face), {"viewBox", "outline", "base", "regions", "layers"})
+        self.assertEqual(face["viewBox"], [0, 0, 200, 200])
+        self.assertEqual(set(face["regions"]), {"ear", "eye-near", "eye-far", "jaw"})
+        # Traced paths use nonnegative integer polygons, not decimals or curve commands.
+        for d in [face["outline"], face["base"], *face["regions"].values()]:
+            self.assertRegex(d, r"^M[0-9, MZ]+Z$")
+        self.assertEqual([layer["name"] for layer in face["layers"]],
+                         ["head", "ear", "eye-near", "eye-far", "jaw"])
+        for layer in face["layers"]:
+            self.assertEqual(set(layer), {"name", "paths"})
+            self.assertTrue(layer["paths"])
+            for path in layer["paths"]:
+                self.assertEqual(set(path), {"fill", "d"})
+                self.assertRegex(path["fill"], r"^#[0-9a-f]{6}$")
+                self.assertRegex(path["d"], r"^M[0-9, MZ]+Z$")
+
+    def test_blink_has_closed_lids_behind_each_eye(self):
+        for svg in RENDERS.values():
+            root = ET.fromstring(svg)
+            for side in ("near", "far"):
+                eye = root.find(f".//{NS}g[@id='bj-eye-{side}']")
+                self.assertIsNotNone(eye)
+                self.assertEqual([e.tag for e in eye], [NS + "path", NS + "path", NS + "g"])
+                self.assertNotEqual(eye[0].get("fill"), "none")
+                self.assertEqual(eye[2].get("class"), "bj-blink")
+                self.assertGreater(len(list(eye[2].iter(NS + "path"))), 1)
+
+    def test_ear_and_jaw_contain_independent_vector_layers(self):
+        for svg in RENDERS.values():
+            root = ET.fromstring(svg)
+            head = root.find(f".//{NS}g[@class='bj-head']")
+            self.assertIsNotNone(head)
+            for name in ("ear", "jaw"):
+                joint = head.find(f".//{NS}g[@class='bj-{name}']")
+                self.assertIsNotNone(joint)
+                self.assertGreater(len(list(joint.iter(NS + "path"))), 1)
+
+
 class DeterminismTests(unittest.TestCase):
     def test_repeat_render_identical(self):
         for mode in THEMES:
@@ -207,7 +257,7 @@ class DeterminismTests(unittest.TestCase):
                 "sys.stdout.write(m.bojangles(m.THEMES['dark'],None))" % str(SCRIPT))
         outs = []
         for _ in range(2):
-            run = subprocess.run([sys.executable, "-I", "-B", "-c", code], capture_output=True,
+            run = subprocess.run([sys.executable, "-I", "-B", "-S", "-c", code], capture_output=True,
                                  text=True, check=True)
             outs.append(run.stdout)
         self.assertEqual(outs[0], outs[1])
