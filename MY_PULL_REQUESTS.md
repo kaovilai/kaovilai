@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-10 20:47:01 UTC
+> Last updated: 2026-10-11 02:30:31 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -137,22 +137,14 @@ No open PRs.
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
 - [![PR #126897](https://img.shields.io/badge/PR%20%23126897-ready-green)](https://github.com/NousResearch/hermes-agent/pull/126897) **NousResearch/hermes-agent** → `main` - fix(copilot): send captured backend apiVersion to unlock 1M context
-- [![PR #17509](https://img.shields.io/badge/PR%20%2317509-ready-green)](https://github.com/pingdotgg/t3code/pull/17509) **pingdotgg/t3code** → `main` - fix(server): show Antigravity's real sign-in failure reason
-- [![PR #17521](https://img.shields.io/badge/PR%20%2317521-ready-green)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
 - [![PR #17527](https://img.shields.io/badge/PR%20%2317527-ready-green)](https://github.com/pingdotgg/t3code/pull/17527) **pingdotgg/t3code** → `main` - fix(web): git actions menu no longer offers Create PR when the thread has a linked PR
-- [![PR #17604](https://img.shields.io/badge/PR%20%2317604-ready-green)](https://github.com/pingdotgg/t3code/pull/17604) **pingdotgg/t3code** → `main` - feat(provider): add Claude fork-subagents instance setting
 - [![PR #17606](https://img.shields.io/badge/PR%20%2317606-ready-green)](https://github.com/pingdotgg/t3code/pull/17606) **pingdotgg/t3code** → `main` - fix(models): Ultracode is offered on Sonnet 5, Sonnet 5.5 and Haiku 5.5
-- [![PR #17611](https://img.shields.io/badge/PR%20%2317611-ready-green)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
-- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
-- [![PR #17720](https://img.shields.io/badge/PR%20%2317720-ready-green)](https://github.com/pingdotgg/t3code/pull/17720) **pingdotgg/t3code** → `main` - fix(mobile): Android composer accepts images pasted from Gboard
-- [![PR #17721](https://img.shields.io/badge/PR%20%2317721-ready-green)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #17831](https://img.shields.io/badge/PR%20%2317831-ready-green)](https://github.com/pingdotgg/t3code/pull/17831) **pingdotgg/t3code** → `main` - feat(server): PR watch reports missing required checks and behind-base
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-ready-green)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #73](https://img.shields.io/badge/PR%20%2373-ready-green)](https://github.com/kaovilai/kaovilai/pull/73) **kaovilai/kaovilai** → `main` - Refresh profile README with animated SVGs generated from repo data
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-draft-gray)](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
