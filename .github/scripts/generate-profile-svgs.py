@@ -2,7 +2,7 @@
 """Generate the animated SVGs embedded in README.md from the repo's own JSON data.
 
 Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json, repo-languages.json
-Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*}-{dark,light}.svg
+Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*,bojangles}-{dark,light}.svg
 
 Stdlib only. Output is deterministic for identical input (no timestamps from the
 clock, seeded randomness), so the scheduled workflow only commits on real change.
@@ -661,10 +661,112 @@ def build_stats():
     )
 
 
+# ------------------------------------------------------------------------- bojangles
+FUR, FUR_DARK, STRIPE, CREAM = "#8c7a64", "#6c5c4b", "#2a2420", "#e0cdb0"
+EAR_INNER, NOSE, EYE = "#d79a94", "#c98a80", "#b89b3e"
+
+
+def bojangles(t, _s):
+    """Footer strip: Bojangles the tabby patrols back and forth, blinking and swishing his tail."""
+    w, h, ground = 900, 204, 186
+
+    def leg(x, y, dark, phase):
+        c = FUR_DARK if dark else FUR
+        return (
+            f'<g transform="translate({x},{y})"><g class="leg" style="animation-delay:{phase}s">'
+            f'<rect x="-4.5" y="0" width="9" height="31" rx="4.5" fill="{c}"/>'
+            f'<rect x="-4.5" y="9" width="9" height="3.2" fill="{STRIPE}" opacity=".75"/>'
+            f'<rect x="-4.5" y="16" width="9" height="3.2" fill="{STRIPE}" opacity=".75"/>'
+            f'<ellipse cx="1" cy="30.5" rx="7" ry="4" fill="{CREAM if not dark else FUR_DARK}"/></g></g>'
+        )
+
+    body_stripes = "".join(
+        f'<path d="{d}" fill="none" stroke="{STRIPE}" stroke-width="3.6" stroke-linecap="round" opacity=".85"/>'
+        for d in ("M-26,-63 q4,10 -2,22", "M-12,-65 q4,12 -1,24", "M2,-65 q4,12 0,24", "M16,-62 q3,10 0,20")
+    )
+    whiskers = "".join(
+        f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="#cdbfa9" stroke-width="1" stroke-linecap="round" opacity=".9"/>'
+        for x1, y1, x2, y2 in (
+            (41, -54, 14, -59), (41, -52, 13, -52), (42, -50, 16, -45),
+            (59, -54, 86, -59), (59, -52, 87, -52), (58, -50, 84, -45),
+        )
+    )
+
+    def eye(cx):
+        return (
+            f'<g class="eye" transform="translate({cx},-65)"><g class="blink">'
+            f'<ellipse rx="5.6" ry="6" fill="{EYE}"/><ellipse rx="1.7" ry="4.9" fill="#14100d"/>'
+            f'<circle cx="-1.8" cy="-2.2" r="1.3" fill="#fff" opacity=".9"/></g></g>'
+        )
+
+    cat = f"""
+    <g class="body-bob">
+      {leg(-30, -33, True, -0.35)}{leg(20, -33, True, 0)}
+      <g class="tail" transform="translate(-40,-50)"><g class="tail-sway">
+        <path d="M0,0 C-22,-4 -36,-24 -31,-52" fill="none" stroke="{FUR}" stroke-width="8" stroke-linecap="round"/>
+        <path d="M0,0 C-22,-4 -36,-24 -31,-52" fill="none" stroke="{STRIPE}" stroke-width="8.2" stroke-dasharray="5 6" opacity=".85"/>
+      </g></g>
+      <ellipse cx="0" cy="-44" rx="45" ry="21" fill="{FUR}"/>
+      <ellipse cx="3" cy="-31" rx="34" ry="8.5" fill="{CREAM}" opacity=".55"/>
+      <path d="M-40,-59 Q0,-72 36,-59" fill="none" stroke="{STRIPE}" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+      {body_stripes}
+      {leg(-22, -33, False, 0)}{leg(28, -33, False, -0.35)}
+      <ellipse cx="40" cy="-42" rx="13" ry="15" fill="{CREAM}"/>
+      <g class="head-bob">
+        <g class="ear ear-l"><polygon points="31,-75 29,-107 48,-83" fill="{FUR}"/><polygon points="33,-79 32,-99 43,-84" fill="{EAR_INNER}"/></g>
+        <g class="ear ear-r"><polygon points="52,-83 73,-107 71,-74" fill="{FUR}"/><polygon points="56,-84 71,-99 69,-80" fill="{EAR_INNER}"/></g>
+        <ellipse cx="50" cy="-62" rx="24.5" ry="20.5" fill="{FUR}"/>
+        <path d="M44,-81 l2,9 M50,-83 v10 M56,-81 l-2,9 M26,-65 q6,2 9,0 M74,-65 q-6,2 -9,0" fill="none" stroke="{STRIPE}" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+        <ellipse cx="50" cy="-53" rx="12.5" ry="8.5" fill="{CREAM}"/>
+        {eye(40)}{eye(60)}
+        <path d="M46.5,-58.5 h7 l-3.5,4.5 z" fill="{NOSE}"/>
+        <path d="M50,-54 v2 M50,-52 q-3,3 -6,1 M50,-52 q3,3 6,1" fill="none" stroke="{STRIPE}" stroke-width="1" stroke-linecap="round" opacity=".7"/>
+        {whiskers}
+      </g>
+    </g>"""
+
+    grass = "".join(
+        f'<path d="M{x},{ground + 6} q1,-7 3,-9 M{x + 4},{ground + 6} q0,-9 -2,-11 M{x + 7},{ground + 6} q-1,-6 1,-8" fill="none" stroke="{t["muted"]}" stroke-width="1.2" stroke-linecap="round" opacity=".5"/>'
+        for x in (60, 210, 330, 520, 650, 790)
+    )
+    body = f"""
+    <text class="mono" x="450" y="30" font-size="13" font-weight="700" text-anchor="middle">Bojangles</text>
+    <text class="muted" x="450" y="46" font-size="11" text-anchor="middle">repo mascot · chief nap officer · on patrol</text>
+    <line x1="24" x2="{w - 24}" y1="{ground + 6}" y2="{ground + 6}" stroke="{t['border']}" stroke-dasharray="3 7" stroke-linecap="round"/>
+    {grass}
+    <g class="walker"><g transform="translate(0,{ground}) scale(1.15)">{cat}</g></g>"""
+    css = """
+    .walker { transform: translateX(450px); animation: patrol 30s linear infinite; }
+    @keyframes patrol {
+      0% { transform: translateX(120px) scaleX(1); }
+      46% { transform: translateX(780px) scaleX(1); }
+      50% { transform: translateX(780px) scaleX(-1); }
+      96% { transform: translateX(120px) scaleX(-1); }
+      100% { transform: translateX(120px) scaleX(1); }
+    }
+    .leg { transform-box: fill-box; transform-origin: 50% 5%; animation: step .7s ease-in-out infinite alternate; }
+    @keyframes step { from { transform: rotate(-24deg); } to { transform: rotate(24deg); } }
+    .body-bob { animation: bob .35s ease-in-out infinite alternate; }
+    @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-1.6px); } }
+    .head-bob { animation: nod .7s ease-in-out infinite alternate; }
+    @keyframes nod { from { transform: translateY(0) rotate(-1deg); } to { transform: translateY(-1.2px) rotate(1.5deg); } }
+    .tail-sway { transform-box: fill-box; transform-origin: 100% 100%; animation: sway 1.9s ease-in-out infinite alternate; }
+    @keyframes sway { from { transform: rotate(-7deg); } to { transform: rotate(11deg); } }
+    .blink { transform-box: fill-box; transform-origin: center; animation: blink 4.6s infinite; }
+    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.08); } }
+    .ear { transform-box: fill-box; transform-origin: 50% 100%; }
+    .ear-r { animation: twitch 7s ease-in-out infinite; }
+    .ear-l { animation: twitch 9s ease-in-out 2.4s infinite; }
+    @keyframes twitch { 0%, 90%, 100% { transform: rotate(0); } 93% { transform: rotate(9deg); } 96% { transform: rotate(-3deg); } }"""
+    return shell(w, h, t, body, "Bojangles the cat",
+                 "An animated tabby cat named Bojangles walking back and forth, blinking and swishing his tail.", css)
+
+
+
 def main():
     s = build_stats()
     OUT.mkdir(parents=True, exist_ok=True)
-    jobs = [(name, fn) for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline))]
+    jobs = [(name, fn) for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline), ("bojangles", bojangles))]
     jobs += [
         (f"acct-{key}", lambda th, _s, i=i, a=(nm, sub, col, mono): account(th, i, *a))
         for i, (key, nm, sub, col, mono) in enumerate(ACCOUNTS)
