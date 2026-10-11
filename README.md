@@ -55,69 +55,35 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
   <img alt="freedesktop.org GitLab: kaovilai" src="assets/profile/acct-freedesktop-light.svg" width="210" height="52">
 </picture></a>
 
-<details>
-<summary><b>Career map</b></summary>
+### Career map
 
-```mermaid
-mindmap
-  root((Tiger))
-    🐣 Bangkok, Thailand 🇹🇭
-        (🏫Sarasas Witead Romklao)
-        (🏫Assumption College)
-    Invercargill, New Zealand 🇳🇿
-        (🏫James Hargest College)
-            🍳Pascal/Delphi
-    Personal Projects
-        Websites
-            🍳Flutter/Dart
-            🍳Vue/NextJS
-            🍳GitHub Actions
-        🍳CircleCI
-    Raleigh, North Carolina 🇺🇸
-        (🏫North Carolina State University)
-            📚Computer Science Minor
-                🍳Java/Eclipse
-                🍳Python
-                🍳Unit Tests
-                🍳Continuous Integration
-                🍳HTML/CSS
-                🍳GitHub
-            📚Industrial and Systems Engineering Major
-                🍳Human Factors and Ergonomics
-                🍳VisualBasic for Applications
-                🍳Fusion 360
-                🍳3D Printing
-        ((🏙️Red Hat))
-            💼Technical Marketing Internship
-                🍳Red Hat Product Demo System
-                🍳ASCIIDoc
-                🍳OpenShift
-                🍳Blogging
-                🍳Ansible
-                🍳Trello
-           💼Senior Software Engineer
-                🧑‍🤝‍🧑Migration and Modernization Engineering
-                    **OpenShift API for Data Protection**
-                        🍳Golang
-                        🍳Containers
-                        🍳OpenShift/Kubernetes
-                            🍳Prow
-                            🍳Velero Maintainer
-                        🍳Jira
-                        🍳GitHub Actions
-                    Open Source Leadership
-                        🍳Community Mentorship
-                        🍳Upstream Strategy
-                        🍳Technical Evangelism
-        (🏙️Deutsche Bank)
-            💼dbAchieve Internship
-                🍳SpringBoot
-                🍳Maven
-                🍳Confluence
-                🍳Oracle SQL
-                🍳AngularJS
-                🍳BitBucket
-```
+<a href="https://github.tig.pw/kaovilai/career/"><picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/profile/career-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/profile/career-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/career-dark.svg">
+  <img alt="Career connections: Bangkok to Invercargill to Raleigh; NC State engineering and computer science, Red Hat OADP engineering, and Velero upstream leadership" src="assets/profile/career-light.svg" width="100%">
+</picture></a>
+
+[Explore career map and skill details](https://github.tig.pw/kaovilai/career/) · [Resume](https://resume.kaovilai.pw/)
+
+<details>
+<summary><b>Career details — text version</b></summary>
+
+| Place / organization | Study / role | Tools / themes |
+| --- | --- | --- |
+| Bangkok | Thailand · Early education · Sarasas Witead Romklao (dates unspecified); Assumption College (2010–2012) | — |
+| Invercargill | New Zealand · First programming tools · James Hargest College (2012–2015) | Pascal, Delphi |
+| Raleigh | North Carolina, USA · Engineering + computer science · North Carolina State University (dates unspecified) | Human factors, Software systems |
+| North Carolina State University | BS Industrial Engineering · 2018–2021 | Human Factors and Ergonomics, VisualBasic for Applications, Fusion 360, 3D Printing |
+| North Carolina State University | Minor in Computer Science · 2016–2021 | Java/Eclipse, Python, Unit Tests, Continuous Integration, HTML/CSS, GitHub |
+| CS50 | Computer Science · 2015 | — |
+| Red Hat | Senior Software Engineer · Migration and Modernization Engineering · OpenShift API for Data Protection · dates unspecified | Golang, Containers, OpenShift/Kubernetes, Prow, Jira, GitHub Actions |
+| Red Hat | Technical Marketing Internship · Red Hat Product Demo System · Product demos + automation · dates unspecified | ASCIIDoc, OpenShift, Blogging, Ansible, Trello |
+| Deutsche Bank | dbAchieve Internship · Application development · Enterprise software · dates unspecified | SpringBoot, Maven, Confluence, Oracle SQL, AngularJS, BitBucket |
+| Velero | Maintainer · Kubernetes data protection | Community Mentorship, Upstream Strategy, Technical Evangelism |
+| Personal projects | Websites + delivery pipelines | Flutter/Dart, Vue/NextJS, GitHub Actions, CircleCI |
+
+Connections show themes, not measured time or distance. Employment dates are unspecified. Curated source: [`career-map.json`](career-map.json).
 
 </details>
 
