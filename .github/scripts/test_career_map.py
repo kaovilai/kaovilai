@@ -31,10 +31,15 @@ class PageParser(HTMLParser):
         super().__init__()
         self.ids, self.fragments, self.scripts, self.external_scripts = [], [], [], []
         self.in_script = False
+        self.table_rows, self.row, self.cell = [], [], None
         self.feed(html)
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "tr":
+            self.row = []
+        if tag in ("th", "td"):
+            self.cell = []
         if "id" in attrs:
             self.ids.append(attrs["id"])
         if attrs.get("href", "").startswith("#"):
@@ -47,10 +52,29 @@ class PageParser(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "script":
             self.in_script = False
+        if tag in ("th", "td") and self.cell is not None:
+            self.row.append(" ".join("".join(self.cell).split()))
+            self.cell = None
+        if tag == "tr":
+            self.table_rows.append(self.row)
 
     def handle_data(self, data):
         if self.in_script:
             self.scripts.append(data)
+        if self.cell is not None:
+            self.cell.append(data)
+
+
+def expected_text_rows(data):
+    return [[" ".join(value.split()) for value in (name, detail, ", ".join(skills) or "—")]
+            for _, name, detail, skills in RENDER["detail_rows"](data)]
+
+
+def readme_text_rows():
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    fallback = readme.split("<summary><b>Career details — text version</b></summary>", 1)[1].split("</details>", 1)[0]
+    lines = [line for line in fallback.splitlines() if line.startswith("|")]
+    return [[" ".join(cell.split()) for cell in line.strip("|").split("|")] for line in lines[2:]]
 
 
 class CareerMapTests(unittest.TestCase):
@@ -104,6 +128,27 @@ class CareerMapTests(unittest.TestCase):
             self.assertIn("prefers-reduced-motion:reduce", svg)
             self.assertIn("animation:none!important", svg)
             self.assertNotIn("opacity:0;", svg)  # disabling motion must not hide nodes
+            self.assertIn("animation:cm-flow 4s linear 1;", svg)
+            self.assertIn("animation:cm-beacon 4s ease-in-out 1;", svg)
+            self.assertNotIn("infinite", svg)
+
+    def test_continuous_motion_requires_working_page_controls(self):
+        page = RENDER["render_career_page"](DATA, THEMES)
+        self.assertIn('[data-motion="on"] .career-viz .cm-flow {animation:cm-flow 8s linear infinite;}', page)
+        self.assertIn('[data-motion="on"] .career-viz .cm-beacon {animation:cm-beacon 4s ease-in-out infinite;}', page)
+        self.assertNotRegex(page, r'<html[^>]*data-motion=')
+        script = PageParser(page).scripts[0]
+        enabled = script.index("root.dataset.motion = 'on'")
+        self.assertLess(script.index("getElementById('motion').addEventListener('click'"), enabled)
+        self.assertLess(script.index("querySelector('.controls').hidden = false"), enabled)
+
+    def test_page_exposes_interactive_svg_groups(self):
+        page = RENDER["render_career_page"](DATA, THEMES)
+        for svg in re.findall(r"<svg\b.*?</svg>", page, re.DOTALL):
+            root = ET.fromstring(svg)
+            self.assertEqual(root.get("role"), "group")
+            self.assertEqual(len(list(root.iter(NS + "a"))), 6)
+        self.assertEqual(len(re.findall(r'<svg\b', page)), 2)
 
     def test_assets_and_page_match_renderer(self):
         for mode, compact, svg in self.renders():
@@ -121,15 +166,28 @@ class CareerMapTests(unittest.TestCase):
     def test_facts_and_tools_survive_in_both_text_views(self):
         page = RENDER["render_career_page"](DATA, THEMES)
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
-        for _, name, _, skills in RENDER["detail_rows"](DATA):
-            for value in (name, *skills):
-                self.assertIn(value, page)
-                self.assertIn(value, readme)
+        expected = expected_text_rows(DATA)
+        self.assertEqual(PageParser(page).table_rows[1:], expected)
+        self.assertEqual(readme_text_rows(), expected)
         for dates in ("2010–2012", "2012–2015", "2018–2021", "2016–2021", "2015"):
             self.assertIn(dates, page)
             self.assertIn(dates, readme)
         self.assertTrue(all("dates" not in job for job in DATA["industry"]))
         self.assertIn("Employment dates are unspecified", readme)
+
+    def test_fallback_comparison_catches_semantic_drift(self):
+        for key, fields in (("education", ("name", "qualification", "dates")),
+                            ("industry", ("role", "context", "focus")),
+                            ("community", ("role", "focus")),
+                            ("places", ("country", "summary"))):
+            for field in fields:
+                data = copy.deepcopy(DATA)
+                data[key][0][field] = "Changed fact"
+                with self.subTest(key=key, field=field):
+                    self.assertNotEqual(readme_text_rows(), expected_text_rows(data))
+        data = copy.deepcopy(DATA)
+        data["projects"]["focus"] = "Changed project focus"
+        self.assertNotEqual(readme_text_rows(), expected_text_rows(data))
 
     def test_new_branches_require_explicit_layout_change(self):
         for key in ("places", "education", "industry", "community"):

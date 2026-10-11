@@ -7,7 +7,8 @@ Reference for the machine-generated JSON in this repo (moved out of the profile 
 Unlike activity data, this file is manually curated from the profile's existing
 career and education facts. No resume scraping, automated dates, or inferred
 employment duration. Update the README's expandable text version alongside it;
-tests check that listed tools and education dates remain represented there.
+tests compare each fallback row's names, qualifications, roles, contexts,
+focus, place details, dates, and tools against the curated source.
 
 | Field | Contents |
 | --- | --- |
@@ -27,8 +28,10 @@ change rather than silently hiding it.
 `.github/scripts/career_map.py` renders desktop/mobile SVGs in both themes and the
 interactive `/career/` Pages companion, including a full text table. All outputs
 are generated through `.github/scripts/generate-profile-svgs.py` and committed by
-the existing daily workflow. README animations are CSS-only; the Pages view adds
-optional keyboard/hover detail, theme selection, and animation pause controls.
+the existing daily workflow. README and no-JavaScript animations are CSS-only
+and finish within four seconds. The Pages view adds optional keyboard/hover
+detail and theme selection; continuous motion starts only after its pause
+control is wired and visible. Reduced-motion preferences disable all animation.
 
 ```sh
 python3 -I -B .github/scripts/test_career_map.py

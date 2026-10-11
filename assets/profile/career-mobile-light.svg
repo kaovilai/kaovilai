@@ -7,9 +7,9 @@
       .edu {fill:var(--cm-edu);} .work {fill:var(--cm-work);} .oss {fill:var(--cm-oss);}
       .cm-route {fill:none;stroke:var(--cm-line);stroke-width:2;}
       .cm-link {fill:none;stroke:var(--cm-line);stroke-width:1;}
-      .cm-flow {fill:none;stroke:var(--cm-edu);stroke-width:2;stroke-dasharray:12 282;animation:cm-flow 8s linear infinite;}
+      .cm-flow {fill:none;stroke:var(--cm-edu);stroke-width:2;stroke-dasharray:12 282;animation:cm-flow 4s linear 1;}
       @keyframes cm-flow {to {stroke-dashoffset:-294;}}
-      .cm-beacon {fill:none;stroke:var(--cm-oss);stroke-width:2;opacity:.5;animation:cm-beacon 4s ease-in-out infinite;}
+      .cm-beacon {fill:none;stroke:var(--cm-oss);stroke-width:2;opacity:.5;animation:cm-beacon 4s ease-in-out 1;}
       @keyframes cm-beacon {50% {opacity:.15;r:15;}}
       .cm-node:hover .cm-card,.cm-node:focus .cm-card {stroke:var(--cm-ink);}
       @media(prefers-reduced-motion:reduce) {.career-viz * {animation:none!important;}}

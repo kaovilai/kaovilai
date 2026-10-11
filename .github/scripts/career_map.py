@@ -29,7 +29,7 @@ def validate_career_data(data):
             raise ValueError(f"Career-map layout expects {count} {key} entries; update the layout for new branches")
 
 
-def render_career_svg(theme, data, compact=False):
+def render_career_svg(theme, data, compact=False, *, interactive=False):
     validate_career_data(data)
     w, h = (480, 1450) if compact else (900, 654)
     variant = "mobile" if compact else "desktop"
@@ -137,9 +137,9 @@ def render_career_svg(theme, data, compact=False):
       .edu {{fill:var(--cm-edu);}} .work {{fill:var(--cm-work);}} .oss {{fill:var(--cm-oss);}}
       .cm-route {{fill:none;stroke:var(--cm-line);stroke-width:2;}}
       .cm-link {{fill:none;stroke:var(--cm-line);stroke-width:1;}}
-      .cm-flow {{fill:none;stroke:var(--cm-edu);stroke-width:2;stroke-dasharray:12 282;animation:cm-flow 8s linear infinite;}}
+      .cm-flow {{fill:none;stroke:var(--cm-edu);stroke-width:2;stroke-dasharray:12 282;animation:cm-flow 4s linear 1;}}
       @keyframes cm-flow {{to {{stroke-dashoffset:-294;}}}}
-      .cm-beacon {{fill:none;stroke:var(--cm-oss);stroke-width:2;opacity:.5;animation:cm-beacon 4s ease-in-out infinite;}}
+      .cm-beacon {{fill:none;stroke:var(--cm-oss);stroke-width:2;opacity:.5;animation:cm-beacon 4s ease-in-out 1;}}
       @keyframes cm-beacon {{50% {{opacity:.15;r:15;}}}}
       .cm-node:hover .cm-card,.cm-node:focus .cm-card {{stroke:var(--cm-ink);}}
       @media(prefers-reduced-motion:reduce) {{.career-viz * {{animation:none!important;}}}}
@@ -151,7 +151,7 @@ def render_career_svg(theme, data, compact=False):
                    "Personal projects use Flutter/Dart, Vue/NextJS, GitHub Actions and CircleCI. Education dates are documented; "
                    "employment dates are unspecified. Lines show connections, not measured time or geographic distance.")
     return (f'<svg xmlns="http://www.w3.org/2000/svg" class="career-viz" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
-            f'role="img" aria-labelledby="cm-{variant}-title cm-{variant}-desc">'
+            f'role="{"group" if interactive else "img"}" aria-labelledby="cm-{variant}-title cm-{variant}-desc">'
             f'<title id="cm-{variant}-title">Tiger Kaovilai · career map</title>'
             f'<desc id="cm-{variant}-desc">{escape(description)}</desc><style>{css}</style>'
             + "".join(parts) + '</svg>\n')
@@ -162,7 +162,7 @@ def detail_rows(data):
     for place in data["places"]:
         entries = "; ".join(s["name"] + (f' ({s["dates"]})' if s["dates"] else " (dates unspecified)")
                             for s in place["schools"])
-        rows.append((place["id"], place["city"], entries, place["skills"]))
+        rows.append((place["id"], place["city"], f'{place["country"]} · {place["summary"]} · {entries}', place["skills"]))
     for item in data["education"]:
         rows.append(("education", item["name"], f'{item["qualification"]} · {item["dates"]}', item["skills"]))
     for item in data["industry"]:
@@ -175,8 +175,8 @@ def detail_rows(data):
 
 def render_career_page(data, themes):
     # Inline both layouts, each with unique accessibility IDs. CSS selects layout and theme.
-    desktop = render_career_svg(themes["light"], data)
-    mobile = render_career_svg(themes["light"], data, True)
+    desktop = render_career_svg(themes["light"], data, interactive=True)
+    mobile = render_career_svg(themes["light"], data, compact=True, interactive=True)
     rows, seen = [], set()
     for key, name, detail, skills in detail_rows(data):
         safe_key = escape(key, quote=True)
@@ -203,6 +203,8 @@ button:focus-visible,select:focus-visible,a:focus-visible {{outline:2px solid va
 .visual {{position:relative;}} .career-viz {{display:block;width:100%;height:auto;}} .mobile {{display:none;}}
 #tooltip {{position:absolute;z-index:2;max-width:310px;padding:14px 16px;border:1px solid var(--cm-line);border-radius:12px;background:var(--cm-bg);box-shadow:0 8px 30px #0003;font-size:13px;}}
 #tooltip[hidden] {{display:none;}} .help,.note {{color:var(--cm-muted);}} .help {{font-size:13px;}}
+[data-motion="on"] .career-viz .cm-flow {{animation:cm-flow 8s linear infinite;}}
+[data-motion="on"] .career-viz .cm-beacon {{animation:cm-beacon 4s ease-in-out infinite;}}
 [data-motion="off"] .career-viz * {{animation:none!important;}}
 h1 {{font-size:23px;margin:28px 0 4px;}} table {{width:100%;border-collapse:collapse;font-size:14px;}} th,td {{text-align:left;vertical-align:top;padding:14px 12px;border-bottom:1px solid var(--cm-line);}} thead th {{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--cm-muted);}} tbody th {{width:22%;}} td:last-child {{width:35%;}} tr.is-highlighted {{background:var(--cm-panel);}} .table-wrap {{overflow-x:auto;}}
 @media(max-width:600px) {{main {{padding:20px 14px 40px;}} .desktop {{display:none;}} .mobile {{display:block;}} table {{min-width:650px;}}}}
@@ -220,7 +222,6 @@ h1 {{font-size:23px;margin:28px 0 4px;}} table {{width:100%;border-collapse:coll
 const root = document.documentElement;
 const tooltip = document.getElementById('tooltip');
 const rows = [...document.querySelectorAll('tbody tr')];
-document.querySelector('.controls').hidden = false;
 document.getElementById('theme').addEventListener('change', event => {{
   if (event.target.value === 'system') delete root.dataset.theme;
   else root.dataset.theme = event.target.value;
@@ -261,5 +262,8 @@ for (const node of document.querySelectorAll('.cm-node')) {{
 }}
 document.addEventListener('keydown', event => {{if (event.key === 'Escape') hide();}});
 window.addEventListener('resize', hide);
+// Enable continuous motion only after its stop control is wired and visible.
+document.querySelector('.controls').hidden = false;
+root.dataset.motion = 'on';
 </script></body></html>
 """
