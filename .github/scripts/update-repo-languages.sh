@@ -24,8 +24,16 @@ fi
 TMP=$(mktemp)
 trap 'rm -f "$TMP"' EXIT
 echo "$MISSING" | while read -r repo; do
-    # Deleted/private/renamed repos resolve to null rather than failing the run.
-    lang=$(gh api "repos/$repo" --jq '.language // ""' 2>/dev/null || true)
+    # Gone/private/blocked repos (404/403/451) are cached as null. Anything else
+    # (rate limit, network, 5xx) is transient: skip so the next run retries it.
+    if out=$(gh api "repos/$repo" --jq '.language // ""' 2>&1); then
+        lang="$out"
+    elif echo "$out" | grep -qE 'HTTP (404|403|451)'; then
+        lang=""
+    else
+        echo "WARN: skipping $repo: $out" >&2
+        continue
+    fi
     jq -n --arg repo "$repo" --arg lang "$lang" '{($repo): (if $lang == "" then null else $lang end)}'
 done | jq -s 'add // {}' > "$TMP"
 

@@ -420,6 +420,10 @@ def lang_color(name):
 def languages(t, s):
     w, h = 900, 330
     langs = s["languages"]
+    if not langs:  # no repo has a known language yet (e.g. first run before the cache is seeded)
+        return None
+    top_name, _, top_pct = next((row for row in langs if row[0] != "Other"), langs[0])
+    scale = max(pct for _, _, pct in langs)
     cx, cy, r, sw = 215, 185, 98, 30
     gap = 0.7  # visual gap between ring segments, in pathLength units
     segs, start = [], 0.0
@@ -431,7 +435,6 @@ def languages(t, s):
             f'class="seg{" lead" if i == 0 else ""}" style="--len:{length:.2f};--rest:{100 - length:.2f};stroke-dashoffset:-{start:.2f};animation-delay:{0.2 + i * 0.18:.2f}s"/>'
         )
         start += pct
-    top_name, _, top_pct = langs[0]
     legend, ly, bar_x, bar_w = [], 96, 440, 300
     for i, (name, n, pct) in enumerate(langs):
         delay = 0.4 + i * 0.18
@@ -440,7 +443,7 @@ def languages(t, s):
             f'<text x="{bar_x}" y="{ly}" font-size="13" font-weight="600">{escape(name)}</text>'
             f'<text class="mono muted" x="{bar_x + bar_w + 70}" y="{ly}" font-size="12" text-anchor="end">{pct:.1f}%</text>'
             f'<rect x="{bar_x}" y="{ly + 7}" width="{bar_w + 70}" height="6" rx="3" fill="{t["grid"]}"/>'
-            f'<rect class="lbar" x="{bar_x}" y="{ly + 7}" width="{max(pct / langs[0][2], 0.02) * (bar_w + 70):.1f}" height="6" rx="3" '
+            f'<rect class="lbar" x="{bar_x}" y="{ly + 7}" width="{max(pct / scale, 0.02) * (bar_w + 70):.1f}" height="6" rx="3" '
             f'fill="{lang_color(name)}" style="animation-delay:{delay:.2f}s"/>'
         )
         ly += 28
@@ -543,7 +546,7 @@ def build_stats():
     rest = sum(n for _, n in ranked[7:])
     if rest:
         shown.append(("Other", rest))
-    lang_rows = [(name, n, 100.0 * n / lang_total) for name, n in shown]
+    lang_rows = [(name, n, 100.0 * n / lang_total) for name, n in shown] if lang_total else []
 
     now = datetime.fromisoformat(activity["generatedAt"].replace("Z", "+00:00"))
     feeds = [activity[k] for k in ("prsMerged", "prsOpened", "prsReviewed", "issuesCommented", "issuesClosed")]
@@ -595,7 +598,11 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline)):
         for mode, theme in THEMES.items():
-            (OUT / f"{name}-{mode}.svg").write_text(fn(theme, s), encoding="utf-8")
+            svg = fn(theme, s)
+            if svg is None:
+                print(f"skipping {name}-{mode}: no data")
+                continue
+            (OUT / f"{name}-{mode}.svg").write_text(svg, encoding="utf-8")
     print(f"wrote {len(THEMES) * 6} SVGs to {OUT} ({s['merged_all']} merged PRs, {s['open_prs']} open)")
 
 
