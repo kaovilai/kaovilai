@@ -50,22 +50,9 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-gitlab-dark.svg">
   <img alt="GitLab: kaovilai" src="assets/profile/acct-gitlab-light.svg" width="210" height="52">
 </picture></a>
-<a href="https://bitbucket.org/kaovilaigithub"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-bitbucket-dark.svg">
-  <img alt="Bitbucket: kaovilaigithub" src="assets/profile/acct-bitbucket-light.svg" width="210" height="52">
-</picture></a>
-<br>
 <a href="https://gitlab.freedesktop.org/kaovilai"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-freedesktop-dark.svg">
   <img alt="freedesktop.org GitLab: kaovilai" src="assets/profile/acct-freedesktop-light.svg" width="210" height="52">
-</picture></a>
-<a href="https://pagure.io/user/tiger"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-pagure-dark.svg">
-  <img alt="Pagure: tiger" src="assets/profile/acct-pagure-light.svg" width="210" height="52">
-</picture></a>
-<a href="https://crowdin.com/profile/kaovilai"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-crowdin-dark.svg">
-  <img alt="Crowdin: kaovilai" src="assets/profile/acct-crowdin-light.svg" width="210" height="52">
 </picture></a>
 
 <details>

@@ -239,10 +239,7 @@ def hero(t, s):
 ACCOUNTS = [  # key, name, subtitle, brand colour, monogram
     ("github", "GitHub", "kaovilai", "#6e7681", "GH"),
     ("gitlab", "GitLab", "kaovilai", "#fc6d26", "GL"),
-    ("bitbucket", "Bitbucket", "kaovilaigithub", "#2684ff", "BB"),
     ("freedesktop", "freedesktop.org", "GitLab · kaovilai", "#3b82c4", "fd"),
-    ("pagure", "Pagure", "tiger", "#1d70b8", "PG"),
-    ("crowdin", "Crowdin", "kaovilai", "#3d9ad1", "CW"),
 ]
 
 
@@ -672,6 +669,10 @@ def main():
         (f"acct-{key}", lambda th, _s, i=i, a=(nm, sub, col, mono): account(th, i, *a))
         for i, (key, nm, sub, col, mono) in enumerate(ACCOUNTS)
     ]
+    live = {f"acct-{key}-{mode}.svg" for key, *_ in ACCOUNTS for mode in THEMES}
+    for old in OUT.glob("acct-*.svg"):
+        if old.name not in live:
+            old.unlink()
     written = 0
     for name, fn in jobs:
         for mode, theme in THEMES.items():
