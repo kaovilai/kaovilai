@@ -41,12 +41,32 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
 <sub>Charts are generated from this repo's own JSON by [`generate-profile-svgs.py`](.github/scripts/generate-profile-svgs.py) and refreshed daily. Data reference: [docs/data-schemas.md](docs/data-schemas.md).</sub>
 
 ### OSS Accounts
-- [GitHub](https://github.com/kaovilai)
-- [GitLab](https://gitlab.com/kaovilai)
-- [Bitbucket](https://bitbucket.org/kaovilaigithub)
-- [freedesktop.org GitLab](https://gitlab.freedesktop.org/kaovilai)
-- [Pagure](https://pagure.io/user/tiger)
-- [Crowdin](https://crowdin.com/profile/kaovilai)
+
+<a href="https://github.com/kaovilai"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-github-dark.svg">
+  <img alt="GitHub: kaovilai" src="assets/profile/acct-github-light.svg" width="210" height="52">
+</picture></a>
+<a href="https://gitlab.com/kaovilai"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-gitlab-dark.svg">
+  <img alt="GitLab: kaovilai" src="assets/profile/acct-gitlab-light.svg" width="210" height="52">
+</picture></a>
+<a href="https://bitbucket.org/kaovilaigithub"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-bitbucket-dark.svg">
+  <img alt="Bitbucket: kaovilaigithub" src="assets/profile/acct-bitbucket-light.svg" width="210" height="52">
+</picture></a>
+<br>
+<a href="https://gitlab.freedesktop.org/kaovilai"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-freedesktop-dark.svg">
+  <img alt="freedesktop.org GitLab: kaovilai" src="assets/profile/acct-freedesktop-light.svg" width="210" height="52">
+</picture></a>
+<a href="https://pagure.io/user/tiger"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-pagure-dark.svg">
+  <img alt="Pagure: tiger" src="assets/profile/acct-pagure-light.svg" width="210" height="52">
+</picture></a>
+<a href="https://crowdin.com/profile/kaovilai"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/acct-crowdin-dark.svg">
+  <img alt="Crowdin: kaovilai" src="assets/profile/acct-crowdin-light.svg" width="210" height="52">
+</picture></a>
 
 <details>
 <summary><b>Career map</b></summary>
