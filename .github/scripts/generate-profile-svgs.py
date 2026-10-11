@@ -2,7 +2,7 @@
 """Generate the animated SVGs embedded in README.md from the repo's own JSON data.
 
 Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json, repo-languages.json
-Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*}-{dark,light}.svg
+Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*,bojangles}-{dark,light}.svg
 
 Stdlib only. Output is deterministic for identical input (no timestamps from the
 clock, seeded randomness), so the scheduled workflow only commits on real change.
@@ -661,10 +661,251 @@ def build_stats():
     )
 
 
+# ------------------------------------------------------------------------- bojangles
+# Seconds, position above the ground, body angle, pose. All action tracks share this clock.
+BOJANGLES_STORY = (
+    (0, 126, 0, 0, "walk"), (4.5, 225, 0, 0, "walk"),
+    (4.8, 225, 0, 0, "nibble"), (9, 225, 0, 0, "nibble"),
+    (9.4, 225, 0, 0, "stand"), (13.5, 415, 0, 0, "walk"),
+    (14.2, 415, 10, 0, "crouch"), (14.6, 425, -22, -12, "leap"),
+    (15.2, 450, -58, -22, "reach"), (15.7, 470, -70, -12, "reach"),
+    (16.2, 486, -45, 0, "leap"), (16.7, 500, 0, 0, "stand"),
+    (17, 500, 10, 0, "crouch"), (17.4, 500, 0, 0, "stand"),
+    (21, 650, 0, 0, "walk"), (21.7, 650, 10, 0, "crouch"),
+    (22.2, 677, -35, -35, "leap"), (22.7, 697, -57, -60, "cling"),
+    (23.7, 697, -57, -60, "cling"), (24.2, 697, -49, -60, "cling"),
+    (24.8, 693, -32, -60, "cling"), (25.4, 681, -5, -45, "fall"),
+    (25.9, 662, 0, 0, "stand"), (26.2, 662, 10, 0, "crouch"),
+    (26.7, 662, 0, 0, "stand"), (27.4, 662, 0, 0, "stand"),
+    (36.7, 126, 0, 0, "walk"), (37.4, 126, 0, 0, "stand"),
+    (40, 126, 0, 0, "stand"),
+)
+BOJANGLES_WALKS = ((0, 4.5), (9.4, 13.5), (17.4, 21), (27.4, 36.7))
+
+
+def bojangles(t, _s):
+    """Photo-inspired tabby, articulated limbs and a CSS-only backyard story."""
+    w, h, ground, duration = 900, 340, 290, BOJANGLES_STORY[-1][0]
+    stripe, cream = "#292824", "#c9c1aa"
+    # Upper/lower foreleg, upper/lower hind leg, head. Angles pivot at joints, not bounding boxes.
+    poses = dict(stand=(0, 0, 0, 0, 0), walk=(0, 0, 0, 0, 0),
+                 nibble=(0, 0, 0, 0, 13), crouch=(-42, 75, -52, 59, -5),
+                 leap=(-48, -12, 40, -65, -9), reach=(-82, -20, 52, -72, -12),
+                 cling=(0, 0, 36, -50, 9), fall=(-26, 30, -30, 45, 12))
+
+    def track(name, frames, prop="transform", timing="linear"):
+        """Map seconds to CSS percentages on the shared story clock."""
+        rules = "".join(f"{sec / duration * 100:.4f}% {{{prop}:{value};}}" for sec, value in frames)
+        return f".{name} {{animation:{name} {duration}s {timing} infinite;}} @keyframes {name} {{{rules}}}"
+
+    css = track("bj-travel", [(s, f"translate({x}px,{y}px)") for s, x, y, _, _ in BOJANGLES_STORY])
+    css += track("bj-pitch", [(s, f"rotate({angle}deg)") for s, _, _, angle, _ in BOJANGLES_STORY])
+    css += track("bj-facing", [(0, "scaleX(1)"), (27, "scaleX(-1)"),
+                                (37.1, "scaleX(1)"), (40, "scaleX(1)")], timing="steps(1, end)")
+    css += track("bj-head", [(s, f"rotate({poses[pose][4]}deg)") for s, _, _, _, pose in BOJANGLES_STORY])
+    # Quarter-stride samples keep gait on the same clock as the pauses and jumps.
+    for name, index, phase in (("fore-near", 0, 0), ("fore-far", 0, math.pi),
+                               ("hind-near", 2, math.pi), ("hind-far", 2, 0)):
+        upper = {s: poses[pose][index] for s, _, _, _, pose in BOJANGLES_STORY}
+        lower = {s: poses[pose][index + 1] for s, _, _, _, pose in BOJANGLES_STORY}
+        for start, end in BOJANGLES_WALKS:
+            steps = max(4, round((end - start) / .9) * 4)
+            for step in range(steps + 1):
+                sec = start + (end - start) * step / steps
+                swing = math.sin(step * math.pi / 2 + phase)
+                # Ease into and out of walking rather than snapping a planted paw.
+                envelope = min(step, steps - step, 1)
+                upper[sec] = 23 * swing * envelope
+                lower[sec] = max(0, -swing) * 28 * envelope
+        css += track(f"bj-{name}", [(s, f"rotate({a:.1f}deg)") for s, a in sorted(upper.items())])
+        css += track(f"bj-{name}-lower", [(s, f"rotate({a:.1f}deg)") for s, a in sorted(lower.items())])
+
+    torso = "M-51,-60 C-54,-78 -39,-88 -22,-87 C-5,-85 11,-89 29,-87 C44,-87 48,-74 44,-60 L39,-42 C27,-34 15,-40 1,-39 C-16,-34 -43,-35 -49,-47 Z"
+    # Artwork is vector geometry only; the daily renderer never needs the private photo or Pillow.
+    face_path = Path(__file__).resolve().parents[1] / "artwork" / "bojangles-face.json"
+    try:
+        face = json.loads(face_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Cannot load Bojangles vector artwork from {face_path}: {exc}") from exc
+    defs = f"""<defs>
+      <linearGradient id="bj-coat" x1="0" y1="0" x2=".2" y2="1">
+        <stop stop-color="#55544c"/><stop offset=".4" stop-color="#938b76"/>
+        <stop offset=".76" stop-color="#a29980"/><stop offset="1" stop-color="#6a6659"/>
+      </linearGradient>
+      <linearGradient id="bj-limb" x1="0" y1="0" x2="1" y2="0">
+        <stop stop-color="#57574e"/><stop offset=".48" stop-color="#a19a83"/><stop offset="1" stop-color="#777565"/>
+      </linearGradient>
+      <clipPath id="bj-torso-clip"><path d="{torso}"/></clipPath>
+    </defs>"""
+
+    def fur_patch(clip, count, x, y, width, height):
+        # Deterministic short guard hairs; no raster photo, random seed, or SVG noise filter.
+        hairs = []
+        for i in range(count):
+            hx, hy = x + (i * 37 % 101) / 101 * width, y + (i * 61 % 103) / 103 * height
+            hairs.append(f'<path d="M{hx:.1f},{hy:.1f} l{1 + i % 3:.1f},{2 + i % 2}"/>')
+        return f'<g clip-path="url(#{clip})" fill="none" stroke="{cream}" stroke-width=".55" opacity=".32">{"".join(hairs)}</g>'
+
+    def leg(name, x, y, hind=False, far=False):
+        thigh = ("M-9,-6 C-22,1 -18,18 -6,29 Q0,33 6,25 L9,1 Z" if hind else
+                 "M-8,-5 Q-13,8 -6,29 Q0,34 6,28 L8,-3 Z")
+        return f"""<g transform="translate({x},{y})"><g class="bj-{name}">
+          <path d="{thigh}" fill="url(#bj-limb)"/>
+          <path d="M-9,4 Q0,9 8,5 M-9,13 Q0,18 7,13 M-6,22 l11,1" fill="none" stroke="{stripe}" stroke-width="3.7"/>
+          <g transform="translate(0,27)"><g class="bj-{name}-lower">
+            <path d="M-5,-3 Q-8,10 -5,24 C-10,29 -7,33 0,33 L9,33 Q16,30 9,26 L5,23 L5,-2 Z" fill="url(#bj-limb)" stroke="#555348" stroke-width=".65"/>
+            <path d="M-5,5 l10,1 M-5,12 l10,1 M-5,19 l10,1" stroke="{stripe}" stroke-width="3.2"/>
+            <path d="M-2,28 v4 M3,28 v4 M8,28 l-1,4" stroke="#4e4a40" stroke-width=".8"/>
+            <path d="M-3,24 l1,-3 M1,24 l1,-3 M5,24 v-3" stroke="{cream}" stroke-width=".7"/>
+          </g></g>
+        {'<path d="M-8,-4 L6,0 L4,27 L-5,27 Z" fill="#151815" opacity=".18"/>' if far else ''}</g></g>"""
+
+    stripes = "".join(f'<path d="{d}"/>' for d in (
+        "M-42,-86 Q-27,-80 -36,-64 L-40,-55 L-40,-65 Q-31,-78 -46,-82 Z",
+        "M-30,-88 Q-16,-79 -24,-65 L-24,-54 L-29,-46 L-27,-61 Q-20,-76 -35,-83 Z",
+        "M-17,-89 Q-3,-80 -12,-68 L-9,-58 L-13,-47 L-14,-60 L-18,-66 Q-9,-78 -23,-85 Z",
+        "M-3,-89 Q9,-81 3,-70 L6,-64 L4,-55 L0,-60 L-1,-69 Q4,-79 -8,-86 Z",
+        "M10,-90 Q25,-79 17,-66 L20,-55 L16,-45 L14,-58 L11,-68 Q17,-78 5,-85 Z",
+        "M25,-88 Q37,-78 30,-69 L34,-59 L31,-49 L27,-56 L25,-69 Q30,-79 20,-85 Z",
+        "M-20,-56 l4,5 l-1,6 l-4,-3 Z M-4,-49 l5,-3 l3,5 l-5,3 Z M8,-57 l4,3 l-1,5 l-4,-2 Z",
+    ))
+    face_layers = {}
+    for layer in face["layers"]:
+        # A tiny same-color stroke closes subpixel seams between simplified contours.
+        face_layers[layer["name"]] = '<g fill-rule="evenodd" stroke-width=".35" stroke-linejoin="round">' + "".join(
+            f'<path fill="{p["fill"]}" stroke="{p["fill"]}" d="{p["d"]}"/>' for p in layer["paths"]
+        ) + '</g>'
+    eyes = "".join(
+        f'''<g id="bj-eye-{side}">
+          <path d="{face['regions'][f'eye-{side}']}" fill="#756559"/>
+          <path d="{lid}" fill="none" stroke="#3d342e" stroke-width="1"/>
+          <g class="bj-blink">{face_layers[f'eye-{side}']}
+            <ellipse cx="{x}" cy="{y}" rx=".65" ry="1" fill="#deded0" opacity=".7"/>
+          </g>
+        </g>''' for side, lid, x, y in (
+            ("near", "M59,106 Q67,114 78,112", 68, 108),
+            ("far", "M109,112 Q122,116 133,107", 121, 108),
+        )
+    )
+    whiskers = " ".join(
+        f'M{x},{y} Q{cx},{cy} {ex},{ey}'
+        for x, y, cx, cy, ex, ey in (
+            (77,149,51,132,17,137), (76,153,47,147,12,151),
+            (77,157,44,160,17,169), (82,159,59,178,33,185),
+            (104,151,139,128,174,137), (106,153,144,144,185,150),
+            (107,155,151,158,185,175), (106,159,142,175,169,188),
+        )
+    )
+    # Mirror the portrait's three-quarter view to match the right-facing body.
+    cat_head = f"""<g class="bj-head"><g transform="translate(104,-142) scale(-.42,.42)">
+      <g class="bj-ear">
+        <path d="{face['regions']['ear']}" fill="#766b60"/>{face_layers['ear']}
+      </g>
+      <path d="{face['base']}" fill="#8b7961"/>{face_layers['head']}
+      {eyes}
+      <path d="{face['regions']['jaw']}" fill="#41332d"/>
+      <g class="bj-jaw">{face_layers['jaw']}</g>
+      <g fill="none" stroke="#ded9c8" stroke-width=".55" stroke-linecap="round" opacity=".8">
+        <path d="{whiskers}"/>
+        <path d="M64,101 Q51,77 34,71 M70,99 Q66,74 51,65 M119,99 Q140,70 158,70 M125,101 Q148,83 167,87"/>
+      </g>
+    </g></g>"""
+    cat = f"""<g class="bj-pitch">
+      <g transform="translate(-47,-65)"><g class="bj-tail">
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#787767" stroke-width="10" stroke-linecap="round"/>
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{stripe}" stroke-width="10.2" stroke-dasharray="5 7"/>
+        <path d="M-5,-3 Q-36,-11 -43,-28" fill="none" stroke="{cream}" stroke-width="1.1" opacity=".5"/>
+      </g></g>
+      {leg('hind-far', -35, -60, True, True)}{leg('fore-far', 26, -60, far=True)}
+      <path d="{torso}" fill="url(#bj-coat)"/>
+      <g clip-path="url(#bj-torso-clip)">
+        <path d="M-52,-81 Q-3,-98 43,-84" fill="none" stroke="{stripe}" stroke-width="11"/>
+        <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="{cream}" stroke-width="9" opacity=".65"/>
+        <g fill="{stripe}" opacity=".93">{stripes}</g>
+        <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{stripe}" stroke-width="2.5"/>
+      </g>
+      {fur_patch('bj-torso-clip', 155, -54, -90, 104, 59)}
+      {leg('hind-near', -32, -60, True)}
+      <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bj-coat)"/>
+      <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{stripe}" stroke-width="4.5"/>
+      {leg('fore-near', 34, -60)}{cat_head}
+    </g>"""
+
+    flowers = []
+    for x, top in ((286, 226), (299, 208), (312, 230)):
+        petals = "".join(f'<ellipse cx="{x + side * 3}" cy="{top + i * 5}" rx="3.3" ry="2.3" fill="{color}"/>'
+                         for i, color in enumerate(("#d9c1e6", "#b49dcd", "#987daf")) for side in (-1, 1))
+        flowers.append(f'<path d="M{x},284 Q{x - 7},251 {x},{top}" stroke="#688969" stroke-width="2" fill="none"/>'
+                       f'<path d="M{x - 2},262 q-18,-18 -14,-4 q6,11 14,4 M{x - 2},249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/>{petals}')
+    grass = "".join(f'<path d="M{x},291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/>' for x in (42, 168, 350, 580, 818, 851))
+    captions = ((0, "Backyard patrol"), (4.8, "A little catnip nibble"), (9.4, "Something fishy…"),
+                (14.2, "Almost got it!"), (17.4, "One more adventure"), (21.7, "That ledge looked wider"),
+                (24.2, "No grip. Slow slide. Soft landing."), (26.7, "Meant to do that."),
+                (37.4, "Backyard patrol"), (40, "Backyard patrol"))
+    labels = []
+    for i, (start, label) in enumerate(captions[:-1]):
+        end = captions[i + 1][0]
+        labels.append(f'<text class="bj-caption bj-caption-{i} muted" x="450" y="322" text-anchor="middle" font-size="12">{escape(label)}</text>')
+        frames = [(0, "0"), (start, "1"), (end, "0"), (duration, "0")]
+        css += track(f"bj-caption-{i}", sorted(dict(frames).items()), "opacity", "steps(1, end)")
+    body = f"""{defs}
+      <text x="28" y="33" font-size="19" font-weight="650">Bojangles</text>
+      <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
+      <path d="M28,292 H872" stroke="{t['border']}" fill="none"/>
+      <g fill="none" stroke="#68816c" stroke-width="1.1" opacity=".65">{grass}</g>
+      <g class="bj-flowers">{''.join(flowers)}</g>
+      <path d="M282,284 H316 L312,292 H286 Z" fill="#806a59"/>
+      <g transform="translate(540,68)"><g class="bj-fish">
+        <path d="M0,0 Q-6,38 0,70" fill="none" stroke="{t['muted']}" stroke-width="1" stroke-dasharray="3 3"/>
+        <g transform="translate(0,79)">
+          <path d="M-13,0 L-27,-11 L-25,11 Z" fill="#739eae"/>
+          <path d="M-18,0 Q0,-19 18,-1 Q4,18 -18,0 Z" fill="#94bdc3" stroke="#567986" stroke-width="1.2"/>
+          <path d="M-8,1 Q1,5 0,10 L8,3 M-10,-4 l6,3 M-3,-7 l6,3" fill="none" stroke="#608a95" stroke-width="1.1"/>
+          <circle cx="11" cy="-2" r="1.9" fill="#223d49"/>
+          <path d="M-12,1 L10,1" stroke="#d8e6df" stroke-width=".8" stroke-dasharray="2 3"/>
+        </g>
+      </g></g>
+      <path d="M766,171 H776 V291 H766 Z" fill="{t['grid']}" stroke="{t['border']}"/>
+      <path d="M759,166 H781 V172 H759 Z" fill="{t['muted']}"/>
+      <path d="M766,197 h10 M766,225 h10 M766,253 h10 M766,280 h10" stroke="{t['border']}"/>
+      <g class="bj-shadow-travel"><ellipse class="bj-shadow" cy="292" rx="65" ry="5" fill="{t['muted']}" opacity=".16"/></g>
+      <g transform="translate(0,{ground})"><g class="bj-travel"><g class="bj-facing">{cat}</g></g></g>
+      {''.join(labels)}
+      <text class="bj-still muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol · flowers, fish toys and questionable ledges</text>"""
+    css += track("bj-shadow-travel", [(s, f"translateX({x}px)") for s, x, _, _, _ in BOJANGLES_STORY])
+    css += track("bj-shadow", [(s, f"scaleX({max(.4, 1 + y / 150):.2f})") for s, _, y, _, _ in BOJANGLES_STORY])
+    css += track("bj-flowers", [(0, "rotate(0deg)"), (4.8, "rotate(0deg)")] +
+                 [(5 + i * .25, f"rotate({-2 if i % 2 else 2}deg)") for i in range(16)] + [(9, "rotate(0deg)"), (40, "rotate(0deg)")])
+    css += track("bj-jaw", [(0, "translateY(0)")] +
+                 [(4.8 + i * .2, f"translateY({3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (40, "translateY(0)")])
+    css += """
+      .bj-travel, .bj-shadow-travel {transform:translateX(126px);}
+      .bj-pitch {transform-origin:0px -65px;}
+      .bj-head {transform-origin:40px -82px;}
+      .bj-flowers {transform-origin:299px 284px;}
+      .bj-fish {animation:bj-fish-sway 4s ease-in-out infinite alternate;}
+      @keyframes bj-fish-sway {from {transform:rotate(-12deg);} to {transform:rotate(12deg);}}
+      .bj-tail {animation:bj-tail-swish 3.4s ease-in-out infinite alternate;}
+      @keyframes bj-tail-swish {from {transform:rotate(-5deg);} to {transform:rotate(7deg);}}
+      .bj-blink {transform-box:fill-box;transform-origin:center;animation:bj-blink 5.3s infinite;}
+      @keyframes bj-blink {0%,89%,96%,100% {transform:scaleY(1);} 92%,93% {transform:scaleY(.06);}}
+      .bj-ear {transform-origin:57px 80px;animation:bj-ear-twitch 8.7s infinite;}
+      @keyframes bj-ear-twitch {0%,91%,100% {transform:rotate(0deg);} 94% {transform:rotate(-7deg);} 97% {transform:rotate(2deg);}}
+      .bj-caption, .bj-still {opacity:0;}
+      @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}}
+    """
+    return shell(w, h, t, body, "Bojangles · backyard adventures",
+                 "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers. "
+                 "Bojangles nibbles catnip flowers, leaps for a moving toy fish, tries a narrow wall, "
+                 "loses his grip, slides down, lands on his paws and walks on. "
+                 "With reduced motion he stands quietly in the garden.", css)
+
+
+
 def main():
     s = build_stats()
     OUT.mkdir(parents=True, exist_ok=True)
-    jobs = [(name, fn) for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline))]
+    jobs = [(name, fn) for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline), ("bojangles", bojangles))]
     jobs += [
         (f"acct-{key}", lambda th, _s, i=i, a=(nm, sub, col, mono): account(th, i, *a))
         for i, (key, nm, sub, col, mono) in enumerate(ACCOUNTS)
