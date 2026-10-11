@@ -38,13 +38,6 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
 - [Pagure](https://pagure.io/user/tiger)
 - [Crowdin](https://crowdin.com/profile/kaovilai)
 
-<a href="https://github.com/kaovilai/github-stats">
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" alt="GitHub stats overview (dark mode)" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" alt="GitHub top languages (dark mode)" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" alt="GitHub stats overview (light mode)" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" alt="GitHub top languages (light mode)" />
-</a>
-
 <details>
 <summary><b>Career map</b></summary>
 
