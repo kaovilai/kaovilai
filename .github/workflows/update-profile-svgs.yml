@@ -10,6 +10,8 @@ on:
     paths:
       - '.github/workflows/update-profile-svgs.yml'
       - '.github/scripts/generate-profile-svgs.py'
+      - '.github/scripts/career_map.py'
+      - 'career-map.json'
       - '.github/scripts/update-repo-languages.sh'
 
 concurrency:
@@ -39,7 +41,7 @@ jobs:
           for attempt in 1 2 3; do
             bash .github/scripts/update-repo-languages.sh
             python3 -I .github/scripts/generate-profile-svgs.py .
-            git add assets/profile repo-languages.json
+            git add assets/profile repo-languages.json career/index.html
             if git diff --staged --quiet; then
               echo "No changes to commit"
               exit 0

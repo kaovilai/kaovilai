@@ -2,6 +2,38 @@
 
 Reference for the machine-generated JSON in this repo (moved out of the profile README).
 
+## career-map.json — curated career connections
+
+Unlike activity data, this file is manually curated from the profile's existing
+career and education facts. No resume scraping, automated dates, or inferred
+employment duration. Update the README's expandable text version alongside it;
+tests check that listed tools and education dates remain represented there.
+
+| Field | Contents |
+| --- | --- |
+| `places[]` | Ordered schematic route: `id`, `city`, `country`, `summary`, `schools[]` (`name`, nullable `dates`), `skills[]` |
+| `education[]` | NC State degree, NC State minor, CS50: `name`, `qualification`, `dates`, `skills[]` |
+| `industry[]` | Red Hat engineering, Red Hat marketing internship, Deutsche Bank internship: `id`, `name`, `role`, `context`, `focus`, `skills[]`; employment dates unspecified |
+| `community[]` | Velero maintainer: `id`, `name`, `role`, `focus`, `skills[]` |
+| `projects` | Personal website / delivery work: `name`, `focus`, `skills[]` |
+| `links` | Profile resume, LinkedIn, OADP, and Velero URLs |
+| `note` | Provenance and limits displayed in the detailed view |
+
+Array order is the curated presentation layout, not a measured timeline. The
+renderer expects the three places, three education entries, three industry
+entries, and one community entry above; adding a new branch requires a layout
+change rather than silently hiding it.
+
+`.github/scripts/career_map.py` renders desktop/mobile SVGs in both themes and the
+interactive `/career/` Pages companion, including a full text table. All outputs
+are generated through `.github/scripts/generate-profile-svgs.py` and committed by
+the existing daily workflow. README animations are CSS-only; the Pages view adds
+optional keyboard/hover detail, theme selection, and animation pause controls.
+
+```sh
+python3 -I -B .github/scripts/test_career_map.py
+```
+
 ## open-prs.json Schema
 
 `open-prs.json` is automatically generated on the `update-pr-badges` workflow schedule and exported for consumption by [kaovilai.pw](https://www.kaovilai.pw).

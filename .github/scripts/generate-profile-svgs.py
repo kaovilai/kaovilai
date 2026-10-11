@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Generate the animated SVGs embedded in README.md from the repo's own JSON data.
 
-Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json, repo-languages.json
-Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*,bojangles}-{dark,light}.svg
+Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json, repo-languages.json, career-map.json
+Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*,bojangles,career,career-mobile}-{dark,light}.svg
+                     career/index.html
 
 Stdlib only. Output is deterministic for identical input (no timestamps from the
 clock, seeded randomness), so the scheduled workflow only commits on real change.
@@ -11,6 +12,7 @@ under prefers-reduced-motion.
 """
 import json
 import math
+import runpy
 import sys
 from collections import Counter
 from datetime import datetime, timedelta
@@ -902,8 +904,23 @@ def bojangles(t, _s):
 
 
 
+def generate_career_assets():
+    """Career facts are curated input, not live activity stats; safe to regenerate alone."""
+    renderers = runpy.run_path(str(Path(__file__).resolve().with_name("career_map.py")))
+    data = load("career-map.json")
+    OUT.mkdir(parents=True, exist_ok=True)
+    for mode, theme in THEMES.items():
+        for compact in (False, True):
+            name = f"career{'-mobile' if compact else ''}-{mode}.svg"
+            (OUT / name).write_text(renderers["render_career_svg"](theme, data, compact), encoding="utf-8")
+    page = ROOT / "career" / "index.html"
+    page.parent.mkdir(parents=True, exist_ok=True)
+    page.write_text(renderers["render_career_page"](data, THEMES), encoding="utf-8")
+
+
 def main():
     s = build_stats()
+    generate_career_assets()
     OUT.mkdir(parents=True, exist_ok=True)
     jobs = [(name, fn) for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline), ("bojangles", bojangles))]
     jobs += [
