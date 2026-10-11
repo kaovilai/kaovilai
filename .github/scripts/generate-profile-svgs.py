@@ -345,7 +345,8 @@ def orbit(t, s):
     cx, cy = 600, 250
     lane_repos, orgs = s["lane_repos"], s["other_orgs"]
     # planets: ("repo"|"org", label, count, color, moons)
-    planets_in = [("repo", r.split("/")[1], n, LANE_COLORS[lane], []) for r, n, lane in lane_repos]
+    short = Counter(r.split("/")[1] for r, _, _ in lane_repos)  # same short name in two orgs -> keep the org prefix
+    planets_in = [("repo", r if short[r.split("/")[1]] > 1 else r.split("/")[1], n, LANE_COLORS[lane], []) for r, n, lane in lane_repos]
     planets_in += [("org", org + "/", total, LANE_COLORS["Other"], moons) for org, total, moons in orgs]
     peak = max(p[2] for p in planets_in)
     rings = [(92, planets_in[:4], 90, 1), (160, planets_in[4:], 140, -1)]
@@ -555,7 +556,7 @@ def build_stats():
             org, name = r.split("/")
             by_org.setdefault(org, []).append((name, n))
     other_orgs = sorted(
-        ((org, sum(n for _, n in rs), ([m for m in sorted(rs, key=lambda x: -x[1]) if m[1] >= 3] or sorted(rs, key=lambda x: -x[1]))[:3])
+        ((org, sum(n for _, n in rs), ([m for m in sorted(rs, key=lambda x: -x[1]) if m[1] >= 3][:3] or sorted(rs, key=lambda x: -x[1])[:1]))
          for org, rs in by_org.items()),
         key=lambda x: -x[1],
     )[:4]
