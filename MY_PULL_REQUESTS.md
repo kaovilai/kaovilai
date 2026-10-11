@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-11 11:41:48 UTC
+> Last updated: 2026-10-11 16:52:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -140,10 +140,6 @@ No open PRs.
 - [![PR #17521](https://img.shields.io/badge/PR%20%2317521-ready-green)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
 - [![PR #17527](https://img.shields.io/badge/PR%20%2317527-ready-green)](https://github.com/pingdotgg/t3code/pull/17527) **pingdotgg/t3code** → `main` - fix(web): git actions menu no longer offers Create PR when the thread has a linked PR
 - [![PR #17604](https://img.shields.io/badge/PR%20%2317604-ready-green)](https://github.com/pingdotgg/t3code/pull/17604) **pingdotgg/t3code** → `main` - feat(provider): add Claude fork-subagents instance setting
-- [![PR #17611](https://img.shields.io/badge/PR%20%2317611-ready-green)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
-- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
-- [![PR #17720](https://img.shields.io/badge/PR%20%2317720-ready-green)](https://github.com/pingdotgg/t3code/pull/17720) **pingdotgg/t3code** → `main` - fix(mobile): Android composer accepts images pasted from Gboard
-- [![PR #17721](https://img.shields.io/badge/PR%20%2317721-ready-green)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #17831](https://img.shields.io/badge/PR%20%2317831-ready-green)](https://github.com/pingdotgg/t3code/pull/17831) **pingdotgg/t3code** → `main` - feat(server): PR watch reports missing required checks and behind-base
 - [![PR #18096](https://img.shields.io/badge/PR%20%2318096-ready-green)](https://github.com/pingdotgg/t3code/pull/18096) **pingdotgg/t3code** → `main` - fix(server): show Antigravity's real sign-in failure reason
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
@@ -152,6 +148,10 @@ No open PRs.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-draft-gray)](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
+- [![PR #17611](https://img.shields.io/badge/PR%20%2317611-draft-gray)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
+- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-draft-gray)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
+- [![PR #17720](https://img.shields.io/badge/PR%20%2317720-draft-gray)](https://github.com/pingdotgg/t3code/pull/17720) **pingdotgg/t3code** → `main` - fix(mobile): Android composer accepts images pasted from Gboard
+- [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
