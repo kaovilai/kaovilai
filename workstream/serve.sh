@@ -1,2 +1,4 @@
 #!/bin/bash
-cd "$(dirname "$0")/.." && python3 -m http.server 8792
+set -euo pipefail
+cd "$(dirname "$0")/.."
+exec python3 workstream/server.py "$@"

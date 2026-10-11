@@ -127,3 +127,7 @@ bash workstream/refresh-data.sh     # pulls fresh data on demand, between schedu
 
 Click a card to add a note or override its workstream; drag to reorder within a lane or drop onto a different lane to reclassify. "Save & Publish" writes `workstream-classification.json`/`workstream-layout.json` and runs a signed-off `git commit` + `push` via the local server — so it only ever touches those two files, never the auto-collected data. Without the local server running, edits fall back to browser `localStorage` only.
 
+
+### Local server security model
+
+"Save & Publish" commits and pushes with your credentials, so `workstream/server.py` only accepts requests from the dashboard it serves itself: no CORS, loopback `Host`/`Origin` only, a JSON content type, and a random per-run token that only a same-origin read of `/api/health` returns. It serves only `workstream/` and the dashboard's JSON inputs (never `.git/`), commits just the two annotation files, and refuses to publish unless you are on `main` with nothing else unpushed. Tests: `python3 -I workstream/test_server.py`.
