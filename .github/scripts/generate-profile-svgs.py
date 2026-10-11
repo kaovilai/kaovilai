@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate the animated SVGs embedded in README.md from the repo's own JSON data.
 
-Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json
-Outputs:             assets/profile/{hero,impact,orbit,pipeline}-{dark,light}.svg
+Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json, repo-languages.json
+Outputs:             assets/profile/{hero,impact,orbit,languages,pipeline}-{dark,light}.svg
 
 Stdlib only. Output is deterministic for identical input (no timestamps from the
 clock, seeded randomness), so the scheduled workflow only commits on real change.
@@ -44,6 +44,14 @@ LANE_COLORS = {
     "KubeVirt Data Mover": "#a371f7",
     "Kubernetes": "#326ce5",
     "Other": "#8b949e",
+}
+
+LANG_COLORS = {  # GitHub linguist colours; anything else gets a stable hashed hue
+    "Go": "#00ADD8", "Shell": "#89e051", "Python": "#3572A5", "TypeScript": "#3178c6",
+    "JavaScript": "#f1e05a", "HTML": "#e34c26", "Java": "#b07219", "Kotlin": "#A97BFF",
+    "Jinja": "#a52a22", "Makefile": "#427819", "Dockerfile": "#384d54", "Rust": "#dea584",
+    "Ruby": "#701516", "C": "#555555", "C++": "#f34b7d", "Swift": "#F05138",
+    "Dart": "#00B4AB", "Vue": "#41b883", "CSS": "#663399", "Starlark": "#76d275",
 }
 
 STATUS_COLORS = [  # (status, label, color)
@@ -299,6 +307,58 @@ def orbit(t, s):
                  "Orbit diagram: repositories sized by merged PR count, coloured by workstream.", css)
 
 
+# ----------------------------------------------------------------------- languages
+def lang_color(name):
+    if name in LANG_COLORS:
+        return LANG_COLORS[name]
+    hue = sum(ord(c) * (i + 1) for i, c in enumerate(name)) % 360
+    return f"hsl({hue},55%,55%)"
+
+
+def languages(t, s):
+    w, h = 900, 330
+    langs = s["languages"]
+    cx, cy, r, sw = 215, 185, 98, 30
+    gap = 0.7  # visual gap between ring segments, in pathLength units
+    segs, start = [], 0.0
+    for i, (name, n, pct) in enumerate(langs):
+        length = max(pct - gap, 0.3)
+        segs.append(
+            f'<circle class="seg" cx="{cx}" cy="{cy}" r="{r}" pathLength="100" fill="none" stroke="{lang_color(name)}" '
+            f'stroke-width="{sw}" transform="rotate(-90 {cx} {cy})" '
+            f'style="--len:{length:.2f};--rest:{100 - length:.2f};stroke-dashoffset:-{start:.2f};animation-delay:{0.2 + i * 0.18:.2f}s"/>'
+        )
+        start += pct
+    top_name, _, top_pct = langs[0]
+    legend, ly, bar_x, bar_w = [], 96, 440, 300
+    for i, (name, n, pct) in enumerate(langs):
+        delay = 0.4 + i * 0.18
+        legend.append(
+            f'<circle cx="{bar_x - 16}" cy="{ly - 4}" r="5" fill="{lang_color(name)}"/>'
+            f'<text x="{bar_x}" y="{ly}" font-size="13" font-weight="600">{escape(name)}</text>'
+            f'<text class="mono muted" x="{bar_x + bar_w + 70}" y="{ly}" font-size="12" text-anchor="end">{pct:.1f}%</text>'
+            f'<rect x="{bar_x}" y="{ly + 7}" width="{bar_w + 70}" height="6" rx="3" fill="{t["grid"]}"/>'
+            f'<rect class="lbar" x="{bar_x}" y="{ly + 7}" width="{max(pct / langs[0][2], 0.02) * (bar_w + 70):.1f}" height="6" rx="3" '
+            f'fill="{lang_color(name)}" style="animation-delay:{delay:.2f}s"/>'
+        )
+        ly += 28
+    body = f"""
+    <text x="32" y="38" font-size="18" font-weight="700">Languages I ship in</text>
+    <text class="muted" x="32" y="58" font-size="12">Merged PRs weighted by each repo's primary language · {s['lang_prs']:,} PRs across {s['lang_repos']} repos</text>
+    <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{t['grid']}" stroke-width="{sw}"/>
+    {''.join(segs)}
+    <text class="mono" x="{cx}" y="{cy - 2}" font-size="26" font-weight="800" text-anchor="middle">{top_pct:.0f}%</text>
+    <text class="muted" x="{cx}" y="{cy + 20}" font-size="13" text-anchor="middle">{escape(top_name)}</text>
+    {''.join(legend)}"""
+    css = """
+    .seg { stroke-dasharray: var(--len) var(--rest); animation: draw .9s cubic-bezier(.3,.7,.2,1) both; }
+    @keyframes draw { from { stroke-dasharray: 0 100; } to { stroke-dasharray: var(--len) var(--rest); } }
+    .lbar { transform-box: fill-box; transform-origin: left; animation: wipe 1s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes wipe { from { transform: scaleX(0); } to { transform: scaleX(1); } }"""
+    return shell(w, h, t, body, "Languages by merged pull requests",
+                 f"Donut and bar chart of merged PRs by repository language; {top_name} leads at {top_pct:.0f}%.", css)
+
+
 # ------------------------------------------------------------------------ pipeline
 def pipeline(t, s):
     w, h = 900, 200
@@ -360,6 +420,19 @@ def build_stats():
     for r, n in by_repo.items():
         lane_totals[lane_for(r, lane_votes)] += n
 
+    repo_langs = load("repo-languages.json")
+    by_lang = Counter()
+    for r, n in by_repo.items():
+        if repo_langs.get(r):
+            by_lang[repo_langs[r]] += n
+    lang_total = sum(by_lang.values())
+    ranked = by_lang.most_common()
+    shown = ranked[:7]
+    rest = sum(n for _, n in ranked[7:])
+    if rest:
+        shown.append(("Other", rest))
+    lang_rows = [(name, n, 100.0 * n / lang_total) for name, n in shown]
+
     open_prs = [p for p in prs["prs"] if p["org"] != OWNER]
     rq = prs.get("reviewQueue", {})
     return dict(
@@ -368,6 +441,9 @@ def build_stats():
         merged_ytd=by_year[str(year)],
         merged_by_year={int(y): n for y, n in by_year.items()},
         top_repos=top,
+        languages=lang_rows,
+        lang_prs=lang_total,
+        lang_repos=sum(1 for r in by_repo if repo_langs.get(r)),
         lane_totals=lane_totals,
         open_prs=len(open_prs),
         pr_status=Counter(p["status"] for p in open_prs),
@@ -380,10 +456,10 @@ def build_stats():
 def main():
     s = build_stats()
     OUT.mkdir(parents=True, exist_ok=True)
-    for name, fn in (("hero", hero), ("impact", impact), ("orbit", orbit), ("pipeline", pipeline)):
+    for name, fn in (("hero", hero), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline)):
         for mode, theme in THEMES.items():
             (OUT / f"{name}-{mode}.svg").write_text(fn(theme, s), encoding="utf-8")
-    print(f"wrote {len(THEMES) * 4} SVGs to {OUT} ({s['merged_all']} merged PRs, {s['open_prs']} open)")
+    print(f"wrote {len(THEMES) * 5} SVGs to {OUT} ({s['merged_all']} merged PRs, {s['open_prs']} open)")
 
 
 if __name__ == "__main__":

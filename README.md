@@ -24,6 +24,11 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
 </picture>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/languages-dark.svg">
+  <img alt="Donut and bar chart of merged pull requests by repository language" src="assets/profile/languages-light.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/pipeline-dark.svg">
   <img alt="Stacked bar of open pull requests by status" src="assets/profile/pipeline-light.svg" width="100%">
 </picture>
