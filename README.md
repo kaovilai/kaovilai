@@ -5,6 +5,11 @@
   <img alt="Tiger Kaovilai — Velero maintainer and OADP engineer at Red Hat, with live PR totals" src="assets/profile/hero-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/ticker-dark.svg">
+  <img alt="Scrolling ticker of recently merged pull requests" src="assets/profile/ticker-light.svg" width="100%">
+</picture>
+
 [Website](https://www.kaovilai.pw) · [LinkedIn](https://www.linkedin.com/in/kaovilai/) · [Resume](https://resume.kaovilai.pw/) · [My Pull Requests](MY_PULL_REQUESTS.md) · [My Issues](MY_ISSUES.md) · [My Activity](MY_ACTIVITY.md) · [Workstream timeline](https://github.tig.pw/kaovilai/workstream/)
 
 </div>

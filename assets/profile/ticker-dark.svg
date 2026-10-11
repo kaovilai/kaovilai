@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-labelledby="t d">
+  <title id="t">Recently merged pull requests</title>
+  <desc id="d">Scrolling ticker of my most recently merged public pull requests.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ee0000"/><stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <radialGradient id="aura"><stop offset="0" stop-color="#ee0000" stop-opacity=".35"/><stop offset="1" stop-color="#ee0000" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="900" height="56" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .muted { fill: #8b949e; }
+    .roll { transform: translateY(var(--to)); animation: roll 1.4s cubic-bezier(.2,.8,.2,1) backwards; }
+    @keyframes roll { from { transform: translateY(0); } }
+    
+    .belt { animation: tick 60s linear infinite; }
+    @keyframes tick { to { transform: translate(calc(150px + var(--w)), 0); } }
+    .ping { transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; }
+    @keyframes ping { from { transform: scale(1); opacity: .8; } to { transform: scale(3.2); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }</style>
+  <rect width="900" height="56" rx="16" fill="url(#card)"/>
+  <g clip-path="url(#clip)">
+
+    <clipPath id="belt"><rect x="150" y="0" width="734" height="56"/></clipPath>
+    <linearGradient id="fadeL"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fadeR"><stop offset="0" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+    <circle class="ping" cx="30" cy="28" r="5" fill="#3fb950"/><circle cx="30" cy="28" r="4" fill="#3fb950"/>
+    <text class="mono" x="44" y="32" font-size="12" font-weight="800">SHIPPED</text>
+    <text class="mono muted" x="108" y="32" font-size="10">live</text>
+    <line x1="146" x2="146" y1="14" y2="42" stroke="#30363d"/>
+    <g clip-path="url(#belt)">
+      <g class="belt" style="--w:-6229px;animation-duration:164s" transform="translate(150,0)">
+        <g transform="translate(16,0)"><g transform="translate(0,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">OpenPetsHQ/openpets#252</tspan><tspan class="muted">  Speak question speech for Claude AskUserQuestion permis…  7h ago</tspan></text></g><g transform="translate(635,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10051</tspan><tspan class="muted">  docs: use consistent excludedNames glob pattern in filt…  2d ago</tspan></text></g><g transform="translate(1264,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">openshift/release#86664</tspan><tspan class="muted">  Add release-4.21 to Prow configuration branches  3d ago</tspan></text></g><g transform="translate(1840,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">msfrucht/oadp-operator#2</tspan><tspan class="muted">  fix: address shubham&#x27;s review feedback on DPT CACertRef…  4d ago</tspan></text></g><g transform="translate(2482,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">msfrucht/oadp-operator#1</tspan><tspan class="muted">  fix: remove unused bsl parameter (golangci-lint unparam)  5d ago</tspan></text></g><g transform="translate(3124,0)"><circle cx="0" cy="28" r="4" fill="#ee0000"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#ee0000;font-weight:700">migtools/oadp-vm-file-restore#108</tspan><tspan class="muted">  [oadp-1.6] Fix MinIO create-bucket Job timeout by switc…  8d ago</tspan></text></g><g transform="translate(3826,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10608</tspan><tspan class="muted">  fix: regenerate CRD manifests for the status.activities…  11d ago</tspan></text></g><g transform="translate(4461,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10077</tspan><tspan class="muted">  Add Dependabot auto-approve workflow  11d ago</tspan></text></g><g transform="translate(4964,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10565</tspan><tspan class="muted">  Add e2e test for namespace selection by label in resour…  16d ago</tspan></text></g><g transform="translate(5600,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#9646</tspan><tspan class="muted">  Fix backup-finalizer: do not set backup phase to Comple…  17d ago</tspan></text></g></g>
+        <g transform="translate(6245,0)"><g transform="translate(0,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">OpenPetsHQ/openpets#252</tspan><tspan class="muted">  Speak question speech for Claude AskUserQuestion permis…  7h ago</tspan></text></g><g transform="translate(635,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10051</tspan><tspan class="muted">  docs: use consistent excludedNames glob pattern in filt…  2d ago</tspan></text></g><g transform="translate(1264,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">openshift/release#86664</tspan><tspan class="muted">  Add release-4.21 to Prow configuration branches  3d ago</tspan></text></g><g transform="translate(1840,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">msfrucht/oadp-operator#2</tspan><tspan class="muted">  fix: address shubham&#x27;s review feedback on DPT CACertRef…  4d ago</tspan></text></g><g transform="translate(2482,0)"><circle cx="0" cy="28" r="4" fill="#8b949e"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#8b949e;font-weight:700">msfrucht/oadp-operator#1</tspan><tspan class="muted">  fix: remove unused bsl parameter (golangci-lint unparam)  5d ago</tspan></text></g><g transform="translate(3124,0)"><circle cx="0" cy="28" r="4" fill="#ee0000"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#ee0000;font-weight:700">migtools/oadp-vm-file-restore#108</tspan><tspan class="muted">  [oadp-1.6] Fix MinIO create-bucket Job timeout by switc…  8d ago</tspan></text></g><g transform="translate(3826,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10608</tspan><tspan class="muted">  fix: regenerate CRD manifests for the status.activities…  11d ago</tspan></text></g><g transform="translate(4461,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10077</tspan><tspan class="muted">  Add Dependabot auto-approve workflow  11d ago</tspan></text></g><g transform="translate(4964,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#10565</tspan><tspan class="muted">  Add e2e test for namespace selection by label in resour…  16d ago</tspan></text></g><g transform="translate(5600,0)"><circle cx="0" cy="28" r="4" fill="#2ea8e0"/><text class="mono" x="12" y="32" font-size="11"><tspan style="fill:#2ea8e0;font-weight:700">velero-io/velero#9646</tspan><tspan class="muted">  Fix backup-finalizer: do not set backup phase to Comple…  17d ago</tspan></text></g></g>
+      </g>
+    </g>
+    <rect x="150" y="0" width="40" height="56" fill="url(#fadeL)"/>
+    <rect x="844" y="0" width="40" height="56" fill="url(#fadeR)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="55" rx="16" fill="none" stroke="#30363d"/>
+</svg>
