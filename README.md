@@ -5,6 +5,11 @@
   <img alt="Tiger Kaovilai — Velero maintainer and OADP engineer at Red Hat, with live PR totals" src="assets/profile/hero-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/ticker-dark.svg">
+  <img alt="Scrolling ticker of recently merged pull requests" src="assets/profile/ticker-light.svg" width="100%">
+</picture>
+
 [Website](https://www.kaovilai.pw) · [LinkedIn](https://www.linkedin.com/in/kaovilai/) · [Resume](https://resume.kaovilai.pw/) · [My Pull Requests](MY_PULL_REQUESTS.md) · [My Issues](MY_ISSUES.md) · [My Activity](MY_ACTIVITY.md) · [Workstream timeline](https://github.tig.pw/kaovilai/workstream/)
 
 </div>
@@ -24,6 +29,11 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
 </picture>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/languages-dark.svg">
+  <img alt="Donut and bar chart of merged pull requests by repository language" src="assets/profile/languages-light.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/pipeline-dark.svg">
   <img alt="Stacked bar of open pull requests by status" src="assets/profile/pipeline-light.svg" width="100%">
 </picture>
@@ -37,13 +47,6 @@ Senior Software Engineer at Red Hat, working on [OpenShift API for Data Protecti
 - [freedesktop.org GitLab](https://gitlab.freedesktop.org/kaovilai)
 - [Pagure](https://pagure.io/user/tiger)
 - [Crowdin](https://crowdin.com/profile/kaovilai)
-
-<a href="https://github.com/kaovilai/github-stats">
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-dark-mode-only" alt="GitHub stats overview (dark mode)" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-dark-mode-only" alt="GitHub top languages (dark mode)" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/overview.svg#gh-light-mode-only" alt="GitHub stats overview (light mode)" />
-<img src="https://github.com/kaovilai/github-stats/blob/master/generated/languages.svg#gh-light-mode-only" alt="GitHub top languages (light mode)" />
-</a>
 
 <details>
 <summary><b>Career map</b></summary>
