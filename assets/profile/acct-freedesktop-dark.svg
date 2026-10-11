@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="52" viewBox="0 0 210 52" role="img" aria-labelledby="t d">
+  <title id="t">freedesktop.org (GitLab · kaovilai)</title>
+  <desc id="d">Link to my freedesktop.org profile.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ee0000"/><stop offset="1" stop-color="#ff6b6b"/>
+    </linearGradient>
+    <radialGradient id="aura"><stop offset="0" stop-color="#ee0000" stop-opacity=".35"/><stop offset="1" stop-color="#ee0000" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="210" height="52" rx="14"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #e6edf3; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .muted { fill: #8b949e; }
+    .roll { transform: translateY(var(--to)); animation: roll 1.4s cubic-bezier(.2,.8,.2,1) backwards; }
+    @keyframes roll { from { transform: translateY(0); } }
+    
+    .enter { animation: rise .6s cubic-bezier(.2,.8,.2,1) backwards; }
+    @keyframes rise { from { transform: translateY(8px); opacity: 0; } }
+    .edge { stroke-dasharray: 1000; animation: trace 1.4s ease-out backwards; }
+    @keyframes trace { from { stroke-dashoffset: 1000; } }
+    .badge { transform-box: fill-box; transform-origin: center; animation: breathe 3.6s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+    .gleam { animation: sweep 5s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(0); } 40%,100% { transform: translateX(310px); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+    }</style>
+  <rect width="210" height="52" rx="14" fill="url(#card)"/>
+  <g clip-path="url(#clip)">
+
+    <clipPath id="pill"><rect width="210" height="52" rx="14"/></clipPath>
+    <linearGradient id="gleam" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <g class="enter" style="animation-delay:0.24s">
+      <rect class="edge" x="1" y="1" width="208" height="50" rx="13" fill="none" stroke="#3b82c4" stroke-width="1.5" opacity=".55"/>
+      <g class="badge" style="animation-delay:0.84s">
+        <rect x="12" y="10" width="32" height="32" rx="9" fill="#3b82c4"/>
+        <text class="mono" x="28" y="31" font-size="13" font-weight="800" text-anchor="middle" style="fill:#fff">fd</text>
+      </g>
+      <text x="56" y="25" font-size="14" font-weight="700">freedesktop.org</text>
+      <text class="mono muted" x="56" y="40" font-size="10.5">GitLab · kaovilai</text>
+      <g clip-path="url(#pill)"><rect class="gleam" x="-80" y="0" width="80" height="52" fill="url(#gleam)" style="animation-delay:1.74s"/></g>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="209" height="51" rx="14" fill="none" stroke="#30363d"/>
+</svg>

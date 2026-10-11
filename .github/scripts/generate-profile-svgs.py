@@ -2,7 +2,7 @@
 """Generate the animated SVGs embedded in README.md from the repo's own JSON data.
 
 Inputs (repo root):  workstream-archive.json, open-prs.json, activity.json, repo-languages.json
-Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline}-{dark,light}.svg
+Outputs:             assets/profile/{hero,ticker,impact,orbit,languages,pipeline,acct-*}-{dark,light}.svg
 
 Stdlib only. Output is deterministic for identical input (no timestamps from the
 clock, seeded randomness), so the scheduled workflow only commits on real change.
@@ -86,7 +86,7 @@ def lane_for(repo, lane_votes):
     return "Other"
 
 
-def shell(w, h, t, body, title, desc, extra_css=""):
+def shell(w, h, t, body, title, desc, extra_css="", radius=16):
     """Common SVG wrapper: rounded card, shared CSS, reduced-motion guard."""
     css = f"""
     text {{ font-family: {FONT}; fill: {t['text']}; }}
@@ -109,14 +109,14 @@ def shell(w, h, t, body, title, desc, extra_css=""):
       <stop offset="0" stop-color="{t['accent']}"/><stop offset="1" stop-color="{t['accent2']}"/>
     </linearGradient>
     <radialGradient id="aura"><stop offset="0" stop-color="{t['glow']}" stop-opacity=".35"/><stop offset="1" stop-color="{t['glow']}" stop-opacity="0"/></radialGradient>
-    <clipPath id="clip"><rect width="{w}" height="{h}" rx="16"/></clipPath>
+    <clipPath id="clip"><rect width="{w}" height="{h}" rx="{radius}"/></clipPath>
   </defs>
   <style>{css}</style>
-  <rect width="{w}" height="{h}" rx="16" fill="url(#card)"/>
+  <rect width="{w}" height="{h}" rx="{radius}" fill="url(#card)"/>
   <g clip-path="url(#clip)">
 {body}
   </g>
-  <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="16" fill="none" stroke="{t['border']}"/>
+  <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="{radius}" fill="none" stroke="{t['border']}"/>
 </svg>
 """
 
@@ -231,6 +231,44 @@ def hero(t, s):
     @media (prefers-reduced-motion: reduce) {{ .p0 {{ opacity: 1; }} }}"""
     return shell(w, h, t, body, "Tiger Kaovilai",
                  "Velero maintainer and OADP engineer at Red Hat. Live totals from my public PR history.", css)
+
+
+# --------------------------------------------------------------------------- accounts
+# One small SVG per account: links inside an <img>-embedded SVG are inert on GitHub, so the
+# README wraps each pill in an ordinary link instead.
+ACCOUNTS = [  # key, name, subtitle, brand colour, monogram
+    ("github", "GitHub", "kaovilai", "#6e7681", "GH"),
+    ("gitlab", "GitLab", "kaovilai", "#fc6d26", "GL"),
+    ("freedesktop", "freedesktop.org", "GitLab · kaovilai", "#3b82c4", "fd"),
+]
+
+
+def account(t, idx, name, sub, color, mono):
+    w, h = 210, 52
+    d = idx * 0.12
+    body = f"""
+    <clipPath id="pill"><rect width="{w}" height="{h}" rx="14"/></clipPath>
+    <linearGradient id="gleam" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <g class="enter" style="animation-delay:{d:.2f}s">
+      <rect class="edge" x="1" y="1" width="{w - 2}" height="{h - 2}" rx="13" fill="none" stroke="{color}" stroke-width="1.5" opacity=".55"/>
+      <g class="badge" style="animation-delay:{d + 0.6:.2f}s">
+        <rect x="12" y="10" width="32" height="32" rx="9" fill="{color}"/>
+        <text class="mono" x="28" y="31" font-size="13" font-weight="800" text-anchor="middle" style="fill:#fff">{escape(mono)}</text>
+      </g>
+      <text x="56" y="25" font-size="14" font-weight="700">{escape(name)}</text>
+      <text class="mono muted" x="56" y="40" font-size="10.5">{escape(sub)}</text>
+      <g clip-path="url(#pill)"><rect class="gleam" x="-80" y="0" width="80" height="{h}" fill="url(#gleam)" style="animation-delay:{d + 1.5:.2f}s"/></g>
+    </g>"""
+    css = f"""
+    .enter {{ animation: rise .6s cubic-bezier(.2,.8,.2,1) backwards; }}
+    @keyframes rise {{ from {{ transform: translateY(8px); opacity: 0; }} }}
+    .edge {{ stroke-dasharray: 1000; animation: trace 1.4s ease-out backwards; }}
+    @keyframes trace {{ from {{ stroke-dashoffset: 1000; }} }}
+    .badge {{ transform-box: fill-box; transform-origin: center; animation: breathe 3.6s ease-in-out infinite; }}
+    @keyframes breathe {{ 0%,100% {{ transform: scale(1); }} 50% {{ transform: scale(1.08); }} }}
+    .gleam {{ animation: sweep 5s ease-in-out infinite; }}
+    @keyframes sweep {{ 0% {{ transform: translateX(0); }} 40%,100% {{ transform: translateX(310px); }} }}"""
+    return shell(w, h, t, body, f"{name} ({sub})", f"Link to my {name} profile.", css, radius=14)
 
 
 # -------------------------------------------------------------------------- ticker
@@ -626,14 +664,25 @@ def build_stats():
 def main():
     s = build_stats()
     OUT.mkdir(parents=True, exist_ok=True)
-    for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline)):
+    jobs = [(name, fn) for name, fn in (("hero", hero), ("ticker", ticker), ("impact", impact), ("orbit", orbit), ("languages", languages), ("pipeline", pipeline))]
+    jobs += [
+        (f"acct-{key}", lambda th, _s, i=i, a=(nm, sub, col, mono): account(th, i, *a))
+        for i, (key, nm, sub, col, mono) in enumerate(ACCOUNTS)
+    ]
+    live = {f"acct-{key}-{mode}.svg" for key, *_ in ACCOUNTS for mode in THEMES}
+    for old in OUT.glob("acct-*.svg"):
+        if old.name not in live:
+            old.unlink()
+    written = 0
+    for name, fn in jobs:
         for mode, theme in THEMES.items():
             svg = fn(theme, s)
             if svg is None:
                 print(f"skipping {name}-{mode}: no data")
                 continue
             (OUT / f"{name}-{mode}.svg").write_text(svg, encoding="utf-8")
-    print(f"wrote {len(THEMES) * 6} SVGs to {OUT} ({s['merged_all']} merged PRs, {s['open_prs']} open)")
+            written += 1
+    print(f"wrote {written} SVGs to {OUT} ({s['merged_all']} merged PRs, {s['open_prs']} open)")
 
 
 if __name__ == "__main__":
