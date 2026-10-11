@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T02:30:31Z",
+  "updatedAt": "2026-10-11T11:41:48Z",
   "prs": [
     {
       "number": 10010,
@@ -10883,24 +10883,6 @@
       ]
     },
     {
-      "number": 35,
-      "repo": "HASHCUT69/Blend-n-Run",
-      "org": "HASHCUT69",
-      "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-      "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-      "targetBranch": "master",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-08-12T04:09:10Z",
-      "workstream": "Uncategorized",
-      "ciChecks": []
-    },
-    {
       "number": 121974,
       "repo": "NousResearch/hermes-agent",
       "org": "NousResearch",
@@ -11262,6 +11244,112 @@
       ]
     },
     {
+      "number": 17521,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "feat(web): auto-assign accent color to non-default provider instances",
+      "url": "https://github.com/pingdotgg/t3code/pull/17521",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M"
+      ],
+      "updatedAt": "2026-10-11T04:19:55Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17521",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17521",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17521",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 17527,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -11278,7 +11366,7 @@
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-09T18:17:05Z",
+      "updatedAt": "2026-10-11T04:19:53Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -11312,11 +11400,11 @@
       ]
     },
     {
-      "number": 17606,
+      "number": 17604,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
-      "title": "fix(models): Ultracode is offered on Sonnet 5, Sonnet 5.5 and Haiku 5.5",
-      "url": "https://github.com/pingdotgg/t3code/pull/17606",
+      "title": "feat(provider): add Claude fork-subagents instance setting",
+      "url": "https://github.com/pingdotgg/t3code/pull/17604",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -11326,13 +11414,25 @@
       "isDraft": false,
       "labels": [
         "vouch:unvouched",
-        "size:S"
+        "size:M"
       ],
-      "updatedAt": "2026-10-09T20:42:16Z",
+      "updatedAt": "2026-10-11T07:04:43Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
           "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
           "conclusion": "SUCCESS"
         },
         {
@@ -11344,12 +11444,118 @@
           "conclusion": "SKIPPED"
         },
         {
-          "name": "Label PR 17606",
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17604",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17604",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
           "conclusion": "SUCCESS"
         },
         {
           "name": "Label PR size",
           "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 17611,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
+      "url": "https://github.com/pingdotgg/t3code/pull/17611",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:S"
+      ],
+      "updatedAt": "2026-10-11T06:27:41Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17611",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17611",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
         },
         {
           "name": "Macroscope - Approvability Check",
@@ -11361,6 +11567,264 @@
         },
         {
           "name": "Macroscope - Correctness Check",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 17717,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): header menu and Git menu reach a thread's linked pull request",
+      "url": "https://github.com/pingdotgg/t3code/pull/17717",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:L"
+      ],
+      "updatedAt": "2026-10-11T03:11:34Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17717",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17717",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 17720,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): Android composer accepts images pasted from Gboard",
+      "url": "https://github.com/pingdotgg/t3code/pull/17720",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M"
+      ],
+      "updatedAt": "2026-10-11T07:04:52Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17720",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17720",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 17721,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): iPad composer accepts dragged screenshots",
+      "url": "https://github.com/pingdotgg/t3code/pull/17721",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M"
+      ],
+      "updatedAt": "2026-10-11T11:09:12Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17721",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17721",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
@@ -11386,7 +11850,7 @@
         "vouch:unvouched",
         "size:L"
       ],
-      "updatedAt": "2026-10-10T17:26:54Z",
+      "updatedAt": "2026-10-11T04:20:32Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -11411,6 +11875,65 @@
         },
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 18096,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(server): show Antigravity's real sign-in failure reason",
+      "url": "https://github.com/pingdotgg/t3code/pull/18096",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M",
+        "macroscope-review"
+      ],
+      "updatedAt": "2026-10-11T11:34:07Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR 18096",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Macroscope - Approvability Check",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "Macroscope - Effect Service Conventions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Macroscope - Correctness Check",
           "conclusion": "SUCCESS"
         }
       ]
@@ -11542,6 +12065,24 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2023-04-19T13:57:18Z",
+      "workstream": "Uncategorized",
+      "ciChecks": []
+    },
+    {
+      "number": 35,
+      "repo": "HASHCUT69/Blend-n-Run",
+      "org": "HASHCUT69",
+      "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+      "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+      "targetBranch": "master",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-12T04:09:10Z",
       "workstream": "Uncategorized",
       "ciChecks": []
     },
@@ -13151,7 +13692,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-11T02:30:31Z",
+    "updatedAt": "2026-10-11T11:41:48Z",
     "needsReview": [
       {
         "number": 68,
@@ -13198,7 +13739,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 544,
+        "waitingDays": 545,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -13246,7 +13787,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 526,
+        "waitingDays": 527,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -13270,7 +13811,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 492,
+        "waitingDays": 493,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -13384,6 +13925,36 @@
         "reason": "awaitingReview",
         "waitingDays": 144,
         "updatedAt": "2026-05-19T22:41:19Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 123,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 104,
@@ -13500,30 +14071,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 88,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -13549,8 +14096,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 87,
+        "waitingDays": 88,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 88,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -13871,6 +14442,30 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 60,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -13898,30 +14493,6 @@
         "reason": "awaitingReview",
         "waitingDays": 60,
         "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 59,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -14496,7 +15067,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14602,7 +15173,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-09-24T05:54:54Z"
       },
       {
@@ -14815,7 +15386,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 8,
+        "waitingDays": 9,
         "updatedAt": "2026-10-02T07:09:40Z"
       },
       {
@@ -14872,8 +15443,38 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-10-06T10:24:08Z"
+      },
+      {
+        "number": 2473,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2473",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "weshayutin",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 426,
@@ -14905,36 +15506,6 @@
         "reason": "awaitingReview",
         "waitingDays": 4,
         "updatedAt": "2026-10-06T22:24:34Z"
-      },
-      {
-        "number": 2473,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2473",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "weshayutin",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 70,
@@ -14994,37 +15565,6 @@
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
-        "number": 2478,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
-        "url": "https://github.com/openshift/oadp-operator/pull/2478",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "hhpatel14"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-08T21:02:44Z"
-      },
-      {
         "number": 9236,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -15054,8 +15594,39 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-10-08T04:29:03Z"
+      },
+      {
+        "number": 2478,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
+        "url": "https://github.com/openshift/oadp-operator/pull/2478",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "hhpatel14"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-08T21:02:44Z"
       },
       {
         "number": 128,
@@ -15525,6 +16096,116 @@
         "updatedAt": "2026-09-03T20:31:41Z"
       },
       {
+        "number": 321,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 20,
+        "updatedAt": "2026-09-21T09:31:14Z"
+      },
+      {
+        "number": 323,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 20,
+        "updatedAt": "2026-09-21T09:30:33Z"
+      },
+      {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 20,
+        "updatedAt": "2026-09-21T09:30:53Z"
+      },
+      {
+        "number": 325,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325",
+        "targetBranch": "release-1.14",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 20,
+        "updatedAt": "2026-09-21T08:00:35Z"
+      },
+      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -15555,116 +16236,6 @@
         "reason": "pendingMerge",
         "waitingDays": 19,
         "updatedAt": "2026-09-21T18:18:15Z"
-      },
-      {
-        "number": 321,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "[release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/321",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 19,
-        "updatedAt": "2026-09-21T09:31:14Z"
-      },
-      {
-        "number": 323,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "[release-1.13] Fix SSE-C signed URLs (cherry-pick #280)",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/323",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 19,
-        "updatedAt": "2026-09-21T09:30:33Z"
-      },
-      {
-        "number": 324,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "[release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/324",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 19,
-        "updatedAt": "2026-09-21T09:30:53Z"
-      },
-      {
-        "number": 325,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "[release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/325",
-        "targetBranch": "release-1.14",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 19,
-        "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
         "number": 174,
@@ -15863,7 +16434,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -16003,8 +16574,35 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-10-08T08:32:21Z"
+      },
+      {
+        "number": 17521,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "feat(web): auto-assign accent color to non-default provider instances",
+        "url": "https://github.com/pingdotgg/t3code/pull/17521",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T04:19:55Z"
       },
       {
         "number": 17527,
@@ -16030,8 +16628,143 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-09T18:17:05Z"
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T04:19:53Z"
+      },
+      {
+        "number": 17604,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "feat(provider): add Claude fork-subagents instance setting",
+        "url": "https://github.com/pingdotgg/t3code/pull/17604",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T07:04:43Z"
+      },
+      {
+        "number": 17611,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
+        "url": "https://github.com/pingdotgg/t3code/pull/17611",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:S"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T06:27:41Z"
+      },
+      {
+        "number": 17717,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): header menu and Git menu reach a thread's linked pull request",
+        "url": "https://github.com/pingdotgg/t3code/pull/17717",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:L"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T03:11:34Z"
+      },
+      {
+        "number": 17720,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): Android composer accepts images pasted from Gboard",
+        "url": "https://github.com/pingdotgg/t3code/pull/17720",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T07:04:52Z"
+      },
+      {
+        "number": 17721,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): iPad composer accepts dragged screenshots",
+        "url": "https://github.com/pingdotgg/t3code/pull/17721",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T11:09:12Z"
       },
       {
         "number": 17831,
@@ -16058,7 +16791,35 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-10T17:26:54Z"
+        "updatedAt": "2026-10-11T04:20:32Z"
+      },
+      {
+        "number": 18096,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(server): show Antigravity's real sign-in failure reason",
+        "url": "https://github.com/pingdotgg/t3code/pull/18096",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M",
+          "macroscope-review"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T11:34:07Z"
       }
     ]
   }
