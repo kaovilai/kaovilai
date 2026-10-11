@@ -37,6 +37,7 @@
     pendingClassification: {},
     pendingLayout: null,
     serverOnline: false,
+    saveToken: "",
     pxPerDay: 8,
   };
 
@@ -564,6 +565,8 @@
     try {
       const res = await fetch("/api/health", { cache: "no-store" });
       state.serverOnline = res.ok;
+      // Only a same-origin read can see this token, which is what authorises /api/save.
+      state.saveToken = res.ok ? (await res.json()).token || "" : "";
     } catch (e) {
       state.serverOnline = false;
     }
@@ -585,7 +588,7 @@
     try {
       const res = await fetch("/api/save", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", "X-Workstream-Token": state.saveToken || "" },
         body: JSON.stringify({ classification: mergedClassification, layout: mergedLayout }),
       });
       const body = await res.json();
