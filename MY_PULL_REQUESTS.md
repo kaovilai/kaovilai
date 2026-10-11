@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-11 16:52:33 UTC
+> Last updated: 2026-10-11 21:08:17 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -62,7 +62,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2371](https://img.shields.io/badge/PR%20%232371-ready-green)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
-- [![PR #2478](https://img.shields.io/badge/PR%20%232478-ready-green)](https://github.com/openshift/oadp-operator/pull/2478) **openshift/oadp-operator** → `oadp-dev` - Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
@@ -132,7 +131,6 @@ No open PRs.
 ## Other
 
 - [![PR #101](https://img.shields.io/badge/PR%20%23101-ready-green)](https://github.com/openshift-eng/rebasebot/pull/101) **openshift-eng/rebasebot** → `main` - Add --pr-labels flag to apply labels to created PRs
-- [![PR #1034](https://img.shields.io/badge/PR%20%231034-ready-green)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
@@ -140,6 +138,8 @@ No open PRs.
 - [![PR #17521](https://img.shields.io/badge/PR%20%2317521-ready-green)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
 - [![PR #17527](https://img.shields.io/badge/PR%20%2317527-ready-green)](https://github.com/pingdotgg/t3code/pull/17527) **pingdotgg/t3code** → `main` - fix(web): git actions menu no longer offers Create PR when the thread has a linked PR
 - [![PR #17604](https://img.shields.io/badge/PR%20%2317604-ready-green)](https://github.com/pingdotgg/t3code/pull/17604) **pingdotgg/t3code** → `main` - feat(provider): add Claude fork-subagents instance setting
+- [![PR #17611](https://img.shields.io/badge/PR%20%2317611-ready-green)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
+- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
 - [![PR #17831](https://img.shields.io/badge/PR%20%2317831-ready-green)](https://github.com/pingdotgg/t3code/pull/17831) **pingdotgg/t3code** → `main` - feat(server): PR watch reports missing required checks and behind-base
 - [![PR #18096](https://img.shields.io/badge/PR%20%2318096-ready-green)](https://github.com/pingdotgg/t3code/pull/18096) **pingdotgg/t3code** → `main` - fix(server): show Antigravity's real sign-in failure reason
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
@@ -148,11 +148,10 @@ No open PRs.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-draft-gray)](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
-- [![PR #17611](https://img.shields.io/badge/PR%20%2317611-draft-gray)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
-- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-draft-gray)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
 - [![PR #17720](https://img.shields.io/badge/PR%20%2317720-draft-gray)](https://github.com/pingdotgg/t3code/pull/17720) **pingdotgg/t3code** → `main` - fix(mobile): Android composer accepts images pasted from Gboard
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
+- [![PR #1034](https://img.shields.io/badge/PR%20%231034-stale-yellow)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow

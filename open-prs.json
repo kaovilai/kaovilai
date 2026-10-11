@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T16:52:33Z",
+  "updatedAt": "2026-10-11T21:08:17Z",
   "prs": [
     {
       "number": 10010,
@@ -7329,113 +7329,6 @@
       ]
     },
     {
-      "number": 2478,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
-      "url": "https://github.com/openshift/oadp-operator/pull/2478",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "redhat-chai-bot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-10-08T21:02:44Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/unit-test",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 426,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -7997,7 +7890,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-10-07T19:50:47Z",
+      "updatedAt": "2026-10-11T19:49:13Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -8005,15 +7898,19 @@
           "conclusion": "FAILURE"
         },
         {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.22-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -8034,10 +7931,6 @@
         },
         {
           "name": "ci/prow/5.0-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11189,24 +11082,6 @@
       ]
     },
     {
-      "number": 1034,
-      "repo": "mksglu/context-mode",
-      "org": "mksglu",
-      "title": "fix(routing): self-identify subagent routing block, add opt-out (#967)",
-      "url": "https://github.com/mksglu/context-mode/pull/1034",
-      "targetBranch": "next",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-08-12T19:26:39Z",
-      "workstream": "Uncategorized",
-      "ciChecks": []
-    },
-    {
       "number": 101,
       "repo": "openshift-eng/rebasebot",
       "org": "openshift-eng",
@@ -11416,7 +11291,7 @@
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-11T11:47:18Z",
+      "updatedAt": "2026-10-11T17:32:48Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -11477,6 +11352,266 @@
         },
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 17611,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
+      "url": "https://github.com/pingdotgg/t3code/pull/17611",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:S"
+      ],
+      "updatedAt": "2026-10-11T18:43:54Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17611",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17611",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17611",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17611",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Macroscope - Approvability Check",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Macroscope - Correctness Check",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 17717,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): header menu and Git menu reach a thread's linked pull request",
+      "url": "https://github.com/pingdotgg/t3code/pull/17717",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:L"
+      ],
+      "updatedAt": "2026-10-11T18:43:18Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Verify preview eligibility",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Remove preview download",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17717",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17717",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17717",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17717",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Package and sign macOS arm64 preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Publish anonymous download",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
           "conclusion": "SUCCESS"
         }
       ]
@@ -11699,226 +11834,6 @@
       ]
     },
     {
-      "number": 17611,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
-      "url": "https://github.com/pingdotgg/t3code/pull/17611",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [
-        "vouch:unvouched",
-        "size:S"
-      ],
-      "updatedAt": "2026-10-11T14:04:04Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Verify preview eligibility",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Remove preview download",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17611",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17611",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17611",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Package and sign macOS arm64 preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Publish anonymous download",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Macroscope - Approvability Check",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Macroscope - Correctness Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Vercel – t3code-marketing",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 17717,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): header menu and Git menu reach a thread's linked pull request",
-      "url": "https://github.com/pingdotgg/t3code/pull/17717",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [
-        "vouch:unvouched",
-        "size:L"
-      ],
-      "updatedAt": "2026-10-11T14:04:33Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Verify preview eligibility",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Remove preview download",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17717",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17717",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17717",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Package and sign macOS arm64 preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Publish anonymous download",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Vercel – t3code-marketing",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 17720,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -11935,31 +11850,11 @@
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-11T13:00:31Z",
+      "updatedAt": "2026-10-11T18:29:57Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "Verify preview eligibility",
-          "conclusion": "SKIPPED"
-        },
-        {
           "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
           "conclusion": "SUCCESS"
         },
         {
@@ -11971,55 +11866,15 @@
           "conclusion": "SKIPPED"
         },
         {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Remove preview download",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "Label PR 17720",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17720",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17720",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Package and sign macOS arm64 preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Label PR size",
           "conclusion": "SUCCESS"
         },
         {
           "name": "Label PR size",
           "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Publish anonymous download",
-          "conclusion": "SKIPPED"
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Vercel – t3code-marketing",
           "conclusion": "SUCCESS"
         }
       ]
@@ -13340,6 +13195,24 @@
       ]
     },
     {
+      "number": 1034,
+      "repo": "mksglu/context-mode",
+      "org": "mksglu",
+      "title": "fix(routing): self-identify subagent routing block, add opt-out (#967)",
+      "url": "https://github.com/mksglu/context-mode/pull/1034",
+      "targetBranch": "next",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-08-12T19:26:39Z",
+      "workstream": "Uncategorized",
+      "ciChecks": []
+    },
+    {
       "number": 2,
       "repo": "mowhammadrezaa/SmartFormFiller",
       "org": "mowhammadrezaa",
@@ -13732,7 +13605,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-11T16:52:33Z",
+    "updatedAt": "2026-10-11T21:08:17Z",
     "needsReview": [
       {
         "number": 68,
@@ -13878,7 +13751,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 243,
+        "waitingDays": 244,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -13967,6 +13840,36 @@
         "updatedAt": "2026-05-19T22:41:19Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 124,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 104,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -14040,7 +13943,7 @@
         "labels": [
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14077,7 +13980,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 93,
+        "waitingDays": 94,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -14188,7 +14091,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 87,
+        "waitingDays": 88,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -14214,7 +14117,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 86,
+        "waitingDays": 87,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -14240,7 +14143,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 86,
+        "waitingDays": 87,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -14266,7 +14169,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 86,
+        "waitingDays": 87,
         "updatedAt": "2026-07-16T16:57:45Z"
       },
       {
@@ -14292,7 +14195,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 86,
+        "waitingDays": 87,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -14312,7 +14215,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14568,8 +14471,60 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 58,
+        "waitingDays": 59,
         "updatedAt": "2026-08-13T19:02:47Z"
+      },
+      {
+        "number": 266,
+        "repo": "velero-io/velero-plugin-for-gcp",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 58,
+        "updatedAt": "2026-08-14T21:03:44Z"
+      },
+      {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 58,
+        "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
         "number": 598,
@@ -14604,58 +14559,6 @@
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
-        "number": 266,
-        "repo": "velero-io/velero-plugin-for-gcp",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/266",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 57,
-        "updatedAt": "2026-08-14T21:03:44Z"
-      },
-      {
-        "number": 324,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 57,
-        "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
         "number": 326,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -14678,7 +14581,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 50,
+        "waitingDays": 51,
         "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
@@ -14704,7 +14607,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
@@ -14720,7 +14623,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14734,39 +14637,6 @@
         "reason": "awaitingReview",
         "waitingDays": 46,
         "updatedAt": "2026-08-25T23:45:55Z"
-      },
-      {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 45,
-        "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
         "number": 319,
@@ -14793,8 +14663,41 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 45,
+        "waitingDays": 46,
         "updatedAt": "2026-08-26T17:05:08Z"
+      },
+      {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 45,
+        "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
         "number": 10041,
@@ -14822,7 +14725,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-08-27T17:00:09Z"
       },
       {
@@ -14853,7 +14756,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -14884,7 +14787,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -14916,7 +14819,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -14946,7 +14849,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -14975,7 +14878,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-08-31T20:24:39Z"
       },
       {
@@ -15005,7 +14908,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 36,
+        "waitingDays": 37,
         "updatedAt": "2026-09-04T18:26:55Z"
       },
       {
@@ -15034,7 +14937,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -15063,7 +14966,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-09-10T18:57:05Z"
       },
       {
@@ -15077,7 +14980,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15155,7 +15058,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 18,
+        "waitingDays": 19,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -15245,6 +15148,72 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 10010,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Design for CRD schema validation at server startup",
+        "url": "https://github.com/velero-io/velero/pull/10010",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-09-29T18:16:07Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-09-29T21:00:44Z"
+      },
+      {
         "number": 121974,
         "repo": "NousResearch/hermes-agent",
         "org": "NousResearch",
@@ -15303,72 +15272,6 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-09-30T15:17:14Z"
-      },
-      {
-        "number": 10010,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Design for CRD schema validation at server startup",
-        "url": "https://github.com/velero-io/velero/pull/10010",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-09-29T21:00:44Z"
       },
       {
         "number": 192,
@@ -15542,7 +15445,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-10-07T18:19:44Z"
       },
       {
@@ -15571,7 +15474,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
@@ -15606,37 +15509,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-10-08T04:29:03Z"
-      },
-      {
-        "number": 2478,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
-        "url": "https://github.com/openshift/oadp-operator/pull/2478",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "hhpatel14"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-08T21:02:44Z"
       },
       {
         "number": 128,
@@ -15748,7 +15620,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 86,
+        "waitingDays": 87,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -15875,7 +15747,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 50,
+        "waitingDays": 51,
         "updatedAt": "2026-08-21T18:12:45Z"
       },
       {
@@ -15904,7 +15776,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:54:13Z"
       },
       {
@@ -15932,7 +15804,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:54:41Z"
       },
       {
@@ -15958,7 +15830,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:54:27Z"
       },
       {
@@ -15984,7 +15856,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:54:48Z"
       },
       {
@@ -16010,7 +15882,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:55:14Z"
       },
       {
@@ -16036,7 +15908,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
@@ -16060,7 +15932,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -16072,7 +15944,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-08-30T17:39:09Z"
       },
       {
@@ -16102,8 +15974,40 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-03T20:31:41Z"
+      },
+      {
+        "number": 10210,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
+        "url": "https://github.com/velero-io/velero/pull/10210",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 4,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 20,
+        "updatedAt": "2026-09-21T18:18:15Z"
       },
       {
         "number": 321,
@@ -16216,36 +16120,63 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
-        "number": 10210,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-        "url": "https://github.com/velero-io/velero/pull/10210",
-        "targetBranch": "main",
-        "author": "Copilot",
+        "number": 69,
+        "repo": "openshift/restic",
+        "org": "openshift",
+        "title": "Remove obsolete bz-on-pr-merge workflow",
+        "url": "https://github.com/openshift/restic/pull/69",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
         "isCopilotAuthored": false,
         "assignees": [
-          "kaovilai",
-          "Copilot"
+          "kaovilai"
         ],
         "labels": [
-          "has-unit-tests",
-          "has-changelog"
+          "lgtm"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
         "reviewDecision": "APPROVED",
-        "approvalCount": 4,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 16,
+        "updatedAt": "2026-09-25T17:03:14Z"
+      },
+      {
+        "number": 175,
+        "repo": "openshift/velero-plugin-for-gcp",
+        "org": "openshift",
+        "title": "Remove obsolete bz-on-pr-merge workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [
-          "kaovilai"
+          "Joeavaikath",
+          "shubham-pampattiwar"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 19,
-        "updatedAt": "2026-09-21T18:18:15Z"
+        "waitingDays": 16,
+        "updatedAt": "2026-09-25T17:03:37Z"
       },
       {
         "number": 174,
@@ -16280,65 +16211,6 @@
         "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
-        "number": 69,
-        "repo": "openshift/restic",
-        "org": "openshift",
-        "title": "Remove obsolete bz-on-pr-merge workflow",
-        "url": "https://github.com/openshift/restic/pull/69",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 15,
-        "updatedAt": "2026-09-25T17:03:14Z"
-      },
-      {
-        "number": 175,
-        "repo": "openshift/velero-plugin-for-gcp",
-        "org": "openshift",
-        "title": "Remove obsolete bz-on-pr-merge workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 15,
-        "updatedAt": "2026-09-25T17:03:37Z"
-      },
-      {
         "number": 175,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -16367,7 +16239,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -16444,7 +16316,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -16457,7 +16329,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-10-06T18:03:25Z"
       },
       {
@@ -16489,40 +16361,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-10-07T18:19:21Z"
-      },
-      {
-        "number": 2477,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-        "url": "https://github.com/openshift/oadp-operator/pull/2477",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-10-07T19:50:47Z"
       },
       {
         "number": 487,
@@ -16553,7 +16393,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-10-07T18:19:19Z"
       },
       {
@@ -16586,6 +16426,38 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-10-08T08:32:21Z"
+      },
+      {
+        "number": 2477,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+        "url": "https://github.com/openshift/oadp-operator/pull/2477",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T19:49:13Z"
       },
       {
         "number": 17521,
@@ -16666,7 +16538,34 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-11T11:47:18Z"
+        "updatedAt": "2026-10-11T17:32:48Z"
+      },
+      {
+        "number": 17611,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
+        "url": "https://github.com/pingdotgg/t3code/pull/17611",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:S"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-11T18:43:54Z"
       },
       {
         "number": 17831,
