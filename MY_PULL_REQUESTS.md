@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-11 21:08:17 UTC
+> Last updated: 2026-10-12 04:08:58 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -138,7 +138,6 @@ No open PRs.
 - [![PR #17521](https://img.shields.io/badge/PR%20%2317521-ready-green)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
 - [![PR #17527](https://img.shields.io/badge/PR%20%2317527-ready-green)](https://github.com/pingdotgg/t3code/pull/17527) **pingdotgg/t3code** → `main` - fix(web): git actions menu no longer offers Create PR when the thread has a linked PR
 - [![PR #17604](https://img.shields.io/badge/PR%20%2317604-ready-green)](https://github.com/pingdotgg/t3code/pull/17604) **pingdotgg/t3code** → `main` - feat(provider): add Claude fork-subagents instance setting
-- [![PR #17611](https://img.shields.io/badge/PR%20%2317611-ready-green)](https://github.com/pingdotgg/t3code/pull/17611) **pingdotgg/t3code** → `main` - fix(mobile): new thread draft names its repo and says it is a new thread
 - [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
 - [![PR #17831](https://img.shields.io/badge/PR%20%2317831-ready-green)](https://github.com/pingdotgg/t3code/pull/17831) **pingdotgg/t3code** → `main` - feat(server): PR watch reports missing required checks and behind-base
 - [![PR #18096](https://img.shields.io/badge/PR%20%2318096-ready-green)](https://github.com/pingdotgg/t3code/pull/18096) **pingdotgg/t3code** → `main` - fix(server): show Antigravity's real sign-in failure reason
