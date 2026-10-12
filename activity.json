@@ -3,15 +3,51 @@
     "start": "2026-07-14",
     "end": "2026-10-12"
   },
-  "generatedAt": "2026-10-12T05:24:31Z",
+  "generatedAt": "2026-10-12T15:00:28Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 81,
+    "prsReviewed": 77,
     "issuesCommented": 100,
     "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 135,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "fix: switch MinIO image to cgr.dev/chainguard/minio:latest",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/135",
+      "date": "2026-10-12T14:27:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 65,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "[improve] ci: add concurrency groups to prevent stale demo workflow overlap",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65",
+      "date": "2026-10-12T14:04:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 134,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "chore: update to latest upstream releases and refresh slides",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/134",
+      "date": "2026-10-12T13:50:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 261,
+      "repo": "kaovilai/cephcsi-cbt-e2e",
+      "org": "kaovilai",
+      "title": "Update to latest ecosystem: deps, lint v2, scripts, docs",
+      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/261",
+      "date": "2026-10-12T13:37:30Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17611,
       "repo": "pingdotgg/t3code",
@@ -875,45 +911,54 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2139",
       "date": "2026-08-27T14:26:01Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10348,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
-      "url": "https://github.com/velero-io/velero/pull/10348",
-      "date": "2026-08-27T03:26:24Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2019,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
-      "url": "https://github.com/openshift/oadp-operator/pull/2019",
-      "date": "2026-08-26T19:35:03Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2368,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-      "url": "https://github.com/openshift/oadp-operator/pull/2368",
-      "date": "2026-08-26T17:45:03Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10407,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10407",
-      "date": "2026-08-26T17:16:55Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 135,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "fix: switch MinIO image to cgr.dev/chainguard/minio:latest",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/135",
+      "date": "2026-10-12T13:48:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 264,
+      "repo": "OpenPetsHQ/openpets",
+      "org": "OpenPetsHQ",
+      "title": "Ignore transparent sprite pixels in pet hit testing",
+      "url": "https://github.com/OpenPetsHQ/openpets/pull/264",
+      "date": "2026-10-12T13:30:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2479,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): wait for DPA-owned secret GC in Undeploy",
+      "url": "https://github.com/openshift/oadp-operator/pull/2479",
+      "date": "2026-10-12T13:26:43Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 261,
+      "repo": "kaovilai/cephcsi-cbt-e2e",
+      "org": "kaovilai",
+      "title": "Update to latest ecosystem: deps, lint v2, scripts, docs",
+      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/261",
+      "date": "2026-10-12T13:20:44Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 134,
+      "repo": "kaovilai/k8s-cbt-s3mover-demo",
+      "org": "kaovilai",
+      "title": "chore: update to latest upstream releases and refresh slides",
+      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/134",
+      "date": "2026-10-12T12:38:29Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 18096,
       "repo": "pingdotgg/t3code",
@@ -1768,51 +1813,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212",
       "date": "2026-08-29T03:50:48Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 208,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: recognize VirtualMachineBackup's renamed Complete condition",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/208",
-      "date": "2026-08-27T21:23:56Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10428,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.14] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10428",
-      "date": "2026-08-27T20:07:24Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10427,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.15] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10427",
-      "date": "2026-08-27T20:07:22Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 207,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "alt: merge-patch expected-backup-type annotation instead of retrying Update",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/207",
-      "date": "2026-08-27T19:03:39Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 206,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: retry expected-backup-type annotation on conflict instead of giving up",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/206",
-      "date": "2026-08-27T16:45:26Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "prsReviewed": [
@@ -2508,45 +2508,18 @@
       "url": "https://github.com/velero-io/velero/pull/10373",
       "date": "2026-09-25T18:36:05Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 583,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove obsolete bz-on-pr-merge workflow",
-      "url": "https://github.com/openshift/velero/pull/583",
-      "date": "2026-09-25T17:52:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 482,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Remove obsolete bz-on-pr-merge workflow",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/482",
-      "date": "2026-09-25T17:49:15Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 175,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove obsolete bz-on-pr-merge workflow",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175",
-      "date": "2026-09-25T17:47:42Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 175,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Remove obsolete bz-on-pr-merge workflow",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
-      "date": "2026-09-25T17:03:37Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-12T14:33:50Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 439,
       "repo": "openshift/openshift-velero-plugin",
@@ -2563,15 +2536,6 @@
       "title": "[Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)",
       "url": "https://github.com/pingdotgg/t3code/issues/17655",
       "date": "2026-10-11T18:56:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-11T12:14:19Z",
       "workstream": "Uncategorized"
     },
     {
