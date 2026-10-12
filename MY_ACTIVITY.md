@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-07-13 — 2026-10-11
-> **Generated:** 2026-10-11 21:45:29 UTC
+> **Period:** 2026-07-14 — 2026-10-12
+> **Generated:** 2026-10-12 05:24:31 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 81 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 93 |
+| Issues Closed | 94 |
 
 ---
 
@@ -35,7 +35,7 @@
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
 - [#10407 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10407) — velero-io/velero
 
-**openshift** (21)
+**openshift** (20)
 - [#86664 Add release-4.21 to Prow configuration branches](https://github.com/openshift/release/pull/86664) — openshift/release
 - [#2454 OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation](https://github.com/openshift/oadp-operator/pull/2454) — openshift/oadp-operator
 - [#2453 OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs](https://github.com/openshift/oadp-operator/pull/2453) — openshift/oadp-operator
@@ -56,7 +56,6 @@
 - [#2139 OADP-7665: Pass --log-level to NodeAgent DaemonSet container args](https://github.com/openshift/oadp-operator/pull/2139) — openshift/oadp-operator
 - [#2019 Add uploader-type argument to Velero deployment configuration when configuration.args is used.](https://github.com/openshift/oadp-operator/pull/2019) — openshift/oadp-operator
 - [#2368 [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable](https://github.com/openshift/oadp-operator/pull/2368) — openshift/oadp-operator
-- [#2205 OADP-7943: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2205) — openshift/oadp-operator
 
 **migtools** (7)
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
@@ -67,7 +66,8 @@
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#50 Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) — migtools/kubevirt-datamover-plugin
 
-**Other** (54)
+**Other** (55)
+- [#17611 fix(mobile): new thread draft names its repo and says it is a new thread](https://github.com/pingdotgg/t3code/pull/17611) — pingdotgg/t3code
 - [#79 Enhance career map with animated route and accessible details](https://github.com/kaovilai/kaovilai/pull/79) — kaovilai/kaovilai
 - [#78 Add Bojangles and animated backyard adventures](https://github.com/kaovilai/kaovilai/pull/78) — kaovilai/kaovilai
 - [#77 Animated, linked OSS account pills in the README](https://github.com/kaovilai/kaovilai/pull/77) — kaovilai/kaovilai
@@ -378,7 +378,8 @@
 - [#10265 Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`](https://github.com/velero-io/velero/issues/10265) — velero-io/velero
 - [#10266 docs: how to run CSI e2e specs against a local Kind cluster](https://github.com/velero-io/velero/issues/10266) — velero-io/velero
 
-**openshift** (9)
+**openshift** (10)
+- [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#2386 Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/issues/2386) — openshift/oadp-operator
@@ -389,7 +390,7 @@
 - [#10590 GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning](https://github.com/openshift/installer/issues/10590) — openshift/installer
 - [#2391 Follow up: simplify and document PodResources defaulting](https://github.com/openshift/oadp-operator/issues/2391) — openshift/oadp-operator
 
-**migtools** (8)
+**migtools** (7)
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 - [#73 Implement DataDownload controller for VM restore](https://github.com/migtools/kubevirt-datamover-controller/issues/73) — migtools/kubevirt-datamover-controller
@@ -397,7 +398,6 @@
 - [#175 Implement concurrency limiter for DataDownload controller](https://github.com/migtools/kubevirt-datamover-controller/issues/175) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 - [#169 VM run-state restore sibling correlation should scope by restore attempt, not just VM identity](https://github.com/migtools/kubevirt-datamover-controller/issues/169) — migtools/kubevirt-datamover-controller
-- [#120 Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless](https://github.com/migtools/kubevirt-datamover-controller/issues/120) — migtools/kubevirt-datamover-controller
 
 **Other** (30)
 - [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
@@ -430,7 +430,7 @@
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
 - [#841 `status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`](https://github.com/kubernetes-sigs/prow/issues/841) — kubernetes-sigs/prow
-## Issues Closed (93)
+## Issues Closed (94)
 
 **velero-io** (29)
 - [#10076 Dependabot auto approve action](https://github.com/velero-io/velero/issues/10076) — velero-io/velero
@@ -504,7 +504,8 @@
 - [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
 - [#112 Temp backup PVC hardcoded to 10Gi (ensureTempPVC), causing silent backup failures for larger disks](https://github.com/migtools/kubevirt-datamover-controller/issues/112) — migtools/kubevirt-datamover-controller
 
-**Other** (27)
+**Other** (28)
+- [#17610 [Bug]: iPad new-thread draft names the project by folder and shows no "New thread" header](https://github.com/pingdotgg/t3code/issues/17610) — pingdotgg/t3code
 - [#17644 [Enhancement]: Report missing required checks and behind-base in native PR watches](https://github.com/pingdotgg/t3code/issues/17644) — pingdotgg/t3code
 - [#673 Tide gets stuck retrying unmergeable PR instead of advancing to next candidate](https://github.com/kubernetes-sigs/prow/issues/673) — kubernetes-sigs/prow
 - [#251 Bug: "Approval needed" shown for AskUserQuestion (and other non-approval PermissionRequests)](https://github.com/OpenPetsHQ/openpets/issues/251) — OpenPetsHQ/openpets

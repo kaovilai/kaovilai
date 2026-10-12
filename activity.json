@@ -1,17 +1,26 @@
 {
   "period": {
-    "start": "2026-07-13",
-    "end": "2026-10-11"
+    "start": "2026-07-14",
+    "end": "2026-10-12"
   },
-  "generatedAt": "2026-10-11T21:45:29Z",
+  "generatedAt": "2026-10-12T05:24:31Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 81,
     "issuesCommented": 100,
-    "issuesClosed": 93
+    "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 17611,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
+      "url": "https://github.com/pingdotgg/t3code/pull/17611",
+      "date": "2026-10-12T01:40:56Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 79,
       "repo": "kaovilai/kaovilai",
@@ -902,15 +911,6 @@
       "url": "https://github.com/velero-io/velero/pull/10407",
       "date": "2026-08-26T17:16:55Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2205,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2205",
-      "date": "2026-08-26T15:37:49Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
@@ -2548,6 +2548,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 439,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
+      "date": "2026-10-12T01:00:39Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 17655,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -3437,18 +3446,18 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169",
       "date": "2026-08-13T20:14:11Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 120,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Cancellation cleanup errors are logged but not propagated, phase moves to Canceled regardless",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/120",
-      "date": "2026-08-13T20:14:07Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 17610,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: iPad new-thread draft names the project by folder and shows no \"New thread\" header",
+      "url": "https://github.com/pingdotgg/t3code/issues/17610",
+      "date": "2026-10-12T01:40:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17644,
       "repo": "pingdotgg/t3code",
