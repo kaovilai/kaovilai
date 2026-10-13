@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T02:54:53Z",
+  "updatedAt": "2026-10-13T03:19:43Z",
   "prs": [
     {
       "number": 10010,
@@ -11181,6 +11181,29 @@
       "ciChecks": []
     },
     {
+      "number": 267,
+      "repo": "OpenPetsHQ/openpets",
+      "org": "OpenPetsHQ",
+      "title": "feat(desktop): throw the pet like a ball on drag release",
+      "url": "https://github.com/OpenPetsHQ/openpets/pull/267",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-10-13T02:48:45Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Build and smoke-test Linux x64 packages",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 116,
       "repo": "geekflyer/cliprelay",
       "org": "geekflyer",
@@ -11567,132 +11590,6 @@
         },
         {
           "name": "Vercel – t3code-marketing",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 17604,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(provider): add Claude fork-subagents instance setting",
-      "url": "https://github.com/pingdotgg/t3code/pull/17604",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "vouch:unvouched",
-        "size:M"
-      ],
-      "updatedAt": "2026-10-13T01:18:48Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "EAS Preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Deploy web preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Typecheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17604",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Web",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 1",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 2",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 3",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 4",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 5",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 6",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Rust",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Mobile Native Changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Release Smoke",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Transfer report artifact",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Mobile Native Static Analysis",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         }
       ]
@@ -12248,29 +12145,6 @@
       ]
     },
     {
-      "number": 267,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "feat(desktop): throw the pet like a ball on drag release",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/267",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-10-13T02:48:45Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Build and smoke-test Linux x64 packages",
-          "conclusion": ""
-        }
-      ]
-    },
-    {
       "number": 128,
       "repo": "RedHatInsights/rhai-org-pulse",
       "org": "RedHatInsights",
@@ -12313,6 +12187,124 @@
         {
           "name": "Red Hat Konflux",
           "conclusion": ""
+        }
+      ]
+    },
+    {
+      "number": 17604,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "feat(provider): add Claude fork-subagents instance setting",
+      "url": "https://github.com/pingdotgg/t3code/pull/17604",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M"
+      ],
+      "updatedAt": "2026-10-13T03:18:18Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "EAS Preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Deploy web preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Lint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Typecheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 17604",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test",
+          "conclusion": ""
+        },
+        {
+          "name": "Test Web",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 1",
+          "conclusion": ""
+        },
+        {
+          "name": "Test Server 2",
+          "conclusion": ""
+        },
+        {
+          "name": "Test Server 3",
+          "conclusion": ""
+        },
+        {
+          "name": "Test Server 4",
+          "conclusion": ""
+        },
+        {
+          "name": "Test Server 5",
+          "conclusion": ""
+        },
+        {
+          "name": "Test Server 6",
+          "conclusion": ""
+        },
+        {
+          "name": "Rust",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Release Smoke",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Static Analysis",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "PENDING"
         }
       ]
     },
@@ -14012,7 +14004,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-13T02:54:53Z",
+    "updatedAt": "2026-10-13T03:19:43Z",
     "needsReview": [
       {
         "number": 68,
@@ -14025,7 +14017,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14107,7 +14099,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 528,
+        "waitingDays": 529,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -14245,36 +14237,6 @@
         "reason": "awaitingReview",
         "waitingDays": 146,
         "updatedAt": "2026-05-19T22:41:19Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 125,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 104,
@@ -15816,7 +15778,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17072,7 +17034,7 @@
           "vouch:unvouched",
           "size:M"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17083,7 +17045,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-13T01:18:48Z"
+        "updatedAt": "2026-10-13T03:18:18Z"
       },
       {
         "number": 18712,
