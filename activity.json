@@ -3,15 +3,33 @@
     "start": "2026-07-15",
     "end": "2026-10-13"
   },
-  "generatedAt": "2026-10-13T03:26:09Z",
+  "generatedAt": "2026-10-13T13:56:02Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 72,
+    "prsReviewed": 71,
     "issuesCommented": 100,
-    "issuesClosed": 94
+    "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 267,
+      "repo": "OpenPetsHQ/openpets",
+      "org": "OpenPetsHQ",
+      "title": "feat(desktop): throw the pet like a ball on drag release",
+      "url": "https://github.com/OpenPetsHQ/openpets/pull/267",
+      "date": "2026-10-13T08:16:09Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2479,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): wait for DPA-owned secret GC in Undeploy",
+      "url": "https://github.com/openshift/oadp-operator/pull/2479",
+      "date": "2026-10-13T05:50:20Z",
+      "workstream": "OADP"
+    },
     {
       "number": 264,
       "repo": "OpenPetsHQ/openpets",
@@ -893,27 +911,18 @@
       "url": "https://github.com/velero-io/velero/pull/10406",
       "date": "2026-08-31T05:50:11Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10381,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10381",
-      "date": "2026-08-28T04:51:24Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 50,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Set binding-blocking spec.selector on restore-target PVCs",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50",
-      "date": "2026-08-25T15:54:58Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "prsOpened": [
+    {
+      "number": 266,
+      "repo": "kaovilai/cephcsi-cbt-e2e",
+      "org": "kaovilai",
+      "title": "ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize",
+      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266",
+      "date": "2026-10-13T06:28:21Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 267,
       "repo": "OpenPetsHQ/openpets",
@@ -1804,18 +1813,45 @@
       "url": "https://github.com/velero-io/velero/pull/10458",
       "date": "2026-09-01T13:45:52Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 84337,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin",
-      "url": "https://github.com/openshift/release/pull/84337",
-      "date": "2026-09-01T04:11:42Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2483,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: update version-update.md examples to 1.4.12",
+      "url": "https://github.com/openshift/oadp-operator/pull/2483",
+      "date": "2026-10-13T13:54:59Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10650,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update for \"vmware-tanzu\" to \"velero-io\" update",
+      "url": "https://github.com/velero-io/velero/pull/10650",
+      "date": "2026-10-13T12:40:09Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2480,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bump CSV metadata to v1.4.12",
+      "url": "https://github.com/openshift/oadp-operator/pull/2480",
+      "date": "2026-10-13T06:57:38Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10638,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix broken anchor links in main docs",
+      "url": "https://github.com/velero-io/velero/pull/10638",
+      "date": "2026-10-13T04:46:11Z",
+      "workstream": "Velero"
+    },
     {
       "number": 56,
       "repo": "migtools/kopia",
@@ -1824,15 +1860,6 @@
       "url": "https://github.com/migtools/kopia/pull/56",
       "date": "2026-10-13T01:52:47Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2480,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bump CSV metadata to v1.4.12",
-      "url": "https://github.com/openshift/oadp-operator/pull/2480",
-      "date": "2026-10-12T18:25:08Z",
-      "workstream": "OADP"
     },
     {
       "number": 10640,
@@ -2426,42 +2453,6 @@
       "title": "Remove bz-pr-action GitHub Actions workflow",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/173",
       "date": "2026-09-25T19:52:56Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 165,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/165",
-      "date": "2026-09-25T19:49:32Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10493,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout",
-      "url": "https://github.com/velero-io/velero/pull/10493",
-      "date": "2026-09-25T19:33:37Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 36,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/36",
-      "date": "2026-09-25T19:32:35Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10484,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error",
-      "url": "https://github.com/velero-io/velero/pull/10484",
-      "date": "2026-09-25T19:19:48Z",
       "workstream": "Velero"
     }
   ],
@@ -3368,6 +3359,24 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 848,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "status-reconciler can permanently miss config changes when delta delivery times out",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/848",
+      "date": "2026-10-13T08:32:23Z",
+      "workstream": "Kubernetes"
+    },
+    {
+      "number": 265,
+      "repo": "OpenPetsHQ/openpets",
+      "org": "OpenPetsHQ",
+      "title": "Feature: throw the pet like a ball (release inertia + bounce off the current monitor's edges)",
+      "url": "https://github.com/OpenPetsHQ/openpets/issues/265",
+      "date": "2026-10-13T08:16:10Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17718,
       "repo": "pingdotgg/t3code",
