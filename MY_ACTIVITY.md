@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-07-14 — 2026-10-12
-> **Generated:** 2026-10-12 21:03:03 UTC
+> **Period:** 2026-07-15 — 2026-10-13
+> **Generated:** 2026-10-13 02:53:56 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 74 |
+| PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 95 |
+| Issues Closed | 94 |
 
 ---
 
@@ -131,7 +131,7 @@
 - [#10534 Add changelog-bot workflow to add changelogs via /changelog comment](https://github.com/velero-io/velero/pull/10534) — velero-io/velero
 - [#10458 Skip kind E2E tests on PRs that don't touch Go code or the workflow itself](https://github.com/velero-io/velero/pull/10458) — velero-io/velero
 
-**openshift** (18)
+**openshift** (17)
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
 - [#86664 Add release-4.21 to Prow configuration branches](https://github.com/openshift/release/pull/86664) — openshift/release
@@ -149,7 +149,6 @@
 - [#567 1.5: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)](https://github.com/openshift/velero/pull/567) — openshift/velero
 - [#566 1.4: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)](https://github.com/openshift/velero/pull/566) — openshift/velero
 - [#84337 oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin](https://github.com/openshift/release/pull/84337) — openshift/release
-- [#2423 fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)](https://github.com/openshift/oadp-operator/pull/2423) — openshift/oadp-operator
 
 **migtools** (5)
 - [#245 fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) — migtools/kubevirt-datamover-controller
@@ -158,7 +157,8 @@
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 - [#218 Detect VMI guest-agent availability before quiesce, with explicit user override](https://github.com/migtools/kubevirt-datamover-controller/pull/218) — migtools/kubevirt-datamover-controller
 
-**Other** (72)
+**Other** (73)
+- [#267 feat(desktop): throw the pet like a ball on drag release](https://github.com/OpenPetsHQ/openpets/pull/267) — OpenPetsHQ/openpets
 - [#18765 feat(web): sidebar search finds a thread by its ID](https://github.com/pingdotgg/t3code/pull/18765) — pingdotgg/t3code
 - [#18712 fix(web): a thread waiting on another thread shows Waiting, not Working](https://github.com/pingdotgg/t3code/pull/18712) — pingdotgg/t3code
 - [#1750 feat(upstream-pulse): seed OADP upstream repositories](https://github.com/red-hat-data-services/rhai-org-pulse/pull/1750) — red-hat-data-services/rhai-org-pulse
@@ -231,7 +231,7 @@
 - [#175 Skip Test/Override buttons on tide's own status context](https://github.com/kaovilai/github-bot-command-palette/pull/175) — kaovilai/github-bot-command-palette
 - [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 - [#173 Combo auto-submit window, override on pending checks, native Approve sync](https://github.com/kaovilai/github-bot-command-palette/pull/173) — kaovilai/github-bot-command-palette
-## PRs Reviewed (74)
+## PRs Reviewed (73)
 
 **velero-io** (31)
 - [#10640 fix(cli): update legacy repository issue URLs in velero bug command](https://github.com/velero-io/velero/pull/10640) — velero-io/velero
@@ -266,7 +266,7 @@
 - [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10484 fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error](https://github.com/velero-io/velero/pull/10484) — velero-io/velero
 
-**openshift** (21)
+**openshift** (20)
 - [#2480 Bump CSV metadata to v1.4.12](https://github.com/openshift/oadp-operator/pull/2480) — openshift/oadp-operator
 - [#2478 Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake](https://github.com/openshift/oadp-operator/pull/2478) — openshift/oadp-operator
 - [#322 fix(etcdbackup): treat waiting for credentials as in progress](https://github.com/openshift/hypershift-oadp-plugin/pull/322) — openshift/hypershift-oadp-plugin
@@ -287,7 +287,6 @@
 - [#173 Remove bz-pr-action GitHub Actions workflow](https://github.com/openshift/velero-plugin-for-aws/pull/173) — openshift/velero-plugin-for-aws
 - [#165 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-aws/pull/165) — openshift/velero-plugin-for-aws
 - [#477 Bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0](https://github.com/openshift/openshift-velero-plugin/pull/477) — openshift/openshift-velero-plugin
-- [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-gcp/pull/166) — openshift/velero-plugin-for-gcp
 
 **migtools** (18)
 - [#56 Fix CVE-2026-78669](https://github.com/migtools/kopia/pull/56) — migtools/kopia
@@ -423,7 +422,7 @@
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
 - [#841 `status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`](https://github.com/kubernetes-sigs/prow/issues/841) — kubernetes-sigs/prow
-## Issues Closed (95)
+## Issues Closed (94)
 
 **velero-io** (29)
 - [#10076 Dependabot auto approve action](https://github.com/velero-io/velero/issues/10076) — velero-io/velero
@@ -497,7 +496,7 @@
 - [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
 - [#112 Temp backup PVC hardcoded to 10Gi (ensureTempPVC), causing silent backup failures for larger disks](https://github.com/migtools/kubevirt-datamover-controller/issues/112) — migtools/kubevirt-datamover-controller
 
-**Other** (29)
+**Other** (28)
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
 - [#17610 [Bug]: iPad new-thread draft names the project by folder and shows no "New thread" header](https://github.com/pingdotgg/t3code/issues/17610) — pingdotgg/t3code
 - [#17644 [Enhancement]: Report missing required checks and behind-base in native PR watches](https://github.com/pingdotgg/t3code/issues/17644) — pingdotgg/t3code
@@ -526,7 +525,6 @@
 - [#318 Should also have an environment variable for the default Opus model, allowing opus+sonnet+haiku usage.](https://github.com/caozhiyuan/copilot-api/issues/318) — caozhiyuan/copilot-api
 - [#317 Command used when Vertex AI is set up for Claude Code does not override Vertex AI.](https://github.com/caozhiyuan/copilot-api/issues/317) — caozhiyuan/copilot-api
 - [#18471 IncrementalBackup: backup fails with "No space left on device" shortly after creating the qcow2 metadata overlay, unrelated to any volume's real free space](https://github.com/kubevirt/kubevirt/issues/18471) — kubevirt/kubevirt
-- [#81 https://www.google.com/maps/ -> https://www.google.com/maps/?authuser=1](https://github.com/URLAutoRedirector/URLAutoRedirector/issues/81) — URLAutoRedirector/URLAutoRedirector
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*
