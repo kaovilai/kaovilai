@@ -3,11 +3,11 @@
     "start": "2026-07-15",
     "end": "2026-10-13"
   },
-  "generatedAt": "2026-10-13T19:01:30Z",
+  "generatedAt": "2026-10-13T23:38:28Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 71,
+    "prsReviewed": 74,
     "issuesCommented": 100,
     "issuesClosed": 96
   },
@@ -1817,12 +1817,111 @@
   ],
   "prsReviewed": [
     {
+      "number": 2484,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
+      "url": "https://github.com/openshift/oadp-operator/pull/2484",
+      "date": "2026-10-13T23:28:59Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2485,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
+      "url": "https://github.com/openshift/oadp-operator/pull/2485",
+      "date": "2026-10-13T22:48:54Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2486,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: remove redundant dpaCR.IsDeleted() in Undeploy — VeleroIsDeleted already subsumes it",
+      "url": "https://github.com/openshift/oadp-operator/pull/2486",
+      "date": "2026-10-13T22:45:57Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 180,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.4 (cbd0773) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/180",
+      "date": "2026-10-13T22:40:43Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 122,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (7c90cde) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/122",
+      "date": "2026-10-13T22:40:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 180,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/180",
+      "date": "2026-10-13T22:40:06Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 179,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/179",
+      "date": "2026-10-13T22:39:49Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2487,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-operator/pull/2487",
+      "date": "2026-10-13T22:39:32Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10644,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the CSI cases on kind in CI",
+      "url": "https://github.com/velero-io/velero/pull/10644",
+      "date": "2026-10-13T22:30:31Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 323,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/323",
+      "date": "2026-10-13T22:02:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 98,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/98",
+      "date": "2026-10-13T21:57:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 41,
       "repo": "migtools/oadp-vmdp",
       "org": "migtools",
       "title": "CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669",
       "url": "https://github.com/migtools/oadp-vmdp/pull/41",
-      "date": "2026-10-13T18:55:46Z",
+      "date": "2026-10-13T19:11:09Z",
       "workstream": "OADP"
     },
     {
@@ -2382,81 +2481,36 @@
       "url": "https://github.com/velero-io/velero/pull/10601",
       "date": "2026-09-30T06:00:44Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 586,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)",
-      "url": "https://github.com/openshift/velero/pull/586",
-      "date": "2026-09-29T21:49:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10286,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-      "url": "https://github.com/velero-io/velero/pull/10286",
-      "date": "2026-09-29T14:23:27Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10438,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
-      "url": "https://github.com/velero-io/velero/pull/10438",
-      "date": "2026-09-29T11:51:03Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10590,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix broken internal links and anchors in main docs",
-      "url": "https://github.com/velero-io/velero/pull/10590",
-      "date": "2026-09-29T03:10:52Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2470,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] test(e2e): pin MinIO to migtools Bitnami image",
-      "url": "https://github.com/openshift/oadp-operator/pull/2470",
-      "date": "2026-09-28T23:43:48Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10578,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Enable VGDP soothing by default and set queue length as 5",
-      "url": "https://github.com/velero-io/velero/pull/10578",
-      "date": "2026-09-28T03:18:51Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 394,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "feat(network): support internal networks",
-      "url": "https://github.com/socktainer/socktainer/pull/394",
-      "date": "2026-09-27T13:46:10Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2469,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "test(e2e): pin MinIO to migtools Bitnami image",
-      "url": "https://github.com/openshift/oadp-operator/pull/2469",
-      "date": "2026-09-26T01:45:15Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507",
+      "date": "2026-10-13T22:00:25Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-10-13T21:49:55Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17655,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)",
+      "url": "https://github.com/pingdotgg/t3code/issues/17655",
+      "date": "2026-10-13T20:36:09Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2492,15 +2546,6 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
       "date": "2026-10-12T01:00:39Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 17655,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)",
-      "url": "https://github.com/pingdotgg/t3code/issues/17655",
-      "date": "2026-10-11T18:56:19Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 15234,
@@ -2672,15 +2717,6 @@
       "url": "https://github.com/docker/for-mac/issues/7520",
       "date": "2026-09-30T18:53:08Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507",
-      "date": "2026-09-29T22:36:13Z",
-      "workstream": "Velero"
     },
     {
       "number": 9260,
@@ -3347,15 +3383,6 @@
       "url": "https://github.com/velero-io/velero/issues/10265",
       "date": "2026-08-14T12:34:50Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841",
-      "date": "2026-08-14T08:21:28Z",
-      "workstream": "Kubernetes"
     }
   ],
   "issuesClosed": [
