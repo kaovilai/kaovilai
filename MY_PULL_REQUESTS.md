@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-12 21:06:35 UTC
+> Last updated: 2026-10-13 02:54:53 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -134,7 +134,6 @@ No open PRs.
 
 ## Other
 
-- [![PR #101](https://img.shields.io/badge/PR%20%23101-ready-green)](https://github.com/openshift-eng/rebasebot/pull/101) **openshift-eng/rebasebot** → `main` - Add --pr-labels flag to apply labels to created PRs
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
@@ -153,6 +152,7 @@ No open PRs.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
+- [![PR #267](https://img.shields.io/badge/PR%20%23267-ci--pending-yellow)](https://github.com/OpenPetsHQ/openpets/pull/267) **OpenPetsHQ/openpets** → `main` - feat(desktop): throw the pet like a ball on drag release
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #1034](https://img.shields.io/badge/PR%20%231034-stale-yellow)](https://github.com/mksglu/context-mode/pull/1034) **mksglu/context-mode** → `next` - fix(routing): self-identify subagent routing block, add opt-out (#967)
@@ -201,6 +201,7 @@ No open PRs.
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #8673](https://img.shields.io/badge/PR%20%238673-stale-yellow)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #101](https://img.shields.io/badge/PR%20%23101-needs--attention-orange)](https://github.com/openshift-eng/rebasebot/pull/101) **openshift-eng/rebasebot** → `main` - Add --pr-labels flag to apply labels to created PRs
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 
 ---
