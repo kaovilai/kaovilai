@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-07-15 — 2026-10-13
-> **Generated:** 2026-10-13 02:53:56 UTC
+> **Generated:** 2026-10-13 03:26:09 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 73 |
+| PRs Reviewed | 72 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 94 |
 
@@ -231,7 +231,7 @@
 - [#175 Skip Test/Override buttons on tide's own status context](https://github.com/kaovilai/github-bot-command-palette/pull/175) — kaovilai/github-bot-command-palette
 - [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 - [#173 Combo auto-submit window, override on pending checks, native Approve sync](https://github.com/kaovilai/github-bot-command-palette/pull/173) — kaovilai/github-bot-command-palette
-## PRs Reviewed (73)
+## PRs Reviewed (72)
 
 **velero-io** (31)
 - [#10640 fix(cli): update legacy repository issue URLs in velero bug command](https://github.com/velero-io/velero/pull/10640) — velero-io/velero
@@ -266,7 +266,7 @@
 - [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10484 fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error](https://github.com/velero-io/velero/pull/10484) — velero-io/velero
 
-**openshift** (20)
+**openshift** (19)
 - [#2480 Bump CSV metadata to v1.4.12](https://github.com/openshift/oadp-operator/pull/2480) — openshift/oadp-operator
 - [#2478 Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake](https://github.com/openshift/oadp-operator/pull/2478) — openshift/oadp-operator
 - [#322 fix(etcdbackup): treat waiting for credentials as in progress](https://github.com/openshift/hypershift-oadp-plugin/pull/322) — openshift/hypershift-oadp-plugin
@@ -286,7 +286,6 @@
 - [#174 Remove obsolete bz-on-pr-merge workflow](https://github.com/openshift/velero-plugin-for-aws/pull/174) — openshift/velero-plugin-for-aws
 - [#173 Remove bz-pr-action GitHub Actions workflow](https://github.com/openshift/velero-plugin-for-aws/pull/173) — openshift/velero-plugin-for-aws
 - [#165 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-aws/pull/165) — openshift/velero-plugin-for-aws
-- [#477 Bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0](https://github.com/openshift/openshift-velero-plugin/pull/477) — openshift/openshift-velero-plugin
 
 **migtools** (18)
 - [#56 Fix CVE-2026-78669](https://github.com/migtools/kopia/pull/56) — migtools/kopia
