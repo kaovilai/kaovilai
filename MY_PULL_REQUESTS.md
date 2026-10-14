@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-13 23:39:32 UTC
+> Last updated: 2026-10-14 01:33:49 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -74,7 +74,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #2484](https://img.shields.io/badge/PR%20%232484-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2484) **openshift/oadp-operator** → `oadp-1.6` - tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll
-- [![PR #2487](https://img.shields.io/badge/PR%20%232487-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2487) **openshift/oadp-operator** → `oadp-1.6` - Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
