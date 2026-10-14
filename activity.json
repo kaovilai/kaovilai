@@ -1,13 +1,13 @@
 {
   "period": {
-    "start": "2026-07-15",
-    "end": "2026-10-13"
+    "start": "2026-07-16",
+    "end": "2026-10-14"
   },
-  "generatedAt": "2026-10-13T23:38:28Z",
+  "generatedAt": "2026-10-14T01:42:54Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 74,
+    "prsReviewed": 77,
     "issuesCommented": 100,
     "issuesClosed": 96
   },
@@ -166,93 +166,12 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 506,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Optimize brew list performance by caching list into array",
-      "url": "https://github.com/kaovilai/dotfiles/pull/506",
-      "date": "2026-07-15T19:46:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 497,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "🔒 Fix Arbitrary Code Execution in registry login",
-      "url": "https://github.com/kaovilai/dotfiles/pull/497",
-      "date": "2026-07-15T19:31:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 500,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "🧹 Extract common logic in socktainer-symlink functions",
-      "url": "https://github.com/kaovilai/dotfiles/pull/500",
-      "date": "2026-07-15T19:48:31Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 514,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "🔒 Fix insecure TLS validation in ROSA STS login",
-      "url": "https://github.com/kaovilai/dotfiles/pull/514",
-      "date": "2026-07-15T19:29:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 502,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
       "title": "🔒 Fix insecure curl -k usage in MinIO scripts",
       "url": "https://github.com/kaovilai/dotfiles/pull/502",
       "date": "2026-07-16T14:46:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 487,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ perf: optimize process formatting in kill-stuck-qemu",
-      "url": "https://github.com/kaovilai/dotfiles/pull/487",
-      "date": "2026-07-15T19:48:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 499,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ perf: optimize `dco` git commit signoff checking with single git log query",
-      "url": "https://github.com/kaovilai/dotfiles/pull/499",
-      "date": "2026-07-15T19:46:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 498,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Optimize GitHub PR Diff Fetching Concurrency",
-      "url": "https://github.com/kaovilai/dotfiles/pull/498",
-      "date": "2026-07-15T19:47:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 488,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "🔒 Fix eval() vulnerability in verify-migration",
-      "url": "https://github.com/kaovilai/dotfiles/pull/488",
-      "date": "2026-07-15T19:31:44Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 516,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: [performance improvement] fix compinit startup check",
-      "url": "https://github.com/kaovilai/dotfiles/pull/516",
-      "date": "2026-07-15T19:44:53Z",
       "workstream": "Uncategorized"
     },
     {
@@ -911,6 +830,87 @@
       "url": "https://github.com/velero-io/velero/pull/10406",
       "date": "2026-08-31T05:50:11Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 10381,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
+      "url": "https://github.com/velero-io/velero/pull/10381",
+      "date": "2026-08-28T04:51:24Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 50,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "Set binding-blocking spec.selector on restore-target PVCs",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50",
+      "date": "2026-08-25T15:54:58Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 2139,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
+      "url": "https://github.com/openshift/oadp-operator/pull/2139",
+      "date": "2026-08-27T14:26:01Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10348,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
+      "url": "https://github.com/velero-io/velero/pull/10348",
+      "date": "2026-08-27T03:26:24Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2019,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
+      "url": "https://github.com/openshift/oadp-operator/pull/2019",
+      "date": "2026-08-26T19:35:03Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2368,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2368",
+      "date": "2026-08-26T17:45:03Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10407,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10407",
+      "date": "2026-08-26T17:16:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2205,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2205",
+      "date": "2026-08-26T15:37:49Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 5,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Add .github/pull.yml to sync dev branch from upstream via rebase",
+      "url": "https://github.com/kaovilai/copilot-api/pull/5",
+      "date": "2026-08-26T14:35:23Z",
+      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
@@ -1817,13 +1817,13 @@
   ],
   "prsReviewed": [
     {
-      "number": 2484,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
-      "url": "https://github.com/openshift/oadp-operator/pull/2484",
-      "date": "2026-10-13T23:28:59Z",
-      "workstream": "OADP"
+      "number": 10432,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Show default volume snapshot location in snapshot-location get output",
+      "url": "https://github.com/velero-io/velero/pull/10432",
+      "date": "2026-10-14T01:31:04Z",
+      "workstream": "Velero"
     },
     {
       "number": 2485,
@@ -1831,8 +1831,98 @@
       "org": "openshift",
       "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
       "url": "https://github.com/openshift/oadp-operator/pull/2485",
-      "date": "2026-10-13T22:48:54Z",
+      "date": "2026-10-14T01:17:55Z",
       "workstream": "OADP"
+    },
+    {
+      "number": 2484,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
+      "url": "https://github.com/openshift/oadp-operator/pull/2484",
+      "date": "2026-10-14T00:52:37Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10493,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout",
+      "url": "https://github.com/velero-io/velero/pull/10493",
+      "date": "2026-10-14T00:44:22Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10484,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error",
+      "url": "https://github.com/velero-io/velero/pull/10484",
+      "date": "2026-10-14T00:44:19Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10385,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
+      "url": "https://github.com/velero-io/velero/pull/10385",
+      "date": "2026-10-14T00:44:07Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10373,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove RemapCRDVersionAction backup item action",
+      "url": "https://github.com/velero-io/velero/pull/10373",
+      "date": "2026-10-14T00:44:05Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10355,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Surface EnableCSI requirement for snapshot-move-data backups",
+      "url": "https://github.com/velero-io/velero/pull/10355",
+      "date": "2026-10-14T00:43:57Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10210,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
+      "url": "https://github.com/velero-io/velero/pull/10210",
+      "date": "2026-10-14T00:43:53Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10177,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add FailBlock hook error mode to skip the whole ItemBlock",
+      "url": "https://github.com/velero-io/velero/pull/10177",
+      "date": "2026-10-14T00:43:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2487,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-operator/pull/2487",
+      "date": "2026-10-14T00:39:50Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10644,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the CSI cases on kind in CI",
+      "url": "https://github.com/velero-io/velero/pull/10644",
+      "date": "2026-10-14T00:05:59Z",
+      "workstream": "Velero"
     },
     {
       "number": 2486,
@@ -1877,24 +1967,6 @@
       "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6",
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/179",
       "date": "2026-10-13T22:39:49Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2487,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-operator/pull/2487",
-      "date": "2026-10-13T22:39:32Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10644,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: run the CSI cases on kind in CI",
-      "url": "https://github.com/velero-io/velero/pull/10644",
-      "date": "2026-10-13T22:30:31Z",
       "workstream": "Velero"
     },
     {
@@ -2022,15 +2094,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2478",
       "date": "2026-10-11T17:31:31Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10385,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
-      "url": "https://github.com/velero-io/velero/pull/10385",
-      "date": "2026-10-11T08:27:05Z",
-      "workstream": "Velero"
     },
     {
       "number": 10570,
@@ -2445,45 +2508,27 @@
       "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/458",
       "date": "2026-09-30T20:28:46Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 166,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/166",
-      "date": "2026-09-30T19:36:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 318,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (636bec3) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/318",
-      "date": "2026-09-30T15:40:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10131,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix Tiltfile Developer Experience and Plugin Build Issues",
-      "url": "https://github.com/velero-io/velero/pull/10131",
-      "date": "2026-09-30T07:25:07Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10601,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)",
-      "url": "https://github.com/velero-io/velero/pull/10601",
-      "date": "2026-09-30T06:00:44Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9109,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add comprehensive make target for E2E testing with MinIO setup and fresh builds",
+      "url": "https://github.com/velero-io/velero/issues/9109",
+      "date": "2026-10-14T00:08:07Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 597,
+      "repo": "openshift/ci-docs",
+      "org": "openshift",
+      "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
+      "url": "https://github.com/openshift/ci-docs/issues/597",
+      "date": "2026-10-14T00:05:00Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 7507,
       "repo": "velero-io/velero",
@@ -2953,15 +2998,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 597,
-      "repo": "openshift/ci-docs",
-      "org": "openshift",
-      "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
-      "url": "https://github.com/openshift/ci-docs/issues/597",
-      "date": "2026-09-13T08:31:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 9963,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -3374,18 +3410,18 @@
       "url": "https://github.com/velero-io/velero/issues/9964",
       "date": "2026-08-14T22:01:00Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10265,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`",
-      "url": "https://github.com/velero-io/velero/issues/10265",
-      "date": "2026-08-14T12:34:50Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 597,
+      "repo": "openshift/ci-docs",
+      "org": "openshift",
+      "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
+      "url": "https://github.com/openshift/ci-docs/issues/597",
+      "date": "2026-10-14T00:04:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 848,
       "repo": "kubernetes-sigs/prow",
@@ -4240,15 +4276,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/112",
       "date": "2026-07-16T18:58:45Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 552,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Configure required_status_checks.contexts in Prow branch protection (velero + plugin forks)",
-      "url": "https://github.com/openshift/velero/issues/552",
-      "date": "2026-07-15T23:58:55Z",
-      "workstream": "Uncategorized"
     }
   ]
 }
