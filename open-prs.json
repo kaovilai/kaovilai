@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T11:05:54Z",
+  "updatedAt": "2026-10-14T16:52:47Z",
   "prs": [
     {
       "number": 10010,
@@ -6858,7 +6858,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-10-14T11:02:27Z",
+      "updatedAt": "2026-10-14T15:33:46Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -7340,7 +7340,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-10-14T01:17:55Z",
+      "updatedAt": "2026-10-14T13:22:40Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -9975,75 +9975,6 @@
       ]
     },
     {
-      "number": 72,
-      "repo": "openshift/restic",
-      "org": "openshift",
-      "title": "Fix 7 CVEs (CVE-2025-65637, CVE-2026-56854, CVE-2026-78669, ...)",
-      "url": "https://github.com/openshift/restic/pull/72",
-      "targetBranch": "oadp-1.4",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "oadp-rebasebot-app[bot]",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "ok-to-test"
-      ],
-      "updatedAt": "2026-10-14T07:10:25Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Windows Go 1.19.x",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "bz-on-pr-create",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS Go 1.19.x",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Linux Go 1.19.x",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Linux (race) Go 1.19.x",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Linux Go 1.18.x",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "Cross Compile for linux/386 linux/amd64 linux/arm linux/arm64 linux/ppc64le linux/mips linux/mipsle linux/mips64 linux/mips64le linux/s390x",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Cross Compile for openbsd/386 openbsd/amd64 freebsd/386 freebsd/amd64 freebsd/arm aix/ppc64 darwin/amd64 darwin/arm64",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Cross Compile for netbsd/386 netbsd/amd64 windows/386 windows/amd64 solaris/amd64",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "lint",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "docker",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 95,
       "repo": "openshift/velero-plugin-for-csi",
       "org": "openshift",
@@ -11295,57 +11226,6 @@
       "ciChecks": []
     },
     {
-      "number": 266,
-      "repo": "kaovilai/cephcsi-cbt-e2e",
-      "org": "kaovilai",
-      "title": "ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize",
-      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-10-13T06:41:28Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "auto-merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "check-lock-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 4,
       "repo": "kaovilai/cliprelay",
       "org": "kaovilai",
@@ -11735,23 +11615,27 @@
         "vouch:unvouched",
         "size:L"
       ],
-      "updatedAt": "2026-10-11T18:43:18Z",
+      "updatedAt": "2026-10-14T12:27:31Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "Verify preview eligibility",
+          "name": "Native fingerprint diff",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "EAS Preview",
           "conclusion": "SKIPPED"
         },
         {
-          "name": "Prepare PR size config",
+          "name": "Deploy web preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Lint",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
+          "name": "Native fingerprint diff",
           "conclusion": "SUCCESS"
         },
         {
@@ -11763,35 +11647,11 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "Sync PR size label definitions",
           "conclusion": "SKIPPED"
         },
         {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Remove preview download",
+          "name": "Typecheck",
           "conclusion": "SUCCESS"
         },
         {
@@ -11799,40 +11659,68 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Label PR 17717",
+          "name": "Build",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Label PR 17717",
+          "name": "Label PR size",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Label PR 17717",
+          "name": "Test",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Package and sign macOS arm64 preview",
+          "name": "Test Web",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 1",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 2",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 3",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 4",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 5",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 6",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Rust",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Release Smoke",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Transfer report artifact",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Static Analysis",
           "conclusion": "SKIPPED"
         },
         {
-          "name": "Label PR size",
+          "name": "Check",
           "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Publish anonymous download",
-          "conclusion": "SKIPPED"
         },
         {
           "name": "CodeRabbit",
@@ -14088,7 +13976,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-14T11:05:54Z",
+    "updatedAt": "2026-10-14T16:52:47Z",
     "needsReview": [
       {
         "number": 68,
@@ -14221,7 +14109,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14261,7 +14149,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 215,
+        "waitingDays": 216,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -14290,7 +14178,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 188,
+        "waitingDays": 189,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -14410,7 +14298,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 104,
+        "waitingDays": 105,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -14439,7 +14327,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 104,
+        "waitingDays": 105,
         "updatedAt": "2026-07-01T12:32:51Z"
       },
       {
@@ -14496,30 +14384,6 @@
         "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 91,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 442,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -14546,8 +14410,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 90,
+        "waitingDays": 91,
         "updatedAt": "2026-07-15T16:14:06Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 91,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -14698,7 +14586,7 @@
           "lifecycle/rotten",
           "wg/data-protection"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14711,7 +14599,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 85,
+        "waitingDays": 86,
         "updatedAt": "2026-07-20T14:46:51Z"
       },
       {
@@ -14778,7 +14666,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 71,
+        "waitingDays": 72,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -14821,7 +14709,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14836,30 +14724,6 @@
         "reason": "awaitingReview",
         "waitingDays": 69,
         "updatedAt": "2026-08-05T22:33:26Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 63,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 46,
@@ -14887,8 +14751,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 63,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -14924,7 +14812,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -15122,6 +15010,39 @@
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 48,
+        "updatedAt": "2026-08-27T12:05:51Z"
+      },
+      {
         "number": 319,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -15148,39 +15069,6 @@
         "reason": "awaitingReview",
         "waitingDays": 48,
         "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 47,
-        "updatedAt": "2026-08-27T12:05:51Z"
       },
       {
         "number": 7941,
@@ -15518,28 +15406,64 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
+        "number": 121974,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
+        "labels": [
+          "type/feature",
+          "comp/cli",
+          "tool/browser",
+          "P3"
+        ],
         "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 14,
-        "updatedAt": "2026-09-29T11:36:47Z"
+        "updatedAt": "2026-09-30T15:11:21Z"
+      },
+      {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 10010,
@@ -15573,66 +15497,6 @@
         "reason": "awaitingReview",
         "waitingDays": 14,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 121974,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/feature",
-          "comp/cli",
-          "tool/browser",
-          "P3"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-09-30T15:11:21Z"
-      },
-      {
-        "number": 123138,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/bug",
-          "comp/cli",
-          "comp/tools",
-          "P2",
-          "sweeper:risk-message-delivery",
-          "area/profiles"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 192,
@@ -15689,7 +15553,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 8,
+        "waitingDays": 9,
         "updatedAt": "2026-10-05T15:38:02Z"
       },
       {
@@ -15833,7 +15697,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-10-12T12:58:29Z"
       },
       {
@@ -15859,7 +15723,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-10-12T15:25:42Z"
       },
       {
@@ -15888,8 +15752,35 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-10-12T15:44:06Z"
+      },
+      {
+        "number": 82734,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-operator/config: switch OADP build_root from image_stream_tag to project_image",
+        "url": "https://github.com/openshift/release/pull/82734",
+        "targetBranch": "main",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "eemcmullan",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-12T16:36:31Z"
       },
       {
         "number": 2482,
@@ -15921,33 +15812,6 @@
         "updatedAt": "2026-10-12T18:56:57Z"
       },
       {
-        "number": 82734,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-operator/config: switch OADP build_root from image_stream_tag to project_image",
-        "url": "https://github.com/openshift/release/pull/82734",
-        "targetBranch": "main",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "eemcmullan",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-12T16:36:31Z"
-      },
-      {
         "number": 1945,
         "repo": "openshift/enhancements",
         "org": "openshift",
@@ -15973,7 +15837,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-14T11:02:27Z"
+        "updatedAt": "2026-10-14T15:33:46Z"
       },
       {
         "number": 2489,
@@ -16003,34 +15867,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-10-14T09:40:16Z"
-      },
-      {
-        "number": 72,
-        "repo": "openshift/restic",
-        "org": "openshift",
-        "title": "Fix 7 CVEs (CVE-2025-65637, CVE-2026-56854, CVE-2026-78669, ...)",
-        "url": "https://github.com/openshift/restic/pull/72",
-        "targetBranch": "oadp-1.4",
-        "author": "oadp-rebasebot-app[bot]",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "ok-to-test"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-14T07:10:25Z"
       },
       {
         "number": 181,
@@ -16088,7 +15924,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 188,
+        "waitingDays": 189,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -16105,7 +15941,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -16176,7 +16012,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 69,
+        "waitingDays": 70,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -16210,7 +16046,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -16242,7 +16078,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 53,
+        "waitingDays": 54,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -16457,7 +16293,7 @@
           "dco-signoff: yes",
           "needs-approver-review"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -16736,6 +16572,35 @@
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
+        "number": 10286,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
+        "url": "https://github.com/velero-io/velero/pull/10286",
+        "targetBranch": "main",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 15,
+        "updatedAt": "2026-09-29T14:23:27Z"
+      },
+      {
         "number": 233,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -16764,35 +16629,6 @@
         "reason": "pendingMerge",
         "waitingDays": 14,
         "updatedAt": "2026-09-29T23:00:41Z"
-      },
-      {
-        "number": 10286,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix re-request-review workflow for fork-originated PRs (privilege separation)",
-        "url": "https://github.com/velero-io/velero/pull/10286",
-        "targetBranch": "main",
-        "author": "Copilot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "Copilot"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 14,
-        "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
         "number": 84228,
@@ -16948,6 +16784,33 @@
         "updatedAt": "2026-10-11T04:19:55Z"
       },
       {
+        "number": 17527,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(web): git actions menu no longer offers Create PR when the thread has a linked PR",
+        "url": "https://github.com/pingdotgg/t3code/pull/17527",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 3,
+        "updatedAt": "2026-10-11T12:02:46Z"
+      },
+      {
         "number": 17831,
         "repo": "pingdotgg/t3code",
         "org": "pingdotgg",
@@ -17005,33 +16868,6 @@
         "reason": "pendingMerge",
         "waitingDays": 2,
         "updatedAt": "2026-10-11T22:04:31Z"
-      },
-      {
-        "number": 17527,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(web): git actions menu no longer offers Create PR when the thread has a linked PR",
-        "url": "https://github.com/pingdotgg/t3code/pull/17527",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "vouch:unvouched",
-          "size:M"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-11T12:02:46Z"
       },
       {
         "number": 18712,
@@ -17114,7 +16950,34 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-14T01:17:55Z"
+        "updatedAt": "2026-10-14T13:22:40Z"
+      },
+      {
+        "number": 17717,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): header menu and Git menu reach a thread's linked pull request",
+        "url": "https://github.com/pingdotgg/t3code/pull/17717",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:L"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-14T12:27:31Z"
       },
       {
         "number": 10210,

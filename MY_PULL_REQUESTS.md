@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-14 11:05:54 UTC
+> Last updated: 2026-10-14 16:52:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -104,7 +104,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-failing--ci-red)](https://github.com/openshift/restic/pull/69) **openshift/restic** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
-- [![PR #72](https://img.shields.io/badge/PR%20%2372-failing--ci-red)](https://github.com/openshift/restic/pull/72) **openshift/restic** → `oadp-1.4` - Fix 7 CVEs (CVE-2025-65637, CVE-2026-56854, CVE-2026-78669, ...)
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
@@ -148,7 +147,6 @@ No open PRs.
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18765](https://img.shields.io/badge/PR%20%2318765-ready-green)](https://github.com/pingdotgg/t3code/pull/18765) **pingdotgg/t3code** → `main` - feat(web): sidebar search finds a thread by its ID
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
-- [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266) **kaovilai/cephcsi-cbt-e2e** → `main` - ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
