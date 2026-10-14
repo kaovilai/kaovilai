@@ -3,7 +3,7 @@
     "start": "2026-07-16",
     "end": "2026-10-14"
   },
-  "generatedAt": "2026-10-14T01:42:54Z",
+  "generatedAt": "2026-10-14T11:32:52Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,96 @@
   ],
   "prsReviewed": [
     {
+      "number": 10438,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
+      "url": "https://github.com/velero-io/velero/pull/10438",
+      "date": "2026-10-14T09:29:27Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10609,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: add local Kind setup for CSI e2e",
+      "url": "https://github.com/velero-io/velero/pull/10609",
+      "date": "2026-10-14T05:25:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2484,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
+      "url": "https://github.com/openshift/oadp-operator/pull/2484",
+      "date": "2026-10-14T03:15:52Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 180,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.4 (cbd0773) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/180",
+      "date": "2026-10-14T01:45:13Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 122,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (7c90cde) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/122",
+      "date": "2026-10-14T01:45:12Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 180,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/180",
+      "date": "2026-10-14T01:45:09Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 179,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/179",
+      "date": "2026-10-14T01:45:05Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2487,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-operator/pull/2487",
+      "date": "2026-10-14T01:45:04Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 323,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/323",
+      "date": "2026-10-14T01:44:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 98,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/98",
+      "date": "2026-10-14T01:44:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10432,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1832,15 +1922,6 @@
       "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
       "url": "https://github.com/openshift/oadp-operator/pull/2485",
       "date": "2026-10-14T01:17:55Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2484,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
-      "url": "https://github.com/openshift/oadp-operator/pull/2484",
-      "date": "2026-10-14T00:52:37Z",
       "workstream": "OADP"
     },
     {
@@ -1907,15 +1988,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 2487,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-operator/pull/2487",
-      "date": "2026-10-14T00:39:50Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 10644,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1932,60 +2004,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2486",
       "date": "2026-10-13T22:45:57Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 180,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.4 (cbd0773) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/180",
-      "date": "2026-10-13T22:40:43Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 122,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (7c90cde) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/122",
-      "date": "2026-10-13T22:40:33Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 180,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/180",
-      "date": "2026-10-13T22:40:06Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 179,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/179",
-      "date": "2026-10-13T22:39:49Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 323,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/323",
-      "date": "2026-10-13T22:02:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 98,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/98",
-      "date": "2026-10-13T21:57:14Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 41,
@@ -2156,15 +2174,6 @@
       "title": "e2e: document running the CSI cases on kind",
       "url": "https://github.com/velero-io/velero/pull/10630",
       "date": "2026-10-08T20:59:29Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10609,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: add local Kind setup for CSI e2e",
-      "url": "https://github.com/velero-io/velero/pull/10609",
-      "date": "2026-10-08T07:47:11Z",
       "workstream": "Velero"
     },
     {
@@ -2499,18 +2508,18 @@
       "url": "https://github.com/migtools/oadp-cli/pull/276",
       "date": "2026-09-30T21:43:57Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 458,
-      "repo": "kubevirt/kubevirt-velero-plugin",
-      "org": "kubevirt",
-      "title": "update minio deployment after images were pulled",
-      "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/458",
-      "date": "2026-09-30T20:28:46Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-14T11:20:30Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 9109,
       "repo": "velero-io/velero",
@@ -2554,15 +2563,6 @@
       "title": "[Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)",
       "url": "https://github.com/pingdotgg/t3code/issues/17655",
       "date": "2026-10-13T20:36:09Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-13T17:01:45Z",
       "workstream": "Uncategorized"
     },
     {
