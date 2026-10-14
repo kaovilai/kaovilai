@@ -380,16 +380,14 @@ def impact(t, s):
 
 # -------------------------------------------------------------------------- orbit
 def orbit(t, s):
-    """Hub -> workstream repos, and for the Other lane hub -> org -> repos (orbiting moons)."""
+    """Hub -> orgs -> repos (orbiting moons). Org colour = lane of its biggest repo; moons keep their own lane colour."""
     w, h = 900, 500
     cx, cy = 600, 250
-    lane_repos, orgs = s["lane_repos"], s["other_orgs"]
-    # planets: ("repo"|"org", label, count, color, moons)
-    short = Counter(r.split("/")[1] for r, _, _ in lane_repos)  # same short name in two orgs -> keep the org prefix
-    planets_in = [("repo", r if short[r.split("/")[1]] > 1 else r.split("/")[1], n, LANE_COLORS[lane], []) for r, n, lane in lane_repos]
-    planets_in += [("org", org + "/", total, LANE_COLORS["Other"], moons) for org, total, moons in orgs]
+    orgs = s["orgs"]
+    # planets: ("org", label, count, color, moons[(name, count, color)])
+    planets_in = [("org", org + "/", total, LANE_COLORS[lane], moons) for org, total, lane, moons in orgs]
     peak = max(p[2] for p in planets_in)
-    rings = [(92, planets_in[:4], 90, 1), (160, planets_in[4:], 140, -1)]
+    rings = [(92, planets_in[:3], 90, 1), (160, planets_in[3:], 140, -1)]
     halo = f'paint-order:stroke;stroke:{t["bg1"]};stroke-width:3px'
     ring_svg, planets = [], []
     for radius, members, period, direction in rings:
@@ -404,15 +402,15 @@ def orbit(t, s):
             moon_svg = ""
             if moons:
                 mrad = pr + 27
-                mpeak = max(m for _, m in moons)
+                mpeak = max(m for _, m, _ in moons)
                 moon_svg = f'<circle r="{mrad:.1f}" fill="none" stroke="{t["border"]}" stroke-dasharray="2 4"/>'
-                for j, (mname, m) in enumerate(moons):
+                for j, (mname, m, mcolor) in enumerate(moons):
                     mangle = 360 * j / len(moons) + 40
                     mr = 3.5 + 4 * math.sqrt(m / mpeak)
                     mname = mname if len(mname) <= 16 else mname[:15] + "…"
                     moon_svg += (
                         f'<g transform="rotate({mangle:.0f})"><g class="o" style="animation-name:spin;animation-duration:22s">'
-                        f'<g transform="translate({mrad:.1f},0)"><circle r="{mr:.1f}" fill="{color}" opacity=".85"/>'
+                        f'<g transform="translate({mrad:.1f},0)"><circle r="{mr:.1f}" fill="{mcolor}" opacity=".85"/>'
                         # undo moon spin, moon offset, ring spin and ring offset so the text stays upright
                         f'<g class="o" style="animation-name:spinr;animation-duration:22s"><g transform="rotate({-mangle:.0f})">'
                         f'<g class="o" style="animation-name:{counter};animation-duration:{period}s"><g transform="rotate({-angle:.0f})">'
@@ -449,7 +447,7 @@ def orbit(t, s):
         ly += 28
     body = f"""
     <text x="32" y="38" font-size="18" font-weight="700">Where the work lands</text>
-    <text class="muted" x="32" y="58" font-size="12">Merged PRs · size = volume · colour = workstream · Other groups by org, repos orbit their org</text>
+    <text class="muted" x="32" y="58" font-size="12">Merged PRs · size = volume · colour = workstream · repos orbit their org</text>
     {''.join(legend)}
     <circle class="pulse" cx="{cx}" cy="{cy}" r="44" fill="url(#aura)"/>
     {''.join(ring_svg)}
@@ -465,7 +463,7 @@ def orbit(t, s):
     .pulse { transform-box: fill-box; transform-origin: center; animation: breathe 4s ease-in-out infinite; }
     @keyframes breathe { 0%,100% { transform: scale(.85); opacity: .6; } 50% { transform: scale(1.35); opacity: 1; } }"""
     return shell(w, h, t, body, "Merged pull requests by repository",
-                 "Orbit diagram: workstream repositories and orgs sized by merged PR count; repos in the Other lane orbit their org.", css)
+                 "Orbit diagram: workstream repositories and orgs sized by merged PR count; repos orbit their org.", css)
 
 
 # ----------------------------------------------------------------------- languages
@@ -589,17 +587,16 @@ def build_stats():
     for i in archive["items"]:
         lane_votes.setdefault(i["repo"], Counter())[i["workstream"]] += 1
     by_repo = Counter(i["repo"] for i in merged)
-    lane_repos = [(r, n, lane_for(r, lane_votes)) for r, n in by_repo.most_common() if lane_for(r, lane_votes) != "Other"][:5]
     by_org = {}
     for r, n in by_repo.items():
-        if lane_for(r, lane_votes) == "Other":
-            org, name = r.split("/")
-            by_org.setdefault(org, []).append((name, n))
-    other_orgs = sorted(
-        ((org, sum(n for _, n in rs), ([m for m in sorted(rs, key=lambda x: -x[1]) if m[1] >= 3][:3] or sorted(rs, key=lambda x: -x[1])[:1]))
-         for org, rs in by_org.items()),
-        key=lambda x: -x[1],
-    )[:4]
+        org, name = r.split("/")
+        by_org.setdefault(org, []).append((name, n, lane_for(r, lane_votes)))
+    orgs = []
+    for org, rs in by_org.items():
+        rs.sort(key=lambda x: -x[1])
+        moons = [m for m in rs if m[1] >= 3][:3] or rs[:1]
+        orgs.append((org, sum(n for _, n, _ in rs), rs[0][2], [(name, n, LANE_COLORS[lane]) for name, n, lane in moons]))
+    orgs = sorted(orgs, key=lambda x: -x[1])[:8]
     lane_totals = Counter()
     for r, n in by_repo.items():
         lane_totals[lane_for(r, lane_votes)] += n
@@ -647,8 +644,7 @@ def build_stats():
         merged_all=len(merged),
         merged_ytd=by_year[str(year)],
         merged_by_year={int(y): n for y, n in by_year.items()},
-        lane_repos=lane_repos,
-        other_orgs=other_orgs,
+        orgs=orgs,
         heat=heat,
         recent_merged=recent_merged,
         languages=lang_rows,
