@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T01:11:20Z",
+  "updatedAt": "2026-10-15T10:47:52Z",
   "prs": [
     {
       "number": 10010,
@@ -6755,7 +6755,7 @@
       ],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-08-21T20:43:44Z",
+      "updatedAt": "2026-10-15T07:41:36Z",
       "workstream": "Velero",
       "ciChecks": [
         {
@@ -6838,35 +6838,6 @@
         },
         {
           "name": "DCO",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 1945,
-      "repo": "openshift/enhancements",
-      "org": "openshift",
-      "title": "Add EtcdBackup CRD enhancement for OADP integration",
-      "url": "https://github.com/openshift/enhancements/pull/1945",
-      "targetBranch": "master",
-      "status": "ready",
-      "milestone": null,
-      "author": "jparrill",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-10-14T15:33:46Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/markdownlint",
           "conclusion": "SUCCESS"
         }
       ]
@@ -9522,6 +9493,39 @@
       ]
     },
     {
+      "number": 1945,
+      "repo": "openshift/enhancements",
+      "org": "openshift",
+      "title": "Add EtcdBackup CRD enhancement for OADP integration",
+      "url": "https://github.com/openshift/enhancements/pull/1945",
+      "targetBranch": "master",
+      "status": "hold",
+      "milestone": null,
+      "author": "jparrill",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "JoelSpeed"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved",
+        "do-not-merge/hold"
+      ],
+      "updatedAt": "2026-10-15T10:38:15Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/markdownlint",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 565,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -9967,6 +9971,95 @@
         {
           "name": "docker",
           "conclusion": "FAILURE"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 590,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
+      "url": "https://github.com/openshift/velero/pull/590",
+      "targetBranch": "oadp-1.4",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "oadp-rebasebot-app[bot]",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "needs-ok-to-test"
+      ],
+      "updatedAt": "2026-10-15T05:52:47Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Run CI",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "Run Linter Check",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "build",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "add-reviews",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "triage",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Run Codespell",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build-cli",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "re-request-review",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "run-e2e-test",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "crd-check (1.23.17)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "crd-check (1.24.17)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "crd-check (1.25.16)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "crd-check (1.26.13)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "crd-check (1.27.10)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "crd-check (1.28.6)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "crd-check (1.29.1)",
+          "conclusion": "SUCCESS"
         },
         {
           "name": "CodeRabbit",
@@ -10640,7 +10733,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-10-14T21:16:50Z",
+      "updatedAt": "2026-10-15T05:27:42Z",
       "workstream": "KubeVirt Data Mover",
       "ciChecks": [
         {
@@ -11856,6 +11949,297 @@
           "name": "Check",
           "conclusion": "SUCCESS"
         },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 19785,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
+      "url": "https://github.com/pingdotgg/t3code/pull/19785",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M"
+      ],
+      "updatedAt": "2026-10-15T06:01:59Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "EAS Preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Deploy web preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Lint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Typecheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 19785",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Web",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 1",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 2",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 3",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 4",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 5",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 6",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Rust",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Release Smoke",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Transfer report artifact",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Static Analysis",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Check",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Macroscope - Approvability Check",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 19792,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "feat(claude): add a fork subagents switch to Claude instances",
+      "url": "https://github.com/pingdotgg/t3code/pull/19792",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:M"
+      ],
+      "updatedAt": "2026-10-15T06:14:30Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "EAS Preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Deploy web preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Lint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Typecheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 19792",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Web",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 1",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 2",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 3",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 4",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 5",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 6",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Rust",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Release Smoke",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Transfer report artifact",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Mobile Native Static Analysis",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Check",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-10-15T04:45:31Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -13796,7 +14180,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-15T01:11:20Z",
+    "updatedAt": "2026-10-15T10:47:52Z",
     "needsReview": [
       {
         "number": 68,
@@ -13843,7 +14227,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 548,
+        "waitingDays": 549,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -13867,7 +14251,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 537,
+        "waitingDays": 538,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -13891,7 +14275,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 530,
+        "waitingDays": 531,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -13915,7 +14299,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 496,
+        "waitingDays": 497,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -14175,30 +14559,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 92,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -14224,8 +14584,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 91,
+        "waitingDays": 92,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 92,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -14546,6 +14930,30 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 64,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -14573,30 +14981,6 @@
         "reason": "awaitingReview",
         "waitingDays": 64,
         "updatedAt": "2026-08-11T13:19:55Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 63,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -14680,7 +15064,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14748,32 +15132,6 @@
         "reason": "awaitingReview",
         "waitingDays": 61,
         "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 54,
-        "updatedAt": "2026-08-21T20:43:44Z"
       },
       {
         "number": 328,
@@ -15133,7 +15491,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -15344,7 +15702,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-10-02T07:09:40Z"
       },
       {
@@ -15377,6 +15735,36 @@
         "updatedAt": "2026-10-05T15:38:02Z"
       },
       {
+        "number": 2473,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2473",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "weshayutin",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 8,
+        "updatedAt": "2026-10-07T06:45:53Z"
+      },
+      {
         "number": 426,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -15406,36 +15794,6 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-10-06T22:24:34Z"
-      },
-      {
-        "number": 2473,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2473",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "weshayutin",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 70,
@@ -15603,63 +15961,6 @@
         "updatedAt": "2026-10-12T16:36:31Z"
       },
       {
-        "number": 245,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/245",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-14T21:16:50Z"
-      },
-      {
-        "number": 1945,
-        "repo": "openshift/enhancements",
-        "org": "openshift",
-        "title": "Add EtcdBackup CRD enhancement for OADP integration",
-        "url": "https://github.com/openshift/enhancements/pull/1945",
-        "targetBranch": "master",
-        "author": "jparrill",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "derekwaynecarr"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-14T15:33:46Z"
-      },
-      {
         "number": 2489,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -15685,7 +15986,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-10-14T09:40:16Z"
       },
       {
@@ -15714,8 +16015,202 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-10-14T03:13:06Z"
+      },
+      {
+        "number": 245,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/245",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T05:27:42Z"
+      },
+      {
+        "number": 1945,
+        "repo": "openshift/enhancements",
+        "org": "openshift",
+        "title": "Add EtcdBackup CRD enhancement for OADP integration",
+        "url": "https://github.com/openshift/enhancements/pull/1945",
+        "targetBranch": "master",
+        "author": "jparrill",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "JoelSpeed"
+        ],
+        "labels": [
+          "lgtm",
+          "approved",
+          "do-not-merge/hold"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "derekwaynecarr"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T10:38:15Z"
+      },
+      {
+        "number": 590,
+        "repo": "openshift/velero",
+        "org": "openshift",
+        "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
+        "url": "https://github.com/openshift/velero/pull/590",
+        "targetBranch": "oadp-1.4",
+        "author": "oadp-rebasebot-app[bot]",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T05:52:47Z"
+      },
+      {
+        "number": 19785,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
+        "url": "https://github.com/pingdotgg/t3code/pull/19785",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T06:01:59Z"
+      },
+      {
+        "number": 19792,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "feat(claude): add a fork subagents switch to Claude instances",
+        "url": "https://github.com/pingdotgg/t3code/pull/19792",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T06:14:30Z"
+      },
+      {
+        "number": 91,
+        "repo": "redhat-et/pricetag-metering",
+        "org": "redhat-et",
+        "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+        "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T04:45:31Z"
+      },
+      {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-15T07:41:36Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -16183,7 +16678,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -16209,7 +16704,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -16237,7 +16732,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -16265,7 +16760,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -16573,8 +17068,35 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-10-08T08:32:21Z"
+      },
+      {
+        "number": 17521,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "feat(web): auto-assign accent color to non-default provider instances",
+        "url": "https://github.com/pingdotgg/t3code/pull/17521",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 4,
+        "updatedAt": "2026-10-11T04:19:55Z"
       },
       {
         "number": 2477,
@@ -16607,33 +17129,6 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-10-11T22:04:31Z"
-      },
-      {
-        "number": 17521,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "feat(web): auto-assign accent color to non-default provider instances",
-        "url": "https://github.com/pingdotgg/t3code/pull/17521",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "vouch:unvouched",
-          "size:M"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-10-11T04:19:55Z"
       },
       {
         "number": 17527,
