@@ -3,7 +3,7 @@
     "start": "2026-07-17",
     "end": "2026-10-15"
   },
-  "generatedAt": "2026-10-15T16:32:37Z",
+  "generatedAt": "2026-10-15T20:11:46Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 47,
+      "repo": "dohyeon5626/github-html-preview-extension",
+      "org": "dohyeon5626",
+      "title": "Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)",
+      "url": "https://github.com/dohyeon5626/github-html-preview-extension/pull/47",
+      "date": "2026-10-15T19:46:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 489,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -1804,26 +1813,62 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175",
       "date": "2026-09-03T18:41:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 174,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Extend combo window to per-check Override, add pending-button spinner",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174",
-      "date": "2026-09-03T18:37:23Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2489,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[OADP-8902] docs: clarify maxConcurrentDataMovers CRD default",
+      "url": "https://github.com/openshift/oadp-operator/pull/2489",
+      "date": "2026-10-15T19:31:16Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10657,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: point Kibishii at the kind-csi overlay when CSI is enabled",
+      "url": "https://github.com/velero-io/velero/pull/10657",
+      "date": "2026-10-15T19:25:01Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10658,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the Kibishii snapshot cases on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10658",
+      "date": "2026-10-15T18:34:09Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 490,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Bump github.com/moby/sys/user from 0.4.0 to 0.4.1",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/490",
+      "date": "2026-10-15T18:00:40Z",
+      "workstream": "Velero"
+    },
     {
       "number": 590,
       "repo": "openshift/velero",
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
       "url": "https://github.com/openshift/velero/pull/590",
-      "date": "2026-10-15T16:23:35Z",
+      "date": "2026-10-15T17:23:16Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 10656,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Reuse cached Go modules across CI jobs",
+      "url": "https://github.com/velero-io/velero/pull/10656",
+      "date": "2026-10-15T17:09:44Z",
+      "workstream": "Velero"
     },
     {
       "number": 87092,
@@ -2436,51 +2481,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2474",
       "date": "2026-10-02T13:46:15Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Design]Owner reference and dependency relink design",
-      "url": "https://github.com/velero-io/velero/pull/10556",
-      "date": "2026-10-02T06:49:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Document maintainer lifecycle, affiliation policy, and Code of Conduct",
-      "url": "https://github.com/velero-io/.github/pull/2",
-      "date": "2026-10-01T21:59:39Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10572,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add architecture entry point and roadmap change process",
-      "url": "https://github.com/velero-io/velero/pull/10572",
-      "date": "2026-10-01T21:59:03Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 118,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (33ef7bd) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/118",
-      "date": "2026-10-01T20:48:05Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 96,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/96",
-      "date": "2026-10-01T20:43:25Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [

@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-17 — 2026-10-15
-> **Generated:** 2026-10-15 16:32:37 UTC
+> **Generated:** 2026-10-15 20:11:46 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -153,6 +153,7 @@
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
 **Other** (78)
+- [#47 Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) — dohyeon5626/github-html-preview-extension
 - [#19792 feat(claude): add a fork subagents switch to Claude instances](https://github.com/pingdotgg/t3code/pull/19792) — pingdotgg/t3code
 - [#19785 fix(web): a message queued behind a running turn no longer pushes the working header below it](https://github.com/pingdotgg/t3code/pull/19785) — pingdotgg/t3code
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
@@ -230,10 +231,12 @@
 - [#177 Add hover/click popups for Claude analysis links and failed-step logs](https://github.com/kaovilai/github-bot-command-palette/pull/177) — kaovilai/github-bot-command-palette
 - [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
 - [#175 Skip Test/Override buttons on tide's own status context](https://github.com/kaovilai/github-bot-command-palette/pull/175) — kaovilai/github-bot-command-palette
-- [#174 Extend combo window to per-check Override, add pending-button spinner](https://github.com/kaovilai/github-bot-command-palette/pull/174) — kaovilai/github-bot-command-palette
 ## PRs Reviewed (74)
 
 **velero-io** (34)
+- [#10657 e2e: point Kibishii at the kind-csi overlay when CSI is enabled](https://github.com/velero-io/velero/pull/10657) — velero-io/velero
+- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
+- [#10656 Reuse cached Go modules across CI jobs](https://github.com/velero-io/velero/pull/10656) — velero-io/velero
 - [#10640 fix(cli): update legacy repository issue URLs in velero bug command](https://github.com/velero-io/velero/pull/10640) — velero-io/velero
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#10609 docs: add local Kind setup for CSI e2e](https://github.com/velero-io/velero/pull/10609) — velero-io/velero
@@ -265,11 +268,10 @@
 - [#10596 e2e: add a script to install CSI snapshot support on kind](https://github.com/velero-io/velero/pull/10596) — velero-io/velero
 - [#10622 Bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10622) — velero-io/velero
 - [#10617 docs: fix contributor and maintainer guidance links](https://github.com/velero-io/velero/pull/10617) — velero-io/velero
-- [#10556 [Design]Owner reference and dependency relink design](https://github.com/velero-io/velero/pull/10556) — velero-io/velero
-- [#2 Document maintainer lifecycle, affiliation policy, and Code of Conduct](https://github.com/velero-io/.github/pull/2) — velero-io/.github
-- [#10572 Add architecture entry point and roadmap change process](https://github.com/velero-io/velero/pull/10572) — velero-io/velero
 
-**openshift** (21)
+**openshift** (22)
+- [#2489 [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default](https://github.com/openshift/oadp-operator/pull/2489) — openshift/oadp-operator
+- [#490 Bump github.com/moby/sys/user from 0.4.0 to 0.4.1](https://github.com/openshift/openshift-velero-plugin/pull/490) — openshift/openshift-velero-plugin
 - [#590 Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4](https://github.com/openshift/velero/pull/590) — openshift/velero
 - [#87092 Add optional AllNamespaces e2e presubmits for oadp-operator oadp-dev 5.0](https://github.com/openshift/release/pull/87092) — openshift/release
 - [#2484 tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll](https://github.com/openshift/oadp-operator/pull/2484) — openshift/oadp-operator
@@ -290,9 +292,8 @@
 - [#2475 fix(e2e): add retry logic for empty sha256sum output in checksum helpers](https://github.com/openshift/oadp-operator/pull/2475) — openshift/oadp-operator
 - [#2466 [oadp-1.4] OADP-8835: feat(bsl): concatenate all CA certificates from BSLs and include system defaults](https://github.com/openshift/oadp-operator/pull/2466) — openshift/oadp-operator
 - [#2474 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (fcf7610) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2474) — openshift/oadp-operator
-- [#118 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (33ef7bd) into oadp-1.6](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/118) — openshift/velero-plugin-for-legacy-aws
 
-**migtools** (18)
+**migtools** (17)
 - [#98 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/98) — migtools/kubevirt-velero-plugin
 - [#41 CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669](https://github.com/migtools/oadp-vmdp/pull/41) — migtools/oadp-vmdp
 - [#56 Fix CVE-2026-78669](https://github.com/migtools/kopia/pull/56) — migtools/kopia
@@ -310,7 +311,6 @@
 - [#40 chore(deps-dev): bump vitest from 4.1.6 to 4.1.11 in /frontend](https://github.com/migtools/filebrowser/pull/40) — migtools/filebrowser
 - [#189 Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0](https://github.com/migtools/udistribution/pull/189) — migtools/udistribution
 - [#69 Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (dc932cf) into oadp-1.6](https://github.com/migtools/kubevirt-datamover-plugin/pull/69) — migtools/kubevirt-datamover-plugin
-- [#96 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/96) — migtools/kubevirt-velero-plugin
 
 **Other** (1)
 - [#849 fix: status-reconciler track own config state for dropped deltas](https://github.com/kubernetes-sigs/prow/pull/849) — kubernetes-sigs/prow
