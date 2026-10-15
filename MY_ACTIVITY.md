@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-07-16 — 2026-10-14
-> **Generated:** 2026-10-14 23:44:59 UTC
+> **Period:** 2026-07-17 — 2026-10-15
+> **Generated:** 2026-10-15 01:19:39 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,13 +9,13 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 77 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 96 |
+| Issues Closed | 94 |
 
 ---
 
 ## PRs Merged (100)
 
-**velero-io** (17)
+**velero-io** (18)
 - [#10051 docs: use consistent excludedNames glob pattern in filter design examples](https://github.com/velero-io/velero/pull/10051) — velero-io/velero
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
@@ -33,8 +33,9 @@
 - [#10406 release-1.17: validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10406) — velero-io/velero
 - [#10381 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/10381) — velero-io/velero
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
+- [#10407 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10407) — velero-io/velero
 
-**openshift** (21)
+**openshift** (22)
 - [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
 - [#86664 Add release-4.21 to Prow configuration branches](https://github.com/openshift/release/pull/86664) — openshift/release
 - [#2454 OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation](https://github.com/openshift/oadp-operator/pull/2454) — openshift/oadp-operator
@@ -56,6 +57,7 @@
 - [#2139 OADP-7665: Pass --log-level to NodeAgent DaemonSet container args](https://github.com/openshift/oadp-operator/pull/2139) — openshift/oadp-operator
 - [#2019 Add uploader-type argument to Velero deployment configuration when configuration.args is used.](https://github.com/openshift/oadp-operator/pull/2019) — openshift/oadp-operator
 - [#2368 [oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable](https://github.com/openshift/oadp-operator/pull/2368) — openshift/oadp-operator
+- [#2205 OADP-7943: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2205) — openshift/oadp-operator
 
 **migtools** (7)
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
@@ -66,7 +68,7 @@
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#50 Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) — migtools/kubevirt-datamover-plugin
 
-**Other** (55)
+**Other** (53)
 - [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
 - [#72 fix: parse @-prefixed and filters-nested OWNERS entries](https://github.com/dpanshug/upstream-pulse/pull/72) — dpanshug/upstream-pulse
 - [#266 ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266) — kaovilai/cephcsi-cbt-e2e
@@ -85,8 +87,6 @@
 - [#74 Replace github-stats images with animated language chart; animate live data](https://github.com/kaovilai/kaovilai/pull/74) — kaovilai/kaovilai
 - [#73 Refresh profile README with animated SVGs generated from repo data](https://github.com/kaovilai/kaovilai/pull/73) — kaovilai/kaovilai
 - [#252 Speak question speech for Claude AskUserQuestion permission requests](https://github.com/OpenPetsHQ/openpets/pull/252) — OpenPetsHQ/openpets
-- [#495 ⚡ Bolt: Optimize file staleness checks with native Zsh globbing](https://github.com/kaovilai/dotfiles/pull/495) — kaovilai/dotfiles
-- [#502 🔒 Fix insecure curl -k usage in MinIO scripts](https://github.com/kaovilai/dotfiles/pull/502) — kaovilai/dotfiles
 - [#189 fix(combo): don't re-submit form while GitHub's post is still in flight](https://github.com/kaovilai/github-bot-command-palette/pull/189) — kaovilai/github-bot-command-palette
 - [#188 fix(rehearse): accept gcs.ci.openshift.org listing URLs for full job list](https://github.com/kaovilai/github-bot-command-palette/pull/188) — kaovilai/github-bot-command-palette
 - [#2 fix: address shubham's review feedback on DPT CACertRef handling](https://github.com/msfrucht/oadp-operator/pull/2) — msfrucht/oadp-operator
@@ -426,7 +426,7 @@
 - [#43 Chrome Web Store listing reports location permission](https://github.com/rxliuli/redirector/issues/43) — rxliuli/redirector
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
-## Issues Closed (96)
+## Issues Closed (94)
 
 **velero-io** (29)
 - [#10076 Dependabot auto approve action](https://github.com/velero-io/velero/issues/10076) — velero-io/velero
@@ -477,7 +477,7 @@
 - [#363 Remove CODEGEN_VERSION from Makefile.prow](https://github.com/openshift/velero/issues/363) — openshift/velero
 - [#443 OADP-7384: ImageStream backup fails with `manifest unknown` when a status tag item references another namespace's repository and that reference is stale](https://github.com/openshift/openshift-velero-plugin/issues/443) — openshift/openshift-velero-plugin
 
-**migtools** (21)
+**migtools** (20)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 - [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
 - [#42 Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review](https://github.com/migtools/kubevirt-datamover-plugin/issues/42) — migtools/kubevirt-datamover-plugin
@@ -498,9 +498,8 @@
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 - [#118 lint workflow is using node20](https://github.com/migtools/kubevirt-datamover-controller/issues/118) — migtools/kubevirt-datamover-controller
 - [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
-- [#112 Temp backup PVC hardcoded to 10Gi (ensureTempPVC), causing silent backup failures for larger disks](https://github.com/migtools/kubevirt-datamover-controller/issues/112) — migtools/kubevirt-datamover-controller
 
-**Other** (30)
+**Other** (29)
 - [#848 status-reconciler can permanently miss config changes when delta delivery times out](https://github.com/kubernetes-sigs/prow/issues/848) — kubernetes-sigs/prow
 - [#265 Feature: throw the pet like a ball (release inertia + bounce off the current monitor's edges)](https://github.com/OpenPetsHQ/openpets/issues/265) — OpenPetsHQ/openpets
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
@@ -530,7 +529,6 @@
 - [#15702 Subsequent funnel of the same name from different node breaks HTTPS](https://github.com/tailscale/tailscale/issues/15702) — tailscale/tailscale
 - [#318 Should also have an environment variable for the default Opus model, allowing opus+sonnet+haiku usage.](https://github.com/caozhiyuan/copilot-api/issues/318) — caozhiyuan/copilot-api
 - [#317 Command used when Vertex AI is set up for Claude Code does not override Vertex AI.](https://github.com/caozhiyuan/copilot-api/issues/317) — caozhiyuan/copilot-api
-- [#18471 IncrementalBackup: backup fails with "No space left on device" shortly after creating the qcow2 metadata overlay, unrelated to any volume's real free space](https://github.com/kubevirt/kubevirt/issues/18471) — kubevirt/kubevirt
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*

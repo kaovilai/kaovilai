@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-16",
-    "end": "2026-10-14"
+    "start": "2026-07-17",
+    "end": "2026-10-15"
   },
-  "generatedAt": "2026-10-14T23:44:59Z",
+  "generatedAt": "2026-10-15T01:19:39Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 77,
     "issuesCommented": 100,
-    "issuesClosed": 96
+    "issuesClosed": 94
   },
   "prsMerged": [
     {
@@ -181,24 +181,6 @@
       "title": "Speak question speech for Claude AskUserQuestion permission requests",
       "url": "https://github.com/OpenPetsHQ/openpets/pull/252",
       "date": "2026-10-10T13:57:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 495,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "⚡ Bolt: Optimize file staleness checks with native Zsh globbing",
-      "url": "https://github.com/kaovilai/dotfiles/pull/495",
-      "date": "2026-07-16T15:47:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 502,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "🔒 Fix insecure curl -k usage in MinIO scripts",
-      "url": "https://github.com/kaovilai/dotfiles/pull/502",
-      "date": "2026-07-16T14:46:43Z",
       "workstream": "Uncategorized"
     },
     {
@@ -910,6 +892,24 @@
       "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
       "url": "https://github.com/openshift/oadp-operator/pull/2368",
       "date": "2026-08-26T17:45:03Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10407,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
+      "url": "https://github.com/velero-io/velero/pull/10407",
+      "date": "2026-08-26T17:16:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2205,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
+      "url": "https://github.com/openshift/oadp-operator/pull/2205",
+      "date": "2026-08-26T15:37:49Z",
       "workstream": "OADP"
     }
   ],
@@ -4258,24 +4258,6 @@
       "url": "https://github.com/caozhiyuan/copilot-api/issues/317",
       "date": "2026-07-17T00:44:23Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 18471,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "IncrementalBackup: backup fails with \"No space left on device\" shortly after creating the qcow2 metadata overlay, unrelated to any volume's real free space",
-      "url": "https://github.com/kubevirt/kubevirt/issues/18471",
-      "date": "2026-07-16T19:00:03Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 112,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Temp backup PVC hardcoded to 10Gi (ensureTempPVC), causing silent backup failures for larger disks",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/112",
-      "date": "2026-07-16T18:58:45Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ]
 }
