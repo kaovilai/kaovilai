@@ -3,11 +3,11 @@
     "start": "2026-07-17",
     "end": "2026-10-15"
   },
-  "generatedAt": "2026-10-15T01:19:39Z",
+  "generatedAt": "2026-10-15T11:11:32Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 77,
+    "prsReviewed": 75,
     "issuesCommented": 100,
     "issuesClosed": 94
   },
@@ -915,6 +915,33 @@
   ],
   "prsOpened": [
     {
+      "number": 19792,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "feat(claude): add a fork subagents switch to Claude instances",
+      "url": "https://github.com/pingdotgg/t3code/pull/19792",
+      "date": "2026-10-15T05:28:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 19785,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
+      "url": "https://github.com/pingdotgg/t3code/pull/19785",
+      "date": "2026-10-15T05:08:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 91,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+      "date": "2026-10-15T04:10:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 80,
       "repo": "kaovilai/kaovilai",
       "org": "kaovilai",
@@ -1786,33 +1813,6 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173",
       "date": "2026-09-02T19:34:35Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 84490,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/84490",
-      "date": "2026-09-02T18:18:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 218,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Detect VMI guest-agent availability before quiesce, with explicit user override",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/218",
-      "date": "2026-09-01T21:13:49Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 567,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "1.5: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
-      "url": "https://github.com/openshift/velero/pull/567",
-      "date": "2026-09-01T14:22:53Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2490,27 +2490,36 @@
       "url": "https://github.com/quay/quay/pull/7381",
       "date": "2026-10-01T14:16:51Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 335,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
-      "date": "2026-10-01T13:34:25Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 276,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.6 (f5ba313) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-cli/pull/276",
-      "date": "2026-09-30T21:43:57Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-15T11:01:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "date": "2026-10-15T03:21:26Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-10-15T02:58:16Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 26598,
       "repo": "github/gh-aw",
@@ -2528,15 +2537,6 @@
       "url": "https://github.com/velero-io/velero/issues/9109",
       "date": "2026-10-14T12:19:57Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-14T11:20:30Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 597,
@@ -3391,24 +3391,6 @@
       "title": "Ensure object creation does not exceed Kubernetes maximum name length",
       "url": "https://github.com/velero-io/velero/issues/8815",
       "date": "2026-08-17T12:44:34Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10302,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
-      "url": "https://github.com/velero-io/velero/issues/10302",
-      "date": "2026-08-16T15:43:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9964,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backup-finalizer retries forever when object-store PUT hits a non-retryable error (e.g. Azure BlobImmutableDueToPolicy 409)",
-      "url": "https://github.com/velero-io/velero/issues/9964",
-      "date": "2026-08-14T22:01:00Z",
       "workstream": "Velero"
     }
   ],
