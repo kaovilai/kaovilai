@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-15 20:13:10 UTC
+> Last updated: 2026-10-15 23:36:15 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -166,7 +166,6 @@ No open PRs.
 - [![PR #1531](https://img.shields.io/badge/PR%20%231531-stale-yellow)](https://github.com/slopus/happy/pull/1531) **slopus/happy** → `main` - fix(cli): pass through update subcommand to claude directly
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-stale-yellow)](https://github.com/richstokes/k8s-folding-at-home/pull/18) **richstokes/k8s-folding-at-home** → `master` - Add E2E tests, runAsUser, add comments for OpenShift UID issue.
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/CarmiWisemon/openshift-docs/pull/1) **CarmiWisemon/openshift-docs** → `oadp1178flags` - keep .gitignore
-- [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/ci-docs/pull/1) **kaovilai/ci-docs** → `main` - docs: Testing OLM-Deployed Operators in CI — add FBC catalog image and OLMv1 guidance
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/containerd/pull/1) **kaovilai/containerd** → `main` - [Snyk] Security upgrade ubuntu from latest to 22.04
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/distribution/pull/1) **kaovilai/distribution** → `compile_damnit_gcs` - Gcs fixes
 - [![PR #1](https://img.shields.io/badge/PR%20%231-stale-yellow)](https://github.com/kaovilai/iOS-SOCKS-Server/pull/1) **kaovilai/iOS-SOCKS-Server** → `master` - Dual-stack listening + structured startup output with per-interface shell env examples
