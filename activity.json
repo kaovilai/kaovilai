@@ -3,7 +3,7 @@
     "start": "2026-07-17",
     "end": "2026-10-15"
   },
-  "generatedAt": "2026-10-15T20:11:46Z",
+  "generatedAt": "2026-10-15T23:34:03Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 10660,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: drop the SKIP_KIND label, which nothing reads",
+      "url": "https://github.com/velero-io/velero/pull/10660",
+      "date": "2026-10-15T20:52:50Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2489,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -2472,18 +2481,27 @@
       "url": "https://github.com/velero-io/velero/pull/10617",
       "date": "2026-10-02T15:57:49Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2474,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (fcf7610) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-operator/pull/2474",
-      "date": "2026-10-02T13:46:15Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10627,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow Multiple Key Properties",
+      "url": "https://github.com/velero-io/velero/issues/10627",
+      "date": "2026-10-15T23:31:45Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-10-15T20:18:00Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2500,15 +2518,6 @@
       "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-15T03:21:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10553,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
-      "url": "https://github.com/pingdotgg/t3code/issues/10553",
-      "date": "2026-10-15T02:58:16Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3373,15 +3382,6 @@
       "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
       "url": "https://github.com/velero-io/velero/issues/10303",
       "date": "2026-08-18T06:40:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 8815,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
-      "url": "https://github.com/velero-io/velero/issues/8815",
-      "date": "2026-08-17T12:44:34Z",
       "workstream": "Velero"
     }
   ],
