@@ -3,11 +3,11 @@
     "start": "2026-07-17",
     "end": "2026-10-15"
   },
-  "generatedAt": "2026-10-15T11:11:32Z",
+  "generatedAt": "2026-10-15T16:32:37Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 75,
+    "prsReviewed": 74,
     "issuesCommented": 100,
     "issuesClosed": 94
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 489,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "OADP-8924: Treat missing openshift-apiserver config as no internal registry",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/489",
+      "date": "2026-10-15T15:41:14Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 19792,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -1804,18 +1813,36 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174",
       "date": "2026-09-03T18:37:23Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 173,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Combo auto-submit window, override on pending checks, native Approve sync",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173",
-      "date": "2026-09-02T19:34:35Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 590,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
+      "url": "https://github.com/openshift/velero/pull/590",
+      "date": "2026-10-15T16:23:35Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 87092,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add optional AllNamespaces e2e presubmits for oadp-operator oadp-dev 5.0",
+      "url": "https://github.com/openshift/release/pull/87092",
+      "date": "2026-10-15T15:45:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10640,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(cli): update legacy repository issue URLs in velero bug command",
+      "url": "https://github.com/velero-io/velero/pull/10640",
+      "date": "2026-10-15T12:52:12Z",
+      "workstream": "Velero"
+    },
     {
       "number": 2484,
       "repo": "openshift/oadp-operator",
@@ -2076,15 +2103,6 @@
       "url": "https://github.com/migtools/kopia/pull/56",
       "date": "2026-10-13T01:52:47Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10640,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(cli): update legacy repository issue URLs in velero bug command",
-      "url": "https://github.com/velero-io/velero/pull/10640",
-      "date": "2026-10-12T17:33:03Z",
-      "workstream": "Velero"
     },
     {
       "number": 37,
@@ -2462,33 +2480,6 @@
       "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
       "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/96",
       "date": "2026-10-01T20:43:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 319,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (45480df) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/319",
-      "date": "2026-10-01T20:43:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 178,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/178",
-      "date": "2026-10-01T20:34:00Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 7381,
-      "repo": "quay/quay",
-      "org": "quay",
-      "title": "PROJQUAY-8767: fix(ui): load all tag history pages",
-      "url": "https://github.com/quay/quay/pull/7381",
-      "date": "2026-10-01T14:16:51Z",
       "workstream": "Uncategorized"
     }
   ],
