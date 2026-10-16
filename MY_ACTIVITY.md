@@ -1,21 +1,21 @@
 # Activity Log
 
 > **Period:** 2026-07-18 — 2026-10-16
-> **Generated:** 2026-10-16 16:17:37 UTC
+> **Generated:** 2026-10-16 19:49:36 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 72 |
+| PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 91 |
+| Issues Closed | 92 |
 
 ---
 
 ## PRs Merged (100)
 
-**velero-io** (18)
+**velero-io** (17)
 - [#10051 docs: use consistent excludedNames glob pattern in filter design examples](https://github.com/velero-io/velero/pull/10051) — velero-io/velero
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
 - [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
@@ -33,7 +33,6 @@
 - [#10406 release-1.17: validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10406) — velero-io/velero
 - [#10381 1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty](https://github.com/velero-io/velero/pull/10381) — velero-io/velero
 - [#10348 1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms](https://github.com/velero-io/velero/pull/10348) — velero-io/velero
-- [#10407 1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix](https://github.com/velero-io/velero/pull/10407) — velero-io/velero
 
 **openshift** (21)
 - [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
@@ -67,7 +66,8 @@
 - [#207 alt: merge-patch expected-backup-type annotation instead of retrying Update](https://github.com/migtools/kubevirt-datamover-controller/pull/207) — migtools/kubevirt-datamover-controller
 - [#50 Set binding-blocking spec.selector on restore-target PVCs](https://github.com/migtools/kubevirt-datamover-plugin/pull/50) — migtools/kubevirt-datamover-plugin
 
-**Other** (54)
+**Other** (55)
+- [#5 Fix PR commit detection from deferred GitHub diff markup](https://github.com/kaovilai/github-html-diff-preview/pull/5) — kaovilai/github-html-diff-preview
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
 - [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
 - [#72 fix: parse @-prefixed and filters-nested OWNERS entries](https://github.com/dpanshug/upstream-pulse/pull/72) — dpanshug/upstream-pulse
@@ -130,7 +130,7 @@
 - [#10555 Fix e2e-test-kind and changelog-check CI flakes](https://github.com/velero-io/velero/pull/10555) — velero-io/velero
 - [#10534 Add changelog-bot workflow to add changelogs via /changelog comment](https://github.com/velero-io/velero/pull/10534) — velero-io/velero
 
-**openshift** (14)
+**openshift** (13)
 - [#489 OADP-8924: Treat missing openshift-apiserver config as no internal registry](https://github.com/openshift/openshift-velero-plugin/pull/489) — openshift/openshift-velero-plugin
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
@@ -144,7 +144,6 @@
 - [#2446 [oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)](https://github.com/openshift/oadp-operator/pull/2446) — openshift/oadp-operator
 - [#2445 fix: don't check VEP-25 CRDs before the feature gate that creates them](https://github.com/openshift/oadp-operator/pull/2445) — openshift/oadp-operator
 - [#84592 oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs](https://github.com/openshift/release/pull/84592) — openshift/release
-- [#2435 fix: vendor virtualmachineinstances RBAC from KDM PR #218](https://github.com/openshift/oadp-operator/pull/2435) — openshift/oadp-operator
 
 **migtools** (4)
 - [#245 fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) — migtools/kubevirt-datamover-controller
@@ -152,7 +151,8 @@
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (78)
+**Other** (79)
+- [#5 Fix PR commit detection from deferred GitHub diff markup](https://github.com/kaovilai/github-html-diff-preview/pull/5) — kaovilai/github-html-diff-preview
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
 - [#47 Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) — dohyeon5626/github-html-preview-extension
 - [#19792 feat(claude): add a fork subagents switch to Claude instances](https://github.com/pingdotgg/t3code/pull/19792) — pingdotgg/t3code
@@ -231,7 +231,7 @@
 - [#178 Make auto-submit/combo path touch-friendly and add a form-submit fallback](https://github.com/kaovilai/github-bot-command-palette/pull/178) — kaovilai/github-bot-command-palette
 - [#177 Add hover/click popups for Claude analysis links and failed-step logs](https://github.com/kaovilai/github-bot-command-palette/pull/177) — kaovilai/github-bot-command-palette
 - [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
-## PRs Reviewed (72)
+## PRs Reviewed (73)
 
 **velero-io** (34)
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
@@ -269,8 +269,9 @@
 - [#10593 e2e: verify CSI snapshots on kind](https://github.com/velero-io/velero/pull/10593) — velero-io/velero
 - [#10212 Fix Zip Slip path check accepting a sibling directory in archive extraction](https://github.com/velero-io/velero/pull/10212) — velero-io/velero
 
-**openshift** (21)
+**openshift** (22)
 - [#590 Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4](https://github.com/openshift/velero/pull/590) — openshift/velero
+- [#2494 OADP-8926, OADP-8911: scope operand network policies and fix DNS egress](https://github.com/openshift/oadp-operator/pull/2494) — openshift/oadp-operator
 - [#591 Bump golangci-lint from v2.5.0 to v2.14.0](https://github.com/openshift/velero/pull/591) — openshift/velero
 - [#2489 [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default](https://github.com/openshift/oadp-operator/pull/2489) — openshift/oadp-operator
 - [#490 Bump github.com/moby/sys/user from 0.4.0 to 0.4.1](https://github.com/openshift/openshift-velero-plugin/pull/490) — openshift/openshift-velero-plugin
@@ -388,10 +389,10 @@
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
 **Other** (33)
+- [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
-- [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
@@ -421,7 +422,7 @@
 - [#43 Chrome Web Store listing reports location permission](https://github.com/rxliuli/redirector/issues/43) — rxliuli/redirector
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
-## Issues Closed (91)
+## Issues Closed (92)
 
 **velero-io** (30)
 - [#10653 Improve CI reliability by reusing Go module caches across test jobs](https://github.com/velero-io/velero/issues/10653) — velero-io/velero
@@ -495,7 +496,8 @@
 - [#118 lint workflow is using node20](https://github.com/migtools/kubevirt-datamover-controller/issues/118) — migtools/kubevirt-datamover-controller
 - [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
 
-**Other** (25)
+**Other** (26)
+- [#4 [bug] This page did not say which commits the pull request compares, so there is nothing to preview. Reload the Files changed tab and try again; if it keeps happenin…](https://github.com/kaovilai/github-html-diff-preview/issues/4) — kaovilai/github-html-diff-preview
 - [#848 status-reconciler can permanently miss config changes when delta delivery times out](https://github.com/kubernetes-sigs/prow/issues/848) — kubernetes-sigs/prow
 - [#265 Feature: throw the pet like a ball (release inertia + bounce off the current monitor's edges)](https://github.com/OpenPetsHQ/openpets/issues/265) — OpenPetsHQ/openpets
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code

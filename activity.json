@@ -3,15 +3,24 @@
     "start": "2026-07-18",
     "end": "2026-10-16"
   },
-  "generatedAt": "2026-10-16T16:17:37Z",
+  "generatedAt": "2026-10-16T19:49:36Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 72,
+    "prsReviewed": 73,
     "issuesCommented": 100,
-    "issuesClosed": 91
+    "issuesClosed": 92
   },
   "prsMerged": [
+    {
+      "number": 5,
+      "repo": "kaovilai/github-html-diff-preview",
+      "org": "kaovilai",
+      "title": "Fix PR commit detection from deferred GitHub diff markup",
+      "url": "https://github.com/kaovilai/github-html-diff-preview/pull/5",
+      "date": "2026-10-16T18:25:25Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 192,
       "repo": "kaovilai/github-bot-command-palette",
@@ -902,18 +911,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2368",
       "date": "2026-08-26T17:45:03Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10407,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Cherry-pick #10390: Validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10407",
-      "date": "2026-08-26T17:16:55Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 5,
+      "repo": "kaovilai/github-html-diff-preview",
+      "org": "kaovilai",
+      "title": "Fix PR commit detection from deferred GitHub diff markup",
+      "url": "https://github.com/kaovilai/github-html-diff-preview/pull/5",
+      "date": "2026-10-16T18:03:14Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 192,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176",
       "date": "2026-09-03T20:42:18Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2435,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: vendor virtualmachineinstances RBAC from KDM PR #218",
-      "url": "https://github.com/openshift/oadp-operator/pull/2435",
-      "date": "2026-09-03T19:47:29Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
@@ -1822,8 +1822,17 @@
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
       "url": "https://github.com/openshift/velero/pull/590",
-      "date": "2026-10-16T16:12:50Z",
+      "date": "2026-10-16T19:41:50Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 2494,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
+      "url": "https://github.com/openshift/oadp-operator/pull/2494",
+      "date": "2026-10-16T19:41:35Z",
+      "workstream": "OADP"
     },
     {
       "number": 10654,
@@ -1831,7 +1840,7 @@
       "org": "velero-io",
       "title": "Add S3 SSE-C headers to download requests",
       "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-16T13:14:18Z",
+      "date": "2026-10-16T19:06:45Z",
       "workstream": "Velero"
     },
     {
@@ -2467,6 +2476,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 26598,
+      "repo": "github/gh-aw",
+      "org": "github",
+      "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
+      "url": "https://github.com/github/gh-aw/issues/26598",
+      "date": "2026-10-16T18:10:20Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2500,15 +2518,6 @@
       "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-15T03:21:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 26598,
-      "repo": "github/gh-aw",
-      "org": "github",
-      "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
-      "url": "https://github.com/github/gh-aw/issues/26598",
-      "date": "2026-10-14T22:30:14Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3368,6 +3377,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 4,
+      "repo": "kaovilai/github-html-diff-preview",
+      "org": "kaovilai",
+      "title": "[bug] This page did not say which commits the pull request compares, so there is nothing to preview. Reload the Files changed tab and try again; if it keeps happenin…",
+      "url": "https://github.com/kaovilai/github-html-diff-preview/issues/4",
+      "date": "2026-10-16T18:25:26Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10653,
       "repo": "velero-io/velero",
