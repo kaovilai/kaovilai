@@ -3,11 +3,11 @@
     "start": "2026-07-18",
     "end": "2026-10-16"
   },
-  "generatedAt": "2026-10-16T11:06:16Z",
+  "generatedAt": "2026-10-16T16:17:37Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 73,
+    "prsReviewed": 72,
     "issuesCommented": 100,
     "issuesClosed": 91
   },
@@ -1817,12 +1817,21 @@
   ],
   "prsReviewed": [
     {
+      "number": 590,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
+      "url": "https://github.com/openshift/velero/pull/590",
+      "date": "2026-10-16T16:12:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10654,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Add S3 SSE-C headers to download requests",
       "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-16T10:48:56Z",
+      "date": "2026-10-16T13:14:18Z",
       "workstream": "Velero"
     },
     {
@@ -1896,15 +1905,6 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/490",
       "date": "2026-10-15T18:00:40Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 590,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
-      "url": "https://github.com/openshift/velero/pull/590",
-      "date": "2026-10-15T17:23:16Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 87092,
@@ -2462,15 +2462,6 @@
       "title": "fix(e2e): add retry logic for empty sha256sum output in checksum helpers",
       "url": "https://github.com/openshift/oadp-operator/pull/2475",
       "date": "2026-10-05T22:41:05Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2466,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] OADP-8835: feat(bsl): concatenate all CA certificates from BSLs and include system defaults",
-      "url": "https://github.com/openshift/oadp-operator/pull/2466",
-      "date": "2026-10-05T15:31:03Z",
       "workstream": "OADP"
     }
   ],
