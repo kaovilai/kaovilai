@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-16 19:50:00 UTC
+> Last updated: 2026-10-16 22:41:10 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -63,9 +63,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2485](https://img.shields.io/badge/PR%20%232485-ready-green)](https://github.com/openshift/oadp-operator/pull/2485) **openshift/oadp-operator** → `oadp-1.4` - tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s
 - [![PR #2489](https://img.shields.io/badge/PR%20%232489-ready-green)](https://github.com/openshift/oadp-operator/pull/2489) **openshift/oadp-operator** → `oadp-dev` - [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default
-- [![PR #2494](https://img.shields.io/badge/PR%20%232494-ready-green)](https://github.com/openshift/oadp-operator/pull/2494) **openshift/oadp-operator** → `oadp-dev` - OADP-8926, OADP-8911: scope operand network policies and fix DNS egress
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
-- [![PR #590](https://img.shields.io/badge/PR%20%23590-ready-green)](https://github.com/openshift/velero/pull/590) **openshift/velero** → `oadp-1.4` - Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4
+- [![PR #591](https://img.shields.io/badge/PR%20%23591-ready-green)](https://github.com/openshift/velero/pull/591) **openshift/velero** → `oadp-1.4` - Bump golangci-lint from v2.5.0 to v2.14.0
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
@@ -75,10 +74,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
+- [![PR #2494](https://img.shields.io/badge/PR%20%232494-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2494) **openshift/oadp-operator** → `oadp-dev` - OADP-8926, OADP-8911: scope operand network policies and fix DNS egress
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #489](https://img.shields.io/badge/PR%20%23489-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/489) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-8924: Treat missing openshift-apiserver config as no internal registry
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/490) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/moby/sys/user from 0.4.0 to 0.4.1
-- [![PR #591](https://img.shields.io/badge/PR%20%23591-waiting--merge-blue)](https://github.com/openshift/velero/pull/591) **openshift/velero** → `oadp-1.4` - Bump golangci-lint from v2.5.0 to v2.14.0
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
@@ -102,6 +101,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #78](https://img.shields.io/badge/PR%20%2378-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/78) **openshift/oadp-must-gather** → `oadp-1.4` - OADP-7143: update runc requirement
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
+- [![PR #80150](https://img.shields.io/badge/PR%20%2380150-stale-yellow)](https://github.com/openshift/release/pull/80150) **openshift/release** → `main` - tide: enable github_merge_blocks_policy for repos with recent merge failures
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #565](https://img.shields.io/badge/PR%20%23565-hold-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
