@@ -3,15 +3,24 @@
     "start": "2026-07-18",
     "end": "2026-10-16"
   },
-  "generatedAt": "2026-10-16T01:04:59Z",
+  "generatedAt": "2026-10-16T11:06:16Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 74,
+    "prsReviewed": 73,
     "issuesCommented": 100,
-    "issuesClosed": 90
+    "issuesClosed": 91
   },
   "prsMerged": [
+    {
+      "number": 192,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "chore: prepare Chrome Web Store submission",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/192",
+      "date": "2026-10-16T05:33:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 80,
       "repo": "kaovilai/kaovilai",
@@ -902,18 +911,18 @@
       "url": "https://github.com/velero-io/velero/pull/10407",
       "date": "2026-08-26T17:16:55Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2205,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7943: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2205",
-      "date": "2026-08-26T15:37:49Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
+    {
+      "number": 192,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "chore: prepare Chrome Web Store submission",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/192",
+      "date": "2026-10-16T05:33:27Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 47,
       "repo": "dohyeon5626/github-html-preview-extension",
@@ -1804,18 +1813,45 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2435",
       "date": "2026-09-03T19:47:29Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Skip Test/Override buttons on tide's own status context",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175",
-      "date": "2026-09-03T18:41:52Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add S3 SSE-C headers to download requests",
+      "url": "https://github.com/velero-io/velero/pull/10654",
+      "date": "2026-10-16T10:48:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10556,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Design]Owner reference and dependency relink design",
+      "url": "https://github.com/velero-io/velero/pull/10556",
+      "date": "2026-10-16T06:46:41Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 591,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Bump golangci-lint from v2.5.0 to v2.14.0",
+      "url": "https://github.com/openshift/velero/pull/591",
+      "date": "2026-10-16T05:29:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10656,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Reuse cached Go modules across CI jobs",
+      "url": "https://github.com/velero-io/velero/pull/10656",
+      "date": "2026-10-16T03:08:28Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10660,
       "repo": "velero-io/velero",
@@ -1869,15 +1905,6 @@
       "url": "https://github.com/openshift/velero/pull/590",
       "date": "2026-10-15T17:23:16Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10656,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reuse cached Go modules across CI jobs",
-      "url": "https://github.com/velero-io/velero/pull/10656",
-      "date": "2026-10-15T17:09:44Z",
-      "workstream": "Velero"
     },
     {
       "number": 87092,
@@ -2445,45 +2472,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2466",
       "date": "2026-10-05T15:31:03Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10596,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a script to install CSI snapshot support on kind",
-      "url": "https://github.com/velero-io/velero/pull/10596",
-      "date": "2026-10-04T17:06:22Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10622,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bump the github-actions group with 2 updates",
-      "url": "https://github.com/velero-io/velero/pull/10622",
-      "date": "2026-10-04T13:27:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 69,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/kubevirt-datamover-plugin:oadp-1.6 (dc932cf) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/69",
-      "date": "2026-10-02T20:17:54Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10617,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix contributor and maintainer guidance links",
-      "url": "https://github.com/velero-io/velero/pull/10617",
-      "date": "2026-10-02T15:57:49Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-16T10:51:26Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10627,
       "repo": "velero-io/velero",
@@ -2500,15 +2500,6 @@
       "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
       "url": "https://github.com/pingdotgg/t3code/issues/10553",
       "date": "2026-10-15T20:18:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-15T11:01:00Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3386,6 +3377,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10653,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Improve CI reliability by reusing Go module caches across test jobs",
+      "url": "https://github.com/velero-io/velero/issues/10653",
+      "date": "2026-10-16T03:08:29Z",
+      "workstream": "Velero"
+    },
     {
       "number": 597,
       "repo": "openshift/ci-docs",
