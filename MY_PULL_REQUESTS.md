@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-16 16:22:36 UTC
+> Last updated: 2026-10-16 19:50:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -63,7 +63,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2485](https://img.shields.io/badge/PR%20%232485-ready-green)](https://github.com/openshift/oadp-operator/pull/2485) **openshift/oadp-operator** → `oadp-1.4` - tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s
 - [![PR #2489](https://img.shields.io/badge/PR%20%232489-ready-green)](https://github.com/openshift/oadp-operator/pull/2489) **openshift/oadp-operator** → `oadp-dev` - [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default
+- [![PR #2494](https://img.shields.io/badge/PR%20%232494-ready-green)](https://github.com/openshift/oadp-operator/pull/2494) **openshift/oadp-operator** → `oadp-dev` - OADP-8926, OADP-8911: scope operand network policies and fix DNS egress
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
+- [![PR #590](https://img.shields.io/badge/PR%20%23590-ready-green)](https://github.com/openshift/velero/pull/590) **openshift/velero** → `oadp-1.4` - Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
@@ -104,7 +106,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #565](https://img.shields.io/badge/PR%20%23565-hold-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
-- [![PR #590](https://img.shields.io/badge/PR%20%23590-failing--ci-red)](https://github.com/openshift/velero/pull/590) **openshift/velero** → `oadp-1.4` - Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-failing--ci-red)](https://github.com/openshift/restic/pull/69) **openshift/restic** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
@@ -151,7 +152,6 @@ No open PRs.
 - [![PR #19785](https://img.shields.io/badge/PR%20%2319785-ready-green)](https://github.com/pingdotgg/t3code/pull/19785) **pingdotgg/t3code** → `main` - fix(web): a message queued behind a running turn no longer pushes the working header below it
 - [![PR #19792](https://img.shields.io/badge/PR%20%2319792-ready-green)](https://github.com/pingdotgg/t3code/pull/19792) **pingdotgg/t3code** → `main` - feat(claude): add a fork subagents switch to Claude instances
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
-- [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) **dohyeon5626/github-html-preview-extension** → `main` - Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #91](https://img.shields.io/badge/PR%20%2391-ready-green)](https://github.com/redhat-et/pricetag-metering/pull/91) **redhat-et/pricetag-metering** → `main` - docs(welcome): add hosted-model-only recipes for Claude Code and Codex
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
