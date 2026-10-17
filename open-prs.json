@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T09:48:16Z",
+  "updatedAt": "2026-10-17T14:31:24Z",
   "prs": [
     {
       "number": 10010,
@@ -12747,9 +12747,17 @@
         "size:M",
         "macroscope-review"
       ],
-      "updatedAt": "2026-10-13T16:21:00Z",
+      "updatedAt": "2026-10-17T09:58:36Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "CANCELLED"
+        },
         {
           "name": "EAS Preview",
           "conclusion": "SKIPPED"
@@ -12759,75 +12767,39 @@
           "conclusion": "SKIPPED"
         },
         {
+          "name": "Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
           "name": "Lint",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Typecheck",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "Label PR 18096",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 18096",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Web",
           "conclusion": "SUCCESS"
         },
         {
           "name": "Test Server 1",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
           "conclusion": "SUCCESS"
         },
         {
@@ -12851,47 +12823,43 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "Test Server 7",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 8",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build and Typecheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Web",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "Rust",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Mobile Native Changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Release Smoke",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Transfer report artifact",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         },
         {
           "name": "Mobile Native Static Analysis",
           "conclusion": "SKIPPED"
         },
         {
+          "name": "Release Smoke",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "Check",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Macroscope - Approvability Check",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "Macroscope - Effect Service Conventions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Macroscope - UI Consistency",
-          "conclusion": "SKIPPED"
-        },
-        {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Macroscope - Correctness Check",
           "conclusion": "SUCCESS"
         }
       ]
@@ -14370,7 +14338,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-17T09:48:16Z",
+    "updatedAt": "2026-10-17T14:31:24Z",
     "needsReview": [
       {
         "number": 68,
@@ -14489,7 +14457,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 498,
+        "waitingDays": 499,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -14664,6 +14632,35 @@
         "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
+        "number": 2272,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "validate container runtime availability before container operations",
+        "url": "https://github.com/openshift/oadp-operator/pull/2272",
+        "targetBranch": "oadp-dev",
+        "author": "Shreyashxredhat",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 108,
+        "updatedAt": "2026-07-01T12:32:51Z"
+      },
+      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -14694,35 +14691,6 @@
         "reason": "awaitingReview",
         "waitingDays": 107,
         "updatedAt": "2026-07-01T15:33:31Z"
-      },
-      {
-        "number": 2272,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "validate container runtime availability before container operations",
-        "url": "https://github.com/openshift/oadp-operator/pull/2272",
-        "targetBranch": "oadp-dev",
-        "author": "Shreyashxredhat",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "needs-ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 107,
-        "updatedAt": "2026-07-01T12:32:51Z"
       },
       {
         "number": 285,
@@ -14788,7 +14756,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15053,30 +15021,6 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 66,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -15102,8 +15046,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 66,
+        "waitingDays": 67,
         "updatedAt": "2026-08-11T13:19:55Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 66,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 80150,
@@ -15170,7 +15138,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -15342,34 +15310,6 @@
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
-        "number": 319,
-        "repo": "velero-io/velero-plugin-for-aws",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 51,
-        "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -15399,8 +15339,36 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 50,
+        "waitingDays": 51,
         "updatedAt": "2026-08-27T12:05:51Z"
+      },
+      {
+        "number": 319,
+        "repo": "velero-io/velero-plugin-for-aws",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/319",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 51,
+        "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
         "number": 7941,
@@ -16029,7 +15997,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-10-12T12:58:29Z"
       },
       {
@@ -16426,7 +16394,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -16460,7 +16428,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 66,
+        "waitingDays": 67,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -16492,7 +16460,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -17011,7 +16979,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
@@ -17173,6 +17141,35 @@
         "updatedAt": "2026-10-11T22:04:31Z"
       },
       {
+        "number": 2485,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
+        "url": "https://github.com/openshift/oadp-operator/pull/2485",
+        "targetBranch": "oadp-1.4",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 3,
+        "updatedAt": "2026-10-14T13:22:40Z"
+      },
+      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -17203,35 +17200,6 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-10-14T00:43:53Z"
-      },
-      {
-        "number": 2485,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
-        "url": "https://github.com/openshift/oadp-operator/pull/2485",
-        "targetBranch": "oadp-1.4",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-14T13:22:40Z"
       },
       {
         "number": 233,
