@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:00:10Z",
+  "updatedAt": "2026-10-17T01:49:14Z",
   "prs": [
     {
       "number": 10010,
@@ -14399,7 +14399,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-17T01:00:10Z",
+    "updatedAt": "2026-10-17T01:49:14Z",
     "needsReview": [
       {
         "number": 68,
@@ -14470,7 +14470,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 539,
+        "waitingDays": 540,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -14758,7 +14758,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14784,7 +14784,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15852,7 +15852,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15883,7 +15883,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15941,7 +15941,7 @@
           "provider/copilot",
           "P3"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17172,6 +17172,33 @@
         "reason": "pendingMerge",
         "waitingDays": 5,
         "updatedAt": "2026-10-11T22:04:31Z"
+      },
+      {
+        "number": 18712,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(web): a thread waiting on another thread shows Waiting, not Working",
+        "url": "https://github.com/pingdotgg/t3code/pull/18712",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 4,
+        "updatedAt": "2026-10-12T19:32:45Z"
       },
       {
         "number": 10210,
