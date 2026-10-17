@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:49:14Z",
+  "updatedAt": "2026-10-17T09:48:16Z",
   "prs": [
     {
       "number": 10010,
@@ -11770,6 +11770,71 @@
       ]
     },
     {
+      "number": 674,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+      "url": "https://github.com/kubernetes-sigs/prow/pull/674",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "cncf-cla: yes",
+        "lifecycle/rotten",
+        "ok-to-test",
+        "size/XL",
+        "area/tide"
+      ],
+      "updatedAt": "2026-10-17T09:16:53Z",
+      "workstream": "Kubernetes",
+      "ciChecks": [
+        {
+          "name": "Header rules",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "Pages changed",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "Redirect rules",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "EasyCLA",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "deploy/netlify",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-prow-image-build-test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-prow-integration",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-prow-unit-test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-prow-unit-test-race-detector-nonblocking",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-prow-verify-lint",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 18725,
       "repo": "kubevirt/kubevirt",
       "org": "kubevirt",
@@ -13901,100 +13966,6 @@
       "ciChecks": []
     },
     {
-      "number": 674,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
-      "url": "https://github.com/kubernetes-sigs/prow/pull/674",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "cncf-cla: yes",
-        "ok-to-test",
-        "size/XL",
-        "lifecycle/stale",
-        "area/tide"
-      ],
-      "updatedAt": "2026-07-31T21:47:00Z",
-      "workstream": "Kubernetes",
-      "ciChecks": [
-        {
-          "name": "Header rules",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "Pages changed",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "Redirect rules",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "EasyCLA",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "deploy/netlify",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-prow-image-build-test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-prow-integration",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-prow-unit-test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-prow-unit-test-race-detector-nonblocking",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-prow-verify-lint",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 8673,
-      "repo": "kubernetes/community",
-      "org": "kubernetes",
-      "title": "Update meeting link with password for DP WG",
-      "url": "https://github.com/kubernetes/community/pull/8673",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "cncf-cla: yes",
-        "needs-ok-to-test",
-        "size/XS",
-        "lifecycle/rotten",
-        "wg/data-protection"
-      ],
-      "updatedAt": "2026-07-20T14:46:51Z",
-      "workstream": "Kubernetes",
-      "ciChecks": [
-        {
-          "name": "EasyCLA",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 2,
       "repo": "mowhammadrezaa/SmartFormFiller",
       "org": "mowhammadrezaa",
@@ -14399,7 +14370,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-17T01:49:14Z",
+    "updatedAt": "2026-10-17T09:48:16Z",
     "needsReview": [
       {
         "number": 68,
@@ -14446,7 +14417,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 550,
+        "waitingDays": 551,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -14494,7 +14465,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 532,
+        "waitingDays": 533,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -14634,6 +14605,36 @@
         "updatedAt": "2026-05-19T22:41:19Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 129,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 104,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -14748,30 +14749,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 94,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -14797,8 +14774,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 93,
+        "waitingDays": 94,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 94,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -14963,73 +14964,6 @@
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
-        "number": 8673,
-        "repo": "kubernetes/community",
-        "org": "kubernetes",
-        "title": "Update meeting link with password for DP WG",
-        "url": "https://github.com/kubernetes/community/pull/8673",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "cncf-cla: yes",
-          "needs-ok-to-test",
-          "size/XS",
-          "lifecycle/rotten",
-          "wg/data-protection"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mrbobbytables",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 88,
-        "updatedAt": "2026-07-20T14:46:51Z"
-      },
-      {
-        "number": 674,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "size/XL",
-          "lifecycle/stale",
-          "area/tide"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "cjwagner",
-          "michelle192837",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 77,
-        "updatedAt": "2026-07-31T21:47:00Z"
-      },
-      {
         "number": 251,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -15119,6 +15053,30 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 66,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 46,
         "repo": "konveyor/builder",
         "org": "konveyor",
@@ -15162,7 +15120,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15177,30 +15135,6 @@
         "reason": "hold",
         "waitingDays": 66,
         "updatedAt": "2026-08-11T20:28:19Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 65,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -15711,7 +15645,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -15852,7 +15786,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15883,7 +15817,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15922,7 +15856,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-10-02T07:09:40Z"
       },
       {
@@ -15941,7 +15875,7 @@
           "provider/copilot",
           "P3"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15953,6 +15887,36 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-10-05T15:38:02Z"
+      },
+      {
+        "number": 2473,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2473",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "weshayutin",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 426,
@@ -15984,36 +15948,6 @@
         "reason": "awaitingReview",
         "waitingDays": 10,
         "updatedAt": "2026-10-06T22:24:34Z"
-      },
-      {
-        "number": 2473,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2473",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "weshayutin",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 70,
@@ -16206,7 +16140,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-10-14T03:13:06Z"
       },
       {
@@ -16235,8 +16169,34 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-10-15T05:27:42Z"
+      },
+      {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
         "number": 2489,
@@ -16267,6 +16227,33 @@
         "updatedAt": "2026-10-15T19:31:16Z"
       },
       {
+        "number": 19785,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
+        "url": "https://github.com/pingdotgg/t3code/pull/19785",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-10-16T05:45:57Z"
+      },
+      {
         "number": 91,
         "repo": "redhat-et/pricetag-metering",
         "org": "redhat-et",
@@ -16291,57 +16278,38 @@
         "updatedAt": "2026-10-15T18:53:10Z"
       },
       {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-15T07:41:36Z"
-      },
-      {
-        "number": 19785,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
-        "url": "https://github.com/pingdotgg/t3code/pull/19785",
+        "number": 674,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
-          "vouch:unvouched",
-          "size:M"
+          "cncf-cla: yes",
+          "lifecycle/rotten",
+          "ok-to-test",
+          "size/XL",
+          "area/tide"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
         "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "cjwagner",
+          "michelle192837",
+          "petr-muller"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-16T05:45:57Z"
+        "updatedAt": "2026-10-17T09:16:53Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -16809,7 +16777,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -16835,7 +16803,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -16863,7 +16831,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -16891,7 +16859,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -17047,6 +17015,37 @@
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
+        "number": 84228,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
+        "url": "https://github.com/openshift/release/pull/84228",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "shakyav"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 10,
+        "updatedAt": "2026-10-06T18:03:25Z"
+      },
+      {
         "number": 175,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -17138,7 +17137,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 8,
+        "waitingDays": 9,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -17172,33 +17171,6 @@
         "reason": "pendingMerge",
         "waitingDays": 5,
         "updatedAt": "2026-10-11T22:04:31Z"
-      },
-      {
-        "number": 18712,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(web): a thread waiting on another thread shows Waiting, not Working",
-        "url": "https://github.com/pingdotgg/t3code/pull/18712",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "vouch:unvouched",
-          "size:M"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 4,
-        "updatedAt": "2026-10-12T19:32:45Z"
       },
       {
         "number": 10210,
@@ -17262,6 +17234,36 @@
         "updatedAt": "2026-10-14T13:22:40Z"
       },
       {
+        "number": 233,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "Add CODEOWNERS file based on OWNERS approvers",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "jparrill"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": 0,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-10-16T07:49:57Z"
+      },
+      {
         "number": 490,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -17295,36 +17297,6 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-10-15T18:00:40Z"
-      },
-      {
-        "number": 233,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "Add CODEOWNERS file based on OWNERS approvers",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "jparrill"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": 0,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
         "number": 2494,

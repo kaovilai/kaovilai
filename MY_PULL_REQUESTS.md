@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-17 01:49:14 UTC
+> Last updated: 2026-10-17 09:48:16 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -151,6 +151,7 @@ No open PRs.
 - [![PR #19785](https://img.shields.io/badge/PR%20%2319785-ready-green)](https://github.com/pingdotgg/t3code/pull/19785) **pingdotgg/t3code** → `main` - fix(web): a message queued behind a running turn no longer pushes the working header below it
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #91](https://img.shields.io/badge/PR%20%2391-ready-green)](https://github.com/redhat-et/pricetag-metering/pull/91) **redhat-et/pricetag-metering** → `main` - docs(welcome): add hosted-model-only recipes for Claude Code and Codex
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
@@ -195,11 +196,9 @@ No open PRs.
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
-- [![PR #674](https://img.shields.io/badge/PR%20%23674-stale-yellow)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
-- [![PR #8673](https://img.shields.io/badge/PR%20%238673-stale-yellow)](https://github.com/kubernetes/community/pull/8673) **kubernetes/community** → `main` - Update meeting link with password for DP WG
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #101](https://img.shields.io/badge/PR%20%23101-needs--attention-orange)](https://github.com/openshift-eng/rebasebot/pull/101) **openshift-eng/rebasebot** → `main` - Add --pr-labels flag to apply labels to created PRs
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
