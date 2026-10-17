@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-16 22:41:10 UTC
+> Last updated: 2026-10-17 01:00:10 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -144,13 +144,11 @@ No open PRs.
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
 - [![PR #126897](https://img.shields.io/badge/PR%20%23126897-ready-green)](https://github.com/NousResearch/hermes-agent/pull/126897) **NousResearch/hermes-agent** → `main` - fix(copilot): send captured backend apiVersion to unlock 1M context
 - [![PR #17521](https://img.shields.io/badge/PR%20%2317521-ready-green)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
-- [![PR #17527](https://img.shields.io/badge/PR%20%2317527-ready-green)](https://github.com/pingdotgg/t3code/pull/17527) **pingdotgg/t3code** → `main` - fix(web): git actions menu no longer offers Create PR when the thread has a linked PR
 - [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
 - [![PR #18712](https://img.shields.io/badge/PR%20%2318712-ready-green)](https://github.com/pingdotgg/t3code/pull/18712) **pingdotgg/t3code** → `main` - fix(web): a thread waiting on another thread shows Waiting, not Working
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #19785](https://img.shields.io/badge/PR%20%2319785-ready-green)](https://github.com/pingdotgg/t3code/pull/19785) **pingdotgg/t3code** → `main` - fix(web): a message queued behind a running turn no longer pushes the working header below it
-- [![PR #19792](https://img.shields.io/badge/PR%20%2319792-ready-green)](https://github.com/pingdotgg/t3code/pull/19792) **pingdotgg/t3code** → `main` - feat(claude): add a fork subagents switch to Claude instances
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #91](https://img.shields.io/badge/PR%20%2391-ready-green)](https://github.com/redhat-et/pricetag-metering/pull/91) **redhat-et/pricetag-metering** → `main` - docs(welcome): add hosted-model-only recipes for Claude Code and Codex
