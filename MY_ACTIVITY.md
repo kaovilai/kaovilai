@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-20 — 2026-10-18
-> **Generated:** 2026-10-18 10:50:51 UTC
+> **Generated:** 2026-10-18 15:45:07 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -234,6 +234,7 @@
 ## PRs Reviewed (74)
 
 **velero-io** (35)
+- [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10666 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10666) — velero-io/velero
 - [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10657 e2e: point Kibishii at the kind-csi overlay when CSI is enabled](https://github.com/velero-io/velero/pull/10657) — velero-io/velero
@@ -245,7 +246,6 @@
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#10609 docs: add local Kind setup for CSI e2e](https://github.com/velero-io/velero/pull/10609) — velero-io/velero
 - [#10432 Show default volume snapshot location in snapshot-location get output](https://github.com/velero-io/velero/pull/10432) — velero-io/velero
-- [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10484 fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error](https://github.com/velero-io/velero/pull/10484) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 - [#10373 Remove RemapCRDVersionAction backup item action](https://github.com/velero-io/velero/pull/10373) — velero-io/velero
