@@ -3,7 +3,7 @@
     "start": "2026-07-20",
     "end": "2026-10-18"
   },
-  "generatedAt": "2026-10-18T04:14:05Z",
+  "generatedAt": "2026-10-18T10:50:51Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -2485,12 +2485,21 @@
   ],
   "issuesCommented": [
     {
+      "number": 3314,
+      "repo": "kubernetes/enhancements",
+      "org": "kubernetes",
+      "title": "CSI Differential Snapshot for Block Volumes",
+      "url": "https://github.com/kubernetes/enhancements/issues/3314",
+      "date": "2026-10-18T10:32:21Z",
+      "workstream": "Kubernetes"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-17T10:16:07Z",
+      "date": "2026-10-18T10:31:07Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3372,15 +3381,6 @@
       "org": "migtools",
       "title": "Implement concurrency limiter for DataDownload controller",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175",
-      "date": "2026-08-18T16:37:17Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 184,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184",
       "date": "2026-08-18T16:37:17Z",
       "workstream": "KubeVirt Data Mover"
     }
