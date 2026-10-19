@@ -3,11 +3,11 @@
     "start": "2026-07-21",
     "end": "2026-10-19"
   },
-  "generatedAt": "2026-10-19T12:43:57Z",
+  "generatedAt": "2026-10-19T18:29:46Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 73,
+    "prsReviewed": 74,
     "issuesCommented": 100,
     "issuesClosed": 91
   },
@@ -1817,6 +1817,33 @@
   ],
   "prsReviewed": [
     {
+      "number": 593,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
+      "url": "https://github.com/openshift/velero/pull/593",
+      "date": "2026-10-19T15:50:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 177,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (50b3928) into oadp-1.6",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/177",
+      "date": "2026-10-19T15:36:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 280,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.6 (1e1b143) into oadp-1.6",
+      "url": "https://github.com/migtools/oadp-cli/pull/280",
+      "date": "2026-10-19T15:15:55Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 591,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -2454,27 +2481,18 @@
       "url": "https://github.com/velero-io/velero/pull/10212",
       "date": "2026-10-06T03:32:07Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2443,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8764: handle CACertRef in DPT",
-      "url": "https://github.com/openshift/oadp-operator/pull/2443",
-      "date": "2026-10-06T02:32:49Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2475,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): add retry logic for empty sha256sum output in checksum helpers",
-      "url": "https://github.com/openshift/oadp-operator/pull/2475",
-      "date": "2026-10-05T22:41:05Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-10-19T16:54:56Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2537,15 +2555,6 @@
       "url": "https://github.com/velero-io/velero/issues/10627",
       "date": "2026-10-15T23:31:45Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10553,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
-      "url": "https://github.com/pingdotgg/t3code/issues/10553",
-      "date": "2026-10-15T20:18:00Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 19736,
