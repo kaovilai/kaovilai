@@ -3,13 +3,13 @@
     "start": "2026-07-21",
     "end": "2026-10-19"
   },
-  "generatedAt": "2026-10-19T18:29:46Z",
+  "generatedAt": "2026-10-19T22:49:29Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 74,
+    "prsReviewed": 75,
     "issuesCommented": 100,
-    "issuesClosed": 91
+    "issuesClosed": 92
   },
   "prsMerged": [
     {
@@ -1817,12 +1817,39 @@
   ],
   "prsReviewed": [
     {
+      "number": 2498,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix BSL count race condition in multi-BSL e2e test",
+      "url": "https://github.com/openshift/oadp-operator/pull/2498",
+      "date": "2026-10-19T21:50:16Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 593,
       "repo": "openshift/velero",
       "org": "openshift",
       "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
       "url": "https://github.com/openshift/velero/pull/593",
-      "date": "2026-10-19T15:50:00Z",
+      "date": "2026-10-19T21:46:11Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 183,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Update auto-request-review action to v0.13.0",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/183",
+      "date": "2026-10-19T21:25:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 87249,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1",
+      "url": "https://github.com/openshift/release/pull/87249",
+      "date": "2026-10-19T18:32:05Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2463,24 +2490,6 @@
       "url": "https://github.com/migtools/filebrowser/pull/40",
       "date": "2026-10-06T22:24:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 189,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
-      "url": "https://github.com/migtools/udistribution/pull/189",
-      "date": "2026-10-06T22:24:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10212,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix Zip Slip path check accepting a sibling directory in archive extraction",
-      "url": "https://github.com/velero-io/velero/pull/10212",
-      "date": "2026-10-06T03:32:07Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
@@ -3386,6 +3395,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 19422,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Mobile review diff stops scrolling before the end of long unwrapped lines (Android, iOS)",
+      "url": "https://github.com/pingdotgg/t3code/issues/19422",
+      "date": "2026-10-19T19:29:33Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 4,
       "repo": "kaovilai/github-html-diff-preview",
