@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T19:46:06Z",
+  "updatedAt": "2026-10-19T03:05:30Z",
   "prs": [
     {
       "number": 10010,
@@ -7470,6 +7470,135 @@
       ]
     },
     {
+      "number": 2496,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
+      "url": "https://github.com/openshift/oadp-operator/pull/2496",
+      "targetBranch": "oadp-1.6",
+      "status": "ready",
+      "milestone": null,
+      "author": "openshift-cherrypick-robot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-10-19T01:26:26Z",
+      "workstream": "OADP",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.18-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.18-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/unit-test",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 426,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -8332,128 +8461,6 @@
         },
         {
           "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/unit-test",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 2494,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
-      "url": "https://github.com/openshift/oadp-operator/pull/2494",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "shubham-pampattiwar",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai",
-        "shubham-pampattiwar"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm",
-        "jira/valid-reference"
-      ],
-      "updatedAt": "2026-10-16T23:46:51Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws-allnamespaces",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws-allnamespaces",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/pipeline-gate",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-ci-index",
           "conclusion": "SUCCESS"
         },
         {
@@ -12006,112 +12013,6 @@
       ]
     },
     {
-      "number": 17521,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(web): auto-assign accent color to non-default provider instances",
-      "url": "https://github.com/pingdotgg/t3code/pull/17521",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "vouch:unvouched",
-        "size:M"
-      ],
-      "updatedAt": "2026-10-11T04:19:55Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Verify preview eligibility",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Remove preview download",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17521",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17521",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17521",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Package and sign macOS arm64 preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Publish anonymous download",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Vercel – t3code-marketing",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 17717,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -12651,13 +12552,15 @@
       "milestone": null,
       "author": "kaovilai",
       "isCopilotAuthored": false,
-      "assignees": [],
+      "assignees": [
+        "juliusmarminge"
+      ],
       "isDraft": true,
       "labels": [
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-11T14:03:37Z",
+      "updatedAt": "2026-10-19T02:55:03Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -12698,141 +12601,6 @@
         },
         {
           "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 18096,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(server): show Antigravity's real sign-in failure reason",
-      "url": "https://github.com/pingdotgg/t3code/pull/18096",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [
-        "vouch:unvouched",
-        "size:M",
-        "macroscope-review"
-      ],
-      "updatedAt": "2026-10-17T09:58:36Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "EAS Preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Deploy web preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 18096",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 1",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 2",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 3",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 4",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 5",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 6",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 7",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 8",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Build and Typecheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Web",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Rust",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Mobile Native Static Analysis",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Release Smoke",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Check",
           "conclusion": "SUCCESS"
         },
         {
@@ -14315,7 +14083,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-18T19:46:06Z",
+    "updatedAt": "2026-10-19T03:05:30Z",
     "needsReview": [
       {
         "number": 68,
@@ -14338,7 +14106,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 703,
+        "waitingDays": 704,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -14386,7 +14154,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 541,
+        "waitingDays": 542,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -14461,7 +14229,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 250,
+        "waitingDays": 251,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -14546,7 +14314,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 151,
+        "waitingDays": 152,
         "updatedAt": "2026-05-19T22:41:19Z"
       },
       {
@@ -14575,7 +14343,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 124,
+        "waitingDays": 125,
         "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
@@ -14623,7 +14391,7 @@
         "labels": [
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14662,6 +14430,30 @@
         "reason": "awaitingReview",
         "waitingDays": 101,
         "updatedAt": "2026-07-09T18:02:34Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 96,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 2308,
@@ -14723,30 +14515,6 @@
         "updatedAt": "2026-07-15T16:14:06Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 95,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 267,
         "repo": "velero-io/velero-plugin-for-aws",
         "org": "velero-io",
@@ -14771,7 +14539,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 94,
+        "waitingDays": 95,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -14937,7 +14705,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 75,
+        "waitingDays": 76,
         "updatedAt": "2026-08-03T21:22:10Z"
       },
       {
@@ -14964,7 +14732,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 73,
+        "waitingDays": 74,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -14997,30 +14765,6 @@
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 67,
-        "updatedAt": "2026-08-12T04:09:10Z"
-      },
-      {
         "number": 80150,
         "repo": "openshift/release",
         "org": "openshift",
@@ -15048,8 +14792,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 67,
+        "waitingDays": 68,
         "updatedAt": "2026-08-11T20:28:19Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 67,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -15147,7 +14915,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
@@ -15173,7 +14941,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-08-14T21:03:44Z"
       },
       {
@@ -15199,7 +14967,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
@@ -15225,7 +14993,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
@@ -15241,7 +15009,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15253,7 +15021,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 53,
+        "waitingDays": 54,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -15467,7 +15235,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-08-31T20:24:39Z"
       },
       {
@@ -15526,7 +15294,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -15560,7 +15328,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -15620,7 +15388,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -15636,7 +15404,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -15649,7 +15417,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 19,
+        "waitingDays": 20,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -15775,6 +15543,37 @@
         "updatedAt": "2026-10-02T07:09:40Z"
       },
       {
+        "number": 426,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/426",
+        "targetBranch": "oadp-dev",
+        "author": "dependabot[bot]",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "ok-to-test",
+          "dependencies",
+          "go"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "savitharaghunathan"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-10-06T22:24:34Z"
+      },
+      {
         "number": 2473,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -15803,37 +15602,6 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-10-07T06:45:53Z"
-      },
-      {
-        "number": 426,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/426",
-        "targetBranch": "oadp-dev",
-        "author": "dependabot[bot]",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "ok-to-test",
-          "dependencies",
-          "go"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "savitharaghunathan"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-10-06T22:24:34Z"
       },
       {
         "number": 70,
@@ -16196,6 +15964,35 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-10-17T09:16:53Z"
+      },
+      {
+        "number": 2496,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
+        "url": "https://github.com/openshift/oadp-operator/pull/2496",
+        "targetBranch": "oadp-1.6",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-19T01:26:26Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -16253,7 +16050,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 129,
+        "waitingDays": 130,
         "updatedAt": "2026-06-10T22:00:56Z"
       },
       {
@@ -16437,7 +16234,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:54:13Z"
       },
       {
@@ -16465,7 +16262,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:54:41Z"
       },
       {
@@ -16491,7 +16288,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:54:27Z"
       },
       {
@@ -16517,7 +16314,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:54:48Z"
       },
       {
@@ -16543,7 +16340,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:55:14Z"
       },
       {
@@ -16569,7 +16366,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
@@ -16635,7 +16432,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 44,
+        "waitingDays": 45,
         "updatedAt": "2026-09-03T20:31:41Z"
       },
       {
@@ -16749,6 +16546,38 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 24,
+        "updatedAt": "2026-09-24T21:55:00Z"
+      },
+      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -16806,38 +16635,6 @@
         "reason": "pendingMerge",
         "waitingDays": 23,
         "updatedAt": "2026-09-25T17:03:37Z"
-      },
-      {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 23,
-        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -17024,37 +16821,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-10-11T22:04:31Z"
-      },
-      {
-        "number": 2485,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
-        "url": "https://github.com/openshift/oadp-operator/pull/2485",
-        "targetBranch": "oadp-1.4",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 4,
-        "updatedAt": "2026-10-14T13:22:40Z"
       },
       {
         "number": 10210,
@@ -17085,8 +16853,37 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-10-14T00:43:53Z"
+      },
+      {
+        "number": 2485,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
+        "url": "https://github.com/openshift/oadp-operator/pull/2485",
+        "targetBranch": "oadp-1.4",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 4,
+        "updatedAt": "2026-10-14T13:22:40Z"
       },
       {
         "number": 490,
@@ -17188,40 +16985,6 @@
         "updatedAt": "2026-10-16T17:41:58Z"
       },
       {
-        "number": 2494,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
-        "url": "https://github.com/openshift/oadp-operator/pull/2494",
-        "targetBranch": "oadp-dev",
-        "author": "shubham-pampattiwar",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "shubham-pampattiwar"
-        ],
-        "labels": [
-          "approved",
-          "lgtm",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "sseago"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-16T23:46:51Z"
-      },
-      {
         "number": 591,
         "repo": "openshift/velero",
         "org": "openshift",
@@ -17249,7 +17012,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-10-16T21:01:33Z"
       }
     ]

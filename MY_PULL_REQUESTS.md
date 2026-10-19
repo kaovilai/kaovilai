@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-18 19:46:06 UTC
+> Last updated: 2026-10-19 03:05:30 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -63,6 +63,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2485](https://img.shields.io/badge/PR%20%232485-ready-green)](https://github.com/openshift/oadp-operator/pull/2485) **openshift/oadp-operator** → `oadp-1.4` - tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s
 - [![PR #2489](https://img.shields.io/badge/PR%20%232489-ready-green)](https://github.com/openshift/oadp-operator/pull/2489) **openshift/oadp-operator** → `oadp-dev` - [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default
+- [![PR #2496](https://img.shields.io/badge/PR%20%232496-ready-green)](https://github.com/openshift/oadp-operator/pull/2496) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] OADP-8926, OADP-8911: scope operand network policies and fix DNS egress
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #591](https://img.shields.io/badge/PR%20%23591-ready-green)](https://github.com/openshift/velero/pull/591) **openshift/velero** → `oadp-1.4` - Bump golangci-lint from v2.5.0 to v2.14.0
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
@@ -74,7 +75,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
-- [![PR #2494](https://img.shields.io/badge/PR%20%232494-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2494) **openshift/oadp-operator** → `oadp-dev` - OADP-8926, OADP-8911: scope operand network policies and fix DNS egress
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #489](https://img.shields.io/badge/PR%20%23489-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/489) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-8924: Treat missing openshift-apiserver config as no internal registry
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/490) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/moby/sys/user from 0.4.0 to 0.4.1
@@ -142,7 +142,6 @@ No open PRs.
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
-- [![PR #17521](https://img.shields.io/badge/PR%20%2317521-ready-green)](https://github.com/pingdotgg/t3code/pull/17521) **pingdotgg/t3code** → `main` - feat(web): auto-assign accent color to non-default provider instances
 - [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
 - [![PR #18712](https://img.shields.io/badge/PR%20%2318712-ready-green)](https://github.com/pingdotgg/t3code/pull/18712) **pingdotgg/t3code** → `main` - fix(web): a thread waiting on another thread shows Waiting, not Working
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
@@ -155,7 +154,6 @@ No open PRs.
 - [![PR #128](https://img.shields.io/badge/PR%20%23128-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/128) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)
 - [![PR #129](https://img.shields.io/badge/PR%20%23129-ci--pending-yellow)](https://github.com/RedHatInsights/rhai-org-pulse/pull/129) **RedHatInsights/rhai-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
-- [![PR #18096](https://img.shields.io/badge/PR%20%2318096-draft-gray)](https://github.com/pingdotgg/t3code/pull/18096) **pingdotgg/t3code** → `main` - fix(server): show Antigravity's real sign-in failure reason
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
