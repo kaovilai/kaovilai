@@ -3,7 +3,7 @@
     "start": "2026-07-21",
     "end": "2026-10-19"
   },
-  "generatedAt": "2026-10-19T04:08:33Z",
+  "generatedAt": "2026-10-19T12:43:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 591,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Bump golangci-lint from v2.5.0 to v2.14.0",
+      "url": "https://github.com/openshift/velero/pull/591",
+      "date": "2026-10-19T08:23:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10385,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
+      "url": "https://github.com/velero-io/velero/pull/10385",
+      "date": "2026-10-19T08:04:10Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10556,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1860,15 +1878,6 @@
       "url": "https://github.com/velero-io/velero/pull/10658",
       "date": "2026-10-17T07:13:07Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 591,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Bump golangci-lint from v2.5.0 to v2.14.0",
-      "url": "https://github.com/openshift/velero/pull/591",
-      "date": "2026-10-16T21:01:33Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10657,
@@ -2075,15 +2084,6 @@
       "title": "fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error",
       "url": "https://github.com/velero-io/velero/pull/10484",
       "date": "2026-10-14T00:44:19Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10385,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
-      "url": "https://github.com/velero-io/velero/pull/10385",
-      "date": "2026-10-14T00:44:07Z",
       "workstream": "Velero"
     },
     {
@@ -2476,6 +2476,24 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-19T12:17:20Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 438,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "Add regex support for branch matching in Tide status controller",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/438",
+      "date": "2026-10-19T06:41:19Z",
+      "workstream": "Kubernetes"
+    },
+    {
       "number": 3314,
       "repo": "kubernetes/enhancements",
       "org": "kubernetes",
@@ -2483,15 +2501,6 @@
       "url": "https://github.com/kubernetes/enhancements/issues/3314",
       "date": "2026-10-19T02:10:29Z",
       "workstream": "Kubernetes"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-18T10:31:07Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 4045,
@@ -3365,15 +3374,6 @@
       "url": "https://github.com/openshift/oadp-operator/issues/2391",
       "date": "2026-08-19T00:02:28Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 175,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrency limiter for DataDownload controller",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/175",
-      "date": "2026-08-18T16:37:17Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesClosed": [
