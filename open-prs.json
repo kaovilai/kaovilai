@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T03:05:30Z",
+  "updatedAt": "2026-10-19T12:00:09Z",
   "prs": [
     {
       "number": 10010,
@@ -7470,130 +7470,69 @@
       ]
     },
     {
-      "number": 2496,
+      "number": 2497,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "[oadp-1.6] OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
-      "url": "https://github.com/openshift/oadp-operator/pull/2496",
-      "targetBranch": "oadp-1.6",
+      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.4 (fcfdbf9) into oadp-1.4",
+      "url": "https://github.com/openshift/oadp-operator/pull/2497",
+      "targetBranch": "oadp-1.4",
       "status": "ready",
       "milestone": null,
-      "author": "openshift-cherrypick-robot",
+      "author": "oadp-rebasebot-app[bot]",
       "isCopilotAuthored": false,
       "assignees": [
-        "shubham-pampattiwar"
+        "weshayutin"
       ],
       "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-10-19T01:26:26Z",
+      "labels": [
+        "needs-ok-to-test",
+        "lgtm"
+      ],
+      "updatedAt": "2026-10-19T11:54:07Z",
       "workstream": "OADP",
       "ciChecks": [
+        {
+          "name": "make-test_submitcoverage",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "podman-build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.18-ci-index",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.18-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.18-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.18-images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/unit-test",
+          "conclusion": "PENDING"
+        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/4.18-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.18-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/unit-test",
+          "name": "ci/pipeline-gate",
           "conclusion": "SUCCESS"
         }
       ]
@@ -8071,7 +8010,7 @@
         "approved",
         "ok-to-test"
       ],
-      "updatedAt": "2026-10-16T21:01:33Z",
+      "updatedAt": "2026-10-19T08:23:32Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -10503,6 +10442,46 @@
       ]
     },
     {
+      "number": 180,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.10.1 (5c92b55) into oadp-1.4",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/180",
+      "targetBranch": "oadp-1.4",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "oadp-rebasebot-app[bot]",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "needs-ok-to-test"
+      ],
+      "updatedAt": "2026-10-19T11:54:08Z",
+      "workstream": "Velero",
+      "ciChecks": [
+        {
+          "name": "add-reviews",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run CI",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 95,
       "repo": "openshift/velero-plugin-for-csi",
       "org": "openshift",
@@ -10622,6 +10601,50 @@
         },
         {
           "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 181,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/181",
+      "targetBranch": "oadp-1.4",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "oadp-rebasebot-app[bot]",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "weshayutin"
+      ],
+      "isDraft": false,
+      "labels": [
+        "needs-ok-to-test",
+        "lgtm"
+      ],
+      "updatedAt": "2026-10-19T11:54:19Z",
+      "workstream": "Velero",
+      "ciChecks": [
+        {
+          "name": "add-reviews",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "bz-on-pr-create",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run CI",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         }
       ]
@@ -12147,136 +12170,6 @@
       ]
     },
     {
-      "number": 18712,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): a thread waiting on another thread shows Waiting, not Working",
-      "url": "https://github.com/pingdotgg/t3code/pull/18712",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "vouch:unvouched",
-        "size:M"
-      ],
-      "updatedAt": "2026-10-12T19:32:45Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "EAS Preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Deploy web preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Typecheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 18712",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Web",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 1",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 2",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 3",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 4",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 5",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 6",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Rust",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Mobile Native Changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Release Smoke",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Transfer report artifact",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Mobile Native Static Analysis",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 19785,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -12293,7 +12186,7 @@
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-16T05:45:57Z",
+      "updatedAt": "2026-10-19T08:06:48Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -12560,11 +12453,27 @@
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-19T02:55:03Z",
+      "updatedAt": "2026-10-19T03:08:58Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "Prepare PR size config",
+          "name": "Native fingerprint diff",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "EAS Preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Deploy web preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
           "conclusion": "SUCCESS"
         },
         {
@@ -12576,19 +12485,11 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "Sync PR size label definitions",
           "conclusion": "SKIPPED"
         },
         {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Label PR 17721",
+          "name": "Lint",
           "conclusion": "SUCCESS"
         },
         {
@@ -12596,11 +12497,67 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Label PR size",
+          "name": "Test Server 1",
           "conclusion": "SUCCESS"
         },
         {
           "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 2",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 3",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 4",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 5",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 6",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 7",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 8",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build and Typecheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Web",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Rust",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Mobile Native Static Analysis",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Release Smoke",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Check",
           "conclusion": "SUCCESS"
         },
         {
@@ -14083,7 +14040,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-19T03:05:30Z",
+    "updatedAt": "2026-10-19T12:00:09Z",
     "needsReview": [
       {
         "number": 68,
@@ -14096,7 +14053,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14130,7 +14087,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 552,
+        "waitingDays": 553,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -14178,7 +14135,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 534,
+        "waitingDays": 535,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -14202,7 +14159,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 500,
+        "waitingDays": 501,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -14318,6 +14275,36 @@
         "updatedAt": "2026-05-19T22:41:19Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 131,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 104,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -14391,7 +14378,7 @@
         "labels": [
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14432,30 +14419,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 96,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -14481,8 +14444,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 95,
+        "waitingDays": 96,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 96,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -14719,7 +14706,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14734,6 +14721,30 @@
         "reason": "awaitingReview",
         "waitingDays": 74,
         "updatedAt": "2026-08-05T22:33:26Z"
+      },
+      {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 68,
+        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 46,
@@ -14779,7 +14790,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14794,30 +14805,6 @@
         "reason": "hold",
         "waitingDays": 68,
         "updatedAt": "2026-08-11T20:28:19Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 67,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -15009,7 +14996,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15404,7 +15391,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -15539,8 +15526,38 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-10-02T07:09:40Z"
+      },
+      {
+        "number": 2473,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2473",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "weshayutin",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 12,
+        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 426,
@@ -15572,36 +15589,6 @@
         "reason": "awaitingReview",
         "waitingDays": 12,
         "updatedAt": "2026-10-06T22:24:34Z"
-      },
-      {
-        "number": 2473,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2473",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "weshayutin",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 11,
-        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 70,
@@ -15752,7 +15739,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15794,7 +15781,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-10-14T03:13:06Z"
       },
       {
@@ -15823,8 +15810,34 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-10-15T05:27:42Z"
+      },
+      {
+        "number": 326,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+        "targetBranch": "release-1.13",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
         "number": 2489,
@@ -15879,59 +15892,6 @@
         "updatedAt": "2026-10-15T18:53:10Z"
       },
       {
-        "number": 326,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
-        "targetBranch": "release-1.13",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-10-15T07:41:36Z"
-      },
-      {
-        "number": 19785,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
-        "url": "https://github.com/pingdotgg/t3code/pull/19785",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "vouch:unvouched",
-          "size:M"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-16T05:45:57Z"
-      },
-      {
         "number": 674,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -15962,37 +15922,67 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-10-17T09:16:53Z"
       },
       {
-        "number": 2496,
+        "number": 2497,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "[oadp-1.6] OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
-        "url": "https://github.com/openshift/oadp-operator/pull/2496",
-        "targetBranch": "oadp-1.6",
-        "author": "openshift-cherrypick-robot",
+        "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.4 (fcfdbf9) into oadp-1.4",
+        "url": "https://github.com/openshift/oadp-operator/pull/2497",
+        "targetBranch": "oadp-1.4",
+        "author": "oadp-rebasebot-app[bot]",
         "isCopilotAuthored": false,
         "assignees": [
-          "shubham-pampattiwar"
+          "weshayutin"
         ],
-        "labels": [],
+        "labels": [
+          "needs-ok-to-test",
+          "lgtm"
+        ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "eemcmullan",
-          "kaovilai"
+          "kaovilai",
+          "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-19T01:26:26Z"
+        "updatedAt": "2026-10-19T11:54:07Z"
+      },
+      {
+        "number": 19785,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
+        "url": "https://github.com/pingdotgg/t3code/pull/19785",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-19T08:06:48Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -16460,7 +16450,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -16486,7 +16476,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -16514,7 +16504,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -16542,7 +16532,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -16698,6 +16688,37 @@
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
+        "number": 84228,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
+        "url": "https://github.com/openshift/release/pull/84228",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "shakyav"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 12,
+        "updatedAt": "2026-10-06T18:03:25Z"
+      },
+      {
         "number": 175,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -16789,7 +16810,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -16886,6 +16907,36 @@
         "updatedAt": "2026-10-14T13:22:40Z"
       },
       {
+        "number": 233,
+        "repo": "openshift/hypershift-oadp-plugin",
+        "org": "openshift",
+        "title": "Add CODEOWNERS file based on OWNERS approvers",
+        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin",
+          "jparrill"
+        ],
+        "labels": [
+          "lgtm",
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": 0,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 3,
+        "updatedAt": "2026-10-16T07:49:57Z"
+      },
+      {
         "number": 490,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -16919,36 +16970,6 @@
         "reason": "pendingMerge",
         "waitingDays": 3,
         "updatedAt": "2026-10-15T18:00:40Z"
-      },
-      {
-        "number": 233,
-        "repo": "openshift/hypershift-oadp-plugin",
-        "org": "openshift",
-        "title": "Add CODEOWNERS file based on OWNERS approvers",
-        "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/233",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "weshayutin",
-          "jparrill"
-        ],
-        "labels": [
-          "lgtm",
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": 0,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
         "number": 489,
@@ -17005,15 +17026,79 @@
         "hasProwApproval": false,
         "hasGithubApproval": true,
         "reviewDecision": "APPROVED",
-        "approvalCount": 1,
+        "approvalCount": 2,
         "requiredApprovals": null,
         "reviewRequests": [
           "shubham-pampattiwar"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-16T21:01:33Z"
+        "waitingDays": 0,
+        "updatedAt": "2026-10-19T08:23:32Z"
+      },
+      {
+        "number": 180,
+        "repo": "openshift/velero-plugin-for-aws",
+        "org": "openshift",
+        "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.10.1 (5c92b55) into oadp-1.4",
+        "url": "https://github.com/openshift/velero-plugin-for-aws/pull/180",
+        "targetBranch": "oadp-1.4",
+        "author": "oadp-rebasebot-app[bot]",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin"
+        ],
+        "labels": [
+          "lgtm",
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-19T11:54:08Z"
+      },
+      {
+        "number": 181,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/181",
+        "targetBranch": "oadp-1.4",
+        "author": "oadp-rebasebot-app[bot]",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "weshayutin"
+        ],
+        "labels": [
+          "needs-ok-to-test",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai",
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-19T11:54:19Z"
       }
     ]
   }
