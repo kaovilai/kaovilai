@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-07-20 — 2026-10-18
-> **Generated:** 2026-10-18 20:27:49 UTC
+> **Period:** 2026-07-21 — 2026-10-19
+> **Generated:** 2026-10-19 04:08:33 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 74 |
+| PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 92 |
+| Issues Closed | 91 |
 
 ---
 
@@ -231,15 +231,15 @@
 - [#178 Make auto-submit/combo path touch-friendly and add a form-submit fallback](https://github.com/kaovilai/github-bot-command-palette/pull/178) — kaovilai/github-bot-command-palette
 - [#177 Add hover/click popups for Claude analysis links and failed-step logs](https://github.com/kaovilai/github-bot-command-palette/pull/177) — kaovilai/github-bot-command-palette
 - [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
-## PRs Reviewed (74)
+## PRs Reviewed (73)
 
-**velero-io** (35)
+**velero-io** (34)
+- [#10556 [Design]Owner reference and dependency relink design](https://github.com/velero-io/velero/pull/10556) — velero-io/velero
 - [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10666 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10666) — velero-io/velero
 - [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10657 e2e: point Kibishii at the kind-csi overlay when CSI is enabled](https://github.com/velero-io/velero/pull/10657) — velero-io/velero
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
-- [#10556 [Design]Owner reference and dependency relink design](https://github.com/velero-io/velero/pull/10556) — velero-io/velero
 - [#10656 Reuse cached Go modules across CI jobs](https://github.com/velero-io/velero/pull/10656) — velero-io/velero
 - [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10640 fix(cli): update legacy repository issue URLs in velero bug command](https://github.com/velero-io/velero/pull/10640) — velero-io/velero
@@ -263,7 +263,6 @@
 - [#10204 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10204) — velero-io/velero
 - [#10636 e2e: correct why the kind backup cases are skipped](https://github.com/velero-io/velero/pull/10636) — velero-io/velero
 - [#10630 e2e: document running the CSI cases on kind](https://github.com/velero-io/velero/pull/10630) — velero-io/velero
-- [#10051 docs: use consistent excludedNames glob pattern in filter design examples](https://github.com/velero-io/velero/pull/10051) — velero-io/velero
 - [#10463 Fix stale contributor documentation link](https://github.com/velero-io/velero/pull/10463) — velero-io/velero
 - [#10631 Fix the MinIO image cache key in the kind e2e workflow](https://github.com/velero-io/velero/pull/10631) — velero-io/velero
 - [#10621 fix(controller): propagate context during backup request preparation](https://github.com/velero-io/velero/pull/10621) — velero-io/velero
@@ -423,7 +422,7 @@
 - [#43 Chrome Web Store listing reports location permission](https://github.com/rxliuli/redirector/issues/43) — rxliuli/redirector
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
-## Issues Closed (92)
+## Issues Closed (91)
 
 **velero-io** (30)
 - [#10653 Improve CI reliability by reusing Go module caches across test jobs](https://github.com/velero-io/velero/issues/10653) — velero-io/velero
@@ -497,7 +496,7 @@
 - [#118 lint workflow is using node20](https://github.com/migtools/kubevirt-datamover-controller/issues/118) — migtools/kubevirt-datamover-controller
 - [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
 
-**Other** (26)
+**Other** (25)
 - [#4 [bug] This page did not say which commits the pull request compares, so there is nothing to preview. Reload the Files changed tab and try again; if it keeps happenin…](https://github.com/kaovilai/github-html-diff-preview/issues/4) — kaovilai/github-html-diff-preview
 - [#848 status-reconciler can permanently miss config changes when delta delivery times out](https://github.com/kubernetes-sigs/prow/issues/848) — kubernetes-sigs/prow
 - [#265 Feature: throw the pet like a ball (release inertia + bounce off the current monitor's edges)](https://github.com/OpenPetsHQ/openpets/issues/265) — OpenPetsHQ/openpets
@@ -523,7 +522,6 @@
 - [#8 [FEATURE] Support Vertex AI via ADC credentials](https://github.com/ferrumclaudepilgrim/claude-code-android/issues/8) — ferrumclaudepilgrim/claude-code-android
 - [#121 [FEATURE] Matrix Strategy Multi-Arch example](https://github.com/redhat-actions/buildah-build/issues/121) — redhat-actions/buildah-build
 - [#330 Omit  ANTHROPIC_MODEL: sonnetModel ?? opusModel, from claude-code so selected model option sticks](https://github.com/caozhiyuan/copilot-api/issues/330) — caozhiyuan/copilot-api
-- [#1807 Support Google Vertex AI with Application Default Credentials (ADC)](https://github.com/pingdotgg/t3code/issues/1807) — pingdotgg/t3code
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*

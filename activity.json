@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-20",
-    "end": "2026-10-18"
+    "start": "2026-07-21",
+    "end": "2026-10-19"
   },
-  "generatedAt": "2026-10-18T20:27:49Z",
+  "generatedAt": "2026-10-19T04:08:33Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 74,
+    "prsReviewed": 73,
     "issuesCommented": 100,
-    "issuesClosed": 92
+    "issuesClosed": 91
   },
   "prsMerged": [
     {
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 10556,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Design]Owner reference and dependency relink design",
+      "url": "https://github.com/velero-io/velero/pull/10556",
+      "date": "2026-10-19T02:40:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2494,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
+      "url": "https://github.com/openshift/oadp-operator/pull/2494",
+      "date": "2026-10-18T22:55:35Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 10493,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1842,15 +1860,6 @@
       "url": "https://github.com/velero-io/velero/pull/10658",
       "date": "2026-10-17T07:13:07Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2494,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
-      "url": "https://github.com/openshift/oadp-operator/pull/2494",
-      "date": "2026-10-16T23:46:51Z",
-      "workstream": "OADP"
     },
     {
       "number": 591,
@@ -1886,15 +1895,6 @@
       "title": "Add S3 SSE-C headers to download requests",
       "url": "https://github.com/velero-io/velero/pull/10654",
       "date": "2026-10-16T19:06:45Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Design]Owner reference and dependency relink design",
-      "url": "https://github.com/velero-io/velero/pull/10556",
-      "date": "2026-10-16T06:46:41Z",
       "workstream": "Velero"
     },
     {
@@ -2294,15 +2294,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10051,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-      "url": "https://github.com/velero-io/velero/pull/10051",
-      "date": "2026-10-08T05:17:22Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10463,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2490,7 +2481,7 @@
       "org": "kubernetes",
       "title": "CSI Differential Snapshot for Block Volumes",
       "url": "https://github.com/kubernetes/enhancements/issues/3314",
-      "date": "2026-10-18T10:32:21Z",
+      "date": "2026-10-19T02:10:29Z",
       "workstream": "Kubernetes"
     },
     {
@@ -4204,15 +4195,6 @@
       "url": "https://github.com/velero-io/velero/issues/10048",
       "date": "2026-07-22T14:14:20Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 1807,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "Support Google Vertex AI with Application Default Credentials (ADC)",
-      "url": "https://github.com/pingdotgg/t3code/issues/1807",
-      "date": "2026-07-20T14:45:31Z",
-      "workstream": "Uncategorized"
     }
   ]
 }
