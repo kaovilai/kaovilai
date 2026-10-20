@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-21",
-    "end": "2026-10-19"
+    "start": "2026-07-22",
+    "end": "2026-10-20"
   },
-  "generatedAt": "2026-10-19T22:49:29Z",
+  "generatedAt": "2026-10-20T01:39:10Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 75,
+    "prsReviewed": 74,
     "issuesCommented": 100,
-    "issuesClosed": 92
+    "issuesClosed": 94
   },
   "prsMerged": [
     {
@@ -1817,12 +1817,30 @@
   ],
   "prsReviewed": [
     {
+      "number": 10652,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
+      "url": "https://github.com/velero-io/velero/pull/10652",
+      "date": "2026-10-20T00:53:10Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add S3 SSE-C headers to download requests",
+      "url": "https://github.com/velero-io/velero/pull/10654",
+      "date": "2026-10-19T23:26:25Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2498,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "Fix BSL count race condition in multi-BSL e2e test",
       "url": "https://github.com/openshift/oadp-operator/pull/2498",
-      "date": "2026-10-19T21:50:16Z",
+      "date": "2026-10-20T01:22:34Z",
       "workstream": "OADP"
     },
     {
@@ -1950,15 +1968,6 @@
       "url": "https://github.com/openshift/velero/pull/590",
       "date": "2026-10-16T20:32:55Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10654,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add S3 SSE-C headers to download requests",
-      "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-16T19:06:45Z",
-      "workstream": "Velero"
     },
     {
       "number": 10656,
@@ -2472,27 +2481,18 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/376",
       "date": "2026-10-06T22:24:30Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 39,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "chore(deps): bump csv-parse from 6.2.1 to 7.0.2 in /frontend",
-      "url": "https://github.com/migtools/filebrowser/pull/39",
-      "date": "2026-10-06T22:24:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 40,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "chore(deps-dev): bump vitest from 4.1.6 to 4.1.11 in /frontend",
-      "url": "https://github.com/migtools/filebrowser/pull/40",
-      "date": "2026-10-06T22:24:21Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 17422,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
+      "url": "https://github.com/pingdotgg/t3code/issues/17422",
+      "date": "2026-10-20T00:46:14Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10553,
       "repo": "pingdotgg/t3code",
@@ -2717,15 +2717,6 @@
       "url": "https://github.com/velero-io/velero/issues/8454",
       "date": "2026-10-09T22:25:19Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 17422,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
-      "url": "https://github.com/pingdotgg/t3code/issues/17422",
-      "date": "2026-10-09T21:38:32Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 36873,
@@ -3395,6 +3386,24 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 259,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "Cherrypicks missing for https://github.com/openshift/enhancements/pull/1945 related PRs to oadp-1.6",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/issues/259",
+      "date": "2026-10-20T00:00:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 258,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "No HostedControlPlane found: unexpected behavior during HostedControlPlane backup",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/issues/258",
+      "date": "2026-10-20T00:00:51Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 19422,
       "repo": "pingdotgg/t3code",

@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-07-21 — 2026-10-19
-> **Generated:** 2026-10-19 22:49:29 UTC
+> **Period:** 2026-07-22 — 2026-10-20
+> **Generated:** 2026-10-20 01:39:10 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 75 |
+| PRs Reviewed | 74 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 92 |
+| Issues Closed | 94 |
 
 ---
 
@@ -231,16 +231,17 @@
 - [#178 Make auto-submit/combo path touch-friendly and add a form-submit fallback](https://github.com/kaovilai/github-bot-command-palette/pull/178) — kaovilai/github-bot-command-palette
 - [#177 Add hover/click popups for Claude analysis links and failed-step logs](https://github.com/kaovilai/github-bot-command-palette/pull/177) — kaovilai/github-bot-command-palette
 - [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
-## PRs Reviewed (75)
+## PRs Reviewed (74)
 
-**velero-io** (33)
+**velero-io** (34)
+- [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
+- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 - [#10556 [Design]Owner reference and dependency relink design](https://github.com/velero-io/velero/pull/10556) — velero-io/velero
 - [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10666 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10666) — velero-io/velero
 - [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10657 e2e: point Kibishii at the kind-csi overlay when CSI is enabled](https://github.com/velero-io/velero/pull/10657) — velero-io/velero
-- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10656 Reuse cached Go modules across CI jobs](https://github.com/velero-io/velero/pull/10656) — velero-io/velero
 - [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10640 fix(cli): update legacy repository issue URLs in velero bug command](https://github.com/velero-io/velero/pull/10640) — velero-io/velero
@@ -295,7 +296,7 @@
 - [#322 fix(etcdbackup): treat waiting for credentials as in progress](https://github.com/openshift/hypershift-oadp-plugin/pull/322) — openshift/hypershift-oadp-plugin
 - [#321 OADP-8726: Remove committed kubeconfig with system:masters credentials](https://github.com/openshift/hypershift-oadp-plugin/pull/321) — openshift/hypershift-oadp-plugin
 
-**migtools** (16)
+**migtools** (14)
 - [#280 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (1e1b143) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/280) — migtools/oadp-cli
 - [#98 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/98) — migtools/kubevirt-velero-plugin
 - [#41 CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669](https://github.com/migtools/oadp-vmdp/pull/41) — migtools/oadp-vmdp
@@ -310,8 +311,6 @@
 - [#81 Bump google.golang.org/grpc from 1.79.3 to 1.83.1](https://github.com/migtools/kubevirt-velero-plugin/pull/81) — migtools/kubevirt-velero-plugin
 - [#221 build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1](https://github.com/migtools/kubevirt-datamover-controller/pull/221) — migtools/kubevirt-datamover-controller
 - [#376 ⬆ Bump hadolint/hadolint-action from 3.4.0 to 3.5.0](https://github.com/migtools/oadp-non-admin/pull/376) — migtools/oadp-non-admin
-- [#39 chore(deps): bump csv-parse from 6.2.1 to 7.0.2 in /frontend](https://github.com/migtools/filebrowser/pull/39) — migtools/filebrowser
-- [#40 chore(deps-dev): bump vitest from 4.1.6 to 4.1.11 in /frontend](https://github.com/migtools/filebrowser/pull/40) — migtools/filebrowser
 
 **Other** (1)
 - [#849 fix: status-reconciler track own config state for dropped deltas](https://github.com/kubernetes-sigs/prow/pull/849) — kubernetes-sigs/prow
@@ -388,6 +387,7 @@
 - [#84 Implement concurrent data mover limiter for DU and DD controllers](https://github.com/migtools/kubevirt-datamover-controller/issues/84) — migtools/kubevirt-datamover-controller
 
 **Other** (36)
+- [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
@@ -402,7 +402,6 @@
 - [#13875 [Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex](https://github.com/pingdotgg/t3code/issues/13875) — pingdotgg/t3code
 - [#673 Tide gets stuck retrying unmergeable PR instead of advancing to next candidate](https://github.com/kubernetes-sigs/prow/issues/673) — kubernetes-sigs/prow
 - [#190 Web Camera is broken](https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190) — EmixamPP/linux-enable-ir-emitter
-- [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#4300 cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)](https://github.com/kubevirt/containerized-data-importer/issues/4300) — kubevirt/containerized-data-importer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
@@ -424,7 +423,7 @@
 - [#43 Chrome Web Store listing reports location permission](https://github.com/rxliuli/redirector/issues/43) — rxliuli/redirector
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
-## Issues Closed (92)
+## Issues Closed (94)
 
 **velero-io** (30)
 - [#10653 Improve CI reliability by reusing Go module caches across test jobs](https://github.com/velero-io/velero/issues/10653) — velero-io/velero
@@ -458,7 +457,9 @@
 - [#10029 Flaky test: TestKopiaObjectWriterEx_ConcurrentAsyncErrors can observe async error before all writes are queued](https://github.com/velero-io/velero/issues/10029) — velero-io/velero
 - [#10048 CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures](https://github.com/velero-io/velero/issues/10048) — velero-io/velero
 
-**openshift** (16)
+**openshift** (18)
+- [#259 Cherrypicks missing for https://github.com/openshift/enhancements/pull/1945 related PRs to oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/issues/259) — openshift/hypershift-oadp-plugin
+- [#258 No HostedControlPlane found: unexpected behavior during HostedControlPlane backup](https://github.com/openshift/hypershift-oadp-plugin/issues/258) — openshift/hypershift-oadp-plugin
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#448 Feature request: detect/reconcile SCC UID/GID-range mismatch on Namespace restore](https://github.com/openshift/openshift-velero-plugin/issues/448) — openshift/openshift-velero-plugin
 - [#2386 Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/issues/2386) — openshift/oadp-operator
