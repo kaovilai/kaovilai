@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T22:50:02Z",
+  "updatedAt": "2026-10-20T01:31:31Z",
   "prs": [
     {
       "number": 10010,
@@ -8423,7 +8423,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-10-19T21:50:16Z",
+      "updatedAt": "2026-10-20T01:22:34Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -12123,155 +12123,6 @@
       ]
     },
     {
-      "number": 18725,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-      "url": "https://github.com/kubevirt/kubevirt/pull/18725",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "Acedus"
-      ],
-      "isDraft": false,
-      "labels": [
-        "size/S",
-        "area/controller",
-        "sig/storage",
-        "release-note",
-        "lgtm",
-        "dco-signoff: yes",
-        "needs-approver-review"
-      ],
-      "updatedAt": "2026-08-30T17:39:09Z",
-      "workstream": "KubeVirt Data Mover",
-      "ciChecks": [
-        {
-          "name": "check-vep",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-k8s-1.36-sig-compute-serial",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sourcery review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "coverage/coveralls",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "dco",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-apidocs",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-build-arm64",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-build-s390x",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-check-tests-for-flakes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-check-unassigned-tests",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-client-python",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-code-lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-k8s-1.36-sig-compute",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-k8s-1.36-sig-compute-migrations",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-k8s-1.36-sig-network-smoke",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-k8s-1.36-sig-operator",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-k8s-1.36-sig-storage",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-kind-1.36-sev",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-e2e-kind-1.36-sig-compute-arm64",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-fossa",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-fuzz",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-generate",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-goveralls",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-manifests",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-unit-test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-unit-test-arm64",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-unit-test-s390x",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "pull-kubevirt-verify-go-mod",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 18957,
       "repo": "kubevirt/kubevirt",
       "org": "kubevirt",
@@ -12644,6 +12495,176 @@
         },
         {
           "name": "DCO",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 18725,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+      "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "Acedus"
+      ],
+      "isDraft": false,
+      "labels": [
+        "size/S",
+        "area/controller",
+        "sig/storage",
+        "release-note",
+        "lgtm",
+        "approved",
+        "dco-signoff: yes",
+        "needs-approver-review"
+      ],
+      "updatedAt": "2026-10-20T01:24:46Z",
+      "workstream": "KubeVirt Data Mover",
+      "ciChecks": [
+        {
+          "name": "check-vep",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-compute-serial",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-compute",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-network",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-operator",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-storage",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-windows2016",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.37-ipv6-sig-network",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.37-sig-network",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "pull-kubevirt-e2e-kind-1.37-vgpu",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sourcery review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "coverage/coveralls",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "dco",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-apidocs",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-build-arm64",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-build-s390x",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-check-tests-for-flakes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-check-unassigned-tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-client-python",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-code-lint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-compute-migrations",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-e2e-k8s-1.36-sig-network-smoke",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-e2e-kind-1.36-sev",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-e2e-kind-1.36-sig-compute-arm64",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-fossa",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-fuzz",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-generate",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-goveralls",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-manifests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-unit-test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-unit-test-arm64",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-unit-test-s390x",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "pull-kubevirt-verify-go-mod",
           "conclusion": "SUCCESS"
         }
       ]
@@ -14323,7 +14344,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-19T22:50:02Z",
+    "updatedAt": "2026-10-20T01:31:31Z",
     "needsReview": [
       {
         "number": 68,
@@ -14346,7 +14367,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 704,
+        "waitingDays": 705,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -14394,7 +14415,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 542,
+        "waitingDays": 543,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -14456,7 +14477,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14613,7 +14634,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 125,
+        "waitingDays": 126,
         "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
@@ -14702,6 +14723,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 97,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -14759,30 +14804,6 @@
         "reason": "hold",
         "waitingDays": 96,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 96,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -15291,7 +15312,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -15645,7 +15666,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15658,7 +15679,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -15687,7 +15708,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -15739,7 +15760,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15770,7 +15791,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -16338,7 +16359,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -16668,42 +16689,6 @@
         "reason": "pendingMerge",
         "waitingDays": 56,
         "updatedAt": "2026-08-24T20:55:25Z"
-      },
-      {
-        "number": 18725,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Acedus"
-        ],
-        "labels": [
-          "size/S",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lgtm",
-          "dco-signoff: yes",
-          "needs-approver-review"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ShellyKa13"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 50,
-        "updatedAt": "2026-08-30T17:39:09Z"
       },
       {
         "number": 166,
@@ -17156,35 +17141,6 @@
         "updatedAt": "2026-10-11T22:04:31Z"
       },
       {
-        "number": 2485,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
-        "url": "https://github.com/openshift/oadp-operator/pull/2485",
-        "targetBranch": "oadp-1.4",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-10-14T13:22:40Z"
-      },
-      {
         "number": 10210,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -17213,8 +17169,37 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-10-14T00:43:53Z"
+      },
+      {
+        "number": 2485,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
+        "url": "https://github.com/openshift/oadp-operator/pull/2485",
+        "targetBranch": "oadp-1.4",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 5,
+        "updatedAt": "2026-10-14T13:22:40Z"
       },
       {
         "number": 490,
@@ -17316,6 +17301,43 @@
         "updatedAt": "2026-10-16T17:41:58Z"
       },
       {
+        "number": 18725,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "Release the VMBackup finalizer when its BackupTracker is gone",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18725",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Acedus"
+        ],
+        "labels": [
+          "size/S",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lgtm",
+          "approved",
+          "dco-signoff: yes",
+          "needs-approver-review"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ShellyKa13"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-20T01:24:46Z"
+      },
+      {
         "number": 2498,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -17344,7 +17366,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-19T21:50:16Z"
+        "updatedAt": "2026-10-20T01:22:34Z"
       },
       {
         "number": 87249,
