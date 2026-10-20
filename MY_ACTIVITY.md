@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-22 — 2026-10-20
-> **Generated:** 2026-10-20 16:32:22 UTC
+> **Generated:** 2026-10-20 20:19:10 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -234,9 +234,9 @@
 ## PRs Reviewed (73)
 
 **velero-io** (35)
+- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
-- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
 - [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10649 Makefile: fix make serve-docs on buildx setups](https://github.com/velero-io/velero/pull/10649) — velero-io/velero
@@ -270,9 +270,11 @@
 - [#10621 fix(controller): propagate context during backup request preparation](https://github.com/velero-io/velero/pull/10621) — velero-io/velero
 - [#10593 e2e: verify CSI snapshots on kind](https://github.com/velero-io/velero/pull/10593) — velero-io/velero
 
-**openshift** (27)
-- [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
+**openshift** (28)
+- [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
+- [#2485 tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s](https://github.com/openshift/oadp-operator/pull/2485) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
+- [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
 - [#87249 Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1](https://github.com/openshift/release/pull/87249) — openshift/release
 - [#2498 Fix BSL count race condition in multi-BSL e2e test](https://github.com/openshift/oadp-operator/pull/2498) — openshift/oadp-operator
 - [#593 Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)](https://github.com/openshift/velero/pull/593) — openshift/velero
@@ -292,14 +294,13 @@
 - [#179 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6](https://github.com/openshift/velero-plugin-for-aws/pull/179) — openshift/velero-plugin-for-aws
 - [#2487 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2487) — openshift/oadp-operator
 - [#323 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/323) — openshift/hypershift-oadp-plugin
-- [#2485 tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s](https://github.com/openshift/oadp-operator/pull/2485) — openshift/oadp-operator
 - [#2483 docs: update version-update.md examples to 1.4.12](https://github.com/openshift/oadp-operator/pull/2483) — openshift/oadp-operator
 - [#2480 Bump CSV metadata to v1.4.12](https://github.com/openshift/oadp-operator/pull/2480) — openshift/oadp-operator
 - [#2478 Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake](https://github.com/openshift/oadp-operator/pull/2478) — openshift/oadp-operator
 - [#322 fix(etcdbackup): treat waiting for credentials as in progress](https://github.com/openshift/hypershift-oadp-plugin/pull/322) — openshift/hypershift-oadp-plugin
 - [#321 OADP-8726: Remove committed kubeconfig with system:masters credentials](https://github.com/openshift/hypershift-oadp-plugin/pull/321) — openshift/hypershift-oadp-plugin
 
-**migtools** (10)
+**migtools** (9)
 - [#280 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (1e1b143) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/280) — migtools/oadp-cli
 - [#98 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/98) — migtools/kubevirt-velero-plugin
 - [#41 CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669](https://github.com/migtools/oadp-vmdp/pull/41) — migtools/oadp-vmdp
@@ -309,7 +310,6 @@
 - [#238 build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace from 1.40.0 to 1.45.0](https://github.com/migtools/kubevirt-datamover-controller/pull/238) — migtools/kubevirt-datamover-controller
 - [#239 build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.40.0 to 1.45.0](https://github.com/migtools/kubevirt-datamover-controller/pull/239) — migtools/kubevirt-datamover-controller
 - [#60 chore(deps): bump google.golang.org/grpc from 1.83.1 to 1.83.2](https://github.com/migtools/kubevirt-datamover-plugin/pull/60) — migtools/kubevirt-datamover-plugin
-- [#237 build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0](https://github.com/migtools/kubevirt-datamover-controller/pull/237) — migtools/kubevirt-datamover-controller
 
 **Other** (1)
 - [#849 fix: status-reconciler track own config state for dropped deltas](https://github.com/kubernetes-sigs/prow/pull/849) — kubernetes-sigs/prow
@@ -367,7 +367,7 @@
 - [#9744 Bug: Restore stuck in Finalizing phase indefinitely due to unbounded hook-tracker wait](https://github.com/velero-io/velero/issues/9744) — velero-io/velero
 - [#8265 Provide S3 plugin that aims to support any S3 compatible object storage.](https://github.com/velero-io/velero/issues/8265) — velero-io/velero
 
-**openshift** (10)
+**openshift** (9)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
@@ -377,7 +377,6 @@
 - [#2407 Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern](https://github.com/openshift/oadp-operator/issues/2407) — openshift/oadp-operator
 - [#10791 Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap](https://github.com/openshift/installer/issues/10791) — openshift/installer
 - [#10590 GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning](https://github.com/openshift/installer/issues/10590) — openshift/installer
-- [#2391 Follow up: simplify and document PodResources defaulting](https://github.com/openshift/oadp-operator/issues/2391) — openshift/oadp-operator
 
 **migtools** (4)
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
@@ -385,7 +384,8 @@
 - [#73 Implement DataDownload controller for VM restore](https://github.com/migtools/kubevirt-datamover-controller/issues/73) — migtools/kubevirt-datamover-controller
 - [#84 Implement concurrent data mover limiter for DU and DD controllers](https://github.com/migtools/kubevirt-datamover-controller/issues/84) — migtools/kubevirt-datamover-controller
 
-**Other** (36)
+**Other** (37)
+- [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
