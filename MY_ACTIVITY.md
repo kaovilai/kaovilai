@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-07-22 — 2026-10-20
-> **Generated:** 2026-10-20 11:14:51 UTC
+> **Generated:** 2026-10-20 16:32:22 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 74 |
+| PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 94 |
 
@@ -130,7 +130,8 @@
 - [#10555 Fix e2e-test-kind and changelog-check CI flakes](https://github.com/velero-io/velero/pull/10555) — velero-io/velero
 - [#10534 Add changelog-bot workflow to add changelogs via /changelog comment](https://github.com/velero-io/velero/pull/10534) — velero-io/velero
 
-**openshift** (13)
+**openshift** (14)
+- [#2499 fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2499) — openshift/oadp-operator
 - [#489 OADP-8924: Treat missing openshift-apiserver config as no internal registry](https://github.com/openshift/openshift-velero-plugin/pull/489) — openshift/openshift-velero-plugin
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
@@ -151,7 +152,7 @@
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (79)
+**Other** (78)
 - [#5 Fix PR commit detection from deferred GitHub diff markup](https://github.com/kaovilai/github-html-diff-preview/pull/5) — kaovilai/github-html-diff-preview
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
 - [#47 Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) — dohyeon5626/github-html-preview-extension
@@ -230,19 +231,19 @@
 - [#179 Improve mobile touch interactions and settings persistence](https://github.com/kaovilai/github-bot-command-palette/pull/179) — kaovilai/github-bot-command-palette
 - [#178 Make auto-submit/combo path touch-friendly and add a form-submit fallback](https://github.com/kaovilai/github-bot-command-palette/pull/178) — kaovilai/github-bot-command-palette
 - [#177 Add hover/click popups for Claude analysis links and failed-step logs](https://github.com/kaovilai/github-bot-command-palette/pull/177) — kaovilai/github-bot-command-palette
-- [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
-## PRs Reviewed (74)
+## PRs Reviewed (73)
 
-**velero-io** (34)
+**velero-io** (35)
+- [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
-- [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
+- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
+- [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10649 Makefile: fix make serve-docs on buildx setups](https://github.com/velero-io/velero/pull/10649) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 - [#10556 [Design]Owner reference and dependency relink design](https://github.com/velero-io/velero/pull/10556) — velero-io/velero
 - [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
 - [#10666 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10666) — velero-io/velero
-- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10657 e2e: point Kibishii at the kind-csi overlay when CSI is enabled](https://github.com/velero-io/velero/pull/10657) — velero-io/velero
 - [#10656 Reuse cached Go modules across CI jobs](https://github.com/velero-io/velero/pull/10656) — velero-io/velero
 - [#10640 fix(cli): update legacy repository issue URLs in velero bug command](https://github.com/velero-io/velero/pull/10640) — velero-io/velero
@@ -269,7 +270,9 @@
 - [#10621 fix(controller): propagate context during backup request preparation](https://github.com/velero-io/velero/pull/10621) — velero-io/velero
 - [#10593 e2e: verify CSI snapshots on kind](https://github.com/velero-io/velero/pull/10593) — velero-io/velero
 
-**openshift** (25)
+**openshift** (27)
+- [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
+- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#87249 Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1](https://github.com/openshift/release/pull/87249) — openshift/release
 - [#2498 Fix BSL count race condition in multi-BSL e2e test](https://github.com/openshift/oadp-operator/pull/2498) — openshift/oadp-operator
 - [#593 Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)](https://github.com/openshift/velero/pull/593) — openshift/velero
@@ -296,7 +299,7 @@
 - [#322 fix(etcdbackup): treat waiting for credentials as in progress](https://github.com/openshift/hypershift-oadp-plugin/pull/322) — openshift/hypershift-oadp-plugin
 - [#321 OADP-8726: Remove committed kubeconfig with system:masters credentials](https://github.com/openshift/hypershift-oadp-plugin/pull/321) — openshift/hypershift-oadp-plugin
 
-**migtools** (14)
+**migtools** (10)
 - [#280 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (1e1b143) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/280) — migtools/oadp-cli
 - [#98 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/98) — migtools/kubevirt-velero-plugin
 - [#41 CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669](https://github.com/migtools/oadp-vmdp/pull/41) — migtools/oadp-vmdp
@@ -307,20 +310,16 @@
 - [#239 build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.40.0 to 1.45.0](https://github.com/migtools/kubevirt-datamover-controller/pull/239) — migtools/kubevirt-datamover-controller
 - [#60 chore(deps): bump google.golang.org/grpc from 1.83.1 to 1.83.2](https://github.com/migtools/kubevirt-datamover-plugin/pull/60) — migtools/kubevirt-datamover-plugin
 - [#237 build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0](https://github.com/migtools/kubevirt-datamover-controller/pull/237) — migtools/kubevirt-datamover-controller
-- [#261 Bump google.golang.org/grpc from 1.81.1 to 1.83.2](https://github.com/migtools/oadp-cli/pull/261) — migtools/oadp-cli
-- [#81 Bump google.golang.org/grpc from 1.79.3 to 1.83.1](https://github.com/migtools/kubevirt-velero-plugin/pull/81) — migtools/kubevirt-velero-plugin
-- [#221 build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1](https://github.com/migtools/kubevirt-datamover-controller/pull/221) — migtools/kubevirt-datamover-controller
-- [#376 ⬆ Bump hadolint/hadolint-action from 3.4.0 to 3.5.0](https://github.com/migtools/oadp-non-admin/pull/376) — migtools/oadp-non-admin
 
 **Other** (1)
 - [#849 fix: status-reconciler track own config state for dropped deltas](https://github.com/kubernetes-sigs/prow/pull/849) — kubernetes-sigs/prow
 ## Issues/PRs Commented On (100)
 
 **velero-io** (50)
+- [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
 - [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#10627 Allow Multiple Key Properties](https://github.com/velero-io/velero/issues/10627) — velero-io/velero
 - [#9109 Add comprehensive make target for E2E testing with MinIO setup and fresh builds](https://github.com/velero-io/velero/issues/9109) — velero-io/velero
-- [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
 - [#10266 docs: how to run CSI e2e specs against a local Kind cluster](https://github.com/velero-io/velero/issues/10266) — velero-io/velero
 - [#8668 Download Links for S3 Bucket content are broken when using SSE-C encryption](https://github.com/velero-io/velero/issues/8668) — velero-io/velero
 - [#10646 Consider enrolling Velero in Anthropic OSS Scanner](https://github.com/velero-io/velero/issues/10646) — velero-io/velero

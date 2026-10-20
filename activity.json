@@ -3,11 +3,11 @@
     "start": "2026-07-22",
     "end": "2026-10-20"
   },
-  "generatedAt": "2026-10-20T11:14:51Z",
+  "generatedAt": "2026-10-20T16:32:22Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 74,
+    "prsReviewed": 73,
     "issuesCommented": 100,
     "issuesClosed": 94
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 2499,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated",
+      "url": "https://github.com/openshift/oadp-operator/pull/2499",
+      "date": "2026-10-20T15:10:45Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 5,
       "repo": "kaovilai/github-html-diff-preview",
       "org": "kaovilai",
@@ -1804,18 +1813,63 @@
       "url": "https://github.com/openshift/release/pull/84592",
       "date": "2026-09-04T00:30:39Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 176,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add per-command cancel-x to pending combo buttons",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176",
-      "date": "2026-09-03T20:42:18Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10673,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Recognize GCS object-not-found error during backup deletion",
+      "url": "https://github.com/velero-io/velero/pull/10673",
+      "date": "2026-10-20T16:32:26Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2500,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated",
+      "url": "https://github.com/openshift/oadp-operator/pull/2500",
+      "date": "2026-10-20T16:19:40Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-10-20T16:14:26Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add S3 SSE-C headers to download requests",
+      "url": "https://github.com/velero-io/velero/pull/10654",
+      "date": "2026-10-20T15:36:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10658,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the Kibishii snapshot cases on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10658",
+      "date": "2026-10-20T14:09:31Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10652,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
+      "url": "https://github.com/velero-io/velero/pull/10652",
+      "date": "2026-10-20T13:07:57Z",
+      "workstream": "Velero"
+    },
     {
       "number": 87249,
       "repo": "openshift/release",
@@ -1826,30 +1880,12 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 10654,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add S3 SSE-C headers to download requests",
-      "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-20T10:00:46Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10660,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "e2e: drop the SKIP_KIND label, which nothing reads",
       "url": "https://github.com/velero-io/velero/pull/10660",
       "date": "2026-10-20T09:58:34Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10652,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
-      "url": "https://github.com/velero-io/velero/pull/10652",
-      "date": "2026-10-20T09:54:45Z",
       "workstream": "Velero"
     },
     {
@@ -1958,15 +1994,6 @@
       "title": "build(deps): bump the github-actions group with 2 updates",
       "url": "https://github.com/velero-io/velero/pull/10666",
       "date": "2026-10-17T20:09:14Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10658,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: run the Kibishii snapshot cases on kind under CSI",
-      "url": "https://github.com/velero-io/velero/pull/10658",
-      "date": "2026-10-17T07:13:07Z",
       "workstream": "Velero"
     },
     {
@@ -2445,45 +2472,18 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/237",
       "date": "2026-10-06T22:27:45Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 261,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Bump google.golang.org/grpc from 1.81.1 to 1.83.2",
-      "url": "https://github.com/migtools/oadp-cli/pull/261",
-      "date": "2026-10-06T22:24:45Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 81,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Bump google.golang.org/grpc from 1.79.3 to 1.83.1",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/81",
-      "date": "2026-10-06T22:24:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 221,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump google.golang.org/grpc from 1.82.1 to 1.83.1",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/221",
-      "date": "2026-10-06T22:28:47Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 376,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "⬆ Bump hadolint/hadolint-action from 3.4.0 to 3.5.0",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/376",
-      "date": "2026-10-06T22:24:30Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507",
+      "date": "2026-10-20T13:15:30Z",
+      "workstream": "Velero"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2591,15 +2591,6 @@
       "url": "https://github.com/openshift/ci-docs/issues/597",
       "date": "2026-10-14T00:05:00Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507",
-      "date": "2026-10-13T22:00:25Z",
-      "workstream": "Velero"
     },
     {
       "number": 16000,
