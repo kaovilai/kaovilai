@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-20 20:20:06 UTC
+> Last updated: 2026-10-20 23:41:18 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -68,7 +68,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #591](https://img.shields.io/badge/PR%20%23591-ready-green)](https://github.com/openshift/velero/pull/591) **openshift/velero** → `oadp-1.4` - Bump golangci-lint from v2.5.0 to v2.14.0
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
-- [![PR #87392](https://img.shields.io/badge/PR%20%2387392-ready-green)](https://github.com/openshift/release/pull/87392) **openshift/release** → `main` - OADP-8924: Add HCP guest cluster periodic test job for oadp-operator
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/175) **openshift/oadp-must-gather** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
@@ -79,6 +78,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #489](https://img.shields.io/badge/PR%20%23489-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/489) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-8924: Treat missing openshift-apiserver config as no internal registry
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/490) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/moby/sys/user from 0.4.0 to 0.4.1
+- [![PR #87392](https://img.shields.io/badge/PR%20%2387392-waiting--merge-blue)](https://github.com/openshift/release/pull/87392) **openshift/release** → `main` - OADP-8924: Add HCP guest cluster periodic test job for oadp-operator
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2499](https://img.shields.io/badge/PR%20%232499-draft-gray)](https://github.com/openshift/oadp-operator/pull/2499) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T20:20:06Z",
+  "updatedAt": "2026-10-20T23:41:18Z",
   "prs": [
     {
       "number": 10010,
@@ -7313,7 +7313,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-10-20T19:27:58Z",
+      "updatedAt": "2026-10-20T21:58:15Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -7325,15 +7325,7 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/images",
-          "conclusion": "FAILURE"
-        },
-        {
           "name": "ci/prow/4.18-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.18-e2e-test-cli-aws",
           "conclusion": "PENDING"
         },
         {
@@ -7345,11 +7337,19 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.18-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.18-images",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         },
         {
@@ -7485,14 +7485,15 @@
       "assignees": [],
       "isDraft": false,
       "labels": [
+        "approved",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-10-20T19:06:23Z",
+      "updatedAt": "2026-10-20T22:39:09Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -7810,95 +7811,6 @@
         },
         {
           "name": "ci/prow/validate-ai-metrics",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/yamllint",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 87392,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster periodic test job for oadp-operator",
-      "url": "https://github.com/openshift/release/pull/87392",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "redhat-chai-bot",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "jira/valid-reference"
-      ],
-      "updatedAt": "2026-10-20T16:20:17Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/agent-model-policy",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/check-gh-automation",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-config-metadata",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-registry",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/commits-signed",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/core-valid",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/generated-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/openshift-image-mirror-mappings",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ordered-prow-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/owners",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/prow-config-filenames",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/prow-config-semantics",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/release-controller-config",
           "conclusion": "SUCCESS"
         },
         {
@@ -8497,6 +8409,99 @@
         },
         {
           "name": "ci/prow/unit-test",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 87392,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster periodic test job for oadp-operator",
+      "url": "https://github.com/openshift/release/pull/87392",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "redhat-chai-bot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "shubham-pampattiwar"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved",
+        "jira/valid-reference"
+      ],
+      "updatedAt": "2026-10-20T22:59:16Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/agent-model-policy",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/check-gh-automation",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config-metadata",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-registry",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/commits-signed",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/core-valid",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/generated-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/openshift-image-mirror-mappings",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ordered-prow-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/owners",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/prow-config-filenames",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/prow-config-semantics",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/release-controller-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/yamllint",
           "conclusion": "SUCCESS"
         }
       ]
@@ -11286,7 +11291,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-10-15T05:27:42Z",
+      "updatedAt": "2026-10-20T23:31:47Z",
       "workstream": "KubeVirt Data Mover",
       "ciChecks": [
         {
@@ -11302,15 +11307,15 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/virt-kdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         }
       ]
@@ -14027,7 +14032,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-20T20:20:06Z",
+    "updatedAt": "2026-10-20T23:41:18Z",
     "needsReview": [
       {
         "number": 68,
@@ -14173,7 +14178,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 252,
+        "waitingDays": 253,
         "updatedAt": "2026-02-09T20:35:35Z"
       },
       {
@@ -14258,38 +14263,8 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 153,
+        "waitingDays": 154,
         "updatedAt": "2026-05-19T22:41:19Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 132,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 104,
@@ -14513,7 +14488,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 96,
+        "waitingDays": 97,
         "updatedAt": "2026-07-15T20:53:27Z"
       },
       {
@@ -14679,7 +14654,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 77,
+        "waitingDays": 78,
         "updatedAt": "2026-08-03T21:22:10Z"
       },
       {
@@ -14706,7 +14681,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 75,
+        "waitingDays": 76,
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
@@ -14739,6 +14714,37 @@
         "updatedAt": "2026-08-11T13:19:55Z"
       },
       {
+        "number": 80150,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "tide: enable github_merge_blocks_policy for repos with recent merge failures",
+        "url": "https://github.com/openshift/release/pull/80150",
+        "targetBranch": "main",
+        "author": "Prucek",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved",
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pruan-rht",
+          "smg247"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 70,
+        "updatedAt": "2026-08-11T20:28:19Z"
+      },
+      {
         "number": 35,
         "repo": "HASHCUT69/Blend-n-Run",
         "org": "HASHCUT69",
@@ -14763,37 +14769,6 @@
         "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
-        "number": 80150,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "tide: enable github_merge_blocks_policy for repos with recent merge failures",
-        "url": "https://github.com/openshift/release/pull/80150",
-        "targetBranch": "main",
-        "author": "Prucek",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved",
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pruan-rht",
-          "smg247"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 69,
-        "updatedAt": "2026-08-11T20:28:19Z"
-      },
-      {
         "number": 478,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -14813,7 +14788,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14889,7 +14864,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 66,
+        "waitingDays": 67,
         "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
@@ -14915,7 +14890,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 66,
+        "waitingDays": 67,
         "updatedAt": "2026-08-14T21:03:44Z"
       },
       {
@@ -14941,7 +14916,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 66,
+        "waitingDays": 67,
         "updatedAt": "2026-08-14T21:05:20Z"
       },
       {
@@ -14967,7 +14942,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:26:38Z"
       },
       {
@@ -15209,7 +15184,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 49,
+        "waitingDays": 50,
         "updatedAt": "2026-08-31T20:24:39Z"
       },
       {
@@ -15349,7 +15324,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15391,7 +15366,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -15517,6 +15492,37 @@
         "updatedAt": "2026-10-02T07:09:40Z"
       },
       {
+        "number": 426,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/426",
+        "targetBranch": "oadp-dev",
+        "author": "dependabot[bot]",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "ok-to-test",
+          "dependencies",
+          "go"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "savitharaghunathan"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-10-06T22:24:34Z"
+      },
+      {
         "number": 2473,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -15545,37 +15551,6 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-10-07T06:45:53Z"
-      },
-      {
-        "number": 426,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/426",
-        "targetBranch": "oadp-dev",
-        "author": "dependabot[bot]",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "ok-to-test",
-          "dependencies",
-          "go"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "savitharaghunathan"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-10-06T22:24:34Z"
       },
       {
         "number": 70,
@@ -15726,7 +15701,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15770,35 +15745,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-10-14T03:13:06Z"
-      },
-      {
-        "number": 245,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/245",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-10-15T05:27:42Z"
       },
       {
         "number": 2489,
@@ -15895,7 +15841,7 @@
           "size/XL",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15942,6 +15888,35 @@
         "updatedAt": "2026-10-19T17:01:33Z"
       },
       {
+        "number": 245,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/245",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-20T23:31:47Z"
+      },
+      {
         "number": 2493,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -15952,14 +15927,15 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
+          "approved",
           "jira/valid-reference"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
           "shubham-pampattiwar",
@@ -15968,36 +15944,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-20T19:06:23Z"
-      },
-      {
-        "number": 87392,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP-8924: Add HCP guest cluster periodic test job for oadp-operator",
-        "url": "https://github.com/openshift/release/pull/87392",
-        "targetBranch": "main",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "PrasadJoshi12"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-20T16:20:17Z"
+        "updatedAt": "2026-10-20T22:39:09Z"
       },
       {
         "number": 19785,
@@ -16082,7 +16029,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 131,
+        "waitingDays": 132,
         "updatedAt": "2026-06-10T22:00:56Z"
       },
       {
@@ -16266,7 +16213,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:54:13Z"
       },
       {
@@ -16294,7 +16241,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:54:41Z"
       },
       {
@@ -16320,7 +16267,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:54:27Z"
       },
       {
@@ -16346,7 +16293,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:54:48Z"
       },
       {
@@ -16372,7 +16319,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:55:14Z"
       },
       {
@@ -16398,7 +16345,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 56,
+        "waitingDays": 57,
         "updatedAt": "2026-08-24T20:55:25Z"
       },
       {
@@ -16428,7 +16375,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-03T20:31:41Z"
       },
       {
@@ -16542,6 +16489,38 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 26,
+        "updatedAt": "2026-09-24T21:55:00Z"
+      },
+      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -16599,38 +16578,6 @@
         "reason": "pendingMerge",
         "waitingDays": 25,
         "updatedAt": "2026-09-25T17:03:37Z"
-      },
-      {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 25,
-        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -16983,6 +16930,39 @@
         "updatedAt": "2026-10-19T12:01:00Z"
       },
       {
+        "number": 183,
+        "repo": "openshift/velero-plugin-for-gcp",
+        "org": "openshift",
+        "title": "Update auto-request-review action to v0.13.0",
+        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/183",
+        "targetBranch": "oadp-1.4",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "savitharaghunathan"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-10-19T21:25:48Z"
+      },
+      {
         "number": 181,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -17098,7 +17078,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17112,7 +17092,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-20T19:27:58Z"
+        "updatedAt": "2026-10-20T21:58:15Z"
       },
       {
         "number": 84228,
@@ -17146,6 +17126,39 @@
         "updatedAt": "2026-10-20T16:44:59Z"
       },
       {
+        "number": 87392,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP-8924: Add HCP guest cluster periodic test job for oadp-operator",
+        "url": "https://github.com/openshift/release/pull/87392",
+        "targetBranch": "main",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "lgtm",
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "PrasadJoshi12"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-20T22:59:16Z"
+      },
+      {
         "number": 593,
         "repo": "openshift/velero",
         "org": "openshift",
@@ -17172,39 +17185,6 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-10-20T03:01:01Z"
-      },
-      {
-        "number": 183,
-        "repo": "openshift/velero-plugin-for-gcp",
-        "org": "openshift",
-        "title": "Update auto-request-review action to v0.13.0",
-        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/183",
-        "targetBranch": "oadp-1.4",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "savitharaghunathan"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
         "number": 17717,
