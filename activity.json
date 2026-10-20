@@ -3,7 +3,7 @@
     "start": "2026-07-22",
     "end": "2026-10-20"
   },
-  "generatedAt": "2026-10-20T01:39:10Z",
+  "generatedAt": "2026-10-20T11:14:51Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,13 +1817,13 @@
   ],
   "prsReviewed": [
     {
-      "number": 10652,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
-      "url": "https://github.com/velero-io/velero/pull/10652",
-      "date": "2026-10-20T00:53:10Z",
-      "workstream": "Velero"
+      "number": 87249,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1",
+      "url": "https://github.com/openshift/release/pull/87249",
+      "date": "2026-10-20T10:07:39Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 10654,
@@ -1831,7 +1831,34 @@
       "org": "velero-io",
       "title": "Add S3 SSE-C headers to download requests",
       "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-19T23:26:25Z",
+      "date": "2026-10-20T10:00:46Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10660,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: drop the SKIP_KIND label, which nothing reads",
+      "url": "https://github.com/velero-io/velero/pull/10660",
+      "date": "2026-10-20T09:58:34Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10652,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
+      "url": "https://github.com/velero-io/velero/pull/10652",
+      "date": "2026-10-20T09:54:45Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10649,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Makefile: fix make serve-docs on buildx setups",
+      "url": "https://github.com/velero-io/velero/pull/10649",
+      "date": "2026-10-20T09:27:04Z",
       "workstream": "Velero"
     },
     {
@@ -1840,7 +1867,7 @@
       "org": "openshift",
       "title": "Fix BSL count race condition in multi-BSL e2e test",
       "url": "https://github.com/openshift/oadp-operator/pull/2498",
-      "date": "2026-10-20T01:22:34Z",
+      "date": "2026-10-20T03:52:32Z",
       "workstream": "OADP"
     },
     {
@@ -1849,7 +1876,7 @@
       "org": "openshift",
       "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
       "url": "https://github.com/openshift/velero/pull/593",
-      "date": "2026-10-19T21:46:11Z",
+      "date": "2026-10-20T03:01:01Z",
       "workstream": "Uncategorized"
     },
     {
@@ -1860,15 +1887,6 @@
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/183",
       "date": "2026-10-19T21:25:48Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 87249,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1",
-      "url": "https://github.com/openshift/release/pull/87249",
-      "date": "2026-10-19T18:32:05Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 177,
@@ -1976,15 +1994,6 @@
       "title": "Reuse cached Go modules across CI jobs",
       "url": "https://github.com/velero-io/velero/pull/10656",
       "date": "2026-10-16T03:08:28Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10660,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: drop the SKIP_KIND label, which nothing reads",
-      "url": "https://github.com/velero-io/velero/pull/10660",
-      "date": "2026-10-15T20:52:50Z",
       "workstream": "Velero"
     },
     {
@@ -2202,15 +2211,6 @@
       "url": "https://github.com/migtools/oadp-vmdp/pull/41",
       "date": "2026-10-13T19:11:09Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10649,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Makefile: fix make serve-docs on buildx setups",
-      "url": "https://github.com/velero-io/velero/pull/10649",
-      "date": "2026-10-13T16:22:17Z",
-      "workstream": "Velero"
     },
     {
       "number": 10612,
@@ -2485,6 +2485,24 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-20T11:03:24Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 438,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "Add regex support for branch matching in Tide status controller",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/438",
+      "date": "2026-10-20T02:25:57Z",
+      "workstream": "Kubernetes"
+    },
+    {
       "number": 17422,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -2501,24 +2519,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/10553",
       "date": "2026-10-19T16:54:56Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-19T12:17:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 438,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "Add regex support for branch matching in Tide status controller",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/438",
-      "date": "2026-10-19T06:41:19Z",
-      "workstream": "Kubernetes"
     },
     {
       "number": 3314,
