@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-22",
-    "end": "2026-10-20"
+    "start": "2026-07-23",
+    "end": "2026-10-21"
   },
-  "generatedAt": "2026-10-20T23:40:17Z",
+  "generatedAt": "2026-10-21T01:24:52Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 73,
     "issuesCommented": 100,
-    "issuesClosed": 94
+    "issuesClosed": 90
   },
   "prsMerged": [
     {
@@ -1817,21 +1817,21 @@
   ],
   "prsReviewed": [
     {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-10-20T22:39:09Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 2485,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
       "url": "https://github.com/openshift/oadp-operator/pull/2485",
-      "date": "2026-10-20T21:58:15Z",
+      "date": "2026-10-21T00:21:40Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-10-21T00:01:35Z",
       "workstream": "OADP"
     },
     {
@@ -4186,42 +4186,6 @@
       "url": "https://github.com/openshift/velero/issues/363",
       "date": "2026-07-23T02:18:22Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 118,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "lint workflow is using node20",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/118",
-      "date": "2026-07-22T17:40:01Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 443,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "OADP-7384: ImageStream backup fails with `manifest unknown` when a status tag item references another namespace's repository and that reference is stale",
-      "url": "https://github.com/openshift/openshift-velero-plugin/issues/443",
-      "date": "2026-07-22T17:37:13Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 108,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason==\"Failed\"",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/108",
-      "date": "2026-07-22T16:48:11Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10048,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures",
-      "url": "https://github.com/velero-io/velero/issues/10048",
-      "date": "2026-07-22T14:14:20Z",
-      "workstream": "Velero"
     }
   ]
 }

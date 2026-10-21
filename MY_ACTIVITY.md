@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-07-22 — 2026-10-20
-> **Generated:** 2026-10-20 23:40:17 UTC
+> **Period:** 2026-07-23 — 2026-10-21
+> **Generated:** 2026-10-21 01:24:52 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 94 |
+| Issues Closed | 90 |
 
 ---
 
@@ -271,8 +271,8 @@
 - [#10593 e2e: verify CSI snapshots on kind](https://github.com/velero-io/velero/pull/10593) — velero-io/velero
 
 **openshift** (28)
-- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2485 tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s](https://github.com/openshift/oadp-operator/pull/2485) — openshift/oadp-operator
+- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
 - [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
 - [#87249 Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1](https://github.com/openshift/release/pull/87249) — openshift/release
@@ -422,9 +422,9 @@
 - [#43 Chrome Web Store listing reports location permission](https://github.com/rxliuli/redirector/issues/43) — rxliuli/redirector
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#201 feat: Add Podman libpod API endpoints for native podman CLI support](https://github.com/socktainer/socktainer/issues/201) — socktainer/socktainer
-## Issues Closed (94)
+## Issues Closed (90)
 
-**velero-io** (30)
+**velero-io** (29)
 - [#10653 Improve CI reliability by reusing Go module caches across test jobs](https://github.com/velero-io/velero/issues/10653) — velero-io/velero
 - [#10076 Dependabot auto approve action](https://github.com/velero-io/velero/issues/10076) — velero-io/velero
 - [#10564 E2E test coverage for namespace selection by label in resource policy](https://github.com/velero-io/velero/issues/10564) — velero-io/velero
@@ -454,9 +454,8 @@
 - [#10050 nits for fine-grained filter docs](https://github.com/velero-io/velero/issues/10050) — velero-io/velero
 - [#10023 Ginkgo CLI Version Mismatch GoMod Import](https://github.com/velero-io/velero/issues/10023) — velero-io/velero
 - [#10029 Flaky test: TestKopiaObjectWriterEx_ConcurrentAsyncErrors can observe async error before all writes are queued](https://github.com/velero-io/velero/issues/10029) — velero-io/velero
-- [#10048 CI: make Bitnami MinIO Dockerfile SHA lookup resilient to API/rate-limit failures](https://github.com/velero-io/velero/issues/10048) — velero-io/velero
 
-**openshift** (18)
+**openshift** (17)
 - [#259 Cherrypicks missing for https://github.com/openshift/enhancements/pull/1945 related PRs to oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/issues/259) — openshift/hypershift-oadp-plugin
 - [#258 No HostedControlPlane found: unexpected behavior during HostedControlPlane backup](https://github.com/openshift/hypershift-oadp-plugin/issues/258) — openshift/hypershift-oadp-plugin
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
@@ -474,9 +473,8 @@
 - [#149 Gather PVC/PV/Namespace(SCC) data for backed-up/restored app namespaces to diagnose restore permission/ownership bugs](https://github.com/openshift/oadp-must-gather/issues/149) — openshift/oadp-must-gather
 - [#5328 src-bundle build flake: no node selector lets buildah pod land on arm64 node, fails pulling amd64-only pipeline:src manifest list](https://github.com/openshift/ci-tools/issues/5328) — openshift/ci-tools
 - [#363 Remove CODEGEN_VERSION from Makefile.prow](https://github.com/openshift/velero/issues/363) — openshift/velero
-- [#443 OADP-7384: ImageStream backup fails with `manifest unknown` when a status tag item references another namespace's repository and that reference is stale](https://github.com/openshift/openshift-velero-plugin/issues/443) — openshift/openshift-velero-plugin
 
-**migtools** (20)
+**migtools** (18)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 - [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
 - [#42 Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review](https://github.com/migtools/kubevirt-datamover-plugin/issues/42) — migtools/kubevirt-datamover-plugin
@@ -495,8 +493,6 @@
 - [#45 VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration](https://github.com/migtools/kubevirt-datamover-plugin/issues/45) — migtools/kubevirt-datamover-plugin
 - [#162 Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash](https://github.com/migtools/kubevirt-datamover-controller/issues/162) — migtools/kubevirt-datamover-controller
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
-- [#118 lint workflow is using node20](https://github.com/migtools/kubevirt-datamover-controller/issues/118) — migtools/kubevirt-datamover-controller
-- [#108 evaluateVMBackupStatus misses real VMBackup failures due to exact-match on Progressing.Reason=="Failed"](https://github.com/migtools/kubevirt-datamover-controller/issues/108) — migtools/kubevirt-datamover-controller
 
 **Other** (26)
 - [#19422 [Bug]: Mobile review diff stops scrolling before the end of long unwrapped lines (Android, iOS)](https://github.com/pingdotgg/t3code/issues/19422) — pingdotgg/t3code
