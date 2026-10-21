@@ -3,7 +3,7 @@
     "start": "2026-07-23",
     "end": "2026-10-21"
   },
-  "generatedAt": "2026-10-21T16:57:46Z",
+  "generatedAt": "2026-10-21T20:28:04Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,213 @@
     "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 190,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/190",
+      "date": "2026-10-21T19:07:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 76,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/76",
+      "date": "2026-10-21T19:07:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 75,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/75",
+      "date": "2026-10-21T19:07:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 77,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/77",
+      "date": "2026-10-21T19:07:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 44,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "UPSTREAM: <carry>: Bump Go to 1.26 and fix Lint workflow failures on oadp-dev",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/44",
+      "date": "2026-10-21T19:07:10Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 63,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "chore(ci): disable upstream-only license-check and code-coverage workflows",
+      "url": "https://github.com/migtools/kopia/pull/63",
+      "date": "2026-10-21T19:07:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 74,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/74",
+      "date": "2026-10-21T19:07:08Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 190,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/190",
+      "date": "2026-10-21T19:02:53Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 189,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/189",
+      "date": "2026-10-21T19:02:53Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 188,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/188",
+      "date": "2026-10-21T19:02:52Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 189,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189",
+      "date": "2026-10-21T19:02:52Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 396,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "[oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/396",
+      "date": "2026-10-21T19:02:51Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 121,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "ci: build e2e MinIO image from pinned Bitnami Dockerfile",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/121",
+      "date": "2026-10-21T19:02:50Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 131,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/131",
+      "date": "2026-10-21T18:58:36Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 128,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128",
+      "date": "2026-10-21T18:58:36Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 186,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/186",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 129,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 188,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 187,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/187",
+      "date": "2026-10-21T18:58:34Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 184,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/184",
+      "date": "2026-10-21T18:58:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 187,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187",
+      "date": "2026-10-21T18:58:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 567,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "oadp-1.5: Pin Bitnami MinIO e2e build and cherry-pick velero-io/velero#10001 (skip upstream-only workflows on forks)",
+      "url": "https://github.com/openshift/velero/pull/567",
+      "date": "2026-10-21T18:54:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 62,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "ci: disable failing Quay binaries push workflow",
+      "url": "https://github.com/migtools/kopia/pull/62",
+      "date": "2026-10-21T18:49:11Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 185,
       "repo": "openshift/velero-plugin-for-aws",
@@ -704,221 +911,32 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178",
       "date": "2026-09-04T18:02:59Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 84592,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
-      "url": "https://github.com/openshift/release/pull/84592",
-      "date": "2026-09-04T16:58:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 218,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Detect VMI guest-agent availability before quiesce, with explicit user override",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/218",
-      "date": "2026-09-04T01:12:39Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 2435,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: vendor virtualmachineinstances RBAC from KDM PR #218",
-      "url": "https://github.com/openshift/oadp-operator/pull/2435",
-      "date": "2026-09-04T03:41:12Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 177,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add hover/click popups for Claude analysis links and failed-step logs",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177",
-      "date": "2026-09-04T03:55:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 175,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Skip Test/Override buttons on tide's own status context",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/175",
-      "date": "2026-09-03T18:42:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 174,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Extend combo window to per-check Override, add pending-button spinner",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/174",
-      "date": "2026-09-03T18:37:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 84490,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws into kdm/non-kdm jobs (oadp-1.6)",
-      "url": "https://github.com/openshift/release/pull/84490",
-      "date": "2026-09-02T20:13:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 173,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Combo auto-submit window, override on pending checks, native Approve sync",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/173",
-      "date": "2026-09-02T19:38:06Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10458,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Skip kind E2E tests on PRs that don't touch Go code or the workflow itself",
-      "url": "https://github.com/velero-io/velero/pull/10458",
-      "date": "2026-09-02T06:22:50Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2404,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "test: unpend two kdm restore PIts, fixing bugs found via live e2e validation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2404",
-      "date": "2026-09-02T05:10:59Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 84337,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp: split kubevirt e2e job (5.0) and add Claude failure analysis to kdm-controller/plugin",
-      "url": "https://github.com/openshift/release/pull/84337",
-      "date": "2026-09-01T18:53:59Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 566,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "1.4: Skip upstream-only workflows on this fork (cherry-pick velero-io/velero#10001)",
-      "url": "https://github.com/openshift/velero/pull/566",
-      "date": "2026-09-01T16:28:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2423,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): TEST_VIRT excludes kdm specs, enable split-job e2e (issue #2413 option B)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2423",
-      "date": "2026-09-01T14:51:46Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10403,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Check both daemonsets before returning non-NotFound lookup error in IsReady",
-      "url": "https://github.com/velero-io/velero/pull/10403",
-      "date": "2026-09-01T06:59:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 212,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: two DataUpload livelocks in VMB handling (stuck retry guard + stale cached status)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/212",
-      "date": "2026-08-31T21:38:41Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 208,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: recognize VirtualMachineBackup's renamed Complete condition",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/208",
-      "date": "2026-08-31T19:06:28Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 207,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "alt: merge-patch expected-backup-type annotation instead of retrying Update",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/207",
-      "date": "2026-08-31T16:48:11Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10406,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "release-1.17: validate kind node tags before adding to e2e test matrix",
-      "url": "https://github.com/velero-io/velero/pull/10406",
-      "date": "2026-08-31T05:50:11Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10381,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: #9795: Skip DeleteSnapshot when ProviderSnapshotID is empty",
-      "url": "https://github.com/velero-io/velero/pull/10381",
-      "date": "2026-08-28T04:51:24Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 50,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "Set binding-blocking spec.selector on restore-target PVCs",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/50",
-      "date": "2026-08-25T15:54:58Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 2139,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7665: Pass --log-level to NodeAgent DaemonSet container args",
-      "url": "https://github.com/openshift/oadp-operator/pull/2139",
-      "date": "2026-08-27T14:26:01Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10348,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "1.18: Backport #10342: Fix LoadAffinity mutation accumulating OS node selector terms",
-      "url": "https://github.com/velero-io/velero/pull/10348",
-      "date": "2026-08-27T03:26:24Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2019,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add uploader-type argument to Velero deployment configuration when configuration.args is used.",
-      "url": "https://github.com/openshift/oadp-operator/pull/2019",
-      "date": "2026-08-26T19:35:03Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
     {
+      "number": 2508,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Sync NonAdmin CRDs with oadp-non-admin oadp-dev",
+      "url": "https://github.com/openshift/oadp-operator/pull/2508",
+      "date": "2026-10-21T17:04:45Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 397,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Fix pre-existing CI failures on oadp-dev",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/397",
+      "date": "2026-10-21T16:58:15Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 44,
       "repo": "migtools/oadp-vmdp",
       "org": "migtools",
-      "title": "UPSTREAM: <carry>: Fix Lint workflow failures on oadp-dev",
+      "title": "UPSTREAM: <carry>: Bump Go to 1.26 and fix Lint workflow failures on oadp-dev",
       "url": "https://github.com/migtools/oadp-vmdp/pull/44",
       "date": "2026-10-21T16:49:24Z",
       "workstream": "OADP"
@@ -1125,7 +1143,7 @@
       "number": 121,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
-      "title": "ci: make e2e GitHub workflow manual-only",
+      "title": "ci: build e2e MinIO image from pinned Bitnami Dockerfile",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/121",
       "date": "2026-10-21T16:15:40Z",
       "workstream": "OADP"
@@ -1134,7 +1152,7 @@
       "number": 120,
       "repo": "migtools/oadp-vm-file-restore",
       "org": "migtools",
-      "title": "[oadp-1.6] ci: make e2e GitHub workflow manual-only",
+      "title": "[oadp-1.6] ci: build e2e MinIO image from pinned Bitnami Dockerfile",
       "url": "https://github.com/migtools/oadp-vm-file-restore/pull/120",
       "date": "2026-10-21T16:15:36Z",
       "workstream": "OADP"
@@ -1795,24 +1813,6 @@
       "url": "https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1",
       "date": "2026-09-14T19:31:03Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Add safe Dependabot auto-merge workflow for npm patch/minor updates",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7",
-      "date": "2026-09-11T18:34:32Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 14,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix healthcheck: use 127.0.0.1 instead of localhost",
-      "url": "https://github.com/kaovilai/copilot-api/pull/14",
-      "date": "2026-09-11T18:01:43Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2466,6 +2466,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 134,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "`tide` not honoring multiple reviewer branch protection",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/134",
+      "date": "2026-10-21T17:22:53Z",
+      "workstream": "Kubernetes"
+    },
     {
       "number": 16992,
       "repo": "pingdotgg/t3code",
@@ -3355,15 +3364,6 @@
       "title": "Feature Request: Add support for editing issue comments",
       "url": "https://github.com/github/github-mcp-server/issues/868",
       "date": "2026-08-20T14:04:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 201,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "feat: Add Podman libpod API endpoints for native podman CLI support",
-      "url": "https://github.com/socktainer/socktainer/issues/201",
-      "date": "2026-08-19T16:18:12Z",
       "workstream": "Uncategorized"
     }
   ],
