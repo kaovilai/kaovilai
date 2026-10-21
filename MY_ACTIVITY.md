@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-23 — 2026-10-21
-> **Generated:** 2026-10-21 01:24:52 UTC
+> **Generated:** 2026-10-21 11:30:57 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -234,10 +234,10 @@
 ## PRs Reviewed (73)
 
 **velero-io** (35)
-- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
-- [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
-- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
+- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
+- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
+- [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10649 Makefile: fix make serve-docs on buildx setups](https://github.com/velero-io/velero/pull/10649) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
@@ -385,8 +385,8 @@
 - [#84 Implement concurrent data mover limiter for DU and DD controllers](https://github.com/migtools/kubevirt-datamover-controller/issues/84) — migtools/kubevirt-datamover-controller
 
 **Other** (37)
-- [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code

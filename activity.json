@@ -3,7 +3,7 @@
     "start": "2026-07-23",
     "end": "2026-10-21"
   },
-  "generatedAt": "2026-10-21T01:24:52Z",
+  "generatedAt": "2026-10-21T11:30:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,12 +1817,39 @@
   ],
   "prsReviewed": [
     {
+      "number": 10652,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
+      "url": "https://github.com/velero-io/velero/pull/10652",
+      "date": "2026-10-21T09:43:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10658,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the Kibishii snapshot cases on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10658",
+      "date": "2026-10-21T06:23:17Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add S3 SSE-C headers to download requests",
+      "url": "https://github.com/velero-io/velero/pull/10654",
+      "date": "2026-10-21T06:14:46Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2485,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
       "url": "https://github.com/openshift/oadp-operator/pull/2485",
-      "date": "2026-10-21T00:21:40Z",
+      "date": "2026-10-21T01:56:13Z",
       "workstream": "OADP"
     },
     {
@@ -1844,15 +1871,6 @@
       "workstream": "OADP"
     },
     {
-      "number": 10658,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: run the Kibishii snapshot cases on kind under CSI",
-      "url": "https://github.com/velero-io/velero/pull/10658",
-      "date": "2026-10-20T18:53:23Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 2500,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1868,24 +1886,6 @@
       "title": "Recognize GCS object-not-found error during backup deletion",
       "url": "https://github.com/velero-io/velero/pull/10673",
       "date": "2026-10-20T17:09:04Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10654,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add S3 SSE-C headers to download requests",
-      "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-20T15:36:16Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10652,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
-      "url": "https://github.com/velero-io/velero/pull/10652",
-      "date": "2026-10-20T13:07:57Z",
       "workstream": "Velero"
     },
     {
@@ -2476,6 +2476,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-21T11:20:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 245,
       "repo": "pkg/errors",
       "org": "pkg",
@@ -2492,15 +2501,6 @@
       "url": "https://github.com/velero-io/velero/issues/7507",
       "date": "2026-10-20T13:15:30Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-20T11:03:24Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 438,
