@@ -3,15 +3,24 @@
     "start": "2026-07-23",
     "end": "2026-10-21"
   },
-  "generatedAt": "2026-10-21T11:30:57Z",
+  "generatedAt": "2026-10-21T16:57:46Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 73,
+    "prsReviewed": 72,
     "issuesCommented": 100,
     "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 185,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/185",
+      "date": "2026-10-21T16:54:59Z",
+      "workstream": "Velero"
+    },
     {
       "number": 5,
       "repo": "kaovilai/github-html-diff-preview",
@@ -902,18 +911,243 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2019",
       "date": "2026-08-26T19:35:03Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2368,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.4] Make controller-gen/kustomize/golangci-lint/envtest tool-binary caching reliable",
-      "url": "https://github.com/openshift/oadp-operator/pull/2368",
-      "date": "2026-08-26T17:45:03Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
+    {
+      "number": 44,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "UPSTREAM: <carry>: Fix Lint workflow failures on oadp-dev",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/44",
+      "date": "2026-10-21T16:49:24Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 77,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/77",
+      "date": "2026-10-21T16:28:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 76,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/76",
+      "date": "2026-10-21T16:28:11Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 75,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/75",
+      "date": "2026-10-21T16:28:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 74,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "ci: disable upstream tests workflow",
+      "url": "https://github.com/openshift/restic/pull/74",
+      "date": "2026-10-21T16:27:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 63,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "chore(ci): disable upstream-only license-check and code-coverage workflows",
+      "url": "https://github.com/migtools/kopia/pull/63",
+      "date": "2026-10-21T16:27:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 62,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "ci: disable failing Quay binaries push workflow",
+      "url": "https://github.com/migtools/kopia/pull/62",
+      "date": "2026-10-21T16:27:44Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 190,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/190",
+      "date": "2026-10-21T16:18:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 189,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/189",
+      "date": "2026-10-21T16:18:50Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 188,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/188",
+      "date": "2026-10-21T16:18:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 190,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/190",
+      "date": "2026-10-21T16:18:27Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 189,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189",
+      "date": "2026-10-21T16:18:21Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 188,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
+      "date": "2026-10-21T16:18:10Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 187,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187",
+      "date": "2026-10-21T16:18:05Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 131,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/131",
+      "date": "2026-10-21T16:17:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 130,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/130",
+      "date": "2026-10-21T16:17:20Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 129,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
+      "date": "2026-10-21T16:17:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 49,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "ci: use go.mod Go version in CI workflow (oadp-1.6)",
+      "url": "https://github.com/migtools/filebrowser/pull/49",
+      "date": "2026-10-21T16:16:44Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 128,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128",
+      "date": "2026-10-21T16:16:41Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 187,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/187",
+      "date": "2026-10-21T16:16:32Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 186,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/186",
+      "date": "2026-10-21T16:16:27Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 185,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/185",
+      "date": "2026-10-21T16:16:21Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 184,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/184",
+      "date": "2026-10-21T16:16:17Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 121,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "ci: make e2e GitHub workflow manual-only",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/121",
+      "date": "2026-10-21T16:15:40Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 120,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "[oadp-1.6] ci: make e2e GitHub workflow manual-only",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/120",
+      "date": "2026-10-21T16:15:36Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 396,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "[oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/396",
+      "date": "2026-10-21T16:15:28Z",
+      "workstream": "OADP"
+    },
     {
       "number": 2499,
       "repo": "openshift/oadp-operator",
@@ -1579,243 +1813,18 @@
       "url": "https://github.com/kaovilai/copilot-api/pull/14",
       "date": "2026-09-11T18:01:43Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Lower ambiguous-timeout budget to 80s to beat client watchdogs",
-      "url": "https://github.com/kaovilai/copilot-api/pull/13",
-      "date": "2026-09-11T17:11:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 182,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182",
-      "date": "2026-09-10T20:27:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Fix Netlify build failure: bump Node version and sync yarn.lock",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6",
-      "date": "2026-09-10T20:12:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2446,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.5] OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts (cherry-pick #2234)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2446",
-      "date": "2026-09-10T18:03:33Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2445,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: don't check VEP-25 CRDs before the feature gate that creates them",
-      "url": "https://github.com/openshift/oadp-operator/pull/2445",
-      "date": "2026-09-10T13:56:17Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/3",
-      "date": "2026-09-10T13:16:02Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/1",
-      "date": "2026-09-10T03:28:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Address CodeRabbit findings on the streaming chat-completions handler",
-      "url": "https://github.com/kaovilai/copilot-api/pull/12",
-      "date": "2026-09-09T20:09:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Handle client abort gracefully in streaming chat-completions",
-      "url": "https://github.com/kaovilai/copilot-api/pull/11",
-      "date": "2026-09-09T19:27:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix desktop typecheck failure (missing files in tsconfig.node.json)",
-      "url": "https://github.com/kaovilai/copilot-api/pull/10",
-      "date": "2026-09-09T06:16:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix streaming tool_calls with a non-zero starting index (crashes n8n's AI SDK)",
-      "url": "https://github.com/kaovilai/copilot-api/pull/9",
-      "date": "2026-09-09T06:12:42Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix non-streaming chat-completions response missing required index/object/logprobs",
-      "url": "https://github.com/kaovilai/copilot-api/pull/8",
-      "date": "2026-09-09T05:31:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Add dev-branch Docker build/push workflow",
-      "url": "https://github.com/kaovilai/copilot-api/pull/7",
-      "date": "2026-09-09T03:55:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Land the CodeRabbit fixes that missed PR #11's merge",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/12",
-      "date": "2026-09-09T03:46:16Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Consume the published @kaovilai fork in the Dockerfile instead of upstream's package",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/11",
-      "date": "2026-09-08T23:38:05Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Publish this fork's package to GitHub Packages (@kaovilai scope)",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/10",
-      "date": "2026-09-08T22:21:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Add browser session reuse across Playwright nodes, capped by memory budget",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/9",
-      "date": "2026-09-08T21:31:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Fix browser-close leak, update deps, add Dependabot auto-merge",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/8",
-      "date": "2026-09-08T21:18:16Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Bump n8n 2.0.3 -> 2.37.10, chromium stage alpine 3.22 -> 3.24",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/7",
-      "date": "2026-09-05T18:08:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Neuter setup-browsers.js -- n8n runs it at every boot, undoing the build-time fix",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/6",
-      "date": "2026-09-05T17:07:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 5,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Add CI (lint+build) and Dependabot config",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/5",
-      "date": "2026-09-05T15:29:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 4,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Bake browsers at build time + add CI and Dependabot",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/4",
-      "date": "2026-09-05T15:27:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 179,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Improve mobile touch interactions and settings persistence",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/179",
-      "date": "2026-09-04T18:14:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 178,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Make auto-submit/combo path touch-friendly and add a form-submit fallback",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178",
-      "date": "2026-09-04T17:44:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 177,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add hover/click popups for Claude analysis links and failed-step logs",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/177",
-      "date": "2026-09-04T03:53:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 84592,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-operator: split e2e-test-kubevirt-aws-periodic into kdm/non-kdm jobs",
-      "url": "https://github.com/openshift/release/pull/84592",
-      "date": "2026-09-04T00:30:39Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 59,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Fix CVE-2026-63209",
+      "url": "https://github.com/migtools/kopia/pull/59",
+      "date": "2026-10-21T16:18:58Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10652,
       "repo": "velero-io/velero",
@@ -2454,27 +2463,18 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/238",
       "date": "2026-10-06T22:30:22Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 239,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc from 1.40.0 to 1.45.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/239",
-      "date": "2026-10-06T22:30:11Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 60,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "chore(deps): bump google.golang.org/grpc from 1.83.1 to 1.83.2",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/60",
-      "date": "2026-10-06T22:27:45Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 16992,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Jira MCP Apps render blank inline cards despite successful tool results",
+      "url": "https://github.com/pingdotgg/t3code/issues/16992",
+      "date": "2026-10-21T11:48:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2546,15 +2546,6 @@
       "url": "https://github.com/velero-io/velero/issues/4045",
       "date": "2026-10-17T10:12:01Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 16992,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Jira MCP Apps render blank inline cards despite successful tool results",
-      "url": "https://github.com/pingdotgg/t3code/issues/16992",
-      "date": "2026-10-17T03:00:37Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 26598,
