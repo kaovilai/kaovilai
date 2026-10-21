@@ -3,15 +3,24 @@
     "start": "2026-07-23",
     "end": "2026-10-21"
   },
-  "generatedAt": "2026-10-21T20:28:04Z",
+  "generatedAt": "2026-10-21T23:55:33Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 72,
+    "prsReviewed": 69,
     "issuesCommented": 100,
-    "issuesClosed": 90
+    "issuesClosed": 91
   },
   "prsMerged": [
+    {
+      "number": 489,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "OADP-8924: Treat missing openshift-apiserver config as no internal registry",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/489",
+      "date": "2026-10-21T20:58:35Z",
+      "workstream": "Velero"
+    },
     {
       "number": 190,
       "repo": "openshift/velero-plugin-for-gcp",
@@ -901,15 +910,6 @@
       "title": "Improve mobile touch interactions and settings persistence",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/179",
       "date": "2026-09-04T18:14:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 178,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Make auto-submit/combo path touch-friendly and add a form-submit fallback",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/178",
-      "date": "2026-09-04T18:02:59Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,33 @@
   ],
   "prsReviewed": [
     {
+      "number": 591,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Bump golangci-lint from v2.5.0 to v2.14.0",
+      "url": "https://github.com/openshift/velero/pull/591",
+      "date": "2026-10-21T23:21:26Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 593,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
+      "url": "https://github.com/openshift/velero/pull/593",
+      "date": "2026-10-21T21:55:09Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2477,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/openshift/oadp-operator/pull/2477",
+      "date": "2026-10-21T21:06:02Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 59,
       "repo": "migtools/kopia",
       "org": "migtools",
@@ -1868,15 +1895,6 @@
       "title": "OADP-8924: Add HCP guest cluster pod backup test case",
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
       "date": "2026-10-21T00:01:35Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2477,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-      "url": "https://github.com/openshift/oadp-operator/pull/2477",
-      "date": "2026-10-20T19:51:16Z",
       "workstream": "OADP"
     },
     {
@@ -1934,15 +1952,6 @@
       "workstream": "OADP"
     },
     {
-      "number": 593,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
-      "url": "https://github.com/openshift/velero/pull/593",
-      "date": "2026-10-20T03:01:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 183,
       "repo": "openshift/velero-plugin-for-gcp",
       "org": "openshift",
@@ -1968,15 +1977,6 @@
       "url": "https://github.com/migtools/oadp-cli/pull/280",
       "date": "2026-10-19T15:15:55Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 591,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Bump golangci-lint from v2.5.0 to v2.14.0",
-      "url": "https://github.com/openshift/velero/pull/591",
-      "date": "2026-10-19T08:23:32Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10385,
@@ -2436,36 +2436,18 @@
       "url": "https://github.com/velero-io/velero/pull/10621",
       "date": "2026-10-07T15:36:55Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10593,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: verify CSI snapshots on kind",
-      "url": "https://github.com/velero-io/velero/pull/10593",
-      "date": "2026-10-07T03:29:50Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 64,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.44.0 to 1.45.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/64",
-      "date": "2026-10-07T01:14:29Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 238,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace from 1.40.0 to 1.45.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/238",
-      "date": "2026-10-06T22:30:22Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "date": "2026-10-21T22:40:01Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 134,
       "repo": "kubernetes-sigs/prow",
@@ -2573,15 +2555,6 @@
       "url": "https://github.com/velero-io/velero/issues/10627",
       "date": "2026-10-15T23:31:45Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 19736,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
-      "url": "https://github.com/pingdotgg/t3code/issues/19736",
-      "date": "2026-10-15T03:21:26Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 9109,
@@ -3368,6 +3341,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 17506,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "Model picker/composer: hard to tell which provider instance is active",
+      "url": "https://github.com/pingdotgg/t3code/issues/17506",
+      "date": "2026-10-21T21:31:16Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 259,
       "repo": "openshift/hypershift-oadp-plugin",
