@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T23:56:00Z",
+  "updatedAt": "2026-10-22T01:10:04Z",
   "prs": [
     {
       "number": 10010,
@@ -8124,15 +8124,15 @@
           "conclusion": "FAILURE"
         },
         {
+          "name": "ci/prow/4.19-e2e-test-kubevirt-aws",
+          "conclusion": "FAILURE"
+        },
+        {
           "name": "ci/prow/4.19-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/4.19-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.19-e2e-test-kubevirt-aws",
           "conclusion": "PENDING"
         },
         {
@@ -13876,7 +13876,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-21T23:56:00Z",
+    "updatedAt": "2026-10-22T01:10:04Z",
     "needsReview": [
       {
         "number": 68,
@@ -13889,7 +13889,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -13899,7 +13899,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 706,
+        "waitingDays": 707,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -14082,37 +14082,6 @@
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
-        "number": 370,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "[oadp-1.5] Add comprehensive test coverage for restore plugins",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/370",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "lifecycle/stale"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 184,
-        "updatedAt": "2026-04-20T01:00:33Z"
-      },
-      {
         "number": 89,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -14197,7 +14166,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 127,
+        "waitingDays": 128,
         "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
@@ -14286,6 +14255,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 99,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -14343,30 +14336,6 @@
         "reason": "hold",
         "waitingDays": 98,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 98,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -14633,7 +14602,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -14693,7 +14662,7 @@
           "lgtm",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15105,7 +15074,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15133,7 +15102,7 @@
           "do-not-merge/hold",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -15603,7 +15572,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15677,6 +15646,30 @@
         "updatedAt": "2026-10-15T19:31:16Z"
       },
       {
+        "number": 91,
+        "repo": "redhat-et/pricetag-metering",
+        "org": "redhat-et",
+        "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+        "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 6,
+        "updatedAt": "2026-10-15T18:53:10Z"
+      },
+      {
         "number": 326,
         "repo": "velero-io/velero-plugin-for-microsoft-azure",
         "org": "velero-io",
@@ -15719,7 +15712,7 @@
           "size/XL",
           "area/tide"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -15821,7 +15814,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-10-21T00:01:35Z"
       },
       {
@@ -16648,7 +16641,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-10-14T00:43:53Z"
       },
       {
@@ -16772,7 +16765,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
