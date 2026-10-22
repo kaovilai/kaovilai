@@ -3,7 +3,7 @@
     "start": "2026-07-24",
     "end": "2026-10-22"
   },
-  "generatedAt": "2026-10-22T20:26:04Z",
+  "generatedAt": "2026-10-22T23:54:30Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 91,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+      "date": "2026-10-22T20:47:47Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 192,
       "repo": "migtools/udistribution",
@@ -902,18 +911,18 @@
       "url": "https://github.com/kaovilai/n8n-playwright/pull/9",
       "date": "2026-09-08T21:58:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Fix browser-close leak, update deps, add Dependabot auto-merge",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/8",
-      "date": "2026-09-08T21:31:39Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 10683,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: point README OpenSSF Best Practices badge at bestpractices.dev",
+      "url": "https://github.com/velero-io/velero/pull/10683",
+      "date": "2026-10-22T21:23:22Z",
+      "workstream": "Velero"
+    },
     {
       "number": 5,
       "repo": "velero-io/.github",
@@ -1804,18 +1813,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2454",
       "date": "2026-09-18T18:35:56Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2453,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-6065: auto-detect AWS region for CloudStorage-backed BSLs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2453",
-      "date": "2026-09-18T18:16:39Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2489,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[OADP-8902] docs: clarify maxConcurrentDataMovers CRD default",
+      "url": "https://github.com/openshift/oadp-operator/pull/2489",
+      "date": "2026-10-22T21:45:14Z",
+      "workstream": "OADP"
+    },
     {
       "number": 490,
       "repo": "openshift/openshift-velero-plugin",
@@ -1833,15 +1842,6 @@
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/208",
       "date": "2026-10-22T19:27:20Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2489,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[OADP-8902] docs: clarify maxConcurrentDataMovers CRD default",
-      "url": "https://github.com/openshift/oadp-operator/pull/2489",
-      "date": "2026-10-22T18:52:17Z",
-      "workstream": "OADP"
     },
     {
       "number": 103,
@@ -2422,6 +2422,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 26598,
+      "repo": "github/gh-aw",
+      "org": "github",
+      "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
+      "url": "https://github.com/github/gh-aw/issues/26598",
+      "date": "2026-10-22T20:59:36Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 1419,
       "repo": "kubernetes/kubectl",
       "org": "kubernetes",
@@ -2573,15 +2582,6 @@
       "url": "https://github.com/velero-io/velero/issues/4045",
       "date": "2026-10-17T10:12:01Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 26598,
-      "repo": "github/gh-aw",
-      "org": "github",
-      "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
-      "url": "https://github.com/github/gh-aw/issues/26598",
-      "date": "2026-10-16T18:10:20Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10627,
