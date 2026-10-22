@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-23",
-    "end": "2026-10-21"
+    "start": "2026-07-24",
+    "end": "2026-10-22"
   },
-  "generatedAt": "2026-10-21T23:55:33Z",
+  "generatedAt": "2026-10-22T01:22:45Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 69,
     "issuesCommented": 100,
-    "issuesClosed": 91
+    "issuesClosed": 86
   },
   "prsMerged": [
     {
@@ -2440,6 +2440,33 @@
   ],
   "issuesCommented": [
     {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-10-22T01:11:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17422,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
+      "url": "https://github.com/pingdotgg/t3code/issues/17422",
+      "date": "2026-10-22T01:10:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 502,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/502",
+      "date": "2026-10-22T00:09:32Z",
+      "workstream": "Kubernetes"
+    },
+    {
       "number": 19736,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -2503,15 +2530,6 @@
       "workstream": "Kubernetes"
     },
     {
-      "number": 17422,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
-      "url": "https://github.com/pingdotgg/t3code/issues/17422",
-      "date": "2026-10-20T00:46:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 10553,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -2572,15 +2590,6 @@
       "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
       "url": "https://github.com/openshift/ci-docs/issues/597",
       "date": "2026-10-14T00:05:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16000,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
-      "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-10-13T21:49:55Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3329,15 +3338,6 @@
       "url": "https://github.com/velero-io/velero/issues/8265",
       "date": "2026-08-20T14:15:44Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 868,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "Feature Request: Add support for editing issue comments",
-      "url": "https://github.com/github/github-mcp-server/issues/868",
-      "date": "2026-08-20T14:04:19Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
@@ -4114,51 +4114,6 @@
       "url": "https://github.com/velero-io/velero/issues/10050",
       "date": "2026-07-25T04:21:45Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 121,
-      "repo": "redhat-actions/buildah-build",
-      "org": "redhat-actions",
-      "title": "[FEATURE] Matrix Strategy Multi-Arch example",
-      "url": "https://github.com/redhat-actions/buildah-build/issues/121",
-      "date": "2026-07-23T23:01:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10023,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Ginkgo CLI Version Mismatch GoMod Import",
-      "url": "https://github.com/velero-io/velero/issues/10023",
-      "date": "2026-07-23T19:43:49Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10029,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Flaky test: TestKopiaObjectWriterEx_ConcurrentAsyncErrors can observe async error before all writes are queued",
-      "url": "https://github.com/velero-io/velero/issues/10029",
-      "date": "2026-07-23T19:42:38Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 330,
-      "repo": "caozhiyuan/copilot-api",
-      "org": "caozhiyuan",
-      "title": "Omit  ANTHROPIC_MODEL: sonnetModel ?? opusModel, from claude-code so selected model option sticks",
-      "url": "https://github.com/caozhiyuan/copilot-api/issues/330",
-      "date": "2026-07-23T13:23:38Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 363,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Remove CODEGEN_VERSION from Makefile.prow",
-      "url": "https://github.com/openshift/velero/issues/363",
-      "date": "2026-07-23T02:18:22Z",
-      "workstream": "Uncategorized"
     }
   ]
 }
