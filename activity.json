@@ -3,13 +3,13 @@
     "start": "2026-07-24",
     "end": "2026-10-22"
   },
-  "generatedAt": "2026-10-22T01:22:45Z",
+  "generatedAt": "2026-10-22T11:30:56Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 69,
     "issuesCommented": 100,
-    "issuesClosed": 86
+    "issuesClosed": 87
   },
   "prsMerged": [
     {
@@ -2440,12 +2440,39 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-22T11:17:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17531,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed",
+      "url": "https://github.com/pingdotgg/t3code/issues/17531",
+      "date": "2026-10-22T08:15:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "date": "2026-10-22T07:54:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 16000,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
       "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
       "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-10-22T01:11:17Z",
+      "date": "2026-10-22T07:50:38Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2454,7 +2481,34 @@
       "org": "pingdotgg",
       "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
       "url": "https://github.com/pingdotgg/t3code/issues/17422",
-      "date": "2026-10-22T01:10:37Z",
+      "date": "2026-10-22T07:49:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507",
+      "date": "2026-10-22T06:22:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 956,
+      "repo": "SecKatie/ha-wyzeapi",
+      "org": "SecKatie",
+      "title": "[Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)",
+      "url": "https://github.com/SecKatie/ha-wyzeapi/issues/956",
+      "date": "2026-10-22T04:40:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-10-22T04:32:15Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2463,16 +2517,16 @@
       "org": "kubernetes-sigs",
       "title": "Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering",
       "url": "https://github.com/kubernetes-sigs/prow/issues/502",
-      "date": "2026-10-22T00:09:32Z",
+      "date": "2026-10-22T02:14:09Z",
       "workstream": "Kubernetes"
     },
     {
-      "number": 19736,
+      "number": 17508,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
-      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
-      "url": "https://github.com/pingdotgg/t3code/issues/19736",
-      "date": "2026-10-21T22:40:01Z",
+      "title": "[Bug]: Antigravity Google sign-in hides the real failure reason (ineligible account, rejected redirect URL)",
+      "url": "https://github.com/pingdotgg/t3code/issues/17508",
+      "date": "2026-10-22T01:39:41Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2494,15 +2548,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-21T11:20:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 245,
       "repo": "pkg/errors",
       "org": "pkg",
@@ -2512,15 +2557,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507",
-      "date": "2026-10-20T13:15:30Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 438,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
@@ -2528,15 +2564,6 @@
       "url": "https://github.com/kubernetes-sigs/prow/issues/438",
       "date": "2026-10-20T02:25:57Z",
       "workstream": "Kubernetes"
-    },
-    {
-      "number": 10553,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
-      "url": "https://github.com/pingdotgg/t3code/issues/10553",
-      "date": "2026-10-19T16:54:56Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 3314,
@@ -3311,36 +3338,18 @@
       "url": "https://github.com/rxliuli/redirector/issues/43",
       "date": "2026-08-21T08:51:30Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 73,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement DataDownload controller for VM restore",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/73",
-      "date": "2026-08-20T18:36:08Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 84,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Implement concurrent data mover limiter for DU and DD controllers",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/84",
-      "date": "2026-08-20T17:15:53Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 8265,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Provide S3 plugin that aims to support any S3 compatible object storage.",
-      "url": "https://github.com/velero-io/velero/issues/8265",
-      "date": "2026-08-20T14:15:44Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 17529,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Git actions menu offers \"Create PR\" when the thread already has a linked PR on another ref",
+      "url": "https://github.com/pingdotgg/t3code/issues/17529",
+      "date": "2026-10-22T02:44:28Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17506,
       "repo": "pingdotgg/t3code",
