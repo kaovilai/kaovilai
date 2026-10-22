@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-22 01:10:04 UTC
+> Last updated: 2026-10-22 11:05:22 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -56,9 +56,11 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## openshift
 
+- [![PR #10032](https://img.shields.io/badge/PR%20%2310032-ready-green)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #118214](https://img.shields.io/badge/PR%20%23118214-ready-green)](https://github.com/openshift/openshift-docs/pull/118214) **openshift/openshift-docs** → `main` - Replace credentialsFile with spec.credential in OADP VSL examples
-- [![PR #127](https://img.shields.io/badge/PR%20%23127-ready-green)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/127) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.6` - Add akarol to OWNERS
+- [![PR #133](https://img.shields.io/badge/PR%20%23133-ready-green)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/133) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.4` - Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.4 (7d87261) into oadp-1.4
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-ready-green)](https://github.com/openshift/velero-plugin-for-aws/pull/182) **openshift/velero-plugin-for-aws** → `oadp-1.5` - Add akarol and PrasadJoshi12 to OWNERS
+- [![PR #192](https://img.shields.io/badge/PR%20%23192-ready-green)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.4` - Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2371](https://img.shields.io/badge/PR%20%232371-ready-green)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
@@ -69,8 +71,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
+- [![PR #127](https://img.shields.io/badge/PR%20%23127-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/127) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.6` - Add akarol to OWNERS
 - [![PR #130](https://img.shields.io/badge/PR%20%23130-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/130) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.6` - Skip Auto Request Review workflow outside upstream (oadp-1.6)
-- [![PR #132](https://img.shields.io/badge/PR%20%23132-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/132) **openshift/velero-plugin-for-legacy-aws** → `oadp-1.4` - Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.4 (3840175) into oadp-1.4
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/175) **openshift/oadp-must-gather** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
@@ -80,13 +82,13 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
+- [![PR #2511](https://img.shields.io/badge/PR%20%232511-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2511) **openshift/oadp-operator** → `oadp-1.4` - Merge https://github.com/openshift/oadp-operator:oadp-1.4 (3fa72d5) into oadp-1.4
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/490) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/moby/sys/user from 0.4.0 to 0.4.1
 - [![PR #498](https://img.shields.io/badge/PR%20%23498-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/498) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] OADP-8924: Treat missing openshift-apiserver config as no internal registry
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2499](https://img.shields.io/badge/PR%20%232499-draft-gray)](https://github.com/openshift/oadp-operator/pull/2499) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
-- [![PR #10032](https://img.shields.io/badge/PR%20%2310032-stale-yellow)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #104](https://img.shields.io/badge/PR%20%23104-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/104) **openshift/oadp-must-gather** → `oadp-dev` - add extended bsl info in the summary
 - [![PR #10586](https://img.shields.io/badge/PR%20%2310586-stale-yellow)](https://github.com/openshift/installer/pull/10586) **openshift/installer** → `main` - no-jira: GCP Destroy: Group Load Balancer Resources & Retry on Errors
 - [![PR #157](https://img.shields.io/badge/PR%20%23157-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/157) **openshift/oadp-must-gather** → `oadp-1.5` - [oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
