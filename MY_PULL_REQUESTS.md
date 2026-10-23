@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-23 01:09:41 UTC
+> Last updated: 2026-10-23 10:57:12 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -82,6 +82,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
+- [![PR #2516](https://img.shields.io/badge/PR%20%232516-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2516) **openshift/oadp-operator** → `oadp-1.4` - Merge https://github.com/openshift/oadp-operator:oadp-1.4 (20f15f5) into oadp-1.4
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #501](https://img.shields.io/badge/PR%20%23501-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/501) **openshift/openshift-velero-plugin** → `oadp-1.4` - Fix 5 CVEs (CVE-2024-41110, CVE-2026-34986, CVE-2025-66506, ...)
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -99,8 +100,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-stale-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
-- [![PR #370](https://img.shields.io/badge/PR%20%23370-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/370) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] Add comprehensive test coverage for restore plugins
-- [![PR #371](https://img.shields.io/badge/PR%20%23371-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/371) **openshift/openshift-velero-plugin** → `oadp-1.4` - [oadp-1.4] Add comprehensive test coverage for restore plugins
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #480](https://img.shields.io/badge/PR%20%23480-stale-yellow)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
@@ -123,6 +122,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
+- [![PR #370](https://img.shields.io/badge/PR%20%23370-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/370) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] Add comprehensive test coverage for restore plugins
+- [![PR #371](https://img.shields.io/badge/PR%20%23371-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/371) **openshift/openshift-velero-plugin** → `oadp-1.4` - [oadp-1.4] Add comprehensive test coverage for restore plugins
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/373) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/rekor from 1.3.6 to 1.5.0
 
 ## migtools
