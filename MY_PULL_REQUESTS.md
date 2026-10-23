@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-23 10:57:12 UTC
+> Last updated: 2026-10-23 16:46:50 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -69,7 +69,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2493](https://img.shields.io/badge/PR%20%232493-ready-green)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-ready-green)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
-- [![PR #600](https://img.shields.io/badge/PR%20%23600-ready-green)](https://github.com/openshift/velero/pull/600) **openshift/velero** → `oadp-1.6` - OADP-8895: Reject restores from backups not in a completed or partially failed phase (#9792)
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
@@ -82,9 +81,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
-- [![PR #2516](https://img.shields.io/badge/PR%20%232516-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2516) **openshift/oadp-operator** → `oadp-1.4` - Merge https://github.com/openshift/oadp-operator:oadp-1.4 (20f15f5) into oadp-1.4
 - [![PR #487](https://img.shields.io/badge/PR%20%23487-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/487) **openshift/openshift-velero-plugin** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
-- [![PR #501](https://img.shields.io/badge/PR%20%23501-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/501) **openshift/openshift-velero-plugin** → `oadp-1.4` - Fix 5 CVEs (CVE-2024-41110, CVE-2026-34986, CVE-2025-66506, ...)
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2499](https://img.shields.io/badge/PR%20%232499-draft-gray)](https://github.com/openshift/oadp-operator/pull/2499) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
@@ -161,8 +158,8 @@ No open PRs.
 - [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
-- [![PR #19785](https://img.shields.io/badge/PR%20%2319785-ready-green)](https://github.com/pingdotgg/t3code/pull/19785) **pingdotgg/t3code** → `main` - fix(web): a message queued behind a running turn no longer pushes the working header below it
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
+- [![PR #452](https://img.shields.io/badge/PR%20%23452-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/452) **caozhiyuan/copilot-api** → `dev` - feat: publish in-flight generation requests to an optional directory
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
