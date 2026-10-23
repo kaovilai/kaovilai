@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-07-25 — 2026-10-23
-> **Generated:** 2026-10-23 16:41:35 UTC
+> **Generated:** 2026-10-23 20:14:11 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 71 |
+| PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 88 |
 
@@ -76,6 +76,8 @@
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
 **Other** (46)
+- [#197 fix(content): give the review-dialog command bar its own row](https://github.com/kaovilai/github-bot-command-palette/pull/197) — kaovilai/github-bot-command-palette
+- [#196 feat: in-extension update check and automated GitHub releases](https://github.com/kaovilai/github-bot-command-palette/pull/196) — kaovilai/github-bot-command-palette
 - [#195 fix(settings): shard config across sync keys to stay under 8 KB item quota](https://github.com/kaovilai/github-bot-command-palette/pull/195) — kaovilai/github-bot-command-palette
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
@@ -120,18 +122,15 @@
 - [#9 Fix streaming tool_calls with a non-zero starting index (crashes n8n's AI SDK)](https://github.com/kaovilai/copilot-api/pull/9) — kaovilai/copilot-api
 - [#12 Land the CodeRabbit fixes that missed PR #11's merge](https://github.com/kaovilai/n8n-playwright/pull/12) — kaovilai/n8n-playwright
 - [#8 Fix non-streaming chat-completions response missing required index/object/logprobs](https://github.com/kaovilai/copilot-api/pull/8) — kaovilai/copilot-api
-- [#7 Add dev-branch Docker build/push workflow](https://github.com/kaovilai/copilot-api/pull/7) — kaovilai/copilot-api
-- [#11 Consume the published @kaovilai fork in the Dockerfile instead of upstream's package](https://github.com/kaovilai/n8n-playwright/pull/11) — kaovilai/n8n-playwright
 ## PRs Opened (100)
 
-**velero-io** (5)
+**velero-io** (3)
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 - [#5 Draft Velero security self-assessment for CNCF incubation](https://github.com/velero-io/.github/pull/5) — velero-io/.github
 - [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
-- [#10565 Add e2e test for namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10565) — velero-io/velero
-- [#10555 Fix e2e-test-kind and changelog-check CI flakes](https://github.com/velero-io/velero/pull/10555) — velero-io/velero
 
-**openshift** (28)
+**openshift** (29)
+- [#87638 Trust OADP automation apps for presubmit triggering](https://github.com/openshift/release/pull/87638) — openshift/release
 - [#2515 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2515) — openshift/oadp-operator
 - [#600 OADP-8895: Reject restores from backups not in a completed or partially failed phase (#9792)](https://github.com/openshift/velero/pull/600) — openshift/velero
 - [#2508 Sync NonAdmin CRDs with oadp-non-admin oadp-dev](https://github.com/openshift/oadp-operator/pull/2508) — openshift/oadp-operator
@@ -177,7 +176,9 @@
 - [#245 fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) — migtools/kubevirt-datamover-controller
 - [#192 Fix CI coverage handling for no-test packages and update setup-go](https://github.com/migtools/udistribution/pull/192) — migtools/udistribution
 
-**Other** (53)
+**Other** (54)
+- [#197 fix(content): give the review-dialog command bar its own row](https://github.com/kaovilai/github-bot-command-palette/pull/197) — kaovilai/github-bot-command-palette
+- [#196 feat: in-extension update check and automated GitHub releases](https://github.com/kaovilai/github-bot-command-palette/pull/196) — kaovilai/github-bot-command-palette
 - [#452 feat: publish in-flight generation requests to an optional directory](https://github.com/caozhiyuan/copilot-api/pull/452) — caozhiyuan/copilot-api
 - [#195 fix(settings): shard config across sync keys to stay under 8 KB item quota](https://github.com/kaovilai/github-bot-command-palette/pull/195) — kaovilai/github-bot-command-palette
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
@@ -230,10 +231,9 @@
 - [#123138 fix(tools): hard-fail message_agent on a profile's old, renamed-away name](https://github.com/NousResearch/hermes-agent/pull/123138) — NousResearch/hermes-agent
 - [#122945 fix(tools): re-derive dependency env in bot_mode_dm background runner](https://github.com/NousResearch/hermes-agent/pull/122945) — NousResearch/hermes-agent
 - [#121974 feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
-- [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
-## PRs Reviewed (71)
+## PRs Reviewed (73)
 
-**velero-io** (26)
+**velero-io** (24)
 - [#10682 [release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs](https://github.com/velero-io/velero/pull/10682) — velero-io/velero
 - [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
@@ -258,10 +258,10 @@
 - [#10177 Add FailBlock hook error mode to skip the whole ItemBlock](https://github.com/velero-io/velero/pull/10177) — velero-io/velero
 - [#10644 e2e: run the CSI cases on kind in CI](https://github.com/velero-io/velero/pull/10644) — velero-io/velero
 - [#10612 fix: defer VGS cleanup until backup finalization](https://github.com/velero-io/velero/pull/10612) — velero-io/velero
-- [#10650 Update for "vmware-tanzu" to "velero-io" update](https://github.com/velero-io/velero/pull/10650) — velero-io/velero
-- [#10638 docs: fix broken anchor links in main docs](https://github.com/velero-io/velero/pull/10638) — velero-io/velero
 
 **openshift** (33)
+- [#2491 [oadp-dev] tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll](https://github.com/openshift/oadp-operator/pull/2491) — openshift/oadp-operator
+- [#487 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/openshift-velero-plugin/pull/487) — openshift/openshift-velero-plugin
 - [#501 Fix 5 CVEs (CVE-2024-41110, CVE-2026-34986, CVE-2025-66506, ...)](https://github.com/openshift/openshift-velero-plugin/pull/501) — openshift/openshift-velero-plugin
 - [#502 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.4 (22c704b) into oadp-1.4](https://github.com/openshift/openshift-velero-plugin/pull/502) — openshift/openshift-velero-plugin
 - [#602 UPSTREAM: <carry>: add GetLevel() to logrusAdapter to satisfy hclog.Logger interface](https://github.com/openshift/velero/pull/602) — openshift/velero
@@ -293,12 +293,15 @@
 - [#179 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6](https://github.com/openshift/velero-plugin-for-aws/pull/179) — openshift/velero-plugin-for-aws
 - [#2487 Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6](https://github.com/openshift/oadp-operator/pull/2487) — openshift/oadp-operator
 - [#323 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/323) — openshift/hypershift-oadp-plugin
-- [#2483 docs: update version-update.md examples to 1.4.12](https://github.com/openshift/oadp-operator/pull/2483) — openshift/oadp-operator
-- [#2480 Bump CSV metadata to v1.4.12](https://github.com/openshift/oadp-operator/pull/2480) — openshift/oadp-operator
 
-**migtools** (11)
-- [#285 Merge https://github.com/migtools/oadp-cli:oadp-1.4 (50b9d39) into oadp-1.4](https://github.com/migtools/oadp-cli/pull/285) — migtools/oadp-cli
+**migtools** (15)
+- [#278 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-cli/pull/278) — migtools/oadp-cli
+- [#390 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-non-admin/pull/390) — migtools/oadp-non-admin
+- [#97 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/kubevirt-velero-plugin/pull/97) — migtools/kubevirt-velero-plugin
+- [#193 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/udistribution/pull/193) — migtools/udistribution
+- [#40 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vmdp/pull/40) — migtools/oadp-vmdp
 - [#61 Add akarol to OWNERS](https://github.com/migtools/kopia/pull/61) — migtools/kopia
+- [#285 Merge https://github.com/migtools/oadp-cli:oadp-1.4 (50b9d39) into oadp-1.4](https://github.com/migtools/oadp-cli/pull/285) — migtools/oadp-cli
 - [#189 Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0](https://github.com/migtools/udistribution/pull/189) — migtools/udistribution
 - [#50 chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend](https://github.com/migtools/filebrowser/pull/50) — migtools/filebrowser
 - [#103 Add akarol to OWNERS](https://github.com/migtools/kubevirt-velero-plugin/pull/103) — migtools/kubevirt-velero-plugin
@@ -307,7 +310,6 @@
 - [#280 Merge https://github.com/migtools/oadp-cli:oadp-1.6 (1e1b143) into oadp-1.6](https://github.com/migtools/oadp-cli/pull/280) — migtools/oadp-cli
 - [#98 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6](https://github.com/migtools/kubevirt-velero-plugin/pull/98) — migtools/kubevirt-velero-plugin
 - [#41 CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669](https://github.com/migtools/oadp-vmdp/pull/41) — migtools/oadp-vmdp
-- [#56 Fix CVE-2026-78669](https://github.com/migtools/kopia/pull/56) — migtools/kopia
 
 **Other** (1)
 - [#208 Refresh dashboard CVE data when a fix PR merges](https://github.com/oadp-rebasebot/oadp-rebase/pull/208) — oadp-rebasebot/oadp-rebase
@@ -379,13 +381,13 @@
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
 **Other** (41)
+- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#1419 `kubectl explain -o md`](https://github.com/kubernetes/kubectl/issues/1419) — kubernetes/kubectl
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
-- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code

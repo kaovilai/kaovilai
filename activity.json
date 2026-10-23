@@ -3,15 +3,33 @@
     "start": "2026-07-25",
     "end": "2026-10-23"
   },
-  "generatedAt": "2026-10-23T16:41:35Z",
+  "generatedAt": "2026-10-23T20:14:11Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 71,
+    "prsReviewed": 73,
     "issuesCommented": 100,
     "issuesClosed": 88
   },
   "prsMerged": [
+    {
+      "number": 197,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(content): give the review-dialog command bar its own row",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/197",
+      "date": "2026-10-23T19:27:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 196,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat: in-extension update check and automated GitHub releases",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/196",
+      "date": "2026-10-23T19:23:59Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 195,
       "repo": "kaovilai/github-bot-command-palette",
@@ -893,27 +911,36 @@
       "url": "https://github.com/kaovilai/copilot-api/pull/8",
       "date": "2026-09-09T05:33:26Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Add dev-branch Docker build/push workflow",
-      "url": "https://github.com/kaovilai/copilot-api/pull/7",
-      "date": "2026-09-09T04:09:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Consume the published @kaovilai fork in the Dockerfile instead of upstream's package",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/11",
-      "date": "2026-09-09T03:43:46Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 197,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(content): give the review-dialog command bar its own row",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/197",
+      "date": "2026-10-23T19:27:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 196,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat: in-extension update check and automated GitHub releases",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/196",
+      "date": "2026-10-23T19:23:24Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 87638,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Trust OADP automation apps for presubmit triggering",
+      "url": "https://github.com/openshift/release/pull/87638",
+      "date": "2026-10-23T18:21:10Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 452,
       "repo": "caozhiyuan/copilot-api",
@@ -1786,36 +1813,81 @@
       "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
       "date": "2026-09-24T21:50:42Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10565,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add e2e test for namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10565",
-      "date": "2026-09-22T17:42:14Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 197,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197",
-      "date": "2026-09-22T15:35:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10555,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix e2e-test-kind and changelog-check CI flakes",
-      "url": "https://github.com/velero-io/velero/pull/10555",
-      "date": "2026-09-21T19:04:36Z",
-      "workstream": "Velero"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2491,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-dev] tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
+      "url": "https://github.com/openshift/oadp-operator/pull/2491",
+      "date": "2026-10-23T20:04:16Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 487,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/487",
+      "date": "2026-10-23T19:42:38Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 278,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/oadp-cli/pull/278",
+      "date": "2026-10-23T19:25:48Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 390,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/390",
+      "date": "2026-10-23T19:25:47Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 97,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/97",
+      "date": "2026-10-23T19:21:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 193,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/udistribution/pull/193",
+      "date": "2026-10-23T19:21:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 40,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/40",
+      "date": "2026-10-23T19:21:27Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 61,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Add akarol to OWNERS",
+      "url": "https://github.com/migtools/kopia/pull/61",
+      "date": "2026-10-23T18:22:44Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 285,
       "repo": "migtools/oadp-cli",
@@ -1841,15 +1913,6 @@
       "title": "Refresh dashboard CVE data when a fix PR merges",
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/208",
       "date": "2026-10-23T15:34:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 61,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Add akarol to OWNERS",
-      "url": "https://github.com/migtools/kopia/pull/61",
-      "date": "2026-10-23T13:37:57Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2409,54 +2472,18 @@
       "url": "https://github.com/velero-io/velero/pull/10612",
       "date": "2026-10-13T14:21:20Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2483,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: update version-update.md examples to 1.4.12",
-      "url": "https://github.com/openshift/oadp-operator/pull/2483",
-      "date": "2026-10-13T14:01:30Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10650,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update for \"vmware-tanzu\" to \"velero-io\" update",
-      "url": "https://github.com/velero-io/velero/pull/10650",
-      "date": "2026-10-13T12:40:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2480,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bump CSV metadata to v1.4.12",
-      "url": "https://github.com/openshift/oadp-operator/pull/2480",
-      "date": "2026-10-13T06:57:38Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10638,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: fix broken anchor links in main docs",
-      "url": "https://github.com/velero-io/velero/pull/10638",
-      "date": "2026-10-13T04:46:11Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 56,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Fix CVE-2026-78669",
-      "url": "https://github.com/migtools/kopia/pull/56",
-      "date": "2026-10-13T01:52:47Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-10-23T18:11:05Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17875,
       "repo": "kubevirt/kubevirt",
@@ -2509,15 +2536,6 @@
       "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-22T07:54:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16000,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
-      "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-10-22T07:50:38Z",
       "workstream": "Uncategorized"
     },
     {
