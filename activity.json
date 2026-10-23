@@ -1,13 +1,13 @@
 {
   "period": {
-    "start": "2026-07-24",
-    "end": "2026-10-22"
+    "start": "2026-07-25",
+    "end": "2026-10-23"
   },
-  "generatedAt": "2026-10-22T23:54:30Z",
+  "generatedAt": "2026-10-23T01:21:07Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 67,
+    "prsReviewed": 69,
     "issuesCommented": 100,
     "issuesClosed": 87
   },
@@ -1817,6 +1817,33 @@
   ],
   "prsReviewed": [
     {
+      "number": 501,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Fix 5 CVEs (CVE-2024-41110, CVE-2026-34986, CVE-2025-66506, ...)",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/501",
+      "date": "2026-10-23T00:39:38Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 50,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend",
+      "url": "https://github.com/migtools/filebrowser/pull/50",
+      "date": "2026-10-23T00:21:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 61,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Add akarol to OWNERS",
+      "url": "https://github.com/migtools/kopia/pull/61",
+      "date": "2026-10-23T00:10:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 2489,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -2409,15 +2436,6 @@
       "url": "https://github.com/kubernetes-sigs/prow/pull/849",
       "date": "2026-10-12T15:05:18Z",
       "workstream": "Kubernetes"
-    },
-    {
-      "number": 2478,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake",
-      "url": "https://github.com/openshift/oadp-operator/pull/2478",
-      "date": "2026-10-11T17:31:31Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [

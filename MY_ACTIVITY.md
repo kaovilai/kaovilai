@@ -1,13 +1,13 @@
 # Activity Log
 
-> **Period:** 2026-07-24 — 2026-10-22
-> **Generated:** 2026-10-22 23:54:30 UTC
+> **Period:** 2026-07-25 — 2026-10-23
+> **Generated:** 2026-10-23 01:21:07 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 67 |
+| PRs Reviewed | 69 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 87 |
 
@@ -231,7 +231,7 @@
 - [#122945 fix(tools): re-derive dependency env in bot_mode_dm background runner](https://github.com/NousResearch/hermes-agent/pull/122945) — NousResearch/hermes-agent
 - [#121974 feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing](https://github.com/NousResearch/hermes-agent/pull/121974) — NousResearch/hermes-agent
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
-## PRs Reviewed (67)
+## PRs Reviewed (69)
 
 **velero-io** (26)
 - [#10682 [release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs](https://github.com/velero-io/velero/pull/10682) — velero-io/velero
@@ -262,6 +262,7 @@
 - [#10638 docs: fix broken anchor links in main docs](https://github.com/velero-io/velero/pull/10638) — velero-io/velero
 
 **openshift** (31)
+- [#501 Fix 5 CVEs (CVE-2024-41110, CVE-2026-34986, CVE-2025-66506, ...)](https://github.com/openshift/openshift-velero-plugin/pull/501) — openshift/openshift-velero-plugin
 - [#2489 [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default](https://github.com/openshift/oadp-operator/pull/2489) — openshift/oadp-operator
 - [#490 Bump github.com/moby/sys/user from 0.4.0 to 0.4.1](https://github.com/openshift/openshift-velero-plugin/pull/490) — openshift/openshift-velero-plugin
 - [#500 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.4 (a2553ae) into oadp-1.4](https://github.com/openshift/openshift-velero-plugin/pull/500) — openshift/openshift-velero-plugin
@@ -292,9 +293,10 @@
 - [#323 Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/pull/323) — openshift/hypershift-oadp-plugin
 - [#2483 docs: update version-update.md examples to 1.4.12](https://github.com/openshift/oadp-operator/pull/2483) — openshift/oadp-operator
 - [#2480 Bump CSV metadata to v1.4.12](https://github.com/openshift/oadp-operator/pull/2480) — openshift/oadp-operator
-- [#2478 Fix VeleroIsDeleted GC race and GetPodWithLabel rollout flake](https://github.com/openshift/oadp-operator/pull/2478) — openshift/oadp-operator
 
-**migtools** (8)
+**migtools** (10)
+- [#50 chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend](https://github.com/migtools/filebrowser/pull/50) — migtools/filebrowser
+- [#61 Add akarol to OWNERS](https://github.com/migtools/kopia/pull/61) — migtools/kopia
 - [#103 Add akarol to OWNERS](https://github.com/migtools/kubevirt-velero-plugin/pull/103) — migtools/kubevirt-velero-plugin
 - [#105 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.7.1 (c30669d) into oadp-1.4](https://github.com/migtools/kubevirt-velero-plugin/pull/105) — migtools/kubevirt-velero-plugin
 - [#59 Fix CVE-2026-63209](https://github.com/migtools/kopia/pull/59) — migtools/kopia
