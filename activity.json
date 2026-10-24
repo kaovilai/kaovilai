@@ -1,17 +1,44 @@
 {
   "period": {
-    "start": "2026-07-25",
-    "end": "2026-10-23"
+    "start": "2026-07-26",
+    "end": "2026-10-24"
   },
-  "generatedAt": "2026-10-23T20:14:11Z",
+  "generatedAt": "2026-10-24T00:13:54Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 73,
+    "prsReviewed": 71,
     "issuesCommented": 100,
-    "issuesClosed": 88
+    "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 10683,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: point README OpenSSF Best Practices badge at bestpractices.dev",
+      "url": "https://github.com/velero-io/velero/pull/10683",
+      "date": "2026-10-23T23:38:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 87638,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Trust OADP automation apps for presubmit triggering",
+      "url": "https://github.com/openshift/release/pull/87638",
+      "date": "2026-10-23T22:08:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 198,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "docs: Android update via Tasker; stable-name release zip (v1.1.2)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/198",
+      "date": "2026-10-23T20:34:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 197,
       "repo": "kaovilai/github-bot-command-palette",
@@ -884,36 +911,117 @@
       "url": "https://github.com/kaovilai/copilot-api/pull/10",
       "date": "2026-09-09T06:18:17Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix streaming tool_calls with a non-zero starting index (crashes n8n's AI SDK)",
-      "url": "https://github.com/kaovilai/copilot-api/pull/9",
-      "date": "2026-09-09T06:13:55Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/n8n-playwright",
-      "org": "kaovilai",
-      "title": "Land the CodeRabbit fixes that missed PR #11's merge",
-      "url": "https://github.com/kaovilai/n8n-playwright/pull/12",
-      "date": "2026-09-09T05:37:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix non-streaming chat-completions response missing required index/object/logprobs",
-      "url": "https://github.com/kaovilai/copilot-api/pull/8",
-      "date": "2026-09-09T05:33:26Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 10695,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ci: add CodeQL analysis for Go",
+      "url": "https://github.com/velero-io/velero/pull/10695",
+      "date": "2026-10-23T23:44:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 453,
+      "repo": "caozhiyuan/copilot-api",
+      "org": "caozhiyuan",
+      "title": "feat: log per-request latency and time to first token",
+      "url": "https://github.com/caozhiyuan/copilot-api/pull/453",
+      "date": "2026-10-23T23:08:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10692,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add Dependabot updates for run-jammy-tiny on supported release branches",
+      "url": "https://github.com/velero-io/velero/pull/10692",
+      "date": "2026-10-23T23:05:53Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10691,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Delete retained volume snapshots on backup deletion for data movement",
+      "url": "https://github.com/velero-io/velero/pull/10691",
+      "date": "2026-10-23T23:05:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10690,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190",
+      "url": "https://github.com/velero-io/velero/pull/10690",
+      "date": "2026-10-23T23:04:22Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10689,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/velero-io/velero/pull/10689",
+      "date": "2026-10-23T22:39:11Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 287,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/migtools/oadp-cli/pull/287",
+      "date": "2026-10-23T22:23:35Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 250,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/250",
+      "date": "2026-10-23T22:23:29Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 504,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "NO-JIRA: Group Go security updates in Dependabot",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
+      "date": "2026-10-23T22:23:24Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 327,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "NO-JIRA: Group Go security updates in Dependabot",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/327",
+      "date": "2026-10-23T22:23:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 197,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/migtools/udistribution/pull/197",
+      "date": "2026-10-23T22:22:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 198,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "docs: Android update via Tasker; stable-name release zip (v1.1.2)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/198",
+      "date": "2026-10-23T20:34:26Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 197,
       "repo": "kaovilai/github-bot-command-palette",
@@ -981,7 +1089,7 @@
       "number": 5,
       "repo": "velero-io/.github",
       "org": "velero-io",
-      "title": "Draft Velero security self-assessment for CNCF incubation",
+      "title": "Draft Velero security self-assessment and SECURITY.md response roles for CNCF incubation",
       "url": "https://github.com/velero-io/.github/pull/5",
       "date": "2026-10-22T20:23:22Z",
       "workstream": "Velero"
@@ -1705,124 +1813,106 @@
       "url": "https://github.com/openshift/release/pull/86664",
       "date": "2026-10-07T15:47:32Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 189,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(combo): don't re-submit form while GitHub's post is still in flight",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/189",
-      "date": "2026-10-06T15:36:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 188,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(rehearse): accept gcs.ci.openshift.org listing URLs for full job list",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/188",
-      "date": "2026-10-06T15:30:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2,
-      "repo": "msfrucht/oadp-operator",
-      "org": "msfrucht",
-      "title": "fix: address shubham's review feedback on DPT CACertRef handling",
-      "url": "https://github.com/msfrucht/oadp-operator/pull/2",
-      "date": "2026-10-05T18:46:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 192,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Fix CI coverage handling for no-test packages and update setup-go",
-      "url": "https://github.com/migtools/udistribution/pull/192",
-      "date": "2026-10-02T07:03:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "msfrucht/oadp-operator",
-      "org": "msfrucht",
-      "title": "fix: remove unused bsl parameter (golangci-lint unparam)",
-      "url": "https://github.com/msfrucht/oadp-operator/pull/1",
-      "date": "2026-09-30T20:34:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2473,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
-      "url": "https://github.com/openshift/oadp-operator/pull/2473",
-      "date": "2026-09-30T20:00:23Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10608,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix: regenerate CRD manifests for the status.activities field",
-      "url": "https://github.com/velero-io/velero/pull/10608",
-      "date": "2026-09-29T16:16:42Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 126897,
-      "repo": "NousResearch/hermes-agent",
-      "org": "NousResearch",
-      "title": "fix(copilot): send captured backend apiVersion to unlock 1M context",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/126897",
-      "date": "2026-09-28T20:37:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 124184,
-      "repo": "NousResearch/hermes-agent",
-      "org": "NousResearch",
-      "title": "fix(desktop): recognize Copilot's dash-suffixed 1M-context model ids",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/124184",
-      "date": "2026-09-26T17:44:16Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 123138,
-      "repo": "NousResearch/hermes-agent",
-      "org": "NousResearch",
-      "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-      "date": "2026-09-25T22:07:13Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 122945,
-      "repo": "NousResearch/hermes-agent",
-      "org": "NousResearch",
-      "title": "fix(tools): re-derive dependency env in bot_mode_dm background runner",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/122945",
-      "date": "2026-09-25T17:44:46Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 121974,
-      "repo": "NousResearch/hermes-agent",
-      "org": "NousResearch",
-      "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-      "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
-      "date": "2026-09-24T21:50:42Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10678,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: finish converting the CSI feature checks to FeatureEnabled",
+      "url": "https://github.com/velero-io/velero/pull/10678",
+      "date": "2026-10-23T23:28:16Z",
+      "workstream": "Velero"
+    },
     {
       "number": 2491,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "[oadp-dev] tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
       "url": "https://github.com/openshift/oadp-operator/pull/2491",
-      "date": "2026-10-23T20:04:16Z",
+      "date": "2026-10-23T22:54:12Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 493,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Bump github.com/klauspost/compress from 1.18.6 to 1.18.7",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/493",
+      "date": "2026-10-23T22:43:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 56,
+      "repo": "openshift/agentic-skills",
+      "org": "openshift",
+      "title": "OADP-7954: Add Phase 1 OADP Agent Skills",
+      "url": "https://github.com/openshift/agentic-skills/pull/56",
+      "date": "2026-10-23T22:16:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 182,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Add akarol and PrasadJoshi12 to OWNERS",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/182",
+      "date": "2026-10-23T22:16:17Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 181,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Add akarol to OWNERS",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/181",
+      "date": "2026-10-23T22:12:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 116,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/116",
+      "date": "2026-10-23T22:12:27Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 182,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Update auto-request-review action to v0.13.0",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182",
+      "date": "2026-10-23T22:09:08Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10385,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
+      "url": "https://github.com/velero-io/velero/pull/10385",
+      "date": "2026-10-23T22:08:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 55,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/migtools/kopia/pull/55",
+      "date": "2026-10-23T22:08:24Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 119,
+      "repo": "migtools/oadp-vm-file-restore",
+      "org": "migtools",
+      "title": "Add akarol to OWNERS",
+      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/119",
+      "date": "2026-10-23T22:08:17Z",
       "workstream": "OADP"
     },
     {
@@ -2204,15 +2294,6 @@
       "workstream": "OADP"
     },
     {
-      "number": 10385,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
-      "url": "https://github.com/velero-io/velero/pull/10385",
-      "date": "2026-10-19T08:04:10Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10556,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2373,105 +2454,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2487",
       "date": "2026-10-14T01:45:04Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 323,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/hypershift-oadp-plugin:oadp-1.6 (7218cec) into oadp-1.6",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/323",
-      "date": "2026-10-14T01:44:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 98,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.9.1 (6d1f840) into oadp-1.6",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/98",
-      "date": "2026-10-14T01:44:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10432,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Show default volume snapshot location in snapshot-location get output",
-      "url": "https://github.com/velero-io/velero/pull/10432",
-      "date": "2026-10-14T01:31:04Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10484,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(csi): don't fail a backup on a retryable VolumeSnapshotContent error",
-      "url": "https://github.com/velero-io/velero/pull/10484",
-      "date": "2026-10-14T00:44:19Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10373,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove RemapCRDVersionAction backup item action",
-      "url": "https://github.com/velero-io/velero/pull/10373",
-      "date": "2026-10-14T00:44:05Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10355,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Surface EnableCSI requirement for snapshot-move-data backups",
-      "url": "https://github.com/velero-io/velero/pull/10355",
-      "date": "2026-10-14T00:43:57Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10210,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match",
-      "url": "https://github.com/velero-io/velero/pull/10210",
-      "date": "2026-10-14T00:43:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10177,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add FailBlock hook error mode to skip the whole ItemBlock",
-      "url": "https://github.com/velero-io/velero/pull/10177",
-      "date": "2026-10-14T00:43:44Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10644,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: run the CSI cases on kind in CI",
-      "url": "https://github.com/velero-io/velero/pull/10644",
-      "date": "2026-10-14T00:05:59Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 41,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "CVE fix/oadp vmdp/oadp 1.6/CVE 2026 78669",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/41",
-      "date": "2026-10-13T19:11:09Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10612,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix: defer VGS cleanup until backup finalization",
-      "url": "https://github.com/velero-io/velero/pull/10612",
-      "date": "2026-10-13T14:21:20Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
@@ -4158,15 +4140,6 @@
       "title": "Add `.github` repo",
       "url": "https://github.com/velero-io/velero/issues/10042",
       "date": "2026-07-27T07:07:57Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10050,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "nits for fine-grained filter docs",
-      "url": "https://github.com/velero-io/velero/issues/10050",
-      "date": "2026-07-25T04:21:45Z",
       "workstream": "Velero"
     }
   ]
