@@ -3,7 +3,7 @@
     "start": "2026-07-26",
     "end": "2026-10-24"
   },
-  "generatedAt": "2026-10-24T00:13:54Z",
+  "generatedAt": "2026-10-24T04:42:58Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 10696,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "design: fix the order of the snapshot retention cases in block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10696",
+      "date": "2026-10-24T02:06:29Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10695,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/pingdotgg/t3code/pull/17509",
       "date": "2026-10-09T14:03:56Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 86664,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add release-4.21 to Prow configuration branches",
-      "url": "https://github.com/openshift/release/pull/86664",
-      "date": "2026-10-07T15:47:32Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2457,6 +2457,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10694,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
+      "url": "https://github.com/velero-io/velero/issues/10694",
+      "date": "2026-10-24T02:33:37Z",
+      "workstream": "Velero"
+    },
     {
       "number": 16000,
       "repo": "pingdotgg/t3code",
@@ -3346,15 +3355,6 @@
       "title": "ci on real hw",
       "url": "https://github.com/socktainer/socktainer/issues/378",
       "date": "2026-08-24T13:11:42Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10590,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
-      "url": "https://github.com/openshift/installer/issues/10590",
-      "date": "2026-08-24T13:07:42Z",
       "workstream": "Uncategorized"
     }
   ],
