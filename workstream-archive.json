@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T08:35:16Z",
+  "generatedAt": "2026-10-24T08:10:17Z",
   "items": [
     {
       "number": 978,
@@ -34920,6 +34920,19 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 19785,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
+      "url": "https://github.com/pingdotgg/t3code/pull/19785",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-15T05:08:45Z",
+      "closedAt": "2026-10-23T15:53:50Z",
+      "updatedAt": "2026-10-23T15:53:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 19792,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -35336,6 +35349,32 @@
       "workstream": "OADP"
     },
     {
+      "number": 600,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "OADP-8895: Reject restores from backups not in a completed or partially failed phase (#9792)",
+      "url": "https://github.com/openshift/velero/pull/600",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-22T19:25:24Z",
+      "closedAt": "2026-10-23T13:48:34Z",
+      "updatedAt": "2026-10-23T13:48:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10683,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: point README OpenSSF Best Practices badge at bestpractices.dev",
+      "url": "https://github.com/velero-io/velero/pull/10683",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-22T21:23:22Z",
+      "closedAt": "2026-10-23T23:38:55Z",
+      "updatedAt": "2026-10-23T23:38:55Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 15,
       "repo": "kaovilai/copilot-api",
       "org": "kaovilai",
@@ -35359,6 +35398,97 @@
       "createdAt": "2026-10-23T02:47:20Z",
       "closedAt": "2026-10-23T05:41:58Z",
       "updatedAt": "2026-10-23T05:41:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 195,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(settings): shard config across sync keys to stay under 8 KB item quota",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/195",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T15:13:39Z",
+      "closedAt": "2026-10-23T15:14:16Z",
+      "updatedAt": "2026-10-23T15:19:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 452,
+      "repo": "caozhiyuan/copilot-api",
+      "org": "caozhiyuan",
+      "title": "feat: publish in-flight generation requests to an optional directory",
+      "url": "https://github.com/caozhiyuan/copilot-api/pull/452",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-23T16:08:41Z",
+      "closedAt": "2026-10-24T01:12:22Z",
+      "updatedAt": "2026-10-24T01:12:22Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 87638,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Trust OADP automation apps for presubmit triggering",
+      "url": "https://github.com/openshift/release/pull/87638",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T18:21:10Z",
+      "closedAt": "2026-10-23T22:08:39Z",
+      "updatedAt": "2026-10-23T22:08:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 196,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat: in-extension update check and automated GitHub releases",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/196",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T19:23:24Z",
+      "closedAt": "2026-10-23T19:23:59Z",
+      "updatedAt": "2026-10-23T19:26:42Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 197,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(content): give the review-dialog command bar its own row",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/197",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T19:27:10Z",
+      "closedAt": "2026-10-23T19:27:41Z",
+      "updatedAt": "2026-10-23T19:30:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 198,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "docs: Android update via Tasker; stable-name release zip (v1.1.2)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/198",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T20:34:26Z",
+      "closedAt": "2026-10-23T20:34:57Z",
+      "updatedAt": "2026-10-23T20:40:16Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 453,
+      "repo": "caozhiyuan/copilot-api",
+      "org": "caozhiyuan",
+      "title": "feat: log per-request latency and time to first token",
+      "url": "https://github.com/caozhiyuan/copilot-api/pull/453",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-23T23:08:18Z",
+      "closedAt": "2026-10-24T01:12:25Z",
+      "updatedAt": "2026-10-24T01:12:25Z",
       "workstream": "Uncategorized"
     }
   ]
