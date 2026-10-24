@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-24 02:04:33 UTC
+> Last updated: 2026-10-24 09:54:34 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -54,6 +54,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-failing--ci-red)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-failing--ci-red)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
+- [![PR #10696](https://img.shields.io/badge/PR%20%2310696-failing--ci-red)](https://github.com/velero-io/velero/pull/10696) **velero-io/velero** → `main` - design: fix the order of the snapshot retention cases in block data mover
 - [![PR #326](https://img.shields.io/badge/PR%20%23326-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #327](https://img.shields.io/badge/PR%20%23327-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-failing--ci-red)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
@@ -104,7 +105,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
-- [![PR #480](https://img.shields.io/badge/PR%20%23480-stale-yellow)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-stale-yellow)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-stale-yellow)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
@@ -125,6 +125,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
+- [![PR #480](https://img.shields.io/badge/PR%20%23480-needs--attention-orange)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
 
 ## migtools
 
@@ -157,6 +158,7 @@ No open PRs.
 
 ## Other
 
+- [![PR #115](https://img.shields.io/badge/PR%20%23115-ready-green)](https://github.com/redhat-et/pricetag-metering/pull/115) **redhat-et/pricetag-metering** → `main` - docs(welcome): document EnMaaS request body limit
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
