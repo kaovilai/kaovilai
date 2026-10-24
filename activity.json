@@ -3,15 +3,24 @@
     "start": "2026-07-26",
     "end": "2026-10-24"
   },
-  "generatedAt": "2026-10-24T10:45:00Z",
+  "generatedAt": "2026-10-24T15:47:19Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 70,
     "issuesCommented": 100,
-    "issuesClosed": 87
+    "issuesClosed": 89
   },
   "prsMerged": [
+    {
+      "number": 1571,
+      "repo": "oliexdev/openScale",
+      "org": "oliexdev",
+      "title": "Add support for Chipsea-BLE GATT body fat scales",
+      "url": "https://github.com/oliexdev/openScale/pull/1571",
+      "date": "2026-10-24T15:08:14Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10683,
       "repo": "velero-io/velero",
@@ -902,15 +911,6 @@
       "url": "https://github.com/velero-io/velero/pull/10318",
       "date": "2026-09-09T06:34:07Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix desktop typecheck failure (missing files in tsconfig.node.json)",
-      "url": "https://github.com/kaovilai/copilot-api/pull/10",
-      "date": "2026-09-09T06:18:17Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
@@ -1822,7 +1822,7 @@
       "org": "pingdotgg",
       "title": "fix(web): PDF previews keep their page when the agent responds",
       "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-24T06:20:34Z",
+      "date": "2026-10-24T12:55:21Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2449,6 +2449,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "date": "2026-10-24T12:20:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2509,15 +2518,6 @@
       "title": "Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed",
       "url": "https://github.com/pingdotgg/t3code/issues/17531",
       "date": "2026-10-22T08:15:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 19736,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
-      "url": "https://github.com/pingdotgg/t3code/issues/19736",
-      "date": "2026-10-22T07:54:23Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3350,6 +3350,24 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 601,
+      "repo": "devicons/devicon",
+      "org": "devicons",
+      "title": "Icon request: fusion360",
+      "url": "https://github.com/devicons/devicon/issues/601",
+      "date": "2026-10-24T15:05:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "date": "2026-10-24T12:20:07Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 450,
       "repo": "caozhiyuan/copilot-api",
