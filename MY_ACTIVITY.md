@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-26 — 2026-10-24
-> **Generated:** 2026-10-24 15:47:19 UTC
+> **Generated:** 2026-10-24 20:35:31 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -233,7 +233,8 @@
 - [#17521 feat(web): auto-assign accent color to non-default provider instances](https://github.com/pingdotgg/t3code/pull/17521) — pingdotgg/t3code
 ## PRs Reviewed (70)
 
-**velero-io** (17)
+**velero-io** (18)
+- [#10697 build(deps): bump github/codeql-action from 4.38.3 to 4.39.1 in the github-actions group](https://github.com/velero-io/velero/pull/10697) — velero-io/velero
 - [#10678 e2e: finish converting the CSI feature checks to FeatureEnabled](https://github.com/velero-io/velero/pull/10678) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 - [#10682 [release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs](https://github.com/velero-io/velero/pull/10682) — velero-io/velero
@@ -252,7 +253,7 @@
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#10609 docs: add local Kind setup for CSI e2e](https://github.com/velero-io/velero/pull/10609) — velero-io/velero
 
-**openshift** (34)
+**openshift** (33)
 - [#2491 [oadp-dev] tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll](https://github.com/openshift/oadp-operator/pull/2491) — openshift/oadp-operator
 - [#493 Bump github.com/klauspost/compress from 1.18.6 to 1.18.7](https://github.com/openshift/openshift-velero-plugin/pull/493) — openshift/openshift-velero-plugin
 - [#56 OADP-7954: Add Phase 1 OADP Agent Skills](https://github.com/openshift/agentic-skills/pull/56) — openshift/agentic-skills
@@ -286,7 +287,6 @@
 - [#2484 tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll](https://github.com/openshift/oadp-operator/pull/2484) — openshift/oadp-operator
 - [#2486 tests/e2e: remove redundant dpaCR.IsDeleted() in Undeploy — VeleroIsDeleted already subsumes it](https://github.com/openshift/oadp-operator/pull/2486) — openshift/oadp-operator
 - [#180 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.4 (cbd0773) into oadp-1.6](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/180) — openshift/velero-plugin-for-microsoft-azure
-- [#122 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.6 (7c90cde) into oadp-1.6](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/122) — openshift/velero-plugin-for-legacy-aws
 
 **migtools** (16)
 - [#116 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vm-file-restore/pull/116) — migtools/oadp-vm-file-restore
