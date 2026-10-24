@@ -3,11 +3,11 @@
     "start": "2026-07-26",
     "end": "2026-10-24"
   },
-  "generatedAt": "2026-10-24T04:42:58Z",
+  "generatedAt": "2026-10-24T10:45:00Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 71,
+    "prsReviewed": 70,
     "issuesCommented": 100,
     "issuesClosed": 87
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 115,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): document EnMaaS request body limit",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/115",
+      "date": "2026-10-24T05:56:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10696,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1804,18 +1813,27 @@
       "url": "https://github.com/pingdotgg/t3code/pull/17521",
       "date": "2026-10-09T14:38:45Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 17509,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(server): show Antigravity's real sign-in failure reason",
-      "url": "https://github.com/pingdotgg/t3code/pull/17509",
-      "date": "2026-10-09T14:03:56Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 23732,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): PDF previews keep their page when the agent responds",
+      "url": "https://github.com/pingdotgg/t3code/pull/23732",
+      "date": "2026-10-24T06:20:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 23510,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(clients): later image reads show updated file contents",
+      "url": "https://github.com/pingdotgg/t3code/pull/23510",
+      "date": "2026-10-24T06:17:54Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10678,
       "repo": "velero-io/velero",
@@ -2427,43 +2445,25 @@
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/122",
       "date": "2026-10-14T01:45:12Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 180,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:v1.14.4 (d173fa9) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/180",
-      "date": "2026-10-14T01:45:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 179,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.14.4 (7373ae0) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/179",
-      "date": "2026-10-14T01:45:05Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2487,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-operator:oadp-1.6 (b1233ed) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-operator/pull/2487",
-      "date": "2026-10-14T01:45:04Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-24T10:23:58Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10694,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
       "url": "https://github.com/velero-io/velero/issues/10694",
-      "date": "2026-10-24T02:33:37Z",
+      "date": "2026-10-24T07:40:52Z",
       "workstream": "Velero"
     },
     {
@@ -2483,15 +2483,6 @@
       "url": "https://github.com/kubevirt/kubevirt/issues/17875",
       "date": "2026-10-23T16:25:00Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-23T11:09:34Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 1419,
