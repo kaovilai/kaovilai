@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-26",
-    "end": "2026-10-24"
+    "start": "2026-07-27",
+    "end": "2026-10-25"
   },
-  "generatedAt": "2026-10-24T20:35:31Z",
+  "generatedAt": "2026-10-25T14:01:29Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 70,
+    "prsReviewed": 69,
     "issuesCommented": 100,
-    "issuesClosed": 89
+    "issuesClosed": 88
   },
   "prsMerged": [
     {
@@ -915,6 +915,240 @@
   ],
   "prsOpened": [
     {
+      "number": 82,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Ignore assets/profile in Imgbot",
+      "url": "https://github.com/kaovilai/kaovilai/pull/82",
+      "date": "2026-10-25T06:33:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10718,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+      "url": "https://github.com/velero-io/velero/pull/10718",
+      "date": "2026-10-25T02:55:15Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10717,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Store resourceTimeout in the backup finalizer reconciler",
+      "url": "https://github.com/velero-io/velero/pull/10717",
+      "date": "2026-10-25T01:20:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 5748,
+      "repo": "kopia/kopia",
+      "org": "kopia",
+      "title": "fix(providers): return S3 PutObject error when GetModTime is requested",
+      "url": "https://github.com/kopia/kopia/pull/5748",
+      "date": "2026-10-25T01:09:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10716,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Retain the backup snapshot only for the block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10716",
+      "date": "2026-10-25T01:07:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10715,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail backup when its metadata can't be written to the BSL",
+      "url": "https://github.com/velero-io/velero/pull/10715",
+      "date": "2026-10-25T00:54:37Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10714,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Don't hold restore in Finalizing when results upload fails",
+      "url": "https://github.com/velero-io/velero/pull/10714",
+      "date": "2026-10-25T00:54:18Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10713,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Drop deleted backups from the backup tracker; clarify useOwnerReferencesInBackup on schedule deletion",
+      "url": "https://github.com/velero-io/velero/pull/10713",
+      "date": "2026-10-25T00:53:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10712,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Warn when resource modifiers change a PVC's volumeMode from Block on restore",
+      "url": "https://github.com/velero-io/velero/pull/10712",
+      "date": "2026-10-25T00:52:39Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10711,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Back up raw block volumes with snapshots instead of skipping them when defaultVolumesToFsBackup is set",
+      "url": "https://github.com/velero-io/velero/pull/10711",
+      "date": "2026-10-25T00:49:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2519,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: note that nodeAgent.loadAffinity also limits File System Backup",
+      "url": "https://github.com/openshift/oadp-operator/pull/2519",
+      "date": "2026-10-25T00:48:56Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2518,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Keep IPv6 brackets when stripping default port from s3Url",
+      "url": "https://github.com/openshift/oadp-operator/pull/2518",
+      "date": "2026-10-25T00:48:52Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2517,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Delete registry secrets of BSLs removed from the DPA",
+      "url": "https://github.com/openshift/oadp-operator/pull/2517",
+      "date": "2026-10-25T00:48:40Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10710,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace",
+      "url": "https://github.com/velero-io/velero/pull/10710",
+      "date": "2026-10-25T00:46:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10709,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Refuse to delete a backup while a restore from it is in progress",
+      "url": "https://github.com/velero-io/velero/pull/10709",
+      "date": "2026-10-25T00:46:41Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10708,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Delete retained source VSC when cleaning up an interrupted CSI snapshot expose",
+      "url": "https://github.com/velero-io/velero/pull/10708",
+      "date": "2026-10-25T00:35:18Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10707,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add expose diagnose summary to DU/DD/PVB/PVR prepare timeout message",
+      "url": "https://github.com/velero-io/velero/pull/10707",
+      "date": "2026-10-25T00:35:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10706,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fill the container termination reason to DU/DD/PVB/PVR when the data mover pod is OOMKilled",
+      "url": "https://github.com/velero-io/velero/pull/10706",
+      "date": "2026-10-25T00:34:07Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10705,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Don't block DataDownload controller waiting for target PVC consumer",
+      "url": "https://github.com/velero-io/velero/pull/10705",
+      "date": "2026-10-25T00:32:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10704,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail data path when its data mover pod is deleted, release leaked data path slot",
+      "url": "https://github.com/velero-io/velero/pull/10704",
+      "date": "2026-10-25T00:29:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10703,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report the CSI snapshot error when waiting for the snapshot handle times out",
+      "url": "https://github.com/velero-io/velero/pull/10703",
+      "date": "2026-10-25T00:27:08Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10702,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Back off repo maintenance retries after failures, skip maintenance on unavailable BSL",
+      "url": "https://github.com/velero-io/velero/pull/10702",
+      "date": "2026-10-25T00:26:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10701,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bound block data mover memory burst and set Go memory limit",
+      "url": "https://github.com/velero-io/velero/pull/10701",
+      "date": "2026-10-25T00:25:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10700,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Treat a kopia snapshot not found after a repo refresh as deleted",
+      "url": "https://github.com/velero-io/velero/pull/10700",
+      "date": "2026-10-25T00:23:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10699,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Delete the in-place restore baseline snapshot under a Retain class",
+      "url": "https://github.com/velero-io/velero/pull/10699",
+      "date": "2026-10-25T00:23:06Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10698,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix BLKZEROOUT ioctl request number in block uploader",
+      "url": "https://github.com/velero-io/velero/pull/10698",
+      "date": "2026-10-25T00:21:36Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 115,
       "repo": "redhat-et/pricetag-metering",
       "org": "redhat-et",
@@ -1579,250 +1813,43 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/245",
       "date": "2026-10-12T15:40:41Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 135,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "fix: switch MinIO image to cgr.dev/chainguard/minio:latest",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/135",
-      "date": "2026-10-12T13:48:31Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 264,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "Ignore transparent sprite pixels in pet hit testing",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/264",
-      "date": "2026-10-12T13:30:21Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2479,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): wait for DPA-owned secret GC in Undeploy",
-      "url": "https://github.com/openshift/oadp-operator/pull/2479",
-      "date": "2026-10-12T13:26:43Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 261,
-      "repo": "kaovilai/cephcsi-cbt-e2e",
-      "org": "kaovilai",
-      "title": "Update to latest ecosystem: deps, lint v2, scripts, docs",
-      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/261",
-      "date": "2026-10-12T13:20:44Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 134,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "chore: update to latest upstream releases and refresh slides",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/134",
-      "date": "2026-10-12T12:38:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18096,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(server): show Antigravity's real sign-in failure reason",
-      "url": "https://github.com/pingdotgg/t3code/pull/18096",
-      "date": "2026-10-11T04:24:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 79,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Enhance career map with animated route and accessible details",
-      "url": "https://github.com/kaovilai/kaovilai/pull/79",
-      "date": "2026-10-11T04:18:16Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 78,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Add Bojangles and animated backyard adventures",
-      "url": "https://github.com/kaovilai/kaovilai/pull/78",
-      "date": "2026-10-11T03:09:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 77,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Animated, linked OSS account pills in the README",
-      "url": "https://github.com/kaovilai/kaovilai/pull/77",
-      "date": "2026-10-11T02:53:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 76,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Group Other-lane repos under org nodes in the orbit chart",
-      "url": "https://github.com/kaovilai/kaovilai/pull/76",
-      "date": "2026-10-11T02:51:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 75,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Lock down the workstream local save server",
-      "url": "https://github.com/kaovilai/kaovilai/pull/75",
-      "date": "2026-10-11T02:14:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 74,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Replace github-stats images with animated language chart; animate live data",
-      "url": "https://github.com/kaovilai/kaovilai/pull/74",
-      "date": "2026-10-11T01:53:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 73,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Refresh profile README with animated SVGs generated from repo data",
-      "url": "https://github.com/kaovilai/kaovilai/pull/73",
-      "date": "2026-10-10T20:28:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 129,
-      "repo": "RedHatInsights/rhai-org-pulse",
-      "org": "RedHatInsights",
-      "title": "jira-solve-agent: add OADP to tracked Jira projects",
-      "url": "https://github.com/RedHatInsights/rhai-org-pulse/pull/129",
-      "date": "2026-10-10T19:36:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17831,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(server): PR watch reports missing required checks and behind-base",
-      "url": "https://github.com/pingdotgg/t3code/pull/17831",
-      "date": "2026-10-10T14:47:39Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17722,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(composer): a second skill can be added after the first on the same line",
-      "url": "https://github.com/pingdotgg/t3code/pull/17722",
-      "date": "2026-10-10T04:30:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17721,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): iPad composer accepts dragged screenshots",
-      "url": "https://github.com/pingdotgg/t3code/pull/17721",
-      "date": "2026-10-10T04:27:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17720,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): Android composer accepts images pasted from Gboard",
-      "url": "https://github.com/pingdotgg/t3code/pull/17720",
-      "date": "2026-10-10T04:27:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17717,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): header menu and Git menu reach a thread's linked pull request",
-      "url": "https://github.com/pingdotgg/t3code/pull/17717",
-      "date": "2026-10-10T04:23:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 128,
-      "repo": "RedHatInsights/rhai-org-pulse",
-      "org": "RedHatInsights",
-      "title": "jira-solve-agent: track full OADP repo set (21 repos, incl. migtools org)",
-      "url": "https://github.com/RedHatInsights/rhai-org-pulse/pull/128",
-      "date": "2026-10-09T22:06:13Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17611,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): new thread draft names its repo and says it is a new thread",
-      "url": "https://github.com/pingdotgg/t3code/pull/17611",
-      "date": "2026-10-09T21:25:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 252,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "Speak question speech for Claude AskUserQuestion permission requests",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/252",
-      "date": "2026-10-09T20:54:46Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17606,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(models): Ultracode is offered on Sonnet 5, Sonnet 5.5 and Haiku 5.5",
-      "url": "https://github.com/pingdotgg/t3code/pull/17606",
-      "date": "2026-10-09T20:38:46Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17604,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(provider): add Claude fork-subagents instance setting",
-      "url": "https://github.com/pingdotgg/t3code/pull/17604",
-      "date": "2026-10-09T20:34:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17527,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): git actions menu no longer offers Create PR when the thread has a linked PR",
-      "url": "https://github.com/pingdotgg/t3code/pull/17527",
-      "date": "2026-10-09T15:01:38Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17521,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(web): auto-assign accent color to non-default provider instances",
-      "url": "https://github.com/pingdotgg/t3code/pull/17521",
-      "date": "2026-10-09T14:38:45Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10679,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: give the namespace-mapping cases real volumes on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10679",
+      "date": "2026-10-25T07:54:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10685,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: fix Kubernetes version check for volume group snapshots",
+      "url": "https://github.com/velero-io/velero/pull/10685",
+      "date": "2026-10-25T07:53:33Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10697,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "build(deps): bump github/codeql-action from 4.38.3 to 4.39.1 in the github-actions group",
       "url": "https://github.com/velero-io/velero/pull/10697",
-      "date": "2026-10-24T19:23:54Z",
+      "date": "2026-10-25T06:45:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10652,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
+      "url": "https://github.com/velero-io/velero/pull/10652",
+      "date": "2026-10-25T05:11:38Z",
       "workstream": "Velero"
     },
     {
@@ -1831,7 +1858,7 @@
       "org": "pingdotgg",
       "title": "fix(web): PDF previews keep their page when the agent responds",
       "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-24T12:55:21Z",
+      "date": "2026-10-25T00:25:06Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2204,15 +2231,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 10652,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
-      "url": "https://github.com/velero-io/velero/pull/10652",
-      "date": "2026-10-21T09:43:29Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10658,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2418,43 +2436,16 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2486",
       "date": "2026-10-14T13:23:16Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10438,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
-      "url": "https://github.com/velero-io/velero/pull/10438",
-      "date": "2026-10-14T09:29:27Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10609,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: add local Kind setup for CSI e2e",
-      "url": "https://github.com/velero-io/velero/pull/10609",
-      "date": "2026-10-14T05:25:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 180,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.14.4 (cbd0773) into oadp-1.6",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/180",
-      "date": "2026-10-14T01:45:13Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
     {
-      "number": 19736,
+      "number": 17422,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
-      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
-      "url": "https://github.com/pingdotgg/t3code/issues/19736",
-      "date": "2026-10-24T12:20:07Z",
+      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
+      "url": "https://github.com/pingdotgg/t3code/issues/17422",
+      "date": "2026-10-25T13:23:22Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2463,7 +2454,61 @@
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-24T10:23:58Z",
+      "date": "2026-10-25T10:52:25Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "date": "2026-10-25T08:36:27Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10310,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands",
+      "url": "https://github.com/velero-io/velero/issues/10310",
+      "date": "2026-10-25T07:48:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 8689,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report Object Lock when PutObject errors patching backup to Completed, and Fail backup",
+      "url": "https://github.com/velero-io/velero/issues/8689",
+      "date": "2026-10-25T07:41:38Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10693,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
+      "url": "https://github.com/velero-io/velero/issues/10693",
+      "date": "2026-10-25T06:07:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 7507,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Add CSI snapshot tests to kind cluster",
+      "url": "https://github.com/velero-io/velero/issues/7507",
+      "date": "2026-10-25T04:40:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "date": "2026-10-24T12:20:07Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2519,24 +2564,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/17531",
       "date": "2026-10-22T08:15:23Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 17422,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
-      "url": "https://github.com/pingdotgg/t3code/issues/17422",
-      "date": "2026-10-22T07:49:05Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 7507,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Add CSI snapshot tests to kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/7507",
-      "date": "2026-10-22T06:22:16Z",
-      "workstream": "Velero"
     },
     {
       "number": 956,
@@ -2860,15 +2887,6 @@
       "title": "Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag",
       "url": "https://github.com/velero-io/velero/issues/10299",
       "date": "2026-09-25T20:02:57Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10310,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands",
-      "url": "https://github.com/velero-io/velero/issues/10310",
-      "date": "2026-09-24T20:56:01Z",
       "workstream": "Velero"
     },
     {
@@ -3320,33 +3338,6 @@
       "url": "https://github.com/openshift/installer/issues/10791",
       "date": "2026-08-24T18:38:41Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10020,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
-      "url": "https://github.com/velero-io/velero/issues/10020",
-      "date": "2026-08-24T18:15:43Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9429,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "velero doesn't correctly handle an empty ProviderSnapshotID",
-      "url": "https://github.com/velero-io/velero/issues/9429",
-      "date": "2026-08-24T14:27:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 378,
-      "repo": "socktainer/socktainer",
-      "org": "socktainer",
-      "title": "ci on real hw",
-      "url": "https://github.com/socktainer/socktainer/issues/378",
-      "date": "2026-08-24T13:11:42Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
@@ -3781,15 +3772,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184",
       "date": "2026-08-18T16:37:17Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
-      "url": "https://github.com/velero-io/velero/issues/10303",
-      "date": "2026-08-18T06:04:53Z",
-      "workstream": "Velero"
     },
     {
       "number": 10300,
