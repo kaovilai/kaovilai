@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-26 03:01:57 UTC
+> Last updated: 2026-10-26 12:11:12 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -20,7 +20,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10691](https://img.shields.io/badge/PR%20%2310691-ready-green)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement (milestone: **v1.19**)
 - [![PR #10692](https://img.shields.io/badge/PR%20%2310692-ready-green)](https://github.com/velero-io/velero/pull/10692) **velero-io/velero** → `main` - Add Dependabot updates for run-jammy-tiny on supported release branches
 - [![PR #10695](https://img.shields.io/badge/PR%20%2310695-ready-green)](https://github.com/velero-io/velero/pull/10695) **velero-io/velero** → `main` - ci: add CodeQL analysis for Go
-- [![PR #10698](https://img.shields.io/badge/PR%20%2310698-ready-green)](https://github.com/velero-io/velero/pull/10698) **velero-io/velero** → `main` - Fix BLKZEROOUT ioctl request number in block uploader (milestone: **v1.19**)
 - [![PR #10699](https://img.shields.io/badge/PR%20%2310699-ready-green)](https://github.com/velero-io/velero/pull/10699) **velero-io/velero** → `main` - Delete the in-place restore baseline snapshot under a Retain class (milestone: **v1.19**)
 - [![PR #10700](https://img.shields.io/badge/PR%20%2310700-ready-green)](https://github.com/velero-io/velero/pull/10700) **velero-io/velero** → `main` - Treat a kopia snapshot not found after a repo refresh as deleted (milestone: **v1.19**)
 - [![PR #10716](https://img.shields.io/badge/PR%20%2310716-ready-green)](https://github.com/velero-io/velero/pull/10716) **velero-io/velero** → `main` - Retain the backup snapshot only for the block data mover (milestone: **v1.19**)
@@ -113,7 +112,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-stale-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #2371](https://img.shields.io/badge/PR%20%232371-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
-- [![PR #237](https://img.shields.io/badge/PR%20%23237-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-stale-yellow)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
@@ -132,6 +130,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
+- [![PR #237](https://img.shields.io/badge/PR%20%23237-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #297](https://img.shields.io/badge/PR%20%23297-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/297) **openshift/hypershift-oadp-plugin** → `oadp-1.6` - [oadp-1.6] CNTRLPLANE-3167: support STS/IRSA credentials and standalone Velero
 - [![PR #480](https://img.shields.io/badge/PR%20%23480-needs--attention-orange)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
