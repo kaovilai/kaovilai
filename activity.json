@@ -3,15 +3,24 @@
     "start": "2026-07-28",
     "end": "2026-10-26"
   },
-  "generatedAt": "2026-10-26T04:11:54Z",
+  "generatedAt": "2026-10-26T12:53:15Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 69,
+    "prsReviewed": 67,
     "issuesCommented": 100,
-    "issuesClosed": 86
+    "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 10698,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix BLKZEROOUT ioctl request number in block uploader",
+      "url": "https://github.com/velero-io/velero/pull/10698",
+      "date": "2026-10-26T06:29:48Z",
+      "workstream": "Velero"
+    },
     {
       "number": 1571,
       "repo": "oliexdev/openScale",
@@ -902,15 +911,6 @@
       "url": "https://github.com/kaovilai/copilot-api/pull/11",
       "date": "2026-09-09T19:32:22Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10318,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix datamover backup arg mismatch for CSI CBT service account name",
-      "url": "https://github.com/velero-io/velero/pull/10318",
-      "date": "2026-09-09T06:34:07Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
@@ -1822,7 +1822,7 @@
       "org": "pingdotgg",
       "title": "fix(web): PDF previews keep their page when the agent responds",
       "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-25T14:31:09Z",
+      "date": "2026-10-26T11:16:17Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2418,35 +2418,44 @@
       "url": "https://github.com/velero-io/velero/pull/10640",
       "date": "2026-10-15T12:52:12Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2484,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
-      "url": "https://github.com/openshift/oadp-operator/pull/2484",
-      "date": "2026-10-14T13:23:19Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2486,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "tests/e2e: remove redundant dpaCR.IsDeleted() in Undeploy — VeleroIsDeleted already subsumes it",
-      "url": "https://github.com/openshift/oadp-operator/pull/2486",
-      "date": "2026-10-14T13:23:16Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-26T12:24:40Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 4673,
       "repo": "kubevirt/hyperconverged-cluster-operator",
       "org": "kubevirt",
       "title": "v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded",
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673",
-      "date": "2026-10-26T03:20:24Z",
+      "date": "2026-10-26T07:25:36Z",
       "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 10693,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
+      "url": "https://github.com/velero-io/velero/issues/10693",
+      "date": "2026-10-26T06:50:15Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10694,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
+      "url": "https://github.com/velero-io/velero/issues/10694",
+      "date": "2026-10-26T05:50:11Z",
+      "workstream": "Velero"
     },
     {
       "number": 10120,
@@ -2473,15 +2482,6 @@
       "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
       "url": "https://github.com/pingdotgg/t3code/issues/17422",
       "date": "2026-10-25T13:23:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-25T10:52:25Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2512,15 +2512,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10693,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
-      "url": "https://github.com/velero-io/velero/issues/10693",
-      "date": "2026-10-25T06:07:23Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 7507,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2537,15 +2528,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-24T12:20:07Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10694,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
-      "url": "https://github.com/velero-io/velero/issues/10694",
-      "date": "2026-10-24T07:40:52Z",
-      "workstream": "Velero"
     },
     {
       "number": 16000,
@@ -3341,6 +3323,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10719,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover restore skips zero ranges: BLKZEROOUT ioctl number is wrong",
+      "url": "https://github.com/velero-io/velero/issues/10719",
+      "date": "2026-10-26T06:29:49Z",
+      "workstream": "Velero"
+    },
     {
       "number": 601,
       "repo": "devicons/devicon",
