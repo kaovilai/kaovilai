@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:10:17Z",
+  "generatedAt": "2026-10-26T08:59:11Z",
   "items": [
     {
       "number": 978,
@@ -1858,6 +1858,19 @@
       "createdAt": "2021-05-05T02:34:52Z",
       "closedAt": "2021-12-22T16:17:56Z",
       "updatedAt": "2021-12-22T16:17:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 601,
+      "repo": "devicons/devicon",
+      "org": "devicons",
+      "title": "Icon request: fusion360",
+      "url": "https://github.com/devicons/devicon/issues/601",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2021-05-08T06:15:51Z",
+      "closedAt": "2026-10-24T15:05:49Z",
+      "updatedAt": "2026-10-24T15:05:49Z",
       "workstream": "Uncategorized"
     },
     {
@@ -32814,19 +32827,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
-      "url": "https://github.com/velero-io/velero/issues/10303",
-      "type": "issue",
-      "state": "closed",
-      "createdAt": "2026-08-16T15:19:34Z",
-      "closedAt": "2026-08-18T06:04:53Z",
-      "updatedAt": "2026-08-18T06:40:53Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10304,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -32941,6 +32941,19 @@
       "createdAt": "2026-08-18T06:28:02Z",
       "closedAt": "2026-09-09T06:34:07Z",
       "updatedAt": "2026-09-09T06:34:07Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10327,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail data path when its data mover pod is deleted, release leaked data path slot",
+      "url": "https://github.com/velero-io/velero/pull/10327",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-08-18T13:17:18Z",
+      "closedAt": "2026-10-25T08:37:20Z",
+      "updatedAt": "2026-10-25T08:37:20Z",
       "workstream": "Velero"
     },
     {
@@ -34907,6 +34920,19 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 19736,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
+      "url": "https://github.com/pingdotgg/t3code/issues/19736",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-10-15T03:17:43Z",
+      "closedAt": "2026-10-24T12:20:07Z",
+      "updatedAt": "2026-10-24T12:20:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 91,
       "repo": "redhat-et/pricetag-metering",
       "org": "redhat-et",
@@ -35349,6 +35375,19 @@
       "workstream": "OADP"
     },
     {
+      "number": 1571,
+      "repo": "oliexdev/openScale",
+      "org": "oliexdev",
+      "title": "Add support for Chipsea-BLE GATT body fat scales",
+      "url": "https://github.com/oliexdev/openScale/pull/1571",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-22T11:55:22Z",
+      "closedAt": "2026-10-24T15:08:14Z",
+      "updatedAt": "2026-10-24T15:08:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 600,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -35490,6 +35529,214 @@
       "closedAt": "2026-10-24T01:12:25Z",
       "updatedAt": "2026-10-24T01:12:25Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 10698,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix BLKZEROOUT ioctl request number in block uploader",
+      "url": "https://github.com/velero-io/velero/pull/10698",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-25T00:21:36Z",
+      "closedAt": "2026-10-26T06:29:48Z",
+      "updatedAt": "2026-10-26T06:29:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10701,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Bound block data mover memory burst and set Go memory limit",
+      "url": "https://github.com/velero-io/velero/pull/10701",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:25:55Z",
+      "closedAt": "2026-10-25T07:37:51Z",
+      "updatedAt": "2026-10-25T07:37:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10702,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Back off repo maintenance retries after failures, skip maintenance on unavailable BSL",
+      "url": "https://github.com/velero-io/velero/pull/10702",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:26:48Z",
+      "closedAt": "2026-10-25T07:48:14Z",
+      "updatedAt": "2026-10-25T07:48:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10703,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report the CSI snapshot error when waiting for the snapshot handle times out",
+      "url": "https://github.com/velero-io/velero/pull/10703",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:27:08Z",
+      "closedAt": "2026-10-25T07:48:16Z",
+      "updatedAt": "2026-10-25T07:48:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10704,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail data path when its data mover pod is deleted, release leaked data path slot",
+      "url": "https://github.com/velero-io/velero/pull/10704",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:29:16Z",
+      "closedAt": "2026-10-25T04:41:19Z",
+      "updatedAt": "2026-10-25T04:41:19Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10705,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Don't block DataDownload controller waiting for target PVC consumer",
+      "url": "https://github.com/velero-io/velero/pull/10705",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:32:33Z",
+      "closedAt": "2026-10-25T08:37:23Z",
+      "updatedAt": "2026-10-25T08:37:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10706,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fill the container termination reason to DU/DD/PVB/PVR when the data mover pod is OOMKilled",
+      "url": "https://github.com/velero-io/velero/pull/10706",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:34:07Z",
+      "closedAt": "2026-10-25T07:37:54Z",
+      "updatedAt": "2026-10-25T07:37:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10707,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add expose diagnose summary to DU/DD/PVB/PVR prepare timeout message",
+      "url": "https://github.com/velero-io/velero/pull/10707",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:35:02Z",
+      "closedAt": "2026-10-25T07:48:19Z",
+      "updatedAt": "2026-10-25T07:48:19Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10709,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Refuse to delete a backup while a restore from it is in progress",
+      "url": "https://github.com/velero-io/velero/pull/10709",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:46:41Z",
+      "closedAt": "2026-10-25T08:37:27Z",
+      "updatedAt": "2026-10-25T08:37:27Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10711,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Back up raw block volumes with snapshots instead of skipping them when defaultVolumesToFsBackup is set",
+      "url": "https://github.com/velero-io/velero/pull/10711",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:49:55Z",
+      "closedAt": "2026-10-25T07:24:58Z",
+      "updatedAt": "2026-10-25T07:24:58Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10712,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Warn when resource modifiers change a PVC's volumeMode from Block on restore",
+      "url": "https://github.com/velero-io/velero/pull/10712",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:52:39Z",
+      "closedAt": "2026-10-25T07:07:16Z",
+      "updatedAt": "2026-10-25T07:07:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10713,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Drop deleted backups from the backup tracker; clarify useOwnerReferencesInBackup on schedule deletion",
+      "url": "https://github.com/velero-io/velero/pull/10713",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:53:56Z",
+      "closedAt": "2026-10-25T08:24:40Z",
+      "updatedAt": "2026-10-25T08:24:40Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10714,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Don't hold restore in Finalizing when results upload fails",
+      "url": "https://github.com/velero-io/velero/pull/10714",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:54:18Z",
+      "closedAt": "2026-10-25T08:37:29Z",
+      "updatedAt": "2026-10-25T08:37:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10715,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fail backup when its metadata can't be written to the BSL",
+      "url": "https://github.com/velero-io/velero/pull/10715",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T00:54:37Z",
+      "closedAt": "2026-10-25T07:41:43Z",
+      "updatedAt": "2026-10-25T07:41:43Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10717,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Store resourceTimeout in the backup finalizer reconciler",
+      "url": "https://github.com/velero-io/velero/pull/10717",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-10-25T01:20:48Z",
+      "closedAt": "2026-10-25T08:37:33Z",
+      "updatedAt": "2026-10-25T08:37:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10719,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover restore skips zero ranges: BLKZEROOUT ioctl number is wrong",
+      "url": "https://github.com/velero-io/velero/issues/10719",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-10-25T02:56:04Z",
+      "closedAt": "2026-10-26T06:29:49Z",
+      "updatedAt": "2026-10-26T06:29:49Z",
+      "workstream": "Velero"
     }
   ]
 }
