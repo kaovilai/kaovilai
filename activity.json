@@ -3,15 +3,24 @@
     "start": "2026-07-28",
     "end": "2026-10-26"
   },
-  "generatedAt": "2026-10-26T18:26:29Z",
+  "generatedAt": "2026-10-26T23:03:31Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 67,
+    "prsReviewed": 66,
     "issuesCommented": 100,
     "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 197,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/migtools/udistribution/pull/197",
+      "date": "2026-10-26T20:14:19Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10696,
       "repo": "velero-io/velero",
@@ -310,20 +319,20 @@
       "workstream": "Velero"
     },
     {
-      "number": 188,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 129,
       "repo": "openshift/velero-plugin-for-legacy-aws",
       "org": "openshift",
       "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 188,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
       "date": "2026-10-21T18:58:35Z",
       "workstream": "Velero"
     },
@@ -902,18 +911,36 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2234",
       "date": "2026-09-09T23:26:25Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Address CodeRabbit findings on the streaming chat-completions handler",
-      "url": "https://github.com/kaovilai/copilot-api/pull/12",
-      "date": "2026-09-09T20:11:32Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 6569,
+      "repo": "scaleway/scaleway-cli",
+      "org": "scaleway",
+      "title": "fix(autocomplete): use file name of the binary as default basename",
+      "url": "https://github.com/scaleway/scaleway-cli/pull/6569",
+      "date": "2026-10-26T20:57:09Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 18636,
+      "repo": "rook/rook",
+      "org": "rook",
+      "title": "csi: enable selinux host mount in openshift example",
+      "url": "https://github.com/rook/rook/pull/18636",
+      "date": "2026-10-26T20:18:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 1793,
+      "repo": "sooperset/mcp-atlassian",
+      "org": "sooperset",
+      "title": "fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit",
+      "url": "https://github.com/sooperset/mcp-atlassian/pull/1793",
+      "date": "2026-10-26T20:07:03Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 649,
       "repo": "ceph/ceph-csi-operator",
@@ -1786,36 +1813,18 @@
       "url": "https://github.com/pingdotgg/t3code/pull/18765",
       "date": "2026-10-12T19:45:04Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2482,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(kubevirt-datamover): size controller for scale, make resources configurable",
-      "url": "https://github.com/openshift/oadp-operator/pull/2482",
-      "date": "2026-10-12T16:39:19Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 18712,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): a thread waiting on another thread shows Waiting, not Working",
-      "url": "https://github.com/pingdotgg/t3code/pull/18712",
-      "date": "2026-10-12T16:37:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1750,
-      "repo": "red-hat-data-services/rhai-org-pulse",
-      "org": "red-hat-data-services",
-      "title": "feat(upstream-pulse): seed OADP upstream repositories",
-      "url": "https://github.com/red-hat-data-services/rhai-org-pulse/pull/1750",
-      "date": "2026-10-12T16:33:46Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10739,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
+      "url": "https://github.com/velero-io/velero/pull/10739",
+      "date": "2026-10-26T22:00:21Z",
+      "workstream": "Velero"
+    },
     {
       "number": 23732,
       "repo": "pingdotgg/t3code",
@@ -2400,24 +2409,6 @@
       "url": "https://github.com/velero-io/velero/pull/10656",
       "date": "2026-10-16T03:08:28Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 87092,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add optional AllNamespaces e2e presubmits for oadp-operator oadp-dev 5.0",
-      "url": "https://github.com/openshift/release/pull/87092",
-      "date": "2026-10-15T15:45:10Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10640,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(cli): update legacy repository issue URLs in velero bug command",
-      "url": "https://github.com/velero-io/velero/pull/10640",
-      "date": "2026-10-15T12:52:12Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
@@ -2427,7 +2418,25 @@
       "org": "ceph",
       "title": "rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)",
       "url": "https://github.com/ceph/ceph-csi/issues/6679",
-      "date": "2026-10-26T17:00:55Z",
+      "date": "2026-10-26T20:18:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-10-26T20:15:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 909,
+      "repo": "sooperset/mcp-atlassian",
+      "org": "sooperset",
+      "title": "[Bug]: Orphaned Python/Docker processes after closing MCP clients/agents",
+      "url": "https://github.com/sooperset/mcp-atlassian/issues/909",
+      "date": "2026-10-26T19:25:43Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2483,15 +2492,6 @@
       "url": "https://github.com/velero-io/velero/issues/10120",
       "date": "2026-10-26T01:51:53Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10553,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
-      "url": "https://github.com/pingdotgg/t3code/issues/10553",
-      "date": "2026-10-25T16:11:08Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 17422,
@@ -3311,15 +3311,6 @@
       "url": "https://github.com/openshift/oadp-operator/issues/2407",
       "date": "2026-08-25T17:47:37Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 9603,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backport/Cherry-pick GitHub action",
-      "url": "https://github.com/velero-io/velero/issues/9603",
-      "date": "2026-08-25T09:54:39Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
