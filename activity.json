@@ -3,7 +3,7 @@
     "start": "2026-07-28",
     "end": "2026-10-26"
   },
-  "generatedAt": "2026-10-26T12:53:15Z",
+  "generatedAt": "2026-10-26T18:26:29Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 10696,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "design: fix the order of the snapshot retention cases in block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10696",
+      "date": "2026-10-26T17:13:56Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10698,
       "repo": "velero-io/velero",
@@ -301,20 +310,20 @@
       "workstream": "Velero"
     },
     {
-      "number": 129,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 188,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
       "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 129,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
       "date": "2026-10-21T18:58:35Z",
       "workstream": "Velero"
     },
@@ -902,18 +911,18 @@
       "url": "https://github.com/kaovilai/copilot-api/pull/12",
       "date": "2026-09-09T20:11:32Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Handle client abort gracefully in streaming chat-completions",
-      "url": "https://github.com/kaovilai/copilot-api/pull/11",
-      "date": "2026-09-09T19:32:22Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 649,
+      "repo": "ceph/ceph-csi-operator",
+      "org": "ceph",
+      "title": "docs: document enableSeLinuxHostMount for node plugins",
+      "url": "https://github.com/ceph/ceph-csi-operator/pull/649",
+      "date": "2026-10-26T17:21:44Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 82,
       "repo": "kaovilai/kaovilai",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/red-hat-data-services/rhai-org-pulse/pull/1750",
       "date": "2026-10-12T16:33:46Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 245,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/245",
-      "date": "2026-10-12T15:40:41Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "prsReviewed": [
@@ -2422,6 +2422,33 @@
   ],
   "issuesCommented": [
     {
+      "number": 6679,
+      "repo": "ceph/ceph-csi",
+      "org": "ceph",
+      "title": "rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)",
+      "url": "https://github.com/ceph/ceph-csi/issues/6679",
+      "date": "2026-10-26T17:00:55Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10693,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
+      "url": "https://github.com/velero-io/velero/issues/10693",
+      "date": "2026-10-26T15:45:57Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "date": "2026-10-26T14:54:42Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2438,15 +2465,6 @@
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673",
       "date": "2026-10-26T07:25:36Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10693,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
-      "url": "https://github.com/velero-io/velero/issues/10693",
-      "date": "2026-10-26T06:50:15Z",
-      "workstream": "Velero"
     },
     {
       "number": 10694,
@@ -2483,15 +2501,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/17422",
       "date": "2026-10-25T13:23:22Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
-      "url": "https://github.com/velero-io/velero/issues/10303",
-      "date": "2026-10-25T08:36:27Z",
-      "workstream": "Velero"
     },
     {
       "number": 10310,
@@ -3310,15 +3319,6 @@
       "title": "Backport/Cherry-pick GitHub action",
       "url": "https://github.com/velero-io/velero/issues/9603",
       "date": "2026-08-25T09:54:39Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9839,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CBT availability detection per volume",
-      "url": "https://github.com/velero-io/velero/issues/9839",
-      "date": "2026-08-25T09:44:27Z",
       "workstream": "Velero"
     }
   ],
