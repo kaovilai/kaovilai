@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T08:59:11Z",
+  "generatedAt": "2026-10-27T09:02:38Z",
   "items": [
     {
       "number": 978,
@@ -35518,6 +35518,32 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 197,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/migtools/udistribution/pull/197",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T22:22:59Z",
+      "closedAt": "2026-10-26T20:14:19Z",
+      "updatedAt": "2026-10-26T20:14:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10690,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190",
+      "url": "https://github.com/velero-io/velero/pull/10690",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-23T23:04:22Z",
+      "closedAt": "2026-10-27T07:48:10Z",
+      "updatedAt": "2026-10-27T07:48:10Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 453,
       "repo": "caozhiyuan/copilot-api",
       "org": "caozhiyuan",
@@ -35531,6 +35557,32 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 10696,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "design: fix the order of the snapshot retention cases in block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10696",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-24T02:06:29Z",
+      "closedAt": "2026-10-26T17:13:56Z",
+      "updatedAt": "2026-10-26T17:13:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 6679,
+      "repo": "ceph/ceph-csi",
+      "org": "ceph",
+      "title": "rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)",
+      "url": "https://github.com/ceph/ceph-csi/issues/6679",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-10-24T07:51:36Z",
+      "closedAt": "2026-10-27T06:12:31Z",
+      "updatedAt": "2026-10-27T06:12:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10698,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -35541,6 +35593,19 @@
       "createdAt": "2026-10-25T00:21:36Z",
       "closedAt": "2026-10-26T06:29:48Z",
       "updatedAt": "2026-10-26T06:29:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10700,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Treat a kopia snapshot not found after a repo refresh as deleted",
+      "url": "https://github.com/velero-io/velero/pull/10700",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-25T00:23:14Z",
+      "closedAt": "2026-10-27T03:08:16Z",
+      "updatedAt": "2026-10-27T03:08:16Z",
       "workstream": "Velero"
     },
     {
@@ -35737,6 +35802,32 @@
       "closedAt": "2026-10-26T06:29:49Z",
       "updatedAt": "2026-10-26T06:29:49Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 10721,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Regression: backup deletion fails for good after an interrupted deletion (kopia snapshot not found after repo refresh)",
+      "url": "https://github.com/velero-io/velero/issues/10721",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-10-25T06:04:58Z",
+      "closedAt": "2026-10-27T03:08:17Z",
+      "updatedAt": "2026-10-27T03:08:17Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 649,
+      "repo": "ceph/ceph-csi-operator",
+      "org": "ceph",
+      "title": "docs: document enableSeLinuxHostMount for node plugins",
+      "url": "https://github.com/ceph/ceph-csi-operator/pull/649",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-10-26T17:21:44Z",
+      "closedAt": "2026-10-27T05:57:03Z",
+      "updatedAt": "2026-10-27T05:57:09Z",
+      "workstream": "Uncategorized"
     }
   ]
 }
