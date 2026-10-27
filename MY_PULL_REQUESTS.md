@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-26 18:30:55 UTC
+> Last updated: 2026-10-27 01:47:32 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -12,7 +12,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ready-green)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-ready-green)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
 - [![PR #10423](https://img.shields.io/badge/PR%20%2310423-ready-green)](https://github.com/velero-io/velero/pull/10423) **velero-io/velero** → `release-1.16` - [release-1.16] DM controller refactor for cancel (cherry-pick #8952)
-- [![PR #10425](https://img.shields.io/badge/PR%20%2310425-ready-green)](https://github.com/velero-io/velero/pull/10425) **velero-io/velero** → `release-1.17` - [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10426](https://img.shields.io/badge/PR%20%2310426-ready-green)](https://github.com/velero-io/velero/pull/10426) **velero-io/velero** → `release-1.18` - [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10555](https://img.shields.io/badge/PR%20%2310555-ready-green)](https://github.com/velero-io/velero/pull/10555) **velero-io/velero** → `main` - Fix e2e-test-kind and changelog-check CI flakes
 - [![PR #10689](https://img.shields.io/badge/PR%20%2310689-ready-green)](https://github.com/velero-io/velero/pull/10689) **velero-io/velero** → `main` - Group Go security updates in Dependabot
@@ -38,6 +37,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-stale-yellow)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
+- [![PR #10425](https://img.shields.io/badge/PR%20%2310425-stale-yellow)](https://github.com/velero-io/velero/pull/10425) **velero-io/velero** → `release-1.17` - [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #267](https://img.shields.io/badge/PR%20%23267-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/267) **velero-io/velero-plugin-for-aws** → `main` - Fix silent volume restoration failures for encrypted snapshots
@@ -137,7 +137,6 @@ This file is automatically updated every hour by GitHub Actions.
 ## migtools
 
 - [![PR #106](https://img.shields.io/badge/PR%20%23106-ready-green)](https://github.com/migtools/kubevirt-velero-plugin/pull/106) **migtools/kubevirt-velero-plugin** → `oadp-1.4` - Sync OWNERS_ALIASES with main
-- [![PR #197](https://img.shields.io/badge/PR%20%23197-ready-green)](https://github.com/migtools/udistribution/pull/197) **migtools/udistribution** → `main` - Group Go security updates in Dependabot
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
@@ -170,16 +169,18 @@ No open PRs.
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
 - [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
+- [![PR #1793](https://img.shields.io/badge/PR%20%231793-ready-green)](https://github.com/sooperset/mcp-atlassian/pull/1793) **sooperset/mcp-atlassian** → `main` - fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #649](https://img.shields.io/badge/PR%20%23649-ready-green)](https://github.com/ceph/ceph-csi-operator/pull/649) **ceph/ceph-csi-operator** → `main` - docs: document enableSeLinuxHostMount for node plugins
+- [![PR #6569](https://img.shields.io/badge/PR%20%236569-ready-green)](https://github.com/scaleway/scaleway-cli/pull/6569) **scaleway/scaleway-cli** → `main` - fix(autocomplete): use file name of the binary as default basename
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
-- [![PR #649](https://img.shields.io/badge/PR%20%23649-draft-gray)](https://github.com/ceph/ceph-csi-operator/pull/649) **ceph/ceph-csi-operator** → `main` - docs: document enableSeLinuxHostMount for node plugins
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
@@ -222,6 +223,7 @@ No open PRs.
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
+- [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
 - [![PR #101](https://img.shields.io/badge/PR%20%23101-needs--attention-orange)](https://github.com/openshift-eng/rebasebot/pull/101) **openshift-eng/rebasebot** → `main` - Add --pr-labels flag to apply labels to created PRs
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 
