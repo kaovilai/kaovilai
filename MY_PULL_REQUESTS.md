@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-27 01:47:32 UTC
+> Last updated: 2026-10-27 11:32:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -15,12 +15,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10426](https://img.shields.io/badge/PR%20%2310426-ready-green)](https://github.com/velero-io/velero/pull/10426) **velero-io/velero** → `release-1.18` - [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10555](https://img.shields.io/badge/PR%20%2310555-ready-green)](https://github.com/velero-io/velero/pull/10555) **velero-io/velero** → `main` - Fix e2e-test-kind and changelog-check CI flakes
 - [![PR #10689](https://img.shields.io/badge/PR%20%2310689-ready-green)](https://github.com/velero-io/velero/pull/10689) **velero-io/velero** → `main` - Group Go security updates in Dependabot
-- [![PR #10690](https://img.shields.io/badge/PR%20%2310690-ready-green)](https://github.com/velero-io/velero/pull/10690) **velero-io/velero** → `release-1.18` - [release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190
 - [![PR #10691](https://img.shields.io/badge/PR%20%2310691-ready-green)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement (milestone: **v1.19**)
 - [![PR #10692](https://img.shields.io/badge/PR%20%2310692-ready-green)](https://github.com/velero-io/velero/pull/10692) **velero-io/velero** → `main` - Add Dependabot updates for run-jammy-tiny on supported release branches
 - [![PR #10695](https://img.shields.io/badge/PR%20%2310695-ready-green)](https://github.com/velero-io/velero/pull/10695) **velero-io/velero** → `main` - ci: add CodeQL analysis for Go
 - [![PR #10699](https://img.shields.io/badge/PR%20%2310699-ready-green)](https://github.com/velero-io/velero/pull/10699) **velero-io/velero** → `main` - Delete the in-place restore baseline snapshot under a Retain class (milestone: **v1.19**)
-- [![PR #10700](https://img.shields.io/badge/PR%20%2310700-ready-green)](https://github.com/velero-io/velero/pull/10700) **velero-io/velero** → `main` - Treat a kopia snapshot not found after a repo refresh as deleted (milestone: **v1.19**)
 - [![PR #10710](https://img.shields.io/badge/PR%20%2310710-ready-green)](https://github.com/velero-io/velero/pull/10710) **velero-io/velero** → `main` - Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace
 - [![PR #10716](https://img.shields.io/badge/PR%20%2310716-ready-green)](https://github.com/velero-io/velero/pull/10716) **velero-io/velero** → `main` - Retain the backup snapshot only for the block data mover (milestone: **v1.19**)
 - [![PR #10718](https://img.shields.io/badge/PR%20%2310718-ready-green)](https://github.com/velero-io/velero/pull/10718) **velero-io/velero** → `main` - docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance
@@ -47,7 +45,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #318](https://img.shields.io/badge/PR%20%23318-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
-- [![PR #319](https://img.shields.io/badge/PR%20%23319-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/320) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
@@ -174,7 +171,6 @@ No open PRs.
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #649](https://img.shields.io/badge/PR%20%23649-ready-green)](https://github.com/ceph/ceph-csi-operator/pull/649) **ceph/ceph-csi-operator** → `main` - docs: document enableSeLinuxHostMount for node plugins
 - [![PR #6569](https://img.shields.io/badge/PR%20%236569-ready-green)](https://github.com/scaleway/scaleway-cli/pull/6569) **scaleway/scaleway-cli** → `main` - fix(autocomplete): use file name of the binary as default basename
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
