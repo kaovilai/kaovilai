@@ -3,15 +3,24 @@
     "start": "2026-07-29",
     "end": "2026-10-27"
   },
-  "generatedAt": "2026-10-27T11:54:03Z",
+  "generatedAt": "2026-10-27T17:40:58Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 66,
+    "prsReviewed": 68,
     "issuesCommented": 100,
     "issuesClosed": 88
   },
   "prsMerged": [
+    {
+      "number": 327,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "NO-JIRA: Group Go security updates in Dependabot",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/327",
+      "date": "2026-10-27T12:34:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 319,
       "repo": "velero-io/velero-plugin-for-microsoft-azure",
@@ -901,15 +910,6 @@
       "title": "Add per-command cancel-x to pending combo buttons",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176",
       "date": "2026-09-03T20:42:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Fix Netlify build failure: bump Node version and sync yarn.lock",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6",
-      "date": "2026-09-10T20:13:20Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,78 @@
   ],
   "prsReviewed": [
     {
+      "number": 10680,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the Kibishii file system backup cases on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10680",
+      "date": "2026-10-27T17:15:57Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 593,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
+      "url": "https://github.com/openshift/velero/pull/593",
+      "date": "2026-10-27T16:38:25Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10735,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add fine-grained resource and restore filter test via resource policies",
+      "url": "https://github.com/velero-io/velero/pull/10735",
+      "date": "2026-10-27T16:04:01Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10740,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue 10724: Add parallel upload/download control for Velero fs and block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10740",
+      "date": "2026-10-27T15:16:19Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 336,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Update auto-assignees.yml",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
+      "date": "2026-10-27T12:25:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 280,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "Update assignees in the yaml file",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/280",
+      "date": "2026-10-27T12:24:12Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 91,
+      "repo": "velero-io/velero-plugin-example",
+      "org": "velero-io",
+      "title": "Update assignee settings",
+      "url": "https://github.com/velero-io/velero-plugin-example/pull/91",
+      "date": "2026-10-27T12:23:39Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10742,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove qiuming-best from OWNERS of PROW action",
+      "url": "https://github.com/velero-io/velero/pull/10742",
+      "date": "2026-10-27T12:22:48Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10673,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2213,15 +2285,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 593,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)",
-      "url": "https://github.com/openshift/velero/pull/593",
-      "date": "2026-10-21T21:55:09Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 2477,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -2364,54 +2427,99 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2494",
       "date": "2026-10-18T22:55:35Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10493,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout",
-      "url": "https://github.com/velero-io/velero/pull/10493",
-      "date": "2026-10-18T14:53:54Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10666,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump the github-actions group with 2 updates",
-      "url": "https://github.com/velero-io/velero/pull/10666",
-      "date": "2026-10-17T20:09:14Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10657,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: point Kibishii at the kind-csi overlay when CSI is enabled",
-      "url": "https://github.com/velero-io/velero/pull/10657",
-      "date": "2026-10-16T20:38:45Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 590,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4",
-      "url": "https://github.com/openshift/velero/pull/590",
-      "date": "2026-10-16T20:32:55Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10656,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reuse cached Go modules across CI jobs",
-      "url": "https://github.com/velero-io/velero/pull/10656",
-      "date": "2026-10-16T03:08:28Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 7804,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enhancing Velero Schedule with RetainDays and RetainCount for Backup Retention Management.",
+      "url": "https://github.com/velero-io/velero/issues/7804",
+      "date": "2026-10-27T17:03:37Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 8401,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue with Velero Restore : Azure disk PV Created with Old SKU Despite Updated Storage Class",
+      "url": "https://github.com/velero-io/velero/issues/8401",
+      "date": "2026-10-27T17:03:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9866,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Kopia Repository Folder Not Cleaned Up from MinIO After Backup Deletion and Full Maintenance",
+      "url": "https://github.com/velero-io/velero/issues/9866",
+      "date": "2026-10-27T17:03:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 7760,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Metrics for backup repository maintenance job",
+      "url": "https://github.com/velero-io/velero/issues/7760",
+      "date": "2026-10-27T17:03:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 8535,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Repo maintenance - don't run backup/restore if repo maintenance fails in a row",
+      "url": "https://github.com/velero-io/velero/issues/8535",
+      "date": "2026-10-27T17:03:08Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 7858,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup en AWS Outposts ",
+      "url": "https://github.com/velero-io/velero/issues/7858",
+      "date": "2026-10-27T17:03:01Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 4169,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "velero Restic restore aws efs Error",
+      "url": "https://github.com/velero-io/velero/issues/4169",
+      "date": "2026-10-27T17:02:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 5232,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "AWS EBS restore should use the KMS key specified in the storage class",
+      "url": "https://github.com/velero-io/velero/issues/5232",
+      "date": "2026-10-27T17:02:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9396,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero cannot detect CSI driver ebs.csi.eks.amazonaws.com on EKS Auto Mode",
+      "url": "https://github.com/velero-io/velero/issues/9396",
+      "date": "2026-10-27T17:02:38Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9714,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Verify ChangeId retrieve for Ceph",
+      "url": "https://github.com/velero-io/velero/issues/9714",
+      "date": "2026-10-27T15:03:31Z",
+      "workstream": "Velero"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -3151,15 +3259,6 @@
       "workstream": "Kubernetes"
     },
     {
-      "number": 9714,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Verify ChangeId retrieve for Ceph",
-      "url": "https://github.com/velero-io/velero/issues/9714",
-      "date": "2026-09-08T16:10:16Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 9833,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -3229,87 +3328,6 @@
       "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
       "url": "https://github.com/velero-io/velero/issues/10440",
       "date": "2026-09-02T06:20:00Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10437,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
-      "url": "https://github.com/velero-io/velero/issues/10437",
-      "date": "2026-09-01T21:40:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2413,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout",
-      "url": "https://github.com/openshift/oadp-operator/issues/2413",
-      "date": "2026-09-01T17:07:00Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 1847,
-      "repo": "ghostty-org/ghostty",
-      "org": "ghostty-org",
-      "title": "Include scrollback history in state restoration",
-      "url": "https://github.com/ghostty-org/ghostty/issues/1847",
-      "date": "2026-09-01T09:29:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 481,
-      "repo": "actions/setup-go",
-      "org": "actions",
-      "title": "Support using a later patch release than what's in go.mod",
-      "url": "https://github.com/actions/setup-go/issues/481",
-      "date": "2026-08-28T19:06:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18959,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race",
-      "url": "https://github.com/kubevirt/kubevirt/issues/18959",
-      "date": "2026-08-27T12:07:39Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 18950,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending",
-      "url": "https://github.com/kubevirt/kubevirt/issues/18950",
-      "date": "2026-08-27T12:06:07Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 9656,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs",
-      "url": "https://github.com/velero-io/velero/issues/9656",
-      "date": "2026-08-26T02:04:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9760,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.",
-      "url": "https://github.com/velero-io/velero/issues/9760",
-      "date": "2026-08-26T02:04:00Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10297,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields",
-      "url": "https://github.com/velero-io/velero/issues/10297",
-      "date": "2026-08-25T22:08:19Z",
       "workstream": "Velero"
     }
   ],

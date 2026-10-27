@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-07-29 — 2026-10-27
-> **Generated:** 2026-10-27 11:54:03 UTC
+> **Generated:** 2026-10-27 17:40:58 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 66 |
+| PRs Reviewed | 68 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 88 |
 
@@ -33,7 +33,8 @@
 - [#10027 Add set-based label selector test and docs coverage for restore](https://github.com/velero-io/velero/pull/10027) — velero-io/velero
 - [#9575 Add configurable tolerations for PodVolumeBackup and data mover pods](https://github.com/velero-io/velero/pull/9575) — velero-io/velero
 
-**openshift** (32)
+**openshift** (33)
+- [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
 - [#87638 Trust OADP automation apps for presubmit triggering](https://github.com/openshift/release/pull/87638) — openshift/release
 - [#600 OADP-8895: Reject restores from backups not in a completed or partially failed phase (#9792)](https://github.com/openshift/velero/pull/600) — openshift/velero
 - [#130 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/130) — openshift/velero-plugin-for-legacy-aws
@@ -80,7 +81,7 @@
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (41)
+**Other** (40)
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#1571 Add support for Chipsea-BLE GATT body fat scales](https://github.com/oliexdev/openScale/pull/1571) — oliexdev/openScale
 - [#198 docs: Android update via Tasker; stable-name release zip (v1.1.2)](https://github.com/kaovilai/github-bot-command-palette/pull/198) — kaovilai/github-bot-command-palette
@@ -121,7 +122,6 @@
 - [#13 Lower ambiguous-timeout budget to 80s to beat client watchdogs](https://github.com/kaovilai/copilot-api/pull/13) — kaovilai/copilot-api
 - [#182 Fall back to top-level build-log.txt for steps that die before writing artifacts](https://github.com/kaovilai/github-bot-command-palette/pull/182) — kaovilai/github-bot-command-palette
 - [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
-- [#6 Fix Netlify build failure: bump Node version and sync yarn.lock](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6) — kaovilai/bandwidth-hero-proxy2
 ## PRs Opened (100)
 
 **velero-io** (29)
@@ -231,9 +231,16 @@
 - [#266 ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266) — kaovilai/cephcsi-cbt-e2e
 - [#267 feat(desktop): throw the pet like a ball on drag release](https://github.com/OpenPetsHQ/openpets/pull/267) — OpenPetsHQ/openpets
 - [#18765 feat(web): sidebar search finds a thread by its ID](https://github.com/pingdotgg/t3code/pull/18765) — pingdotgg/t3code
-## PRs Reviewed (66)
+## PRs Reviewed (68)
 
-**velero-io** (18)
+**velero-io** (21)
+- [#10680 e2e: run the Kibishii file system backup cases on kind under CSI](https://github.com/velero-io/velero/pull/10680) — velero-io/velero
+- [#10735 e2e: add fine-grained resource and restore filter test via resource policies](https://github.com/velero-io/velero/pull/10735) — velero-io/velero
+- [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
+- [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
+- [#280 Update assignees in the yaml file](https://github.com/velero-io/velero-plugin-for-gcp/pull/280) — velero-io/velero-plugin-for-gcp
+- [#91 Update assignee settings](https://github.com/velero-io/velero-plugin-example/pull/91) — velero-io/velero-plugin-example
+- [#10742 Remove qiuming-best from OWNERS of PROW action](https://github.com/velero-io/velero/pull/10742) — velero-io/velero
 - [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10682 [release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs](https://github.com/velero-io/velero/pull/10682) — velero-io/velero
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
@@ -248,12 +255,9 @@
 - [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10649 Makefile: fix make serve-docs on buildx setups](https://github.com/velero-io/velero/pull/10649) — velero-io/velero
 - [#10556 [Design]Owner reference and dependency relink design](https://github.com/velero-io/velero/pull/10556) — velero-io/velero
-- [#10493 fix: bound VolumeSnapshot and VolumeSnapshotContent error retry by CSISnapshotTimeout](https://github.com/velero-io/velero/pull/10493) — velero-io/velero
-- [#10666 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10666) — velero-io/velero
-- [#10657 e2e: point Kibishii at the kind-csi overlay when CSI is enabled](https://github.com/velero-io/velero/pull/10657) — velero-io/velero
-- [#10656 Reuse cached Go modules across CI jobs](https://github.com/velero-io/velero/pull/10656) — velero-io/velero
 
-**openshift** (29)
+**openshift** (28)
+- [#593 Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)](https://github.com/openshift/velero/pull/593) — openshift/velero
 - [#2491 [oadp-dev] tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll](https://github.com/openshift/oadp-operator/pull/2491) — openshift/oadp-operator
 - [#493 Bump github.com/klauspost/compress from 1.18.6 to 1.18.7](https://github.com/openshift/openshift-velero-plugin/pull/493) — openshift/openshift-velero-plugin
 - [#56 OADP-7954: Add Phase 1 OADP Agent Skills](https://github.com/openshift/agentic-skills/pull/56) — openshift/agentic-skills
@@ -272,7 +276,6 @@
 - [#192 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192) — openshift/velero-plugin-for-microsoft-azure
 - [#133 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.4 (7d87261) into oadp-1.4](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/133) — openshift/velero-plugin-for-legacy-aws
 - [#591 Bump golangci-lint from v2.5.0 to v2.14.0](https://github.com/openshift/velero/pull/591) — openshift/velero
-- [#593 Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)](https://github.com/openshift/velero/pull/593) — openshift/velero
 - [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
 - [#2485 tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s](https://github.com/openshift/oadp-operator/pull/2485) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
@@ -282,7 +285,6 @@
 - [#183 Update auto-request-review action to v0.13.0](https://github.com/openshift/velero-plugin-for-gcp/pull/183) — openshift/velero-plugin-for-gcp
 - [#177 Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (50b3928) into oadp-1.6](https://github.com/openshift/oadp-must-gather/pull/177) — openshift/oadp-must-gather
 - [#2494 OADP-8926, OADP-8911: scope operand network policies and fix DNS egress](https://github.com/openshift/oadp-operator/pull/2494) — openshift/oadp-operator
-- [#590 Merge https://github.com/velero-io/velero:v1.14.0 (2fc6300) into oadp-1.4](https://github.com/openshift/velero/pull/590) — openshift/velero
 
 **migtools** (16)
 - [#116 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vm-file-restore/pull/116) — migtools/oadp-vm-file-restore
@@ -308,7 +310,17 @@
 - [#208 Refresh dashboard CVE data when a fix PR merges](https://github.com/oadp-rebasebot/oadp-rebase/pull/208) — oadp-rebasebot/oadp-rebase
 ## Issues/PRs Commented On (100)
 
-**velero-io** (49)
+**velero-io** (54)
+- [#7804 Enhancing Velero Schedule with RetainDays and RetainCount for Backup Retention Management.](https://github.com/velero-io/velero/issues/7804) — velero-io/velero
+- [#8401 Issue with Velero Restore : Azure disk PV Created with Old SKU Despite Updated Storage Class](https://github.com/velero-io/velero/issues/8401) — velero-io/velero
+- [#9866 Kopia Repository Folder Not Cleaned Up from MinIO After Backup Deletion and Full Maintenance](https://github.com/velero-io/velero/issues/9866) — velero-io/velero
+- [#7760 Metrics for backup repository maintenance job](https://github.com/velero-io/velero/issues/7760) — velero-io/velero
+- [#8535 Repo maintenance - don't run backup/restore if repo maintenance fails in a row](https://github.com/velero-io/velero/issues/8535) — velero-io/velero
+- [#7858 Backup en AWS Outposts ](https://github.com/velero-io/velero/issues/7858) — velero-io/velero
+- [#4169 velero Restic restore aws efs Error](https://github.com/velero-io/velero/issues/4169) — velero-io/velero
+- [#5232 AWS EBS restore should use the KMS key specified in the storage class](https://github.com/velero-io/velero/issues/5232) — velero-io/velero
+- [#9396 Velero cannot detect CSI driver ebs.csi.eks.amazonaws.com on EKS Auto Mode](https://github.com/velero-io/velero/issues/9396) — velero-io/velero
+- [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
 - [#10693 Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)](https://github.com/velero-io/velero/issues/10693) — velero-io/velero
 - [#10694 E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)](https://github.com/velero-io/velero/issues/10694) — velero-io/velero
 - [#10092 Deprecate the block volume backup/restore functionality through Kopia file system uploader](https://github.com/velero-io/velero/issues/10092) — velero-io/velero
@@ -347,31 +359,25 @@
 - [#9453 DataUpload tasks stuck in Prepared phase for extended periods](https://github.com/velero-io/velero/issues/9453) — velero-io/velero
 - [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
-- [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
 - [#9833 Backup/restore describe for block data mover](https://github.com/velero-io/velero/issues/9833) — velero-io/velero
 - [#9835 Backup deletion for block data mover](https://github.com/velero-io/velero/issues/9835) — velero-io/velero
 - [#10478 Support structured output for multi-item backup and restore describe](https://github.com/velero-io/velero/issues/10478) — velero-io/velero
 - [#7564 Add support to output restore describe in multiple format like backups](https://github.com/velero-io/velero/issues/7564) — velero-io/velero
 - [#8654 Velero backups failing due to blob missing from the repository](https://github.com/velero-io/velero/issues/8654) — velero-io/velero
 - [#10440 Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite](https://github.com/velero-io/velero/issues/10440) — velero-io/velero
-- [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
-- [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
-- [#9760 Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.](https://github.com/velero-io/velero/issues/9760) — velero-io/velero
-- [#10297 A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields](https://github.com/velero-io/velero/issues/10297) — velero-io/velero
 
-**openshift** (6)
+**openshift** (5)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#2386 Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/issues/2386) — openshift/oadp-operator
 - [#2403 e2e: Simple backup and restore flow using MinIO w/ TLS certs](https://github.com/openshift/oadp-operator/issues/2403) — openshift/oadp-operator
-- [#2413 Poll: how to fix e2e-test-kubevirt-aws hitting the 2h Prow step timeout](https://github.com/openshift/oadp-operator/issues/2413) — openshift/oadp-operator
 
 **migtools** (2)
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
-**Other** (43)
+**Other** (39)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
@@ -411,10 +417,6 @@
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#915 branchprotector cannot manage required status check GitHub App identity](https://github.com/kubernetes-sigs/prow/issues/915) — kubernetes-sigs/prow
 - [#4549 v1beta1→v1 conversion webhook fails on spec.featureGates: "cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates"](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549) — kubevirt/hyperconverged-cluster-operator
-- [#1847 Include scrollback history in state restoration](https://github.com/ghostty-org/ghostty/issues/1847) — ghostty-org/ghostty
-- [#481 Support using a later patch release than what's in go.mod](https://github.com/actions/setup-go/issues/481) — actions/setup-go
-- [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt
-- [#18950 VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending](https://github.com/kubevirt/kubevirt/issues/18950) — kubevirt/kubevirt
 ## Issues Closed (88)
 
 **velero-io** (25)
