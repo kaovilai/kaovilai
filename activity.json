@@ -3,15 +3,51 @@
     "start": "2026-07-29",
     "end": "2026-10-27"
   },
-  "generatedAt": "2026-10-27T01:55:51Z",
+  "generatedAt": "2026-10-27T11:54:03Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 66,
     "issuesCommented": 100,
-    "issuesClosed": 86
+    "issuesClosed": 88
   },
   "prsMerged": [
+    {
+      "number": 319,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Add CODEOWNERS for automatic review requests",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319",
+      "date": "2026-10-27T09:29:08Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10690,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190",
+      "url": "https://github.com/velero-io/velero/pull/10690",
+      "date": "2026-10-27T07:48:10Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 649,
+      "repo": "ceph/ceph-csi-operator",
+      "org": "ceph",
+      "title": "docs: document enableSeLinuxHostMount for node plugins",
+      "url": "https://github.com/ceph/ceph-csi-operator/pull/649",
+      "date": "2026-10-27T05:57:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10700,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Treat a kopia snapshot not found after a repo refresh as deleted",
+      "url": "https://github.com/velero-io/velero/pull/10700",
+      "date": "2026-10-27T03:08:16Z",
+      "workstream": "Velero"
+    },
     {
       "number": 197,
       "repo": "migtools/udistribution",
@@ -875,42 +911,6 @@
       "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/6",
       "date": "2026-09-10T20:13:20Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2445,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: don't check VEP-25 CRDs before the feature gate that creates them",
-      "url": "https://github.com/openshift/oadp-operator/pull/2445",
-      "date": "2026-09-10T19:52:13Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Harden CRX recorder/transport reconnect lifecycle with bounded recovery and stale-session renewal",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/3",
-      "date": "2026-09-10T18:26:16Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/playwright-crx",
-      "org": "kaovilai",
-      "title": "Keep recorder sessions alive across UI reconnects and stop Resume/Step from replaying paused actions",
-      "url": "https://github.com/kaovilai/playwright-crx/pull/1",
-      "date": "2026-09-10T13:14:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2234,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-7541: fix non-deterministic matchExpressions ordering causing node-agent restarts",
-      "url": "https://github.com/openshift/oadp-operator/pull/2234",
-      "date": "2026-09-09T23:26:25Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 10673,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Recognize GCS object-not-found error during backup deletion",
+      "url": "https://github.com/velero-io/velero/pull/10673",
+      "date": "2026-10-27T08:05:32Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10682,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs",
+      "url": "https://github.com/velero-io/velero/pull/10682",
+      "date": "2026-10-27T07:32:55Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 23732,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -2051,15 +2069,6 @@
       "workstream": "OADP"
     },
     {
-      "number": 10682,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs",
-      "url": "https://github.com/velero-io/velero/pull/10682",
-      "date": "2026-10-23T15:48:10Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 208,
       "repo": "oadp-rebasebot/oadp-rebase",
       "org": "oadp-rebasebot",
@@ -2067,15 +2076,6 @@
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/208",
       "date": "2026-10-23T15:34:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10673,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Recognize GCS object-not-found error during backup deletion",
-      "url": "https://github.com/velero-io/velero/pull/10673",
-      "date": "2026-10-23T13:16:50Z",
-      "workstream": "Velero"
     },
     {
       "number": 501,
@@ -2413,13 +2413,13 @@
   ],
   "issuesCommented": [
     {
-      "number": 10092,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Deprecate the block volume backup/restore functionality through Kopia file system uploader",
-      "url": "https://github.com/velero-io/velero/issues/10092",
-      "date": "2026-10-27T01:52:26Z",
-      "workstream": "Velero"
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-27T11:45:25Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 10693,
@@ -2427,7 +2427,16 @@
       "org": "velero-io",
       "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
       "url": "https://github.com/velero-io/velero/issues/10693",
-      "date": "2026-10-27T01:07:49Z",
+      "date": "2026-10-27T07:48:46Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10694,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
+      "url": "https://github.com/velero-io/velero/issues/10694",
+      "date": "2026-10-27T07:48:33Z",
       "workstream": "Velero"
     },
     {
@@ -2436,8 +2445,17 @@
       "org": "ceph",
       "title": "rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)",
       "url": "https://github.com/ceph/ceph-csi/issues/6679",
-      "date": "2026-10-26T20:18:58Z",
+      "date": "2026-10-27T06:12:31Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 10092,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Deprecate the block volume backup/restore functionality through Kopia file system uploader",
+      "url": "https://github.com/velero-io/velero/issues/10092",
+      "date": "2026-10-27T03:06:28Z",
+      "workstream": "Velero"
     },
     {
       "number": 10553,
@@ -2467,15 +2485,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-26T12:24:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 4673,
       "repo": "kubevirt/hyperconverged-cluster-operator",
       "org": "kubevirt",
@@ -2483,15 +2492,6 @@
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673",
       "date": "2026-10-26T07:25:36Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10694,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
-      "url": "https://github.com/velero-io/velero/issues/10694",
-      "date": "2026-10-26T05:50:11Z",
-      "workstream": "Velero"
     },
     {
       "number": 10120,
@@ -3314,6 +3314,24 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 6679,
+      "repo": "ceph/ceph-csi",
+      "org": "ceph",
+      "title": "rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)",
+      "url": "https://github.com/ceph/ceph-csi/issues/6679",
+      "date": "2026-10-27T06:12:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10721,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Regression: backup deletion fails for good after an interrupted deletion (kopia snapshot not found after repo refresh)",
+      "url": "https://github.com/velero-io/velero/issues/10721",
+      "date": "2026-10-27T03:08:17Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10719,
       "repo": "velero-io/velero",
