@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-27 11:32:21 UTC
+> Last updated: 2026-10-27 17:45:54 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -15,12 +15,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10426](https://img.shields.io/badge/PR%20%2310426-ready-green)](https://github.com/velero-io/velero/pull/10426) **velero-io/velero** → `release-1.18` - [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10555](https://img.shields.io/badge/PR%20%2310555-ready-green)](https://github.com/velero-io/velero/pull/10555) **velero-io/velero** → `main` - Fix e2e-test-kind and changelog-check CI flakes
 - [![PR #10689](https://img.shields.io/badge/PR%20%2310689-ready-green)](https://github.com/velero-io/velero/pull/10689) **velero-io/velero** → `main` - Group Go security updates in Dependabot
-- [![PR #10691](https://img.shields.io/badge/PR%20%2310691-ready-green)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement (milestone: **v1.19**)
 - [![PR #10692](https://img.shields.io/badge/PR%20%2310692-ready-green)](https://github.com/velero-io/velero/pull/10692) **velero-io/velero** → `main` - Add Dependabot updates for run-jammy-tiny on supported release branches
 - [![PR #10695](https://img.shields.io/badge/PR%20%2310695-ready-green)](https://github.com/velero-io/velero/pull/10695) **velero-io/velero** → `main` - ci: add CodeQL analysis for Go
 - [![PR #10699](https://img.shields.io/badge/PR%20%2310699-ready-green)](https://github.com/velero-io/velero/pull/10699) **velero-io/velero** → `main` - Delete the in-place restore baseline snapshot under a Retain class (milestone: **v1.19**)
 - [![PR #10710](https://img.shields.io/badge/PR%20%2310710-ready-green)](https://github.com/velero-io/velero/pull/10710) **velero-io/velero** → `main` - Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace
-- [![PR #10716](https://img.shields.io/badge/PR%20%2310716-ready-green)](https://github.com/velero-io/velero/pull/10716) **velero-io/velero** → `main` - Retain the backup snapshot only for the block data mover (milestone: **v1.19**)
 - [![PR #10718](https://img.shields.io/badge/PR%20%2310718-ready-green)](https://github.com/velero-io/velero/pull/10718) **velero-io/velero** → `main` - docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/321) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #323](https://img.shields.io/badge/PR%20%23323-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/323) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Fix SSE-C signed URLs (cherry-pick #280)
@@ -29,6 +27,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs (milestone: **v1.19**)
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815) (milestone: **v1.19**)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
+- [![PR #10691](https://img.shields.io/badge/PR%20%2310691-draft-gray)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
 - [![PR #5](https://img.shields.io/badge/PR%20%235-draft-gray)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Draft Velero security self-assessment and SECURITY.md response roles for CNCF incubation
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
@@ -71,10 +70,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2493](https://img.shields.io/badge/PR%20%232493-ready-green)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
+- [![PR #249](https://img.shields.io/badge/PR%20%23249-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/249) **openshift/hypershift-oadp-plugin** → `main` - NO-JIRA: Bump sigs.k8s.io/controller-runtime from 0.25.0 to 0.25.2 in the sigs-k8s-dependencies group across 1 directory
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-ready-green)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
-- [![PR #327](https://img.shields.io/badge/PR%20%23327-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/327) **openshift/hypershift-oadp-plugin** → `main` - NO-JIRA: Group Go security updates in Dependabot
-- [![PR #370](https://img.shields.io/badge/PR%20%23370-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/370) **openshift/openshift-velero-plugin** → `oadp-1.5` - [oadp-1.5] Add comprehensive test coverage for restore plugins
-- [![PR #371](https://img.shields.io/badge/PR%20%23371-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/371) **openshift/openshift-velero-plugin** → `oadp-1.4` - [oadp-1.4] Add comprehensive test coverage for restore plugins
+- [![PR #329](https://img.shields.io/badge/PR%20%23329-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/329) **openshift/hypershift-oadp-plugin** → `main` - NO-JIRA: Bump the github-dependencies group across 1 directory with 3 updates
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
@@ -121,7 +119,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.4` - Update auto-request-review action to v0.13.0
-- [![PR #593](https://img.shields.io/badge/PR%20%23593-failing--ci-red)](https://github.com/openshift/velero/pull/593) **openshift/velero** → `oadp-1.5` - Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-failing--ci-red)](https://github.com/openshift/restic/pull/69) **openshift/restic** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
@@ -165,7 +162,7 @@ No open PRs.
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
-- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): header menu and Git menu reach a thread's linked pull request
+- [![PR #17717](https://img.shields.io/badge/PR%20%2317717-ready-green)](https://github.com/pingdotgg/t3code/pull/17717) **pingdotgg/t3code** → `main` - fix(mobile): reach a thread's pull requests from the Android header
 - [![PR #1793](https://img.shields.io/badge/PR%20%231793-ready-green)](https://github.com/sooperset/mcp-atlassian/pull/1793) **sooperset/mcp-atlassian** → `main` - fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
