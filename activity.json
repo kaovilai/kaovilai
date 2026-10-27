@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-28",
-    "end": "2026-10-26"
+    "start": "2026-07-29",
+    "end": "2026-10-27"
   },
-  "generatedAt": "2026-10-26T23:03:31Z",
+  "generatedAt": "2026-10-27T01:55:51Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 66,
     "issuesCommented": 100,
-    "issuesClosed": 87
+    "issuesClosed": 86
   },
   "prsMerged": [
     {
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 23732,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): PDF previews keep their page when the agent responds",
+      "url": "https://github.com/pingdotgg/t3code/pull/23732",
+      "date": "2026-10-27T00:37:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10739,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1824,15 +1833,6 @@
       "url": "https://github.com/velero-io/velero/pull/10739",
       "date": "2026-10-26T22:00:21Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 23732,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): PDF previews keep their page when the agent responds",
-      "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-26T11:16:17Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10679,
@@ -2413,6 +2413,24 @@
   ],
   "issuesCommented": [
     {
+      "number": 10092,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Deprecate the block volume backup/restore functionality through Kopia file system uploader",
+      "url": "https://github.com/velero-io/velero/issues/10092",
+      "date": "2026-10-27T01:52:26Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10693,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
+      "url": "https://github.com/velero-io/velero/issues/10693",
+      "date": "2026-10-27T01:07:49Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 6679,
       "repo": "ceph/ceph-csi",
       "org": "ceph",
@@ -2438,15 +2456,6 @@
       "url": "https://github.com/sooperset/mcp-atlassian/issues/909",
       "date": "2026-10-26T19:25:43Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10693,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
-      "url": "https://github.com/velero-io/velero/issues/10693",
-      "date": "2026-10-26T15:45:57Z",
-      "workstream": "Velero"
     },
     {
       "number": 10303,
@@ -3302,15 +3311,6 @@
       "url": "https://github.com/velero-io/velero/issues/10297",
       "date": "2026-08-25T22:08:19Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2407,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern",
-      "url": "https://github.com/openshift/oadp-operator/issues/2407",
-      "date": "2026-08-25T17:47:37Z",
-      "workstream": "OADP"
     }
   ],
   "issuesClosed": [
@@ -4087,15 +4087,6 @@
       "url": "https://github.com/stolostron/multiclusterhub-operator/issues/1492",
       "date": "2026-07-29T13:36:32Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10022,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Flaky unit test:  TestBlockUploaderBackup/success_full_backup",
-      "url": "https://github.com/velero-io/velero/issues/10022",
-      "date": "2026-07-28T15:56:03Z",
-      "workstream": "Velero"
     }
   ]
 }
