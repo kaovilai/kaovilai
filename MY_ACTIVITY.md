@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-30 — 2026-10-28
-> **Generated:** 2026-10-28 01:03:21 UTC
+> **Generated:** 2026-10-28 02:04:51 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 71 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 85 |
+| Issues Closed | 86 |
 
 ---
 
@@ -124,7 +124,8 @@
 - [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
 ## PRs Opened (100)
 
-**velero-io** (31)
+**velero-io** (32)
+- [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
 - [#10750 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10750) — velero-io/velero
 - [#10749 e2e: bound each Kibishii verify attempt by the poll deadline](https://github.com/velero-io/velero/pull/10749) — velero-io/velero
 - [#10718 docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance](https://github.com/velero-io/velero/pull/10718) — velero-io/velero
@@ -206,7 +207,7 @@
 - [#120 [oadp-1.6] ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/120) — migtools/oadp-vm-file-restore
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 
-**Other** (24)
+**Other** (23)
 - [#6569 fix(autocomplete): use file name of the binary as default basename](https://github.com/scaleway/scaleway-cli/pull/6569) — scaleway/scaleway-cli
 - [#18636 csi: enable selinux host mount in openshift example](https://github.com/rook/rook/pull/18636) — rook/rook
 - [#1793 fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit](https://github.com/sooperset/mcp-atlassian/pull/1793) — sooperset/mcp-atlassian
@@ -230,10 +231,10 @@
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 - [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
 - [#72 fix: parse @-prefixed and filters-nested OWNERS entries](https://github.com/dpanshug/upstream-pulse/pull/72) — dpanshug/upstream-pulse
-- [#266 ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266) — kaovilai/cephcsi-cbt-e2e
 ## PRs Reviewed (71)
 
 **velero-io** (24)
+- [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
 - [#10751 build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/velero-io/velero/pull/10751) — velero-io/velero
 - [#10747 e2e: run the BSL deletion snapshot case on kind under CSI](https://github.com/velero-io/velero/pull/10747) — velero-io/velero
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
@@ -247,7 +248,6 @@
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 - [#10680 e2e: run the Kibishii file system backup cases on kind under CSI](https://github.com/velero-io/velero/pull/10680) — velero-io/velero
 - [#10735 e2e: add fine-grained resource and restore filter test via resource policies](https://github.com/velero-io/velero/pull/10735) — velero-io/velero
-- [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
 - [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10682 [release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs](https://github.com/velero-io/velero/pull/10682) — velero-io/velero
 - [#10679 e2e: give the namespace-mapping cases real volumes on kind under CSI](https://github.com/velero-io/velero/pull/10679) — velero-io/velero
@@ -420,9 +420,10 @@
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#915 branchprotector cannot manage required status check GitHub App identity](https://github.com/kubernetes-sigs/prow/issues/915) — kubernetes-sigs/prow
-## Issues Closed (85)
+## Issues Closed (86)
 
-**velero-io** (25)
+**velero-io** (26)
+- [#10724 Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit](https://github.com/velero-io/velero/issues/10724) — velero-io/velero
 - [#10721 Regression: backup deletion fails for good after an interrupted deletion (kopia snapshot not found after repo refresh)](https://github.com/velero-io/velero/issues/10721) — velero-io/velero
 - [#10719 Block data mover restore skips zero ranges: BLKZEROOUT ioctl number is wrong](https://github.com/velero-io/velero/issues/10719) — velero-io/velero
 - [#10653 Improve CI reliability by reusing Go module caches across test jobs](https://github.com/velero-io/velero/issues/10653) — velero-io/velero

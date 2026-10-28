@@ -3,13 +3,13 @@
     "start": "2026-07-30",
     "end": "2026-10-28"
   },
-  "generatedAt": "2026-10-28T01:03:21Z",
+  "generatedAt": "2026-10-28T02:04:51Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 71,
     "issuesCommented": 100,
-    "issuesClosed": 85
+    "issuesClosed": 86
   },
   "prsMerged": [
     {
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 10752,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: add data mover memory and upload concurrency tuning guidance",
+      "url": "https://github.com/velero-io/velero/pull/10752",
+      "date": "2026-10-28T01:25:44Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10750,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1804,18 +1813,18 @@
       "url": "https://github.com/dpanshug/upstream-pulse/pull/72",
       "date": "2026-10-14T15:25:57Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 266,
-      "repo": "kaovilai/cephcsi-cbt-e2e",
-      "org": "kaovilai",
-      "title": "ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize",
-      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266",
-      "date": "2026-10-13T06:28:21Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10740,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue 10724: Add parallel upload/download control for Velero fs and block data mover",
+      "url": "https://github.com/velero-io/velero/pull/10740",
+      "date": "2026-10-28T01:17:36Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10751,
       "repo": "velero-io/velero",
@@ -1958,15 +1967,6 @@
       "title": "e2e: add fine-grained resource and restore filter test via resource policies",
       "url": "https://github.com/velero-io/velero/pull/10735",
       "date": "2026-10-27T16:04:01Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10740,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue 10724: Add parallel upload/download control for Velero fs and block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10740",
-      "date": "2026-10-27T15:16:19Z",
       "workstream": "Velero"
     },
     {
@@ -3359,6 +3359,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10724,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit",
+      "url": "https://github.com/velero-io/velero/issues/10724",
+      "date": "2026-10-28T01:17:46Z",
+      "workstream": "Velero"
+    },
     {
       "number": 6679,
       "repo": "ceph/ceph-csi",
