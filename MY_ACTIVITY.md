@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-30 — 2026-10-28
-> **Generated:** 2026-10-28 12:30:23 UTC
+> **Generated:** 2026-10-28 18:03:03 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -156,7 +156,7 @@
 - [#10690 [release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190](https://github.com/velero-io/velero/pull/10690) — velero-io/velero
 - [#10689 Group Go security updates in Dependabot](https://github.com/velero-io/velero/pull/10689) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
-- [#5 Draft Velero security self-assessment and SECURITY.md response roles for CNCF incubation](https://github.com/velero-io/.github/pull/5) — velero-io/.github
+- [#5 Draft Velero CNCF incubation security and engineering materials](https://github.com/velero-io/.github/pull/5) — velero-io/.github
 
 **openshift** (30)
 - [#2519 docs: note that nodeAgent.loadAffinity also limits File System Backup](https://github.com/openshift/oadp-operator/pull/2519) — openshift/oadp-operator
@@ -208,6 +208,7 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 
 **Other** (23)
+- [#6479 KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService](https://github.com/kubernetes/enhancements/pull/6479) — kubernetes/enhancements
 - [#6569 fix(autocomplete): use file name of the binary as default basename](https://github.com/scaleway/scaleway-cli/pull/6569) — scaleway/scaleway-cli
 - [#18636 csi: enable selinux host mount in openshift example](https://github.com/rook/rook/pull/18636) — rook/rook
 - [#1793 fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit](https://github.com/sooperset/mcp-atlassian/pull/1793) — sooperset/mcp-atlassian
@@ -230,20 +231,21 @@
 - [#19785 fix(web): a message queued behind a running turn no longer pushes the working header below it](https://github.com/pingdotgg/t3code/pull/19785) — pingdotgg/t3code
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 - [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
-- [#72 fix: parse @-prefixed and filters-nested OWNERS entries](https://github.com/dpanshug/upstream-pulse/pull/72) — dpanshug/upstream-pulse
 ## PRs Reviewed (71)
 
-**velero-io** (24)
+**velero-io** (26)
+- [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
+- [#280 Update assignees in the yaml file](https://github.com/velero-io/velero-plugin-for-gcp/pull/280) — velero-io/velero-plugin-for-gcp
+- [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
+- [#10753 Rollback create retain snapshot](https://github.com/velero-io/velero/pull/10753) — velero-io/velero
 - [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
 - [#10751 build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/velero-io/velero/pull/10751) — velero-io/velero
 - [#10747 e2e: run the BSL deletion snapshot case on kind under CSI](https://github.com/velero-io/velero/pull/10747) — velero-io/velero
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
-- [#280 Update assignees in the yaml file](https://github.com/velero-io/velero-plugin-for-gcp/pull/280) — velero-io/velero-plugin-for-gcp
 - [#340 Update the auto-assignees.yml of aws plugin](https://github.com/velero-io/velero-plugin-for-aws/pull/340) — velero-io/velero-plugin-for-aws
 - [#10678 e2e: finish converting the CSI feature checks to FeatureEnabled](https://github.com/velero-io/velero/pull/10678) — velero-io/velero
 - [#10624 Fix backup dequeued twice from a stale cached Queued copy](https://github.com/velero-io/velero/pull/10624) — velero-io/velero
 - [#91 Update assignee settings](https://github.com/velero-io/velero-plugin-example/pull/91) — velero-io/velero-plugin-example
-- [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
 - [#10742 Remove qiuming-best from OWNERS of PROW action](https://github.com/velero-io/velero/pull/10742) — velero-io/velero
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 - [#10680 e2e: run the Kibishii file system backup cases on kind under CSI](https://github.com/velero-io/velero/pull/10680) — velero-io/velero
@@ -259,7 +261,7 @@
 - [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
 - [#10649 Makefile: fix make serve-docs on buildx setups](https://github.com/velero-io/velero/pull/10649) — velero-io/velero
 
-**openshift** (29)
+**openshift** (27)
 - [#505 [oadp-1.4] Add comprehensive test coverage for restore plugins](https://github.com/openshift/openshift-velero-plugin/pull/505) — openshift/openshift-velero-plugin
 - [#329 NO-JIRA: Bump the github-dependencies group across 1 directory with 3 updates](https://github.com/openshift/hypershift-oadp-plugin/pull/329) — openshift/hypershift-oadp-plugin
 - [#593 Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)](https://github.com/openshift/velero/pull/593) — openshift/velero
@@ -287,8 +289,6 @@
 - [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
 - [#87249 Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1](https://github.com/openshift/release/pull/87249) — openshift/release
 - [#2498 Fix BSL count race condition in multi-BSL e2e test](https://github.com/openshift/oadp-operator/pull/2498) — openshift/oadp-operator
-- [#183 Update auto-request-review action to v0.13.0](https://github.com/openshift/velero-plugin-for-gcp/pull/183) — openshift/velero-plugin-for-gcp
-- [#177 Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (50b3928) into oadp-1.6](https://github.com/openshift/oadp-must-gather/pull/177) — openshift/oadp-must-gather
 
 **migtools** (15)
 - [#116 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vm-file-restore/pull/116) — migtools/oadp-vm-file-restore
@@ -314,9 +314,9 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (55)
+- [#10675 E2E: Kibishii cases reachable on kind with CSI but never run there](https://github.com/velero-io/velero/issues/10675) — velero-io/velero
 - [#9650 Restore fails when Service last-applied-configuration has "healthCheckNodePort": null](https://github.com/velero-io/velero/issues/9650) — velero-io/velero
 - [#10730 DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)](https://github.com/velero-io/velero/issues/10730) — velero-io/velero
-- [#10675 E2E: Kibishii cases reachable on kind with CSI but never run there](https://github.com/velero-io/velero/issues/10675) — velero-io/velero
 - [#10694 E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)](https://github.com/velero-io/velero/issues/10694) — velero-io/velero
 - [#10483 [CSI][Async Backup] Progress() treats retryable VolumeSnapshotContent errors as terminal, failing backups the snapshot controller was about to retry](https://github.com/velero-io/velero/issues/10483) — velero-io/velero
 - [#7804 Enhancing Velero Schedule with RetainDays and RetainCount for Backup Retention Management.](https://github.com/velero-io/velero/issues/7804) — velero-io/velero
@@ -382,11 +382,11 @@
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
 **Other** (38)
+- [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
-- [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#4673 v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673) — kubevirt/hyperconverged-cluster-operator
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code

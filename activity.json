@@ -3,7 +3,7 @@
     "start": "2026-07-30",
     "end": "2026-10-28"
   },
-  "generatedAt": "2026-10-28T12:30:23Z",
+  "generatedAt": "2026-10-28T18:03:03Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 6479,
+      "repo": "kubernetes/enhancements",
+      "org": "kubernetes",
+      "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
+      "url": "https://github.com/kubernetes/enhancements/pull/6479",
+      "date": "2026-10-28T14:24:09Z",
+      "workstream": "Kubernetes"
+    },
+    {
       "number": 10752,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1404,7 +1413,7 @@
       "number": 5,
       "repo": "velero-io/.github",
       "org": "velero-io",
-      "title": "Draft Velero security self-assessment and SECURITY.md response roles for CNCF incubation",
+      "title": "Draft Velero CNCF incubation security and engineering materials",
       "url": "https://github.com/velero-io/.github/pull/5",
       "date": "2026-10-22T20:23:22Z",
       "workstream": "Velero"
@@ -1804,18 +1813,45 @@
       "url": "https://github.com/kaovilai/kaovilai/pull/80",
       "date": "2026-10-14T20:01:19Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 72,
-      "repo": "dpanshug/upstream-pulse",
-      "org": "dpanshug",
-      "title": "fix: parse @-prefixed and filters-nested OWNERS entries",
-      "url": "https://github.com/dpanshug/upstream-pulse/pull/72",
-      "date": "2026-10-14T15:25:57Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 336,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Update auto-assignees.yml",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
+      "date": "2026-10-28T15:38:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 280,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "Update assignees in the yaml file",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/280",
+      "date": "2026-10-28T15:38:21Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 335,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
+      "date": "2026-10-28T14:24:36Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10753,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Rollback create retain snapshot",
+      "url": "https://github.com/velero-io/velero/pull/10753",
+      "date": "2026-10-28T12:45:02Z",
+      "workstream": "Velero"
+    },
     {
       "number": 23732,
       "repo": "pingdotgg/t3code",
@@ -1862,15 +1898,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 280,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Update assignees in the yaml file",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/280",
-      "date": "2026-10-27T21:20:57Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 505,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -1913,15 +1940,6 @@
       "title": "Update assignee settings",
       "url": "https://github.com/velero-io/velero-plugin-example/pull/91",
       "date": "2026-10-27T18:16:32Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 336,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Update auto-assignees.yml",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
-      "date": "2026-10-27T18:16:01Z",
       "workstream": "Velero"
     },
     {
@@ -2436,27 +2454,27 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2498",
       "date": "2026-10-20T03:52:32Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 183,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Update auto-request-review action to v0.13.0",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/183",
-      "date": "2026-10-19T21:25:48Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 177,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.6 (50b3928) into oadp-1.6",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/177",
-      "date": "2026-10-19T15:36:03Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10675,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Kibishii cases reachable on kind with CSI but never run there",
+      "url": "https://github.com/velero-io/velero/issues/10675",
+      "date": "2026-10-28T17:45:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-10-28T17:42:39Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 9650,
       "repo": "velero-io/velero",
@@ -2501,15 +2519,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/17422",
       "date": "2026-10-28T03:35:43Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10675,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: Kibishii cases reachable on kind with CSI but never run there",
-      "url": "https://github.com/velero-io/velero/issues/10675",
-      "date": "2026-10-27T19:34:21Z",
-      "workstream": "Velero"
     },
     {
       "number": 10694,
@@ -2645,15 +2654,6 @@
       "url": "https://github.com/velero-io/velero/issues/10092",
       "date": "2026-10-27T03:06:28Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10553,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
-      "url": "https://github.com/pingdotgg/t3code/issues/10553",
-      "date": "2026-10-26T20:15:21Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 909,
