@@ -3,7 +3,7 @@
     "start": "2026-07-30",
     "end": "2026-10-28"
   },
-  "generatedAt": "2026-10-28T18:03:03Z",
+  "generatedAt": "2026-10-28T22:58:25Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,24 @@
     "issuesClosed": 86
   },
   "prsMerged": [
+    {
+      "number": 17,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "fix: parse every stream event so first-token timing is recorded",
+      "url": "https://github.com/kaovilai/copilot-api/pull/17",
+      "date": "2026-10-28T21:05:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Merge upstream/dev (2.7.43, incl. request plugins) into dev",
+      "url": "https://github.com/kaovilai/copilot-api/pull/16",
+      "date": "2026-10-28T20:45:35Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 327,
       "repo": "openshift/hypershift-oadp-plugin",
@@ -893,27 +911,27 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2446",
       "date": "2026-09-10T20:57:51Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 182,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Fall back to top-level build-log.txt for steps that die before writing artifacts",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/182",
-      "date": "2026-09-10T20:28:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 176,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Add per-command cancel-x to pending combo buttons",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/176",
-      "date": "2026-09-03T20:42:56Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 17,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "fix: parse every stream event so first-token timing is recorded",
+      "url": "https://github.com/kaovilai/copilot-api/pull/17",
+      "date": "2026-10-28T21:03:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "Merge upstream/dev (2.7.43, incl. request plugins) into dev",
+      "url": "https://github.com/kaovilai/copilot-api/pull/16",
+      "date": "2026-10-28T20:40:52Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 6479,
       "repo": "kubernetes/enhancements",
@@ -1795,34 +1813,43 @@
       "url": "https://github.com/pingdotgg/t3code/pull/19785",
       "date": "2026-10-15T05:08:45Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 91,
-      "repo": "redhat-et/pricetag-metering",
-      "org": "redhat-et",
-      "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
-      "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
-      "date": "2026-10-15T04:10:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 80,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Group every repo under an org node in the orbit chart",
-      "url": "https://github.com/kaovilai/kaovilai/pull/80",
-      "date": "2026-10-14T20:01:19Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2521,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add hotfix image creation guide for development docs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2521",
+      "date": "2026-10-28T22:41:36Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 603,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/openshift/velero/pull/603",
+      "date": "2026-10-28T22:22:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2488,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
+      "url": "https://github.com/openshift/oadp-operator/pull/2488",
+      "date": "2026-10-28T22:07:16Z",
+      "workstream": "OADP"
+    },
     {
       "number": 336,
       "repo": "velero-io/velero-plugin-for-microsoft-azure",
       "org": "velero-io",
       "title": "Update auto-assignees.yml",
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
-      "date": "2026-10-28T15:38:42Z",
+      "date": "2026-10-28T20:35:29Z",
       "workstream": "Velero"
     },
     {
@@ -2427,33 +2454,6 @@
       "url": "https://github.com/openshift/release/pull/87249",
       "date": "2026-10-20T10:07:39Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10660,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: drop the SKIP_KIND label, which nothing reads",
-      "url": "https://github.com/velero-io/velero/pull/10660",
-      "date": "2026-10-20T09:58:34Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10649,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Makefile: fix make serve-docs on buildx setups",
-      "url": "https://github.com/velero-io/velero/pull/10649",
-      "date": "2026-10-20T09:27:04Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2498,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix BSL count race condition in multi-BSL e2e test",
-      "url": "https://github.com/openshift/oadp-operator/pull/2498",
-      "date": "2026-10-20T03:52:32Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [

@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-30 — 2026-10-28
-> **Generated:** 2026-10-28 18:03:03 UTC
+> **Generated:** 2026-10-28 22:58:25 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -82,6 +82,8 @@
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
 **Other** (40)
+- [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
+- [#16 Merge upstream/dev (2.7.43, incl. request plugins) into dev](https://github.com/kaovilai/copilot-api/pull/16) — kaovilai/copilot-api
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#1571 Add support for Chipsea-BLE GATT body fat scales](https://github.com/oliexdev/openScale/pull/1571) — oliexdev/openScale
 - [#198 docs: Android update via Tasker; stable-name release zip (v1.1.2)](https://github.com/kaovilai/github-bot-command-palette/pull/198) — kaovilai/github-bot-command-palette
@@ -120,8 +122,6 @@
 - [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
 - [#14 Fix healthcheck: use 127.0.0.1 instead of localhost](https://github.com/kaovilai/copilot-api/pull/14) — kaovilai/copilot-api
 - [#13 Lower ambiguous-timeout budget to 80s to beat client watchdogs](https://github.com/kaovilai/copilot-api/pull/13) — kaovilai/copilot-api
-- [#182 Fall back to top-level build-log.txt for steps that die before writing artifacts](https://github.com/kaovilai/github-bot-command-palette/pull/182) — kaovilai/github-bot-command-palette
-- [#176 Add per-command cancel-x to pending combo buttons](https://github.com/kaovilai/github-bot-command-palette/pull/176) — kaovilai/github-bot-command-palette
 ## PRs Opened (100)
 
 **velero-io** (32)
@@ -208,6 +208,8 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 
 **Other** (23)
+- [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
+- [#16 Merge upstream/dev (2.7.43, incl. request plugins) into dev](https://github.com/kaovilai/copilot-api/pull/16) — kaovilai/copilot-api
 - [#6479 KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService](https://github.com/kubernetes/enhancements/pull/6479) — kubernetes/enhancements
 - [#6569 fix(autocomplete): use file name of the binary as default basename](https://github.com/scaleway/scaleway-cli/pull/6569) — scaleway/scaleway-cli
 - [#18636 csi: enable selinux host mount in openshift example](https://github.com/rook/rook/pull/18636) — rook/rook
@@ -229,11 +231,9 @@
 - [#47 Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) — dohyeon5626/github-html-preview-extension
 - [#19792 feat(claude): add a fork subagents switch to Claude instances](https://github.com/pingdotgg/t3code/pull/19792) — pingdotgg/t3code
 - [#19785 fix(web): a message queued behind a running turn no longer pushes the working header below it](https://github.com/pingdotgg/t3code/pull/19785) — pingdotgg/t3code
-- [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
-- [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
 ## PRs Reviewed (71)
 
-**velero-io** (26)
+**velero-io** (24)
 - [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
 - [#280 Update assignees in the yaml file](https://github.com/velero-io/velero-plugin-for-gcp/pull/280) — velero-io/velero-plugin-for-gcp
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
@@ -258,10 +258,11 @@
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 - [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
-- [#10660 e2e: drop the SKIP_KIND label, which nothing reads](https://github.com/velero-io/velero/pull/10660) — velero-io/velero
-- [#10649 Makefile: fix make serve-docs on buildx setups](https://github.com/velero-io/velero/pull/10649) — velero-io/velero
 
-**openshift** (27)
+**openshift** (29)
+- [#2521 Add hotfix image creation guide for development docs](https://github.com/openshift/oadp-operator/pull/2521) — openshift/oadp-operator
+- [#603 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/velero/pull/603) — openshift/velero
+- [#2488 Enable AllNamespaces install mode with multi-tenant DPA support](https://github.com/openshift/oadp-operator/pull/2488) — openshift/oadp-operator
 - [#505 [oadp-1.4] Add comprehensive test coverage for restore plugins](https://github.com/openshift/openshift-velero-plugin/pull/505) — openshift/openshift-velero-plugin
 - [#329 NO-JIRA: Bump the github-dependencies group across 1 directory with 3 updates](https://github.com/openshift/hypershift-oadp-plugin/pull/329) — openshift/hypershift-oadp-plugin
 - [#593 Backport: Add ConfigMap support for keepLatestMaintenanceJobs (oadp-1.5)](https://github.com/openshift/velero/pull/593) — openshift/velero
@@ -288,7 +289,6 @@
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
 - [#87249 Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1](https://github.com/openshift/release/pull/87249) — openshift/release
-- [#2498 Fix BSL count race condition in multi-BSL e2e test](https://github.com/openshift/oadp-operator/pull/2498) — openshift/oadp-operator
 
 **migtools** (15)
 - [#116 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vm-file-restore/pull/116) — migtools/oadp-vm-file-restore
