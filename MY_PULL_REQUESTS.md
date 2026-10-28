@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-28 12:02:30 UTC
+> Last updated: 2026-10-28 18:09:55 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -30,7 +30,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10691](https://img.shields.io/badge/PR%20%2310691-draft-gray)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
-- [![PR #5](https://img.shields.io/badge/PR%20%235-draft-gray)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Draft Velero security self-assessment and SECURITY.md response roles for CNCF incubation
+- [![PR #5](https://img.shields.io/badge/PR%20%235-draft-gray)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Draft Velero CNCF incubation security and engineering materials
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
@@ -73,6 +73,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2493](https://img.shields.io/badge/PR%20%232493-ready-green)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-ready-green)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
+- [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
@@ -167,6 +168,7 @@ No open PRs.
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #6569](https://img.shields.io/badge/PR%20%236569-ready-green)](https://github.com/scaleway/scaleway-cli/pull/6569) **scaleway/scaleway-cli** → `main` - fix(autocomplete): use file name of the binary as default basename
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
