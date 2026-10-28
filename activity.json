@@ -3,7 +3,7 @@
     "start": "2026-07-30",
     "end": "2026-10-28"
   },
-  "generatedAt": "2026-10-28T02:04:51Z",
+  "generatedAt": "2026-10-28T12:30:23Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -364,20 +364,20 @@
       "workstream": "Velero"
     },
     {
-      "number": 129,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 188,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
       "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 129,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
       "date": "2026-10-21T18:58:35Z",
       "workstream": "Velero"
     },
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 23732,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): PDF previews keep their page when the agent responds",
+      "url": "https://github.com/pingdotgg/t3code/pull/23732",
+      "date": "2026-10-28T05:57:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10740,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1986,15 +1995,6 @@
       "url": "https://github.com/velero-io/velero/pull/10682",
       "date": "2026-10-27T07:32:55Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 23732,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): PDF previews keep their page when the agent responds",
-      "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-27T00:37:13Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10679,
@@ -2458,13 +2458,49 @@
   ],
   "issuesCommented": [
     {
+      "number": 9650,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore fails when Service last-applied-configuration has \"healthCheckNodePort\": null",
+      "url": "https://github.com/velero-io/velero/issues/9650",
+      "date": "2026-10-28T12:24:07Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-28T12:14:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17655,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)",
+      "url": "https://github.com/pingdotgg/t3code/issues/17655",
+      "date": "2026-10-28T11:52:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10730,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)",
       "url": "https://github.com/velero-io/velero/issues/10730",
-      "date": "2026-10-27T20:18:16Z",
+      "date": "2026-10-28T06:44:45Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 17422,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
+      "url": "https://github.com/pingdotgg/t3code/issues/17422",
+      "date": "2026-10-28T03:35:43Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 10675,
@@ -2584,15 +2620,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-27T11:45:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 10693,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2663,15 +2690,6 @@
       "url": "https://github.com/velero-io/velero/issues/10120",
       "date": "2026-10-26T01:51:53Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 17422,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
-      "url": "https://github.com/pingdotgg/t3code/issues/17422",
-      "date": "2026-10-25T13:23:22Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10310,
@@ -2860,15 +2878,6 @@
       "title": "Testing Operators Built With The Operator SDK and Deployed Through OLM",
       "url": "https://github.com/openshift/ci-docs/issues/597",
       "date": "2026-10-14T00:05:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17655,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)",
-      "url": "https://github.com/pingdotgg/t3code/issues/17655",
-      "date": "2026-10-13T20:36:09Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3347,15 +3356,6 @@
       "url": "https://github.com/openshift/oadp-operator/issues/2403",
       "date": "2026-09-04T16:58:10Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 7564,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add support to output restore describe in multiple format like backups",
-      "url": "https://github.com/velero-io/velero/issues/7564",
-      "date": "2026-09-03T18:38:10Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [

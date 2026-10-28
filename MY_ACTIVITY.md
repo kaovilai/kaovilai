@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-07-30 — 2026-10-28
-> **Generated:** 2026-10-28 02:04:51 UTC
+> **Generated:** 2026-10-28 12:30:23 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -51,8 +51,8 @@
 - [#131 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/131) — openshift/velero-plugin-for-legacy-aws
 - [#128 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128) — openshift/velero-plugin-for-legacy-aws
 - [#186 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-aws/pull/186) — openshift/velero-plugin-for-aws
-- [#129 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129) — openshift/velero-plugin-for-legacy-aws
 - [#188 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188) — openshift/velero-plugin-for-microsoft-azure
+- [#129 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129) — openshift/velero-plugin-for-legacy-aws
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-aws/pull/187) — openshift/velero-plugin-for-aws
 - [#184 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-aws/pull/184) — openshift/velero-plugin-for-aws
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187) — openshift/velero-plugin-for-microsoft-azure
@@ -314,6 +314,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (55)
+- [#9650 Restore fails when Service last-applied-configuration has "healthCheckNodePort": null](https://github.com/velero-io/velero/issues/9650) — velero-io/velero
 - [#10730 DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)](https://github.com/velero-io/velero/issues/10730) — velero-io/velero
 - [#10675 E2E: Kibishii cases reachable on kind with CSI but never run there](https://github.com/velero-io/velero/issues/10675) — velero-io/velero
 - [#10694 E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)](https://github.com/velero-io/velero/issues/10694) — velero-io/velero
@@ -368,7 +369,6 @@
 - [#9833 Backup/restore describe for block data mover](https://github.com/velero-io/velero/issues/9833) — velero-io/velero
 - [#9835 Backup deletion for block data mover](https://github.com/velero-io/velero/issues/9835) — velero-io/velero
 - [#10478 Support structured output for multi-item backup and restore describe](https://github.com/velero-io/velero/issues/10478) — velero-io/velero
-- [#7564 Add support to output restore describe in multiple format like backups](https://github.com/velero-io/velero/issues/7564) — velero-io/velero
 
 **openshift** (5)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
@@ -383,11 +383,12 @@
 
 **Other** (38)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
+- [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#4673 v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673) — kubevirt/hyperconverged-cluster-operator
-- [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
@@ -402,7 +403,6 @@
 - [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
-- [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
 - [#15234 [Feature]: Continue a Codex or Claude Code session started in the terminal as a T3 Code thread](https://github.com/pingdotgg/t3code/issues/15234) — pingdotgg/t3code
 - [#13875 [Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex](https://github.com/pingdotgg/t3code/issues/13875) — pingdotgg/t3code
