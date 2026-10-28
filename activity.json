@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-29",
-    "end": "2026-10-27"
+    "start": "2026-07-30",
+    "end": "2026-10-28"
   },
-  "generatedAt": "2026-10-27T17:40:58Z",
+  "generatedAt": "2026-10-28T00:49:18Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 68,
+    "prsReviewed": 71,
     "issuesCommented": 100,
-    "issuesClosed": 88
+    "issuesClosed": 85
   },
   "prsMerged": [
     {
@@ -915,6 +915,24 @@
   ],
   "prsOpened": [
     {
+      "number": 10750,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Reject malformed glob patterns in resource filters",
+      "url": "https://github.com/velero-io/velero/pull/10750",
+      "date": "2026-10-27T21:04:32Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10749,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: bound each Kibishii verify attempt by the poll deadline",
+      "url": "https://github.com/velero-io/velero/pull/10749",
+      "date": "2026-10-27T20:20:59Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 6569,
       "repo": "scaleway/scaleway-cli",
       "org": "scaleway",
@@ -1795,27 +1813,126 @@
       "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266",
       "date": "2026-10-13T06:28:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 267,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "feat(desktop): throw the pet like a ball on drag release",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/267",
-      "date": "2026-10-13T02:39:21Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18765,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(web): sidebar search finds a thread by its ID",
-      "url": "https://github.com/pingdotgg/t3code/pull/18765",
-      "date": "2026-10-12T19:45:04Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10751,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
+      "url": "https://github.com/velero-io/velero/pull/10751",
+      "date": "2026-10-27T21:49:05Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10747,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the BSL deletion snapshot case on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10747",
+      "date": "2026-10-27T21:34:34Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10652,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
+      "url": "https://github.com/velero-io/velero/pull/10652",
+      "date": "2026-10-27T21:24:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 280,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "Update assignees in the yaml file",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/280",
+      "date": "2026-10-27T21:20:57Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 505,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.4] Add comprehensive test coverage for restore plugins",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/505",
+      "date": "2026-10-27T20:48:17Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 340,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Update the auto-assignees.yml of aws plugin",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/340",
+      "date": "2026-10-27T19:31:36Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10678,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: finish converting the CSI feature checks to FeatureEnabled",
+      "url": "https://github.com/velero-io/velero/pull/10678",
+      "date": "2026-10-27T19:06:37Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10624,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup dequeued twice from a stale cached Queued copy",
+      "url": "https://github.com/velero-io/velero/pull/10624",
+      "date": "2026-10-27T18:25:03Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 91,
+      "repo": "velero-io/velero-plugin-example",
+      "org": "velero-io",
+      "title": "Update assignee settings",
+      "url": "https://github.com/velero-io/velero-plugin-example/pull/91",
+      "date": "2026-10-27T18:16:32Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 336,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Update auto-assignees.yml",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
+      "date": "2026-10-27T18:16:01Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10742,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove qiuming-best from OWNERS of PROW action",
+      "url": "https://github.com/velero-io/velero/pull/10742",
+      "date": "2026-10-27T18:14:20Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 329,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "NO-JIRA: Bump the github-dependencies group across 1 directory with 3 updates",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/329",
+      "date": "2026-10-27T18:10:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10739,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
+      "url": "https://github.com/velero-io/velero/pull/10739",
+      "date": "2026-10-27T17:41:34Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10680,
       "repo": "velero-io/velero",
@@ -1853,42 +1970,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 336,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Update auto-assignees.yml",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
-      "date": "2026-10-27T12:25:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 280,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Update assignees in the yaml file",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/280",
-      "date": "2026-10-27T12:24:12Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 91,
-      "repo": "velero-io/velero-plugin-example",
-      "org": "velero-io",
-      "title": "Update assignee settings",
-      "url": "https://github.com/velero-io/velero-plugin-example/pull/91",
-      "date": "2026-10-27T12:23:39Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10742,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove qiuming-best from OWNERS of PROW action",
-      "url": "https://github.com/velero-io/velero/pull/10742",
-      "date": "2026-10-27T12:22:48Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10673,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1914,15 +1995,6 @@
       "url": "https://github.com/pingdotgg/t3code/pull/23732",
       "date": "2026-10-27T00:37:13Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10739,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
-      "url": "https://github.com/velero-io/velero/pull/10739",
-      "date": "2026-10-26T22:00:21Z",
-      "workstream": "Velero"
     },
     {
       "number": 10679,
@@ -1952,15 +2024,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10652,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
-      "url": "https://github.com/velero-io/velero/pull/10652",
-      "date": "2026-10-25T05:11:38Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 23510,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -1968,15 +2031,6 @@
       "url": "https://github.com/pingdotgg/t3code/pull/23510",
       "date": "2026-10-24T06:17:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10678,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: finish converting the CSI feature checks to FeatureEnabled",
-      "url": "https://github.com/velero-io/velero/pull/10678",
-      "date": "2026-10-23T23:28:16Z",
-      "workstream": "Velero"
     },
     {
       "number": 2491,
@@ -2400,36 +2454,45 @@
       "url": "https://github.com/openshift/oadp-must-gather/pull/177",
       "date": "2026-10-19T15:36:03Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 280,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.6 (1e1b143) into oadp-1.6",
-      "url": "https://github.com/migtools/oadp-cli/pull/280",
-      "date": "2026-10-19T15:15:55Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Design]Owner reference and dependency relink design",
-      "url": "https://github.com/velero-io/velero/pull/10556",
-      "date": "2026-10-19T02:40:23Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2494,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8926, OADP-8911: scope operand network policies and fix DNS egress",
-      "url": "https://github.com/openshift/oadp-operator/pull/2494",
-      "date": "2026-10-18T22:55:35Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10730,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)",
+      "url": "https://github.com/velero-io/velero/issues/10730",
+      "date": "2026-10-27T20:18:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10675,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: Kibishii cases reachable on kind with CSI but never run there",
+      "url": "https://github.com/velero-io/velero/issues/10675",
+      "date": "2026-10-27T19:34:21Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10694,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
+      "url": "https://github.com/velero-io/velero/issues/10694",
+      "date": "2026-10-27T19:14:12Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10483,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[CSI][Async Backup] Progress() treats retryable VolumeSnapshotContent errors as terminal, failing backups the snapshot controller was about to retry",
+      "url": "https://github.com/velero-io/velero/issues/10483",
+      "date": "2026-10-27T17:47:29Z",
+      "workstream": "Velero"
+    },
     {
       "number": 7804,
       "repo": "velero-io/velero",
@@ -2536,15 +2599,6 @@
       "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
       "url": "https://github.com/velero-io/velero/issues/10693",
       "date": "2026-10-27T07:48:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10694,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
-      "url": "https://github.com/velero-io/velero/issues/10694",
-      "date": "2026-10-27T07:48:33Z",
       "workstream": "Velero"
     },
     {
@@ -3301,33 +3355,6 @@
       "title": "Add support to output restore describe in multiple format like backups",
       "url": "https://github.com/velero-io/velero/issues/7564",
       "date": "2026-09-03T18:38:10Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 8654,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero backups failing due to blob missing from the repository",
-      "url": "https://github.com/velero-io/velero/issues/8654",
-      "date": "2026-09-03T08:27:00Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 4549,
-      "repo": "kubevirt/hyperconverged-cluster-operator",
-      "org": "kubevirt",
-      "title": "v1beta1→v1 conversion webhook fails on spec.featureGates: \"cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates\"",
-      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549",
-      "date": "2026-09-03T06:46:15Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10440,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cleanup: Resolve Ginkgo V2 and Gomega anti-patterns in test suite",
-      "url": "https://github.com/velero-io/velero/issues/10440",
-      "date": "2026-09-02T06:20:00Z",
       "workstream": "Velero"
     }
   ],
@@ -4095,33 +4122,6 @@
       "title": "Add JSON export alongside MY_ACTIVITY.md / MY_PULL_REQUESTS.md for site consumption",
       "url": "https://github.com/kaovilai/kaovilai/issues/67",
       "date": "2026-07-30T17:57:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 74,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "gh aw compile isn't available in this environment prevent use gh aw install action",
-      "url": "https://github.com/kaovilai/kaovilai.pw/issues/74",
-      "date": "2026-07-29T23:26:48Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 5328,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "src-bundle build flake: no node selector lets buildah pod land on arm64 node, fails pulling amd64-only pipeline:src manifest list",
-      "url": "https://github.com/openshift/ci-tools/issues/5328",
-      "date": "2026-07-29T14:09:27Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1492,
-      "repo": "stolostron/multiclusterhub-operator",
-      "org": "stolostron",
-      "title": "Move CRD installs out of Reconcile",
-      "url": "https://github.com/stolostron/multiclusterhub-operator/issues/1492",
-      "date": "2026-07-29T13:36:32Z",
       "workstream": "Uncategorized"
     }
   ]
