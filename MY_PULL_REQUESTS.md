@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-28 01:11:08 UTC
+> Last updated: 2026-10-28 01:59:38 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -29,6 +29,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10691](https://img.shields.io/badge/PR%20%2310691-draft-gray)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
+- [![PR #10752](https://img.shields.io/badge/PR%20%2310752-draft-gray)](https://github.com/velero-io/velero/pull/10752) **velero-io/velero** → `main` - docs: add data mover memory and upload concurrency tuning guidance (milestone: **v1.19**)
 - [![PR #5](https://img.shields.io/badge/PR%20%235-draft-gray)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Draft Velero security self-assessment and SECURITY.md response roles for CNCF incubation
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
