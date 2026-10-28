@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-27 17:45:54 UTC
+> Last updated: 2026-10-28 01:11:08 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -56,6 +56,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #8793](https://img.shields.io/badge/PR%20%238793-stale-yellow)](https://github.com/velero-io/velero/pull/8793) **velero-io/velero** → `main` - Make daemonset running error describe pod status
 - [![PR #8862](https://img.shields.io/badge/PR%20%238862-stale-yellow)](https://github.com/velero-io/velero/pull/8862) **velero-io/velero** → `main` - docs(tilt.md): add note about potential gRPC upgrade issue when using tilt up command
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
+- [![PR #10749](https://img.shields.io/badge/PR%20%2310749-failing--ci-red)](https://github.com/velero-io/velero/pull/10749) **velero-io/velero** → `main` - e2e: bound each Kibishii verify attempt by the poll deadline
 - [![PR #326](https://img.shields.io/badge/PR%20%23326-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #327](https://img.shields.io/badge/PR%20%23327-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-failing--ci-red)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running
@@ -70,9 +71,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2493](https://img.shields.io/badge/PR%20%232493-ready-green)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
-- [![PR #249](https://img.shields.io/badge/PR%20%23249-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/249) **openshift/hypershift-oadp-plugin** → `main` - NO-JIRA: Bump sigs.k8s.io/controller-runtime from 0.25.0 to 0.25.2 in the sigs-k8s-dependencies group across 1 directory
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-ready-green)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
-- [![PR #329](https://img.shields.io/badge/PR%20%23329-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/329) **openshift/hypershift-oadp-plugin** → `main` - NO-JIRA: Bump the github-dependencies group across 1 directory with 3 updates
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
@@ -166,7 +165,7 @@ No open PRs.
 - [![PR #1793](https://img.shields.io/badge/PR%20%231793-ready-green)](https://github.com/sooperset/mcp-atlassian/pull/1793) **sooperset/mcp-atlassian** → `main` - fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
-- [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API, manifest lists, and multi-arch build support
+- [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #6569](https://img.shields.io/badge/PR%20%236569-ready-green)](https://github.com/scaleway/scaleway-cli/pull/6569) **scaleway/scaleway-cli** → `main` - fix(autocomplete): use file name of the binary as default basename
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
