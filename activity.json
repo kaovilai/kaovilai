@@ -3,11 +3,11 @@
     "start": "2026-07-31",
     "end": "2026-10-29"
   },
-  "generatedAt": "2026-10-29T18:11:42Z",
+  "generatedAt": "2026-10-29T23:07:20Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 72,
+    "prsReviewed": 73,
     "issuesCommented": 100,
     "issuesClosed": 85
   },
@@ -915,6 +915,33 @@
   ],
   "prsOpened": [
     {
+      "number": 111,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "UPSTREAM: <carry>: Select the live virt-launcher pod after live migration",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/111",
+      "date": "2026-10-29T20:44:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2525,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: describe descheduler impact on virtualization backups",
+      "url": "https://github.com/openshift/oadp-operator/pull/2525",
+      "date": "2026-10-29T20:39:14Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 604,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "[oadp-1.6] Handle data mover and hook pods that go away during a backup",
+      "url": "https://github.com/openshift/velero/pull/604",
+      "date": "2026-10-29T20:33:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 17,
       "repo": "kaovilai/copilot-api",
       "org": "kaovilai",
@@ -1786,36 +1813,27 @@
       "url": "https://github.com/dohyeon5626/github-html-preview-extension/pull/47",
       "date": "2026-10-15T19:46:56Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 489,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "OADP-8924: Treat missing openshift-apiserver config as no internal registry",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/489",
-      "date": "2026-10-15T15:41:14Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 19792,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "feat(claude): add a fork subagents switch to Claude instances",
-      "url": "https://github.com/pingdotgg/t3code/pull/19792",
-      "date": "2026-10-15T05:28:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 19785,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): a message queued behind a running turn no longer pushes the working header below it",
-      "url": "https://github.com/pingdotgg/t3code/pull/19785",
-      "date": "2026-10-15T05:08:45Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-10-29T22:09:43Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10761,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add 1.19 release notes",
+      "url": "https://github.com/velero-io/velero/pull/10761",
+      "date": "2026-10-29T18:30:34Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10759,
       "repo": "velero-io/velero",
@@ -2454,18 +2472,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2485",
       "date": "2026-10-21T01:56:13Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-10-21T00:01:35Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "date": "2026-10-29T18:25:57Z",
+      "workstream": "Velero"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2717,15 +2735,6 @@
       "url": "https://github.com/sooperset/mcp-atlassian/issues/909",
       "date": "2026-10-26T19:25:43Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc",
-      "url": "https://github.com/velero-io/velero/issues/10303",
-      "date": "2026-10-26T14:54:42Z",
-      "workstream": "Velero"
     },
     {
       "number": 4673,
