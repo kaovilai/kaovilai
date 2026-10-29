@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-29 18:16:14 UTC
+> Last updated: 2026-10-29 23:09:23 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -66,16 +66,18 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-ready-green)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #118214](https://img.shields.io/badge/PR%20%23118214-ready-green)](https://github.com/openshift/openshift-docs/pull/118214) **openshift/openshift-docs** → `main` - Replace credentialsFile with spec.credential in OADP VSL examples
+- [![PR #135](https://img.shields.io/badge/PR%20%23135-ready-green)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/135) **openshift/velero-plugin-for-legacy-aws** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #194](https://img.shields.io/badge/PR%20%23194-ready-green)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/194) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
 - [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
-- [![PR #2493](https://img.shields.io/badge/PR%20%232493-ready-green)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-ready-green)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
+- [![PR #2522](https://img.shields.io/badge/PR%20%232522-ready-green)](https://github.com/openshift/oadp-operator/pull/2522) **openshift/oadp-operator** → `oadp-dev` - Add NonAdminSchedule design proposal
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
+- [![PR #2526](https://img.shields.io/badge/PR%20%232526-ready-green)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
@@ -90,18 +92,20 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #183](https://img.shields.io/badge/PR%20%23183-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/183) **openshift/velero-plugin-for-gcp** → `oadp-1.4` - Update auto-request-review action to v0.13.0
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
+- [![PR #2493](https://img.shields.io/badge/PR%20%232493-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #2522](https://img.shields.io/badge/PR%20%232522-ci--pending-yellow)](https://github.com/openshift/oadp-operator/pull/2522) **openshift/oadp-operator** → `oadp-dev` - Add NonAdminSchedule design proposal
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
 - [![PR #2499](https://img.shields.io/badge/PR%20%232499-draft-gray)](https://github.com/openshift/oadp-operator/pull/2499) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2517](https://img.shields.io/badge/PR%20%232517-draft-gray)](https://github.com/openshift/oadp-operator/pull/2517) **openshift/oadp-operator** → `oadp-dev` - Delete registry secrets of BSLs removed from the DPA
 - [![PR #2518](https://img.shields.io/badge/PR%20%232518-draft-gray)](https://github.com/openshift/oadp-operator/pull/2518) **openshift/oadp-operator** → `oadp-dev` - Keep IPv6 brackets when stripping default port from s3Url
 - [![PR #2519](https://img.shields.io/badge/PR%20%232519-draft-gray)](https://github.com/openshift/oadp-operator/pull/2519) **openshift/oadp-operator** → `oadp-dev` - docs: note that nodeAgent.loadAffinity also limits File System Backup
+- [![PR #2525](https://img.shields.io/badge/PR%20%232525-draft-gray)](https://github.com/openshift/oadp-operator/pull/2525) **openshift/oadp-operator** → `oadp-dev` - docs: describe descheduler impact on virtualization backups
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
+- [![PR #604](https://img.shields.io/badge/PR%20%23604-draft-gray)](https://github.com/openshift/velero/pull/604) **openshift/velero** → `oadp-1.6` - [oadp-1.6] Handle data mover and hook pods that go away during a backup
 - [![PR #104](https://img.shields.io/badge/PR%20%23104-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/104) **openshift/oadp-must-gather** → `oadp-dev` - add extended bsl info in the summary
 - [![PR #10586](https://img.shields.io/badge/PR%20%2310586-stale-yellow)](https://github.com/openshift/installer/pull/10586) **openshift/installer** → `main` - no-jira: GCP Destroy: Group Load Balancer Resources & Retry on Errors
 - [![PR #157](https://img.shields.io/badge/PR%20%23157-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/157) **openshift/oadp-must-gather** → `oadp-1.5` - [oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
@@ -130,7 +134,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-failing--ci-red)](https://github.com/openshift/restic/pull/69) **openshift/restic** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
-- [![PR #135](https://img.shields.io/badge/PR%20%23135-needs--attention-orange)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/135) **openshift/velero-plugin-for-legacy-aws** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
@@ -147,6 +150,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
 - [![PR #397](https://img.shields.io/badge/PR%20%23397-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/397) **migtools/oadp-non-admin** → `oadp-dev` - Fix pre-existing CI failures on oadp-dev
+- [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: <carry>: Select the live virt-launcher pod after live migration
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-stale-yellow)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
