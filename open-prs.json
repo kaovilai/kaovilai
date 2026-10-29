@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T02:04:02Z",
+  "updatedAt": "2026-10-29T12:12:57Z",
   "prs": [
     {
       "number": 10010,
@@ -3397,9 +3397,13 @@
         "kind/changelog-not-required",
         "Documentation"
       ],
-      "updatedAt": "2026-10-28T05:40:48Z",
+      "updatedAt": "2026-10-29T06:51:56Z",
       "workstream": "Velero",
       "ciChecks": [
+        {
+          "name": "add-reviews",
+          "conclusion": "SKIPPED"
+        },
         {
           "name": "auto-approve",
           "conclusion": "SKIPPED"
@@ -3422,6 +3426,10 @@
         },
         {
           "name": "Check for invalid characters in file paths",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "re-request-review",
           "conclusion": "SUCCESS"
         },
         {
@@ -15097,7 +15105,7 @@
         "lifecycle/stale",
         "dco-signoff: yes"
       ],
-      "updatedAt": "2026-10-26T20:34:49Z",
+      "updatedAt": "2026-10-29T07:00:45Z",
       "workstream": "KubeVirt Data Mover",
       "ciChecks": [
         {
@@ -15106,7 +15114,7 @@
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         },
         {
           "name": "dco",
@@ -16858,7 +16866,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-29T02:04:02Z",
+    "updatedAt": "2026-10-29T12:12:57Z",
     "needsReview": [
       {
         "number": 68,
@@ -16905,7 +16913,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 562,
+        "waitingDays": 563,
         "updatedAt": "2025-04-14T05:34:25Z"
       },
       {
@@ -16953,7 +16961,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 544,
+        "waitingDays": 545,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -16977,7 +16985,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 510,
+        "waitingDays": 511,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -17210,30 +17218,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 106,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -17259,8 +17243,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 105,
+        "waitingDays": 106,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 106,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 442,
@@ -17488,6 +17496,30 @@
         "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
+        "number": 35,
+        "repo": "HASHCUT69/Blend-n-Run",
+        "org": "HASHCUT69",
+        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
+        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 78,
+        "updatedAt": "2026-08-12T04:09:10Z"
+      },
+      {
         "number": 80150,
         "repo": "openshift/release",
         "org": "openshift",
@@ -17517,30 +17549,6 @@
         "reason": "hold",
         "waitingDays": 78,
         "updatedAt": "2026-08-11T20:28:19Z"
-      },
-      {
-        "number": 35,
-        "repo": "HASHCUT69/Blend-n-Run",
-        "org": "HASHCUT69",
-        "title": "Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site",
-        "url": "https://github.com/HASHCUT69/Blend-n-Run/pull/35",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 77,
-        "updatedAt": "2026-08-12T04:09:10Z"
       },
       {
         "number": 478,
@@ -17776,34 +17784,6 @@
         "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
-        "number": 10281,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-        "url": "https://github.com/velero-io/velero/pull/10281",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 62,
-        "updatedAt": "2026-08-27T16:58:54Z"
-      },
-      {
         "number": 7941,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -17818,7 +17798,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17850,7 +17830,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17881,7 +17861,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17912,7 +17892,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17969,7 +17949,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18072,7 +18052,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -18105,34 +18085,6 @@
         "reason": "awaitingReview",
         "waitingDays": 36,
         "updatedAt": "2026-09-22T17:31:15Z"
-      },
-      {
-        "number": 10555,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix e2e-test-kind and changelog-check CI flakes",
-        "url": "https://github.com/velero-io/velero/pull/10555",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 34,
-        "updatedAt": "2026-09-24T05:54:54Z"
       },
       {
         "number": 2379,
@@ -18209,7 +18161,7 @@
           "kind/changelog-not-required",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18224,39 +18176,6 @@
         "reason": "awaitingReview",
         "waitingDays": 29,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 29,
-        "updatedAt": "2026-09-29T21:00:44Z"
       },
       {
         "number": 121974,
@@ -18345,7 +18264,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
@@ -18406,39 +18325,6 @@
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
-        "number": 9236,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-10-08T04:29:03Z"
-      },
-      {
         "number": 82734,
         "repo": "openshift/release",
         "org": "openshift",
@@ -18491,7 +18377,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-10-14T03:13:06Z"
       },
       {
@@ -18517,7 +18403,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
@@ -18592,7 +18478,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18786,42 +18672,6 @@
         "updatedAt": "2026-10-23T13:42:45Z"
       },
       {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lifecycle/stale",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels",
-          "Acedus",
-          "alromeros"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-10-26T20:34:49Z"
-      },
-      {
         "number": 250,
         "repo": "migtools/kubevirt-datamover-controller",
         "org": "migtools",
@@ -18903,6 +18753,220 @@
         "updatedAt": "2026-10-26T20:20:14Z"
       },
       {
+        "number": 6569,
+        "repo": "scaleway/scaleway-cli",
+        "org": "scaleway",
+        "title": "fix(autocomplete): use file name of the binary as default basename",
+        "url": "https://github.com/scaleway/scaleway-cli/pull/6569",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "yfodil"
+        ],
+        "labels": [
+          "autocomplete"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "remyleone",
+          "yfodil"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T09:33:58Z"
+      },
+      {
+        "number": 10689,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Group Go security updates in Dependabot",
+        "url": "https://github.com/velero-io/velero/pull/10689",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T07:36:02Z"
+      },
+      {
+        "number": 10692,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Add Dependabot updates for run-jammy-tiny on supported release branches",
+        "url": "https://github.com/velero-io/velero/pull/10692",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation",
+          "has-changelog"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T07:37:44Z"
+      },
+      {
+        "number": 10695,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "ci: add CodeQL analysis for Go",
+        "url": "https://github.com/velero-io/velero/pull/10695",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T07:38:50Z"
+      },
+      {
+        "number": 10699,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Delete the in-place restore baseline snapshot under a Retain class",
+        "url": "https://github.com/velero-io/velero/pull/10699",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "Needs triage"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T07:49:22Z"
+      },
+      {
+        "number": 10710,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace",
+        "url": "https://github.com/velero-io/velero/pull/10710",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T07:40:20Z"
+      },
+      {
+        "number": 10718,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+        "url": "https://github.com/velero-io/velero/pull/10718",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-27T07:46:06Z"
+      },
+      {
         "number": 674,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -18960,37 +19024,6 @@
         "updatedAt": "2026-10-27T16:55:28Z"
       },
       {
-        "number": 6569,
-        "repo": "scaleway/scaleway-cli",
-        "org": "scaleway",
-        "title": "fix(autocomplete): use file name of the binary as default basename",
-        "url": "https://github.com/scaleway/scaleway-cli/pull/6569",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "yfodil"
-        ],
-        "labels": [
-          "autocomplete"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "remyleone",
-          "yfodil"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T09:33:58Z"
-      },
-      {
         "number": 375,
         "repo": "socktainer/socktainer",
         "org": "socktainer",
@@ -19013,189 +19046,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-10-27T20:14:29Z"
-      },
-      {
-        "number": 10689,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Group Go security updates in Dependabot",
-        "url": "https://github.com/velero-io/velero/pull/10689",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T07:36:02Z"
-      },
-      {
-        "number": 10692,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot updates for run-jammy-tiny on supported release branches",
-        "url": "https://github.com/velero-io/velero/pull/10692",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation",
-          "has-changelog"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T07:37:44Z"
-      },
-      {
-        "number": 10695,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "ci: add CodeQL analysis for Go",
-        "url": "https://github.com/velero-io/velero/pull/10695",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T07:38:50Z"
-      },
-      {
-        "number": 10699,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Delete the in-place restore baseline snapshot under a Retain class",
-        "url": "https://github.com/velero-io/velero/pull/10699",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "Needs triage"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T07:49:22Z"
-      },
-      {
-        "number": 10710,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace",
-        "url": "https://github.com/velero-io/velero/pull/10710",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T07:40:20Z"
-      },
-      {
-        "number": 10718,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
-        "url": "https://github.com/velero-io/velero/pull/10718",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T07:46:06Z"
       },
       {
         "number": 10749,
@@ -19287,6 +19137,42 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-10-29T00:08:40Z"
+      },
+      {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lifecycle/stale",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels",
+          "Acedus",
+          "alromeros"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-29T07:00:45Z"
       },
       {
         "number": 330,
@@ -19477,15 +19363,15 @@
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": false,
+        "hasGithubApproval": true,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
+        "approvalCount": 1,
         "requiredApprovals": null,
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-28T05:40:48Z"
+        "updatedAt": "2026-10-29T06:51:56Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -19531,7 +19417,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19573,36 +19459,6 @@
         "reason": "pendingMerge",
         "waitingDays": 104,
         "updatedAt": "2026-07-16T17:00:18Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 97,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 253,
@@ -19947,7 +19803,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -19973,7 +19829,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -20001,7 +19857,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -20029,7 +19885,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -20171,7 +20027,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20232,7 +20088,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20244,7 +20100,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -20306,7 +20162,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
@@ -20403,6 +20259,37 @@
         "reason": "pendingMerge",
         "waitingDays": 7,
         "updatedAt": "2026-10-21T21:06:02Z"
+      },
+      {
+        "number": 2502,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated",
+        "url": "https://github.com/openshift/oadp-operator/pull/2502",
+        "targetBranch": "oadp-1.5",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 7,
+        "updatedAt": "2026-10-22T02:20:15Z"
       },
       {
         "number": 107,
@@ -20527,37 +20414,6 @@
         "updatedAt": "2026-10-22T18:34:45Z"
       },
       {
-        "number": 2502,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated",
-        "url": "https://github.com/openshift/oadp-operator/pull/2502",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-10-22T02:20:15Z"
-      },
-      {
         "number": 2513,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20604,7 +20460,7 @@
           "jira/valid-reference",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
