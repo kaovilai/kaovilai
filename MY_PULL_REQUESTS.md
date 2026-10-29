@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-28 23:01:07 UTC
+> Last updated: 2026-10-29 02:04:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -67,8 +67,6 @@ This file is automatically updated every hour by GitHub Actions.
 
 - [![PR #10032](https://img.shields.io/badge/PR%20%2310032-ready-green)](https://github.com/openshift/installer/pull/10032) **openshift/installer** → `main` - Add SSH agent retry logic and tests for authentication errors
 - [![PR #118214](https://img.shields.io/badge/PR%20%23118214-ready-green)](https://github.com/openshift/openshift-docs/pull/118214) **openshift/openshift-docs** → `main` - Replace credentialsFile with spec.credential in OADP VSL examples
-- [![PR #191](https://img.shields.io/badge/PR%20%23191-ready-green)](https://github.com/openshift/velero-plugin-for-aws/pull/191) **openshift/velero-plugin-for-aws** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #194](https://img.shields.io/badge/PR%20%23194-ready-green)](https://github.com/openshift/velero-plugin-for-gcp/pull/194) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #194](https://img.shields.io/badge/PR%20%23194-ready-green)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/194) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/

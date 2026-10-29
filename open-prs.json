@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:01:07Z",
+  "updatedAt": "2026-10-29T02:04:02Z",
   "prs": [
     {
       "number": 10010,
@@ -10141,88 +10141,6 @@
       ]
     },
     {
-      "number": 191,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/191",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "redhat-chai-bot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "redhat-chai-bot"
-      ],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-10-28T20:00:46Z",
-      "workstream": "Velero",
-      "ciChecks": [
-        {
-          "name": "add-reviews",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run CI",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 194,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/194",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "redhat-chai-bot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "redhat-chai-bot"
-      ],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-10-28T20:03:02Z",
-      "workstream": "Velero",
-      "ciChecks": [
-        {
-          "name": "add-reviews",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run CI",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 194,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
@@ -15106,7 +15024,7 @@
         "needs-ok-to-test",
         "kind/kep"
       ],
-      "updatedAt": "2026-10-28T14:43:04Z",
+      "updatedAt": "2026-10-29T00:08:40Z",
       "workstream": "Kubernetes",
       "ciChecks": [
         {
@@ -15215,13 +15133,9 @@
         "vouch:unvouched",
         "size:M"
       ],
-      "updatedAt": "2026-10-27T16:57:27Z",
+      "updatedAt": "2026-10-29T00:39:57Z",
       "workstream": "Uncategorized",
       "ciChecks": [
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "CANCELLED"
-        },
         {
           "name": "Deploy relay preview",
           "conclusion": "SKIPPED"
@@ -15332,7 +15246,7 @@
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         },
         {
           "name": "Vercel – t3code-marketing",
@@ -16944,7 +16858,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-28T23:01:07Z",
+    "updatedAt": "2026-10-29T02:04:02Z",
     "needsReview": [
       {
         "number": 68,
@@ -16967,7 +16881,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 713,
+        "waitingDays": 714,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -17015,7 +16929,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 551,
+        "waitingDays": 552,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -17207,7 +17121,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 134,
+        "waitingDays": 135,
         "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
@@ -17296,6 +17210,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 106,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -17353,30 +17291,6 @@
         "reason": "hold",
         "waitingDays": 105,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 105,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -17830,7 +17744,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -17860,35 +17774,6 @@
         "reason": "awaitingReview",
         "waitingDays": 63,
         "updatedAt": "2026-08-26T17:05:08Z"
-      },
-      {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 62,
-        "updatedAt": "2026-08-27T17:00:09Z"
       },
       {
         "number": 10281,
@@ -18084,7 +17969,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18172,7 +18057,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18206,7 +18091,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18275,7 +18160,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -18304,7 +18189,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -18661,7 +18546,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
@@ -18691,8 +18576,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-10-21T00:01:35Z"
+      },
+      {
+        "number": 10032,
+        "repo": "openshift/installer",
+        "org": "openshift",
+        "title": "Add SSH agent retry logic and tests for authentication errors",
+        "url": "https://github.com/openshift/installer/pull/10032",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "lifecycle/stale"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pawanpinjarkar",
+          "rwsu"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2508,
@@ -18750,35 +18664,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-10-22T17:29:19Z"
-      },
-      {
-        "number": 10032,
-        "repo": "openshift/installer",
-        "org": "openshift",
-        "title": "Add SSH agent retry logic and tests for authentication errors",
-        "url": "https://github.com/openshift/installer/pull/10032",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "lifecycle/stale"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pawanpinjarkar",
-          "rwsu"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2512,
@@ -19004,7 +18889,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19016,6 +18901,39 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-10-26T20:20:14Z"
+      },
+      {
+        "number": 674,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "size/XL",
+          "area/tide"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "cjwagner",
+          "michelle192837",
+          "petr-muller"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
         "number": 115,
@@ -19338,39 +19256,6 @@
         "updatedAt": "2026-10-28T20:47:52Z"
       },
       {
-        "number": 674,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "size/XL",
-          "area/tide"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "cjwagner",
-          "michelle192837",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-28T00:56:31Z"
-      },
-      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -19395,12 +19280,13 @@
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
-          "saad-ali"
+          "saad-ali",
+          "xing-yang"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-28T14:43:04Z"
+        "updatedAt": "2026-10-29T00:08:40Z"
       },
       {
         "number": 330,
@@ -19571,64 +19457,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-10-28T20:14:01Z"
-      },
-      {
-        "number": 191,
-        "repo": "openshift/velero-plugin-for-aws",
-        "org": "openshift",
-        "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-        "url": "https://github.com/openshift/velero-plugin-for-aws/pull/191",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-28T20:00:46Z"
-      },
-      {
-        "number": 194,
-        "repo": "openshift/velero-plugin-for-gcp",
-        "org": "openshift",
-        "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/194",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-28T20:03:02Z"
       },
       {
         "number": 10752,
@@ -20448,7 +20276,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-10-14T00:43:53Z"
       },
       {
@@ -20730,6 +20558,37 @@
         "updatedAt": "2026-10-22T02:20:15Z"
       },
       {
+        "number": 2513,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add BSL validation timeout to known flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2513",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 6,
+        "updatedAt": "2026-10-23T00:43:31Z"
+      },
+      {
         "number": 56,
         "repo": "openshift/agentic-skills",
         "org": "openshift",
@@ -20760,37 +20619,6 @@
         "reason": "pendingMerge",
         "waitingDays": 5,
         "updatedAt": "2026-10-23T22:16:54Z"
-      },
-      {
-        "number": 2513,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add BSL validation timeout to known flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2513",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-10-23T00:43:31Z"
       },
       {
         "number": 182,
@@ -20861,35 +20689,6 @@
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
-        "number": 17717,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(mobile): reach a thread's pull requests from the Android header",
-        "url": "https://github.com/pingdotgg/t3code/pull/17717",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "juliusmarminge"
-        ],
-        "labels": [
-          "vouch:unvouched",
-          "size:M"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-27T16:57:27Z"
-      },
-      {
         "number": 603,
         "repo": "openshift/velero",
         "org": "openshift",
@@ -20947,6 +20746,35 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-10-28T20:19:05Z"
+      },
+      {
+        "number": 17717,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): reach a thread's pull requests from the Android header",
+        "url": "https://github.com/pingdotgg/t3code/pull/17717",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "juliusmarminge"
+        ],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-29T00:39:57Z"
       }
     ]
   }
