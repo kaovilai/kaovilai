@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-07-30",
-    "end": "2026-10-28"
+    "start": "2026-07-31",
+    "end": "2026-10-29"
   },
-  "generatedAt": "2026-10-28T22:58:25Z",
+  "generatedAt": "2026-10-29T02:15:07Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 71,
     "issuesCommented": 100,
-    "issuesClosed": 86
+    "issuesClosed": 84
   },
   "prsMerged": [
     {
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 10739,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
+      "url": "https://github.com/velero-io/velero/pull/10739",
+      "date": "2026-10-29T02:12:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10753,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Rollback create retain snapshot",
+      "url": "https://github.com/velero-io/velero/pull/10753",
+      "date": "2026-10-29T00:30:33Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2521,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1868,15 +1886,6 @@
       "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
       "date": "2026-10-28T14:24:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10753,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Rollback create retain snapshot",
-      "url": "https://github.com/velero-io/velero/pull/10753",
-      "date": "2026-10-28T12:45:02Z",
       "workstream": "Velero"
     },
     {
@@ -1986,15 +1995,6 @@
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/329",
       "date": "2026-10-27T18:10:31Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10739,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
-      "url": "https://github.com/velero-io/velero/pull/10739",
-      "date": "2026-10-27T17:41:34Z",
-      "workstream": "Velero"
     },
     {
       "number": 10680,
@@ -2457,6 +2457,24 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "date": "2026-10-29T01:36:43Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10078,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CI to check doc compliance with code change",
+      "url": "https://github.com/velero-io/velero/issues/10078",
+      "date": "2026-10-29T01:36:39Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10675,
       "repo": "velero-io/velero",
@@ -3338,24 +3356,6 @@
       "url": "https://github.com/velero-io/velero/issues/9835",
       "date": "2026-09-08T16:09:25Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10478,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support structured output for multi-item backup and restore describe",
-      "url": "https://github.com/velero-io/velero/issues/10478",
-      "date": "2026-09-08T06:09:17Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2403,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: Simple backup and restore flow using MinIO w/ TLS certs",
-      "url": "https://github.com/openshift/oadp-operator/issues/2403",
-      "date": "2026-09-04T16:58:10Z",
-      "workstream": "OADP"
     }
   ],
   "issuesClosed": [
@@ -4113,24 +4113,6 @@
       "title": "Implement my gemini app into github pages static",
       "url": "https://github.com/kaovilai/route-127-trailer-nc/issues/1",
       "date": "2026-08-03T04:02:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 146,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "https://legacy.kaovilai.pw/pay-me this section has thai qr code payment info. add it to here",
-      "url": "https://github.com/kaovilai/kaovilai.pw/issues/146",
-      "date": "2026-07-30T18:19:38Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 67,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Add JSON export alongside MY_ACTIVITY.md / MY_PULL_REQUESTS.md for site consumption",
-      "url": "https://github.com/kaovilai/kaovilai/issues/67",
-      "date": "2026-07-30T17:57:49Z",
       "workstream": "Uncategorized"
     }
   ]
