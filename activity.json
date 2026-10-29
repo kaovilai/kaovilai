@@ -3,13 +3,13 @@
     "start": "2026-07-31",
     "end": "2026-10-29"
   },
-  "generatedAt": "2026-10-29T02:15:07Z",
+  "generatedAt": "2026-10-29T12:41:19Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 71,
+    "prsReviewed": 72,
     "issuesCommented": 100,
-    "issuesClosed": 84
+    "issuesClosed": 85
   },
   "prsMerged": [
     {
@@ -382,20 +382,20 @@
       "workstream": "Velero"
     },
     {
-      "number": 188,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 129,
       "repo": "openshift/velero-plugin-for-legacy-aws",
       "org": "openshift",
       "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
+      "date": "2026-10-21T18:58:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 188,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
       "date": "2026-10-21T18:58:35Z",
       "workstream": "Velero"
     },
@@ -1822,7 +1822,43 @@
       "org": "velero-io",
       "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
       "url": "https://github.com/velero-io/velero/pull/10739",
-      "date": "2026-10-29T02:12:02Z",
+      "date": "2026-10-29T11:21:47Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 336,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Update auto-assignees.yml",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
+      "date": "2026-10-29T09:41:28Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10760,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add doc for custom action in volume policy",
+      "url": "https://github.com/velero-io/velero/pull/10760",
+      "date": "2026-10-29T03:45:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10759,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Expose resourcemodifiers package to pkg for plugin reuse",
+      "url": "https://github.com/velero-io/velero/pull/10759",
+      "date": "2026-10-29T03:30:31Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10735,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: add fine-grained resource and restore filter test via resource policies",
+      "url": "https://github.com/velero-io/velero/pull/10735",
+      "date": "2026-10-29T02:48:50Z",
       "workstream": "Velero"
     },
     {
@@ -1860,15 +1896,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2488",
       "date": "2026-10-28T22:07:16Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 336,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Update auto-assignees.yml",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336",
-      "date": "2026-10-28T20:35:29Z",
-      "workstream": "Velero"
     },
     {
       "number": 280,
@@ -2013,15 +2040,6 @@
       "url": "https://github.com/openshift/velero/pull/593",
       "date": "2026-10-27T16:38:25Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10735,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add fine-grained resource and restore filter test via resource policies",
-      "url": "https://github.com/velero-io/velero/pull/10735",
-      "date": "2026-10-27T16:04:01Z",
-      "workstream": "Velero"
     },
     {
       "number": 10673,
@@ -2357,20 +2375,20 @@
       "workstream": "Velero"
     },
     {
-      "number": 192,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192",
-      "date": "2026-10-22T13:38:46Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 133,
       "repo": "openshift/velero-plugin-for-legacy-aws",
       "org": "openshift",
       "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.4 (7d87261) into oadp-1.4",
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/133",
+      "date": "2026-10-22T13:38:46Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 192,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192",
       "date": "2026-10-22T13:38:46Z",
       "workstream": "Velero"
     },
@@ -2445,18 +2463,45 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2500",
       "date": "2026-10-20T18:38:09Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 87249,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1",
-      "url": "https://github.com/openshift/release/pull/87249",
-      "date": "2026-10-20T10:07:39Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-29T12:25:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2524,
+      "repo": "github/github-mcp-server",
+      "org": "github",
+      "title": "Clarify that pull_request_review_write create without event creates a pending review",
+      "url": "https://github.com/github/github-mcp-server/issues/2524",
+      "date": "2026-10-29T11:22:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2525,
+      "repo": "github/github-mcp-server",
+      "org": "github",
+      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
+      "url": "https://github.com/github/github-mcp-server/issues/2525",
+      "date": "2026-10-29T11:22:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10018,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos",
+      "url": "https://github.com/velero-io/velero/issues/10018",
+      "date": "2026-10-29T03:35:36Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10026,
       "repo": "velero-io/velero",
@@ -2501,15 +2546,6 @@
       "url": "https://github.com/velero-io/velero/issues/9650",
       "date": "2026-10-28T12:24:07Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-28T12:14:21Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 17655,
@@ -3268,15 +3304,6 @@
       "workstream": "KubeVirt Data Mover"
     },
     {
-      "number": 2525,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "`pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible",
-      "url": "https://github.com/github/github-mcp-server/issues/2525",
-      "date": "2026-09-14T04:13:55Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 8263,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -3338,27 +3365,18 @@
       "url": "https://github.com/kubernetes-sigs/prow/issues/915",
       "date": "2026-09-09T06:16:48Z",
       "workstream": "Kubernetes"
-    },
-    {
-      "number": 9833,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup/restore describe for block data mover",
-      "url": "https://github.com/velero-io/velero/issues/9833",
-      "date": "2026-09-08T16:09:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9835,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup deletion for block data mover",
-      "url": "https://github.com/velero-io/velero/issues/9835",
-      "date": "2026-09-08T16:09:25Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 90071,
+      "repo": "anthropics/claude-code",
+      "org": "anthropics",
+      "title": "Model reimplements ad-hoc polling scripts instead of using an available, more specific installed skill",
+      "url": "https://github.com/anthropics/claude-code/issues/90071",
+      "date": "2026-10-29T10:13:03Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10724,
       "repo": "velero-io/velero",

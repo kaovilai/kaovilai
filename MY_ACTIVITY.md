@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-07-31 — 2026-10-29
-> **Generated:** 2026-10-29 02:15:07 UTC
+> **Generated:** 2026-10-29 12:41:19 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 71 |
+| PRs Reviewed | 72 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 84 |
+| Issues Closed | 85 |
 
 ---
 
@@ -51,8 +51,8 @@
 - [#131 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/131) — openshift/velero-plugin-for-legacy-aws
 - [#128 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128) — openshift/velero-plugin-for-legacy-aws
 - [#186 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-aws/pull/186) — openshift/velero-plugin-for-aws
-- [#188 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188) — openshift/velero-plugin-for-microsoft-azure
 - [#129 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129) — openshift/velero-plugin-for-legacy-aws
+- [#188 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188) — openshift/velero-plugin-for-microsoft-azure
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-aws/pull/187) — openshift/velero-plugin-for-aws
 - [#184 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-aws/pull/184) — openshift/velero-plugin-for-aws
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187) — openshift/velero-plugin-for-microsoft-azure
@@ -231,12 +231,15 @@
 - [#47 Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) — dohyeon5626/github-html-preview-extension
 - [#19792 feat(claude): add a fork subagents switch to Claude instances](https://github.com/pingdotgg/t3code/pull/19792) — pingdotgg/t3code
 - [#19785 fix(web): a message queued behind a running turn no longer pushes the working header below it](https://github.com/pingdotgg/t3code/pull/19785) — pingdotgg/t3code
-## PRs Reviewed (71)
+## PRs Reviewed (72)
 
-**velero-io** (24)
+**velero-io** (26)
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
-- [#10753 Rollback create retain snapshot](https://github.com/velero-io/velero/pull/10753) — velero-io/velero
 - [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
+- [#10760 Add doc for custom action in volume policy](https://github.com/velero-io/velero/pull/10760) — velero-io/velero
+- [#10759 Expose resourcemodifiers package to pkg for plugin reuse](https://github.com/velero-io/velero/pull/10759) — velero-io/velero
+- [#10735 e2e: add fine-grained resource and restore filter test via resource policies](https://github.com/velero-io/velero/pull/10735) — velero-io/velero
+- [#10753 Rollback create retain snapshot](https://github.com/velero-io/velero/pull/10753) — velero-io/velero
 - [#280 Update assignees in the yaml file](https://github.com/velero-io/velero-plugin-for-gcp/pull/280) — velero-io/velero-plugin-for-gcp
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
 - [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
@@ -249,7 +252,6 @@
 - [#91 Update assignee settings](https://github.com/velero-io/velero-plugin-example/pull/91) — velero-io/velero-plugin-example
 - [#10742 Remove qiuming-best from OWNERS of PROW action](https://github.com/velero-io/velero/pull/10742) — velero-io/velero
 - [#10680 e2e: run the Kibishii file system backup cases on kind under CSI](https://github.com/velero-io/velero/pull/10680) — velero-io/velero
-- [#10735 e2e: add fine-grained resource and restore filter test via resource policies](https://github.com/velero-io/velero/pull/10735) — velero-io/velero
 - [#10673 Recognize GCS object-not-found error during backup deletion](https://github.com/velero-io/velero/pull/10673) — velero-io/velero
 - [#10682 [release-1.18] Bump Golang to 1.26.10 and golang.org/x/net to v0.61.0 to fix CVEs](https://github.com/velero-io/velero/pull/10682) — velero-io/velero
 - [#10679 e2e: give the namespace-mapping cases real volumes on kind under CSI](https://github.com/velero-io/velero/pull/10679) — velero-io/velero
@@ -259,7 +261,7 @@
 - [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 
-**openshift** (29)
+**openshift** (28)
 - [#2521 Add hotfix image creation guide for development docs](https://github.com/openshift/oadp-operator/pull/2521) — openshift/oadp-operator
 - [#603 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/velero/pull/603) — openshift/velero
 - [#2488 Enable AllNamespaces install mode with multi-tenant DPA support](https://github.com/openshift/oadp-operator/pull/2488) — openshift/oadp-operator
@@ -281,14 +283,13 @@
 - [#500 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.4 (a2553ae) into oadp-1.4](https://github.com/openshift/openshift-velero-plugin/pull/500) — openshift/openshift-velero-plugin
 - [#498 [oadp-1.6] OADP-8924: Treat missing openshift-apiserver config as no internal registry](https://github.com/openshift/openshift-velero-plugin/pull/498) — openshift/openshift-velero-plugin
 - [#189 Merge https://github.com/velero-io/velero-plugin-for-aws:v1.10.1 (5c92b55) into oadp-1.4](https://github.com/openshift/velero-plugin-for-aws/pull/189) — openshift/velero-plugin-for-aws
-- [#192 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192) — openshift/velero-plugin-for-microsoft-azure
 - [#133 Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.4 (7d87261) into oadp-1.4](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/133) — openshift/velero-plugin-for-legacy-aws
+- [#192 Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192) — openshift/velero-plugin-for-microsoft-azure
 - [#591 Bump golangci-lint from v2.5.0 to v2.14.0](https://github.com/openshift/velero/pull/591) — openshift/velero
 - [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
 - [#2485 tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s](https://github.com/openshift/oadp-operator/pull/2485) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2500 fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2500) — openshift/oadp-operator
-- [#87249 Make oadp AllNamespaces e2e jobs manual-trigger-only and move them to 5.1](https://github.com/openshift/release/pull/87249) — openshift/release
 
 **migtools** (15)
 - [#116 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vm-file-restore/pull/116) — migtools/oadp-vm-file-restore
@@ -313,7 +314,8 @@
 - [#208 Refresh dashboard CVE data when a fix PR merges](https://github.com/oadp-rebasebot/oadp-rebase/pull/208) — oadp-rebasebot/oadp-rebase
 ## Issues/PRs Commented On (100)
 
-**velero-io** (56)
+**velero-io** (55)
+- [#10018 Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos](https://github.com/velero-io/velero/issues/10018) — velero-io/velero
 - [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
 - [#10675 E2E: Kibishii cases reachable on kind with CSI but never run there](https://github.com/velero-io/velero/issues/10675) — velero-io/velero
@@ -368,8 +370,6 @@
 - [#9453 DataUpload tasks stuck in Prepared phase for extended periods](https://github.com/velero-io/velero/issues/9453) — velero-io/velero
 - [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
-- [#9833 Backup/restore describe for block data mover](https://github.com/velero-io/velero/issues/9833) — velero-io/velero
-- [#9835 Backup deletion for block data mover](https://github.com/velero-io/velero/issues/9835) — velero-io/velero
 
 **openshift** (4)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
@@ -381,9 +381,11 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
-**Other** (38)
-- [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
+**Other** (39)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#2524 Clarify that pull_request_review_write create without event creates a pending review](https://github.com/github/github-mcp-server/issues/2524) — github/github-mcp-server
+- [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
+- [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
@@ -418,9 +420,8 @@
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
-- [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#915 branchprotector cannot manage required status check GitHub App identity](https://github.com/kubernetes-sigs/prow/issues/915) — kubernetes-sigs/prow
-## Issues Closed (84)
+## Issues Closed (85)
 
 **velero-io** (26)
 - [#10724 Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit](https://github.com/velero-io/velero/issues/10724) — velero-io/velero
@@ -487,7 +488,8 @@
 - [#162 Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash](https://github.com/migtools/kubevirt-datamover-controller/issues/162) — migtools/kubevirt-datamover-controller
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 
-**Other** (25)
+**Other** (26)
+- [#90071 Model reimplements ad-hoc polling scripts instead of using an available, more specific installed skill](https://github.com/anthropics/claude-code/issues/90071) — anthropics/claude-code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
 - [#601 Icon request: fusion360](https://github.com/devicons/devicon/issues/601) — devicons/devicon
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
