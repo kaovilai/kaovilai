@@ -3,15 +3,24 @@
     "start": "2026-08-01",
     "end": "2026-10-30"
   },
-  "generatedAt": "2026-10-30T17:49:40Z",
+  "generatedAt": "2026-10-30T22:01:43Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 76,
+    "prsReviewed": 77,
     "issuesCommented": 100,
     "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 213,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "docs: seed OADP FAQ with curated answers",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/213",
+      "date": "2026-10-30T20:17:41Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10689,
       "repo": "velero-io/velero",
@@ -901,15 +910,6 @@
       "title": "Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest",
       "url": "https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1",
       "date": "2026-09-14T19:31:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Add safe Dependabot auto-merge workflow for npm patch/minor updates",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7",
-      "date": "2026-09-11T18:44:21Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,42 @@
   ],
   "prsReviewed": [
     {
+      "number": 23732,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): PDF previews keep their page when the agent responds",
+      "url": "https://github.com/pingdotgg/t3code/pull/23732",
+      "date": "2026-10-30T20:57:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2527,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
+      "url": "https://github.com/openshift/oadp-operator/pull/2527",
+      "date": "2026-10-30T20:22:42Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163",
+      "date": "2026-10-30T19:36:46Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10761,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add 1.19 release notes",
+      "url": "https://github.com/velero-io/velero/pull/10761",
+      "date": "2026-10-30T17:50:14Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 190,
       "repo": "migtools/udistribution",
       "org": "migtools",
@@ -1943,30 +1979,12 @@
       "workstream": "Velero"
     },
     {
-      "number": 10761,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add 1.19 release notes",
-      "url": "https://github.com/velero-io/velero/pull/10761",
-      "date": "2026-10-30T03:08:40Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 331,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
       "title": "NO-JIRA: Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.14.0 to 1.15.0 in the azure-github-dependencies group",
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/331",
       "date": "2026-10-30T01:20:52Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 23732,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): PDF previews keep their page when the agent responds",
-      "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-30T00:56:34Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2490,15 +2508,6 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/498",
       "date": "2026-10-22T15:23:08Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 105,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.7.1 (c30669d) into oadp-1.4",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/105",
-      "date": "2026-10-22T13:51:54Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
