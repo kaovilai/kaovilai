@@ -3,11 +3,11 @@
     "start": "2026-08-01",
     "end": "2026-10-30"
   },
-  "generatedAt": "2026-10-30T12:32:36Z",
+  "generatedAt": "2026-10-30T17:49:40Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 73,
+    "prsReviewed": 76,
     "issuesCommented": 100,
     "issuesClosed": 87
   },
@@ -915,6 +915,24 @@
   ],
   "prsOpened": [
     {
+      "number": 199,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "deps: consolidate pending dependabot bumps",
+      "url": "https://github.com/migtools/udistribution/pull/199",
+      "date": "2026-10-30T15:39:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 198,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "ci: fail on unformatted Go instead of pushing a format commit",
+      "url": "https://github.com/migtools/udistribution/pull/198",
+      "date": "2026-10-30T15:37:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 213,
       "repo": "oadp-rebasebot/oadp-rebase",
       "org": "oadp-rebasebot",
@@ -1795,27 +1813,90 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2499",
       "date": "2026-10-20T15:10:45Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 5,
-      "repo": "kaovilai/github-html-diff-preview",
-      "org": "kaovilai",
-      "title": "Fix PR commit detection from deferred GitHub diff markup",
-      "url": "https://github.com/kaovilai/github-html-diff-preview/pull/5",
-      "date": "2026-10-16T18:03:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 192,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "chore: prepare Chrome Web Store submission",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/192",
-      "date": "2026-10-16T05:33:27Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 190,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump go.opentelemetry.io/otel/sdk from 1.38.0 to 1.45.0",
+      "url": "https://github.com/migtools/udistribution/pull/190",
+      "date": "2026-10-30T15:48:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 189,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
+      "url": "https://github.com/migtools/udistribution/pull/189",
+      "date": "2026-10-30T15:48:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 135,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/135",
+      "date": "2026-10-30T15:25:09Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 126,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Add akarol and PrasadJoshi12 to OWNERS",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/126",
+      "date": "2026-10-30T15:21:05Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 183,
+      "repo": "openshift/velero-plugin-for-aws",
+      "org": "openshift",
+      "title": "Add akarol to OWNERS",
+      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/183",
+      "date": "2026-10-30T15:21:04Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2526,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: add progress reporting section to kubevirt-datamover backup-restore guide",
+      "url": "https://github.com/openshift/oadp-operator/pull/2526",
+      "date": "2026-10-30T15:13:50Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10764,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: run the FSBackup backup deletion case on kind under CSI",
+      "url": "https://github.com/velero-io/velero/pull/10764",
+      "date": "2026-10-30T15:11:31Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 6,
+      "repo": "velero-io/.github",
+      "org": "velero-io",
+      "title": "Clarify the code repositories in GOVERNANCE.md",
+      "url": "https://github.com/velero-io/.github/pull/6",
+      "date": "2026-10-30T15:02:30Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 80,
+      "repo": "openshift/velero-plugin-for-legacy-aws",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/80",
+      "date": "2026-10-30T14:54:29Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10766,
       "repo": "velero-io/velero",
@@ -2348,15 +2429,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 189,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.38.0 to 1.45.0",
-      "url": "https://github.com/migtools/udistribution/pull/189",
-      "date": "2026-10-23T11:14:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 602,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -2427,54 +2499,18 @@
       "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/105",
       "date": "2026-10-22T13:51:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 189,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-aws:v1.10.1 (5c92b55) into oadp-1.4",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/189",
-      "date": "2026-10-22T13:38:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 133,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/velero-plugin-for-legacy-aws:oadp-1.4 (7d87261) into oadp-1.4",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/133",
-      "date": "2026-10-22T13:38:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 192,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-microsoft-azure:v1.10.1 (c66d196) into oadp-1.4",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/192",
-      "date": "2026-10-22T13:38:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 591,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Bump golangci-lint from v2.5.0 to v2.14.0",
-      "url": "https://github.com/openshift/velero/pull/591",
-      "date": "2026-10-21T23:21:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2477,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-      "url": "https://github.com/openshift/oadp-operator/pull/2477",
-      "date": "2026-10-21T21:06:02Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 5342,
+      "repo": "netlify/build",
+      "org": "netlify",
+      "title": "baseRelDir cannot be set to false in new netlify sites or change to true from older sites",
+      "url": "https://github.com/netlify/build/issues/5342",
+      "date": "2026-10-30T14:01:37Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -3365,15 +3401,6 @@
       "url": "https://github.com/velero-io/velero/issues/3218",
       "date": "2026-09-11T02:11:35Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 915,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "branchprotector cannot manage required status check GitHub App identity",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/915",
-      "date": "2026-09-09T06:16:48Z",
-      "workstream": "Kubernetes"
     }
   ],
   "issuesClosed": [
