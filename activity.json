@@ -1,9 +1,9 @@
 {
   "period": {
-    "start": "2026-07-31",
-    "end": "2026-10-29"
+    "start": "2026-08-01",
+    "end": "2026-10-30"
   },
-  "generatedAt": "2026-10-29T23:07:20Z",
+  "generatedAt": "2026-10-30T02:28:40Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,12 +1817,39 @@
   ],
   "prsReviewed": [
     {
+      "number": 331,
+      "repo": "openshift/hypershift-oadp-plugin",
+      "org": "openshift",
+      "title": "NO-JIRA: Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.14.0 to 1.15.0 in the azure-github-dependencies group",
+      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/331",
+      "date": "2026-10-30T01:20:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 2493,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "OADP-8924: Add HCP guest cluster pod backup test case",
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-10-29T22:09:43Z",
+      "date": "2026-10-30T01:01:24Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 23732,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): PDF previews keep their page when the agent responds",
+      "url": "https://github.com/pingdotgg/t3code/pull/23732",
+      "date": "2026-10-30T00:56:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2488,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
+      "url": "https://github.com/openshift/oadp-operator/pull/2488",
+      "date": "2026-10-29T23:14:50Z",
       "workstream": "OADP"
     },
     {
@@ -1916,15 +1943,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 2488,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
-      "url": "https://github.com/openshift/oadp-operator/pull/2488",
-      "date": "2026-10-28T22:07:16Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 280,
       "repo": "velero-io/velero-plugin-for-gcp",
       "org": "velero-io",
@@ -1941,15 +1959,6 @@
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
       "date": "2026-10-28T14:24:36Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 23732,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): PDF previews keep their page when the agent responds",
-      "url": "https://github.com/pingdotgg/t3code/pull/23732",
-      "date": "2026-10-28T05:57:51Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10740,
@@ -2463,15 +2472,6 @@
       "url": "https://github.com/velero-io/velero/pull/10654",
       "date": "2026-10-21T06:14:46Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2485,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "tests/e2e: increase three-BSLs default BSL availability timeout from 180s to 300s",
-      "url": "https://github.com/openshift/oadp-operator/pull/2485",
-      "date": "2026-10-21T01:56:13Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
