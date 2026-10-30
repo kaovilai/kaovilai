@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-10-30 17:52:14 UTC
+> Last updated: 2026-10-30 22:05:09 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -11,7 +11,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10210](https://img.shields.io/badge/PR%20%2310210-ready-green)](https://github.com/velero-io/velero/pull/10210) **velero-io/velero** → `main` - Fix explicitly excluded namespaces still tracked via LabelSelector/OrLabelSelector match
 - [![PR #10286](https://img.shields.io/badge/PR%20%2310286-ready-green)](https://github.com/velero-io/velero/pull/10286) **velero-io/velero** → `main` - Fix re-request-review workflow for fork-originated PRs (privilege separation)
 - [![PR #10399](https://img.shields.io/badge/PR%20%2310399-ready-green)](https://github.com/velero-io/velero/pull/10399) **velero-io/velero** → `release-1.17` - [Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags
-- [![PR #10423](https://img.shields.io/badge/PR%20%2310423-ready-green)](https://github.com/velero-io/velero/pull/10423) **velero-io/velero** → `release-1.16` - [release-1.16] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #10426](https://img.shields.io/badge/PR%20%2310426-ready-green)](https://github.com/velero-io/velero/pull/10426) **velero-io/velero** → `release-1.18` - [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #10555](https://img.shields.io/badge/PR%20%2310555-ready-green)](https://github.com/velero-io/velero/pull/10555) **velero-io/velero** → `main` - Fix e2e-test-kind and changelog-check CI flakes
 - [![PR #10692](https://img.shields.io/badge/PR%20%2310692-ready-green)](https://github.com/velero-io/velero/pull/10692) **velero-io/velero** → `main` - Add Dependabot updates for run-jammy-tiny on supported release branches
@@ -32,6 +31,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
 - [![PR #10281](https://img.shields.io/badge/PR%20%2310281-stale-yellow)](https://github.com/velero-io/velero/pull/10281) **velero-io/velero** → `main` - Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos
+- [![PR #10423](https://img.shields.io/badge/PR%20%2310423-stale-yellow)](https://github.com/velero-io/velero/pull/10423) **velero-io/velero** → `release-1.16` - [release-1.16] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #10425](https://img.shields.io/badge/PR%20%2310425-stale-yellow)](https://github.com/velero-io/velero/pull/10425) **velero-io/velero** → `release-1.17` - [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)
 - [![PR #261](https://img.shields.io/badge/PR%20%23261-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/261) **velero-io/velero-plugin-for-gcp** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
@@ -77,6 +77,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
 - [![PR #2527](https://img.shields.io/badge/PR%20%232527-ready-green)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
 - [![PR #2528](https://img.shields.io/badge/PR%20%232528-ready-green)](https://github.com/openshift/oadp-operator/pull/2528) **openshift/oadp-operator** → `oadp-1.5` - Fix misleading podAnnotations deprecation warning on OADP 1.5 (OADP-8788)
+- [![PR #2529](https://img.shields.io/badge/PR%20%232529-ready-green)](https://github.com/openshift/oadp-operator/pull/2529) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): default empty VMB status.type to full
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
@@ -84,6 +85,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
+- [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/175) **openshift/oadp-must-gather** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
@@ -109,7 +111,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #104](https://img.shields.io/badge/PR%20%23104-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/104) **openshift/oadp-must-gather** → `oadp-dev` - add extended bsl info in the summary
 - [![PR #10586](https://img.shields.io/badge/PR%20%2310586-stale-yellow)](https://github.com/openshift/installer/pull/10586) **openshift/installer** → `main` - no-jira: GCP Destroy: Group Load Balancer Resources & Retry on Errors
 - [![PR #157](https://img.shields.io/badge/PR%20%23157-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/157) **openshift/oadp-must-gather** → `oadp-1.5` - [oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
-- [![PR #163](https://img.shields.io/badge/PR%20%23163-stale-yellow)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-stale-yellow)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #225](https://img.shields.io/badge/PR%20%23225-stale-yellow)](https://github.com/openshift/hypershift-oadp-plugin/pull/225) **openshift/hypershift-oadp-plugin** → `main` - fix: add velero to renovate ignoreDeps
 - [![PR #2272](https://img.shields.io/badge/PR%20%232272-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2272) **openshift/oadp-operator** → `oadp-dev` - validate container runtime availability before container operations
@@ -184,7 +185,6 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
-- [![PR #213](https://img.shields.io/badge/PR%20%23213-draft-gray)](https://github.com/oadp-rebasebot/oadp-rebase/pull/213) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - docs: seed OADP FAQ with curated answers
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
