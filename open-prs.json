@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:09:23Z",
+  "updatedAt": "2026-10-30T02:22:46Z",
   "prs": [
     {
       "number": 10010,
@@ -9763,51 +9763,51 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-10-29T23:05:59Z",
+      "updatedAt": "2026-10-29T23:39:27Z",
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.22-ci-index",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.22-images",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.23-ci-index",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.23-images",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/5.0-ci-index",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/5.0-images",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/5.1-ci-index",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/5.1-images",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "PENDING"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
@@ -10471,31 +10471,15 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-10-29T22:09:43Z",
+      "updatedAt": "2026-10-30T01:01:24Z",
       "workstream": "OADP",
       "ciChecks": [
         {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "conclusion": "FAILURE"
         },
         {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "name": "ci/prow/4.22-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10508,6 +10492,10 @@
         },
         {
           "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10531,7 +10519,19 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -12815,7 +12815,7 @@
         "do-not-merge/hold",
         "approved"
       ],
-      "updatedAt": "2026-10-28T22:07:16Z",
+      "updatedAt": "2026-10-29T23:14:50Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -17317,7 +17317,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-10-29T23:09:23Z",
+    "updatedAt": "2026-10-30T02:22:46Z",
     "needsReview": [
       {
         "number": 68,
@@ -17340,7 +17340,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 714,
+        "waitingDays": 715,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -17388,7 +17388,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 552,
+        "waitingDays": 553,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -17580,7 +17580,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 135,
+        "waitingDays": 136,
         "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
@@ -17669,6 +17669,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 107,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -17726,30 +17750,6 @@
         "reason": "hold",
         "waitingDays": 106,
         "updatedAt": "2026-07-15T16:14:06Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 106,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -18203,7 +18203,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -18400,7 +18400,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18563,7 +18563,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 33,
+        "waitingDays": 34,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -18592,7 +18592,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -18644,7 +18644,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18675,7 +18675,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18883,8 +18883,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 8,
+        "waitingDays": 9,
         "updatedAt": "2026-10-20T23:42:58Z"
+      },
+      {
+        "number": 10032,
+        "repo": "openshift/installer",
+        "org": "openshift",
+        "title": "Add SSH agent retry logic and tests for authentication errors",
+        "url": "https://github.com/openshift/installer/pull/10032",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "lifecycle/stale"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pawanpinjarkar",
+          "rwsu"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 8,
+        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2508,
@@ -18942,35 +18971,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-10-22T17:29:19Z"
-      },
-      {
-        "number": 10032,
-        "repo": "openshift/installer",
-        "org": "openshift",
-        "title": "Add SSH agent retry logic and tests for authentication errors",
-        "url": "https://github.com/openshift/installer/pull/10032",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "lifecycle/stale"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pawanpinjarkar",
-          "rwsu"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2512,
@@ -19172,6 +19172,39 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-10-26T20:20:14Z"
+      },
+      {
+        "number": 674,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "size/XL",
+          "area/tide"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "cjwagner",
+          "michelle192837",
+          "petr-muller"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
         "number": 115,
@@ -19402,22 +19435,23 @@
         "updatedAt": "2026-10-28T20:47:52Z"
       },
       {
-        "number": 674,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
-        "targetBranch": "main",
+        "number": 6479,
+        "repo": "kubernetes/enhancements",
+        "org": "kubernetes",
+        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
+        "url": "https://github.com/kubernetes/enhancements/pull/6479",
+        "targetBranch": "master",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
+          "sig/storage",
           "cncf-cla: yes",
-          "ok-to-test",
-          "size/XL",
-          "area/tide"
+          "size/M",
+          "needs-ok-to-test",
+          "kind/kep"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19425,14 +19459,13 @@
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
-          "cjwagner",
-          "michelle192837",
-          "petr-muller"
+          "saad-ali",
+          "xing-yang"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 1,
-        "updatedAt": "2026-10-28T00:56:31Z"
+        "updatedAt": "2026-10-29T00:08:40Z"
       },
       {
         "number": 330,
@@ -19462,36 +19495,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-10-28T20:14:37Z"
-      },
-      {
-        "number": 2488,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
-        "url": "https://github.com/openshift/oadp-operator/pull/2488",
-        "targetBranch": "oadp-dev",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 1,
-        "updatedAt": "2026-10-28T22:07:16Z"
       },
       {
         "number": 2520,
@@ -19576,39 +19579,6 @@
         "updatedAt": "2026-10-28T20:14:01Z"
       },
       {
-        "number": 6479,
-        "repo": "kubernetes/enhancements",
-        "org": "kubernetes",
-        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
-        "url": "https://github.com/kubernetes/enhancements/pull/6479",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "sig/storage",
-          "cncf-cla: yes",
-          "size/M",
-          "needs-ok-to-test",
-          "kind/kep"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "saad-ali",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-29T00:08:40Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -19626,7 +19596,7 @@
           "lifecycle/stale",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19643,6 +19613,36 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-10-29T07:00:45Z"
+      },
+      {
+        "number": 2488,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
+        "url": "https://github.com/openshift/oadp-operator/pull/2488",
+        "targetBranch": "oadp-dev",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 0,
+        "updatedAt": "2026-10-29T23:14:50Z"
       },
       {
         "number": 2522,
@@ -19726,7 +19726,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-10-29T23:05:59Z"
+        "updatedAt": "2026-10-29T23:39:27Z"
       },
       {
         "number": 135,
@@ -20578,7 +20578,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-10-14T00:43:53Z"
       },
       {
@@ -20707,6 +20707,37 @@
         "updatedAt": "2026-10-21T21:06:02Z"
       },
       {
+        "number": 2502,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated",
+        "url": "https://github.com/openshift/oadp-operator/pull/2502",
+        "targetBranch": "oadp-1.5",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 8,
+        "updatedAt": "2026-10-22T02:20:15Z"
+      },
+      {
         "number": 107,
         "repo": "migtools/kubevirt-velero-plugin",
         "org": "migtools",
@@ -20829,13 +20860,13 @@
         "updatedAt": "2026-10-22T18:34:45Z"
       },
       {
-        "number": 2502,
+        "number": 2513,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
-        "title": "[oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated",
-        "url": "https://github.com/openshift/oadp-operator/pull/2502",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
+        "title": "Add BSL validation timeout to known flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2513",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
         "isCopilotAuthored": false,
         "assignees": [
           "sseago"
@@ -20852,12 +20883,12 @@
         "approvalCount": 1,
         "requiredApprovals": 2,
         "reviewRequests": [
-          "eemcmullan"
+          "weshayutin"
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 7,
-        "updatedAt": "2026-10-22T02:20:15Z"
+        "updatedAt": "2026-10-23T00:43:31Z"
       },
       {
         "number": 56,
@@ -20890,37 +20921,6 @@
         "reason": "pendingMerge",
         "waitingDays": 6,
         "updatedAt": "2026-10-23T22:16:54Z"
-      },
-      {
-        "number": 2513,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add BSL validation timeout to known flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2513",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 6,
-        "updatedAt": "2026-10-23T00:43:31Z"
       },
       {
         "number": 182,
@@ -20975,7 +20975,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21050,6 +21050,35 @@
         "updatedAt": "2026-10-28T20:19:05Z"
       },
       {
+        "number": 17717,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(mobile): reach a thread's pull requests from the Android header",
+        "url": "https://github.com/pingdotgg/t3code/pull/17717",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "juliusmarminge"
+        ],
+        "labels": [
+          "vouch:unvouched",
+          "size:M"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-10-29T00:39:57Z"
+      },
+      {
         "number": 2493,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -21079,36 +21108,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-10-29T22:09:43Z"
-      },
-      {
-        "number": 17717,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(mobile): reach a thread's pull requests from the Android header",
-        "url": "https://github.com/pingdotgg/t3code/pull/17717",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "juliusmarminge"
-        ],
-        "labels": [
-          "vouch:unvouched",
-          "size:M"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-10-29T00:39:57Z"
+        "updatedAt": "2026-10-30T01:01:24Z"
       },
       {
         "number": 10689,
