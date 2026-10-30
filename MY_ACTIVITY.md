@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-01 — 2026-10-30
-> **Generated:** 2026-10-30 02:28:40 UTC
+> **Generated:** 2026-10-30 12:32:36 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,13 +9,15 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 85 |
+| Issues Closed | 87 |
 
 ---
 
 ## PRs Merged (100)
 
-**velero-io** (17)
+**velero-io** (19)
+- [#10689 Group Go security updates in Dependabot](https://github.com/velero-io/velero/pull/10689) — velero-io/velero
+- [#10695 ci: add CodeQL analysis for Go](https://github.com/velero-io/velero/pull/10695) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
 - [#319 Add CODEOWNERS for automatic review requests](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) — velero-io/velero-plugin-for-microsoft-azure
 - [#10690 [release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190](https://github.com/velero-io/velero/pull/10690) — velero-io/velero
@@ -81,7 +83,7 @@
 - [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 - [#107 Fix MinIO create-bucket Job timeout by switching mc image to quay.io](https://github.com/migtools/oadp-vm-file-restore/pull/107) — migtools/oadp-vm-file-restore
 
-**Other** (40)
+**Other** (38)
 - [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
 - [#16 Merge upstream/dev (2.7.43, incl. request plugins) into dev](https://github.com/kaovilai/copilot-api/pull/16) — kaovilai/copilot-api
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
@@ -120,8 +122,6 @@
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
 - [#1 Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest](https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1) — kaovilai/android_vendor_amazon_maverick
 - [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
-- [#14 Fix healthcheck: use 127.0.0.1 instead of localhost](https://github.com/kaovilai/copilot-api/pull/14) — kaovilai/copilot-api
-- [#13 Lower ambiguous-timeout budget to 80s to beat client watchdogs](https://github.com/kaovilai/copilot-api/pull/13) — kaovilai/copilot-api
 ## PRs Opened (100)
 
 **velero-io** (32)
@@ -210,6 +210,7 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 
 **Other** (21)
+- [#213 docs: seed OADP FAQ with curated answers](https://github.com/oadp-rebasebot/oadp-rebase/pull/213) — oadp-rebasebot/oadp-rebase
 - [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
 - [#16 Merge upstream/dev (2.7.43, incl. request plugins) into dev](https://github.com/kaovilai/copilot-api/pull/16) — kaovilai/copilot-api
 - [#6479 KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService](https://github.com/kubernetes/enhancements/pull/6479) — kubernetes/enhancements
@@ -230,13 +231,13 @@
 - [#1571 Add support for Chipsea-BLE GATT body fat scales](https://github.com/oliexdev/openScale/pull/1571) — oliexdev/openScale
 - [#5 Fix PR commit detection from deferred GitHub diff markup](https://github.com/kaovilai/github-html-diff-preview/pull/5) — kaovilai/github-html-diff-preview
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
-- [#47 Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)](https://github.com/dohyeon5626/github-html-preview-extension/pull/47) — dohyeon5626/github-html-preview-extension
 ## PRs Reviewed (73)
 
-**velero-io** (28)
+**velero-io** (27)
+- [#10766 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10766) — velero-io/velero
+- [#10762 Restic deprecation: ignore invalid PVB uploader](https://github.com/velero-io/velero/pull/10762) — velero-io/velero
 - [#10761 Add 1.19 release notes](https://github.com/velero-io/velero/pull/10761) — velero-io/velero
 - [#10759 Expose resourcemodifiers package to pkg for plugin reuse](https://github.com/velero-io/velero/pull/10759) — velero-io/velero
-- [#10762 Restic deprecation: ignore invalid PVB uploader](https://github.com/velero-io/velero/pull/10762) — velero-io/velero
 - [#10760 Add doc for custom action in volume policy](https://github.com/velero-io/velero/pull/10760) — velero-io/velero
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 - [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
@@ -260,12 +261,10 @@
 - [#10685 docs: fix Kubernetes version check for volume group snapshots](https://github.com/velero-io/velero/pull/10685) — velero-io/velero
 - [#10697 build(deps): bump github/codeql-action from 4.38.3 to 4.39.1 in the github-actions group](https://github.com/velero-io/velero/pull/10697) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
-- [#10658 e2e: run the Kibishii snapshot cases on kind under CSI](https://github.com/velero-io/velero/pull/10658) — velero-io/velero
-- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 
 **openshift** (27)
-- [#331 NO-JIRA: Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.14.0 to 1.15.0 in the azure-github-dependencies group](https://github.com/openshift/hypershift-oadp-plugin/pull/331) — openshift/hypershift-oadp-plugin
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
+- [#331 NO-JIRA: Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.14.0 to 1.15.0 in the azure-github-dependencies group](https://github.com/openshift/hypershift-oadp-plugin/pull/331) — openshift/hypershift-oadp-plugin
 - [#2488 Enable AllNamespaces install mode with multi-tenant DPA support](https://github.com/openshift/oadp-operator/pull/2488) — openshift/oadp-operator
 - [#2521 Add hotfix image creation guide for development docs](https://github.com/openshift/oadp-operator/pull/2521) — openshift/oadp-operator
 - [#603 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/velero/pull/603) — openshift/velero
@@ -292,7 +291,9 @@
 - [#591 Bump golangci-lint from v2.5.0 to v2.14.0](https://github.com/openshift/velero/pull/591) — openshift/velero
 - [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
 
-**migtools** (15)
+**migtools** (16)
+- [#288 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/oadp-cli/pull/288) — migtools/oadp-cli
+- [#251 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/kubevirt-datamover-controller/pull/251) — migtools/kubevirt-datamover-controller
 - [#116 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/oadp-vm-file-restore/pull/116) — migtools/oadp-vm-file-restore
 - [#55 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/migtools/kopia/pull/55) — migtools/kopia
 - [#119 Add akarol to OWNERS](https://github.com/migtools/oadp-vm-file-restore/pull/119) — migtools/oadp-vm-file-restore
@@ -307,7 +308,6 @@
 - [#50 chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend](https://github.com/migtools/filebrowser/pull/50) — migtools/filebrowser
 - [#103 Add akarol to OWNERS](https://github.com/migtools/kubevirt-velero-plugin/pull/103) — migtools/kubevirt-velero-plugin
 - [#105 Merge https://github.com/kubevirt/kubevirt-velero-plugin:v0.7.1 (c30669d) into oadp-1.4](https://github.com/migtools/kubevirt-velero-plugin/pull/105) — migtools/kubevirt-velero-plugin
-- [#59 Fix CVE-2026-63209](https://github.com/migtools/kopia/pull/59) — migtools/kopia
 
 **Other** (3)
 - [#23732 fix(web): PDF previews keep their page when the agent responds](https://github.com/pingdotgg/t3code/pull/23732) — pingdotgg/t3code
@@ -384,6 +384,7 @@
 
 **Other** (39)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#2524 Clarify that pull_request_review_write create without event creates a pending review](https://github.com/github/github-mcp-server/issues/2524) — github/github-mcp-server
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
@@ -397,7 +398,6 @@
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
 - [#1419 `kubectl explain -o md`](https://github.com/kubernetes/kubectl/issues/1419) — kubernetes/kubectl
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
-- [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#502 Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering](https://github.com/kubernetes-sigs/prow/issues/502) — kubernetes-sigs/prow
 - [#17508 [Bug]: Antigravity Google sign-in hides the real failure reason (ineligible account, rejected redirect URL)](https://github.com/pingdotgg/t3code/issues/17508) — pingdotgg/t3code
@@ -422,7 +422,7 @@
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
 - [#915 branchprotector cannot manage required status check GitHub App identity](https://github.com/kubernetes-sigs/prow/issues/915) — kubernetes-sigs/prow
-## Issues Closed (85)
+## Issues Closed (87)
 
 **velero-io** (26)
 - [#10724 Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit](https://github.com/velero-io/velero/issues/10724) — velero-io/velero
@@ -489,7 +489,9 @@
 - [#162 Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash](https://github.com/migtools/kubevirt-datamover-controller/issues/162) — migtools/kubevirt-datamover-controller
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 
-**Other** (26)
+**Other** (28)
+- [#23825 [Bug]: Deferred MCP App forms never display; write tool returns awaiting_user_submission with no fallback](https://github.com/pingdotgg/t3code/issues/23825) — pingdotgg/t3code
+- [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#90071 Model reimplements ad-hoc polling scripts instead of using an available, more specific installed skill](https://github.com/anthropics/claude-code/issues/90071) — anthropics/claude-code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
 - [#601 Icon request: fusion360](https://github.com/devicons/devicon/issues/601) — devicons/devicon

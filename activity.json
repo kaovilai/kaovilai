@@ -3,15 +3,33 @@
     "start": "2026-08-01",
     "end": "2026-10-30"
   },
-  "generatedAt": "2026-10-30T02:28:40Z",
+  "generatedAt": "2026-10-30T12:32:36Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 73,
     "issuesCommented": 100,
-    "issuesClosed": 85
+    "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 10689,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Group Go security updates in Dependabot",
+      "url": "https://github.com/velero-io/velero/pull/10689",
+      "date": "2026-10-30T10:50:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10695,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "ci: add CodeQL analysis for Go",
+      "url": "https://github.com/velero-io/velero/pull/10695",
+      "date": "2026-10-30T10:43:31Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10752,
       "repo": "velero-io/velero",
@@ -893,27 +911,18 @@
       "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7",
       "date": "2026-09-11T18:44:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 14,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Fix healthcheck: use 127.0.0.1 instead of localhost",
-      "url": "https://github.com/kaovilai/copilot-api/pull/14",
-      "date": "2026-09-11T18:03:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "Lower ambiguous-timeout budget to 80s to beat client watchdogs",
-      "url": "https://github.com/kaovilai/copilot-api/pull/13",
-      "date": "2026-09-11T17:26:32Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 213,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "docs: seed OADP FAQ with curated answers",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/213",
+      "date": "2026-10-30T05:31:41Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 111,
       "repo": "migtools/kubevirt-velero-plugin",
@@ -1804,18 +1813,63 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/192",
       "date": "2026-10-16T05:33:27Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 47,
-      "repo": "dohyeon5626/github-html-preview-extension",
-      "org": "dohyeon5626",
-      "title": "Preview HTML files in pull request diffs (green additions, clickable red removals, side by side)",
-      "url": "https://github.com/dohyeon5626/github-html-preview-extension/pull/47",
-      "date": "2026-10-15T19:46:56Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10766,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "url": "https://github.com/velero-io/velero/pull/10766",
+      "date": "2026-10-30T11:07:33Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 288,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/migtools/oadp-cli/pull/288",
+      "date": "2026-10-30T04:58:07Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 251,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/251",
+      "date": "2026-10-30T04:58:05Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-10-30T04:50:08Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10762,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restic deprecation: ignore invalid PVB uploader",
+      "url": "https://github.com/velero-io/velero/pull/10762",
+      "date": "2026-10-30T03:09:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10761,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add 1.19 release notes",
+      "url": "https://github.com/velero-io/velero/pull/10761",
+      "date": "2026-10-30T03:08:40Z",
+      "workstream": "Velero"
+    },
     {
       "number": 331,
       "repo": "openshift/hypershift-oadp-plugin",
@@ -1824,15 +1878,6 @@
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/331",
       "date": "2026-10-30T01:20:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-10-30T01:01:24Z",
-      "workstream": "OADP"
     },
     {
       "number": 23732,
@@ -1853,30 +1898,12 @@
       "workstream": "OADP"
     },
     {
-      "number": 10761,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add 1.19 release notes",
-      "url": "https://github.com/velero-io/velero/pull/10761",
-      "date": "2026-10-29T18:30:34Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10759,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Expose resourcemodifiers package to pkg for plugin reuse",
       "url": "https://github.com/velero-io/velero/pull/10759",
       "date": "2026-10-29T17:30:11Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10762,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restic deprecation: ignore invalid PVB uploader",
-      "url": "https://github.com/velero-io/velero/pull/10762",
-      "date": "2026-10-29T17:22:25Z",
       "workstream": "Velero"
     },
     {
@@ -2445,36 +2472,27 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2477",
       "date": "2026-10-21T21:06:02Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 59,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "Fix CVE-2026-63209",
-      "url": "https://github.com/migtools/kopia/pull/59",
-      "date": "2026-10-21T16:18:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10658,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: run the Kibishii snapshot cases on kind under CSI",
-      "url": "https://github.com/velero-io/velero/pull/10658",
-      "date": "2026-10-21T06:23:17Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10654,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add S3 SSE-C headers to download requests",
-      "url": "https://github.com/velero-io/velero/pull/10654",
-      "date": "2026-10-21T06:14:46Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-10-30T12:16:22Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17531,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed",
+      "url": "https://github.com/pingdotgg/t3code/issues/17531",
+      "date": "2026-10-30T05:14:19Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10303,
       "repo": "velero-io/velero",
@@ -2483,15 +2501,6 @@
       "url": "https://github.com/velero-io/velero/issues/10303",
       "date": "2026-10-29T18:25:57Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-10-29T12:25:19Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 2524,
@@ -2824,15 +2833,6 @@
       "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
       "url": "https://github.com/github/gh-aw/issues/26598",
       "date": "2026-10-22T20:59:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17531,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed",
-      "url": "https://github.com/pingdotgg/t3code/issues/17531",
-      "date": "2026-10-22T08:15:23Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3377,6 +3377,24 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 23825,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Deferred MCP App forms never display; write tool returns awaiting_user_submission with no fallback",
+      "url": "https://github.com/pingdotgg/t3code/issues/23825",
+      "date": "2026-10-30T08:29:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17531,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed",
+      "url": "https://github.com/pingdotgg/t3code/issues/17531",
+      "date": "2026-10-30T05:14:19Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 90071,
       "repo": "anthropics/claude-code",
