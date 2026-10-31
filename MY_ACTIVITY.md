@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-02 — 2026-10-31
-> **Generated:** 2026-10-31 05:16:19 UTC
+> **Generated:** 2026-10-31 12:07:43 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -387,8 +387,8 @@
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
 **Other** (39)
-- [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#2524 Clarify that pull_request_review_write create without event creates a pending review](https://github.com/github/github-mcp-server/issues/2524) — github/github-mcp-server
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
