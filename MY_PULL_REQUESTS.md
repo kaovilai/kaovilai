@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-01 02:51:35 UTC
+> Last updated: 2026-11-01 12:09:39 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -84,6 +84,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #84228](https://img.shields.io/badge/PR%20%2384228-ready-green)](https://github.com/openshift/release/pull/84228) **openshift/release** → `main` - Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)
+- [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
@@ -123,7 +124,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #78](https://img.shields.io/badge/PR%20%2378-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/78) **openshift/oadp-must-gather** → `oadp-1.4` - OADP-7143: update runc requirement
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #80150](https://img.shields.io/badge/PR%20%2380150-stale-yellow)](https://github.com/openshift/release/pull/80150) **openshift/release** → `main` - tide: enable github_merge_blocks_policy for repos with recent merge failures
-- [![PR #89](https://img.shields.io/badge/PR%20%2389-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #2488](https://img.shields.io/badge/PR%20%232488-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2488) **openshift/oadp-operator** → `oadp-dev` - Enable AllNamespaces install mode with multi-tenant DPA support
 - [![PR #2508](https://img.shields.io/badge/PR%20%232508-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2508) **openshift/oadp-operator** → `oadp-dev` - Sync NonAdmin CRDs with oadp-non-admin oadp-dev
 - [![PR #2512](https://img.shields.io/badge/PR%20%232512-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2512) **openshift/oadp-operator** → `oadp-dev` - Add S3 GetBucketRegion transient failure to known flakes
