@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-02 — 2026-10-31
-> **Generated:** 2026-10-31 21:21:50 UTC
+> **Period:** 2026-08-03 — 2026-11-01
+> **Generated:** 2026-11-01 05:45:08 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 78 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 87 |
+| Issues Closed | 89 |
 
 ---
 
@@ -321,6 +321,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (55)
+- [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload InProgress until the 4h ItemOperationTimeout — pod informer has no DeleteFunc](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10018 Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos](https://github.com/velero-io/velero/issues/10018) — velero-io/velero
 - [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
@@ -375,7 +376,6 @@
 - [#9318 Behavior of skip volume policy is strange/problematic](https://github.com/velero-io/velero/issues/9318) — velero-io/velero
 - [#9453 DataUpload tasks stuck in Prepared phase for extended periods](https://github.com/velero-io/velero/issues/9453) — velero-io/velero
 - [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
-- [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
 
 **openshift** (4)
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
@@ -427,9 +427,10 @@
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
-## Issues Closed (87)
+## Issues Closed (89)
 
-**velero-io** (26)
+**velero-io** (27)
+- [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
 - [#10724 Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit](https://github.com/velero-io/velero/issues/10724) — velero-io/velero
 - [#10721 Regression: backup deletion fails for good after an interrupted deletion (kopia snapshot not found after repo refresh)](https://github.com/velero-io/velero/issues/10721) — velero-io/velero
 - [#10719 Block data mover restore skips zero ranges: BLKZEROOUT ioctl number is wrong](https://github.com/velero-io/velero/issues/10719) — velero-io/velero
@@ -494,7 +495,8 @@
 - [#162 Narrow retry/crash races: non-idempotent scratch PVC/pod creation, and an unresumable orphaned PV after a mid-rebind crash](https://github.com/migtools/kubevirt-datamover-controller/issues/162) — migtools/kubevirt-datamover-controller
 - [#160 Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space](https://github.com/migtools/kubevirt-datamover-controller/issues/160) — migtools/kubevirt-datamover-controller
 
-**Other** (28)
+**Other** (29)
+- [#13212 What's New: should link to latest...current to show diff from installed version](https://github.com/podman-desktop/podman-desktop/issues/13212) — podman-desktop/podman-desktop
 - [#23825 [Bug]: Deferred MCP App forms never display; write tool returns awaiting_user_submission with no fallback](https://github.com/pingdotgg/t3code/issues/23825) — pingdotgg/t3code
 - [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#90071 Model reimplements ad-hoc polling scripts instead of using an available, more specific installed skill](https://github.com/anthropics/claude-code/issues/90071) — anthropics/claude-code
