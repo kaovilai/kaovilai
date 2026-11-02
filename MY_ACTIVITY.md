@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-04 — 2026-11-02
-> **Generated:** 2026-11-02 15:19:57 UTC
+> **Generated:** 2026-11-02 21:30:13 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 78 |
+| PRs Reviewed | 79 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 88 |
 
@@ -94,7 +94,6 @@
 - [#196 feat: in-extension update check and automated GitHub releases](https://github.com/kaovilai/github-bot-command-palette/pull/196) — kaovilai/github-bot-command-palette
 - [#195 fix(settings): shard config across sync keys to stay under 8 KB item quota](https://github.com/kaovilai/github-bot-command-palette/pull/195) — kaovilai/github-bot-command-palette
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
-- [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 - [#5 Fix PR commit detection from deferred GitHub diff markup](https://github.com/kaovilai/github-html-diff-preview/pull/5) — kaovilai/github-html-diff-preview
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
 - [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
@@ -122,6 +121,7 @@
 - [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
 - [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
 - [#1 Bring vendor/amazon/maverick blobs in sync with the lineage-20 device tree manifest](https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1) — kaovilai/android_vendor_amazon_maverick
+- [#7 Add safe Dependabot auto-merge workflow for npm patch/minor updates](https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7) — kaovilai/bandwidth-hero-proxy2
 ## PRs Opened (100)
 
 **velero-io** (32)
@@ -158,7 +158,7 @@
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 - [#5 Draft Velero CNCF incubation security and engineering materials](https://github.com/velero-io/.github/pull/5) — velero-io/.github
 
-**openshift** (30)
+**openshift** (31)
 - [#2525 docs: describe descheduler impact on virtualization backups](https://github.com/openshift/oadp-operator/pull/2525) — openshift/oadp-operator
 - [#604 [oadp-1.6] Handle data mover and hook pods that go away during a backup](https://github.com/openshift/velero/pull/604) — openshift/velero
 - [#2519 docs: note that nodeAgent.loadAffinity also limits File System Backup](https://github.com/openshift/oadp-operator/pull/2519) — openshift/oadp-operator
@@ -189,6 +189,7 @@
 - [#186 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-aws/pull/186) — openshift/velero-plugin-for-aws
 - [#185 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-aws/pull/185) — openshift/velero-plugin-for-aws
 - [#184 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-aws/pull/184) — openshift/velero-plugin-for-aws
+- [#2499 fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2499) — openshift/oadp-operator
 
 **migtools** (18)
 - [#199 deps: consolidate pending dependabot bumps](https://github.com/migtools/udistribution/pull/199) — migtools/udistribution
@@ -210,7 +211,7 @@
 - [#120 [oadp-1.6] ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/120) — migtools/oadp-vm-file-restore
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 
-**Other** (20)
+**Other** (19)
 - [#216 Guard CRD regeneration after dependency bumps](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) — oadp-rebasebot/oadp-rebase
 - [#213 docs: seed OADP FAQ with curated answers](https://github.com/oadp-rebasebot/oadp-rebase/pull/213) — oadp-rebasebot/oadp-rebase
 - [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
@@ -222,7 +223,6 @@
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
-- [#115 docs(welcome): document EnMaaS request body limit](https://github.com/redhat-et/pricetag-metering/pull/115) — redhat-et/pricetag-metering
 - [#453 feat: log per-request latency and time to first token](https://github.com/caozhiyuan/copilot-api/pull/453) — caozhiyuan/copilot-api
 - [#198 docs: Android update via Tasker; stable-name release zip (v1.1.2)](https://github.com/kaovilai/github-bot-command-palette/pull/198) — kaovilai/github-bot-command-palette
 - [#197 fix(content): give the review-dialog command bar its own row](https://github.com/kaovilai/github-bot-command-palette/pull/197) — kaovilai/github-bot-command-palette
@@ -231,10 +231,11 @@
 - [#195 fix(settings): shard config across sync keys to stay under 8 KB item quota](https://github.com/kaovilai/github-bot-command-palette/pull/195) — kaovilai/github-bot-command-palette
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
 - [#1571 Add support for Chipsea-BLE GATT body fat scales](https://github.com/oliexdev/openScale/pull/1571) — oliexdev/openScale
-## PRs Reviewed (78)
+## PRs Reviewed (79)
 
-**velero-io** (29)
+**velero-io** (30)
 - [#10761 Add 1.19 release notes](https://github.com/velero-io/velero/pull/10761) — velero-io/velero
+- [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10759 Expose resourcemodifiers package to pkg for plugin reuse](https://github.com/velero-io/velero/pull/10759) — velero-io/velero
 - [#10766 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10766) — velero-io/velero
 - [#10764 e2e: run the FSBackup backup deletion case on kind under CSI](https://github.com/velero-io/velero/pull/10764) — velero-io/velero
@@ -321,6 +322,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (56)
+- [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#8801 Design configurable restore of Running/Completed/Failed Jobs](https://github.com/velero-io/velero/issues/8801) — velero-io/velero
 - [#10693 Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)](https://github.com/velero-io/velero/issues/10693) — velero-io/velero
 - [#9760 Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.](https://github.com/velero-io/velero/issues/9760) — velero-io/velero
@@ -349,7 +351,6 @@
 - [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
 - [#10310 Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands](https://github.com/velero-io/velero/issues/10310) — velero-io/velero
 - [#8689 Report Object Lock when PutObject errors patching backup to Completed, and Fail backup](https://github.com/velero-io/velero/issues/8689) — velero-io/velero
-- [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#10627 Allow Multiple Key Properties](https://github.com/velero-io/velero/issues/10627) — velero-io/velero
 - [#9109 Add comprehensive make target for E2E testing with MinIO setup and fresh builds](https://github.com/velero-io/velero/issues/9109) — velero-io/velero
 - [#10266 docs: how to run CSI e2e specs against a local Kind cluster](https://github.com/velero-io/velero/issues/10266) — velero-io/velero
