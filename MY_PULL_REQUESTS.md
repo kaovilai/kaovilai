@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-01 21:25:17 UTC
+> Last updated: 2026-11-02 04:11:47 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -74,7 +74,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
 - [![PR #2522](https://img.shields.io/badge/PR%20%232522-ready-green)](https://github.com/openshift/oadp-operator/pull/2522) **openshift/oadp-operator** → `oadp-dev` - Add NonAdminSchedule design proposal
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
-- [![PR #2527](https://img.shields.io/badge/PR%20%232527-ready-green)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
 - [![PR #2528](https://img.shields.io/badge/PR%20%232528-ready-green)](https://github.com/openshift/oadp-operator/pull/2528) **openshift/oadp-operator** → `oadp-1.5` - Fix misleading podAnnotations deprecation warning on OADP 1.5 (OADP-8788)
 - [![PR #2529](https://img.shields.io/badge/PR%20%232529-ready-green)](https://github.com/openshift/oadp-operator/pull/2529) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): default empty VMB status.type to full
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
@@ -97,6 +96,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
+- [![PR #2527](https://img.shields.io/badge/PR%20%232527-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -177,6 +177,7 @@ No open PRs.
 - [![PR #1793](https://img.shields.io/badge/PR%20%231793-ready-green)](https://github.com/sooperset/mcp-atlassian/pull/1793) **sooperset/mcp-atlassian** → `main` - fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
+- [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #46](https://img.shields.io/badge/PR%20%2346-ready-green)](https://github.com/konveyor/builder/pull/46) **konveyor/builder** → `main` - Centralize build scheduling into a single version-aware dispatcher
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
