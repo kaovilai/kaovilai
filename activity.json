@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-03",
-    "end": "2026-11-01"
+    "start": "2026-08-04",
+    "end": "2026-11-02"
   },
-  "generatedAt": "2026-11-01T21:56:05Z",
+  "generatedAt": "2026-11-02T05:27:03Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 78,
     "issuesCommented": 100,
-    "issuesClosed": 89
+    "issuesClosed": 88
   },
   "prsMerged": [
     {
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 216,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Guard CRD regeneration after dependency bumps",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+      "date": "2026-11-02T02:30:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 199,
       "repo": "migtools/udistribution",
       "org": "migtools",
@@ -1804,18 +1813,63 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/396",
       "date": "2026-10-21T16:15:28Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2499,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated",
-      "url": "https://github.com/openshift/oadp-operator/pull/2499",
-      "date": "2026-10-20T15:10:45Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2527,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
+      "url": "https://github.com/openshift/oadp-operator/pull/2527",
+      "date": "2026-11-02T05:13:31Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10761,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add 1.19 release notes",
+      "url": "https://github.com/velero-io/velero/pull/10761",
+      "date": "2026-11-02T04:58:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2528,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fix misleading podAnnotations deprecation warning on OADP 1.5 (OADP-8788)",
+      "url": "https://github.com/openshift/oadp-operator/pull/2528",
+      "date": "2026-11-02T04:54:10Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10759,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Expose resourcemodifiers package to pkg for plugin reuse",
+      "url": "https://github.com/velero-io/velero/pull/10759",
+      "date": "2026-11-02T03:06:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 385,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "RFE-9751: Add non-admin backup schedules",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/385",
+      "date": "2026-11-02T02:54:17Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 200,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump the go-security group across 1 directory with 2 updates",
+      "url": "https://github.com/migtools/udistribution/pull/200",
+      "date": "2026-11-02T01:37:29Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10766,
       "repo": "velero-io/velero",
@@ -1835,15 +1889,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 2527,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
-      "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-10-30T22:23:40Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 23732,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -1859,15 +1904,6 @@
       "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163",
       "date": "2026-10-30T19:36:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10761,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add 1.19 release notes",
-      "url": "https://github.com/velero-io/velero/pull/10761",
-      "date": "2026-10-30T17:50:14Z",
       "workstream": "Velero"
     },
     {
@@ -2004,15 +2040,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2488",
       "date": "2026-10-29T23:14:50Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10759,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Expose resourcemodifiers package to pkg for plugin reuse",
-      "url": "https://github.com/velero-io/velero/pull/10759",
-      "date": "2026-10-29T17:30:11Z",
-      "workstream": "Velero"
     },
     {
       "number": 10760,
@@ -2490,36 +2517,27 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/pull/490",
       "date": "2026-10-22T19:43:20Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 103,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Add akarol to OWNERS",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/103",
-      "date": "2026-10-22T16:09:53Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 500,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.4 (a2553ae) into oadp-1.4",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/500",
-      "date": "2026-10-22T15:44:02Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 498,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.6] OADP-8924: Treat missing openshift-apiserver config as no internal registry",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/498",
-      "date": "2026-10-22T15:23:08Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9760,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.",
+      "url": "https://github.com/velero-io/velero/issues/9760",
+      "date": "2026-11-02T01:35:41Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10584,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
+      "url": "https://github.com/openshift/installer/issues/10584",
+      "date": "2026-11-02T00:00:49Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10553,
       "repo": "pingdotgg/t3code",
@@ -3133,15 +3151,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 10584,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
-      "url": "https://github.com/openshift/installer/issues/10584",
-      "date": "2026-10-02T08:31:02Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 9189,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -3410,18 +3419,18 @@
       "url": "https://github.com/velero-io/velero/issues/9963",
       "date": "2026-09-12T00:31:16Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2386,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD",
-      "url": "https://github.com/openshift/oadp-operator/issues/2386",
-      "date": "2026-09-11T22:51:39Z",
-      "workstream": "OADP"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10584,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
+      "url": "https://github.com/openshift/installer/issues/10584",
+      "date": "2026-11-02T00:00:48Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 9894,
       "repo": "velero-io/velero",
@@ -4204,24 +4213,6 @@
       "url": "https://github.com/velero-io/velero/issues/9719",
       "date": "2026-08-04T01:17:16Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 149,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Gather PVC/PV/Namespace(SCC) data for backed-up/restored app namespaces to diagnose restore permission/ownership bugs",
-      "url": "https://github.com/openshift/oadp-must-gather/issues/149",
-      "date": "2026-08-03T21:15:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/route-127-trailer-nc",
-      "org": "kaovilai",
-      "title": "Implement my gemini app into github pages static",
-      "url": "https://github.com/kaovilai/route-127-trailer-nc/issues/1",
-      "date": "2026-08-03T04:02:18Z",
-      "workstream": "Uncategorized"
     }
   ]
 }
