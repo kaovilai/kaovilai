@@ -3,7 +3,7 @@
     "start": "2026-08-04",
     "end": "2026-11-02"
   },
-  "generatedAt": "2026-11-02T05:27:03Z",
+  "generatedAt": "2026-11-02T15:19:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 163,
+      "repo": "openshift/velero-plugin-for-gcp",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
+      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163",
+      "date": "2026-11-02T14:06:28Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2527,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1896,15 +1905,6 @@
       "url": "https://github.com/pingdotgg/t3code/pull/23732",
       "date": "2026-10-30T20:57:33Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163",
-      "date": "2026-10-30T19:36:46Z",
-      "workstream": "Velero"
     },
     {
       "number": 190,
@@ -2521,6 +2521,33 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-02T14:54:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 8801,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design configurable restore of Running/Completed/Failed Jobs",
+      "url": "https://github.com/velero-io/velero/issues/8801",
+      "date": "2026-11-02T07:23:01Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10693,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
+      "url": "https://github.com/velero-io/velero/issues/10693",
+      "date": "2026-11-02T07:20:46Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 9760,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2545,15 +2572,6 @@
       "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
       "url": "https://github.com/pingdotgg/t3code/issues/10553",
       "date": "2026-11-01T18:21:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-01T12:48:31Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2797,15 +2815,6 @@
       "title": "Verify ChangeId retrieve for Ceph",
       "url": "https://github.com/velero-io/velero/issues/9714",
       "date": "2026-10-27T15:03:31Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10693,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
-      "url": "https://github.com/velero-io/velero/issues/10693",
-      "date": "2026-10-27T07:48:46Z",
       "workstream": "Velero"
     },
     {
@@ -3409,15 +3418,6 @@
       "title": "DataUpload tasks stuck in Prepared phase for extended periods",
       "url": "https://github.com/velero-io/velero/issues/9453",
       "date": "2026-09-14T01:51:13Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9963,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory",
-      "url": "https://github.com/velero-io/velero/issues/9963",
-      "date": "2026-09-12T00:31:16Z",
       "workstream": "Velero"
     }
   ],
