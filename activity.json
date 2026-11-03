@@ -3,11 +3,11 @@
     "start": "2026-08-05",
     "end": "2026-11-03"
   },
-  "generatedAt": "2026-11-03T13:55:45Z",
+  "generatedAt": "2026-11-03T19:14:34Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 80,
+    "prsReviewed": 79,
     "issuesCommented": 100,
     "issuesClosed": 80
   },
@@ -217,6 +217,15 @@
       "title": "Merge upstream/dev (268 commits) into dev",
       "url": "https://github.com/kaovilai/copilot-api/pull/15",
       "date": "2026-10-23T02:50:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 91,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+      "date": "2026-10-22T20:47:47Z",
       "workstream": "Uncategorized"
     },
     {
@@ -902,15 +911,6 @@
       "url": "https://github.com/kaovilai/android_vendor_amazon_maverick/pull/1",
       "date": "2026-09-14T19:31:22Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/bandwidth-hero-proxy2",
-      "org": "kaovilai",
-      "title": "Add safe Dependabot auto-merge workflow for npm patch/minor updates",
-      "url": "https://github.com/kaovilai/bandwidth-hero-proxy2/pull/7",
-      "date": "2026-09-11T18:44:21Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
@@ -1311,6 +1311,15 @@
       "workstream": "Velero"
     },
     {
+      "number": 115,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): document EnMaaS request body limit",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/115",
+      "date": "2026-10-24T05:56:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10696,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1554,6 +1563,24 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 42,
+      "repo": "openshift-online/hp-org-pulse",
+      "org": "openshift-online",
+      "title": "jira-solve-agent: add OADP to tracked Jira projects",
+      "url": "https://github.com/openshift-online/hp-org-pulse/pull/42",
+      "date": "2026-10-22T14:57:42Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 41,
+      "repo": "openshift-online/hp-org-pulse",
+      "org": "openshift-online",
+      "title": "jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)",
+      "url": "https://github.com/openshift-online/hp-org-pulse/pull/41",
+      "date": "2026-10-22T14:57:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 1571,
       "repo": "oliexdev/openScale",
       "org": "oliexdev",
@@ -1786,36 +1813,18 @@
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/184",
       "date": "2026-10-21T16:16:17Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 121,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "ci: build e2e MinIO image from pinned Bitnami Dockerfile",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/121",
-      "date": "2026-10-21T16:15:40Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 120,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "[oadp-1.6] ci: build e2e MinIO image from pinned Bitnami Dockerfile",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/120",
-      "date": "2026-10-21T16:15:36Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 396,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "[oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/396",
-      "date": "2026-10-21T16:15:28Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 254,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/254",
+      "date": "2026-11-03T14:52:36Z",
+      "workstream": "KubeVirt Data Mover"
+    },
     {
       "number": 10438,
       "repo": "velero-io/velero",
@@ -2517,24 +2526,6 @@
       "url": "https://github.com/openshift/velero/pull/602",
       "date": "2026-10-23T03:37:38Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 50,
-      "repo": "migtools/filebrowser",
-      "org": "migtools",
-      "title": "chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend",
-      "url": "https://github.com/migtools/filebrowser/pull/50",
-      "date": "2026-10-23T00:21:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2489,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[OADP-8902] docs: clarify maxConcurrentDataMovers CRD default",
-      "url": "https://github.com/openshift/oadp-operator/pull/2489",
-      "date": "2026-10-22T21:45:14Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
