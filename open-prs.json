@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T03:22:27Z",
+  "updatedAt": "2026-11-03T03:48:52Z",
   "prs": [
     {
       "number": 10010,
@@ -9539,7 +9539,15 @@
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "FAILURE"
+        },
+        {
           "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "FAILURE"
         },
         {
@@ -9555,23 +9563,15 @@
           "conclusion": "FAILURE"
         },
         {
+          "name": "ci/prow/5.1-e2e-test-aws",
+          "conclusion": "FAILURE"
+        },
+        {
           "name": "ci/prow/5.1-e2e-test-cli-aws",
           "conclusion": "FAILURE"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10525,11 +10525,19 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-03T01:15:39Z",
+      "updatedAt": "2026-11-03T03:48:33Z",
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "FAILURE"
+        },
+        {
           "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "FAILURE"
         },
         {
@@ -10543,14 +10551,6 @@
         {
           "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
           "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -17252,7 +17252,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-03T03:22:27Z",
+    "updatedAt": "2026-11-03T03:48:52Z",
     "needsReview": [
       {
         "number": 68,
@@ -17431,36 +17431,6 @@
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 146,
-        "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
         "number": 104,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -17534,7 +17504,7 @@
         "labels": [
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17585,7 +17555,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17867,7 +17837,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18067,7 +18037,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18276,7 +18246,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18455,7 +18425,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18520,7 +18490,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18551,7 +18521,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18577,7 +18547,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18662,7 +18632,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18808,7 +18778,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -18865,7 +18835,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -20477,7 +20447,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20959,7 +20929,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-03T01:15:39Z"
+        "updatedAt": "2026-11-03T03:48:33Z"
       },
       {
         "number": 2527,
