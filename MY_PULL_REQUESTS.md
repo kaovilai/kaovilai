@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-03 13:33:06 UTC
+> Last updated: 2026-11-03 19:17:35 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -94,6 +94,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
 - [![PR #2527](https://img.shields.io/badge/PR%20%232527-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
+- [![PR #2530](https://img.shields.io/badge/PR%20%232530-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2530) **openshift/oadp-operator** → `oadp-1.5` - Bump CSV metadata to v1.5.9
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
@@ -118,6 +119,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2371](https://img.shields.io/badge/PR%20%232371-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-stale-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #5354](https://img.shields.io/badge/PR%20%235354-stale-yellow)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
+- [![PR #565](https://img.shields.io/badge/PR%20%23565-stale-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-stale-yellow)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #78](https://img.shields.io/badge/PR%20%2378-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/78) **openshift/oadp-must-gather** → `oadp-1.4` - OADP-7143: update runc requirement
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
@@ -125,7 +127,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2488](https://img.shields.io/badge/PR%20%232488-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2488) **openshift/oadp-operator** → `oadp-dev` - Enable AllNamespaces install mode with multi-tenant DPA support
 - [![PR #2508](https://img.shields.io/badge/PR%20%232508-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2508) **openshift/oadp-operator** → `oadp-dev` - Sync NonAdmin CRDs with oadp-non-admin oadp-dev
 - [![PR #2512](https://img.shields.io/badge/PR%20%232512-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2512) **openshift/oadp-operator** → `oadp-dev` - Add S3 GetBucketRegion transient failure to known flakes
-- [![PR #565](https://img.shields.io/badge/PR%20%23565-hold-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.4` - Update auto-request-review action to v0.13.0
@@ -229,6 +230,8 @@ No open PRs.
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
+- [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
+- [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
 
 ---
 
