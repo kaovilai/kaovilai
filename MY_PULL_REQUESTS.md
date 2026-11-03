@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-02 21:34:21 UTC
+> Last updated: 2026-11-03 03:22:27 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -92,7 +92,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
-- [![PR #2522](https://img.shields.io/badge/PR%20%232522-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2522) **openshift/oadp-operator** → `oadp-dev` - Add NonAdminSchedule design proposal
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
 - [![PR #2527](https://img.shields.io/badge/PR%20%232527-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
