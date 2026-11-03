@@ -3,11 +3,11 @@
     "start": "2026-08-05",
     "end": "2026-11-03"
   },
-  "generatedAt": "2026-11-03T03:52:30Z",
+  "generatedAt": "2026-11-03T13:55:45Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 79,
+    "prsReviewed": 80,
     "issuesCommented": 100,
     "issuesClosed": 80
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 468,
+      "repo": "kubevirt/kubevirt-velero-plugin",
+      "org": "kubevirt",
+      "title": "Select the live virt-launcher pod after live migration",
+      "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
+      "date": "2026-11-03T09:21:02Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
       "number": 216,
       "repo": "oadp-rebasebot/oadp-rebase",
       "org": "oadp-rebasebot",
@@ -1804,18 +1813,54 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/396",
       "date": "2026-10-21T16:15:28Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2499,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated",
-      "url": "https://github.com/openshift/oadp-operator/pull/2499",
-      "date": "2026-10-20T15:10:45Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10438,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
+      "url": "https://github.com/velero-io/velero/pull/10438",
+      "date": "2026-11-03T12:45:11Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10624,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix backup dequeued twice from a stale cached Queued copy",
+      "url": "https://github.com/velero-io/velero/pull/10624",
+      "date": "2026-11-03T09:12:43Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10776,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group",
+      "url": "https://github.com/velero-io/velero/pull/10776",
+      "date": "2026-11-03T08:11:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10761,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add 1.19 release notes",
+      "url": "https://github.com/velero-io/velero/pull/10761",
+      "date": "2026-11-03T06:36:17Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10766,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump the github-actions group with 2 updates",
+      "url": "https://github.com/velero-io/velero/pull/10766",
+      "date": "2026-11-03T06:26:46Z",
+      "workstream": "Velero"
+    },
     {
       "number": 2527,
       "repo": "openshift/oadp-operator",
@@ -1833,15 +1878,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
       "date": "2026-11-03T02:35:43Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10761,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add 1.19 release notes",
-      "url": "https://github.com/velero-io/velero/pull/10761",
-      "date": "2026-11-02T21:21:26Z",
-      "workstream": "Velero"
     },
     {
       "number": 10235,
@@ -1896,15 +1932,6 @@
       "url": "https://github.com/migtools/udistribution/pull/200",
       "date": "2026-11-02T01:37:29Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10766,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump the github-actions group with 2 updates",
-      "url": "https://github.com/velero-io/velero/pull/10766",
-      "date": "2026-10-31T19:17:33Z",
-      "workstream": "Velero"
     },
     {
       "number": 51,
@@ -2192,15 +2219,6 @@
       "title": "e2e: finish converting the CSI feature checks to FeatureEnabled",
       "url": "https://github.com/velero-io/velero/pull/10678",
       "date": "2026-10-27T19:06:37Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10624,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup dequeued twice from a stale cached Queued copy",
-      "url": "https://github.com/velero-io/velero/pull/10624",
-      "date": "2026-10-27T18:25:03Z",
       "workstream": "Velero"
     },
     {
@@ -2517,18 +2535,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2489",
       "date": "2026-10-22T21:45:14Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 490,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump github.com/moby/sys/user from 0.4.0 to 0.4.1",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/490",
-      "date": "2026-10-22T19:43:20Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-03T13:46:32Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 16000,
       "repo": "pingdotgg/t3code",
@@ -2546,15 +2564,6 @@
       "url": "https://github.com/velero-io/velero/issues/4045",
       "date": "2026-11-02T20:46:27Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-02T14:54:58Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 8801,

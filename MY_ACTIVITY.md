@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-05 — 2026-11-03
-> **Generated:** 2026-11-03 03:52:30 UTC
+> **Generated:** 2026-11-03 13:55:45 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 79 |
+| PRs Reviewed | 80 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 80 |
 
@@ -158,7 +158,7 @@
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 - [#5 Draft Velero CNCF incubation security and engineering materials](https://github.com/velero-io/.github/pull/5) — velero-io/.github
 
-**openshift** (31)
+**openshift** (30)
 - [#2525 docs: describe descheduler impact on virtualization backups](https://github.com/openshift/oadp-operator/pull/2525) — openshift/oadp-operator
 - [#604 [oadp-1.6] Handle data mover and hook pods that go away during a backup](https://github.com/openshift/velero/pull/604) — openshift/velero
 - [#2519 docs: note that nodeAgent.loadAffinity also limits File System Backup](https://github.com/openshift/oadp-operator/pull/2519) — openshift/oadp-operator
@@ -189,7 +189,6 @@
 - [#186 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-aws/pull/186) — openshift/velero-plugin-for-aws
 - [#185 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-aws/pull/185) — openshift/velero-plugin-for-aws
 - [#184 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-aws/pull/184) — openshift/velero-plugin-for-aws
-- [#2499 fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated](https://github.com/openshift/oadp-operator/pull/2499) — openshift/oadp-operator
 
 **migtools** (18)
 - [#199 deps: consolidate pending dependabot bumps](https://github.com/migtools/udistribution/pull/199) — migtools/udistribution
@@ -211,7 +210,8 @@
 - [#120 [oadp-1.6] ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/120) — migtools/oadp-vm-file-restore
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 
-**Other** (19)
+**Other** (20)
+- [#468 Select the live virt-launcher pod after live migration](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) — kubevirt/kubevirt-velero-plugin
 - [#216 Guard CRD regeneration after dependency bumps](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) — oadp-rebasebot/oadp-rebase
 - [#213 docs: seed OADP FAQ with curated answers](https://github.com/oadp-rebasebot/oadp-rebase/pull/213) — oadp-rebasebot/oadp-rebase
 - [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
@@ -231,13 +231,16 @@
 - [#195 fix(settings): shard config across sync keys to stay under 8 KB item quota](https://github.com/kaovilai/github-bot-command-palette/pull/195) — kaovilai/github-bot-command-palette
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
 - [#1571 Add support for Chipsea-BLE GATT body fat scales](https://github.com/oliexdev/openScale/pull/1571) — oliexdev/openScale
-## PRs Reviewed (79)
+## PRs Reviewed (80)
 
-**velero-io** (30)
+**velero-io** (32)
+- [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
+- [#10624 Fix backup dequeued twice from a stale cached Queued copy](https://github.com/velero-io/velero/pull/10624) — velero-io/velero
+- [#10776 build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group](https://github.com/velero-io/velero/pull/10776) — velero-io/velero
 - [#10761 Add 1.19 release notes](https://github.com/velero-io/velero/pull/10761) — velero-io/velero
+- [#10766 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10766) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10759 Expose resourcemodifiers package to pkg for plugin reuse](https://github.com/velero-io/velero/pull/10759) — velero-io/velero
-- [#10766 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10766) — velero-io/velero
 - [#10764 e2e: run the FSBackup backup deletion case on kind under CSI](https://github.com/velero-io/velero/pull/10764) — velero-io/velero
 - [#6 Clarify the code repositories in GOVERNANCE.md](https://github.com/velero-io/.github/pull/6) — velero-io/.github
 - [#10762 Restic deprecation: ignore invalid PVB uploader](https://github.com/velero-io/velero/pull/10762) — velero-io/velero
@@ -254,7 +257,6 @@
 - [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
 - [#340 Update the auto-assignees.yml of aws plugin](https://github.com/velero-io/velero-plugin-for-aws/pull/340) — velero-io/velero-plugin-for-aws
 - [#10678 e2e: finish converting the CSI feature checks to FeatureEnabled](https://github.com/velero-io/velero/pull/10678) — velero-io/velero
-- [#10624 Fix backup dequeued twice from a stale cached Queued copy](https://github.com/velero-io/velero/pull/10624) — velero-io/velero
 - [#91 Update assignee settings](https://github.com/velero-io/velero-plugin-example/pull/91) — velero-io/velero-plugin-example
 - [#10742 Remove qiuming-best from OWNERS of PROW action](https://github.com/velero-io/velero/pull/10742) — velero-io/velero
 - [#10680 e2e: run the Kibishii file system backup cases on kind under CSI](https://github.com/velero-io/velero/pull/10680) — velero-io/velero
@@ -265,7 +267,7 @@
 - [#10697 build(deps): bump github/codeql-action from 4.38.3 to 4.39.1 in the github-actions group](https://github.com/velero-io/velero/pull/10697) — velero-io/velero
 - [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 
-**openshift** (28)
+**openshift** (27)
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#163 Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev](https://github.com/openshift/velero-plugin-for-gcp/pull/163) — openshift/velero-plugin-for-gcp
@@ -293,7 +295,6 @@
 - [#502 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.4 (22c704b) into oadp-1.4](https://github.com/openshift/openshift-velero-plugin/pull/502) — openshift/openshift-velero-plugin
 - [#602 UPSTREAM: <carry>: add GetLevel() to logrusAdapter to satisfy hclog.Logger interface](https://github.com/openshift/velero/pull/602) — openshift/velero
 - [#2489 [OADP-8902] docs: clarify maxConcurrentDataMovers CRD default](https://github.com/openshift/oadp-operator/pull/2489) — openshift/oadp-operator
-- [#490 Bump github.com/moby/sys/user from 0.4.0 to 0.4.1](https://github.com/openshift/openshift-velero-plugin/pull/490) — openshift/openshift-velero-plugin
 
 **migtools** (18)
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
@@ -389,8 +390,8 @@
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
 **Other** (39)
-- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
