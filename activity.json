@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-04",
-    "end": "2026-11-02"
+    "start": "2026-08-05",
+    "end": "2026-11-03"
   },
-  "generatedAt": "2026-11-02T21:30:13Z",
+  "generatedAt": "2026-11-03T03:20:53Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 79,
     "issuesCommented": 100,
-    "issuesClosed": 88
+    "issuesClosed": 80
   },
   "prsMerged": [
     {
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 2527,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
+      "url": "https://github.com/openshift/oadp-operator/pull/2527",
+      "date": "2026-11-03T02:40:37Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-11-03T02:35:43Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 10761,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1842,15 +1860,6 @@
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163",
       "date": "2026-11-02T14:06:28Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2527,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
-      "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-11-02T05:13:31Z",
-      "workstream": "OADP"
     },
     {
       "number": 2528,
@@ -2013,15 +2022,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/251",
       "date": "2026-10-30T04:58:05Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-10-30T04:50:08Z",
-      "workstream": "OADP"
     },
     {
       "number": 10762,
@@ -2530,6 +2530,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-11-02T23:03:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 4045,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2905,15 +2914,6 @@
       "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-24T12:20:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16000,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
-      "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-10-23T18:11:05Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3666,15 +3666,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 673,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "Tide gets stuck retrying unmergeable PR instead of advancing to next candidate",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/673",
-      "date": "2026-08-04T17:07:46Z",
-      "workstream": "Kubernetes"
-    },
-    {
       "number": 251,
       "repo": "OpenPetsHQ/openpets",
       "org": "OpenPetsHQ",
@@ -4159,69 +4150,6 @@
       "url": "https://github.com/openshift/oadp-operator/issues/2236",
       "date": "2026-08-05T04:11:16Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2351,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "kubevirt-datamover ClusterRole missing RBAC for Phase 3 (DataDownload) support",
-      "url": "https://github.com/openshift/oadp-operator/issues/2351",
-      "date": "2026-08-04T23:48:20Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 147,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "group dependabot prs into ecosystems.. ie typescript, actions, etc.",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/issues/147",
-      "date": "2026-08-04T20:45:47Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 69,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "activity.json is not updated the same time as .md files.",
-      "url": "https://github.com/kaovilai/kaovilai/issues/69",
-      "date": "2026-08-04T18:20:12Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10044,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Azure Files SMB / Blobfuse / gcsfuse: restore silently loses file ownership — chown/chmod fake success, no error exists to surface",
-      "url": "https://github.com/velero-io/velero/issues/10044",
-      "date": "2026-08-04T14:47:23Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10099,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update velero.io community pages",
-      "url": "https://github.com/velero-io/velero/issues/10099",
-      "date": "2026-08-04T13:52:16Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 160,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Checkpoint index records requested PVC size, not actual PV capacity, undersizing restore scratch space",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/160",
-      "date": "2026-08-04T10:00:28Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 9719,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero Server Default Restore Resource Modifier",
-      "url": "https://github.com/velero-io/velero/issues/9719",
-      "date": "2026-08-04T01:17:16Z",
-      "workstream": "Velero"
     }
   ]
 }
