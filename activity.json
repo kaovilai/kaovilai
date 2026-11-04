@@ -3,11 +3,11 @@
     "start": "2026-08-06",
     "end": "2026-11-04"
   },
-  "generatedAt": "2026-11-04T00:27:38Z",
+  "generatedAt": "2026-11-04T02:57:18Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 80,
+    "prsReviewed": 81,
     "issuesCommented": 100,
     "issuesClosed": 77
   },
@@ -1817,13 +1817,22 @@
   ],
   "prsReviewed": [
     {
-      "number": 10739,
+      "number": 10780,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
-      "url": "https://github.com/velero-io/velero/pull/10739",
-      "date": "2026-11-04T00:11:34Z",
+      "title": "site: add a blog post on the CSI snapshot tests on kind",
+      "url": "https://github.com/velero-io/velero/pull/10780",
+      "date": "2026-11-04T02:51:19Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 2527,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
+      "url": "https://github.com/openshift/oadp-operator/pull/2527",
+      "date": "2026-11-04T02:40:46Z",
+      "workstream": "OADP"
     },
     {
       "number": 2493,
@@ -1831,8 +1840,26 @@
       "org": "openshift",
       "title": "OADP-8924: Add HCP guest cluster pod backup test case",
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-11-03T23:01:59Z",
+      "date": "2026-11-04T02:40:44Z",
       "workstream": "OADP"
+    },
+    {
+      "number": 2530,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bump CSV metadata to v1.5.9",
+      "url": "https://github.com/openshift/oadp-operator/pull/2530",
+      "date": "2026-11-04T02:40:42Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10739,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
+      "url": "https://github.com/velero-io/velero/pull/10739",
+      "date": "2026-11-04T00:11:34Z",
+      "workstream": "Velero"
     },
     {
       "number": 10778,
@@ -1923,15 +1950,6 @@
       "url": "https://github.com/velero-io/velero/pull/10766",
       "date": "2026-11-03T06:26:46Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2527,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
-      "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-11-03T02:40:37Z",
-      "workstream": "OADP"
     },
     {
       "number": 10235,
@@ -2526,18 +2544,18 @@
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/208",
       "date": "2026-10-23T15:34:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 501,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Fix 5 CVEs (CVE-2024-41110, CVE-2026-34986, CVE-2025-66506, ...)",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/501",
-      "date": "2026-10-23T13:02:30Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10437,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
+      "url": "https://github.com/velero-io/velero/issues/10437",
+      "date": "2026-11-04T01:35:13Z",
+      "workstream": "Velero"
+    },
     {
       "number": 17422,
       "repo": "pingdotgg/t3code",
@@ -3427,15 +3445,6 @@
       "title": "Behavior of skip volume policy is strange/problematic",
       "url": "https://github.com/velero-io/velero/issues/9318",
       "date": "2026-09-14T01:51:16Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9453,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DataUpload tasks stuck in Prepared phase for extended periods",
-      "url": "https://github.com/velero-io/velero/issues/9453",
-      "date": "2026-09-14T01:51:13Z",
       "workstream": "Velero"
     }
   ],
