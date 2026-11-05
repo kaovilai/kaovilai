@@ -3,15 +3,87 @@
     "start": "2026-08-07",
     "end": "2026-11-05"
   },
-  "generatedAt": "2026-11-05T03:20:09Z",
+  "generatedAt": "2026-11-05T14:25:15Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 73,
+    "prsReviewed": 72,
     "issuesCommented": 100,
     "issuesClosed": 76
   },
   "prsMerged": [
+    {
+      "number": 598,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(llm-usage): wait bar in floating window for slow in-flight requests",
+      "url": "https://github.com/kaovilai/dotfiles/pull/598",
+      "date": "2026-11-05T14:05:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 30,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "android: Android TV, driven by the remote",
+      "url": "https://github.com/kaovilai/tailbond/pull/30",
+      "date": "2026-11-05T11:00:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 29,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "Pair & Share: Macs and Linux computers can share an uplink with a hub",
+      "url": "https://github.com/kaovilai/tailbond/pull/29",
+      "date": "2026-11-05T11:00:08Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 27,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: cache mqvpn binaries, not build trees; skip the build on a hit",
+      "url": "https://github.com/kaovilai/tailbond/pull/27",
+      "date": "2026-11-05T11:00:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 31,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "test: no core dumps from TestMqvpnCrashSignal; remove the ones committed",
+      "url": "https://github.com/kaovilai/tailbond/pull/31",
+      "date": "2026-11-05T10:59:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 25,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: ship the opkg feed's public key",
+      "url": "https://github.com/kaovilai/tailbond/pull/25",
+      "date": "2026-11-05T07:45:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 26,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "agent: Go 1.27 (language 1.27, toolchain go1.27.3)",
+      "url": "https://github.com/kaovilai/tailbond/pull/26",
+      "date": "2026-11-05T07:31:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 24,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: CodeQL advanced setup, so Java/Kotlin builds with the mqvpn submodule",
+      "url": "https://github.com/kaovilai/tailbond/pull/24",
+      "date": "2026-11-05T06:58:27Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10692,
       "repo": "velero-io/velero",
@@ -839,81 +911,81 @@
       "url": "https://github.com/kaovilai/kaovilai/pull/77",
       "date": "2026-10-11T03:05:15Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 76,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Group Other-lane repos under org nodes in the orbit chart",
-      "url": "https://github.com/kaovilai/kaovilai/pull/76",
-      "date": "2026-10-11T03:04:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 75,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Lock down the workstream local save server",
-      "url": "https://github.com/kaovilai/kaovilai/pull/75",
-      "date": "2026-10-11T02:17:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 74,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Replace github-stats images with animated language chart; animate live data",
-      "url": "https://github.com/kaovilai/kaovilai/pull/74",
-      "date": "2026-10-11T02:05:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 73,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Refresh profile README with animated SVGs generated from repo data",
-      "url": "https://github.com/kaovilai/kaovilai/pull/73",
-      "date": "2026-10-10T21:12:47Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 252,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "Speak question speech for Claude AskUserQuestion permission requests",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/252",
-      "date": "2026-10-10T13:57:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10051,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: use consistent excludedNames glob pattern in filter design examples",
-      "url": "https://github.com/velero-io/velero/pull/10051",
-      "date": "2026-10-08T05:17:22Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 86664,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add release-4.21 to Prow configuration branches",
-      "url": "https://github.com/openshift/release/pull/86664",
-      "date": "2026-10-07T18:33:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 189,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(combo): don't re-submit form while GitHub's post is still in flight",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/189",
-      "date": "2026-10-06T15:36:57Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 202,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat(picker): cherry-pick parallel vs sequential chain with reorderable order",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/202",
+      "date": "2026-11-05T14:07:46Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 598,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(llm-usage): wait bar in floating window for slow in-flight requests",
+      "url": "https://github.com/kaovilai/dotfiles/pull/598",
+      "date": "2026-11-05T14:05:25Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 31,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "test: no core dumps from TestMqvpnCrashSignal; remove the ones committed",
+      "url": "https://github.com/kaovilai/tailbond/pull/31",
+      "date": "2026-11-05T10:35:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 30,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "android: Android TV, driven by the remote",
+      "url": "https://github.com/kaovilai/tailbond/pull/30",
+      "date": "2026-11-05T08:11:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 29,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "Pair & Share: Macs and Linux computers can share an uplink with a hub",
+      "url": "https://github.com/kaovilai/tailbond/pull/29",
+      "date": "2026-11-05T07:57:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 27,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: cache mqvpn binaries, not build trees; skip the build on a hit",
+      "url": "https://github.com/kaovilai/tailbond/pull/27",
+      "date": "2026-11-05T07:15:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 26,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "agent: Go 1.27 (language 1.27, toolchain go1.27.3)",
+      "url": "https://github.com/kaovilai/tailbond/pull/26",
+      "date": "2026-11-05T07:11:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 25,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: ship the opkg feed's public key",
+      "url": "https://github.com/kaovilai/tailbond/pull/25",
+      "date": "2026-11-05T07:02:53Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 24,
       "repo": "kaovilai/tailbond",
@@ -1741,88 +1813,70 @@
       "url": "https://github.com/velero-io/.github/pull/5",
       "date": "2026-10-22T20:23:22Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2515,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: retry AWS bucket region discovery on transient S3 errors",
-      "url": "https://github.com/openshift/oadp-operator/pull/2515",
-      "date": "2026-10-22T19:41:38Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 600,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "OADP-8895: Reject restores from backups not in a completed or partially failed phase (#9792)",
-      "url": "https://github.com/openshift/velero/pull/600",
-      "date": "2026-10-22T19:25:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 109,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Add akarol to OWNERS_ALIASES",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/109",
-      "date": "2026-10-22T16:46:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 108,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Sync OWNERS_ALIASES with main",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/108",
-      "date": "2026-10-22T16:01:53Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 107,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Sync OWNERS_ALIASES with main",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/107",
-      "date": "2026-10-22T16:01:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 106,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Sync OWNERS_ALIASES with main",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
-      "date": "2026-10-22T16:01:47Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 42,
-      "repo": "openshift-online/hp-org-pulse",
-      "org": "openshift-online",
-      "title": "jira-solve-agent: add OADP to tracked Jira projects",
-      "url": "https://github.com/openshift-online/hp-org-pulse/pull/42",
-      "date": "2026-10-22T14:57:42Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 41,
-      "repo": "openshift-online/hp-org-pulse",
-      "org": "openshift-online",
-      "title": "jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)",
-      "url": "https://github.com/openshift-online/hp-org-pulse/pull/41",
-      "date": "2026-10-22T14:57:37Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 338,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
+      "date": "2026-11-05T14:10:34Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 508,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.5] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/508",
+      "date": "2026-11-05T13:09:49Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 509,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "[oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/509",
+      "date": "2026-11-05T12:13:52Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 506,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/506",
+      "date": "2026-11-05T11:55:17Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10790,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.190 to 0.2.194",
       "url": "https://github.com/velero-io/velero/pull/10790",
-      "date": "2026-11-05T03:05:44Z",
+      "date": "2026-11-05T08:14:47Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10739,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
+      "url": "https://github.com/velero-io/velero/pull/10739",
+      "date": "2026-11-05T06:58:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10204,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enable TLS for MinIO in the kind E2E workflow",
+      "url": "https://github.com/velero-io/velero/pull/10204",
+      "date": "2026-11-05T05:03:37Z",
       "workstream": "Velero"
     },
     {
@@ -1842,15 +1896,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2530",
       "date": "2026-11-04T22:21:31Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10739,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
-      "url": "https://github.com/velero-io/velero/pull/10739",
-      "date": "2026-11-04T21:22:42Z",
-      "workstream": "Velero"
     },
     {
       "number": 50,
@@ -2418,63 +2463,18 @@
       "url": "https://github.com/pingdotgg/t3code/pull/23510",
       "date": "2026-10-24T06:17:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2491,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-dev] tests/e2e: retry transient QEMU 'Invalid parameter pid' in guest-exec-status poll",
-      "url": "https://github.com/openshift/oadp-operator/pull/2491",
-      "date": "2026-10-23T22:54:12Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 493,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump github.com/klauspost/compress from 1.18.6 to 1.18.7",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/493",
-      "date": "2026-10-23T22:43:16Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 56,
-      "repo": "openshift/agentic-skills",
-      "org": "openshift",
-      "title": "OADP-7954: Add Phase 1 OADP Agent Skills",
-      "url": "https://github.com/openshift/agentic-skills/pull/56",
-      "date": "2026-10-23T22:16:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 182,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Add akarol and PrasadJoshi12 to OWNERS",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/182",
-      "date": "2026-10-23T22:16:17Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 181,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "Add akarol to OWNERS",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/181",
-      "date": "2026-10-23T22:12:27Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 116,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/116",
-      "date": "2026-10-23T22:12:27Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-05T14:07:26Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17422,
       "repo": "pingdotgg/t3code",
@@ -2500,15 +2500,6 @@
       "title": "[Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen",
       "url": "https://github.com/pingdotgg/t3code/issues/19512",
       "date": "2026-11-04T15:22:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-04T13:53:43Z",
       "workstream": "Uncategorized"
     },
     {
