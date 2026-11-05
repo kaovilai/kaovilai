@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-06 — 2026-11-04
-> **Generated:** 2026-11-04 19:30:26 UTC
+> **Period:** 2026-08-07 — 2026-11-05
+> **Generated:** 2026-11-05 00:46:41 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,13 +9,13 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 73 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 78 |
+| Issues Closed | 76 |
 
 ---
 
 ## PRs Merged (100)
 
-**velero-io** (15)
+**velero-io** (10)
 - [#10689 Group Go security updates in Dependabot](https://github.com/velero-io/velero/pull/10689) — velero-io/velero
 - [#10695 ci: add CodeQL analysis for Go](https://github.com/velero-io/velero/pull/10695) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
@@ -26,13 +26,8 @@
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 - [#10051 docs: use consistent excludedNames glob pattern in filter design examples](https://github.com/velero-io/velero/pull/10051) — velero-io/velero
-- [#10608 fix: regenerate CRD manifests for the status.activities field](https://github.com/velero-io/velero/pull/10608) — velero-io/velero
-- [#10077 Add Dependabot auto-approve workflow](https://github.com/velero-io/velero/pull/10077) — velero-io/velero
-- [#10565 Add e2e test for namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10565) — velero-io/velero
-- [#9646 Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds](https://github.com/velero-io/velero/pull/9646) — velero-io/velero
-- [#10275 Implement namespace selection by label in resource policy](https://github.com/velero-io/velero/pull/10275) — velero-io/velero
 
-**openshift** (28)
+**openshift** (27)
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
 - [#87638 Trust OADP automation apps for presubmit triggering](https://github.com/openshift/release/pull/87638) — openshift/release
@@ -60,9 +55,8 @@
 - [#185 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-aws/pull/185) — openshift/velero-plugin-for-aws
 - [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
 - [#86664 Add release-4.21 to Prow configuration branches](https://github.com/openshift/release/pull/86664) — openshift/release
-- [#2454 OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation](https://github.com/openshift/oadp-operator/pull/2454) — openshift/oadp-operator
 
-**migtools** (10)
+**migtools** (9)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
 - [#192 Fix CI coverage handling for no-test packages and update setup-go](https://github.com/migtools/udistribution/pull/192) — migtools/udistribution
 - [#49 ci: use go.mod Go version in CI workflow (oadp-1.6)](https://github.com/migtools/filebrowser/pull/49) — migtools/filebrowser
@@ -72,9 +66,19 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 - [#121 ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/121) — migtools/oadp-vm-file-restore
 - [#62 ci: disable failing Quay binaries push workflow](https://github.com/migtools/kopia/pull/62) — migtools/kopia
-- [#108 [oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)](https://github.com/migtools/oadp-vm-file-restore/pull/108) — migtools/oadp-vm-file-restore
 
-**Other** (47)
+**Other** (54)
+- [#201 fix(picker): job search matches fragments in any order](https://github.com/kaovilai/github-bot-command-palette/pull/201) — kaovilai/github-bot-command-palette
+- [#13 docs: credit the projects tailbond builds on and learned from](https://github.com/kaovilai/tailbond/pull/13) — kaovilai/tailbond
+- [#12 docs: explain that tailbond already works like an exit node](https://github.com/kaovilai/tailbond/pull/12) — kaovilai/tailbond
+- [#11 site: animate how Pair & Share data flows](https://github.com/kaovilai/tailbond/pull/11) — kaovilai/tailbond
+- [#10 docs: README badges for every workflow, downloads and the website](https://github.com/kaovilai/tailbond/pull/10) — kaovilai/tailbond
+- [#20 ci: SBOM for every release file; submit main's build to the dependency graph](https://github.com/kaovilai/tailbond/pull/20) — kaovilai/tailbond
+- [#19 feat(macos): the Mac as home server (server role on Apple silicon)](https://github.com/kaovilai/tailbond/pull/19) — kaovilai/tailbond
+- [#21 agent: build with Go 1.26.10, not 1.26.0](https://github.com/kaovilai/tailbond/pull/21) — kaovilai/tailbond
+- [#17 feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests](https://github.com/kaovilai/tailbond/pull/17) — kaovilai/tailbond
+- [#23 e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check](https://github.com/kaovilai/tailbond/pull/23) — kaovilai/tailbond
+- [#22 openwrt: signed opkg feed in each release, for GL's Plug-ins page](https://github.com/kaovilai/tailbond/pull/22) — kaovilai/tailbond
 - [#145 Refresh upstream PR and Ceph status notes](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/145) — kaovilai/k8s-cbt-s3mover-demo
 - [#16 update: a build from source can move onto releases; no release isn't an error](https://github.com/kaovilai/tailbond/pull/16) — kaovilai/tailbond
 - [#15 fix(client): enforce the server certificate pin inside mqvpn](https://github.com/kaovilai/tailbond/pull/15) — kaovilai/tailbond
@@ -118,10 +122,6 @@
 - [#252 Speak question speech for Claude AskUserQuestion permission requests](https://github.com/OpenPetsHQ/openpets/pull/252) — OpenPetsHQ/openpets
 - [#189 fix(combo): don't re-submit form while GitHub's post is still in flight](https://github.com/kaovilai/github-bot-command-palette/pull/189) — kaovilai/github-bot-command-palette
 - [#188 fix(rehearse): accept gcs.ci.openshift.org listing URLs for full job list](https://github.com/kaovilai/github-bot-command-palette/pull/188) — kaovilai/github-bot-command-palette
-- [#2 fix: address shubham's review feedback on DPT CACertRef handling](https://github.com/msfrucht/oadp-operator/pull/2) — msfrucht/oadp-operator
-- [#1 fix: remove unused bsl parameter (golangci-lint unparam)](https://github.com/msfrucht/oadp-operator/pull/1) — msfrucht/oadp-operator
-- [#188 Fix review queue card deadspace](https://github.com/kaovilai/kaovilai.pw/pull/188) — kaovilai/kaovilai.pw
-- [#197 fix(cve-scan): run go mod vendor for vendored downstream repos](https://github.com/oadp-rebasebot/oadp-rebase/pull/197) — oadp-rebasebot/oadp-rebase
 ## PRs Opened (100)
 
 **velero-io** (32)
@@ -158,7 +158,7 @@
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 - [#5 Draft Velero CNCF incubation security and engineering materials](https://github.com/velero-io/.github/pull/5) — velero-io/.github
 
-**openshift** (13)
+**openshift** (12)
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#2531 fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2531) — openshift/oadp-operator
 - [#2525 docs: describe descheduler impact on virtualization backups](https://github.com/openshift/oadp-operator/pull/2525) — openshift/oadp-operator
@@ -171,7 +171,6 @@
 - [#87638 Trust OADP automation apps for presubmit triggering](https://github.com/openshift/release/pull/87638) — openshift/release
 - [#2515 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2515) — openshift/oadp-operator
 - [#600 OADP-8895: Reject restores from backups not in a completed or partially failed phase (#9792)](https://github.com/openshift/velero/pull/600) — openshift/velero
-- [#2508 Sync NonAdmin CRDs with oadp-non-admin oadp-dev](https://github.com/openshift/oadp-operator/pull/2508) — openshift/oadp-operator
 
 **migtools** (11)
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
@@ -186,7 +185,9 @@
 - [#107 Sync OWNERS_ALIASES with main](https://github.com/migtools/kubevirt-velero-plugin/pull/107) — migtools/kubevirt-velero-plugin
 - [#106 Sync OWNERS_ALIASES with main](https://github.com/migtools/kubevirt-velero-plugin/pull/106) — migtools/kubevirt-velero-plugin
 
-**Other** (44)
+**Other** (45)
+- [#24 ci: CodeQL advanced setup, so Java/Kotlin builds with the mqvpn submodule](https://github.com/kaovilai/tailbond/pull/24) — kaovilai/tailbond
+- [#201 fix(picker): job search matches fragments in any order](https://github.com/kaovilai/github-bot-command-palette/pull/201) — kaovilai/github-bot-command-palette
 - [#23 e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check](https://github.com/kaovilai/tailbond/pull/23) — kaovilai/tailbond
 - [#22 openwrt: signed opkg feed in each release, for GL's Plug-ins page](https://github.com/kaovilai/tailbond/pull/22) — kaovilai/tailbond
 - [#21 agent: build with Go 1.26.10, not 1.26.0](https://github.com/kaovilai/tailbond/pull/21) — kaovilai/tailbond
@@ -230,10 +231,9 @@
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
 - [#42 jira-solve-agent: add OADP to tracked Jira projects](https://github.com/openshift-online/hp-org-pulse/pull/42) — openshift-online/hp-org-pulse
 - [#41 jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)](https://github.com/openshift-online/hp-org-pulse/pull/41) — openshift-online/hp-org-pulse
-- [#1571 Add support for Chipsea-BLE GATT body fat scales](https://github.com/oliexdev/openScale/pull/1571) — oliexdev/openScale
 ## PRs Reviewed (73)
 
-**velero-io** (38)
+**velero-io** (37)
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 - [#10601 Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)](https://github.com/velero-io/velero/pull/10601) — velero-io/velero
 - [#10781 Fix image vulnerabilities and bump Go to 1.27](https://github.com/velero-io/velero/pull/10781) — velero-io/velero
@@ -271,12 +271,11 @@
 - [#10679 e2e: give the namespace-mapping cases real volumes on kind under CSI](https://github.com/velero-io/velero/pull/10679) — velero-io/velero
 - [#10685 docs: fix Kubernetes version check for volume group snapshots](https://github.com/velero-io/velero/pull/10685) — velero-io/velero
 - [#10697 build(deps): bump github/codeql-action from 4.38.3 to 4.39.1 in the github-actions group](https://github.com/velero-io/velero/pull/10697) — velero-io/velero
-- [#10385 refactor: propagate context.Context in core kube secrets and namespace utilities](https://github.com/velero-io/velero/pull/10385) — velero-io/velero
 
 **openshift** (24)
-- [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
-- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2530 Bump CSV metadata to v1.5.9](https://github.com/openshift/oadp-operator/pull/2530) — openshift/oadp-operator
+- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
+- [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 - [#163 Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev](https://github.com/openshift/velero-plugin-for-gcp/pull/163) — openshift/velero-plugin-for-gcp
 - [#2528 Fix misleading podAnnotations deprecation warning on OADP 1.5 (OADP-8788)](https://github.com/openshift/oadp-operator/pull/2528) — openshift/oadp-operator
@@ -299,7 +298,8 @@
 - [#181 Add akarol to OWNERS](https://github.com/openshift/oadp-must-gather/pull/181) — openshift/oadp-must-gather
 - [#182 Update auto-request-review action to v0.13.0](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182) — openshift/velero-plugin-for-microsoft-azure
 
-**migtools** (9)
+**migtools** (10)
+- [#50 chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend](https://github.com/migtools/filebrowser/pull/50) — migtools/filebrowser
 - [#254 build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/migtools/kubevirt-datamover-controller/pull/254) — migtools/kubevirt-datamover-controller
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
@@ -315,7 +315,7 @@
 - [#23510 fix(clients): later image reads show updated file contents](https://github.com/pingdotgg/t3code/pull/23510) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (55)
+**velero-io** (54)
 - [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
 - [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#8801 Design configurable restore of Running/Completed/Failed Jobs](https://github.com/velero-io/velero/issues/8801) — velero-io/velero
@@ -370,7 +370,6 @@
 - [#2812 Restore fails with error "no space left on device" if PVCs are 100% utilised during backup](https://github.com/velero-io/velero/issues/2812) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#10232 DownloadRequest reaches Processed with a signed URL for an object that does not exist](https://github.com/velero-io/velero/issues/10232) — velero-io/velero
-- [#8263 Fatal: unable to open config file results in PartiallyFailed Backup](https://github.com/velero-io/velero/issues/8263) — velero-io/velero
 
 **openshift** (3)
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
@@ -381,7 +380,8 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 - [#14 Handle guest agent connectivity and SkipQuiesce for VirtualMachineBackup](https://github.com/migtools/kubevirt-datamover-controller/issues/14) — migtools/kubevirt-datamover-controller
 
-**Other** (40)
+**Other** (41)
+- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#19512 [Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen](https://github.com/pingdotgg/t3code/issues/19512) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
@@ -422,7 +422,7 @@
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
-## Issues Closed (78)
+## Issues Closed (76)
 
 **velero-io** (24)
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
@@ -465,7 +465,7 @@
 - [#5333 e2e-oo permanently failing: fixture pins EOL integrated stream ocp/4.6, configresolver returns 400](https://github.com/openshift/ci-tools/issues/5333) — openshift/ci-tools
 - [#2209 Feature request: Additive extraArgs for Velero server and node-agent](https://github.com/openshift/oadp-operator/issues/2209) — openshift/oadp-operator
 
-**migtools** (16)
+**migtools** (15)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 - [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
 - [#42 Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review](https://github.com/migtools/kubevirt-datamover-plugin/issues/42) — migtools/kubevirt-datamover-plugin
@@ -481,9 +481,8 @@
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 - [#168 Configurable VMB (and VMBT) cleanup after DataUpload Failed transition](https://github.com/migtools/kubevirt-datamover-controller/issues/168) — migtools/kubevirt-datamover-controller
 - [#171 DataUpload cleanup blocks reconcile worker when pod cleanup hasn't finished before PVC/PV cleanup](https://github.com/migtools/kubevirt-datamover-controller/issues/171) — migtools/kubevirt-datamover-controller
-- [#45 VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration](https://github.com/migtools/kubevirt-datamover-plugin/issues/45) — migtools/kubevirt-datamover-plugin
 
-**Other** (25)
+**Other** (24)
 - [#6567 autocomplete script: default basename still uses full argv[0] path, Homebrew zsh/bash completion broken](https://github.com/scaleway/scaleway-cli/issues/6567) — scaleway/scaleway-cli
 - [#13212 What's New: should link to latest...current to show diff from installed version](https://github.com/podman-desktop/podman-desktop/issues/13212) — podman-desktop/podman-desktop
 - [#23825 [Bug]: Deferred MCP App forms never display; write tool returns awaiting_user_submission with no fallback](https://github.com/pingdotgg/t3code/issues/23825) — pingdotgg/t3code
@@ -508,7 +507,6 @@
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
 - [#625 Add pagination support for get_pull_request_diff to handle large PRs](https://github.com/github/github-mcp-server/issues/625) — github/github-mcp-server
 - [#841 `status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`](https://github.com/kubernetes-sigs/prow/issues/841) — kubernetes-sigs/prow
-- [#148413 View multiple debug consoles side by side in editor areas](https://github.com/microsoft/vscode/issues/148413) — microsoft/vscode
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*

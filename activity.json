@@ -1,17 +1,116 @@
 {
   "period": {
-    "start": "2026-08-06",
-    "end": "2026-11-04"
+    "start": "2026-08-07",
+    "end": "2026-11-05"
   },
-  "generatedAt": "2026-11-04T19:30:26Z",
+  "generatedAt": "2026-11-05T00:46:41Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 73,
     "issuesCommented": 100,
-    "issuesClosed": 78
+    "issuesClosed": 76
   },
   "prsMerged": [
+    {
+      "number": 201,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(picker): job search matches fragments in any order",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/201",
+      "date": "2026-11-04T21:05:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 13,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "docs: credit the projects tailbond builds on and learned from",
+      "url": "https://github.com/kaovilai/tailbond/pull/13",
+      "date": "2026-11-04T20:37:30Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 12,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "docs: explain that tailbond already works like an exit node",
+      "url": "https://github.com/kaovilai/tailbond/pull/12",
+      "date": "2026-11-04T20:36:25Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 11,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "site: animate how Pair & Share data flows",
+      "url": "https://github.com/kaovilai/tailbond/pull/11",
+      "date": "2026-11-04T20:36:22Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "docs: README badges for every workflow, downloads and the website",
+      "url": "https://github.com/kaovilai/tailbond/pull/10",
+      "date": "2026-11-04T20:36:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 20,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: SBOM for every release file; submit main's build to the dependency graph",
+      "url": "https://github.com/kaovilai/tailbond/pull/20",
+      "date": "2026-11-04T20:36:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 19,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "feat(macos): the Mac as home server (server role on Apple silicon)",
+      "url": "https://github.com/kaovilai/tailbond/pull/19",
+      "date": "2026-11-04T20:36:06Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 21,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "agent: build with Go 1.26.10, not 1.26.0",
+      "url": "https://github.com/kaovilai/tailbond/pull/21",
+      "date": "2026-11-04T19:31:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests",
+      "url": "https://github.com/kaovilai/tailbond/pull/17",
+      "date": "2026-11-04T19:31:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 23,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check",
+      "url": "https://github.com/kaovilai/tailbond/pull/23",
+      "date": "2026-11-04T19:31:01Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 22,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: signed opkg feed in each release, for GL's Plug-ins page",
+      "url": "https://github.com/kaovilai/tailbond/pull/22",
+      "date": "2026-11-04T19:30:45Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 145,
       "repo": "kaovilai/k8s-cbt-s3mover-demo",
@@ -812,108 +911,27 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/188",
       "date": "2026-10-06T15:31:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2,
-      "repo": "msfrucht/oadp-operator",
-      "org": "msfrucht",
-      "title": "fix: address shubham's review feedback on DPT CACertRef handling",
-      "url": "https://github.com/msfrucht/oadp-operator/pull/2",
-      "date": "2026-10-05T21:44:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "msfrucht/oadp-operator",
-      "org": "msfrucht",
-      "title": "fix: remove unused bsl parameter (golangci-lint unparam)",
-      "url": "https://github.com/msfrucht/oadp-operator/pull/1",
-      "date": "2026-10-05T18:14:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 108,
-      "repo": "migtools/oadp-vm-file-restore",
-      "org": "migtools",
-      "title": "[oadp-1.6] Fix MinIO create-bucket Job timeout by switching mc image to quay.io (cherry-pick #107)",
-      "url": "https://github.com/migtools/oadp-vm-file-restore/pull/108",
-      "date": "2026-10-02T15:55:06Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 188,
-      "repo": "kaovilai/kaovilai.pw",
-      "org": "kaovilai",
-      "title": "Fix review queue card deadspace",
-      "url": "https://github.com/kaovilai/kaovilai.pw/pull/188",
-      "date": "2026-10-02T07:19:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10608,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix: regenerate CRD manifests for the status.activities field",
-      "url": "https://github.com/velero-io/velero/pull/10608",
-      "date": "2026-09-29T18:42:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10077,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Dependabot auto-approve workflow",
-      "url": "https://github.com/velero-io/velero/pull/10077",
-      "date": "2026-09-29T08:36:13Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2454,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8056: create Secret from inline CACert and use CACertRef for BSL cert rotation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2454",
-      "date": "2026-09-22T01:55:00Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10565,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add e2e test for namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10565",
-      "date": "2026-09-24T20:26:11Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9646,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup-finalizer: do not set backup phase to Completed before PutBackupMetadata succeeds",
-      "url": "https://github.com/velero-io/velero/pull/9646",
-      "date": "2026-09-23T00:06:47Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 197,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "fix(cve-scan): run go mod vendor for vendored downstream repos",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/197",
-      "date": "2026-09-22T16:26:21Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10275,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Implement namespace selection by label in resource policy",
-      "url": "https://github.com/velero-io/velero/pull/10275",
-      "date": "2026-09-22T01:22:39Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 24,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: CodeQL advanced setup, so Java/Kotlin builds with the mqvpn submodule",
+      "url": "https://github.com/kaovilai/tailbond/pull/24",
+      "date": "2026-11-04T21:22:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 201,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(picker): job search matches fragments in any order",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/201",
+      "date": "2026-11-04T20:55:30Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 23,
       "repo": "kaovilai/tailbond",
@@ -1795,52 +1813,16 @@
       "url": "https://github.com/openshift-online/hp-org-pulse/pull/41",
       "date": "2026-10-22T14:57:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 1571,
-      "repo": "oliexdev/openScale",
-      "org": "oliexdev",
-      "title": "Add support for Chipsea-BLE GATT body fat scales",
-      "url": "https://github.com/oliexdev/openScale/pull/1571",
-      "date": "2026-10-22T11:55:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2508,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Sync NonAdmin CRDs with oadp-non-admin oadp-dev",
-      "url": "https://github.com/openshift/oadp-operator/pull/2508",
-      "date": "2026-10-21T17:04:45Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
-    {
-      "number": 2527,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
-      "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-11-04T19:10:19Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-11-04T19:10:17Z",
-      "workstream": "OADP"
-    },
     {
       "number": 2530,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "Bump CSV metadata to v1.5.9",
       "url": "https://github.com/openshift/oadp-operator/pull/2530",
-      "date": "2026-11-04T19:10:15Z",
+      "date": "2026-11-04T22:21:31Z",
       "workstream": "OADP"
     },
     {
@@ -1849,8 +1831,35 @@
       "org": "velero-io",
       "title": "fix(tilt): make the dev setup work on a clean checkout and on arm64",
       "url": "https://github.com/velero-io/velero/pull/10739",
-      "date": "2026-11-04T18:04:20Z",
+      "date": "2026-11-04T21:22:42Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 50,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend",
+      "url": "https://github.com/migtools/filebrowser/pull/50",
+      "date": "2026-11-04T21:21:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-11-04T20:41:33Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2527,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
+      "url": "https://github.com/openshift/oadp-operator/pull/2527",
+      "date": "2026-11-04T20:39:55Z",
+      "workstream": "OADP"
     },
     {
       "number": 10601,
@@ -2463,18 +2472,18 @@
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182",
       "date": "2026-10-23T22:09:08Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10385,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
-      "url": "https://github.com/velero-io/velero/pull/10385",
-      "date": "2026-10-23T22:08:51Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 24901,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
+      "url": "https://github.com/pingdotgg/t3code/issues/24901",
+      "date": "2026-11-04T20:55:45Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 19512,
       "repo": "pingdotgg/t3code",
@@ -3365,15 +3374,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/14",
       "date": "2026-09-14T14:42:17Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 8263,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fatal: unable to open config file results in PartiallyFailed Backup",
-      "url": "https://github.com/velero-io/velero/issues/8263",
-      "date": "2026-09-14T01:51:23Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
@@ -4060,24 +4060,6 @@
       "url": "https://github.com/openshift/oadp-operator/issues/2209",
       "date": "2026-08-10T13:11:23Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 148413,
-      "repo": "microsoft/vscode",
-      "org": "microsoft",
-      "title": "View multiple debug consoles side by side in editor areas",
-      "url": "https://github.com/microsoft/vscode/issues/148413",
-      "date": "2026-08-06T21:46:05Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 45,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "VM restore Progress's first-DataDownload grace period is anchored to restore start, not operation registration",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/issues/45",
-      "date": "2026-08-06T14:52:35Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ]
 }
