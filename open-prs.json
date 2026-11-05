@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T00:47:06Z",
+  "updatedAt": "2026-11-05T03:05:19Z",
   "prs": [
     {
       "number": 10010,
@@ -1719,107 +1719,6 @@
         {
           "name": "Redirect rules - velero",
           "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "DCO",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "codecov/patch",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "netlify/velero/deploy-preview",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 10692,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Dependabot updates for run-jammy-tiny on supported release branches",
-      "url": "https://github.com/velero-io/velero/pull/10692",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [
-        "kind/changelog-not-required",
-        "Documentation",
-        "has-changelog"
-      ],
-      "updatedAt": "2026-11-04T03:44:35Z",
-      "workstream": "Velero",
-      "ciChecks": [
-        {
-          "name": "add-reviews",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "auto-approve",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "triage",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run Changelog Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run Codespell",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Check for invalid characters in file paths",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "re-request-review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run CI",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run Linter Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Header rules - velero",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "Pages changed - velero",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "Redirect rules - velero",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
         },
         {
           "name": "DCO",
@@ -8853,6 +8752,36 @@
       ]
     },
     {
+      "number": 104,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "add extended bsl info in the summary",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/104",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "weshayutin",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lifecycle/stale"
+      ],
+      "updatedAt": "2026-11-05T01:31:19Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 89,
       "repo": "openshift/oadp-must-gather",
       "org": "openshift",
@@ -10368,22 +10297,6 @@
           "conclusion": "FAILURE"
         },
         {
-          "name": "ci/prow/4.19-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.19-e2e-test-kubevirt-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.20-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.20-e2e-test-kubevirt-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
@@ -10396,7 +10309,15 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.19-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.19-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.19-e2e-test-kubevirt-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10408,11 +10329,19 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.20-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.20-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.20-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.20-e2e-test-kubevirt-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11593,15 +11522,91 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-11-05T00:20:56Z",
+      "updatedAt": "2026-11-05T01:49:08Z",
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
           "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-cli-aws",
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/unit-test",
           "conclusion": "SUCCESS"
         }
       ]
@@ -12107,35 +12112,6 @@
         },
         {
           "name": "ci/prow/verify",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 104,
-      "repo": "openshift/oadp-must-gather",
-      "org": "openshift",
-      "title": "add extended bsl info in the summary",
-      "url": "https://github.com/openshift/oadp-must-gather/pull/104",
-      "targetBranch": "oadp-dev",
-      "status": "stale",
-      "milestone": null,
-      "author": "weshayutin",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-06-16T00:46:57Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         }
       ]
@@ -17557,7 +17533,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-05T00:47:06Z",
+    "updatedAt": "2026-11-05T03:05:19Z",
     "needsReview": [
       {
         "number": 68,
@@ -17628,7 +17604,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 558,
+        "waitingDays": 559,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -17764,35 +17740,6 @@
         "reason": "hold",
         "waitingDays": 148,
         "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
-        "number": 104,
-        "repo": "openshift/oadp-must-gather",
-        "org": "openshift",
-        "title": "add extended bsl info in the summary",
-        "url": "https://github.com/openshift/oadp-must-gather/pull/104",
-        "targetBranch": "oadp-dev",
-        "author": "weshayutin",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 142,
-        "updatedAt": "2026-06-16T00:46:57Z"
       },
       {
         "number": 216,
@@ -18741,7 +18688,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -18943,7 +18890,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18974,7 +18921,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19085,7 +19032,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19186,6 +19133,35 @@
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
+        "number": 10032,
+        "repo": "openshift/installer",
+        "org": "openshift",
+        "title": "Add SSH agent retry logic and tests for authentication errors",
+        "url": "https://github.com/openshift/installer/pull/10032",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "lifecycle/stale"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pawanpinjarkar",
+          "rwsu"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-10-22T01:30:55Z"
+      },
+      {
         "number": 2508,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -19241,35 +19217,6 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-10-22T17:29:19Z"
-      },
-      {
-        "number": 10032,
-        "repo": "openshift/installer",
-        "org": "openshift",
-        "title": "Add SSH agent retry logic and tests for authentication errors",
-        "url": "https://github.com/openshift/installer/pull/10032",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "lifecycle/stale"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pawanpinjarkar",
-          "rwsu"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2512,
@@ -19444,6 +19391,39 @@
         "updatedAt": "2026-10-26T20:20:14Z"
       },
       {
+        "number": 674,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "size/XL",
+          "area/tide"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "cjwagner",
+          "michelle192837",
+          "petr-muller"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 8,
+        "updatedAt": "2026-10-28T00:56:31Z"
+      },
+      {
         "number": 10699,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19460,7 +19440,7 @@
           "has-changelog",
           "Needs triage"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19559,39 +19539,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-10-28T20:47:52Z"
-      },
-      {
-        "number": 674,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "size/XL",
-          "area/tide"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "cjwagner",
-          "michelle192837",
-          "petr-muller"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
         "number": 6479,
@@ -19755,7 +19702,7 @@
           "lifecycle/stale",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19877,7 +19824,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19892,6 +19839,30 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-10-30T14:45:42Z"
+      },
+      {
+        "number": 216,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Guard CRD regeneration after dependency bumps",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 89,
@@ -19922,30 +19893,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-11-01T09:31:39Z"
-      },
-      {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 9236,
@@ -20075,37 +20022,34 @@
         "updatedAt": "2026-11-03T06:07:33Z"
       },
       {
-        "number": 10692,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Add Dependabot updates for run-jammy-tiny on supported release branches",
-        "url": "https://github.com/velero-io/velero/pull/10692",
-        "targetBranch": "main",
-        "author": "kaovilai",
+        "number": 104,
+        "repo": "openshift/oadp-must-gather",
+        "org": "openshift",
+        "title": "add extended bsl info in the summary",
+        "url": "https://github.com/openshift/oadp-must-gather/pull/104",
+        "targetBranch": "oadp-dev",
+        "author": "weshayutin",
         "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
+        "assignees": [],
         "labels": [
-          "kind/changelog-not-required",
-          "Documentation",
-          "has-changelog"
+          "approved",
+          "lifecycle/stale"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": true,
+        "hasGithubApproval": false,
         "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
+        "approvalCount": 0,
+        "requiredApprovals": 2,
         "reviewRequests": [
-          "shubham-pampattiwar",
-          "reasonerjt"
+          "mrnold",
+          "sseago"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-04T03:44:35Z"
+        "updatedAt": "2026-11-05T01:31:19Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -20825,7 +20769,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21203,7 +21147,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21384,7 +21328,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
