@@ -3,15 +3,24 @@
     "start": "2026-08-08",
     "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-06T13:09:26Z",
+  "generatedAt": "2026-11-06T14:10:27Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 57,
     "issuesCommented": 100,
-    "issuesClosed": 79
+    "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 611,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxies): web search for search-less upstreams via the Parallel MCP",
+      "url": "https://github.com/kaovilai/dotfiles/pull/611",
+      "date": "2026-11-06T14:03:28Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 607,
       "repo": "kaovilai/dotfiles",
@@ -902,18 +911,18 @@
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/184",
       "date": "2026-10-21T18:58:33Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 187,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187",
-      "date": "2026-10-21T18:58:33Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 611,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxies): web search for search-less upstreams via the Parallel MCP",
+      "url": "https://github.com/kaovilai/dotfiles/pull/611",
+      "date": "2026-11-06T14:00:11Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 610,
       "repo": "kaovilai/dotfiles",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/velero-io/velero/pull/10705",
       "date": "2026-10-25T00:32:33Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10704,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fail data path when its data mover pod is deleted, release leaked data path slot",
-      "url": "https://github.com/velero-io/velero/pull/10704",
-      "date": "2026-10-25T00:29:16Z",
-      "workstream": "Velero"
     }
   ],
   "prsReviewed": [
@@ -2332,12 +2332,21 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-06T13:51:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 604,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
       "title": "Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)",
       "url": "https://github.com/kaovilai/dotfiles/issues/604",
-      "date": "2026-11-06T11:41:03Z",
+      "date": "2026-11-06T13:30:43Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2383,15 +2392,6 @@
       "title": "Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml",
       "url": "https://github.com/konveyor/builder/issues/32",
       "date": "2026-11-05T18:13:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-05T14:07:26Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3233,6 +3233,24 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 605,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Settle finished delegate_task children promptly until t3code idle-release lands",
+      "url": "https://github.com/kaovilai/dotfiles/issues/605",
+      "date": "2026-11-06T13:50:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 608,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "gh-aw Copilot Code Review: agent job fails with missing /gh-aw/actions/copilot_harness.cjs (RUNNER_TEMP lost in AWF chroot)",
+      "url": "https://github.com/kaovilai/dotfiles/issues/608",
+      "date": "2026-11-06T13:25:10Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 599,
       "repo": "kaovilai/dotfiles",

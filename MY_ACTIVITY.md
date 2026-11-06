@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-08 — 2026-11-06
-> **Generated:** 2026-11-06 13:09:26 UTC
+> **Generated:** 2026-11-06 14:10:27 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 57 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 79 |
+| Issues Closed | 81 |
 
 ---
 
@@ -27,7 +27,7 @@
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 
-**openshift** (24)
+**openshift** (23)
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
@@ -51,7 +51,6 @@
 - [#188 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188) — openshift/velero-plugin-for-microsoft-azure
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-aws/pull/187) — openshift/velero-plugin-for-aws
 - [#184 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-aws/pull/184) — openshift/velero-plugin-for-aws
-- [#187 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187) — openshift/velero-plugin-for-microsoft-azure
 
 **migtools** (8)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
@@ -63,7 +62,8 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 - [#121 ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/121) — migtools/oadp-vm-file-restore
 
-**Other** (58)
+**Other** (59)
+- [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
 - [#606 ci(deps): track the Go proxy module; scan Go build + vulns](https://github.com/kaovilai/dotfiles/pull/606) — kaovilai/dotfiles
 - [#601 feat(hosted-only): opt-in Go proxy (HOSTED_ONLY_PROXY_IMPL=go)](https://github.com/kaovilai/dotfiles/pull/601) — kaovilai/dotfiles
@@ -124,7 +124,7 @@
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 ## PRs Opened (100)
 
-**velero-io** (20)
+**velero-io** (19)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
@@ -144,7 +144,6 @@
 - [#10707 Add expose diagnose summary to DU/DD/PVB/PVR prepare timeout message](https://github.com/velero-io/velero/pull/10707) — velero-io/velero
 - [#10706 Fill the container termination reason to DU/DD/PVB/PVR when the data mover pod is OOMKilled](https://github.com/velero-io/velero/pull/10706) — velero-io/velero
 - [#10705 Don't block DataDownload controller waiting for target PVC consumer](https://github.com/velero-io/velero/pull/10705) — velero-io/velero
-- [#10704 Fail data path when its data mover pod is deleted, release leaked data path slot](https://github.com/velero-io/velero/pull/10704) — velero-io/velero
 
 **openshift** (10)
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
@@ -164,7 +163,8 @@
 - [#198 ci: fail on unformatted Go instead of pushing a format commit](https://github.com/migtools/udistribution/pull/198) — migtools/udistribution
 - [#111 UPSTREAM: 468: Select the live virt-launcher pod after live migration](https://github.com/migtools/kubevirt-velero-plugin/pull/111) — migtools/kubevirt-velero-plugin
 
-**Other** (66)
+**Other** (67)
+- [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#610 feat(proxies,bridge): Go owns the proxy lifecycle and the launch path](https://github.com/kaovilai/dotfiles/pull/610) — kaovilai/dotfiles
 - [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
 - [#606 ci(deps): track the Go proxy module; scan Go build + vulns](https://github.com/kaovilai/dotfiles/pull/606) — kaovilai/dotfiles
@@ -362,12 +362,12 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
 **Other** (44)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#32 Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml](https://github.com/konveyor/builder/issues/32) — konveyor/builder
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#19512 [Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen](https://github.com/pingdotgg/t3code/issues/19512) — pingdotgg/t3code
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
@@ -406,7 +406,7 @@
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
-## Issues Closed (79)
+## Issues Closed (81)
 
 **velero-io** (24)
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
@@ -467,7 +467,9 @@
 - [#168 Configurable VMB (and VMBT) cleanup after DataUpload Failed transition](https://github.com/migtools/kubevirt-datamover-controller/issues/168) — migtools/kubevirt-datamover-controller
 - [#171 DataUpload cleanup blocks reconcile worker when pod cleanup hasn't finished before PVC/PV cleanup](https://github.com/migtools/kubevirt-datamover-controller/issues/171) — migtools/kubevirt-datamover-controller
 
-**Other** (26)
+**Other** (28)
+- [#605 Settle finished delegate_task children promptly until t3code idle-release lands](https://github.com/kaovilai/dotfiles/issues/605) — kaovilai/dotfiles
+- [#608 gh-aw Copilot Code Review: agent job fails with missing /gh-aw/actions/copilot_harness.cjs (RUNNER_TEMP lost in AWF chroot)](https://github.com/kaovilai/dotfiles/issues/608) — kaovilai/dotfiles
 - [#599 Merge hosted-only LiteLLM proxies :4147 into :4148 (one process for both Claude and Codex)](https://github.com/kaovilai/dotfiles/issues/599) — kaovilai/dotfiles
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#6567 autocomplete script: default basename still uses full argv[0] path, Homebrew zsh/bash completion broken](https://github.com/scaleway/scaleway-cli/issues/6567) — scaleway/scaleway-cli
