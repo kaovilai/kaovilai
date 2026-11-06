@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-08 — 2026-11-06
-> **Generated:** 2026-11-06 17:08:18 UTC
+> **Generated:** 2026-11-06 18:12:32 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 55 |
+| PRs Reviewed | 52 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 81 |
 
@@ -27,7 +27,8 @@
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 
-**openshift** (19)
+**openshift** (18)
+- [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
@@ -45,8 +46,6 @@
 - [#189 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-gcp/pull/189) — openshift/velero-plugin-for-gcp
 - [#188 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-gcp/pull/188) — openshift/velero-plugin-for-gcp
 - [#189 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189) — openshift/velero-plugin-for-microsoft-azure
-- [#131 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/131) — openshift/velero-plugin-for-legacy-aws
-- [#128 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128) — openshift/velero-plugin-for-legacy-aws
 
 **migtools** (8)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
@@ -58,7 +57,8 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 - [#121 ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/121) — migtools/oadp-vm-file-restore
 
-**Other** (63)
+**Other** (64)
+- [#614 feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs](https://github.com/kaovilai/dotfiles/pull/614) — kaovilai/dotfiles
 - [#202 feat(picker): cherry-pick parallel vs sequential chain with reorderable order](https://github.com/kaovilai/github-bot-command-palette/pull/202) — kaovilai/github-bot-command-palette
 - [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
 - [#610 feat(proxies,bridge): Go owns the proxy lifecycle and the launch path](https://github.com/kaovilai/dotfiles/pull/610) — kaovilai/dotfiles
@@ -124,7 +124,7 @@
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 ## PRs Opened (100)
 
-**velero-io** (16)
+**velero-io** (13)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
@@ -138,11 +138,8 @@
 - [#10713 Drop deleted backups from the backup tracker; clarify useOwnerReferencesInBackup on schedule deletion](https://github.com/velero-io/velero/pull/10713) — velero-io/velero
 - [#10712 Warn when resource modifiers change a PVC's volumeMode from Block on restore](https://github.com/velero-io/velero/pull/10712) — velero-io/velero
 - [#10711 Back up raw block volumes with snapshots instead of skipping them when defaultVolumesToFsBackup is set](https://github.com/velero-io/velero/pull/10711) — velero-io/velero
-- [#10710 Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace](https://github.com/velero-io/velero/pull/10710) — velero-io/velero
-- [#10709 Refuse to delete a backup while a restore from it is in progress](https://github.com/velero-io/velero/pull/10709) — velero-io/velero
-- [#10708 Delete retained source VSC when cleaning up an interrupted CSI snapshot expose](https://github.com/velero-io/velero/pull/10708) — velero-io/velero
 
-**openshift** (10)
+**openshift** (9)
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
@@ -152,7 +149,6 @@
 - [#604 [oadp-1.6] Handle data mover and hook pods that go away during a backup](https://github.com/openshift/velero/pull/604) — openshift/velero
 - [#2519 docs: note that nodeAgent.loadAffinity also limits File System Backup](https://github.com/openshift/oadp-operator/pull/2519) — openshift/oadp-operator
 - [#2518 Keep IPv6 brackets when stripping default port from s3Url](https://github.com/openshift/oadp-operator/pull/2518) — openshift/oadp-operator
-- [#2517 Delete registry secrets of BSLs removed from the DPA](https://github.com/openshift/oadp-operator/pull/2517) — openshift/oadp-operator
 
 **migtools** (4)
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
@@ -160,7 +156,11 @@
 - [#198 ci: fail on unformatted Go instead of pushing a format commit](https://github.com/migtools/udistribution/pull/198) — migtools/udistribution
 - [#111 UPSTREAM: 468: Select the live virt-launcher pod after live migration](https://github.com/migtools/kubevirt-velero-plugin/pull/111) — migtools/kubevirt-velero-plugin
 
-**Other** (70)
+**Other** (74)
+- [#48 ci: skip the heavy jobs when only docs changed, and cut no release for one](https://github.com/kaovilai/tailbond/pull/48) — kaovilai/tailbond
+- [#47 e2e: prototype the CGNAT relay and run it in CI](https://github.com/kaovilai/tailbond/pull/47) — kaovilai/tailbond
+- [#616 feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default](https://github.com/kaovilai/dotfiles/pull/616) — kaovilai/dotfiles
+- [#615 fix(hosted-only): fingerprint every image knob, keep Responses-only models off chat](https://github.com/kaovilai/dotfiles/pull/615) — kaovilai/dotfiles
 - [#614 feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs](https://github.com/kaovilai/dotfiles/pull/614) — kaovilai/dotfiles
 - [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
 - [#612 fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start](https://github.com/kaovilai/dotfiles/pull/612) — kaovilai/dotfiles
@@ -231,9 +231,9 @@
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
-## PRs Reviewed (55)
+## PRs Reviewed (52)
 
-**velero-io** (28)
+**velero-io** (25)
 - [#10212 Fix Zip Slip path check accepting a sibling directory in archive extraction](https://github.com/velero-io/velero/pull/10212) — velero-io/velero
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
@@ -259,9 +259,6 @@
 - [#10759 Expose resourcemodifiers package to pkg for plugin reuse](https://github.com/velero-io/velero/pull/10759) — velero-io/velero
 - [#6 Clarify the code repositories in GOVERNANCE.md](https://github.com/velero-io/.github/pull/6) — velero-io/.github
 - [#10762 Restic deprecation: ignore invalid PVB uploader](https://github.com/velero-io/velero/pull/10762) — velero-io/velero
-- [#10760 Add doc for custom action in volume policy](https://github.com/velero-io/velero/pull/10760) — velero-io/velero
-- [#336 Update auto-assignees.yml](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/336) — velero-io/velero-plugin-for-microsoft-azure
-- [#10735 e2e: add fine-grained resource and restore filter test via resource policies](https://github.com/velero-io/velero/pull/10735) — velero-io/velero
 
 **openshift** (16)
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
@@ -297,7 +294,7 @@
 - [#23732 fix(web): PDF previews keep their page when the agent responds](https://github.com/pingdotgg/t3code/pull/23732) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (52)
+**velero-io** (51)
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
 - [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
@@ -349,7 +346,6 @@
 - [#8707 Support multiple transmission protocols](https://github.com/velero-io/velero/issues/8707) — velero-io/velero
 - [#10340 Bug: EphemeralContainers are missing from ServiceAccount token filtering in PodAction](https://github.com/velero-io/velero/issues/10340) — velero-io/velero
 - [#8363 VolumePolicies filter volumes to snapshot by volume name](https://github.com/velero-io/velero/issues/8363) — velero-io/velero
-- [#2812 Restore fails with error "no space left on device" if PVCs are 100% utilised during backup](https://github.com/velero-io/velero/issues/2812) — velero-io/velero
 
 **openshift** (3)
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
@@ -359,7 +355,8 @@
 **migtools** (1)
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
-**Other** (44)
+**Other** (45)
+- [#44 feat: one tailscaled per internet connection, so each bonded path gets Tailscale NAT traversal (servers behind CGNAT)](https://github.com/kaovilai/tailbond/issues/44) — kaovilai/tailbond
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
