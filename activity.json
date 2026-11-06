@@ -3,15 +3,24 @@
     "start": "2026-08-08",
     "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-06T19:07:10Z",
+  "generatedAt": "2026-11-06T20:09:44Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 52,
+    "prsReviewed": 51,
     "issuesCommented": 100,
     "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 617,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Retire the LiteLLM impl for hosted-only and EnMaaS",
+      "url": "https://github.com/kaovilai/dotfiles/pull/617",
+      "date": "2026-11-06T19:58:43Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 616,
       "repo": "kaovilai/dotfiles",
@@ -902,18 +911,18 @@
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189",
       "date": "2026-10-21T19:02:52Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 396,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "[oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/396",
-      "date": "2026-10-21T19:02:51Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
+    {
+      "number": 617,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Retire the LiteLLM impl for hosted-only and EnMaaS",
+      "url": "https://github.com/kaovilai/dotfiles/pull/617",
+      "date": "2026-11-06T19:23:03Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 48,
       "repo": "kaovilai/tailbond",
@@ -945,7 +954,7 @@
       "number": 615,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
-      "title": "fix(hosted-only): fingerprint every image knob, keep Responses-only models off chat",
+      "title": "fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model",
       "url": "https://github.com/kaovilai/dotfiles/pull/615",
       "date": "2026-11-06T17:24:01Z",
       "workstream": "Uncategorized"
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2519",
       "date": "2026-10-25T00:48:56Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2518,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Keep IPv6 brackets when stripping default port from s3Url",
-      "url": "https://github.com/openshift/oadp-operator/pull/2518",
-      "date": "2026-10-25T00:48:52Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
@@ -2274,15 +2274,6 @@
       "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/331",
       "date": "2026-10-30T01:20:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2488,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
-      "url": "https://github.com/openshift/oadp-operator/pull/2488",
-      "date": "2026-10-29T23:14:50Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
