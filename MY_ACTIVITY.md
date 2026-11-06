@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-08 — 2026-11-06
-> **Generated:** 2026-11-06 03:18:12 UTC
+> **Generated:** 2026-11-06 06:19:46 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 62 |
+| PRs Reviewed | 61 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 78 |
 
@@ -124,7 +124,7 @@
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
 ## PRs Opened (100)
 
-**velero-io** (26)
+**velero-io** (25)
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
 - [#10750 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10750) — velero-io/velero
@@ -150,7 +150,6 @@
 - [#10700 Treat a kopia snapshot not found after a repo refresh as deleted](https://github.com/velero-io/velero/pull/10700) — velero-io/velero
 - [#10699 Delete the in-place restore baseline snapshot under a Retain class](https://github.com/velero-io/velero/pull/10699) — velero-io/velero
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
-- [#10696 design: fix the order of the snapshot retention cases in block data mover](https://github.com/velero-io/velero/pull/10696) — velero-io/velero
 
 **openshift** (9)
 - [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
@@ -169,7 +168,8 @@
 - [#198 ci: fail on unformatted Go instead of pushing a format commit](https://github.com/migtools/udistribution/pull/198) — migtools/udistribution
 - [#111 UPSTREAM: 468: Select the live virt-launcher pod after live migration](https://github.com/migtools/kubevirt-velero-plugin/pull/111) — migtools/kubevirt-velero-plugin
 
-**Other** (61)
+**Other** (62)
+- [#46 cgnat: the relay designed out, the per-connection tailscaled researched, and a relay-aware health check](https://github.com/kaovilai/tailbond/pull/46) — kaovilai/tailbond
 - [#45 phone page: with no APK on the router, link tailbond's GitHub release](https://github.com/kaovilai/tailbond/pull/45) — kaovilai/tailbond
 - [#43 openwrt: fall back to plain TCP when MPTCP doesn't connect; Brume 2 notes; server on/off and rename; role switch](https://github.com/kaovilai/tailbond/pull/43) — kaovilai/tailbond
 - [#42 openwrt: seeding the package cache no longer deletes the update it is about to install](https://github.com/kaovilai/tailbond/pull/42) — kaovilai/tailbond
@@ -231,9 +231,9 @@
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
 - [#115 docs(welcome): document EnMaaS request body limit](https://github.com/redhat-et/pricetag-metering/pull/115) — redhat-et/pricetag-metering
-## PRs Reviewed (62)
+## PRs Reviewed (61)
 
-**velero-io** (33)
+**velero-io** (32)
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10791 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.90 to 0.2.194](https://github.com/velero-io/velero/pull/10791) — velero-io/velero
@@ -266,7 +266,6 @@
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
 - [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
 - [#10751 build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/velero-io/velero/pull/10751) — velero-io/velero
-- [#10747 e2e: run the BSL deletion snapshot case on kind under CSI](https://github.com/velero-io/velero/pull/10747) — velero-io/velero
 
 **openshift** (18)
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
