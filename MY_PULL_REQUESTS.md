@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-06 17:09:11 UTC
+> Last updated: 2026-11-06 18:13:48 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -75,6 +75,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
+- [![PR #2531](https://img.shields.io/badge/PR%20%232531-ready-green)](https://github.com/openshift/oadp-operator/pull/2531) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): read VMB backup type from status.includedVolumes[].type
 - [![PR #2533](https://img.shields.io/badge/PR%20%232533-ready-green)](https://github.com/openshift/oadp-operator/pull/2533) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5
 - [![PR #2534](https://img.shields.io/badge/PR%20%232534-ready-green)](https://github.com/openshift/oadp-operator/pull/2534) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
@@ -98,7 +99,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2527](https://img.shields.io/badge/PR%20%232527-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #88415](https://img.shields.io/badge/PR%20%2388415-waiting--merge-blue)](https://github.com/openshift/release/pull/88415) **openshift/release** → `main` - oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -107,7 +107,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2518](https://img.shields.io/badge/PR%20%232518-draft-gray)](https://github.com/openshift/oadp-operator/pull/2518) **openshift/oadp-operator** → `oadp-dev` - Keep IPv6 brackets when stripping default port from s3Url
 - [![PR #2519](https://img.shields.io/badge/PR%20%232519-draft-gray)](https://github.com/openshift/oadp-operator/pull/2519) **openshift/oadp-operator** → `oadp-dev` - docs: note that nodeAgent.loadAffinity also limits File System Backup
 - [![PR #2525](https://img.shields.io/badge/PR%20%232525-draft-gray)](https://github.com/openshift/oadp-operator/pull/2525) **openshift/oadp-operator** → `oadp-dev` - docs: describe descheduler impact on virtualization backups
-- [![PR #2531](https://img.shields.io/badge/PR%20%232531-draft-gray)](https://github.com/openshift/oadp-operator/pull/2531) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): read VMB backup type from status.includedVolumes[].type
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #604](https://img.shields.io/badge/PR%20%23604-draft-gray)](https://github.com/openshift/velero/pull/604) **openshift/velero** → `oadp-1.6` - [oadp-1.6] Handle data mover and hook pods that go away during a backup
@@ -186,10 +185,11 @@ No open PRs.
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/konveyor/builder/pull/47) **konveyor/builder** → `main` - Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #614](https://img.shields.io/badge/PR%20%23614-ready-green)](https://github.com/kaovilai/dotfiles/pull/614) **kaovilai/dotfiles** → `main` - feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs
+- [![PR #615](https://img.shields.io/badge/PR%20%23615-ready-green)](https://github.com/kaovilai/dotfiles/pull/615) **kaovilai/dotfiles** → `main` - fix(hosted-only): fingerprint every image knob, keep Responses-only models off chat
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
+- [![PR #47](https://img.shields.io/badge/PR%20%2347-ci--pending-yellow)](https://github.com/kaovilai/tailbond/pull/47) **kaovilai/tailbond** → `main` - e2e: prototype the CGNAT relay and run it in CI
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
@@ -235,6 +235,8 @@ No open PRs.
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
+- [![PR #48](https://img.shields.io/badge/PR%20%2348-failing--ci-red)](https://github.com/kaovilai/tailbond/pull/48) **kaovilai/tailbond** → `main` - ci: skip the heavy jobs when only docs changed, and cut no release for one
+- [![PR #616](https://img.shields.io/badge/PR%20%23616-failing--ci-red)](https://github.com/kaovilai/dotfiles/pull/616) **kaovilai/dotfiles** → `main` - feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
