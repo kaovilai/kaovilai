@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-08-07 — 2026-11-05
-> **Generated:** 2026-11-05 19:40:07 UTC
+> **Period:** 2026-08-08 — 2026-11-06
+> **Generated:** 2026-11-06 00:52:27 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 66 |
+| PRs Reviewed | 62 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 77 |
+| Issues Closed | 78 |
 
 ---
 
@@ -28,6 +28,7 @@
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 
 **openshift** (26)
+- [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
 - [#87638 Trust OADP automation apps for presubmit triggering](https://github.com/openshift/release/pull/87638) — openshift/release
@@ -53,7 +54,6 @@
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187) — openshift/velero-plugin-for-microsoft-azure
 - [#567 oadp-1.5: Pin Bitnami MinIO e2e build and cherry-pick velero-io/velero#10001 (skip upstream-only workflows on forks)](https://github.com/openshift/velero/pull/567) — openshift/velero
 - [#185 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-aws/pull/185) — openshift/velero-plugin-for-aws
-- [#2479 fix(e2e): wait for DPA-owned secret GC in Undeploy](https://github.com/openshift/oadp-operator/pull/2479) — openshift/oadp-operator
 
 **migtools** (9)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
@@ -67,6 +67,13 @@
 - [#62 ci: disable failing Quay binaries push workflow](https://github.com/migtools/kopia/pull/62) — migtools/kopia
 
 **Other** (55)
+- [#45 phone page: with no APK on the router, link tailbond's GitHub release](https://github.com/kaovilai/tailbond/pull/45) — kaovilai/tailbond
+- [#43 openwrt: fall back to plain TCP when MPTCP doesn't connect; Brume 2 notes; server on/off and rename; role switch](https://github.com/kaovilai/tailbond/pull/43) — kaovilai/tailbond
+- [#42 openwrt: seeding the package cache no longer deletes the update it is about to install](https://github.com/kaovilai/tailbond/pull/42) — kaovilai/tailbond
+- [#39 ui: the setup rows and the router guide read as rows, not paragraphs](https://github.com/kaovilai/tailbond/pull/39) — kaovilai/tailbond
+- [#38 docs: a development build from before v0.1.3 can't update itself](https://github.com/kaovilai/tailbond/pull/38) — kaovilai/tailbond
+- [#41 tailscale: "relayed" only when the peer really is relaying](https://github.com/kaovilai/tailbond/pull/41) — kaovilai/tailbond
+- [#40 ux: pin Playwright in every screenshot script, not just the a11y one](https://github.com/kaovilai/tailbond/pull/40) — kaovilai/tailbond
 - [#33 feat: one click from the Mac to a phone's bonded connection (Bluetooth + Shizuku hotspot)](https://github.com/kaovilai/tailbond/pull/33) — kaovilai/tailbond
 - [#36 a11y: axe-core on every web surface in CI, and the fixes it found](https://github.com/kaovilai/tailbond/pull/36) — kaovilai/tailbond
 - [#46 Centralize build scheduling into a single version-aware dispatcher](https://github.com/konveyor/builder/pull/46) — konveyor/builder
@@ -112,19 +119,12 @@
 - [#196 feat: in-extension update check and automated GitHub releases](https://github.com/kaovilai/github-bot-command-palette/pull/196) — kaovilai/github-bot-command-palette
 - [#195 fix(settings): shard config across sync keys to stay under 8 KB item quota](https://github.com/kaovilai/github-bot-command-palette/pull/195) — kaovilai/github-bot-command-palette
 - [#15 Merge upstream/dev (268 commits) into dev](https://github.com/kaovilai/copilot-api/pull/15) — kaovilai/copilot-api
+- [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 - [#5 Fix PR commit detection from deferred GitHub diff markup](https://github.com/kaovilai/github-html-diff-preview/pull/5) — kaovilai/github-html-diff-preview
 - [#192 chore: prepare Chrome Web Store submission](https://github.com/kaovilai/github-bot-command-palette/pull/192) — kaovilai/github-bot-command-palette
-- [#80 Group every repo under an org node in the orbit chart](https://github.com/kaovilai/kaovilai/pull/80) — kaovilai/kaovilai
-- [#72 fix: parse @-prefixed and filters-nested OWNERS entries](https://github.com/dpanshug/upstream-pulse/pull/72) — dpanshug/upstream-pulse
-- [#266 ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266) — kaovilai/cephcsi-cbt-e2e
-- [#267 feat(desktop): throw the pet like a ball on drag release](https://github.com/OpenPetsHQ/openpets/pull/267) — OpenPetsHQ/openpets
-- [#264 Ignore transparent sprite pixels in pet hit testing](https://github.com/OpenPetsHQ/openpets/pull/264) — OpenPetsHQ/openpets
-- [#135 fix: switch MinIO image to cgr.dev/chainguard/minio:latest](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/135) — kaovilai/k8s-cbt-s3mover-demo
-- [#65 [improve] ci: add concurrency groups to prevent stale demo workflow overlap](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65) — kaovilai/k8s-cbt-s3mover-demo
-- [#134 chore: update to latest upstream releases and refresh slides](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/134) — kaovilai/k8s-cbt-s3mover-demo
 ## PRs Opened (100)
 
-**velero-io** (29)
+**velero-io** (26)
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
 - [#10750 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10750) — velero-io/velero
@@ -151,9 +151,6 @@
 - [#10699 Delete the in-place restore baseline snapshot under a Retain class](https://github.com/velero-io/velero/pull/10699) — velero-io/velero
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10696 design: fix the order of the snapshot retention cases in block data mover](https://github.com/velero-io/velero/pull/10696) — velero-io/velero
-- [#10695 ci: add CodeQL analysis for Go](https://github.com/velero-io/velero/pull/10695) — velero-io/velero
-- [#10692 Add Dependabot updates for run-jammy-tiny on supported release branches](https://github.com/velero-io/velero/pull/10692) — velero-io/velero
-- [#10691 Delete retained volume snapshots on backup deletion for data movement](https://github.com/velero-io/velero/pull/10691) — velero-io/velero
 
 **openshift** (9)
 - [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
@@ -172,8 +169,11 @@
 - [#198 ci: fail on unformatted Go instead of pushing a format commit](https://github.com/migtools/udistribution/pull/198) — migtools/udistribution
 - [#111 UPSTREAM: 468: Select the live virt-launcher pod after live migration](https://github.com/migtools/kubevirt-velero-plugin/pull/111) — migtools/kubevirt-velero-plugin
 
-**Other** (58)
-- [#41 tailscale: &quot;relayed&quot; only when the peer really is relaying](https://github.com/kaovilai/tailbond/pull/41) — kaovilai/tailbond
+**Other** (61)
+- [#45 phone page: with no APK on the router, link tailbond's GitHub release](https://github.com/kaovilai/tailbond/pull/45) — kaovilai/tailbond
+- [#43 openwrt: fall back to plain TCP when MPTCP doesn't connect; Brume 2 notes; server on/off and rename; role switch](https://github.com/kaovilai/tailbond/pull/43) — kaovilai/tailbond
+- [#42 openwrt: seeding the package cache no longer deletes the update it is about to install](https://github.com/kaovilai/tailbond/pull/42) — kaovilai/tailbond
+- [#41 tailscale: "relayed" only when the peer really is relaying](https://github.com/kaovilai/tailbond/pull/41) — kaovilai/tailbond
 - [#40 ux: pin Playwright in every screenshot script, not just the a11y one](https://github.com/kaovilai/tailbond/pull/40) — kaovilai/tailbond
 - [#39 ui: the setup rows and the router guide read as rows, not paragraphs](https://github.com/kaovilai/tailbond/pull/39) — kaovilai/tailbond
 - [#38 docs: a development build from before v0.1.3 can't update itself](https://github.com/kaovilai/tailbond/pull/38) — kaovilai/tailbond
@@ -230,10 +230,10 @@
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
-- [#453 feat: log per-request latency and time to first token](https://github.com/caozhiyuan/copilot-api/pull/453) — caozhiyuan/copilot-api
-## PRs Reviewed (66)
+- [#115 docs(welcome): document EnMaaS request body limit](https://github.com/redhat-et/pricetag-metering/pull/115) — redhat-et/pricetag-metering
+## PRs Reviewed (62)
 
-**velero-io** (36)
+**velero-io** (33)
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10791 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.90 to 0.2.194](https://github.com/velero-io/velero/pull/10791) — velero-io/velero
@@ -267,18 +267,15 @@
 - [#10740 Issue 10724: Add parallel upload/download control for Velero fs and block data mover](https://github.com/velero-io/velero/pull/10740) — velero-io/velero
 - [#10751 build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/velero-io/velero/pull/10751) — velero-io/velero
 - [#10747 e2e: run the BSL deletion snapshot case on kind under CSI](https://github.com/velero-io/velero/pull/10747) — velero-io/velero
-- [#10652 e2e: add a target that runs the tests on a kind cluster it creates](https://github.com/velero-io/velero/pull/10652) — velero-io/velero
-- [#340 Update the auto-assignees.yml of aws plugin](https://github.com/velero-io/velero-plugin-for-aws/pull/340) — velero-io/velero-plugin-for-aws
-- [#10678 e2e: finish converting the CSI feature checks to FeatureEnabled](https://github.com/velero-io/velero/pull/10678) — velero-io/velero
 
-**openshift** (19)
+**openshift** (18)
+- [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 - [#508 [oadp-1.5] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/508) — openshift/openshift-velero-plugin
 - [#509 [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/509) — openshift/openshift-velero-plugin
 - [#506 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/506) — openshift/openshift-velero-plugin
 - [#2530 Bump CSV metadata to v1.5.9](https://github.com/openshift/oadp-operator/pull/2530) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
-- [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 - [#163 Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev](https://github.com/openshift/velero-plugin-for-gcp/pull/163) — openshift/velero-plugin-for-gcp
 - [#2528 Fix misleading podAnnotations deprecation warning on OADP 1.5 (OADP-8788)](https://github.com/openshift/oadp-operator/pull/2528) — openshift/oadp-operator
 - [#135 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/135) — openshift/velero-plugin-for-legacy-aws
@@ -290,7 +287,6 @@
 - [#2488 Enable AllNamespaces install mode with multi-tenant DPA support](https://github.com/openshift/oadp-operator/pull/2488) — openshift/oadp-operator
 - [#2521 Add hotfix image creation guide for development docs](https://github.com/openshift/oadp-operator/pull/2521) — openshift/oadp-operator
 - [#603 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/velero/pull/603) — openshift/velero
-- [#505 [oadp-1.4] Add comprehensive test coverage for restore plugins](https://github.com/openshift/openshift-velero-plugin/pull/505) — openshift/openshift-velero-plugin
 
 **migtools** (9)
 - [#50 chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend](https://github.com/migtools/filebrowser/pull/50) — migtools/filebrowser
@@ -372,10 +368,10 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
 **Other** (43)
+- [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#32 Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml](https://github.com/konveyor/builder/issues/32) — konveyor/builder
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
-- [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#19512 [Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen](https://github.com/pingdotgg/t3code/issues/19512) — pingdotgg/t3code
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
@@ -415,7 +411,7 @@
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
 - [#2 OtpExtractor: support alphanumeric OTP codes](https://github.com/kaovilai/cliprelay/issues/2) — kaovilai/cliprelay
-## Issues Closed (77)
+## Issues Closed (78)
 
 **velero-io** (24)
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
@@ -443,7 +439,8 @@
 - [#10302 Block data mover silently falls back to the filesystem uploader when no volume policy is supplied](https://github.com/velero-io/velero/issues/10302) — velero-io/velero
 - [#10046 fs-backup restore deadlocks at Init:0/1 on owner-restricted volumes — restore-wait init container ignores pod-level securityContext, falls back to hardcoded runAsUser 1000](https://github.com/velero-io/velero/issues/10046) — velero-io/velero
 
-**openshift** (13)
+**openshift** (14)
+- [#2389 e2e: support testing a change that spans multiple unmerged OADP-ecosystem PRs at once](https://github.com/openshift/oadp-operator/issues/2389) — openshift/oadp-operator
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#259 Cherrypicks missing for https://github.com/openshift/enhancements/pull/1945 related PRs to oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/issues/259) — openshift/hypershift-oadp-plugin
 - [#258 No HostedControlPlane found: unexpected behavior during HostedControlPlane backup](https://github.com/openshift/hypershift-oadp-plugin/issues/258) — openshift/hypershift-oadp-plugin

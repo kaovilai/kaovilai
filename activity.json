@@ -1,17 +1,89 @@
 {
   "period": {
-    "start": "2026-08-07",
-    "end": "2026-11-05"
+    "start": "2026-08-08",
+    "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-05T19:40:07Z",
+  "generatedAt": "2026-11-06T00:52:27Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 66,
+    "prsReviewed": 62,
     "issuesCommented": 100,
-    "issuesClosed": 77
+    "issuesClosed": 78
   },
   "prsMerged": [
+    {
+      "number": 45,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "phone page: with no APK on the router, link tailbond's GitHub release",
+      "url": "https://github.com/kaovilai/tailbond/pull/45",
+      "date": "2026-11-05T22:42:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 43,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: fall back to plain TCP when MPTCP doesn't connect; Brume 2 notes; server on/off and rename; role switch",
+      "url": "https://github.com/kaovilai/tailbond/pull/43",
+      "date": "2026-11-05T22:13:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 84228,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
+      "url": "https://github.com/openshift/release/pull/84228",
+      "date": "2026-11-05T21:05:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 42,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: seeding the package cache no longer deletes the update it is about to install",
+      "url": "https://github.com/kaovilai/tailbond/pull/42",
+      "date": "2026-11-05T20:56:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 39,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ui: the setup rows and the router guide read as rows, not paragraphs",
+      "url": "https://github.com/kaovilai/tailbond/pull/39",
+      "date": "2026-11-05T20:21:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 38,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "docs: a development build from before v0.1.3 can't update itself",
+      "url": "https://github.com/kaovilai/tailbond/pull/38",
+      "date": "2026-11-05T20:13:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 41,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "tailscale: \"relayed\" only when the peer really is relaying",
+      "url": "https://github.com/kaovilai/tailbond/pull/41",
+      "date": "2026-11-05T20:07:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 40,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ux: pin Playwright in every screenshot script, not just the a11y one",
+      "url": "https://github.com/kaovilai/tailbond/pull/40",
+      "date": "2026-11-05T19:40:49Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 33,
       "repo": "kaovilai/tailbond",
@@ -553,6 +625,15 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 91,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): add hosted-model-only recipes for Claude Code and Codex",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/91",
+      "date": "2026-10-22T20:47:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 192,
       "repo": "migtools/udistribution",
       "org": "migtools",
@@ -830,95 +911,41 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/192",
       "date": "2026-10-16T05:33:57Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 80,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Group every repo under an org node in the orbit chart",
-      "url": "https://github.com/kaovilai/kaovilai/pull/80",
-      "date": "2026-10-14T20:05:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 72,
-      "repo": "dpanshug/upstream-pulse",
-      "org": "dpanshug",
-      "title": "fix: parse @-prefixed and filters-nested OWNERS entries",
-      "url": "https://github.com/dpanshug/upstream-pulse/pull/72",
-      "date": "2026-10-14T15:48:42Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 266,
-      "repo": "kaovilai/cephcsi-cbt-e2e",
-      "org": "kaovilai",
-      "title": "ci: fix gh aw compile failure by dropping web-fetch from docs-harmonize",
-      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/266",
-      "date": "2026-10-14T13:32:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 267,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "feat(desktop): throw the pet like a ball on drag release",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/267",
-      "date": "2026-10-13T08:16:09Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2479,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): wait for DPA-owned secret GC in Undeploy",
-      "url": "https://github.com/openshift/oadp-operator/pull/2479",
-      "date": "2026-10-13T05:50:20Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 264,
-      "repo": "OpenPetsHQ/openpets",
-      "org": "OpenPetsHQ",
-      "title": "Ignore transparent sprite pixels in pet hit testing",
-      "url": "https://github.com/OpenPetsHQ/openpets/pull/264",
-      "date": "2026-10-12T15:35:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 135,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "fix: switch MinIO image to cgr.dev/chainguard/minio:latest",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/135",
-      "date": "2026-10-12T14:27:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 65,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "[improve] ci: add concurrency groups to prevent stale demo workflow overlap",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/65",
-      "date": "2026-10-12T14:04:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 134,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "chore: update to latest upstream releases and refresh slides",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/134",
-      "date": "2026-10-12T13:50:40Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
     {
+      "number": 45,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "phone page: with no APK on the router, link tailbond's GitHub release",
+      "url": "https://github.com/kaovilai/tailbond/pull/45",
+      "date": "2026-11-05T22:17:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 43,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: fall back to plain TCP when MPTCP doesn't connect; Brume 2 notes; server on/off and rename; role switch",
+      "url": "https://github.com/kaovilai/tailbond/pull/43",
+      "date": "2026-11-05T21:35:24Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 42,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: seeding the package cache no longer deletes the update it is about to install",
+      "url": "https://github.com/kaovilai/tailbond/pull/42",
+      "date": "2026-11-05T20:32:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 41,
       "repo": "kaovilai/tailbond",
       "org": "kaovilai",
-      "title": "tailscale: &quot;relayed&quot; only when the peer really is relaying",
+      "title": "tailscale: \"relayed\" only when the peer really is relaying",
       "url": "https://github.com/kaovilai/tailbond/pull/41",
       "date": "2026-11-05T19:32:04Z",
       "workstream": "Uncategorized"
@@ -1770,6 +1797,15 @@
       "workstream": "Velero"
     },
     {
+      "number": 115,
+      "repo": "redhat-et/pricetag-metering",
+      "org": "redhat-et",
+      "title": "docs(welcome): document EnMaaS request body limit",
+      "url": "https://github.com/redhat-et/pricetag-metering/pull/115",
+      "date": "2026-10-24T05:56:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10696,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1777,52 +1813,25 @@
       "url": "https://github.com/velero-io/velero/pull/10696",
       "date": "2026-10-24T02:06:29Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10695,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "ci: add CodeQL analysis for Go",
-      "url": "https://github.com/velero-io/velero/pull/10695",
-      "date": "2026-10-23T23:44:44Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 453,
-      "repo": "caozhiyuan/copilot-api",
-      "org": "caozhiyuan",
-      "title": "feat: log per-request latency and time to first token",
-      "url": "https://github.com/caozhiyuan/copilot-api/pull/453",
-      "date": "2026-10-23T23:08:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10692,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Dependabot updates for run-jammy-tiny on supported release branches",
-      "url": "https://github.com/velero-io/velero/pull/10692",
-      "date": "2026-10-23T23:05:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10691,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Delete retained volume snapshots on backup deletion for data movement",
-      "url": "https://github.com/velero-io/velero/pull/10691",
-      "date": "2026-10-23T23:05:14Z",
-      "workstream": "Velero"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 507,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/507",
+      "date": "2026-11-05T21:23:09Z",
+      "workstream": "Velero"
+    },
     {
       "number": 7381,
       "repo": "quay/quay",
       "org": "quay",
       "title": "PROJQUAY-8767: fix(ui): load tag history on demand and search server-side",
       "url": "https://github.com/quay/quay/pull/7381",
-      "date": "2026-11-05T18:10:00Z",
+      "date": "2026-11-05T21:16:45Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2039,15 +2048,6 @@
       "title": "e2e: run the FSBackup backup deletion case on kind under CSI",
       "url": "https://github.com/velero-io/velero/pull/10764",
       "date": "2026-11-03T21:48:59Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 507,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/507",
-      "date": "2026-11-03T20:26:58Z",
       "workstream": "Velero"
     },
     {
@@ -2373,45 +2373,18 @@
       "url": "https://github.com/velero-io/velero/pull/10747",
       "date": "2026-10-27T21:34:34Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10652,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: add a target that runs the tests on a kind cluster it creates",
-      "url": "https://github.com/velero-io/velero/pull/10652",
-      "date": "2026-10-27T21:24:02Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 505,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "[oadp-1.4] Add comprehensive test coverage for restore plugins",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/505",
-      "date": "2026-10-27T20:48:17Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 340,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Update the auto-assignees.yml of aws plugin",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/340",
-      "date": "2026-10-27T19:31:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10678,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: finish converting the CSI feature checks to FeatureEnabled",
-      "url": "https://github.com/velero-io/velero/pull/10678",
-      "date": "2026-10-27T19:06:37Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 17422,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
+      "url": "https://github.com/pingdotgg/t3code/issues/17422",
+      "date": "2026-11-06T00:49:35Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10303,
       "repo": "velero-io/velero",
@@ -2446,15 +2419,6 @@
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-05T14:07:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17422,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts",
-      "url": "https://github.com/pingdotgg/t3code/issues/17422",
-      "date": "2026-11-05T01:17:07Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3314,6 +3278,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2389,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: support testing a change that spans multiple unmerged OADP-ecosystem PRs at once",
+      "url": "https://github.com/openshift/oadp-operator/issues/2389",
+      "date": "2026-11-05T21:05:25Z",
+      "workstream": "OADP"
+    },
     {
       "number": 27,
       "repo": "konveyor/builder",
