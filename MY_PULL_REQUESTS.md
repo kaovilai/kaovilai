@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-06 06:11:00 UTC
+> Last updated: 2026-11-06 12:14:45 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -26,6 +26,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10691](https://img.shields.io/badge/PR%20%2310691-draft-gray)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
+- [![PR #10798](https://img.shields.io/badge/PR%20%2310798-draft-gray)](https://github.com/velero-io/velero/pull/10798) **velero-io/velero** → `main` - test: add Go fuzz targets for the backup archive extractor
 - [![PR #5](https://img.shields.io/badge/PR%20%235-draft-gray)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Draft Velero CNCF incubation security and engineering materials
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
@@ -82,6 +83,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #88415](https://img.shields.io/badge/PR%20%2388415-ready-green)](https://github.com/openshift/release/pull/88415) **openshift/release** → `main` - oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27
+- [![PR #88443](https://img.shields.io/badge/PR%20%2388443-ready-green)](https://github.com/openshift/release/pull/88443) **openshift/release** → `main` - Wire Depends-On image overrides into all oadp-operator e2e presubmits
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
@@ -147,13 +149,13 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
+- [![PR #255](https://img.shields.io/badge/PR%20%23255-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/255) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: read VMB backup type from status.includedVolumes[].type
 - [![PR #287](https://img.shields.io/badge/PR%20%23287-ready-green)](https://github.com/migtools/oadp-cli/pull/287) **migtools/oadp-cli** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
 - [![PR #397](https://img.shields.io/badge/PR%20%23397-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/397) **migtools/oadp-non-admin** → `oadp-dev` - Fix pre-existing CI failures on oadp-dev
 - [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: 468: Select the live virt-launcher pod after live migration
-- [![PR #255](https://img.shields.io/badge/PR%20%23255-draft-gray)](https://github.com/migtools/kubevirt-datamover-controller/pull/255) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: read VMB backup type from status.includedVolumes[].type
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-stale-yellow)](https://github.com/migtools/oadp-cli/pull/216) **migtools/oadp-cli** → `oadp-dev` - test: assert schedule, backup-location, must-gather, setup commands in root help
 - [![PR #243](https://img.shields.io/badge/PR%20%23243-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/243) **migtools/oadp-non-admin** → `oadp-dev` - vscode sample settings.json
@@ -189,7 +191,6 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
-- [![PR #46](https://img.shields.io/badge/PR%20%2346-ci--pending-yellow)](https://github.com/kaovilai/tailbond/pull/46) **kaovilai/tailbond** → `main` - cgnat: the relay designed out, the per-connection tailscaled researched, and a relay-aware health check
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
