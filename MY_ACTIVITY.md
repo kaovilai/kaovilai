@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-08 — 2026-11-06
-> **Generated:** 2026-11-06 14:10:27 UTC
+> **Generated:** 2026-11-06 15:08:46 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 57 |
+| PRs Reviewed | 56 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 81 |
 
@@ -27,7 +27,7 @@
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 
-**openshift** (23)
+**openshift** (22)
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
@@ -50,7 +50,6 @@
 - [#129 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129) — openshift/velero-plugin-for-legacy-aws
 - [#188 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188) — openshift/velero-plugin-for-microsoft-azure
 - [#187 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-aws/pull/187) — openshift/velero-plugin-for-aws
-- [#184 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-aws/pull/184) — openshift/velero-plugin-for-aws
 
 **migtools** (8)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
@@ -62,7 +61,8 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 - [#121 ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/121) — migtools/oadp-vm-file-restore
 
-**Other** (59)
+**Other** (60)
+- [#612 fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start](https://github.com/kaovilai/dotfiles/pull/612) — kaovilai/dotfiles
 - [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
 - [#606 ci(deps): track the Go proxy module; scan Go build + vulns](https://github.com/kaovilai/dotfiles/pull/606) — kaovilai/dotfiles
@@ -124,7 +124,7 @@
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 ## PRs Opened (100)
 
-**velero-io** (19)
+**velero-io** (18)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
@@ -143,7 +143,6 @@
 - [#10708 Delete retained source VSC when cleaning up an interrupted CSI snapshot expose](https://github.com/velero-io/velero/pull/10708) — velero-io/velero
 - [#10707 Add expose diagnose summary to DU/DD/PVB/PVR prepare timeout message](https://github.com/velero-io/velero/pull/10707) — velero-io/velero
 - [#10706 Fill the container termination reason to DU/DD/PVB/PVR when the data mover pod is OOMKilled](https://github.com/velero-io/velero/pull/10706) — velero-io/velero
-- [#10705 Don't block DataDownload controller waiting for target PVC consumer](https://github.com/velero-io/velero/pull/10705) — velero-io/velero
 
 **openshift** (10)
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
@@ -163,7 +162,8 @@
 - [#198 ci: fail on unformatted Go instead of pushing a format commit](https://github.com/migtools/udistribution/pull/198) — migtools/udistribution
 - [#111 UPSTREAM: 468: Select the live virt-launcher pod after live migration](https://github.com/migtools/kubevirt-velero-plugin/pull/111) — migtools/kubevirt-velero-plugin
 
-**Other** (67)
+**Other** (68)
+- [#612 fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start](https://github.com/kaovilai/dotfiles/pull/612) — kaovilai/dotfiles
 - [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#610 feat(proxies,bridge): Go owns the proxy lifecycle and the launch path](https://github.com/kaovilai/dotfiles/pull/610) — kaovilai/dotfiles
 - [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
@@ -231,7 +231,7 @@
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
-## PRs Reviewed (57)
+## PRs Reviewed (56)
 
 **velero-io** (29)
 - [#10212 Fix Zip Slip path check accepting a sibling directory in archive extraction](https://github.com/velero-io/velero/pull/10212) — velero-io/velero
@@ -264,7 +264,7 @@
 - [#10735 e2e: add fine-grained resource and restore filter test via resource policies](https://github.com/velero-io/velero/pull/10735) — velero-io/velero
 - [#10753 Rollback create retain snapshot](https://github.com/velero-io/velero/pull/10753) — velero-io/velero
 
-**openshift** (17)
+**openshift** (16)
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 - [#508 [oadp-1.5] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/508) — openshift/openshift-velero-plugin
 - [#509 [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/509) — openshift/openshift-velero-plugin
@@ -281,7 +281,6 @@
 - [#80 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/80) — openshift/velero-plugin-for-legacy-aws
 - [#331 NO-JIRA: Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.14.0 to 1.15.0 in the azure-github-dependencies group](https://github.com/openshift/hypershift-oadp-plugin/pull/331) — openshift/hypershift-oadp-plugin
 - [#2488 Enable AllNamespaces install mode with multi-tenant DPA support](https://github.com/openshift/oadp-operator/pull/2488) — openshift/oadp-operator
-- [#2521 Add hotfix image creation guide for development docs](https://github.com/openshift/oadp-operator/pull/2521) — openshift/oadp-operator
 
 **migtools** (9)
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
@@ -362,14 +361,14 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
 **Other** (44)
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
+- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#32 Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml](https://github.com/konveyor/builder/issues/32) — konveyor/builder
 - [#19512 [Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen](https://github.com/pingdotgg/t3code/issues/19512) — pingdotgg/t3code
-- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code

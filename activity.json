@@ -3,15 +3,24 @@
     "start": "2026-08-08",
     "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-06T14:10:27Z",
+  "generatedAt": "2026-11-06T15:08:46Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 57,
+    "prsReviewed": 56,
     "issuesCommented": 100,
     "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 612,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start",
+      "url": "https://github.com/kaovilai/dotfiles/pull/612",
+      "date": "2026-11-06T15:08:31Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 611,
       "repo": "kaovilai/dotfiles",
@@ -902,18 +911,18 @@
       "url": "https://github.com/openshift/velero-plugin-for-aws/pull/187",
       "date": "2026-10-21T18:58:34Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 184,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/184",
-      "date": "2026-10-21T18:58:33Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 612,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start",
+      "url": "https://github.com/kaovilai/dotfiles/pull/612",
+      "date": "2026-11-06T15:06:22Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 611,
       "repo": "kaovilai/dotfiles",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/velero-io/velero/pull/10706",
       "date": "2026-10-25T00:34:07Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10705,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Don't block DataDownload controller waiting for target PVC consumer",
-      "url": "https://github.com/velero-io/velero/pull/10705",
-      "date": "2026-10-25T00:32:33Z",
-      "workstream": "Velero"
     }
   ],
   "prsReviewed": [
@@ -2319,18 +2319,27 @@
       "url": "https://github.com/velero-io/velero/pull/10753",
       "date": "2026-10-29T00:30:33Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2521,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add hotfix image creation guide for development docs",
-      "url": "https://github.com/openshift/oadp-operator/pull/2521",
-      "date": "2026-10-28T22:41:36Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 604,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)",
+      "url": "https://github.com/kaovilai/dotfiles/issues/604",
+      "date": "2026-11-06T14:58:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-11-06T14:37:10Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2338,15 +2347,6 @@
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-06T13:51:12Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 604,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)",
-      "url": "https://github.com/kaovilai/dotfiles/issues/604",
-      "date": "2026-11-06T13:30:43Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2411,15 +2411,6 @@
       "url": "https://github.com/velero-io/velero/issues/10437",
       "date": "2026-11-04T01:35:13Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 16000,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
-      "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-11-02T23:03:27Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 4045,
