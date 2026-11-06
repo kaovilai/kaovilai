@@ -3,15 +3,60 @@
     "start": "2026-08-08",
     "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-06T06:19:46Z",
+  "generatedAt": "2026-11-06T12:14:18Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 61,
+    "prsReviewed": 57,
     "issuesCommented": 100,
-    "issuesClosed": 78
+    "issuesClosed": 79
   },
   "prsMerged": [
+    {
+      "number": 607,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review",
+      "url": "https://github.com/kaovilai/dotfiles/pull/607",
+      "date": "2026-11-06T12:02:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 606,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "ci(deps): track the Go proxy module; scan Go build + vulns",
+      "url": "https://github.com/kaovilai/dotfiles/pull/606",
+      "date": "2026-11-06T11:40:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 601,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(hosted-only): opt-in Go proxy (HOSTED_ONLY_PROXY_IMPL=go)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/601",
+      "date": "2026-11-06T11:08:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 600,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(proxies): audit — perf ops, failover and ops-continuity gaps; merge hosted-only proxies (#599)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/600",
+      "date": "2026-11-06T10:30:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 46,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "cgnat: the relay designed out, the per-connection tailscaled researched, and a relay-aware health check",
+      "url": "https://github.com/kaovilai/tailbond/pull/46",
+      "date": "2026-11-06T06:45:48Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 84228,
       "repo": "openshift/release",
@@ -866,54 +911,63 @@
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/187",
       "date": "2026-10-21T18:58:33Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 567,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "oadp-1.5: Pin Bitnami MinIO e2e build and cherry-pick velero-io/velero#10001 (skip upstream-only workflows on forks)",
-      "url": "https://github.com/openshift/velero/pull/567",
-      "date": "2026-10-21T18:54:21Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 62,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "ci: disable failing Quay binaries push workflow",
-      "url": "https://github.com/migtools/kopia/pull/62",
-      "date": "2026-10-21T18:49:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 185,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/185",
-      "date": "2026-10-21T16:54:59Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 5,
-      "repo": "kaovilai/github-html-diff-preview",
-      "org": "kaovilai",
-      "title": "Fix PR commit detection from deferred GitHub diff markup",
-      "url": "https://github.com/kaovilai/github-html-diff-preview/pull/5",
-      "date": "2026-10-16T18:25:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 192,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "chore: prepare Chrome Web Store submission",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/192",
-      "date": "2026-10-16T05:33:57Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 607,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review",
+      "url": "https://github.com/kaovilai/dotfiles/pull/607",
+      "date": "2026-11-06T11:28:42Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 606,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "ci(deps): track the Go proxy module; scan Go build + vulns",
+      "url": "https://github.com/kaovilai/dotfiles/pull/606",
+      "date": "2026-11-06T11:13:16Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 601,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(hosted-only): opt-in Go proxy (HOSTED_ONLY_PROXY_IMPL=go)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/601",
+      "date": "2026-11-06T10:12:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 600,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(proxies): audit — perf ops, failover and ops-continuity gaps; merge hosted-only proxies (#599)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/600",
+      "date": "2026-11-06T10:03:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 88443,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Wire Depends-On image overrides into all oadp-operator e2e presubmits",
+      "url": "https://github.com/openshift/release/pull/88443",
+      "date": "2026-11-06T06:37:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10798,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "test: add Go fuzz targets for the backup archive extractor",
+      "url": "https://github.com/velero-io/velero/pull/10798",
+      "date": "2026-11-06T06:20:01Z",
+      "workstream": "Velero"
+    },
     {
       "number": 46,
       "repo": "kaovilai/tailbond",
@@ -1759,63 +1813,18 @@
       "url": "https://github.com/velero-io/velero/pull/10703",
       "date": "2026-10-25T00:27:08Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10702,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Back off repo maintenance retries after failures, skip maintenance on unavailable BSL",
-      "url": "https://github.com/velero-io/velero/pull/10702",
-      "date": "2026-10-25T00:26:48Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10701,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Bound block data mover memory burst and set Go memory limit",
-      "url": "https://github.com/velero-io/velero/pull/10701",
-      "date": "2026-10-25T00:25:55Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10700,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Treat a kopia snapshot not found after a repo refresh as deleted",
-      "url": "https://github.com/velero-io/velero/pull/10700",
-      "date": "2026-10-25T00:23:14Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10699,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Delete the in-place restore baseline snapshot under a Retain class",
-      "url": "https://github.com/velero-io/velero/pull/10699",
-      "date": "2026-10-25T00:23:06Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10698,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix BLKZEROOUT ioctl request number in block uploader",
-      "url": "https://github.com/velero-io/velero/pull/10698",
-      "date": "2026-10-25T00:21:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 115,
-      "repo": "redhat-et/pricetag-metering",
-      "org": "redhat-et",
-      "title": "docs(welcome): document EnMaaS request body limit",
-      "url": "https://github.com/redhat-et/pricetag-metering/pull/115",
-      "date": "2026-10-24T05:56:05Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10212,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix Zip Slip path check accepting a sibling directory in archive extraction",
+      "url": "https://github.com/velero-io/velero/pull/10212",
+      "date": "2026-11-06T11:29:54Z",
+      "workstream": "Velero"
+    },
     {
       "number": 200,
       "repo": "migtools/udistribution",
@@ -2319,54 +2328,27 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2521",
       "date": "2026-10-28T22:41:36Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 603,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-      "url": "https://github.com/openshift/velero/pull/603",
-      "date": "2026-10-28T22:22:39Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 280,
-      "repo": "velero-io/velero-plugin-for-gcp",
-      "org": "velero-io",
-      "title": "Update assignees in the yaml file",
-      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/280",
-      "date": "2026-10-28T15:38:21Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 335,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
-      "date": "2026-10-28T14:24:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10740,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue 10724: Add parallel upload/download control for Velero fs and block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10740",
-      "date": "2026-10-28T01:17:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10751,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
-      "url": "https://github.com/velero-io/velero/pull/10751",
-      "date": "2026-10-28T00:50:43Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 604,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)",
+      "url": "https://github.com/kaovilai/dotfiles/issues/604",
+      "date": "2026-11-06T11:41:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 24901,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
+      "url": "https://github.com/pingdotgg/t3code/issues/24901",
+      "date": "2026-11-06T08:27:39Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17422,
       "repo": "pingdotgg/t3code",
@@ -2410,15 +2392,6 @@
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-05T14:07:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 24901,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
-      "url": "https://github.com/pingdotgg/t3code/issues/24901",
-      "date": "2026-11-04T20:55:45Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3257,18 +3230,18 @@
       "url": "https://github.com/velero-io/velero/issues/2812",
       "date": "2026-09-17T07:31:30Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 8279,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backupRepository can become stale if velero deployment is not running to observe bsl update/create",
-      "url": "https://github.com/velero-io/velero/issues/8279",
-      "date": "2026-09-16T01:46:12Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 599,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Merge hosted-only LiteLLM proxies :4147 into :4148 (one process for both Claude and Codex)",
+      "url": "https://github.com/kaovilai/dotfiles/issues/599",
+      "date": "2026-11-06T10:30:41Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 2389,
       "repo": "openshift/oadp-operator",
