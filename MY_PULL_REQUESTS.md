@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-06 16:11:26 UTC
+> Last updated: 2026-11-06 17:09:11 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -82,7 +82,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #507](https://img.shields.io/badge/PR%20%23507-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/507) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
-- [![PR #88415](https://img.shields.io/badge/PR%20%2388415-ready-green)](https://github.com/openshift/release/pull/88415) **openshift/release** → `main` - oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
@@ -99,6 +98,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2527](https://img.shields.io/badge/PR%20%232527-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
+- [![PR #88415](https://img.shields.io/badge/PR%20%2388415-waiting--merge-blue)](https://github.com/openshift/release/pull/88415) **openshift/release** → `main` - oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -148,11 +148,11 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
-- [![PR #255](https://img.shields.io/badge/PR%20%23255-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/255) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: read VMB backup type from status.includedVolumes[].type
 - [![PR #287](https://img.shields.io/badge/PR%20%23287-ready-green)](https://github.com/migtools/oadp-cli/pull/287) **migtools/oadp-cli** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
+- [![PR #255](https://img.shields.io/badge/PR%20%23255-waiting--merge-blue)](https://github.com/migtools/kubevirt-datamover-controller/pull/255) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: read VMB backup type from status.includedVolumes[].type
 - [![PR #397](https://img.shields.io/badge/PR%20%23397-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/397) **migtools/oadp-non-admin** → `oadp-dev` - Fix pre-existing CI failures on oadp-dev
 - [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: 468: Select the live virt-launcher pod after live migration
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
@@ -186,6 +186,7 @@ No open PRs.
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/konveyor/builder/pull/47) **konveyor/builder** → `main` - Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #614](https://img.shields.io/badge/PR%20%23614-ready-green)](https://github.com/kaovilai/dotfiles/pull/614) **kaovilai/dotfiles** → `main` - feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot

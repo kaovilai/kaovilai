@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:11:26Z",
+  "updatedAt": "2026-11-06T17:09:11Z",
   "prs": [
     {
       "number": 10010,
@@ -10738,103 +10738,6 @@
       ]
     },
     {
-      "number": 88415,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27",
-      "url": "https://github.com/openshift/release/pull/88415",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "rehearsals-ack"
-      ],
-      "updatedAt": "2026-11-05T20:01:51Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/check-gh-automation",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-config-metadata",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-registry",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/commits-signed",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/core-valid",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/generated-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/image-mirroring-config-validation",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/openshift-image-mirror-mappings",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ordered-prow-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/owners",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/prow-config-filenames",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/release-controller-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/yamllint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-dev/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-gcp/oadp-dev/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-microsoft-azure/oadp-dev/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero/oadp-dev/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 194,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
@@ -11739,6 +11642,108 @@
         },
         {
           "name": "ci/prow/unit-test",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 88415,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27",
+      "url": "https://github.com/openshift/release/pull/88415",
+      "targetBranch": "main",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "sseago",
+        "deepsm007"
+      ],
+      "isDraft": false,
+      "labels": [
+        "lgtm",
+        "approved",
+        "rehearsals-ack"
+      ],
+      "updatedAt": "2026-11-06T16:57:09Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/check-gh-automation",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config-metadata",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-registry",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/commits-signed",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/core-valid",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/generated-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/image-mirroring-config-validation",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/openshift-image-mirror-mappings",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ordered-prow-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/owners",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/prow-config-filenames",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/release-controller-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/yamllint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-dev/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-gcp/oadp-dev/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-microsoft-azure/oadp-dev/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero/oadp-dev/images",
           "conclusion": "SUCCESS"
         }
       ]
@@ -15064,51 +15069,6 @@
       ]
     },
     {
-      "number": 255,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-06T16:08:25Z",
-      "workstream": "KubeVirt Data Mover",
-      "ciChecks": [
-        {
-          "name": "Run on Ubuntu",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run on Ubuntu",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run on Ubuntu",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 106,
       "repo": "migtools/kubevirt-velero-plugin",
       "org": "migtools",
@@ -15339,6 +15299,54 @@
         },
         {
           "name": "security/snyk (kaovilai)",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 255,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
+      "targetBranch": "oadp-dev",
+      "status": "waiting-merge",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "sseago"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-11-06T17:08:57Z",
+      "workstream": "KubeVirt Data Mover",
+      "ciChecks": [
+        {
+          "name": "Run on Ubuntu",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run on Ubuntu",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run on Ubuntu",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         }
       ]
@@ -16044,6 +16052,89 @@
       "updatedAt": "2026-09-18T10:57:26Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 614,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs",
+      "url": "https://github.com/kaovilai/dotfiles/pull/614",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-06T17:08:02Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "SUCCESS"
+        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -18275,7 +18366,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-06T16:11:26Z",
+    "updatedAt": "2026-11-06T17:09:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -18672,7 +18763,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 112,
+        "waitingDays": 113,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -18698,7 +18789,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 112,
+        "waitingDays": 113,
         "updatedAt": "2026-07-16T16:56:21Z"
       },
       {
@@ -18724,7 +18815,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 112,
+        "waitingDays": 113,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -19044,7 +19135,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 71,
+        "waitingDays": 72,
         "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
@@ -19075,7 +19166,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 70,
+        "waitingDays": 71,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -19106,7 +19197,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 70,
+        "waitingDays": 71,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -19184,7 +19275,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19582,7 +19673,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-10-12T16:36:31Z"
       },
       {
@@ -19871,7 +19962,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
@@ -20041,7 +20132,7 @@
           "lifecycle/stale",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20143,6 +20234,35 @@
         "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
+        "number": 2523,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): handle Terminating namespace in CreateNamespace",
+        "url": "https://github.com/openshift/oadp-operator/pull/2523",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "kaovilai",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 8,
+        "updatedAt": "2026-10-29T16:33:09Z"
+      },
+      {
         "number": 198,
         "repo": "migtools/udistribution",
         "org": "migtools",
@@ -20232,35 +20352,6 @@
         "reason": "hold",
         "waitingDays": 7,
         "updatedAt": "2026-10-29T23:14:50Z"
-      },
-      {
-        "number": 2523,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): handle Terminating namespace in CreateNamespace",
-        "url": "https://github.com/openshift/oadp-operator/pull/2523",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "kaovilai",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-10-29T16:33:09Z"
       },
       {
         "number": 89,
@@ -20432,35 +20523,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-05T19:14:39Z"
-      },
-      {
-        "number": 255,
-        "repo": "migtools/kubevirt-datamover-controller",
-        "org": "migtools",
-        "title": "fix: read VMB backup type from status.includedVolumes[].type",
-        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-06T16:08:25Z"
       },
       {
         "number": 217,
@@ -20635,35 +20697,6 @@
         "updatedAt": "2026-11-05T21:23:09Z"
       },
       {
-        "number": 88415,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27",
-        "url": "https://github.com/openshift/release/pull/88415",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "rehearsals-ack"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hhpatel14",
-          "savitharaghunathan"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-05T20:01:51Z"
-      },
-      {
         "number": 565,
         "repo": "openshift/velero",
         "org": "openshift",
@@ -20808,7 +20841,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 112,
+        "waitingDays": 113,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -21210,38 +21243,6 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 42,
-        "updatedAt": "2026-09-24T21:55:00Z"
-      },
-      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -21266,7 +21267,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-09-25T17:03:14Z"
       },
       {
@@ -21297,8 +21298,40 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-09-25T17:03:37Z"
+      },
+      {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 42,
+        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -21788,7 +21821,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22109,6 +22142,72 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-11-05T12:13:52Z"
+      },
+      {
+        "number": 255,
+        "repo": "migtools/kubevirt-datamover-controller",
+        "org": "migtools",
+        "title": "fix: read VMB backup type from status.includedVolumes[].type",
+        "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12",
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-06T17:08:57Z"
+      },
+      {
+        "number": 88415,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27",
+        "url": "https://github.com/openshift/release/pull/88415",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago",
+          "deepsm007"
+        ],
+        "labels": [
+          "lgtm",
+          "approved",
+          "rehearsals-ack"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hhpatel14",
+          "savitharaghunathan"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-06T16:57:09Z"
       }
     ]
   }
