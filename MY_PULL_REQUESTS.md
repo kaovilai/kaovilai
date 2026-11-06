@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-06 19:07:54 UTC
+> Last updated: 2026-11-06 21:07:52 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -185,7 +185,7 @@ No open PRs.
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/konveyor/builder/pull/47) **konveyor/builder** → `main` - Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #615](https://img.shields.io/badge/PR%20%23615-ready-green)](https://github.com/kaovilai/dotfiles/pull/615) **kaovilai/dotfiles** → `main` - fix(hosted-only): fingerprint every image knob, keep Responses-only models off chat
+- [![PR #615](https://img.shields.io/badge/PR%20%23615-ready-green)](https://github.com/kaovilai/dotfiles/pull/615) **kaovilai/dotfiles** → `main` - fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
