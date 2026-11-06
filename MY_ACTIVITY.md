@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-08 — 2026-11-06
-> **Generated:** 2026-11-06 15:08:46 UTC
+> **Generated:** 2026-11-06 16:10:03 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -27,7 +27,8 @@
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 
-**openshift** (22)
+**openshift** (19)
+- [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
@@ -46,10 +47,6 @@
 - [#189 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189) — openshift/velero-plugin-for-microsoft-azure
 - [#131 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/131) — openshift/velero-plugin-for-legacy-aws
 - [#128 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128) — openshift/velero-plugin-for-legacy-aws
-- [#186 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-aws/pull/186) — openshift/velero-plugin-for-aws
-- [#129 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129) — openshift/velero-plugin-for-legacy-aws
-- [#188 Skip Auto Request Review workflow outside upstream (oadp-1.5)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188) — openshift/velero-plugin-for-microsoft-azure
-- [#187 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-aws/pull/187) — openshift/velero-plugin-for-aws
 
 **migtools** (8)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
@@ -61,7 +58,10 @@
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
 - [#121 ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/121) — migtools/oadp-vm-file-restore
 
-**Other** (60)
+**Other** (63)
+- [#202 feat(picker): cherry-pick parallel vs sequential chain with reorderable order](https://github.com/kaovilai/github-bot-command-palette/pull/202) — kaovilai/github-bot-command-palette
+- [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
+- [#610 feat(proxies,bridge): Go owns the proxy lifecycle and the launch path](https://github.com/kaovilai/dotfiles/pull/610) — kaovilai/dotfiles
 - [#612 fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start](https://github.com/kaovilai/dotfiles/pull/612) — kaovilai/dotfiles
 - [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
@@ -124,7 +124,7 @@
 - [#91 docs(welcome): add hosted-model-only recipes for Claude Code and Codex](https://github.com/redhat-et/pricetag-metering/pull/91) — redhat-et/pricetag-metering
 ## PRs Opened (100)
 
-**velero-io** (18)
+**velero-io** (17)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
@@ -142,7 +142,6 @@
 - [#10709 Refuse to delete a backup while a restore from it is in progress](https://github.com/velero-io/velero/pull/10709) — velero-io/velero
 - [#10708 Delete retained source VSC when cleaning up an interrupted CSI snapshot expose](https://github.com/velero-io/velero/pull/10708) — velero-io/velero
 - [#10707 Add expose diagnose summary to DU/DD/PVB/PVR prepare timeout message](https://github.com/velero-io/velero/pull/10707) — velero-io/velero
-- [#10706 Fill the container termination reason to DU/DD/PVB/PVR when the data mover pod is OOMKilled](https://github.com/velero-io/velero/pull/10706) — velero-io/velero
 
 **openshift** (10)
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
@@ -162,7 +161,8 @@
 - [#198 ci: fail on unformatted Go instead of pushing a format commit](https://github.com/migtools/udistribution/pull/198) — migtools/udistribution
 - [#111 UPSTREAM: 468: Select the live virt-launcher pod after live migration](https://github.com/migtools/kubevirt-velero-plugin/pull/111) — migtools/kubevirt-velero-plugin
 
-**Other** (68)
+**Other** (69)
+- [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
 - [#612 fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start](https://github.com/kaovilai/dotfiles/pull/612) — kaovilai/dotfiles
 - [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#610 feat(proxies,bridge): Go owns the proxy lifecycle and the launch path](https://github.com/kaovilai/dotfiles/pull/610) — kaovilai/dotfiles

@@ -3,7 +3,7 @@
     "start": "2026-08-08",
     "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-06T15:08:46Z",
+  "generatedAt": "2026-11-06T16:10:03Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,42 @@
     "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 202,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat(picker): cherry-pick parallel vs sequential chain with reorderable order",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/202",
+      "date": "2026-11-06T15:57:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 613,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port",
+      "url": "https://github.com/kaovilai/dotfiles/pull/613",
+      "date": "2026-11-06T15:47:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 88443,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Wire Depends-On image overrides into all oadp-operator e2e presubmits",
+      "url": "https://github.com/openshift/release/pull/88443",
+      "date": "2026-11-06T15:46:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 610,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxies,bridge): Go owns the proxy lifecycle and the launch path",
+      "url": "https://github.com/kaovilai/dotfiles/pull/610",
+      "date": "2026-11-06T15:47:20Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 612,
       "repo": "kaovilai/dotfiles",
@@ -875,45 +911,18 @@
       "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/128",
       "date": "2026-10-21T18:58:36Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 186,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/186",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 129,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/129",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 188,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.5)",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/188",
-      "date": "2026-10-21T18:58:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 187,
-      "repo": "openshift/velero-plugin-for-aws",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
-      "url": "https://github.com/openshift/velero-plugin-for-aws/pull/187",
-      "date": "2026-10-21T18:58:34Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 613,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port",
+      "url": "https://github.com/kaovilai/dotfiles/pull/613",
+      "date": "2026-11-06T15:46:24Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 612,
       "repo": "kaovilai/dotfiles",
@@ -1803,15 +1812,6 @@
       "title": "Add expose diagnose summary to DU/DD/PVB/PVR prepare timeout message",
       "url": "https://github.com/velero-io/velero/pull/10707",
       "date": "2026-10-25T00:35:02Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10706,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fill the container termination reason to DU/DD/PVB/PVR when the data mover pod is OOMKilled",
-      "url": "https://github.com/velero-io/velero/pull/10706",
-      "date": "2026-10-25T00:34:07Z",
       "workstream": "Velero"
     }
   ],
