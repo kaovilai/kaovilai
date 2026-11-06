@@ -3,7 +3,7 @@
     "start": "2026-08-08",
     "end": "2026-11-06"
   },
-  "generatedAt": "2026-11-06T00:52:27Z",
+  "generatedAt": "2026-11-06T03:18:12Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 78
   },
   "prsMerged": [
+    {
+      "number": 84228,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
+      "url": "https://github.com/openshift/release/pull/84228",
+      "date": "2026-11-05T21:05:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 45,
       "repo": "kaovilai/tailbond",
@@ -28,15 +37,6 @@
       "title": "openwrt: fall back to plain TCP when MPTCP doesn't connect; Brume 2 notes; server on/off and rename; role switch",
       "url": "https://github.com/kaovilai/tailbond/pull/43",
       "date": "2026-11-05T22:13:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 84228,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)",
-      "url": "https://github.com/openshift/release/pull/84228",
-      "date": "2026-11-05T21:05:23Z",
       "workstream": "Uncategorized"
     },
     {
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 200,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump the go-security group across 1 directory with 2 updates",
+      "url": "https://github.com/migtools/udistribution/pull/200",
+      "date": "2026-11-06T01:33:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 507,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -2130,15 +2139,6 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/385",
       "date": "2026-11-02T02:54:17Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 200,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump the go-security group across 1 directory with 2 updates",
-      "url": "https://github.com/migtools/udistribution/pull/200",
-      "date": "2026-11-02T01:37:29Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 51,
