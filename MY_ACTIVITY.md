@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-08 — 2026-11-06
-> **Generated:** 2026-11-06 18:12:32 UTC
+> **Generated:** 2026-11-06 19:07:10 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -47,7 +47,7 @@
 - [#188 Skip Auto Request Review workflow outside upstream (oadp-1.4)](https://github.com/openshift/velero-plugin-for-gcp/pull/188) — openshift/velero-plugin-for-gcp
 - [#189 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189) — openshift/velero-plugin-for-microsoft-azure
 
-**migtools** (8)
+**migtools** (7)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
 - [#192 Fix CI coverage handling for no-test packages and update setup-go](https://github.com/migtools/udistribution/pull/192) — migtools/udistribution
 - [#49 ci: use go.mod Go version in CI workflow (oadp-1.6)](https://github.com/migtools/filebrowser/pull/49) — migtools/filebrowser
@@ -55,9 +55,9 @@
 - [#44 UPSTREAM: <carry>: Bump Go to 1.26 and fix Lint workflow failures on oadp-dev](https://github.com/migtools/oadp-vmdp/pull/44) — migtools/oadp-vmdp
 - [#63 chore(ci): disable upstream-only license-check and code-coverage workflows](https://github.com/migtools/kopia/pull/63) — migtools/kopia
 - [#396 [oadp-1.5] ci: build golangci-lint with repo Go toolchain via make lint](https://github.com/migtools/oadp-non-admin/pull/396) — migtools/oadp-non-admin
-- [#121 ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/121) — migtools/oadp-vm-file-restore
 
-**Other** (64)
+**Other** (65)
+- [#616 feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default](https://github.com/kaovilai/dotfiles/pull/616) — kaovilai/dotfiles
 - [#614 feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs](https://github.com/kaovilai/dotfiles/pull/614) — kaovilai/dotfiles
 - [#202 feat(picker): cherry-pick parallel vs sequential chain with reorderable order](https://github.com/kaovilai/github-bot-command-palette/pull/202) — kaovilai/github-bot-command-palette
 - [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
