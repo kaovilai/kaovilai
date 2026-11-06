@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T13:09:51Z",
+  "updatedAt": "2026-11-06T15:09:44Z",
   "prs": [
     {
       "number": 10010,
@@ -16162,9 +16162,73 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-06T13:03:54Z",
+      "updatedAt": "2026-11-06T14:59:21Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
         {
           "name": "claude",
           "conclusion": "SKIPPED"
@@ -18491,7 +18555,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-06T13:09:51Z",
+    "updatedAt": "2026-11-06T15:09:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -18637,7 +18701,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 238,
+        "waitingDays": 239,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -18824,7 +18888,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18973,7 +19037,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 94,
+        "waitingDays": 95,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -19004,33 +19068,6 @@
         "reason": "awaitingReview",
         "waitingDays": 94,
         "updatedAt": "2026-08-03T21:22:10Z"
-      },
-      {
-        "number": 5354,
-        "repo": "openshift/ci-tools",
-        "org": "openshift",
-        "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
-        "url": "https://github.com/openshift/ci-tools/pull/5354",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "bear-redhat",
-          "droslean"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 92,
-        "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
         "number": 35,
@@ -19415,6 +19452,32 @@
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
+        "number": 118214,
+        "repo": "openshift/openshift-docs",
+        "org": "openshift",
+        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
+        "url": "https://github.com/openshift/openshift-docs/pull/118214",
+        "targetBranch": "main",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/S"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 66,
+        "updatedAt": "2026-09-01T13:58:01Z"
+      },
+      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19442,32 +19505,6 @@
         "reason": "awaitingReview",
         "waitingDays": 66,
         "updatedAt": "2026-08-31T20:24:39Z"
-      },
-      {
-        "number": 118214,
-        "repo": "openshift/openshift-docs",
-        "org": "openshift",
-        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
-        "url": "https://github.com/openshift/openshift-docs/pull/118214",
-        "targetBranch": "main",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/S"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 65,
-        "updatedAt": "2026-09-01T13:58:01Z"
       },
       {
         "number": 213,
@@ -19999,6 +20036,35 @@
         "updatedAt": "2026-10-22T17:29:19Z"
       },
       {
+        "number": 2482,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(kubevirt-datamover): size controller for scale, make resources configurable",
+        "url": "https://github.com/openshift/oadp-operator/pull/2482",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-10-23T13:40:01Z"
+      },
+      {
         "number": 2512,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20059,35 +20125,6 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-10-23T22:25:24Z"
-      },
-      {
-        "number": 2482,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(kubevirt-datamover): size controller for scale, make resources configurable",
-        "url": "https://github.com/openshift/oadp-operator/pull/2482",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-10-23T13:40:01Z"
       },
       {
         "number": 250,
@@ -20386,6 +20423,36 @@
         "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
+        "number": 2207,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
+        "url": "https://github.com/openshift/oadp-operator/pull/2207",
+        "targetBranch": "oadp-1.5",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mrnold",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-10-30T14:45:42Z"
+      },
+      {
         "number": 2488,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20474,36 +20541,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-10-30T15:47:17Z"
-      },
-      {
-        "number": 2207,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
-        "url": "https://github.com/openshift/oadp-operator/pull/2207",
-        "targetBranch": "oadp-1.5",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mrnold",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-10-30T14:45:42Z"
       },
       {
         "number": 89,
@@ -21112,7 +21149,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 92,
+        "waitingDays": 93,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -21146,7 +21183,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 86,
+        "waitingDays": 87,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -21178,7 +21215,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 76,
+        "waitingDays": 77,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -21631,7 +21668,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 37,
+        "waitingDays": 38,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
@@ -22225,7 +22262,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-11-02T14:06:28Z"
       },
       {
