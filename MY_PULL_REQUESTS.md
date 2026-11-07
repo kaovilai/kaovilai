@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-07 06:00:57 UTC
+> Last updated: 2026-11-07 12:01:21 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -110,7 +110,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #604](https://img.shields.io/badge/PR%20%23604-draft-gray)](https://github.com/openshift/velero/pull/604) **openshift/velero** → `oadp-1.6` - [oadp-1.6] Handle data mover and hook pods that go away during a backup
-- [![PR #88500](https://img.shields.io/badge/PR%20%2388500-draft-gray)](https://github.com/openshift/release/pull/88500) **openshift/release** → `main` - OADP Depends-On: let KDM e2e jobs run an unmerged oadp-operator PR's test code (TESTS_SOURCE sentinel)
+- [![PR #88500](https://img.shields.io/badge/PR%20%2388500-draft-gray)](https://github.com/openshift/release/pull/88500) **openshift/release** → `main` - OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel
 - [![PR #118214](https://img.shields.io/badge/PR%20%23118214-stale-yellow)](https://github.com/openshift/openshift-docs/pull/118214) **openshift/openshift-docs** → `main` - Replace credentialsFile with spec.credential in OADP VSL examples
 - [![PR #157](https://img.shields.io/badge/PR%20%23157-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/157) **openshift/oadp-must-gather** → `oadp-1.5` - [oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-stale-yellow)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
@@ -182,12 +182,13 @@ No open PRs.
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
 - [![PR #217](https://img.shields.io/badge/PR%20%23217-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Prep rebasebot for velero's Go 1.27 rebase
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273) **kaovilai/cephcsi-cbt-e2e** → `main` - [doc-sync] Sync Velero rollback and data mover status with upstream
+- [![PR #32365](https://img.shields.io/badge/PR%20%2332365-ready-green)](https://github.com/pingdotgg/t3code/pull/32365) **pingdotgg/t3code** → `main` - fix(web): timestamps follow the system time zone without a reload
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
-- [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/konveyor/builder/pull/47) **konveyor/builder** → `main` - Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges
+- [![PR #49](https://img.shields.io/badge/PR%20%2349-ready-green)](https://github.com/konveyor/builder/pull/49) **konveyor/builder** → `main` - Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot (stacked draft)
+- [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/autoport/pull/4) **kaovilai/autoport** → `main` - test: full functionality e2e coverage in GHA CI + fix broken share landing page
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #622](https://img.shields.io/badge/PR%20%23622-ready-green)](https://github.com/kaovilai/dotfiles/pull/622) **kaovilai/dotfiles** → `main` - feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model
-- [![PR #623](https://img.shields.io/badge/PR%20%23623-ready-green)](https://github.com/kaovilai/dotfiles/pull/623) **kaovilai/dotfiles** → `main` - web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)
+- [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/context-mode/pull/4) **kaovilai/context-mode** → `main` - feat: shared daemon mode — one process serves every session over loopback HTTP
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot

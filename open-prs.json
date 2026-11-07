@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T06:00:57Z",
+  "updatedAt": "2026-11-07T12:01:21Z",
   "prs": [
     {
       "number": 10010,
@@ -12514,7 +12514,7 @@
       "number": 88500,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "OADP Depends-On: let KDM e2e jobs run an unmerged oadp-operator PR's test code (TESTS_SOURCE sentinel)",
+      "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
       "url": "https://github.com/openshift/release/pull/88500",
       "targetBranch": "main",
       "status": "draft",
@@ -12527,16 +12527,236 @@
         "do-not-merge/work-in-progress",
         "approved"
       ],
-      "updatedAt": "2026-11-07T05:55:16Z",
+      "updatedAt": "2026-11-07T11:50:16Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "ci/rehearse/migtools/kubevirt-datamover-controller/oadp-1.6/virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
         {
           "name": "ci/rehearse/migtools/kubevirt-datamover-controller/oadp-dev/virt-kdm-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
+          "name": "ci/rehearse/migtools/kubevirt-datamover-plugin/oadp-1.6/virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/migtools/kubevirt-datamover-plugin/oadp-dev/virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.4/4.18-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.4/4.18-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-kubevirt-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-kubevirt-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/4.22-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/4.23-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.1-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.1-e2e-test-aws-allnamespaces",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.1-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.1-e2e-test-cli-aws-allnamespaces",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-1.4/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-1.5/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-1.6/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-dev/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.4/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.5/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.6/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-dev/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-1.4/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-1.5/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-1.6/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-dev/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero/oadp-1.4/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero/oadp-1.5/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero/oadp-1.6/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero/oadp-dev/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         },
         {
           "name": "ci/prow/agent-model-policy",
@@ -15976,6 +16196,37 @@
       "ciChecks": []
     },
     {
+      "number": 4,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "test: full functionality e2e coverage in GHA CI + fix broken share landing page",
+      "url": "https://github.com/kaovilai/autoport/pull/4",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-07T11:48:56Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "e2e",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 273,
       "repo": "kaovilai/cephcsi-cbt-e2e",
       "org": "kaovilai",
@@ -16054,11 +16305,11 @@
       ]
     },
     {
-      "number": 622,
-      "repo": "kaovilai/dotfiles",
+      "number": 4,
+      "repo": "kaovilai/context-mode",
       "org": "kaovilai",
-      "title": "feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model",
-      "url": "https://github.com/kaovilai/dotfiles/pull/622",
+      "title": "feat: shared daemon mode — one process serves every session over loopback HTTP",
+      "url": "https://github.com/kaovilai/context-mode/pull/4",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -16067,124 +16318,9 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-07T05:55:19Z",
+      "updatedAt": "2026-11-07T11:44:07Z",
       "workstream": "Uncategorized",
       "ciChecks": [
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 623,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/623",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-07T05:52:15Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -16215,11 +16351,11 @@
       ]
     },
     {
-      "number": 47,
+      "number": 49,
       "repo": "konveyor/builder",
       "org": "konveyor",
-      "title": "Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges",
-      "url": "https://github.com/konveyor/builder/pull/47",
+      "title": "Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot (stacked draft)",
+      "url": "https://github.com/konveyor/builder/pull/49",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -16228,248 +16364,12 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-07T04:12:05Z",
+      "updatedAt": "2026-11-07T12:00:50Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "determine-versions",
+          "name": "actionlint",
           "conclusion": "SUCCESS"
-        },
-        {
-          "name": "determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.27.3-1-hostfips-release, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (go1.26.10-1-openssl-fips, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
         },
         {
           "name": "CodeRabbit",
@@ -16755,6 +16655,148 @@
         },
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 32365,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): timestamps follow the system time zone without a reload",
+      "url": "https://github.com/pingdotgg/t3code/pull/32365",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "vouch:unvouched",
+        "size:L"
+      ],
+      "updatedAt": "2026-11-07T08:10:04Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Deploy relay preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "EAS Preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Deploy web preview",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Agent context budget",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Native fingerprint diff",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Prepare PR size config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Collect PR targets",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Sync PR size label definitions",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Lint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR 32365",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 1",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Label PR size",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 2",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 3",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 4",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 5",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 6",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 7",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Server 8",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build and Typecheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Test Web",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Rust",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Mobile Native Static Analysis",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Release Smoke",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Check",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Vercel – t3code-marketing",
           "conclusion": "SUCCESS"
         }
       ]
@@ -18416,7 +18458,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-07T06:00:57Z",
+    "updatedAt": "2026-11-07T12:01:21Z",
     "needsReview": [
       {
         "number": 68,
@@ -18535,7 +18577,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 519,
+        "waitingDays": 520,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -18593,6 +18635,36 @@
         "reason": "awaitingReview",
         "waitingDays": 212,
         "updatedAt": "2026-04-08T15:23:08Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 150,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -18680,30 +18752,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 115,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -18729,8 +18777,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 114,
+        "waitingDays": 115,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 115,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -19007,7 +19079,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19609,7 +19681,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
@@ -19721,7 +19793,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
@@ -19983,6 +20055,65 @@
         "updatedAt": "2026-10-26T20:20:14Z"
       },
       {
+        "number": 10699,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Delete the in-place restore baseline snapshot under a Retain class",
+        "url": "https://github.com/velero-io/velero/pull/10699",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "Needs triage"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-10-27T07:49:22Z"
+      },
+      {
+        "number": 10718,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+        "url": "https://github.com/velero-io/velero/pull/10718",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-10-27T07:46:06Z"
+      },
+      {
         "number": 674,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -20016,65 +20147,6 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
-        "number": 10699,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Delete the in-place restore baseline snapshot under a Retain class",
-        "url": "https://github.com/velero-io/velero/pull/10699",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "Needs triage"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-10-27T07:49:22Z"
-      },
-      {
-        "number": 10718,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
-        "url": "https://github.com/velero-io/velero/pull/10718",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-10-27T07:46:06Z"
-      },
-      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -20106,6 +20178,42 @@
         "reason": "awaitingReview",
         "waitingDays": 9,
         "updatedAt": "2026-10-29T00:08:40Z"
+      },
+      {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lifecycle/stale",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels",
+          "Acedus",
+          "alromeros"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 9,
+        "updatedAt": "2026-10-29T07:00:45Z"
       },
       {
         "number": 330,
@@ -20189,42 +20297,6 @@
         "reason": "awaitingReview",
         "waitingDays": 9,
         "updatedAt": "2026-10-28T22:41:36Z"
-      },
-      {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lifecycle/stale",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels",
-          "Acedus",
-          "alromeros"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 8,
-        "updatedAt": "2026-10-29T07:00:45Z"
       },
       {
         "number": 2488,
@@ -20347,30 +20419,6 @@
         "updatedAt": "2026-10-30T14:45:42Z"
       },
       {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-11-02T02:55:27Z"
-      },
-      {
         "number": 89,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -20397,38 +20445,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-11-01T09:31:39Z"
       },
       {
-        "number": 468,
-        "repo": "kubevirt/kubevirt-velero-plugin",
-        "org": "kubevirt",
-        "title": "Select the live virt-launcher pod after live migration",
-        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
-        "targetBranch": "main",
+        "number": 216,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Guard CRD regeneration after dependency bumps",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+        "targetBranch": "oadp-dev",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [
-          "dco-signoff: yes",
-          "size/L"
-        ],
-        "mergeStateStatus": "BLOCKED",
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
         "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [
-          "alromeros",
-          "shubham-pampattiwar"
-        ],
+        "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-03T22:48:31Z"
+        "waitingDays": 5,
+        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 10710,
@@ -20460,8 +20502,38 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-11-03T06:07:33Z"
+      },
+      {
+        "number": 468,
+        "repo": "kubevirt/kubevirt-velero-plugin",
+        "org": "kubevirt",
+        "title": "Select the live virt-launcher pod after live migration",
+        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "dco-signoff: yes",
+          "size/L"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "alromeros",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-11-03T22:48:31Z"
       },
       {
         "number": 104,
@@ -20696,6 +20768,35 @@
         "updatedAt": "2026-11-05T21:23:40Z"
       },
       {
+        "number": 10749,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "e2e: bound each Kibishii verify attempt by the poll deadline",
+        "url": "https://github.com/velero-io/velero/pull/10749",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "E2E Tests"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-06T06:52:38Z"
+      },
+      {
         "number": 10794,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -20727,11 +20828,11 @@
         "updatedAt": "2026-11-05T17:24:46Z"
       },
       {
-        "number": 47,
+        "number": 49,
         "repo": "konveyor/builder",
         "org": "konveyor",
-        "title": "Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges",
-        "url": "https://github.com/konveyor/builder/pull/47",
+        "title": "Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot (stacked draft)",
+        "url": "https://github.com/konveyor/builder/pull/49",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -20748,7 +20849,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-07T04:12:05Z"
+        "updatedAt": "2026-11-07T12:00:50Z"
       },
       {
         "number": 82734,
@@ -20776,35 +20877,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-07T00:50:27Z"
-      },
-      {
-        "number": 10749,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "e2e: bound each Kibishii verify attempt by the poll deadline",
-        "url": "https://github.com/velero-io/velero/pull/10749",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "E2E Tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-06T06:52:38Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -21177,7 +21249,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -21203,7 +21275,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -21231,7 +21303,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -21259,7 +21331,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -21474,7 +21546,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -21536,7 +21608,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
@@ -21974,7 +22046,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-11-02T07:42:24Z"
       },
       {
@@ -22223,6 +22295,33 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-11-06T20:21:34Z"
+      },
+      {
+        "number": 32365,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(web): timestamps follow the system time zone without a reload",
+        "url": "https://github.com/pingdotgg/t3code/pull/32365",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:L"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-07T08:10:04Z"
       }
     ]
   }
