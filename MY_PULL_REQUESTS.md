@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-07 12:01:21 UTC
+> Last updated: 2026-11-07 18:00:46 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -185,13 +185,13 @@ No open PRs.
 - [![PR #32365](https://img.shields.io/badge/PR%20%2332365-ready-green)](https://github.com/pingdotgg/t3code/pull/32365) **pingdotgg/t3code** → `main` - fix(web): timestamps follow the system time zone without a reload
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
-- [![PR #49](https://img.shields.io/badge/PR%20%2349-ready-green)](https://github.com/konveyor/builder/pull/49) **konveyor/builder** → `main` - Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot (stacked draft)
-- [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/autoport/pull/4) **kaovilai/autoport** → `main` - test: full functionality e2e coverage in GHA CI + fix broken share landing page
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/context-mode/pull/4) **kaovilai/context-mode** → `main` - feat: shared daemon mode — one process serves every session over loopback HTTP
+- [![PR #630](https://img.shields.io/badge/PR%20%23630-ready-green)](https://github.com/kaovilai/dotfiles/pull/630) **kaovilai/dotfiles** → `main` - perf(znap): defer syntax-highlighting + autocomplete until after first prompt
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
+- [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
