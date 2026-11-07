@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-06 23:04:40 UTC
+> Last updated: 2026-11-07 03:28:12 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -186,6 +186,7 @@ No open PRs.
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/konveyor/builder/pull/47) **konveyor/builder** → `main` - Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #615](https://img.shields.io/badge/PR%20%23615-ready-green)](https://github.com/kaovilai/dotfiles/pull/615) **kaovilai/dotfiles** → `main` - fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model
+- [![PR #620](https://img.shields.io/badge/PR%20%23620-ready-green)](https://github.com/kaovilai/dotfiles/pull/620) **kaovilai/dotfiles** → `main` - feat(llm-usage): stream fleet peers' usage into the local views
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
@@ -234,8 +235,6 @@ No open PRs.
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
-- [![PR #47](https://img.shields.io/badge/PR%20%2347-failing--ci-red)](https://github.com/kaovilai/tailbond/pull/47) **kaovilai/tailbond** → `main` - e2e: prototype the CGNAT relay and run it in CI
-- [![PR #48](https://img.shields.io/badge/PR%20%2348-failing--ci-red)](https://github.com/kaovilai/tailbond/pull/48) **kaovilai/tailbond** → `main` - ci: skip the heavy jobs when only docs changed, and cut no release for one
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T23:04:40Z",
+  "updatedAt": "2026-11-07T03:28:12Z",
   "prs": [
     {
       "number": 10010,
@@ -10769,7 +10769,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-10-12T16:36:31Z",
+      "updatedAt": "2026-11-07T00:50:27Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -10778,7 +10778,7 @@
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         },
         {
           "name": "ci/prow/agent-model-policy",
@@ -16019,6 +16019,53 @@
       ]
     },
     {
+      "number": 620,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(llm-usage): stream fleet peers' usage into the local views",
+      "url": "https://github.com/kaovilai/dotfiles/pull/620",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-07T02:16:05Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "claude",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 82,
       "repo": "kaovilai/kaovilai",
       "org": "kaovilai",
@@ -16055,7 +16102,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-05T19:14:39Z",
+      "updatedAt": "2026-11-07T01:26:47Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -17799,376 +17846,6 @@
       "ciChecks": []
     },
     {
-      "number": 47,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "e2e: prototype the CGNAT relay and run it in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/47",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-06T18:07:10Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "label",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Agent (Go tests + builds)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (c-cpp)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (java-kotlin)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript-typescript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (ruby)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (swift)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "ShellCheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Android APK",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS e2e server VM image (Linux arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "iOS tailbond Share (simulator)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Report a problem (dashboard + GL panel, Chromium)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Static x86_64 mqvpn (musl)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Static aarch64 mqvpn (musl)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Ansible role lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "End-to-end (netns, patched mqvpn)",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "Android TV emulator (remote only)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "GL.iNet / OpenWrt ipk",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Fedora RPM",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS client (mqvpn, tailbondd, e2e)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Android emulator end-to-end",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Generic Linux bundle (VPS)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS server (e2e, Linux client in a VM)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "VPS install (almalinux:10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "VPS install (debian:12)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "VPS install (ubuntu:24.04)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Server image (amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Server image (arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Kubernetes (kubeconform, kind e2e)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Release",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "COPR build (Fedora)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "SBOM (SPDX + CycloneDX, checked)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Server image tags (X.Y, latest)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "SBOM (attach to the release, attest)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Dependency graph (submit the SBOM)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 48,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: skip the heavy jobs when only docs changed, and cut no release for one",
-      "url": "https://github.com/kaovilai/tailbond/pull/48",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-06T17:55:30Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "label",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "What changed",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (c-cpp)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (java-kotlin)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript-typescript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (ruby)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (swift)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Agent (Go tests + builds)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ShellCheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Android APK",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS e2e server VM image (Linux arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "iOS tailbond Share (simulator)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Report a problem (dashboard + GL panel, Chromium)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Static x86_64 mqvpn (musl)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Static aarch64 mqvpn (musl)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Ansible role lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "End-to-end (netns, patched mqvpn)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Android TV emulator (remote only)",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "GL.iNet / OpenWrt ipk",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Fedora RPM",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS client (mqvpn, tailbondd, e2e)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Android emulator end-to-end",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Generic Linux bundle (VPS)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "macOS server (e2e, Linux client in a VM)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "VPS install (almalinux:10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "VPS install (debian:12)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "VPS install (ubuntu:24.04)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Server image (amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Server image (arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Kubernetes (kubeconform, kind e2e)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Release",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "COPR build (Fedora)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "SBOM (SPDX + CycloneDX, checked)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Server image tags (X.Y, latest)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "SBOM (attach to the release, attest)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Dependency graph (submit the SBOM)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -18613,7 +18290,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-06T23:04:40Z",
+    "updatedAt": "2026-11-07T03:28:12Z",
     "needsReview": [
       {
         "number": 68,
@@ -18636,7 +18313,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 722,
+        "waitingDays": 723,
         "updatedAt": "2024-11-14T00:22:29Z"
       },
       {
@@ -18684,7 +18361,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 560,
+        "waitingDays": 561,
         "updatedAt": "2025-04-25T01:27:53Z"
       },
       {
@@ -18708,7 +18385,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 553,
+        "waitingDays": 554,
         "updatedAt": "2025-05-02T03:17:47Z"
       },
       {
@@ -18790,6 +18467,36 @@
         "reason": "awaitingReview",
         "waitingDays": 212,
         "updatedAt": "2026-04-08T15:23:08Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 150,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -18877,6 +18584,30 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 115,
+        "updatedAt": "2026-07-15T00:42:51Z"
+      },
+      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -18904,30 +18635,6 @@
         "reason": "hold",
         "waitingDays": 114,
         "updatedAt": "2026-07-15T09:18:53Z"
-      },
-      {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 114,
-        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -19112,7 +18819,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19324,7 +19031,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 72,
+        "waitingDays": 73,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -19521,7 +19228,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19594,7 +19301,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-19T02:25:17Z"
       },
       {
@@ -19654,7 +19361,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -19683,7 +19390,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -19735,7 +19442,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19766,7 +19473,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19892,7 +19599,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-10-14T03:13:06Z"
       },
       {
@@ -19947,8 +19654,37 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-10-20T23:42:58Z"
+      },
+      {
+        "number": 10032,
+        "repo": "openshift/installer",
+        "org": "openshift",
+        "title": "Add SSH agent retry logic and tests for authentication errors",
+        "url": "https://github.com/openshift/installer/pull/10032",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "lifecycle/stale"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "pawanpinjarkar",
+          "rwsu"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 16,
+        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2508,
@@ -20006,35 +19742,6 @@
         "reason": "awaitingReview",
         "waitingDays": 15,
         "updatedAt": "2026-10-22T17:29:19Z"
-      },
-      {
-        "number": 10032,
-        "repo": "openshift/installer",
-        "org": "openshift",
-        "title": "Add SSH agent retry logic and tests for authentication errors",
-        "url": "https://github.com/openshift/installer/pull/10032",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "lifecycle/stale"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "pawanpinjarkar",
-          "rwsu"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 15,
-        "updatedAt": "2026-10-22T01:30:55Z"
       },
       {
         "number": 2512,
@@ -20180,6 +19887,39 @@
         "updatedAt": "2026-10-26T20:20:14Z"
       },
       {
+        "number": 674,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "size/XL",
+          "area/tide"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "cjwagner",
+          "michelle192837",
+          "petr-muller"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-10-28T00:56:31Z"
+      },
+      {
         "number": 10699,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -20239,22 +19979,23 @@
         "updatedAt": "2026-10-27T07:46:06Z"
       },
       {
-        "number": 674,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "tide: skip unmergeable PRs instead of retrying indefinitely",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/674",
-        "targetBranch": "main",
+        "number": 6479,
+        "repo": "kubernetes/enhancements",
+        "org": "kubernetes",
+        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
+        "url": "https://github.com/kubernetes/enhancements/pull/6479",
+        "targetBranch": "master",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [
+          "sig/storage",
           "cncf-cla: yes",
-          "ok-to-test",
-          "size/XL",
-          "area/tide"
+          "size/M",
+          "needs-ok-to-test",
+          "kind/kep"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20262,14 +20003,13 @@
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
-          "cjwagner",
-          "michelle192837",
-          "petr-muller"
+          "saad-ali",
+          "xing-yang"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 9,
-        "updatedAt": "2026-10-28T00:56:31Z"
+        "updatedAt": "2026-10-29T00:08:40Z"
       },
       {
         "number": 330,
@@ -20355,39 +20095,6 @@
         "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
-        "number": 6479,
-        "repo": "kubernetes/enhancements",
-        "org": "kubernetes",
-        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
-        "url": "https://github.com/kubernetes/enhancements/pull/6479",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "sig/storage",
-          "cncf-cla: yes",
-          "size/M",
-          "needs-ok-to-test",
-          "kind/kep"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "saad-ali",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 8,
-        "updatedAt": "2026-10-29T00:08:40Z"
-      },
-      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -20422,6 +20129,36 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-10-29T07:00:45Z"
+      },
+      {
+        "number": 2488,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
+        "url": "https://github.com/openshift/oadp-operator/pull/2488",
+        "targetBranch": "oadp-dev",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 8,
+        "updatedAt": "2026-10-29T23:14:50Z"
       },
       {
         "number": 2523,
@@ -20514,34 +20251,28 @@
         "updatedAt": "2026-10-30T14:45:42Z"
       },
       {
-        "number": 2488,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
-        "url": "https://github.com/openshift/oadp-operator/pull/2488",
+        "number": 216,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Guard CRD regeneration after dependency bumps",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
         "targetBranch": "oadp-dev",
-        "author": "Joeavaikath",
+        "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12",
-          "sseago"
-        ],
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
         "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 7,
-        "updatedAt": "2026-10-29T23:14:50Z"
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 89,
@@ -20572,30 +20303,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-11-01T09:31:39Z"
-      },
-      {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 468,
@@ -20661,54 +20368,6 @@
         "updatedAt": "2026-11-03T06:07:33Z"
       },
       {
-        "number": 47,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges",
-        "url": "https://github.com/konveyor/builder/pull/47",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-05T19:14:39Z"
-      },
-      {
-        "number": 217,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Prep rebasebot for velero's Go 1.27 rebase",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-05T20:23:05Z"
-      },
-      {
         "number": 104,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -20735,8 +20394,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-11-05T01:31:19Z"
+      },
+      {
+        "number": 217,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Prep rebasebot for velero's Go 1.27 rebase",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-05T20:23:05Z"
       },
       {
         "number": 2533,
@@ -20946,6 +20629,57 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-11-05T17:24:46Z"
+      },
+      {
+        "number": 47,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges",
+        "url": "https://github.com/konveyor/builder/pull/47",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-07T01:26:47Z"
+      },
+      {
+        "number": 82734,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-operator/config: switch OADP build_root from image_stream_tag to project_image",
+        "url": "https://github.com/openshift/release/pull/82734",
+        "targetBranch": "main",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "eemcmullan",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-07T00:50:27Z"
       },
       {
         "number": 10749,
@@ -21676,7 +21410,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-10-14T00:43:53Z"
       },
       {
@@ -21896,6 +21630,37 @@
         "updatedAt": "2026-10-22T18:34:45Z"
       },
       {
+        "number": 2513,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add BSL validation timeout to known flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2513",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "weshayutin"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 15,
+        "updatedAt": "2026-10-23T00:43:31Z"
+      },
+      {
         "number": 56,
         "repo": "openshift/agentic-skills",
         "org": "openshift",
@@ -21926,37 +21691,6 @@
         "reason": "pendingMerge",
         "waitingDays": 14,
         "updatedAt": "2026-10-23T22:16:54Z"
-      },
-      {
-        "number": 2513,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add BSL validation timeout to known flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2513",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "weshayutin"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 14,
-        "updatedAt": "2026-10-23T00:43:31Z"
       },
       {
         "number": 182,
