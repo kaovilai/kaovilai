@@ -3,15 +3,87 @@
     "start": "2026-08-09",
     "end": "2026-11-07"
   },
-  "generatedAt": "2026-11-07T12:15:58Z",
+  "generatedAt": "2026-11-07T18:13:01Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 36,
+    "prsReviewed": 32,
     "issuesCommented": 100,
-    "issuesClosed": 84
+    "issuesClosed": 85
   },
   "prsMerged": [
+    {
+      "number": 4,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "test: full functionality e2e coverage in GHA CI + fix broken share landing page",
+      "url": "https://github.com/kaovilai/autoport/pull/4",
+      "date": "2026-11-07T17:28:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 51,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "pairing: wait out mqvpn's control socket instead of issuing a dead URI",
+      "url": "https://github.com/kaovilai/tailbond/pull/51",
+      "date": "2026-11-07T17:07:01Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 55,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)",
+      "url": "https://github.com/konveyor/builder/pull/55",
+      "date": "2026-11-07T16:54:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 52,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: recover a half-installed tailbond after a firmware upgrade",
+      "url": "https://github.com/kaovilai/tailbond/pull/52",
+      "date": "2026-11-07T16:08:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 53,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates",
+      "url": "https://github.com/konveyor/builder/pull/53",
+      "date": "2026-11-07T15:34:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 47,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "e2e: prototype the CGNAT relay and run it in CI",
+      "url": "https://github.com/kaovilai/tailbond/pull/47",
+      "date": "2026-11-07T01:00:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 629,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "perf(claude): cut claude launcher startup from 3.6s to ~0.24s",
+      "url": "https://github.com/kaovilai/dotfiles/pull/629",
+      "date": "2026-11-07T14:28:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 49,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot",
+      "url": "https://github.com/konveyor/builder/pull/49",
+      "date": "2026-11-07T13:14:35Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 48,
       "repo": "konveyor/builder",
@@ -154,15 +226,6 @@
       "title": "fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model",
       "url": "https://github.com/kaovilai/dotfiles/pull/615",
       "date": "2026-11-07T03:59:12Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 47,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "e2e: prototype the CGNAT relay and run it in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/47",
-      "date": "2026-11-07T01:00:56Z",
       "workstream": "Uncategorized"
     },
     {
@@ -848,72 +911,81 @@
       "url": "https://github.com/velero-io/velero/pull/10698",
       "date": "2026-10-26T06:29:48Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 1571,
-      "repo": "oliexdev/openScale",
-      "org": "oliexdev",
-      "title": "Add support for Chipsea-BLE GATT body fat scales",
-      "url": "https://github.com/oliexdev/openScale/pull/1571",
-      "date": "2026-10-24T15:08:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10683,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: point README OpenSSF Best Practices badge at bestpractices.dev",
-      "url": "https://github.com/velero-io/velero/pull/10683",
-      "date": "2026-10-23T23:38:55Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 87638,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Trust OADP automation apps for presubmit triggering",
-      "url": "https://github.com/openshift/release/pull/87638",
-      "date": "2026-10-23T22:08:39Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 198,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "docs: Android update via Tasker; stable-name release zip (v1.1.2)",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/198",
-      "date": "2026-10-23T20:34:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 197,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(content): give the review-dialog command bar its own row",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/197",
-      "date": "2026-10-23T19:27:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 196,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "feat: in-extension update check and automated GitHub releases",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/196",
-      "date": "2026-10-23T19:23:59Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 195,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(settings): shard config across sync keys to stay under 8 KB item quota",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/195",
-      "date": "2026-10-23T15:14:16Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 55,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)",
+      "url": "https://github.com/konveyor/builder/pull/55",
+      "date": "2026-11-07T15:57:06Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 52,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: recover a half-installed tailbond after a firmware upgrade",
+      "url": "https://github.com/kaovilai/tailbond/pull/52",
+      "date": "2026-11-07T15:33:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 630,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "perf(znap): defer syntax-highlighting + autocomplete until after first prompt",
+      "url": "https://github.com/kaovilai/dotfiles/pull/630",
+      "date": "2026-11-07T15:12:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 910,
+      "repo": "marlonrichert/zsh-autocomplete",
+      "org": "marlonrichert",
+      "title": "Fall back to standard back-tab sequence when terminfo lacks kcbt",
+      "url": "https://github.com/marlonrichert/zsh-autocomplete/pull/910",
+      "date": "2026-11-07T15:11:21Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 53,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates",
+      "url": "https://github.com/konveyor/builder/pull/53",
+      "date": "2026-11-07T15:09:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 51,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "pairing: wait out mqvpn's control socket instead of issuing a dead URI",
+      "url": "https://github.com/kaovilai/tailbond/pull/51",
+      "date": "2026-11-07T15:06:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 50,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "e2e: prototype the CGNAT relay and run it in CI",
+      "url": "https://github.com/kaovilai/tailbond/pull/50",
+      "date": "2026-11-07T14:39:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 629,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "perf(claude): cut claude launcher startup from 3.6s to ~0.24s",
+      "url": "https://github.com/kaovilai/dotfiles/pull/629",
+      "date": "2026-11-07T12:48:22Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 628,
       "repo": "kaovilai/dotfiles",
@@ -981,7 +1053,7 @@
       "number": 49,
       "repo": "konveyor/builder",
       "org": "konveyor",
-      "title": "Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot (stacked draft)",
+      "title": "Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot",
       "url": "https://github.com/konveyor/builder/pull/49",
       "date": "2026-11-07T07:14:15Z",
       "workstream": "Uncategorized"
@@ -1741,97 +1813,34 @@
       "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
       "date": "2026-11-03T09:21:02Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 216,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "Guard CRD regeneration after dependency bumps",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-      "date": "2026-11-02T02:30:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 199,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "deps: consolidate pending dependabot bumps",
-      "url": "https://github.com/migtools/udistribution/pull/199",
-      "date": "2026-10-30T15:39:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 198,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "ci: fail on unformatted Go instead of pushing a format commit",
-      "url": "https://github.com/migtools/udistribution/pull/198",
-      "date": "2026-10-30T15:37:39Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 213,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "docs: seed OADP FAQ with curated answers",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/213",
-      "date": "2026-10-30T05:31:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 111,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "UPSTREAM: 468: Select the live virt-launcher pod after live migration",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/111",
-      "date": "2026-10-29T20:44:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2525,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: describe descheduler impact on virtualization backups",
-      "url": "https://github.com/openshift/oadp-operator/pull/2525",
-      "date": "2026-10-29T20:39:14Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 604,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "[oadp-1.6] Handle data mover and hook pods that go away during a backup",
-      "url": "https://github.com/openshift/velero/pull/604",
-      "date": "2026-10-29T20:33:10Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "fix: parse every stream event so first-token timing is recorded",
-      "url": "https://github.com/kaovilai/copilot-api/pull/17",
-      "date": "2026-10-28T21:03:19Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
-    {
-      "number": 10780,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "site: add a blog post on the CSI snapshot tests on kind",
-      "url": "https://github.com/velero-io/velero/pull/10780",
-      "date": "2026-11-07T10:06:22Z",
-      "workstream": "Velero"
-    },
     {
       "number": 10796,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Add a velero_backup_active_total metric",
       "url": "https://github.com/velero-io/velero/pull/10796",
-      "date": "2026-11-07T09:55:26Z",
+      "date": "2026-11-07T16:14:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 338,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
+      "date": "2026-11-07T16:14:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10780,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "site: add a blog post on the CSI snapshot tests on kind",
+      "url": "https://github.com/velero-io/velero/pull/10780",
+      "date": "2026-11-07T15:52:38Z",
       "workstream": "Velero"
     },
     {
@@ -1913,15 +1922,6 @@
       "title": "Enable TLS for MinIO in the kind E2E workflow",
       "url": "https://github.com/velero-io/velero/pull/10204",
       "date": "2026-11-05T16:13:37Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 338,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
-      "date": "2026-11-05T14:10:34Z",
       "workstream": "Velero"
     },
     {
@@ -2103,45 +2103,27 @@
       "url": "https://github.com/velero-io/velero/pull/10624",
       "date": "2026-11-03T09:12:43Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10766,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump the github-actions group with 2 updates",
-      "url": "https://github.com/velero-io/velero/pull/10766",
-      "date": "2026-11-03T06:26:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10235,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow configuration of page buffer size in Item Collector (#10219)",
-      "url": "https://github.com/velero-io/velero/pull/10235",
-      "date": "2026-11-02T16:50:39Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 163,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/163",
-      "date": "2026-11-02T14:06:28Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2528,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fix misleading podAnnotations deprecation warning on OADP 1.5 (OADP-8788)",
-      "url": "https://github.com/openshift/oadp-operator/pull/2528",
-      "date": "2026-11-02T04:54:10Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 49,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing",
+      "url": "https://github.com/kaovilai/tailbond/issues/49",
+      "date": "2026-11-07T16:08:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-07T12:34:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 41,
       "repo": "konveyor/builder",
@@ -2185,15 +2167,6 @@
       "title": "feat: one tailscaled per internet connection, so each bonded path gets Tailscale NAT traversal (servers behind CGNAT)",
       "url": "https://github.com/kaovilai/tailbond/issues/44",
       "date": "2026-11-06T18:02:35Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-06T13:51:12Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3032,18 +3005,18 @@
       "url": "https://github.com/velero-io/velero/issues/9556",
       "date": "2026-09-18T06:37:17Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 8707,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support multiple transmission protocols",
-      "url": "https://github.com/velero-io/velero/issues/8707",
-      "date": "2026-09-18T01:09:22Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 49,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing",
+      "url": "https://github.com/kaovilai/tailbond/issues/49",
+      "date": "2026-11-07T16:08:51Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 41,
       "repo": "konveyor/builder",
