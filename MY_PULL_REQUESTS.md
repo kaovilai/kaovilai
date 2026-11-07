@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-07 03:28:12 UTC
+> Last updated: 2026-11-07 06:00:57 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -110,6 +110,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #604](https://img.shields.io/badge/PR%20%23604-draft-gray)](https://github.com/openshift/velero/pull/604) **openshift/velero** → `oadp-1.6` - [oadp-1.6] Handle data mover and hook pods that go away during a backup
+- [![PR #88500](https://img.shields.io/badge/PR%20%2388500-draft-gray)](https://github.com/openshift/release/pull/88500) **openshift/release** → `main` - OADP Depends-On: let KDM e2e jobs run an unmerged oadp-operator PR's test code (TESTS_SOURCE sentinel)
 - [![PR #118214](https://img.shields.io/badge/PR%20%23118214-stale-yellow)](https://github.com/openshift/openshift-docs/pull/118214) **openshift/openshift-docs** → `main` - Replace credentialsFile with spec.credential in OADP VSL examples
 - [![PR #157](https://img.shields.io/badge/PR%20%23157-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/157) **openshift/oadp-must-gather** → `oadp-1.5` - [oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-stale-yellow)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
@@ -185,8 +186,8 @@ No open PRs.
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #47](https://img.shields.io/badge/PR%20%2347-ready-green)](https://github.com/konveyor/builder/pull/47) **konveyor/builder** → `main` - Build golang-fips prereleases (Go 1.27 FIPS) and auto-generate README version badges
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #615](https://img.shields.io/badge/PR%20%23615-ready-green)](https://github.com/kaovilai/dotfiles/pull/615) **kaovilai/dotfiles** → `main` - fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model
-- [![PR #620](https://img.shields.io/badge/PR%20%23620-ready-green)](https://github.com/kaovilai/dotfiles/pull/620) **kaovilai/dotfiles** → `main` - feat(llm-usage): stream fleet peers' usage into the local views
+- [![PR #622](https://img.shields.io/badge/PR%20%23622-ready-green)](https://github.com/kaovilai/dotfiles/pull/622) **kaovilai/dotfiles** → `main` - feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model
+- [![PR #623](https://img.shields.io/badge/PR%20%23623-ready-green)](https://github.com/kaovilai/dotfiles/pull/623) **kaovilai/dotfiles** → `main` - web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
