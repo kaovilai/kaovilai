@@ -1,24 +1,78 @@
 {
   "period": {
-    "start": "2026-08-08",
-    "end": "2026-11-06"
+    "start": "2026-08-09",
+    "end": "2026-11-07"
   },
-  "generatedAt": "2026-11-06T23:08:56Z",
+  "generatedAt": "2026-11-07T05:43:05Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 51,
+    "prsReviewed": 46,
     "issuesCommented": 100,
-    "issuesClosed": 81
+    "issuesClosed": 82
   },
   "prsMerged": [
     {
-      "number": 617,
+      "number": 2,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …",
+      "url": "https://github.com/kaovilai/autoport/pull/2",
+      "date": "2026-11-07T05:31:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "ui: modern, colorful redesign (presentation only)",
+      "url": "https://github.com/kaovilai/autoport/pull/1",
+      "date": "2026-11-07T05:32:06Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 620,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
-      "title": "Retire the LiteLLM impl for hosted-only and EnMaaS",
-      "url": "https://github.com/kaovilai/dotfiles/pull/617",
-      "date": "2026-11-06T19:58:43Z",
+      "title": "feat(llm-usage): stream fleet peers' usage into the local views",
+      "url": "https://github.com/kaovilai/dotfiles/pull/620",
+      "date": "2026-11-07T05:01:01Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 615,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model",
+      "url": "https://github.com/kaovilai/dotfiles/pull/615",
+      "date": "2026-11-07T03:59:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 47,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "e2e: prototype the CGNAT relay and run it in CI",
+      "url": "https://github.com/kaovilai/tailbond/pull/47",
+      "date": "2026-11-07T01:00:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 48,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: skip the heavy jobs when only docs changed, and cut no release for one",
+      "url": "https://github.com/kaovilai/tailbond/pull/48",
+      "date": "2026-11-07T00:51:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 619,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs: web-search shim design note (canary detection + Parallel Search emulation)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/619",
+      "date": "2026-11-07T00:40:37Z",
       "workstream": "Uncategorized"
     },
     {
@@ -28,6 +82,15 @@
       "title": "feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default",
       "url": "https://github.com/kaovilai/dotfiles/pull/616",
       "date": "2026-11-06T18:15:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 617,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Retire the LiteLLM impl for hosted-only and EnMaaS",
+      "url": "https://github.com/kaovilai/dotfiles/pull/617",
+      "date": "2026-11-06T19:58:43Z",
       "workstream": "Uncategorized"
     },
     {
@@ -848,72 +911,90 @@
       "url": "https://github.com/openshift/restic/pull/75",
       "date": "2026-10-21T19:07:12Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 44,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "UPSTREAM: <carry>: Bump Go to 1.26 and fix Lint workflow failures on oadp-dev",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/44",
-      "date": "2026-10-21T19:07:10Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 63,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "chore(ci): disable upstream-only license-check and code-coverage workflows",
-      "url": "https://github.com/migtools/kopia/pull/63",
-      "date": "2026-10-21T19:07:10Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 74,
-      "repo": "openshift/restic",
-      "org": "openshift",
-      "title": "ci: disable upstream tests workflow",
-      "url": "https://github.com/openshift/restic/pull/74",
-      "date": "2026-10-21T19:07:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 190,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-dev)",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/190",
-      "date": "2026-10-21T19:02:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 189,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/189",
-      "date": "2026-10-21T19:02:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 188,
-      "repo": "openshift/velero-plugin-for-gcp",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.4)",
-      "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/188",
-      "date": "2026-10-21T19:02:52Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 189,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Skip Auto Request Review workflow outside upstream (oadp-1.6)",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/189",
-      "date": "2026-10-21T19:02:52Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 3,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "fix: serve from a subpath (GitHub Pages project site at /autoport/)",
+      "url": "https://github.com/kaovilai/autoport/pull/3",
+      "date": "2026-11-07T05:41:16Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …",
+      "url": "https://github.com/kaovilai/autoport/pull/2",
+      "date": "2026-11-07T05:31:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "ui: modern, colorful redesign (presentation only)",
+      "url": "https://github.com/kaovilai/autoport/pull/1",
+      "date": "2026-11-07T04:44:25Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 623,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/623",
+      "date": "2026-11-07T04:28:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 88500,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP Depends-On: let KDM e2e jobs run an unmerged oadp-operator PR's test code (TESTS_SOURCE sentinel)",
+      "url": "https://github.com/openshift/release/pull/88500",
+      "date": "2026-11-07T04:23:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 622,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model",
+      "url": "https://github.com/kaovilai/dotfiles/pull/622",
+      "date": "2026-11-07T04:20:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 621,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(hosted-only-go): ready chat translation for block-diffusion (DiffusionGemma-style) models",
+      "url": "https://github.com/kaovilai/dotfiles/pull/621",
+      "date": "2026-11-07T04:04:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 620,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(llm-usage): stream fleet peers' usage into the local views",
+      "url": "https://github.com/kaovilai/dotfiles/pull/620",
+      "date": "2026-11-07T01:24:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 619,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs: web-search shim design note (canary detection + Parallel Search emulation)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/619",
+      "date": "2026-11-07T00:25:15Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 617,
       "repo": "kaovilai/dotfiles",
@@ -1732,87 +1813,6 @@
       "url": "https://github.com/velero-io/velero/pull/10718",
       "date": "2026-10-25T02:55:15Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10717,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Store resourceTimeout in the backup finalizer reconciler",
-      "url": "https://github.com/velero-io/velero/pull/10717",
-      "date": "2026-10-25T01:20:48Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 5748,
-      "repo": "kopia/kopia",
-      "org": "kopia",
-      "title": "fix(providers): return S3 PutObject error when GetModTime is requested",
-      "url": "https://github.com/kopia/kopia/pull/5748",
-      "date": "2026-10-25T01:09:10Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10716,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Retain the backup snapshot only for the block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10716",
-      "date": "2026-10-25T01:07:33Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10715,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fail backup when its metadata can't be written to the BSL",
-      "url": "https://github.com/velero-io/velero/pull/10715",
-      "date": "2026-10-25T00:54:37Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10714,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Don't hold restore in Finalizing when results upload fails",
-      "url": "https://github.com/velero-io/velero/pull/10714",
-      "date": "2026-10-25T00:54:18Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10713,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Drop deleted backups from the backup tracker; clarify useOwnerReferencesInBackup on schedule deletion",
-      "url": "https://github.com/velero-io/velero/pull/10713",
-      "date": "2026-10-25T00:53:56Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10712,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Warn when resource modifiers change a PVC's volumeMode from Block on restore",
-      "url": "https://github.com/velero-io/velero/pull/10712",
-      "date": "2026-10-25T00:52:39Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10711,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Back up raw block volumes with snapshots instead of skipping them when defaultVolumesToFsBackup is set",
-      "url": "https://github.com/velero-io/velero/pull/10711",
-      "date": "2026-10-25T00:49:55Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2519,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: note that nodeAgent.loadAffinity also limits File System Backup",
-      "url": "https://github.com/openshift/oadp-operator/pull/2519",
-      "date": "2026-10-25T00:48:56Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
@@ -2229,54 +2229,18 @@
       "url": "https://github.com/velero-io/.github/pull/6",
       "date": "2026-10-30T15:02:30Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 80,
-      "repo": "openshift/velero-plugin-for-legacy-aws",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-legacy-aws/pull/80",
-      "date": "2026-10-30T14:54:29Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 288,
-      "repo": "migtools/oadp-cli",
-      "org": "migtools",
-      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-      "url": "https://github.com/migtools/oadp-cli/pull/288",
-      "date": "2026-10-30T04:58:07Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 251,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/251",
-      "date": "2026-10-30T04:58:05Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10762,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restic deprecation: ignore invalid PVB uploader",
-      "url": "https://github.com/velero-io/velero/pull/10762",
-      "date": "2026-10-30T03:09:51Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 331,
-      "repo": "openshift/hypershift-oadp-plugin",
-      "org": "openshift",
-      "title": "NO-JIRA: Bump github.com/Azure/azure-sdk-for-go/sdk/azidentity from 1.14.0 to 1.15.0 in the azure-github-dependencies group",
-      "url": "https://github.com/openshift/hypershift-oadp-plugin/pull/331",
-      "date": "2026-10-30T01:20:52Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-11-07T02:25:00Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 44,
       "repo": "kaovilai/tailbond",
@@ -2293,15 +2257,6 @@
       "title": "Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)",
       "url": "https://github.com/kaovilai/dotfiles/issues/604",
       "date": "2026-11-06T14:58:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16000,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
-      "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-11-06T14:37:10Z",
       "workstream": "Uncategorized"
     },
     {
@@ -3179,6 +3134,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 602,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Adopt Go proxy as default and retire the LiteLLM impl (follow-up to #601)",
+      "url": "https://github.com/kaovilai/dotfiles/issues/602",
+      "date": "2026-11-07T01:07:35Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 605,
       "repo": "kaovilai/dotfiles",
