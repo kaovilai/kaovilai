@@ -3,15 +3,42 @@
     "start": "2026-08-09",
     "end": "2026-11-07"
   },
-  "generatedAt": "2026-11-07T05:43:05Z",
+  "generatedAt": "2026-11-07T06:18:06Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 46,
+    "prsReviewed": 45,
     "issuesCommented": 100,
     "issuesClosed": 82
   },
   "prsMerged": [
+    {
+      "number": 623,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/623",
+      "date": "2026-11-07T06:08:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/autoport",
+      "org": "kaovilai",
+      "title": "fix: serve from a subpath (GitHub Pages project site at /autoport/)",
+      "url": "https://github.com/kaovilai/autoport/pull/3",
+      "date": "2026-11-07T05:59:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 621,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(hosted-only-go): ready chat translation for block-diffusion (DiffusionGemma-style) models",
+      "url": "https://github.com/kaovilai/dotfiles/pull/621",
+      "date": "2026-11-07T05:48:33Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 2,
       "repo": "kaovilai/autoport",
@@ -884,33 +911,6 @@
       "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/190",
       "date": "2026-10-21T19:07:14Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 76,
-      "repo": "openshift/restic",
-      "org": "openshift",
-      "title": "ci: disable upstream tests workflow",
-      "url": "https://github.com/openshift/restic/pull/76",
-      "date": "2026-10-21T19:07:13Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 77,
-      "repo": "openshift/restic",
-      "org": "openshift",
-      "title": "ci: disable upstream tests workflow",
-      "url": "https://github.com/openshift/restic/pull/77",
-      "date": "2026-10-21T19:07:12Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 75,
-      "repo": "openshift/restic",
-      "org": "openshift",
-      "title": "ci: disable upstream tests workflow",
-      "url": "https://github.com/openshift/restic/pull/75",
-      "date": "2026-10-21T19:07:12Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
@@ -954,7 +954,7 @@
       "number": 88500,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "OADP Depends-On: let KDM e2e jobs run an unmerged oadp-operator PR's test code (TESTS_SOURCE sentinel)",
+      "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
       "url": "https://github.com/openshift/release/pull/88500",
       "date": "2026-11-07T04:23:34Z",
       "workstream": "Uncategorized"
@@ -2220,15 +2220,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2526",
       "date": "2026-10-30T15:13:50Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 6,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Clarify the code repositories in GOVERNANCE.md",
-      "url": "https://github.com/velero-io/.github/pull/6",
-      "date": "2026-10-30T15:02:30Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [

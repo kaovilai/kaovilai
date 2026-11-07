@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-09 — 2026-11-07
-> **Generated:** 2026-11-07 05:43:05 UTC
+> **Generated:** 2026-11-07 06:18:06 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 46 |
+| PRs Reviewed | 45 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 82 |
 
@@ -27,7 +27,7 @@
 - [#10698 Fix BLKZEROOUT ioctl request number in block uploader](https://github.com/velero-io/velero/pull/10698) — velero-io/velero
 - [#10683 docs: point README OpenSSF Best Practices badge at bestpractices.dev](https://github.com/velero-io/velero/pull/10683) — velero-io/velero
 
-**openshift** (13)
+**openshift** (10)
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
@@ -38,9 +38,6 @@
 - [#130 Skip Auto Request Review workflow outside upstream (oadp-1.6)](https://github.com/openshift/velero-plugin-for-legacy-aws/pull/130) — openshift/velero-plugin-for-legacy-aws
 - [#489 OADP-8924: Treat missing openshift-apiserver config as no internal registry](https://github.com/openshift/openshift-velero-plugin/pull/489) — openshift/openshift-velero-plugin
 - [#190 Skip Auto Request Review workflow outside upstream (oadp-dev)](https://github.com/openshift/velero-plugin-for-gcp/pull/190) — openshift/velero-plugin-for-gcp
-- [#76 ci: disable upstream tests workflow](https://github.com/openshift/restic/pull/76) — openshift/restic
-- [#77 ci: disable upstream tests workflow](https://github.com/openshift/restic/pull/77) — openshift/restic
-- [#75 ci: disable upstream tests workflow](https://github.com/openshift/restic/pull/75) — openshift/restic
 
 **migtools** (4)
 - [#197 Group Go security updates in Dependabot](https://github.com/migtools/udistribution/pull/197) — migtools/udistribution
@@ -48,7 +45,10 @@
 - [#49 ci: use go.mod Go version in CI workflow (oadp-1.6)](https://github.com/migtools/filebrowser/pull/49) — migtools/filebrowser
 - [#120 [oadp-1.6] ci: build e2e MinIO image from pinned Bitnami Dockerfile](https://github.com/migtools/oadp-vm-file-restore/pull/120) — migtools/oadp-vm-file-restore
 
-**Other** (73)
+**Other** (76)
+- [#623 web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)](https://github.com/kaovilai/dotfiles/pull/623) — kaovilai/dotfiles
+- [#3 fix: serve from a subpath (GitHub Pages project site at /autoport/)](https://github.com/kaovilai/autoport/pull/3) — kaovilai/autoport
+- [#621 feat(hosted-only-go): ready chat translation for block-diffusion (DiffusionGemma-style) models](https://github.com/kaovilai/dotfiles/pull/621) — kaovilai/dotfiles
 - [#2 docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …](https://github.com/kaovilai/autoport/pull/2) — kaovilai/autoport
 - [#1 ui: modern, colorful redesign (presentation only)](https://github.com/kaovilai/autoport/pull/1) — kaovilai/autoport
 - [#620 feat(llm-usage): stream fleet peers' usage into the local views](https://github.com/kaovilai/dotfiles/pull/620) — kaovilai/dotfiles
@@ -133,7 +133,7 @@
 - [#10718 docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance](https://github.com/velero-io/velero/pull/10718) — velero-io/velero
 
 **openshift** (8)
-- [#88500 OADP Depends-On: let KDM e2e jobs run an unmerged oadp-operator PR's test code (TESTS_SOURCE sentinel)](https://github.com/openshift/release/pull/88500) — openshift/release
+- [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
@@ -231,9 +231,9 @@
 - [#1793 fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit](https://github.com/sooperset/mcp-atlassian/pull/1793) — sooperset/mcp-atlassian
 - [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
-## PRs Reviewed (46)
+## PRs Reviewed (45)
 
-**velero-io** (24)
+**velero-io** (23)
 - [#10212 Fix Zip Slip path check accepting a sibling directory in archive extraction](https://github.com/velero-io/velero/pull/10212) — velero-io/velero
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
@@ -257,7 +257,6 @@
 - [#10766 build(deps): bump the github-actions group with 2 updates](https://github.com/velero-io/velero/pull/10766) — velero-io/velero
 - [#10235 Allow configuration of page buffer size in Item Collector (#10219)](https://github.com/velero-io/velero/pull/10235) — velero-io/velero
 - [#10759 Expose resourcemodifiers package to pkg for plugin reuse](https://github.com/velero-io/velero/pull/10759) — velero-io/velero
-- [#6 Clarify the code repositories in GOVERNANCE.md](https://github.com/velero-io/.github/pull/6) — velero-io/.github
 
 **openshift** (13)
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
