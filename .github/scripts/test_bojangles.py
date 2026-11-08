@@ -4,7 +4,8 @@
 Run: python3 -I .github/scripts/test_bojangles.py   (any cwd)
 Renders the SVG in-process (no repo data needed) and checks it is well-formed,
 self-contained, deterministic, in sync with the committed assets, and that the
-CSS timeline tells the story: nibble, leap, wall slip, paws-first landing, walk on.
+CSS timeline tells the story: nibble, fish leap, butterfly chase, wall slip,
+paws-first landing, sunbeam nap, walk home.
 """
 import importlib.util
 import json
@@ -18,7 +19,7 @@ from unittest.mock import patch
 
 SCRIPT = Path(__file__).resolve().parent / "generate-profile-svgs.py"
 REPO = SCRIPT.parents[2]
-SIZE_BUDGET = 150_000  # bytes per theme, including photo-derived vector contours
+SIZE_BUDGET = 180_000  # bytes per theme: traced face art plus two cats and the layered habitat
 NS = "{http://www.w3.org/2000/svg}"
 
 
@@ -148,6 +149,19 @@ class RenderTests(unittest.TestCase):
             with self.subTest(mode):
                 self.assertLessEqual(len(svg.encode("utf-8")), SIZE_BUDGET)
 
+    def test_habitat_scene_is_layered_and_theme_aware(self):
+        for mode, svg in RENDERS.items():
+            with self.subTest(mode):
+                ids = {e.get("id") for e in ET.fromstring(svg).iter() if e.get("id")}
+                for want in ("bj-sky", "bj-sunglow", "bj-ray", "bj-haze", "bj-cloudfill",
+                             "bj-vignette", "bj-wood", "bj-leaf"):
+                    self.assertIn(want, ids, f"missing {want}")
+                classes = class_set(svg)
+                self.assertTrue({"bj-cloud1", "bj-cloud2", "bj-cloud3"} <= classes)
+                # Life in the closing light is dusk-only (fireflies) or day-only (pollen).
+                self.assertEqual("bj-fire1" in classes, GEN.THEMES[mode]["night"])
+                self.assertEqual("bj-pollen1" in classes, not GEN.THEMES[mode]["night"])
+
     def test_accessibility_labels(self):
         for mode, svg in RENDERS.items():
             with self.subTest(mode):
@@ -160,7 +174,7 @@ class RenderTests(unittest.TestCase):
                     self.assertTrue((ids[ref].text or "").strip())
                 self.assertIn("Bojangles", ids[labelled[0]].text)
                 desc = ids[labelled[1]].text.lower()
-                for word in ("catnip", "fish", "wall", "paws", "reduced motion"):
+                for word in ("catnip", "fish", "butterfly", "wall", "paws", "sunbeam", "reduced motion"):
                     self.assertIn(word, desc)
 
     def test_ids_unique_and_references_local(self):
@@ -236,12 +250,22 @@ class FaceArtworkTests(unittest.TestCase):
     def test_ear_and_jaw_contain_independent_vector_layers(self):
         for svg in RENDERS.values():
             root = ET.fromstring(svg)
-            head = root.find(f".//{NS}g[@class='bj-head']")
-            self.assertIsNotNone(head)
+            art = root.find(f".//{NS}g[@id='bj-face-art']")
+            self.assertIsNotNone(art, "shared face artwork missing")
             for name in ("ear", "jaw"):
-                joint = head.find(f".//{NS}g[@class='bj-{name}']")
+                joint = art.find(f".//{NS}g[@class='bj-{name}']")
                 self.assertIsNotNone(joint)
                 self.assertGreater(len(list(joint.iter(NS + "path"))), 1)
+            # Both brothers wear the one portrait, each placed by its own head transform.
+            uses = [u for u in root.iter(NS + "use") if u.get("href") == "#bj-face-art"]
+            self.assertEqual(len(uses), 2, "both cats must use the shared face")
+            parents = {child: parent for parent in root.iter() for child in parent}
+            for use in uses:
+                node, placed = use, False
+                while node is not None:
+                    placed = placed or bool(node.get("transform"))
+                    node = parents.get(node)
+                self.assertTrue(placed, "shared face used without placement")
 
 
 class DeterminismTests(unittest.TestCase):
@@ -281,7 +305,7 @@ class StoryTests(unittest.TestCase):
     def test_story_table_is_chronological_and_loops(self):
         times = [row[0] for row in GEN.BOJANGLES_STORY]
         self.assertEqual(times[0], 0)
-        self.assertEqual(times[-1], 40)
+        self.assertEqual(times[-1], DURATION)
         self.assertEqual(times, sorted(times))
         self.assertEqual(len(times), len(set(times)), "duplicate story times")
         first, last = GEN.BOJANGLES_STORY[0], GEN.BOJANGLES_STORY[-1]
@@ -317,6 +341,81 @@ class StoryTests(unittest.TestCase):
             self.assertAlmostEqual(s_sec, c_sec, delta=.01)
             self.assertEqual(s_val, c_val)
         self.assertEqual(self.travel[0][1], self.travel[-1][1])
+
+    def test_arcs_share_one_gravity(self):
+        # Every flight must read as projectile motion on the same planet: vertical
+        # speed changes by GRAVITY per second, horizontal speed stays put, and a
+        # level jump peaks halfway through instead of hanging at the apex.
+        g = GEN.GRAVITY
+        rows = GEN.BOJANGLES_STORY
+        for t0, t1, grounded in ((14.5, 16.43, True), (21.45, 23.41, True), (26.35, 27.2, False)):
+            with self.subTest((t0, t1)):
+                arc = [r for r in rows if t0 <= r[0] <= t1]
+                self.assertGreaterEqual(len(arc), 3)
+                self.assertEqual(arc[0][2], 0, "jump must leave the ground")
+                if grounded:
+                    self.assertEqual(arc[-1][2], 0, "jump must land on its feet")
+                vy = [(b[2] - a[2]) / (b[0] - a[0]) for a, b in zip(arc, arc[1:])]
+                mids = [(a[0] + b[0]) / 2 for a, b in zip(arc, arc[1:])]
+                for (a, b), (ma, mb) in zip(zip(vy, vy[1:]), zip(mids, mids[1:])):
+                    accel = (b - a) / (mb - ma)
+                    self.assertAlmostEqual(accel, g, delta=g * .1,
+                                           msg=f"vertical acceleration at {mb:.2f}s")
+                    self.assertGreaterEqual(accel, 0, "nothing may decelerate on the way down")
+                vx = [(b[1] - a[1]) / (b[0] - a[0]) for a, b in zip(arc, arc[1:])]
+                self.assertLess(max(vx) - min(vx), 3, "horizontal speed must stay constant in flight")
+                if grounded:
+                    apex = min(arc, key=lambda r: r[2])
+                    self.assertAlmostEqual(apex[0], (t0 + t1) / 2, delta=.06,
+                                           msg="level jump apexes at mid-flight")
+
+    def test_brother_is_a_three_legged_tabby(self):
+        for mode, svg in RENDERS.items():
+            with self.subTest(mode):
+                root = ET.fromstring(svg)
+                legs = [e.get("class", "") for e in root.iter(NS + "g")
+                        if re.fullmatch(r"bjp-(fore|hind)-(near|far)", e.get("class", ""))]
+                self.assertEqual(len(legs), 3, "Popeyes must stand on three legs")
+                self.assertNotIn("bjp-hind-far", legs)
+                self.assertTrue(any(c.startswith("bjp-fore") for c in legs))
+                self.assertTrue(any(c.startswith("bjp-hind") for c in legs))
+                ids = {e.get("id") for e in root.iter() if e.get("id")}
+                self.assertIn("bjp-coat", ids, "tabby coat missing")
+                self.assertIn("bjp-torso-clip", ids)
+                # Tabby, not ginger: every coat stop stays a low-saturation grey-brown.
+                gradient = root.find(f".//{NS}linearGradient[@id='bjp-coat']")
+                self.assertIsNotNone(gradient)
+                stops = [s.get("stop-color") for s in gradient.findall(NS + "stop")]
+                self.assertGreaterEqual(len(stops), 3)
+                for colour in stops:
+                    r, g, b = (int(colour[i:i + 2], 16) for i in (1, 3, 5))
+                    self.assertLess((max(r, g, b) - min(r, g, b)) / max(r, g, b), .35,
+                                    f"{colour} is too saturated for a tabby")
+
+    def test_brother_hops_on_the_same_gravity(self):
+        g = GEN.GRAVITY
+        bob = track_samples(self.css, "bjp-bob")
+        for t0, t1 in GEN.POPEYES_HOPS[:2]:
+            hop = [(s, v[0]) for s, v in bob if t0 - 1e-6 <= s <= t1 + 1e-6]
+            self.assertEqual(len(hop), 5, "hop must sample its arc")
+            self.assertEqual(hop[0][1], 0)
+            self.assertEqual(hop[-1][1], 0)
+            vy = [(b[1] - a[1]) / (b[0] - a[0]) for a, b in zip(hop, hop[1:])]
+            mids = [(a[0] + b[0]) / 2 for a, b in zip(hop, hop[1:])]
+            for (a, b), (ma, mb) in zip(zip(vy, vy[1:]), zip(mids, mids[1:])):
+                self.assertAlmostEqual((b - a) / (mb - ma), g, delta=g * .05)
+
+    def test_brother_shares_the_nap(self):
+        lids = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-nap-eyes")
+                if "opacity:1" in d.replace(" ", "")]
+        loaf = [r for r in GEN.POPEYES_STORY if r[3] == "loaf"]
+        self.assertTrue(loaf, "no loaf for Popeyes")
+        # He lies down before the eyelids close and is still down when they open.
+        self.assertLessEqual(loaf[0][0], lids[0])
+        self.assertGreaterEqual(loaf[-1][0], lids[1])
+        # They nap side by side, not on top of each other.
+        nap_x = next(r[1] for r in GEN.BOJANGLES_STORY if r[4] == "loaf")
+        self.assertGreater(abs(nap_x - loaf[0][1]), 120)
 
     def test_nibble_catnip(self):
         flowers_x = 299  # flower bed origin in the SVG
@@ -358,6 +457,34 @@ class StoryTests(unittest.TestCase):
         frames = keyframes(self.css, "bj-fish-sway")
         self.assertNotEqual(frames[0][1], frames[-1][1])
 
+    def test_butterfly_chase_and_escape(self):
+        show = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-fly-show")
+                if "opacity:1" in d.replace(" ", "")]
+        self.assertEqual(len(show), 2, "butterfly should be on screen in one window")
+        lo, hi = show
+        pounce = [r for r in GEN.BOJANGLES_STORY if lo <= r[0] <= hi and r[2] < -40]
+        self.assertTrue(pounce, "no real pounce while the butterfly is on screen")
+        # It escapes upward off the top of the frame, on the shared clock.
+        fly = track_samples(self.css, "bj-fly")
+        peak = min(v[1] for _, v in fly)
+        self.assertLess(peak, -200, "butterfly never leaves the frame")
+        self.assertEqual(fly[0][1], fly[-1][1], "flight track must loop")
+
+    def test_sunbeam_nap_stays_put(self):
+        lids = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-nap-eyes")
+                if "opacity:1" in d.replace(" ", "")]
+        self.assertEqual(len(lids), 2, "closed-eye window should be contiguous")
+        rows = [r for r in GEN.BOJANGLES_STORY if lids[0] - .5 <= r[0] <= lids[1] + .5]
+        self.assertTrue(any(r[4] == "loaf" for r in rows), "no loaf during the nap")
+        self.assertEqual(len({r[1] for r in rows}), 1, "cat must not drift while napping")
+        for row in rows:
+            self.assertGreaterEqual(row[2], 0, "napping in mid-air")
+        zzz = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-zzz")
+               if "opacity:1" in d.replace(" ", "")]
+        self.assertEqual(len(zzz), 2)
+        self.assertGreaterEqual(zzz[0], lids[0], "z's before the eyes close")
+        self.assertLessEqual(zzz[1], lids[1], "z's after the eyes open")
+
     def test_thin_wall_slip_fall_and_paws_first_landing(self):
         wall_x = 766  # left edge of the drawn wall
         rows = GEN.BOJANGLES_STORY
@@ -389,7 +516,9 @@ class StoryTests(unittest.TestCase):
             pct = sec / DURATION * 100
             val = [d for p, d in facing if p <= pct + 1e-6][-1]
             return -1 if "-1" in val else 1
-        self.assertEqual(len(GEN.BOJANGLES_WALKS), 4)
+        self.assertGreaterEqual(len(GEN.BOJANGLES_WALKS), 4)
+        for (a0, a1), (b0, b1) in zip(GEN.BOJANGLES_WALKS, GEN.BOJANGLES_WALKS[1:]):
+            self.assertLessEqual(a1, b0, "walk windows overlap")
         for start, end in GEN.BOJANGLES_WALKS:
             with self.subTest((start, end)):
                 x0, x1 = value_at(self.travel, start)[0], value_at(self.travel, end)[0]
