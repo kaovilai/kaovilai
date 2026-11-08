@@ -3,15 +3,51 @@
     "start": "2026-08-10",
     "end": "2026-11-08"
   },
-  "generatedAt": "2026-11-08T00:34:48Z",
+  "generatedAt": "2026-11-08T06:18:34Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 32,
+    "prsReviewed": 29,
     "issuesCommented": 100,
     "issuesClosed": 85
   },
   "prsMerged": [
+    {
+      "number": 4,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "feat: shared daemon mode — one process serves every session over loopback HTTP",
+      "url": "https://github.com/kaovilai/context-mode/pull/4",
+      "date": "2026-11-08T04:37:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 52,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: recover a half-installed tailbond after a firmware upgrade",
+      "url": "https://github.com/kaovilai/tailbond/pull/52",
+      "date": "2026-11-07T16:08:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 630,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "perf(znap): defer syntax-highlighting + autocomplete until after first prompt",
+      "url": "https://github.com/kaovilai/dotfiles/pull/630",
+      "date": "2026-11-08T01:55:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 631,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers",
+      "url": "https://github.com/kaovilai/dotfiles/pull/631",
+      "date": "2026-11-08T01:42:21Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 4,
       "repo": "kaovilai/autoport",
@@ -37,15 +73,6 @@
       "title": "Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)",
       "url": "https://github.com/konveyor/builder/pull/55",
       "date": "2026-11-07T16:54:52Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 52,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "openwrt: recover a half-installed tailbond after a firmware upgrade",
-      "url": "https://github.com/kaovilai/tailbond/pull/52",
-      "date": "2026-11-07T16:08:50Z",
       "workstream": "Uncategorized"
     },
     {
@@ -884,36 +911,63 @@
       "url": "https://github.com/velero-io/velero/pull/10700",
       "date": "2026-10-27T03:08:16Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 197,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Group Go security updates in Dependabot",
-      "url": "https://github.com/migtools/udistribution/pull/197",
-      "date": "2026-10-26T20:14:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10696,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "design: fix the order of the snapshot retention cases in block data mover",
-      "url": "https://github.com/velero-io/velero/pull/10696",
-      "date": "2026-10-26T17:13:56Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10698,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix BLKZEROOUT ioctl request number in block uploader",
-      "url": "https://github.com/velero-io/velero/pull/10698",
-      "date": "2026-10-26T06:29:48Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 204,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/204",
+      "date": "2026-11-08T05:52:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 634,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(fleet-sync): keep the shared context-mode daemon current on every machine",
+      "url": "https://github.com/kaovilai/dotfiles/pull/634",
+      "date": "2026-11-08T05:18:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 633,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/633",
+      "date": "2026-11-08T04:55:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 54,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "openwrt: the apk package for 25.12, tested in CI on the latest image",
+      "url": "https://github.com/kaovilai/tailbond/pull/54",
+      "date": "2026-11-08T04:39:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 632,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push",
+      "url": "https://github.com/kaovilai/dotfiles/pull/632",
+      "date": "2026-11-08T04:38:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 631,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers",
+      "url": "https://github.com/kaovilai/dotfiles/pull/631",
+      "date": "2026-11-08T01:38:51Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 55,
       "repo": "konveyor/builder",
@@ -1759,63 +1813,36 @@
       "url": "https://github.com/kaovilai/tailbond/pull/5",
       "date": "2026-11-04T03:08:24Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 4,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "chore: issue forms + gh-aw autofix, grouped Dependabot, auto-merge and auto-release",
-      "url": "https://github.com/kaovilai/tailbond/pull/4",
-      "date": "2026-11-04T03:07:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 145,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "Refresh upstream PR and Ceph status notes",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/145",
-      "date": "2026-11-03T23:34:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 273,
-      "repo": "kaovilai/cephcsi-cbt-e2e",
-      "org": "kaovilai",
-      "title": "[doc-sync] Sync Velero rollback and data mover status with upstream",
-      "url": "https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273",
-      "date": "2026-11-03T23:33:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2531,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2531",
-      "date": "2026-11-03T21:00:25Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 255,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
-      "date": "2026-11-03T20:58:25Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 468,
-      "repo": "kubevirt/kubevirt-velero-plugin",
-      "org": "kubevirt",
-      "title": "Select the live virt-launcher pod after live migration",
-      "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
-      "date": "2026-11-03T09:21:02Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2534,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
+      "url": "https://github.com/openshift/oadp-operator/pull/2534",
+      "date": "2026-11-08T05:31:51Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10796,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add a velero_backup_active metric",
+      "url": "https://github.com/velero-io/velero/pull/10796",
+      "date": "2026-11-08T05:25:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10734,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add E2E automation test cases for in-place restore",
+      "url": "https://github.com/velero-io/velero/pull/10734",
+      "date": "2026-11-08T04:07:30Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10803,
       "repo": "velero-io/velero",
@@ -1841,15 +1868,6 @@
       "title": "build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory",
       "url": "https://github.com/velero-io/velero/pull/10776",
       "date": "2026-11-07T19:13:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10796,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add a velero_backup_active_total metric",
-      "url": "https://github.com/velero-io/velero/pull/10796",
-      "date": "2026-11-07T16:14:51Z",
       "workstream": "Velero"
     },
     {
@@ -2058,54 +2076,18 @@
       "url": "https://github.com/velero-io/velero/pull/10773",
       "date": "2026-11-04T06:50:51Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10783,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update readme for 1.19",
-      "url": "https://github.com/velero-io/velero/pull/10783",
-      "date": "2026-11-04T06:40:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10764,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: run the FSBackup backup deletion case on kind under CSI",
-      "url": "https://github.com/velero-io/velero/pull/10764",
-      "date": "2026-11-03T21:48:59Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 254,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/254",
-      "date": "2026-11-03T14:52:36Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10438,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds",
-      "url": "https://github.com/velero-io/velero/pull/10438",
-      "date": "2026-11-03T12:45:11Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10624,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix backup dequeued twice from a stale cached Queued copy",
-      "url": "https://github.com/velero-io/velero/pull/10624",
-      "date": "2026-11-03T09:12:43Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 261,
+      "repo": "kubernetes-csi/external-snapshot-metadata",
+      "org": "kubernetes-csi",
+      "title": "Wrong grpc error codes returned",
+      "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261",
+      "date": "2026-11-08T04:10:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 49,
       "repo": "kaovilai/tailbond",
@@ -2996,15 +2978,6 @@
       "url": "https://github.com/kaovilai/cliprelay/issues/2",
       "date": "2026-09-18T10:37:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 9556,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block level backup/restore support",
-      "url": "https://github.com/velero-io/velero/issues/9556",
-      "date": "2026-09-18T06:37:17Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
