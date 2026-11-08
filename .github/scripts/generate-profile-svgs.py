@@ -872,10 +872,11 @@ def bojangles(t, _s):
     wildflowers = "".join(
         f'<circle cx="{x}" cy="{y}" r="{r}" fill="{c}"/>'
         for x, y, r, c in (
-            (74, 265, 2, "#f2f4e8"), (186, 262, 1.7, "#f6b6d0"), (242, 267, 1.5, "#ffe27a"),
-            (404, 263, 1.9, "#f6b6d0"), (470, 266, 1.6, "#f2f4e8"), (556, 262, 1.8, "#d9c1e6"),
-            (640, 267, 1.5, "#ffe27a"), (704, 264, 1.8, "#f2f4e8"), (800, 266, 1.6, "#f6b6d0"),
-            (862, 263, 1.9, "#ffe27a")))
+            (74, 265, 2.3, "#f2f4e8"), (186, 261, 2, "#f6b6d0"), (242, 267, 1.8, "#ffe27a"),
+            (330, 262, 1.9, "#f2f4e8"), (404, 263, 2.2, "#f6b6d0"), (470, 266, 1.9, "#f2f4e8"),
+            (520, 261, 1.8, "#ffe27a"), (556, 262, 2.1, "#d9c1e6"), (640, 267, 1.8, "#ffe27a"),
+            (704, 264, 2.1, "#f2f4e8"), (760, 261, 1.9, "#d9c1e6"), (800, 266, 1.9, "#f6b6d0"),
+            (862, 263, 2.2, "#ffe27a")))
     sprout = lambda name, x, y, s, a="": (
         f'<g transform="translate({x},{y}) scale({s}){a}"><use class="{name}" href="#bj-leaf"/></g>')
     habitat = f"""<defs>
@@ -900,6 +901,10 @@ def bojangles(t, _s):
         <stop offset=".55" stop-color="#000" stop-opacity="0"/>
         <stop offset="1" stop-color="#000" stop-opacity="{'.30' if night else '.13'}"/>
       </radialGradient>
+      <linearGradient id="bj-grade" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="{sky1}" stop-opacity=".1"/><stop offset=".45" stop-color="{sky2}" stop-opacity="0"/>
+        <stop offset="1" stop-color="{t['sun']}" stop-opacity=".08"/>
+      </linearGradient>
       <path id="bj-cloud" d="M-40,6 C-46,-6 -32,-16 -22,-10 C-18,-24 4,-26 10,-12 C20,-22 36,-16 34,-4 C42,-2 44,6 40,6 Z"/>
       <path id="bj-leaf" fill="{t['leaf3']}" d="M0,0 Q2,-18 0,-34 Q-14,-22 -12,-6 Q-2,-4 0,0 M0,-22 Q14,-16 12,-2 Q2,-6 0,-22"/>
       <path id="bj-ray-shape" fill="url(#bj-ray)" d="M0,0 L-620,224 L-573,224 Z"/>
@@ -970,7 +975,7 @@ def bojangles(t, _s):
              f'stroke-linecap="round" stroke="{"#c9d3e6" if night else "#4a4a52"}" opacity=".5">'
              '<path d="M0,0 q4,-3 8,0 q4,-3 8,0"/><path d="M30,12 q3,-2.4 6,0 q3,-2.4 6,0"/>'
              '<path d="M-26,20 q3,-2 6,0 q3,-2 6,0"/></g></g>')
-    vignette = '<rect width="900" height="292" fill="url(#bj-vignette)"/>'
+    vignette = '<rect width="900" height="292" fill="url(#bj-grade)"/><rect width="900" height="292" fill="url(#bj-vignette)"/>'
     sunbeam = (f'<ellipse cx="648" cy="287" rx="88" ry="13" fill="#f2c14e" opacity=".20"/>'
                f'<ellipse cx="648" cy="287" rx="54" ry="8" fill="#ffdf8e" opacity=".22"/>')
     butterfly = """<g class="bj-fly-show"><g class="bj-fly"><g transform="translate(640,168)">
@@ -1034,7 +1039,7 @@ def bojangles(t, _s):
         <ellipse class="bj-shadow" cy="292" rx="88" ry="8" fill="{t['muted']}" opacity=".08"/>
         <ellipse class="bj-shadow" cy="292" rx="62" ry="5" fill="{t['muted']}" opacity=".16"/>
       </g>
-      <g transform="translate(0,{ground})"><g class="bj-travel"><g class="bj-facing">{cat}</g></g></g>
+      <g transform="translate(0,{ground})"><g class="bj-travel"><g class="bj-breathe"><g class="bj-facing">{cat}</g></g></g></g>
       {zzz}
       {foreground}
       {vignette}
@@ -1060,6 +1065,10 @@ def bojangles(t, _s):
                                  (37.2, "0"), (duration, "0")], "opacity")
     css += track("bj-zzz", [(0, "0"), (32.8, "0"), (33.4, "1"), (36.2, "1"),
                             (36.8, "0"), (duration, "0")], "opacity")
+    # Shallow breathing while asleep; the cat scales about its paws so it never drifts.
+    css += track("bj-breathe", [(0, "scale(1)"), (33, "scale(1)"), (33.8, "scale(1.016)"),
+                                (35.1, "scale(1)"), (36.1, "scale(1.016)"), (36.9, "scale(1)"),
+                                (duration, "scale(1)")])
     css += """
       .bj-travel, .bj-shadow-travel {transform:translateX(126px);}
       .bj-pitch {transform-origin:0px -65px;}
