@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-08 12:01:13 UTC
+> Last updated: 2026-11-08 18:00:56 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,7 +77,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
 - [![PR #2531](https://img.shields.io/badge/PR%20%232531-ready-green)](https://github.com/openshift/oadp-operator/pull/2531) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): read VMB backup type from status.includedVolumes[].type
-- [![PR #2533](https://img.shields.io/badge/PR%20%232533-ready-green)](https://github.com/openshift/oadp-operator/pull/2533) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
 - [![PR #507](https://img.shields.io/badge/PR%20%23507-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/507) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6
@@ -97,6 +96,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2515](https://img.shields.io/badge/PR%20%232515-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2515) **openshift/oadp-operator** → `oadp-dev` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
 - [![PR #2527](https://img.shields.io/badge/PR%20%232527-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2527) **openshift/oadp-operator** → `oadp-dev` - Bug: fix CreateNamespace race when namespace is Terminating
+- [![PR #2533](https://img.shields.io/badge/PR%20%232533-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2533) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5
 - [![PR #2534](https://img.shields.io/badge/PR%20%232534-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2534) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
@@ -185,15 +185,10 @@ No open PRs.
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #54](https://img.shields.io/badge/PR%20%2354-ready-green)](https://github.com/kaovilai/tailbond/pull/54) **kaovilai/tailbond** → `main` - openwrt: the apk package for 25.12, tested in CI on the latest image
-- [![PR #632](https://img.shields.io/badge/PR%20%23632-ready-green)](https://github.com/kaovilai/dotfiles/pull/632) **kaovilai/dotfiles** → `main` - feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push
-- [![PR #633](https://img.shields.io/badge/PR%20%23633-ready-green)](https://github.com/kaovilai/dotfiles/pull/633) **kaovilai/dotfiles** → `main` - feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)
-- [![PR #634](https://img.shields.io/badge/PR%20%23634-ready-green)](https://github.com/kaovilai/dotfiles/pull/634) **kaovilai/dotfiles** → `main` - feat(fleet-sync): keep the shared context-mode daemon current on every machine
-- [![PR #635](https://img.shields.io/badge/PR%20%23635-ready-green)](https://github.com/kaovilai/dotfiles/pull/635) **kaovilai/dotfiles** → `main` - fix(menubar): host hover filters the tok/s chart too
+- [![PR #55](https://img.shields.io/badge/PR%20%2355-ready-green)](https://github.com/kaovilai/tailbond/pull/55) **kaovilai/tailbond** → `main` - docs: design note on deconstructing tailscaled, with the measurements that say don't
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
-- [![PR #86](https://img.shields.io/badge/PR%20%2386-ready-green)](https://github.com/kaovilai/kaovilai/pull/86) **kaovilai/kaovilai** → `main` - Give Bojangles a backyard habitat and two new scenes
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #17721](https://img.shields.io/badge/PR%20%2317721-draft-gray)](https://github.com/pingdotgg/t3code/pull/17721) **pingdotgg/t3code** → `main` - fix(mobile): iPad composer accepts dragged screenshots
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
