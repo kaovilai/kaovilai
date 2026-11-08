@@ -31,11 +31,17 @@ THEMES = {
         bg1="#0d1117", bg2="#161b22", border="#30363d", text="#e6edf3",
         muted="#8b949e", grid="#21262d", accent="#ee0000", accent2="#ff6b6b",
         glow="#ee0000", chip="#21262d",
+        # Dusk backyard: deep blue overhead settling into warm violet.
+        sky=("#0b1730", "#1c3155", "#474070"), sun="#ffc46b", sun2="#ff9d4d",
+        cloud="#cdd9ea", leaf1="#123a28", leaf2="#1d5539", leaf3="#2b7a4d",
     ),
     "light": dict(
         bg1="#ffffff", bg2="#f6f8fa", border="#d0d7de", text="#1f2328",
         muted="#59636e", grid="#e6eaef", accent="#cc0000", accent2="#ee0000",
         glow="#ee0000", chip="#eaeef2",
+        # Bright morning: clear blue overhead fading to warm haze at the lawn.
+        sky=("#6fb9e6", "#bfe6f4", "#fdf5d8"), sun="#ffd166", sun2="#ff9d4d",
+        cloud="#ffffff", leaf1="#2f6b3a", leaf2="#47955a", leaf3="#74c074",
     ),
 }
 
@@ -834,7 +840,7 @@ def bojangles(t, _s):
         <g fill="{stripe}" opacity=".93">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{stripe}" stroke-width="2.5"/>
       </g>
-      {fur_patch('bj-torso-clip', 155, -54, -90, 104, 59)}
+      {fur_patch('bj-torso-clip', 132, -54, -90, 104, 59)}
       {leg('hind-near', -32, -60, True)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bj-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{stripe}" stroke-width="4.5"/>
@@ -848,6 +854,37 @@ def bojangles(t, _s):
         flowers.append(f'<path d="M{x},284 Q{x - 7},251 {x},{top}" stroke="#688969" stroke-width="2" fill="none"/>'
                        f'<path d="M{x - 2},262 q-18,-18 -14,-4 q6,11 14,4 M{x - 2},249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/>{petals}')
     grass = "".join(f'<path d="M{x},291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/>' for x in (42, 168, 350, 580, 818, 851))
+    # Backyard habitat: sky, sun, drifting clouds and a leafy hedge the cat patrols in front of.
+    sky1, sky2, sky3 = t["sky"]
+    hedge_back = "M0,292 V256 " + "".join("q26,-18 52,0 " for _ in range(18)) + "V292 Z"
+    hedge_front = "M0,292 V272 " + "".join("q22,-13 44,0 " for _ in range(21)) + "V292 Z"
+    habitat = f"""<defs>
+      <linearGradient id="bj-sky" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="{sky1}"/><stop offset=".58" stop-color="{sky2}"/>
+        <stop offset="1" stop-color="{sky3}" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="bj-sunglow">
+        <stop stop-color="{t['sun']}" stop-opacity=".5"/><stop offset="1" stop-color="{t['sun2']}" stop-opacity="0"/>
+      </radialGradient>
+      <path id="bj-cloud" d="M-40,6 C-46,-6 -32,-16 -22,-10 C-18,-24 4,-26 10,-12 C20,-22 36,-16 34,-4 C42,-2 44,6 40,6 Z"/>
+      <path id="bj-sprig" fill="{t['leaf3']}" d="M0,0 Q2,-18 0,-34 Q-14,-22 -12,-6 Q-2,-4 0,0 M0,-22 Q14,-16 12,-2 Q2,-6 0,-22"/>
+    </defs>
+    <rect width="900" height="292" fill="url(#bj-sky)"/>
+    <circle cx="806" cy="62" r="92" fill="url(#bj-sunglow)"/>
+    <circle cx="806" cy="62" r="22" fill="{t['sun']}" opacity=".95"/>
+    <g fill="{t['cloud']}" opacity=".8">
+      <g transform="translate(252,96) scale(.9)"><g class="bj-cloud1"><use href="#bj-cloud"/></g></g>
+      <g transform="translate(500,58) scale(.66)"><g class="bj-cloud2"><use href="#bj-cloud"/></g></g>
+      <g transform="translate(660,124) scale(.5)"><g class="bj-cloud3"><use href="#bj-cloud"/></g></g>
+    </g>
+    <path d="{hedge_back}" fill="{t['leaf1']}"/>
+    <path d="{hedge_front}" fill="{t['leaf2']}"/>
+    <g opacity=".95">
+      <use href="#bj-sprig" transform="translate(52,292) scale(1.7)"/>
+      <use href="#bj-sprig" transform="translate(98,292) scale(1.2) rotate(-8)"/>
+      <use href="#bj-sprig" transform="translate(836,292) scale(1.9) rotate(6)"/>
+      <use href="#bj-sprig" transform="translate(884,292) scale(1.3) rotate(-10)"/>
+    </g>"""
     sunbeam = (f'<ellipse cx="648" cy="287" rx="88" ry="13" fill="#f2c14e" opacity=".20"/>'
                f'<ellipse cx="648" cy="287" rx="54" ry="8" fill="#ffdf8e" opacity=".22"/>')
     butterfly = """<g class="bj-fly-show"><g class="bj-fly"><g transform="translate(640,168)">
@@ -881,6 +918,7 @@ def bojangles(t, _s):
         frames = [(0, "0"), (start, "1"), (end, "0"), (duration, "0")]
         css += track(f"bj-caption-{i}", sorted(dict(frames).items()), "opacity", "steps(1, end)")
     body = f"""{defs}
+      {habitat}
       <text x="28" y="33" font-size="19" font-weight="650">Bojangles</text>
       <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
       <path d="M28,292 H872" stroke="{t['border']}" fill="none"/>
@@ -943,6 +981,10 @@ def bojangles(t, _s):
       .bj-caption, .bj-still {opacity:0;}
       .bj-wing-near, .bj-wing-far {transform-box:fill-box;transform-origin:100% 50%;animation:bj-flap .8s ease-in-out infinite alternate;}
       @keyframes bj-flap {from {transform:scaleX(1);} to {transform:scaleX(.3);}}
+      .bj-cloud1 {animation:bj-drift 26s ease-in-out infinite alternate;}
+      .bj-cloud2 {animation:bj-drift 21s ease-in-out infinite alternate;animation-delay:-6s;}
+      .bj-cloud3 {animation:bj-drift 31s ease-in-out infinite alternate;animation-delay:-13s;}
+      @keyframes bj-drift {from {transform:translateX(-13px);} to {transform:translateX(13px);}}
       .bj-z1 {animation:bj-float 3.2s ease-in-out infinite alternate;}
       .bj-z2 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-1.1s;}
       .bj-z3 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-2.2s;}
@@ -951,10 +993,11 @@ def bojangles(t, _s):
         .bj-zzz {display:none;} .bj-nap-eyes {opacity:0;}}
     """
     return shell(w, h, t, body, "Bojangles · backyard adventures",
-                 "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers. "
-                 "Bojangles nibbles catnip flowers, leaps for a moving toy fish, pounces at a butterfly, "
-                 "tries a narrow wall, loses his grip, slides down, lands on his paws, naps in a sunbeam "
-                 "and walks on. With reduced motion he stands quietly in the garden.", css)
+                 "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers, out in a leafy "
+                 "backyard under a sunny sky with drifting clouds. Bojangles nibbles catnip flowers, leaps "
+                 "for a moving toy fish, pounces at a butterfly, tries a narrow wall, loses his grip, slides "
+                 "down, lands on his paws, naps in a sunbeam and walks on. With reduced motion he stands "
+                 "quietly in the garden.", css)
 
 
 
