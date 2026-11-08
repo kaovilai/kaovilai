@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-10 — 2026-11-08
-> **Generated:** 2026-11-08 12:15:44 UTC
+> **Generated:** 2026-11-08 18:13:10 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 29 |
+| PRs Reviewed | 26 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 85 |
 
@@ -15,22 +15,26 @@
 
 ## PRs Merged (100)
 
-**velero-io** (6)
+**velero-io** (1)
 - [#10692 Add Dependabot updates for run-jammy-tiny on supported release branches](https://github.com/velero-io/velero/pull/10692) — velero-io/velero
-- [#10689 Group Go security updates in Dependabot](https://github.com/velero-io/velero/pull/10689) — velero-io/velero
-- [#10695 ci: add CodeQL analysis for Go](https://github.com/velero-io/velero/pull/10695) — velero-io/velero
-- [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
-- [#319 Add CODEOWNERS for automatic review requests](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) — velero-io/velero-plugin-for-microsoft-azure
-- [#10690 [release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190](https://github.com/velero-io/velero/pull/10690) — velero-io/velero
 
-**openshift** (5)
+**openshift** (4)
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
-- [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
 
-**Other** (89)
+**Other** (95)
+- [#638 feat(menubar): reload the helper from fleet-sync](https://github.com/kaovilai/dotfiles/pull/638) — kaovilai/dotfiles
+- [#54 openwrt: the apk package for 25.12, tested in CI on the latest image](https://github.com/kaovilai/tailbond/pull/54) — kaovilai/tailbond
+- [#5 fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile](https://github.com/kaovilai/context-mode/pull/5) — kaovilai/context-mode
+- [#637 fix(menubar): in-flight bars — oldest at the bottom, new ones from the top](https://github.com/kaovilai/dotfiles/pull/637) — kaovilai/dotfiles
+- [#634 feat(fleet-sync): keep the shared context-mode daemon current on every machine](https://github.com/kaovilai/dotfiles/pull/634) — kaovilai/dotfiles
+- [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
+- [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
+- [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
+- [#632 feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push](https://github.com/kaovilai/dotfiles/pull/632) — kaovilai/dotfiles
+- [#633 feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)](https://github.com/kaovilai/dotfiles/pull/633) — kaovilai/dotfiles
 - [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
 - [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
 - [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
@@ -116,10 +120,6 @@
 - [#6 deploy: untested one-click server templates + iPhone path probe](https://github.com/kaovilai/tailbond/pull/6) — kaovilai/tailbond
 - [#4 chore: issue forms + gh-aw autofix, grouped Dependabot, auto-merge and auto-release](https://github.com/kaovilai/tailbond/pull/4) — kaovilai/tailbond
 - [#5 CI fixes, Flint 3 fixes, Android emulator e2e, Pair & Share](https://github.com/kaovilai/tailbond/pull/5) — kaovilai/tailbond
-- [#213 docs: seed OADP FAQ with curated answers](https://github.com/oadp-rebasebot/oadp-rebase/pull/213) — oadp-rebasebot/oadp-rebase
-- [#17 fix: parse every stream event so first-token timing is recorded](https://github.com/kaovilai/copilot-api/pull/17) — kaovilai/copilot-api
-- [#16 Merge upstream/dev (2.7.43, incl. request plugins) into dev](https://github.com/kaovilai/copilot-api/pull/16) — kaovilai/copilot-api
-- [#649 docs: document enableSeLinuxHostMount for node plugins](https://github.com/ceph/ceph-csi-operator/pull/649) — ceph/ceph-csi-operator
 ## PRs Opened (100)
 
 **velero-io** (2)
@@ -134,6 +134,12 @@
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 
 **Other** (93)
+- [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
+- [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
+- [#5 fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile](https://github.com/kaovilai/context-mode/pull/5) — kaovilai/context-mode
+- [#638 feat(menubar): reload the helper from fleet-sync](https://github.com/kaovilai/dotfiles/pull/638) — kaovilai/dotfiles
+- [#637 fix(menubar): in-flight bars — oldest at the bottom, new ones from the top](https://github.com/kaovilai/dotfiles/pull/637) — kaovilai/dotfiles
+- [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
 - [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
 - [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
 - [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
@@ -221,21 +227,15 @@
 - [#16 update: a build from source can move onto releases; no release isn't an error](https://github.com/kaovilai/tailbond/pull/16) — kaovilai/tailbond
 - [#15 fix(client): enforce the server certificate pin inside mqvpn](https://github.com/kaovilai/tailbond/pull/15) — kaovilai/tailbond
 - [#14 android: make the signed release build pass in CI](https://github.com/kaovilai/tailbond/pull/14) — kaovilai/tailbond
-- [#13 docs: credit the projects tailbond builds on and learned from](https://github.com/kaovilai/tailbond/pull/13) — kaovilai/tailbond
-- [#12 docs: explain that tailbond already works like an exit node](https://github.com/kaovilai/tailbond/pull/12) — kaovilai/tailbond
-- [#11 site: animate how Pair & Share data flows](https://github.com/kaovilai/tailbond/pull/11) — kaovilai/tailbond
-- [#10 docs: README badges for every workflow, downloads and the website](https://github.com/kaovilai/tailbond/pull/10) — kaovilai/tailbond
-- [#9 macOS hub, menu bar app, Report a problem, Right away updates, stable release assets](https://github.com/kaovilai/tailbond/pull/9) — kaovilai/tailbond
-- [#7 site: GitHub Pages overview site](https://github.com/kaovilai/tailbond/pull/7) — kaovilai/tailbond
-## PRs Reviewed (29)
+## PRs Reviewed (26)
 
-**velero-io** (18)
+**velero-io** (14)
+- [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 - [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 - [#10776 build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory](https://github.com/velero-io/velero/pull/10776) — velero-io/velero
-- [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
@@ -244,12 +244,9 @@
 - [#10790 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.190 to 0.2.194](https://github.com/velero-io/velero/pull/10790) — velero-io/velero
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 - [#10601 Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)](https://github.com/velero-io/velero/pull/10601) — velero-io/velero
-- [#10781 Fix image vulnerabilities and bump Go to 1.27](https://github.com/velero-io/velero/pull/10781) — velero-io/velero
-- [#10761 Add 1.19 release notes](https://github.com/velero-io/velero/pull/10761) — velero-io/velero
-- [#10778 Refine the maintainers page on website](https://github.com/velero-io/velero/pull/10778) — velero-io/velero
-- [#10773 Add tiger to OWNERS file](https://github.com/velero-io/velero/pull/10773) — velero-io/velero
 
-**openshift** (8)
+**openshift** (9)
+- [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 - [#508 [oadp-1.5] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/508) — openshift/openshift-velero-plugin
@@ -325,9 +322,9 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
 **Other** (49)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#41 Deconstruct workflows into reusable components so there are less duplicative code in .github/workflows](https://github.com/konveyor/builder/issues/41) — konveyor/builder
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#603 context-mode: upgrade to v2.1.4 and move off per-session spawn](https://github.com/kaovilai/dotfiles/issues/603) — kaovilai/dotfiles
