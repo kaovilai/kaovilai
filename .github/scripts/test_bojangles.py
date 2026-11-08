@@ -332,6 +332,33 @@ class StoryTests(unittest.TestCase):
             self.assertEqual(s_val, c_val)
         self.assertEqual(self.travel[0][1], self.travel[-1][1])
 
+    def test_arcs_share_one_gravity(self):
+        # Every flight must read as projectile motion on the same planet: vertical
+        # speed changes by GRAVITY per second, horizontal speed stays put, and a
+        # level jump peaks halfway through instead of hanging at the apex.
+        g = GEN.GRAVITY
+        rows = GEN.BOJANGLES_STORY
+        for t0, t1, grounded in ((14.5, 16.43, True), (21.45, 23.41, True), (26.35, 27.2, False)):
+            with self.subTest((t0, t1)):
+                arc = [r for r in rows if t0 <= r[0] <= t1]
+                self.assertGreaterEqual(len(arc), 3)
+                self.assertEqual(arc[0][2], 0, "jump must leave the ground")
+                if grounded:
+                    self.assertEqual(arc[-1][2], 0, "jump must land on its feet")
+                vy = [(b[2] - a[2]) / (b[0] - a[0]) for a, b in zip(arc, arc[1:])]
+                mids = [(a[0] + b[0]) / 2 for a, b in zip(arc, arc[1:])]
+                for (a, b), (ma, mb) in zip(zip(vy, vy[1:]), zip(mids, mids[1:])):
+                    accel = (b - a) / (mb - ma)
+                    self.assertAlmostEqual(accel, g, delta=g * .1,
+                                           msg=f"vertical acceleration at {mb:.2f}s")
+                    self.assertGreaterEqual(accel, 0, "nothing may decelerate on the way down")
+                vx = [(b[1] - a[1]) / (b[0] - a[0]) for a, b in zip(arc, arc[1:])]
+                self.assertLess(max(vx) - min(vx), 3, "horizontal speed must stay constant in flight")
+                if grounded:
+                    apex = min(arc, key=lambda r: r[2])
+                    self.assertAlmostEqual(apex[0], (t0 + t1) / 2, delta=.06,
+                                           msg="level jump apexes at mid-flight")
+
     def test_nibble_catnip(self):
         flowers_x = 299  # flower bed origin in the SVG
         row = [r for r in GEN.BOJANGLES_STORY if r[4] == "nibble"]

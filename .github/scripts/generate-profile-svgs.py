@@ -666,26 +666,50 @@ def build_stats():
 
 
 # ------------------------------------------------------------------------- bojangles
-# Seconds, position above the ground, body angle, pose. All action tracks share this clock.
+# Seconds, horizontal position, height above the ground, body angle, pose.
+# All action tracks share this clock. Every flight samples one gravity, so the
+# arcs accelerate uniformly, keep a constant horizontal speed and land at the
+# speed the fall actually earned (no hover before touchdown).
+GRAVITY = 150.0  # px/s^2; one planet for every jump in the strip
+
+
+def ballistic(t0, y0, t1, y1):
+    """Height at time t along a free-flight arc between two instants (up is negative)."""
+    v0 = (y1 - y0) / (t1 - t0) - .5 * GRAVITY * (t1 - t0)
+    return lambda t: round(y0 + v0 * (t - t0) + .5 * GRAVITY * (t - t0) ** 2, 1)
+
+
+def slide(t0, y0, accel):
+    """Clawing slide under constant friction, starting from rest."""
+    return lambda t: round(y0 + .5 * accel * (t - t0) ** 2, 1)
+
+
+FISH_LEAP = ballistic(14.5, 0, 16.43, 0)          # apex ~15.47s, 70px up
+BUTTERFLY_POUNCE = ballistic(21.45, 0, 23.41, 0)  # apex ~22.43s, 72px up
+WALL_JUMP = ballistic(26.35, 0, 27.2, -56.3)      # reaches the wall at its apex
+WALL_SLIDE = slide(28.2, -56.3, 60)               # grip holds, then lets go
+WALL_DROP = ballistic(28.9, -41.6, 29.42, 0)      # last of the fall, paws first
+
 BOJANGLES_STORY = (
     (0, 126, 0, 0, "walk"), (4.5, 225, 0, 0, "walk"),
     (4.8, 225, 0, 0, "nibble"), (9, 225, 0, 0, "nibble"),
     (9.4, 225, 0, 0, "stand"), (13.5, 415, 0, 0, "walk"),
-    (14.2, 415, 10, 0, "crouch"), (14.6, 425, -22, -12, "leap"),
-    (15.2, 450, -58, -22, "reach"), (15.7, 470, -70, -12, "reach"),
-    (16.2, 486, -45, 0, "leap"), (16.7, 500, 0, 0, "stand"),
-    (17, 500, 10, 0, "crouch"), (17.4, 500, 0, 0, "stand"),
+    (14.2, 415, 10, 0, "crouch"), (14.5, 425, FISH_LEAP(14.5), -8, "leap"),
+    (15.2, 452, FISH_LEAP(15.2), -22, "reach"), (15.47, 462, FISH_LEAP(15.47), -12, "reach"),
+    (15.9, 479, FISH_LEAP(15.9), -4, "leap"), (16.43, 500, 0, 0, "stand"),
+    (16.7, 500, 10, 0, "crouch"), (17, 500, 0, 0, "stand"), (17.4, 500, 0, 0, "stand"),
     # A butterfly drifts in; the stalk is slow, the pounce is not.
     (17.8, 500, 0, 0, "walk"), (20.8, 552, 0, 0, "walk"),
-    (21.2, 552, 8, 0, "crouch"), (21.6, 560, -42, -14, "leap"),
-    (22.1, 570, -72, -4, "reach"), (22.6, 586, -34, -6, "leap"),
-    (23, 592, 0, 0, "stand"),
+    (21.2, 552, 8, 0, "crouch"), (21.45, 560, BUTTERFLY_POUNCE(21.45), -6, "leap"),
+    (21.9, 567, BUTTERFLY_POUNCE(21.9), -16, "leap"),
+    (22.43, 576, BUTTERFLY_POUNCE(22.43), -12, "reach"),
+    (22.9, 584, BUTTERFLY_POUNCE(22.9), -4, "leap"), (23.41, 592, 0, 0, "stand"),
     (24, 592, 0, 0, "walk"), (25.9, 650, 0, 0, "walk"),
-    (26.2, 650, 10, 0, "crouch"), (26.7, 677, -35, -35, "leap"),
-    (27.2, 697, -57, -60, "cling"), (28.2, 697, -57, -60, "cling"),
-    (28.7, 697, -49, -60, "cling"), (29.3, 693, -32, -60, "cling"),
-    (29.9, 681, -5, -45, "fall"), (30.4, 662, 0, 0, "stand"),
-    (30.7, 662, 10, 0, "crouch"), (31.4, 662, 0, 0, "stand"),
+    (26.2, 650, 10, 0, "crouch"), (26.35, 650, WALL_JUMP(26.35), -6, "leap"),
+    (26.7, 669, WALL_JUMP(26.7), -35, "leap"), (27.2, 697, -56.3, -60, "cling"),
+    (28.2, 697, -56.3, -60, "cling"), (28.7, 697, WALL_SLIDE(28.7), -60, "cling"),
+    (28.9, 693, -41.6, -55, "cling"), (29.1, 681, WALL_DROP(29.1), -30, "fall"),
+    (29.42, 662, 0, 0, "stand"), (29.6, 662, 10, 0, "crouch"), (30.1, 662, 0, 0, "stand"),
     # The sunbeam by the wall is too good to pass up.
     (32, 662, 38, 0, "loaf"), (36.4, 662, 38, 0, "loaf"),
     (37, 662, 0, 0, "stand"),
@@ -998,9 +1022,9 @@ def bojangles(t, _s):
            f'<text class="bj-z3" x="570" y="130" font-size="19">z</text></g>')
     captions = ((0, "Backyard patrol"), (4.8, "A little catnip nibble"), (9.4, "Something fishy…"),
                 (14.2, "Almost got it!"), (17.6, "A butterfly! Act natural."), (21.2, "Pounce!"),
-                (23.2, "So close."), (24, "One more adventure"), (26.2, "That ledge looked wider"),
-                (28.7, "No grip. Slow slide. Soft landing."), (30.7, "Meant to do that."),
-                (32.2, "This looks like a good spot."), (34.2, "Nap protocol engaged."),
+                (23.5, "So close."), (24, "One more adventure"), (26.2, "That ledge looked wider"),
+                (28.4, "No grip. Slow slide. Soft landing."), (29.6, "Meant to do that."),
+                (31.6, "This looks like a good spot."), (33.6, "Nap protocol engaged."),
                 (37.4, "Homeward, eventually."), (45.2, "Backyard patrol"),
                 (50, "Backyard patrol"))
     labels = []
@@ -1052,13 +1076,14 @@ def bojangles(t, _s):
     css += track("bj-jaw", [(0, "translateY(0)")] +
                  [(4.8 + i * .2, f"translateY({3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (duration, "translateY(0)")])
     # The butterfly tours the lawn, darts clear of the pounce and leaves.
-    css += track("bj-fly-show", [(0, "0"), (17.2, "0"), (17.5, "1"), (24.6, "1"),
-                                 (25, "0"), (duration, "0")], "opacity")
+    css += track("bj-fly-show", [(0, "0"), (17.2, "0"), (17.5, "1"), (24.9, "1"),
+                                 (25.3, "0"), (duration, "0")], "opacity")
     css += track("bj-fly", [
         (0, "translate(18px,6px)"), (17.3, "translate(18px,6px)"), (18.1, "translate(2px,-4px)"),
         (18.9, "translate(14px,-12px)"), (19.7, "translate(0px,-2px)"), (20.5, "translate(12px,-14px)"),
-        (21.1, "translate(4px,-20px)"), (21.6, "translate(26px,-70px)"), (22.1, "translate(34px,-96px)"),
-        (23, "translate(70px,-150px)"), (23.9, "translate(110px,-206px)"), (24.7, "translate(150px,-260px)"),
+        (21.2, "translate(4px,-20px)"), (21.5, "translate(10px,-30px)"),
+        (21.9, "translate(20px,-62px)"), (22.43, "translate(34px,-98px)"),
+        (23.2, "translate(70px,-150px)"), (24, "translate(110px,-206px)"), (24.8, "translate(150px,-260px)"),
         (25.6, "translate(190px,-320px)"), (duration, "translate(18px,6px)")])
     # Sunbeam nap: eyes close, z's float, then he wakes and heads home.
     css += track("bj-nap-eyes", [(0, "0"), (32.4, "0"), (33, "1"), (36.6, "1"),
