@@ -876,11 +876,11 @@ def bojangles(t, _s):
       </linearGradient>
       <clipPath id="bj-torso-clip"><path d="{torso}"/></clipPath>
       <linearGradient id="bjp-coat" x1="0" y1="0" x2=".2" y2="1">
-        <stop stop-color="#a35f31"/><stop offset=".42" stop-color="#c98a4e"/>
-        <stop offset=".78" stop-color="#b4733c"/><stop offset="1" stop-color="#7f4620"/>
+        <stop stop-color="#423c33"/><stop offset=".42" stop-color="#7b6f5c"/>
+        <stop offset=".78" stop-color="#8f8370"/><stop offset="1" stop-color="#5a5245"/>
       </linearGradient>
       <linearGradient id="bjp-limb" x1="0" y1="0" x2="1" y2="0">
-        <stop stop-color="#8a4c22"/><stop offset=".48" stop-color="#c98a4e"/><stop offset="1" stop-color="#9a5a2b"/>
+        <stop stop-color="#464033"/><stop offset=".48" stop-color="#857963"/><stop offset="1" stop-color="#6a6151"/>
       </linearGradient>
       <clipPath id="bjp-torso-clip"><path d="{torso}"/></clipPath>
       <g id="bj-face-art">
@@ -927,14 +927,14 @@ def bojangles(t, _s):
       {leg('bj-', 'fore-near', 34, -60)}{cat_head}
     </g>"""
 
-    # Popeyes: ginger tabby, three legs (his far hind is gone), one shared portrait.
-    pop_stripe, pop_cream = "#5b3115", "#f2ddb8"
+    # Popeyes: brown tabby like his brother, three legs (his far hind is gone), one shared portrait.
+    pop_stripe, pop_cream = "#221e18", "#c9bda4"
     pop_head = (f'<g class="bjp-head"><g transform="translate(96,-124) scale(-.36,.36)">'
                 f'<use href="#bj-face-art"/>'
-                f'<path d="{face["outline"]}" fill="#e08a3c" style="mix-blend-mode:color" opacity=".9"/></g></g>')
+                f'<path d="{face["outline"]}" fill="#b39a75" opacity=".12"/></g></g>')
     pop = f"""<g class="bjp-pitch"><g transform="scale(.92)">
       <g transform="translate(-47,-65)"><g class="bjp-tail">
-        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#a86b38" stroke-width="10" stroke-linecap="round"/>
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#6e6454" stroke-width="10" stroke-linecap="round"/>
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{pop_stripe}" stroke-width="10.2" stroke-dasharray="5 7"/>
         <path d="M-5,-3 Q-36,-11 -43,-28" fill="none" stroke="{pop_cream}" stroke-width="1.1" opacity=".5"/>
       </g></g>
@@ -945,11 +945,11 @@ def bojangles(t, _s):
         <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="{pop_cream}" stroke-width="9" opacity=".6"/>
         <g fill="{pop_stripe}" opacity=".88">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{pop_stripe}" stroke-width="2.5"/>
-        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="#3a2412" opacity=".16"/>
-        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="#ffe9c4" opacity=".14"/>
+        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="#241f18" opacity=".18"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="#f2eadb" opacity=".13"/>
       </g>
       {fur_patch('bjp-torso-clip', 34, -54, -90, 104, 59, pop_cream)}
-      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="#ffe6bd" stroke-width="2.2" stroke-linecap="round" opacity=".3"/>
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="#efe4cf" stroke-width="2.2" stroke-linecap="round" opacity=".28"/>
       {leg('bjp-', 'hind-near', -32, -60, True, ink=pop_stripe, hair=pop_cream)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bjp-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{pop_stripe}" stroke-width="4.5"/>
@@ -1222,7 +1222,7 @@ def bojangles(t, _s):
                  "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers, out in a leafy "
                  "backyard under a sunny sky with drifting clouds. Bojangles nibbles catnip flowers, leaps "
                  "for a moving toy fish, pounces at a butterfly, tries a narrow wall, loses his grip, slides "
-                 "down, lands on his paws and naps in a sunbeam beside Popeyes, his three-legged ginger "
+                 "down, lands on his paws and naps in a sunbeam beside Popeyes, his three-legged tabby "
                  "brother, who hops in to join him. With reduced motion the brothers wait quietly in the "
                  "garden.", css)
 

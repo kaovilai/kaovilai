@@ -105,5 +105,5 @@ In red below are some places I have lived in, visited, or transited through. Scr
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/bojangles-dark.svg">
-  <img alt="Bojangles the tabby patrols a leafy backyard under a sunny sky with drifting clouds, then nibbles catnip flowers, leaps for a toy fish, pounces after a butterfly, slips down a narrow wall, lands on his paws and naps in a sunbeam beside Popeyes, his three-legged ginger brother, who hops in to join him" src="assets/profile/bojangles-light.svg" width="100%">
+  <img alt="Bojangles the tabby patrols a leafy backyard under a sunny sky with drifting clouds, then nibbles catnip flowers, leaps for a toy fish, pounces after a butterfly, slips down a narrow wall, lands on his paws and naps in a sunbeam beside Popeyes, his three-legged tabby brother, who hops in to join him" src="assets/profile/bojangles-light.svg" width="100%">
 </picture>

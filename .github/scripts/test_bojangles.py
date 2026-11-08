@@ -369,7 +369,7 @@ class StoryTests(unittest.TestCase):
                     self.assertAlmostEqual(apex[0], (t0 + t1) / 2, delta=.06,
                                            msg="level jump apexes at mid-flight")
 
-    def test_brother_is_a_three_legged_ginger_tabby(self):
+    def test_brother_is_a_three_legged_tabby(self):
         for mode, svg in RENDERS.items():
             with self.subTest(mode):
                 root = ET.fromstring(svg)
@@ -380,8 +380,17 @@ class StoryTests(unittest.TestCase):
                 self.assertTrue(any(c.startswith("bjp-fore") for c in legs))
                 self.assertTrue(any(c.startswith("bjp-hind") for c in legs))
                 ids = {e.get("id") for e in root.iter() if e.get("id")}
-                self.assertIn("bjp-coat", ids, "ginger coat missing")
+                self.assertIn("bjp-coat", ids, "tabby coat missing")
                 self.assertIn("bjp-torso-clip", ids)
+                # Tabby, not ginger: every coat stop stays a low-saturation grey-brown.
+                gradient = root.find(f".//{NS}linearGradient[@id='bjp-coat']")
+                self.assertIsNotNone(gradient)
+                stops = [s.get("stop-color") for s in gradient.findall(NS + "stop")]
+                self.assertGreaterEqual(len(stops), 3)
+                for colour in stops:
+                    r, g, b = (int(colour[i:i + 2], 16) for i in (1, 3, 5))
+                    self.assertLess((max(r, g, b) - min(r, g, b)) / max(r, g, b), .35,
+                                    f"{colour} is too saturated for a tabby")
 
     def test_brother_hops_on_the_same_gravity(self):
         g = GEN.GRAVITY
