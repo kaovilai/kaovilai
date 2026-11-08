@@ -3,7 +3,7 @@
     "start": "2026-08-10",
     "end": "2026-11-08"
   },
-  "generatedAt": "2026-11-08T06:18:34Z",
+  "generatedAt": "2026-11-08T12:15:44Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 85
   },
   "prsMerged": [
+    {
+      "number": 204,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/204",
+      "date": "2026-11-08T11:49:09Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 4,
       "repo": "kaovilai/context-mode",
@@ -902,18 +911,27 @@
       "url": "https://github.com/ceph/ceph-csi-operator/pull/649",
       "date": "2026-10-27T05:57:03Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10700,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Treat a kopia snapshot not found after a repo refresh as deleted",
-      "url": "https://github.com/velero-io/velero/pull/10700",
-      "date": "2026-10-27T03:08:16Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 86,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Give Bojangles a backyard habitat and two new scenes",
+      "url": "https://github.com/kaovilai/kaovilai/pull/86",
+      "date": "2026-11-08T11:49:53Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 635,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(menubar): host hover filters the tok/s chart too",
+      "url": "https://github.com/kaovilai/dotfiles/pull/635",
+      "date": "2026-11-08T10:38:35Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 204,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1795,24 +1813,6 @@
       "url": "https://github.com/kaovilai/tailbond/pull/7",
       "date": "2026-11-04T03:12:39Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "deploy: untested one-click server templates + iPhone path probe",
-      "url": "https://github.com/kaovilai/tailbond/pull/6",
-      "date": "2026-11-04T03:08:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 5,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "CI fixes, Flint 3 fixes, Android emulator e2e, Pair & Share",
-      "url": "https://github.com/kaovilai/tailbond/pull/5",
-      "date": "2026-11-04T03:08:24Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -1822,7 +1822,7 @@
       "org": "openshift",
       "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2534",
-      "date": "2026-11-08T05:31:51Z",
+      "date": "2026-11-08T07:12:21Z",
       "workstream": "OADP"
     },
     {

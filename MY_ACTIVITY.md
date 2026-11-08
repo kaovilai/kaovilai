@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-10 — 2026-11-08
-> **Generated:** 2026-11-08 06:18:34 UTC
+> **Generated:** 2026-11-08 12:15:44 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -15,14 +15,13 @@
 
 ## PRs Merged (100)
 
-**velero-io** (7)
+**velero-io** (6)
 - [#10692 Add Dependabot updates for run-jammy-tiny on supported release branches](https://github.com/velero-io/velero/pull/10692) — velero-io/velero
 - [#10689 Group Go security updates in Dependabot](https://github.com/velero-io/velero/pull/10689) — velero-io/velero
 - [#10695 ci: add CodeQL analysis for Go](https://github.com/velero-io/velero/pull/10695) — velero-io/velero
 - [#10752 docs: add data mover memory and upload concurrency tuning guidance](https://github.com/velero-io/velero/pull/10752) — velero-io/velero
 - [#319 Add CODEOWNERS for automatic review requests](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/319) — velero-io/velero-plugin-for-microsoft-azure
 - [#10690 [release-1.18] Bump paketobuildpacks/run-jammy-tiny to 0.2.190](https://github.com/velero-io/velero/pull/10690) — velero-io/velero
-- [#10700 Treat a kopia snapshot not found after a repo refresh as deleted](https://github.com/velero-io/velero/pull/10700) — velero-io/velero
 
 **openshift** (5)
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
@@ -31,7 +30,8 @@
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 - [#327 NO-JIRA: Group Go security updates in Dependabot](https://github.com/openshift/hypershift-oadp-plugin/pull/327) — openshift/hypershift-oadp-plugin
 
-**Other** (88)
+**Other** (89)
+- [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
 - [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
 - [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
 - [#630 perf(znap): defer syntax-highlighting + autocomplete until after first prompt](https://github.com/kaovilai/dotfiles/pull/630) — kaovilai/dotfiles
@@ -134,6 +134,8 @@
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 
 **Other** (93)
+- [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
+- [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
 - [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
 - [#634 feat(fleet-sync): keep the shared context-mode daemon current on every machine](https://github.com/kaovilai/dotfiles/pull/634) — kaovilai/dotfiles
 - [#633 feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)](https://github.com/kaovilai/dotfiles/pull/633) — kaovilai/dotfiles
@@ -225,8 +227,6 @@
 - [#10 docs: README badges for every workflow, downloads and the website](https://github.com/kaovilai/tailbond/pull/10) — kaovilai/tailbond
 - [#9 macOS hub, menu bar app, Report a problem, Right away updates, stable release assets](https://github.com/kaovilai/tailbond/pull/9) — kaovilai/tailbond
 - [#7 site: GitHub Pages overview site](https://github.com/kaovilai/tailbond/pull/7) — kaovilai/tailbond
-- [#6 deploy: untested one-click server templates + iPhone path probe](https://github.com/kaovilai/tailbond/pull/6) — kaovilai/tailbond
-- [#5 CI fixes, Flint 3 fixes, Android emulator e2e, Pair & Share](https://github.com/kaovilai/tailbond/pull/5) — kaovilai/tailbond
 ## PRs Reviewed (29)
 
 **velero-io** (18)
