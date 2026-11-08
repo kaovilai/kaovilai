@@ -669,16 +669,24 @@ BOJANGLES_STORY = (
     (15.2, 450, -58, -22, "reach"), (15.7, 470, -70, -12, "reach"),
     (16.2, 486, -45, 0, "leap"), (16.7, 500, 0, 0, "stand"),
     (17, 500, 10, 0, "crouch"), (17.4, 500, 0, 0, "stand"),
-    (21, 650, 0, 0, "walk"), (21.7, 650, 10, 0, "crouch"),
-    (22.2, 677, -35, -35, "leap"), (22.7, 697, -57, -60, "cling"),
-    (23.7, 697, -57, -60, "cling"), (24.2, 697, -49, -60, "cling"),
-    (24.8, 693, -32, -60, "cling"), (25.4, 681, -5, -45, "fall"),
-    (25.9, 662, 0, 0, "stand"), (26.2, 662, 10, 0, "crouch"),
-    (26.7, 662, 0, 0, "stand"), (27.4, 662, 0, 0, "stand"),
-    (36.7, 126, 0, 0, "walk"), (37.4, 126, 0, 0, "stand"),
-    (40, 126, 0, 0, "stand"),
+    # A butterfly drifts in; the stalk is slow, the pounce is not.
+    (17.8, 500, 0, 0, "walk"), (20.8, 552, 0, 0, "walk"),
+    (21.2, 552, 8, 0, "crouch"), (21.6, 560, -42, -14, "leap"),
+    (22.1, 570, -72, -4, "reach"), (22.6, 586, -34, -6, "leap"),
+    (23, 592, 0, 0, "stand"),
+    (24, 592, 0, 0, "walk"), (25.9, 650, 0, 0, "walk"),
+    (26.2, 650, 10, 0, "crouch"), (26.7, 677, -35, -35, "leap"),
+    (27.2, 697, -57, -60, "cling"), (28.2, 697, -57, -60, "cling"),
+    (28.7, 697, -49, -60, "cling"), (29.3, 693, -32, -60, "cling"),
+    (29.9, 681, -5, -45, "fall"), (30.4, 662, 0, 0, "stand"),
+    (30.7, 662, 10, 0, "crouch"), (31.4, 662, 0, 0, "stand"),
+    # The sunbeam by the wall is too good to pass up.
+    (32, 662, 38, 0, "loaf"), (36.4, 662, 38, 0, "loaf"),
+    (37, 662, 0, 0, "stand"),
+    (38, 662, 0, 0, "walk"), (44.4, 126, 0, 0, "walk"),
+    (45.2, 126, 0, 0, "stand"), (50, 126, 0, 0, "stand"),
 )
-BOJANGLES_WALKS = ((0, 4.5), (9.4, 13.5), (17.4, 21), (27.4, 36.7))
+BOJANGLES_WALKS = ((0, 4.5), (9.4, 13.5), (17.8, 20.8), (24, 25.9), (38, 44.4))
 
 
 def bojangles(t, _s):
@@ -689,7 +697,8 @@ def bojangles(t, _s):
     poses = dict(stand=(0, 0, 0, 0, 0), walk=(0, 0, 0, 0, 0),
                  nibble=(0, 0, 0, 0, 13), crouch=(-42, 75, -52, 59, -5),
                  leap=(-48, -12, 40, -65, -9), reach=(-82, -20, 52, -72, -12),
-                 cling=(0, 0, 36, -50, 9), fall=(-26, 30, -30, 45, 12))
+                 cling=(0, 0, 36, -50, 9), fall=(-26, 30, -30, 45, 12),
+                 loaf=(-90, 40, -95, 100, 18))
 
     def track(name, frames, prop="transform", timing="linear"):
         """Map seconds to CSS percentages on the shared story clock."""
@@ -698,8 +707,8 @@ def bojangles(t, _s):
 
     css = track("bj-travel", [(s, f"translate({x}px,{y}px)") for s, x, y, _, _ in BOJANGLES_STORY])
     css += track("bj-pitch", [(s, f"rotate({angle}deg)") for s, _, _, angle, _ in BOJANGLES_STORY])
-    css += track("bj-facing", [(0, "scaleX(1)"), (27, "scaleX(-1)"),
-                                (37.1, "scaleX(1)"), (40, "scaleX(1)")], timing="steps(1, end)")
+    css += track("bj-facing", [(0, "scaleX(1)"), (31.6, "scaleX(-1)"),
+                                (45, "scaleX(1)"), (duration, "scaleX(1)")], timing="steps(1, end)")
     css += track("bj-head", [(s, f"rotate({poses[pose][4]}deg)") for s, _, _, _, pose in BOJANGLES_STORY])
     # Quarter-stride samples keep gait on the same clock as the pauses and jumps.
     for name, index, phase in (("fore-near", 0, 0), ("fore-far", 0, math.pi),
@@ -801,6 +810,9 @@ def bojangles(t, _s):
       </g>
       <path d="{face['base']}" fill="#8b7961"/>{face_layers['head']}
       {eyes}
+      <g class="bj-nap-eyes" fill="none" stroke="#2f2620" stroke-width="4" stroke-linecap="round">
+        <path d="M59,107 Q68,118 78,112"/><path d="M109,113 Q122,120 133,108"/>
+      </g>
       <path d="{face['regions']['jaw']}" fill="#41332d"/>
       <g class="bj-jaw">{face_layers['jaw']}</g>
       <g fill="none" stroke="#ded9c8" stroke-width=".55" stroke-linecap="round" opacity=".8">
@@ -836,10 +848,32 @@ def bojangles(t, _s):
         flowers.append(f'<path d="M{x},284 Q{x - 7},251 {x},{top}" stroke="#688969" stroke-width="2" fill="none"/>'
                        f'<path d="M{x - 2},262 q-18,-18 -14,-4 q6,11 14,4 M{x - 2},249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/>{petals}')
     grass = "".join(f'<path d="M{x},291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/>' for x in (42, 168, 350, 580, 818, 851))
+    sunbeam = (f'<ellipse cx="648" cy="287" rx="88" ry="13" fill="#f2c14e" opacity=".20"/>'
+               f'<ellipse cx="648" cy="287" rx="54" ry="8" fill="#ffdf8e" opacity=".22"/>')
+    butterfly = """<g class="bj-fly-show"><g class="bj-fly"><g transform="translate(640,168)">
+      <g class="bj-wing-far" transform="translate(1.5,-1.5)">
+        <path d="M0,-1 Q-11,-13 -13,-4 Q-13,3 -6,5 Q-2,5 0,1 Z" fill="#b9852f"/>
+        <path d="M0,1 Q-9,6 -10,11 Q-7,15 -2,12 Q0,10 0,3 Z" fill="#caa14e"/>
+      </g>
+      <path d="M0,-7 Q2.2,0 0,7 Q-2.2,0 0,-7 Z" fill="#4a3b33"/>
+      <g class="bj-wing-near">
+        <path d="M0,-1 Q-14,-15 -16,-5 Q-16,3 -8,5 Q-3,6 0,1 Z" fill="#d9a441"/>
+        <path d="M0,1 Q-12,7 -13,13 Q-10,18 -3,15 Q0,12 0,3 Z" fill="#e8bd63"/>
+        <circle cx="-9" cy="-7" r="1.3" fill="#8a5a20"/><circle cx="-7" cy="9" r="1" fill="#8a5a20"/>
+      </g>
+      <path d="M0,-6 Q-3,-10 -6,-11 M0,-6 Q3,-10 6,-11" fill="none" stroke="#4a3b33" stroke-width=".8"/>
+    </g></g></g>"""
+    zzz = (f'<g class="bj-zzz" fill="{t["muted"]}">'
+           f'<text class="bj-z1" x="600" y="168" font-size="13">z</text>'
+           f'<text class="bj-z2" x="586" y="150" font-size="16">z</text>'
+           f'<text class="bj-z3" x="570" y="130" font-size="19">z</text></g>')
     captions = ((0, "Backyard patrol"), (4.8, "A little catnip nibble"), (9.4, "Something fishy…"),
-                (14.2, "Almost got it!"), (17.4, "One more adventure"), (21.7, "That ledge looked wider"),
-                (24.2, "No grip. Slow slide. Soft landing."), (26.7, "Meant to do that."),
-                (37.4, "Backyard patrol"), (40, "Backyard patrol"))
+                (14.2, "Almost got it!"), (17.6, "A butterfly! Act natural."), (21.2, "Pounce!"),
+                (23.2, "So close."), (24, "One more adventure"), (26.2, "That ledge looked wider"),
+                (28.7, "No grip. Slow slide. Soft landing."), (30.7, "Meant to do that."),
+                (32.2, "This looks like a good spot."), (34.2, "Nap protocol engaged."),
+                (37.4, "Homeward, eventually."), (45.2, "Backyard patrol"),
+                (50, "Backyard patrol"))
     labels = []
     for i, (start, label) in enumerate(captions[:-1]):
         end = captions[i + 1][0]
@@ -851,6 +885,7 @@ def bojangles(t, _s):
       <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
       <path d="M28,292 H872" stroke="{t['border']}" fill="none"/>
       <g fill="none" stroke="#68816c" stroke-width="1.1" opacity=".65">{grass}</g>
+      {sunbeam}
       <g class="bj-flowers">{''.join(flowers)}</g>
       <path d="M282,284 H316 L312,292 H286 Z" fill="#806a59"/>
       <g transform="translate(540,68)"><g class="bj-fish">
@@ -866,22 +901,38 @@ def bojangles(t, _s):
       <path d="M766,171 H776 V291 H766 Z" fill="{t['grid']}" stroke="{t['border']}"/>
       <path d="M759,166 H781 V172 H759 Z" fill="{t['muted']}"/>
       <path d="M766,197 h10 M766,225 h10 M766,253 h10 M766,280 h10" stroke="{t['border']}"/>
+      {butterfly}
       <g class="bj-shadow-travel"><ellipse class="bj-shadow" cy="292" rx="65" ry="5" fill="{t['muted']}" opacity=".16"/></g>
       <g transform="translate(0,{ground})"><g class="bj-travel"><g class="bj-facing">{cat}</g></g></g>
+      {zzz}
       {''.join(labels)}
-      <text class="bj-still muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol · flowers, fish toys and questionable ledges</text>"""
+      <text class="bj-still muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol · catnip, fish toys, butterflies and sunny naps</text>"""
     css += track("bj-shadow-travel", [(s, f"translateX({x}px)") for s, x, _, _, _ in BOJANGLES_STORY])
     css += track("bj-shadow", [(s, f"scaleX({max(.4, 1 + y / 150):.2f})") for s, _, y, _, _ in BOJANGLES_STORY])
     css += track("bj-flowers", [(0, "rotate(0deg)"), (4.8, "rotate(0deg)")] +
-                 [(5 + i * .25, f"rotate({-2 if i % 2 else 2}deg)") for i in range(16)] + [(9, "rotate(0deg)"), (40, "rotate(0deg)")])
+                 [(5 + i * .25, f"rotate({-2 if i % 2 else 2}deg)") for i in range(16)] + [(9, "rotate(0deg)"), (duration, "rotate(0deg)")])
     css += track("bj-jaw", [(0, "translateY(0)")] +
-                 [(4.8 + i * .2, f"translateY({3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (40, "translateY(0)")])
+                 [(4.8 + i * .2, f"translateY({3 if i % 2 else 0}px)") for i in range(22)] + [(9.2, "translateY(0)"), (duration, "translateY(0)")])
+    # The butterfly tours the lawn, darts clear of the pounce and leaves.
+    css += track("bj-fly-show", [(0, "0"), (17.2, "0"), (17.5, "1"), (24.6, "1"),
+                                 (25, "0"), (duration, "0")], "opacity")
+    css += track("bj-fly", [
+        (0, "translate(18px,6px)"), (17.3, "translate(18px,6px)"), (18.1, "translate(2px,-4px)"),
+        (18.9, "translate(14px,-12px)"), (19.7, "translate(0px,-2px)"), (20.5, "translate(12px,-14px)"),
+        (21.1, "translate(4px,-20px)"), (21.6, "translate(26px,-70px)"), (22.1, "translate(34px,-96px)"),
+        (23, "translate(70px,-150px)"), (23.9, "translate(110px,-206px)"), (24.7, "translate(150px,-260px)"),
+        (25.6, "translate(190px,-320px)"), (duration, "translate(18px,6px)")])
+    # Sunbeam nap: eyes close, z's float, then he wakes and heads home.
+    css += track("bj-nap-eyes", [(0, "0"), (32.4, "0"), (33, "1"), (36.6, "1"),
+                                 (37.2, "0"), (duration, "0")], "opacity")
+    css += track("bj-zzz", [(0, "0"), (32.8, "0"), (33.4, "1"), (36.2, "1"),
+                            (36.8, "0"), (duration, "0")], "opacity")
     css += """
       .bj-travel, .bj-shadow-travel {transform:translateX(126px);}
       .bj-pitch {transform-origin:0px -65px;}
       .bj-head {transform-origin:40px -82px;}
       .bj-flowers {transform-origin:299px 284px;}
-      .bj-fish {animation:bj-fish-sway 4s ease-in-out infinite alternate;}
+      .bj-fish {animation:bj-fish-sway 5s ease-in-out infinite alternate;}
       @keyframes bj-fish-sway {from {transform:rotate(-12deg);} to {transform:rotate(12deg);}}
       .bj-tail {animation:bj-tail-swish 3.4s ease-in-out infinite alternate;}
       @keyframes bj-tail-swish {from {transform:rotate(-5deg);} to {transform:rotate(7deg);}}
@@ -890,13 +941,20 @@ def bojangles(t, _s):
       .bj-ear {transform-origin:57px 80px;animation:bj-ear-twitch 8.7s infinite;}
       @keyframes bj-ear-twitch {0%,91%,100% {transform:rotate(0deg);} 94% {transform:rotate(-7deg);} 97% {transform:rotate(2deg);}}
       .bj-caption, .bj-still {opacity:0;}
-      @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}}
+      .bj-wing-near, .bj-wing-far {transform-box:fill-box;transform-origin:100% 50%;animation:bj-flap .8s ease-in-out infinite alternate;}
+      @keyframes bj-flap {from {transform:scaleX(1);} to {transform:scaleX(.3);}}
+      .bj-z1 {animation:bj-float 3.2s ease-in-out infinite alternate;}
+      .bj-z2 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-1.1s;}
+      .bj-z3 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-2.2s;}
+      @keyframes bj-float {from {transform:translateY(0);} to {transform:translateY(-7px);}}
+      @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}
+        .bj-zzz {display:none;} .bj-nap-eyes {opacity:0;}}
     """
     return shell(w, h, t, body, "Bojangles · backyard adventures",
                  "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers. "
-                 "Bojangles nibbles catnip flowers, leaps for a moving toy fish, tries a narrow wall, "
-                 "loses his grip, slides down, lands on his paws and walks on. "
-                 "With reduced motion he stands quietly in the garden.", css)
+                 "Bojangles nibbles catnip flowers, leaps for a moving toy fish, pounces at a butterfly, "
+                 "tries a narrow wall, loses his grip, slides down, lands on his paws, naps in a sunbeam "
+                 "and walks on. With reduced motion he stands quietly in the garden.", css)
 
 
 

@@ -4,7 +4,8 @@
 Run: python3 -I .github/scripts/test_bojangles.py   (any cwd)
 Renders the SVG in-process (no repo data needed) and checks it is well-formed,
 self-contained, deterministic, in sync with the committed assets, and that the
-CSS timeline tells the story: nibble, leap, wall slip, paws-first landing, walk on.
+CSS timeline tells the story: nibble, fish leap, butterfly chase, wall slip,
+paws-first landing, sunbeam nap, walk home.
 """
 import importlib.util
 import json
@@ -160,7 +161,7 @@ class RenderTests(unittest.TestCase):
                     self.assertTrue((ids[ref].text or "").strip())
                 self.assertIn("Bojangles", ids[labelled[0]].text)
                 desc = ids[labelled[1]].text.lower()
-                for word in ("catnip", "fish", "wall", "paws", "reduced motion"):
+                for word in ("catnip", "fish", "butterfly", "wall", "paws", "sunbeam", "reduced motion"):
                     self.assertIn(word, desc)
 
     def test_ids_unique_and_references_local(self):
@@ -281,7 +282,7 @@ class StoryTests(unittest.TestCase):
     def test_story_table_is_chronological_and_loops(self):
         times = [row[0] for row in GEN.BOJANGLES_STORY]
         self.assertEqual(times[0], 0)
-        self.assertEqual(times[-1], 40)
+        self.assertEqual(times[-1], DURATION)
         self.assertEqual(times, sorted(times))
         self.assertEqual(len(times), len(set(times)), "duplicate story times")
         first, last = GEN.BOJANGLES_STORY[0], GEN.BOJANGLES_STORY[-1]
@@ -358,6 +359,34 @@ class StoryTests(unittest.TestCase):
         frames = keyframes(self.css, "bj-fish-sway")
         self.assertNotEqual(frames[0][1], frames[-1][1])
 
+    def test_butterfly_chase_and_escape(self):
+        show = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-fly-show")
+                if "opacity:1" in d.replace(" ", "")]
+        self.assertEqual(len(show), 2, "butterfly should be on screen in one window")
+        lo, hi = show
+        pounce = [r for r in GEN.BOJANGLES_STORY if lo <= r[0] <= hi and r[2] < -40]
+        self.assertTrue(pounce, "no real pounce while the butterfly is on screen")
+        # It escapes upward off the top of the frame, on the shared clock.
+        fly = track_samples(self.css, "bj-fly")
+        peak = min(v[1] for _, v in fly)
+        self.assertLess(peak, -200, "butterfly never leaves the frame")
+        self.assertEqual(fly[0][1], fly[-1][1], "flight track must loop")
+
+    def test_sunbeam_nap_stays_put(self):
+        lids = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-nap-eyes")
+                if "opacity:1" in d.replace(" ", "")]
+        self.assertEqual(len(lids), 2, "closed-eye window should be contiguous")
+        rows = [r for r in GEN.BOJANGLES_STORY if lids[0] - .5 <= r[0] <= lids[1] + .5]
+        self.assertTrue(any(r[4] == "loaf" for r in rows), "no loaf during the nap")
+        self.assertEqual(len({r[1] for r in rows}), 1, "cat must not drift while napping")
+        for row in rows:
+            self.assertGreaterEqual(row[2], 0, "napping in mid-air")
+        zzz = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-zzz")
+               if "opacity:1" in d.replace(" ", "")]
+        self.assertEqual(len(zzz), 2)
+        self.assertGreaterEqual(zzz[0], lids[0], "z's before the eyes close")
+        self.assertLessEqual(zzz[1], lids[1], "z's after the eyes open")
+
     def test_thin_wall_slip_fall_and_paws_first_landing(self):
         wall_x = 766  # left edge of the drawn wall
         rows = GEN.BOJANGLES_STORY
@@ -389,7 +418,9 @@ class StoryTests(unittest.TestCase):
             pct = sec / DURATION * 100
             val = [d for p, d in facing if p <= pct + 1e-6][-1]
             return -1 if "-1" in val else 1
-        self.assertEqual(len(GEN.BOJANGLES_WALKS), 4)
+        self.assertGreaterEqual(len(GEN.BOJANGLES_WALKS), 4)
+        for (a0, a1), (b0, b1) in zip(GEN.BOJANGLES_WALKS, GEN.BOJANGLES_WALKS[1:]):
+            self.assertLessEqual(a1, b0, "walk windows overlap")
         for start, end in GEN.BOJANGLES_WALKS:
             with self.subTest((start, end)):
                 x0, x1 = value_at(self.travel, start)[0], value_at(self.travel, end)[0]
