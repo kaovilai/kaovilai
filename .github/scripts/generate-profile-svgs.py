@@ -33,7 +33,7 @@ THEMES = {
         glow="#ee0000", chip="#21262d",
         # Dusk backyard: deep blue overhead settling into warm violet.
         sky=("#0b1730", "#1c3155", "#474070"), sun="#ffc46b", sun2="#ff9d4d",
-        cloud="#cdd9ea", leaf1="#123a28", leaf2="#1d5539", leaf3="#2b7a4d",
+        cloud="#cdd9ea", leaf1="#123a28", leaf2="#1d5539", leaf3="#2b7a4d", night=True,
     ),
     "light": dict(
         bg1="#ffffff", bg2="#f6f8fa", border="#d0d7de", text="#1f2328",
@@ -41,7 +41,7 @@ THEMES = {
         glow="#ee0000", chip="#eaeef2",
         # Bright morning: clear blue overhead fading to warm haze at the lawn.
         sky=("#6fb9e6", "#bfe6f4", "#fdf5d8"), sun="#ffd166", sun2="#ff9d4d",
-        cloud="#ffffff", leaf1="#2f6b3a", leaf2="#47955a", leaf3="#74c074",
+        cloud="#ffffff", leaf1="#2f6b3a", leaf2="#47955a", leaf3="#74c074", night=False,
     ),
 }
 
@@ -839,8 +839,12 @@ def bojangles(t, _s):
         <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="{cream}" stroke-width="9" opacity=".65"/>
         <g fill="{stripe}" opacity=".93">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{stripe}" stroke-width="2.5"/>
+        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="#2b2620" opacity=".18"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="#fff2d8" opacity=".12"/>
       </g>
       {fur_patch('bj-torso-clip', 132, -54, -90, 104, 59)}
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="#f7e9cf" stroke-width="2.2" stroke-linecap="round" opacity=".3"/>
+      <path d="M41,-77 Q50,-68 45,-57" fill="none" stroke="#ffd9a0" stroke-width="1.8" stroke-linecap="round" opacity=".35"/>
       {leg('hind-near', -32, -60, True)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bj-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{stripe}" stroke-width="4.5"/>
@@ -854,40 +858,123 @@ def bojangles(t, _s):
         flowers.append(f'<path d="M{x},284 Q{x - 7},251 {x},{top}" stroke="#688969" stroke-width="2" fill="none"/>'
                        f'<path d="M{x - 2},262 q-18,-18 -14,-4 q6,11 14,4 M{x - 2},249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/>{petals}')
     grass = "".join(f'<path d="M{x},291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/>' for x in (42, 168, 350, 580, 818, 851))
-    # Backyard habitat: sky, sun, drifting clouds and a leafy hedge the cat patrols in front of.
+    # Backyard habitat: layered sky with light shafts, drifting clouds, hazy treeline,
+    # a two-deep hedge, wildflowers and swaying leaf sprigs.
     sky1, sky2, sky3 = t["sky"]
-    hedge_back = "M0,292 V256 " + "".join("q26,-18 52,0 " for _ in range(18)) + "V292 Z"
-    hedge_front = "M0,292 V272 " + "".join("q22,-13 44,0 " for _ in range(21)) + "V292 Z"
+    night = t["night"]
+    hedge_back = "M0,292 V252 " + "".join(
+        "q26,-22 54,0 q30,-12 60,0 " if i % 2 else "q30,-12 60,0 q26,-22 54,0 " for i in range(9)
+    ) + "V292 Z"
+    hedge_front = "M0,292 V272 " + "".join(
+        "q22,-15 44,0 q24,-7 48,0 " if i % 2 else "q24,-7 48,0 q22,-15 44,0 " for i in range(10)
+    ) + "V292 Z"
+    treeline = "M0,292 V272 " + "".join("q44,-27 88,-3 " for _ in range(11)) + "V292 Z"
+    wildflowers = "".join(
+        f'<circle cx="{x}" cy="{y}" r="{r}" fill="{c}"/>'
+        for x, y, r, c in (
+            (74, 265, 2, "#f2f4e8"), (186, 262, 1.7, "#f6b6d0"), (242, 267, 1.5, "#ffe27a"),
+            (404, 263, 1.9, "#f6b6d0"), (470, 266, 1.6, "#f2f4e8"), (556, 262, 1.8, "#d9c1e6"),
+            (640, 267, 1.5, "#ffe27a"), (704, 264, 1.8, "#f2f4e8"), (800, 266, 1.6, "#f6b6d0"),
+            (862, 263, 1.9, "#ffe27a")))
+    sprout = lambda name, x, y, s, a="": (
+        f'<g transform="translate({x},{y}) scale({s}){a}"><use class="{name}" href="#bj-leaf"/></g>')
     habitat = f"""<defs>
       <linearGradient id="bj-sky" x1="0" y1="0" x2="0" y2="1">
         <stop stop-color="{sky1}"/><stop offset=".58" stop-color="{sky2}"/>
         <stop offset="1" stop-color="{sky3}" stop-opacity="0"/>
       </linearGradient>
       <radialGradient id="bj-sunglow">
-        <stop stop-color="{t['sun']}" stop-opacity=".5"/><stop offset="1" stop-color="{t['sun2']}" stop-opacity="0"/>
+        <stop stop-color="{t['sun']}" stop-opacity=".55"/><stop offset=".55" stop-color="{t['sun']}" stop-opacity=".16"/>
+        <stop offset="1" stop-color="{t['sun2']}" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bj-ray" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="{t['sun']}" stop-opacity=".16"/><stop offset="1" stop-color="{t['sun']}" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="bj-haze" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="{sky2}" stop-opacity="0"/><stop offset="1" stop-color="{sky3}" stop-opacity=".55"/>
+      </linearGradient>
+      <linearGradient id="bj-cloudfill" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="{t['cloud']}"/><stop offset="1" stop-color="{t['cloud']}" stop-opacity=".62"/>
+      </linearGradient>
+      <radialGradient id="bj-vignette" cx=".5" cy=".42" r=".8">
+        <stop offset=".55" stop-color="#000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000" stop-opacity="{'.30' if night else '.13'}"/>
       </radialGradient>
       <path id="bj-cloud" d="M-40,6 C-46,-6 -32,-16 -22,-10 C-18,-24 4,-26 10,-12 C20,-22 36,-16 34,-4 C42,-2 44,6 40,6 Z"/>
-      <path id="bj-sprig" fill="{t['leaf3']}" d="M0,0 Q2,-18 0,-34 Q-14,-22 -12,-6 Q-2,-4 0,0 M0,-22 Q14,-16 12,-2 Q2,-6 0,-22"/>
+      <path id="bj-leaf" fill="{t['leaf3']}" d="M0,0 Q2,-18 0,-34 Q-14,-22 -12,-6 Q-2,-4 0,0 M0,-22 Q14,-16 12,-2 Q2,-6 0,-22"/>
+      <path id="bj-ray-shape" fill="url(#bj-ray)" d="M0,0 L-620,224 L-573,224 Z"/>
+      <radialGradient id="bj-flyglow">
+        <stop stop-color="#fff3c2" stop-opacity=".55"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bj-wood" x1="0" y1="0" x2="1" y2="0">
+        <stop stop-color="#7d6040"/><stop offset=".45" stop-color="#a5805a"/><stop offset="1" stop-color="#6b4d33"/>
+      </linearGradient>
     </defs>
     <rect width="900" height="292" fill="url(#bj-sky)"/>
-    <circle cx="806" cy="62" r="92" fill="url(#bj-sunglow)"/>
-    <circle cx="806" cy="62" r="22" fill="{t['sun']}" opacity=".95"/>
-    <g fill="{t['cloud']}" opacity=".8">
+    <g transform="translate(806,62)">
+      <circle r="94" fill="url(#bj-sunglow)"/>
+      <use href="#bj-ray-shape" transform="rotate(3)"/>
+      <use href="#bj-ray-shape" transform="rotate(10)"/>
+      <use href="#bj-ray-shape" transform="rotate(18)"/>
+      <use href="#bj-ray-shape" transform="rotate(27)"/>
+      <circle r="22" fill="{t['sun']}" opacity=".95"/>
+      <path d="M-40,0 H40 M0,-40 V40" stroke="#fff" stroke-opacity=".2" stroke-width="1.6"/>
+    </g>
+    <g fill="url(#bj-cloudfill)" opacity=".92">
       <g transform="translate(252,96) scale(.9)"><g class="bj-cloud1"><use href="#bj-cloud"/></g></g>
       <g transform="translate(500,58) scale(.66)"><g class="bj-cloud2"><use href="#bj-cloud"/></g></g>
       <g transform="translate(660,124) scale(.5)"><g class="bj-cloud3"><use href="#bj-cloud"/></g></g>
     </g>
+    <rect y="196" width="900" height="96" fill="url(#bj-haze)"/>
+    <path d="{treeline}" fill="{t['leaf1']}" opacity=".5"/>
     <path d="{hedge_back}" fill="{t['leaf1']}"/>
     <path d="{hedge_front}" fill="{t['leaf2']}"/>
+    <ellipse cx="800" cy="266" rx="112" ry="26" fill="{t['sun']}" opacity=".1"/>
+    <g opacity=".9">{wildflowers}</g>
     <g opacity=".95">
-      <use href="#bj-sprig" transform="translate(52,292) scale(1.7)"/>
-      <use href="#bj-sprig" transform="translate(98,292) scale(1.2) rotate(-8)"/>
-      <use href="#bj-sprig" transform="translate(836,292) scale(1.9) rotate(6)"/>
-      <use href="#bj-sprig" transform="translate(884,292) scale(1.3) rotate(-10)"/>
+      {sprout("bj-sprig1", 52, 292, 1.7)}{sprout("bj-sprig2", 98, 292, 1.2, " rotate(-8)")}
+      {sprout("bj-sprig3", 836, 292, 1.9, " rotate(6)")}{sprout("bj-sprig4", 884, 292, 1.3, " rotate(-10)")}
     </g>"""
+    # Life in the closing light: fireflies at dusk, pollen motes by day.
+    if night:
+        life = """<g fill="#dfe8ff" opacity=".85"><circle cx="96" cy="38" r="1.1"/><circle cx="188" cy="66" r=".9"/><circle cx="302" cy="30" r="1.2"/><circle cx="392" cy="54" r=".8"/><circle cx="548" cy="26" r="1"/><circle cx="612" cy="72" r="1.1"/><circle cx="742" cy="34" r=".9"/><circle cx="884" cy="52" r="1.2"/></g>
+    <g fill="#ffe08a"><circle class="bj-fire1" cx="168" cy="246" r="1.9"/><circle class="bj-fire2" cx="352" cy="236" r="1.6"/><circle class="bj-fire3" cx="602" cy="250" r="2"/><circle class="bj-fire4" cx="846" cy="238" r="1.7"/></g>"""
+        life_css = """
+      .bj-fire1 {animation:bj-fire 6.4s ease-in-out infinite alternate;}
+      .bj-fire2 {animation:bj-fire 7.8s ease-in-out infinite alternate;animation-delay:-2.1s;}
+      .bj-fire3 {animation:bj-fire 5.6s ease-in-out infinite alternate;animation-delay:-3.4s;}
+      .bj-fire4 {animation:bj-fire 8.6s ease-in-out infinite alternate;animation-delay:-1.2s;}
+      @keyframes bj-fire {from {transform:translate(0,0);opacity:.25;} to {transform:translate(7px,-15px);opacity:1;}}"""
+    else:
+        life = """<g fill="#fff6d8" opacity=".85"><circle class="bj-pollen1" cx="240" cy="150" r="1.4"/><circle class="bj-pollen2" cx="430" cy="196" r="1.2"/><circle class="bj-pollen3" cx="690" cy="140" r="1.5"/><circle class="bj-pollen4" cx="820" cy="188" r="1.1"/></g>"""
+        life_css = """
+      .bj-pollen1 {animation:bj-pollen 11s ease-in-out infinite alternate;}
+      .bj-pollen2 {animation:bj-pollen 13s ease-in-out infinite alternate;animation-delay:-4s;}
+      .bj-pollen3 {animation:bj-pollen 9.5s ease-in-out infinite alternate;animation-delay:-2.5s;}
+      .bj-pollen4 {animation:bj-pollen 12s ease-in-out infinite alternate;animation-delay:-6s;}
+      @keyframes bj-pollen {from {transform:translate(0,0);opacity:.45;} to {transform:translate(10px,-22px);opacity:.95;}}"""
+    # Front-of-cat grass and corner vignette give the lawn depth.
+    fore_color = t["leaf3"] if night else t["leaf1"]
+    foreground = "".join(
+        f'<g transform="translate({x},294)"><g class="bj-fore{i}"><path d="{d}"/></g></g>'
+        for i, (x, d) in enumerate((
+            (120, "M0,0 q-4,-16 -10,-20 M0,0 q2,-18 9,-22 M0,0 q7,-11 15,-13"),
+            (430, "M0,0 q-5,-13 -11,-16 M0,0 q3,-16 10,-19 M0,0 q8,-9 16,-11"),
+            (700, "M0,0 q-4,-18 -11,-22 M0,0 q2,-20 10,-24 M0,0 q8,-12 16,-14"),
+            (858, "M0,0 q-5,-15 -12,-18 M0,0 q3,-17 11,-20"),
+        ), 1))
+    foreground = (f'<g fill="none" stroke="{fore_color}" stroke-width="2.2" stroke-linecap="round">'
+                  + foreground + '</g>')
+    grass_color = t["leaf3"] if night else "#4f8853"
+    birds = ('<g transform="translate(330,118)"><g class="bj-birds" fill="none" stroke-width="1.3" '
+             f'stroke-linecap="round" stroke="{"#c9d3e6" if night else "#4a4a52"}" opacity=".5">'
+             '<path d="M0,0 q4,-3 8,0 q4,-3 8,0"/><path d="M30,12 q3,-2.4 6,0 q3,-2.4 6,0"/>'
+             '<path d="M-26,20 q3,-2 6,0 q3,-2 6,0"/></g></g>')
+    vignette = '<rect width="900" height="292" fill="url(#bj-vignette)"/>'
     sunbeam = (f'<ellipse cx="648" cy="287" rx="88" ry="13" fill="#f2c14e" opacity=".20"/>'
                f'<ellipse cx="648" cy="287" rx="54" ry="8" fill="#ffdf8e" opacity=".22"/>')
     butterfly = """<g class="bj-fly-show"><g class="bj-fly"><g transform="translate(640,168)">
+      <circle r="20" fill="url(#bj-flyglow)"/>
       <g class="bj-wing-far" transform="translate(1.5,-1.5)">
         <path d="M0,-1 Q-11,-13 -13,-4 Q-13,3 -6,5 Q-2,5 0,1 Z" fill="#b9852f"/>
         <path d="M0,1 Q-9,6 -10,11 Q-7,15 -2,12 Q0,10 0,3 Z" fill="#caa14e"/>
@@ -919,10 +1006,12 @@ def bojangles(t, _s):
         css += track(f"bj-caption-{i}", sorted(dict(frames).items()), "opacity", "steps(1, end)")
     body = f"""{defs}
       {habitat}
+      {life}
       <text x="28" y="33" font-size="19" font-weight="650">Bojangles</text>
       <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
+      {birds}
       <path d="M28,292 H872" stroke="{t['border']}" fill="none"/>
-      <g fill="none" stroke="#68816c" stroke-width="1.1" opacity=".65">{grass}</g>
+      <g fill="none" stroke="{grass_color}" stroke-width="1.1" opacity=".65">{grass}</g>
       {sunbeam}
       <g class="bj-flowers">{''.join(flowers)}</g>
       <path d="M282,284 H316 L312,292 H286 Z" fill="#806a59"/>
@@ -936,13 +1025,19 @@ def bojangles(t, _s):
           <path d="M-12,1 L10,1" stroke="#d8e6df" stroke-width=".8" stroke-dasharray="2 3"/>
         </g>
       </g></g>
-      <path d="M766,171 H776 V291 H766 Z" fill="{t['grid']}" stroke="{t['border']}"/>
-      <path d="M759,166 H781 V172 H759 Z" fill="{t['muted']}"/>
-      <path d="M766,197 h10 M766,225 h10 M766,253 h10 M766,280 h10" stroke="{t['border']}"/>
+      <path d="M766,171 H776 V291 H766 Z" fill="url(#bj-wood)" stroke="#5d4530" stroke-width=".6"/>
+      <path d="M759,166 H781 V172 H759 Z" fill="#6b4f36"/>
+      <path d="M768,176 q1,40 0,112 M773,180 q-1,50 0,108" stroke="#6b4f36" stroke-width=".7" fill="none" opacity=".6"/>
+      <ellipse cx="771" cy="291" rx="14" ry="3" fill="#000" opacity=".16"/>
       {butterfly}
-      <g class="bj-shadow-travel"><ellipse class="bj-shadow" cy="292" rx="65" ry="5" fill="{t['muted']}" opacity=".16"/></g>
+      <g class="bj-shadow-travel">
+        <ellipse class="bj-shadow" cy="292" rx="88" ry="8" fill="{t['muted']}" opacity=".08"/>
+        <ellipse class="bj-shadow" cy="292" rx="62" ry="5" fill="{t['muted']}" opacity=".16"/>
+      </g>
       <g transform="translate(0,{ground})"><g class="bj-travel"><g class="bj-facing">{cat}</g></g></g>
       {zzz}
+      {foreground}
+      {vignette}
       {''.join(labels)}
       <text class="bj-still muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol · catnip, fish toys, butterflies and sunny naps</text>"""
     css += track("bj-shadow-travel", [(s, f"translateX({x}px)") for s, x, _, _, _ in BOJANGLES_STORY])
@@ -985,6 +1080,13 @@ def bojangles(t, _s):
       .bj-cloud2 {animation:bj-drift 21s ease-in-out infinite alternate;animation-delay:-6s;}
       .bj-cloud3 {animation:bj-drift 31s ease-in-out infinite alternate;animation-delay:-13s;}
       @keyframes bj-drift {from {transform:translateX(-13px);} to {transform:translateX(13px);}}
+      .bj-sprig1, .bj-sprig2, .bj-sprig3, .bj-sprig4,
+      .bj-fore1, .bj-fore2, .bj-fore3, .bj-fore4 {transform-box:fill-box;transform-origin:50% 100%;animation:bj-leaf-sway 4.6s ease-in-out infinite alternate;}
+      .bj-sprig2 {animation-delay:-1.3s;} .bj-sprig3 {animation-delay:-2.4s;} .bj-sprig4 {animation-delay:-.7s;}
+      .bj-fore2 {animation-delay:-1.7s;} .bj-fore3 {animation-delay:-3.1s;} .bj-fore4 {animation-delay:-.9s;}
+      @keyframes bj-leaf-sway {from {transform:rotate(-2.4deg);} to {transform:rotate(2.6deg);}}
+      .bj-birds {animation:bj-glide 46s ease-in-out infinite alternate;}
+      @keyframes bj-glide {from {transform:translate(-24px,6px);} to {transform:translate(26px,-8px);}}
       .bj-z1 {animation:bj-float 3.2s ease-in-out infinite alternate;}
       .bj-z2 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-1.1s;}
       .bj-z3 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-2.2s;}
@@ -992,6 +1094,7 @@ def bojangles(t, _s):
       @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}
         .bj-zzz {display:none;} .bj-nap-eyes {opacity:0;}}
     """
+    css += life_css
     return shell(w, h, t, body, "Bojangles · backyard adventures",
                  "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers, out in a leafy "
                  "backyard under a sunny sky with drifting clouds. Bojangles nibbles catnip flowers, leaps "

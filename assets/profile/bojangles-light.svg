@@ -37,6 +37,13 @@
       .bj-cloud2 {animation:bj-drift 21s ease-in-out infinite alternate;animation-delay:-6s;}
       .bj-cloud3 {animation:bj-drift 31s ease-in-out infinite alternate;animation-delay:-13s;}
       @keyframes bj-drift {from {transform:translateX(-13px);} to {transform:translateX(13px);}}
+      .bj-sprig1, .bj-sprig2, .bj-sprig3, .bj-sprig4,
+      .bj-fore1, .bj-fore2, .bj-fore3, .bj-fore4 {transform-box:fill-box;transform-origin:50% 100%;animation:bj-leaf-sway 4.6s ease-in-out infinite alternate;}
+      .bj-sprig2 {animation-delay:-1.3s;} .bj-sprig3 {animation-delay:-2.4s;} .bj-sprig4 {animation-delay:-.7s;}
+      .bj-fore2 {animation-delay:-1.7s;} .bj-fore3 {animation-delay:-3.1s;} .bj-fore4 {animation-delay:-.9s;}
+      @keyframes bj-leaf-sway {from {transform:rotate(-2.4deg);} to {transform:rotate(2.6deg);}}
+      .bj-birds {animation:bj-glide 46s ease-in-out infinite alternate;}
+      @keyframes bj-glide {from {transform:translate(-24px,6px);} to {transform:translate(26px,-8px);}}
       .bj-z1 {animation:bj-float 3.2s ease-in-out infinite alternate;}
       .bj-z2 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-1.1s;}
       .bj-z3 {animation:bj-float 3.2s ease-in-out infinite alternate;animation-delay:-2.2s;}
@@ -44,6 +51,11 @@
       @media (prefers-reduced-motion:reduce) {.bj-caption {display:none;} .bj-still {opacity:1;}
         .bj-zzz {display:none;} .bj-nap-eyes {opacity:0;}}
     
+      .bj-pollen1 {animation:bj-pollen 11s ease-in-out infinite alternate;}
+      .bj-pollen2 {animation:bj-pollen 13s ease-in-out infinite alternate;animation-delay:-4s;}
+      .bj-pollen3 {animation:bj-pollen 9.5s ease-in-out infinite alternate;animation-delay:-2.5s;}
+      .bj-pollen4 {animation:bj-pollen 12s ease-in-out infinite alternate;animation-delay:-6s;}
+      @keyframes bj-pollen {from {transform:translate(0,0);opacity:.45;} to {transform:translate(10px,-22px);opacity:.95;}}
     @media (prefers-reduced-motion: reduce) {
       * { animation: none !important; }
     }</style>
@@ -65,31 +77,63 @@
         <stop offset="1" stop-color="#fdf5d8" stop-opacity="0"/>
       </linearGradient>
       <radialGradient id="bj-sunglow">
-        <stop stop-color="#ffd166" stop-opacity=".5"/><stop offset="1" stop-color="#ff9d4d" stop-opacity="0"/>
+        <stop stop-color="#ffd166" stop-opacity=".55"/><stop offset=".55" stop-color="#ffd166" stop-opacity=".16"/>
+        <stop offset="1" stop-color="#ff9d4d" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bj-ray" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#ffd166" stop-opacity=".16"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="bj-haze" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#bfe6f4" stop-opacity="0"/><stop offset="1" stop-color="#fdf5d8" stop-opacity=".55"/>
+      </linearGradient>
+      <linearGradient id="bj-cloudfill" x1="0" y1="0" x2="0" y2="1">
+        <stop stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".62"/>
+      </linearGradient>
+      <radialGradient id="bj-vignette" cx=".5" cy=".42" r=".8">
+        <stop offset=".55" stop-color="#000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".13"/>
       </radialGradient>
       <path id="bj-cloud" d="M-40,6 C-46,-6 -32,-16 -22,-10 C-18,-24 4,-26 10,-12 C20,-22 36,-16 34,-4 C42,-2 44,6 40,6 Z"/>
-      <path id="bj-sprig" fill="#74c074" d="M0,0 Q2,-18 0,-34 Q-14,-22 -12,-6 Q-2,-4 0,0 M0,-22 Q14,-16 12,-2 Q2,-6 0,-22"/>
+      <path id="bj-leaf" fill="#74c074" d="M0,0 Q2,-18 0,-34 Q-14,-22 -12,-6 Q-2,-4 0,0 M0,-22 Q14,-16 12,-2 Q2,-6 0,-22"/>
+      <path id="bj-ray-shape" fill="url(#bj-ray)" d="M0,0 L-620,224 L-573,224 Z"/>
+      <radialGradient id="bj-flyglow">
+        <stop stop-color="#fff3c2" stop-opacity=".55"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bj-wood" x1="0" y1="0" x2="1" y2="0">
+        <stop stop-color="#7d6040"/><stop offset=".45" stop-color="#a5805a"/><stop offset="1" stop-color="#6b4d33"/>
+      </linearGradient>
     </defs>
     <rect width="900" height="292" fill="url(#bj-sky)"/>
-    <circle cx="806" cy="62" r="92" fill="url(#bj-sunglow)"/>
-    <circle cx="806" cy="62" r="22" fill="#ffd166" opacity=".95"/>
-    <g fill="#ffffff" opacity=".8">
+    <g transform="translate(806,62)">
+      <circle r="94" fill="url(#bj-sunglow)"/>
+      <use href="#bj-ray-shape" transform="rotate(3)"/>
+      <use href="#bj-ray-shape" transform="rotate(10)"/>
+      <use href="#bj-ray-shape" transform="rotate(18)"/>
+      <use href="#bj-ray-shape" transform="rotate(27)"/>
+      <circle r="22" fill="#ffd166" opacity=".95"/>
+      <path d="M-40,0 H40 M0,-40 V40" stroke="#fff" stroke-opacity=".2" stroke-width="1.6"/>
+    </g>
+    <g fill="url(#bj-cloudfill)" opacity=".92">
       <g transform="translate(252,96) scale(.9)"><g class="bj-cloud1"><use href="#bj-cloud"/></g></g>
       <g transform="translate(500,58) scale(.66)"><g class="bj-cloud2"><use href="#bj-cloud"/></g></g>
       <g transform="translate(660,124) scale(.5)"><g class="bj-cloud3"><use href="#bj-cloud"/></g></g>
     </g>
-    <path d="M0,292 V256 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 q26,-18 52,0 V292 Z" fill="#2f6b3a"/>
-    <path d="M0,292 V272 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 q22,-13 44,0 V292 Z" fill="#47955a"/>
+    <rect y="196" width="900" height="96" fill="url(#bj-haze)"/>
+    <path d="M0,292 V272 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 q44,-27 88,-3 V292 Z" fill="#2f6b3a" opacity=".5"/>
+    <path d="M0,292 V252 q30,-12 60,0 q26,-22 54,0 q26,-22 54,0 q30,-12 60,0 q30,-12 60,0 q26,-22 54,0 q26,-22 54,0 q30,-12 60,0 q30,-12 60,0 q26,-22 54,0 q26,-22 54,0 q30,-12 60,0 q30,-12 60,0 q26,-22 54,0 q26,-22 54,0 q30,-12 60,0 q30,-12 60,0 q26,-22 54,0 V292 Z" fill="#2f6b3a"/>
+    <path d="M0,292 V272 q24,-7 48,0 q22,-15 44,0 q22,-15 44,0 q24,-7 48,0 q24,-7 48,0 q22,-15 44,0 q22,-15 44,0 q24,-7 48,0 q24,-7 48,0 q22,-15 44,0 q22,-15 44,0 q24,-7 48,0 q24,-7 48,0 q22,-15 44,0 q22,-15 44,0 q24,-7 48,0 q24,-7 48,0 q22,-15 44,0 q22,-15 44,0 q24,-7 48,0 V292 Z" fill="#47955a"/>
+    <ellipse cx="800" cy="266" rx="112" ry="26" fill="#ffd166" opacity=".1"/>
+    <g opacity=".9"><circle cx="74" cy="265" r="2" fill="#f2f4e8"/><circle cx="186" cy="262" r="1.7" fill="#f6b6d0"/><circle cx="242" cy="267" r="1.5" fill="#ffe27a"/><circle cx="404" cy="263" r="1.9" fill="#f6b6d0"/><circle cx="470" cy="266" r="1.6" fill="#f2f4e8"/><circle cx="556" cy="262" r="1.8" fill="#d9c1e6"/><circle cx="640" cy="267" r="1.5" fill="#ffe27a"/><circle cx="704" cy="264" r="1.8" fill="#f2f4e8"/><circle cx="800" cy="266" r="1.6" fill="#f6b6d0"/><circle cx="862" cy="263" r="1.9" fill="#ffe27a"/></g>
     <g opacity=".95">
-      <use href="#bj-sprig" transform="translate(52,292) scale(1.7)"/>
-      <use href="#bj-sprig" transform="translate(98,292) scale(1.2) rotate(-8)"/>
-      <use href="#bj-sprig" transform="translate(836,292) scale(1.9) rotate(6)"/>
-      <use href="#bj-sprig" transform="translate(884,292) scale(1.3) rotate(-10)"/>
+      <g transform="translate(52,292) scale(1.7)"><use class="bj-sprig1" href="#bj-leaf"/></g><g transform="translate(98,292) scale(1.2) rotate(-8)"><use class="bj-sprig2" href="#bj-leaf"/></g>
+      <g transform="translate(836,292) scale(1.9) rotate(6)"><use class="bj-sprig3" href="#bj-leaf"/></g><g transform="translate(884,292) scale(1.3) rotate(-10)"><use class="bj-sprig4" href="#bj-leaf"/></g>
     </g>
+      <g fill="#fff6d8" opacity=".85"><circle class="bj-pollen1" cx="240" cy="150" r="1.4"/><circle class="bj-pollen2" cx="430" cy="196" r="1.2"/><circle class="bj-pollen3" cx="690" cy="140" r="1.5"/><circle class="bj-pollen4" cx="820" cy="188" r="1.1"/></g>
       <text x="28" y="33" font-size="19" font-weight="650">Bojangles</text>
       <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
+      <g transform="translate(330,118)"><g class="bj-birds" fill="none" stroke-width="1.3" stroke-linecap="round" stroke="#4a4a52" opacity=".5"><path d="M0,0 q4,-3 8,0 q4,-3 8,0"/><path d="M30,12 q3,-2.4 6,0 q3,-2.4 6,0"/><path d="M-26,20 q3,-2 6,0 q3,-2 6,0"/></g></g>
       <path d="M28,292 H872" stroke="#d0d7de" fill="none"/>
-      <g fill="none" stroke="#68816c" stroke-width="1.1" opacity=".65"><path d="M42,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M168,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M350,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M580,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M818,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M851,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/></g>
+      <g fill="none" stroke="#4f8853" stroke-width="1.1" opacity=".65"><path d="M42,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M168,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M350,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M580,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M818,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/><path d="M851,291 l-3,-9 m3,9 l4,-13 m-3,11 l6,-5"/></g>
       <ellipse cx="648" cy="287" rx="88" ry="13" fill="#f2c14e" opacity=".20"/><ellipse cx="648" cy="287" rx="54" ry="8" fill="#ffdf8e" opacity=".22"/>
       <g class="bj-flowers"><path d="M286,284 Q279,251 286,226" stroke="#688969" stroke-width="2" fill="none"/><path d="M284,262 q-18,-18 -14,-4 q6,11 14,4 M284,249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/><ellipse cx="283" cy="226" rx="3.3" ry="2.3" fill="#d9c1e6"/><ellipse cx="289" cy="226" rx="3.3" ry="2.3" fill="#d9c1e6"/><ellipse cx="283" cy="231" rx="3.3" ry="2.3" fill="#b49dcd"/><ellipse cx="289" cy="231" rx="3.3" ry="2.3" fill="#b49dcd"/><ellipse cx="283" cy="236" rx="3.3" ry="2.3" fill="#987daf"/><ellipse cx="289" cy="236" rx="3.3" ry="2.3" fill="#987daf"/><path d="M299,284 Q292,251 299,208" stroke="#688969" stroke-width="2" fill="none"/><path d="M297,262 q-18,-18 -14,-4 q6,11 14,4 M297,249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/><ellipse cx="296" cy="208" rx="3.3" ry="2.3" fill="#d9c1e6"/><ellipse cx="302" cy="208" rx="3.3" ry="2.3" fill="#d9c1e6"/><ellipse cx="296" cy="213" rx="3.3" ry="2.3" fill="#b49dcd"/><ellipse cx="302" cy="213" rx="3.3" ry="2.3" fill="#b49dcd"/><ellipse cx="296" cy="218" rx="3.3" ry="2.3" fill="#987daf"/><ellipse cx="302" cy="218" rx="3.3" ry="2.3" fill="#987daf"/><path d="M312,284 Q305,251 312,230" stroke="#688969" stroke-width="2" fill="none"/><path d="M310,262 q-18,-18 -14,-4 q6,11 14,4 M310,249 q16,-15 14,-3 q-6,10 -14,3" fill="#729477"/><ellipse cx="309" cy="230" rx="3.3" ry="2.3" fill="#d9c1e6"/><ellipse cx="315" cy="230" rx="3.3" ry="2.3" fill="#d9c1e6"/><ellipse cx="309" cy="235" rx="3.3" ry="2.3" fill="#b49dcd"/><ellipse cx="315" cy="235" rx="3.3" ry="2.3" fill="#b49dcd"/><ellipse cx="309" cy="240" rx="3.3" ry="2.3" fill="#987daf"/><ellipse cx="315" cy="240" rx="3.3" ry="2.3" fill="#987daf"/></g>
       <path d="M282,284 H316 L312,292 H286 Z" fill="#806a59"/>
@@ -103,10 +147,12 @@
           <path d="M-12,1 L10,1" stroke="#d8e6df" stroke-width=".8" stroke-dasharray="2 3"/>
         </g>
       </g></g>
-      <path d="M766,171 H776 V291 H766 Z" fill="#e6eaef" stroke="#d0d7de"/>
-      <path d="M759,166 H781 V172 H759 Z" fill="#59636e"/>
-      <path d="M766,197 h10 M766,225 h10 M766,253 h10 M766,280 h10" stroke="#d0d7de"/>
+      <path d="M766,171 H776 V291 H766 Z" fill="url(#bj-wood)" stroke="#5d4530" stroke-width=".6"/>
+      <path d="M759,166 H781 V172 H759 Z" fill="#6b4f36"/>
+      <path d="M768,176 q1,40 0,112 M773,180 q-1,50 0,108" stroke="#6b4f36" stroke-width=".7" fill="none" opacity=".6"/>
+      <ellipse cx="771" cy="291" rx="14" ry="3" fill="#000" opacity=".16"/>
       <g class="bj-fly-show"><g class="bj-fly"><g transform="translate(640,168)">
+      <circle r="20" fill="url(#bj-flyglow)"/>
       <g class="bj-wing-far" transform="translate(1.5,-1.5)">
         <path d="M0,-1 Q-11,-13 -13,-4 Q-13,3 -6,5 Q-2,5 0,1 Z" fill="#b9852f"/>
         <path d="M0,1 Q-9,6 -10,11 Q-7,15 -2,12 Q0,10 0,3 Z" fill="#caa14e"/>
@@ -119,7 +165,10 @@
       </g>
       <path d="M0,-6 Q-3,-10 -6,-11 M0,-6 Q3,-10 6,-11" fill="none" stroke="#4a3b33" stroke-width=".8"/>
     </g></g></g>
-      <g class="bj-shadow-travel"><ellipse class="bj-shadow" cy="292" rx="65" ry="5" fill="#59636e" opacity=".16"/></g>
+      <g class="bj-shadow-travel">
+        <ellipse class="bj-shadow" cy="292" rx="88" ry="8" fill="#59636e" opacity=".08"/>
+        <ellipse class="bj-shadow" cy="292" rx="62" ry="5" fill="#59636e" opacity=".16"/>
+      </g>
       <g transform="translate(0,290)"><g class="bj-travel"><g class="bj-facing"><g class="bj-pitch">
       <g transform="translate(-47,-65)"><g class="bj-tail">
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#787767" stroke-width="10" stroke-linecap="round"/>
@@ -151,8 +200,12 @@
         <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="#c9c1aa" stroke-width="9" opacity=".65"/>
         <g fill="#292824" opacity=".93"><path d="M-42,-86 Q-27,-80 -36,-64 L-40,-55 L-40,-65 Q-31,-78 -46,-82 Z"/><path d="M-30,-88 Q-16,-79 -24,-65 L-24,-54 L-29,-46 L-27,-61 Q-20,-76 -35,-83 Z"/><path d="M-17,-89 Q-3,-80 -12,-68 L-9,-58 L-13,-47 L-14,-60 L-18,-66 Q-9,-78 -23,-85 Z"/><path d="M-3,-89 Q9,-81 3,-70 L6,-64 L4,-55 L0,-60 L-1,-69 Q4,-79 -8,-86 Z"/><path d="M10,-90 Q25,-79 17,-66 L20,-55 L16,-45 L14,-58 L11,-68 Q17,-78 5,-85 Z"/><path d="M25,-88 Q37,-78 30,-69 L34,-59 L31,-49 L27,-56 L25,-69 Q30,-79 20,-85 Z"/><path d="M-20,-56 l4,5 l-1,6 l-4,-3 Z M-4,-49 l5,-3 l3,5 l-5,3 Z M8,-57 l4,3 l-1,5 l-4,-2 Z"/></g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="#292824" stroke-width="2.5"/>
+        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="#2b2620" opacity=".18"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="#fff2d8" opacity=".12"/>
       </g>
       <g clip-path="url(#bj-torso-clip)" fill="none" stroke="#c9c1aa" stroke-width=".55" opacity=".32"><path d="M-54.0,-90.0 l1.0,2"/><path d="M-15.9,-55.1 l2.0,3"/><path d="M22.2,-79.1 l3.0,2"/><path d="M-43.7,-44.2 l1.0,3"/><path d="M-5.6,-68.2 l2.0,2"/><path d="M32.5,-33.3 l3.0,3"/><path d="M-33.4,-57.3 l1.0,2"/><path d="M4.7,-81.4 l2.0,3"/><path d="M42.8,-46.5 l3.0,2"/><path d="M-23.1,-70.5 l1.0,3"/><path d="M15.0,-35.6 l2.0,2"/><path d="M-50.9,-59.6 l3.0,3"/><path d="M-12.8,-83.7 l1.0,2"/><path d="M25.3,-48.8 l2.0,3"/><path d="M-40.6,-72.8 l3.0,2"/><path d="M-2.5,-37.9 l1.0,3"/><path d="M35.6,-61.9 l2.0,2"/><path d="M-30.3,-86.0 l3.0,3"/><path d="M7.8,-51.0 l1.0,2"/><path d="M45.9,-75.1 l2.0,3"/><path d="M-20.0,-40.2 l3.0,2"/><path d="M18.1,-64.2 l1.0,3"/><path d="M-47.8,-88.3 l2.0,2"/><path d="M-9.7,-53.3 l3.0,3"/><path d="M28.4,-77.4 l1.0,2"/><path d="M-37.5,-42.5 l2.0,3"/><path d="M0.6,-66.5 l3.0,2"/><path d="M38.7,-31.6 l1.0,3"/><path d="M-27.2,-55.6 l2.0,2"/><path d="M10.9,-79.7 l3.0,3"/><path d="M49.0,-44.7 l1.0,2"/><path d="M-16.9,-68.8 l2.0,3"/><path d="M21.2,-33.9 l3.0,2"/><path d="M-44.7,-57.9 l1.0,3"/><path d="M-6.6,-82.0 l2.0,2"/><path d="M31.5,-47.0 l3.0,3"/><path d="M-34.4,-71.1 l1.0,2"/><path d="M3.7,-36.2 l2.0,3"/><path d="M41.8,-60.2 l3.0,2"/><path d="M-24.1,-84.3 l1.0,3"/><path d="M14.0,-49.3 l2.0,2"/><path d="M-51.9,-73.4 l3.0,3"/><path d="M-13.8,-38.4 l1.0,2"/><path d="M24.3,-62.5 l2.0,3"/><path d="M-41.6,-86.6 l3.0,2"/><path d="M-3.5,-51.6 l1.0,3"/><path d="M34.6,-75.7 l2.0,2"/><path d="M-31.3,-40.7 l3.0,3"/><path d="M6.8,-64.8 l1.0,2"/><path d="M44.9,-88.9 l2.0,3"/><path d="M-21.0,-53.9 l3.0,2"/><path d="M17.0,-78.0 l1.0,3"/><path d="M-48.9,-43.0 l2.0,2"/><path d="M-10.8,-67.1 l3.0,3"/><path d="M27.3,-32.1 l1.0,2"/><path d="M-38.6,-56.2 l2.0,3"/><path d="M-0.5,-80.3 l3.0,2"/><path d="M37.6,-45.3 l1.0,3"/><path d="M-28.3,-69.4 l2.0,2"/><path d="M9.8,-34.4 l3.0,3"/><path d="M47.9,-58.5 l1.0,2"/><path d="M-18.0,-82.6 l2.0,3"/><path d="M20.1,-47.6 l3.0,2"/><path d="M-45.8,-71.7 l1.0,3"/><path d="M-7.7,-36.7 l2.0,2"/><path d="M30.4,-60.8 l3.0,3"/><path d="M-35.5,-84.8 l1.0,2"/><path d="M2.6,-49.9 l2.0,3"/><path d="M40.7,-74.0 l3.0,2"/><path d="M-25.2,-39.0 l1.0,3"/><path d="M12.9,-63.1 l2.0,2"/><path d="M-53.0,-87.1 l3.0,3"/><path d="M-14.9,-52.2 l1.0,2"/><path d="M23.2,-76.3 l2.0,3"/><path d="M-42.7,-41.3 l3.0,2"/><path d="M-4.6,-65.4 l1.0,3"/><path d="M33.5,-89.4 l2.0,2"/><path d="M-32.4,-54.5 l3.0,3"/><path d="M5.7,-78.5 l1.0,2"/><path d="M43.8,-43.6 l2.0,3"/><path d="M-22.1,-67.7 l3.0,2"/><path d="M16.0,-32.7 l1.0,3"/><path d="M-49.9,-56.8 l2.0,2"/><path d="M-11.8,-80.8 l3.0,3"/><path d="M26.3,-45.9 l1.0,2"/><path d="M-39.6,-70.0 l2.0,3"/><path d="M-1.5,-35.0 l3.0,2"/><path d="M36.6,-59.1 l1.0,3"/><path d="M-29.3,-83.1 l2.0,2"/><path d="M8.8,-48.2 l3.0,3"/><path d="M46.9,-72.2 l1.0,2"/><path d="M-19.0,-37.3 l2.0,3"/><path d="M19.1,-61.4 l3.0,2"/><path d="M-46.8,-85.4 l1.0,3"/><path d="M-8.7,-50.5 l2.0,2"/><path d="M29.4,-74.5 l3.0,3"/><path d="M-36.5,-39.6 l1.0,2"/><path d="M1.6,-63.7 l2.0,3"/><path d="M39.7,-87.7 l3.0,2"/><path d="M-26.2,-52.8 l1.0,3"/><path d="M11.9,-76.8 l2.0,2"/><path d="M-54.0,-41.9 l3.0,3"/><path d="M-15.9,-65.9 l1.0,2"/><path d="M22.2,-90.0 l2.0,3"/><path d="M-43.7,-55.1 l3.0,2"/><path d="M-5.6,-79.1 l1.0,3"/><path d="M32.5,-44.2 l2.0,2"/><path d="M-33.4,-68.2 l3.0,3"/><path d="M4.7,-33.3 l1.0,2"/><path d="M42.8,-57.3 l2.0,3"/><path d="M-23.1,-81.4 l3.0,2"/><path d="M15.0,-46.5 l1.0,3"/><path d="M-50.9,-70.5 l2.0,2"/><path d="M-12.8,-35.6 l3.0,3"/><path d="M25.3,-59.6 l1.0,2"/><path d="M-40.6,-83.7 l2.0,3"/><path d="M-2.5,-48.8 l3.0,2"/><path d="M35.6,-72.8 l1.0,3"/><path d="M-30.3,-37.9 l2.0,2"/><path d="M7.8,-61.9 l3.0,3"/><path d="M45.9,-86.0 l1.0,2"/><path d="M-20.0,-51.0 l2.0,3"/><path d="M18.1,-75.1 l3.0,2"/><path d="M-47.8,-40.2 l1.0,3"/><path d="M-9.7,-64.2 l2.0,2"/><path d="M28.4,-88.3 l3.0,3"/><path d="M-37.5,-53.3 l1.0,2"/><path d="M0.6,-77.4 l2.0,3"/><path d="M38.7,-42.5 l3.0,2"/><path d="M-27.2,-66.5 l1.0,3"/><path d="M10.9,-31.6 l2.0,2"/><path d="M49.0,-55.6 l3.0,3"/></g>
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="#f7e9cf" stroke-width="2.2" stroke-linecap="round" opacity=".3"/>
+      <path d="M41,-77 Q50,-68 45,-57" fill="none" stroke="#ffd9a0" stroke-width="1.8" stroke-linecap="round" opacity=".35"/>
       <g transform="translate(-32,-60)"><g class="bj-hind-near">
           <path d="M-9,-6 C-22,1 -18,18 -6,29 Q0,33 6,25 L9,1 Z" fill="url(#bj-limb)"/>
           <path d="M-9,4 Q0,9 8,5 M-9,13 Q0,18 7,13 M-6,22 l11,1" fill="none" stroke="#292824" stroke-width="3.7"/>
@@ -204,6 +257,8 @@
     </g></g>
     </g></g></g></g>
       <g class="bj-zzz" fill="#59636e"><text class="bj-z1" x="600" y="168" font-size="13">z</text><text class="bj-z2" x="586" y="150" font-size="16">z</text><text class="bj-z3" x="570" y="130" font-size="19">z</text></g>
+      <g fill="none" stroke="#2f6b3a" stroke-width="2.2" stroke-linecap="round"><g transform="translate(120,294)"><g class="bj-fore1"><path d="M0,0 q-4,-16 -10,-20 M0,0 q2,-18 9,-22 M0,0 q7,-11 15,-13"/></g></g><g transform="translate(430,294)"><g class="bj-fore2"><path d="M0,0 q-5,-13 -11,-16 M0,0 q3,-16 10,-19 M0,0 q8,-9 16,-11"/></g></g><g transform="translate(700,294)"><g class="bj-fore3"><path d="M0,0 q-4,-18 -11,-22 M0,0 q2,-20 10,-24 M0,0 q8,-12 16,-14"/></g></g><g transform="translate(858,294)"><g class="bj-fore4"><path d="M0,0 q-5,-15 -12,-18 M0,0 q3,-17 11,-20"/></g></g></g>
+      <rect width="900" height="292" fill="url(#bj-vignette)"/>
       <text class="bj-caption bj-caption-0 muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol</text><text class="bj-caption bj-caption-1 muted" x="450" y="322" text-anchor="middle" font-size="12">A little catnip nibble</text><text class="bj-caption bj-caption-2 muted" x="450" y="322" text-anchor="middle" font-size="12">Something fishy…</text><text class="bj-caption bj-caption-3 muted" x="450" y="322" text-anchor="middle" font-size="12">Almost got it!</text><text class="bj-caption bj-caption-4 muted" x="450" y="322" text-anchor="middle" font-size="12">A butterfly! Act natural.</text><text class="bj-caption bj-caption-5 muted" x="450" y="322" text-anchor="middle" font-size="12">Pounce!</text><text class="bj-caption bj-caption-6 muted" x="450" y="322" text-anchor="middle" font-size="12">So close.</text><text class="bj-caption bj-caption-7 muted" x="450" y="322" text-anchor="middle" font-size="12">One more adventure</text><text class="bj-caption bj-caption-8 muted" x="450" y="322" text-anchor="middle" font-size="12">That ledge looked wider</text><text class="bj-caption bj-caption-9 muted" x="450" y="322" text-anchor="middle" font-size="12">No grip. Slow slide. Soft landing.</text><text class="bj-caption bj-caption-10 muted" x="450" y="322" text-anchor="middle" font-size="12">Meant to do that.</text><text class="bj-caption bj-caption-11 muted" x="450" y="322" text-anchor="middle" font-size="12">This looks like a good spot.</text><text class="bj-caption bj-caption-12 muted" x="450" y="322" text-anchor="middle" font-size="12">Nap protocol engaged.</text><text class="bj-caption bj-caption-13 muted" x="450" y="322" text-anchor="middle" font-size="12">Homeward, eventually.</text><text class="bj-caption bj-caption-14 muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol</text>
       <text class="bj-still muted" x="450" y="322" text-anchor="middle" font-size="12">Backyard patrol · catnip, fish toys, butterflies and sunny naps</text>
   </g>

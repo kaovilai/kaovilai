@@ -19,7 +19,7 @@ from unittest.mock import patch
 
 SCRIPT = Path(__file__).resolve().parent / "generate-profile-svgs.py"
 REPO = SCRIPT.parents[2]
-SIZE_BUDGET = 150_000  # bytes per theme, including photo-derived vector contours
+SIZE_BUDGET = 160_000  # bytes per theme: traced face contours plus the layered habitat scene
 NS = "{http://www.w3.org/2000/svg}"
 
 
@@ -148,6 +148,19 @@ class RenderTests(unittest.TestCase):
         for mode, svg in RENDERS.items():
             with self.subTest(mode):
                 self.assertLessEqual(len(svg.encode("utf-8")), SIZE_BUDGET)
+
+    def test_habitat_scene_is_layered_and_theme_aware(self):
+        for mode, svg in RENDERS.items():
+            with self.subTest(mode):
+                ids = {e.get("id") for e in ET.fromstring(svg).iter() if e.get("id")}
+                for want in ("bj-sky", "bj-sunglow", "bj-ray", "bj-haze", "bj-cloudfill",
+                             "bj-vignette", "bj-wood", "bj-leaf"):
+                    self.assertIn(want, ids, f"missing {want}")
+                classes = class_set(svg)
+                self.assertTrue({"bj-cloud1", "bj-cloud2", "bj-cloud3"} <= classes)
+                # Life in the closing light is dusk-only (fireflies) or day-only (pollen).
+                self.assertEqual("bj-fire1" in classes, GEN.THEMES[mode]["night"])
+                self.assertEqual("bj-pollen1" in classes, not GEN.THEMES[mode]["night"])
 
     def test_accessibility_labels(self):
         for mode, svg in RENDERS.items():
