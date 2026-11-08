@@ -19,7 +19,7 @@ from unittest.mock import patch
 
 SCRIPT = Path(__file__).resolve().parent / "generate-profile-svgs.py"
 REPO = SCRIPT.parents[2]
-SIZE_BUDGET = 160_000  # bytes per theme: traced face contours plus the layered habitat scene
+SIZE_BUDGET = 180_000  # bytes per theme: traced face art plus two cats and the layered habitat
 NS = "{http://www.w3.org/2000/svg}"
 
 
@@ -250,12 +250,22 @@ class FaceArtworkTests(unittest.TestCase):
     def test_ear_and_jaw_contain_independent_vector_layers(self):
         for svg in RENDERS.values():
             root = ET.fromstring(svg)
-            head = root.find(f".//{NS}g[@class='bj-head']")
-            self.assertIsNotNone(head)
+            art = root.find(f".//{NS}g[@id='bj-face-art']")
+            self.assertIsNotNone(art, "shared face artwork missing")
             for name in ("ear", "jaw"):
-                joint = head.find(f".//{NS}g[@class='bj-{name}']")
+                joint = art.find(f".//{NS}g[@class='bj-{name}']")
                 self.assertIsNotNone(joint)
                 self.assertGreater(len(list(joint.iter(NS + "path"))), 1)
+            # Both brothers wear the one portrait, each placed by its own head transform.
+            uses = [u for u in root.iter(NS + "use") if u.get("href") == "#bj-face-art"]
+            self.assertEqual(len(uses), 2, "both cats must use the shared face")
+            parents = {child: parent for parent in root.iter() for child in parent}
+            for use in uses:
+                node, placed = use, False
+                while node is not None:
+                    placed = placed or bool(node.get("transform"))
+                    node = parents.get(node)
+                self.assertTrue(placed, "shared face used without placement")
 
 
 class DeterminismTests(unittest.TestCase):
@@ -358,6 +368,45 @@ class StoryTests(unittest.TestCase):
                     apex = min(arc, key=lambda r: r[2])
                     self.assertAlmostEqual(apex[0], (t0 + t1) / 2, delta=.06,
                                            msg="level jump apexes at mid-flight")
+
+    def test_brother_is_a_three_legged_ginger_tabby(self):
+        for mode, svg in RENDERS.items():
+            with self.subTest(mode):
+                root = ET.fromstring(svg)
+                legs = [e.get("class", "") for e in root.iter(NS + "g")
+                        if re.fullmatch(r"bjp-(fore|hind)-(near|far)", e.get("class", ""))]
+                self.assertEqual(len(legs), 3, "Popeyes must stand on three legs")
+                self.assertNotIn("bjp-hind-far", legs)
+                self.assertTrue(any(c.startswith("bjp-fore") for c in legs))
+                self.assertTrue(any(c.startswith("bjp-hind") for c in legs))
+                ids = {e.get("id") for e in root.iter() if e.get("id")}
+                self.assertIn("bjp-coat", ids, "ginger coat missing")
+                self.assertIn("bjp-torso-clip", ids)
+
+    def test_brother_hops_on_the_same_gravity(self):
+        g = GEN.GRAVITY
+        bob = track_samples(self.css, "bjp-bob")
+        for t0, t1 in GEN.POPEYES_HOPS[:2]:
+            hop = [(s, v[0]) for s, v in bob if t0 - 1e-6 <= s <= t1 + 1e-6]
+            self.assertEqual(len(hop), 5, "hop must sample its arc")
+            self.assertEqual(hop[0][1], 0)
+            self.assertEqual(hop[-1][1], 0)
+            vy = [(b[1] - a[1]) / (b[0] - a[0]) for a, b in zip(hop, hop[1:])]
+            mids = [(a[0] + b[0]) / 2 for a, b in zip(hop, hop[1:])]
+            for (a, b), (ma, mb) in zip(zip(vy, vy[1:]), zip(mids, mids[1:])):
+                self.assertAlmostEqual((b - a) / (mb - ma), g, delta=g * .05)
+
+    def test_brother_shares_the_nap(self):
+        lids = [p * DURATION / 100 for p, d in keyframes(self.css, "bj-nap-eyes")
+                if "opacity:1" in d.replace(" ", "")]
+        loaf = [r for r in GEN.POPEYES_STORY if r[3] == "loaf"]
+        self.assertTrue(loaf, "no loaf for Popeyes")
+        # He lies down before the eyelids close and is still down when they open.
+        self.assertLessEqual(loaf[0][0], lids[0])
+        self.assertGreaterEqual(loaf[-1][0], lids[1])
+        # They nap side by side, not on top of each other.
+        nap_x = next(r[1] for r in GEN.BOJANGLES_STORY if r[4] == "loaf")
+        self.assertGreater(abs(nap_x - loaf[0][1]), 120)
 
     def test_nibble_catnip(self):
         flowers_x = 299  # flower bed origin in the SVG
