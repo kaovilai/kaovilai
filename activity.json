@@ -3,7 +3,7 @@
     "start": "2026-08-11",
     "end": "2026-11-09"
   },
-  "generatedAt": "2026-11-09T20:09:17Z",
+  "generatedAt": "2026-11-09T21:07:53Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 20,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
+      "url": "https://github.com/kaovilai/podm/pull/20",
+      "date": "2026-11-09T20:17:54Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 2531,
       "repo": "openshift/oadp-operator",
@@ -901,15 +910,6 @@
       "title": "ci: cache mqvpn binaries, not build trees; skip the build on a hit",
       "url": "https://github.com/kaovilai/tailbond/pull/27",
       "date": "2026-11-05T11:00:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 31,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "test: no core dumps from TestMqvpnCrashSignal; remove the ones committed",
-      "url": "https://github.com/kaovilai/tailbond/pull/31",
-      "date": "2026-11-05T10:59:58Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 23510,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(clients): later image reads show updated file contents",
+      "url": "https://github.com/pingdotgg/t3code/pull/23510",
+      "date": "2026-11-09T20:38:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 2493,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1977,18 +1986,18 @@
       "url": "https://github.com/velero-io/velero/pull/10791",
       "date": "2026-11-05T16:29:14Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10792,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)",
-      "url": "https://github.com/velero-io/velero/pull/10792",
-      "date": "2026-11-05T16:23:59Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 22368,
+      "repo": "kubernetes/kubernetes",
+      "org": "kubernetes",
+      "title": "Facilitate ConfigMap rollouts / management",
+      "url": "https://github.com/kubernetes/kubernetes/issues/22368",
+      "date": "2026-11-09T21:01:50Z",
+      "workstream": "Kubernetes"
+    },
     {
       "number": 18,
       "repo": "Past-da-king/agent",
@@ -2879,15 +2888,6 @@
       "url": "https://github.com/velero-io/velero/issues/10544",
       "date": "2026-09-19T02:27:30Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 99,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Add OADP e2e test coverage for kubevirt-datamover",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/99",
-      "date": "2026-09-18T19:29:53Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesClosed": [

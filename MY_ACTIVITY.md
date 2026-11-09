@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 20:09:17 UTC
+> **Generated:** 2026-11-09 21:07:53 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -26,6 +26,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (94)
+- [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
 - [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
 - [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
@@ -119,7 +120,6 @@
 - [#30 android: Android TV, driven by the remote](https://github.com/kaovilai/tailbond/pull/30) — kaovilai/tailbond
 - [#29 Pair & Share: Macs and Linux computers can share an uplink with a hub](https://github.com/kaovilai/tailbond/pull/29) — kaovilai/tailbond
 - [#27 ci: cache mqvpn binaries, not build trees; skip the build on a hit](https://github.com/kaovilai/tailbond/pull/27) — kaovilai/tailbond
-- [#31 test: no core dumps from TestMqvpnCrashSignal; remove the ones committed](https://github.com/kaovilai/tailbond/pull/31) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (1)
@@ -229,7 +229,7 @@
 - [#31614 fix(web): model picker no longer leaves blank rows](https://github.com/pingdotgg/t3code/pull/31614) — pingdotgg/t3code
 ## PRs Reviewed (19)
 
-**velero-io** (12)
+**velero-io** (11)
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 - [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
 - [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
@@ -241,7 +241,6 @@
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10791 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.90 to 0.2.194](https://github.com/velero-io/velero/pull/10791) — velero-io/velero
-- [#10792 [release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)](https://github.com/velero-io/velero/pull/10792) — velero-io/velero
 
 **openshift** (5)
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
@@ -253,7 +252,8 @@
 **migtools** (1)
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 
-**Other** (1)
+**Other** (2)
+- [#23510 fix(clients): later image reads show updated file contents](https://github.com/pingdotgg/t3code/pull/23510) — pingdotgg/t3code
 - [#7381 PROJQUAY-8767: fix(ui): load tag history on demand and search server-side](https://github.com/quay/quay/pull/7381) — quay/quay
 ## Issues/PRs Commented On (100)
 
@@ -311,10 +311,8 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 
-**migtools** (1)
-- [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
-
-**Other** (49)
+**Other** (50)
+- [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
 - [#18 Add MacroDroid-style Android automation integration](https://github.com/Past-da-king/agent/issues/18) — Past-da-king/agent
 - [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
