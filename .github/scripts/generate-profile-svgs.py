@@ -753,7 +753,6 @@ def hop_bob(spans, steps=4):
 def bojangles(t, _s):
     """Photo-inspired tabby, articulated limbs and a CSS-only backyard story."""
     w, h, ground, duration = 900, 340, 290, BOJANGLES_STORY[-1][0]
-    stripe, cream = "#292824", "#c9c1aa"
     # Upper/lower foreleg, upper/lower hind leg, head. Angles pivot at joints, not bounding boxes.
     poses = dict(stand=(0, 0, 0, 0, 0), walk=(0, 0, 0, 0, 0),
                  nibble=(0, 0, 0, 0, 13), crouch=(-42, 75, -52, 59, -5),
@@ -805,6 +804,35 @@ def bojangles(t, _s):
         face = json.loads(face_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         raise ValueError(f"Cannot load Bojangles vector artwork from {face_path}: {exc}") from exc
+
+    # Body colours are sampled from the traced portrait's own fills, so the vector
+    # coats and the photo-derived face read as one animal. Popeyes picks darker
+    # targets from the same palette: a tabby brother, not a different cat.
+    def _rgb(value):
+        return tuple(int(value[i:i + 2], 16) for i in (1, 3, 5))
+
+    def _lum(value):
+        r, g, b = _rgb(value)
+        return .2126 * r + .7152 * g + .0722 * b
+
+    def _sat(value):
+        r, g, b = _rgb(value)
+        return (max(r, g, b) - min(r, g, b)) / (max(r, g, b) or 1)
+
+    traced = [c for c in sorted({p["fill"] for layer in face["layers"] for p in layer["paths"]}, key=_lum)
+              if _sat(c) < .35]
+
+    def pick(target):
+        """Nearest traced colour to a target luminance."""
+        return min(traced, key=lambda c: abs(_lum(c) - target))
+
+    coat = [pick(68), pick(128), pick(157), pick(93)]
+    limb = [pick(62), pick(128), pick(93)]
+    stripe, cream = pick(43), pick(190)
+    shade = pick(30)
+    pop_coat = [pick(50), pick(100), pick(128), pick(62)]
+    pop_limb = [pick(50), pick(100), pick(62)]
+    pop_stripe, pop_cream = pick(28), pick(157)
 
 
     def fur_patch(clip, count, x, y, width, height, hair=cream):
@@ -868,19 +896,19 @@ def bojangles(t, _s):
     # Both brothers share one traced portrait; each instance places it on its own head.
     defs = f"""<defs>
       <linearGradient id="bj-coat" x1="0" y1="0" x2=".2" y2="1">
-        <stop stop-color="#55544c"/><stop offset=".4" stop-color="#938b76"/>
-        <stop offset=".76" stop-color="#a29980"/><stop offset="1" stop-color="#6a6659"/>
+        <stop stop-color="{coat[0]}"/><stop offset=".4" stop-color="{coat[1]}"/>
+        <stop offset=".76" stop-color="{coat[2]}"/><stop offset="1" stop-color="{coat[3]}"/>
       </linearGradient>
       <linearGradient id="bj-limb" x1="0" y1="0" x2="1" y2="0">
-        <stop stop-color="#57574e"/><stop offset=".48" stop-color="#a19a83"/><stop offset="1" stop-color="#777565"/>
+        <stop stop-color="{limb[0]}"/><stop offset=".48" stop-color="{limb[1]}"/><stop offset="1" stop-color="{limb[2]}"/>
       </linearGradient>
       <clipPath id="bj-torso-clip"><path d="{torso}"/></clipPath>
       <linearGradient id="bjp-coat" x1="0" y1="0" x2=".2" y2="1">
-        <stop stop-color="#423c33"/><stop offset=".42" stop-color="#7b6f5c"/>
-        <stop offset=".78" stop-color="#8f8370"/><stop offset="1" stop-color="#5a5245"/>
+        <stop stop-color="{pop_coat[0]}"/><stop offset=".42" stop-color="{pop_coat[1]}"/>
+        <stop offset=".78" stop-color="{pop_coat[2]}"/><stop offset="1" stop-color="{pop_coat[3]}"/>
       </linearGradient>
       <linearGradient id="bjp-limb" x1="0" y1="0" x2="1" y2="0">
-        <stop stop-color="#464033"/><stop offset=".48" stop-color="#857963"/><stop offset="1" stop-color="#6a6151"/>
+        <stop stop-color="{pop_limb[0]}"/><stop offset=".48" stop-color="{pop_limb[1]}"/><stop offset="1" stop-color="{pop_limb[2]}"/>
       </linearGradient>
       <clipPath id="bjp-torso-clip"><path d="{torso}"/></clipPath>
       <g id="bj-face-art">
@@ -904,7 +932,7 @@ def bojangles(t, _s):
     cat_head = '<g class="bj-head"><use href="#bj-face-art" transform="translate(104,-142) scale(-.42,.42)"/></g>'
     cat = f"""<g class="bj-pitch">
       <g transform="translate(-47,-65)"><g class="bj-tail">
-        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#787767" stroke-width="10" stroke-linecap="round"/>
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{coat[1]}" stroke-width="10" stroke-linecap="round"/>
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{stripe}" stroke-width="10.2" stroke-dasharray="5 7"/>
         <path d="M-5,-3 Q-36,-11 -43,-28" fill="none" stroke="{cream}" stroke-width="1.1" opacity=".5"/>
       </g></g>
@@ -915,26 +943,25 @@ def bojangles(t, _s):
         <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="{cream}" stroke-width="9" opacity=".65"/>
         <g fill="{stripe}" opacity=".93">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{stripe}" stroke-width="2.5"/>
-        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="#2b2620" opacity=".18"/>
-        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="#fff2d8" opacity=".12"/>
+        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="{shade}" opacity=".18"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="{cream}" opacity=".12"/>
       </g>
       {fur_patch('bj-torso-clip', 112, -54, -90, 104, 59)}
-      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="#f7e9cf" stroke-width="2.2" stroke-linecap="round" opacity=".3"/>
-      <path d="M41,-77 Q50,-68 45,-57" fill="none" stroke="#ffd9a0" stroke-width="1.8" stroke-linecap="round" opacity=".35"/>
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="{cream}" stroke-width="2.2" stroke-linecap="round" opacity=".3"/>
+      <path d="M41,-77 Q50,-68 45,-57" fill="none" stroke="{coat[2]}" stroke-width="1.8" stroke-linecap="round" opacity=".35"/>
       {leg('bj-', 'hind-near', -32, -60, True)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bj-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{stripe}" stroke-width="4.5"/>
       {leg('bj-', 'fore-near', 34, -60)}{cat_head}
     </g>"""
 
-    # Popeyes: brown tabby like his brother, three legs (his far hind is gone), one shared portrait.
-    pop_stripe, pop_cream = "#221e18", "#c9bda4"
+    # Popeyes: darker tabby from the same traced palette, three legs (his far hind is gone).
     pop_head = (f'<g class="bjp-head"><g transform="translate(96,-124) scale(-.36,.36)">'
                 f'<use href="#bj-face-art"/>'
-                f'<path d="{face["outline"]}" fill="#b39a75" opacity=".12"/></g></g>')
+                f'<path d="{face["outline"]}" fill="{shade}" opacity=".12"/></g></g>')
     pop = f"""<g class="bjp-pitch"><g transform="scale(.92)">
       <g transform="translate(-47,-65)"><g class="bjp-tail">
-        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="#6e6454" stroke-width="10" stroke-linecap="round"/>
+        <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{pop_coat[1]}" stroke-width="10" stroke-linecap="round"/>
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{pop_stripe}" stroke-width="10.2" stroke-dasharray="5 7"/>
         <path d="M-5,-3 Q-36,-11 -43,-28" fill="none" stroke="{pop_cream}" stroke-width="1.1" opacity=".5"/>
       </g></g>
@@ -945,11 +972,11 @@ def bojangles(t, _s):
         <path d="M-37,-40 Q6,-28 35,-43" fill="none" stroke="{pop_cream}" stroke-width="9" opacity=".6"/>
         <g fill="{pop_stripe}" opacity=".88">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{pop_stripe}" stroke-width="2.5"/>
-        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="#241f18" opacity=".18"/>
-        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="#f2eadb" opacity=".13"/>
+        <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="{shade}" opacity=".18"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="{pop_cream}" opacity=".13"/>
       </g>
       {fur_patch('bjp-torso-clip', 34, -54, -90, 104, 59, pop_cream)}
-      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="#efe4cf" stroke-width="2.2" stroke-linecap="round" opacity=".28"/>
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="{pop_cream}" stroke-width="2.2" stroke-linecap="round" opacity=".28"/>
       {leg('bjp-', 'hind-near', -32, -60, True, ink=pop_stripe, hair=pop_cream)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bjp-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{pop_stripe}" stroke-width="4.5"/>
@@ -1117,8 +1144,8 @@ def bojangles(t, _s):
     body = f"""{defs}
       {habitat}
       {life}
-      <text x="28" y="33" font-size="19" font-weight="650">Bojangles</text>
-      <text class="muted" x="28" y="52" font-size="11">chief nap officer · occasional adventurer</text>
+      <text x="28" y="33" font-size="19" font-weight="650">Bojangles and Popeyes</text>
+      <text class="muted" x="28" y="52" font-size="11">chief nap officers · occasional adventurers</text>
       {birds}
       <path d="M28,292 H872" stroke="{t['border']}" fill="none"/>
       <g fill="none" stroke="{grass_color}" stroke-width="1.1" opacity=".65">{grass}</g>
@@ -1218,7 +1245,7 @@ def bojangles(t, _s):
         .bj-zzz {display:none;} .bj-nap-eyes {opacity:0;}}
     """
     css += life_css
-    return shell(w, h, t, body, "Bojangles · backyard adventures",
+    return shell(w, h, t, body, "Bojangles and Popeyes · backyard adventures",
                  "A grey-brown tabby with a striped forehead, olive eyes and pale whiskers, out in a leafy "
                  "backyard under a sunny sky with drifting clouds. Bojangles nibbles catnip flowers, leaps "
                  "for a moving toy fish, pounces at a butterfly, tries a narrow wall, loses his grip, slides "
