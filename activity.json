@@ -3,24 +3,15 @@
     "start": "2026-08-11",
     "end": "2026-11-09"
   },
-  "generatedAt": "2026-11-09T21:07:53Z",
+  "generatedAt": "2026-11-09T22:07:52Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 19,
     "issuesCommented": 100,
-    "issuesClosed": 81
+    "issuesClosed": 82
   },
   "prsMerged": [
-    {
-      "number": 20,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
-      "url": "https://github.com/kaovilai/podm/pull/20",
-      "date": "2026-11-09T20:17:54Z",
-      "workstream": "Uncategorized"
-    },
     {
       "number": 2531,
       "repo": "openshift/oadp-operator",
@@ -38,6 +29,15 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
       "date": "2026-11-09T17:59:47Z",
       "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 20,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
+      "url": "https://github.com/kaovilai/podm/pull/20",
+      "date": "2026-11-09T20:17:54Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 18,
@@ -1817,22 +1817,13 @@
   ],
   "prsReviewed": [
     {
-      "number": 23510,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(clients): later image reads show updated file contents",
-      "url": "https://github.com/pingdotgg/t3code/pull/23510",
-      "date": "2026-11-09T20:38:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-11-09T18:41:06Z",
-      "workstream": "OADP"
+      "number": 10802,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195",
+      "url": "https://github.com/velero-io/velero/pull/10802",
+      "date": "2026-11-09T21:38:53Z",
+      "workstream": "Velero"
     },
     {
       "number": 2527,
@@ -1840,8 +1831,26 @@
       "org": "openshift",
       "title": "Bug: fix CreateNamespace race when namespace is Terminating",
       "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-11-09T18:39:28Z",
+      "date": "2026-11-09T21:19:31Z",
       "workstream": "OADP"
+    },
+    {
+      "number": 2493,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
+      "url": "https://github.com/openshift/oadp-operator/pull/2493",
+      "date": "2026-11-09T21:14:34Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 23510,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(clients): later image reads show updated file contents",
+      "url": "https://github.com/pingdotgg/t3code/pull/23510",
+      "date": "2026-11-09T20:38:34Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 2533,
@@ -1904,15 +1913,6 @@
       "title": "Add a velero_backup_active metric",
       "url": "https://github.com/velero-io/velero/pull/10796",
       "date": "2026-11-08T05:25:44Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10802,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195",
-      "url": "https://github.com/velero-io/velero/pull/10802",
-      "date": "2026-11-07T19:23:38Z",
       "workstream": "Velero"
     },
     {
@@ -1990,22 +1990,22 @@
   ],
   "issuesCommented": [
     {
-      "number": 22368,
-      "repo": "kubernetes/kubernetes",
-      "org": "kubernetes",
-      "title": "Facilitate ConfigMap rollouts / management",
-      "url": "https://github.com/kubernetes/kubernetes/issues/22368",
-      "date": "2026-11-09T21:01:50Z",
-      "workstream": "Kubernetes"
-    },
-    {
       "number": 18,
       "repo": "Past-da-king/agent",
       "org": "Past-da-king",
       "title": "Add MacroDroid-style Android automation integration",
       "url": "https://github.com/Past-da-king/agent/issues/18",
-      "date": "2026-11-09T19:39:50Z",
+      "date": "2026-11-09T21:25:37Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 22368,
+      "repo": "kubernetes/kubernetes",
+      "org": "kubernetes",
+      "title": "Facilitate ConfigMap rollouts / management",
+      "url": "https://github.com/kubernetes/kubernetes/issues/22368",
+      "date": "2026-11-09T21:14:03Z",
+      "workstream": "Kubernetes"
     },
     {
       "number": 24901,
@@ -2891,6 +2891,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 18,
+      "repo": "Past-da-king/agent",
+      "org": "Past-da-king",
+      "title": "Add MacroDroid-style Android automation integration",
+      "url": "https://github.com/Past-da-king/agent/issues/18",
+      "date": "2026-11-09T21:25:37Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 49,
       "repo": "kaovilai/tailbond",
