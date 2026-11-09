@@ -1,17 +1,44 @@
 {
   "period": {
-    "start": "2026-08-10",
-    "end": "2026-11-08"
+    "start": "2026-08-11",
+    "end": "2026-11-09"
   },
-  "generatedAt": "2026-11-08T18:13:10Z",
+  "generatedAt": "2026-11-09T00:31:58Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 26,
+    "prsReviewed": 25,
     "issuesCommented": 100,
-    "issuesClosed": 85
+    "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 55,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "docs: design note on deconstructing tailscaled, with the measurements that say don't",
+      "url": "https://github.com/kaovilai/tailbond/pull/55",
+      "date": "2026-11-08T18:49:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 57,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "pairing: a success that arrives after the caller gave up is still abandoned",
+      "url": "https://github.com/kaovilai/tailbond/pull/57",
+      "date": "2026-11-08T18:29:55Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 56,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "ci: an empty diff builds nothing and releases nothing",
+      "url": "https://github.com/kaovilai/tailbond/pull/56",
+      "date": "2026-11-08T18:28:29Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 638,
       "repo": "kaovilai/dotfiles",
@@ -884,36 +911,18 @@
       "url": "https://github.com/kaovilai/tailbond/pull/7",
       "date": "2026-11-04T09:25:44Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "deploy: untested one-click server templates + iPhone path probe",
-      "url": "https://github.com/kaovilai/tailbond/pull/6",
-      "date": "2026-11-04T09:25:13Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 4,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "chore: issue forms + gh-aw autofix, grouped Dependabot, auto-merge and auto-release",
-      "url": "https://github.com/kaovilai/tailbond/pull/4",
-      "date": "2026-11-04T09:24:28Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 5,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "CI fixes, Flint 3 fixes, Android emulator e2e, Pair & Share",
-      "url": "https://github.com/kaovilai/tailbond/pull/5",
-      "date": "2026-11-04T04:36:31Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 57,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "pairing: a success that arrives after the caller gave up is still abandoned",
+      "url": "https://github.com/kaovilai/tailbond/pull/57",
+      "date": "2026-11-08T18:14:44Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 56,
       "repo": "kaovilai/tailbond",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/tailbond/pull/15",
       "date": "2026-11-04T14:47:24Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 14,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "android: make the signed release build pass in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/14",
-      "date": "2026-11-04T14:18:51Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2040,15 +2040,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2527",
       "date": "2026-11-04T20:39:55Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10601,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1)",
-      "url": "https://github.com/velero-io/velero/pull/10601",
-      "date": "2026-11-04T14:26:32Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
@@ -3682,42 +3673,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122",
       "date": "2026-08-13T17:32:44Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 168,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Configurable VMB (and VMBT) cleanup after DataUpload Failed transition",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/168",
-      "date": "2026-08-10T20:24:09Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 171,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload cleanup blocks reconcile worker when pod cleanup hasn't finished before PVC/PV cleanup",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/171",
-      "date": "2026-08-10T20:24:08Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10046,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fs-backup restore deadlocks at Init:0/1 on owner-restricted volumes — restore-wait init container ignores pod-level securityContext, falls back to hardcoded runAsUser 1000",
-      "url": "https://github.com/velero-io/velero/issues/10046",
-      "date": "2026-08-10T19:36:16Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2209,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Feature request: Additive extraArgs for Velero server and node-agent",
-      "url": "https://github.com/openshift/oadp-operator/issues/2209",
-      "date": "2026-08-10T13:11:23Z",
-      "workstream": "OADP"
     }
   ]
 }
