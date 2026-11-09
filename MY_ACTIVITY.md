@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 16:10:34 UTC
+> **Generated:** 2026-11-09 17:08:58 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -24,6 +24,9 @@
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 
 **Other** (96)
+- [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
+- [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
+- [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
 - [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
@@ -117,14 +120,10 @@
 - [#26 agent: Go 1.27 (language 1.27, toolchain go1.27.3)](https://github.com/kaovilai/tailbond/pull/26) — kaovilai/tailbond
 - [#24 ci: CodeQL advanced setup, so Java/Kotlin builds with the mqvpn submodule](https://github.com/kaovilai/tailbond/pull/24) — kaovilai/tailbond
 - [#201 fix(picker): job search matches fragments in any order](https://github.com/kaovilai/github-bot-command-palette/pull/201) — kaovilai/github-bot-command-palette
-- [#13 docs: credit the projects tailbond builds on and learned from](https://github.com/kaovilai/tailbond/pull/13) — kaovilai/tailbond
-- [#12 docs: explain that tailbond already works like an exit node](https://github.com/kaovilai/tailbond/pull/12) — kaovilai/tailbond
-- [#11 site: animate how Pair & Share data flows](https://github.com/kaovilai/tailbond/pull/11) — kaovilai/tailbond
 ## PRs Opened (100)
 
-**velero-io** (2)
+**velero-io** (1)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
-- [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 
 **openshift** (4)
 - [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
@@ -132,9 +131,12 @@
 - [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 
-**Other** (94)
+**Other** (95)
+- [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
+- [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
+- [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
 - [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
-- [#62 Authenticate the opposite-kind tag prune with a quay OAuth token](https://github.com/konveyor/builder/pull/62) — konveyor/builder
+- [#62 Remove the automated opposite-kind tag prune](https://github.com/konveyor/builder/pull/62) — konveyor/builder
 - [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
@@ -225,8 +227,6 @@
 - [#31614 fix(web): model picker no longer leaves blank rows](https://github.com/pingdotgg/t3code/pull/31614) — pingdotgg/t3code
 - [#36 a11y: axe-core on every web surface in CI, and the fixes it found](https://github.com/kaovilai/tailbond/pull/36) — kaovilai/tailbond
 - [#85 gh --attach PR test (auto-close)](https://github.com/kaovilai/kaovilai/pull/85) — kaovilai/kaovilai
-- [#34 site: dotted flow texture, a pointer-lit hero, dotted headings](https://github.com/kaovilai/tailbond/pull/34) — kaovilai/tailbond
-- [#33 feat: one click from the Mac to a phone's bonded connection (Bluetooth + Shizuku hotspot)](https://github.com/kaovilai/tailbond/pull/33) — kaovilai/tailbond
 ## PRs Reviewed (20)
 
 **velero-io** (12)
