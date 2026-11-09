@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T12:16:13Z",
+  "updatedAt": "2026-11-09T13:11:41Z",
   "prs": [
     {
       "number": 5,
@@ -16446,7 +16446,7 @@
       "number": 59,
       "repo": "konveyor/builder",
       "org": "konveyor",
-      "title": "Dedupe the published-image selector into scripts/shipped-set.sh",
+      "title": "Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts",
       "url": "https://github.com/konveyor/builder/pull/59",
       "targetBranch": "main",
       "status": "ready",
@@ -16456,7 +16456,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-09T11:57:12Z",
+      "updatedAt": "2026-11-09T13:02:02Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16495,9 +16495,13 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-09T12:15:36Z",
+      "updatedAt": "2026-11-09T13:06:14Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "actionlint",
+          "conclusion": "SUCCESS"
+        },
         {
           "name": "CodeRabbit",
           "conclusion": "NEUTRAL"
@@ -16908,6 +16912,165 @@
         {
           "name": "Mintlify Preview (fork)",
           "conclusion": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "dependabot: stop scanning the compiled gh-aw files and the patched submodule",
+      "url": "https://github.com/kaovilai/tailbond/pull/59",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T13:09:42Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "label",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "What changed",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (c-cpp)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (java-kotlin)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript-typescript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (ruby)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (swift)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Agent (Go tests + builds)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ShellCheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Android APK",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "macOS e2e server VM image (Linux arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "iOS tailbond Share (simulator)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Report a problem (dashboard + GL panel, Chromium)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Static x86_64 mqvpn (musl)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Static aarch64 mqvpn (musl)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Ansible role lint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "End-to-end (netns, patched mqvpn)",
+          "conclusion": ""
+        },
+        {
+          "name": "Android TV emulator (remote only)",
+          "conclusion": ""
+        },
+        {
+          "name": "GL.iNet / OpenWrt ipk",
+          "conclusion": ""
+        },
+        {
+          "name": "Fedora RPM",
+          "conclusion": ""
+        },
+        {
+          "name": "macOS client (mqvpn, tailbondd, e2e)",
+          "conclusion": ""
+        },
+        {
+          "name": "Android emulator end-to-end",
+          "conclusion": ""
+        },
+        {
+          "name": "Generic Linux bundle (VPS)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "VPS install (almalinux:10)",
+          "conclusion": ""
+        },
+        {
+          "name": "VPS install (debian:12)",
+          "conclusion": ""
+        },
+        {
+          "name": "VPS install (ubuntu:24.04)",
+          "conclusion": ""
+        },
+        {
+          "name": "Server image (amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Server image (arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Kubernetes (kubeconform, kind e2e)",
+          "conclusion": ""
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -18339,7 +18502,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-09T12:16:13Z",
+    "updatedAt": "2026-11-09T13:11:41Z",
     "needsReview": [
       {
         "number": 68,
@@ -18616,7 +18779,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18643,7 +18806,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19248,7 +19411,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20559,6 +20722,35 @@
         "updatedAt": "2026-11-07T00:50:27Z"
       },
       {
+        "number": 2272,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "validate container runtime availability before container operations",
+        "url": "https://github.com/openshift/oadp-operator/pull/2272",
+        "targetBranch": "oadp-dev",
+        "author": "Shreyashxredhat",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-08T12:45:01Z"
+      },
+      {
         "number": 10749,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -20591,7 +20783,7 @@
         "number": 59,
         "repo": "konveyor/builder",
         "org": "konveyor",
-        "title": "Dedupe the published-image selector into scripts/shipped-set.sh",
+        "title": "Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts",
         "url": "https://github.com/konveyor/builder/pull/59",
         "targetBranch": "main",
         "author": "kaovilai",
@@ -20609,7 +20801,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-09T11:57:12Z"
+        "updatedAt": "2026-11-09T13:02:02Z"
       },
       {
         "number": 60,
@@ -20622,7 +20814,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20633,7 +20825,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-09T12:15:36Z"
+        "updatedAt": "2026-11-09T13:06:14Z"
       },
       {
         "number": 468,
@@ -20664,35 +20856,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-08T23:22:37Z"
-      },
-      {
-        "number": 2272,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "validate container runtime availability before container operations",
-        "url": "https://github.com/openshift/oadp-operator/pull/2272",
-        "targetBranch": "oadp-dev",
-        "author": "Shreyashxredhat",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "needs-ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-08T12:45:01Z"
       },
       {
         "number": 5,

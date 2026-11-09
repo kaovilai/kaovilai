@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-09 12:16:13 UTC
+> Last updated: 2026-11-09 13:11:41 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -186,12 +186,13 @@ No open PRs.
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #59](https://img.shields.io/badge/PR%20%2359-ready-green)](https://github.com/konveyor/builder/pull/59) **konveyor/builder** → `main` - Dedupe the published-image selector into scripts/shipped-set.sh
+- [![PR #59](https://img.shields.io/badge/PR%20%2359-ready-green)](https://github.com/konveyor/builder/pull/59) **konveyor/builder** → `main` - Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts
 - [![PR #60](https://img.shields.io/badge/PR%20%2360-ready-green)](https://github.com/konveyor/builder/pull/60) **konveyor/builder** → `main` - Add CONTRIBUTING with the one-owner-per-rule maintainability rule
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #59](https://img.shields.io/badge/PR%20%2359-ci--pending-yellow)](https://github.com/kaovilai/tailbond/pull/59) **kaovilai/tailbond** → `main` - dependabot: stop scanning the compiled gh-aw files and the patched submodule
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
