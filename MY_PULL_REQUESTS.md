@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-09 00:16:42 UTC
+> Last updated: 2026-11-09 06:13:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -17,17 +17,17 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10699](https://img.shields.io/badge/PR%20%2310699-ready-green)](https://github.com/velero-io/velero/pull/10699) **velero-io/velero** → `main` - Delete the in-place restore baseline snapshot under a Retain class
 - [![PR #10710](https://img.shields.io/badge/PR%20%2310710-ready-green)](https://github.com/velero-io/velero/pull/10710) **velero-io/velero** → `main` - Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace
 - [![PR #10718](https://img.shields.io/badge/PR%20%2310718-ready-green)](https://github.com/velero-io/velero/pull/10718) **velero-io/velero** → `main` - docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance
+- [![PR #10798](https://img.shields.io/badge/PR%20%2310798-ready-green)](https://github.com/velero-io/velero/pull/10798) **velero-io/velero** → `main` - test: add Go fuzz targets for the backup archive extractor
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/321) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #323](https://img.shields.io/badge/PR%20%23323-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/323) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Fix SSE-C signed URLs (cherry-pick #280)
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/324) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)
 - [![PR #325](https://img.shields.io/badge/PR%20%23325-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/325) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)
+- [![PR #5](https://img.shields.io/badge/PR%20%235-ready-green)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Velero CNCF incubation security and engineering materials
 - [![PR #8884](https://img.shields.io/badge/PR%20%238884-ready-green)](https://github.com/velero-io/velero/pull/8884) **velero-io/velero** → `main` - Design proposal for handling restoration of Kubernetes Jobs
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10691](https://img.shields.io/badge/PR%20%2310691-draft-gray)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
-- [![PR #10798](https://img.shields.io/badge/PR%20%2310798-draft-gray)](https://github.com/velero-io/velero/pull/10798) **velero-io/velero** → `main` - test: add Go fuzz targets for the backup archive extractor
-- [![PR #5](https://img.shields.io/badge/PR%20%235-draft-gray)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Draft Velero CNCF incubation security and engineering materials
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
@@ -185,6 +185,8 @@ No open PRs.
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/konveyor/builder/pull/56) **konveyor/builder** → `main` - Mark pre-release go-fips content in badges and releases
+- [![PR #639](https://img.shields.io/badge/PR%20%23639-ready-green)](https://github.com/kaovilai/dotfiles/pull/639) **kaovilai/dotfiles** → `main` - perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
