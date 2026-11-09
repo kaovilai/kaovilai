@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 13:10:14 UTC
+> **Generated:** 2026-11-09 14:10:20 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 26 |
+| PRs Reviewed | 24 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 81 |
 
@@ -24,6 +24,8 @@
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 
 **Other** (96)
+- [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
+- [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
 - [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
@@ -118,8 +120,6 @@
 - [#19 feat(macos): the Mac as home server (server role on Apple silicon)](https://github.com/kaovilai/tailbond/pull/19) — kaovilai/tailbond
 - [#21 agent: build with Go 1.26.10, not 1.26.0](https://github.com/kaovilai/tailbond/pull/21) — kaovilai/tailbond
 - [#17 feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests](https://github.com/kaovilai/tailbond/pull/17) — kaovilai/tailbond
-- [#23 e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check](https://github.com/kaovilai/tailbond/pull/23) — kaovilai/tailbond
-- [#22 openwrt: signed opkg feed in each release, for GL's Plug-ins page](https://github.com/kaovilai/tailbond/pull/22) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (2)
@@ -227,7 +227,7 @@
 - [#27 ci: cache mqvpn binaries, not build trees; skip the build on a hit](https://github.com/kaovilai/tailbond/pull/27) — kaovilai/tailbond
 - [#26 agent: Go 1.27 (language 1.27, toolchain go1.27.3)](https://github.com/kaovilai/tailbond/pull/26) — kaovilai/tailbond
 - [#25 openwrt: ship the opkg feed's public key](https://github.com/kaovilai/tailbond/pull/25) — kaovilai/tailbond
-## PRs Reviewed (26)
+## PRs Reviewed (24)
 
 **velero-io** (14)
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
@@ -245,7 +245,7 @@
 - [#10790 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.190 to 0.2.194](https://github.com/velero-io/velero/pull/10790) — velero-io/velero
 - [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 
-**openshift** (9)
+**openshift** (7)
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
@@ -253,8 +253,6 @@
 - [#509 [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/509) — openshift/openshift-velero-plugin
 - [#506 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/506) — openshift/openshift-velero-plugin
 - [#2530 Bump CSV metadata to v1.5.9](https://github.com/openshift/oadp-operator/pull/2530) — openshift/oadp-operator
-- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
-- [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 
 **migtools** (2)
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
