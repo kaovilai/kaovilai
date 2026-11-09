@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 22:07:52 UTC
+> **Generated:** 2026-11-09 23:09:08 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 19 |
+| PRs Reviewed | 18 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 82 |
 
@@ -227,9 +227,9 @@
 - [#47 Build Go 1.27 FIPS images (golang-fips prereleases) and modernize the release pipeline: SBOMs, attestations, badges, auto-added UBI variants](https://github.com/konveyor/builder/pull/47) — konveyor/builder
 - [#37 One click from the Mac: the phone starts its hotspot, the Mac bonds through it](https://github.com/kaovilai/tailbond/pull/37) — kaovilai/tailbond
 - [#31614 fix(web): model picker no longer leaves blank rows](https://github.com/pingdotgg/t3code/pull/31614) — pingdotgg/t3code
-## PRs Reviewed (19)
+## PRs Reviewed (18)
 
-**velero-io** (11)
+**velero-io** (10)
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 - [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
@@ -240,7 +240,6 @@
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
-- [#10791 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.90 to 0.2.194](https://github.com/velero-io/velero/pull/10791) — velero-io/velero
 
 **openshift** (5)
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
