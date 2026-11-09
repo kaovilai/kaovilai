@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-09 13:11:41 UTC
+> Last updated: 2026-11-09 14:11:28 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -68,11 +68,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10586](https://img.shields.io/badge/PR%20%2310586-ready-green)](https://github.com/openshift/installer/pull/10586) **openshift/installer** → `main` - no-jira: GCP Destroy: Group Load Balancer Resources & Retry on Errors
 - [![PR #194](https://img.shields.io/badge/PR%20%23194-ready-green)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/194) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
-- [![PR #2207](https://img.shields.io/badge/PR%20%232207-ready-green)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #2272](https://img.shields.io/badge/PR%20%232272-ready-green)](https://github.com/openshift/oadp-operator/pull/2272) **openshift/oadp-operator** → `oadp-dev` - validate container runtime availability before container operations
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
-- [![PR #2482](https://img.shields.io/badge/PR%20%232482-ready-green)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
@@ -88,8 +86,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/175) **openshift/oadp-must-gather** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #183](https://img.shields.io/badge/PR%20%23183-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/183) **openshift/velero-plugin-for-gcp** → `oadp-1.4` - Update auto-request-review action to v0.13.0
+- [![PR #2207](https://img.shields.io/badge/PR%20%232207-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2207) **openshift/oadp-operator** → `oadp-1.5` - OADP-8312: Fix DPA annotation changes not triggering reconciliation
 - [![PR #233](https://img.shields.io/badge/PR%20%23233-waiting--merge-blue)](https://github.com/openshift/hypershift-oadp-plugin/pull/233) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - Add CODEOWNERS file based on OWNERS approvers
 - [![PR #2477](https://img.shields.io/badge/PR%20%232477-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2477) **openshift/oadp-operator** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
+- [![PR #2482](https://img.shields.io/badge/PR%20%232482-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2482) **openshift/oadp-operator** → `oadp-dev` - fix(kubevirt-datamover): size controller for scale, make resources configurable
 - [![PR #2493](https://img.shields.io/badge/PR%20%232493-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2493) **openshift/oadp-operator** → `oadp-dev` - OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
@@ -186,13 +186,11 @@ No open PRs.
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #59](https://img.shields.io/badge/PR%20%2359-ready-green)](https://github.com/konveyor/builder/pull/59) **konveyor/builder** → `main` - Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts
 - [![PR #60](https://img.shields.io/badge/PR%20%2360-ready-green)](https://github.com/konveyor/builder/pull/60) **konveyor/builder** → `main` - Add CONTRIBUTING with the one-owner-per-rule maintainability rule
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #59](https://img.shields.io/badge/PR%20%2359-ci--pending-yellow)](https://github.com/kaovilai/tailbond/pull/59) **kaovilai/tailbond** → `main` - dependabot: stop scanning the compiled gh-aw files and the patched submodule
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
