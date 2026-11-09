@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T15:10:17Z",
+  "updatedAt": "2026-11-09T16:11:46Z",
   "prs": [
     {
       "number": 5,
@@ -10756,19 +10756,11 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.19-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/4.19-e2e-test-kubevirt-aws",
           "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/4.20-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.20-e2e-test-hcp-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10792,6 +10784,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.19-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.19-images",
           "conclusion": "SUCCESS"
         },
@@ -10801,6 +10797,10 @@
         },
         {
           "name": "ci/prow/4.20-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.20-e2e-test-hcp-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10952,23 +10952,15 @@
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "FAILURE"
+        },
+        {
           "name": "ci/prow/4.22-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10985,6 +10977,10 @@
         },
         {
           "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11005,6 +11001,10 @@
         },
         {
           "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -16457,6 +16457,29 @@
       ]
     },
     {
+      "number": 387,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/387",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T16:06:28Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 61,
       "repo": "konveyor/builder",
       "org": "konveyor",
@@ -16470,7 +16493,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-09T15:07:51Z",
+      "updatedAt": "2026-11-09T15:50:25Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16479,7 +16502,7 @@
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "NEUTRAL"
         },
         {
           "name": "DCO",
@@ -16887,6 +16910,340 @@
         {
           "name": "Mintlify Preview (fork)",
           "conclusion": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci: group all dependabot updates — one PR per ecosystem, security included",
+      "url": "https://github.com/kaovilai/podm/pull/14",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T11:56:29Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": ""
+        },
+        {
+          "name": "build",
+          "conclusion": ""
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": ""
+        },
+        {
+          "name": ".github/dependabot.yml",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Authenticate the opposite-kind tag prune with a quay OAuth token",
+      "url": "https://github.com/konveyor/builder/pull/62",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T15:39:04Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "actionlint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (8, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / e2e (GO_VERSION=go1.26.10, 1.26.10, 1.26.10)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (9, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (9, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / e2e (GO_VERSION=go1.26.10, 1.26.10, 1.26.10)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (10, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": ""
+        },
+        {
+          "name": "build (10, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / e2e (GO_VERSION=go1.26.10, 1.26.10, 1.26.10)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "DCO",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Dependency Quality",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "License Compliance",
+          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -17873,6 +18230,41 @@
       "ciChecks": []
     },
     {
+      "number": 15,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter",
+      "url": "https://github.com/kaovilai/podm/pull/15",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T16:11:30Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": ""
+        },
+        {
+          "name": "build",
+          "conclusion": ""
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -18318,7 +18710,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-09T15:10:17Z",
+    "updatedAt": "2026-11-09T16:11:46Z",
     "needsReview": [
       {
         "number": 68,
@@ -18493,7 +18885,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 214,
+        "waitingDays": 215,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -18555,7 +18947,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 130,
+        "waitingDays": 131,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -18802,6 +19194,33 @@
         "reason": "awaitingReview",
         "waitingDays": 97,
         "updatedAt": "2026-08-03T21:22:10Z"
+      },
+      {
+        "number": 5354,
+        "repo": "openshift/ci-tools",
+        "org": "openshift",
+        "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
+        "url": "https://github.com/openshift/ci-tools/pull/5354",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "bear-redhat",
+          "droslean"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 95,
+        "updatedAt": "2026-08-05T22:33:26Z"
       },
       {
         "number": 35,
@@ -19393,6 +19812,66 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 121974,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/feature",
+          "comp/cli",
+          "tool/browser",
+          "P3"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 40,
+        "updatedAt": "2026-09-30T15:11:21Z"
+      },
+      {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 40,
+        "updatedAt": "2026-09-30T15:17:14Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19424,66 +19903,6 @@
         "reason": "awaitingReview",
         "waitingDays": 40,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 121974,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/feature",
-          "comp/cli",
-          "tool/browser",
-          "P3"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 39,
-        "updatedAt": "2026-09-30T15:11:21Z"
-      },
-      {
-        "number": 123138,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/bug",
-          "comp/cli",
-          "comp/tools",
-          "P2",
-          "sweeper:risk-message-delivery",
-          "area/profiles"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 39,
-        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 2473,
@@ -19999,7 +20418,7 @@
           "lifecycle/stale",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20101,6 +20520,37 @@
         "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
+        "number": 198,
+        "repo": "migtools/udistribution",
+        "org": "migtools",
+        "title": "ci: fail on unformatted Go instead of pushing a format commit",
+        "url": "https://github.com/migtools/udistribution/pull/198",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "/ok-to-test",
+          "approved",
+          "ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "PrasadJoshi12"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-10-30T15:47:17Z"
+      },
+      {
         "number": 2488,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20158,37 +20608,6 @@
         "reason": "awaitingReview",
         "waitingDays": 10,
         "updatedAt": "2026-10-29T16:33:09Z"
-      },
-      {
-        "number": 198,
-        "repo": "migtools/udistribution",
-        "org": "migtools",
-        "title": "ci: fail on unformatted Go instead of pushing a format commit",
-        "url": "https://github.com/migtools/udistribution/pull/198",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "/ok-to-test",
-          "approved",
-          "ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "PrasadJoshi12"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-10-30T15:47:17Z"
       },
       {
         "number": 89,
@@ -20433,7 +20852,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20529,7 +20948,31 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-09T15:07:51Z"
+        "updatedAt": "2026-11-09T15:50:25Z"
+      },
+      {
+        "number": 62,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Authenticate the opposite-kind tag prune with a quay OAuth token",
+        "url": "https://github.com/konveyor/builder/pull/62",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-09T15:39:04Z"
       },
       {
         "number": 468,
@@ -20729,7 +21172,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 214,
+        "waitingDays": 215,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -21737,7 +22180,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21749,7 +22192,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
@@ -21839,7 +22282,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 9,
+        "waitingDays": 10,
         "updatedAt": "2026-10-30T15:13:50Z"
       },
       {
