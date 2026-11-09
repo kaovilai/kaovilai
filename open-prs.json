@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T14:11:28Z",
+  "updatedAt": "2026-11-09T15:10:17Z",
   "prs": [
     {
       "number": 5,
@@ -10748,13 +10748,9 @@
         "lgtm",
         "jira/valid-reference"
       ],
-      "updatedAt": "2026-11-09T13:44:46Z",
+      "updatedAt": "2026-11-09T14:39:52Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/images",
-          "conclusion": "FAILURE"
-        },
         {
           "name": "ci/prow/4.19-e2e-test-aws",
           "conclusion": "PENDING"
@@ -10813,6 +10809,10 @@
         },
         {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         },
         {
@@ -10960,10 +10960,6 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "PENDING"
         },
@@ -10977,14 +10973,6 @@
         },
         {
           "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/images",
           "conclusion": "PENDING"
         },
         {
@@ -11016,7 +11004,15 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-ci-index",
           "conclusion": "SUCCESS"
         },
         {
@@ -11033,6 +11029,10 @@
         },
         {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         },
         {
@@ -16457,11 +16457,11 @@
       ]
     },
     {
-      "number": 60,
+      "number": 61,
       "repo": "konveyor/builder",
       "org": "konveyor",
-      "title": "Add CONTRIBUTING with the one-owner-per-rule maintainability rule",
-      "url": "https://github.com/konveyor/builder/pull/60",
+      "title": "Split per-variant FIPS badges into stable and pre-release lines",
+      "url": "https://github.com/konveyor/builder/pull/61",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -16470,7 +16470,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-09T13:58:06Z",
+      "updatedAt": "2026-11-09T15:07:51Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16479,7 +16479,7 @@
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "NEUTRAL"
+          "conclusion": "SUCCESS"
         },
         {
           "name": "DCO",
@@ -18318,7 +18318,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-09T14:11:28Z",
+    "updatedAt": "2026-11-09T15:10:17Z",
     "needsReview": [
       {
         "number": 68,
@@ -18464,7 +18464,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 241,
+        "waitingDays": 242,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -18595,7 +18595,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18771,7 +18771,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 97,
+        "waitingDays": 98,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -20508,17 +20508,17 @@
         "updatedAt": "2026-11-08T05:26:06Z"
       },
       {
-        "number": 60,
+        "number": 61,
         "repo": "konveyor/builder",
         "org": "konveyor",
-        "title": "Add CONTRIBUTING with the one-owner-per-rule maintainability rule",
-        "url": "https://github.com/konveyor/builder/pull/60",
+        "title": "Split per-variant FIPS badges into stable and pre-release lines",
+        "url": "https://github.com/konveyor/builder/pull/61",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20529,7 +20529,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-09T13:58:06Z"
+        "updatedAt": "2026-11-09T15:07:51Z"
       },
       {
         "number": 468,
@@ -20788,7 +20788,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 95,
+        "waitingDays": 96,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -21307,7 +21307,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
@@ -22137,7 +22137,7 @@
           "lgtm",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -22151,7 +22151,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-09T13:44:46Z"
+        "updatedAt": "2026-11-09T14:39:52Z"
       },
       {
         "number": 2482,
@@ -22169,7 +22169,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
