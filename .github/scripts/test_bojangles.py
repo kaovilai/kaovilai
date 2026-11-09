@@ -247,6 +247,34 @@ class FaceArtworkTests(unittest.TestCase):
                 self.assertEqual(eye[2].get("class"), "bj-blink")
                 self.assertGreater(len(list(eye[2].iter(NS + "path"))), 1)
 
+    def test_coats_are_sampled_from_the_traced_portrait(self):
+        # The vector body must not invent colours: every coat stop is a fill that
+        # exists in the photo-derived face artwork (or the portrait's own base tone),
+        # so body and face match.
+        face = json.loads((REPO / ".github/artwork/bojangles-face.json").read_text(encoding="utf-8"))
+        traced = {p["fill"] for layer in face["layers"] for p in layer["paths"]} | {GEN.FACE_BASE}
+        self.assertTrue(traced)
+        for mode, svg in RENDERS.items():
+            with self.subTest(mode):
+                root = ET.fromstring(svg)
+                for gid in ("bj-coat", "bj-limb", "bjp-coat", "bjp-limb"):
+                    gradient = root.find(f".//{NS}linearGradient[@id='{gid}']")
+                    self.assertIsNotNone(gradient, f"{gid} missing")
+                    stops = gradient.findall(NS + "stop")
+                    self.assertGreaterEqual(len(stops), 3)
+                    for stop in stops:
+                        self.assertIn(stop.get("stop-color"), traced,
+                                      f"{gid} stop {stop.get('stop-color')} is not from the portrait")
+
+    def test_title_names_both_brothers(self):
+        for svg in RENDERS.values():
+            root = ET.fromstring(svg)
+            title = root.find(f".//{NS}title")
+            self.assertIn("Bojangles", title.text)
+            self.assertIn("Popeyes", title.text)
+            texts = ["".join(e.itertext()) for e in root.iter(NS + "text")]
+            self.assertIn("Bojangles and Popeyes", texts)
+
     def test_ear_and_jaw_contain_independent_vector_layers(self):
         for svg in RENDERS.values():
             root = ET.fromstring(svg)
