@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 00:31:58 UTC
+> **Generated:** 2026-11-09 06:25:28 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 25 |
+| PRs Reviewed | 26 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 81 |
 
@@ -134,6 +134,8 @@
 - [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 
 **Other** (93)
+- [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
+- [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
 - [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
@@ -225,15 +227,14 @@
 - [#18 release: collect assets into a fresh directory, not the repo's assets/](https://github.com/kaovilai/tailbond/pull/18) — kaovilai/tailbond
 - [#17 feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests](https://github.com/kaovilai/tailbond/pull/17) — kaovilai/tailbond
 - [#1 Add generic cross-platform hotspot guide](https://github.com/kaovilai/ios-android-hotspot-guide/pull/1) — kaovilai/ios-android-hotspot-guide
-- [#16 update: a build from source can move onto releases; no release isn't an error](https://github.com/kaovilai/tailbond/pull/16) — kaovilai/tailbond
-- [#15 fix(client): enforce the server certificate pin inside mqvpn](https://github.com/kaovilai/tailbond/pull/15) — kaovilai/tailbond
-## PRs Reviewed (25)
+## PRs Reviewed (26)
 
-**velero-io** (13)
+**velero-io** (14)
+- [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
+- [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
+- [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
-- [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
-- [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 - [#10776 build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory](https://github.com/velero-io/velero/pull/10776) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
