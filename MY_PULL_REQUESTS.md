@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-09 21:08:47 UTC
+> Last updated: 2026-11-09 22:08:19 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -75,6 +75,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
+- [![PR #2535](https://img.shields.io/badge/PR%20%232535-ready-green)](https://github.com/openshift/oadp-operator/pull/2535) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0
+- [![PR #2536](https://img.shields.io/badge/PR%20%232536-ready-green)](https://github.com/openshift/oadp-operator/pull/2536) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-84303): upgrade google.golang.org/grpc v1.82.1 -> v1.83.1
+- [![PR #2539](https://img.shields.io/badge/PR%20%232539-ready-green)](https://github.com/openshift/oadp-operator/pull/2539) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-116591): upgrade github.com/klauspost/compress v1.18.6 -> v1.20.2
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
 - [![PR #507](https://img.shields.io/badge/PR%20%23507-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/507) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6
