@@ -3,7 +3,7 @@
     "start": "2026-08-11",
     "end": "2026-11-09"
   },
-  "generatedAt": "2026-11-09T06:25:28Z",
+  "generatedAt": "2026-11-09T12:14:44Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,87 @@
     "issuesClosed": 81
   },
   "prsMerged": [
+    {
+      "number": 57,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Publish only -pre tags for pre-release go-fips builds",
+      "url": "https://github.com/konveyor/builder/pull/57",
+      "date": "2026-11-09T11:17:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 58,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Add the smoke-test workflow badge to the README",
+      "url": "https://github.com/konveyor/builder/pull/58",
+      "date": "2026-11-09T11:03:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 56,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Mark pre-release go-fips content in badges and releases",
+      "url": "https://github.com/konveyor/builder/pull/56",
+      "date": "2026-11-09T10:07:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 642,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(claude): tab completion for claude-mode",
+      "url": "https://github.com/kaovilai/dotfiles/pull/642",
+      "date": "2026-11-09T10:20:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 641,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(fleet-sync): heal failed plugin installs in the same run",
+      "url": "https://github.com/kaovilai/dotfiles/pull/641",
+      "date": "2026-11-09T10:14:29Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 6,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)",
+      "url": "https://github.com/kaovilai/context-mode/pull/6",
+      "date": "2026-11-09T09:29:53Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 640,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(claude): make hosted-only a claude-mode selection",
+      "url": "https://github.com/kaovilai/dotfiles/pull/640",
+      "date": "2026-11-09T09:29:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 639,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/639",
+      "date": "2026-11-09T09:23:11Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 87,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes",
+      "url": "https://github.com/kaovilai/kaovilai/pull/87",
+      "date": "2026-11-09T07:07:59Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 55,
       "repo": "kaovilai/tailbond",
@@ -830,90 +911,90 @@
       "url": "https://github.com/kaovilai/tailbond/pull/22",
       "date": "2026-11-04T19:30:45Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 145,
-      "repo": "kaovilai/k8s-cbt-s3mover-demo",
-      "org": "kaovilai",
-      "title": "Refresh upstream PR and Ceph status notes",
-      "url": "https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/145",
-      "date": "2026-11-04T17:16:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88311,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Assign oadp-credentials secret collection to oadp-dev rover group",
-      "url": "https://github.com/openshift/release/pull/88311",
-      "date": "2026-11-04T16:56:38Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "update: a build from source can move onto releases; no release isn't an error",
-      "url": "https://github.com/kaovilai/tailbond/pull/16",
-      "date": "2026-11-04T16:48:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 15,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "fix(client): enforce the server certificate pin inside mqvpn",
-      "url": "https://github.com/kaovilai/tailbond/pull/15",
-      "date": "2026-11-04T16:48:44Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "release: collect assets into a fresh directory, not the repo's assets/",
-      "url": "https://github.com/kaovilai/tailbond/pull/18",
-      "date": "2026-11-04T16:48:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/ios-android-hotspot-guide",
-      "org": "kaovilai",
-      "title": "Add generic cross-platform hotspot guide",
-      "url": "https://github.com/kaovilai/ios-android-hotspot-guide/pull/1",
-      "date": "2026-11-04T15:23:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 14,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "android: make the signed release build pass in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/14",
-      "date": "2026-11-04T15:05:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 6569,
-      "repo": "scaleway/scaleway-cli",
-      "org": "scaleway",
-      "title": "fix(autocomplete): use file name of the binary as default basename",
-      "url": "https://github.com/scaleway/scaleway-cli/pull/6569",
-      "date": "2026-11-04T14:16:52Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "site: GitHub Pages overview site",
-      "url": "https://github.com/kaovilai/tailbond/pull/7",
-      "date": "2026-11-04T09:25:44Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 59,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Dedupe the published-image selector into scripts/shipped-set.sh",
+      "url": "https://github.com/konveyor/builder/pull/59",
+      "date": "2026-11-09T11:35:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2,
+      "repo": "RuixiangHuang/Macbook_Duo_Effect",
+      "org": "RuixiangHuang",
+      "title": "Frozen-image viewport fold with one-shot eye calibration",
+      "url": "https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2",
+      "date": "2026-11-09T11:13:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 58,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Add the smoke-test workflow badge to the README",
+      "url": "https://github.com/konveyor/builder/pull/58",
+      "date": "2026-11-09T10:38:09Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 57,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Publish only -pre tags for pre-release go-fips builds",
+      "url": "https://github.com/konveyor/builder/pull/57",
+      "date": "2026-11-09T10:35:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 642,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(claude): tab completion for claude-mode",
+      "url": "https://github.com/kaovilai/dotfiles/pull/642",
+      "date": "2026-11-09T10:16:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 641,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(fleet-sync): heal failed plugin installs in the same run",
+      "url": "https://github.com/kaovilai/dotfiles/pull/641",
+      "date": "2026-11-09T10:10:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 6,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)",
+      "url": "https://github.com/kaovilai/context-mode/pull/6",
+      "date": "2026-11-09T09:15:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 640,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(claude): make hosted-only a claude-mode selection",
+      "url": "https://github.com/kaovilai/dotfiles/pull/640",
+      "date": "2026-11-09T09:15:24Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 87,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes",
+      "url": "https://github.com/kaovilai/kaovilai/pull/87",
+      "date": "2026-11-09T06:42:02Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 639,
       "repo": "kaovilai/dotfiles",
@@ -1732,90 +1813,27 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/201",
       "date": "2026-11-04T20:55:30Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 23,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check",
-      "url": "https://github.com/kaovilai/tailbond/pull/23",
-      "date": "2026-11-04T18:23:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 22,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "openwrt: signed opkg feed in each release, for GL's Plug-ins page",
-      "url": "https://github.com/kaovilai/tailbond/pull/22",
-      "date": "2026-11-04T18:13:52Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 21,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "agent: build with Go 1.26.10, not 1.26.0",
-      "url": "https://github.com/kaovilai/tailbond/pull/21",
-      "date": "2026-11-04T17:50:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 20,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: SBOM for every release file; submit main's build to the dependency graph",
-      "url": "https://github.com/kaovilai/tailbond/pull/20",
-      "date": "2026-11-04T17:48:46Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 19,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "feat(macos): the Mac as home server (server role on Apple silicon)",
-      "url": "https://github.com/kaovilai/tailbond/pull/19",
-      "date": "2026-11-04T17:15:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "release: collect assets into a fresh directory, not the repo's assets/",
-      "url": "https://github.com/kaovilai/tailbond/pull/18",
-      "date": "2026-11-04T16:35:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests",
-      "url": "https://github.com/kaovilai/tailbond/pull/17",
-      "date": "2026-11-04T16:31:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/ios-android-hotspot-guide",
-      "org": "kaovilai",
-      "title": "Add generic cross-platform hotspot guide",
-      "url": "https://github.com/kaovilai/ios-android-hotspot-guide/pull/1",
-      "date": "2026-11-04T15:16:06Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88311,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Assign oadp-credentials secret collection to oadp-dev rover group",
-      "url": "https://github.com/openshift/release/pull/88311",
-      "date": "2026-11-04T15:10:31Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2533,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
+      "url": "https://github.com/openshift/oadp-operator/pull/2533",
+      "date": "2026-11-09T10:21:42Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2534,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
+      "url": "https://github.com/openshift/oadp-operator/pull/2534",
+      "date": "2026-11-09T10:21:33Z",
+      "workstream": "OADP"
+    },
     {
       "number": 10734,
       "repo": "velero-io/velero",
@@ -1844,15 +1862,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 2533,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
-      "url": "https://github.com/openshift/oadp-operator/pull/2533",
-      "date": "2026-11-08T16:55:46Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 338,
       "repo": "velero-io/velero-plugin-for-aws",
       "org": "velero-io",
@@ -1860,15 +1869,6 @@
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
       "date": "2026-11-08T16:13:31Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2534,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
-      "url": "https://github.com/openshift/oadp-operator/pull/2534",
-      "date": "2026-11-08T15:41:35Z",
-      "workstream": "OADP"
     },
     {
       "number": 10796,
@@ -2053,6 +2053,24 @@
   ],
   "issuesCommented": [
     {
+      "number": 24901,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
+      "url": "https://github.com/pingdotgg/t3code/issues/24901",
+      "date": "2026-11-09T12:13:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "date": "2026-11-09T11:20:46Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2125,15 +2143,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 24901,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
-      "url": "https://github.com/pingdotgg/t3code/issues/24901",
-      "date": "2026-11-06T08:27:39Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 17422,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -2141,15 +2150,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/17422",
       "date": "2026-11-06T00:49:35Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout",
-      "url": "https://github.com/velero-io/velero/issues/10303",
-      "date": "2026-11-05T18:28:38Z",
-      "workstream": "Velero"
     },
     {
       "number": 27,

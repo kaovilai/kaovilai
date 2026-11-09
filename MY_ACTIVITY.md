@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 06:25:28 UTC
+> **Generated:** 2026-11-09 12:14:44 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -18,13 +18,21 @@
 **velero-io** (1)
 - [#10692 Add Dependabot updates for run-jammy-tiny on supported release branches](https://github.com/velero-io/velero/pull/10692) — velero-io/velero
 
-**openshift** (4)
+**openshift** (3)
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
-- [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 
-**Other** (95)
+**Other** (96)
+- [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
+- [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
+- [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
+- [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
+- [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
+- [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
+- [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
+- [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
+- [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
 - [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
@@ -112,28 +120,28 @@
 - [#17 feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests](https://github.com/kaovilai/tailbond/pull/17) — kaovilai/tailbond
 - [#23 e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check](https://github.com/kaovilai/tailbond/pull/23) — kaovilai/tailbond
 - [#22 openwrt: signed opkg feed in each release, for GL's Plug-ins page](https://github.com/kaovilai/tailbond/pull/22) — kaovilai/tailbond
-- [#145 Refresh upstream PR and Ceph status notes](https://github.com/kaovilai/k8s-cbt-s3mover-demo/pull/145) — kaovilai/k8s-cbt-s3mover-demo
-- [#16 update: a build from source can move onto releases; no release isn't an error](https://github.com/kaovilai/tailbond/pull/16) — kaovilai/tailbond
-- [#15 fix(client): enforce the server certificate pin inside mqvpn](https://github.com/kaovilai/tailbond/pull/15) — kaovilai/tailbond
-- [#18 release: collect assets into a fresh directory, not the repo's assets/](https://github.com/kaovilai/tailbond/pull/18) — kaovilai/tailbond
-- [#1 Add generic cross-platform hotspot guide](https://github.com/kaovilai/ios-android-hotspot-guide/pull/1) — kaovilai/ios-android-hotspot-guide
-- [#14 android: make the signed release build pass in CI](https://github.com/kaovilai/tailbond/pull/14) — kaovilai/tailbond
-- [#6569 fix(autocomplete): use file name of the binary as default basename](https://github.com/scaleway/scaleway-cli/pull/6569) — scaleway/scaleway-cli
-- [#7 site: GitHub Pages overview site](https://github.com/kaovilai/tailbond/pull/7) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (2)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 
-**openshift** (5)
+**openshift** (4)
 - [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
 - [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
-- [#88311 Assign oadp-credentials secret collection to oadp-dev rover group](https://github.com/openshift/release/pull/88311) — openshift/release
 
-**Other** (93)
+**Other** (94)
+- [#59 Dedupe the published-image selector into scripts/shipped-set.sh](https://github.com/konveyor/builder/pull/59) — konveyor/builder
+- [#2 Frozen-image viewport fold with one-shot eye calibration](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) — RuixiangHuang/Macbook_Duo_Effect
+- [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
+- [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
+- [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
+- [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
+- [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
+- [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
+- [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
 - [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
@@ -219,14 +227,6 @@
 - [#25 openwrt: ship the opkg feed's public key](https://github.com/kaovilai/tailbond/pull/25) — kaovilai/tailbond
 - [#24 ci: CodeQL advanced setup, so Java/Kotlin builds with the mqvpn submodule](https://github.com/kaovilai/tailbond/pull/24) — kaovilai/tailbond
 - [#201 fix(picker): job search matches fragments in any order](https://github.com/kaovilai/github-bot-command-palette/pull/201) — kaovilai/github-bot-command-palette
-- [#23 e2e-android: wait for a validated Wi-Fi before the Pair & Share hub check](https://github.com/kaovilai/tailbond/pull/23) — kaovilai/tailbond
-- [#22 openwrt: signed opkg feed in each release, for GL's Plug-ins page](https://github.com/kaovilai/tailbond/pull/22) — kaovilai/tailbond
-- [#21 agent: build with Go 1.26.10, not 1.26.0](https://github.com/kaovilai/tailbond/pull/21) — kaovilai/tailbond
-- [#20 ci: SBOM for every release file; submit main's build to the dependency graph](https://github.com/kaovilai/tailbond/pull/20) — kaovilai/tailbond
-- [#19 feat(macos): the Mac as home server (server role on Apple silicon)](https://github.com/kaovilai/tailbond/pull/19) — kaovilai/tailbond
-- [#18 release: collect assets into a fresh directory, not the repo's assets/](https://github.com/kaovilai/tailbond/pull/18) — kaovilai/tailbond
-- [#17 feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests](https://github.com/kaovilai/tailbond/pull/17) — kaovilai/tailbond
-- [#1 Add generic cross-platform hotspot guide](https://github.com/kaovilai/ios-android-hotspot-guide/pull/1) — kaovilai/ios-android-hotspot-guide
 ## PRs Reviewed (26)
 
 **velero-io** (14)
@@ -322,6 +322,7 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
 **Other** (49)
+- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
@@ -330,7 +331,6 @@
 - [#603 context-mode: upgrade to v2.1.4 and move off per-session spawn](https://github.com/kaovilai/dotfiles/issues/603) — kaovilai/dotfiles
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#44 feat: one tailscaled per internet connection, so each bonded path gets Tailscale NAT traversal (servers behind CGNAT)](https://github.com/kaovilai/tailbond/issues/44) — kaovilai/tailbond
-- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#32 Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml](https://github.com/konveyor/builder/issues/32) — konveyor/builder
