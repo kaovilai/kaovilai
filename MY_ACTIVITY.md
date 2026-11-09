@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 14:10:20 UTC
+> **Generated:** 2026-11-09 15:09:56 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -24,6 +24,7 @@
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 
 **Other** (96)
+- [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
@@ -119,7 +120,6 @@
 - [#20 ci: SBOM for every release file; submit main's build to the dependency graph](https://github.com/kaovilai/tailbond/pull/20) — kaovilai/tailbond
 - [#19 feat(macos): the Mac as home server (server role on Apple silicon)](https://github.com/kaovilai/tailbond/pull/19) — kaovilai/tailbond
 - [#21 agent: build with Go 1.26.10, not 1.26.0](https://github.com/kaovilai/tailbond/pull/21) — kaovilai/tailbond
-- [#17 feat(deploy): CI-tested server image (ghcr.io), Kubernetes manifests](https://github.com/kaovilai/tailbond/pull/17) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (2)
@@ -133,6 +133,7 @@
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 
 **Other** (94)
+- [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
@@ -226,7 +227,6 @@
 - [#29 Pair & Share: Macs and Linux computers can share an uplink with a hub](https://github.com/kaovilai/tailbond/pull/29) — kaovilai/tailbond
 - [#27 ci: cache mqvpn binaries, not build trees; skip the build on a hit](https://github.com/kaovilai/tailbond/pull/27) — kaovilai/tailbond
 - [#26 agent: Go 1.27 (language 1.27, toolchain go1.27.3)](https://github.com/kaovilai/tailbond/pull/26) — kaovilai/tailbond
-- [#25 openwrt: ship the opkg feed's public key](https://github.com/kaovilai/tailbond/pull/25) — kaovilai/tailbond
 ## PRs Reviewed (24)
 
 **velero-io** (14)
