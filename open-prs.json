@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:08:17Z",
+  "updatedAt": "2026-11-09T20:10:08Z",
   "prs": [
     {
       "number": 5,
@@ -10061,19 +10061,11 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/4.23-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10085,19 +10077,15 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "CodeRabbit",
           "conclusion": "SKIPPED"
         },
         {
           "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10117,11 +10105,23 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-images",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/5.1-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -15088,51 +15088,6 @@
       ]
     },
     {
-      "number": 213,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: speed up Dockerfile builds with cache mounts",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-09-10T20:07:54Z",
-      "workstream": "KubeVirt Data Mover",
-      "ciChecks": [
-        {
-          "name": "Run on Ubuntu",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run on Ubuntu",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run on Ubuntu",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 245,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -15644,6 +15599,51 @@
         {
           "name": "CodeRabbit",
           "conclusion": "SKIPPED"
+        }
+      ]
+    },
+    {
+      "number": 213,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: speed up Dockerfile builds with cache mounts",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/213",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-09-10T20:07:54Z",
+      "workstream": "KubeVirt Data Mover",
+      "ciChecks": [
+        {
+          "name": "Run on Ubuntu",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run on Ubuntu",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run on Ubuntu",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -16174,6 +16174,29 @@
       "isDraft": false,
       "labels": [],
       "updatedAt": "2026-09-18T10:57:26Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install",
+      "url": "https://github.com/kaovilai/context-mode/pull/7",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T19:55:36Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -17286,6 +17309,41 @@
       ]
     },
     {
+      "number": 20,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
+      "url": "https://github.com/kaovilai/podm/pull/20",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T20:07:31Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": ""
+        },
+        {
+          "name": "build",
+          "conclusion": ""
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 3,
       "repo": "kaovilai/cliprelay",
       "org": "kaovilai",
@@ -18268,41 +18326,6 @@
       "ciChecks": []
     },
     {
-      "number": 20,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
-      "url": "https://github.com/kaovilai/podm/pull/20",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-09T19:04:58Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "docker + podman CLI smoke tests",
-          "conclusion": ""
-        },
-        {
-          "name": "build",
-          "conclusion": ""
-        },
-        {
-          "name": "formatters & tests",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -18748,7 +18771,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-09T19:08:17Z",
+    "updatedAt": "2026-11-09T20:10:08Z",
     "needsReview": [
       {
         "number": 68,
@@ -19628,7 +19651,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19696,7 +19719,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 59,
+        "waitingDays": 60,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -20202,7 +20225,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-10-22T19:42:13Z"
       },
       {
