@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 15:09:56 UTC
+> **Generated:** 2026-11-09 16:10:34 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 24 |
+| PRs Reviewed | 20 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 81 |
 
@@ -24,17 +24,21 @@
 - [#84228 Add Depends-On cross-repo image build across the OADP ecosystem (KDM, oadp-operator, velero family)](https://github.com/openshift/release/pull/84228) — openshift/release
 
 **Other** (96)
+- [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
+- [#13 Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers](https://github.com/kaovilai/podm/pull/13) — kaovilai/podm
 - [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
+- [#12 pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula](https://github.com/kaovilai/podm/pull/12) — kaovilai/podm
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
 - [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
 - [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
 - [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
 - [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
 - [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
+- [#11 pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon](https://github.com/kaovilai/podm/pull/11) — kaovilai/podm
 - [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
@@ -116,10 +120,6 @@
 - [#13 docs: credit the projects tailbond builds on and learned from](https://github.com/kaovilai/tailbond/pull/13) — kaovilai/tailbond
 - [#12 docs: explain that tailbond already works like an exit node](https://github.com/kaovilai/tailbond/pull/12) — kaovilai/tailbond
 - [#11 site: animate how Pair & Share data flows](https://github.com/kaovilai/tailbond/pull/11) — kaovilai/tailbond
-- [#10 docs: README badges for every workflow, downloads and the website](https://github.com/kaovilai/tailbond/pull/10) — kaovilai/tailbond
-- [#20 ci: SBOM for every release file; submit main's build to the dependency graph](https://github.com/kaovilai/tailbond/pull/20) — kaovilai/tailbond
-- [#19 feat(macos): the Mac as home server (server role on Apple silicon)](https://github.com/kaovilai/tailbond/pull/19) — kaovilai/tailbond
-- [#21 agent: build with Go 1.26.10, not 1.26.0](https://github.com/kaovilai/tailbond/pull/21) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (2)
@@ -133,17 +133,25 @@
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 
 **Other** (94)
+- [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
+- [#62 Authenticate the opposite-kind tag prune with a quay OAuth token](https://github.com/konveyor/builder/pull/62) — konveyor/builder
 - [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
+- [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
+- [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
+- [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
 - [#2 Frozen-image viewport fold with one-shot eye calibration](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) — RuixiangHuang/Macbook_Duo_Effect
+- [#13 Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers](https://github.com/kaovilai/podm/pull/13) — kaovilai/podm
 - [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
 - [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
 - [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
+- [#12 pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula](https://github.com/kaovilai/podm/pull/12) — kaovilai/podm
 - [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
 - [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
+- [#11 pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon](https://github.com/kaovilai/podm/pull/11) — kaovilai/podm
 - [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
 - [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
@@ -219,17 +227,9 @@
 - [#85 gh --attach PR test (auto-close)](https://github.com/kaovilai/kaovilai/pull/85) — kaovilai/kaovilai
 - [#34 site: dotted flow texture, a pointer-lit hero, dotted headings](https://github.com/kaovilai/tailbond/pull/34) — kaovilai/tailbond
 - [#33 feat: one click from the Mac to a phone's bonded connection (Bluetooth + Shizuku hotspot)](https://github.com/kaovilai/tailbond/pull/33) — kaovilai/tailbond
-- [#32 ci: the macOS self-update path end to end (Update now, rollback, SHA256SUMS)](https://github.com/kaovilai/tailbond/pull/32) — kaovilai/tailbond
-- [#202 feat(picker): cherry-pick parallel vs sequential chain with reorderable order](https://github.com/kaovilai/github-bot-command-palette/pull/202) — kaovilai/github-bot-command-palette
-- [#598 feat(llm-usage): wait bar in floating window for slow in-flight requests](https://github.com/kaovilai/dotfiles/pull/598) — kaovilai/dotfiles
-- [#31 test: no core dumps from TestMqvpnCrashSignal; remove the ones committed](https://github.com/kaovilai/tailbond/pull/31) — kaovilai/tailbond
-- [#30 android: Android TV, driven by the remote](https://github.com/kaovilai/tailbond/pull/30) — kaovilai/tailbond
-- [#29 Pair & Share: Macs and Linux computers can share an uplink with a hub](https://github.com/kaovilai/tailbond/pull/29) — kaovilai/tailbond
-- [#27 ci: cache mqvpn binaries, not build trees; skip the build on a hit](https://github.com/kaovilai/tailbond/pull/27) — kaovilai/tailbond
-- [#26 agent: Go 1.27 (language 1.27, toolchain go1.27.3)](https://github.com/kaovilai/tailbond/pull/26) — kaovilai/tailbond
-## PRs Reviewed (24)
+## PRs Reviewed (20)
 
-**velero-io** (14)
+**velero-io** (12)
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 - [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
 - [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
@@ -242,21 +242,17 @@
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10791 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.90 to 0.2.194](https://github.com/velero-io/velero/pull/10791) — velero-io/velero
 - [#10792 [release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)](https://github.com/velero-io/velero/pull/10792) — velero-io/velero
-- [#10790 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.190 to 0.2.194](https://github.com/velero-io/velero/pull/10790) — velero-io/velero
-- [#10739 fix(tilt): make the dev setup work on a clean checkout and on arm64](https://github.com/velero-io/velero/pull/10739) — velero-io/velero
 
-**openshift** (7)
+**openshift** (6)
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 - [#508 [oadp-1.5] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/508) — openshift/openshift-velero-plugin
 - [#509 [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/509) — openshift/openshift-velero-plugin
 - [#506 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/openshift/openshift-velero-plugin/pull/506) — openshift/openshift-velero-plugin
-- [#2530 Bump CSV metadata to v1.5.9](https://github.com/openshift/oadp-operator/pull/2530) — openshift/oadp-operator
 
-**migtools** (2)
+**migtools** (1)
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
-- [#50 chore(deps-dev): bump vite from 8.0.16 to 8.1.6 in /frontend](https://github.com/migtools/filebrowser/pull/50) — migtools/filebrowser
 
 **Other** (1)
 - [#7381 PROJQUAY-8767: fix(ui): load tag history on demand and search server-side](https://github.com/quay/quay/pull/7381) — quay/quay
@@ -320,8 +316,8 @@
 - [#99 Add OADP e2e test coverage for kubevirt-datamover](https://github.com/migtools/kubevirt-datamover-controller/issues/99) — migtools/kubevirt-datamover-controller
 
 **Other** (49)
-- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
 - [#41 Deconstruct workflows into reusable components so there are less duplicative code in .github/workflows](https://github.com/konveyor/builder/issues/41) — konveyor/builder
