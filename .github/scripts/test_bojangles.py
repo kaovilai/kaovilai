@@ -249,9 +249,10 @@ class FaceArtworkTests(unittest.TestCase):
 
     def test_coats_are_sampled_from_the_traced_portrait(self):
         # The vector body must not invent colours: every coat stop is a fill that
-        # exists in the photo-derived face artwork, so body and face match.
+        # exists in the photo-derived face artwork (or the portrait's own base tone),
+        # so body and face match.
         face = json.loads((REPO / ".github/artwork/bojangles-face.json").read_text(encoding="utf-8"))
-        traced = {p["fill"] for layer in face["layers"] for p in layer["paths"]}
+        traced = {p["fill"] for layer in face["layers"] for p in layer["paths"]} | {GEN.FACE_BASE}
         self.assertTrue(traced)
         for mode, svg in RENDERS.items():
             with self.subTest(mode):

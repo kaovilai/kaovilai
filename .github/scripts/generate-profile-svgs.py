@@ -671,6 +671,7 @@ def build_stats():
 # arcs accelerate uniformly, keep a constant horizontal speed and land at the
 # speed the fall actually earned (no hover before touchdown).
 GRAVITY = 150.0  # px/s^2; one planet for every jump in the strip
+FACE_BASE = "#8b7961"  # the portrait's base fill; the vector coats are sampled around it
 
 
 def ballistic(t0, y0, t1, y1):
@@ -826,13 +827,16 @@ def bojangles(t, _s):
         """Nearest traced colour to a target luminance."""
         return min(traced, key=lambda c: abs(_lum(c) - target))
 
-    coat = [pick(68), pick(128), pick(157), pick(93)]
-    limb = [pick(62), pick(128), pick(93)]
-    stripe, cream = pick(43), pick(190)
+    # Neck height must land on the portrait's own base tone so the body meets the
+    # face without a seam: warm #8b7961 at the flank, dark warm on the back, lighter
+    # belly. Same hue family, or the join reads as a pale bib.
+    coat = [pick(70), FACE_BASE, pick(128)]
+    limb = [pick(70), FACE_BASE, pick(80)]
+    stripe, cream = pick(43), pick(147)
     shade = pick(30)
-    pop_coat = [pick(50), pick(100), pick(128), pick(62)]
-    pop_limb = [pick(50), pick(100), pick(62)]
-    pop_stripe, pop_cream = pick(28), pick(157)
+    pop_coat = [pick(52), pick(105), pick(128)]
+    pop_limb = [pick(52), pick(105), pick(80)]
+    pop_stripe, pop_cream = pick(28), pick(120)
 
 
     def fur_patch(clip, count, x, y, width, height, hair=cream):
@@ -895,17 +899,15 @@ def bojangles(t, _s):
     )
     # Both brothers share one traced portrait; each instance places it on its own head.
     defs = f"""<defs>
-      <linearGradient id="bj-coat" x1="0" y1="0" x2=".2" y2="1">
-        <stop stop-color="{coat[0]}"/><stop offset=".4" stop-color="{coat[1]}"/>
-        <stop offset=".76" stop-color="{coat[2]}"/><stop offset="1" stop-color="{coat[3]}"/>
+      <linearGradient id="bj-coat" gradientUnits="userSpaceOnUse" x1="0" y1="-100" x2="4" y2="-30">
+        <stop stop-color="{coat[0]}"/><stop offset=".55" stop-color="{coat[1]}"/><stop offset="1" stop-color="{coat[2]}"/>
       </linearGradient>
       <linearGradient id="bj-limb" x1="0" y1="0" x2="1" y2="0">
         <stop stop-color="{limb[0]}"/><stop offset=".48" stop-color="{limb[1]}"/><stop offset="1" stop-color="{limb[2]}"/>
       </linearGradient>
       <clipPath id="bj-torso-clip"><path d="{torso}"/></clipPath>
-      <linearGradient id="bjp-coat" x1="0" y1="0" x2=".2" y2="1">
-        <stop stop-color="{pop_coat[0]}"/><stop offset=".42" stop-color="{pop_coat[1]}"/>
-        <stop offset=".78" stop-color="{pop_coat[2]}"/><stop offset="1" stop-color="{pop_coat[3]}"/>
+      <linearGradient id="bjp-coat" gradientUnits="userSpaceOnUse" x1="0" y1="-100" x2="4" y2="-30">
+        <stop stop-color="{pop_coat[0]}"/><stop offset=".55" stop-color="{pop_coat[1]}"/><stop offset="1" stop-color="{pop_coat[2]}"/>
       </linearGradient>
       <linearGradient id="bjp-limb" x1="0" y1="0" x2="1" y2="0">
         <stop stop-color="{pop_limb[0]}"/><stop offset=".48" stop-color="{pop_limb[1]}"/><stop offset="1" stop-color="{pop_limb[2]}"/>
@@ -915,7 +917,7 @@ def bojangles(t, _s):
         <g class="bj-ear">
           <path d="{face['regions']['ear']}" fill="#766b60"/>{face_layers['ear']}
         </g>
-        <path d="{face['base']}" fill="#8b7961"/>{face_layers['head']}
+        <path d="{face['base']}" fill="{FACE_BASE}"/>{face_layers['head']}
         {eyes}
         <g class="bj-nap-eyes" fill="none" stroke="#2f2620" stroke-width="4" stroke-linecap="round">
           <path d="M59,107 Q68,118 78,112"/><path d="M109,113 Q122,120 133,108"/>
@@ -944,11 +946,11 @@ def bojangles(t, _s):
         <g fill="{stripe}" opacity=".93">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{stripe}" stroke-width="2.5"/>
         <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="{shade}" opacity=".18"/>
-        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="{cream}" opacity=".12"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="{cream}" opacity=".08"/>
       </g>
       {fur_patch('bj-torso-clip', 112, -54, -90, 104, 59)}
-      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="{cream}" stroke-width="2.2" stroke-linecap="round" opacity=".3"/>
-      <path d="M41,-77 Q50,-68 45,-57" fill="none" stroke="{coat[2]}" stroke-width="1.8" stroke-linecap="round" opacity=".35"/>
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="{cream}" stroke-width="2.2" stroke-linecap="round" opacity=".16"/>
+      <path d="M41,-77 Q50,-68 45,-57" fill="none" stroke="{coat[2]}" stroke-width="1.8" stroke-linecap="round" opacity=".3"/>
       {leg('bj-', 'hind-near', -32, -60, True)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bj-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{stripe}" stroke-width="4.5"/>
@@ -973,10 +975,10 @@ def bojangles(t, _s):
         <g fill="{pop_stripe}" opacity=".88">{stripes}</g>
         <path d="M-44,-63 q17,-8 22,8 q0,14 -17,11 M-38,-59 q10,-3 11,5" fill="none" stroke="{pop_stripe}" stroke-width="2.5"/>
         <ellipse cx="-4" cy="-39" rx="42" ry="9" fill="{shade}" opacity=".18"/>
-        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="{pop_cream}" opacity=".13"/>
+        <ellipse cx="20" cy="-70" rx="18" ry="12" fill="{pop_cream}" opacity=".08"/>
       </g>
       {fur_patch('bjp-torso-clip', 34, -54, -90, 104, 59, pop_cream)}
-      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="{pop_cream}" stroke-width="2.2" stroke-linecap="round" opacity=".28"/>
+      <path d="M-47,-80 Q-4,-99 41,-84" fill="none" stroke="{pop_cream}" stroke-width="2.2" stroke-linecap="round" opacity=".15"/>
       {leg('bjp-', 'hind-near', -32, -60, True, ink=pop_stripe, hair=pop_cream)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bjp-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{pop_stripe}" stroke-width="4.5"/>
