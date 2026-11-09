@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T06:13:37Z",
+  "updatedAt": "2026-11-09T12:16:13Z",
   "prs": [
     {
       "number": 5,
@@ -11663,13 +11663,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-08T16:55:46Z",
+      "updatedAt": "2026-11-09T10:21:42Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -11720,6 +11716,10 @@
         },
         {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11775,13 +11775,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-08T15:41:35Z",
+      "updatedAt": "2026-11-09T10:21:33Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "NEUTRAL"
@@ -11832,6 +11828,10 @@
         },
         {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -16306,6 +16306,24 @@
       "ciChecks": []
     },
     {
+      "number": 2,
+      "repo": "RuixiangHuang/Macbook_Duo_Effect",
+      "org": "RuixiangHuang",
+      "title": "Frozen-image viewport fold with one-shot eye calibration",
+      "url": "https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T11:28:01Z",
+      "workstream": "Uncategorized",
+      "ciChecks": []
+    },
+    {
       "number": 116,
       "repo": "geekflyer/cliprelay",
       "org": "geekflyer",
@@ -16402,77 +16420,6 @@
       ]
     },
     {
-      "number": 639,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/639",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-09T05:50:34Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "validate-shell-files",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "claude",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 82,
       "repo": "kaovilai/kaovilai",
       "org": "kaovilai",
@@ -16496,11 +16443,11 @@
       ]
     },
     {
-      "number": 56,
+      "number": 59,
       "repo": "konveyor/builder",
       "org": "konveyor",
-      "title": "Mark pre-release go-fips content in badges and releases",
-      "url": "https://github.com/konveyor/builder/pull/56",
+      "title": "Dedupe the published-image selector into scripts/shipped-set.sh",
+      "url": "https://github.com/konveyor/builder/pull/59",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -16509,305 +16456,48 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-09T04:18:18Z",
+      "updatedAt": "2026-11-09T11:57:12Z",
       "workstream": "Uncategorized",
       "ciChecks": [
-        {
-          "name": "changes",
-          "conclusion": "SUCCESS"
-        },
         {
           "name": "actionlint",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "build (8, fips) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (8, standard) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / e2e (GO_VERSION=go, latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / e2e (GO_VERSION=go1.26.10, 1.26.10, 1.26.10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (9, fips) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (9, standard) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / e2e (GO_VERSION=go, latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / e2e (GO_VERSION=go1.26.10, 1.26.10, 1.26.10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (10, fips) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/ppc64le)",
-          "conclusion": "SUCCESS"
+          "name": "CodeRabbit",
+          "conclusion": "NEUTRAL"
         },
         {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, linux/s390x)",
+          "name": "DCO",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/amd64)",
+          "name": "Dependency Quality",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/arm64)",
+          "name": "License Compliance",
           "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (10, standard) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.10, 1.26.10, 1.26.10, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / e2e (GO_VERSION=go, latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / e2e (GO_VERSION=go1.26.10, 1.26.10, 1.26.10)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / merge",
-          "conclusion": "SKIPPED"
-        },
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Add CONTRIBUTING with the one-owner-per-rule maintainability rule",
+      "url": "https://github.com/konveyor/builder/pull/60",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-09T12:15:36Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
         {
           "name": "CodeRabbit",
           "conclusion": "NEUTRAL"
@@ -17261,138 +16951,6 @@
       "updatedAt": "2026-10-25T01:09:10Z",
       "workstream": "Uncategorized",
       "ciChecks": []
-    },
-    {
-      "number": 17721,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(mobile): iPad composer accepts dragged screenshots",
-      "url": "https://github.com/pingdotgg/t3code/pull/17721",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "juliusmarminge"
-      ],
-      "isDraft": true,
-      "labels": [
-        "vouch:unvouched",
-        "size:M"
-      ],
-      "updatedAt": "2026-10-19T03:08:58Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "EAS Preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Deploy web preview",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Native fingerprint diff",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Prepare PR size config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Collect PR targets",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Sync PR size label definitions",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Lint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR 17721",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 1",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Label PR size",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 2",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 3",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 4",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 5",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 6",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 7",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Server 8",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Build and Typecheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Test Web",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Rust",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Mobile Native Static Analysis",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Release Smoke",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
     },
     {
       "number": 1,
@@ -18781,7 +18339,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-09T06:13:37Z",
+    "updatedAt": "2026-11-09T12:16:13Z",
     "needsReview": [
       {
         "number": 68,
@@ -18900,7 +18458,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 521,
+        "waitingDays": 522,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -19046,6 +18604,35 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
+        "number": 2308,
+        "repo": "openshift/oc",
+        "org": "openshift",
+        "title": "Export pod inspect functions for external consumption",
+        "url": "https://github.com/openshift/oc/pull/2308",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ardaguclu",
+          "ingvagabund"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 117,
+        "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
         "number": 1531,
         "repo": "slopus/happy",
         "org": "slopus",
@@ -19068,35 +18655,6 @@
         "reason": "awaitingReview",
         "waitingDays": 117,
         "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
-        "number": 2308,
-        "repo": "openshift/oc",
-        "org": "openshift",
-        "title": "Export pod inspect functions for external consumption",
-        "url": "https://github.com/openshift/oc/pull/2308",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ardaguclu",
-          "ingvagabund"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 116,
-        "updatedAt": "2026-07-15T09:18:53Z"
       },
       {
         "number": 267,
@@ -19355,7 +18913,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 87,
+        "waitingDays": 88,
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
@@ -19525,63 +19083,6 @@
         "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 73,
-        "updatedAt": "2026-08-27T17:00:09Z"
-      },
-      {
-        "number": 10281,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-        "url": "https://github.com/velero-io/velero/pull/10281",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 73,
-        "updatedAt": "2026-08-27T16:58:54Z"
-      },
-      {
         "number": 7941,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19596,7 +19097,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19628,7 +19129,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19659,7 +19160,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19690,7 +19191,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19747,7 +19248,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19805,7 +19306,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19839,7 +19340,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19929,7 +19430,7 @@
           "kind/changelog-not-required",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19944,39 +19445,6 @@
         "reason": "awaitingReview",
         "waitingDays": 40,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 40,
-        "updatedAt": "2026-09-29T21:00:44Z"
       },
       {
         "number": 121974,
@@ -20065,7 +19533,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
@@ -20177,7 +19645,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
@@ -20439,6 +19907,65 @@
         "updatedAt": "2026-10-26T20:20:14Z"
       },
       {
+        "number": 10699,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Delete the in-place restore baseline snapshot under a Retain class",
+        "url": "https://github.com/velero-io/velero/pull/10699",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "Needs triage"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-10-27T07:49:22Z"
+      },
+      {
+        "number": 10718,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+        "url": "https://github.com/velero-io/velero/pull/10718",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-10-27T07:46:06Z"
+      },
+      {
         "number": 674,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -20472,65 +19999,6 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
-        "number": 10699,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Delete the in-place restore baseline snapshot under a Retain class",
-        "url": "https://github.com/velero-io/velero/pull/10699",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "Needs triage"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-10-27T07:49:22Z"
-      },
-      {
-        "number": 10718,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
-        "url": "https://github.com/velero-io/velero/pull/10718",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-10-27T07:46:06Z"
-      },
-      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -20562,6 +20030,42 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-10-29T00:08:40Z"
+      },
+      {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lifecycle/stale",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels",
+          "Acedus",
+          "alromeros"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 11,
+        "updatedAt": "2026-10-29T07:00:45Z"
       },
       {
         "number": 330,
@@ -20645,42 +20149,6 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-10-28T22:41:36Z"
-      },
-      {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lifecycle/stale",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels",
-          "Acedus",
-          "alromeros"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-10-29T07:00:45Z"
       },
       {
         "number": 2488,
@@ -20803,30 +20271,6 @@
         "updatedAt": "2026-10-30T14:45:42Z"
       },
       {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-11-02T02:55:27Z"
-      },
-      {
         "number": 89,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -20853,8 +20297,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-11-01T09:31:39Z"
+      },
+      {
+        "number": 216,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Guard CRD regeneration after dependency bumps",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 10710,
@@ -20888,39 +20356,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-11-03T06:07:33Z"
-      },
-      {
-        "number": 9236,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
-        "url": "https://github.com/velero-io/velero/pull/9236",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "blackpiglet",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-11-02T07:27:53Z"
       },
       {
         "number": 104,
@@ -21153,11 +20588,11 @@
         "updatedAt": "2026-11-08T05:26:06Z"
       },
       {
-        "number": 56,
+        "number": 59,
         "repo": "konveyor/builder",
         "org": "konveyor",
-        "title": "Mark pre-release go-fips content in badges and releases",
-        "url": "https://github.com/konveyor/builder/pull/56",
+        "title": "Dedupe the published-image selector into scripts/shipped-set.sh",
+        "url": "https://github.com/konveyor/builder/pull/59",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
@@ -21174,7 +20609,31 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-09T04:18:18Z"
+        "updatedAt": "2026-11-09T11:57:12Z"
+      },
+      {
+        "number": 60,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Add CONTRIBUTING with the one-owner-per-rule maintainability rule",
+        "url": "https://github.com/konveyor/builder/pull/60",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-09T12:15:36Z"
       },
       {
         "number": 468,
@@ -21404,36 +20863,6 @@
         "reason": "pendingMerge",
         "waitingDays": 115,
         "updatedAt": "2026-07-16T17:00:18Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 108,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 253,
@@ -21748,7 +21177,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -21774,7 +21203,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -21802,7 +21231,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -21830,7 +21259,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -21972,7 +21401,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22033,7 +21462,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22045,7 +21474,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -22107,7 +21536,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
@@ -22545,7 +21974,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-11-02T07:42:24Z"
       },
       {
@@ -22731,38 +22160,8 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-11-05T12:13:52Z"
-      },
-      {
-        "number": 10425,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)",
-        "url": "https://github.com/velero-io/velero/pull/10425",
-        "targetBranch": "release-1.17",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-06T05:00:52Z"
       },
       {
         "number": 255,
@@ -22854,7 +22253,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-08T16:55:46Z"
+        "updatedAt": "2026-11-09T10:21:42Z"
       },
       {
         "number": 2534,
@@ -22885,7 +22284,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-08T15:41:35Z"
+        "updatedAt": "2026-11-09T10:21:33Z"
       }
     ]
   }
