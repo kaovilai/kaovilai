@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 12:14:44 UTC
+> **Generated:** 2026-11-09 13:10:14 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -133,7 +133,9 @@
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 
 **Other** (94)
-- [#59 Dedupe the published-image selector into scripts/shipped-set.sh](https://github.com/konveyor/builder/pull/59) — konveyor/builder
+- [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
+- [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
+- [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
 - [#2 Frozen-image viewport fold with one-shot eye calibration](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) — RuixiangHuang/Macbook_Duo_Effect
 - [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
@@ -225,8 +227,6 @@
 - [#27 ci: cache mqvpn binaries, not build trees; skip the build on a hit](https://github.com/kaovilai/tailbond/pull/27) — kaovilai/tailbond
 - [#26 agent: Go 1.27 (language 1.27, toolchain go1.27.3)](https://github.com/kaovilai/tailbond/pull/26) — kaovilai/tailbond
 - [#25 openwrt: ship the opkg feed's public key](https://github.com/kaovilai/tailbond/pull/25) — kaovilai/tailbond
-- [#24 ci: CodeQL advanced setup, so Java/Kotlin builds with the mqvpn submodule](https://github.com/kaovilai/tailbond/pull/24) — kaovilai/tailbond
-- [#201 fix(picker): job search matches fragments in any order](https://github.com/kaovilai/github-bot-command-palette/pull/201) — kaovilai/github-bot-command-palette
 ## PRs Reviewed (26)
 
 **velero-io** (14)
