@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-12 — 2026-11-10
-> **Generated:** 2026-11-10 00:27:43 UTC
+> **Generated:** 2026-11-10 06:18:16 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 18 |
+| PRs Reviewed | 20 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 83 |
+| Issues Closed | 84 |
 
 ---
 
@@ -27,6 +27,10 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (93)
+- [#64 Rework the README for consumers](https://github.com/konveyor/builder/pull/64) — konveyor/builder
+- [#8 fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main](https://github.com/kaovilai/context-mode/pull/8) — kaovilai/context-mode
+- [#21 route conformance + CI-generated coverage docs (README + Pages site) + brew install](https://github.com/kaovilai/podm/pull/21) — kaovilai/podm
+- [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
 - [#7 fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install](https://github.com/kaovilai/context-mode/pull/7) — kaovilai/context-mode
 - [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
@@ -116,22 +120,22 @@
 - [#33 feat: one click from the Mac to a phone's bonded connection (Bluetooth + Shizuku hotspot)](https://github.com/kaovilai/tailbond/pull/33) — kaovilai/tailbond
 - [#36 a11y: axe-core on every web surface in CI, and the fixes it found](https://github.com/kaovilai/tailbond/pull/36) — kaovilai/tailbond
 - [#46 Centralize build scheduling into a single version-aware dispatcher](https://github.com/konveyor/builder/pull/46) — konveyor/builder
-- [#34 site: dotted flow texture, a pointer-lit hero, dotted headings](https://github.com/kaovilai/tailbond/pull/34) — kaovilai/tailbond
-- [#32 ci: the macOS self-update path end to end (Update now, rollback, SHA256SUMS)](https://github.com/kaovilai/tailbond/pull/32) — kaovilai/tailbond
-- [#598 feat(llm-usage): wait bar in floating window for slow in-flight requests](https://github.com/kaovilai/dotfiles/pull/598) — kaovilai/dotfiles
-- [#30 android: Android TV, driven by the remote](https://github.com/kaovilai/tailbond/pull/30) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (1)
 - [#10798 test: add Go fuzz targets for the backup archive extractor](https://github.com/velero-io/velero/pull/10798) — velero-io/velero
 
 **openshift** (4)
+- [#2543 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2543) — openshift/oadp-operator
+- [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 - [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
 - [#88443 Wire Depends-On image overrides into all oadp-operator e2e presubmits](https://github.com/openshift/release/pull/88443) — openshift/release
-- [#605 Bump Go builder images to golang:1.27-trixie](https://github.com/openshift/velero/pull/605) — openshift/velero
-- [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 
 **Other** (95)
+- [#22 test(conformance): skip dispatching the network-bound distribution probe](https://github.com/kaovilai/podm/pull/22) — kaovilai/podm
+- [#64 Rework the README for consumers](https://github.com/konveyor/builder/pull/64) — konveyor/builder
+- [#8 fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main](https://github.com/kaovilai/context-mode/pull/8) — kaovilai/context-mode
+- [#21 route conformance + CI-generated coverage docs (README + Pages site) + brew install](https://github.com/kaovilai/podm/pull/21) — kaovilai/podm
 - [#7 fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install](https://github.com/kaovilai/context-mode/pull/7) — kaovilai/context-mode
 - [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
 - [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
@@ -223,32 +227,30 @@
 - [#40 ux: pin Playwright in every screenshot script, not just the a11y one](https://github.com/kaovilai/tailbond/pull/40) — kaovilai/tailbond
 - [#39 ui: the setup rows and the router guide read as rows, not paragraphs](https://github.com/kaovilai/tailbond/pull/39) — kaovilai/tailbond
 - [#38 docs: a development build from before v0.1.3 can't update itself](https://github.com/kaovilai/tailbond/pull/38) — kaovilai/tailbond
-- [#217 Prep rebasebot for velero's Go 1.27 rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) — oadp-rebasebot/oadp-rebase
-- [#47 Build Go 1.27 FIPS images (golang-fips prereleases) and modernize the release pipeline: SBOMs, attestations, badges, auto-added UBI variants](https://github.com/konveyor/builder/pull/47) — konveyor/builder
-- [#37 One click from the Mac: the phone starts its hotspot, the Mac bonds through it](https://github.com/kaovilai/tailbond/pull/37) — kaovilai/tailbond
-- [#31614 fix(web): model picker no longer leaves blank rows](https://github.com/pingdotgg/t3code/pull/31614) — pingdotgg/t3code
-## PRs Reviewed (18)
+## PRs Reviewed (20)
 
 **velero-io** (10)
+- [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
+- [#10 Clarify the repository of forked kopia](https://github.com/velero-io/.github/pull/10) — velero-io/.github
+- [#10811 Update the repositories on the support-process page](https://github.com/velero-io/velero/pull/10811) — velero-io/velero
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
-- [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
 - [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#10776 build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory](https://github.com/velero-io/velero/pull/10776) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
-- [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
-- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 
-**openshift** (5)
+**openshift** (6)
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
+- [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#507 Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6](https://github.com/openshift/openshift-velero-plugin/pull/507) — openshift/openshift-velero-plugin
 
-**migtools** (1)
+**migtools** (2)
+- [#251 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/kubevirt-datamover-controller/pull/251) — migtools/kubevirt-datamover-controller
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 
 **Other** (2)
@@ -361,9 +363,10 @@
 - [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
-## Issues Closed (83)
+## Issues Closed (84)
 
-**velero-io** (23)
+**velero-io** (24)
+- [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
 - [#10724 Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit](https://github.com/velero-io/velero/issues/10724) — velero-io/velero
 - [#10721 Regression: backup deletion fails for good after an interrupted deletion (kopia snapshot not found after repo refresh)](https://github.com/velero-io/velero/issues/10721) — velero-io/velero

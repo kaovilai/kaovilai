@@ -3,15 +3,51 @@
     "start": "2026-08-12",
     "end": "2026-11-10"
   },
-  "generatedAt": "2026-11-10T00:27:43Z",
+  "generatedAt": "2026-11-10T06:18:16Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 18,
+    "prsReviewed": 20,
     "issuesCommented": 100,
-    "issuesClosed": 83
+    "issuesClosed": 84
   },
   "prsMerged": [
+    {
+      "number": 64,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Rework the README for consumers",
+      "url": "https://github.com/konveyor/builder/pull/64",
+      "date": "2026-11-10T05:47:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 8,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main",
+      "url": "https://github.com/kaovilai/context-mode/pull/8",
+      "date": "2026-11-10T04:29:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 21,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "route conformance + CI-generated coverage docs (README + Pages site) + brew install",
+      "url": "https://github.com/kaovilai/podm/pull/21",
+      "date": "2026-11-10T02:50:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 63,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Name fips tags for their FIPS backend",
+      "url": "https://github.com/konveyor/builder/pull/63",
+      "date": "2026-11-10T01:54:29Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 7,
       "repo": "kaovilai/context-mode",
@@ -875,45 +911,63 @@
       "url": "https://github.com/konveyor/builder/pull/46",
       "date": "2026-11-05T18:06:07Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 34,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "site: dotted flow texture, a pointer-lit hero, dotted headings",
-      "url": "https://github.com/kaovilai/tailbond/pull/34",
-      "date": "2026-11-05T16:42:32Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 32,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: the macOS self-update path end to end (Update now, rollback, SHA256SUMS)",
-      "url": "https://github.com/kaovilai/tailbond/pull/32",
-      "date": "2026-11-05T15:35:05Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 598,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(llm-usage): wait bar in floating window for slow in-flight requests",
-      "url": "https://github.com/kaovilai/dotfiles/pull/598",
-      "date": "2026-11-05T14:05:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 30,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "android: Android TV, driven by the remote",
-      "url": "https://github.com/kaovilai/tailbond/pull/30",
-      "date": "2026-11-05T11:00:15Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 22,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "test(conformance): skip dispatching the network-bound distribution probe",
+      "url": "https://github.com/kaovilai/podm/pull/22",
+      "date": "2026-11-10T05:51:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 64,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Rework the README for consumers",
+      "url": "https://github.com/konveyor/builder/pull/64",
+      "date": "2026-11-10T04:49:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 8,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main",
+      "url": "https://github.com/kaovilai/context-mode/pull/8",
+      "date": "2026-11-10T04:21:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2543,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
+      "url": "https://github.com/openshift/oadp-operator/pull/2543",
+      "date": "2026-11-10T03:56:58Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2542,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
+      "url": "https://github.com/openshift/oadp-operator/pull/2542",
+      "date": "2026-11-10T03:56:44Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 21,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "route conformance + CI-generated coverage docs (README + Pages site) + brew install",
+      "url": "https://github.com/kaovilai/podm/pull/21",
+      "date": "2026-11-10T01:07:02Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 7,
       "repo": "kaovilai/context-mode",
@@ -1759,70 +1813,16 @@
       "url": "https://github.com/kaovilai/tailbond/pull/38",
       "date": "2026-11-05T19:06:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 217,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "Prep rebasebot for velero's Go 1.27 rebase",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
-      "date": "2026-11-05T18:51:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 47,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Build Go 1.27 FIPS images (golang-fips prereleases) and modernize the release pipeline: SBOMs, attestations, badges, auto-added UBI variants",
-      "url": "https://github.com/konveyor/builder/pull/47",
-      "date": "2026-11-05T18:48:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 37,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "One click from the Mac: the phone starts its hotspot, the Mac bonds through it",
-      "url": "https://github.com/kaovilai/tailbond/pull/37",
-      "date": "2026-11-05T18:39:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 31614,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): model picker no longer leaves blank rows",
-      "url": "https://github.com/pingdotgg/t3code/pull/31614",
-      "date": "2026-11-05T18:11:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 605,
-      "repo": "openshift/velero",
-      "org": "openshift",
-      "title": "Bump Go builder images to golang:1.27-trixie",
-      "url": "https://github.com/openshift/velero/pull/605",
-      "date": "2026-11-05T17:59:47Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88415,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27",
-      "url": "https://github.com/openshift/release/pull/88415",
-      "date": "2026-11-05T17:17:08Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
     {
-      "number": 10802,
+      "number": 10586,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195",
-      "url": "https://github.com/velero-io/velero/pull/10802",
-      "date": "2026-11-09T21:38:53Z",
+      "title": "Reject malformed glob patterns in resource filters",
+      "url": "https://github.com/velero-io/velero/pull/10586",
+      "date": "2026-11-10T05:32:44Z",
       "workstream": "Velero"
     },
     {
@@ -1831,7 +1831,7 @@
       "org": "openshift",
       "title": "Bug: fix CreateNamespace race when namespace is Terminating",
       "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-11-09T21:19:31Z",
+      "date": "2026-11-10T05:29:20Z",
       "workstream": "OADP"
     },
     {
@@ -1840,8 +1840,62 @@
       "org": "openshift",
       "title": "OADP-8924: Add HCP guest cluster pod backup test case",
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-11-09T21:14:34Z",
+      "date": "2026-11-10T05:29:17Z",
       "workstream": "OADP"
+    },
+    {
+      "number": 2533,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
+      "url": "https://github.com/openshift/oadp-operator/pull/2533",
+      "date": "2026-11-10T05:29:03Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2540,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/openshift/oadp-operator/pull/2540",
+      "date": "2026-11-10T04:59:29Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10,
+      "repo": "velero-io/.github",
+      "org": "velero-io",
+      "title": "Clarify the repository of forked kopia",
+      "url": "https://github.com/velero-io/.github/pull/10",
+      "date": "2026-11-10T03:21:46Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10811,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update the repositories on the support-process page",
+      "url": "https://github.com/velero-io/velero/pull/10811",
+      "date": "2026-11-10T03:17:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 251,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/251",
+      "date": "2026-11-10T01:53:00Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 10802,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195",
+      "url": "https://github.com/velero-io/velero/pull/10802",
+      "date": "2026-11-09T21:38:53Z",
+      "workstream": "Velero"
     },
     {
       "number": 23510,
@@ -1853,21 +1907,12 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 2533,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
-      "url": "https://github.com/openshift/oadp-operator/pull/2533",
-      "date": "2026-11-09T10:21:42Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 2534,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2534",
-      "date": "2026-11-09T10:21:33Z",
+      "date": "2026-11-10T05:29:07Z",
       "workstream": "OADP"
     },
     {
@@ -1877,15 +1922,6 @@
       "title": "Add E2E automation test cases for in-place restore",
       "url": "https://github.com/velero-io/velero/pull/10734",
       "date": "2026-11-09T05:39:34Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10586,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reject malformed glob patterns in resource filters",
-      "url": "https://github.com/velero-io/velero/pull/10586",
-      "date": "2026-11-09T04:33:01Z",
       "workstream": "Velero"
     },
     {
@@ -1959,24 +1995,6 @@
       "url": "https://github.com/quay/quay/pull/7381",
       "date": "2026-11-05T21:16:45Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10687,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Count backup/restore failures in metrics during startup cleanup",
-      "url": "https://github.com/velero-io/velero/pull/10687",
-      "date": "2026-11-05T17:34:01Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10793,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] fix: defer VGS cleanup until backup finalization (#10612)",
-      "url": "https://github.com/velero-io/velero/pull/10793",
-      "date": "2026-11-05T16:31:02Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
@@ -2882,6 +2900,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10284,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows",
+      "url": "https://github.com/velero-io/velero/issues/10284",
+      "date": "2026-11-10T01:36:06Z",
+      "workstream": "Velero"
+    },
     {
       "number": 2481,
       "repo": "openshift/oadp-operator",
