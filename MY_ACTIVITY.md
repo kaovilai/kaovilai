@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-11 — 2026-11-09
-> **Generated:** 2026-11-09 23:09:08 UTC
+> **Period:** 2026-08-12 — 2026-11-10
+> **Generated:** 2026-11-10 00:27:43 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,13 +9,14 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 18 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 82 |
+| Issues Closed | 83 |
 
 ---
 
 ## PRs Merged (100)
 
-**openshift** (5)
+**openshift** (6)
+- [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2531 fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2531) — openshift/oadp-operator
 - [#2207 OADP-8312: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2207) — openshift/oadp-operator
 - [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
@@ -25,7 +26,8 @@
 **migtools** (1)
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
-**Other** (94)
+**Other** (93)
+- [#7 fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install](https://github.com/kaovilai/context-mode/pull/7) — kaovilai/context-mode
 - [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
 - [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
@@ -118,8 +120,6 @@
 - [#32 ci: the macOS self-update path end to end (Update now, rollback, SHA256SUMS)](https://github.com/kaovilai/tailbond/pull/32) — kaovilai/tailbond
 - [#598 feat(llm-usage): wait bar in floating window for slow in-flight requests](https://github.com/kaovilai/dotfiles/pull/598) — kaovilai/dotfiles
 - [#30 android: Android TV, driven by the remote](https://github.com/kaovilai/tailbond/pull/30) — kaovilai/tailbond
-- [#29 Pair & Share: Macs and Linux computers can share an uplink with a hub](https://github.com/kaovilai/tailbond/pull/29) — kaovilai/tailbond
-- [#27 ci: cache mqvpn binaries, not build trees; skip the build on a hit](https://github.com/kaovilai/tailbond/pull/27) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **velero-io** (1)
@@ -361,7 +361,7 @@
 - [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#18963 VEP #25: Infer backup target StorageClass from source VM volumes](https://github.com/kubevirt/kubevirt/issues/18963) — kubevirt/kubevirt
-## Issues Closed (82)
+## Issues Closed (83)
 
 **velero-io** (23)
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
@@ -388,7 +388,8 @@
 - [#10304 Block data mover: retained CBT base snapshots are never reclaimed at backup deletion (design L370-371/L474 unimplemented)](https://github.com/velero-io/velero/issues/10304) — velero-io/velero
 - [#10302 Block data mover silently falls back to the filesystem uploader when no volume policy is supplied](https://github.com/velero-io/velero/issues/10302) — velero-io/velero
 
-**openshift** (13)
+**openshift** (14)
+- [#2481 KubeVirt datamover controller: hardcoded 128Mi/500m resources and 1s probes too small at scale; not configurable via DPA](https://github.com/openshift/oadp-operator/issues/2481) — openshift/oadp-operator
 - [#2389 e2e: support testing a change that spans multiple unmerged OADP-ecosystem PRs at once](https://github.com/openshift/oadp-operator/issues/2389) — openshift/oadp-operator
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#259 Cherrypicks missing for https://github.com/openshift/enhancements/pull/1945 related PRs to oadp-1.6](https://github.com/openshift/hypershift-oadp-plugin/issues/259) — openshift/hypershift-oadp-plugin

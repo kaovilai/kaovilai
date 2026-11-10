@@ -1,17 +1,35 @@
 {
   "period": {
-    "start": "2026-08-11",
-    "end": "2026-11-09"
+    "start": "2026-08-12",
+    "end": "2026-11-10"
   },
-  "generatedAt": "2026-11-09T23:09:08Z",
+  "generatedAt": "2026-11-10T00:27:43Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 18,
     "issuesCommented": 100,
-    "issuesClosed": 82
+    "issuesClosed": 83
   },
   "prsMerged": [
+    {
+      "number": 7,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install",
+      "url": "https://github.com/kaovilai/context-mode/pull/7",
+      "date": "2026-11-10T00:26:20Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2482,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(kubevirt-datamover): size controller for scale, make resources configurable",
+      "url": "https://github.com/openshift/oadp-operator/pull/2482",
+      "date": "2026-11-09T23:53:58Z",
+      "workstream": "OADP"
+    },
     {
       "number": 2531,
       "repo": "openshift/oadp-operator",
@@ -892,24 +910,6 @@
       "title": "android: Android TV, driven by the remote",
       "url": "https://github.com/kaovilai/tailbond/pull/30",
       "date": "2026-11-05T11:00:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 29,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "Pair & Share: Macs and Linux computers can share an uplink with a hub",
-      "url": "https://github.com/kaovilai/tailbond/pull/29",
-      "date": "2026-11-05T11:00:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 27,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: cache mqvpn binaries, not build trees; skip the build on a hit",
-      "url": "https://github.com/kaovilai/tailbond/pull/27",
-      "date": "2026-11-05T11:00:03Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -2882,6 +2882,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 2481,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "KubeVirt datamover controller: hardcoded 128Mi/500m resources and 1s probes too small at scale; not configurable via DPA",
+      "url": "https://github.com/openshift/oadp-operator/issues/2481",
+      "date": "2026-11-09T23:54:00Z",
+      "workstream": "OADP"
+    },
     {
       "number": 18,
       "repo": "Past-da-king/agent",
