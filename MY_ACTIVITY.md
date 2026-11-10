@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-12 — 2026-11-10
-> **Generated:** 2026-11-10 15:08:26 UTC
+> **Generated:** 2026-11-10 16:10:57 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -31,6 +31,8 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
+- [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 - [#23 feat(containers): docker/podman rename via a persisted name-override store](https://github.com/kaovilai/podm/pull/23) — kaovilai/podm
@@ -120,8 +122,6 @@
 - [#610 feat(proxies,bridge): Go owns the proxy lifecycle and the launch path](https://github.com/kaovilai/dotfiles/pull/610) — kaovilai/dotfiles
 - [#612 fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start](https://github.com/kaovilai/dotfiles/pull/612) — kaovilai/dotfiles
 - [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
-- [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
-- [#606 ci(deps): track the Go proxy module; scan Go build + vulns](https://github.com/kaovilai/dotfiles/pull/606) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
 - [#26 feat(containers): docker commit / podman commit via import pipeline](https://github.com/kaovilai/podm/pull/26) — kaovilai/podm
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
@@ -228,7 +229,6 @@
 - [#616 feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default](https://github.com/kaovilai/dotfiles/pull/616) — kaovilai/dotfiles
 - [#615 fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model](https://github.com/kaovilai/dotfiles/pull/615) — kaovilai/dotfiles
 - [#614 feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs](https://github.com/kaovilai/dotfiles/pull/614) — kaovilai/dotfiles
-- [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
 ## PRs Reviewed (22)
 
 **velero-io** (13)
@@ -247,10 +247,10 @@
 - [#10776 build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory](https://github.com/velero-io/velero/pull/10776) — velero-io/velero
 
 **openshift** (5)
+- [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
-- [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 
 **migtools** (2)

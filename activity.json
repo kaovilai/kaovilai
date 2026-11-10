@@ -3,7 +3,7 @@
     "start": "2026-08-12",
     "end": "2026-11-10"
   },
-  "generatedAt": "2026-11-10T15:08:26Z",
+  "generatedAt": "2026-11-10T16:10:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,24 @@
     "issuesClosed": 86
   },
   "prsMerged": [
+    {
+      "number": 210,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(failure-log): always show Claude analysis alongside matched error lines",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/210",
+      "date": "2026-11-10T15:16:44Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "claude-code plugin: connect the MCP entry to the shared daemon over HTTP",
+      "url": "https://github.com/kaovilai/context-mode/pull/10",
+      "date": "2026-11-10T15:15:38Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 207,
       "repo": "kaovilai/github-bot-command-palette",
@@ -893,27 +911,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/611",
       "date": "2026-11-06T14:03:28Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 607,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review",
-      "url": "https://github.com/kaovilai/dotfiles/pull/607",
-      "date": "2026-11-06T12:02:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 606,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "ci(deps): track the Go proxy module; scan Go build + vulns",
-      "url": "https://github.com/kaovilai/dotfiles/pull/606",
-      "date": "2026-11-06T11:40:14Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 210,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(failure-log): always show Claude analysis alongside matched error lines",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/210",
+      "date": "2026-11-10T15:14:06Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 26,
       "repo": "kaovilai/podm",
@@ -1804,18 +1813,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/614",
       "date": "2026-11-06T16:15:49Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 613,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port",
-      "url": "https://github.com/kaovilai/dotfiles/pull/613",
-      "date": "2026-11-06T15:46:24Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2540,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/openshift/oadp-operator/pull/2540",
+      "date": "2026-11-10T15:36:40Z",
+      "workstream": "OADP"
+    },
     {
       "number": 7381,
       "repo": "quay/quay",
@@ -1913,15 +1922,6 @@
       "title": "OADP-8924: Add HCP guest cluster pod backup test case",
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
       "date": "2026-11-10T05:29:17Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2540,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2540",
-      "date": "2026-11-10T04:59:29Z",
       "workstream": "OADP"
     },
     {
