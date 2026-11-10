@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-12 — 2026-11-10
-> **Generated:** 2026-11-10 14:09:46 UTC
+> **Generated:** 2026-11-10 15:08:26 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 21 |
+| PRs Reviewed | 22 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 85 |
+| Issues Closed | 86 |
 
 ---
 
@@ -31,6 +31,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 - [#23 feat(containers): docker/podman rename via a persisted name-override store](https://github.com/kaovilai/podm/pull/23) — kaovilai/podm
 - [#206 fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit](https://github.com/kaovilai/github-bot-command-palette/pull/206) — kaovilai/github-bot-command-palette
@@ -121,7 +122,6 @@
 - [#611 feat(proxies): web search for search-less upstreams via the Parallel MCP](https://github.com/kaovilai/dotfiles/pull/611) — kaovilai/dotfiles
 - [#607 fix(aw): upgrade gh-aw to v1.2.0; retire Copilot Code Review for native Copilot review](https://github.com/kaovilai/dotfiles/pull/607) — kaovilai/dotfiles
 - [#606 ci(deps): track the Go proxy module; scan Go build + vulns](https://github.com/kaovilai/dotfiles/pull/606) — kaovilai/dotfiles
-- [#601 feat(hosted-only): opt-in Go proxy (HOSTED_ONLY_PROXY_IMPL=go)](https://github.com/kaovilai/dotfiles/pull/601) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -229,7 +229,7 @@
 - [#615 fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model](https://github.com/kaovilai/dotfiles/pull/615) — kaovilai/dotfiles
 - [#614 feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs](https://github.com/kaovilai/dotfiles/pull/614) — kaovilai/dotfiles
 - [#613 fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port](https://github.com/kaovilai/dotfiles/pull/613) — kaovilai/dotfiles
-## PRs Reviewed (21)
+## PRs Reviewed (22)
 
 **velero-io** (13)
 - [#10815 Add Hippius to the S3-compatible object store providers list](https://github.com/velero-io/velero/pull/10815) — velero-io/velero
@@ -257,7 +257,8 @@
 - [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
 - [#251 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/kubevirt-datamover-controller/pull/251) — migtools/kubevirt-datamover-controller
 
-**Other** (1)
+**Other** (2)
+- [#7381 PROJQUAY-8767: fix(ui): load tag history on demand and search server-side](https://github.com/quay/quay/pull/7381) — quay/quay
 - [#23510 fix(clients): later image reads show updated file contents](https://github.com/pingdotgg/t3code/pull/23510) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
@@ -315,12 +316,12 @@
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 
 **Other** (51)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#33732 [Bug]: macOS desktop app aborts when the system-wide file table fills (kqueue: Too many open files in system)](https://github.com/pingdotgg/t3code/issues/33732) — pingdotgg/t3code
 - [#76291 x/tools/gopls: mcp: file watcher try to watch for all roots](https://github.com/golang/go/issues/76291) — golang/go
 - [#18 Add MacroDroid-style Android automation integration](https://github.com/Past-da-king/agent/issues/18) — Past-da-king/agent
 - [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
 - [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
 - [#41 Deconstruct workflows into reusable components so there are less duplicative code in .github/workflows](https://github.com/konveyor/builder/issues/41) — konveyor/builder
@@ -366,7 +367,7 @@
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
 - [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
-## Issues Closed (85)
+## Issues Closed (86)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -425,7 +426,8 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (34)
+**Other** (35)
+- [#17719 [Bug]: iPad composer does not accept a screenshot dragged into it](https://github.com/pingdotgg/t3code/issues/17719) — pingdotgg/t3code
 - [#33732 [Bug]: macOS desktop app aborts when the system-wide file table fills (kqueue: Too many open files in system)](https://github.com/pingdotgg/t3code/issues/33732) — pingdotgg/t3code
 - [#18 Add MacroDroid-style Android automation integration](https://github.com/Past-da-king/agent/issues/18) — Past-da-king/agent
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
