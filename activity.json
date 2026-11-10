@@ -3,7 +3,7 @@
     "start": "2026-08-12",
     "end": "2026-11-10"
   },
-  "generatedAt": "2026-11-10T12:13:43Z",
+  "generatedAt": "2026-11-10T13:09:28Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 85
   },
   "prsMerged": [
+    {
+      "number": 24,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(containers): docker diff / podman diff via ext4 tree walk",
+      "url": "https://github.com/kaovilai/podm/pull/24",
+      "date": "2026-11-10T12:48:44Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10426,
       "repo": "velero-io/velero",
@@ -902,18 +911,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/601",
       "date": "2026-11-06T11:08:39Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 600,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(proxies): audit — perf ops, failover and ops-continuity gaps; merge hosted-only proxies (#599)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/600",
-      "date": "2026-11-06T10:30:39Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 26,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(containers): docker commit / podman commit via import pipeline",
+      "url": "https://github.com/kaovilai/podm/pull/26",
+      "date": "2026-11-10T12:49:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 2547,
       "repo": "openshift/oadp-operator",
@@ -1803,15 +1812,6 @@
       "title": "fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port",
       "url": "https://github.com/kaovilai/dotfiles/pull/613",
       "date": "2026-11-06T15:46:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 612,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start",
-      "url": "https://github.com/kaovilai/dotfiles/pull/612",
-      "date": "2026-11-06T15:06:22Z",
       "workstream": "Uncategorized"
     }
   ],
