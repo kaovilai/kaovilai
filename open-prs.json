@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:08:49Z",
+  "updatedAt": "2026-11-10T18:10:57Z",
   "prs": [
     {
       "number": 5,
@@ -11475,16 +11475,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-10T15:36:40Z",
+      "updatedAt": "2026-11-10T17:32:37Z",
       "workstream": "OADP",
       "ciChecks": [
         {
-          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
           "conclusion": "FAILURE"
         },
         {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "FAILURE"
         },
         {
           "name": "CodeRabbit",
@@ -12738,16 +12738,12 @@
         "do-not-merge/work-in-progress",
         "approved"
       ],
-      "updatedAt": "2026-11-10T13:48:48Z",
+      "updatedAt": "2026-11-10T17:09:58Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
           "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.4/e2e-test-aws",
-          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -12955,6 +12951,10 @@
         },
         {
           "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-dev/e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.4/e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -16723,11 +16723,11 @@
       ]
     },
     {
-      "number": 26,
+      "number": 27,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
-      "title": "feat(containers): docker commit / podman commit via import pipeline",
-      "url": "https://github.com/kaovilai/podm/pull/26",
+      "title": "feat(libpod): podman local secrets — create/ls/inspect/exists/rm",
+      "url": "https://github.com/kaovilai/podm/pull/27",
       "targetBranch": "main",
       "status": "ci-pending",
       "milestone": null,
@@ -16736,56 +16736,40 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-10T16:12:02Z",
+      "updatedAt": "2026-11-10T18:10:36Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
           "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "docker + podman CLI smoke tests",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "build",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "Analyze (c-cpp)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "Analyze (ruby)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "Analyze (swift)",
           "conclusion": ""
         },
         {
-          "name": "multi-arch build test (amd64 + arm64 + s390x)",
-          "conclusion": "SKIPPED"
-        },
-        {
           "name": "formatters & tests",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "integration test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "multi-arch build test (amd64 + arm64 + s390x)",
-          "conclusion": "SKIPPED"
+          "conclusion": ""
         },
         {
           "name": "CodeQL",
           "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -18217,7 +18201,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-10T17:08:49Z",
+    "updatedAt": "2026-11-10T18:10:57Z",
     "needsReview": [
       {
         "number": 68,
@@ -18478,7 +18462,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 123,
+        "waitingDays": 124,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -19230,7 +19214,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -19526,6 +19510,30 @@
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
+        "number": 106,
+        "repo": "migtools/kubevirt-velero-plugin",
+        "org": "migtools",
+        "title": "Sync OWNERS_ALIASES with main",
+        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 19,
+        "updatedAt": "2026-10-22T17:29:19Z"
+      },
+      {
         "number": 10032,
         "repo": "openshift/installer",
         "org": "openshift",
@@ -19586,30 +19594,6 @@
         "reason": "hold",
         "waitingDays": 19,
         "updatedAt": "2026-10-21T21:30:24Z"
-      },
-      {
-        "number": 106,
-        "repo": "migtools/kubevirt-velero-plugin",
-        "org": "migtools",
-        "title": "Sync OWNERS_ALIASES with main",
-        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 18,
-        "updatedAt": "2026-10-22T17:29:19Z"
       },
       {
         "number": 287,
@@ -19785,6 +19769,33 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
+        "number": 2520,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests: add Eventually guards before bare Consistently calls",
+        "url": "https://github.com/openshift/oadp-operator/pull/2520",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-10-28T17:48:56Z"
+      },
+      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -19881,33 +19892,6 @@
         "reason": "awaitingReview",
         "waitingDays": 12,
         "updatedAt": "2026-10-28T20:14:37Z"
-      },
-      {
-        "number": 2520,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests: add Eventually guards before bare Consistently calls",
-        "url": "https://github.com/openshift/oadp-operator/pull/2520",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-10-28T17:48:56Z"
       },
       {
         "number": 2521,
@@ -21261,7 +21245,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 45,
+        "waitingDays": 46,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -21913,7 +21897,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 5,
+        "waitingDays": 6,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
@@ -22069,7 +22053,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T15:36:40Z"
+        "updatedAt": "2026-11-10T17:32:37Z"
       },
       {
         "number": 2542,
