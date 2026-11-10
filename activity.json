@@ -3,15 +3,24 @@
     "start": "2026-08-12",
     "end": "2026-11-10"
   },
-  "generatedAt": "2026-11-10T17:08:01Z",
+  "generatedAt": "2026-11-10T18:09:56Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 22,
+    "prsReviewed": 23,
     "issuesCommented": 100,
     "issuesClosed": 86
   },
   "prsMerged": [
+    {
+      "number": 26,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(containers): docker commit / podman commit via import pipeline",
+      "url": "https://github.com/kaovilai/podm/pull/26",
+      "date": "2026-11-10T17:14:59Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 210,
       "repo": "kaovilai/github-bot-command-palette",
@@ -902,18 +911,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/612",
       "date": "2026-11-06T15:08:31Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 611,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxies): web search for search-less upstreams via the Parallel MCP",
-      "url": "https://github.com/kaovilai/dotfiles/pull/611",
-      "date": "2026-11-06T14:03:28Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 27,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(libpod): podman local secrets — create/ls/inspect/exists/rm",
+      "url": "https://github.com/kaovilai/podm/pull/27",
+      "date": "2026-11-10T17:15:37Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 210,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/615",
       "date": "2026-11-06T17:24:01Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 614,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs",
-      "url": "https://github.com/kaovilai/dotfiles/pull/614",
-      "date": "2026-11-06T16:15:49Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -1822,8 +1822,44 @@
       "org": "openshift",
       "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
       "url": "https://github.com/openshift/oadp-operator/pull/2540",
-      "date": "2026-11-10T15:36:40Z",
+      "date": "2026-11-10T17:32:37Z",
       "workstream": "OADP"
+    },
+    {
+      "number": 335,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
+      "date": "2026-11-10T17:27:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10815,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add Hippius to the S3-compatible object store providers list",
+      "url": "https://github.com/velero-io/velero/pull/10815",
+      "date": "2026-11-10T17:20:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 338,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
+      "date": "2026-11-10T17:18:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10780,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "site: add a blog post on the CSI snapshot tests on kind",
+      "url": "https://github.com/velero-io/velero/pull/10780",
+      "date": "2026-11-10T17:13:12Z",
+      "workstream": "Velero"
     },
     {
       "number": 7381,
@@ -1842,15 +1878,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2533",
       "date": "2026-11-10T13:11:19Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10815,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Hippius to the S3-compatible object store providers list",
-      "url": "https://github.com/velero-io/velero/pull/10815",
-      "date": "2026-11-10T11:48:22Z",
-      "workstream": "Velero"
     },
     {
       "number": 256,
@@ -1886,15 +1913,6 @@
       "title": "[release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)",
       "url": "https://github.com/velero-io/velero/pull/10792",
       "date": "2026-11-10T06:26:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10780,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "site: add a blog post on the CSI snapshot tests on kind",
-      "url": "https://github.com/velero-io/velero/pull/10780",
-      "date": "2026-11-10T06:26:21Z",
       "workstream": "Velero"
     },
     {
@@ -1994,15 +2012,6 @@
       "title": "build(deps): bump the github-actions group across 1 directory with 6 updates",
       "url": "https://github.com/velero-io/velero/pull/10803",
       "date": "2026-11-09T03:21:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 338,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
-      "date": "2026-11-08T16:13:31Z",
       "workstream": "Velero"
     },
     {
