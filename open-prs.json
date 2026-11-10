@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:10:17Z",
+  "updatedAt": "2026-11-10T15:09:24Z",
   "prs": [
     {
       "number": 5,
@@ -10649,51 +10649,23 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-10T13:28:37Z",
+      "updatedAt": "2026-11-10T15:02:35Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10705,6 +10677,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-images",
           "conclusion": "SUCCESS"
         },
@@ -10713,11 +10689,35 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-images",
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.1-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10754,23 +10754,15 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-10T12:56:35Z",
+      "updatedAt": "2026-11-10T14:38:32Z",
       "workstream": "OADP",
       "ciChecks": [
         {
-          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "FAILURE"
         },
         {
           "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-hcp-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10786,11 +10778,7 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.23-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-hcp-aws",
+          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10799,18 +10787,6 @@
         },
         {
           "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
@@ -10834,6 +10810,14 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.22-images",
           "conclusion": "SUCCESS"
         },
@@ -10842,11 +10826,27 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-images",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -16282,49 +16282,6 @@
       ]
     },
     {
-      "number": 207,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "feat(checks): keep overridden CI jobs easy to retest",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/207",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-10T12:10:37Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "auto-merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript-typescript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 82,
       "repo": "kaovilai/kaovilai",
       "org": "kaovilai",
@@ -16779,7 +16736,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-10T14:02:50Z",
+      "updatedAt": "2026-11-10T14:45:24Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -18260,7 +18217,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-10T14:10:17Z",
+    "updatedAt": "2026-11-10T15:09:24Z",
     "needsReview": [
       {
         "number": 68,
@@ -18406,7 +18363,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 242,
+        "waitingDays": 243,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -18713,7 +18670,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 98,
+        "waitingDays": 99,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -20752,7 +20709,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T13:28:37Z"
+        "updatedAt": "2026-11-10T15:02:35Z"
       },
       {
         "number": 2547,
@@ -20781,7 +20738,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T12:56:35Z"
+        "updatedAt": "2026-11-10T14:38:32Z"
       },
       {
         "number": 10798,
@@ -20900,7 +20857,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 96,
+        "waitingDays": 97,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -21419,7 +21376,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 41,
+        "waitingDays": 42,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
