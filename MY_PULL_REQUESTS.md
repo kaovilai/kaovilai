@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-10 12:14:17 UTC
+> Last updated: 2026-11-10 13:09:50 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -80,6 +80,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2543](https://img.shields.io/badge/PR%20%232543-ready-green)](https://github.com/openshift/oadp-operator/pull/2543) **openshift/oadp-operator** → `oadp-dev` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
 - [![PR #2544](https://img.shields.io/badge/PR%20%232544-ready-green)](https://github.com/openshift/oadp-operator/pull/2544) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #2545](https://img.shields.io/badge/PR%20%232545-ready-green)](https://github.com/openshift/oadp-operator/pull/2545) **openshift/oadp-operator** → `oadp-1.6` - fix: retry AWS bucket region discovery on transient S3 errors
+- [![PR #2546](https://img.shields.io/badge/PR%20%232546-ready-green)](https://github.com/openshift/oadp-operator/pull/2546) **openshift/oadp-operator** → `oadp-dev` - fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type
 - [![PR #2547](https://img.shields.io/badge/PR%20%232547-ready-green)](https://github.com/openshift/oadp-operator/pull/2547) **openshift/oadp-operator** → `oadp-1.6` - fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]
 - [![PR #2980](https://img.shields.io/badge/PR%20%232980-ready-green)](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) **openshift/cluster-kube-descheduler-operator** → `main` - fix(operator): recompute protected namespaces on every sync
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
@@ -103,7 +104,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2540](https://img.shields.io/badge/PR%20%232540-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2540) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #2546](https://img.shields.io/badge/PR%20%232546-ci--pending-yellow)](https://github.com/openshift/oadp-operator/pull/2546) **openshift/oadp-operator** → `oadp-dev` - fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -194,7 +194,7 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #24](https://img.shields.io/badge/PR%20%2324-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/24) **kaovilai/podm** → `main` - feat(containers): docker diff / podman diff via ext4 tree walk
+- [![PR #26](https://img.shields.io/badge/PR%20%2326-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/26) **kaovilai/podm** → `main` - feat(containers): docker commit / podman commit via import pipeline
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository

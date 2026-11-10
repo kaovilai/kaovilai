@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T12:14:17Z",
+  "updatedAt": "2026-11-10T13:09:50Z",
   "prs": [
     {
       "number": 5,
@@ -9548,10 +9548,6 @@
       "workstream": "OADP",
       "ciChecks": [
         {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/4.23-e2e-test-aws",
           "conclusion": "PENDING"
         },
@@ -9560,23 +9556,15 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -9608,7 +9596,19 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.1-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10169,10 +10169,6 @@
           "conclusion": "FAILURE"
         },
         {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
           "conclusion": "PENDING"
         },
@@ -10218,6 +10214,10 @@
         },
         {
           "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10520,9 +10520,13 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-10T11:12:30Z",
+      "updatedAt": "2026-11-10T12:42:37Z",
       "workstream": "OADP",
       "ciChecks": [
+        {
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
+          "conclusion": "FAILURE"
+        },
         {
           "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
           "conclusion": "FAILURE"
@@ -10534,30 +10538,6 @@
         {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -10576,6 +10556,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.22-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
@@ -10592,6 +10576,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
@@ -10604,7 +10592,15 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10617,6 +10613,10 @@
         },
         {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -10634,6 +10634,111 @@
       ]
     },
     {
+      "number": 2546,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type",
+      "url": "https://github.com/openshift/oadp-operator/pull/2546",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-10T13:05:32Z",
+      "workstream": "OADP",
+      "ciChecks": [
+        {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-ci-index",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.1-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/unit-test",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-images",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 2547,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -10646,8 +10751,10 @@
       "isCopilotAuthored": false,
       "assignees": [],
       "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-10T12:13:38Z",
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-10T12:56:35Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -10716,6 +10823,42 @@
         },
         {
           "name": "ci/prow/5.0-ci-index",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/unit-test",
           "conclusion": "PENDING"
         },
         {
@@ -12344,109 +12487,6 @@
         {
           "name": "ci/prow/images",
           "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 2546,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2546",
-      "targetBranch": "oadp-dev",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-10T12:13:53Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": ""
-        },
-        {
-          "name": "ci/prow/4.22-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/unit-test",
-          "conclusion": "PENDING"
         }
       ]
     },
@@ -16726,11 +16766,11 @@
       ]
     },
     {
-      "number": 24,
+      "number": 26,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
-      "title": "feat(containers): docker diff / podman diff via ext4 tree walk",
-      "url": "https://github.com/kaovilai/podm/pull/24",
+      "title": "feat(containers): docker commit / podman commit via import pipeline",
+      "url": "https://github.com/kaovilai/podm/pull/26",
       "targetBranch": "main",
       "status": "ci-pending",
       "milestone": null,
@@ -16739,19 +16779,19 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-10T12:01:11Z",
+      "updatedAt": "2026-11-10T12:57:26Z",
       "workstream": "Uncategorized",
       "ciChecks": [
-        {
-          "name": "build",
-          "conclusion": ""
-        },
         {
           "name": "Analyze (actions)",
           "conclusion": "SUCCESS"
         },
         {
           "name": "docker + podman CLI smoke tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build",
           "conclusion": "SUCCESS"
         },
         {
@@ -16773,6 +16813,14 @@
         {
           "name": "formatters & tests",
           "conclusion": "SUCCESS"
+        },
+        {
+          "name": "integration test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
         },
         {
           "name": "CodeQL",
@@ -18212,7 +18260,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-10T12:14:17Z",
+    "updatedAt": "2026-11-10T13:09:50Z",
     "needsReview": [
       {
         "number": 68,
@@ -18912,7 +18960,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18956,63 +19004,6 @@
         "updatedAt": "2026-08-26T17:05:08Z"
       },
       {
-        "number": 10041,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
-        "url": "https://github.com/velero-io/velero/pull/10041",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-changelog",
-          "has-e2e-2tests"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 74,
-        "updatedAt": "2026-08-27T17:00:09Z"
-      },
-      {
-        "number": 10281,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Make backport/pr-filepath-check/auto_assign_prs reusable across velero-io repos",
-        "url": "https://github.com/velero-io/velero/pull/10281",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 74,
-        "updatedAt": "2026-08-27T16:58:54Z"
-      },
-      {
         "number": 7941,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19027,7 +19018,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19059,7 +19050,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19090,7 +19081,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19121,7 +19112,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19236,7 +19227,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19270,7 +19261,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19327,7 +19318,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19360,7 +19351,7 @@
           "kind/changelog-not-required",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19375,39 +19366,6 @@
         "reason": "awaitingReview",
         "waitingDays": 41,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 9910,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "feat: add CRD schema validation during server startup",
-        "url": "https://github.com/velero-io/velero/pull/9910",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "has-e2e-2tests",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 41,
-        "updatedAt": "2026-09-29T21:00:44Z"
       },
       {
         "number": 121974,
@@ -19468,36 +19426,6 @@
         "reason": "awaitingReview",
         "waitingDays": 40,
         "updatedAt": "2026-09-30T15:17:14Z"
-      },
-      {
-        "number": 2473,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
-        "url": "https://github.com/openshift/oadp-operator/pull/2473",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "weshayutin",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 34,
-        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 70,
@@ -20008,7 +19936,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20035,7 +19963,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20050,36 +19978,6 @@
         "reason": "awaitingReview",
         "waitingDays": 12,
         "updatedAt": "2026-10-28T22:41:36Z"
-      },
-      {
-        "number": 2488,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
-        "url": "https://github.com/openshift/oadp-operator/pull/2488",
-        "targetBranch": "oadp-dev",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 11,
-        "updatedAt": "2026-10-29T23:14:50Z"
       },
       {
         "number": 198,
@@ -20372,6 +20270,35 @@
         "updatedAt": "2026-11-07T00:50:27Z"
       },
       {
+        "number": 2272,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "validate container runtime availability before container operations",
+        "url": "https://github.com/openshift/oadp-operator/pull/2272",
+        "targetBranch": "oadp-dev",
+        "author": "Shreyashxredhat",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-11-08T12:45:01Z"
+      },
+      {
         "number": 10749,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -20429,35 +20356,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-11-08T23:22:37Z"
-      },
-      {
-        "number": 2272,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "validate container runtime availability before container operations",
-        "url": "https://github.com/openshift/oadp-operator/pull/2272",
-        "targetBranch": "oadp-dev",
-        "author": "Shreyashxredhat",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "needs-ok-to-test"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-08T12:45:01Z"
       },
       {
         "number": 5,
@@ -20638,7 +20536,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20667,7 +20565,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20796,7 +20694,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T11:12:30Z"
+        "updatedAt": "2026-11-10T12:42:37Z"
       },
       {
         "number": 2546,
@@ -20808,7 +20706,9 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
+        "labels": [
+          "approved"
+        ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
@@ -20816,11 +20716,14 @@
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": 2,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "sseago"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T12:13:53Z"
+        "updatedAt": "2026-11-10T13:05:32Z"
       },
       {
         "number": 2547,
@@ -20832,7 +20735,9 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
+        "labels": [
+          "approved"
+        ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
@@ -20840,11 +20745,14 @@
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": 2,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "eemcmullan",
+          "sseago"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T12:13:38Z"
+        "updatedAt": "2026-11-10T12:56:35Z"
       },
       {
         "number": 504,
@@ -20963,36 +20871,6 @@
         "reason": "pendingMerge",
         "waitingDays": 116,
         "updatedAt": "2026-07-16T17:00:18Z"
-      },
-      {
-        "number": 10028,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Bump actions/labeler from v5 to v6",
-        "url": "https://github.com/velero-io/velero/pull/10028",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 109,
-        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 253,
@@ -21531,7 +21409,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21592,7 +21470,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22274,7 +22152,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
