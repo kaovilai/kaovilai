@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T22:09:37Z",
+  "updatedAt": "2026-11-10T23:04:44Z",
   "prs": [
     {
       "number": 5,
@@ -11611,7 +11611,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-10T20:50:40Z",
+      "updatedAt": "2026-11-10T22:11:29Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -11620,7 +11620,7 @@
         },
         {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "conclusion": "FAILURE"
         },
         {
           "name": "CodeRabbit",
@@ -16736,19 +16736,19 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-10T22:06:55Z",
+      "updatedAt": "2026-11-10T22:33:12Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "docker + podman CLI smoke tests",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "build",
-          "conclusion": ""
-        },
-        {
-          "name": "Analyze (actions)",
           "conclusion": "SUCCESS"
         },
         {
@@ -16764,8 +16764,20 @@
           "conclusion": ""
         },
         {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
           "name": "formatters & tests",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "integration test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
         },
         {
           "name": "CodeQL",
@@ -18205,7 +18217,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-10T22:09:37Z",
+    "updatedAt": "2026-11-10T23:04:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -18783,6 +18795,38 @@
         "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
+        "number": 598,
+        "repo": "openshift/ci-docs",
+        "org": "openshift",
+        "title": "Document FBC catalog builds and OLM v1 testing workflows",
+        "url": "https://github.com/openshift/ci-docs/pull/598",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "hector-vido"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hector-vido",
+          "jmguzik",
+          "joelanford"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 88,
+        "updatedAt": "2026-08-14T22:38:52Z"
+      },
+      {
         "number": 266,
         "repo": "velero-io/velero-plugin-for-gcp",
         "org": "velero-io",
@@ -18833,38 +18877,6 @@
         "reason": "awaitingReview",
         "waitingDays": 88,
         "updatedAt": "2026-08-14T21:05:20Z"
-      },
-      {
-        "number": 598,
-        "repo": "openshift/ci-docs",
-        "org": "openshift",
-        "title": "Document FBC catalog builds and OLM v1 testing workflows",
-        "url": "https://github.com/openshift/ci-docs/pull/598",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "hector-vido"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hector-vido",
-          "jmguzik",
-          "joelanford"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 87,
-        "updatedAt": "2026-08-14T22:38:52Z"
       },
       {
         "number": 328,
@@ -19583,7 +19595,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19625,7 +19637,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-10-23T22:25:24Z"
       },
       {
@@ -19805,6 +19817,33 @@
         "updatedAt": "2026-10-28T17:48:56Z"
       },
       {
+        "number": 2521,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add hotfix image creation guide for development docs",
+        "url": "https://github.com/openshift/oadp-operator/pull/2521",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "PrasadJoshi12"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-10-28T22:41:36Z"
+      },
+      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -19872,33 +19911,6 @@
         "reason": "awaitingReview",
         "waitingDays": 12,
         "updatedAt": "2026-10-29T07:00:45Z"
-      },
-      {
-        "number": 2521,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add hotfix image creation guide for development docs",
-        "url": "https://github.com/openshift/oadp-operator/pull/2521",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "PrasadJoshi12"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
         "number": 198,
@@ -21593,6 +21605,38 @@
         "updatedAt": "2026-10-22T18:34:45Z"
       },
       {
+        "number": 56,
+        "repo": "openshift/agentic-skills",
+        "org": "openshift",
+        "title": "OADP-7954: Add Phase 1 OADP Agent Skills",
+        "url": "https://github.com/openshift/agentic-skills/pull/56",
+        "targetBranch": "main",
+        "author": "shubham-pampattiwar",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "jira/valid-reference",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Cali0707",
+          "mrunalp"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 18,
+        "updatedAt": "2026-10-23T22:16:54Z"
+      },
+      {
         "number": 2513,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -21654,38 +21698,6 @@
         "updatedAt": "2026-10-23T22:09:08Z"
       },
       {
-        "number": 56,
-        "repo": "openshift/agentic-skills",
-        "org": "openshift",
-        "title": "OADP-7954: Add Phase 1 OADP Agent Skills",
-        "url": "https://github.com/openshift/agentic-skills/pull/56",
-        "targetBranch": "main",
-        "author": "shubham-pampattiwar",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "jira/valid-reference",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Cali0707",
-          "mrunalp"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 17,
-        "updatedAt": "2026-10-23T22:16:54Z"
-      },
-      {
         "number": 18725,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -21724,6 +21736,35 @@
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
+        "number": 603,
+        "repo": "openshift/velero",
+        "org": "openshift",
+        "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+        "url": "https://github.com/openshift/velero/pull/603",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 13,
+        "updatedAt": "2026-10-28T22:22:39Z"
+      },
+      {
         "number": 194,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -21752,35 +21793,6 @@
         "reason": "pendingMerge",
         "waitingDays": 13,
         "updatedAt": "2026-10-28T20:19:05Z"
-      },
-      {
-        "number": 603,
-        "repo": "openshift/velero",
-        "org": "openshift",
-        "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-        "url": "https://github.com/openshift/velero/pull/603",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 12,
-        "updatedAt": "2026-10-28T22:22:39Z"
       },
       {
         "number": 2526,
@@ -21889,7 +21901,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22089,7 +22101,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T20:50:40Z"
+        "updatedAt": "2026-11-10T22:11:29Z"
       },
       {
         "number": 2543,
