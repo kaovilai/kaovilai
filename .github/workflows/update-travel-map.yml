@@ -1,0 +1,97 @@
+name: Update travel map
+
+# Regenerates the README travel-map GIF whenever the city-level places.json
+# changes. The GIF is rendered by kaovilai/gmap-timeline-replaysvg at 720 px,
+# 50 fps by default; override with the workflow_dispatch inputs.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/places.json'
+      - '.github/workflows/update-travel-map.yml'
+      - '.github/scripts/update-travel-map-readme.py'
+  workflow_dispatch:
+    inputs:
+      width:
+        description: GIF width in pixels
+        default: '720'
+      fps:
+        description: Frames per second (GIF hard ceiling is 50)
+        default: '50'
+      duration:
+        description: Seconds per forward-and-back loop
+        default: '8'
+
+concurrency:
+  group: update-travel-map
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  GIF_WIDTH: ${{ inputs.width || '720' }}
+  GIF_FPS: ${{ inputs.fps || '50' }}
+  GIF_DURATION: ${{ inputs.duration || '8' }}
+  GIF_PATH: assets/travel-map.gif
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Checkout the map renderer
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          repository: kaovilai/gmap-timeline-replaysvg
+          path: .travel-map-tool
+
+      - name: Install Pillow (GIF export only)
+        run: python3 -m pip install --quiet --disable-pip-version-check 'pillow>=10,<12'
+
+      - name: Fail early when there is no source data
+        run: |
+          if [ ! -s data/places.json ]; then
+            echo "data/places.json is missing or empty" >&2
+            exit 1
+          fi
+
+      - name: Render GIF and update README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p assets
+          # Regenerate inside the retry loop: a rejected push resets the tree to
+          # the new tip and the artifacts must be rebuilt from that state.
+          for attempt in 1 2 3; do
+            python3 -I -B .travel-map-tool/worldmap.py gif data/places.json \
+              --out "$GIF_PATH" \
+              --width "$GIF_WIDTH" \
+              --fps "$GIF_FPS" \
+              --duration "$GIF_DURATION" \
+              --theme dark \
+              --colors 256
+            test -s "$GIF_PATH"
+            python3 -I -B .github/scripts/update-travel-map-readme.py \
+              README.md "$GIF_PATH" "$GIF_WIDTH"
+            git add "$GIF_PATH" README.md
+            if git diff --staged --quiet; then
+              echo "Travel map is unchanged"
+              exit 0
+            fi
+            git commit -s -m "Update travel map (${GIF_WIDTH}px, ${GIF_FPS} fps)"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), retrying from latest main"
+            git fetch origin main
+            git reset --hard origin/main
+          done
+          echo "Giving up after 3 attempts" >&2
+          exit 1
