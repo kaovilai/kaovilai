@@ -1,9 +1,9 @@
 {
   "period": {
-    "start": "2026-08-12",
-    "end": "2026-11-10"
+    "start": "2026-08-13",
+    "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-10T23:08:54Z",
+  "generatedAt": "2026-11-11T00:29:16Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,24 @@
     "issuesClosed": 86
   },
   "prsMerged": [
+    {
+      "number": 27,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(libpod): podman local secrets — create/ls/inspect/exists/rm",
+      "url": "https://github.com/kaovilai/podm/pull/27",
+      "date": "2026-11-10T23:45:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2546,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type",
+      "url": "https://github.com/openshift/oadp-operator/pull/2546",
+      "date": "2026-11-10T23:38:24Z",
+      "workstream": "OADP"
+    },
     {
       "number": 26,
       "repo": "kaovilai/podm",
@@ -893,27 +911,18 @@
       "url": "https://github.com/openshift/release/pull/88443",
       "date": "2026-11-06T15:46:00Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 610,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxies,bridge): Go owns the proxy lifecycle and the launch path",
-      "url": "https://github.com/kaovilai/dotfiles/pull/610",
-      "date": "2026-11-06T15:47:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 612,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only): zero-refuse proxy restarts — swap, don't stop-then-start",
-      "url": "https://github.com/kaovilai/dotfiles/pull/612",
-      "date": "2026-11-06T15:08:31Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 28,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(events): docker/podman events since/until/filters + history",
+      "url": "https://github.com/kaovilai/podm/pull/28",
+      "date": "2026-11-10T23:49:13Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 27,
       "repo": "kaovilai/podm",
@@ -1803,15 +1812,6 @@
       "title": "feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default",
       "url": "https://github.com/kaovilai/dotfiles/pull/616",
       "date": "2026-11-06T17:39:59Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 615,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model",
-      "url": "https://github.com/kaovilai/dotfiles/pull/615",
-      "date": "2026-11-06T17:24:01Z",
       "workstream": "Uncategorized"
     }
   ],
