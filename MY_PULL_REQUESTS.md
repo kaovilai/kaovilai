@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-11 16:11:24 UTC
+> Last updated: 2026-11-11 18:10:49 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -187,14 +187,15 @@ No open PRs.
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #388](https://img.shields.io/badge/PR%20%23388-ready-green)](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) **kaovilai/toolkit-for-fidelity** → `main` - Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
+- [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/498) **caozhiyuan/copilot-api** → `dev` - fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
-- [![PR #646](https://img.shields.io/badge/PR%20%23646-ready-green)](https://github.com/kaovilai/dotfiles/pull/646) **kaovilai/dotfiles** → `main` - docs: hosted-only reviewer note post-merge touch-ups
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-ready-green)](https://github.com/konveyor/builder/pull/69) **konveyor/builder** → `main` - Fix the syft image tag in release SBOM scanning
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-ready-green)](https://github.com/konveyor/builder/pull/70) **konveyor/builder** → `main` - Track CI tool image pins with Dependabot via compose
-- [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #15](https://img.shields.io/badge/PR%20%2315-ci--pending-yellow)](https://github.com/kaovilai/context-mode/pull/15) **kaovilai/context-mode** → `main` - fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap
+- [![PR #48](https://img.shields.io/badge/PR%20%2348-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/48) **kaovilai/podm** → `main` - feat(install): zsh completions in-repo + podman system connection
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository

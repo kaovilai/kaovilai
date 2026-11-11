@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:11:24Z",
+  "updatedAt": "2026-11-11T18:10:49Z",
   "prs": [
     {
       "number": 5,
@@ -11432,16 +11432,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-11T15:06:12Z",
+      "updatedAt": "2026-11-11T16:34:24Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "conclusion": "FAILURE"
         },
         {
           "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "conclusion": "FAILURE"
         },
         {
           "name": "CodeRabbit",
@@ -16026,9 +16026,32 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T12:32:23Z",
+      "updatedAt": "2026-11-11T17:04:27Z",
       "workstream": "Uncategorized",
       "ciChecks": []
+    },
+    {
+      "number": 498,
+      "repo": "caozhiyuan/copilot-api",
+      "org": "caozhiyuan",
+      "title": "fix: drop empty/missing text blocks before Responses translation (400 \"Missing required parameter: input[N].content[M].text\")",
+      "url": "https://github.com/caozhiyuan/copilot-api/pull/498",
+      "targetBranch": "dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-11T17:14:08Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "test",
+          "conclusion": "SUCCESS"
+        }
+      ]
     },
     {
       "number": 116,
@@ -16127,68 +16150,6 @@
       ]
     },
     {
-      "number": 646,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: hosted-only reviewer note post-merge touch-ups",
-      "url": "https://github.com/kaovilai/dotfiles/pull/646",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-11T10:19:48Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 82,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Ignore assets/profile in Imgbot",
-      "url": "https://github.com/kaovilai/kaovilai/pull/82",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-10-25T06:50:30Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 388,
       "repo": "kaovilai/toolkit-for-fidelity",
       "org": "kaovilai",
@@ -16268,8 +16229,300 @@
       "workstream": "Uncategorized",
       "ciChecks": [
         {
+          "name": "changes",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "actionlint",
           "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (8, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (9, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (9, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (10, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (10, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / merge",
+          "conclusion": "SKIPPED"
         },
         {
           "name": "CodeRabbit",
@@ -16681,6 +16934,96 @@
         {
           "name": "Mintlify Preview (fork)",
           "conclusion": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap",
+      "url": "https://github.com/kaovilai/context-mode/pull/15",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-11T18:10:04Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "review",
+          "conclusion": ""
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(install): zsh completions in-repo + podman system connection",
+      "url": "https://github.com/kaovilai/podm/pull/48",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-11T18:03:36Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (c-cpp)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (ruby)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (swift)",
+          "conclusion": ""
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "integration test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -18113,7 +18456,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-11T16:11:24Z",
+    "updatedAt": "2026-11-11T18:10:49Z",
     "needsReview": [
       {
         "number": 68,
@@ -18292,6 +18635,36 @@
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 154,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -18344,7 +18717,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 124,
+        "waitingDays": 125,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -18451,7 +18824,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 117,
+        "waitingDays": 118,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -18477,7 +18850,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 117,
+        "waitingDays": 118,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -18612,7 +18985,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18711,7 +19084,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 75,
+        "waitingDays": 76,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -18742,7 +19115,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 75,
+        "waitingDays": 76,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -18820,7 +19193,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18953,7 +19326,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 49,
+        "waitingDays": 50,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -19249,6 +19622,30 @@
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
+        "number": 106,
+        "repo": "migtools/kubevirt-velero-plugin",
+        "org": "migtools",
+        "title": "Sync OWNERS_ALIASES with main",
+        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-10-22T17:29:19Z"
+      },
+      {
         "number": 10032,
         "repo": "openshift/installer",
         "org": "openshift",
@@ -19311,30 +19708,6 @@
         "updatedAt": "2026-10-21T21:30:24Z"
       },
       {
-        "number": 106,
-        "repo": "migtools/kubevirt-velero-plugin",
-        "org": "migtools",
-        "title": "Sync OWNERS_ALIASES with main",
-        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-10-22T17:29:19Z"
-      },
-      {
         "number": 287,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -19388,7 +19761,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
@@ -19482,6 +19855,33 @@
         "reason": "awaitingReview",
         "waitingDays": 14,
         "updatedAt": "2026-10-28T00:56:31Z"
+      },
+      {
+        "number": 2520,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests: add Eventually guards before bare Consistently calls",
+        "url": "https://github.com/openshift/oadp-operator/pull/2520",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-10-28T17:48:56Z"
       },
       {
         "number": 6479,
@@ -19580,33 +19980,6 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-10-28T20:14:37Z"
-      },
-      {
-        "number": 2520,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests: add Eventually guards before bare Consistently calls",
-        "url": "https://github.com/openshift/oadp-operator/pull/2520",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-10-28T17:48:56Z"
       },
       {
         "number": 2521,
@@ -20711,7 +21084,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 117,
+        "waitingDays": 118,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -21113,6 +21486,65 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
+        "number": 69,
+        "repo": "openshift/restic",
+        "org": "openshift",
+        "title": "Remove obsolete bz-on-pr-merge workflow",
+        "url": "https://github.com/openshift/restic/pull/69",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 47,
+        "updatedAt": "2026-09-25T17:03:14Z"
+      },
+      {
+        "number": 175,
+        "repo": "openshift/velero-plugin-for-gcp",
+        "org": "openshift",
+        "title": "Remove obsolete bz-on-pr-merge workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 47,
+        "updatedAt": "2026-09-25T17:03:37Z"
+      },
+      {
         "number": 174,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -21145,65 +21577,6 @@
         "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
-        "number": 69,
-        "repo": "openshift/restic",
-        "org": "openshift",
-        "title": "Remove obsolete bz-on-pr-merge workflow",
-        "url": "https://github.com/openshift/restic/pull/69",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 46,
-        "updatedAt": "2026-09-25T17:03:14Z"
-      },
-      {
-        "number": 175,
-        "repo": "openshift/velero-plugin-for-gcp",
-        "org": "openshift",
-        "title": "Remove obsolete bz-on-pr-merge workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 46,
-        "updatedAt": "2026-09-25T17:03:37Z"
-      },
-      {
         "number": 175,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -21232,7 +21605,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -21884,7 +22257,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
@@ -22072,7 +22445,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-11T15:06:12Z"
+        "updatedAt": "2026-11-11T16:34:24Z"
       },
       {
         "number": 2542,
