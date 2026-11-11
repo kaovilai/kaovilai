@@ -3,15 +3,78 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T06:18:29Z",
+  "generatedAt": "2026-11-11T12:14:23Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 23,
     "issuesCommented": 100,
-    "issuesClosed": 87
+    "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 387,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/387",
+      "date": "2026-11-11T11:22:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 41,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution",
+      "url": "https://github.com/kaovilai/podm/pull/41",
+      "date": "2026-11-11T11:05:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 645,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(menubar): show reroutes and errors in the floating window header",
+      "url": "https://github.com/kaovilai/dotfiles/pull/645",
+      "date": "2026-11-11T10:13:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 644,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs: add hosted-only GHA reviewer note",
+      "url": "https://github.com/kaovilai/dotfiles/pull/644",
+      "date": "2026-11-11T10:00:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 40,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(configs): local ConfigStore + docker-dialect /configs routes",
+      "url": "https://github.com/kaovilai/podm/pull/40",
+      "date": "2026-11-11T09:20:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 318,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Fix Auto Request Review workflow: bump action version and pass token",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318",
+      "date": "2026-11-11T08:05:08Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 39,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(secrets): docker-dialect /secrets routes over the local SecretStore",
+      "url": "https://github.com/kaovilai/podm/pull/39",
+      "date": "2026-11-11T06:26:13Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 38,
       "repo": "kaovilai/podm",
@@ -848,72 +911,81 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/620",
       "date": "2026-11-07T05:01:01Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 615,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model",
-      "url": "https://github.com/kaovilai/dotfiles/pull/615",
-      "date": "2026-11-07T03:59:12Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 48,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: skip the heavy jobs when only docs changed, and cut no release for one",
-      "url": "https://github.com/kaovilai/tailbond/pull/48",
-      "date": "2026-11-07T00:51:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 619,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: web-search shim design note (canary detection + Parallel Search emulation)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/619",
-      "date": "2026-11-07T00:40:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 616,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default",
-      "url": "https://github.com/kaovilai/dotfiles/pull/616",
-      "date": "2026-11-06T18:15:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 617,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "Retire the LiteLLM impl for hosted-only and EnMaaS",
-      "url": "https://github.com/kaovilai/dotfiles/pull/617",
-      "date": "2026-11-06T19:58:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88415,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27",
-      "url": "https://github.com/openshift/release/pull/88415",
-      "date": "2026-11-06T17:25:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 614,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs",
-      "url": "https://github.com/kaovilai/dotfiles/pull/614",
-      "date": "2026-11-06T17:13:54Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 388,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/388",
+      "date": "2026-11-11T11:28:01Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 12,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix(hooks): fail open when the daemon the routes point at is down",
+      "url": "https://github.com/kaovilai/context-mode/pull/12",
+      "date": "2026-11-11T10:55:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 89,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Generate the README travel map GIF from data/places.json",
+      "url": "https://github.com/kaovilai/kaovilai/pull/89",
+      "date": "2026-11-11T10:47:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 646,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs: hosted-only reviewer note post-merge touch-ups",
+      "url": "https://github.com/kaovilai/dotfiles/pull/646",
+      "date": "2026-11-11T10:10:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 645,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(menubar): show reroutes and errors in the floating window header",
+      "url": "https://github.com/kaovilai/dotfiles/pull/645",
+      "date": "2026-11-11T09:12:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 644,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs: add hosted-only GHA reviewer note",
+      "url": "https://github.com/kaovilai/dotfiles/pull/644",
+      "date": "2026-11-11T08:45:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 42,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(plugins): local metadata subset — list/inspect/privileges/create",
+      "url": "https://github.com/kaovilai/podm/pull/42",
+      "date": "2026-11-11T06:55:01Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 88,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add regenerable city-level travel map with animated SVG variant",
+      "url": "https://github.com/kaovilai/kaovilai/pull/88",
+      "date": "2026-11-11T06:47:58Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 41,
       "repo": "kaovilai/podm",
@@ -1741,78 +1813,6 @@
       "url": "https://github.com/kaovilai/autoport/pull/4",
       "date": "2026-11-07T06:48:46Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 48,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Deconstruct variant workflows into one reusable image build (stacked on #47)",
-      "url": "https://github.com/konveyor/builder/pull/48",
-      "date": "2026-11-07T06:44:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/autoport",
-      "org": "kaovilai",
-      "title": "fix: serve from a subpath (GitHub Pages project site at /autoport/)",
-      "url": "https://github.com/kaovilai/autoport/pull/3",
-      "date": "2026-11-07T05:41:16Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2,
-      "repo": "kaovilai/autoport",
-      "org": "kaovilai",
-      "title": "docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …",
-      "url": "https://github.com/kaovilai/autoport/pull/2",
-      "date": "2026-11-07T05:31:47Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/autoport",
-      "org": "kaovilai",
-      "title": "ui: modern, colorful redesign (presentation only)",
-      "url": "https://github.com/kaovilai/autoport/pull/1",
-      "date": "2026-11-07T04:44:25Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 623,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/623",
-      "date": "2026-11-07T04:28:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88500,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
-      "url": "https://github.com/openshift/release/pull/88500",
-      "date": "2026-11-07T04:23:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 622,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model",
-      "url": "https://github.com/kaovilai/dotfiles/pull/622",
-      "date": "2026-11-07T04:20:59Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 621,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(hosted-only-go): ready chat translation for block-diffusion (DiffusionGemma-style) models",
-      "url": "https://github.com/kaovilai/dotfiles/pull/621",
-      "date": "2026-11-07T04:04:49Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2025,6 +2025,24 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 439,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
+      "date": "2026-11-11T08:30:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 11,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer",
+      "url": "https://github.com/kaovilai/context-mode/issues/11",
+      "date": "2026-11-11T07:56:31Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 34,
       "repo": "kaovilai/podm",
@@ -2728,15 +2746,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 439,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
-      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
-      "date": "2026-10-12T01:00:39Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 15234,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -2915,18 +2924,36 @@
       "url": "https://github.com/home-assistant/core/issues/181212",
       "date": "2026-09-24T16:45:33Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 9476,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove whitelist for tolerations of PodVolumeBackup Pod",
-      "url": "https://github.com/velero-io/velero/issues/9476",
-      "date": "2026-09-23T05:28:08Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 33,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): deliberate stubs return HTTP 500 — should be compat-correct 503/501",
+      "url": "https://github.com/kaovilai/podm/issues/33",
+      "date": "2026-11-11T11:05:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 32,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(configs): local ConfigStore + docker-dialect /configs routes",
+      "url": "https://github.com/kaovilai/podm/issues/32",
+      "date": "2026-11-11T09:20:09Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 31,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(secrets): implement docker-dialect /secrets routes backed by the existing SecretStore",
+      "url": "https://github.com/kaovilai/podm/issues/31",
+      "date": "2026-11-11T06:26:14Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 36,
       "repo": "kaovilai/podm",

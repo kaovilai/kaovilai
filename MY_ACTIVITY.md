@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 06:18:29 UTC
+> **Generated:** 2026-11-11 12:14:23 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,28 +9,34 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 23 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 87 |
+| Issues Closed | 90 |
 
 ---
 
 ## PRs Merged (100)
 
-**velero-io** (2)
+**velero-io** (3)
+- [#318 Fix Auto Request Review workflow: bump action version and pass token](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) — velero-io/velero-plugin-for-microsoft-azure
 - [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
 - [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
 
-**openshift** (6)
+**openshift** (5)
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 - [#2515 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2515) — openshift/oadp-operator
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2531 fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2531) — openshift/oadp-operator
 - [#2207 OADP-8312: Fix DPA annotation changes not triggering reconciliation](https://github.com/openshift/oadp-operator/pull/2207) — openshift/oadp-operator
-- [#88415 oadp: Update image tag from ubi9-v1.26 to ubi9-v1.27](https://github.com/openshift/release/pull/88415) — openshift/release
 
 **migtools** (1)
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
+- [#41 fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution](https://github.com/kaovilai/podm/pull/41) — kaovilai/podm
+- [#645 feat(menubar): show reroutes and errors in the floating window header](https://github.com/kaovilai/dotfiles/pull/645) — kaovilai/dotfiles
+- [#644 docs: add hosted-only GHA reviewer note](https://github.com/kaovilai/dotfiles/pull/644) — kaovilai/dotfiles
+- [#40 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/pull/40) — kaovilai/podm
+- [#39 feat(secrets): docker-dialect /secrets routes over the local SecretStore](https://github.com/kaovilai/podm/pull/39) — kaovilai/podm
 - [#38 fix(containers): rename parity with moby — oldName event attribute, 409 message](https://github.com/kaovilai/podm/pull/38) — kaovilai/podm
 - [#29 feat(containers): docker ps -s / inspect --size via diskUsage](https://github.com/kaovilai/podm/pull/29) — kaovilai/podm
 - [#28 feat(events): docker/podman events since/until/filters + history](https://github.com/kaovilai/podm/pull/28) — kaovilai/podm
@@ -116,27 +122,28 @@
 - [#2 docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …](https://github.com/kaovilai/autoport/pull/2) — kaovilai/autoport
 - [#1 ui: modern, colorful redesign (presentation only)](https://github.com/kaovilai/autoport/pull/1) — kaovilai/autoport
 - [#620 feat(llm-usage): stream fleet peers' usage into the local views](https://github.com/kaovilai/dotfiles/pull/620) — kaovilai/dotfiles
-- [#615 fix(hosted-only-go): keep chat off the #responses sibling of a Responses-only model](https://github.com/kaovilai/dotfiles/pull/615) — kaovilai/dotfiles
-- [#48 ci: skip the heavy jobs when only docs changed, and cut no release for one](https://github.com/kaovilai/tailbond/pull/48) — kaovilai/tailbond
-- [#619 docs: web-search shim design note (canary detection + Parallel Search emulation)](https://github.com/kaovilai/dotfiles/pull/619) — kaovilai/dotfiles
-- [#616 feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default](https://github.com/kaovilai/dotfiles/pull/616) — kaovilai/dotfiles
-- [#617 Retire the LiteLLM impl for hosted-only and EnMaaS](https://github.com/kaovilai/dotfiles/pull/617) — kaovilai/dotfiles
-- [#614 feat(proxies): default hosted-only to the Go proxy, with the parity and zero-refuse restarts that needs](https://github.com/kaovilai/dotfiles/pull/614) — kaovilai/dotfiles
 ## PRs Opened (100)
 
-**openshift** (7)
+**openshift** (6)
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 - [#2980 fix(operator): recompute protected namespaces on every sync](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) — openshift/cluster-kube-descheduler-operator
 - [#2543 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2543) — openshift/oadp-operator
 - [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
-- [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
 
 **migtools** (1)
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
-**Other** (92)
+**Other** (93)
+- [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
+- [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
+- [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
+- [#646 docs: hosted-only reviewer note post-merge touch-ups](https://github.com/kaovilai/dotfiles/pull/646) — kaovilai/dotfiles
+- [#645 feat(menubar): show reroutes and errors in the floating window header](https://github.com/kaovilai/dotfiles/pull/645) — kaovilai/dotfiles
+- [#644 docs: add hosted-only GHA reviewer note](https://github.com/kaovilai/dotfiles/pull/644) — kaovilai/dotfiles
+- [#42 feat(plugins): local metadata subset — list/inspect/privileges/create](https://github.com/kaovilai/podm/pull/42) — kaovilai/podm
+- [#88 Add regenerable city-level travel map with animated SVG variant](https://github.com/kaovilai/kaovilai/pull/88) — kaovilai/kaovilai
 - [#41 fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution](https://github.com/kaovilai/podm/pull/41) — kaovilai/podm
 - [#40 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/pull/40) — kaovilai/podm
 - [#39 feat(secrets): docker-dialect /secrets routes over the local SecretStore](https://github.com/kaovilai/podm/pull/39) — kaovilai/podm
@@ -222,13 +229,6 @@
 - [#49 Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot](https://github.com/konveyor/builder/pull/49) — konveyor/builder
 - [#32365 fix(web): timestamps follow the system time zone without a reload](https://github.com/pingdotgg/t3code/pull/32365) — pingdotgg/t3code
 - [#4 test: full functionality e2e coverage in GHA CI + fix broken share landing page](https://github.com/kaovilai/autoport/pull/4) — kaovilai/autoport
-- [#48 Deconstruct variant workflows into one reusable image build (stacked on #47)](https://github.com/konveyor/builder/pull/48) — konveyor/builder
-- [#3 fix: serve from a subpath (GitHub Pages project site at /autoport/)](https://github.com/kaovilai/autoport/pull/3) — kaovilai/autoport
-- [#2 docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …](https://github.com/kaovilai/autoport/pull/2) — kaovilai/autoport
-- [#1 ui: modern, colorful redesign (presentation only)](https://github.com/kaovilai/autoport/pull/1) — kaovilai/autoport
-- [#623 web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)](https://github.com/kaovilai/dotfiles/pull/623) — kaovilai/dotfiles
-- [#622 feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model](https://github.com/kaovilai/dotfiles/pull/622) — kaovilai/dotfiles
-- [#621 feat(hosted-only-go): ready chat translation for block-diffusion (DiffusionGemma-style) models](https://github.com/kaovilai/dotfiles/pull/621) — kaovilai/dotfiles
 ## PRs Reviewed (23)
 
 **velero-io** (14)
@@ -263,7 +263,7 @@
 - [#23510 fix(clients): later image reads show updated file contents](https://github.com/pingdotgg/t3code/pull/23510) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (44)
+**velero-io** (43)
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
@@ -307,14 +307,14 @@
 - [#2098 Implement abort running backup job](https://github.com/velero-io/velero/issues/2098) — velero-io/velero
 - [#9260 Add CRD version compatibility validation during server startup](https://github.com/velero-io/velero/issues/9260) — velero-io/velero
 - [#10299 Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag](https://github.com/velero-io/velero/issues/10299) — velero-io/velero
-- [#9476 Remove whitelist for tolerations of PodVolumeBackup Pod](https://github.com/velero-io/velero/issues/9476) — velero-io/velero
 
 **openshift** (3)
+- [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
-- [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 
-**Other** (53)
+**Other** (54)
+- [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
 - [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#37 feat(containers): pause/unpause — track unblock paths (XPC gap upstream, containerization has the primitive)](https://github.com/kaovilai/podm/issues/37) — kaovilai/podm
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
@@ -368,7 +368,7 @@
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
 - [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
-## Issues Closed (87)
+## Issues Closed (90)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -427,7 +427,10 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (36)
+**Other** (39)
+- [#33 fix(routes): deliberate stubs return HTTP 500 — should be compat-correct 503/501](https://github.com/kaovilai/podm/issues/33) — kaovilai/podm
+- [#32 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/issues/32) — kaovilai/podm
+- [#31 feat(secrets): implement docker-dialect /secrets routes backed by the existing SecretStore](https://github.com/kaovilai/podm/issues/31) — kaovilai/podm
 - [#36 feat(plugins): implement local-metadata subset of /plugins (list/inspect/privileges/create) [DUPLICATE of #35]](https://github.com/kaovilai/podm/issues/36) — kaovilai/podm
 - [#17719 [Bug]: iPad composer does not accept a screenshot dragged into it](https://github.com/pingdotgg/t3code/issues/17719) — pingdotgg/t3code
 - [#33732 [Bug]: macOS desktop app aborts when the system-wide file table fills (kqueue: Too many open files in system)](https://github.com/pingdotgg/t3code/issues/33732) — pingdotgg/t3code
