@@ -3,15 +3,42 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T00:29:16Z",
+  "generatedAt": "2026-11-11T06:18:29Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 23,
     "issuesCommented": 100,
-    "issuesClosed": 86
+    "issuesClosed": 87
   },
   "prsMerged": [
+    {
+      "number": 38,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): rename parity with moby — oldName event attribute, 409 message",
+      "url": "https://github.com/kaovilai/podm/pull/38",
+      "date": "2026-11-11T05:08:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 29,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(containers): docker ps -s / inspect --size via diskUsage",
+      "url": "https://github.com/kaovilai/podm/pull/29",
+      "date": "2026-11-11T02:06:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 28,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(events): docker/podman events since/until/filters + history",
+      "url": "https://github.com/kaovilai/podm/pull/28",
+      "date": "2026-11-11T01:14:00Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 27,
       "repo": "kaovilai/podm",
@@ -884,36 +911,63 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/614",
       "date": "2026-11-06T17:13:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 202,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "feat(picker): cherry-pick parallel vs sequential chain with reorderable order",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/202",
-      "date": "2026-11-06T15:57:45Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 613,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only): shim SO_REUSEPORT via setsockopt — uvicorn.run has no reuse_port",
-      "url": "https://github.com/kaovilai/dotfiles/pull/613",
-      "date": "2026-11-06T15:47:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88443,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "Wire Depends-On image overrides into all oadp-operator e2e presubmits",
-      "url": "https://github.com/openshift/release/pull/88443",
-      "date": "2026-11-06T15:46:00Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 41,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution",
+      "url": "https://github.com/kaovilai/podm/pull/41",
+      "date": "2026-11-11T05:31:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 40,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(configs): local ConfigStore + docker-dialect /configs routes",
+      "url": "https://github.com/kaovilai/podm/pull/40",
+      "date": "2026-11-11T05:01:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 39,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(secrets): docker-dialect /secrets routes over the local SecretStore",
+      "url": "https://github.com/kaovilai/podm/pull/39",
+      "date": "2026-11-11T04:15:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 38,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): rename parity with moby — oldName event attribute, 409 message",
+      "url": "https://github.com/kaovilai/podm/pull/38",
+      "date": "2026-11-11T03:29:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 30,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat: libpod sizes + system df, xattr-aware docker diff, logs since/until",
+      "url": "https://github.com/kaovilai/podm/pull/30",
+      "date": "2026-11-11T02:09:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 29,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(containers): docker ps -s / inspect --size via diskUsage",
+      "url": "https://github.com/kaovilai/podm/pull/29",
+      "date": "2026-11-11T01:16:03Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 28,
       "repo": "kaovilai/podm",
@@ -1759,63 +1813,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/621",
       "date": "2026-11-07T04:04:49Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 620,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(llm-usage): stream fleet peers' usage into the local views",
-      "url": "https://github.com/kaovilai/dotfiles/pull/620",
-      "date": "2026-11-07T01:24:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 619,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: web-search shim design note (canary detection + Parallel Search emulation)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/619",
-      "date": "2026-11-07T00:25:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 617,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "Retire the LiteLLM impl for hosted-only and EnMaaS",
-      "url": "https://github.com/kaovilai/dotfiles/pull/617",
-      "date": "2026-11-06T19:23:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 48,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: skip the heavy jobs when only docs changed, and cut no release for one",
-      "url": "https://github.com/kaovilai/tailbond/pull/48",
-      "date": "2026-11-06T17:50:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 47,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "e2e: prototype the CGNAT relay and run it in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/47",
-      "date": "2026-11-06T17:49:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 616,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(enmaas): Go proxy translates Messages <-> chat/Responses and becomes the EnMaaS default",
-      "url": "https://github.com/kaovilai/dotfiles/pull/616",
-      "date": "2026-11-06T17:39:59Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10734,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add E2E automation test cases for in-place restore",
+      "url": "https://github.com/velero-io/velero/pull/10734",
+      "date": "2026-11-11T05:25:06Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10792,
       "repo": "velero-io/velero",
@@ -1997,15 +2006,6 @@
       "workstream": "OADP"
     },
     {
-      "number": 10734,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add E2E automation test cases for in-place restore",
-      "url": "https://github.com/velero-io/velero/pull/10734",
-      "date": "2026-11-09T05:39:34Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10803,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2025,6 +2025,24 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 34,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): /session stub registered as GET — buildx POSTs and gets a 404",
+      "url": "https://github.com/kaovilai/podm/issues/34",
+      "date": "2026-11-11T03:21:30Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 37,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(containers): pause/unpause — track unblock paths (XPC gap upstream, containerization has the primitive)",
+      "url": "https://github.com/kaovilai/podm/issues/37",
+      "date": "2026-11-11T03:21:17Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2906,27 +2924,18 @@
       "url": "https://github.com/velero-io/velero/issues/9476",
       "date": "2026-09-23T05:28:08Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 9645,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "backup-finalizer: do not set backup phase to Completed in-memory before PutBackupMetadata succeeds",
-      "url": "https://github.com/velero-io/velero/issues/9645",
-      "date": "2026-09-23T00:06:48Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9735,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Velero should add a clear error when data mover pod is unschedulable due to affinity/topology mismatch",
-      "url": "https://github.com/velero-io/velero/issues/9735",
-      "date": "2026-09-22T15:00:42Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 36,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(plugins): implement local-metadata subset of /plugins (list/inspect/privileges/create) [DUPLICATE of #35]",
+      "url": "https://github.com/kaovilai/podm/issues/36",
+      "date": "2026-11-11T03:14:01Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17719,
       "repo": "pingdotgg/t3code",
