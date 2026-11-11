@@ -1,0 +1,111 @@
+name: Update travel map
+
+# Regenerates the README travel-map SVGs whenever the city-level places.json
+# changes. The flat animated SVG (light and dark) is rendered by
+# kaovilai/gmap-timeline-replaysvg at 1280 px by default; override with the
+# workflow_dispatch inputs.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/places.json'
+      - '.github/workflows/update-travel-map.yml'
+      - '.github/scripts/update-travel-map-readme.py'
+  workflow_dispatch:
+    inputs:
+      width:
+        description: SVG width in pixels
+        default: '1280'
+      duration:
+        description: Seconds for one forward-and-back cycle
+        default: '90'
+
+concurrency:
+  group: update-travel-map
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  MAP_WIDTH: ${{ inputs.width || '1280' }}
+  MAP_DURATION: ${{ inputs.duration || '90' }}
+  MAP_LIGHT: assets/worldmap-animated-light.svg
+  MAP_DARK: assets/worldmap-animated-dark.svg
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          # A manual dispatch may select another branch; the job pushes to
+          # main, so always generate from main rather than whatever was picked.
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Checkout the map renderer
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          repository: kaovilai/gmap-timeline-replaysvg
+          path: .travel-map-tool
+          persist-credentials: false
+
+      - name: Check for source data
+        id: data
+        run: |
+          if [ -s data/places.json ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "data/places.json is not committed yet; nothing to render."
+          fi
+
+      - name: Render SVGs and update README
+        if: steps.data.outputs.present == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p assets
+          # Regenerate inside the retry loop: a rejected push resets the tree to
+          # the new tip and the artifacts must be rebuilt from that state.
+          for attempt in 1 2 3; do
+            # No third-party packages needed: SVG rendering is stdlib only.
+            python3 -I -B .travel-map-tool/worldmap.py render data/places.json \
+              --out-dir assets \
+              --theme both \
+              --width "$MAP_WIDTH" \
+              --duration "$MAP_DURATION" \
+              --no-drift \
+              --no-globe
+            # Only the animated pair is published; drop the static duplicates.
+            rm -f assets/worldmap-light.svg assets/worldmap-dark.svg
+            python3 -I -B .github/scripts/update-travel-map-readme.py \
+              README.md "$MAP_LIGHT" "$MAP_DARK"
+            # Retired assets: the old screenshot and the earlier globe GIF.
+            for stale in worldmap.png assets/travel-map.gif; do
+              if ! grep -q "$(basename "$stale")" README.md && \
+                 git ls-files --error-unmatch "$stale" >/dev/null 2>&1; then
+                git rm -q "$stale"
+              fi
+            done
+            git add assets/worldmap-animated-light.svg \
+              assets/worldmap-animated-dark.svg README.md
+            if git diff --staged --quiet; then
+              echo "Travel map is unchanged"
+              exit 0
+            fi
+            git commit -s -m "Update travel map (${MAP_WIDTH}px SVG)"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt), retrying from latest main"
+            git fetch origin main
+            git reset --hard origin/main
+          done
+          echo "Giving up after 3 attempts" >&2
+          exit 1

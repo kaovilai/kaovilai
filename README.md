@@ -97,9 +97,18 @@ Connections show themes, not measured time or distance. Employment dates are uns
 
 ### Places
 
-In red below are some places I have lived in, visited, or transited through. Screenshot from Google Maps' Timeline
+Places I have lived in, visited, or transited through. Regenerated automatically
+from a city-level, date-anonymized Timeline export — only city names and
+gazetteer city centres are published, never raw positions or real dates.
 
-![Map screenshot showing places lived, visited, or transited through](worldmap.png)
+<!-- travel-map:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/worldmap-animated-dark.svg">
+  <img src="assets/worldmap-animated-light.svg" alt="Animated world map with glowing routes between places lived in, visited, or transited through" width="100%">
+</picture>
+<!-- travel-map:end -->
+
+Generated with [Timeline replay map](https://github.tig.pw/gmap-timeline-replaysvg/) ([source](https://github.com/kaovilai/gmap-timeline-replaysvg)) — turn your own Timeline export into a city-level map, in the browser, with nothing uploaded.
 
 [North Carolina destinations map](nc_destinations.html)
 
