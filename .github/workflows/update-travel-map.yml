@@ -60,14 +60,18 @@ jobs:
       - name: Install Pillow (GIF export only)
         run: python3 -m pip install --quiet --disable-pip-version-check 'pillow>=10,<12'
 
-      - name: Fail early when there is no source data
+      - name: Check for source data
+        id: data
         run: |
-          if [ ! -s data/places.json ]; then
-            echo "data/places.json is missing or empty" >&2
-            exit 1
+          if [ -s data/places.json ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "data/places.json is not committed yet; nothing to render."
           fi
 
       - name: Render GIF and update README
+        if: steps.data.outputs.present == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -85,6 +89,12 @@ jobs:
             test -s "$GIF_PATH"
             python3 -I -B .github/scripts/update-travel-map-readme.py \
               README.md "$GIF_PATH" "$GIF_WIDTH"
+            # The placeholder screenshot is dead weight once nothing references
+            # it; remove it in the same commit that publishes the GIF.
+            if ! grep -q 'worldmap.png' README.md && \
+               git ls-files --error-unmatch worldmap.png >/dev/null 2>&1; then
+              git rm -q worldmap.png
+            fi
             git add "$GIF_PATH" README.md
             if git diff --staged --quiet; then
               echo "Travel map is unchanged"
