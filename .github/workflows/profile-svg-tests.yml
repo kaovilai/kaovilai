@@ -8,10 +8,17 @@ on:
       - '.github/scripts/career_map.py'
       - '.github/scripts/test_career_map.py'
       - '.github/scripts/test_bojangles.py'
+      - '.github/scripts/worldmap.py'
+      - '.github/scripts/test_worldmap.py'
+      - '.github/scripts/build-mapdata.py'
+      - 'map/data/**'
       - '.github/artwork/**'
       - 'career-map.json'
       - 'career/index.html'
       - 'assets/profile/**'
+      - 'data/places.json'
+      - 'worldmap-*.svg'
+      - 'docs/worldmap.md'
       - 'README.md'
   push:
     branches: [main]
@@ -21,10 +28,17 @@ on:
       - '.github/scripts/career_map.py'
       - '.github/scripts/test_career_map.py'
       - '.github/scripts/test_bojangles.py'
+      - '.github/scripts/worldmap.py'
+      - '.github/scripts/test_worldmap.py'
+      - '.github/scripts/build-mapdata.py'
+      - 'map/data/**'
       - '.github/artwork/**'
       - 'career-map.json'
       - 'career/index.html'
       - 'assets/profile/**'
+      - 'data/places.json'
+      - 'worldmap-*.svg'
+      - 'docs/worldmap.md'
       - 'README.md'
   workflow_dispatch:
 
@@ -37,7 +51,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
-      - name: Validate career and Bojangles SVGs
+      - name: Validate career, Bojangles and travel map SVGs
         run: |
           python3 -I -B .github/scripts/test_career_map.py
           python3 -I -B .github/scripts/test_bojangles.py
+          python3 -I -B .github/scripts/test_worldmap.py
