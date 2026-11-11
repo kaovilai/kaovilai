@@ -3,11 +3,11 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T14:09:37Z",
+  "generatedAt": "2026-11-11T15:08:37Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 23,
+    "prsReviewed": 24,
     "issuesCommented": 100,
     "issuesClosed": 92
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 44,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): /session stub answers POST — buildx dialed a 404",
+      "url": "https://github.com/kaovilai/podm/pull/44",
+      "date": "2026-11-11T14:25:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 43,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -1804,18 +1813,27 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/203",
       "date": "2026-11-07T09:01:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 624,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only-go): web-search shim note switch, tool_result type, live verification",
-      "url": "https://github.com/kaovilai/dotfiles/pull/624",
-      "date": "2026-11-07T07:18:55Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 2540,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/openshift/oadp-operator/pull/2540",
+      "date": "2026-11-11T15:06:12Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10687,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Count backup/restore failures in metrics during startup cleanup",
+      "url": "https://github.com/velero-io/velero/pull/10687",
+      "date": "2026-11-11T14:56:03Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10734,
       "repo": "velero-io/velero",
@@ -1851,15 +1869,6 @@
       "url": "https://github.com/velero-io/velero/pull/10815",
       "date": "2026-11-10T19:31:26Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2540,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2540",
-      "date": "2026-11-10T17:32:37Z",
-      "workstream": "OADP"
     },
     {
       "number": 338,

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 14:09:37 UTC
+> **Generated:** 2026-11-11 15:08:37 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 23 |
+| PRs Reviewed | 24 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 92 |
 
@@ -136,6 +136,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (93)
+- [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
 - [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
@@ -228,10 +229,10 @@
 - [#626 llm-usage: show redirect reasons (outage-500, rate-limit) in the floating window](https://github.com/kaovilai/dotfiles/pull/626) — kaovilai/dotfiles
 - [#625 docs: stop calling the local proxies "LiteLLM proxies"](https://github.com/kaovilai/dotfiles/pull/625) — kaovilai/dotfiles
 - [#203 fix(view-log): load oadp failure logs and Claude analysis, add inline error panel and opt-in live logic](https://github.com/kaovilai/github-bot-command-palette/pull/203) — kaovilai/github-bot-command-palette
-- [#624 fix(hosted-only-go): web-search shim note switch, tool_result type, live verification](https://github.com/kaovilai/dotfiles/pull/624) — kaovilai/dotfiles
-## PRs Reviewed (23)
+## PRs Reviewed (24)
 
-**velero-io** (14)
+**velero-io** (15)
+- [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 - [#10792 [release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)](https://github.com/velero-io/velero/pull/10792) — velero-io/velero
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
