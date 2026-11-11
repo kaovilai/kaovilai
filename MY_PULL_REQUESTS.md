@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-11 19:08:44 UTC
+> Last updated: 2026-11-11 20:10:01 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -77,6 +77,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2545](https://img.shields.io/badge/PR%20%232545-ready-green)](https://github.com/openshift/oadp-operator/pull/2545) **openshift/oadp-operator** → `oadp-1.6` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #2549](https://img.shields.io/badge/PR%20%232549-ready-green)](https://github.com/openshift/oadp-operator/pull/2549) **openshift/oadp-operator** → `oadp-dev` - tests/e2e: increase readyPod timeout to 5 minutes
 - [![PR #2550](https://img.shields.io/badge/PR%20%232550-ready-green)](https://github.com/openshift/oadp-operator/pull/2550) **openshift/oadp-operator** → `oadp-dev` - tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test
+- [![PR #2551](https://img.shields.io/badge/PR%20%232551-ready-green)](https://github.com/openshift/oadp-operator/pull/2551) **openshift/oadp-operator** → `oadp-1.6` - e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22
 - [![PR #2980](https://img.shields.io/badge/PR%20%232980-ready-green)](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) **openshift/cluster-kube-descheduler-operator** → `main` - fix(operator): recompute protected namespaces on every sync
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
@@ -102,7 +103,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2543](https://img.shields.io/badge/PR%20%232543-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2543) **openshift/oadp-operator** → `oadp-dev` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #2551](https://img.shields.io/badge/PR%20%232551-ci--pending-yellow)](https://github.com/openshift/oadp-operator/pull/2551) **openshift/oadp-operator** → `oadp-1.6` - e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -195,6 +195,7 @@ No open PRs.
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/48) **kaovilai/podm** → `main` - feat(install): zsh completions in-repo + podman system connection
 - [![PR #51](https://img.shields.io/badge/PR%20%2351-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/51) **kaovilai/podm** → `main` - fix(containers): recover from wedged Apple container runtime jobs instead of hanging
+- [![PR #56](https://img.shields.io/badge/PR%20%2356-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/56) **kaovilai/podm** → `main` - fix(build): tag every requested image, emit aux, honor quiet
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository

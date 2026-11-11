@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:08:44Z",
+  "updatedAt": "2026-11-11T20:10:01Z",
   "prs": [
     {
       "number": 5,
@@ -10147,6 +10147,135 @@
       ]
     },
     {
+      "number": 2551,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22",
+      "url": "https://github.com/openshift/oadp-operator/pull/2551",
+      "targetBranch": "oadp-1.6",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-11T19:14:36Z",
+      "workstream": "OADP",
+      "ciChecks": [
+        {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "ci/prow/4.18-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.18-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/unit-test",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 504,
       "repo": "openshift/openshift-velero-plugin",
       "org": "openshift",
@@ -10991,14 +11120,6 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "PENDING"
         },
@@ -11012,22 +11133,6 @@
         },
         {
           "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/unit-test",
           "conclusion": "PENDING"
         },
         {
@@ -11047,6 +11152,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
@@ -11055,7 +11164,15 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-ci-index",
           "conclusion": "SUCCESS"
         },
         {
@@ -11067,7 +11184,19 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.1-images",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/unit-test",
           "conclusion": "SUCCESS"
         }
       ]
@@ -11096,31 +11225,11 @@
       "workstream": "OADP",
       "ciChecks": [
         {
-          "name": "ci/prow/4.22-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/4.22-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
           "conclusion": "PENDING"
         },
         {
@@ -11132,35 +11241,11 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.1-images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/unit-test",
           "conclusion": "PENDING"
         },
         {
@@ -11172,7 +11257,35 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-ci-index",
           "conclusion": "SUCCESS"
         },
         {
@@ -11181,6 +11294,22 @@
         },
         {
           "name": "ci/prow/5.1-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.1-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/unit-test",
           "conclusion": "SUCCESS"
         }
       ]
@@ -11316,16 +11445,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-10T22:11:29Z",
+      "updatedAt": "2026-11-11T19:46:51Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -12102,135 +12231,6 @@
         },
         {
           "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 2551,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22",
-      "url": "https://github.com/openshift/oadp-operator/pull/2551",
-      "targetBranch": "oadp-1.6",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-11T19:05:51Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "ci/prow/unit-test",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": ""
-        },
-        {
-          "name": "ci/prow/4.18-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.18-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
           "conclusion": "SUCCESS"
         }
       ]
@@ -16828,15 +16828,15 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T19:06:31Z",
+      "updatedAt": "2026-11-11T20:09:37Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "build",
+          "name": "docker + podman CLI smoke tests",
           "conclusion": ""
         },
         {
-          "name": "docker + podman CLI smoke tests",
+          "name": "build",
           "conclusion": ""
         },
         {
@@ -16879,7 +16879,74 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T19:02:18Z",
+      "updatedAt": "2026-11-11T19:08:38Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (c-cpp)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (ruby)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (swift)",
+          "conclusion": ""
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "integration test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): tag every requested image, emit aux, honor quiet",
+      "url": "https://github.com/kaovilai/podm/pull/56",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-11T19:54:35Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16908,7 +16975,7 @@
         },
         {
           "name": "formatters & tests",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "CodeQL",
@@ -18349,7 +18416,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-11T19:08:44Z",
+    "updatedAt": "2026-11-11T20:10:01Z",
     "needsReview": [
       {
         "number": 68,
@@ -19154,7 +19221,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -19329,7 +19396,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19360,7 +19427,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19551,7 +19618,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20462,7 +20529,7 @@
           "kaovilai"
         ],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20705,7 +20772,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-11T19:05:51Z"
+        "updatedAt": "2026-11-11T19:14:36Z"
       },
       {
         "number": 18636,
@@ -22079,7 +22146,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22234,7 +22301,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -22266,7 +22333,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -22343,7 +22410,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T22:11:29Z"
+        "updatedAt": "2026-11-11T19:46:51Z"
       }
     ]
   }
