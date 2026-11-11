@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-11 14:10:22 UTC
+> Last updated: 2026-11-11 15:09:09 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -195,6 +195,7 @@ No open PRs.
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #30](https://img.shields.io/badge/PR%20%2330-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/30) **kaovilai/podm** → `main` - feat: libpod sizes + system df, xattr-aware docker diff, logs since/until
+- [![PR #44](https://img.shields.io/badge/PR%20%2344-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/44) **kaovilai/podm** → `main` - fix(routes): /session stub answers POST — buildx dialed a 404
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
