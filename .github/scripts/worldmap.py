@@ -76,8 +76,9 @@ def parse_latlng(value):
                 return lat, lon
         return None
     if isinstance(value, dict):
-        if "latLng" in value:
-            return parse_latlng(value["latLng"])
+        for key in ("latLng", "LatLng", "latlng"):
+            if key in value:
+                return parse_latlng(value[key])
         if "latitudeE7" in value and "longitudeE7" in value:
             return value["latitudeE7"] / 1e7, value["longitudeE7"] / 1e7
         if "latitude" in value and "longitude" in value:
@@ -180,9 +181,13 @@ def _load_documents(path):
                 break
             try:
                 document, index = decoder.raw_decode(text, index)
-            except json.JSONDecodeError:
-                # Not a Timeline document (or truncated); skip the file.
-                break
+            except json.JSONDecodeError as error:
+                # A truncated or corrupt export would otherwise silently
+                # publish a partial history; refuse instead of guessing.
+                raise SystemExit(
+                    f"{file}: invalid JSON at offset {index} ({error.msg}); "
+                    "re-export Timeline from the phone"
+                ) from None
             yield document
 
 
@@ -255,6 +260,24 @@ def samples_from_document(document):
                 yield Sample(lat, lon, "transit", year, day)
             for lat, lon in _path_points(segment.get("timelinePath")):
                 yield Sample(lat, lon, "path", year, day)
+        # rawSignals adds position fixes the semantic pass skipped; they are
+        # subject to the tighter path cutoff, so they only add cities the phone
+        # was actually near.
+        for signal in document.get("rawSignals") or []:
+            if not isinstance(signal, dict):
+                continue
+            position = signal.get("position")
+            if not isinstance(position, dict):
+                continue
+            parsed = parse_latlng(position)
+            if not parsed:
+                continue
+            stamp = (
+                position.get("timestamp")
+                or signal.get("timestamp")
+                or position.get("time")
+            )
+            yield Sample(*parsed, "raw", year_of(stamp), day_of(stamp))
         return
 
     if "locations" in document:
@@ -317,29 +340,40 @@ class CityIndex:
 
     def nearest(self, lat, lon, max_km):
         """Return (row, distance_km) or None when nothing is close enough."""
-        key = (round(lat * 20), round(lon * 20))  # ~5 km grid, keeps caches small
+        # The cached answer depends on the search radius, so both go in the key.
+        key = (round(lat * 20), round(lon * 20), max_km)
         if key in self._cache:
-            row, km = self._cache[key]
-            return None if row is None or km > max_km else (row, km)
+            row = self._cache[key]
+            if row is None:
+                return None
+            # Recompute the distance for this exact point; the cached cell is
+            # only ~5 km wide, but a shared distance could flip the cutoff.
+            km = haversine_km(lat, lon, row[CITY_LAT], row[CITY_LON])
+            return None if km > max_km else (row, km)
 
         best = None
         best_km = float("inf")
         base_lat, base_lon = self._cell(lat, lon)
-        max_ring = int(max_km / 111.0) + 2
-        for ring in range(max_ring + 1):
-            # Everything outside this ring is at least this far away.
-            if best is not None and (ring - 1) * 111.0 > best_km:
-                break
-            for dlat in range(-ring, ring + 1):
-                for dlon in range(-ring, ring + 1):
-                    if max(abs(dlat), abs(dlon)) != ring:
-                        continue
-                    for index in self.cells.get((base_lat + dlat, base_lon + dlon), ()):
-                        row = self.rows[index]
-                        km = haversine_km(lat, lon, row[CITY_LAT], row[CITY_LON])
-                        if km < best_km:
-                            best, best_km = row, km
-        self._cache[key] = (best, best_km)
+        # A degree of latitude is ~111 km everywhere, but a degree of longitude
+        # shrinks with cos(latitude); without that, high-latitude searches miss
+        # cities to the east and west.
+        lat_span = int(max_km / 111.0) + 1
+        cos_lat = max(0.15, math.cos(math.radians(lat)))
+        lon_span = int(max_km / (111.0 * cos_lat)) + 1
+        for dlat in range(-lat_span, lat_span + 1):
+            # The nearest point of this row of cells is at least this far away.
+            if best is not None and (abs(dlat) - 1) * 111.0 > best_km:
+                continue
+            for dlon in range(-lon_span, lon_span + 1):
+                # Longitude cells wrap at the antimeridian, so a city just
+                # across +/-180 is still found.
+                cell_lon = ((base_lon + dlon + 180) % 360) - 180
+                for index in self.cells.get((base_lat + dlat, cell_lon), ()):
+                    row = self.rows[index]
+                    km = haversine_km(lat, lon, row[CITY_LAT], row[CITY_LON])
+                    if km < best_km:
+                        best, best_km = row, km
+        self._cache[key] = best
         return None if best is None or best_km > max_km else (best, best_km)
 
 
@@ -400,7 +434,9 @@ def build_places(
             skipped += 1
             continue
         row = match[0]
-        key = (row[CITY_NAME], row[CITY_ISO2])
+        # Same-name cities in one country (Portland OR/ME, Springfield...) are
+        # different rows; the coordinates keep them apart.
+        key = (row[CITY_NAME], row[CITY_REGION], row[CITY_ISO2], row[CITY_LAT], row[CITY_LON])
         aggregate = aggregates.get(key)
         if aggregate is None:
             aggregate = aggregates[key] = CityAggregate(row)
@@ -713,11 +749,12 @@ def _route_order(cities):
 
 
 def _route_legs(cities, projection):
-    """One (path, length_px) pair per consecutive city pair, on great-circle arcs.
+    """One (path, length_px) pair per drawn arc segment.
 
-    Lengths are computed in projected user units because Chrome applies
-    stroke-dasharray in user units even when pathLength is set, so the comet
-    window has to be expressed per leg.
+    A leg that crosses the antimeridian is split into separate legs, because SVG
+    restarts the dash pattern at each subpath and a single path with two ``M``
+    commands would show two comets at once. Lengths are in projected user units
+    because browsers apply stroke-dasharray in user units.
     """
     legs = []
     for start, end in zip(cities, cities[1:]):
@@ -735,16 +772,14 @@ def _route_legs(cities, projection):
         if len(current) >= 2:
             subpaths.append(current)
 
-        parts = []
-        length = 0.0
         for subpath in subpaths:
-            parts.append(
-                "M " + " L ".join("%.1f %.1f" % (x, y) for x, y in subpath)
+            path = "M " + " L ".join("%.1f %.1f" % (x, y) for x, y in subpath)
+            length = sum(
+                math.hypot(x2 - x1, y2 - y1)
+                for (x1, y1), (x2, y2) in zip(subpath, subpath[1:])
             )
-            for (x1, y1), (x2, y2) in zip(subpath, subpath[1:]):
-                length += math.hypot(x2 - x1, y2 - y1)
-        if parts and length > 4:
-            legs.append((" ".join(parts), length))
+            if length > 4:
+                legs.append((path, length))
     return legs
 
 

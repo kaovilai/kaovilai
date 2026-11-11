@@ -168,6 +168,34 @@ class ImportTests(unittest.TestCase):
         )
         self.assertEqual(result["cities"][0]["city"], "Bangkok")
 
+    def test_same_name_cities_stay_separate(self):
+        document = android_export(
+            [
+                visit_segment("2019-06-01T10:00:00.000-04:00", "geo:45.52,-122.68"),
+                visit_segment("2019-06-02T10:00:00.000-04:00", "geo:43.66,-70.26"),
+            ]
+        )
+        result = self.run_import(document)
+        portlands = [c for c in result["cities"] if c["city"] == "Portland"]
+        self.assertEqual(len(portlands), 2)
+        self.assertNotEqual(portlands[0]["lon"], portlands[1]["lon"])
+
+    def test_android_raw_signals(self):
+        document = {
+            "semanticSegments": [],
+            "rawSignals": [
+                {
+                    "position": {
+                        "LatLng": "geo:35.7796,-78.6382",
+                        "timestamp": "2023-05-01T10:00:00Z",
+                    }
+                },
+                {"activityRecord": {"unknown": True}},
+            ],
+        }
+        result = self.run_import(json.dumps(document))
+        self.assertEqual(result["cities"][0]["city"], "Raleigh")
+
     def test_unmatched_samples_are_dropped(self):
         document = android_export(
             [visit_segment("2019-06-01T10:00:00.000-04:00", "geo:0.0,-140.0")]
@@ -268,6 +296,18 @@ class RenderTests(unittest.TestCase):
         )
         self.assertNotEqual(first, light)
 
+    def test_antimeridian_leg_is_split(self):
+        cities = [
+            dict(self.cities[0], city="Tokyo", country_code="JP", lat=35.68, lon=139.69),
+            dict(self.cities[1], city="San Francisco", country_code="US", lat=37.77, lon=-122.42),
+        ]
+        svg = WM.render_animated_svg(cities, self.land, "dark", borders=self.borders)
+        # The arc crosses the antimeridian and is drawn as two separate legs so
+        # the dash pattern does not restart mid-path.
+        self.assertIn("leg0", svg)
+        self.assertIn("leg1", svg)
+        self.assertNotIn("@keyframes leg2", svg)
+
     def test_animated_single_city_has_no_legs(self):
         svg = WM.render_animated_svg(
             self.cities[:1], self.land, "dark", borders=self.borders
@@ -295,6 +335,7 @@ class CommittedArtifactTests(unittest.TestCase):
         cities = json.loads(DATA.read_text(encoding="utf-8"))["cities"]
         land = WM.load_land()
         borders = WM.load_borders()
+        checked = 0
         for theme in ("light", "dark"):
             expected_files = {
                 f"worldmap-{theme}.svg": WM.render_svg(
@@ -306,13 +347,18 @@ class CommittedArtifactTests(unittest.TestCase):
             }
             for name, expected in expected_files.items():
                 svg_path = ROOT / name
+                # A file that was never generated (e.g. --no-animated) has
+                # nothing to be stale; keep checking the rest either way.
                 if not svg_path.exists():
-                    self.skipTest(f"{name} not generated yet")
+                    continue
+                checked += 1
                 self.assertEqual(
                     svg_path.read_text(encoding="utf-8"),
                     expected,
                     f"{name} is stale; rerun worldmap.py render",
                 )
+        if not checked:
+            self.skipTest("no committed map SVGs yet")
 
     def test_gazetteer_is_consistent(self):
         cities = WM.load_cities()

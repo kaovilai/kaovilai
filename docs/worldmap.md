@@ -10,8 +10,8 @@ Three files are involved:
 | File | Visibility | Contents |
 | --- | --- | --- |
 | Google export (`Timeline.json` / `location-history.json`) | **private** | raw positions, visits, addresses, place IDs |
-| [`data/places.json`](../data/places.json) | public | city name, region, country and gazetteer city centre only |
-| [`worldmap-light.svg`](../worldmap-light.svg), [`worldmap-dark.svg`](../worldmap-dark.svg) | public | the rendered map |
+| `data/places.json` | public | city name, region, country and gazetteer city centre only |
+| `worldmap-light.svg`, `worldmap-dark.svg` (and animated variants) | public | the rendered map |
 
 ## 1. Export Timeline from the phone
 
