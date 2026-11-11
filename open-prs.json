@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:09:58Z",
+  "updatedAt": "2026-11-11T14:10:22Z",
   "prs": [
     {
       "number": 5,
@@ -16659,19 +16659,19 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T13:05:37Z",
+      "updatedAt": "2026-11-11T14:09:49Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "docker + podman CLI smoke tests",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "build",
+          "conclusion": ""
+        },
+        {
+          "name": "Analyze (actions)",
           "conclusion": "SUCCESS"
         },
         {
@@ -16687,28 +16687,12 @@
           "conclusion": ""
         },
         {
-          "name": "multi-arch build test (amd64 + arm64 + s390x)",
-          "conclusion": "SKIPPED"
-        },
-        {
           "name": "formatters & tests",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "integration test",
-          "conclusion": ""
-        },
-        {
-          "name": "multi-arch build test (amd64 + arm64 + s390x)",
-          "conclusion": "SKIPPED"
-        },
-        {
           "name": "CodeQL",
           "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -16853,7 +16837,7 @@
       "org": "einaregilsson",
       "title": "checkbox on the redirector page correctly reflects the current sync s…",
       "url": "https://github.com/einaregilsson/Redirector/pull/437",
-      "targetBranch": "unknown",
+      "targetBranch": "master",
       "status": "stale",
       "milestone": null,
       "author": "kaovilai",
@@ -17696,33 +17680,6 @@
       "ciChecks": []
     },
     {
-      "number": 12,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix(hooks): fail open when the daemon the routes point at is down",
-      "url": "https://github.com/kaovilai/context-mode/pull/12",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-11T13:08:36Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "review",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -18168,7 +18125,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-11T13:09:58Z",
+    "updatedAt": "2026-11-11T14:10:22Z",
     "needsReview": [
       {
         "number": 68,
@@ -18248,12 +18205,12 @@
         "org": "einaregilsson",
         "title": "checkbox on the redirector page correctly reflects the current sync s…",
         "url": "https://github.com/einaregilsson/Redirector/pull/437",
-        "targetBranch": "unknown",
+        "targetBranch": "master",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18893,6 +18850,32 @@
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
+        "number": 118214,
+        "repo": "openshift/openshift-docs",
+        "org": "openshift",
+        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
+        "url": "https://github.com/openshift/openshift-docs/pull/118214",
+        "targetBranch": "main",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/S"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 71,
+        "updatedAt": "2026-09-01T13:58:01Z"
+      },
+      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18920,32 +18903,6 @@
         "reason": "awaitingReview",
         "waitingDays": 71,
         "updatedAt": "2026-08-31T20:24:39Z"
-      },
-      {
-        "number": 118214,
-        "repo": "openshift/openshift-docs",
-        "org": "openshift",
-        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
-        "url": "https://github.com/openshift/openshift-docs/pull/118214",
-        "targetBranch": "main",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/S"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 70,
-        "updatedAt": "2026-09-01T13:58:01Z"
       },
       {
         "number": 213,
@@ -19994,7 +19951,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20097,6 +20054,35 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-11-08T23:22:37Z"
+      },
+      {
+        "number": 504,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "NO-JIRA: Group Go security updates in Dependabot",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
         "number": 10555,
@@ -20354,35 +20340,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-11-10T12:42:37Z"
-      },
-      {
-        "number": 504,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "NO-JIRA: Group Go security updates in Dependabot",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
         "number": 10798,
@@ -20837,7 +20794,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 91,
+        "waitingDays": 92,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -20869,7 +20826,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 81,
+        "waitingDays": 82,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -21683,7 +21640,7 @@
           "jira/valid-reference",
           "lgtm"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21916,7 +21873,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 8,
+        "waitingDays": 9,
         "updatedAt": "2026-11-02T14:06:28Z"
       },
       {
