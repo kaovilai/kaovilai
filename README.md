@@ -105,6 +105,8 @@ gazetteer city centres are published, never raw positions or real dates.
 <img src="assets/travel-map.gif" alt="Animated globe showing places lived in, visited, or transited through, with routes between cities" width="720">
 <!-- travel-map:end -->
 
+Generated with [Timeline replay map](https://github.tig.pw/gmap-timeline-replaysvg/) ([source](https://github.com/kaovilai/gmap-timeline-replaysvg)) — turn your own Timeline export into a city-level map, in the browser, with nothing uploaded.
+
 [North Carolina destinations map](nc_destinations.html)
 
 <picture>
