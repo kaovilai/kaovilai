@@ -3,15 +3,42 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T18:09:57Z",
+  "generatedAt": "2026-11-11T19:07:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 24,
     "issuesCommented": 100,
-    "issuesClosed": 94
+    "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 15,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap",
+      "url": "https://github.com/kaovilai/context-mode/pull/15",
+      "date": "2026-11-11T18:56:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2547,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]",
+      "url": "https://github.com/openshift/oadp-operator/pull/2547",
+      "date": "2026-11-11T18:54:10Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 50,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): accept absolute dockerfile paths — podman's -f wire format",
+      "url": "https://github.com/kaovilai/podm/pull/50",
+      "date": "2026-11-11T18:54:05Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 1,
       "repo": "kaovilai/Macbook_Duo_Effect",
@@ -884,36 +911,36 @@
       "url": "https://github.com/konveyor/builder/pull/49",
       "date": "2026-11-07T13:14:35Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 48,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Deconstruct variant workflows into one reusable image build (stacked on #47)",
-      "url": "https://github.com/konveyor/builder/pull/48",
-      "date": "2026-11-07T11:44:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 628,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(menubar): hovering a fleet host row filters the traffic graph",
-      "url": "https://github.com/kaovilai/dotfiles/pull/628",
-      "date": "2026-11-07T10:27:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 627,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(llm-proxy-sync): one restart per port for the shared hosted-only proxy",
-      "url": "https://github.com/kaovilai/dotfiles/pull/627",
-      "date": "2026-11-07T10:26:44Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 51,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): recover from wedged Apple container runtime jobs instead of hanging",
+      "url": "https://github.com/kaovilai/podm/pull/51",
+      "date": "2026-11-11T19:02:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2551,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22",
+      "url": "https://github.com/openshift/oadp-operator/pull/2551",
+      "date": "2026-11-11T19:00:28Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 50,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): accept absolute dockerfile paths — podman's -f wire format",
+      "url": "https://github.com/kaovilai/podm/pull/50",
+      "date": "2026-11-11T18:22:39Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 15,
       "repo": "kaovilai/context-mode",
@@ -1786,33 +1813,6 @@
       "url": "https://github.com/marlonrichert/zsh-autocomplete/pull/910",
       "date": "2026-11-07T15:11:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 53,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates",
-      "url": "https://github.com/konveyor/builder/pull/53",
-      "date": "2026-11-07T15:09:27Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 51,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "pairing: wait out mqvpn's control socket instead of issuing a dead URI",
-      "url": "https://github.com/kaovilai/tailbond/pull/51",
-      "date": "2026-11-07T15:06:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 50,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "e2e: prototype the CGNAT relay and run it in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/50",
-      "date": "2026-11-07T14:39:50Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -1822,7 +1822,25 @@
       "org": "openshift",
       "title": "[oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type",
       "url": "https://github.com/openshift/oadp-operator/pull/2540",
-      "date": "2026-11-11T16:34:24Z",
+      "date": "2026-11-11T19:01:27Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2534,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
+      "url": "https://github.com/openshift/oadp-operator/pull/2534",
+      "date": "2026-11-11T18:49:38Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2533,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
+      "url": "https://github.com/openshift/oadp-operator/pull/2533",
+      "date": "2026-11-11T18:48:11Z",
       "workstream": "OADP"
     },
     {
@@ -1896,15 +1914,6 @@
       "url": "https://github.com/quay/quay/pull/7381",
       "date": "2026-11-10T14:49:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2533,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
-      "url": "https://github.com/openshift/oadp-operator/pull/2533",
-      "date": "2026-11-10T13:11:19Z",
-      "workstream": "OADP"
     },
     {
       "number": 256,
@@ -2004,15 +2013,6 @@
       "url": "https://github.com/pingdotgg/t3code/pull/23510",
       "date": "2026-11-09T20:38:34Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2534,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
-      "url": "https://github.com/openshift/oadp-operator/pull/2534",
-      "date": "2026-11-10T05:29:07Z",
-      "workstream": "OADP"
     },
     {
       "number": 10803,
@@ -2936,6 +2936,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 49,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "bug(build): podman build -f <file> rejected — absolute dockerfile path is podman's wire format, not an escape",
+      "url": "https://github.com/kaovilai/podm/issues/49",
+      "date": "2026-11-11T18:54:06Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 25,
       "repo": "kaovilai/podm",
