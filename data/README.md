@@ -16,6 +16,8 @@ order, so nothing about when you travelled is published. `--dates none` omits
 dates entirely.
 
 Pushing this file makes the **Update travel map** workflow render
-`assets/travel-map.gif` (720 px, 50 fps) and point `README.md` at it. The file
-may contain only gazetteer city names, regions, countries and city-centre
-coordinates — never commit the raw export.
+`assets/travel-map.gif` (720 px, 50 fps) and point `README.md` at it.
+
+The file contains gazetteer city names, regions, countries, city-centre
+coordinates, synthetic dates, and per-city `visits` and `days` counts (travel
+frequency). Never commit the raw export.

@@ -45,12 +45,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          # A manual dispatch may select another branch; the job pushes to
+          # main, so always generate from main rather than whatever was picked.
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Checkout the map renderer
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
           repository: kaovilai/gmap-timeline-replaysvg
           path: .travel-map-tool
+          persist-credentials: false
 
       - name: Install Pillow (GIF export only)
         run: python3 -m pip install --quiet --disable-pip-version-check 'pillow>=10,<12'
