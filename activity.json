@@ -3,11 +3,11 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T22:08:32Z",
+  "generatedAt": "2026-11-11T23:09:36Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 23,
+    "prsReviewed": 24,
     "issuesCommented": 100,
     "issuesClosed": 100
   },
@@ -22,21 +22,21 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 48,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(install): zsh completions in-repo + podman system connection",
-      "url": "https://github.com/kaovilai/podm/pull/48",
-      "date": "2026-11-11T20:47:04Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 56,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
       "title": "fix(build): tag every requested image, emit aux, honor quiet",
       "url": "https://github.com/kaovilai/podm/pull/56",
       "date": "2026-11-11T20:46:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 48,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(install): zsh completions in-repo + podman system connection",
+      "url": "https://github.com/kaovilai/podm/pull/48",
+      "date": "2026-11-11T20:47:04Z",
       "workstream": "Uncategorized"
     },
     {
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 256,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
+      "date": "2026-11-11T22:37:46Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 2535,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0",
+      "url": "https://github.com/openshift/oadp-operator/pull/2535",
+      "date": "2026-11-11T22:25:07Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 2534,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1914,15 +1932,6 @@
       "url": "https://github.com/quay/quay/pull/7381",
       "date": "2026-11-10T14:49:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 256,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
-      "date": "2026-11-10T09:38:10Z",
-      "workstream": "KubeVirt Data Mover"
     },
     {
       "number": 9,

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 22:08:32 UTC
+> **Generated:** 2026-11-11 23:09:36 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 23 |
+| PRs Reviewed | 24 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 100 |
 
@@ -33,8 +33,8 @@
 
 **Other** (90)
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
-- [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
+- [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
 - [#15 fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap](https://github.com/kaovilai/context-mode/pull/15) — kaovilai/context-mode
 - [#50 fix(build): accept absolute dockerfile paths — podman's -f wire format](https://github.com/kaovilai/podm/pull/50) — kaovilai/podm
 - [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
@@ -229,7 +229,7 @@
 - [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
 - [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
 - [#630 perf(znap): defer syntax-highlighting + autocomplete until after first prompt](https://github.com/kaovilai/dotfiles/pull/630) — kaovilai/dotfiles
-## PRs Reviewed (23)
+## PRs Reviewed (24)
 
 **velero-io** (14)
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
@@ -247,7 +247,8 @@
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 - [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
 
-**openshift** (5)
+**openshift** (6)
+- [#2535 fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0](https://github.com/openshift/oadp-operator/pull/2535) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
