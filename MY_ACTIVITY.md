@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 16:10:15 UTC
+> **Generated:** 2026-11-11 17:08:59 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 24 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 93 |
+| Issues Closed | 94 |
 
 ---
 
@@ -31,6 +31,10 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
+- [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
+- [#646 docs: hosted-only reviewer note post-merge touch-ups](https://github.com/kaovilai/dotfiles/pull/646) — kaovilai/dotfiles
+- [#30 feat: libpod sizes + system df, xattr-aware docker diff, logs since/until](https://github.com/kaovilai/podm/pull/30) — kaovilai/podm
 - [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
 - [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
 - [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
@@ -118,10 +122,6 @@
 - [#48 Deconstruct variant workflows into one reusable image build (stacked on #47)](https://github.com/konveyor/builder/pull/48) — konveyor/builder
 - [#628 feat(menubar): hovering a fleet host row filters the traffic graph](https://github.com/kaovilai/dotfiles/pull/628) — kaovilai/dotfiles
 - [#627 fix(llm-proxy-sync): one restart per port for the shared hosted-only proxy](https://github.com/kaovilai/dotfiles/pull/627) — kaovilai/dotfiles
-- [#626 llm-usage: show redirect reasons (outage-500, rate-limit) in the floating window](https://github.com/kaovilai/dotfiles/pull/626) — kaovilai/dotfiles
-- [#203 fix(view-log): load oadp failure logs and Claude analysis, add inline error panel and opt-in live logic](https://github.com/kaovilai/github-bot-command-palette/pull/203) — kaovilai/github-bot-command-palette
-- [#47 Build Go 1.27 FIPS images (golang-fips prereleases) and modernize the release pipeline: SBOMs, attestations, badges, auto-added UBI variants](https://github.com/konveyor/builder/pull/47) — konveyor/builder
-- [#625 docs: stop calling the local proxies "LiteLLM proxies"](https://github.com/kaovilai/dotfiles/pull/625) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (6)
@@ -136,6 +136,8 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (93)
+- [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
+- [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
 - [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
 - [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
 - [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
@@ -227,8 +229,6 @@
 - [#50 e2e: prototype the CGNAT relay and run it in CI](https://github.com/kaovilai/tailbond/pull/50) — kaovilai/tailbond
 - [#629 perf(claude): cut claude launcher startup from 3.6s to ~0.24s](https://github.com/kaovilai/dotfiles/pull/629) — kaovilai/dotfiles
 - [#628 feat(menubar): hovering a fleet host row filters the traffic graph](https://github.com/kaovilai/dotfiles/pull/628) — kaovilai/dotfiles
-- [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
-- [#627 fix(llm-proxy-sync): one restart per port for the shared hosted-only proxy](https://github.com/kaovilai/dotfiles/pull/627) — kaovilai/dotfiles
 ## PRs Reviewed (24)
 
 **velero-io** (15)
@@ -369,7 +369,7 @@
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
-## Issues Closed (93)
+## Issues Closed (94)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -428,7 +428,8 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (42)
+**Other** (43)
+- [#25 docker diff does not detect extended-attribute-only changes (file capabilities)](https://github.com/kaovilai/podm/issues/25) — kaovilai/podm
 - [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
 - [#35 feat(plugins): implement local-metadata subset of /plugins (list/inspect/privileges/create)](https://github.com/kaovilai/podm/issues/35) — kaovilai/podm
