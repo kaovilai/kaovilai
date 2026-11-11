@@ -15,8 +15,10 @@ python3 -I -B worldmap.py import ~/Downloads/Timeline.json \
 order, so nothing about when you travelled is published. `--dates none` omits
 dates entirely.
 
-Pushing this file makes the **Update travel map** workflow render
-`assets/travel-map.gif` (720 px, 25 fps, 30 s) and point `README.md` at it.
+Pushing this file makes the **Update travel map** workflow render the flat
+animated SVGs (`assets/worldmap-animated-light.svg` and `-dark.svg`, ~0.6 MB
+each at 1280 px) and point `README.md` at them. SVG is used instead of GIF
+because a GIF of the same map is tens of megabytes.
 
 The file contains gazetteer city names, regions, countries, city-centre
 coordinates, synthetic dates, and per-city `visits` and `days` counts (travel

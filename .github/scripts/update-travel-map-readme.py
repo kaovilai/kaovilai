@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Point README.md at the generated travel-map GIF.
+"""Point README.md at the generated travel-map SVGs.
 
 Keeps a marker block so the workflow can rewrite it in place, and falls back
 to appending a section when the markers are missing (first run in a repo that
 has never had a travel map).
 
-Usage: update-travel-map-readme.py README.md assets/travel-map.gif 720
+The block is a <picture> so light and dark readers each get the right theme and
+GitHub still shows one image.
+
+Usage: update-travel-map-readme.py README.md LIGHT.svg DARK.svg [WIDTH]
 """
 
 from __future__ import annotations
@@ -16,31 +19,38 @@ import sys
 START = "<!-- travel-map:start -->"
 END = "<!-- travel-map:end -->"
 ALT = (
-    "Animated globe showing places lived in, visited, or transited through, "
-    "with routes between cities"
+    "Animated world map with glowing routes between places lived in, "
+    "visited, or transited through"
 )
 
 
-def block(source: str, width: str) -> str:
-    return f'{START}\n<img src="{source}" alt="{ALT}" width="{width}">\n{END}'
+def block(light: str, dark: str, width: str) -> str:
+    return (
+        f"{START}\n"
+        "<picture>\n"
+        f'  <source media="(prefers-color-scheme: dark)" srcset="{dark}">\n'
+        f'  <img src="{light}" alt="{ALT}" width="{width}">\n'
+        "</picture>\n"
+        f"{END}"
+    )
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) != 4:
+    if len(argv) not in (4, 5):
         print(__doc__, file=sys.stderr)
         return 2
     readme = pathlib.Path(argv[1])
-    source = argv[2]
-    width = argv[3]
+    light, dark = argv[2], argv[3]
+    width = argv[4] if len(argv) == 5 else "100%"
 
     text = readme.read_text(encoding="utf-8")
-    replacement = block(source, width)
+    replacement = block(light, dark, width)
 
     if START in text and END in text:
         head, rest = text.split(START, 1)
         _, tail = rest.split(END, 1)
         text = head + replacement + tail
-    elif f'src="{source}"' not in text:
+    elif f'src="{light}"' not in text:
         text = text.rstrip() + "\n\n### Travel map\n\n" + replacement + "\n"
 
     readme.write_text(text, encoding="utf-8")

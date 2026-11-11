@@ -1,8 +1,9 @@
 name: Update travel map
 
-# Regenerates the README travel-map GIF whenever the city-level places.json
-# changes. The GIF is rendered by kaovilai/gmap-timeline-replaysvg at 720 px,
-# 50 fps by default; override with the workflow_dispatch inputs.
+# Regenerates the README travel-map SVGs whenever the city-level places.json
+# changes. The flat animated SVG (light and dark) is rendered by
+# kaovilai/gmap-timeline-replaysvg at 1280 px by default; override with the
+# workflow_dispatch inputs.
 
 on:
   push:
@@ -15,14 +16,11 @@ on:
   workflow_dispatch:
     inputs:
       width:
-        description: GIF width in pixels
-        default: '720'
-      fps:
-        description: Frames per second (GIF hard ceiling is 50; 25 keeps a 30 s loop under GitHub's size limits)
-        default: '25'
+        description: SVG width in pixels
+        default: '1280'
       duration:
-        description: Seconds per forward-and-back loop
-        default: '30'
+        description: Seconds for one forward-and-back cycle
+        default: '90'
 
 concurrency:
   group: update-travel-map
@@ -32,10 +30,10 @@ permissions:
   contents: read
 
 env:
-  GIF_WIDTH: ${{ inputs.width || '720' }}
-  GIF_FPS: ${{ inputs.fps || '25' }}
-  GIF_DURATION: ${{ inputs.duration || '30' }}
-  GIF_PATH: assets/travel-map.gif
+  MAP_WIDTH: ${{ inputs.width || '1280' }}
+  MAP_DURATION: ${{ inputs.duration || '90' }}
+  MAP_LIGHT: assets/worldmap-animated-light.svg
+  MAP_DARK: assets/worldmap-animated-dark.svg
 
 jobs:
   render:
@@ -57,14 +55,6 @@ jobs:
           path: .travel-map-tool
           persist-credentials: false
 
-      - name: Install Pillow (GIF export only)
-        run: python3 -m pip install --quiet --disable-pip-version-check 'pillow>=10,<12'
-
-      - name: Install gifsicle (inter-frame, lossy LZW)
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq gifsicle
-
       - name: Check for source data
         id: data
         run: |
@@ -75,7 +65,7 @@ jobs:
             echo "data/places.json is not committed yet; nothing to render."
           fi
 
-      - name: Render GIF and update README
+      - name: Render SVGs and update README
         if: steps.data.outputs.present == 'true'
         run: |
           git config user.name "github-actions[bot]"
@@ -84,32 +74,32 @@ jobs:
           # Regenerate inside the retry loop: a rejected push resets the tree to
           # the new tip and the artifacts must be rebuilt from that state.
           for attempt in 1 2 3; do
-            python3 -I -B .travel-map-tool/worldmap.py gif data/places.json \
-              --out "$GIF_PATH.raw.gif" \
-              --width "$GIF_WIDTH" \
-              --fps "$GIF_FPS" \
-              --duration "$GIF_DURATION" \
-              --theme dark \
-              --colors 128
-            # A rotating globe repaints most pixels every frame, so GIF delta
-            # help is limited; lossy LZW is what keeps a 30 s loop publishable.
-            gifsicle -O3 --lossy=80 "$GIF_PATH.raw.gif" -o "$GIF_PATH"
-            rm -f "$GIF_PATH.raw.gif"
-            test -s "$GIF_PATH"
+            # No third-party packages needed: SVG rendering is stdlib only.
+            python3 -I -B .travel-map-tool/worldmap.py render data/places.json \
+              --out-dir assets \
+              --theme both \
+              --width "$MAP_WIDTH" \
+              --duration "$MAP_DURATION" \
+              --no-drift \
+              --no-globe
+            # Only the animated pair is published; drop the static duplicates.
+            rm -f assets/worldmap-light.svg assets/worldmap-dark.svg
             python3 -I -B .github/scripts/update-travel-map-readme.py \
-              README.md "$GIF_PATH" "$GIF_WIDTH"
-            # The placeholder screenshot is dead weight once nothing references
-            # it; remove it in the same commit that publishes the GIF.
-            if ! grep -q 'worldmap.png' README.md && \
-               git ls-files --error-unmatch worldmap.png >/dev/null 2>&1; then
-              git rm -q worldmap.png
-            fi
-            git add "$GIF_PATH" README.md
+              README.md "$MAP_LIGHT" "$MAP_DARK"
+            # Retired assets: the old screenshot and the earlier globe GIF.
+            for stale in worldmap.png assets/travel-map.gif; do
+              if ! grep -q "$(basename "$stale")" README.md && \
+                 git ls-files --error-unmatch "$stale" >/dev/null 2>&1; then
+                git rm -q "$stale"
+              fi
+            done
+            git add assets/worldmap-animated-light.svg \
+              assets/worldmap-animated-dark.svg README.md
             if git diff --staged --quiet; then
               echo "Travel map is unchanged"
               exit 0
             fi
-            git commit -s -m "Update travel map (${GIF_WIDTH}px, ${GIF_FPS} fps, ${GIF_DURATION}s)"
+            git commit -s -m "Update travel map (${MAP_WIDTH}px SVG)"
             if git push origin HEAD:main; then
               exit 0
             fi
