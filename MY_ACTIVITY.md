@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 12:14:23 UTC
+> **Generated:** 2026-11-11 13:09:35 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 23 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 90 |
+| Issues Closed | 91 |
 
 ---
 
@@ -31,6 +31,10 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
+- [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
+- [#42 feat(plugins): local metadata subset — list/inspect/privileges/create](https://github.com/kaovilai/podm/pull/42) — kaovilai/podm
+- [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
 - [#41 fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution](https://github.com/kaovilai/podm/pull/41) — kaovilai/podm
 - [#645 feat(menubar): show reroutes and errors in the floating window header](https://github.com/kaovilai/dotfiles/pull/645) — kaovilai/dotfiles
@@ -118,10 +122,6 @@
 - [#622 feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model](https://github.com/kaovilai/dotfiles/pull/622) — kaovilai/dotfiles
 - [#623 web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)](https://github.com/kaovilai/dotfiles/pull/623) — kaovilai/dotfiles
 - [#3 fix: serve from a subpath (GitHub Pages project site at /autoport/)](https://github.com/kaovilai/autoport/pull/3) — kaovilai/autoport
-- [#621 feat(hosted-only-go): ready chat translation for block-diffusion (DiffusionGemma-style) models](https://github.com/kaovilai/dotfiles/pull/621) — kaovilai/dotfiles
-- [#2 docs: fix DESIGN.md attribution — actual model (GLM 5.3 via EnMaaS), …](https://github.com/kaovilai/autoport/pull/2) — kaovilai/autoport
-- [#1 ui: modern, colorful redesign (presentation only)](https://github.com/kaovilai/autoport/pull/1) — kaovilai/autoport
-- [#620 feat(llm-usage): stream fleet peers' usage into the local views](https://github.com/kaovilai/dotfiles/pull/620) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (6)
@@ -136,6 +136,9 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (93)
+- [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
+- [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
+- [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
 - [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
@@ -183,7 +186,7 @@
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
 - [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
 - [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
-- [#2 Frozen-image viewport fold with one-shot eye calibration](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) — RuixiangHuang/Macbook_Duo_Effect
+- [#2 Replace the rough taper estimate with a calibrated viewport projection](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) — RuixiangHuang/Macbook_Duo_Effect
 - [#13 Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers](https://github.com/kaovilai/podm/pull/13) — kaovilai/podm
 - [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
@@ -226,9 +229,6 @@
 - [#625 docs: stop calling the local proxies "LiteLLM proxies"](https://github.com/kaovilai/dotfiles/pull/625) — kaovilai/dotfiles
 - [#203 fix(view-log): load oadp failure logs and Claude analysis, add inline error panel and opt-in live logic](https://github.com/kaovilai/github-bot-command-palette/pull/203) — kaovilai/github-bot-command-palette
 - [#624 fix(hosted-only-go): web-search shim note switch, tool_result type, live verification](https://github.com/kaovilai/dotfiles/pull/624) — kaovilai/dotfiles
-- [#49 Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot](https://github.com/konveyor/builder/pull/49) — konveyor/builder
-- [#32365 fix(web): timestamps follow the system time zone without a reload](https://github.com/pingdotgg/t3code/pull/32365) — pingdotgg/t3code
-- [#4 test: full functionality e2e coverage in GHA CI + fix broken share landing page](https://github.com/kaovilai/autoport/pull/4) — kaovilai/autoport
 ## PRs Reviewed (23)
 
 **velero-io** (14)
@@ -368,7 +368,7 @@
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
 - [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
-## Issues Closed (90)
+## Issues Closed (91)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -427,7 +427,8 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (39)
+**Other** (40)
+- [#35 feat(plugins): implement local-metadata subset of /plugins (list/inspect/privileges/create)](https://github.com/kaovilai/podm/issues/35) — kaovilai/podm
 - [#33 fix(routes): deliberate stubs return HTTP 500 — should be compat-correct 503/501](https://github.com/kaovilai/podm/issues/33) — kaovilai/podm
 - [#32 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/issues/32) — kaovilai/podm
 - [#31 feat(secrets): implement docker-dialect /secrets routes backed by the existing SecretStore](https://github.com/kaovilai/podm/issues/31) — kaovilai/podm
