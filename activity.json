@@ -3,15 +3,24 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T13:09:35Z",
+  "generatedAt": "2026-11-11T14:09:37Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 23,
     "issuesCommented": 100,
-    "issuesClosed": 91
+    "issuesClosed": 92
   },
   "prsMerged": [
+    {
+      "number": 12,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "fix(hooks): fail open when the daemon the routes point at is down",
+      "url": "https://github.com/kaovilai/context-mode/pull/12",
+      "date": "2026-11-11T13:26:30Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 89,
       "repo": "kaovilai/kaovilai",
@@ -901,15 +910,6 @@
       "title": "web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)",
       "url": "https://github.com/kaovilai/dotfiles/pull/623",
       "date": "2026-11-07T06:08:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 3,
-      "repo": "kaovilai/autoport",
-      "org": "kaovilai",
-      "title": "fix: serve from a subpath (GitHub Pages project site at /autoport/)",
-      "url": "https://github.com/kaovilai/autoport/pull/3",
-      "date": "2026-11-07T05:59:15Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -2026,13 +2026,13 @@
   ],
   "issuesCommented": [
     {
-      "number": 439,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
-      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
-      "date": "2026-11-11T08:30:54Z",
-      "workstream": "Velero"
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-11T13:40:58Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 11,
@@ -2040,8 +2040,26 @@
       "org": "kaovilai",
       "title": "Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer",
       "url": "https://github.com/kaovilai/context-mode/issues/11",
-      "date": "2026-11-11T07:56:31Z",
+      "date": "2026-11-11T13:26:31Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 477,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "branchprotector: excluded branches retain existing protection instead of being removed",
+      "url": "https://github.com/kubernetes-sigs/prow/issues/477",
+      "date": "2026-11-11T13:18:53Z",
+      "workstream": "Kubernetes"
+    },
+    {
+      "number": 439,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
+      "date": "2026-11-11T08:30:54Z",
+      "workstream": "Velero"
     },
     {
       "number": 34,
@@ -2059,15 +2077,6 @@
       "title": "feat(containers): pause/unpause — track unblock paths (XPC gap upstream, containerization has the primitive)",
       "url": "https://github.com/kaovilai/podm/issues/37",
       "date": "2026-11-11T03:21:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-10T14:27:36Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2915,18 +2924,18 @@
       "url": "https://github.com/paperclipai/paperclip/issues/12543",
       "date": "2026-09-24T20:23:11Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 181212,
-      "repo": "home-assistant/core",
-      "org": "home-assistant",
-      "title": "Home Assistant 2026.9.0 – “Could not load Home Assistant” after update",
-      "url": "https://github.com/home-assistant/core/issues/181212",
-      "date": "2026-09-24T16:45:33Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 11,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer",
+      "url": "https://github.com/kaovilai/context-mode/issues/11",
+      "date": "2026-11-11T13:26:31Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 35,
       "repo": "kaovilai/podm",

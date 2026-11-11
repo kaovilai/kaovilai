@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 13:09:35 UTC
+> **Generated:** 2026-11-11 14:09:37 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 23 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 91 |
+| Issues Closed | 92 |
 
 ---
 
@@ -31,6 +31,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
 - [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
 - [#42 feat(plugins): local metadata subset — list/inspect/privileges/create](https://github.com/kaovilai/podm/pull/42) — kaovilai/podm
@@ -121,7 +122,6 @@
 - [#624 fix(hosted-only-go): web-search shim note switch, tool_result type, live verification](https://github.com/kaovilai/dotfiles/pull/624) — kaovilai/dotfiles
 - [#622 feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model](https://github.com/kaovilai/dotfiles/pull/622) — kaovilai/dotfiles
 - [#623 web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)](https://github.com/kaovilai/dotfiles/pull/623) — kaovilai/dotfiles
-- [#3 fix: serve from a subpath (GitHub Pages project site at /autoport/)](https://github.com/kaovilai/autoport/pull/3) — kaovilai/autoport
 ## PRs Opened (100)
 
 **openshift** (6)
@@ -314,10 +314,11 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (54)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
+- [#477 branchprotector: excluded branches retain existing protection instead of being removed](https://github.com/kubernetes-sigs/prow/issues/477) — kubernetes-sigs/prow
 - [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#37 feat(containers): pause/unpause — track unblock paths (XPC gap upstream, containerization has the primitive)](https://github.com/kaovilai/podm/issues/37) — kaovilai/podm
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#33732 [Bug]: macOS desktop app aborts when the system-wide file table fills (kqueue: Too many open files in system)](https://github.com/pingdotgg/t3code/issues/33732) — pingdotgg/t3code
 - [#76291 x/tools/gopls: mcp: file watcher try to watch for all roots](https://github.com/golang/go/issues/76291) — golang/go
 - [#18 Add MacroDroid-style Android automation integration](https://github.com/Past-da-king/agent/issues/18) — Past-da-king/agent
@@ -367,8 +368,7 @@
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
 - [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
-- [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
-## Issues Closed (91)
+## Issues Closed (92)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -427,7 +427,8 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (40)
+**Other** (41)
+- [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
 - [#35 feat(plugins): implement local-metadata subset of /plugins (list/inspect/privileges/create)](https://github.com/kaovilai/podm/issues/35) — kaovilai/podm
 - [#33 fix(routes): deliberate stubs return HTTP 500 — should be compat-correct 503/501](https://github.com/kaovilai/podm/issues/33) — kaovilai/podm
 - [#32 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/issues/32) — kaovilai/podm
