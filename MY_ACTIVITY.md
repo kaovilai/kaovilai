@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 19:07:57 UTC
+> **Generated:** 2026-11-11 20:09:35 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
 - [#50 fix(build): accept absolute dockerfile paths — podman's -f wire format](https://github.com/kaovilai/podm/pull/50) — kaovilai/podm
 - [#15 fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap](https://github.com/kaovilai/context-mode/pull/15) — kaovilai/context-mode
@@ -228,7 +229,6 @@
 - [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
 - [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
 - [#630 perf(znap): defer syntax-highlighting + autocomplete until after first prompt](https://github.com/kaovilai/dotfiles/pull/630) — kaovilai/dotfiles
-- [#910 Fall back to standard back-tab sequence when terminfo lacks kcbt](https://github.com/marlonrichert/zsh-autocomplete/pull/910) — marlonrichert/zsh-autocomplete
 ## PRs Reviewed (24)
 
 **velero-io** (15)
