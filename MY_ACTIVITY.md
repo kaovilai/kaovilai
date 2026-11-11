@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 17:08:59 UTC
+> **Generated:** 2026-11-11 18:09:57 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -136,6 +136,8 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (93)
+- [#15 fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap](https://github.com/kaovilai/context-mode/pull/15) — kaovilai/context-mode
+- [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
 - [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
 - [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
 - [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
@@ -227,8 +229,6 @@
 - [#53 Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates](https://github.com/konveyor/builder/pull/53) — konveyor/builder
 - [#51 pairing: wait out mqvpn's control socket instead of issuing a dead URI](https://github.com/kaovilai/tailbond/pull/51) — kaovilai/tailbond
 - [#50 e2e: prototype the CGNAT relay and run it in CI](https://github.com/kaovilai/tailbond/pull/50) — kaovilai/tailbond
-- [#629 perf(claude): cut claude launcher startup from 3.6s to ~0.24s](https://github.com/kaovilai/dotfiles/pull/629) — kaovilai/dotfiles
-- [#628 feat(menubar): hovering a fleet host row filters the traffic graph](https://github.com/kaovilai/dotfiles/pull/628) — kaovilai/dotfiles
 ## PRs Reviewed (24)
 
 **velero-io** (15)
