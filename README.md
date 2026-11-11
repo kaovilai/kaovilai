@@ -102,7 +102,7 @@ from a city-level, date-anonymized Timeline export — only city names and
 gazetteer city centres are published, never raw positions or real dates.
 
 <!-- travel-map:start -->
-![Map screenshot showing places lived, visited, or transited through](worldmap.png)
+<img src="assets/travel-map.gif" alt="Animated globe showing places lived in, visited, or transited through, with routes between cities" width="720">
 <!-- travel-map:end -->
 
 [North Carolina destinations map](nc_destinations.html)
