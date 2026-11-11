@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:14:56Z",
+  "updatedAt": "2026-11-11T13:09:58Z",
   "prs": [
     {
       "number": 5,
@@ -16016,7 +16016,7 @@
       "number": 2,
       "repo": "RuixiangHuang/Macbook_Duo_Effect",
       "org": "RuixiangHuang",
-      "title": "Frozen-image viewport fold with one-shot eye calibration",
+      "title": "Replace the rough taper estimate with a calibrated viewport projection",
       "url": "https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2",
       "targetBranch": "main",
       "status": "ready",
@@ -16026,7 +16026,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-09T11:28:01Z",
+      "updatedAt": "2026-11-11T12:32:23Z",
       "workstream": "Uncategorized",
       "ciChecks": []
     },
@@ -16127,29 +16127,6 @@
       ]
     },
     {
-      "number": 12,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix(hooks): fail open when the daemon the routes point at is down",
-      "url": "https://github.com/kaovilai/context-mode/pull/12",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-11T12:13:55Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 646,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -16212,33 +16189,6 @@
       ]
     },
     {
-      "number": 89,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Generate the README travel map GIF from data/places.json",
-      "url": "https://github.com/kaovilai/kaovilai/pull/89",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-11T12:03:12Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 388,
       "repo": "kaovilai/toolkit-for-fidelity",
       "org": "kaovilai",
@@ -16257,6 +16207,45 @@
       "ciChecks": [
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Fix the syft image tag in release SBOM scanning",
+      "url": "https://github.com/konveyor/builder/pull/69",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-11T12:45:56Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "actionlint",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "DCO",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Dependency Quality",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "License Compliance",
           "conclusion": "SUCCESS"
         }
       ]
@@ -16657,11 +16646,11 @@
       ]
     },
     {
-      "number": 42,
+      "number": 30,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
-      "title": "feat(plugins): local metadata subset — list/inspect/privileges/create",
-      "url": "https://github.com/kaovilai/podm/pull/42",
+      "title": "feat: libpod sizes + system df, xattr-aware docker diff, logs since/until",
+      "url": "https://github.com/kaovilai/podm/pull/30",
       "targetBranch": "main",
       "status": "ci-pending",
       "milestone": null,
@@ -16670,7 +16659,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T11:39:45Z",
+      "updatedAt": "2026-11-11T13:05:37Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16707,7 +16696,7 @@
         },
         {
           "name": "integration test",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "multi-arch build test (amd64 + arm64 + s390x)",
@@ -17361,33 +17350,6 @@
       "ciChecks": []
     },
     {
-      "number": 478,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "branchprotector: remove protection from excluded branches",
-      "url": "https://github.com/kubernetes-sigs/prow/pull/478",
-      "targetBranch": "main",
-      "status": "stale",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "Prucek"
-      ],
-      "isDraft": false,
-      "labels": [
-        "cncf-cla: yes",
-        "ok-to-test",
-        "do-not-merge/hold",
-        "size/M",
-        "lgtm",
-        "area/branchprotector"
-      ],
-      "updatedAt": "2026-08-13T12:14:37Z",
-      "workstream": "Kubernetes",
-      "ciChecks": []
-    },
-    {
       "number": 2,
       "repo": "mowhammadrezaa/SmartFormFiller",
       "org": "mowhammadrezaa",
@@ -17706,11 +17668,39 @@
       "ciChecks": []
     },
     {
-      "number": 30,
-      "repo": "kaovilai/podm",
+      "number": 478,
+      "repo": "kubernetes-sigs/prow",
+      "org": "kubernetes-sigs",
+      "title": "branchprotector: remove protection from excluded branches",
+      "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+      "targetBranch": "main",
+      "status": "hold",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "Prucek"
+      ],
+      "isDraft": false,
+      "labels": [
+        "cncf-cla: yes",
+        "ok-to-test",
+        "do-not-merge/hold",
+        "size/M",
+        "lgtm",
+        "lifecycle/stale",
+        "area/branchprotector"
+      ],
+      "updatedAt": "2026-11-11T12:34:50Z",
+      "workstream": "Kubernetes",
+      "ciChecks": []
+    },
+    {
+      "number": 12,
+      "repo": "kaovilai/context-mode",
       "org": "kaovilai",
-      "title": "feat: libpod sizes + system df, xattr-aware docker diff, logs since/until",
-      "url": "https://github.com/kaovilai/podm/pull/30",
+      "title": "fix(hooks): fail open when the daemon the routes point at is down",
+      "url": "https://github.com/kaovilai/context-mode/pull/12",
       "targetBranch": "main",
       "status": "failing-ci",
       "milestone": null,
@@ -17719,52 +17709,12 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T11:13:57Z",
+      "updatedAt": "2026-11-11T13:08:36Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "docker + podman CLI smoke tests",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (c-cpp)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (ruby)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (swift)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "formatters & tests",
+          "name": "review",
           "conclusion": "FAILURE"
-        },
-        {
-          "name": "multi-arch build test (amd64 + arm64 + s390x)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "integration test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "multi-arch build test (amd64 + arm64 + s390x)",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
         },
         {
           "name": "CodeRabbit",
@@ -18218,7 +18168,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-11T12:14:56Z",
+    "updatedAt": "2026-11-11T13:09:58Z",
     "needsReview": [
       {
         "number": 68,
@@ -18522,7 +18472,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18731,43 +18681,6 @@
         "reason": "hold",
         "waitingDays": 91,
         "updatedAt": "2026-08-11T20:28:19Z"
-      },
-      {
-        "number": 478,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "branchprotector: remove protection from excluded branches",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Prucek"
-        ],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "do-not-merge/hold",
-          "size/M",
-          "lgtm",
-          "area/branchprotector"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "petr-muller",
-          "matthyx"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 90,
-        "updatedAt": "2026-08-13T12:14:37Z"
       },
       {
         "number": 598,
@@ -20081,7 +19994,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20096,6 +20009,35 @@
         "reason": "awaitingReview",
         "waitingDays": 4,
         "updatedAt": "2026-11-07T00:50:27Z"
+      },
+      {
+        "number": 2272,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "validate container runtime availability before container operations",
+        "url": "https://github.com/openshift/oadp-operator/pull/2272",
+        "targetBranch": "oadp-dev",
+        "author": "Shreyashxredhat",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-11-08T12:45:01Z"
       },
       {
         "number": 10749,
@@ -20155,35 +20097,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-11-08T23:22:37Z"
-      },
-      {
-        "number": 2272,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "validate container runtime availability before container operations",
-        "url": "https://github.com/openshift/oadp-operator/pull/2272",
-        "targetBranch": "oadp-dev",
-        "author": "Shreyashxredhat",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "needs-ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-11-08T12:45:01Z"
       },
       {
         "number": 10555,
@@ -20270,6 +20183,35 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-11-10T11:35:11Z"
+      },
+      {
+        "number": 2499,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated",
+        "url": "https://github.com/openshift/oadp-operator/pull/2499",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-10T13:11:11Z"
       },
       {
         "number": 2523,
@@ -20385,6 +20327,35 @@
         "updatedAt": "2026-11-10T07:54:52Z"
       },
       {
+        "number": 2545,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix: retry AWS bucket region discovery on transient S3 errors",
+        "url": "https://github.com/openshift/oadp-operator/pull/2545",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "akarol",
+          "mpryc"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-10T12:42:37Z"
+      },
+      {
         "number": 504,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -20445,62 +20416,66 @@
         "updatedAt": "2026-11-10T06:29:35Z"
       },
       {
-        "number": 2499,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): don't dereference nil BSL LastValidationTime in BSLsAreUpdated",
-        "url": "https://github.com/openshift/oadp-operator/pull/2499",
-        "targetBranch": "oadp-dev",
+        "number": 69,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Fix the syft image tag in release SBOM scanning",
+        "url": "https://github.com/konveyor/builder/pull/69",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [
-          "approved"
-        ],
+        "labels": [],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "sseago"
-        ],
+        "requiredApprovals": null,
+        "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T13:11:11Z"
+        "updatedAt": "2026-11-11T12:45:56Z"
       },
       {
-        "number": 2545,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix: retry AWS bucket region discovery on transient S3 errors",
-        "url": "https://github.com/openshift/oadp-operator/pull/2545",
-        "targetBranch": "oadp-1.6",
+        "number": 478,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "branchprotector: remove protection from excluded branches",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [],
+        "assignees": [
+          "Prucek"
+        ],
         "labels": [
-          "approved"
+          "cncf-cla: yes",
+          "ok-to-test",
+          "do-not-merge/hold",
+          "size/M",
+          "lgtm",
+          "lifecycle/stale",
+          "area/branchprotector"
         ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
-        "requiredApprovals": 2,
+        "requiredApprovals": null,
         "reviewRequests": [
-          "akarol",
-          "mpryc"
+          "droslean",
+          "petr-muller",
+          "matthyx"
         ],
         "group": "needsReview",
-        "reason": "awaitingReview",
+        "reason": "hold",
         "waitingDays": 0,
-        "updatedAt": "2026-11-10T12:42:37Z"
+        "updatedAt": "2026-11-11T12:34:50Z"
       },
       {
         "number": 2547,
@@ -21708,7 +21683,7 @@
           "jira/valid-reference",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22006,6 +21981,37 @@
         "updatedAt": "2026-11-05T12:13:52Z"
       },
       {
+        "number": 2533,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
+        "url": "https://github.com/openshift/oadp-operator/pull/2533",
+        "targetBranch": "oadp-dev",
+        "author": "dymurray",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-10T13:11:19Z"
+      },
+      {
         "number": 2534,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -22063,37 +22069,6 @@
         "reason": "pendingMerge",
         "waitingDays": 1,
         "updatedAt": "2026-11-10T05:29:12Z"
-      },
-      {
-        "number": 2533,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
-        "url": "https://github.com/openshift/oadp-operator/pull/2533",
-        "targetBranch": "oadp-dev",
-        "author": "dymurray",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-10T13:11:19Z"
       },
       {
         "number": 2540,
