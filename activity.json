@@ -3,15 +3,42 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T15:08:37Z",
+  "generatedAt": "2026-11-11T16:10:15Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 24,
     "issuesCommented": 100,
-    "issuesClosed": 92
+    "issuesClosed": 93
   },
   "prsMerged": [
+    {
+      "number": 14,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "ci(fork): allow the hosted-only PR reviewer's pull_request triggers",
+      "url": "https://github.com/kaovilai/context-mode/pull/14",
+      "date": "2026-11-11T16:08:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 90,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Regenerate the travel map with SMIL so it animates on Safari",
+      "url": "https://github.com/kaovilai/kaovilai/pull/90",
+      "date": "2026-11-11T16:05:53Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 44,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): /session stub answers POST — buildx dialed a 404",
+      "url": "https://github.com/kaovilai/podm/pull/44",
+      "date": "2026-11-11T15:51:08Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 12,
       "repo": "kaovilai/context-mode",
@@ -884,36 +911,36 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/625",
       "date": "2026-11-07T09:13:43Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 624,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only-go): web-search shim note switch, tool_result type, live verification",
-      "url": "https://github.com/kaovilai/dotfiles/pull/624",
-      "date": "2026-11-07T08:05:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 622,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model",
-      "url": "https://github.com/kaovilai/dotfiles/pull/622",
-      "date": "2026-11-07T07:06:06Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 623,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/623",
-      "date": "2026-11-07T06:08:17Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 90,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Regenerate the travel map with SMIL so it animates on Safari",
+      "url": "https://github.com/kaovilai/kaovilai/pull/90",
+      "date": "2026-11-11T15:54:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 70,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Track CI tool image pins with Dependabot via compose",
+      "url": "https://github.com/konveyor/builder/pull/70",
+      "date": "2026-11-11T15:36:23Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 14,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "ci(fork): allow the hosted-only PR reviewer's pull_request triggers",
+      "url": "https://github.com/kaovilai/context-mode/pull/14",
+      "date": "2026-11-11T15:35:34Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 44,
       "repo": "kaovilai/podm",
@@ -1786,36 +1813,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/627",
       "date": "2026-11-07T09:19:46Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 626,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "llm-usage: show redirect reasons (outage-500, rate-limit) in the floating window",
-      "url": "https://github.com/kaovilai/dotfiles/pull/626",
-      "date": "2026-11-07T09:18:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 625,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: stop calling the local proxies \"LiteLLM proxies\"",
-      "url": "https://github.com/kaovilai/dotfiles/pull/625",
-      "date": "2026-11-07T09:13:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 203,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(view-log): load oadp failure logs and Claude analysis, add inline error panel and opt-in live logic",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/203",
-      "date": "2026-11-07T09:01:52Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10687,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Count backup/restore failures in metrics during startup cleanup",
+      "url": "https://github.com/velero-io/velero/pull/10687",
+      "date": "2026-11-11T15:09:12Z",
+      "workstream": "Velero"
+    },
     {
       "number": 2540,
       "repo": "openshift/oadp-operator",
@@ -1824,15 +1833,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2540",
       "date": "2026-11-11T15:06:12Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10687,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Count backup/restore failures in metrics during startup cleanup",
-      "url": "https://github.com/velero-io/velero/pull/10687",
-      "date": "2026-11-11T14:56:03Z",
-      "workstream": "Velero"
     },
     {
       "number": 10734,
@@ -2035,6 +2035,24 @@
   ],
   "issuesCommented": [
     {
+      "number": 34,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): /session stub registered as GET — buildx POSTs and gets a 404",
+      "url": "https://github.com/kaovilai/podm/issues/34",
+      "date": "2026-11-11T15:51:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 53532,
+      "repo": "golang/go",
+      "org": "golang",
+      "title": "cmd/go: `go build` fails to read vcs info when .git is owned by a different user",
+      "url": "https://github.com/golang/go/issues/53532",
+      "date": "2026-11-11T15:21:09Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
@@ -2069,15 +2087,6 @@
       "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
       "date": "2026-11-11T08:30:54Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 34,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "fix(routes): /session stub registered as GET — buildx POSTs and gets a 404",
-      "url": "https://github.com/kaovilai/podm/issues/34",
-      "date": "2026-11-11T03:21:30Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 37,
@@ -2924,18 +2933,18 @@
       "url": "https://github.com/velero-io/velero/issues/10299",
       "date": "2026-09-25T20:02:57Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 12543,
-      "repo": "paperclipai/paperclip",
-      "org": "paperclipai",
-      "title": "Issue can land permanently blocked on a \"recovery owner\"/disposition state when the run that created it terminates",
-      "url": "https://github.com/paperclipai/paperclip/issues/12543",
-      "date": "2026-09-24T20:23:11Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 34,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(routes): /session stub registered as GET — buildx POSTs and gets a 404",
+      "url": "https://github.com/kaovilai/podm/issues/34",
+      "date": "2026-11-11T15:51:10Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 11,
       "repo": "kaovilai/context-mode",

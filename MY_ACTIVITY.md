@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 15:08:37 UTC
+> **Generated:** 2026-11-11 16:10:15 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 24 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 92 |
+| Issues Closed | 93 |
 
 ---
 
@@ -31,6 +31,9 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (91)
+- [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
+- [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
+- [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
 - [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
@@ -119,9 +122,6 @@
 - [#203 fix(view-log): load oadp failure logs and Claude analysis, add inline error panel and opt-in live logic](https://github.com/kaovilai/github-bot-command-palette/pull/203) — kaovilai/github-bot-command-palette
 - [#47 Build Go 1.27 FIPS images (golang-fips prereleases) and modernize the release pipeline: SBOMs, attestations, badges, auto-added UBI variants](https://github.com/konveyor/builder/pull/47) — konveyor/builder
 - [#625 docs: stop calling the local proxies "LiteLLM proxies"](https://github.com/kaovilai/dotfiles/pull/625) — kaovilai/dotfiles
-- [#624 fix(hosted-only-go): web-search shim note switch, tool_result type, live verification](https://github.com/kaovilai/dotfiles/pull/624) — kaovilai/dotfiles
-- [#622 feat(hosted-only-go): route detected auto-mode classifier calls to a fast System-1 model](https://github.com/kaovilai/dotfiles/pull/622) — kaovilai/dotfiles
-- [#623 web-search shim: design follow-up + Go implementation (OAuth auth ladder, execution gate, injection hardening)](https://github.com/kaovilai/dotfiles/pull/623) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (6)
@@ -136,6 +136,9 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (93)
+- [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
+- [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
+- [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
 - [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
 - [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
@@ -226,9 +229,6 @@
 - [#628 feat(menubar): hovering a fleet host row filters the traffic graph](https://github.com/kaovilai/dotfiles/pull/628) — kaovilai/dotfiles
 - [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
 - [#627 fix(llm-proxy-sync): one restart per port for the shared hosted-only proxy](https://github.com/kaovilai/dotfiles/pull/627) — kaovilai/dotfiles
-- [#626 llm-usage: show redirect reasons (outage-500, rate-limit) in the floating window](https://github.com/kaovilai/dotfiles/pull/626) — kaovilai/dotfiles
-- [#625 docs: stop calling the local proxies "LiteLLM proxies"](https://github.com/kaovilai/dotfiles/pull/625) — kaovilai/dotfiles
-- [#203 fix(view-log): load oadp failure logs and Claude analysis, add inline error panel and opt-in live logic](https://github.com/kaovilai/github-bot-command-palette/pull/203) — kaovilai/github-bot-command-palette
 ## PRs Reviewed (24)
 
 **velero-io** (15)
@@ -315,10 +315,11 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (54)
+- [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
+- [#53532 cmd/go: `go build` fails to read vcs info when .git is owned by a different user](https://github.com/golang/go/issues/53532) — golang/go
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
 - [#477 branchprotector: excluded branches retain existing protection instead of being removed](https://github.com/kubernetes-sigs/prow/issues/477) — kubernetes-sigs/prow
-- [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#37 feat(containers): pause/unpause — track unblock paths (XPC gap upstream, containerization has the primitive)](https://github.com/kaovilai/podm/issues/37) — kaovilai/podm
 - [#33732 [Bug]: macOS desktop app aborts when the system-wide file table fills (kqueue: Too many open files in system)](https://github.com/pingdotgg/t3code/issues/33732) — pingdotgg/t3code
 - [#76291 x/tools/gopls: mcp: file watcher try to watch for all roots](https://github.com/golang/go/issues/76291) — golang/go
@@ -368,8 +369,7 @@
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
-- [#12543 Issue can land permanently blocked on a "recovery owner"/disposition state when the run that created it terminates](https://github.com/paperclipai/paperclip/issues/12543) — paperclipai/paperclip
-## Issues Closed (92)
+## Issues Closed (93)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -428,7 +428,8 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (41)
+**Other** (42)
+- [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
 - [#35 feat(plugins): implement local-metadata subset of /plugins (list/inspect/privileges/create)](https://github.com/kaovilai/podm/issues/35) — kaovilai/podm
 - [#33 fix(routes): deliberate stubs return HTTP 500 — should be compat-correct 503/501](https://github.com/kaovilai/podm/issues/33) — kaovilai/podm
