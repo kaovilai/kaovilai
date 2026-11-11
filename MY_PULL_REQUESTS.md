@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-11 06:09:44 UTC
+> Last updated: 2026-11-11 12:14:56 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -40,7 +40,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #268](https://img.shields.io/badge/PR%20%23268-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/268) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump golang to 1.25 to fix CVEs. (cherry-pick #245)
 - [![PR #269](https://img.shields.io/badge/PR%20%23269-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/269) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
-- [![PR #318](https://img.shields.io/badge/PR%20%23318-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Fix Auto Request Review workflow: bump action version and pass token
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/320) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
@@ -178,6 +177,7 @@ No open PRs.
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
+- [![PR #12](https://img.shields.io/badge/PR%20%2312-ready-green)](https://github.com/kaovilai/context-mode/pull/12) **kaovilai/context-mode** → `main` - fix(hooks): fail open when the daemon the routes point at is down
 - [![PR #1793](https://img.shields.io/badge/PR%20%231793-ready-green)](https://github.com/sooperset/mcp-atlassian/pull/1793) **sooperset/mcp-atlassian** → `main` - fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
@@ -186,17 +186,16 @@ No open PRs.
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273) **kaovilai/cephcsi-cbt-e2e** → `main` - [doc-sync] Sync Velero rollback and data mover status with upstream
 - [![PR #2](https://img.shields.io/badge/PR%20%232-ready-green)](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) **RuixiangHuang/Macbook_Duo_Effect** → `main` - Frozen-image viewport fold with one-shot eye calibration
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
-- [![PR #387](https://img.shields.io/badge/PR%20%23387-ready-green)](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) **kaovilai/toolkit-for-fidelity** → `main` - Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere
+- [![PR #388](https://img.shields.io/badge/PR%20%23388-ready-green)](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) **kaovilai/toolkit-for-fidelity** → `main` - Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #646](https://img.shields.io/badge/PR%20%23646-ready-green)](https://github.com/kaovilai/dotfiles/pull/646) **kaovilai/dotfiles** → `main` - docs: hosted-only reviewer note post-merge touch-ups
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
+- [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/kaovilai/kaovilai/pull/89) **kaovilai/kaovilai** → `main` - Generate the README travel map GIF from data/places.json
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #30](https://img.shields.io/badge/PR%20%2330-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/30) **kaovilai/podm** → `main` - feat: libpod sizes + system df, xattr-aware docker diff, logs since/until
-- [![PR #39](https://img.shields.io/badge/PR%20%2339-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/39) **kaovilai/podm** → `main` - feat(secrets): docker-dialect /secrets routes over the local SecretStore
-- [![PR #40](https://img.shields.io/badge/PR%20%2340-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/40) **kaovilai/podm** → `main` - feat(configs): local ConfigStore + docker-dialect /configs routes
-- [![PR #41](https://img.shields.io/badge/PR%20%2341-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/41) **kaovilai/podm** → `main` - fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution
+- [![PR #42](https://img.shields.io/badge/PR%20%2342-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/42) **kaovilai/podm** → `main` - feat(plugins): local metadata subset — list/inspect/privileges/create
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
@@ -231,7 +230,7 @@ No open PRs.
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/go-playground/pull/3) **kaovilai/go-playground** → `main` - Add execution output logging to timestamped files via GitHub workflow
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/redirector/pull/3) **kaovilai/redirector** → `main` - Add design docs for one-click community rule install via marketplace deep links
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
-- [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
+- [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `unknown` - checkbox on the redirector page correctly reflects the current sync s…
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-stale-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
@@ -241,6 +240,7 @@ No open PRs.
 - [![PR #737](https://img.shields.io/badge/PR%20%23737-stale-yellow)](https://github.com/actions/setup-go/pull/737) **actions/setup-go** → `main` - feat: support non-standard .mod files in go-version-file
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
+- [![PR #30](https://img.shields.io/badge/PR%20%2330-failing--ci-red)](https://github.com/kaovilai/podm/pull/30) **kaovilai/podm** → `main` - feat: libpod sizes + system df, xattr-aware docker diff, logs since/until
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
