@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-10 23:04:44 UTC
+> Last updated: 2026-11-11 00:15:09 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -101,7 +101,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2540](https://img.shields.io/badge/PR%20%232540-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2540) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type
 - [![PR #2542](https://img.shields.io/badge/PR%20%232542-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2542) **openshift/oadp-operator** → `oadp-1.6` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
 - [![PR #2543](https://img.shields.io/badge/PR%20%232543-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2543) **openshift/oadp-operator** → `oadp-dev` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
-- [![PR #2546](https://img.shields.io/badge/PR%20%232546-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2546) **openshift/oadp-operator** → `oadp-dev` - fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
@@ -192,7 +191,7 @@ No open PRs.
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #82](https://img.shields.io/badge/PR%20%2382-ready-green)](https://github.com/kaovilai/kaovilai/pull/82) **kaovilai/kaovilai** → `main` - Ignore assets/profile in Imgbot
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #27](https://img.shields.io/badge/PR%20%2327-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/27) **kaovilai/podm** → `main` - feat(libpod): podman local secrets — create/ls/inspect/exists/rm
+- [![PR #28](https://img.shields.io/badge/PR%20%2328-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/28) **kaovilai/podm** → `main` - feat(events): docker/podman events since/until/filters + history
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
