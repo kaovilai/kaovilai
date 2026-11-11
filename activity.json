@@ -3,15 +3,42 @@
     "start": "2026-08-13",
     "end": "2026-11-11"
   },
-  "generatedAt": "2026-11-11T20:09:35Z",
+  "generatedAt": "2026-11-11T21:13:37Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 24,
+    "prsReviewed": 23,
     "issuesCommented": 100,
-    "issuesClosed": 95
+    "issuesClosed": 100
   },
   "prsMerged": [
+    {
+      "number": 51,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): recover from wedged Apple container runtime jobs instead of hanging",
+      "url": "https://github.com/kaovilai/podm/pull/51",
+      "date": "2026-11-11T20:49:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 48,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(install): zsh completions in-repo + podman system connection",
+      "url": "https://github.com/kaovilai/podm/pull/48",
+      "date": "2026-11-11T20:47:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 56,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): tag every requested image, emit aux, honor quiet",
+      "url": "https://github.com/kaovilai/podm/pull/56",
+      "date": "2026-11-11T20:46:33Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 15,
       "repo": "kaovilai/context-mode",
@@ -883,33 +910,6 @@
       "title": "Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates",
       "url": "https://github.com/konveyor/builder/pull/53",
       "date": "2026-11-07T15:34:31Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 47,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "e2e: prototype the CGNAT relay and run it in CI",
-      "url": "https://github.com/kaovilai/tailbond/pull/47",
-      "date": "2026-11-07T01:00:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 629,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(claude): cut claude launcher startup from 3.6s to ~0.24s",
-      "url": "https://github.com/kaovilai/dotfiles/pull/629",
-      "date": "2026-11-07T14:28:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 49,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot",
-      "url": "https://github.com/konveyor/builder/pull/49",
-      "date": "2026-11-07T13:14:35Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 2533,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
+      "url": "https://github.com/openshift/oadp-operator/pull/2533",
+      "date": "2026-11-11T21:11:26Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 338,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
+      "date": "2026-11-11T20:51:12Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2540,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1832,15 +1850,6 @@
       "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2534",
       "date": "2026-11-11T18:49:38Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2533,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5",
-      "url": "https://github.com/openshift/oadp-operator/pull/2533",
-      "date": "2026-11-11T18:48:11Z",
       "workstream": "OADP"
     },
     {
@@ -1886,15 +1895,6 @@
       "title": "Add Hippius to the S3-compatible object store providers list",
       "url": "https://github.com/velero-io/velero/pull/10815",
       "date": "2026-11-10T19:31:26Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 338,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
-      "date": "2026-11-10T17:18:55Z",
       "workstream": "Velero"
     },
     {
@@ -2021,15 +2021,6 @@
       "title": "build(deps): bump the github-actions group across 1 directory with 6 updates",
       "url": "https://github.com/velero-io/velero/pull/10803",
       "date": "2026-11-09T03:21:09Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10776,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory",
-      "url": "https://github.com/velero-io/velero/pull/10776",
-      "date": "2026-11-07T19:13:46Z",
       "workstream": "Velero"
     }
   ],
@@ -2936,6 +2927,51 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 45,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "bug(containers): podman run hangs after container exit; DELETE /containers/{id} never answers",
+      "url": "https://github.com/kaovilai/podm/issues/45",
+      "date": "2026-11-11T20:49:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 47,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(install): register podm as a podman system connection (secondary or primary remote)",
+      "url": "https://github.com/kaovilai/podm/issues/47",
+      "date": "2026-11-11T20:47:06Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 46,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(install): ship zsh completions in repo, installed by podm install, reusing upstream _podman",
+      "url": "https://github.com/kaovilai/podm/issues/46",
+      "date": "2026-11-11T20:47:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 53,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "bug(build): no aux message (docker --iidfile fails) and quiet mode not honored in the build stream",
+      "url": "https://github.com/kaovilai/podm/issues/53",
+      "date": "2026-11-11T20:46:35Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 52,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "bug(build): repeated t query key — multi-tag builds tag only the last tag",
+      "url": "https://github.com/kaovilai/podm/issues/52",
+      "date": "2026-11-11T20:46:35Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 49,
       "repo": "kaovilai/podm",

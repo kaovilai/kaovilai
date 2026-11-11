@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-13 — 2026-11-11
-> **Generated:** 2026-11-11 20:09:35 UTC
+> **Generated:** 2026-11-11 21:13:37 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 24 |
+| PRs Reviewed | 23 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 95 |
+| Issues Closed | 100 |
 
 ---
 
@@ -32,6 +32,9 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
+- [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
+- [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#15 fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap](https://github.com/kaovilai/context-mode/pull/15) — kaovilai/context-mode
 - [#50 fix(build): accept absolute dockerfile paths — podman's -f wire format](https://github.com/kaovilai/podm/pull/50) — kaovilai/podm
 - [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
@@ -119,9 +122,6 @@
 - [#51 pairing: wait out mqvpn's control socket instead of issuing a dead URI](https://github.com/kaovilai/tailbond/pull/51) — kaovilai/tailbond
 - [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
 - [#53 Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates](https://github.com/konveyor/builder/pull/53) — konveyor/builder
-- [#47 e2e: prototype the CGNAT relay and run it in CI](https://github.com/kaovilai/tailbond/pull/47) — kaovilai/tailbond
-- [#629 perf(claude): cut claude launcher startup from 3.6s to ~0.24s](https://github.com/kaovilai/dotfiles/pull/629) — kaovilai/dotfiles
-- [#49 Automate the release lifecycle: base drift rebuilds, releases, smoke tests, lint, dependabot](https://github.com/konveyor/builder/pull/49) — konveyor/builder
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -229,15 +229,15 @@
 - [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
 - [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
 - [#630 perf(znap): defer syntax-highlighting + autocomplete until after first prompt](https://github.com/kaovilai/dotfiles/pull/630) — kaovilai/dotfiles
-## PRs Reviewed (24)
+## PRs Reviewed (23)
 
-**velero-io** (15)
+**velero-io** (14)
+- [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 - [#10792 [release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)](https://github.com/velero-io/velero/pull/10792) — velero-io/velero
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
 - [#10815 Add Hippius to the S3-compatible object store providers list](https://github.com/velero-io/velero/pull/10815) — velero-io/velero
-- [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
@@ -246,12 +246,11 @@
 - [#10811 Update the repositories on the support-process page](https://github.com/velero-io/velero/pull/10811) — velero-io/velero
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 - [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
-- [#10776 build(deps): bump jpmcb/prow-github-actions from 3.0.1 to 3.5.0 in the github-actions group across 1 directory](https://github.com/velero-io/velero/pull/10776) — velero-io/velero
 
 **openshift** (5)
+- [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
-- [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 
@@ -369,7 +368,7 @@
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
-## Issues Closed (95)
+## Issues Closed (100)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -428,7 +427,12 @@
 - [#152 No operational signal for PVs left in Retain policy after a completed upload/download rebind](https://github.com/migtools/kubevirt-datamover-controller/issues/152) — migtools/kubevirt-datamover-controller
 - [#122 GenerateName + cached-client lookups risk false "not found" or duplicate child pod/PVC creation](https://github.com/migtools/kubevirt-datamover-controller/issues/122) — migtools/kubevirt-datamover-controller
 
-**Other** (44)
+**Other** (49)
+- [#45 bug(containers): podman run hangs after container exit; DELETE /containers/{id} never answers](https://github.com/kaovilai/podm/issues/45) — kaovilai/podm
+- [#47 feat(install): register podm as a podman system connection (secondary or primary remote)](https://github.com/kaovilai/podm/issues/47) — kaovilai/podm
+- [#46 feat(install): ship zsh completions in repo, installed by podm install, reusing upstream _podman](https://github.com/kaovilai/podm/issues/46) — kaovilai/podm
+- [#53 bug(build): no aux message (docker --iidfile fails) and quiet mode not honored in the build stream](https://github.com/kaovilai/podm/issues/53) — kaovilai/podm
+- [#52 bug(build): repeated t query key — multi-tag builds tag only the last tag](https://github.com/kaovilai/podm/issues/52) — kaovilai/podm
 - [#49 bug(build): podman build -f <file> rejected — absolute dockerfile path is podman's wire format, not an escape](https://github.com/kaovilai/podm/issues/49) — kaovilai/podm
 - [#25 docker diff does not detect extended-attribute-only changes (file capabilities)](https://github.com/kaovilai/podm/issues/25) — kaovilai/podm
 - [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
