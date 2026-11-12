@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-12 00:15:07 UTC
+> Last updated: 2026-11-12 06:10:03 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -95,11 +95,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
-- [![PR #2534](https://img.shields.io/badge/PR%20%232534-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2534) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0
-- [![PR #2535](https://img.shields.io/badge/PR%20%232535-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2535) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0
 - [![PR #2542](https://img.shields.io/badge/PR%20%232542-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2542) **openshift/oadp-operator** → `oadp-1.6` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
 - [![PR #2543](https://img.shields.io/badge/PR%20%232543-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2543) **openshift/oadp-operator** → `oadp-dev` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
-- [![PR #2551](https://img.shields.io/badge/PR%20%232551-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2551) **openshift/oadp-operator** → `oadp-1.6` - e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
@@ -127,6 +124,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #80150](https://img.shields.io/badge/PR%20%2380150-stale-yellow)](https://github.com/openshift/release/pull/80150) **openshift/release** → `main` - tide: enable github_merge_blocks_policy for repos with recent merge failures
 - [![PR #2488](https://img.shields.io/badge/PR%20%232488-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2488) **openshift/oadp-operator** → `oadp-dev` - Enable AllNamespaces install mode with multi-tenant DPA support
 - [![PR #2508](https://img.shields.io/badge/PR%20%232508-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2508) **openshift/oadp-operator** → `oadp-dev` - Sync NonAdmin CRDs with oadp-non-admin oadp-dev
+- [![PR #2551](https://img.shields.io/badge/PR%20%232551-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2551) **openshift/oadp-operator** → `oadp-1.6` - e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22
 - [![PR #442](https://img.shields.io/badge/PR%20%23442-hold-yellow)](https://github.com/openshift/openshift-velero-plugin/pull/442) **openshift/openshift-velero-plugin** → `oadp-dev` - Support Azure Workload Identity (WIF) in image stream registry env vars
 - [![PR #565](https://img.shields.io/badge/PR%20%23565-hold-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
@@ -137,6 +135,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
+- [![PR #2535](https://img.shields.io/badge/PR%20%232535-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2535) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #480](https://img.shields.io/badge/PR%20%23480-needs--attention-orange)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
@@ -187,11 +186,13 @@ No open PRs.
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #498](https://img.shields.io/badge/PR%20%23498-ready-green)](https://github.com/caozhiyuan/copilot-api/pull/498) **caozhiyuan/copilot-api** → `dev` - fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #57](https://img.shields.io/badge/PR%20%2357-ready-green)](https://github.com/kaovilai/podm/pull/57) **kaovilai/podm** → `main` - fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-ready-green)](https://github.com/konveyor/builder/pull/69) **konveyor/builder** → `main` - Fix the syft image tag in release SBOM scanning
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-ready-green)](https://github.com/konveyor/builder/pull/70) **konveyor/builder** → `main` - Track CI tool image pins with Dependabot via compose
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #58](https://img.shields.io/badge/PR%20%2358-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/58) **kaovilai/podm** → `main` - ci(wire-contract): record real podman CLI requests against a mock socket — upstream drift detection
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
@@ -236,7 +237,6 @@ No open PRs.
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-hold-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
-- [![PR #57](https://img.shields.io/badge/PR%20%2357-failing--ci-red)](https://github.com/kaovilai/podm/pull/57) **kaovilai/podm** → `main` - fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
