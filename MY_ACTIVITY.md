@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 14:10:16 UTC
+> **Generated:** 2026-11-12 15:09:19 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 24 |
+| PRs Reviewed | 25 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 92 |
 
@@ -32,6 +32,8 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#213 fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance](https://github.com/kaovilai/github-bot-command-palette/pull/213) — kaovilai/github-bot-command-palette
+- [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#650 feat(usage): trace reroutes to their session](https://github.com/kaovilai/dotfiles/pull/650) — kaovilai/dotfiles
 - [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
@@ -120,8 +122,6 @@
 - [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
 - [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
 - [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
-- [#632 feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push](https://github.com/kaovilai/dotfiles/pull/632) — kaovilai/dotfiles
-- [#633 feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)](https://github.com/kaovilai/dotfiles/pull/633) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#651 feat(proxy): prune stale images outside a trailing message window](https://github.com/kaovilai/dotfiles/pull/651) — kaovilai/dotfiles
 - [#650 feat(usage): trace reroutes to their session](https://github.com/kaovilai/dotfiles/pull/650) — kaovilai/dotfiles
 - [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
@@ -228,10 +229,10 @@
 - [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
-- [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
-## PRs Reviewed (24)
+## PRs Reviewed (25)
 
-**velero-io** (14)
+**velero-io** (15)
+- [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
@@ -314,6 +315,7 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (55)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
@@ -321,7 +323,6 @@
 - [#30685 [Bug]: Slash menu drifts away from the composer when dragging on iPad](https://github.com/pingdotgg/t3code/issues/30685) — pingdotgg/t3code
 - [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#53532 cmd/go: `go build` fails to read vcs info when .git is owned by a different user](https://github.com/golang/go/issues/53532) — golang/go
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#11 Hooks keep intercepting tool results after the MCP server disconnects, replacing them with an unusable ctx_search pointer](https://github.com/kaovilai/context-mode/issues/11) — kaovilai/context-mode
 - [#477 branchprotector: excluded branches retain existing protection instead of being removed](https://github.com/kubernetes-sigs/prow/issues/477) — kubernetes-sigs/prow
 - [#37 feat(containers): pause/unpause — track unblock paths (XPC gap upstream, containerization has the primitive)](https://github.com/kaovilai/podm/issues/37) — kaovilai/podm

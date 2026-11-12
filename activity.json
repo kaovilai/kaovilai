@@ -3,15 +3,33 @@
     "start": "2026-08-14",
     "end": "2026-11-12"
   },
-  "generatedAt": "2026-11-12T14:10:16Z",
+  "generatedAt": "2026-11-12T15:09:19Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 24,
+    "prsReviewed": 25,
     "issuesCommented": 100,
     "issuesClosed": 92
   },
   "prsMerged": [
+    {
+      "number": 213,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/213",
+      "date": "2026-11-12T14:20:02Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 388,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/388",
+      "date": "2026-11-12T14:15:50Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 650,
       "repo": "kaovilai/dotfiles",
@@ -893,27 +911,18 @@
       "url": "https://github.com/kaovilai/kaovilai/pull/86",
       "date": "2026-11-08T12:35:18Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 632,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push",
-      "url": "https://github.com/kaovilai/dotfiles/pull/632",
-      "date": "2026-11-08T12:19:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 633,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/633",
-      "date": "2026-11-08T12:16:55Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 651,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxy): prune stale images outside a trailing message window",
+      "url": "https://github.com/kaovilai/dotfiles/pull/651",
+      "date": "2026-11-12T14:29:05Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 650,
       "repo": "kaovilai/dotfiles",
@@ -1804,18 +1813,18 @@
       "url": "https://github.com/kaovilai/tailbond/pull/57",
       "date": "2026-11-08T18:14:44Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 56,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: an empty diff builds nothing and releases nothing",
-      "url": "https://github.com/kaovilai/tailbond/pull/56",
-      "date": "2026-11-08T18:08:48Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10822,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: skip the remote snapshot waits on kind",
+      "url": "https://github.com/velero-io/velero/pull/10822",
+      "date": "2026-11-12T14:54:06Z",
+      "workstream": "Velero"
+    },
     {
       "number": 256,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -2035,6 +2044,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-12T14:46:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 604,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -2104,15 +2122,6 @@
       "title": "cmd/go: `go build` fails to read vcs info when .git is owned by a different user",
       "url": "https://github.com/golang/go/issues/53532",
       "date": "2026-11-11T15:21:09Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-11T13:40:58Z",
       "workstream": "Uncategorized"
     },
     {
