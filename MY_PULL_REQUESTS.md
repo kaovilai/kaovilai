@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-12 17:09:10 UTC
+> Last updated: 2026-11-12 18:12:11 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -188,7 +188,6 @@ No open PRs.
 - [![PR #60](https://img.shields.io/badge/PR%20%2360-ready-green)](https://github.com/kaovilai/podm/pull/60) **kaovilai/podm** → `main` - feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #647](https://img.shields.io/badge/PR%20%23647-ready-green)](https://github.com/kaovilai/dotfiles/pull/647) **kaovilai/dotfiles** → `main` - feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases
-- [![PR #651](https://img.shields.io/badge/PR%20%23651-ready-green)](https://github.com/kaovilai/dotfiles/pull/651) **kaovilai/dotfiles** → `main` - feat(proxy): prune stale images outside a trailing message window
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev

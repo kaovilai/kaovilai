@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T17:09:10Z",
+  "updatedAt": "2026-11-12T18:12:11Z",
   "prs": [
     {
       "number": 5,
@@ -11080,64 +11080,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-12T17:00:50Z",
+      "updatedAt": "2026-11-12T17:53:06Z",
       "workstream": "OADP",
       "ciChecks": [
         {
-          "name": "ci/prow/unit-test",
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
           "conclusion": "FAILURE"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-hcp-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "name": "ci/prow/unit-test",
+          "conclusion": "FAILURE"
         },
         {
           "name": "CodeRabbit",
@@ -11160,11 +11112,39 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.22-images",
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-hcp-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11176,7 +11156,23 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11185,6 +11181,10 @@
         },
         {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -15689,89 +15689,6 @@
       ]
     },
     {
-      "number": 651,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxy): prune stale images outside a trailing message window",
-      "url": "https://github.com/kaovilai/dotfiles/pull/651",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T16:44:05Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 60,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -17763,7 +17680,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-12T17:09:10Z",
+    "updatedAt": "2026-11-12T18:12:11Z",
     "needsReview": [
       {
         "number": 68,
@@ -18024,7 +17941,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 125,
+        "waitingDays": 126,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -18633,7 +18550,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 50,
+        "waitingDays": 51,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -18929,6 +18846,30 @@
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
+        "number": 106,
+        "repo": "migtools/kubevirt-velero-plugin",
+        "org": "migtools",
+        "title": "Sync OWNERS_ALIASES with main",
+        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 21,
+        "updatedAt": "2026-10-22T17:29:19Z"
+      },
+      {
         "number": 10032,
         "repo": "openshift/installer",
         "org": "openshift",
@@ -18941,7 +18882,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18989,30 +18930,6 @@
         "reason": "hold",
         "waitingDays": 21,
         "updatedAt": "2026-10-21T21:30:24Z"
-      },
-      {
-        "number": 106,
-        "repo": "migtools/kubevirt-velero-plugin",
-        "org": "migtools",
-        "title": "Sync OWNERS_ALIASES with main",
-        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 20,
-        "updatedAt": "2026-10-22T17:29:19Z"
       },
       {
         "number": 287,
@@ -19164,6 +19081,33 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
+        "number": 2520,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests: add Eventually guards before bare Consistently calls",
+        "url": "https://github.com/openshift/oadp-operator/pull/2520",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 15,
+        "updatedAt": "2026-10-28T17:48:56Z"
+      },
+      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -19224,33 +19168,6 @@
         "reason": "awaitingReview",
         "waitingDays": 14,
         "updatedAt": "2026-10-28T20:14:37Z"
-      },
-      {
-        "number": 2520,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests: add Eventually guards before bare Consistently calls",
-        "url": "https://github.com/openshift/oadp-operator/pull/2520",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 14,
-        "updatedAt": "2026-10-28T17:48:56Z"
       },
       {
         "number": 2521,
@@ -19553,7 +19470,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20155,7 +20072,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20838,7 +20755,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -21297,7 +21214,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21478,7 +21395,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21490,7 +21407,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 7,
+        "waitingDays": 8,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
@@ -21647,7 +21564,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-12T17:00:50Z"
+        "updatedAt": "2026-11-12T17:53:06Z"
       }
     ]
   }
