@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 15:09:19 UTC
+> **Generated:** 2026-11-12 16:10:49 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -32,10 +32,11 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
+- [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
 - [#213 fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance](https://github.com/kaovilai/github-bot-command-palette/pull/213) — kaovilai/github-bot-command-palette
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#650 feat(usage): trace reroutes to their session](https://github.com/kaovilai/dotfiles/pull/650) — kaovilai/dotfiles
-- [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
 - [#72 README: replace version badges with an animated version-tracks graphic](https://github.com/konveyor/builder/pull/72) — konveyor/builder
 - [#214 ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks](https://github.com/kaovilai/github-bot-command-palette/pull/214) — kaovilai/github-bot-command-palette
@@ -121,7 +122,6 @@
 - [#634 feat(fleet-sync): keep the shared context-mode daemon current on every machine](https://github.com/kaovilai/dotfiles/pull/634) — kaovilai/dotfiles
 - [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
 - [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
-- [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
 ## PRs Opened (100)
 
 **openshift** (7)
