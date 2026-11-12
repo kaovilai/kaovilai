@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T19:08:14Z",
+  "updatedAt": "2026-11-12T20:10:16Z",
   "prs": [
     {
       "number": 5,
@@ -10413,6 +10413,81 @@
       ]
     },
     {
+      "number": 88821,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI",
+      "url": "https://github.com/openshift/release/pull/88821",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "redhat-chai-bot",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T19:53:35Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/check-gh-automation",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config-metadata",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-registry",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/commits-signed",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/core-valid",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/generated-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/openshift-image-mirror-mappings",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ordered-prow-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/owners",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/prow-config-filenames",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/release-controller-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/yamllint",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 194,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
@@ -17680,7 +17755,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-12T19:08:14Z",
+    "updatedAt": "2026-11-12T20:10:16Z",
     "needsReview": [
       {
         "number": 68,
@@ -18485,7 +18560,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 62,
+        "waitingDays": 63,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -20178,6 +20253,33 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-12T15:31:29Z"
+      },
+      {
+        "number": 88821,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI",
+        "url": "https://github.com/openshift/release/pull/88821",
+        "targetBranch": "main",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-12T19:53:35Z"
       }
     ],
     "approvedWaitingToLand": [
