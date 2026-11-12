@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T06:10:03Z",
+  "updatedAt": "2026-11-12T12:15:13Z",
   "prs": [
     {
       "number": 5,
@@ -8628,7 +8628,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-10T11:35:11Z",
+      "updatedAt": "2026-11-12T10:29:14Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -10312,6 +10312,107 @@
       ]
     },
     {
+      "number": 88500,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
+      "url": "https://github.com/openshift/release/pull/88500",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-12T11:13:12Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.4/e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "ci/prow/agent-model-policy",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/check-gh-automation",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-config-metadata",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ci-operator-registry",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/commits-signed",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/core-valid",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/generated-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/openshift-image-mirror-mappings",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/ordered-prow-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/owners",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/prow-config-filenames",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/release-controller-config",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/step-registry-metadata",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/step-registry-shellcheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/validate-ai-metrics",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/yamllint",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 194,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
@@ -10979,17 +11080,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-12T02:16:00Z",
+      "updatedAt": "2026-11-12T06:18:18Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -11055,6 +11148,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
@@ -11076,6 +11173,10 @@
         },
         {
           "name": "ci/prow/5.0-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11973,288 +12074,6 @@
       "ciChecks": [
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 88500,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
-      "url": "https://github.com/openshift/release/pull/88500",
-      "targetBranch": "main",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [
-        "do-not-merge/work-in-progress",
-        "approved"
-      ],
-      "updatedAt": "2026-11-11T22:49:26Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "ci/prow/agent-model-policy",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/check-gh-automation",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-config-metadata",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-operator-registry",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/commits-signed",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/core-valid",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/generated-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/openshift-image-mirror-mappings",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ordered-prow-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/owners",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/prow-config-filenames",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/release-controller-config",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/step-registry-metadata",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/step-registry-shellcheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/validate-ai-metrics",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/yamllint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/migtools/kubevirt-datamover-controller/oadp-dev/virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/migtools/kubevirt-datamover-plugin/oadp-dev/virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.4/4.18-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.4/4.18-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.19-e2e-test-kubevirt-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.5/4.20-e2e-test-kubevirt-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/4.23-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/4.23-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.1-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/oadp-operator/oadp-dev/5.1-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-1.4/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-1.5/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-1.6/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/openshift-velero-plugin/oadp-dev/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.4/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.5/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-1.6/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-aws/oadp-dev/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-1.4/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-1.5/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-1.6/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero-plugin-for-legacy-aws/oadp-dev/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero/oadp-1.4/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero/oadp-1.5/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero/oadp-1.6/e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/rehearse/openshift/velero/oadp-dev/e2e-test-aws",
           "conclusion": "SUCCESS"
         }
       ]
@@ -15705,7 +15524,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-12T06:09:18Z",
+      "updatedAt": "2026-11-12T12:04:01Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -15811,11 +15630,42 @@
       ]
     },
     {
-      "number": 57,
-      "repo": "kaovilai/podm",
+      "number": 16,
+      "repo": "kaovilai/context-mode",
       "org": "kaovilai",
-      "title": "fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization",
-      "url": "https://github.com/kaovilai/podm/pull/57",
+      "title": "[fork-sync] reconciled rebase onto upstream/main",
+      "url": "https://github.com/kaovilai/context-mode/pull/16",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "Copilot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "fork-sync"
+      ],
+      "updatedAt": "2026-11-12T11:19:54Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 647,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases",
+      "url": "https://github.com/kaovilai/dotfiles/pull/647",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -15824,7 +15674,101 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-12T05:39:43Z",
+      "updatedAt": "2026-11-12T11:25:21Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 213,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/213",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T12:11:55Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "auto-merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript-typescript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds",
+      "url": "https://github.com/kaovilai/podm/pull/60",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T10:29:30Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -15841,6 +15785,10 @@
         },
         {
           "name": "Analyze (c-cpp)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
           "conclusion": "SUCCESS"
         },
         {
@@ -15901,11 +15849,11 @@
       ]
     },
     {
-      "number": 69,
+      "number": 73,
       "repo": "konveyor/builder",
       "org": "konveyor",
-      "title": "Fix the syft image tag in release SBOM scanning",
-      "url": "https://github.com/konveyor/builder/pull/69",
+      "title": "Document the base-image Python Dependabot alerts as known noise",
+      "url": "https://github.com/konveyor/builder/pull/73",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -15914,344 +15862,9 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T12:45:56Z",
+      "updatedAt": "2026-11-12T12:14:32Z",
       "workstream": "Uncategorized",
       "ciChecks": [
-        {
-          "name": "actionlint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "DCO",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Dependency Quality",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "License Compliance",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 70,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Track CI tool image pins with Dependabot via compose",
-      "url": "https://github.com/konveyor/builder/pull/70",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-11T15:54:44Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "actionlint",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, fips) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (8, standard) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / e2e (GO_VERSION=go, latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (8, standard) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (9, fips) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, fips) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (9, standard) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / e2e (GO_VERSION=go, latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (9, standard) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (10, fips) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, fips) / merge",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "build (10, standard) / determine-versions",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / e2e (GO_VERSION=go, latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build (10, standard) / merge",
-          "conclusion": "SKIPPED"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "NEUTRAL"
@@ -16424,10 +16037,10 @@
         "area/controller",
         "sig/storage",
         "release-note",
-        "lifecycle/stale",
+        "lifecycle/rotten",
         "dco-signoff: yes"
       ],
-      "updatedAt": "2026-10-29T07:00:45Z",
+      "updatedAt": "2026-11-12T07:05:42Z",
       "workstream": "KubeVirt Data Mover",
       "ciChecks": [
         {
@@ -16666,61 +16279,6 @@
       ]
     },
     {
-      "number": 58,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "ci(wire-contract): record real podman CLI requests against a mock socket — upstream drift detection",
-      "url": "https://github.com/kaovilai/podm/pull/58",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T06:06:36Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "build",
-          "conclusion": ""
-        },
-        {
-          "name": "docker + podman CLI smoke tests",
-          "conclusion": ""
-        },
-        {
-          "name": "Analyze (actions)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (c-cpp)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (ruby)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (swift)",
-          "conclusion": ""
-        },
-        {
-          "name": "formatters & tests",
-          "conclusion": ""
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 3,
       "repo": "kaovilai/cliprelay",
       "org": "kaovilai",
@@ -16739,6 +16297,32 @@
       "ciChecks": [
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "[auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev",
+      "url": "https://github.com/kaovilai/copilot-api/pull/18",
+      "targetBranch": "dev",
+      "status": "draft",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": true,
+      "labels": [
+        "automation",
+        "upstream-sync"
+      ],
+      "updatedAt": "2026-11-12T10:57:25Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "test",
           "conclusion": "SUCCESS"
         }
       ]
@@ -17704,6 +17288,69 @@
       "ciChecks": []
     },
     {
+      "number": 59,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): podman 6.2.0 canary catch — baseline refresh, push platform fix, new-command detection",
+      "url": "https://github.com/kaovilai/podm/pull/59",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T11:29:31Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "build",
+          "conclusion": ""
+        },
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (c-cpp)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (ruby)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (swift)",
+          "conclusion": ""
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -18149,7 +17796,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-12T06:10:03Z",
+    "updatedAt": "2026-11-12T12:15:13Z",
     "needsReview": [
       {
         "number": 68,
@@ -18268,7 +17915,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 524,
+        "waitingDays": 525,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -18328,6 +17975,36 @@
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 155,
+        "updatedAt": "2026-06-09T20:45:40Z"
+      },
+      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -18384,30 +18061,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 120,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -18433,8 +18086,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 119,
+        "waitingDays": 120,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 120,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -18704,7 +18381,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19252,7 +18929,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 27,
+        "waitingDays": 28,
         "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
@@ -19428,6 +19105,65 @@
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
+        "number": 10699,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Delete the in-place restore baseline snapshot under a Retain class",
+        "url": "https://github.com/velero-io/velero/pull/10699",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "Needs triage"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 16,
+        "updatedAt": "2026-10-27T07:49:22Z"
+      },
+      {
+        "number": 10718,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+        "url": "https://github.com/velero-io/velero/pull/10718",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 16,
+        "updatedAt": "2026-10-27T07:46:06Z"
+      },
+      {
         "number": 674,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -19459,65 +19195,6 @@
         "reason": "awaitingReview",
         "waitingDays": 15,
         "updatedAt": "2026-10-28T00:56:31Z"
-      },
-      {
-        "number": 10699,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Delete the in-place restore baseline snapshot under a Retain class",
-        "url": "https://github.com/velero-io/velero/pull/10699",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "Needs triage"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 15,
-        "updatedAt": "2026-10-27T07:49:22Z"
-      },
-      {
-        "number": 10718,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
-        "url": "https://github.com/velero-io/velero/pull/10718",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 15,
-        "updatedAt": "2026-10-27T07:46:06Z"
       },
       {
         "number": 6479,
@@ -19636,42 +19313,6 @@
         "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lifecycle/stale",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels",
-          "Acedus",
-          "alromeros"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-10-29T07:00:45Z"
-      },
-      {
         "number": 198,
         "repo": "migtools/udistribution",
         "org": "migtools",
@@ -19703,30 +19344,6 @@
         "updatedAt": "2026-10-30T15:47:17Z"
       },
       {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-11-02T02:55:27Z"
-      },
-      {
         "number": 89,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -19753,8 +19370,32 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-11-01T09:31:39Z"
+      },
+      {
+        "number": 216,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Guard CRD regeneration after dependency bumps",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 10710,
@@ -19945,7 +19586,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20033,7 +19674,7 @@
         "labels": [
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20109,6 +19750,33 @@
         "updatedAt": "2026-11-09T03:23:37Z"
       },
       {
+        "number": 2523,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): handle Terminating namespace in CreateNamespace",
+        "url": "https://github.com/openshift/oadp-operator/pull/2523",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "kaovilai",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-11-10T09:33:37Z"
+      },
+      {
         "number": 2539,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20121,7 +19789,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20135,6 +19803,35 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-11-10T05:29:15Z"
+      },
+      {
+        "number": 2544,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case",
+        "url": "https://github.com/openshift/oadp-operator/pull/2544",
+        "targetBranch": "oadp-1.6",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "kaovilai",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-11-10T07:54:52Z"
       },
       {
         "number": 504,
@@ -20166,87 +19863,35 @@
         "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
-        "number": 2980,
-        "repo": "openshift/cluster-kube-descheduler-operator",
-        "org": "openshift",
-        "title": "fix(operator): recompute protected namespaces on every sync",
-        "url": "https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980",
+        "number": 10798,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "test: add Go fuzz targets for the backup archive extractor",
+        "url": "https://github.com/velero-io/velero/pull/10798",
         "targetBranch": "main",
         "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ardaguclu",
-          "ingvagabund"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-10T11:35:11Z"
-      },
-      {
-        "number": 2523,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): handle Terminating namespace in CreateNamespace",
-        "url": "https://github.com/openshift/oadp-operator/pull/2523",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "kaovilai",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-10T09:33:37Z"
-      },
-      {
-        "number": 2544,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case",
-        "url": "https://github.com/openshift/oadp-operator/pull/2544",
-        "targetBranch": "oadp-1.6",
-        "author": "openshift-cherrypick-robot",
         "isCopilotAuthored": false,
         "assignees": [
           "kaovilai"
         ],
-        "labels": [],
+        "labels": [
+          "kind/changelog-not-required",
+          "has-unit-tests"
+        ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
-        "requiredApprovals": 2,
+        "requiredApprovals": null,
         "reviewRequests": [
-          "kaovilai",
-          "weshayutin"
+          "reasonerjt"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-10T07:54:52Z"
+        "waitingDays": 2,
+        "updatedAt": "2026-11-10T06:29:35Z"
       },
       {
         "number": 2545,
@@ -20356,6 +20001,30 @@
         "updatedAt": "2026-11-10T21:34:50Z"
       },
       {
+        "number": 5,
+        "repo": "velero-io/.github",
+        "org": "velero-io",
+        "title": "Velero CNCF incubation security and engineering materials",
+        "url": "https://github.com/velero-io/.github/pull/5",
+        "targetBranch": "topic/cncf/incubation",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-11T06:30:04Z"
+      },
+      {
         "number": 10281,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -20382,37 +20051,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-11-11T03:36:17Z"
-      },
-      {
-        "number": 10798,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "test: add Go fuzz targets for the backup archive extractor",
-        "url": "https://github.com/velero-io/velero/pull/10798",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-10T06:29:35Z"
       },
       {
         "number": 319,
@@ -20469,41 +20107,43 @@
         "updatedAt": "2026-11-11T03:26:22Z"
       },
       {
-        "number": 69,
-        "repo": "konveyor/builder",
-        "org": "konveyor",
-        "title": "Fix the syft image tag in release SBOM scanning",
-        "url": "https://github.com/konveyor/builder/pull/69",
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [],
+        "assignees": [
+          "kaovilai"
+        ],
         "labels": [],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": null,
+        "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-11T12:45:56Z"
+        "waitingDays": 1,
+        "updatedAt": "2026-11-11T08:07:08Z"
       },
       {
-        "number": 70,
+        "number": 73,
         "repo": "konveyor/builder",
         "org": "konveyor",
-        "title": "Track CI tool image pins with Dependabot via compose",
-        "url": "https://github.com/konveyor/builder/pull/70",
+        "title": "Document the base-image Python Dependabot alerts as known noise",
+        "url": "https://github.com/konveyor/builder/pull/73",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20514,7 +20154,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-11T15:54:44Z"
+        "updatedAt": "2026-11-12T12:14:32Z"
       },
       {
         "number": 478,
@@ -20555,6 +20195,69 @@
         "updatedAt": "2026-11-11T12:34:50Z"
       },
       {
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lifecycle/rotten",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "akalenyu",
+          "awels",
+          "Acedus",
+          "alromeros"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-12T07:05:42Z"
+      },
+      {
+        "number": 2980,
+        "repo": "openshift/cluster-kube-descheduler-operator",
+        "org": "openshift",
+        "title": "fix(operator): recompute protected namespaces on every sync",
+        "url": "https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "ardaguclu",
+          "ingvagabund"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-12T10:29:14Z"
+      },
+      {
         "number": 2551,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20588,54 +20291,33 @@
         "updatedAt": "2026-11-12T04:08:06Z"
       },
       {
-        "number": 5,
-        "repo": "velero-io/.github",
-        "org": "velero-io",
-        "title": "Velero CNCF incubation security and engineering materials",
-        "url": "https://github.com/velero-io/.github/pull/5",
-        "targetBranch": "topic/cncf/incubation",
+        "number": 88500,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
+        "url": "https://github.com/openshift/release/pull/88500",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
         "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-11T06:30:04Z"
-      },
-      {
-        "number": 324,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
+        "reviewRequests": [
+          "bear-redhat",
+          "Joeavaikath"
         ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-11T08:07:08Z"
+        "updatedAt": "2026-11-12T11:13:12Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -21008,7 +20690,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -21034,7 +20716,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -21062,7 +20744,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -21090,7 +20772,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -21305,7 +20987,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 34,
+        "waitingDays": 35,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -21367,7 +21049,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
@@ -21805,7 +21487,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 9,
+        "waitingDays": 10,
         "updatedAt": "2026-11-02T07:42:24Z"
       },
       {
@@ -21897,7 +21579,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-11-05T12:13:52Z"
       },
       {
@@ -21913,7 +21595,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -22022,7 +21704,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-12T02:16:00Z"
+        "updatedAt": "2026-11-12T06:18:18Z"
       }
     ]
   }
