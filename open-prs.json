@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T16:11:44Z",
+  "updatedAt": "2026-11-12T17:09:10Z",
   "prs": [
     {
       "number": 5,
@@ -11080,7 +11080,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-12T06:18:18Z",
+      "updatedAt": "2026-11-12T17:00:50Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -12122,7 +12122,7 @@
         "approved",
         "do-not-merge/work-in-progress"
       ],
-      "updatedAt": "2026-11-05T17:13:12Z",
+      "updatedAt": "2026-11-12T17:06:20Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -15689,6 +15689,89 @@
       ]
     },
     {
+      "number": 651,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxy): prune stale images outside a trailing message window",
+      "url": "https://github.com/kaovilai/dotfiles/pull/651",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T16:44:05Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 60,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -16151,89 +16234,6 @@
         {
           "name": "Mintlify Preview (fork)",
           "conclusion": "NEUTRAL"
-        }
-      ]
-    },
-    {
-      "number": 651,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxy): prune stale images outside a trailing message window",
-      "url": "https://github.com/kaovilai/dotfiles/pull/651",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T16:08:27Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "validate-shell-files",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "review",
-          "conclusion": ""
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -17763,7 +17763,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-12T16:11:44Z",
+    "updatedAt": "2026-11-12T17:09:10Z",
     "needsReview": [
       {
         "number": 68,
@@ -18131,7 +18131,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 118,
+        "waitingDays": 119,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -18157,7 +18157,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 118,
+        "waitingDays": 119,
         "updatedAt": "2026-07-16T16:57:12Z"
       },
       {
@@ -18391,7 +18391,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 76,
+        "waitingDays": 77,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -18422,7 +18422,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 76,
+        "waitingDays": 77,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -18500,7 +18500,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19068,7 +19068,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
@@ -20155,7 +20155,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20317,7 +20317,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 118,
+        "waitingDays": 119,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -20719,38 +20719,6 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 48,
-        "updatedAt": "2026-09-24T21:55:00Z"
-      },
-      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -20775,7 +20743,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-09-25T17:03:14Z"
       },
       {
@@ -20806,8 +20774,40 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 47,
+        "waitingDays": 48,
         "updatedAt": "2026-09-25T17:03:37Z"
+      },
+      {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 48,
+        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -21297,7 +21297,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21647,7 +21647,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-12T06:18:18Z"
+        "updatedAt": "2026-11-12T17:00:50Z"
       }
     ]
   }
