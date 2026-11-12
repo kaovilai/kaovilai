@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 06:19:04 UTC
+> **Generated:** 2026-11-12 12:14:16 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 25 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 90 |
+| Issues Closed | 92 |
 
 ---
 
@@ -32,6 +32,12 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#72 README: replace version badges with an animated version-tracks graphic](https://github.com/konveyor/builder/pull/72) — konveyor/builder
+- [#214 ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks](https://github.com/kaovilai/github-bot-command-palette/pull/214) — kaovilai/github-bot-command-palette
+- [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
+- [#58 ci(wire-contract): record real podman + docker CLI requests against a mock socket — upstream drift detection](https://github.com/kaovilai/podm/pull/58) — kaovilai/podm
+- [#211 fix(checks): prevent duplicate Test/Override buttons from overlapping injects](https://github.com/kaovilai/github-bot-command-palette/pull/211) — kaovilai/github-bot-command-palette
+- [#57 fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization](https://github.com/kaovilai/podm/pull/57) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
@@ -116,12 +122,6 @@
 - [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
 - [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
 - [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
-- [#630 perf(znap): defer syntax-highlighting + autocomplete until after first prompt](https://github.com/kaovilai/dotfiles/pull/630) — kaovilai/dotfiles
-- [#631 feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers](https://github.com/kaovilai/dotfiles/pull/631) — kaovilai/dotfiles
-- [#4 test: full functionality e2e coverage in GHA CI + fix broken share landing page](https://github.com/kaovilai/autoport/pull/4) — kaovilai/autoport
-- [#51 pairing: wait out mqvpn's control socket instead of issuing a dead URI](https://github.com/kaovilai/tailbond/pull/51) — kaovilai/tailbond
-- [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
-- [#53 Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates](https://github.com/konveyor/builder/pull/53) — konveyor/builder
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,7 +137,18 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
-- [#58 ci(wire-contract): record real podman CLI requests against a mock socket — upstream drift detection](https://github.com/kaovilai/podm/pull/58) — kaovilai/podm
+- [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
+- [#647 feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases](https://github.com/kaovilai/dotfiles/pull/647) — kaovilai/dotfiles
+- [#18 [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev](https://github.com/kaovilai/copilot-api/pull/18) — kaovilai/copilot-api
+- [#215 ci: probe GITHUB_TOKEN workflow-file push with workflows: write (throwaway)](https://github.com/kaovilai/github-bot-command-palette/pull/215) — kaovilai/github-bot-command-palette
+- [#214 ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks](https://github.com/kaovilai/github-bot-command-palette/pull/214) — kaovilai/github-bot-command-palette
+- [#213 fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance](https://github.com/kaovilai/github-bot-command-palette/pull/213) — kaovilai/github-bot-command-palette
+- [#72 README: replace version badges with an animated version-tracks graphic](https://github.com/konveyor/builder/pull/72) — konveyor/builder
+- [#60 feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds](https://github.com/kaovilai/podm/pull/60) — kaovilai/podm
+- [#16 [fork-sync] reconciled rebase onto upstream/main](https://github.com/kaovilai/context-mode/pull/16) — kaovilai/context-mode
+- [#59 ci(wire-contract): podman 6.2.0 canary catch — baseline refresh, push platform fix, new-command detection](https://github.com/kaovilai/podm/pull/59) — kaovilai/podm
+- [#211 fix(checks): prevent duplicate Test/Override buttons from overlapping injects](https://github.com/kaovilai/github-bot-command-palette/pull/211) — kaovilai/github-bot-command-palette
+- [#58 ci(wire-contract): record real podman + docker CLI requests against a mock socket — upstream drift detection](https://github.com/kaovilai/podm/pull/58) — kaovilai/podm
 - [#57 fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization](https://github.com/kaovilai/podm/pull/57) — kaovilai/podm
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
@@ -218,17 +229,6 @@
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
 - [#5 fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile](https://github.com/kaovilai/context-mode/pull/5) — kaovilai/context-mode
 - [#638 feat(menubar): reload the helper from fleet-sync](https://github.com/kaovilai/dotfiles/pull/638) — kaovilai/dotfiles
-- [#637 fix(menubar): in-flight bars — oldest at the bottom, new ones from the top](https://github.com/kaovilai/dotfiles/pull/637) — kaovilai/dotfiles
-- [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
-- [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
-- [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
-- [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
-- [#634 feat(fleet-sync): keep the shared context-mode daemon current on every machine](https://github.com/kaovilai/dotfiles/pull/634) — kaovilai/dotfiles
-- [#633 feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)](https://github.com/kaovilai/dotfiles/pull/633) — kaovilai/dotfiles
-- [#54 openwrt: the apk package for 25.12, tested in CI on the latest image](https://github.com/kaovilai/tailbond/pull/54) — kaovilai/tailbond
-- [#632 feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push](https://github.com/kaovilai/dotfiles/pull/632) — kaovilai/dotfiles
-- [#631 feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers](https://github.com/kaovilai/dotfiles/pull/631) — kaovilai/dotfiles
-- [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
 ## PRs Reviewed (25)
 
 **velero-io** (15)
@@ -265,7 +265,7 @@
 - [#23510 fix(clients): later image reads show updated file contents](https://github.com/pingdotgg/t3code/pull/23510) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (43)
+**velero-io** (42)
 - [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
@@ -308,14 +308,17 @@
 - [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
 - [#2098 Implement abort running backup job](https://github.com/velero-io/velero/issues/2098) — velero-io/velero
 - [#9260 Add CRD version compatibility validation during server startup](https://github.com/velero-io/velero/issues/9260) — velero-io/velero
-- [#10299 Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag](https://github.com/velero-io/velero/issues/10299) — velero-io/velero
 
 **openshift** (3)
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
-**Other** (54)
+**Other** (55)
+- [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
+- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
+- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
+- [#30685 [Bug]: Slash menu drifts away from the composer when dragging on iPad](https://github.com/pingdotgg/t3code/issues/30685) — pingdotgg/t3code
 - [#34 fix(routes): /session stub registered as GET — buildx POSTs and gets a 404](https://github.com/kaovilai/podm/issues/34) — kaovilai/podm
 - [#53532 cmd/go: `go build` fails to read vcs info when .git is owned by a different user](https://github.com/golang/go/issues/53532) — golang/go
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
@@ -326,19 +329,16 @@
 - [#76291 x/tools/gopls: mcp: file watcher try to watch for all roots](https://github.com/golang/go/issues/76291) — golang/go
 - [#18 Add MacroDroid-style Android automation integration](https://github.com/Past-da-king/agent/issues/18) — Past-da-king/agent
 - [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
-- [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
 - [#41 Deconstruct workflows into reusable components so there are less duplicative code in .github/workflows](https://github.com/konveyor/builder/issues/41) — konveyor/builder
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#603 context-mode: upgrade to v2.1.4 and move off per-session spawn](https://github.com/kaovilai/dotfiles/issues/603) — kaovilai/dotfiles
-- [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#44 feat: one tailscaled per internet connection, so each bonded path gets Tailscale NAT traversal (servers behind CGNAT)](https://github.com/kaovilai/tailbond/issues/44) — kaovilai/tailbond
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#32 Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml](https://github.com/konveyor/builder/issues/32) — konveyor/builder
 - [#19512 [Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen](https://github.com/pingdotgg/t3code/issues/19512) — pingdotgg/t3code
-- [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#2524 Clarify that pull_request_review_write create without event creates a pending review](https://github.com/github/github-mcp-server/issues/2524) — github/github-mcp-server
@@ -370,7 +370,7 @@
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
-## Issues Closed (90)
+## Issues Closed (92)
 
 **velero-io** (24)
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
@@ -420,7 +420,9 @@
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (48)
+**Other** (50)
+- [#25558 [Bug]: Initialize Git gives no confirmation for ~30 s when the folder holds a lot of untracked data (change-totals diff times out)](https://github.com/pingdotgg/t3code/issues/25558) — pingdotgg/t3code
+- [#30685 [Bug]: Slash menu drifts away from the composer when dragging on iPad](https://github.com/pingdotgg/t3code/issues/30685) — pingdotgg/t3code
 - [#45 bug(containers): podman run hangs after container exit; DELETE /containers/{id} never answers](https://github.com/kaovilai/podm/issues/45) — kaovilai/podm
 - [#47 feat(install): register podm as a podman system connection (secondary or primary remote)](https://github.com/kaovilai/podm/issues/47) — kaovilai/podm
 - [#46 feat(install): ship zsh completions in repo, installed by podm install, reusing upstream _podman](https://github.com/kaovilai/podm/issues/46) — kaovilai/podm

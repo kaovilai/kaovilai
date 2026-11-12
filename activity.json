@@ -3,15 +3,69 @@
     "start": "2026-08-14",
     "end": "2026-11-12"
   },
-  "generatedAt": "2026-11-12T06:19:04Z",
+  "generatedAt": "2026-11-12T12:14:16Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 25,
     "issuesCommented": 100,
-    "issuesClosed": 90
+    "issuesClosed": 92
   },
   "prsMerged": [
+    {
+      "number": 72,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "README: replace version badges with an animated version-tracks graphic",
+      "url": "https://github.com/konveyor/builder/pull/72",
+      "date": "2026-11-12T11:41:31Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 214,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/214",
+      "date": "2026-11-12T11:02:08Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 70,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Track CI tool image pins with Dependabot via compose",
+      "url": "https://github.com/konveyor/builder/pull/70",
+      "date": "2026-11-12T09:19:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 58,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): record real podman + docker CLI requests against a mock socket — upstream drift detection",
+      "url": "https://github.com/kaovilai/podm/pull/58",
+      "date": "2026-11-12T08:08:02Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 211,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): prevent duplicate Test/Override buttons from overlapping injects",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/211",
+      "date": "2026-11-12T07:07:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 57,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization",
+      "url": "https://github.com/kaovilai/podm/pull/57",
+      "date": "2026-11-12T06:45:06Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 51,
       "repo": "kaovilai/podm",
@@ -857,68 +911,113 @@
       "url": "https://github.com/kaovilai/tailbond/pull/52",
       "date": "2026-11-07T16:08:50Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 630,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(znap): defer syntax-highlighting + autocomplete until after first prompt",
-      "url": "https://github.com/kaovilai/dotfiles/pull/630",
-      "date": "2026-11-08T01:55:27Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 631,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers",
-      "url": "https://github.com/kaovilai/dotfiles/pull/631",
-      "date": "2026-11-08T01:42:21Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 4,
-      "repo": "kaovilai/autoport",
-      "org": "kaovilai",
-      "title": "test: full functionality e2e coverage in GHA CI + fix broken share landing page",
-      "url": "https://github.com/kaovilai/autoport/pull/4",
-      "date": "2026-11-07T17:28:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 51,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "pairing: wait out mqvpn's control socket instead of issuing a dead URI",
-      "url": "https://github.com/kaovilai/tailbond/pull/51",
-      "date": "2026-11-07T17:07:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 55,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)",
-      "url": "https://github.com/konveyor/builder/pull/55",
-      "date": "2026-11-07T16:54:52Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 53,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Fix dependabot CI: no push on dependabot PRs, missing-manifest probe, grouped updates",
-      "url": "https://github.com/konveyor/builder/pull/53",
-      "date": "2026-11-07T15:34:31Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
     {
+      "number": 73,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Document the base-image Python Dependabot alerts as known noise",
+      "url": "https://github.com/konveyor/builder/pull/73",
+      "date": "2026-11-12T12:06:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 647,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases",
+      "url": "https://github.com/kaovilai/dotfiles/pull/647",
+      "date": "2026-11-12T11:17:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 18,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "[auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev",
+      "url": "https://github.com/kaovilai/copilot-api/pull/18",
+      "date": "2026-11-12T10:46:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 215,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "ci: probe GITHUB_TOKEN workflow-file push with workflows: write (throwaway)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/215",
+      "date": "2026-11-12T10:43:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 214,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/214",
+      "date": "2026-11-12T10:14:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 213,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/213",
+      "date": "2026-11-12T10:12:01Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 72,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "README: replace version badges with an animated version-tracks graphic",
+      "url": "https://github.com/konveyor/builder/pull/72",
+      "date": "2026-11-12T10:11:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 60,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds",
+      "url": "https://github.com/kaovilai/podm/pull/60",
+      "date": "2026-11-12T09:55:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "[fork-sync] reconciled rebase onto upstream/main",
+      "url": "https://github.com/kaovilai/context-mode/pull/16",
+      "date": "2026-11-12T08:29:42Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 59,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): podman 6.2.0 canary catch — baseline refresh, push platform fix, new-command detection",
+      "url": "https://github.com/kaovilai/podm/pull/59",
+      "date": "2026-11-12T08:12:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 211,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): prevent duplicate Test/Override buttons from overlapping injects",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/211",
+      "date": "2026-11-12T06:54:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 58,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
-      "title": "ci(wire-contract): record real podman CLI requests against a mock socket — upstream drift detection",
+      "title": "ci(wire-contract): record real podman + docker CLI requests against a mock socket — upstream drift detection",
       "url": "https://github.com/kaovilai/podm/pull/58",
       "date": "2026-11-12T05:54:26Z",
       "workstream": "Uncategorized"
@@ -1714,105 +1813,6 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/638",
       "date": "2026-11-08T15:35:59Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 637,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(menubar): in-flight bars — oldest at the bottom, new ones from the top",
-      "url": "https://github.com/kaovilai/dotfiles/pull/637",
-      "date": "2026-11-08T13:10:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 636,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks",
-      "url": "https://github.com/kaovilai/dotfiles/pull/636",
-      "date": "2026-11-08T12:38:46Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 86,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Give Bojangles a backyard habitat and two new scenes",
-      "url": "https://github.com/kaovilai/kaovilai/pull/86",
-      "date": "2026-11-08T11:49:53Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 635,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(menubar): host hover filters the tok/s chart too",
-      "url": "https://github.com/kaovilai/dotfiles/pull/635",
-      "date": "2026-11-08T10:38:35Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 204,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/204",
-      "date": "2026-11-08T05:52:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 634,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(fleet-sync): keep the shared context-mode daemon current on every machine",
-      "url": "https://github.com/kaovilai/dotfiles/pull/634",
-      "date": "2026-11-08T05:18:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 633,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/633",
-      "date": "2026-11-08T04:55:15Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 54,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "openwrt: the apk package for 25.12, tested in CI on the latest image",
-      "url": "https://github.com/kaovilai/tailbond/pull/54",
-      "date": "2026-11-08T04:39:19Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 632,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push",
-      "url": "https://github.com/kaovilai/dotfiles/pull/632",
-      "date": "2026-11-08T04:38:28Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 631,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers",
-      "url": "https://github.com/kaovilai/dotfiles/pull/631",
-      "date": "2026-11-08T01:38:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 55,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)",
-      "url": "https://github.com/konveyor/builder/pull/55",
-      "date": "2026-11-07T15:57:06Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -1822,7 +1822,7 @@
       "org": "migtools",
       "title": "fix: read VMB backup type from status.includedVolumes[].type",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
-      "date": "2026-11-12T06:19:03Z",
+      "date": "2026-11-12T10:55:18Z",
       "workstream": "KubeVirt Data Mover"
     },
     {
@@ -1831,7 +1831,7 @@
       "org": "velero-io",
       "title": "Issue #10648: Retry transient errors when starting a backup or restore",
       "url": "https://github.com/velero-io/velero/pull/10667",
-      "date": "2026-11-12T06:05:03Z",
+      "date": "2026-11-12T06:24:30Z",
       "workstream": "Velero"
     },
     {
@@ -2044,6 +2044,42 @@
   ],
   "issuesCommented": [
     {
+      "number": 10553,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
+      "url": "https://github.com/pingdotgg/t3code/issues/10553",
+      "date": "2026-11-12T10:47:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16000,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
+      "url": "https://github.com/pingdotgg/t3code/issues/16000",
+      "date": "2026-11-12T10:30:20Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 24901,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
+      "url": "https://github.com/pingdotgg/t3code/issues/24901",
+      "date": "2026-11-12T07:35:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 30685,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Slash menu drifts away from the composer when dragging on iPad",
+      "url": "https://github.com/pingdotgg/t3code/issues/30685",
+      "date": "2026-11-12T07:05:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10120,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2170,15 +2206,6 @@
       "workstream": "Kubernetes"
     },
     {
-      "number": 24901,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf",
-      "url": "https://github.com/pingdotgg/t3code/issues/24901",
-      "date": "2026-11-09T17:21:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 10303,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2230,15 +2257,6 @@
       "title": "context-mode: upgrade to v2.1.4 and move off per-session spawn",
       "url": "https://github.com/kaovilai/dotfiles/issues/603",
       "date": "2026-11-07T08:11:31Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16000,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check",
-      "url": "https://github.com/pingdotgg/t3code/issues/16000",
-      "date": "2026-11-07T02:25:00Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2338,15 +2356,6 @@
       "title": "GCP destroy: instance group deletion fails due to dependency ordering with backend services",
       "url": "https://github.com/openshift/installer/issues/10584",
       "date": "2026-11-02T00:00:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10553,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in",
-      "url": "https://github.com/pingdotgg/t3code/issues/10553",
-      "date": "2026-11-01T18:21:15Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2933,18 +2942,27 @@
       "url": "https://github.com/velero-io/velero/issues/9260",
       "date": "2026-09-29T14:25:37Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10299,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag",
-      "url": "https://github.com/velero-io/velero/issues/10299",
-      "date": "2026-09-25T20:02:57Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 25558,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Initialize Git gives no confirmation for ~30 s when the folder holds a lot of untracked data (change-totals diff times out)",
+      "url": "https://github.com/pingdotgg/t3code/issues/25558",
+      "date": "2026-11-12T08:02:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 30685,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Slash menu drifts away from the composer when dragging on iPad",
+      "url": "https://github.com/pingdotgg/t3code/issues/30685",
+      "date": "2026-11-12T07:02:02Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 45,
       "repo": "kaovilai/podm",
