@@ -3,11 +3,11 @@
     "start": "2026-08-14",
     "end": "2026-11-12"
   },
-  "generatedAt": "2026-11-12T00:29:26Z",
+  "generatedAt": "2026-11-12T06:19:04Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 24,
+    "prsReviewed": 25,
     "issuesCommented": 100,
     "issuesClosed": 90
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 58,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): record real podman CLI requests against a mock socket — upstream drift detection",
+      "url": "https://github.com/kaovilai/podm/pull/58",
+      "date": "2026-11-12T05:54:26Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 57,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/konveyor/builder/pull/55",
       "date": "2026-11-07T15:57:06Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 52,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "openwrt: recover a half-installed tailbond after a firmware upgrade",
-      "url": "https://github.com/kaovilai/tailbond/pull/52",
-      "date": "2026-11-07T15:33:50Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -1822,8 +1822,26 @@
       "org": "migtools",
       "title": "fix: read VMB backup type from status.includedVolumes[].type",
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
-      "date": "2026-11-11T22:37:46Z",
+      "date": "2026-11-12T06:19:03Z",
       "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 10667,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Issue #10648: Retry transient errors when starting a backup or restore",
+      "url": "https://github.com/velero-io/velero/pull/10667",
+      "date": "2026-11-12T06:05:03Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10796,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add a velero_backup_active metric",
+      "url": "https://github.com/velero-io/velero/pull/10796",
+      "date": "2026-11-12T04:20:25Z",
+      "workstream": "Velero"
     },
     {
       "number": 2535,
@@ -1831,8 +1849,17 @@
       "org": "openshift",
       "title": "fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2535",
-      "date": "2026-11-11T22:25:07Z",
+      "date": "2026-11-12T03:31:37Z",
       "workstream": "OADP"
+    },
+    {
+      "number": 338,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
+      "date": "2026-11-12T03:06:47Z",
+      "workstream": "Velero"
     },
     {
       "number": 2534,
@@ -1840,7 +1867,7 @@
       "org": "openshift",
       "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2534",
-      "date": "2026-11-11T21:49:41Z",
+      "date": "2026-11-12T02:07:49Z",
       "workstream": "OADP"
     },
     {
@@ -1851,15 +1878,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2533",
       "date": "2026-11-11T21:11:26Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 338,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
-      "date": "2026-11-11T20:51:12Z",
-      "workstream": "Velero"
     },
     {
       "number": 2540,
@@ -1940,15 +1958,6 @@
       "title": "Add the governance review doc",
       "url": "https://github.com/velero-io/.github/pull/9",
       "date": "2026-11-10T07:16:34Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10796,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add a velero_backup_active metric",
-      "url": "https://github.com/velero-io/velero/pull/10796",
-      "date": "2026-11-10T06:28:38Z",
       "workstream": "Velero"
     },
     {
@@ -2034,6 +2043,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10120,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure",
+      "url": "https://github.com/velero-io/velero/issues/10120",
+      "date": "2026-11-12T01:36:07Z",
+      "workstream": "Velero"
+    },
     {
       "number": 34,
       "repo": "kaovilai/podm",
@@ -2591,15 +2609,6 @@
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673",
       "date": "2026-10-26T07:25:36Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10120,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure",
-      "url": "https://github.com/velero-io/velero/issues/10120",
-      "date": "2026-10-26T01:51:53Z",
-      "workstream": "Velero"
     },
     {
       "number": 10310,

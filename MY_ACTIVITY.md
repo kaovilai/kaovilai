@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 00:29:26 UTC
+> **Generated:** 2026-11-12 06:19:04 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 24 |
+| PRs Reviewed | 25 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 90 |
 
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#58 ci(wire-contract): record real podman CLI requests against a mock socket — upstream drift detection](https://github.com/kaovilai/podm/pull/58) — kaovilai/podm
 - [#57 fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization](https://github.com/kaovilai/podm/pull/57) — kaovilai/podm
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
@@ -228,10 +229,11 @@
 - [#632 feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push](https://github.com/kaovilai/dotfiles/pull/632) — kaovilai/dotfiles
 - [#631 feat(claude): raise GLM effortLevel to high in hosted-only and enmaas providers](https://github.com/kaovilai/dotfiles/pull/631) — kaovilai/dotfiles
 - [#55 Gate pushes on the actor: dependabot branch pushes get no secrets (completes #53)](https://github.com/konveyor/builder/pull/55) — konveyor/builder
-- [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
-## PRs Reviewed (24)
+## PRs Reviewed (25)
 
-**velero-io** (14)
+**velero-io** (15)
+- [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
+- [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
@@ -240,7 +242,6 @@
 - [#10815 Add Hippius to the S3-compatible object store providers list](https://github.com/velero-io/velero/pull/10815) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
-- [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
 - [#10 Clarify the repository of forked kopia](https://github.com/velero-io/.github/pull/10) — velero-io/.github
 - [#10811 Update the repositories on the support-process page](https://github.com/velero-io/velero/pull/10811) — velero-io/velero
@@ -265,6 +266,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (43)
+- [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
@@ -294,7 +296,6 @@
 - [#9396 Velero cannot detect CSI driver ebs.csi.eks.amazonaws.com on EKS Auto Mode](https://github.com/velero-io/velero/issues/9396) — velero-io/velero
 - [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
 - [#10092 Deprecate the block volume backup/restore functionality through Kopia file system uploader](https://github.com/velero-io/velero/issues/10092) — velero-io/velero
-- [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
 - [#10310 Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands](https://github.com/velero-io/velero/issues/10310) — velero-io/velero
 - [#8689 Report Object Lock when PutObject errors patching backup to Completed, and Fail backup](https://github.com/velero-io/velero/issues/8689) — velero-io/velero
 - [#10627 Allow Multiple Key Properties](https://github.com/velero-io/velero/issues/10627) — velero-io/velero
