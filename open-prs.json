@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T15:09:49Z",
+  "updatedAt": "2026-11-12T16:11:44Z",
   "prs": [
     {
       "number": 5,
@@ -10327,12 +10327,12 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-12T13:01:50Z",
+      "updatedAt": "2026-11-12T15:31:29Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
           "name": "ci/rehearse/openshift/oadp-operator/oadp-1.6/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "PENDING"
+          "conclusion": "FAILURE"
         },
         {
           "name": "CodeRabbit",
@@ -11084,6 +11084,62 @@
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "ci/prow/unit-test",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
@@ -11104,43 +11160,11 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/4.22-images",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/4.23-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-hcp-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11152,23 +11176,7 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/5.0-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-hcp-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11180,19 +11188,11 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/unit-test",
           "conclusion": "SUCCESS"
         }
       ]
@@ -15689,140 +15689,6 @@
       ]
     },
     {
-      "number": 648,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(zsh): add t3-triage function for the t3 triage claude shim",
-      "url": "https://github.com/kaovilai/dotfiles/pull/648",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T14:23:34Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "validate-shell-files",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 651,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(proxy): prune stale images outside a trailing message window",
-      "url": "https://github.com/kaovilai/dotfiles/pull/651",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T15:08:48Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 60,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -16285,6 +16151,89 @@
         {
           "name": "Mintlify Preview (fork)",
           "conclusion": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "number": 651,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxy): prune stale images outside a trailing message window",
+      "url": "https://github.com/kaovilai/dotfiles/pull/651",
+      "targetBranch": "main",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T16:08:27Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "validate-shell-files",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "review",
+          "conclusion": ""
+        },
+        {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -17814,7 +17763,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-12T15:09:49Z",
+    "updatedAt": "2026-11-12T16:11:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -17989,7 +17938,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 217,
+        "waitingDays": 218,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -18051,7 +18000,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 133,
+        "waitingDays": 134,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -18746,6 +18695,66 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 121974,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/feature",
+          "comp/cli",
+          "tool/browser",
+          "P3"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 43,
+        "updatedAt": "2026-09-30T15:11:21Z"
+      },
+      {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 43,
+        "updatedAt": "2026-09-30T15:17:14Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18777,66 +18786,6 @@
         "reason": "awaitingReview",
         "waitingDays": 43,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 121974,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/121974",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/feature",
-          "comp/cli",
-          "tool/browser",
-          "P3"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 42,
-        "updatedAt": "2026-09-30T15:11:21Z"
-      },
-      {
-        "number": 123138,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/bug",
-          "comp/cli",
-          "comp/tools",
-          "P2",
-          "sweeper:risk-message-delivery",
-          "area/profiles"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 42,
-        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 70,
@@ -19358,7 +19307,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-10-30T15:47:17Z"
       },
       {
@@ -19604,7 +19553,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20311,7 +20260,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-12T13:01:50Z"
+        "updatedAt": "2026-11-12T15:31:29Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -20340,7 +20289,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 217,
+        "waitingDays": 218,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -21360,7 +21309,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
@@ -21450,7 +21399,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 12,
+        "waitingDays": 13,
         "updatedAt": "2026-10-30T15:13:50Z"
       },
       {
@@ -21633,7 +21582,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-11-10T15:41:57Z"
       },
       {
@@ -21684,7 +21633,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
