@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T23:04:46Z",
+  "updatedAt": "2026-11-12T00:15:07Z",
   "prs": [
     {
       "number": 5,
@@ -10987,15 +10987,7 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
           "conclusion": "PENDING"
         },
         {
@@ -11019,6 +11011,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.22-images",
           "conclusion": "SUCCESS"
         },
@@ -11036,6 +11032,10 @@
         },
         {
           "name": "ci/prow/5.0-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.0-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11099,10 +11099,6 @@
           "conclusion": "PENDING"
         },
         {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "PENDING"
-        },
-        {
           "name": "ci/prow/5.0-e2e-test-aws",
           "conclusion": "PENDING"
         },
@@ -11128,6 +11124,10 @@
         },
         {
           "name": "ci/prow/4.22-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-e2e-test-cli-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11196,23 +11196,24 @@
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [
-        "sseago"
+        "sseago",
+        "Joeavaikath"
       ],
       "isDraft": false,
       "labels": [
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-11T22:51:36Z",
+      "updatedAt": "2026-11-11T23:56:17Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -11451,7 +11452,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-11T22:37:28Z",
+      "updatedAt": "2026-11-12T00:09:18Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -15815,7 +15816,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T17:14:08Z",
+      "updatedAt": "2026-11-11T23:14:34Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -17692,6 +17693,73 @@
       "ciChecks": []
     },
     {
+      "number": 57,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization",
+      "url": "https://github.com/kaovilai/podm/pull/57",
+      "targetBranch": "main",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T00:07:14Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "docker + podman CLI smoke tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (c-cpp)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (ruby)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (swift)",
+          "conclusion": ""
+        },
+        {
+          "name": "formatters & tests",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "integration test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "multi-arch build test (amd64 + arm64 + s390x)",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -18137,7 +18205,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-11T23:04:46Z",
+    "updatedAt": "2026-11-12T00:15:07Z",
     "needsReview": [
       {
         "number": 68,
@@ -18314,6 +18382,36 @@
         "reason": "awaitingReview",
         "waitingDays": 217,
         "updatedAt": "2026-04-08T15:23:08Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 155,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -18581,7 +18679,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18704,7 +18802,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 77,
+        "waitingDays": 78,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -19006,7 +19104,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -19035,7 +19133,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -19269,7 +19367,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
@@ -19508,6 +19606,39 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
+        "number": 6479,
+        "repo": "kubernetes/enhancements",
+        "org": "kubernetes",
+        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
+        "url": "https://github.com/kubernetes/enhancements/pull/6479",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "sig/storage",
+          "cncf-cla: yes",
+          "size/M",
+          "needs-ok-to-test",
+          "kind/kep"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "saad-ali",
+          "xing-yang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-10-29T00:08:40Z"
+      },
+      {
         "number": 330,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -19589,39 +19720,6 @@
         "reason": "awaitingReview",
         "waitingDays": 14,
         "updatedAt": "2026-10-28T22:41:36Z"
-      },
-      {
-        "number": 6479,
-        "repo": "kubernetes/enhancements",
-        "org": "kubernetes",
-        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
-        "url": "https://github.com/kubernetes/enhancements/pull/6479",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "sig/storage",
-          "cncf-cla: yes",
-          "size/M",
-          "needs-ok-to-test",
-          "kind/kep"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "saad-ali",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-10-29T00:08:40Z"
       },
       {
         "number": 18957,
@@ -19950,6 +20048,36 @@
         "updatedAt": "2026-11-07T00:50:27Z"
       },
       {
+        "number": 468,
+        "repo": "kubevirt/kubevirt-velero-plugin",
+        "org": "kubevirt",
+        "title": "Select the live virt-launcher pod after live migration",
+        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "dco-signoff: yes",
+          "size/L"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "alromeros",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-11-08T23:22:37Z"
+      },
+      {
         "number": 2272,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20006,36 +20134,6 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-11-08T05:26:06Z"
-      },
-      {
-        "number": 468,
-        "repo": "kubevirt/kubevirt-velero-plugin",
-        "org": "kubevirt",
-        "title": "Select the live virt-launcher pod after live migration",
-        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "dco-signoff: yes",
-          "size/L"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "alromeros",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
         "number": 504,
@@ -22020,18 +22118,19 @@
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
-          "sseago"
+          "sseago",
+          "Joeavaikath"
         ],
         "labels": [
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
         "requiredApprovals": 2,
         "reviewRequests": [
           "eemcmullan",
@@ -22040,7 +22139,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-11T22:51:36Z"
+        "updatedAt": "2026-11-11T23:56:17Z"
       },
       {
         "number": 2551,
@@ -22072,7 +22171,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-11T22:37:28Z"
+        "updatedAt": "2026-11-12T00:09:18Z"
       }
     ]
   }

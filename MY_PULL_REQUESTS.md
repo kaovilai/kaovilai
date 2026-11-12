@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-11 23:04:46 UTC
+> Last updated: 2026-11-12 00:15:07 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -236,6 +236,7 @@ No open PRs.
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-hold-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
+- [![PR #57](https://img.shields.io/badge/PR%20%2357-failing--ci-red)](https://github.com/kaovilai/podm/pull/57) **kaovilai/podm** → `main` - fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
