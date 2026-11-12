@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T13:09:52Z",
+  "updatedAt": "2026-11-12T15:09:49Z",
   "prs": [
     {
       "number": 5,
@@ -15511,29 +15511,6 @@
       "ciChecks": []
     },
     {
-      "number": 498,
-      "repo": "caozhiyuan/copilot-api",
-      "org": "caozhiyuan",
-      "title": "fix: drop empty/missing text blocks before Responses translation (400 \"Missing required parameter: input[N].content[M].text\")",
-      "url": "https://github.com/caozhiyuan/copilot-api/pull/498",
-      "targetBranch": "dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T12:04:01Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "test",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 116,
       "repo": "geekflyer/cliprelay",
       "org": "geekflyer",
@@ -15712,11 +15689,11 @@
       ]
     },
     {
-      "number": 213,
-      "repo": "kaovilai/github-bot-command-palette",
+      "number": 648,
+      "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
-      "title": "fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/213",
+      "title": "feat(zsh): add t3-triage function for the t3 triage claude shim",
+      "url": "https://github.com/kaovilai/dotfiles/pull/648",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -15725,23 +15702,114 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-12T13:04:51Z",
+      "updatedAt": "2026-11-12T14:23:34Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "auto-merge",
-          "conclusion": "SKIPPED"
+          "name": "validate-shell-files",
+          "conclusion": "CANCELLED"
         },
         {
-          "name": "Analyze (actions)",
+          "name": "validate-shell-files",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "test",
+          "name": "review",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "Analyze (javascript-typescript)",
+          "name": "verify (fedora)",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "CANCELLED"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 651,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxy): prune stale images outside a trailing message window",
+      "url": "https://github.com/kaovilai/dotfiles/pull/651",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-12T15:08:48Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
           "conclusion": "SUCCESS"
         },
         {
@@ -15819,29 +15887,6 @@
           "name": "CodeQL",
           "conclusion": "SUCCESS"
         },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 388,
-      "repo": "kaovilai/toolkit-for-fidelity",
-      "org": "kaovilai",
-      "title": "Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers",
-      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/388",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-11T11:40:43Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -16240,57 +16285,6 @@
         {
           "name": "Mintlify Preview (fork)",
           "conclusion": "NEUTRAL"
-        }
-      ]
-    },
-    {
-      "number": 648,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(zsh): add t3-triage function for the t3 triage claude shim",
-      "url": "https://github.com/kaovilai/dotfiles/pull/648",
-      "targetBranch": "main",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-12T13:02:49Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "validate-shell-files",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "review",
-          "conclusion": ""
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -17820,7 +17814,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-12T13:09:52Z",
+    "updatedAt": "2026-11-12T15:09:49Z",
     "needsReview": [
       {
         "number": 68,
@@ -17966,7 +17960,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 244,
+        "waitingDays": 245,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -18247,7 +18241,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 100,
+        "waitingDays": 101,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -18545,6 +18539,32 @@
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
+        "number": 118214,
+        "repo": "openshift/openshift-docs",
+        "org": "openshift",
+        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
+        "url": "https://github.com/openshift/openshift-docs/pull/118214",
+        "targetBranch": "main",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/S"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 72,
+        "updatedAt": "2026-09-01T13:58:01Z"
+      },
+      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18572,32 +18592,6 @@
         "reason": "awaitingReview",
         "waitingDays": 72,
         "updatedAt": "2026-08-31T20:24:39Z"
-      },
-      {
-        "number": 118214,
-        "repo": "openshift/openshift-docs",
-        "org": "openshift",
-        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
-        "url": "https://github.com/openshift/openshift-docs/pull/118214",
-        "targetBranch": "main",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/S"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 71,
-        "updatedAt": "2026-09-01T13:58:01Z"
       },
       {
         "number": 213,
@@ -18800,7 +18794,7 @@
           "tool/browser",
           "P3"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18831,7 +18825,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19610,7 +19604,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19713,6 +19707,35 @@
         "reason": "awaitingReview",
         "waitingDays": 3,
         "updatedAt": "2026-11-08T23:22:37Z"
+      },
+      {
+        "number": 504,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "NO-JIRA: Group Go security updates in Dependabot",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
         "number": 10555,
@@ -19885,35 +19908,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-11-10T12:42:37Z"
-      },
-      {
-        "number": 504,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "NO-JIRA: Group Go security updates in Dependabot",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
         "number": 10798,
@@ -20405,7 +20399,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 98,
+        "waitingDays": 99,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -20439,7 +20433,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 92,
+        "waitingDays": 93,
         "updatedAt": "2026-08-11T13:26:20Z"
       },
       {
@@ -20471,7 +20465,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 82,
+        "waitingDays": 83,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -20924,7 +20918,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
@@ -21354,7 +21348,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21518,7 +21512,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 9,
+        "waitingDays": 10,
         "updatedAt": "2026-11-02T14:06:28Z"
       },
       {
