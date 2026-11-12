@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 13:09:23 UTC
+> **Generated:** 2026-11-12 14:10:16 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -32,6 +32,8 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#650 feat(usage): trace reroutes to their session](https://github.com/kaovilai/dotfiles/pull/650) — kaovilai/dotfiles
+- [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
 - [#72 README: replace version badges with an animated version-tracks graphic](https://github.com/konveyor/builder/pull/72) — konveyor/builder
 - [#214 ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks](https://github.com/kaovilai/github-bot-command-palette/pull/214) — kaovilai/github-bot-command-palette
@@ -120,8 +122,6 @@
 - [#86 Give Bojangles a backyard habitat and two new scenes](https://github.com/kaovilai/kaovilai/pull/86) — kaovilai/kaovilai
 - [#632 feat(ci): prove .zshrc/.bashrc work on fedora + macos on every push](https://github.com/kaovilai/dotfiles/pull/632) — kaovilai/dotfiles
 - [#633 feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)](https://github.com/kaovilai/dotfiles/pull/633) — kaovilai/dotfiles
-- [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
-- [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,8 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#650 feat(usage): trace reroutes to their session](https://github.com/kaovilai/dotfiles/pull/650) — kaovilai/dotfiles
+- [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
 - [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
 - [#647 feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases](https://github.com/kaovilai/dotfiles/pull/647) — kaovilai/dotfiles
@@ -227,8 +229,6 @@
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
 - [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
-- [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
-- [#5 fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile](https://github.com/kaovilai/context-mode/pull/5) — kaovilai/context-mode
 ## PRs Reviewed (24)
 
 **velero-io** (14)
