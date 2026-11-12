@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-13",
-    "end": "2026-11-11"
+    "start": "2026-08-14",
+    "end": "2026-11-12"
   },
-  "generatedAt": "2026-11-11T23:09:36Z",
+  "generatedAt": "2026-11-12T00:29:26Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 24,
     "issuesCommented": 100,
-    "issuesClosed": 100
+    "issuesClosed": 90
   },
   "prsMerged": [
     {
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 57,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization",
+      "url": "https://github.com/kaovilai/podm/pull/57",
+      "date": "2026-11-11T23:57:29Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 56,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -1803,15 +1812,6 @@
       "title": "openwrt: recover a half-installed tailbond after a firmware upgrade",
       "url": "https://github.com/kaovilai/tailbond/pull/52",
       "date": "2026-11-07T15:33:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 630,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(znap): defer syntax-highlighting + autocomplete until after first prompt",
-      "url": "https://github.com/kaovilai/dotfiles/pull/630",
-      "date": "2026-11-07T15:12:52Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -3745,96 +3745,6 @@
       "url": "https://github.com/velero-io/velero/issues/10302",
       "date": "2026-08-16T15:43:46Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 841,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`status-reconciler`: a required context that never once reported can never be retired, permanently deadlocking Tide under `github_merge_blocks_policy: block`",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/841",
-      "date": "2026-08-13T16:40:07Z",
-      "workstream": "Kubernetes"
-    },
-    {
-      "number": 5333,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "e2e-oo permanently failing: fixture pins EOL integrated stream ocp/4.6, configresolver returns 400",
-      "url": "https://github.com/openshift/ci-tools/issues/5333",
-      "date": "2026-08-13T22:23:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 169,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "VM run-state restore sibling correlation should scope by restore attempt, not just VM identity",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/169",
-      "date": "2026-08-13T20:14:11Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 154,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Failed datamover operations leave scratch/temp PVCs and pods behind indefinitely, with unbounded pod-log emission",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/154",
-      "date": "2026-08-13T17:32:46Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 155,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers never populate Status.StartTimestamp, CompletionTimestamp, or Progress",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/155",
-      "date": "2026-08-13T17:32:46Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 153,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "rebindPVToNamespace cannot recover if source PVC is deleted but the rebind didn't finish (crash mid-flow)",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/153",
-      "date": "2026-08-13T17:32:46Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 121,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Spec.OperationTimeout is not honored by either DataUpload or DataDownload controller",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/121",
-      "date": "2026-08-13T17:32:45Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 123,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataUpload/DataDownload controllers treat all dependency-lookup errors as terminal Failed",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/123",
-      "date": "2026-08-13T17:32:45Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 152,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "No operational signal for PVs left in Retain policy after a completed upload/download rebind",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/152",
-      "date": "2026-08-13T17:32:45Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 122,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "GenerateName + cached-client lookups risk false \"not found\" or duplicate child pod/PVC creation",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/122",
-      "date": "2026-08-13T17:32:44Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ]
 }
