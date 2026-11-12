@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 12:14:16 UTC
+> **Generated:** 2026-11-12 13:09:23 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 25 |
+| PRs Reviewed | 24 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 92 |
 
@@ -32,6 +32,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
 - [#72 README: replace version badges with an animated version-tracks graphic](https://github.com/konveyor/builder/pull/72) — konveyor/builder
 - [#214 ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks](https://github.com/kaovilai/github-bot-command-palette/pull/214) — kaovilai/github-bot-command-palette
 - [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
@@ -121,7 +122,6 @@
 - [#633 feat(llm-usage): live peer in-flight via ssh stdio stream (fleet stream)](https://github.com/kaovilai/dotfiles/pull/633) — kaovilai/dotfiles
 - [#204 Improvement loop: shortcut/modal fixes, real Button Position + Theme settings, live-logic failover, UI polish](https://github.com/kaovilai/github-bot-command-palette/pull/204) — kaovilai/github-bot-command-palette
 - [#4 feat: shared daemon mode — one process serves every session over loopback HTTP](https://github.com/kaovilai/context-mode/pull/4) — kaovilai/context-mode
-- [#52 openwrt: recover a half-installed tailbond after a firmware upgrade](https://github.com/kaovilai/tailbond/pull/52) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
 - [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
 - [#647 feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases](https://github.com/kaovilai/dotfiles/pull/647) — kaovilai/dotfiles
 - [#18 [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev](https://github.com/kaovilai/copilot-api/pull/18) — kaovilai/copilot-api
@@ -228,10 +229,9 @@
 - [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
 - [#5 fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile](https://github.com/kaovilai/context-mode/pull/5) — kaovilai/context-mode
-- [#638 feat(menubar): reload the helper from fleet-sync](https://github.com/kaovilai/dotfiles/pull/638) — kaovilai/dotfiles
-## PRs Reviewed (25)
+## PRs Reviewed (24)
 
-**velero-io** (15)
+**velero-io** (14)
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
@@ -246,7 +246,6 @@
 - [#10 Clarify the repository of forked kopia](https://github.com/velero-io/.github/pull/10) — velero-io/.github
 - [#10811 Update the repositories on the support-process page](https://github.com/velero-io/velero/pull/10811) — velero-io/velero
 - [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
-- [#10803 build(deps): bump the github-actions group across 1 directory with 6 updates](https://github.com/velero-io/velero/pull/10803) — velero-io/velero
 
 **openshift** (6)
 - [#2535 fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0](https://github.com/openshift/oadp-operator/pull/2535) — openshift/oadp-operator
@@ -315,6 +314,7 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (55)
+- [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
 - [#24901 [Bug]: Finished or input-waiting threads stay stuck in the mobile Working shelf](https://github.com/pingdotgg/t3code/issues/24901) — pingdotgg/t3code
@@ -332,7 +332,6 @@
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
 - [#41 Deconstruct workflows into reusable components so there are less duplicative code in .github/workflows](https://github.com/konveyor/builder/issues/41) — konveyor/builder
-- [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#603 context-mode: upgrade to v2.1.4 and move off per-session spawn](https://github.com/kaovilai/dotfiles/issues/603) — kaovilai/dotfiles
 - [#44 feat: one tailscaled per internet connection, so each bonded path gets Tailscale NAT traversal (servers behind CGNAT)](https://github.com/kaovilai/tailbond/issues/44) — kaovilai/tailbond
 - [#17422 [Bug]: Mobile composer stops saving typed text, so the send button stays disabled until the app restarts](https://github.com/pingdotgg/t3code/issues/17422) — pingdotgg/t3code
