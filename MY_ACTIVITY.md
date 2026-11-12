@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-14 — 2026-11-12
-> **Generated:** 2026-11-12 17:08:27 UTC
+> **Generated:** 2026-11-12 18:11:22 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -32,6 +32,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#651 feat(proxy): prune stale images outside a trailing message window](https://github.com/kaovilai/dotfiles/pull/651) — kaovilai/dotfiles
 - [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
 - [#213 fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance](https://github.com/kaovilai/github-bot-command-palette/pull/213) — kaovilai/github-bot-command-palette
@@ -121,7 +122,6 @@
 - [#637 fix(menubar): in-flight bars — oldest at the bottom, new ones from the top](https://github.com/kaovilai/dotfiles/pull/637) — kaovilai/dotfiles
 - [#634 feat(fleet-sync): keep the shared context-mode daemon current on every machine](https://github.com/kaovilai/dotfiles/pull/634) — kaovilai/dotfiles
 - [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
-- [#635 fix(menubar): host hover filters the tok/s chart too](https://github.com/kaovilai/dotfiles/pull/635) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
