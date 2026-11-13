@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:22:56Z",
+  "generatedAt": "2026-11-13T03:23:24Z",
   "items": [
     {
       "number": 978,
@@ -27428,7 +27428,7 @@
       "state": "merged",
       "createdAt": "2026-05-16T07:57:34Z",
       "closedAt": "2026-05-16T08:03:06Z",
-      "updatedAt": "2026-05-16T08:03:06Z",
+      "updatedAt": "2026-11-12T09:47:01Z",
       "workstream": "Uncategorized"
     },
     {
@@ -27441,7 +27441,7 @@
       "state": "closed",
       "createdAt": "2026-05-16T07:57:44Z",
       "closedAt": "2026-05-16T08:25:40Z",
-      "updatedAt": "2026-05-16T08:25:40Z",
+      "updatedAt": "2026-11-12T09:49:00Z",
       "workstream": "Uncategorized"
     },
     {
@@ -27714,7 +27714,7 @@
       "state": "merged",
       "createdAt": "2026-05-16T18:54:14Z",
       "closedAt": "2026-05-16T18:54:21Z",
-      "updatedAt": "2026-05-16T18:54:21Z",
+      "updatedAt": "2026-11-12T09:49:11Z",
       "workstream": "Uncategorized"
     },
     {
@@ -27844,7 +27844,7 @@
       "state": "merged",
       "createdAt": "2026-05-17T13:57:22Z",
       "closedAt": "2026-05-17T14:02:19Z",
-      "updatedAt": "2026-05-17T14:02:19Z",
+      "updatedAt": "2026-11-12T09:49:13Z",
       "workstream": "Uncategorized"
     },
     {
@@ -27857,7 +27857,7 @@
       "state": "merged",
       "createdAt": "2026-05-17T15:00:57Z",
       "closedAt": "2026-05-17T15:01:14Z",
-      "updatedAt": "2026-05-17T15:02:42Z",
+      "updatedAt": "2026-11-12T09:49:15Z",
       "workstream": "Uncategorized"
     },
     {
@@ -27883,7 +27883,7 @@
       "state": "merged",
       "createdAt": "2026-05-17T15:01:49Z",
       "closedAt": "2026-05-17T15:04:13Z",
-      "updatedAt": "2026-05-17T15:04:30Z",
+      "updatedAt": "2026-11-12T09:49:16Z",
       "workstream": "Uncategorized"
     },
     {
@@ -28065,7 +28065,7 @@
       "state": "merged",
       "createdAt": "2026-05-18T18:28:13Z",
       "closedAt": "2026-05-18T18:31:51Z",
-      "updatedAt": "2026-05-18T18:31:51Z",
+      "updatedAt": "2026-11-12T09:50:28Z",
       "workstream": "Uncategorized"
     },
     {
@@ -28104,7 +28104,7 @@
       "state": "merged",
       "createdAt": "2026-05-18T18:30:40Z",
       "closedAt": "2026-05-18T18:37:11Z",
-      "updatedAt": "2026-05-18T18:37:11Z",
+      "updatedAt": "2026-11-12T09:50:30Z",
       "workstream": "Uncategorized"
     },
     {
@@ -28130,7 +28130,7 @@
       "state": "merged",
       "createdAt": "2026-05-18T18:30:41Z",
       "closedAt": "2026-05-18T18:43:33Z",
-      "updatedAt": "2026-05-18T18:43:33Z",
+      "updatedAt": "2026-11-12T09:50:32Z",
       "workstream": "Uncategorized"
     },
     {
@@ -28208,7 +28208,7 @@
       "state": "merged",
       "createdAt": "2026-05-18T18:43:50Z",
       "closedAt": "2026-05-18T20:04:16Z",
-      "updatedAt": "2026-05-18T20:04:16Z",
+      "updatedAt": "2026-11-12T09:50:33Z",
       "workstream": "Uncategorized"
     },
     {
@@ -30279,6 +30279,19 @@
       "workstream": "KubeVirt Data Mover"
     },
     {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-07-16T22:20:20Z",
+      "closedAt": "2026-11-13T01:35:58Z",
+      "updatedAt": "2026-11-13T01:35:58Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10027,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -30485,6 +30498,19 @@
       "closedAt": "2026-10-09T16:47:25Z",
       "updatedAt": "2026-10-09T16:47:26Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 10040,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error",
+      "url": "https://github.com/velero-io/velero/issues/10040",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-07-20T15:01:34Z",
+      "closedAt": "2026-11-13T01:35:56Z",
+      "updatedAt": "2026-11-13T01:35:56Z",
+      "workstream": "Velero"
     },
     {
       "number": 10042,
@@ -30952,6 +30978,19 @@
       "createdAt": "2026-07-25T23:21:21Z",
       "closedAt": "2026-09-29T08:36:13Z",
       "updatedAt": "2026-09-29T08:36:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10078,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CI to check doc compliance with code change",
+      "url": "https://github.com/velero-io/velero/issues/10078",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-07-25T23:35:50Z",
+      "closedAt": "2026-11-13T01:35:54Z",
+      "updatedAt": "2026-11-13T01:35:54Z",
       "workstream": "Velero"
     },
     {
@@ -36246,6 +36285,19 @@
       "workstream": "Velero"
     },
     {
+      "number": 25558,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Initialize Git gives no confirmation for ~30 s when the folder holds a lot of untracked data (change-totals diff times out)",
+      "url": "https://github.com/pingdotgg/t3code/issues/25558",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-10-26T16:37:18Z",
+      "closedAt": "2026-11-12T08:02:05Z",
+      "updatedAt": "2026-11-12T08:02:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 649,
       "repo": "ceph/ceph-csi-operator",
       "org": "ceph",
@@ -36451,6 +36503,19 @@
       "createdAt": "2026-11-04T03:12:39Z",
       "closedAt": "2026-11-04T09:25:44Z",
       "updatedAt": "2026-11-04T09:25:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 30685,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: Slash menu drifts away from the composer when dragging on iPad",
+      "url": "https://github.com/pingdotgg/t3code/issues/30685",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-11-04T07:03:49Z",
+      "closedAt": "2026-11-12T07:02:02Z",
+      "updatedAt": "2026-11-12T07:05:07Z",
       "workstream": "Uncategorized"
     },
     {
@@ -38768,6 +38833,19 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 388,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/388",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-11T11:28:01Z",
+      "closedAt": "2026-11-12T14:15:50Z",
+      "updatedAt": "2026-11-12T14:15:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 13,
       "repo": "kaovilai/context-mode",
       "org": "kaovilai",
@@ -38778,6 +38856,19 @@
       "createdAt": "2026-11-11T12:34:18Z",
       "closedAt": "2026-11-11T12:37:30Z",
       "updatedAt": "2026-11-11T12:40:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 69,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Fix the syft image tag in release SBOM scanning",
+      "url": "https://github.com/konveyor/builder/pull/69",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-11T12:44:10Z",
+      "closedAt": "2026-11-12T09:20:29Z",
+      "updatedAt": "2026-11-12T09:20:29Z",
       "workstream": "Uncategorized"
     },
     {
@@ -38820,6 +38911,19 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 70,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Track CI tool image pins with Dependabot via compose",
+      "url": "https://github.com/konveyor/builder/pull/70",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-11T15:36:23Z",
+      "closedAt": "2026-11-12T09:19:48Z",
+      "updatedAt": "2026-11-12T09:19:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 90,
       "repo": "kaovilai/kaovilai",
       "org": "kaovilai",
@@ -38830,6 +38934,19 @@
       "createdAt": "2026-11-11T15:54:23Z",
       "closedAt": "2026-11-11T16:05:53Z",
       "updatedAt": "2026-11-11T16:05:53Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 498,
+      "repo": "caozhiyuan/copilot-api",
+      "org": "caozhiyuan",
+      "title": "fix: drop empty/missing text blocks before Responses translation (400 \"Missing required parameter: input[N].content[M].text\")",
+      "url": "https://github.com/caozhiyuan/copilot-api/pull/498",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-11T16:45:43Z",
+      "closedAt": "2026-11-12T13:52:58Z",
+      "updatedAt": "2026-11-12T14:47:09Z",
       "workstream": "Uncategorized"
     },
     {
@@ -38986,6 +39103,201 @@
       "createdAt": "2026-11-11T19:44:42Z",
       "closedAt": "2026-11-11T20:46:33Z",
       "updatedAt": "2026-11-11T22:12:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 57,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization",
+      "url": "https://github.com/kaovilai/podm/pull/57",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-11T23:57:29Z",
+      "closedAt": "2026-11-12T06:45:06Z",
+      "updatedAt": "2026-11-12T06:45:06Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 58,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): record real podman + docker CLI requests against a mock socket — upstream drift detection",
+      "url": "https://github.com/kaovilai/podm/pull/58",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T05:54:26Z",
+      "closedAt": "2026-11-12T08:08:02Z",
+      "updatedAt": "2026-11-12T08:08:02Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 211,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): prevent duplicate Test/Override buttons from overlapping injects",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/211",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T06:54:32Z",
+      "closedAt": "2026-11-12T07:07:32Z",
+      "updatedAt": "2026-11-12T07:07:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 59,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): podman 6.2.0 canary catch — baseline refresh, push platform fix, new-command detection",
+      "url": "https://github.com/kaovilai/podm/pull/59",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T08:12:51Z",
+      "closedAt": "2026-11-13T00:35:23Z",
+      "updatedAt": "2026-11-13T00:35:24Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "[fork-sync] reconciled rebase onto upstream/main",
+      "url": "https://github.com/kaovilai/context-mode/pull/16",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T08:29:42Z",
+      "closedAt": "2026-11-13T00:45:45Z",
+      "updatedAt": "2026-11-13T00:45:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 72,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "README: replace version badges with an animated version-tracks graphic",
+      "url": "https://github.com/konveyor/builder/pull/72",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T10:11:37Z",
+      "closedAt": "2026-11-12T11:41:31Z",
+      "updatedAt": "2026-11-12T11:41:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 213,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/213",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T10:12:01Z",
+      "closedAt": "2026-11-12T14:20:02Z",
+      "updatedAt": "2026-11-12T14:20:02Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 214,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/214",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T10:14:52Z",
+      "closedAt": "2026-11-12T11:02:08Z",
+      "updatedAt": "2026-11-12T11:02:08Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 215,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "ci: probe GITHUB_TOKEN workflow-file push with workflows: write (throwaway)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/215",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-12T10:43:59Z",
+      "closedAt": "2026-11-12T10:48:49Z",
+      "updatedAt": "2026-11-12T11:03:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 73,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Document the base-image Python Dependabot alerts as known noise",
+      "url": "https://github.com/konveyor/builder/pull/73",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T12:06:13Z",
+      "closedAt": "2026-11-12T12:15:57Z",
+      "updatedAt": "2026-11-12T12:15:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 648,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(zsh): add t3-triage function for the t3 triage claude shim",
+      "url": "https://github.com/kaovilai/dotfiles/pull/648",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T12:27:11Z",
+      "closedAt": "2026-11-12T15:33:27Z",
+      "updatedAt": "2026-11-12T15:45:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 649,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "ci: raise hosted-only-review max-turns 50 -> 300",
+      "url": "https://github.com/kaovilai/dotfiles/pull/649",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T13:22:04Z",
+      "closedAt": "2026-11-12T13:59:14Z",
+      "updatedAt": "2026-11-12T15:45:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 650,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(usage): trace reroutes to their session",
+      "url": "https://github.com/kaovilai/dotfiles/pull/650",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T13:26:16Z",
+      "closedAt": "2026-11-12T14:08:50Z",
+      "updatedAt": "2026-11-12T14:08:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 651,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(proxy): prune stale images outside a trailing message window",
+      "url": "https://github.com/kaovilai/dotfiles/pull/651",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T14:29:05Z",
+      "closedAt": "2026-11-12T17:17:15Z",
+      "updatedAt": "2026-11-12T17:17:16Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "chore(release): 2.2.8 — upstream v2.1.8 sync landed",
+      "url": "https://github.com/kaovilai/context-mode/pull/17",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-13T00:54:26Z",
+      "closedAt": "2026-11-13T01:03:10Z",
+      "updatedAt": "2026-11-13T01:03:10Z",
       "workstream": "Uncategorized"
     }
   ]
