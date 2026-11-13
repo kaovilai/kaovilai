@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-15 — 2026-11-13
-> **Generated:** 2026-11-13 13:09:10 UTC
+> **Generated:** 2026-11-13 14:09:46 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 27 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 94 |
+| Issues Closed | 95 |
 
 ---
 
@@ -32,6 +32,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#64 fix(build): honest 400s for additionalbuildcontexts and remote contexts](https://github.com/kaovilai/podm/pull/64) — kaovilai/podm
 - [#652 fix(zsh): background notices go to stderr — stdout capture poisoned LANG](https://github.com/kaovilai/dotfiles/pull/652) — kaovilai/dotfiles
 - [#60 feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds](https://github.com/kaovilai/podm/pull/60) — kaovilai/podm
 - [#17 chore(release): 2.2.8 — upstream v2.1.8 sync landed](https://github.com/kaovilai/context-mode/pull/17) — kaovilai/context-mode
@@ -121,7 +122,6 @@
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
 - [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
-- [#638 feat(menubar): reload the helper from fleet-sync](https://github.com/kaovilai/dotfiles/pull/638) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -317,8 +317,8 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (55)
-- [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
 - [#16000 [Bug]: Runtime-mode, instance and worktree changes detach the Claude session and kill live subagents without the background-work check](https://github.com/pingdotgg/t3code/issues/16000) — pingdotgg/t3code
@@ -372,7 +372,7 @@
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
-## Issues Closed (94)
+## Issues Closed (95)
 
 **velero-io** (26)
 - [#10040 NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error](https://github.com/velero-io/velero/issues/10040) — velero-io/velero
@@ -424,7 +424,8 @@
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (50)
+**Other** (51)
+- [#54 bug(build): silently-dropped params — additionalbuildcontexts (--build-context), remote URL contexts, audit tail](https://github.com/kaovilai/podm/issues/54) — kaovilai/podm
 - [#25558 [Bug]: Initialize Git gives no confirmation for ~30 s when the folder holds a lot of untracked data (change-totals diff times out)](https://github.com/pingdotgg/t3code/issues/25558) — pingdotgg/t3code
 - [#30685 [Bug]: Slash menu drifts away from the composer when dragging on iPad](https://github.com/pingdotgg/t3code/issues/30685) — pingdotgg/t3code
 - [#45 bug(containers): podman run hangs after container exit; DELETE /containers/{id} never answers](https://github.com/kaovilai/podm/issues/45) — kaovilai/podm

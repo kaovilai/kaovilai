@@ -3,15 +3,24 @@
     "start": "2026-08-15",
     "end": "2026-11-13"
   },
-  "generatedAt": "2026-11-13T13:09:10Z",
+  "generatedAt": "2026-11-13T14:09:46Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 27,
     "issuesCommented": 100,
-    "issuesClosed": 94
+    "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 64,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): honest 400s for additionalbuildcontexts and remote contexts",
+      "url": "https://github.com/kaovilai/podm/pull/64",
+      "date": "2026-11-13T14:00:43Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 652,
       "repo": "kaovilai/dotfiles",
@@ -901,15 +910,6 @@
       "title": "ci: an empty diff builds nothing and releases nothing",
       "url": "https://github.com/kaovilai/tailbond/pull/56",
       "date": "2026-11-08T18:28:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 638,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(menubar): reload the helper from fleet-sync",
-      "url": "https://github.com/kaovilai/dotfiles/pull/638",
-      "date": "2026-11-08T17:29:50Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -2062,6 +2062,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-13T14:04:55Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10026,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2096,15 +2105,6 @@
       "url": "https://github.com/velero-io/velero/issues/10078",
       "date": "2026-11-13T01:35:54Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-12T14:46:17Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 604,
@@ -2963,6 +2963,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 54,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "bug(build): silently-dropped params — additionalbuildcontexts (--build-context), remote URL contexts, audit tail",
+      "url": "https://github.com/kaovilai/podm/issues/54",
+      "date": "2026-11-13T14:00:44Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10040,
       "repo": "velero-io/velero",
