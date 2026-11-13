@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-15 — 2026-11-13
-> **Generated:** 2026-11-13 15:09:06 UTC
+> **Generated:** 2026-11-13 16:10:05 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 27 |
+| PRs Reviewed | 28 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 95 |
 
@@ -229,9 +229,10 @@
 - [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
 - [#11 pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon](https://github.com/kaovilai/podm/pull/11) — kaovilai/podm
 - [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
-## PRs Reviewed (27)
+## PRs Reviewed (28)
 
-**velero-io** (16)
+**velero-io** (17)
+- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
