@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-15 — 2026-11-13
-> **Generated:** 2026-11-13 00:29:30 UTC
+> **Generated:** 2026-11-13 06:18:21 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 25 |
+| PRs Reviewed | 26 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 92 |
+| Issues Closed | 95 |
 
 ---
 
@@ -32,6 +32,10 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#60 feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds](https://github.com/kaovilai/podm/pull/60) — kaovilai/podm
+- [#17 chore(release): 2.2.8 — upstream v2.1.8 sync landed](https://github.com/kaovilai/context-mode/pull/17) — kaovilai/context-mode
+- [#16 [fork-sync] reconciled rebase onto upstream/main](https://github.com/kaovilai/context-mode/pull/16) — kaovilai/context-mode
+- [#59 ci(wire-contract): podman 6.2.0 canary catch — baseline refresh, push platform fix, new-command detection](https://github.com/kaovilai/podm/pull/59) — kaovilai/podm
 - [#651 feat(proxy): prune stale images outside a trailing message window](https://github.com/kaovilai/dotfiles/pull/651) — kaovilai/dotfiles
 - [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
 - [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
@@ -118,10 +122,6 @@
 - [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
 - [#638 feat(menubar): reload the helper from fleet-sync](https://github.com/kaovilai/dotfiles/pull/638) — kaovilai/dotfiles
 - [#54 openwrt: the apk package for 25.12, tested in CI on the latest image](https://github.com/kaovilai/tailbond/pull/54) — kaovilai/tailbond
-- [#5 fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile](https://github.com/kaovilai/context-mode/pull/5) — kaovilai/context-mode
-- [#637 fix(menubar): in-flight bars — oldest at the bottom, new ones from the top](https://github.com/kaovilai/dotfiles/pull/637) — kaovilai/dotfiles
-- [#634 feat(fleet-sync): keep the shared context-mode daemon current on every machine](https://github.com/kaovilai/dotfiles/pull/634) — kaovilai/dotfiles
-- [#636 perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks](https://github.com/kaovilai/dotfiles/pull/636) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#17 chore(release): 2.2.8 — upstream v2.1.8 sync landed](https://github.com/kaovilai/context-mode/pull/17) — kaovilai/context-mode
 - [#651 feat(proxy): prune stale images outside a trailing message window](https://github.com/kaovilai/dotfiles/pull/651) — kaovilai/dotfiles
 - [#650 feat(usage): trace reroutes to their session](https://github.com/kaovilai/dotfiles/pull/650) — kaovilai/dotfiles
 - [#649 ci: raise hosted-only-review max-turns 50 -> 300](https://github.com/kaovilai/dotfiles/pull/649) — kaovilai/dotfiles
@@ -228,8 +229,7 @@
 - [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
 - [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
-- [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
-## PRs Reviewed (25)
+## PRs Reviewed (26)
 
 **velero-io** (15)
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
@@ -256,7 +256,8 @@
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 
-**migtools** (2)
+**migtools** (3)
+- [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 - [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
 - [#251 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/kubevirt-datamover-controller/pull/251) — migtools/kubevirt-datamover-controller
 
@@ -266,6 +267,9 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (42)
+- [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
+- [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
+- [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
 - [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
@@ -278,8 +282,6 @@
 - [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
 - [#10018 Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos](https://github.com/velero-io/velero/issues/10018) — velero-io/velero
-- [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
-- [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
 - [#10675 E2E: Kibishii cases reachable on kind with CSI but never run there](https://github.com/velero-io/velero/issues/10675) — velero-io/velero
 - [#9650 Restore fails when Service last-applied-configuration has "healthCheckNodePort": null](https://github.com/velero-io/velero/issues/9650) — velero-io/velero
 - [#10730 DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)](https://github.com/velero-io/velero/issues/10730) — velero-io/velero
@@ -307,7 +309,6 @@
 - [#8454 Large PVCs are canceled](https://github.com/velero-io/velero/issues/8454) — velero-io/velero
 - [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
 - [#2098 Implement abort running backup job](https://github.com/velero-io/velero/issues/2098) — velero-io/velero
-- [#9260 Add CRD version compatibility validation during server startup](https://github.com/velero-io/velero/issues/9260) — velero-io/velero
 
 **openshift** (3)
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
@@ -370,9 +371,12 @@
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
 - [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
 - [#7520 [Workaround in description] Mac is detecting Docker as a malware and keeping it from starting](https://github.com/docker/for-mac/issues/7520) — docker/for-mac
-## Issues Closed (92)
+## Issues Closed (95)
 
-**velero-io** (24)
+**velero-io** (27)
+- [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
+- [#10040 NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error](https://github.com/velero-io/velero/issues/10040) — velero-io/velero
+- [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
 - [#10724 Block data mover pods OOMKilled: async write burst scales with node CPUs, no Go memory limit](https://github.com/velero-io/velero/issues/10724) — velero-io/velero

@@ -3,15 +3,51 @@
     "start": "2026-08-15",
     "end": "2026-11-13"
   },
-  "generatedAt": "2026-11-13T00:29:30Z",
+  "generatedAt": "2026-11-13T06:18:21Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 25,
+    "prsReviewed": 26,
     "issuesCommented": 100,
-    "issuesClosed": 92
+    "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 60,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds",
+      "url": "https://github.com/kaovilai/podm/pull/60",
+      "date": "2026-11-13T06:09:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 17,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "chore(release): 2.2.8 — upstream v2.1.8 sync landed",
+      "url": "https://github.com/kaovilai/context-mode/pull/17",
+      "date": "2026-11-13T01:03:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 16,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "[fork-sync] reconciled rebase onto upstream/main",
+      "url": "https://github.com/kaovilai/context-mode/pull/16",
+      "date": "2026-11-13T00:45:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 59,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "ci(wire-contract): podman 6.2.0 canary catch — baseline refresh, push platform fix, new-command detection",
+      "url": "https://github.com/kaovilai/podm/pull/59",
+      "date": "2026-11-13T00:35:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 651,
       "repo": "kaovilai/dotfiles",
@@ -875,45 +911,18 @@
       "url": "https://github.com/kaovilai/tailbond/pull/54",
       "date": "2026-11-08T17:17:30Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 5,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fork main CI green + fork-sync: daily rebase onto upstream with agentic reconcile",
-      "url": "https://github.com/kaovilai/context-mode/pull/5",
-      "date": "2026-11-08T16:59:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 637,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(menubar): in-flight bars — oldest at the bottom, new ones from the top",
-      "url": "https://github.com/kaovilai/dotfiles/pull/637",
-      "date": "2026-11-08T13:46:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 634,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(fleet-sync): keep the shared context-mode daemon current on every machine",
-      "url": "https://github.com/kaovilai/dotfiles/pull/634",
-      "date": "2026-11-08T13:12:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 636,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(fleet-sync): overlap repo fetches, skip idle sync-harnesses walks",
-      "url": "https://github.com/kaovilai/dotfiles/pull/636",
-      "date": "2026-11-08T13:11:49Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 17,
+      "repo": "kaovilai/context-mode",
+      "org": "kaovilai",
+      "title": "chore(release): 2.2.8 — upstream v2.1.8 sync landed",
+      "url": "https://github.com/kaovilai/context-mode/pull/17",
+      "date": "2026-11-13T00:54:26Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 651,
       "repo": "kaovilai/dotfiles",
@@ -1804,18 +1813,27 @@
       "url": "https://github.com/konveyor/builder/pull/56",
       "date": "2026-11-09T03:28:31Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 57,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "pairing: a success that arrives after the caller gave up is still abandoned",
-      "url": "https://github.com/kaovilai/tailbond/pull/57",
-      "date": "2026-11-08T18:14:44Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 200,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump the go-security group across 1 directory with 2 updates",
+      "url": "https://github.com/migtools/udistribution/pull/200",
+      "date": "2026-11-13T01:33:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 256,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
+      "date": "2026-11-13T01:04:10Z",
+      "workstream": "KubeVirt Data Mover"
+    },
     {
       "number": 10822,
       "repo": "velero-io/velero",
@@ -1824,15 +1842,6 @@
       "url": "https://github.com/velero-io/velero/pull/10822",
       "date": "2026-11-12T14:54:06Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 256,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
-      "date": "2026-11-12T10:55:18Z",
-      "workstream": "KubeVirt Data Mover"
     },
     {
       "number": 10667,
@@ -2043,6 +2052,33 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9963,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory",
+      "url": "https://github.com/velero-io/velero/issues/9963",
+      "date": "2026-11-13T01:36:03Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "date": "2026-11-13T01:35:58Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10078,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CI to check doc compliance with code change",
+      "url": "https://github.com/velero-io/velero/issues/10078",
+      "date": "2026-11-13T01:35:54Z",
+      "workstream": "Velero"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2419,24 +2455,6 @@
       "title": "Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos",
       "url": "https://github.com/velero-io/velero/issues/10018",
       "date": "2026-10-29T03:35:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10026,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
-      "url": "https://github.com/velero-io/velero/issues/10026",
-      "date": "2026-10-29T01:36:43Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10078,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "CI to check doc compliance with code change",
-      "url": "https://github.com/velero-io/velero/issues/10078",
-      "date": "2026-10-29T01:36:39Z",
       "workstream": "Velero"
     },
     {
@@ -2933,18 +2951,36 @@
       "url": "https://github.com/docker/for-mac/issues/7520",
       "date": "2026-09-30T18:53:08Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 9260,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add CRD version compatibility validation during server startup",
-      "url": "https://github.com/velero-io/velero/issues/9260",
-      "date": "2026-09-29T14:25:37Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "date": "2026-11-13T01:35:58Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10040,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error",
+      "url": "https://github.com/velero-io/velero/issues/10040",
+      "date": "2026-11-13T01:35:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10078,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CI to check doc compliance with code change",
+      "url": "https://github.com/velero-io/velero/issues/10078",
+      "date": "2026-11-13T01:35:54Z",
+      "workstream": "Velero"
+    },
     {
       "number": 25558,
       "repo": "pingdotgg/t3code",
