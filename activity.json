@@ -3,11 +3,11 @@
     "start": "2026-08-15",
     "end": "2026-11-13"
   },
-  "generatedAt": "2026-11-13T12:13:40Z",
+  "generatedAt": "2026-11-13T13:09:10Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 26,
+    "prsReviewed": 27,
     "issuesCommented": 100,
     "issuesClosed": 94
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 64,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): honest 400s for additionalbuildcontexts and remote contexts",
+      "url": "https://github.com/kaovilai/podm/pull/64",
+      "date": "2026-11-13T12:44:16Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 652,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -1804,18 +1813,18 @@
       "url": "https://github.com/kaovilai/kaovilai/pull/87",
       "date": "2026-11-09T06:42:02Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 639,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/639",
-      "date": "2026-11-09T05:20:22Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10670,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix restore selecting every namespace when an include wildcard matches none",
+      "url": "https://github.com/velero-io/velero/pull/10670",
+      "date": "2026-11-13T12:52:38Z",
+      "workstream": "Velero"
+    },
     {
       "number": 200,
       "repo": "migtools/udistribution",

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-15 — 2026-11-13
-> **Generated:** 2026-11-13 12:13:40 UTC
+> **Generated:** 2026-11-13 13:09:10 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 26 |
+| PRs Reviewed | 27 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 94 |
 
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#64 fix(build): honest 400s for additionalbuildcontexts and remote contexts](https://github.com/kaovilai/podm/pull/64) — kaovilai/podm
 - [#652 fix(zsh): background notices go to stderr — stdout capture poisoned LANG](https://github.com/kaovilai/dotfiles/pull/652) — kaovilai/dotfiles
 - [#17 chore(release): 2.2.8 — upstream v2.1.8 sync landed](https://github.com/kaovilai/context-mode/pull/17) — kaovilai/context-mode
 - [#651 feat(proxy): prune stale images outside a trailing message window](https://github.com/kaovilai/dotfiles/pull/651) — kaovilai/dotfiles
@@ -228,10 +229,10 @@
 - [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
 - [#11 pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon](https://github.com/kaovilai/podm/pull/11) — kaovilai/podm
 - [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
-- [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
-## PRs Reviewed (26)
+## PRs Reviewed (27)
 
-**velero-io** (15)
+**velero-io** (16)
+- [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
