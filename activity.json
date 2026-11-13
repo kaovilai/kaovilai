@@ -3,15 +3,24 @@
     "start": "2026-08-15",
     "end": "2026-11-13"
   },
-  "generatedAt": "2026-11-13T06:18:21Z",
+  "generatedAt": "2026-11-13T12:13:40Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 26,
     "issuesCommented": 100,
-    "issuesClosed": 95
+    "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 652,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(zsh): background notices go to stderr — stdout capture poisoned LANG",
+      "url": "https://github.com/kaovilai/dotfiles/pull/652",
+      "date": "2026-11-13T10:33:00Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 60,
       "repo": "kaovilai/podm",
@@ -902,18 +911,18 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/638",
       "date": "2026-11-08T17:29:50Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 54,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "openwrt: the apk package for 25.12, tested in CI on the latest image",
-      "url": "https://github.com/kaovilai/tailbond/pull/54",
-      "date": "2026-11-08T17:17:30Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 652,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(zsh): background notices go to stderr — stdout capture poisoned LANG",
+      "url": "https://github.com/kaovilai/dotfiles/pull/652",
+      "date": "2026-11-13T10:25:16Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 17,
       "repo": "kaovilai/context-mode",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/639",
       "date": "2026-11-09T05:20:22Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 56,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Mark pre-release go-fips content in badges and releases",
-      "url": "https://github.com/konveyor/builder/pull/56",
-      "date": "2026-11-09T03:28:31Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2053,21 +2053,30 @@
   ],
   "issuesCommented": [
     {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "date": "2026-11-13T10:26:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 260,
+      "repo": "Saffsanity/sill",
+      "org": "Saffsanity",
+      "title": "Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app",
+      "url": "https://github.com/Saffsanity/sill/issues/260",
+      "date": "2026-11-13T09:11:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 9963,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory",
       "url": "https://github.com/velero-io/velero/issues/9963",
       "date": "2026-11-13T01:36:03Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10026,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
-      "url": "https://github.com/velero-io/velero/issues/10026",
-      "date": "2026-11-13T01:35:58Z",
       "workstream": "Velero"
     },
     {
@@ -2942,27 +2951,9 @@
       "url": "https://github.com/velero-io/velero/issues/2098",
       "date": "2026-09-30T19:56:23Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 7520,
-      "repo": "docker/for-mac",
-      "org": "docker",
-      "title": "[Workaround in description] Mac is detecting Docker as a malware and keeping it from starting",
-      "url": "https://github.com/docker/for-mac/issues/7520",
-      "date": "2026-09-30T18:53:08Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
-    {
-      "number": 10026,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
-      "url": "https://github.com/velero-io/velero/issues/10026",
-      "date": "2026-11-13T01:35:58Z",
-      "workstream": "Velero"
-    },
     {
       "number": 10040,
       "repo": "velero-io/velero",
