@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-14 00:02:48 UTC
+> Last updated: 2026-11-14 06:01:16 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -81,6 +81,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #330](https://img.shields.io/badge/PR%20%23330-ready-green)](https://github.com/openshift/hypershift-oadp-plugin/pull/330) **openshift/hypershift-oadp-plugin** → `main` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #504](https://img.shields.io/badge/PR%20%23504-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/504) **openshift/openshift-velero-plugin** → `oadp-dev` - NO-JIRA: Group Go security updates in Dependabot
 - [![PR #507](https://img.shields.io/badge/PR%20%23507-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/507) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/go-jose/go-jose/v4 from 4.1.4 to 4.1.6
+- [![PR #511](https://img.shields.io/badge/PR%20%23511-ready-green)](https://github.com/openshift/openshift-velero-plugin/pull/511) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #88500](https://img.shields.io/badge/PR%20%2388500-ready-green)](https://github.com/openshift/release/pull/88500) **openshift/release** → `main` - OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel
@@ -187,8 +188,11 @@ No open PRs.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #647](https://img.shields.io/badge/PR%20%23647-ready-green)](https://github.com/kaovilai/dotfiles/pull/647) **kaovilai/dotfiles** → `main` - feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases
+- [![PR #655](https://img.shields.io/badge/PR%20%23655-ready-green)](https://github.com/kaovilai/dotfiles/pull/655) **kaovilai/dotfiles** → `feat/hosted-pair-muse-spark` - docs(claude): codify the hosted-only model-pair and search requirements
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #653](https://img.shields.io/badge/PR%20%23653-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/653) **kaovilai/dotfiles** → `main` - Hosted-only pair swap: DeepSeek V4.1 Flash primary, Muse Spark Open fallback
+- [![PR #66](https://img.shields.io/badge/PR%20%2366-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/66) **kaovilai/podm** → `main` - fix(containers): docker run --rm no longer fails with 125 after a fast exit
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
@@ -234,6 +238,7 @@ No open PRs.
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-hold-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
+- [![PR #65](https://img.shields.io/badge/PR%20%2365-failing--ci-red)](https://github.com/kaovilai/podm/pull/65) **kaovilai/podm** → `main` - fix(info): serve the libpod schema at /libpod/info — podman info panicked the CLI
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
