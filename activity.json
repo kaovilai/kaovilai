@@ -3,7 +3,7 @@
     "start": "2026-08-16",
     "end": "2026-11-14"
   },
-  "generatedAt": "2026-11-14T12:15:18Z",
+  "generatedAt": "2026-11-14T18:12:54Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,42 @@
     "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 66,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): docker run --rm no longer fails with 125 after a fast exit",
+      "url": "https://github.com/kaovilai/podm/pull/66",
+      "date": "2026-11-14T15:45:57Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 70,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): successful podman builds no longer fail on a Docker-only aux record",
+      "url": "https://github.com/kaovilai/podm/pull/70",
+      "date": "2026-11-14T13:28:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 68,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(app): sanitize an unparseable LANG/LC_* instead of crashing in ICU",
+      "url": "https://github.com/kaovilai/podm/pull/68",
+      "date": "2026-11-14T13:06:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 71,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): reject unrunnable platforms, warn on fractional --cpus",
+      "url": "https://github.com/kaovilai/podm/pull/71",
+      "date": "2026-11-14T12:24:22Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 656,
       "repo": "kaovilai/dotfiles",
@@ -874,42 +910,6 @@
       "title": "Mark pre-release go-fips content in badges and releases",
       "url": "https://github.com/konveyor/builder/pull/56",
       "date": "2026-11-09T10:07:04Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 642,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(claude): tab completion for claude-mode",
-      "url": "https://github.com/kaovilai/dotfiles/pull/642",
-      "date": "2026-11-09T10:20:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 641,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(fleet-sync): heal failed plugin installs in the same run",
-      "url": "https://github.com/kaovilai/dotfiles/pull/641",
-      "date": "2026-11-09T10:14:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)",
-      "url": "https://github.com/kaovilai/context-mode/pull/6",
-      "date": "2026-11-09T09:29:53Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 640,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(claude): make hosted-only a claude-mode selection",
-      "url": "https://github.com/kaovilai/dotfiles/pull/640",
-      "date": "2026-11-09T09:29:48Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -2089,6 +2089,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-14T13:03:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 9603,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2122,15 +2131,6 @@
       "title": "[Bug]: Orphaned Python/Docker processes after closing MCP clients/agents",
       "url": "https://github.com/sooperset/mcp-atlassian/issues/909",
       "date": "2026-11-13T14:12:10Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-13T14:04:55Z",
       "workstream": "Uncategorized"
     },
     {

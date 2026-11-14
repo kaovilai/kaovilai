@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-16 — 2026-11-14
-> **Generated:** 2026-11-14 12:15:18 UTC
+> **Generated:** 2026-11-14 18:12:54 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -32,6 +32,10 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#66 fix(containers): docker run --rm no longer fails with 125 after a fast exit](https://github.com/kaovilai/podm/pull/66) — kaovilai/podm
+- [#70 fix(build): successful podman builds no longer fail on a Docker-only aux record](https://github.com/kaovilai/podm/pull/70) — kaovilai/podm
+- [#68 fix(app): sanitize an unparseable LANG/LC_* instead of crashing in ICU](https://github.com/kaovilai/podm/pull/68) — kaovilai/podm
+- [#71 fix(containers): reject unrunnable platforms, warn on fractional --cpus](https://github.com/kaovilai/podm/pull/71) — kaovilai/podm
 - [#656 fix(hosted-only): fingerprint every knob the launchers forward](https://github.com/kaovilai/dotfiles/pull/656) — kaovilai/dotfiles
 - [#655 docs(claude): codify the hosted-only model-pair and search requirements](https://github.com/kaovilai/dotfiles/pull/655) — kaovilai/dotfiles
 - [#69 fix(build): a failed RUN step names the step and its exit code](https://github.com/kaovilai/podm/pull/69) — kaovilai/podm
@@ -118,10 +122,6 @@
 - [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
 - [#12 pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula](https://github.com/kaovilai/podm/pull/12) — kaovilai/podm
 - [#56 Mark pre-release go-fips content in badges and releases](https://github.com/konveyor/builder/pull/56) — konveyor/builder
-- [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
-- [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
-- [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
-- [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -321,8 +321,8 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (54)
-- [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
 - [#10553 [Bug]: File links in agent output always resolve against the thread's project, not the repo the file is in](https://github.com/pingdotgg/t3code/issues/10553) — pingdotgg/t3code
