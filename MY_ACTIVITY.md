@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-16 — 2026-11-14
-> **Generated:** 2026-11-14 06:17:57 UTC
+> **Generated:** 2026-11-14 12:15:18 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -32,6 +32,11 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#656 fix(hosted-only): fingerprint every knob the launchers forward](https://github.com/kaovilai/dotfiles/pull/656) — kaovilai/dotfiles
+- [#655 docs(claude): codify the hosted-only model-pair and search requirements](https://github.com/kaovilai/dotfiles/pull/655) — kaovilai/dotfiles
+- [#69 fix(build): a failed RUN step names the step and its exit code](https://github.com/kaovilai/podm/pull/69) — kaovilai/podm
+- [#653 Hosted-only pair swap: DeepSeek V4.1 Flash primary, Muse Spark Open fallback](https://github.com/kaovilai/dotfiles/pull/653) — kaovilai/dotfiles
+- [#65 fix(info): serve the libpod schema at /libpod/info — podman info panicked the CLI](https://github.com/kaovilai/podm/pull/65) — kaovilai/podm
 - [#654 fix(hosted-only): serve Claude Code tool search inline instead of stripping it](https://github.com/kaovilai/dotfiles/pull/654) — kaovilai/dotfiles
 - [#64 fix(build): honest 400s for additionalbuildcontexts and remote contexts](https://github.com/kaovilai/podm/pull/64) — kaovilai/podm
 - [#652 fix(zsh): background notices go to stderr — stdout capture poisoned LANG](https://github.com/kaovilai/dotfiles/pull/652) — kaovilai/dotfiles
@@ -117,11 +122,6 @@
 - [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
 - [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
 - [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
-- [#639 perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)](https://github.com/kaovilai/dotfiles/pull/639) — kaovilai/dotfiles
-- [#11 pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon](https://github.com/kaovilai/podm/pull/11) — kaovilai/podm
-- [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
-- [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
-- [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,13 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#656 fix(hosted-only): fingerprint every knob the launchers forward](https://github.com/kaovilai/dotfiles/pull/656) — kaovilai/dotfiles
+- [#72 fix(containers): fast-exiting runs report their real exit code, not 255](https://github.com/kaovilai/podm/pull/72) — kaovilai/podm
+- [#71 fix(containers): reject unrunnable platforms, warn on fractional --cpus](https://github.com/kaovilai/podm/pull/71) — kaovilai/podm
+- [#70 fix(build): successful podman builds no longer fail on a Docker-only aux record](https://github.com/kaovilai/podm/pull/70) — kaovilai/podm
+- [#69 fix(build): a failed RUN step names the step and its exit code](https://github.com/kaovilai/podm/pull/69) — kaovilai/podm
+- [#68 fix(app): sanitize an unparseable LANG/LC_* instead of crashing in ICU](https://github.com/kaovilai/podm/pull/68) — kaovilai/podm
+- [#67 fix(images): honor --platform on pull, and run the variant that was pulled](https://github.com/kaovilai/podm/pull/67) — kaovilai/podm
 - [#66 fix(containers): docker run --rm no longer fails with 125 after a fast exit](https://github.com/kaovilai/podm/pull/66) — kaovilai/podm
 - [#655 docs(claude): codify the hosted-only model-pair and search requirements](https://github.com/kaovilai/dotfiles/pull/655) — kaovilai/dotfiles
 - [#65 fix(info): serve the libpod schema at /libpod/info — podman info panicked the CLI](https://github.com/kaovilai/podm/pull/65) — kaovilai/podm
@@ -222,16 +229,10 @@
 - [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
 - [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
 - [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
-- [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
-- [#2 Replace the rough taper estimate with a calibrated viewport projection](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) — RuixiangHuang/Macbook_Duo_Effect
-- [#13 Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers](https://github.com/kaovilai/podm/pull/13) — kaovilai/podm
-- [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
-- [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
-- [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
-- [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
 ## PRs Reviewed (30)
 
-**velero-io** (17)
+**velero-io** (18)
+- [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10829 build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory](https://github.com/velero-io/velero/pull/10829) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
@@ -259,12 +260,11 @@
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 
-**migtools** (5)
+**migtools** (4)
 - [#261 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-controller/pull/261) — migtools/kubevirt-datamover-controller
 - [#77 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-plugin/pull/77) — migtools/kubevirt-datamover-plugin
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 - [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
-- [#251 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/kubevirt-datamover-controller/pull/251) — migtools/kubevirt-datamover-controller
 
 **Other** (1)
 - [#7381 PROJQUAY-8767: fix(ui): load tag history on demand and search server-side](https://github.com/quay/quay/pull/7381) — quay/quay

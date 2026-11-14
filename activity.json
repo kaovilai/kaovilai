@@ -3,7 +3,7 @@
     "start": "2026-08-16",
     "end": "2026-11-14"
   },
-  "generatedAt": "2026-11-14T06:17:57Z",
+  "generatedAt": "2026-11-14T12:15:18Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,51 @@
     "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 656,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): fingerprint every knob the launchers forward",
+      "url": "https://github.com/kaovilai/dotfiles/pull/656",
+      "date": "2026-11-14T11:17:30Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 655,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs(claude): codify the hosted-only model-pair and search requirements",
+      "url": "https://github.com/kaovilai/dotfiles/pull/655",
+      "date": "2026-11-14T11:06:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 69,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): a failed RUN step names the step and its exit code",
+      "url": "https://github.com/kaovilai/podm/pull/69",
+      "date": "2026-11-14T09:27:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 653,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Hosted-only pair swap: DeepSeek V4.1 Flash primary, Muse Spark Open fallback",
+      "url": "https://github.com/kaovilai/dotfiles/pull/653",
+      "date": "2026-11-14T08:43:42Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 65,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(info): serve the libpod schema at /libpod/info — podman info panicked the CLI",
+      "url": "https://github.com/kaovilai/podm/pull/65",
+      "date": "2026-11-14T06:39:18Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 654,
       "repo": "kaovilai/dotfiles",
@@ -866,54 +911,72 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/640",
       "date": "2026-11-09T09:29:48Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 639,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "perf(llm-usage): dashboard poll 0.5s → 0.09s (memoized models, single-pass aggregate, cached status)",
-      "url": "https://github.com/kaovilai/dotfiles/pull/639",
-      "date": "2026-11-09T09:23:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon",
-      "url": "https://github.com/kaovilai/podm/pull/11",
-      "date": "2026-11-09T09:08:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 87,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes",
-      "url": "https://github.com/kaovilai/kaovilai/pull/87",
-      "date": "2026-11-09T07:07:59Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 55,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "docs: design note on deconstructing tailscaled, with the measurements that say don't",
-      "url": "https://github.com/kaovilai/tailbond/pull/55",
-      "date": "2026-11-08T18:49:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 57,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "pairing: a success that arrives after the caller gave up is still abandoned",
-      "url": "https://github.com/kaovilai/tailbond/pull/57",
-      "date": "2026-11-08T18:29:55Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 656,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): fingerprint every knob the launchers forward",
+      "url": "https://github.com/kaovilai/dotfiles/pull/656",
+      "date": "2026-11-14T11:09:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 72,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): fast-exiting runs report their real exit code, not 255",
+      "url": "https://github.com/kaovilai/podm/pull/72",
+      "date": "2026-11-14T08:22:41Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 71,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): reject unrunnable platforms, warn on fractional --cpus",
+      "url": "https://github.com/kaovilai/podm/pull/71",
+      "date": "2026-11-14T08:22:27Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 70,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): successful podman builds no longer fail on a Docker-only aux record",
+      "url": "https://github.com/kaovilai/podm/pull/70",
+      "date": "2026-11-14T07:04:58Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 69,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): a failed RUN step names the step and its exit code",
+      "url": "https://github.com/kaovilai/podm/pull/69",
+      "date": "2026-11-14T06:53:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 68,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(app): sanitize an unparseable LANG/LC_* instead of crashing in ICU",
+      "url": "https://github.com/kaovilai/podm/pull/68",
+      "date": "2026-11-14T06:37:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 67,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(images): honor --platform on pull, and run the variant that was pulled",
+      "url": "https://github.com/kaovilai/podm/pull/67",
+      "date": "2026-11-14T06:25:58Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 66,
       "repo": "kaovilai/podm",
@@ -1750,72 +1813,18 @@
       "url": "https://github.com/kaovilai/podm/pull/15",
       "date": "2026-11-09T11:26:59Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 14,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "ci: group all dependabot updates — one PR per ecosystem, security included",
-      "url": "https://github.com/kaovilai/podm/pull/14",
-      "date": "2026-11-09T11:20:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2,
-      "repo": "RuixiangHuang/Macbook_Duo_Effect",
-      "org": "RuixiangHuang",
-      "title": "Replace the rough taper estimate with a calibrated viewport projection",
-      "url": "https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2",
-      "date": "2026-11-09T11:13:14Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers",
-      "url": "https://github.com/kaovilai/podm/pull/13",
-      "date": "2026-11-09T10:49:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 58,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Add the smoke-test workflow badge to the README",
-      "url": "https://github.com/konveyor/builder/pull/58",
-      "date": "2026-11-09T10:38:09Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 57,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Publish only -pre tags for pre-release go-fips builds",
-      "url": "https://github.com/konveyor/builder/pull/57",
-      "date": "2026-11-09T10:35:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 642,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(claude): tab completion for claude-mode",
-      "url": "https://github.com/kaovilai/dotfiles/pull/642",
-      "date": "2026-11-09T10:16:56Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 641,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(fleet-sync): heal failed plugin installs in the same run",
-      "url": "https://github.com/kaovilai/dotfiles/pull/641",
-      "date": "2026-11-09T10:10:33Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10827,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "print load affinity value not address",
+      "url": "https://github.com/velero-io/velero/pull/10827",
+      "date": "2026-11-14T08:42:44Z",
+      "workstream": "Velero"
+    },
     {
       "number": 511,
       "repo": "openshift/openshift-velero-plugin",
@@ -2076,15 +2085,6 @@
       "url": "https://github.com/velero-io/velero/pull/10811",
       "date": "2026-11-10T03:17:48Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 251,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/251",
-      "date": "2026-11-10T01:53:00Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesCommented": [
