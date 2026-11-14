@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-16 — 2026-11-14
-> **Generated:** 2026-11-14 00:31:18 UTC
+> **Generated:** 2026-11-14 06:17:57 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 28 |
+| PRs Reviewed | 30 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 95 |
+| Issues Closed | 96 |
 
 ---
 
@@ -32,6 +32,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#654 fix(hosted-only): serve Claude Code tool search inline instead of stripping it](https://github.com/kaovilai/dotfiles/pull/654) — kaovilai/dotfiles
 - [#64 fix(build): honest 400s for additionalbuildcontexts and remote contexts](https://github.com/kaovilai/podm/pull/64) — kaovilai/podm
 - [#652 fix(zsh): background notices go to stderr — stdout capture poisoned LANG](https://github.com/kaovilai/dotfiles/pull/652) — kaovilai/dotfiles
 - [#60 feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds](https://github.com/kaovilai/podm/pull/60) — kaovilai/podm
@@ -121,7 +122,6 @@
 - [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
 - [#55 docs: design note on deconstructing tailscaled, with the measurements that say don't](https://github.com/kaovilai/tailbond/pull/55) — kaovilai/tailbond
 - [#57 pairing: a success that arrives after the caller gave up is still abandoned](https://github.com/kaovilai/tailbond/pull/57) — kaovilai/tailbond
-- [#56 ci: an empty diff builds nothing and releases nothing](https://github.com/kaovilai/tailbond/pull/56) — kaovilai/tailbond
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,11 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#66 fix(containers): docker run --rm no longer fails with 125 after a fast exit](https://github.com/kaovilai/podm/pull/66) — kaovilai/podm
+- [#655 docs(claude): codify the hosted-only model-pair and search requirements](https://github.com/kaovilai/dotfiles/pull/655) — kaovilai/dotfiles
+- [#65 fix(info): serve the libpod schema at /libpod/info — podman info panicked the CLI](https://github.com/kaovilai/podm/pull/65) — kaovilai/podm
+- [#654 fix(hosted-only): serve Claude Code tool search inline instead of stripping it](https://github.com/kaovilai/dotfiles/pull/654) — kaovilai/dotfiles
+- [#653 Hosted-only pair swap: DeepSeek V4.1 Flash primary, Muse Spark Open fallback](https://github.com/kaovilai/dotfiles/pull/653) — kaovilai/dotfiles
 - [#64 fix(build): honest 400s for additionalbuildcontexts and remote contexts](https://github.com/kaovilai/podm/pull/64) — kaovilai/podm
 - [#652 fix(zsh): background notices go to stderr — stdout capture poisoned LANG](https://github.com/kaovilai/dotfiles/pull/652) — kaovilai/dotfiles
 - [#17 chore(release): 2.2.8 — upstream v2.1.8 sync landed](https://github.com/kaovilai/context-mode/pull/17) — kaovilai/context-mode
@@ -224,14 +229,10 @@
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
 - [#642 feat(claude): tab completion for claude-mode](https://github.com/kaovilai/dotfiles/pull/642) — kaovilai/dotfiles
 - [#641 fix(fleet-sync): heal failed plugin installs in the same run](https://github.com/kaovilai/dotfiles/pull/641) — kaovilai/dotfiles
-- [#12 pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula](https://github.com/kaovilai/podm/pull/12) — kaovilai/podm
-- [#6 fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)](https://github.com/kaovilai/context-mode/pull/6) — kaovilai/context-mode
-- [#640 feat(claude): make hosted-only a claude-mode selection](https://github.com/kaovilai/dotfiles/pull/640) — kaovilai/dotfiles
-- [#11 pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon](https://github.com/kaovilai/podm/pull/11) — kaovilai/podm
-- [#87 Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes](https://github.com/kaovilai/kaovilai/pull/87) — kaovilai/kaovilai
-## PRs Reviewed (28)
+## PRs Reviewed (30)
 
 **velero-io** (17)
+- [#10829 build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory](https://github.com/velero-io/velero/pull/10829) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
@@ -248,9 +249,9 @@
 - [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
 - [#10 Clarify the repository of forked kopia](https://github.com/velero-io/.github/pull/10) — velero-io/.github
 - [#10811 Update the repositories on the support-process page](https://github.com/velero-io/velero/pull/10811) — velero-io/velero
-- [#10802 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195](https://github.com/velero-io/velero/pull/10802) — velero-io/velero
 
-**openshift** (6)
+**openshift** (7)
+- [#511 Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/openshift/openshift-velero-plugin/pull/511) — openshift/openshift-velero-plugin
 - [#2535 fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0](https://github.com/openshift/oadp-operator/pull/2535) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
@@ -258,17 +259,20 @@
 - [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
 - [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 
-**migtools** (3)
+**migtools** (5)
+- [#261 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-controller/pull/261) — migtools/kubevirt-datamover-controller
+- [#77 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-plugin/pull/77) — migtools/kubevirt-datamover-plugin
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 - [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
 - [#251 Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder](https://github.com/migtools/kubevirt-datamover-controller/pull/251) — migtools/kubevirt-datamover-controller
 
-**Other** (2)
+**Other** (1)
 - [#7381 PROJQUAY-8767: fix(ui): load tag history on demand and search server-side](https://github.com/quay/quay/pull/7381) — quay/quay
-- [#23510 fix(clients): later image reads show updated file contents](https://github.com/pingdotgg/t3code/pull/23510) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (42)
+**velero-io** (43)
+- [#9603 Backport/Cherry-pick GitHub action](https://github.com/velero-io/velero/issues/9603) — velero-io/velero
+- [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
 - [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
@@ -310,14 +314,13 @@
 - [#9093 Publish releases to winget-pkgs](https://github.com/velero-io/velero/issues/9093) — velero-io/velero
 - [#8454 Large PVCs are canceled](https://github.com/velero-io/velero/issues/8454) — velero-io/velero
 - [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
-- [#2098 Implement abort running backup job](https://github.com/velero-io/velero/issues/2098) — velero-io/velero
 
 **openshift** (3)
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
-**Other** (55)
+**Other** (54)
 - [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
@@ -372,10 +375,10 @@
 - [#4300 cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)](https://github.com/kubevirt/containerized-data-importer/issues/4300) — kubevirt/containerized-data-importer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
 - [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
-- [#1013 Support mDNS for name and service resolution](https://github.com/tailscale/tailscale/issues/1013) — tailscale/tailscale
-## Issues Closed (95)
+## Issues Closed (96)
 
-**velero-io** (26)
+**velero-io** (27)
+- [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10040 NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error](https://github.com/velero-io/velero/issues/10040) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
 - [#10284 Proposal: centralize plugin CI build/push workflows as org-wide reusable workflows](https://github.com/velero-io/velero/issues/10284) — velero-io/velero

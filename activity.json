@@ -3,15 +3,24 @@
     "start": "2026-08-16",
     "end": "2026-11-14"
   },
-  "generatedAt": "2026-11-14T00:31:18Z",
+  "generatedAt": "2026-11-14T06:17:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 28,
+    "prsReviewed": 30,
     "issuesCommented": 100,
-    "issuesClosed": 95
+    "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 654,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): serve Claude Code tool search inline instead of stripping it",
+      "url": "https://github.com/kaovilai/dotfiles/pull/654",
+      "date": "2026-11-14T05:13:09Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 64,
       "repo": "kaovilai/podm",
@@ -902,18 +911,54 @@
       "url": "https://github.com/kaovilai/tailbond/pull/57",
       "date": "2026-11-08T18:29:55Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 56,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "ci: an empty diff builds nothing and releases nothing",
-      "url": "https://github.com/kaovilai/tailbond/pull/56",
-      "date": "2026-11-08T18:28:29Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 66,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): docker run --rm no longer fails with 125 after a fast exit",
+      "url": "https://github.com/kaovilai/podm/pull/66",
+      "date": "2026-11-14T05:27:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 655,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "docs(claude): codify the hosted-only model-pair and search requirements",
+      "url": "https://github.com/kaovilai/dotfiles/pull/655",
+      "date": "2026-11-14T04:54:42Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 65,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(info): serve the libpod schema at /libpod/info — podman info panicked the CLI",
+      "url": "https://github.com/kaovilai/podm/pull/65",
+      "date": "2026-11-14T04:38:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 654,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): serve Claude Code tool search inline instead of stripping it",
+      "url": "https://github.com/kaovilai/dotfiles/pull/654",
+      "date": "2026-11-14T04:13:20Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 653,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Hosted-only pair swap: DeepSeek V4.1 Flash primary, Muse Spark Open fallback",
+      "url": "https://github.com/kaovilai/dotfiles/pull/653",
+      "date": "2026-11-14T01:13:46Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 64,
       "repo": "kaovilai/podm",
@@ -1768,54 +1813,45 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/641",
       "date": "2026-11-09T10:10:33Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula",
-      "url": "https://github.com/kaovilai/podm/pull/12",
-      "date": "2026-11-09T09:40:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 6,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix: daemon steers roots-capable clients off the 2026-07-28 era — ends cross-session index pollution (A26-r14)",
-      "url": "https://github.com/kaovilai/context-mode/pull/6",
-      "date": "2026-11-09T09:15:50Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 640,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(claude): make hosted-only a claude-mode selection",
-      "url": "https://github.com/kaovilai/dotfiles/pull/640",
-      "date": "2026-11-09T09:15:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 11,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "pacman: stock podman + docker CLIs on macOS — no machine, no remote, no resident daemon",
-      "url": "https://github.com/kaovilai/podm/pull/11",
-      "date": "2026-11-09T07:19:04Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 87,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Sample the cats' coats from the traced portrait and title the strip Bojangles and Popeyes",
-      "url": "https://github.com/kaovilai/kaovilai/pull/87",
-      "date": "2026-11-09T06:42:02Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 511,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/511",
+      "date": "2026-11-14T05:42:26Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 261,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/261",
+      "date": "2026-11-14T05:27:16Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 77,
+      "repo": "migtools/kubevirt-datamover-plugin",
+      "org": "migtools",
+      "title": "build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0",
+      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/77",
+      "date": "2026-11-14T05:02:31Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 10829,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory",
+      "url": "https://github.com/velero-io/velero/pull/10829",
+      "date": "2026-11-14T03:18:36Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10793,
       "repo": "velero-io/velero",
@@ -2049,27 +2085,36 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/251",
       "date": "2026-11-10T01:53:00Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10802,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.194 to 0.2.195",
-      "url": "https://github.com/velero-io/velero/pull/10802",
-      "date": "2026-11-09T21:38:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 23510,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(clients): later image reads show updated file contents",
-      "url": "https://github.com/pingdotgg/t3code/pull/23510",
-      "date": "2026-11-09T20:38:34Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 9603,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backport/Cherry-pick GitHub action",
+      "url": "https://github.com/velero-io/velero/issues/9603",
+      "date": "2026-11-14T01:35:47Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9656,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs",
+      "url": "https://github.com/velero-io/velero/issues/9656",
+      "date": "2026-11-14T01:35:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10026,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
+      "url": "https://github.com/velero-io/velero/issues/10026",
+      "date": "2026-11-14T01:35:40Z",
+      "workstream": "Velero"
+    },
     {
       "number": 909,
       "repo": "sooperset/mcp-atlassian",
@@ -2087,15 +2132,6 @@
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-13T14:04:55Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10026,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
-      "url": "https://github.com/velero-io/velero/issues/10026",
-      "date": "2026-11-13T10:26:23Z",
-      "workstream": "Velero"
     },
     {
       "number": 260,
@@ -2951,27 +2987,18 @@
       "url": "https://github.com/NVIDIA/OpenShell/issues/1358",
       "date": "2026-10-01T17:46:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 1013,
-      "repo": "tailscale/tailscale",
-      "org": "tailscale",
-      "title": "Support mDNS for name and service resolution",
-      "url": "https://github.com/tailscale/tailscale/issues/1013",
-      "date": "2026-10-01T17:20:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2098,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Implement abort running backup job",
-      "url": "https://github.com/velero-io/velero/issues/2098",
-      "date": "2026-09-30T19:56:23Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 9656,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs",
+      "url": "https://github.com/velero-io/velero/issues/9656",
+      "date": "2026-11-14T01:35:44Z",
+      "workstream": "Velero"
+    },
     {
       "number": 54,
       "repo": "kaovilai/podm",
