@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-14 12:01:18 UTC
+> Last updated: 2026-11-14 18:00:55 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -188,13 +188,10 @@ No open PRs.
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #647](https://img.shields.io/badge/PR%20%23647-ready-green)](https://github.com/kaovilai/dotfiles/pull/647) **kaovilai/dotfiles** → `main` - feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases
-- [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/kaovilai/podm/pull/66) **kaovilai/podm** → `main` - fix(containers): docker run --rm no longer fails with 125 after a fast exit
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #67](https://img.shields.io/badge/PR%20%2367-ready-green)](https://github.com/kaovilai/podm/pull/67) **kaovilai/podm** → `main` - fix(images): honor --platform on pull, and run the variant that was pulled
-- [![PR #68](https://img.shields.io/badge/PR%20%2368-ready-green)](https://github.com/kaovilai/podm/pull/68) **kaovilai/podm** → `main` - fix(app): sanitize an unparseable LANG/LC_* instead of crashing in ICU
-- [![PR #70](https://img.shields.io/badge/PR%20%2370-ready-green)](https://github.com/kaovilai/podm/pull/70) **kaovilai/podm** → `main` - fix(build): successful podman builds no longer fail on a Docker-only aux record
-- [![PR #71](https://img.shields.io/badge/PR%20%2371-ready-green)](https://github.com/kaovilai/podm/pull/71) **kaovilai/podm** → `main` - fix(containers): reject unrunnable platforms, warn on fractional --cpus
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #72](https://img.shields.io/badge/PR%20%2372-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/72) **kaovilai/podm** → `main` - fix(containers): fast-exiting runs report their real exit code, not 255
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
@@ -240,7 +237,6 @@ No open PRs.
 - [![PR #974](https://img.shields.io/badge/PR%20%23974-stale-yellow)](https://github.com/onsi/ginkgo/pull/974) **onsi/ginkgo** → `master` - Add AddArguments to TableEntry
 - [![PR #478](https://img.shields.io/badge/PR%20%23478-hold-yellow)](https://github.com/kubernetes-sigs/prow/pull/478) **kubernetes-sigs/prow** → `main` - branchprotector: remove protection from excluded branches
 - [![PR #18636](https://img.shields.io/badge/PR%20%2318636-failing--ci-red)](https://github.com/rook/rook/pull/18636) **rook/rook** → `master` - csi: enable selinux host mount in openshift example
-- [![PR #72](https://img.shields.io/badge/PR%20%2372-failing--ci-red)](https://github.com/kaovilai/podm/pull/72) **kaovilai/podm** → `main` - fix(containers): fast-exiting runs report their real exit code, not 255
 - [![PR #18949](https://img.shields.io/badge/PR%20%2318949-needs--attention-orange)](https://github.com/kubevirt/kubevirt/pull/18949) **kubevirt/kubevirt** → `main` - storage/cbt: fix VMBackup status freeze during target PVC attach
 - [![PR #41](https://img.shields.io/badge/PR%20%2341-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/41) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: track full OADP repo set (22 repos, incl. migtools org)
 - [![PR #42](https://img.shields.io/badge/PR%20%2342-needs--attention-orange)](https://github.com/openshift-online/hp-org-pulse/pull/42) **openshift-online/hp-org-pulse** → `main` - jira-solve-agent: add OADP to tracked Jira projects
