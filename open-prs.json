@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T23:05:18Z",
+  "updatedAt": "2026-11-14T00:02:48Z",
   "prs": [
     {
       "number": 5,
@@ -17584,7 +17584,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-13T23:05:18Z",
+    "updatedAt": "2026-11-14T00:02:48Z",
     "needsReview": [
       {
         "number": 68,
@@ -17761,36 +17761,6 @@
         "reason": "awaitingReview",
         "waitingDays": 219,
         "updatedAt": "2026-04-08T15:23:08Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 157,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -18058,7 +18028,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18181,7 +18151,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 79,
+        "waitingDays": 80,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -18483,7 +18453,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -18512,7 +18482,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 45,
+        "waitingDays": 46,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -18717,7 +18687,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
@@ -18790,7 +18760,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19345,7 +19315,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19360,6 +19330,36 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-11-07T00:50:27Z"
+      },
+      {
+        "number": 468,
+        "repo": "kubevirt/kubevirt-velero-plugin",
+        "org": "kubevirt",
+        "title": "Select the live virt-launcher pod after live migration",
+        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "dco-signoff: yes",
+          "size/L"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "alromeros",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
         "number": 2272,
@@ -19418,36 +19418,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-11-08T05:26:06Z"
-      },
-      {
-        "number": 468,
-        "repo": "kubevirt/kubevirt-velero-plugin",
-        "org": "kubevirt",
-        "title": "Select the live virt-launcher pod after live migration",
-        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "dco-signoff: yes",
-          "size/L"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "alromeros",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
         "number": 504,
@@ -21328,7 +21298,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
