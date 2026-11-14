@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T03:23:24Z",
+  "generatedAt": "2026-11-14T03:24:37Z",
   "items": [
     {
       "number": 978,
@@ -25157,6 +25157,19 @@
       "workstream": "OADP"
     },
     {
+      "number": 9656,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs",
+      "url": "https://github.com/velero-io/velero/issues/9656",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-03-27T14:27:30Z",
+      "closedAt": "2026-11-14T01:35:44Z",
+      "updatedAt": "2026-11-14T01:35:44Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2142,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -30277,19 +30290,6 @@
       "closedAt": "2026-07-28T16:34:38Z",
       "updatedAt": "2026-07-28T16:35:22Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10026,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)",
-      "url": "https://github.com/velero-io/velero/issues/10026",
-      "type": "issue",
-      "state": "closed",
-      "createdAt": "2026-07-16T22:20:20Z",
-      "closedAt": "2026-11-13T01:35:58Z",
-      "updatedAt": "2026-11-13T01:35:58Z",
-      "workstream": "Velero"
     },
     {
       "number": 10027,
@@ -39093,6 +39093,19 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 54,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "bug(build): silently-dropped params — additionalbuildcontexts (--build-context), remote URL contexts, audit tail",
+      "url": "https://github.com/kaovilai/podm/issues/54",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-11-11T19:11:42Z",
+      "closedAt": "2026-11-13T14:00:44Z",
+      "updatedAt": "2026-11-13T14:00:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 56,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
@@ -39168,6 +39181,19 @@
       "createdAt": "2026-11-12T08:29:42Z",
       "closedAt": "2026-11-13T00:45:45Z",
       "updatedAt": "2026-11-13T00:45:45Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 60,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(build): sizeable builder VMs — RAM/CPU knobs for big + multi-arch builds",
+      "url": "https://github.com/kaovilai/podm/pull/60",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-12T09:55:40Z",
+      "closedAt": "2026-11-13T06:09:19Z",
+      "updatedAt": "2026-11-13T06:09:19Z",
       "workstream": "Uncategorized"
     },
     {
@@ -39298,6 +39324,32 @@
       "createdAt": "2026-11-13T00:54:26Z",
       "closedAt": "2026-11-13T01:03:10Z",
       "updatedAt": "2026-11-13T01:03:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 652,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(zsh): background notices go to stderr — stdout capture poisoned LANG",
+      "url": "https://github.com/kaovilai/dotfiles/pull/652",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-13T10:25:16Z",
+      "closedAt": "2026-11-13T10:33:00Z",
+      "updatedAt": "2026-11-13T10:33:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 64,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(build): honest 400s for additionalbuildcontexts and remote contexts",
+      "url": "https://github.com/kaovilai/podm/pull/64",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-13T12:44:16Z",
+      "closedAt": "2026-11-13T14:00:43Z",
+      "updatedAt": "2026-11-13T14:00:43Z",
       "workstream": "Uncategorized"
     }
   ]
