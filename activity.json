@@ -3,15 +3,24 @@
     "start": "2026-08-17",
     "end": "2026-11-15"
   },
-  "generatedAt": "2026-11-15T00:35:51Z",
+  "generatedAt": "2026-11-15T06:19:24Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 32,
+    "prsReviewed": 30,
     "issuesCommented": 100,
-    "issuesClosed": 94
+    "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 1,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: automatic iPhone hotspot reconnect for Android",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/1",
+      "date": "2026-11-15T02:43:22Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 72,
       "repo": "kaovilai/podm",
@@ -22,21 +31,30 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 66,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "fix(containers): docker run --rm no longer fails with 125 after a fast exit",
-      "url": "https://github.com/kaovilai/podm/pull/66",
-      "date": "2026-11-14T15:45:57Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 70,
       "repo": "kaovilai/podm",
       "org": "kaovilai",
       "title": "fix(build): successful podman builds no longer fail on a Docker-only aux record",
       "url": "https://github.com/kaovilai/podm/pull/70",
       "date": "2026-11-14T13:28:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 67,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(images): honor --platform on pull, and run the variant that was pulled",
+      "url": "https://github.com/kaovilai/podm/pull/67",
+      "date": "2026-11-15T00:36:55Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 66,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): docker run --rm no longer fails with 125 after a fast exit",
+      "url": "https://github.com/kaovilai/podm/pull/66",
+      "date": "2026-11-14T15:45:57Z",
       "workstream": "Uncategorized"
     },
     {
@@ -893,27 +911,27 @@
       "url": "https://github.com/kaovilai/podm/pull/13",
       "date": "2026-11-09T11:07:36Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 58,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Add the smoke-test workflow badge to the README",
-      "url": "https://github.com/konveyor/builder/pull/58",
-      "date": "2026-11-09T11:03:27Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula",
-      "url": "https://github.com/kaovilai/podm/pull/12",
-      "date": "2026-11-09T10:41:23Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 2,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: support several iPhones with priority, round-robin and per-entry toggles",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/2",
+      "date": "2026-11-15T05:52:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: automatic iPhone hotspot reconnect for Android",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/1",
+      "date": "2026-11-15T01:35:19Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 656,
       "repo": "kaovilai/dotfiles",
@@ -1795,24 +1813,6 @@
       "url": "https://github.com/kaovilai/podm/pull/16",
       "date": "2026-11-09T11:52:05Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 59,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts",
-      "url": "https://github.com/konveyor/builder/pull/59",
-      "date": "2026-11-09T11:35:18Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 15,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter",
-      "url": "https://github.com/kaovilai/podm/pull/15",
-      "date": "2026-11-09T11:26:59Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2085,27 +2085,18 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2493",
       "date": "2026-11-10T05:29:17Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Clarify the repository of forked kopia",
-      "url": "https://github.com/velero-io/.github/pull/10",
-      "date": "2026-11-10T03:21:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10811,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update the repositories on the support-process page",
-      "url": "https://github.com/velero-io/velero/pull/10811",
-      "date": "2026-11-10T03:17:48Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 7,
+      "repo": "dpkay-io/toggldev",
+      "org": "dpkay-io",
+      "title": "Detected by com.scb.phone",
+      "url": "https://github.com/dpkay-io/toggldev/issues/7",
+      "date": "2026-11-15T05:49:02Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2996,18 +2987,18 @@
       "url": "https://github.com/velero-io/velero/issues/9189",
       "date": "2026-10-01T19:43:18Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 1358,
-      "repo": "NVIDIA/OpenShell",
-      "org": "NVIDIA",
-      "title": "bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host",
-      "url": "https://github.com/NVIDIA/OpenShell/issues/1358",
-      "date": "2026-10-01T17:46:21Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 7,
+      "repo": "dpkay-io/toggldev",
+      "org": "dpkay-io",
+      "title": "Detected by com.scb.phone",
+      "url": "https://github.com/dpkay-io/toggldev/issues/7",
+      "date": "2026-11-15T05:49:02Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 9656,
       "repo": "velero-io/velero",

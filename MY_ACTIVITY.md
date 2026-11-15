@@ -1,15 +1,15 @@
 # Activity Log
 
 > **Period:** 2026-08-17 — 2026-11-15
-> **Generated:** 2026-11-15 00:35:51 UTC
+> **Generated:** 2026-11-15 06:19:24 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 32 |
+| PRs Reviewed | 30 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 94 |
+| Issues Closed | 95 |
 
 ---
 
@@ -32,9 +32,11 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#1 feat: automatic iPhone hotspot reconnect for Android](https://github.com/kaovilai/hotspot-relay/pull/1) — kaovilai/hotspot-relay
 - [#72 fix(containers): fast-exiting runs report their real exit code, not 255](https://github.com/kaovilai/podm/pull/72) — kaovilai/podm
-- [#66 fix(containers): docker run --rm no longer fails with 125 after a fast exit](https://github.com/kaovilai/podm/pull/66) — kaovilai/podm
 - [#70 fix(build): successful podman builds no longer fail on a Docker-only aux record](https://github.com/kaovilai/podm/pull/70) — kaovilai/podm
+- [#67 fix(images): honor --platform on pull, and run the variant that was pulled](https://github.com/kaovilai/podm/pull/67) — kaovilai/podm
+- [#66 fix(containers): docker run --rm no longer fails with 125 after a fast exit](https://github.com/kaovilai/podm/pull/66) — kaovilai/podm
 - [#68 fix(app): sanitize an unparseable LANG/LC_* instead of crashing in ICU](https://github.com/kaovilai/podm/pull/68) — kaovilai/podm
 - [#71 fix(containers): reject unrunnable platforms, warn on fractional --cpus](https://github.com/kaovilai/podm/pull/71) — kaovilai/podm
 - [#656 fix(hosted-only): fingerprint every knob the launchers forward](https://github.com/kaovilai/dotfiles/pull/656) — kaovilai/dotfiles
@@ -120,8 +122,6 @@
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
 - [#13 Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers](https://github.com/kaovilai/podm/pull/13) — kaovilai/podm
-- [#58 Add the smoke-test workflow badge to the README](https://github.com/konveyor/builder/pull/58) — konveyor/builder
-- [#12 pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula](https://github.com/kaovilai/podm/pull/12) — kaovilai/podm
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,8 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#2 feat: support several iPhones with priority, round-robin and per-entry toggles](https://github.com/kaovilai/hotspot-relay/pull/2) — kaovilai/hotspot-relay
+- [#1 feat: automatic iPhone hotspot reconnect for Android](https://github.com/kaovilai/hotspot-relay/pull/1) — kaovilai/hotspot-relay
 - [#656 fix(hosted-only): fingerprint every knob the launchers forward](https://github.com/kaovilai/dotfiles/pull/656) — kaovilai/dotfiles
 - [#72 fix(containers): fast-exiting runs report their real exit code, not 255](https://github.com/kaovilai/podm/pull/72) — kaovilai/podm
 - [#71 fix(containers): reject unrunnable platforms, warn on fractional --cpus](https://github.com/kaovilai/podm/pull/71) — kaovilai/podm
@@ -227,11 +229,9 @@
 - [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
 - [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
-- [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
-- [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
-## PRs Reviewed (32)
+## PRs Reviewed (30)
 
-**velero-io** (20)
+**velero-io** (18)
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
 - [#10830 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198](https://github.com/velero-io/velero/pull/10830) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
@@ -250,8 +250,6 @@
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
 - [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
-- [#10 Clarify the repository of forked kopia](https://github.com/velero-io/.github/pull/10) — velero-io/.github
-- [#10811 Update the repositories on the support-process page](https://github.com/velero-io/velero/pull/10811) — velero-io/velero
 
 **openshift** (7)
 - [#511 Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/openshift/openshift-velero-plugin/pull/511) — openshift/openshift-velero-plugin
@@ -323,6 +321,7 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (54)
+- [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
@@ -376,8 +375,7 @@
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#4300 cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)](https://github.com/kubevirt/containerized-data-importer/issues/4300) — kubevirt/containerized-data-importer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-- [#1358 bug: gateway crash-loops on macOS — binds to VM-internal podman bridge IP (10.89.0.1) on host](https://github.com/NVIDIA/OpenShell/issues/1358) — NVIDIA/OpenShell
-## Issues Closed (94)
+## Issues Closed (95)
 
 **velero-io** (25)
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
@@ -428,7 +426,8 @@
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (51)
+**Other** (52)
+- [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
 - [#54 bug(build): silently-dropped params — additionalbuildcontexts (--build-context), remote URL contexts, audit tail](https://github.com/kaovilai/podm/issues/54) — kaovilai/podm
 - [#25558 [Bug]: Initialize Git gives no confirmation for ~30 s when the folder holds a lot of untracked data (change-totals diff times out)](https://github.com/pingdotgg/t3code/issues/25558) — pingdotgg/t3code
 - [#30685 [Bug]: Slash menu drifts away from the composer when dragging on iPad](https://github.com/pingdotgg/t3code/issues/30685) — pingdotgg/t3code
