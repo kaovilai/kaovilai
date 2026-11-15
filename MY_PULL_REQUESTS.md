@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-15 12:01:15 UTC
+> Last updated: 2026-11-15 18:00:58 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -186,13 +186,12 @@ No open PRs.
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
+- [![PR #5](https://img.shields.io/badge/PR%20%235-ready-green)](https://github.com/kaovilai/hotspot-relay/pull/5) **kaovilai/hotspot-relay** → `main` - fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #647](https://img.shields.io/badge/PR%20%23647-ready-green)](https://github.com/kaovilai/dotfiles/pull/647) **kaovilai/dotfiles** → `main` - feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases
 - [![PR #657](https://img.shields.io/badge/PR%20%23657-ready-green)](https://github.com/kaovilai/dotfiles/pull/657) **kaovilai/dotfiles** → `main` - fix(zsh): prevent background print from polluting non-tty captures
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #74](https://img.shields.io/badge/PR%20%2374-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/74) **kaovilai/podm** → `main` - fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast
-- [![PR #75](https://img.shields.io/badge/PR%20%2375-ci--pending-yellow)](https://github.com/kaovilai/podm/pull/75) **kaovilai/podm** → `main` - feat(cli): podm doctor checks the LaunchAgent install, not just the socket
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #5748](https://img.shields.io/badge/PR%20%235748-draft-gray)](https://github.com/kopia/kopia/pull/5748) **kopia/kopia** → `master` - fix(providers): return S3 PutObject error when GetModTime is requested
