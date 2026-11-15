@@ -3,15 +3,33 @@
     "start": "2026-08-17",
     "end": "2026-11-15"
   },
-  "generatedAt": "2026-11-15T12:15:36Z",
+  "generatedAt": "2026-11-15T18:13:23Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 27,
     "issuesCommented": 100,
-    "issuesClosed": 95
+    "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 5,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/5",
+      "date": "2026-11-15T18:06:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 75,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(cli): podm doctor checks the LaunchAgent install, not just the socket",
+      "url": "https://github.com/kaovilai/podm/pull/75",
+      "date": "2026-11-15T12:18:40Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 74,
       "repo": "kaovilai/podm",
@@ -893,27 +911,18 @@
       "url": "https://github.com/konveyor/builder/pull/61",
       "date": "2026-11-09T16:14:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 16,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "rename: pacman → podm — podman's promise, true on Mac",
-      "url": "https://github.com/kaovilai/podm/pull/16",
-      "date": "2026-11-09T15:34:04Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 60,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Add CONTRIBUTING with the one-owner-per-rule maintainability rule",
-      "url": "https://github.com/konveyor/builder/pull/60",
-      "date": "2026-11-09T14:51:17Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 5,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/5",
+      "date": "2026-11-15T17:17:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 657,
       "repo": "kaovilai/dotfiles",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/podm/pull/17",
       "date": "2026-11-09T16:17:38Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 387,
-      "repo": "kaovilai/toolkit-for-fidelity",
-      "org": "kaovilai",
-      "title": "Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere",
-      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/387",
-      "date": "2026-11-09T15:37:27Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2062,12 +2062,12 @@
   ],
   "issuesCommented": [
     {
-      "number": 7,
-      "repo": "dpkay-io/toggldev",
-      "org": "dpkay-io",
-      "title": "Detected by com.scb.phone",
-      "url": "https://github.com/dpkay-io/toggldev/issues/7",
-      "date": "2026-11-15T05:49:02Z",
+      "number": 5342,
+      "repo": "netlify/build",
+      "org": "netlify",
+      "title": "baseRelDir cannot be set to false in new netlify sites or change to true from older sites",
+      "url": "https://github.com/netlify/build/issues/5342",
+      "date": "2026-11-15T14:01:08Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2076,7 +2076,16 @@
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-14T13:03:41Z",
+      "date": "2026-11-15T13:33:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 7,
+      "repo": "dpkay-io/toggldev",
+      "org": "dpkay-io",
+      "title": "Detected by com.scb.phone",
+      "url": "https://github.com/dpkay-io/toggldev/issues/7",
+      "date": "2026-11-15T05:49:02Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2465,15 +2474,6 @@
       "url": "https://github.com/velero-io/velero/issues/9894",
       "date": "2026-11-01T01:36:46Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 5342,
-      "repo": "netlify/build",
-      "org": "netlify",
-      "title": "baseRelDir cannot be set to false in new netlify sites or change to true from older sites",
-      "url": "https://github.com/netlify/build/issues/5342",
-      "date": "2026-10-30T14:01:37Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 17531,
@@ -2963,6 +2963,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 5342,
+      "repo": "netlify/build",
+      "org": "netlify",
+      "title": "baseRelDir cannot be set to false in new netlify sites or change to true from older sites",
+      "url": "https://github.com/netlify/build/issues/5342",
+      "date": "2026-11-15T14:01:08Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 7,
       "repo": "dpkay-io/toggldev",

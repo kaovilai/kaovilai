@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-17 — 2026-11-15
-> **Generated:** 2026-11-15 12:15:36 UTC
+> **Generated:** 2026-11-15 18:13:22 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 27 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 95 |
+| Issues Closed | 96 |
 
 ---
 
@@ -32,6 +32,8 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#5 fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings](https://github.com/kaovilai/hotspot-relay/pull/5) — kaovilai/hotspot-relay
+- [#75 feat(cli): podm doctor checks the LaunchAgent install, not just the socket](https://github.com/kaovilai/podm/pull/75) — kaovilai/podm
 - [#74 fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast](https://github.com/kaovilai/podm/pull/74) — kaovilai/podm
 - [#4 feat: pick the iPhone from paired or nearby Bluetooth devices](https://github.com/kaovilai/hotspot-relay/pull/4) — kaovilai/hotspot-relay
 - [#3 feat: external control surface for Tasker and other automation](https://github.com/kaovilai/hotspot-relay/pull/3) — kaovilai/hotspot-relay
@@ -120,8 +122,6 @@
 - [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
 - [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
 - [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
-- [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
-- [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,7 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#5 fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings](https://github.com/kaovilai/hotspot-relay/pull/5) — kaovilai/hotspot-relay
 - [#657 fix(zsh): prevent background print from polluting non-tty captures](https://github.com/kaovilai/dotfiles/pull/657) — kaovilai/dotfiles
 - [#75 feat(cli): podm doctor checks the LaunchAgent install, not just the socket](https://github.com/kaovilai/podm/pull/75) — kaovilai/podm
 - [#74 fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast](https://github.com/kaovilai/podm/pull/74) — kaovilai/podm
@@ -228,7 +229,6 @@
 - [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
 - [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
-- [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
 ## PRs Reviewed (27)
 
 **velero-io** (17)
@@ -318,8 +318,9 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (54)
-- [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
+- [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
 - [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
 - [#604 Serve MCP servers over shared HTTP instead of per-session stdio (github + stateless servers)](https://github.com/kaovilai/dotfiles/issues/604) — kaovilai/dotfiles
@@ -345,7 +346,6 @@
 - [#27 Install Keepalive to keep cronjobs active](https://github.com/konveyor/builder/issues/27) — konveyor/builder
 - [#32 Remove or update .github/workflows/ubi9_multi_arch_image_build_godev.yml](https://github.com/konveyor/builder/issues/32) — konveyor/builder
 - [#19512 [Bug]: iOS Safari keyboard hides the web composer and scrolls the header off-screen](https://github.com/pingdotgg/t3code/issues/19512) — pingdotgg/t3code
-- [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#17531 Claude provider hangs on Bash calls when a UI-dependent Claude Code mod (e.g. blast-radius) is installed](https://github.com/pingdotgg/t3code/issues/17531) — pingdotgg/t3code
 - [#2524 Clarify that pull_request_review_write create without event creates a pending review](https://github.com/github/github-mcp-server/issues/2524) — github/github-mcp-server
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
@@ -372,7 +372,7 @@
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#4300 cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)](https://github.com/kubevirt/containerized-data-importer/issues/4300) — kubevirt/containerized-data-importer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-## Issues Closed (95)
+## Issues Closed (96)
 
 **velero-io** (25)
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
@@ -423,7 +423,8 @@
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (52)
+**Other** (53)
+- [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
 - [#54 bug(build): silently-dropped params — additionalbuildcontexts (--build-context), remote URL contexts, audit tail](https://github.com/kaovilai/podm/issues/54) — kaovilai/podm
 - [#25558 [Bug]: Initialize Git gives no confirmation for ~30 s when the folder holds a lot of untracked data (change-totals diff times out)](https://github.com/pingdotgg/t3code/issues/25558) — pingdotgg/t3code
