@@ -3,15 +3,51 @@
     "start": "2026-08-17",
     "end": "2026-11-15"
   },
-  "generatedAt": "2026-11-15T06:19:24Z",
+  "generatedAt": "2026-11-15T12:15:36Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 30,
+    "prsReviewed": 27,
     "issuesCommented": 100,
     "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 74,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast",
+      "url": "https://github.com/kaovilai/podm/pull/74",
+      "date": "2026-11-15T12:10:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 4,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: pick the iPhone from paired or nearby Bluetooth devices",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/4",
+      "date": "2026-11-15T08:32:04Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: external control surface for Tasker and other automation",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/3",
+      "date": "2026-11-15T08:19:08Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: support several iPhones with priority, round-robin and per-entry toggles",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/2",
+      "date": "2026-11-15T06:29:46Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 1,
       "repo": "kaovilai/hotspot-relay",
@@ -875,45 +911,54 @@
       "url": "https://github.com/konveyor/builder/pull/60",
       "date": "2026-11-09T14:51:17Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 59,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts",
-      "url": "https://github.com/konveyor/builder/pull/59",
-      "date": "2026-11-09T14:05:49Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 59,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "dependabot: stop scanning the compiled gh-aw files and the patched submodule",
-      "url": "https://github.com/kaovilai/tailbond/pull/59",
-      "date": "2026-11-09T13:33:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 57,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Publish only -pre tags for pre-release go-fips builds",
-      "url": "https://github.com/konveyor/builder/pull/57",
-      "date": "2026-11-09T11:17:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers",
-      "url": "https://github.com/kaovilai/podm/pull/13",
-      "date": "2026-11-09T11:07:36Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 657,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(zsh): prevent background print from polluting non-tty captures",
+      "url": "https://github.com/kaovilai/dotfiles/pull/657",
+      "date": "2026-11-15T11:47:26Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 75,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "feat(cli): podm doctor checks the LaunchAgent install, not just the socket",
+      "url": "https://github.com/kaovilai/podm/pull/75",
+      "date": "2026-11-15T10:32:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 74,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast",
+      "url": "https://github.com/kaovilai/podm/pull/74",
+      "date": "2026-11-15T10:17:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 4,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: pick the iPhone from paired or nearby Bluetooth devices",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/4",
+      "date": "2026-11-15T07:15:06Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 3,
+      "repo": "kaovilai/hotspot-relay",
+      "org": "kaovilai",
+      "title": "feat: external control surface for Tasker and other automation",
+      "url": "https://github.com/kaovilai/hotspot-relay/pull/3",
+      "date": "2026-11-15T07:12:34Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 2,
       "repo": "kaovilai/hotspot-relay",
@@ -1768,51 +1813,6 @@
       "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/387",
       "date": "2026-11-09T15:37:27Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 62,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Remove the automated opposite-kind tag prune",
-      "url": "https://github.com/konveyor/builder/pull/62",
-      "date": "2026-11-09T15:37:26Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 61,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Split per-variant FIPS badges into stable and pre-release lines",
-      "url": "https://github.com/konveyor/builder/pull/61",
-      "date": "2026-11-09T15:01:24Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 59,
-      "repo": "kaovilai/tailbond",
-      "org": "kaovilai",
-      "title": "dependabot: stop scanning the compiled gh-aw files and the patched submodule",
-      "url": "https://github.com/kaovilai/tailbond/pull/59",
-      "date": "2026-11-09T13:06:17Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 60,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Add CONTRIBUTING with the one-owner-per-rule maintainability rule",
-      "url": "https://github.com/konveyor/builder/pull/60",
-      "date": "2026-11-09T12:15:27Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 16,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "rename: pacman → podm — podman's promise, true on Mac",
-      "url": "https://github.com/kaovilai/podm/pull/16",
-      "date": "2026-11-09T11:52:05Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2058,33 +2058,6 @@
       "url": "https://github.com/velero-io/.github/pull/9",
       "date": "2026-11-10T07:16:34Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10586,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Reject malformed glob patterns in resource filters",
-      "url": "https://github.com/velero-io/velero/pull/10586",
-      "date": "2026-11-10T05:32:44Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2527,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Bug: fix CreateNamespace race when namespace is Terminating",
-      "url": "https://github.com/openshift/oadp-operator/pull/2527",
-      "date": "2026-11-10T05:29:20Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2493,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8924: Add HCP guest cluster pod backup test case",
-      "url": "https://github.com/openshift/oadp-operator/pull/2493",
-      "date": "2026-11-10T05:29:17Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [

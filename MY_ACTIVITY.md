@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-17 — 2026-11-15
-> **Generated:** 2026-11-15 06:19:24 UTC
+> **Generated:** 2026-11-15 12:15:36 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 30 |
+| PRs Reviewed | 27 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 95 |
 
@@ -32,6 +32,10 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#74 fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast](https://github.com/kaovilai/podm/pull/74) — kaovilai/podm
+- [#4 feat: pick the iPhone from paired or nearby Bluetooth devices](https://github.com/kaovilai/hotspot-relay/pull/4) — kaovilai/hotspot-relay
+- [#3 feat: external control surface for Tasker and other automation](https://github.com/kaovilai/hotspot-relay/pull/3) — kaovilai/hotspot-relay
+- [#2 feat: support several iPhones with priority, round-robin and per-entry toggles](https://github.com/kaovilai/hotspot-relay/pull/2) — kaovilai/hotspot-relay
 - [#1 feat: automatic iPhone hotspot reconnect for Android](https://github.com/kaovilai/hotspot-relay/pull/1) — kaovilai/hotspot-relay
 - [#72 fix(containers): fast-exiting runs report their real exit code, not 255](https://github.com/kaovilai/podm/pull/72) — kaovilai/podm
 - [#70 fix(build): successful podman builds no longer fail on a Docker-only aux record](https://github.com/kaovilai/podm/pull/70) — kaovilai/podm
@@ -118,10 +122,6 @@
 - [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
 - [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
 - [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
-- [#59 Dedupe the published-image selection, go-fips knowledge, classification, and variant prefixes into shared scripts](https://github.com/konveyor/builder/pull/59) — konveyor/builder
-- [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
-- [#57 Publish only -pre tags for pre-release go-fips builds](https://github.com/konveyor/builder/pull/57) — konveyor/builder
-- [#13 Dockerfile HEALTHCHECK propagation — image-defined healthchecks reach containers](https://github.com/kaovilai/podm/pull/13) — kaovilai/podm
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -137,6 +137,11 @@
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
 **Other** (92)
+- [#657 fix(zsh): prevent background print from polluting non-tty captures](https://github.com/kaovilai/dotfiles/pull/657) — kaovilai/dotfiles
+- [#75 feat(cli): podm doctor checks the LaunchAgent install, not just the socket](https://github.com/kaovilai/podm/pull/75) — kaovilai/podm
+- [#74 fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast](https://github.com/kaovilai/podm/pull/74) — kaovilai/podm
+- [#4 feat: pick the iPhone from paired or nearby Bluetooth devices](https://github.com/kaovilai/hotspot-relay/pull/4) — kaovilai/hotspot-relay
+- [#3 feat: external control surface for Tasker and other automation](https://github.com/kaovilai/hotspot-relay/pull/3) — kaovilai/hotspot-relay
 - [#2 feat: support several iPhones with priority, round-robin and per-entry toggles](https://github.com/kaovilai/hotspot-relay/pull/2) — kaovilai/hotspot-relay
 - [#1 feat: automatic iPhone hotspot reconnect for Android](https://github.com/kaovilai/hotspot-relay/pull/1) — kaovilai/hotspot-relay
 - [#656 fix(hosted-only): fingerprint every knob the launchers forward](https://github.com/kaovilai/dotfiles/pull/656) — kaovilai/dotfiles
@@ -224,14 +229,9 @@
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
 - [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
 - [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
-- [#62 Remove the automated opposite-kind tag prune](https://github.com/konveyor/builder/pull/62) — konveyor/builder
-- [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
-- [#59 dependabot: stop scanning the compiled gh-aw files and the patched submodule](https://github.com/kaovilai/tailbond/pull/59) — kaovilai/tailbond
-- [#60 Add CONTRIBUTING with the one-owner-per-rule maintainability rule](https://github.com/konveyor/builder/pull/60) — konveyor/builder
-- [#16 rename: pacman → podm — podman's promise, true on Mac](https://github.com/kaovilai/podm/pull/16) — kaovilai/podm
-## PRs Reviewed (30)
+## PRs Reviewed (27)
 
-**velero-io** (18)
+**velero-io** (17)
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
 - [#10830 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198](https://github.com/velero-io/velero/pull/10830) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
@@ -249,16 +249,13 @@
 - [#10815 Add Hippius to the S3-compatible object store providers list](https://github.com/velero-io/velero/pull/10815) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
-- [#10586 Reject malformed glob patterns in resource filters](https://github.com/velero-io/velero/pull/10586) — velero-io/velero
 
-**openshift** (7)
+**openshift** (5)
 - [#511 Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/openshift/openshift-velero-plugin/pull/511) — openshift/openshift-velero-plugin
 - [#2535 fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0](https://github.com/openshift/oadp-operator/pull/2535) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
 - [#2533 fix(CVE-2026-116585): upgrade github.com/go-jose/go-jose/v4 v4.1.4 -> v4.1.5](https://github.com/openshift/oadp-operator/pull/2533) — openshift/oadp-operator
 - [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
-- [#2527 Bug: fix CreateNamespace race when namespace is Terminating](https://github.com/openshift/oadp-operator/pull/2527) — openshift/oadp-operator
-- [#2493 OADP-8924: Add HCP guest cluster pod backup test case](https://github.com/openshift/oadp-operator/pull/2493) — openshift/oadp-operator
 
 **migtools** (4)
 - [#261 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-controller/pull/261) — migtools/kubevirt-datamover-controller
