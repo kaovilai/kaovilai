@@ -1,17 +1,26 @@
 {
   "period": {
-    "start": "2026-08-16",
-    "end": "2026-11-14"
+    "start": "2026-08-17",
+    "end": "2026-11-15"
   },
-  "generatedAt": "2026-11-14T18:12:54Z",
+  "generatedAt": "2026-11-15T00:35:51Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 30,
+    "prsReviewed": 32,
     "issuesCommented": 100,
-    "issuesClosed": 96
+    "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 72,
+      "repo": "kaovilai/podm",
+      "org": "kaovilai",
+      "title": "fix(containers): fast-exiting runs report their real exit code, not 255",
+      "url": "https://github.com/kaovilai/podm/pull/72",
+      "date": "2026-11-14T18:22:40Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 66,
       "repo": "kaovilai/podm",
@@ -901,15 +910,6 @@
       "title": "pacman-next: healthcheck run, all-container stats, manifest annotate, untag, DNS upstream, brew formula",
       "url": "https://github.com/kaovilai/podm/pull/12",
       "date": "2026-11-09T10:41:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 56,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Mark pre-release go-fips content in badges and releases",
-      "url": "https://github.com/konveyor/builder/pull/56",
-      "date": "2026-11-09T10:07:04Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1816,6 +1816,24 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10832,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group",
+      "url": "https://github.com/velero-io/velero/pull/10832",
+      "date": "2026-11-14T19:24:30Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10830,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198",
+      "url": "https://github.com/velero-io/velero/pull/10830",
+      "date": "2026-11-14T19:23:52Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10827,
       "repo": "velero-io/velero",
@@ -3834,24 +3852,6 @@
       "title": "Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable",
       "url": "https://github.com/velero-io/velero/issues/10301",
       "date": "2026-08-17T12:34:36Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10304,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: retained CBT base snapshots are never reclaimed at backup deletion (design L370-371/L474 unimplemented)",
-      "url": "https://github.com/velero-io/velero/issues/10304",
-      "date": "2026-08-16T16:27:50Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10302,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover silently falls back to the filesystem uploader when no volume policy is supplied",
-      "url": "https://github.com/velero-io/velero/issues/10302",
-      "date": "2026-08-16T15:43:46Z",
       "workstream": "Velero"
     }
   ]
