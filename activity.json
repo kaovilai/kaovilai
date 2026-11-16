@@ -3,24 +3,15 @@
     "start": "2026-08-18",
     "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T15:14:17Z",
+  "generatedAt": "2026-11-16T16:10:24Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 28,
+    "prsReviewed": 29,
     "issuesCommented": 100,
     "issuesClosed": 95
   },
   "prsMerged": [
-    {
-      "number": 2542,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
-      "url": "https://github.com/openshift/oadp-operator/pull/2542",
-      "date": "2026-11-16T14:45:38Z",
-      "workstream": "OADP"
-    },
     {
       "number": 217,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -29,6 +20,24 @@
       "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
       "date": "2026-11-16T13:06:44Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 397,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "Fix pre-existing CI failures on oadp-dev",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/397",
+      "date": "2026-11-16T15:41:57Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2542,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
+      "url": "https://github.com/openshift/oadp-operator/pull/2542",
+      "date": "2026-11-16T14:45:38Z",
+      "workstream": "OADP"
     },
     {
       "number": 75,
@@ -902,15 +911,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/255",
       "date": "2026-11-09T17:59:47Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 20,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
-      "url": "https://github.com/kaovilai/podm/pull/20",
-      "date": "2026-11-09T20:17:54Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
@@ -1816,6 +1816,15 @@
     }
   ],
   "prsReviewed": [
+    {
+      "number": 88821,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI",
+      "url": "https://github.com/openshift/release/pull/88821",
+      "date": "2026-11-16T16:09:26Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10817,
       "repo": "velero-io/velero",

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 15:14:17 UTC
+> **Generated:** 2026-11-16 16:10:24 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 28 |
+| PRs Reviewed | 29 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 95 |
 
@@ -28,10 +28,11 @@
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2531 fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2531) — openshift/oadp-operator
 
-**migtools** (1)
+**migtools** (2)
+- [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
-**Other** (90)
+**Other** (89)
 - [#217 Prep rebasebot for velero's Go 1.27 rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) — oadp-rebasebot/oadp-rebase
 - [#75 Restore diffutils in the runtime image variants](https://github.com/konveyor/builder/pull/75) — konveyor/builder
 - [#218 fix(checks): address review feedback for new Overview UI support](https://github.com/kaovilai/github-bot-command-palette/pull/218) — kaovilai/github-bot-command-palette
@@ -121,7 +122,6 @@
 - [#21 route conformance + CI-generated coverage docs (README + Pages site) + brew install](https://github.com/kaovilai/podm/pull/21) — kaovilai/podm
 - [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
 - [#7 fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install](https://github.com/kaovilai/context-mode/pull/7) — kaovilai/context-mode
-- [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
 ## PRs Opened (100)
 
 **openshift** (8)
@@ -229,7 +229,7 @@
 - [#64 Rework the README for consumers](https://github.com/konveyor/builder/pull/64) — konveyor/builder
 - [#8 fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main](https://github.com/kaovilai/context-mode/pull/8) — kaovilai/context-mode
 - [#21 route conformance + CI-generated coverage docs (README + Pages site) + brew install](https://github.com/kaovilai/podm/pull/21) — kaovilai/podm
-## PRs Reviewed (28)
+## PRs Reviewed (29)
 
 **velero-io** (17)
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
@@ -250,7 +250,8 @@
 - [#10815 Add Hippius to the S3-compatible object store providers list](https://github.com/velero-io/velero/pull/10815) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 
-**openshift** (5)
+**openshift** (6)
+- [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
 - [#511 Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/openshift/openshift-velero-plugin/pull/511) — openshift/openshift-velero-plugin
 - [#2535 fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0](https://github.com/openshift/oadp-operator/pull/2535) — openshift/oadp-operator
 - [#2534 fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0](https://github.com/openshift/oadp-operator/pull/2534) — openshift/oadp-operator
