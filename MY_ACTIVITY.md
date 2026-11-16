@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 17:08:28 UTC
+> **Generated:** 2026-11-16 18:11:55 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -124,7 +124,7 @@
 - [#7 fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install](https://github.com/kaovilai/context-mode/pull/7) — kaovilai/context-mode
 ## PRs Opened (100)
 
-**openshift** (8)
+**openshift** (7)
 - [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
 - [#2551 e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22](https://github.com/openshift/oadp-operator/pull/2551) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
@@ -132,12 +132,12 @@
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 - [#2980 fix(operator): recompute protected namespaces on every sync](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) — openshift/cluster-kube-descheduler-operator
 - [#2543 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2543) — openshift/oadp-operator
-- [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 
 **migtools** (1)
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
-**Other** (91)
+**Other** (92)
+- [#659 fix(hosted-only): never swap a working proxy for one the gateway rejects](https://github.com/kaovilai/dotfiles/pull/659) — kaovilai/dotfiles
 - [#658 revert(hosted-only): GLM 5.3 primary, DeepSeek V4.1 Flash fallback](https://github.com/kaovilai/dotfiles/pull/658) — kaovilai/dotfiles
 - [#75 Restore diffutils in the runtime image variants](https://github.com/konveyor/builder/pull/75) — konveyor/builder
 - [#219 fix(review): support new Files changed review panel alongside legacy](https://github.com/kaovilai/github-bot-command-palette/pull/219) — kaovilai/github-bot-command-palette
