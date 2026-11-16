@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 20:09:40 UTC
+> **Generated:** 2026-11-16 21:08:32 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 29 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 95 |
+| Issues Closed | 96 |
 
 ---
 
@@ -374,7 +374,7 @@
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#4300 cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)](https://github.com/kubevirt/containerized-data-importer/issues/4300) — kubevirt/containerized-data-importer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-## Issues Closed (95)
+## Issues Closed (96)
 
 **velero-io** (24)
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
@@ -424,7 +424,8 @@
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 - [#184 DataDownload pod config doesn't propagate several BSL fields that DataUpload does](https://github.com/migtools/kubevirt-datamover-controller/issues/184) — migtools/kubevirt-datamover-controller
 
-**Other** (53)
+**Other** (54)
+- [#31579 [Bug]: Model picker paints blank rows and skips their jump shortcuts](https://github.com/pingdotgg/t3code/issues/31579) — pingdotgg/t3code
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
 - [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
 - [#54 bug(build): silently-dropped params — additionalbuildcontexts (--build-context), remote URL contexts, audit tail](https://github.com/kaovilai/podm/issues/54) — kaovilai/podm
