@@ -3,7 +3,7 @@
     "start": "2026-08-18",
     "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T00:35:11Z",
+  "generatedAt": "2026-11-16T06:28:43Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 606,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Implement namespace selection by label in resource policy",
+      "url": "https://github.com/openshift/velero/pull/606",
+      "date": "2026-11-16T04:43:32Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 5,
       "repo": "kaovilai/hotspot-relay",
       "org": "kaovilai",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/podm/pull/18",
       "date": "2026-11-09T16:25:25Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 17,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not \"native only\"",
-      "url": "https://github.com/kaovilai/podm/pull/17",
-      "date": "2026-11-09T16:17:38Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2052,6 +2052,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Velero backups failing due to blob missing from the repository",
+      "url": "https://github.com/velero-io/velero/issues/8654",
+      "date": "2026-11-16T01:38:52Z",
+      "workstream": "Velero"
+    },
     {
       "number": 5342,
       "repo": "netlify/build",
@@ -2942,15 +2951,6 @@
       "url": "https://github.com/pyamsoft/tetherfusenet/issues/101",
       "date": "2026-10-07T04:12:42Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 9189,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Support deleting running backups",
-      "url": "https://github.com/velero-io/velero/issues/9189",
-      "date": "2026-10-01T19:43:18Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [

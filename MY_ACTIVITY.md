@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 00:35:11 UTC
+> **Generated:** 2026-11-16 06:28:43 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -124,7 +124,8 @@
 - [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
 ## PRs Opened (100)
 
-**openshift** (7)
+**openshift** (8)
+- [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
 - [#2551 e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22](https://github.com/openshift/oadp-operator/pull/2551) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
@@ -136,7 +137,7 @@
 **migtools** (1)
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
-**Other** (92)
+**Other** (91)
 - [#5 fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings](https://github.com/kaovilai/hotspot-relay/pull/5) — kaovilai/hotspot-relay
 - [#657 fix(zsh): prevent background print from polluting non-tty captures](https://github.com/kaovilai/dotfiles/pull/657) — kaovilai/dotfiles
 - [#75 feat(cli): podm doctor checks the LaunchAgent install, not just the socket](https://github.com/kaovilai/podm/pull/75) — kaovilai/podm
@@ -228,7 +229,6 @@
 - [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
 - [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
-- [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
 ## PRs Reviewed (26)
 
 **velero-io** (16)
@@ -267,6 +267,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (43)
+- [#8654 Velero backups failing due to blob missing from the repository](https://github.com/velero-io/velero/issues/8654) — velero-io/velero
 - [#9603 Backport/Cherry-pick GitHub action](https://github.com/velero-io/velero/issues/9603) — velero-io/velero
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
@@ -309,7 +310,6 @@
 - [#10646 Consider enrolling Velero in Anthropic OSS Scanner](https://github.com/velero-io/velero/issues/10646) — velero-io/velero
 - [#9093 Publish releases to winget-pkgs](https://github.com/velero-io/velero/issues/9093) — velero-io/velero
 - [#8454 Large PVCs are canceled](https://github.com/velero-io/velero/issues/8454) — velero-io/velero
-- [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
 
 **openshift** (3)
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
