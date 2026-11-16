@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T15:16:56Z",
+  "updatedAt": "2026-11-16T16:11:36Z",
   "prs": [
     {
       "number": 5,
@@ -9843,135 +9843,6 @@
       ]
     },
     {
-      "number": 2545,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: retry AWS bucket region discovery on transient S3 errors",
-      "url": "https://github.com/openshift/oadp-operator/pull/2545",
-      "targetBranch": "oadp-1.6",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-10T12:42:37Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "ci/prow/4.18-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.18-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.22-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-e2e-test-hcp-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/ci-bundle-oadp-operator-bundle",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/unit-test",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 2549,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -10484,11 +10355,11 @@
       ]
     },
     {
-      "number": 88821,
+      "number": 88933,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI",
-      "url": "https://github.com/openshift/release/pull/88821",
+      "title": "OADP oadp-dev: remove OCP 4.22/4.23/5.0 CI, keep only 5.1",
+      "url": "https://github.com/openshift/release/pull/88933",
       "targetBranch": "main",
       "status": "ready",
       "milestone": null,
@@ -10497,11 +10368,15 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-16T15:09:37Z",
+      "updatedAt": "2026-11-16T15:58:38Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
           "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/agent-model-policy",
           "conclusion": "SUCCESS"
         },
         {
@@ -10522,6 +10397,10 @@
         },
         {
           "name": "ci/prow/commits-signed",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/config",
           "conclusion": "SUCCESS"
         },
         {
@@ -10546,6 +10425,10 @@
         },
         {
           "name": "ci/prow/prow-config-filenames",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/prow-config-semantics",
           "conclusion": "SUCCESS"
         },
         {
@@ -11555,33 +11438,58 @@
       ]
     },
     {
-      "number": 2543,
+      "number": 2545,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
-      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
-      "url": "https://github.com/openshift/oadp-operator/pull/2543",
-      "targetBranch": "oadp-dev",
+      "title": "fix: retry AWS bucket region discovery on transient S3 errors",
+      "url": "https://github.com/openshift/oadp-operator/pull/2545",
+      "targetBranch": "oadp-1.6",
       "status": "waiting-merge",
       "milestone": null,
       "author": "kaovilai",
       "isCopilotAuthored": false,
       "assignees": [
-        "sseago"
+        "sseago",
+        "shubham-pampattiwar"
       ],
       "isDraft": false,
       "labels": [
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-10T15:41:57Z",
+      "updatedAt": "2026-11-16T16:03:51Z",
       "workstream": "OADP",
       "ciChecks": [
         {
+          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.22-virt-nokdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "ci/prow/4.23-virt-kdm-e2e-test-aws",
+          "conclusion": "PENDING"
+        },
+        {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         },
         {
           "name": "ci/pipeline-gate",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.18-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.18-images",
           "conclusion": "SUCCESS"
         },
         {
@@ -11597,6 +11505,10 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.22-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.22-images",
           "conclusion": "SUCCESS"
         },
@@ -11609,7 +11521,19 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/4.23-e2e-test-cli-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/4.23-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.23-virt-nokdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -11625,31 +11549,15 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.0-e2e-test-hcp-aws",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/5.0-images",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/5.0-virt-kdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/5.0-virt-nokdm-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-ci-index",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-e2e-test-cli-aws",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/5.1-images",
           "conclusion": "SUCCESS"
         },
         {
@@ -15173,62 +15081,6 @@
       ]
     },
     {
-      "number": 397,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "Fix pre-existing CI failures on oadp-dev",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/397",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "sseago"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-10-22T18:34:45Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "golang-check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "container-check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "project-check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "oadp-compatibility-check",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "license/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "oadp-compatibility-check",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "security/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 111,
       "repo": "migtools/kubevirt-velero-plugin",
       "org": "migtools",
@@ -17745,7 +17597,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-16T15:16:56Z",
+    "updatedAt": "2026-11-16T16:11:36Z",
     "needsReview": [
       {
         "number": 68,
@@ -17907,7 +17759,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17920,7 +17772,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 221,
+        "waitingDays": 222,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -17982,7 +17834,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 137,
+        "waitingDays": 138,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -18665,7 +18517,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19231,7 +19083,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-10-30T15:47:17Z"
       },
       {
@@ -19667,35 +19519,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-11-10T07:54:52Z"
-      },
-      {
-        "number": 2545,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix: retry AWS bucket region discovery on transient S3 errors",
-        "url": "https://github.com/openshift/oadp-operator/pull/2545",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "akarol",
-          "mpryc"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-11-10T12:42:37Z"
       },
       {
         "number": 10798,
@@ -20173,46 +19996,17 @@
         "updatedAt": "2026-11-14T05:42:26Z"
       },
       {
-        "number": 88500,
+        "number": 88933,
         "repo": "openshift/release",
         "org": "openshift",
-        "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
-        "url": "https://github.com/openshift/release/pull/88500",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "bear-redhat",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-16T10:09:07Z"
-      },
-      {
-        "number": 88821,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI",
-        "url": "https://github.com/openshift/release/pull/88821",
+        "title": "OADP oadp-dev: remove OCP 4.22/4.23/5.0 CI, keep only 5.1",
+        "url": "https://github.com/openshift/release/pull/88933",
         "targetBranch": "main",
         "author": "redhat-chai-bot",
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20220,13 +20014,13 @@
         "approvalCount": 0,
         "requiredApprovals": null,
         "reviewRequests": [
-          "Joeavaikath",
-          "kaovilai"
+          "hhpatel14",
+          "Joeavaikath"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-16T15:09:37Z"
+        "updatedAt": "2026-11-16T15:58:38Z"
       },
       {
         "number": 606,
@@ -20296,7 +20090,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20308,7 +20102,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 221,
+        "waitingDays": 222,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -21138,35 +20932,6 @@
         "updatedAt": "2026-10-22T18:33:34Z"
       },
       {
-        "number": 397,
-        "repo": "migtools/oadp-non-admin",
-        "org": "migtools",
-        "title": "Fix pre-existing CI failures on oadp-dev",
-        "url": "https://github.com/migtools/oadp-non-admin/pull/397",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 24,
-        "updatedAt": "2026-10-22T18:34:45Z"
-      },
-      {
         "number": 2513,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -21294,7 +21059,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
@@ -21539,38 +21304,6 @@
         "updatedAt": "2026-11-10T05:29:12Z"
       },
       {
-        "number": 2543,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
-        "url": "https://github.com/openshift/oadp-operator/pull/2543",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "hhpatel14",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 5,
-        "updatedAt": "2026-11-10T15:41:57Z"
-      },
-      {
         "number": 2499,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -21635,6 +21368,39 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-11-16T01:32:03Z"
+      },
+      {
+        "number": 2545,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix: retry AWS bucket region discovery on transient S3 errors",
+        "url": "https://github.com/openshift/oadp-operator/pull/2545",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago",
+          "shubham-pampattiwar"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "akarol",
+          "mpryc"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-16T16:03:51Z"
       }
     ]
   }

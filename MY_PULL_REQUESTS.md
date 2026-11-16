@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-16 15:16:56 UTC
+> Last updated: 2026-11-16 16:11:36 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -75,7 +75,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2536](https://img.shields.io/badge/PR%20%232536-ready-green)](https://github.com/openshift/oadp-operator/pull/2536) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-84303): upgrade google.golang.org/grpc v1.82.1 -> v1.83.1
 - [![PR #2539](https://img.shields.io/badge/PR%20%232539-ready-green)](https://github.com/openshift/oadp-operator/pull/2539) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-116591): upgrade github.com/klauspost/compress v1.18.6 -> v1.20.2
 - [![PR #2544](https://img.shields.io/badge/PR%20%232544-ready-green)](https://github.com/openshift/oadp-operator/pull/2544) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case
-- [![PR #2545](https://img.shields.io/badge/PR%20%232545-ready-green)](https://github.com/openshift/oadp-operator/pull/2545) **openshift/oadp-operator** → `oadp-1.6` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #2549](https://img.shields.io/badge/PR%20%232549-ready-green)](https://github.com/openshift/oadp-operator/pull/2549) **openshift/oadp-operator** → `oadp-dev` - tests/e2e: increase readyPod timeout to 5 minutes
 - [![PR #2550](https://img.shields.io/badge/PR%20%232550-ready-green)](https://github.com/openshift/oadp-operator/pull/2550) **openshift/oadp-operator** → `oadp-dev` - tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test
 - [![PR #2980](https://img.shields.io/badge/PR%20%232980-ready-green)](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) **openshift/cluster-kube-descheduler-operator** → `main` - fix(operator): recompute protected namespaces on every sync
@@ -87,7 +86,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #606](https://img.shields.io/badge/PR%20%23606-ready-green)](https://github.com/openshift/velero/pull/606) **openshift/velero** → `oadp-1.6` - Implement namespace selection by label in resource policy
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #88500](https://img.shields.io/badge/PR%20%2388500-ready-green)](https://github.com/openshift/release/pull/88500) **openshift/release** → `main` - OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel
-- [![PR #88821](https://img.shields.io/badge/PR%20%2388821-ready-green)](https://github.com/openshift/release/pull/88821) **openshift/release** → `main` - oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI
+- [![PR #88933](https://img.shields.io/badge/PR%20%2388933-ready-green)](https://github.com/openshift/release/pull/88933) **openshift/release** → `main` - OADP oadp-dev: remove OCP 4.22/4.23/5.0 CI, keep only 5.1
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
@@ -101,7 +100,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2502](https://img.shields.io/badge/PR%20%232502-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2502) **openshift/oadp-operator** → `oadp-1.5` - [oadp-1.5] fix: add nil guard for BSL LastValidationTime in BSLsAreUpdated
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
-- [![PR #2543](https://img.shields.io/badge/PR%20%232543-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2543) **openshift/oadp-operator** → `oadp-dev` - Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index
+- [![PR #2545](https://img.shields.io/badge/PR%20%232545-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2545) **openshift/oadp-operator** → `oadp-1.6` - fix: retry AWS bucket region discovery on transient S3 errors
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
@@ -151,7 +150,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
-- [![PR #397](https://img.shields.io/badge/PR%20%23397-waiting--merge-blue)](https://github.com/migtools/oadp-non-admin/pull/397) **migtools/oadp-non-admin** → `oadp-dev` - Fix pre-existing CI failures on oadp-dev
 - [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: 468: Select the live virt-launcher pod after live migration
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-stale-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
