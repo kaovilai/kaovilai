@@ -3,15 +3,33 @@
     "start": "2026-08-18",
     "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T06:28:43Z",
+  "generatedAt": "2026-11-16T12:18:33Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 26,
+    "prsReviewed": 28,
     "issuesCommented": 100,
     "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 218,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): address review feedback for new Overview UI support",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/218",
+      "date": "2026-11-16T10:05:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 217,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): support new GitHub PR Overview UI alongside legacy",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/217",
+      "date": "2026-11-16T07:18:37Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 657,
       "repo": "kaovilai/dotfiles",
@@ -893,27 +911,45 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2207",
       "date": "2026-11-09T17:10:14Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 14,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "ci: group all dependabot updates — one PR per ecosystem, security included",
-      "url": "https://github.com/kaovilai/podm/pull/14",
-      "date": "2026-11-09T16:58:51Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 17,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not \"native only\"",
-      "url": "https://github.com/kaovilai/podm/pull/17",
-      "date": "2026-11-09T16:41:38Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 75,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Restore diffutils in the runtime image variants",
+      "url": "https://github.com/konveyor/builder/pull/75",
+      "date": "2026-11-16T10:19:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 219,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(review): support new Files changed review panel alongside legacy",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/219",
+      "date": "2026-11-16T10:11:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 218,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): address review feedback for new Overview UI support",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/218",
+      "date": "2026-11-16T10:04:44Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 217,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(checks): support new GitHub PR Overview UI alongside legacy",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/217",
+      "date": "2026-11-16T07:13:08Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 606,
       "repo": "openshift/velero",
@@ -1777,52 +1813,34 @@
       "url": "https://github.com/kaovilai/podm/pull/21",
       "date": "2026-11-10T01:07:02Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install",
-      "url": "https://github.com/kaovilai/context-mode/pull/7",
-      "date": "2026-11-09T19:35:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 20,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
-      "url": "https://github.com/kaovilai/podm/pull/20",
-      "date": "2026-11-09T17:41:32Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 63,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Name fips tags for their FIPS backend",
-      "url": "https://github.com/konveyor/builder/pull/63",
-      "date": "2026-11-09T16:52:05Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "deps: group all open Swift dependabot bumps — security fixes included",
-      "url": "https://github.com/kaovilai/podm/pull/18",
-      "date": "2026-11-09T16:25:25Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10817,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Treat omitted backup hook on-error as Fail",
+      "url": "https://github.com/velero-io/velero/pull/10817",
+      "date": "2026-11-16T10:19:22Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 256,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "fix: read VMB backup type from status.includedVolumes[].type",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
+      "date": "2026-11-16T10:13:56Z",
+      "workstream": "KubeVirt Data Mover"
+    },
     {
       "number": 10832,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group",
       "url": "https://github.com/velero-io/velero/pull/10832",
-      "date": "2026-11-14T19:24:30Z",
+      "date": "2026-11-16T08:15:18Z",
       "workstream": "Velero"
     },
     {
@@ -1831,8 +1849,17 @@
       "org": "velero-io",
       "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198",
       "url": "https://github.com/velero-io/velero/pull/10830",
-      "date": "2026-11-14T19:23:52Z",
+      "date": "2026-11-16T08:06:38Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 34998,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away",
+      "url": "https://github.com/pingdotgg/t3code/pull/34998",
+      "date": "2026-11-16T06:53:35Z",
+      "workstream": "Uncategorized"
     },
     {
       "number": 10827,
@@ -1905,15 +1932,6 @@
       "url": "https://github.com/migtools/udistribution/pull/200",
       "date": "2026-11-13T01:33:13Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 256,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
-      "date": "2026-11-13T01:04:10Z",
-      "workstream": "KubeVirt Data Mover"
     },
     {
       "number": 10822,
@@ -2052,6 +2070,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 17875,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)",
+      "url": "https://github.com/kubevirt/kubevirt/issues/17875",
+      "date": "2026-11-16T08:48:22Z",
+      "workstream": "KubeVirt Data Mover"
+    },
     {
       "number": 8654,
       "repo": "velero-io/velero",
@@ -2708,15 +2735,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-24T12:20:07Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 17875,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)",
-      "url": "https://github.com/kubevirt/kubevirt/issues/17875",
-      "date": "2026-10-23T16:25:00Z",
-      "workstream": "KubeVirt Data Mover"
     },
     {
       "number": 1419,
