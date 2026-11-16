@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T18:12:40Z",
+  "updatedAt": "2026-11-16T19:08:42Z",
   "prs": [
     {
       "number": 5,
@@ -15732,6 +15732,77 @@
       ]
     },
     {
+      "number": 659,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): never swap a working proxy for one the gateway rejects",
+      "url": "https://github.com/kaovilai/dotfiles/pull/659",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-16T19:05:05Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (python)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (1.21, scripts/claude-provider-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (fedora)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "verify (macos)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 219,
       "repo": "kaovilai/github-bot-command-palette",
       "org": "kaovilai",
@@ -16197,9 +16268,13 @@
       "assignees": [],
       "isDraft": true,
       "labels": [],
-      "updatedAt": "2026-11-16T18:10:47Z",
+      "updatedAt": "2026-11-16T18:18:32Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "Make (windows-latest)",
+          "conclusion": "FAILURE"
+        },
         {
           "name": "License Check",
           "conclusion": "FAILURE"
@@ -16209,43 +16284,39 @@
           "conclusion": "FAILURE"
         },
         {
-          "name": "Make (windows-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "Code Coverage Tests",
-          "conclusion": ""
-        },
-        {
-          "name": "Compat Test",
-          "conclusion": ""
-        },
-        {
-          "name": "E2E Test",
-          "conclusion": ""
-        },
-        {
-          "name": "Tests",
-          "conclusion": ""
-        },
-        {
-          "name": "Stress Test",
-          "conclusion": ""
-        },
-        {
           "name": "Tests (windows-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "Volume Shadow Copy Test",
-          "conclusion": ""
+          "conclusion": "FAILURE"
         },
         {
           "name": "Check PR Title",
           "conclusion": "SUCCESS"
         },
         {
+          "name": "Code Coverage Tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Compat Test",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "dependency-review",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "E2E Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Tests",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Stress Test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Volume Shadow Copy Test",
           "conclusion": "SUCCESS"
         },
         {
@@ -16257,28 +16328,32 @@
           "conclusion": "FAILURE"
         },
         {
+          "name": "Lint (macos-latest)",
+          "conclusion": "FAILURE"
+        },
+        {
           "name": "Tests (ubuntu-latest)",
           "conclusion": "FAILURE"
         },
         {
-          "name": "Lint (macos-latest)",
-          "conclusion": ""
-        },
-        {
           "name": "Make (macos-latest)",
-          "conclusion": ""
+          "conclusion": "FAILURE"
         },
         {
           "name": "Tests (macos-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "Tests (ubuntu-24.04-arm)",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "Make (ubuntu-24.04-arm)",
           "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Tests (ubuntu-24.04-arm)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Stage And Publish Artifacts",
+          "conclusion": "SKIPPED"
         },
         {
           "name": "govulncheck",
@@ -17229,168 +17304,6 @@
       "ciChecks": []
     },
     {
-      "number": 658,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "revert(hosted-only): GLM 5.3 primary, DeepSeek V4.1 Flash fallback",
-      "url": "https://github.com/kaovilai/dotfiles/pull/658",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-16T18:05:56Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "review",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 659,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "fix(hosted-only): never swap a working proxy for one the gateway rejects",
-      "url": "https://github.com/kaovilai/dotfiles/pull/659",
-      "targetBranch": "main",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-16T18:11:39Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "review",
-          "conclusion": ""
-        },
-        {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (1.21, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "CANCELLED"
-        },
-        {
-          "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 18636,
       "repo": "rook/rook",
       "org": "rook",
@@ -17836,7 +17749,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-16T18:12:40Z",
+    "updatedAt": "2026-11-16T19:08:42Z",
     "needsReview": [
       {
         "number": 68,
@@ -18498,7 +18411,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 80,
+        "waitingDays": 81,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -18528,7 +18441,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 80,
+        "waitingDays": 81,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -18739,6 +18652,39 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 10010,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Design for CRD schema validation at server startup",
+        "url": "https://github.com/velero-io/velero/pull/10010",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 48,
+        "updatedAt": "2026-09-29T18:16:07Z"
+      },
+      {
         "number": 123138,
         "repo": "NousResearch/hermes-agent",
         "org": "NousResearch",
@@ -18770,39 +18716,6 @@
         "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
-        "number": 10010,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Design for CRD schema validation at server startup",
-        "url": "https://github.com/velero-io/velero/pull/10010",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 47,
-        "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
         "number": 70,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -18827,7 +18740,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-10-07T18:19:44Z"
       },
       {
@@ -18856,7 +18769,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
@@ -19222,7 +19135,7 @@
           "needs-ok-to-test",
           "kind/kep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19893,7 +19806,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20946,7 +20859,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 39,
+        "waitingDays": 40,
         "updatedAt": "2026-10-07T18:19:21Z"
       },
       {
@@ -21076,37 +20989,6 @@
         "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
-        "number": 2477,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-        "url": "https://github.com/openshift/oadp-operator/pull/2477",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 25,
-        "updatedAt": "2026-10-21T21:06:02Z"
-      },
-      {
         "number": 107,
         "repo": "migtools/kubevirt-velero-plugin",
         "org": "migtools",
@@ -21134,7 +21016,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-10-22T18:35:44Z"
       },
       {
@@ -21165,7 +21047,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-10-22T18:36:08Z"
       },
       {
@@ -21196,8 +21078,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 24,
+        "waitingDays": 25,
         "updatedAt": "2026-10-22T18:33:34Z"
+      },
+      {
+        "number": 2477,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+        "url": "https://github.com/openshift/oadp-operator/pull/2477",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 25,
+        "updatedAt": "2026-10-21T21:06:02Z"
       },
       {
         "number": 2513,
@@ -21599,7 +21512,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 4,
+        "waitingDays": 5,
         "updatedAt": "2026-11-11T18:47:42Z"
       },
       {
