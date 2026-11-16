@@ -3,7 +3,7 @@
     "start": "2026-08-18",
     "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T14:23:39Z",
+  "generatedAt": "2026-11-16T15:14:17Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 2542,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
+      "url": "https://github.com/openshift/oadp-operator/pull/2542",
+      "date": "2026-11-16T14:45:38Z",
+      "workstream": "OADP"
+    },
     {
       "number": 217,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -901,15 +910,6 @@
       "title": "feat: podman rmi fix, docker/podman top, StartInterval healthchecks",
       "url": "https://github.com/kaovilai/podm/pull/20",
       "date": "2026-11-09T20:17:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 18,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "deps: group all open Swift dependabot bumps — security fixes included",
-      "url": "https://github.com/kaovilai/podm/pull/18",
-      "date": "2026-11-09T17:32:54Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -2071,6 +2071,24 @@
   ],
   "issuesCommented": [
     {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-16T15:02:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 439,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
+      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
+      "date": "2026-11-16T14:41:22Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 17875,
       "repo": "kubevirt/kubevirt",
       "org": "kubevirt",
@@ -2095,15 +2113,6 @@
       "title": "baseRelDir cannot be set to false in new netlify sites or change to true from older sites",
       "url": "https://github.com/netlify/build/issues/5342",
       "date": "2026-11-15T14:01:08Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-15T13:33:00Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2267,15 +2276,6 @@
       "url": "https://github.com/kubernetes-sigs/prow/issues/477",
       "date": "2026-11-11T13:18:53Z",
       "workstream": "Kubernetes"
-    },
-    {
-      "number": 439,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring",
-      "url": "https://github.com/openshift/openshift-velero-plugin/issues/439",
-      "date": "2026-11-11T08:30:54Z",
-      "workstream": "Velero"
     },
     {
       "number": 37,

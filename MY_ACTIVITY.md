@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 14:23:39 UTC
+> **Generated:** 2026-11-16 15:14:17 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -20,7 +20,8 @@
 - [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
 - [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
 
-**openshift** (5)
+**openshift** (6)
+- [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 - [#2515 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2515) — openshift/oadp-operator
@@ -30,7 +31,7 @@
 **migtools** (1)
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
-**Other** (91)
+**Other** (90)
 - [#217 Prep rebasebot for velero's Go 1.27 rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) — oadp-rebasebot/oadp-rebase
 - [#75 Restore diffutils in the runtime image variants](https://github.com/konveyor/builder/pull/75) — konveyor/builder
 - [#218 fix(checks): address review feedback for new Overview UI support](https://github.com/kaovilai/github-bot-command-palette/pull/218) — kaovilai/github-bot-command-palette
@@ -121,7 +122,6 @@
 - [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
 - [#7 fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install](https://github.com/kaovilai/context-mode/pull/7) — kaovilai/context-mode
 - [#20 feat: podman rmi fix, docker/podman top, StartInterval healthchecks](https://github.com/kaovilai/podm/pull/20) — kaovilai/podm
-- [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
 ## PRs Opened (100)
 
 **openshift** (8)
@@ -319,9 +319,9 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (54)
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#7 Detected by com.scb.phone](https://github.com/dpkay-io/toggldev/issues/7) — dpkay-io/toggldev
 - [#909 [Bug]: Orphaned Python/Docker processes after closing MCP clients/agents](https://github.com/sooperset/mcp-atlassian/issues/909) — sooperset/mcp-atlassian
 - [#260 Idea: a Pinch Behavior setting, so two fingers can zoom the picture or the Mac's app](https://github.com/Saffsanity/sill/issues/260) — Saffsanity/sill
