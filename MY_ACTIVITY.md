@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 18:11:55 UTC
+> **Generated:** 2026-11-16 19:08:14 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -28,11 +28,11 @@
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
 - [#2531 fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2531) — openshift/oadp-operator
 
-**migtools** (2)
+**migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
-- [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
-**Other** (89)
+**Other** (90)
+- [#658 revert(hosted-only): GLM 5.3 primary, DeepSeek V4.1 Flash fallback](https://github.com/kaovilai/dotfiles/pull/658) — kaovilai/dotfiles
 - [#217 Prep rebasebot for velero's Go 1.27 rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) — oadp-rebasebot/oadp-rebase
 - [#75 Restore diffutils in the runtime image variants](https://github.com/konveyor/builder/pull/75) — konveyor/builder
 - [#218 fix(checks): address review feedback for new Overview UI support](https://github.com/kaovilai/github-bot-command-palette/pull/218) — kaovilai/github-bot-command-palette
