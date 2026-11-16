@@ -3,7 +3,7 @@
     "start": "2026-08-18",
     "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T12:18:33Z",
+  "generatedAt": "2026-11-16T13:23:07Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,24 @@
     "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 217,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Prep rebasebot for velero's Go 1.27 rebase",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
+      "date": "2026-11-16T13:06:44Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 75,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Restore diffutils in the runtime image variants",
+      "url": "https://github.com/konveyor/builder/pull/75",
+      "date": "2026-11-16T12:58:41Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 218,
       "repo": "kaovilai/github-bot-command-palette",
@@ -893,24 +911,6 @@
       "url": "https://github.com/kaovilai/podm/pull/18",
       "date": "2026-11-09T17:32:54Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 15,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter",
-      "url": "https://github.com/kaovilai/podm/pull/15",
-      "date": "2026-11-09T17:10:52Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2207,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "OADP-8312: Fix DPA annotation changes not triggering reconciliation",
-      "url": "https://github.com/openshift/oadp-operator/pull/2207",
-      "date": "2026-11-09T17:10:14Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
