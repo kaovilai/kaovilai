@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T06:14:31Z",
+  "updatedAt": "2026-11-16T12:20:14Z",
   "prs": [
     {
       "number": 5,
@@ -15,7 +15,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-11T06:30:04Z",
+      "updatedAt": "2026-11-16T09:33:27Z",
       "workstream": "Velero",
       "ciChecks": []
     },
@@ -10398,7 +10398,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-12T15:31:29Z",
+      "updatedAt": "2026-11-16T10:09:07Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -10574,7 +10574,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-16T05:29:21Z",
+      "updatedAt": "2026-11-16T06:58:11Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -11574,13 +11574,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-13T02:58:13Z",
+      "updatedAt": "2026-11-16T07:19:51Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
-          "conclusion": "FAILURE"
-        },
         {
           "name": "ci/prow/unit-test",
           "conclusion": "FAILURE"
@@ -11619,6 +11615,10 @@
         },
         {
           "name": "ci/prow/4.22-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/4.22-virt-kdm-e2e-test-aws",
           "conclusion": "SUCCESS"
         },
         {
@@ -16067,6 +16067,376 @@
       ]
     },
     {
+      "number": 219,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(review): support new Files changed review panel alongside legacy",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/219",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-16T10:17:18Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "auto-merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "Analyze (actions)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Analyze (javascript-typescript)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeQL",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "repo": "konveyor/builder",
+      "org": "konveyor",
+      "title": "Restore diffutils in the runtime image variants",
+      "url": "https://github.com/konveyor/builder/pull/75",
+      "targetBranch": "main",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-16T10:21:30Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "changes",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, fips) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (8, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (8, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (9, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, fips) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (9, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (9, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (10, fips) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / build (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / e2e (FIPS_TAG=go1.27.3-1-hostfips-release, go1.27.3-1-hostfips-release, true)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / e2e (FIPS_TAG=go1.26.10-1-openssl-fips, go1.26.10-1-openssl-fips, 1.26.10, false)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, fips) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "build (10, standard) / determine-versions",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go, latest, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/ppc64le)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / build (GO_VERSION=go1.26.11, 1.26.11, 1.26.11, linux/s390x)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / e2e (GO_VERSION=go, latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / e2e (GO_VERSION=go1.26.11, 1.26.11, 1.26.11)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "build (10, standard) / merge",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "DCO",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Dependency Quality",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "License Compliance",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 674,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
@@ -16342,7 +16712,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-05T20:23:05Z",
+      "updatedAt": "2026-11-16T10:11:02Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -17916,7 +18286,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-16T06:14:31Z",
+    "updatedAt": "2026-11-16T12:20:14Z",
     "needsReview": [
       {
         "number": 68,
@@ -18035,7 +18405,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 528,
+        "waitingDays": 529,
         "updatedAt": "2025-06-05T09:59:18Z"
       },
       {
@@ -18181,30 +18551,6 @@
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
-        "number": 1531,
-        "repo": "slopus/happy",
-        "org": "slopus",
-        "title": "fix(cli): pass through update subcommand to claude directly",
-        "url": "https://github.com/slopus/happy/pull/1531",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 124,
-        "updatedAt": "2026-07-15T00:42:51Z"
-      },
-      {
         "number": 2308,
         "repo": "openshift/oc",
         "org": "openshift",
@@ -18230,8 +18576,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 123,
+        "waitingDays": 124,
         "updatedAt": "2026-07-15T09:18:53Z"
+      },
+      {
+        "number": 1531,
+        "repo": "slopus/happy",
+        "org": "slopus",
+        "title": "fix(cli): pass through update subcommand to claude directly",
+        "url": "https://github.com/slopus/happy/pull/1531",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 124,
+        "updatedAt": "2026-07-15T00:42:51Z"
       },
       {
         "number": 267,
@@ -18488,6 +18858,35 @@
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
+        "number": 10041,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)",
+        "url": "https://github.com/velero-io/velero/pull/10041",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 80,
+        "updatedAt": "2026-08-27T17:00:09Z"
+      },
+      {
         "number": 7941,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18502,7 +18901,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18534,7 +18933,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18565,7 +18964,7 @@
           "kind/changelog-not-required",
           "Documentation"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18596,7 +18995,7 @@
         "labels": [
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18711,7 +19110,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18745,7 +19144,7 @@
           "Area/Design",
           "kind/changelog-not-required"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18835,7 +19234,7 @@
           "kind/changelog-not-required",
           "target/1.19.1"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18850,6 +19249,39 @@
         "reason": "awaitingReview",
         "waitingDays": 47,
         "updatedAt": "2026-09-29T18:16:07Z"
+      },
+      {
+        "number": 9910,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "feat: add CRD schema validation during server startup",
+        "url": "https://github.com/velero-io/velero/pull/9910",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 47,
+        "updatedAt": "2026-09-29T21:00:44Z"
       },
       {
         "number": 123138,
@@ -18991,7 +19423,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-10-15T07:41:36Z"
       },
       {
@@ -19167,6 +19599,65 @@
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
+        "number": 10699,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Delete the in-place restore baseline snapshot under a Retain class",
+        "url": "https://github.com/velero-io/velero/pull/10699",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "Needs triage"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-10-27T07:49:22Z"
+      },
+      {
+        "number": 10718,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+        "url": "https://github.com/velero-io/velero/pull/10718",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required",
+          "Documentation"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 20,
+        "updatedAt": "2026-10-27T07:46:06Z"
+      },
+      {
         "number": 674,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -19200,65 +19691,6 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
-        "number": 10699,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Delete the in-place restore baseline snapshot under a Retain class",
-        "url": "https://github.com/velero-io/velero/pull/10699",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "has-unit-tests",
-          "has-changelog",
-          "Needs triage"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-10-27T07:49:22Z"
-      },
-      {
-        "number": 10718,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
-        "url": "https://github.com/velero-io/velero/pull/10718",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "Documentation"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 19,
-        "updatedAt": "2026-10-27T07:46:06Z"
-      },
-      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -19275,7 +19707,7 @@
           "needs-ok-to-test",
           "kind/kep"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19406,30 +19838,6 @@
         "updatedAt": "2026-10-30T15:47:17Z"
       },
       {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 14,
-        "updatedAt": "2026-11-02T02:55:27Z"
-      },
-      {
         "number": 89,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -19456,8 +19864,65 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 14,
+        "waitingDays": 15,
         "updatedAt": "2026-11-01T09:31:39Z"
+      },
+      {
+        "number": 216,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Guard CRD regeneration after dependency bumps",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-11-02T02:55:27Z"
+      },
+      {
+        "number": 9236,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Fix BackupRepositories becoming stale when BSL config changes while Velero is not running",
+        "url": "https://github.com/velero-io/velero/pull/9236",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "has-unit-tests",
+          "has-changelog",
+          "has-e2e-2tests"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "blackpiglet",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-11-02T07:27:53Z"
       },
       {
         "number": 10710,
@@ -19521,30 +19986,6 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-11-05T01:31:19Z"
-      },
-      {
-        "number": 217,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Prep rebasebot for velero's Go 1.27 rebase",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-11-05T20:23:05Z"
       },
       {
         "number": 442,
@@ -19648,7 +20089,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19781,6 +20222,33 @@
         "updatedAt": "2026-11-09T05:35:29Z"
       },
       {
+        "number": 2523,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): handle Terminating namespace in CreateNamespace",
+        "url": "https://github.com/openshift/oadp-operator/pull/2523",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "kaovilai",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 6,
+        "updatedAt": "2026-11-10T09:33:37Z"
+      },
+      {
         "number": 2539,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -19807,6 +20275,35 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-11-10T05:29:15Z"
+      },
+      {
+        "number": 2544,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case",
+        "url": "https://github.com/openshift/oadp-operator/pull/2544",
+        "targetBranch": "oadp-1.6",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "kaovilai",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 6,
+        "updatedAt": "2026-11-10T07:54:52Z"
       },
       {
         "number": 504,
@@ -19838,60 +20335,35 @@
         "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
-        "number": 2523,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(e2e): handle Terminating namespace in CreateNamespace",
-        "url": "https://github.com/openshift/oadp-operator/pull/2523",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "kaovilai",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-11-10T09:33:37Z"
-      },
-      {
-        "number": 2544,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case",
-        "url": "https://github.com/openshift/oadp-operator/pull/2544",
-        "targetBranch": "oadp-1.6",
-        "author": "openshift-cherrypick-robot",
+        "number": 10798,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "test: add Go fuzz targets for the backup archive extractor",
+        "url": "https://github.com/velero-io/velero/pull/10798",
+        "targetBranch": "main",
+        "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [
           "kaovilai"
         ],
-        "labels": [],
+        "labels": [
+          "kind/changelog-not-required",
+          "has-unit-tests"
+        ],
         "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
         "reviewDecision": "REVIEW_REQUIRED",
         "approvalCount": 0,
-        "requiredApprovals": 2,
+        "requiredApprovals": null,
         "reviewRequests": [
-          "kaovilai",
-          "weshayutin"
+          "reasonerjt"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-11-10T07:54:52Z"
+        "waitingDays": 6,
+        "updatedAt": "2026-11-10T06:29:35Z"
       },
       {
         "number": 2545,
@@ -19987,7 +20459,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20027,37 +20499,6 @@
         "reason": "awaitingReview",
         "waitingDays": 5,
         "updatedAt": "2026-11-11T03:36:17Z"
-      },
-      {
-        "number": 10798,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "test: add Go fuzz targets for the backup archive extractor",
-        "url": "https://github.com/velero-io/velero/pull/10798",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required",
-          "has-unit-tests"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 5,
-        "updatedAt": "2026-11-10T06:29:35Z"
       },
       {
         "number": 319,
@@ -20114,6 +20555,32 @@
         "updatedAt": "2026-11-11T03:26:22Z"
       },
       {
+        "number": 324,
+        "repo": "velero-io/velero-plugin-for-microsoft-azure",
+        "org": "velero-io",
+        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
+        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 5,
+        "updatedAt": "2026-11-11T08:07:08Z"
+      },
+      {
         "number": 478,
         "repo": "kubernetes-sigs/prow",
         "org": "kubernetes-sigs",
@@ -20152,54 +20619,67 @@
         "updatedAt": "2026-11-11T12:34:50Z"
       },
       {
-        "number": 5,
-        "repo": "velero-io/.github",
-        "org": "velero-io",
-        "title": "Velero CNCF incubation security and engineering materials",
-        "url": "https://github.com/velero-io/.github/pull/5",
-        "targetBranch": "topic/cncf/incubation",
+        "number": 18957,
+        "repo": "kubevirt/kubevirt",
+        "org": "kubevirt",
+        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
+        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
+        "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
         "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "labels": [
+          "size/M",
+          "area/controller",
+          "sig/storage",
+          "release-note",
+          "lifecycle/rotten",
+          "dco-signoff: yes"
+        ],
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
         "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "akalenyu",
+          "awels",
+          "Acedus",
+          "alromeros"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 4,
-        "updatedAt": "2026-11-11T06:30:04Z"
+        "updatedAt": "2026-11-12T07:05:42Z"
       },
       {
-        "number": 324,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "Use velero-io/velero's shared reusable workflows instead of local copies",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324",
+        "number": 2980,
+        "repo": "openshift/cluster-kube-descheduler-operator",
+        "org": "openshift",
+        "title": "fix(operator): recompute protected namespaces on every sync",
+        "url": "https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980",
         "targetBranch": "main",
         "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
+        "assignees": [],
         "labels": [],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
         "requiredApprovals": null,
-        "reviewRequests": [],
+        "reviewRequests": [
+          "ardaguclu",
+          "ingvagabund"
+        ],
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 4,
-        "updatedAt": "2026-11-11T08:07:08Z"
+        "updatedAt": "2026-11-12T10:29:14Z"
       },
       {
         "number": 121974,
@@ -20233,69 +20713,6 @@
         "updatedAt": "2026-11-13T02:45:32Z"
       },
       {
-        "number": 18957,
-        "repo": "kubevirt/kubevirt",
-        "org": "kubevirt",
-        "title": "storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost",
-        "url": "https://github.com/kubevirt/kubevirt/pull/18957",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/M",
-          "area/controller",
-          "sig/storage",
-          "release-note",
-          "lifecycle/rotten",
-          "dco-signoff: yes"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "akalenyu",
-          "awels",
-          "Acedus",
-          "alromeros"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-12T07:05:42Z"
-      },
-      {
-        "number": 2980,
-        "repo": "openshift/cluster-kube-descheduler-operator",
-        "org": "openshift",
-        "title": "fix(operator): recompute protected namespaces on every sync",
-        "url": "https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "ardaguclu",
-          "ingvagabund"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-12T10:29:14Z"
-      },
-      {
         "number": 2551,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20327,35 +20744,6 @@
         "reason": "hold",
         "waitingDays": 3,
         "updatedAt": "2026-11-13T02:18:07Z"
-      },
-      {
-        "number": 88500,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
-        "url": "https://github.com/openshift/release/pull/88500",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "bear-redhat",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-12T15:31:29Z"
       },
       {
         "number": 88821,
@@ -20416,6 +20804,37 @@
         "updatedAt": "2026-11-13T02:07:35Z"
       },
       {
+        "number": 157,
+        "repo": "openshift/oadp-must-gather",
+        "org": "openshift",
+        "title": "[oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
+        "url": "https://github.com/openshift/oadp-must-gather/pull/157",
+        "targetBranch": "oadp-1.5",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "lifecycle/stale"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "mpryc"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 2,
+        "updatedAt": "2026-11-14T09:31:51Z"
+      },
+      {
         "number": 511,
         "repo": "openshift/openshift-velero-plugin",
         "org": "openshift",
@@ -20447,35 +20866,83 @@
         "updatedAt": "2026-11-14T05:42:26Z"
       },
       {
-        "number": 157,
-        "repo": "openshift/oadp-must-gather",
-        "org": "openshift",
-        "title": "[oadp-1.5] Gather PVC/PV/Namespace(SCC) data for Backup/Restore namespaces",
-        "url": "https://github.com/openshift/oadp-must-gather/pull/157",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
+        "number": 75,
+        "repo": "konveyor/builder",
+        "org": "konveyor",
+        "title": "Restore diffutils in the runtime image variants",
+        "url": "https://github.com/konveyor/builder/pull/75",
+        "targetBranch": "main",
+        "author": "kaovilai",
         "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "lifecycle/stale"
-        ],
-        "mergeStateStatus": "BLOCKED",
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
+        "reviewDecision": null,
         "approvalCount": 0,
-        "requiredApprovals": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-16T10:21:30Z"
+      },
+      {
+        "number": 217,
+        "repo": "oadp-rebasebot/oadp-rebase",
+        "org": "oadp-rebasebot",
+        "title": "Prep rebasebot for velero's Go 1.27 rebase",
+        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/217",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
         "reviewRequests": [
-          "Joeavaikath",
-          "mpryc"
+          "Joeavaikath"
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-14T09:31:51Z"
+        "waitingDays": 0,
+        "updatedAt": "2026-11-16T10:11:02Z"
+      },
+      {
+        "number": 88500,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
+        "url": "https://github.com/openshift/release/pull/88500",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "bear-redhat",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-16T10:09:07Z"
       },
       {
         "number": 606,
@@ -20504,7 +20971,31 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-16T05:29:21Z"
+        "updatedAt": "2026-11-16T06:58:11Z"
+      },
+      {
+        "number": 5,
+        "repo": "velero-io/.github",
+        "org": "velero-io",
+        "title": "Velero CNCF incubation security and engineering materials",
+        "url": "https://github.com/velero-io/.github/pull/5",
+        "targetBranch": "topic/cncf/incubation",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-16T09:33:27Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -20563,6 +21054,36 @@
         "reason": "pendingMerge",
         "waitingDays": 122,
         "updatedAt": "2026-07-16T17:00:18Z"
+      },
+      {
+        "number": 10028,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Bump actions/labeler from v5 to v6",
+        "url": "https://github.com/velero-io/velero/pull/10028",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 115,
+        "updatedAt": "2026-07-23T20:59:18Z"
       },
       {
         "number": 253,
@@ -20843,7 +21364,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-09-21T09:31:14Z"
       },
       {
@@ -20869,7 +21390,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-09-21T09:30:33Z"
       },
       {
@@ -20897,7 +21418,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-09-21T09:30:53Z"
       },
       {
@@ -20925,7 +21446,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
@@ -21052,6 +21573,37 @@
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
+        "number": 10399,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "[Backport release-1.17] Fix e2e kind matrix misparsing pre-release node tags",
+        "url": "https://github.com/velero-io/velero/pull/10399",
+        "targetBranch": "release-1.17",
+        "author": "Copilot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai",
+          "Copilot"
+        ],
+        "labels": [
+          "has-changelog"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 51,
+        "updatedAt": "2026-09-25T18:21:55Z"
+      },
+      {
         "number": 10286,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -21067,7 +21619,7 @@
         "labels": [
           "has-changelog"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21128,7 +21680,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21140,7 +21692,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 38,
+        "waitingDays": 39,
         "updatedAt": "2026-10-08T08:32:21Z"
       },
       {
@@ -21160,7 +21712,7 @@
           "has-unit-tests",
           "has-changelog"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -21202,7 +21754,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-10-16T07:49:57Z"
       },
       {
@@ -21640,7 +22192,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 13,
+        "waitingDays": 14,
         "updatedAt": "2026-11-02T07:42:24Z"
       },
       {
@@ -21732,7 +22284,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 10,
+        "waitingDays": 11,
         "updatedAt": "2026-11-05T12:13:52Z"
       },
       {
@@ -21827,39 +22379,6 @@
         "updatedAt": "2026-11-11T18:47:42Z"
       },
       {
-        "number": 2542,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
-        "url": "https://github.com/openshift/oadp-operator/pull/2542",
-        "targetBranch": "oadp-1.6",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "sseago",
-          "Joeavaikath"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "PrasadJoshi12"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-13T02:58:13Z"
-      },
-      {
         "number": 225,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -21893,6 +22412,39 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-11-16T01:32:03Z"
+      },
+      {
+        "number": 2542,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
+        "url": "https://github.com/openshift/oadp-operator/pull/2542",
+        "targetBranch": "oadp-1.6",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "sseago",
+          "Joeavaikath"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "PrasadJoshi12"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-16T07:19:51Z"
       }
     ]
   }

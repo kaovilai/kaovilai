@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-16 06:14:31 UTC
+> Last updated: 2026-11-16 12:20:14 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -182,6 +182,7 @@ No open PRs.
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
 - [![PR #217](https://img.shields.io/badge/PR%20%23217-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Prep rebasebot for velero's Go 1.27 rebase
+- [![PR #219](https://img.shields.io/badge/PR%20%23219-ready-green)](https://github.com/kaovilai/github-bot-command-palette/pull/219) **kaovilai/github-bot-command-palette** → `main` - fix(review): support new Files changed review panel alongside legacy
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273) **kaovilai/cephcsi-cbt-e2e** → `main` - [doc-sync] Sync Velero rollback and data mover status with upstream
 - [![PR #2](https://img.shields.io/badge/PR%20%232-ready-green)](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) **RuixiangHuang/Macbook_Duo_Effect** → `main` - Replace the rough taper estimate with a calibrated viewport projection
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
@@ -190,6 +191,7 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #647](https://img.shields.io/badge/PR%20%23647-ready-green)](https://github.com/kaovilai/dotfiles/pull/647) **kaovilai/dotfiles** → `main` - feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
+- [![PR #75](https://img.shields.io/badge/PR%20%2375-ready-green)](https://github.com/konveyor/builder/pull/75) **konveyor/builder** → `main` - Restore diffutils in the runtime image variants
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
