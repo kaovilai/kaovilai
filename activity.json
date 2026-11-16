@@ -1,17 +1,26 @@
 {
   "period": {
-    "start": "2026-08-17",
-    "end": "2026-11-15"
+    "start": "2026-08-18",
+    "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-15T18:13:23Z",
+  "generatedAt": "2026-11-16T00:35:11Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 27,
+    "prsReviewed": 26,
     "issuesCommented": 100,
-    "issuesClosed": 96
+    "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 657,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(zsh): prevent background print from polluting non-tty captures",
+      "url": "https://github.com/kaovilai/dotfiles/pull/657",
+      "date": "2026-11-15T18:28:30Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 5,
       "repo": "kaovilai/hotspot-relay",
@@ -901,15 +910,6 @@
       "title": "docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not \"native only\"",
       "url": "https://github.com/kaovilai/podm/pull/17",
       "date": "2026-11-09T16:41:38Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 61,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Split per-variant FIPS badges into stable and pre-release lines",
-      "url": "https://github.com/konveyor/builder/pull/61",
-      "date": "2026-11-09T16:14:54Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -2049,15 +2049,6 @@
       "url": "https://github.com/quay/quay/pull/7381",
       "date": "2026-11-10T14:49:52Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 9,
-      "repo": "velero-io/.github",
-      "org": "velero-io",
-      "title": "Add the governance review doc",
-      "url": "https://github.com/velero-io/.github/pull/9",
-      "date": "2026-11-10T07:16:34Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
@@ -3816,15 +3807,6 @@
       "title": "Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)",
       "url": "https://github.com/velero-io/velero/issues/10300",
       "date": "2026-08-18T06:19:03Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10301,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable",
-      "url": "https://github.com/velero-io/velero/issues/10301",
-      "date": "2026-08-17T12:34:36Z",
       "workstream": "Velero"
     }
   ]

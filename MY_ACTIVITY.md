@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-08-17 — 2026-11-15
-> **Generated:** 2026-11-15 18:13:22 UTC
+> **Period:** 2026-08-18 — 2026-11-16
+> **Generated:** 2026-11-16 00:35:11 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 27 |
+| PRs Reviewed | 26 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 96 |
+| Issues Closed | 95 |
 
 ---
 
@@ -32,6 +32,7 @@
 - [#255 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/255) — migtools/kubevirt-datamover-controller
 
 **Other** (90)
+- [#657 fix(zsh): prevent background print from polluting non-tty captures](https://github.com/kaovilai/dotfiles/pull/657) — kaovilai/dotfiles
 - [#5 fix: never leave the iPhone keyboard link attached; diagnose pre-keyboard pairings](https://github.com/kaovilai/hotspot-relay/pull/5) — kaovilai/hotspot-relay
 - [#75 feat(cli): podm doctor checks the LaunchAgent install, not just the socket](https://github.com/kaovilai/podm/pull/75) — kaovilai/podm
 - [#74 fix(cli): a slow daemon wake says so, and a dead LaunchAgent fails fast](https://github.com/kaovilai/podm/pull/74) — kaovilai/podm
@@ -121,7 +122,6 @@
 - [#15 deps: apple/container 1.2.0 → 1.2.2 + BuildConfig ssh parameter](https://github.com/kaovilai/podm/pull/15) — kaovilai/podm
 - [#14 ci: group all dependabot updates — one PR per ecosystem, security included](https://github.com/kaovilai/podm/pull/14) — kaovilai/podm
 - [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
-- [#61 Split per-variant FIPS badges into stable and pre-release lines](https://github.com/konveyor/builder/pull/61) — konveyor/builder
 ## PRs Opened (100)
 
 **openshift** (7)
@@ -229,9 +229,9 @@
 - [#63 Name fips tags for their FIPS backend](https://github.com/konveyor/builder/pull/63) — konveyor/builder
 - [#18 deps: group all open Swift dependabot bumps — security fixes included](https://github.com/kaovilai/podm/pull/18) — kaovilai/podm
 - [#17 docs(readme): socktainer + apple container multi-arch cells — amd64 via Rosetta, not "native only"](https://github.com/kaovilai/podm/pull/17) — kaovilai/podm
-## PRs Reviewed (27)
+## PRs Reviewed (26)
 
-**velero-io** (17)
+**velero-io** (16)
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
 - [#10830 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198](https://github.com/velero-io/velero/pull/10830) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
@@ -248,7 +248,6 @@
 - [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
 - [#10815 Add Hippius to the S3-compatible object store providers list](https://github.com/velero-io/velero/pull/10815) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
-- [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
 
 **openshift** (5)
 - [#511 Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/openshift/openshift-velero-plugin/pull/511) — openshift/openshift-velero-plugin
@@ -372,9 +371,9 @@
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#4300 cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)](https://github.com/kubevirt/containerized-data-importer/issues/4300) — kubevirt/containerized-data-importer
 - [#101 UDP support](https://github.com/pyamsoft/tetherfusenet/issues/101) — pyamsoft/tetherfusenet
-## Issues Closed (96)
+## Issues Closed (95)
 
-**velero-io** (25)
+**velero-io** (24)
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10040 NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error](https://github.com/velero-io/velero/issues/10040) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
@@ -399,7 +398,6 @@
 - [#10020 E2E CI flake: "kind-action" curl connection reset during kind install](https://github.com/velero-io/velero/issues/10020) — velero-io/velero
 - [#10296 Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error](https://github.com/velero-io/velero/issues/10296) — velero-io/velero
 - [#10300 Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)](https://github.com/velero-io/velero/issues/10300) — velero-io/velero
-- [#10301 Dead code in repository maintenance: GenOptionMaintainMode/Full/Quick and overwrite*MaintainInterval are unreachable](https://github.com/velero-io/velero/issues/10301) — velero-io/velero
 
 **openshift** (13)
 - [#2481 KubeVirt datamover controller: hardcoded 128Mi/500m resources and 1s probes too small at scale; not configurable via DPA](https://github.com/openshift/oadp-operator/issues/2481) — openshift/oadp-operator
