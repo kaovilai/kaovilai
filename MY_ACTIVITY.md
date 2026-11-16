@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-18 — 2026-11-16
-> **Generated:** 2026-11-16 19:08:14 UTC
+> **Generated:** 2026-11-16 20:09:40 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -20,18 +20,18 @@
 - [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
 - [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
 
-**openshift** (6)
+**openshift** (5)
 - [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 - [#2515 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2515) — openshift/oadp-operator
 - [#2482 fix(kubevirt-datamover): size controller for scale, make resources configurable](https://github.com/openshift/oadp-operator/pull/2482) — openshift/oadp-operator
-- [#2531 fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2531) — openshift/oadp-operator
 
 **migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (90)
+**Other** (91)
+- [#659 fix(hosted-only): never swap a working proxy for one the gateway rejects](https://github.com/kaovilai/dotfiles/pull/659) — kaovilai/dotfiles
 - [#658 revert(hosted-only): GLM 5.3 primary, DeepSeek V4.1 Flash fallback](https://github.com/kaovilai/dotfiles/pull/658) — kaovilai/dotfiles
 - [#217 Prep rebasebot for velero's Go 1.27 rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/217) — oadp-rebasebot/oadp-rebase
 - [#75 Restore diffutils in the runtime image variants](https://github.com/konveyor/builder/pull/75) — konveyor/builder
@@ -232,6 +232,7 @@
 ## PRs Reviewed (29)
 
 **velero-io** (17)
+- [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
@@ -239,7 +240,6 @@
 - [#10829 build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory](https://github.com/velero-io/velero/pull/10829) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
-- [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws

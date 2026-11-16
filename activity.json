@@ -3,7 +3,7 @@
     "start": "2026-08-18",
     "end": "2026-11-16"
   },
-  "generatedAt": "2026-11-16T19:08:14Z",
+  "generatedAt": "2026-11-16T20:09:40Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 95
   },
   "prsMerged": [
+    {
+      "number": 659,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(hosted-only): never swap a working proxy for one the gateway rejects",
+      "url": "https://github.com/kaovilai/dotfiles/pull/659",
+      "date": "2026-11-16T19:46:30Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 658,
       "repo": "kaovilai/dotfiles",
@@ -901,15 +910,6 @@
       "title": "fix(kubevirt-datamover): size controller for scale, make resources configurable",
       "url": "https://github.com/openshift/oadp-operator/pull/2482",
       "date": "2026-11-09T23:53:58Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2531,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(e2e): read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2531",
-      "date": "2026-11-09T18:04:49Z",
       "workstream": "OADP"
     }
   ],
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 10822,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: skip the remote snapshot waits on kind",
+      "url": "https://github.com/velero-io/velero/pull/10822",
+      "date": "2026-11-16T19:49:01Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10827,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1941,15 +1950,6 @@
       "url": "https://github.com/migtools/udistribution/pull/200",
       "date": "2026-11-13T01:33:13Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10822,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: skip the remote snapshot waits on kind",
-      "url": "https://github.com/velero-io/velero/pull/10822",
-      "date": "2026-11-12T14:54:06Z",
-      "workstream": "Velero"
     },
     {
       "number": 10667,
