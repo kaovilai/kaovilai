@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-19 — 2026-11-17
-> **Generated:** 2026-11-17 17:09:15 UTC
+> **Generated:** 2026-11-17 18:11:46 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -30,8 +30,8 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (92)
-- [#661 feat(lint): enforce AI-steering conventions as CI lint, drop colima](https://github.com/kaovilai/dotfiles/pull/661) — kaovilai/dotfiles
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
+- [#661 feat(lint): enforce AI-steering conventions as CI lint, drop colima](https://github.com/kaovilai/dotfiles/pull/661) — kaovilai/dotfiles
 - [#220 fix(ui): attach command bar to the new Primer React composer + keep Prow on all tabs](https://github.com/kaovilai/github-bot-command-palette/pull/220) — kaovilai/github-bot-command-palette
 - [#647 feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases](https://github.com/kaovilai/dotfiles/pull/647) — kaovilai/dotfiles
 - [#659 fix(hosted-only): never swap a working proxy for one the gateway rejects](https://github.com/kaovilai/dotfiles/pull/659) — kaovilai/dotfiles
@@ -232,8 +232,8 @@
 ## PRs Reviewed (31)
 
 **velero-io** (17)
-- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
+- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
