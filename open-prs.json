@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T15:10:27Z",
+  "updatedAt": "2026-11-17T16:12:22Z",
   "prs": [
     {
       "number": 5,
@@ -17142,7 +17142,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-17T15:10:27Z",
+    "updatedAt": "2026-11-17T16:12:22Z",
     "needsReview": [
       {
         "number": 68,
@@ -17317,7 +17317,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 222,
+        "waitingDays": 223,
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
@@ -17379,7 +17379,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 138,
+        "waitingDays": 139,
         "updatedAt": "2026-07-01T15:33:31Z"
       },
       {
@@ -17818,7 +17818,7 @@
         "labels": [
           "size/S"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18013,6 +18013,37 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 48,
+        "updatedAt": "2026-09-30T15:17:14Z"
+      },
+      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18044,37 +18075,6 @@
         "reason": "awaitingReview",
         "waitingDays": 48,
         "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
-        "number": 123138,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/bug",
-          "comp/cli",
-          "comp/tools",
-          "P2",
-          "sweeper:risk-message-delivery",
-          "area/profiles"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 47,
-        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 70,
@@ -18230,7 +18230,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18596,7 +18596,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-10-30T15:47:17Z"
       },
       {
@@ -19281,7 +19281,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19455,6 +19455,33 @@
         "updatedAt": "2026-11-14T05:42:26Z"
       },
       {
+        "number": 88933,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP oadp-dev: remove OCP 4.22/4.23/5.0 CI, keep only 5.1",
+        "url": "https://github.com/openshift/release/pull/88933",
+        "targetBranch": "main",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "hhpatel14",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-16T15:58:38Z"
+      },
+      {
         "number": 606,
         "repo": "openshift/velero",
         "org": "openshift",
@@ -19568,33 +19595,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-16T16:26:58Z"
-      },
-      {
-        "number": 88933,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP oadp-dev: remove OCP 4.22/4.23/5.0 CI, keep only 5.1",
-        "url": "https://github.com/openshift/release/pull/88933",
-        "targetBranch": "main",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "hhpatel14",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-16T15:58:38Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -19623,7 +19623,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 222,
+        "waitingDays": 223,
         "updatedAt": "2026-04-08T15:22:30Z"
       },
       {
@@ -20580,7 +20580,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
@@ -20670,7 +20670,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-10-30T15:13:50Z"
       },
       {
@@ -20749,7 +20749,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
