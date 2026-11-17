@@ -3,15 +3,24 @@
     "start": "2026-08-19",
     "end": "2026-11-17"
   },
-  "generatedAt": "2026-11-17T06:18:47Z",
+  "generatedAt": "2026-11-17T12:13:53Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 30,
+    "prsReviewed": 31,
     "issuesCommented": 100,
     "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 661,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(lint): enforce AI-steering conventions as CI lint, drop colima",
+      "url": "https://github.com/kaovilai/dotfiles/pull/661",
+      "date": "2026-11-17T08:08:14Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 5748,
       "repo": "kopia/kopia",
@@ -901,15 +910,6 @@
       "title": "fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main",
       "url": "https://github.com/kaovilai/context-mode/pull/8",
       "date": "2026-11-10T04:29:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 21,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "route conformance + CI-generated coverage docs (README + Pages site) + brew install",
-      "url": "https://github.com/kaovilai/podm/pull/21",
-      "date": "2026-11-10T02:50:27Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 385,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "RFE-9751: Add non-admin backup schedules",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/385",
+      "date": "2026-11-17T10:36:49Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2549,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: increase readyPod timeout to 5 minutes",
+      "url": "https://github.com/openshift/oadp-operator/pull/2549",
+      "date": "2026-11-17T07:30:02Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 10827,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1842,15 +1860,6 @@
       "url": "https://github.com/velero-io/velero/pull/10793",
       "date": "2026-11-17T05:44:20Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 2549,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "tests/e2e: increase readyPod timeout to 5 minutes",
-      "url": "https://github.com/openshift/oadp-operator/pull/2549",
-      "date": "2026-11-17T05:12:57Z",
-      "workstream": "OADP"
     },
     {
       "number": 2550,
@@ -2088,6 +2097,105 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 448,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Restore dry run option",
+      "url": "https://github.com/velero-io/velero/issues/448",
+      "date": "2026-11-17T09:53:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10730,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)",
+      "url": "https://github.com/velero-io/velero/issues/10730",
+      "date": "2026-11-17T09:32:09Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10722,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: configure snapshot retention automatically from SnapshotMetadataService requireBaseSnapshotForDelta",
+      "url": "https://github.com/velero-io/velero/issues/10722",
+      "date": "2026-11-17T09:27:04Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10310,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands",
+      "url": "https://github.com/velero-io/velero/issues/10310",
+      "date": "2026-11-17T09:07:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9600,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
+      "url": "https://github.com/velero-io/velero/issues/9600",
+      "date": "2026-11-17T08:50:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9189,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Support deleting running backups",
+      "url": "https://github.com/velero-io/velero/issues/9189",
+      "date": "2026-11-17T08:46:45Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 8815,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Ensure object creation does not exceed Kubernetes maximum name length",
+      "url": "https://github.com/velero-io/velero/issues/8815",
+      "date": "2026-11-17T08:46:24Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 4045,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Allow customizing restore order for Kubernetes controllers and their managed resources",
+      "url": "https://github.com/velero-io/velero/issues/4045",
+      "date": "2026-11-17T08:44:20Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 8689,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Report Object Lock when PutObject errors patching backup to Completed, and Fail backup",
+      "url": "https://github.com/velero-io/velero/issues/8689",
+      "date": "2026-11-17T08:26:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 8686,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Avoid overwriting during backup to support object lock enabled buckets",
+      "url": "https://github.com/velero-io/velero/issues/8686",
+      "date": "2026-11-17T08:25:57Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2098,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Implement abort running backup job",
+      "url": "https://github.com/velero-io/velero/issues/2098",
+      "date": "2026-11-17T08:25:19Z",
+      "workstream": "Velero"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2458,15 +2566,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 4045,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow customizing restore order for Kubernetes controllers and their managed resources",
-      "url": "https://github.com/velero-io/velero/issues/4045",
-      "date": "2026-11-02T20:46:27Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 8801,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2582,15 +2681,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/17655",
       "date": "2026-10-28T11:52:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10730,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)",
-      "url": "https://github.com/velero-io/velero/issues/10730",
-      "date": "2026-10-28T06:44:45Z",
-      "workstream": "Velero"
     },
     {
       "number": 10694,
@@ -2726,24 +2816,6 @@
       "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673",
       "date": "2026-10-26T07:25:36Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10310,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands",
-      "url": "https://github.com/velero-io/velero/issues/10310",
-      "date": "2026-10-25T07:48:02Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 8689,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Report Object Lock when PutObject errors patching backup to Completed, and Fail backup",
-      "url": "https://github.com/velero-io/velero/issues/8689",
-      "date": "2026-10-25T07:41:38Z",
-      "workstream": "Velero"
     },
     {
       "number": 19736,
@@ -2924,69 +2996,6 @@
       "url": "https://github.com/velero-io/velero/issues/10646",
       "date": "2026-10-10T19:59:27Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 673,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "Tide gets stuck retrying unmergeable PR instead of advancing to next candidate",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/673",
-      "date": "2026-10-10T16:28:44Z",
-      "workstream": "Kubernetes"
-    },
-    {
-      "number": 190,
-      "repo": "EmixamPP/linux-enable-ir-emitter",
-      "org": "EmixamPP",
-      "title": "Web Camera is broken",
-      "url": "https://github.com/EmixamPP/linux-enable-ir-emitter/issues/190",
-      "date": "2026-10-10T09:56:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 9093,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Publish releases to winget-pkgs",
-      "url": "https://github.com/velero-io/velero/issues/9093",
-      "date": "2026-10-10T01:57:47Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 8454,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Large PVCs are canceled",
-      "url": "https://github.com/velero-io/velero/issues/8454",
-      "date": "2026-10-09T22:25:19Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 36873,
-      "repo": "n8n-io/n8n",
-      "org": "n8n-io",
-      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
-      "url": "https://github.com/n8n-io/n8n/issues/36873",
-      "date": "2026-10-07T17:32:34Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 4300,
-      "repo": "kubevirt/containerized-data-importer",
-      "org": "kubevirt",
-      "title": "cdi-importer image sha256:b2241514d6f3... missing amd64 manifest (only s390x)",
-      "url": "https://github.com/kubevirt/containerized-data-importer/issues/4300",
-      "date": "2026-10-07T12:26:48Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 101,
-      "repo": "pyamsoft/tetherfusenet",
-      "org": "pyamsoft",
-      "title": "UDP support",
-      "url": "https://github.com/pyamsoft/tetherfusenet/issues/101",
-      "date": "2026-10-07T04:12:42Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
