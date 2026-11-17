@@ -3,15 +3,42 @@
     "start": "2026-08-19",
     "end": "2026-11-17"
   },
-  "generatedAt": "2026-11-17T00:29:41Z",
+  "generatedAt": "2026-11-17T06:18:47Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 29,
+    "prsReviewed": 30,
     "issuesCommented": 100,
-    "issuesClosed": 95
+    "issuesClosed": 96
   },
   "prsMerged": [
+    {
+      "number": 5748,
+      "repo": "kopia/kopia",
+      "org": "kopia",
+      "title": "fix(providers): return S3 PutObject error when GetModTime is requested",
+      "url": "https://github.com/kopia/kopia/pull/5748",
+      "date": "2026-11-17T03:56:38Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 220,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(ui): attach command bar to the new Primer React composer + keep Prow on all tabs",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/220",
+      "date": "2026-11-17T03:05:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 647,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases",
+      "url": "https://github.com/kaovilai/dotfiles/pull/647",
+      "date": "2026-11-17T02:45:00Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 659,
       "repo": "kaovilai/dotfiles",
@@ -884,36 +911,27 @@
       "url": "https://github.com/kaovilai/podm/pull/21",
       "date": "2026-11-10T02:50:27Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 63,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Name fips tags for their FIPS backend",
-      "url": "https://github.com/konveyor/builder/pull/63",
-      "date": "2026-11-10T01:54:29Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 7,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix: the mangled search tool — own tools intercepted and MCP queries empty on a plain mcp add install",
-      "url": "https://github.com/kaovilai/context-mode/pull/7",
-      "date": "2026-11-10T00:26:20Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2482,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(kubevirt-datamover): size controller for scale, make resources configurable",
-      "url": "https://github.com/openshift/oadp-operator/pull/2482",
-      "date": "2026-11-09T23:53:58Z",
-      "workstream": "OADP"
     }
   ],
   "prsOpened": [
+    {
+      "number": 220,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(ui): attach command bar to the new Primer React composer + keep Prow on all tabs",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/220",
+      "date": "2026-11-17T03:04:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 661,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "feat(lint): enforce AI-steering conventions as CI lint, drop colima",
+      "url": "https://github.com/kaovilai/dotfiles/pull/661",
+      "date": "2026-11-17T03:01:36Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 659,
       "repo": "kaovilai/dotfiles",
@@ -1795,35 +1813,53 @@
       "url": "https://github.com/konveyor/builder/pull/64",
       "date": "2026-11-10T04:49:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main",
-      "url": "https://github.com/kaovilai/context-mode/pull/8",
-      "date": "2026-11-10T04:21:00Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2543,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index",
-      "url": "https://github.com/openshift/oadp-operator/pull/2543",
-      "date": "2026-11-10T03:56:58Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10827,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "print load affinity value not address",
+      "url": "https://github.com/velero-io/velero/pull/10827",
+      "date": "2026-11-17T06:17:56Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10821,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the VolumeGroupSnapshot case",
+      "url": "https://github.com/velero-io/velero/pull/10821",
+      "date": "2026-11-17T06:12:06Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10793,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "[release-1.18] fix: defer VGS cleanup until backup finalization (#10612)",
       "url": "https://github.com/velero-io/velero/pull/10793",
-      "date": "2026-11-16T21:54:01Z",
+      "date": "2026-11-17T05:44:20Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 2549,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: increase readyPod timeout to 5 minutes",
+      "url": "https://github.com/openshift/oadp-operator/pull/2549",
+      "date": "2026-11-17T05:12:57Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2550,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
+      "url": "https://github.com/openshift/oadp-operator/pull/2550",
+      "date": "2026-11-17T05:12:38Z",
+      "workstream": "OADP"
     },
     {
       "number": 10822,
@@ -1831,16 +1867,7 @@
       "org": "velero-io",
       "title": "e2e: skip the remote snapshot waits on kind",
       "url": "https://github.com/velero-io/velero/pull/10822",
-      "date": "2026-11-16T19:49:01Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10827,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "print load affinity value not address",
-      "url": "https://github.com/velero-io/velero/pull/10827",
-      "date": "2026-11-16T17:00:10Z",
+      "date": "2026-11-17T02:31:11Z",
       "workstream": "Velero"
     },
     {
@@ -2058,24 +2085,6 @@
       "url": "https://github.com/velero-io/velero/pull/10815",
       "date": "2026-11-10T19:31:26Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10780,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "site: add a blog post on the CSI snapshot tests on kind",
-      "url": "https://github.com/velero-io/velero/pull/10780",
-      "date": "2026-11-10T17:13:12Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 7381,
-      "repo": "quay/quay",
-      "org": "quay",
-      "title": "PROJQUAY-8767: fix(ui): load tag history on demand and search server-side",
-      "url": "https://github.com/quay/quay/pull/7381",
-      "date": "2026-11-10T14:49:52Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
@@ -2981,6 +2990,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 32355,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: message timestamps keep a stale time zone after the system time zone changes",
+      "url": "https://github.com/pingdotgg/t3code/issues/32355",
+      "date": "2026-11-17T02:06:22Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 2249,
       "repo": "openshift/oadp-operator",
