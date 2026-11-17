@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-17 06:09:46 UTC
+> Last updated: 2026-11-17 12:15:37 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -100,7 +100,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2513](https://img.shields.io/badge/PR%20%232513-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2513) **openshift/oadp-operator** → `oadp-dev` - Add BSL validation timeout to known flakes
 - [![PR #2526](https://img.shields.io/badge/PR%20%232526-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2526) **openshift/oadp-operator** → `oadp-dev` - docs: add progress reporting section to kubevirt-datamover backup-restore guide
 - [![PR #2545](https://img.shields.io/badge/PR%20%232545-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2545) **openshift/oadp-operator** → `oadp-1.6` - fix: retry AWS bucket region discovery on transient S3 errors
-- [![PR #2549](https://img.shields.io/badge/PR%20%232549-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2549) **openshift/oadp-operator** → `oadp-dev` - tests/e2e: increase readyPod timeout to 5 minutes
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
@@ -169,7 +168,6 @@ No open PRs.
 
 ## Other
 
-- [![PR #116](https://img.shields.io/badge/PR%20%23116-ready-green)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #121974](https://img.shields.io/badge/PR%20%23121974-ready-green)](https://github.com/NousResearch/hermes-agent/pull/121974) **NousResearch/hermes-agent** → `main` - feat(browser): recognize Comet, BrowserOS neo, Vivaldi, Opera, Opera GX, and Yandex for real-profile browsing
 - [![PR #123138](https://img.shields.io/badge/PR%20%23123138-ready-green)](https://github.com/NousResearch/hermes-agent/pull/123138) **NousResearch/hermes-agent** → `main` - fix(tools): hard-fail message_agent on a profile's old, renamed-away name
 - [![PR #1793](https://img.shields.io/badge/PR%20%231793-ready-green)](https://github.com/sooperset/mcp-atlassian/pull/1793) **sooperset/mcp-atlassian** → `main` - fix(server): stop orphaned stdio servers by honoring SIGTERM and parent exit
@@ -180,14 +178,12 @@ No open PRs.
 - [![PR #2](https://img.shields.io/badge/PR%20%232-ready-green)](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) **RuixiangHuang/Macbook_Duo_Effect** → `main` - Replace the rough taper estimate with a calibrated viewport projection
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
-- [![PR #4](https://img.shields.io/badge/PR%20%234-ready-green)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
-- [![PR #661](https://img.shields.io/badge/PR%20%23661-ready-green)](https://github.com/kaovilai/dotfiles/pull/661) **kaovilai/dotfiles** → `main` - feat(lint): enforce AI-steering conventions as CI lint, drop colima
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
-- [![PR #3](https://img.shields.io/badge/PR%20%233-draft-gray)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
+- [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
 - [![PR #125](https://img.shields.io/badge/PR%20%23125-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/125) **kaovilai/oadp-operator** → `edge` - Optimize edge-catalog github action workflow
 - [![PR #126](https://img.shields.io/badge/PR%20%23126-stale-yellow)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/126) **kaovilai/cephcsi-cbt-e2e** → `main` - [WIP] Debug continuous improvement workflow failure for CephCSI CBT E2E
@@ -216,12 +212,14 @@ No open PRs.
 - [![PR #347](https://img.shields.io/badge/PR%20%23347-stale-yellow)](https://github.com/tailscale-dev/tailscale-dev/pull/347) **tailscale-dev/tailscale-dev** → `main` - podman
 - [![PR #35](https://img.shields.io/badge/PR%20%2335-stale-yellow)](https://github.com/HASHCUT69/Blend-n-Run/pull/35) **HASHCUT69/Blend-n-Run** → `master` - Fix: stop injecting popup-only Bootstrap bundle + popup.js into every site
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/3) **kaovilai/att-router-tracker** → `main` - feat: Add Device Access Code Authentication
+- [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/cliprelay/pull/3) **kaovilai/cliprelay** → `main` - WIP: OTP extractor pattern fixes (Copilot workspace — do not merge)
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/go-playground/pull/3) **kaovilai/go-playground** → `main` - Add execution output logging to timestamped files via GitHub workflow
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/kaovilai/redirector/pull/3) **kaovilai/redirector** → `main` - Add design docs for one-click community rule install via marketplace deep links
 - [![PR #3](https://img.shields.io/badge/PR%20%233-stale-yellow)](https://github.com/saily/openshift-cli/pull/3) **saily/openshift-cli** → `master` - v4.9.9 update, mirror change
 - [![PR #437](https://img.shields.io/badge/PR%20%23437-stale-yellow)](https://github.com/einaregilsson/Redirector/pull/437) **einaregilsson/Redirector** → `master` - checkbox on the redirector page correctly reflects the current sync s…
 - [![PR #48](https://img.shields.io/badge/PR%20%2348-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/48) **kaovilai/oadp-operator** → `noDefaultBackupLocatione2e` - E2echeckPodSpec
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/att-router-tracker/pull/4) **kaovilai/att-router-tracker** → `main` - Add Claude Code GitHub Workflow
+- [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/kaovilai/cliprelay/pull/4) **kaovilai/cliprelay** → `main` - Throwaway: trigger fork CI
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-stale-yellow)](https://github.com/danfengliu/velero/pull/53) **danfengliu/velero** → `add-readme-for-e2e-test` - Enable `ginkgo run . -- -help`
 - [![PR #68](https://img.shields.io/badge/PR%20%2368-stale-yellow)](https://github.com/replicatedhq/local-volume-provider/pull/68) **replicatedhq/local-volume-provider** → `main` - README.md: Add pvc plugin label to config ConfigMap
 - [![PR #7040](https://img.shields.io/badge/PR%20%237040-stale-yellow)](https://github.com/operator-framework/operator-sdk/pull/7040) **operator-framework/operator-sdk** → `master` - Add restrictive security context to registry pod and init containers
