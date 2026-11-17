@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-19 — 2026-11-17
-> **Generated:** 2026-11-17 15:10:01 UTC
+> **Generated:** 2026-11-17 16:10:57 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -232,10 +232,10 @@
 ## PRs Reviewed (31)
 
 **velero-io** (17)
+- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
-- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
