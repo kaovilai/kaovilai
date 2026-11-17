@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-18",
-    "end": "2026-11-16"
+    "start": "2026-08-19",
+    "end": "2026-11-17"
   },
-  "generatedAt": "2026-11-16T23:09:13Z",
+  "generatedAt": "2026-11-17T00:29:41Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 29,
     "issuesCommented": 100,
-    "issuesClosed": 96
+    "issuesClosed": 95
   },
   "prsMerged": [
     {
@@ -2982,6 +2982,15 @@
   ],
   "issuesClosed": [
     {
+      "number": 2249,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Makefile container tool check only verifies binary exists, not runtime readiness",
+      "url": "https://github.com/openshift/oadp-operator/issues/2249",
+      "date": "2026-11-17T00:00:47Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 31579,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -3825,24 +3834,6 @@
       "title": "Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error",
       "url": "https://github.com/velero-io/velero/issues/10296",
       "date": "2026-08-19T07:03:35Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 184,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "DataDownload pod config doesn't propagate several BSL fields that DataUpload does",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/184",
-      "date": "2026-08-18T16:37:17Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10300,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Unified repo config dir resolves to unwritable /udmrepo when HOME=/ (arbitrary-UID / OpenShift non-root server)",
-      "url": "https://github.com/velero-io/velero/issues/10300",
-      "date": "2026-08-18T06:19:03Z",
       "workstream": "Velero"
     }
   ]
