@@ -3,7 +3,7 @@
     "start": "2026-08-19",
     "end": "2026-11-17"
   },
-  "generatedAt": "2026-11-17T12:13:53Z",
+  "generatedAt": "2026-11-17T13:09:57Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 10848,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix VGS backup failure when backup name exceeds 63 characters",
+      "url": "https://github.com/velero-io/velero/pull/10848",
+      "date": "2026-11-17T13:03:48Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 385,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
@@ -2084,15 +2093,6 @@
       "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
       "date": "2026-11-10T19:35:00Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10815,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add Hippius to the S3-compatible object store providers list",
-      "url": "https://github.com/velero-io/velero/pull/10815",
-      "date": "2026-11-10T19:31:26Z",
       "workstream": "Velero"
     }
   ],
