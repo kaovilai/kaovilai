@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T18:12:31Z",
+  "updatedAt": "2026-11-17T19:08:58Z",
   "prs": [
     {
       "number": 5,
@@ -17142,7 +17142,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-17T18:12:31Z",
+    "updatedAt": "2026-11-17T19:08:58Z",
     "needsReview": [
       {
         "number": 68,
@@ -17319,6 +17319,36 @@
         "reason": "awaitingReview",
         "waitingDays": 223,
         "updatedAt": "2026-04-08T15:23:08Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 160,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -17581,7 +17611,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17742,7 +17772,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 81,
+        "waitingDays": 82,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -17772,7 +17802,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 81,
+        "waitingDays": 82,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -17983,6 +18013,39 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 10010,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Design for CRD schema validation at server startup",
+        "url": "https://github.com/velero-io/velero/pull/10010",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 49,
+        "updatedAt": "2026-09-29T18:16:07Z"
+      },
+      {
         "number": 123138,
         "repo": "NousResearch/hermes-agent",
         "org": "NousResearch",
@@ -18014,39 +18077,6 @@
         "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
-        "number": 10010,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Design for CRD schema validation at server startup",
-        "url": "https://github.com/velero-io/velero/pull/10010",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 48,
-        "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
         "number": 70,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -18071,7 +18101,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-10-07T18:19:44Z"
       },
       {
@@ -18100,7 +18130,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
@@ -18224,7 +18254,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18758,7 +18788,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -20169,7 +20199,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 40,
+        "waitingDays": 41,
         "updatedAt": "2026-10-07T18:19:21Z"
       },
       {
@@ -20299,37 +20329,6 @@
         "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
-        "number": 2477,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-        "url": "https://github.com/openshift/oadp-operator/pull/2477",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 26,
-        "updatedAt": "2026-10-21T21:06:02Z"
-      },
-      {
         "number": 107,
         "repo": "migtools/kubevirt-velero-plugin",
         "org": "migtools",
@@ -20357,7 +20356,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-10-22T18:35:44Z"
       },
       {
@@ -20388,7 +20387,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-10-22T18:36:08Z"
       },
       {
@@ -20419,8 +20418,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 25,
+        "waitingDays": 26,
         "updatedAt": "2026-10-22T18:33:34Z"
+      },
+      {
+        "number": 2477,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+        "url": "https://github.com/openshift/oadp-operator/pull/2477",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 26,
+        "updatedAt": "2026-10-21T21:06:02Z"
       },
       {
         "number": 2513,
@@ -20719,7 +20749,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
