@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T23:04:47Z",
+  "updatedAt": "2026-11-17T00:15:08Z",
   "prs": [
     {
       "number": 5,
@@ -17689,7 +17689,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-16T23:04:47Z",
+    "updatedAt": "2026-11-17T00:15:08Z",
     "needsReview": [
       {
         "number": 68,
@@ -17866,36 +17866,6 @@
         "reason": "awaitingReview",
         "waitingDays": 222,
         "updatedAt": "2026-04-08T15:23:08Z"
-      },
-      {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 160,
-        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -18134,7 +18104,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18257,7 +18227,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 82,
+        "waitingDays": 83,
         "updatedAt": "2026-08-25T23:45:55Z"
       },
       {
@@ -18559,7 +18529,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -18588,7 +18558,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 48,
+        "waitingDays": 49,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -18793,7 +18763,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 26,
+        "waitingDays": 27,
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
@@ -19032,6 +19002,39 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
+        "number": 6479,
+        "repo": "kubernetes/enhancements",
+        "org": "kubernetes",
+        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
+        "url": "https://github.com/kubernetes/enhancements/pull/6479",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "sig/storage",
+          "cncf-cla: yes",
+          "size/M",
+          "needs-ok-to-test",
+          "kind/kep"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "saad-ali",
+          "xing-yang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 19,
+        "updatedAt": "2026-10-29T00:08:40Z"
+      },
+      {
         "number": 330,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -19113,39 +19116,6 @@
         "reason": "awaitingReview",
         "waitingDays": 19,
         "updatedAt": "2026-10-28T22:41:36Z"
-      },
-      {
-        "number": 6479,
-        "repo": "kubernetes/enhancements",
-        "org": "kubernetes",
-        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
-        "url": "https://github.com/kubernetes/enhancements/pull/6479",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "sig/storage",
-          "cncf-cla: yes",
-          "size/M",
-          "needs-ok-to-test",
-          "kind/kep"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "saad-ali",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 18,
-        "updatedAt": "2026-10-29T00:08:40Z"
       },
       {
         "number": 198,
@@ -19367,7 +19337,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19382,6 +19352,36 @@
         "reason": "awaitingReview",
         "waitingDays": 9,
         "updatedAt": "2026-11-07T00:50:27Z"
+      },
+      {
+        "number": 468,
+        "repo": "kubevirt/kubevirt-velero-plugin",
+        "org": "kubevirt",
+        "title": "Select the live virt-launcher pod after live migration",
+        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "dco-signoff: yes",
+          "size/L"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "alromeros",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 8,
+        "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
         "number": 2272,
@@ -19440,36 +19440,6 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-11-08T05:26:06Z"
-      },
-      {
-        "number": 468,
-        "repo": "kubevirt/kubevirt-velero-plugin",
-        "org": "kubevirt",
-        "title": "Select the live virt-launcher pod after live migration",
-        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "dco-signoff: yes",
-          "size/L"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "alromeros",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
         "number": 504,
@@ -19831,7 +19801,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -21143,7 +21113,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
