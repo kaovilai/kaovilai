@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-19 — 2026-11-17
-> **Generated:** 2026-11-17 18:11:46 UTC
+> **Generated:** 2026-11-17 19:08:02 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -272,6 +272,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (48)
+- [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#448 Restore dry run option](https://github.com/velero-io/velero/issues/448) — velero-io/velero
 - [#10730 DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)](https://github.com/velero-io/velero/issues/10730) — velero-io/velero
 - [#10722 Block data mover: configure snapshot retention automatically from SnapshotMetadataService requireBaseSnapshotForDelta](https://github.com/velero-io/velero/issues/10722) — velero-io/velero
@@ -279,7 +280,6 @@
 - [#9600 Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference](https://github.com/velero-io/velero/issues/9600) — velero-io/velero
 - [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
 - [#8815 Ensure object creation does not exceed Kubernetes maximum name length](https://github.com/velero-io/velero/issues/8815) — velero-io/velero
-- [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#8689 Report Object Lock when PutObject errors patching backup to Completed, and Fail backup](https://github.com/velero-io/velero/issues/8689) — velero-io/velero
 - [#8686 Avoid overwriting during backup to support object lock enabled buckets](https://github.com/velero-io/velero/issues/8686) — velero-io/velero
 - [#2098 Implement abort running backup job](https://github.com/velero-io/velero/issues/2098) — velero-io/velero
