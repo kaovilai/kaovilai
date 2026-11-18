@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-18 19:07:46 UTC
+> Last updated: 2026-11-18 20:10:13 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -15,7 +15,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10555](https://img.shields.io/badge/PR%20%2310555-ready-green)](https://github.com/velero-io/velero/pull/10555) **velero-io/velero** → `main` - Fix e2e-test-kind and changelog-check CI flakes
 - [![PR #10699](https://img.shields.io/badge/PR%20%2310699-ready-green)](https://github.com/velero-io/velero/pull/10699) **velero-io/velero** → `main` - Delete the in-place restore baseline snapshot under a Retain class
 - [![PR #10710](https://img.shields.io/badge/PR%20%2310710-ready-green)](https://github.com/velero-io/velero/pull/10710) **velero-io/velero** → `main` - Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace
-- [![PR #10718](https://img.shields.io/badge/PR%20%2310718-ready-green)](https://github.com/velero-io/velero/pull/10718) **velero-io/velero** → `main` - docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance
 - [![PR #10798](https://img.shields.io/badge/PR%20%2310798-ready-green)](https://github.com/velero-io/velero/pull/10798) **velero-io/velero** → `main` - test: add Go fuzz targets for the backup archive extractor
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
@@ -44,8 +43,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #322](https://img.shields.io/badge/PR%20%23322-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/322) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)
-- [![PR #325](https://img.shields.io/badge/PR%20%23325-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)
-- [![PR #327](https://img.shields.io/badge/PR%20%23327-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-stale-yellow)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
@@ -102,7 +99,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2544](https://img.shields.io/badge/PR%20%232544-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2544) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #88933](https://img.shields.io/badge/PR%20%2388933-waiting--merge-blue)](https://github.com/openshift/release/pull/88933) **openshift/release** → `main` - OADP oadp-dev: remove OCP 4.22/4.23/5.0 CI, keep only 5.1
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
