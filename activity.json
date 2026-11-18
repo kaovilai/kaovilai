@@ -3,15 +3,42 @@
     "start": "2026-08-20",
     "end": "2026-11-18"
   },
-  "generatedAt": "2026-11-18T00:30:10Z",
+  "generatedAt": "2026-11-18T06:18:40Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 31,
+    "prsReviewed": 30,
     "issuesCommented": 100,
     "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 224,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(update): post-merge review follow-ups (GLM)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/224",
+      "date": "2026-11-18T05:48:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 223,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat(update): self-hosted auto-updates via chromium-web-store",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/223",
+      "date": "2026-11-18T05:34:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 389,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Install and auto-update via chromium-web-store",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/389",
+      "date": "2026-11-18T04:40:39Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 5748,
       "repo": "kopia/kopia",
@@ -884,36 +911,54 @@
       "url": "https://github.com/kaovilai/context-mode/pull/9",
       "date": "2026-11-10T08:42:56Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 22,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "test(conformance): skip dispatching the network-bound distribution probe",
-      "url": "https://github.com/kaovilai/podm/pull/22",
-      "date": "2026-11-10T06:24:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 64,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Rework the README for consumers",
-      "url": "https://github.com/konveyor/builder/pull/64",
-      "date": "2026-11-10T05:47:32Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 8,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main",
-      "url": "https://github.com/kaovilai/context-mode/pull/8",
-      "date": "2026-11-10T04:29:37Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 224,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "fix(update): post-merge review follow-ups (GLM)",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/224",
+      "date": "2026-11-18T05:45:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 223,
+      "repo": "kaovilai/github-bot-command-palette",
+      "org": "kaovilai",
+      "title": "feat(update): self-hosted auto-updates via chromium-web-store",
+      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/223",
+      "date": "2026-11-18T04:44:37Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 389,
+      "repo": "kaovilai/toolkit-for-fidelity",
+      "org": "kaovilai",
+      "title": "Install and auto-update via chromium-web-store",
+      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/389",
+      "date": "2026-11-18T04:30:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10850,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: block data mover base snapshot retention",
+      "url": "https://github.com/velero-io/velero/pull/10850",
+      "date": "2026-11-18T04:14:05Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 38407,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "fix(tailscale): the desktop app finds the macOS Tailscale CLI without a shell PATH",
+      "url": "https://github.com/pingdotgg/t3code/pull/38407",
+      "date": "2026-11-18T02:17:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 220,
       "repo": "kaovilai/github-bot-command-palette",
@@ -1768,54 +1813,27 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/257",
       "date": "2026-11-10T08:41:36Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "chore: recompile lock files with gh-aw v1.2.2",
-      "url": "https://github.com/kaovilai/context-mode/pull/9",
-      "date": "2026-11-10T08:38:48Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 23,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(containers): docker/podman rename via a persisted name-override store",
-      "url": "https://github.com/kaovilai/podm/pull/23",
-      "date": "2026-11-10T07:16:05Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 66,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Link upstream release notes and list fixed CVEs in releases",
-      "url": "https://github.com/konveyor/builder/pull/66",
-      "date": "2026-11-10T07:01:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 22,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "test(conformance): skip dispatching the network-bound distribution probe",
-      "url": "https://github.com/kaovilai/podm/pull/22",
-      "date": "2026-11-10T05:51:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 64,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Rework the README for consumers",
-      "url": "https://github.com/konveyor/builder/pull/64",
-      "date": "2026-11-10T04:49:37Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 338,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
+      "date": "2026-11-18T03:56:37Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2,
+      "repo": "velero-io/.project",
+      "org": "velero-io",
+      "title": "Point artwork at the project's cncf/artwork directory",
+      "url": "https://github.com/velero-io/.project/pull/2",
+      "date": "2026-11-18T02:17:22Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10848,
       "repo": "velero-io/velero",
@@ -2024,15 +2042,6 @@
       "workstream": "OADP"
     },
     {
-      "number": 338,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
-      "date": "2026-11-12T03:06:47Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 2534,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -2076,27 +2085,36 @@
       "url": "https://github.com/velero-io/velero/pull/10734",
       "date": "2026-11-11T05:25:06Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10792,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)",
-      "url": "https://github.com/velero-io/velero/pull/10792",
-      "date": "2026-11-10T20:24:43Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 335,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Make the S3 uploader inherit the client's RequestChecksumCalculation",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/335",
-      "date": "2026-11-10T19:35:00Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10437,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
+      "url": "https://github.com/velero-io/velero/issues/10437",
+      "date": "2026-11-18T04:11:52Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 4707,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "restore with object metadata.ownerreference and metadata.finalizer",
+      "url": "https://github.com/velero-io/velero/issues/4707",
+      "date": "2026-11-18T02:47:21Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10693,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
+      "url": "https://github.com/velero-io/velero/issues/10693",
+      "date": "2026-11-18T00:35:22Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10694,
       "repo": "velero-io/velero",
@@ -2575,30 +2593,12 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 10437,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "`velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`",
-      "url": "https://github.com/velero-io/velero/issues/10437",
-      "date": "2026-11-04T01:35:13Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 8801,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Design configurable restore of Running/Completed/Failed Jobs",
       "url": "https://github.com/velero-io/velero/issues/8801",
       "date": "2026-11-02T07:23:01Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10693,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)",
-      "url": "https://github.com/velero-io/velero/issues/10693",
-      "date": "2026-11-02T07:20:46Z",
       "workstream": "Velero"
     },
     {
@@ -2987,15 +2987,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/13875",
       "date": "2026-10-11T01:40:56Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 8668,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Download Links for S3 Bucket content are broken when using SSE-C encryption",
-      "url": "https://github.com/velero-io/velero/issues/8668",
-      "date": "2026-10-11T00:15:42Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-20 — 2026-11-18
-> **Generated:** 2026-11-18 00:30:10 UTC
+> **Generated:** 2026-11-18 06:18:40 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 31 |
+| PRs Reviewed | 30 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 94 |
 
@@ -30,6 +30,9 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (92)
+- [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
+- [#223 feat(update): self-hosted auto-updates via chromium-web-store](https://github.com/kaovilai/github-bot-command-palette/pull/223) — kaovilai/github-bot-command-palette
+- [#389 Install and auto-update via chromium-web-store](https://github.com/kaovilai/toolkit-for-fidelity/pull/389) — kaovilai/toolkit-for-fidelity
 - [#5748 fix(providers): return S3 PutObject error when GetModTime is requested](https://github.com/kopia/kopia/pull/5748) — kopia/kopia
 - [#661 feat(lint): enforce AI-steering conventions as CI lint, drop colima](https://github.com/kaovilai/dotfiles/pull/661) — kaovilai/dotfiles
 - [#220 fix(ui): attach command bar to the new Primer React composer + keep Prow on all tabs](https://github.com/kaovilai/github-bot-command-palette/pull/220) — kaovilai/github-bot-command-palette
@@ -119,10 +122,10 @@
 - [#67 Modernize the README presentation](https://github.com/konveyor/builder/pull/67) — konveyor/builder
 - [#66 Link upstream release notes and list fixed CVEs in releases](https://github.com/konveyor/builder/pull/66) — konveyor/builder
 - [#9 chore: recompile lock files with gh-aw v1.2.2](https://github.com/kaovilai/context-mode/pull/9) — kaovilai/context-mode
-- [#22 test(conformance): skip dispatching the network-bound distribution probe](https://github.com/kaovilai/podm/pull/22) — kaovilai/podm
-- [#64 Rework the README for consumers](https://github.com/konveyor/builder/pull/64) — konveyor/builder
-- [#8 fix: the D3 overhead gate reads the CI-only budget knob — windows node 24 stops coin-flipping main](https://github.com/kaovilai/context-mode/pull/8) — kaovilai/context-mode
 ## PRs Opened (100)
+
+**velero-io** (1)
+- [#10850 Design: block data mover base snapshot retention](https://github.com/velero-io/velero/pull/10850) — velero-io/velero
 
 **openshift** (6)
 - [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
@@ -135,7 +138,11 @@
 **migtools** (1)
 - [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
 
-**Other** (93)
+**Other** (92)
+- [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
+- [#223 feat(update): self-hosted auto-updates via chromium-web-store](https://github.com/kaovilai/github-bot-command-palette/pull/223) — kaovilai/github-bot-command-palette
+- [#389 Install and auto-update via chromium-web-store](https://github.com/kaovilai/toolkit-for-fidelity/pull/389) — kaovilai/toolkit-for-fidelity
+- [#38407 fix(tailscale): the desktop app finds the macOS Tailscale CLI without a shell PATH](https://github.com/pingdotgg/t3code/pull/38407) — pingdotgg/t3code
 - [#220 fix(ui): attach command bar to the new Primer React composer + keep Prow on all tabs](https://github.com/kaovilai/github-bot-command-palette/pull/220) — kaovilai/github-bot-command-palette
 - [#661 feat(lint): enforce AI-steering conventions as CI lint, drop colima](https://github.com/kaovilai/dotfiles/pull/661) — kaovilai/dotfiles
 - [#659 fix(hosted-only): never swap a working proxy for one the gateway rejects](https://github.com/kaovilai/dotfiles/pull/659) — kaovilai/dotfiles
@@ -224,14 +231,11 @@
 - [#205 fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts](https://github.com/kaovilai/github-bot-command-palette/pull/205) — kaovilai/github-bot-command-palette
 - [#68 Pin setup-trivy to a real tag](https://github.com/konveyor/builder/pull/68) — konveyor/builder
 - [#67 Modernize the README presentation](https://github.com/konveyor/builder/pull/67) — konveyor/builder
-- [#9 chore: recompile lock files with gh-aw v1.2.2](https://github.com/kaovilai/context-mode/pull/9) — kaovilai/context-mode
-- [#23 feat(containers): docker/podman rename via a persisted name-override store](https://github.com/kaovilai/podm/pull/23) — kaovilai/podm
-- [#66 Link upstream release notes and list fixed CVEs in releases](https://github.com/konveyor/builder/pull/66) — konveyor/builder
-- [#22 test(conformance): skip dispatching the network-bound distribution probe](https://github.com/kaovilai/podm/pull/22) — kaovilai/podm
-- [#64 Rework the README for consumers](https://github.com/konveyor/builder/pull/64) — konveyor/builder
-## PRs Reviewed (31)
+## PRs Reviewed (30)
 
-**velero-io** (17)
+**velero-io** (16)
+- [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
+- [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
@@ -244,11 +248,8 @@
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
-- [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
 - [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
-- [#10792 [release-1.18] Detect VolumeGroupSnapshot API version at runtime (v1/v1beta2/v1beta1) (#10601)](https://github.com/velero-io/velero/pull/10792) — velero-io/velero
-- [#335 Make the S3 uploader inherit the client's RequestChecksumCalculation](https://github.com/velero-io/velero-plugin-for-aws/pull/335) — velero-io/velero-plugin-for-aws
 
 **openshift** (8)
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
@@ -272,6 +273,9 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (47)
+- [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
+- [#4707 restore with object metadata.ownerreference and metadata.finalizer](https://github.com/velero-io/velero/issues/4707) — velero-io/velero
+- [#10693 Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)](https://github.com/velero-io/velero/issues/10693) — velero-io/velero
 - [#10694 E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)](https://github.com/velero-io/velero/issues/10694) — velero-io/velero
 - [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#448 Restore dry run option](https://github.com/velero-io/velero/issues/448) — velero-io/velero
@@ -294,9 +298,7 @@
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
 - [#3218 S3 client-side encryption support](https://github.com/velero-io/velero/issues/3218) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
-- [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
 - [#8801 Design configurable restore of Running/Completed/Failed Jobs](https://github.com/velero-io/velero/issues/8801) — velero-io/velero
-- [#10693 Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)](https://github.com/velero-io/velero/issues/10693) — velero-io/velero
 - [#9760 Allow Velero kubernetes objects to be backed up with If-None-Match bucket policies enabled.](https://github.com/velero-io/velero/issues/9760) — velero-io/velero
 - [#7507 E2E: Add CSI snapshot tests to kind cluster](https://github.com/velero-io/velero/issues/7507) — velero-io/velero
 - [#9894 Transition all project meetings to CNCF Zoom](https://github.com/velero-io/velero/issues/9894) — velero-io/velero
@@ -318,7 +320,6 @@
 - [#10627 Allow Multiple Key Properties](https://github.com/velero-io/velero/issues/10627) — velero-io/velero
 - [#9109 Add comprehensive make target for E2E testing with MinIO setup and fresh builds](https://github.com/velero-io/velero/issues/9109) — velero-io/velero
 - [#10266 docs: how to run CSI e2e specs against a local Kind cluster](https://github.com/velero-io/velero/issues/10266) — velero-io/velero
-- [#8668 Download Links for S3 Bucket content are broken when using SSE-C encryption](https://github.com/velero-io/velero/issues/8668) — velero-io/velero
 
 **openshift** (3)
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
