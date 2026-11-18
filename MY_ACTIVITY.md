@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-20 — 2026-11-18
-> **Generated:** 2026-11-18 16:09:45 UTC
+> **Generated:** 2026-11-18 17:08:30 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -234,9 +234,9 @@
 ## PRs Reviewed (31)
 
 **velero-io** (17)
+- [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
-- [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
