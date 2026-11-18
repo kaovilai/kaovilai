@@ -3,7 +3,7 @@
     "start": "2026-08-20",
     "end": "2026-11-18"
   },
-  "generatedAt": "2026-11-18T19:07:15Z",
+  "generatedAt": "2026-11-18T20:09:48Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,33 @@
     "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 10718,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance",
+      "url": "https://github.com/velero-io/velero/pull/10718",
+      "date": "2026-11-18T20:02:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 327,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327",
+      "date": "2026-11-18T19:34:00Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 325,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325",
+      "date": "2026-11-18T19:33:27Z",
+      "workstream": "Velero"
+    },
     {
       "number": 2545,
       "repo": "openshift/oadp-operator",
@@ -883,33 +910,6 @@
       "title": "fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts",
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/205",
       "date": "2026-11-10T09:49:32Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 68,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Pin setup-trivy to a real tag",
-      "url": "https://github.com/konveyor/builder/pull/68",
-      "date": "2026-11-10T09:49:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 67,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Modernize the README presentation",
-      "url": "https://github.com/konveyor/builder/pull/67",
-      "date": "2026-11-10T09:48:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 66,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Link upstream release notes and list fixed CVEs in releases",
-      "url": "https://github.com/konveyor/builder/pull/66",
-      "date": "2026-11-10T09:17:37Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,13 +1817,40 @@
   ],
   "prsReviewed": [
     {
+      "number": 10827,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "print load affinity value not address",
+      "url": "https://github.com/velero-io/velero/pull/10827",
+      "date": "2026-11-18T19:28:45Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10821,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the VolumeGroupSnapshot case",
+      "url": "https://github.com/velero-io/velero/pull/10821",
+      "date": "2026-11-18T19:26:04Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10848,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Fix VGS backup failure when backup name exceeds 63 characters",
       "url": "https://github.com/velero-io/velero/pull/10848",
-      "date": "2026-11-18T16:56:44Z",
+      "date": "2026-11-18T19:25:16Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 385,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "RFE-9751: Add non-admin backup schedules",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/385",
+      "date": "2026-11-18T19:23:31Z",
+      "workstream": "OADP"
     },
     {
       "number": 10438,
@@ -1862,15 +1889,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 385,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "RFE-9751: Add non-admin backup schedules",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/385",
-      "date": "2026-11-18T15:08:49Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 2549,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
@@ -1878,24 +1896,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2549",
       "date": "2026-11-17T07:30:02Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10827,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "print load affinity value not address",
-      "url": "https://github.com/velero-io/velero/pull/10827",
-      "date": "2026-11-17T06:17:56Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10821,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: verify the restore in the VolumeGroupSnapshot case",
-      "url": "https://github.com/velero-io/velero/pull/10821",
-      "date": "2026-11-17T06:12:06Z",
-      "workstream": "Velero"
     },
     {
       "number": 2550,

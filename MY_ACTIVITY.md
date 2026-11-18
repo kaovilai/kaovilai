@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-20 — 2026-11-18
-> **Generated:** 2026-11-18 19:07:15 UTC
+> **Generated:** 2026-11-18 20:09:48 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -15,7 +15,10 @@
 
 ## PRs Merged (100)
 
-**velero-io** (3)
+**velero-io** (6)
+- [#10718 docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance](https://github.com/velero-io/velero/pull/10718) — velero-io/velero
+- [#327 [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) — velero-io/velero-plugin-for-microsoft-azure
+- [#325 [release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325) — velero-io/velero-plugin-for-microsoft-azure
 - [#318 Fix Auto Request Review workflow: bump action version and pass token](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) — velero-io/velero-plugin-for-microsoft-azure
 - [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
 - [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
@@ -30,7 +33,7 @@
 **migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (91)
+**Other** (88)
 - [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
 - [#223 feat(update): self-hosted auto-updates via chromium-web-store](https://github.com/kaovilai/github-bot-command-palette/pull/223) — kaovilai/github-bot-command-palette
 - [#389 Install and auto-update via chromium-web-store](https://github.com/kaovilai/toolkit-for-fidelity/pull/389) — kaovilai/toolkit-for-fidelity
@@ -119,9 +122,6 @@
 - [#206 fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit](https://github.com/kaovilai/github-bot-command-palette/pull/206) — kaovilai/github-bot-command-palette
 - [#643 docs: modernize README — catalog functions, providers, telemetry and cluster automation](https://github.com/kaovilai/dotfiles/pull/643) — kaovilai/dotfiles
 - [#205 fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts](https://github.com/kaovilai/github-bot-command-palette/pull/205) — kaovilai/github-bot-command-palette
-- [#68 Pin setup-trivy to a real tag](https://github.com/konveyor/builder/pull/68) — konveyor/builder
-- [#67 Modernize the README presentation](https://github.com/konveyor/builder/pull/67) — konveyor/builder
-- [#66 Link upstream release notes and list fixed CVEs in releases](https://github.com/konveyor/builder/pull/66) — konveyor/builder
 ## PRs Opened (100)
 
 **velero-io** (1)
@@ -234,13 +234,13 @@
 ## PRs Reviewed (31)
 
 **velero-io** (17)
+- [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
+- [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
-- [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
-- [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
