@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T13:09:49Z",
+  "updatedAt": "2026-11-18T14:10:58Z",
   "prs": [
     {
       "number": 5,
@@ -17427,7 +17427,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-18T13:09:49Z",
+    "updatedAt": "2026-11-18T14:10:58Z",
     "needsReview": [
       {
         "number": 68,
@@ -17604,6 +17604,36 @@
         "reason": "awaitingReview",
         "waitingDays": 223,
         "updatedAt": "2026-04-08T15:23:08Z"
+      },
+      {
+        "number": 79327,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
+        "url": "https://github.com/openshift/release/pull/79327",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "mpryc",
+          "mrnold"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 161,
+        "updatedAt": "2026-06-09T20:45:40Z"
       },
       {
         "number": 216,
@@ -17866,7 +17896,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18061,6 +18091,32 @@
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
+        "number": 118214,
+        "repo": "openshift/openshift-docs",
+        "org": "openshift",
+        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
+        "url": "https://github.com/openshift/openshift-docs/pull/118214",
+        "targetBranch": "main",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "size/S"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 78,
+        "updatedAt": "2026-09-01T13:58:01Z"
+      },
+      {
         "number": 10423,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18088,32 +18144,6 @@
         "reason": "awaitingReview",
         "waitingDays": 78,
         "updatedAt": "2026-08-31T20:24:39Z"
-      },
-      {
-        "number": 118214,
-        "repo": "openshift/openshift-docs",
-        "org": "openshift",
-        "title": "Replace credentialsFile with spec.credential in OADP VSL examples",
-        "url": "https://github.com/openshift/openshift-docs/pull/118214",
-        "targetBranch": "main",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "size/S"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 77,
-        "updatedAt": "2026-09-01T13:58:01Z"
       },
       {
         "number": 213,
@@ -18318,7 +18348,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18485,7 +18515,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18724,7 +18754,7 @@
           "needs-ok-to-test",
           "kind/kep"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19043,7 +19073,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19148,6 +19178,35 @@
         "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
+        "number": 504,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "NO-JIRA: Group Go security updates in Dependabot",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 9,
+        "updatedAt": "2026-11-09T13:57:21Z"
+      },
+      {
         "number": 10555,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19229,35 +19288,6 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-11-10T05:29:15Z"
-      },
-      {
-        "number": 504,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "NO-JIRA: Group Go security updates in Dependabot",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 8,
-        "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
         "number": 10798,
@@ -19541,7 +19571,7 @@
           "os/windows",
           "os/macos"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19936,7 +19966,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 88,
+        "waitingDays": 89,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -20925,7 +20955,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-11-02T14:06:28Z"
       },
       {
@@ -20942,7 +20972,7 @@
           "approved",
           "jira/valid-reference"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
