@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T12:15:13Z",
+  "updatedAt": "2026-11-18T13:09:49Z",
   "prs": [
     {
       "number": 5,
@@ -17427,7 +17427,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-18T12:15:13Z",
+    "updatedAt": "2026-11-18T13:09:49Z",
     "needsReview": [
       {
         "number": 68,
@@ -17606,36 +17606,6 @@
         "updatedAt": "2026-04-08T15:23:08Z"
       },
       {
-        "number": 79327,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview",
-        "url": "https://github.com/openshift/release/pull/79327",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "do-not-merge/hold",
-          "approved"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "mpryc",
-          "mrnold"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 161,
-        "updatedAt": "2026-06-09T20:45:40Z"
-      },
-      {
         "number": 216,
         "repo": "migtools/oadp-cli",
         "org": "migtools",
@@ -17731,7 +17701,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17896,7 +17866,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19073,7 +19043,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19088,6 +19058,35 @@
         "reason": "awaitingReview",
         "waitingDays": 11,
         "updatedAt": "2026-11-07T00:50:27Z"
+      },
+      {
+        "number": 2272,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "validate container runtime availability before container operations",
+        "url": "https://github.com/openshift/oadp-operator/pull/2272",
+        "targetBranch": "oadp-dev",
+        "author": "Shreyashxredhat",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "needs-ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-11-08T12:45:01Z"
       },
       {
         "number": 10749,
@@ -19147,35 +19146,6 @@
         "reason": "awaitingReview",
         "waitingDays": 9,
         "updatedAt": "2026-11-08T23:22:37Z"
-      },
-      {
-        "number": 2272,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "validate container runtime availability before container operations",
-        "url": "https://github.com/openshift/oadp-operator/pull/2272",
-        "targetBranch": "oadp-dev",
-        "author": "Shreyashxredhat",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "needs-ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 9,
-        "updatedAt": "2026-11-08T12:45:01Z"
       },
       {
         "number": 10555,
@@ -19321,6 +19291,44 @@
         "updatedAt": "2026-11-10T06:29:35Z"
       },
       {
+        "number": 478,
+        "repo": "kubernetes-sigs/prow",
+        "org": "kubernetes-sigs",
+        "title": "branchprotector: remove protection from excluded branches",
+        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "Prucek"
+        ],
+        "labels": [
+          "cncf-cla: yes",
+          "ok-to-test",
+          "do-not-merge/hold",
+          "size/M",
+          "lgtm",
+          "lifecycle/stale",
+          "area/branchprotector"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "droslean",
+          "petr-muller",
+          "matthyx"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 7,
+        "updatedAt": "2026-11-11T12:34:50Z"
+      },
+      {
         "number": 18636,
         "repo": "rook/rook",
         "org": "rook",
@@ -19451,44 +19459,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-11-11T08:07:08Z"
-      },
-      {
-        "number": 478,
-        "repo": "kubernetes-sigs/prow",
-        "org": "kubernetes-sigs",
-        "title": "branchprotector: remove protection from excluded branches",
-        "url": "https://github.com/kubernetes-sigs/prow/pull/478",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "Prucek"
-        ],
-        "labels": [
-          "cncf-cla: yes",
-          "ok-to-test",
-          "do-not-merge/hold",
-          "size/M",
-          "lgtm",
-          "lifecycle/stale",
-          "area/branchprotector"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "droslean",
-          "petr-muller",
-          "matthyx"
-        ],
-        "group": "needsReview",
-        "reason": "hold",
-        "waitingDays": 6,
-        "updatedAt": "2026-11-11T12:34:50Z"
       },
       {
         "number": 18957,
