@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-20 — 2026-11-18
-> **Generated:** 2026-11-18 06:18:40 UTC
+> **Generated:** 2026-11-18 12:13:47 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -20,7 +20,8 @@
 - [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
 - [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
 
-**openshift** (4)
+**openshift** (5)
+- [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 - [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
@@ -29,7 +30,7 @@
 **migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (92)
+**Other** (91)
 - [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
 - [#223 feat(update): self-hosted auto-updates via chromium-web-store](https://github.com/kaovilai/github-bot-command-palette/pull/223) — kaovilai/github-bot-command-palette
 - [#389 Install and auto-update via chromium-web-store](https://github.com/kaovilai/toolkit-for-fidelity/pull/389) — kaovilai/toolkit-for-fidelity
@@ -121,7 +122,6 @@
 - [#68 Pin setup-trivy to a real tag](https://github.com/konveyor/builder/pull/68) — konveyor/builder
 - [#67 Modernize the README presentation](https://github.com/konveyor/builder/pull/67) — konveyor/builder
 - [#66 Link upstream release notes and list fixed CVEs in releases](https://github.com/konveyor/builder/pull/66) — konveyor/builder
-- [#9 chore: recompile lock files with gh-aw v1.2.2](https://github.com/kaovilai/context-mode/pull/9) — kaovilai/context-mode
 ## PRs Opened (100)
 
 **velero-io** (1)
@@ -235,8 +235,8 @@
 
 **velero-io** (16)
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
-- [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
+- [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
@@ -272,7 +272,8 @@
 - [#34998 fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away](https://github.com/pingdotgg/t3code/pull/34998) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (47)
+**velero-io** (48)
+- [#8668 Download Links for S3 Bucket content are broken when using SSE-C encryption](https://github.com/velero-io/velero/issues/8668) — velero-io/velero
 - [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
 - [#4707 restore with object metadata.ownerreference and metadata.finalizer](https://github.com/velero-io/velero/issues/4707) — velero-io/velero
 - [#10693 Block data mover: backup deletion does not delete retained volume snapshots (design Volume Snapshot Retention L370-371, L474 not implemented)](https://github.com/velero-io/velero/issues/10693) — velero-io/velero
@@ -326,7 +327,7 @@
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
-**Other** (50)
+**Other** (49)
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
@@ -376,7 +377,6 @@
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
 - [#15234 [Feature]: Continue a Codex or Claude Code session started in the terminal as a T3 Code thread](https://github.com/pingdotgg/t3code/issues/15234) — pingdotgg/t3code
-- [#13875 [Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex](https://github.com/pingdotgg/t3code/issues/13875) — pingdotgg/t3code
 ## Issues Closed (94)
 
 **velero-io** (22)

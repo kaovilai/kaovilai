@@ -3,7 +3,7 @@
     "start": "2026-08-20",
     "end": "2026-11-18"
   },
-  "generatedAt": "2026-11-18T06:18:40Z",
+  "generatedAt": "2026-11-18T12:13:47Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 94
   },
   "prsMerged": [
+    {
+      "number": 2545,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix: retry AWS bucket region discovery on transient S3 errors",
+      "url": "https://github.com/openshift/oadp-operator/pull/2545",
+      "date": "2026-11-18T08:44:53Z",
+      "workstream": "OADP"
+    },
     {
       "number": 224,
       "repo": "kaovilai/github-bot-command-palette",
@@ -901,15 +910,6 @@
       "title": "Link upstream release notes and list fixed CVEs in releases",
       "url": "https://github.com/konveyor/builder/pull/66",
       "date": "2026-11-10T09:17:37Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 9,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "chore: recompile lock files with gh-aw v1.2.2",
-      "url": "https://github.com/kaovilai/context-mode/pull/9",
-      "date": "2026-11-10T08:42:56Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1822,7 +1822,16 @@
       "org": "velero-io",
       "title": "[release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)",
       "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/338",
-      "date": "2026-11-18T03:56:37Z",
+      "date": "2026-11-18T11:18:23Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10848,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix VGS backup failure when backup name exceeds 63 characters",
+      "url": "https://github.com/velero-io/velero/pull/10848",
+      "date": "2026-11-18T08:12:19Z",
       "workstream": "Velero"
     },
     {
@@ -1832,15 +1841,6 @@
       "title": "Point artwork at the project's cncf/artwork directory",
       "url": "https://github.com/velero-io/.project/pull/2",
       "date": "2026-11-18T02:17:22Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10848,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix VGS backup failure when backup name exceeds 63 characters",
-      "url": "https://github.com/velero-io/velero/pull/10848",
-      "date": "2026-11-17T19:14:42Z",
       "workstream": "Velero"
     },
     {
@@ -2088,6 +2088,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 8668,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Download Links for S3 Bucket content are broken when using SSE-C encryption",
+      "url": "https://github.com/velero-io/velero/issues/8668",
+      "date": "2026-11-18T10:56:06Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10437,
       "repo": "velero-io/velero",
@@ -2977,15 +2986,6 @@
       "title": "[Feature]: Continue a Codex or Claude Code session started in the terminal as a T3 Code thread",
       "url": "https://github.com/pingdotgg/t3code/issues/15234",
       "date": "2026-10-11T01:41:33Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 13875,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex",
-      "url": "https://github.com/pingdotgg/t3code/issues/13875",
-      "date": "2026-10-11T01:40:56Z",
       "workstream": "Uncategorized"
     }
   ],
