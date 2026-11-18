@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-19 — 2026-11-17
-> **Generated:** 2026-11-17 23:09:23 UTC
+> **Period:** 2026-08-20 — 2026-11-18
+> **Generated:** 2026-11-18 00:30:10 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 31 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 96 |
+| Issues Closed | 94 |
 
 ---
 
@@ -272,6 +272,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (47)
+- [#10694 E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)](https://github.com/velero-io/velero/issues/10694) — velero-io/velero
 - [#4045 Allow customizing restore order for Kubernetes controllers and their managed resources](https://github.com/velero-io/velero/issues/4045) — velero-io/velero
 - [#448 Restore dry run option](https://github.com/velero-io/velero/issues/448) — velero-io/velero
 - [#10730 DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)](https://github.com/velero-io/velero/issues/10730) — velero-io/velero
@@ -302,7 +303,6 @@
 - [#10018 Discussion: rely on CODEOWNERS instead of necojackarc/auto-request-review across velero-io repos](https://github.com/velero-io/velero/issues/10018) — velero-io/velero
 - [#10675 E2E: Kibishii cases reachable on kind with CSI but never run there](https://github.com/velero-io/velero/issues/10675) — velero-io/velero
 - [#9650 Restore fails when Service last-applied-configuration has "healthCheckNodePort": null](https://github.com/velero-io/velero/issues/9650) — velero-io/velero
-- [#10694 E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)](https://github.com/velero-io/velero/issues/10694) — velero-io/velero
 - [#10483 [CSI][Async Backup] Progress() treats retryable VolumeSnapshotContent errors as terminal, failing backups the snapshot controller was about to retry](https://github.com/velero-io/velero/issues/10483) — velero-io/velero
 - [#7804 Enhancing Velero Schedule with RetainDays and RetainCount for Backup Retention Management.](https://github.com/velero-io/velero/issues/7804) — velero-io/velero
 - [#8401 Issue with Velero Restore : Azure disk PV Created with Old SKU Despite Updated Storage Class](https://github.com/velero-io/velero/issues/8401) — velero-io/velero
@@ -376,9 +376,9 @@
 - [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
 - [#15234 [Feature]: Continue a Codex or Claude Code session started in the terminal as a T3 Code thread](https://github.com/pingdotgg/t3code/issues/15234) — pingdotgg/t3code
 - [#13875 [Bug]: Claude model picker not synchronized with Claude Code model list, unlike Codex](https://github.com/pingdotgg/t3code/issues/13875) — pingdotgg/t3code
-## Issues Closed (96)
+## Issues Closed (94)
 
-**velero-io** (23)
+**velero-io** (22)
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10040 NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error](https://github.com/velero-io/velero/issues/10040) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
@@ -401,7 +401,6 @@
 - [#10328 Stop committing generated config/crd/*/crds/crds.go; embed CRDs via go:embed at build time](https://github.com/velero-io/velero/issues/10328) — velero-io/velero
 - [#10297 A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields](https://github.com/velero-io/velero/issues/10297) — velero-io/velero
 - [#10020 E2E CI flake: "kind-action" curl connection reset during kind install](https://github.com/velero-io/velero/issues/10020) — velero-io/velero
-- [#10296 Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error](https://github.com/velero-io/velero/issues/10296) — velero-io/velero
 
 **openshift** (14)
 - [#2249 Makefile container tool check only verifies binary exists, not runtime readiness](https://github.com/openshift/oadp-operator/issues/2249) — openshift/oadp-operator
@@ -425,7 +424,7 @@
 - [#42 Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review](https://github.com/migtools/kubevirt-datamover-plugin/issues/42) — migtools/kubevirt-datamover-plugin
 - [#130 Checkpoint chain integrity gaps not covered by #77 (corrupt-but-present objects, TOCTOU, memoization verdict-loss, index history wipe)](https://github.com/migtools/kubevirt-datamover-controller/issues/130) — migtools/kubevirt-datamover-controller
 
-**Other** (55)
+**Other** (54)
 - [#32355 [Bug]: message timestamps keep a stale time zone after the system time zone changes](https://github.com/pingdotgg/t3code/issues/32355) — pingdotgg/t3code
 - [#31579 [Bug]: Model picker paints blank rows and skips their jump shortcuts](https://github.com/pingdotgg/t3code/issues/31579) — pingdotgg/t3code
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
@@ -480,7 +479,6 @@
 - [#4549 v1beta1→v1 conversion webhook fails on spec.featureGates: "cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates"](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549) — kubevirt/hyperconverged-cluster-operator
 - [#1623 jira_transition_issue's `comment` argument silently dropped on Jira Cloud (transition succeeds, comment never posts)](https://github.com/sooperset/mcp-atlassian/issues/1623) — sooperset/mcp-atlassian
 - [#868 Feature Request: Add support for editing issue comments](https://github.com/github/github-mcp-server/issues/868) — github/github-mcp-server
-- [#625 Add pagination support for get_pull_request_diff to handle large PRs](https://github.com/github/github-mcp-server/issues/625) — github/github-mcp-server
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*

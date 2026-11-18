@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-19",
-    "end": "2026-11-17"
+    "start": "2026-08-20",
+    "end": "2026-11-18"
   },
-  "generatedAt": "2026-11-17T23:09:23Z",
+  "generatedAt": "2026-11-18T00:30:10Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 31,
     "issuesCommented": 100,
-    "issuesClosed": 96
+    "issuesClosed": 94
   },
   "prsMerged": [
     {
@@ -2098,6 +2098,15 @@
   ],
   "issuesCommented": [
     {
+      "number": 10694,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
+      "url": "https://github.com/velero-io/velero/issues/10694",
+      "date": "2026-11-18T00:19:04Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 181212,
       "repo": "home-assistant/core",
       "org": "home-assistant",
@@ -2690,15 +2699,6 @@
       "url": "https://github.com/pingdotgg/t3code/issues/17655",
       "date": "2026-10-28T11:52:21Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10694,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E: verify retained data mover snapshots are deleted from the storage on backup deletion (kind CSI job)",
-      "url": "https://github.com/velero-io/velero/issues/10694",
-      "date": "2026-10-27T19:14:12Z",
-      "workstream": "Velero"
     },
     {
       "number": 10483,
@@ -3844,24 +3844,6 @@
       "url": "https://github.com/github/github-mcp-server/issues/868",
       "date": "2026-08-20T08:45:02Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 625,
-      "repo": "github/github-mcp-server",
-      "org": "github",
-      "title": "Add pagination support for get_pull_request_diff to handle large PRs",
-      "url": "https://github.com/github/github-mcp-server/issues/625",
-      "date": "2026-08-19T08:44:55Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10296,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Cancelling a block data mover backup reports it as a failure — cancel sentinel compared with == against a wrapped error",
-      "url": "https://github.com/velero-io/velero/issues/10296",
-      "date": "2026-08-19T07:03:35Z",
-      "workstream": "Velero"
     }
   ]
 }
