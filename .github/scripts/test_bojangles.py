@@ -404,9 +404,10 @@ class StoryTests(unittest.TestCase):
                 legs = [e.get("class", "") for e in root.iter(NS + "g")
                         if re.fullmatch(r"bjp-(fore|hind)-(near|far)", e.get("class", ""))]
                 self.assertEqual(len(legs), 3, "Popeyes must stand on three legs")
-                self.assertNotIn("bjp-hind-far", legs)
-                self.assertTrue(any(c.startswith("bjp-fore") for c in legs))
-                self.assertTrue(any(c.startswith("bjp-hind") for c in legs))
+                self.assertNotIn("bjp-fore-near", legs, "the amputated front right leg must not be drawn")
+                self.assertIn("bjp-fore-far", legs, "one foreleg remains")
+                self.assertEqual(sum(c == "bjp-hind-near" for c in legs), 2, "both hind legs remain")
+                self.assertIn("bjp-stump", class_set(svg), "the shoulder stump is missing")
                 ids = {e.get("id") for e in root.iter() if e.get("id")}
                 self.assertIn("bjp-coat", ids, "tabby coat missing")
                 self.assertIn("bjp-torso-clip", ids)
