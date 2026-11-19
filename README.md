@@ -108,7 +108,7 @@ gazetteer city centres are published, never raw positions or real dates.
 </picture>
 <!-- travel-map:end -->
 
-Generated with [Timeline replay map](https://github.tig.pw/gmap-timeline-replaysvg/) ([source](https://github.com/kaovilai/gmap-timeline-replaysvg)) — turn your own Timeline export into a city-level map, in the browser, with nothing uploaded.
+Generated with [Timeline replay map](https://github.tig.pw/gmap-timeline-replay/) ([source](https://github.com/kaovilai/gmap-timeline-replay)) — turn your own Timeline export into a city-level map, in the browser, with nothing uploaded.
 
 [North Carolina destinations map](nc_destinations.html)
 
