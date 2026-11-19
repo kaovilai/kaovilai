@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-19 00:15:30 UTC
+> Last updated: 2026-11-19 06:10:06 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -179,6 +179,8 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #92](https://img.shields.io/badge/PR%20%2392-ready-green)](https://github.com/kaovilai/kaovilai/pull/92) **kaovilai/kaovilai** → `main` - Correct Popeyes' amputation: front right, shoulder stump visible
+- [![PR #93](https://img.shields.io/badge/PR%20%2393-ready-green)](https://github.com/kaovilai/kaovilai/pull/93) **kaovilai/kaovilai** → `main` - Point the travel map at its renamed repo (gmap-timeline-replay)
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
