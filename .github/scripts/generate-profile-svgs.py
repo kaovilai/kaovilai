@@ -964,10 +964,10 @@ def bojangles(t, _s):
                 f'<use href="#bj-face-art"/>'
                 f'<path d="{face["outline"]}" fill="{shade}" opacity=".12"/></g></g>')
     pop_stump = f"""<g class="bjp-stump">
-        <path d="M27,-65 Q33,-56 38,-47" stroke="{shade}" stroke-width="12.6" stroke-linecap="round" fill="none" opacity=".28"/>
-        <path d="M27,-65 Q33,-56 38,-47" stroke="url(#bjp-coat)" stroke-width="11.5" stroke-linecap="round" fill="none"/>
-        <path d="M26,-59 q7,3 10,8" stroke="{pop_stripe}" stroke-width="2.2" fill="none" opacity=".5"/>
-        <ellipse cx="38" cy="-47" rx="5.4" ry="3.4" transform="rotate(30 38 -47)" fill="{pop_limb[0]}" opacity=".45"/>
+        <path d="M27,-64 Q31,-57 35,-51" stroke="{shade}" stroke-width="12.6" stroke-linecap="round" fill="none" opacity=".28"/>
+        <path d="M27,-64 Q31,-57 35,-51" stroke="url(#bjp-coat)" stroke-width="11.5" stroke-linecap="round" fill="none"/>
+        <path d="M26,-58 q6,3 9,6" stroke="{pop_stripe}" stroke-width="2.2" fill="none" opacity=".5"/>
+        <ellipse cx="35" cy="-51" rx="5.4" ry="3.4" transform="rotate(32 35 -51)" fill="{pop_limb[0]}" opacity=".45"/>
       </g>"""
     pop = f"""<g class="bjp-pitch"><g transform="scale(.92)">
       <g transform="translate(-47,-65)"><g class="bjp-tail">
