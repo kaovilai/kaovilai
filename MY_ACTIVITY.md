@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-21 — 2026-11-19
-> **Generated:** 2026-11-19 00:29:58 UTC
+> **Generated:** 2026-11-19 06:19:42 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -135,10 +135,9 @@
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 - [#2980 fix(operator): recompute protected namespaces on every sync](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) — openshift/cluster-kube-descheduler-operator
 
-**migtools** (1)
-- [#257 Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/257) — migtools/kubevirt-datamover-controller
-
-**Other** (92)
+**Other** (93)
+- [#93 Point the travel map at its renamed repo (gmap-timeline-replay)](https://github.com/kaovilai/kaovilai/pull/93) — kaovilai/kaovilai
+- [#92 Correct Popeyes' amputation: front right, shoulder stump visible](https://github.com/kaovilai/kaovilai/pull/92) — kaovilai/kaovilai
 - [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
 - [#223 feat(update): self-hosted auto-updates via chromium-web-store](https://github.com/kaovilai/github-bot-command-palette/pull/223) — kaovilai/github-bot-command-palette
 - [#389 Install and auto-update via chromium-web-store](https://github.com/kaovilai/toolkit-for-fidelity/pull/389) — kaovilai/toolkit-for-fidelity
@@ -230,7 +229,6 @@
 - [#206 fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit](https://github.com/kaovilai/github-bot-command-palette/pull/206) — kaovilai/github-bot-command-palette
 - [#205 fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts](https://github.com/kaovilai/github-bot-command-palette/pull/205) — kaovilai/github-bot-command-palette
 - [#68 Pin setup-trivy to a real tag](https://github.com/konveyor/builder/pull/68) — konveyor/builder
-- [#67 Modernize the README presentation](https://github.com/konveyor/builder/pull/67) — konveyor/builder
 ## PRs Reviewed (31)
 
 **velero-io** (17)
@@ -273,7 +271,8 @@
 - [#34998 fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away](https://github.com/pingdotgg/t3code/pull/34998) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (48)
+**velero-io** (49)
+- [#10544 CRD schema check: self-resolution for `strict` mode failures (`/readyz` instead of crash-loop)](https://github.com/velero-io/velero/issues/10544) — velero-io/velero
 - [#8668 Download Links for S3 Bucket content are broken when using SSE-C encryption](https://github.com/velero-io/velero/issues/8668) — velero-io/velero
 - [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
 - [#4707 restore with object metadata.ownerreference and metadata.finalizer](https://github.com/velero-io/velero/issues/4707) — velero-io/velero
@@ -328,9 +327,9 @@
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
-**Other** (49)
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+**Other** (48)
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
@@ -377,7 +376,6 @@
 - [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
-- [#17718 [Bug]: Android composer ignores images pasted from Gboard](https://github.com/pingdotgg/t3code/issues/17718) — pingdotgg/t3code
 ## Issues Closed (92)
 
 **velero-io** (22)

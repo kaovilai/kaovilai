@@ -3,7 +3,7 @@
     "start": "2026-08-21",
     "end": "2026-11-19"
   },
-  "generatedAt": "2026-11-19T00:29:58Z",
+  "generatedAt": "2026-11-19T06:19:42Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -915,6 +915,24 @@
   ],
   "prsOpened": [
     {
+      "number": 93,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Point the travel map at its renamed repo (gmap-timeline-replay)",
+      "url": "https://github.com/kaovilai/kaovilai/pull/93",
+      "date": "2026-11-19T05:08:29Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 92,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Correct Popeyes' amputation: front right, shoulder stump visible",
+      "url": "https://github.com/kaovilai/kaovilai/pull/92",
+      "date": "2026-11-19T05:08:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 224,
       "repo": "kaovilai/github-bot-command-palette",
       "org": "kaovilai",
@@ -1795,24 +1813,6 @@
       "url": "https://github.com/konveyor/builder/pull/68",
       "date": "2026-11-10T09:25:53Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 67,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Modernize the README presentation",
-      "url": "https://github.com/konveyor/builder/pull/67",
-      "date": "2026-11-10T09:22:02Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 257,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Backport #255 to oadp-1.6: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/257",
-      "date": "2026-11-10T08:41:36Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "prsReviewed": [
@@ -2098,21 +2098,30 @@
   ],
   "issuesCommented": [
     {
+      "number": 36873,
+      "repo": "n8n-io/n8n",
+      "org": "n8n-io",
+      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
+      "url": "https://github.com/n8n-io/n8n/issues/36873",
+      "date": "2026-11-19T04:18:05Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10544,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "CRD schema check: self-resolution for `strict` mode failures (`/readyz` instead of crash-loop)",
+      "url": "https://github.com/velero-io/velero/issues/10544",
+      "date": "2026-11-19T01:36:21Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
       "org": "redhat-best-practices-for-k8s",
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-18T15:16:02Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 36873,
-      "repo": "n8n-io/n8n",
-      "org": "n8n-io",
-      "title": "Bug: AI Assistant \"Connect a model\" fails with \"The service returned an unexpected response\" on custom OpenAI-compatible Base URLs",
-      "url": "https://github.com/n8n-io/n8n/issues/36873",
-      "date": "2026-11-18T13:01:06Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2987,15 +2996,6 @@
       "url": "https://github.com/velero-io/velero/issues/10266",
       "date": "2026-10-13T16:53:45Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 17718,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Android composer ignores images pasted from Gboard",
-      "url": "https://github.com/pingdotgg/t3code/issues/17718",
-      "date": "2026-10-12T17:24:19Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
