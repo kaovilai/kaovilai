@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-21 — 2026-11-19
-> **Generated:** 2026-11-19 06:19:42 UTC
+> **Generated:** 2026-11-19 16:08:49 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -24,16 +24,19 @@
 - [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
 
 **openshift** (5)
+- [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 - [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
-- [#2515 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2515) — openshift/oadp-operator
 
 **migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (88)
+- [#662 Remove context-mode daemon sync from fleet-sync](https://github.com/kaovilai/dotfiles/pull/662) — kaovilai/dotfiles
+- [#92 Correct Popeyes' amputation: front right, shoulder stump visible](https://github.com/kaovilai/kaovilai/pull/92) — kaovilai/kaovilai
+- [#93 Point the travel map at its renamed repo (gmap-timeline-replay)](https://github.com/kaovilai/kaovilai/pull/93) — kaovilai/kaovilai
 - [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
 - [#223 feat(update): self-hosted auto-updates via chromium-web-store](https://github.com/kaovilai/github-bot-command-palette/pull/223) — kaovilai/github-bot-command-palette
 - [#389 Install and auto-update via chromium-web-store](https://github.com/kaovilai/toolkit-for-fidelity/pull/389) — kaovilai/toolkit-for-fidelity
@@ -119,23 +122,22 @@
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 - [#23 feat(containers): docker/podman rename via a persisted name-override store](https://github.com/kaovilai/podm/pull/23) — kaovilai/podm
-- [#206 fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit](https://github.com/kaovilai/github-bot-command-palette/pull/206) — kaovilai/github-bot-command-palette
-- [#643 docs: modernize README — catalog functions, providers, telemetry and cluster automation](https://github.com/kaovilai/dotfiles/pull/643) — kaovilai/dotfiles
-- [#205 fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts](https://github.com/kaovilai/github-bot-command-palette/pull/205) — kaovilai/github-bot-command-palette
 ## PRs Opened (100)
 
 **velero-io** (1)
 - [#10850 Design: block data mover base snapshot retention](https://github.com/velero-io/velero/pull/10850) — velero-io/velero
 
-**openshift** (6)
+**openshift** (5)
 - [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
 - [#2551 e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22](https://github.com/openshift/oadp-operator/pull/2551) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
-- [#2980 fix(operator): recompute protected namespaces on every sync](https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980) — openshift/cluster-kube-descheduler-operator
 
-**Other** (93)
+**Other** (94)
+- [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
+- [#1187 feat: run the local setup with Podman instead of Docker](https://github.com/n8n-io/nod/pull/1187) — n8n-io/nod
+- [#662 Remove context-mode daemon sync from fleet-sync](https://github.com/kaovilai/dotfiles/pull/662) — kaovilai/dotfiles
 - [#93 Point the travel map at its renamed repo (gmap-timeline-replay)](https://github.com/kaovilai/kaovilai/pull/93) — kaovilai/kaovilai
 - [#92 Correct Popeyes' amputation: front right, shoulder stump visible](https://github.com/kaovilai/kaovilai/pull/92) — kaovilai/kaovilai
 - [#224 fix(update): post-merge review follow-ups (GLM)](https://github.com/kaovilai/github-bot-command-palette/pull/224) — kaovilai/github-bot-command-palette
@@ -227,11 +229,10 @@
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 - [#643 docs: modernize README — catalog functions, providers, telemetry and cluster automation](https://github.com/kaovilai/dotfiles/pull/643) — kaovilai/dotfiles
 - [#206 fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit](https://github.com/kaovilai/github-bot-command-palette/pull/206) — kaovilai/github-bot-command-palette
-- [#205 fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts](https://github.com/kaovilai/github-bot-command-palette/pull/205) — kaovilai/github-bot-command-palette
-- [#68 Pin setup-trivy to a real tag](https://github.com/konveyor/builder/pull/68) — konveyor/builder
 ## PRs Reviewed (31)
 
 **velero-io** (17)
+- [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
@@ -248,7 +249,6 @@
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 - [#10687 Count backup/restore failures in metrics during startup cleanup](https://github.com/velero-io/velero/pull/10687) — velero-io/velero
-- [#10734 Add E2E automation test cases for in-place restore](https://github.com/velero-io/velero/pull/10734) — velero-io/velero
 
 **openshift** (8)
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
@@ -328,8 +328,9 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (48)
-- [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
+- [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
 - [#181212 Home Assistant 2026.9.0 – “Could not load Home Assistant” after update](https://github.com/home-assistant/core/issues/181212) — home-assistant/core
 - [#17875 VEP#25 Enhancement: Incremental VirtualMachineBackup delta is always relative to VirtualMachineBackupTracker.status.latestCheckpoint only (no arbitrary base checkpoint)](https://github.com/kubevirt/kubevirt/issues/17875) — kubevirt/kubevirt
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
@@ -350,7 +351,6 @@
 - [#76291 x/tools/gopls: mcp: file watcher try to watch for all roots](https://github.com/golang/go/issues/76291) — golang/go
 - [#18 Add MacroDroid-style Android automation integration](https://github.com/Past-da-king/agent/issues/18) — Past-da-king/agent
 - [#22368 Facilitate ConfigMap rollouts / management](https://github.com/kubernetes/kubernetes/issues/22368) — kubernetes/kubernetes
-- [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#49 bug: after a GL.iNet firmware upgrade tailbond is half-installed and the reinstall hook does nothing](https://github.com/kaovilai/tailbond/issues/49) — kaovilai/tailbond
 - [#41 Deconstruct workflows into reusable components so there are less duplicative code in .github/workflows](https://github.com/konveyor/builder/issues/41) — konveyor/builder
 - [#603 context-mode: upgrade to v2.1.4 and move off per-session spawn](https://github.com/kaovilai/dotfiles/issues/603) — kaovilai/dotfiles

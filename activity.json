@@ -3,7 +3,7 @@
     "start": "2026-08-21",
     "end": "2026-11-19"
   },
-  "generatedAt": "2026-11-19T06:19:42Z",
+  "generatedAt": "2026-11-19T16:08:49Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,42 @@
     "issuesClosed": 92
   },
   "prsMerged": [
+    {
+      "number": 88500,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel",
+      "url": "https://github.com/openshift/release/pull/88500",
+      "date": "2026-11-19T14:53:49Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 662,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Remove context-mode daemon sync from fleet-sync",
+      "url": "https://github.com/kaovilai/dotfiles/pull/662",
+      "date": "2026-11-19T10:52:12Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 92,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Correct Popeyes' amputation: front right, shoulder stump visible",
+      "url": "https://github.com/kaovilai/kaovilai/pull/92",
+      "date": "2026-11-19T07:02:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 93,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Point the travel map at its renamed repo (gmap-timeline-replay)",
+      "url": "https://github.com/kaovilai/kaovilai/pull/93",
+      "date": "2026-11-19T06:54:45Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10718,
       "repo": "velero-io/velero",
@@ -875,45 +911,36 @@
       "url": "https://github.com/kaovilai/podm/pull/23",
       "date": "2026-11-10T10:34:15Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 206,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/206",
-      "date": "2026-11-10T10:13:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 643,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: modernize README — catalog functions, providers, telemetry and cluster automation",
-      "url": "https://github.com/kaovilai/dotfiles/pull/643",
-      "date": "2026-11-10T10:10:39Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2515,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: retry AWS bucket region discovery on transient S3 errors",
-      "url": "https://github.com/openshift/oadp-operator/pull/2515",
-      "date": "2026-11-10T10:10:39Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 205,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/205",
-      "date": "2026-11-10T09:49:32Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 219,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/219",
+      "date": "2026-11-19T15:45:33Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 1187,
+      "repo": "n8n-io/nod",
+      "org": "n8n-io",
+      "title": "feat: run the local setup with Podman instead of Docker",
+      "url": "https://github.com/n8n-io/nod/pull/1187",
+      "date": "2026-11-19T11:17:59Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 662,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Remove context-mode daemon sync from fleet-sync",
+      "url": "https://github.com/kaovilai/dotfiles/pull/662",
+      "date": "2026-11-19T09:51:25Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 93,
       "repo": "kaovilai/kaovilai",
@@ -1786,36 +1813,18 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/206",
       "date": "2026-11-10T09:52:56Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 205,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(ui): drop title-only command-bar header and stop button clicks erasing comment drafts",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/205",
-      "date": "2026-11-10T09:43:47Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2980,
-      "repo": "openshift/cluster-kube-descheduler-operator",
-      "org": "openshift",
-      "title": "fix(operator): recompute protected namespaces on every sync",
-      "url": "https://github.com/openshift/cluster-kube-descheduler-operator/pull/2980",
-      "date": "2026-11-10T09:33:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 68,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Pin setup-trivy to a real tag",
-      "url": "https://github.com/konveyor/builder/pull/68",
-      "date": "2026-11-10T09:25:53Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10677,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Modern backup format design",
+      "url": "https://github.com/velero-io/velero/pull/10677",
+      "date": "2026-11-19T09:59:48Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10827,
       "repo": "velero-io/velero",
@@ -2085,18 +2094,27 @@
       "url": "https://github.com/velero-io/velero/pull/10687",
       "date": "2026-11-11T15:09:12Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10734,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add E2E automation test cases for in-place restore",
-      "url": "https://github.com/velero-io/velero/pull/10734",
-      "date": "2026-11-11T05:25:06Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-19T15:22:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 261,
+      "repo": "kubernetes-csi/external-snapshot-metadata",
+      "org": "kubernetes-csi",
+      "title": "Wrong grpc error codes returned",
+      "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261",
+      "date": "2026-11-19T11:36:27Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 36873,
       "repo": "n8n-io/n8n",
@@ -2114,15 +2132,6 @@
       "url": "https://github.com/velero-io/velero/issues/10544",
       "date": "2026-11-19T01:36:21Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-18T15:16:02Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 8668,
@@ -2546,15 +2555,6 @@
       "url": "https://github.com/velero-io/velero/issues/10303",
       "date": "2026-11-09T11:20:46Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 261,
-      "repo": "kubernetes-csi/external-snapshot-metadata",
-      "org": "kubernetes-csi",
-      "title": "Wrong grpc error codes returned",
-      "url": "https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261",
-      "date": "2026-11-08T04:10:23Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 49,
