@@ -775,7 +775,7 @@ def bojangles(t, _s):
     css += track("bjp-travel", [(s, f"translate({x}px,0px)") for s, x, _, _ in POPEYES_STORY])
     css += track("bjp-pitch", [(s, f"rotate({a}deg)") for s, _, a, _ in POPEYES_STORY])
     css += track("bjp-head", [(s, f"rotate({POPEYES_POSES[p][4]}deg)") for s, _, _, p in POPEYES_STORY])
-    for name, index in (("fore-near", 0), ("hind-near", 2)):
+    for name, index in (("fore-far", 0), ("hind-near", 2)):
         css += track(f"bjp-{name}", [(s, f"rotate({POPEYES_POSES[p][index]:.1f}deg)")
                                     for s, _, _, p in POPEYES_STORY])
         css += track(f"bjp-{name}-lower", [(s, f"rotate({POPEYES_POSES[p][index + 1]:.1f}deg)")
@@ -957,17 +957,26 @@ def bojangles(t, _s):
       {leg('bj-', 'fore-near', 34, -60)}{cat_head}
     </g>"""
 
-    # Popeyes: darker tabby from the same traced palette, three legs (his far hind is gone).
+    # Popeyes: darker tabby from the same traced palette. His front right leg is
+    # amputated above the elbow, so the near side keeps only a short shoulder stump;
+    # the remaining far foreleg and both hinds are drawn normally.
     pop_head = (f'<g class="bjp-head"><g transform="translate(96,-124) scale(-.36,.36)">'
                 f'<use href="#bj-face-art"/>'
                 f'<path d="{face["outline"]}" fill="{shade}" opacity=".12"/></g></g>')
+    pop_stump = f"""<g class="bjp-stump">
+        <path d="M27,-65 Q33,-56 38,-47" stroke="{shade}" stroke-width="12.6" stroke-linecap="round" fill="none" opacity=".28"/>
+        <path d="M27,-65 Q33,-56 38,-47" stroke="url(#bjp-coat)" stroke-width="11.5" stroke-linecap="round" fill="none"/>
+        <path d="M26,-59 q7,3 10,8" stroke="{pop_stripe}" stroke-width="2.2" fill="none" opacity=".5"/>
+        <ellipse cx="38" cy="-47" rx="5.4" ry="3.4" transform="rotate(30 38 -47)" fill="{pop_limb[0]}" opacity=".45"/>
+      </g>"""
     pop = f"""<g class="bjp-pitch"><g transform="scale(.92)">
       <g transform="translate(-47,-65)"><g class="bjp-tail">
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{pop_coat[1]}" stroke-width="10" stroke-linecap="round"/>
         <path d="M0,0 C-29,-4 -52,-15 -50,-42 Q-49,-54 -44,-58" fill="none" stroke="{pop_stripe}" stroke-width="10.2" stroke-dasharray="5 7"/>
         <path d="M-5,-3 Q-36,-11 -43,-28" fill="none" stroke="{pop_cream}" stroke-width="1.1" opacity=".5"/>
       </g></g>
-      {leg('bjp-', 'fore-near', 26, -60, far=True, ink=pop_stripe, hair=pop_cream)}
+      {leg('bjp-', 'hind-near', -35, -60, True, True, ink=pop_stripe, hair=pop_cream)}
+      {leg('bjp-', 'fore-far', 26, -60, far=True, ink=pop_stripe, hair=pop_cream)}
       <path d="{torso}" fill="url(#bjp-coat)"/>
       <g clip-path="url(#bjp-torso-clip)">
         <path d="M-52,-81 Q-3,-98 43,-84" fill="none" stroke="{pop_stripe}" stroke-width="11"/>
@@ -982,7 +991,7 @@ def bojangles(t, _s):
       {leg('bjp-', 'hind-near', -32, -60, True, ink=pop_stripe, hair=pop_cream)}
       <path d="M23,-79 Q30,-104 45,-102 L56,-77 Q50,-53 39,-45 L30,-58 Z" fill="url(#bjp-coat)"/>
       <path d="M29,-80 l17,8 M26,-71 l19,8 M31,-59 l10,4" stroke="{pop_stripe}" stroke-width="4.5"/>
-      {leg('bjp-', 'fore-near', 34, -60, ink=pop_stripe, hair=pop_cream)}{pop_head}
+      {pop_stump}{pop_head}
     </g></g>"""
 
     flowers = []
