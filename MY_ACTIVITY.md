@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-21 — 2026-11-19
-> **Generated:** 2026-11-19 16:15:04 UTC
+> **Generated:** 2026-11-19 17:08:39 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -135,6 +135,7 @@
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 
 **Other** (94)
+- [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
 - [#1187 feat: run the local setup with Podman instead of Docker](https://github.com/n8n-io/nod/pull/1187) — n8n-io/nod
 - [#662 Remove context-mode daemon sync from fleet-sync](https://github.com/kaovilai/dotfiles/pull/662) — kaovilai/dotfiles
@@ -228,7 +229,6 @@
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 - [#643 docs: modernize README — catalog functions, providers, telemetry and cluster automation](https://github.com/kaovilai/dotfiles/pull/643) — kaovilai/dotfiles
-- [#206 fix(combo): dedupe multi-line command fills and drop draft guard on failed fallback submit](https://github.com/kaovilai/github-bot-command-palette/pull/206) — kaovilai/github-bot-command-palette
 ## PRs Reviewed (31)
 
 **velero-io** (17)
