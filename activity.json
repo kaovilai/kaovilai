@@ -3,15 +3,24 @@
     "start": "2026-08-21",
     "end": "2026-11-19"
   },
-  "generatedAt": "2026-11-19T17:08:39Z",
+  "generatedAt": "2026-11-19T18:11:34Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 31,
     "issuesCommented": 100,
-    "issuesClosed": 92
+    "issuesClosed": 93
   },
   "prsMerged": [
+    {
+      "number": 220,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Show dry-run status and run parameters in Auto Rebase workflow",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/220",
+      "date": "2026-11-19T17:19:57Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 88500,
       "repo": "openshift/release",
@@ -902,18 +911,18 @@
       "url": "https://github.com/velero-io/velero/pull/10425",
       "date": "2026-11-10T11:19:51Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 23,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(containers): docker/podman rename via a persisted name-override store",
-      "url": "https://github.com/kaovilai/podm/pull/23",
-      "date": "2026-11-10T10:34:15Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 10856,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Document the node-agent label required for File System Backup since v1.16",
+      "url": "https://github.com/velero-io/velero/pull/10856",
+      "date": "2026-11-19T17:44:41Z",
+      "workstream": "Velero"
+    },
     {
       "number": 220,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2545",
       "date": "2026-11-10T10:23:12Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 643,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: modernize README — catalog functions, providers, telemetry and cluster automation",
-      "url": "https://github.com/kaovilai/dotfiles/pull/643",
-      "date": "2026-11-10T09:54:55Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2999,6 +2999,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10723,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Regression: file system data mover leaks volume snapshots under a Retain VolumeSnapshotClass",
+      "url": "https://github.com/velero-io/velero/issues/10723",
+      "date": "2026-11-19T17:47:49Z",
+      "workstream": "Velero"
+    },
     {
       "number": 32355,
       "repo": "pingdotgg/t3code",

@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-21 — 2026-11-19
-> **Generated:** 2026-11-19 17:08:39 UTC
+> **Generated:** 2026-11-19 18:11:34 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 31 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 92 |
+| Issues Closed | 93 |
 
 ---
 
@@ -34,6 +34,7 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (88)
+- [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#662 Remove context-mode daemon sync from fleet-sync](https://github.com/kaovilai/dotfiles/pull/662) — kaovilai/dotfiles
 - [#92 Correct Popeyes' amputation: front right, shoulder stump visible](https://github.com/kaovilai/kaovilai/pull/92) — kaovilai/kaovilai
 - [#93 Point the travel map at its renamed repo (gmap-timeline-replay)](https://github.com/kaovilai/kaovilai/pull/93) — kaovilai/kaovilai
@@ -121,10 +122,10 @@
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
-- [#23 feat(containers): docker/podman rename via a persisted name-override store](https://github.com/kaovilai/podm/pull/23) — kaovilai/podm
 ## PRs Opened (100)
 
-**velero-io** (1)
+**velero-io** (2)
+- [#10856 Document the node-agent label required for File System Backup since v1.16](https://github.com/velero-io/velero/pull/10856) — velero-io/velero
 - [#10850 Design: block data mover base snapshot retention](https://github.com/velero-io/velero/pull/10850) — velero-io/velero
 
 **openshift** (5)
@@ -134,7 +135,7 @@
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 
-**Other** (94)
+**Other** (93)
 - [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
 - [#1187 feat: run the local setup with Podman instead of Docker](https://github.com/n8n-io/nod/pull/1187) — n8n-io/nod
@@ -228,7 +229,6 @@
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 - [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
-- [#643 docs: modernize README — catalog functions, providers, telemetry and cluster automation](https://github.com/kaovilai/dotfiles/pull/643) — kaovilai/dotfiles
 ## PRs Reviewed (31)
 
 **velero-io** (17)
@@ -376,9 +376,10 @@
 - [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
-## Issues Closed (92)
+## Issues Closed (93)
 
-**velero-io** (22)
+**velero-io** (23)
+- [#10723 Regression: file system data mover leaks volume snapshots under a Retain VolumeSnapshotClass](https://github.com/velero-io/velero/issues/10723) — velero-io/velero
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10040 NFS: restore silently loses file ownership — server rejects chown (root_squash / idmap EPERM) and hardcoded IgnorePermissionErrors swallows the error](https://github.com/velero-io/velero/issues/10040) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
