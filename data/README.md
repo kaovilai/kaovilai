@@ -2,9 +2,9 @@
 
 Commit your imported, city-level Timeline data here as **`data/places.json`**.
 
-Generate it with the [browser page](https://github.tig.pw/gmap-timeline-replaysvg/)
+Generate it with the [browser page](https://github.tig.pw/gmap-timeline-replay/)
 (choose **Anonymize: one day apart** under Dates), or from a clone of
-[gmap-timeline-replaysvg](https://github.com/kaovilai/gmap-timeline-replaysvg):
+[gmap-timeline-replay](https://github.com/kaovilai/gmap-timeline-replay):
 
 ```sh
 python3 -I -B worldmap.py import ~/Downloads/Timeline.json \

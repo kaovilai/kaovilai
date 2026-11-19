@@ -2,7 +2,7 @@ name: Update travel map
 
 # Regenerates the README travel-map SVGs whenever the city-level places.json
 # changes. The flat animated SVG (light and dark) is rendered by
-# kaovilai/gmap-timeline-replaysvg at 1280 px by default; override with the
+# kaovilai/gmap-timeline-replay at 1280 px by default; override with the
 # workflow_dispatch inputs.
 
 on:
@@ -51,7 +51,7 @@ jobs:
       - name: Checkout the map renderer
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
         with:
-          repository: kaovilai/gmap-timeline-replaysvg
+          repository: kaovilai/gmap-timeline-replay
           path: .travel-map-tool
           persist-credentials: false
 
