@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-19 18:12:21 UTC
+> Last updated: 2026-11-19 19:07:52 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -68,6 +68,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2272](https://img.shields.io/badge/PR%20%232272-ready-green)](https://github.com/openshift/oadp-operator/pull/2272) **openshift/oadp-operator** → `oadp-dev` - validate container runtime availability before container operations
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
+- [![PR #2519](https://img.shields.io/badge/PR%20%232519-ready-green)](https://github.com/openshift/oadp-operator/pull/2519) **openshift/oadp-operator** → `oadp-dev` - docs: note that nodeAgent.loadAffinity also limits File System Backup
 - [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
 - [![PR #2523](https://img.shields.io/badge/PR%20%232523-ready-green)](https://github.com/openshift/oadp-operator/pull/2523) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): handle Terminating namespace in CreateNamespace
@@ -105,7 +106,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2360](https://img.shields.io/badge/PR%20%232360-draft-gray)](https://github.com/openshift/oadp-operator/pull/2360) **openshift/oadp-operator** → `oadp-dev` - docs: kubevirt-datamover design doc — 2026-08-06 implementation status
 - [![PR #2517](https://img.shields.io/badge/PR%20%232517-draft-gray)](https://github.com/openshift/oadp-operator/pull/2517) **openshift/oadp-operator** → `oadp-dev` - Delete registry secrets of BSLs removed from the DPA
 - [![PR #2518](https://img.shields.io/badge/PR%20%232518-draft-gray)](https://github.com/openshift/oadp-operator/pull/2518) **openshift/oadp-operator** → `oadp-dev` - Keep IPv6 brackets when stripping default port from s3Url
-- [![PR #2519](https://img.shields.io/badge/PR%20%232519-draft-gray)](https://github.com/openshift/oadp-operator/pull/2519) **openshift/oadp-operator** → `oadp-dev` - docs: note that nodeAgent.loadAffinity also limits File System Backup
 - [![PR #2525](https://img.shields.io/badge/PR%20%232525-draft-gray)](https://github.com/openshift/oadp-operator/pull/2525) **openshift/oadp-operator** → `oadp-dev` - docs: describe descheduler impact on virtualization backups
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
