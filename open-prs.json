@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T18:12:03Z",
+  "updatedAt": "2026-11-20T19:08:44Z",
   "prs": [
     {
       "number": 5,
@@ -15817,7 +15817,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-20T18:11:51Z",
+      "updatedAt": "2026-11-20T19:07:43Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -15825,36 +15825,36 @@
           "conclusion": "CANCELLED"
         },
         {
-          "name": "Analyze (go)",
-          "conclusion": ""
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": ""
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": ""
-        },
-        {
           "name": "review",
           "conclusion": ""
         },
         {
+          "name": "Analyze (go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "Analyze (python)",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "Analyze (javascript)",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "test (1.21, scripts/claude-provider-go)",
@@ -15866,7 +15866,7 @@
         },
         {
           "name": "verify (fedora)",
-          "conclusion": ""
+          "conclusion": "SUCCESS"
         },
         {
           "name": "verify (macos)",
@@ -15878,6 +15878,10 @@
         },
         {
           "name": "CodeRabbit",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeQL",
           "conclusion": "SUCCESS"
         }
       ]
@@ -17261,7 +17265,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-20T18:12:03Z",
+    "updatedAt": "2026-11-20T19:08:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -17811,7 +17815,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 84,
+        "waitingDays": 85,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -17841,7 +17845,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 84,
+        "waitingDays": 85,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -18052,37 +18056,6 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
-        "number": 123138,
-        "repo": "NousResearch/hermes-agent",
-        "org": "NousResearch",
-        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
-        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "type/bug",
-          "comp/cli",
-          "comp/tools",
-          "P2",
-          "sweeper:risk-message-delivery",
-          "area/profiles"
-        ],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 51,
-        "updatedAt": "2026-09-30T15:17:14Z"
-      },
-      {
         "number": 10010,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18112,8 +18085,39 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 51,
+        "waitingDays": 52,
         "updatedAt": "2026-09-29T18:16:07Z"
+      },
+      {
+        "number": 123138,
+        "repo": "NousResearch/hermes-agent",
+        "org": "NousResearch",
+        "title": "fix(tools): hard-fail message_agent on a profile's old, renamed-away name",
+        "url": "https://github.com/NousResearch/hermes-agent/pull/123138",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "type/bug",
+          "comp/cli",
+          "comp/tools",
+          "P2",
+          "sweeper:risk-message-delivery",
+          "area/profiles"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 51,
+        "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
         "number": 70,
@@ -18140,7 +18144,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-10-07T18:19:44Z"
       },
       {
@@ -18169,7 +18173,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
@@ -18902,30 +18906,6 @@
         "updatedAt": "2026-11-10T05:29:15Z"
       },
       {
-        "number": 375,
-        "repo": "socktainer/socktainer",
-        "org": "socktainer",
-        "title": "feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support",
-        "url": "https://github.com/socktainer/socktainer/pull/375",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "CHANGES_REQUESTED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 10,
-        "updatedAt": "2026-11-09T22:22:24Z"
-      },
-      {
         "number": 10798,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -19171,7 +19151,7 @@
           "os/windows",
           "os/macos"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19430,6 +19410,35 @@
         "updatedAt": "2026-11-19T13:53:12Z"
       },
       {
+        "number": 2519,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "docs: note that nodeAgent.loadAffinity also limits File System Backup",
+        "url": "https://github.com/openshift/oadp-operator/pull/2519",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "mpryc",
+          "PrasadJoshi12"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-19T18:27:24Z"
+      },
+      {
         "number": 82734,
         "repo": "openshift/release",
         "org": "openshift",
@@ -19440,7 +19449,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19484,35 +19493,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-20T01:31:06Z"
-      },
-      {
-        "number": 2519,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "docs: note that nodeAgent.loadAffinity also limits File System Backup",
-        "url": "https://github.com/openshift/oadp-operator/pull/2519",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "mpryc",
-          "PrasadJoshi12"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-19T18:27:24Z"
       },
       {
         "number": 10794,
@@ -20093,7 +20073,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 43,
+        "waitingDays": 44,
         "updatedAt": "2026-10-07T18:19:21Z"
       },
       {
@@ -20223,37 +20203,6 @@
         "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
-        "number": 2477,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-        "url": "https://github.com/openshift/oadp-operator/pull/2477",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 29,
-        "updatedAt": "2026-10-21T21:06:02Z"
-      },
-      {
         "number": 107,
         "repo": "migtools/kubevirt-velero-plugin",
         "org": "migtools",
@@ -20281,7 +20230,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-10-22T18:35:44Z"
       },
       {
@@ -20312,7 +20261,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-10-22T18:36:08Z"
       },
       {
@@ -20343,8 +20292,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 28,
+        "waitingDays": 29,
         "updatedAt": "2026-10-22T18:33:34Z"
+      },
+      {
+        "number": 2477,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+        "url": "https://github.com/openshift/oadp-operator/pull/2477",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 29,
+        "updatedAt": "2026-10-21T21:06:02Z"
       },
       {
         "number": 2513,
