@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:07:49Z",
+  "updatedAt": "2026-11-20T18:12:03Z",
   "prs": [
     {
       "number": 5,
@@ -15817,7 +15817,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-20T17:06:57Z",
+      "updatedAt": "2026-11-20T18:11:51Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -15825,36 +15825,36 @@
           "conclusion": "CANCELLED"
         },
         {
+          "name": "Analyze (go)",
+          "conclusion": ""
+        },
+        {
+          "name": "test (stable, scripts/hosted-only-go)",
+          "conclusion": ""
+        },
+        {
+          "name": "validate-shell-files",
+          "conclusion": ""
+        },
+        {
           "name": "review",
           "conclusion": ""
         },
         {
-          "name": "Analyze (go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "test (stable, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "validate-shell-files",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "Analyze (python)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "test (stable, scripts/claude-provider-go)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "Analyze (javascript)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "test (1.21, scripts/hosted-only-go)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "test (1.21, scripts/claude-provider-go)",
@@ -15866,7 +15866,7 @@
         },
         {
           "name": "verify (fedora)",
-          "conclusion": "SUCCESS"
+          "conclusion": ""
         },
         {
           "name": "verify (macos)",
@@ -15874,10 +15874,6 @@
         },
         {
           "name": "verify (macos)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeQL",
           "conclusion": "SUCCESS"
         },
         {
@@ -17265,7 +17261,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-20T17:07:49Z",
+    "updatedAt": "2026-11-20T18:12:03Z",
     "needsReview": [
       {
         "number": 68,
@@ -17526,7 +17522,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 133,
+        "waitingDays": 134,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -17708,7 +17704,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17723,6 +17719,37 @@
         "reason": "hold",
         "waitingDays": 100,
         "updatedAt": "2026-08-11T20:28:19Z"
+      },
+      {
+        "number": 7941,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Use predicate in finalizer controllers to only process update events.",
+        "url": "https://github.com/velero-io/velero/pull/7941",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "kind/changelog-not-required"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "shubham-pampattiwar",
+          "ywk253100"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 85,
+        "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
         "number": 8793,
@@ -17754,37 +17781,6 @@
         "reason": "awaitingReview",
         "waitingDays": 85,
         "updatedAt": "2026-08-27T17:10:02Z"
-      },
-      {
-        "number": 7941,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Use predicate in finalizer controllers to only process update events.",
-        "url": "https://github.com/velero-io/velero/pull/7941",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "kind/changelog-not-required"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "ywk253100"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 84,
-        "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
         "number": 8862,
@@ -17994,7 +17990,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 58,
+        "waitingDays": 59,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -18235,6 +18231,30 @@
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
+        "number": 106,
+        "repo": "migtools/kubevirt-velero-plugin",
+        "org": "migtools",
+        "title": "Sync OWNERS_ALIASES with main",
+        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 29,
+        "updatedAt": "2026-10-22T17:29:19Z"
+      },
+      {
         "number": 10032,
         "repo": "openshift/installer",
         "org": "openshift",
@@ -18295,30 +18315,6 @@
         "reason": "hold",
         "waitingDays": 29,
         "updatedAt": "2026-10-21T21:30:24Z"
-      },
-      {
-        "number": 106,
-        "repo": "migtools/kubevirt-velero-plugin",
-        "org": "migtools",
-        "title": "Sync OWNERS_ALIASES with main",
-        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 28,
-        "updatedAt": "2026-10-22T17:29:19Z"
       },
       {
         "number": 250,
@@ -18412,6 +18408,33 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
+        "number": 2520,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "tests: add Eventually guards before bare Consistently calls",
+        "url": "https://github.com/openshift/oadp-operator/pull/2520",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 23,
+        "updatedAt": "2026-10-28T17:48:56Z"
+      },
+      {
         "number": 6479,
         "repo": "kubernetes/enhancements",
         "org": "kubernetes",
@@ -18472,33 +18495,6 @@
         "reason": "awaitingReview",
         "waitingDays": 22,
         "updatedAt": "2026-10-28T20:14:37Z"
-      },
-      {
-        "number": 2520,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "tests: add Eventually guards before bare Consistently calls",
-        "url": "https://github.com/openshift/oadp-operator/pull/2520",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 22,
-        "updatedAt": "2026-10-28T17:48:56Z"
       },
       {
         "number": 2521,
@@ -18904,6 +18900,30 @@
         "reason": "awaitingReview",
         "waitingDays": 10,
         "updatedAt": "2026-11-10T05:29:15Z"
+      },
+      {
+        "number": 375,
+        "repo": "socktainer/socktainer",
+        "org": "socktainer",
+        "title": "feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support",
+        "url": "https://github.com/socktainer/socktainer/pull/375",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "CHANGES_REQUESTED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 10,
+        "updatedAt": "2026-11-09T22:22:24Z"
       },
       {
         "number": 10798,
@@ -19408,30 +19428,6 @@
         "reason": "awaitingReview",
         "waitingDays": 1,
         "updatedAt": "2026-11-19T13:53:12Z"
-      },
-      {
-        "number": 1187,
-        "repo": "n8n-io/nod",
-        "org": "n8n-io",
-        "title": "feat: run the local setup with Podman instead of Docker",
-        "url": "https://github.com/n8n-io/nod/pull/1187",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-19T11:43:38Z"
       },
       {
         "number": 82734,
@@ -20036,7 +20032,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -20659,7 +20655,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 15,
+        "waitingDays": 16,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
