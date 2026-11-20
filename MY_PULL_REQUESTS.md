@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-20 06:09:46 UTC
+> Last updated: 2026-11-20 12:15:10 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -19,12 +19,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
-- [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/321) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
-- [![PR #323](https://img.shields.io/badge/PR%20%23323-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/323) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Fix SSE-C signed URLs (cherry-pick #280)
-- [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/324) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
-- [![PR #325](https://img.shields.io/badge/PR%20%23325-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/325) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)
 - [![PR #5](https://img.shields.io/badge/PR%20%235-ready-green)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Velero CNCF incubation security and engineering materials
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-ready-green)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815)
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
@@ -43,7 +39,11 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #269](https://img.shields.io/badge/PR%20%23269-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/269) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/320) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
+- [![PR #321](https://img.shields.io/badge/PR%20%23321-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/321) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
 - [![PR #322](https://img.shields.io/badge/PR%20%23322-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/322) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)
+- [![PR #323](https://img.shields.io/badge/PR%20%23323-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/323) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Fix SSE-C signed URLs (cherry-pick #280)
+- [![PR #324](https://img.shields.io/badge/PR%20%23324-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/324) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)
+- [![PR #325](https://img.shields.io/badge/PR%20%23325-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/325) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] fix: allow valid S3 object tag values (cherry-pick #294)
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
 - [![PR #7941](https://img.shields.io/badge/PR%20%237941-stale-yellow)](https://github.com/velero-io/velero/pull/7941) **velero-io/velero** → `main` - Use predicate in finalizer controllers to only process update events.
