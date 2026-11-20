@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-22 — 2026-11-20
-> **Generated:** 2026-11-20 15:09:26 UTC
+> **Generated:** 2026-11-20 16:09:32 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -135,6 +135,7 @@
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 
 **Other** (94)
+- [#663 perf(enmaas): reliability hardening for the Go proxy and :4146 controller](https://github.com/kaovilai/dotfiles/pull/663) — kaovilai/dotfiles
 - [#1 Add measured tester data, PPS/taper models, multi-port allocation, static viewer](https://github.com/kaovilai/charge-arsenal/pull/1) — kaovilai/charge-arsenal
 - [#241 chore: single grouped dependabot PR incl. security + recompile gh-aw locks](https://github.com/kaovilai/kaovilai.pw/pull/241) — kaovilai/kaovilai.pw
 - [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
@@ -228,7 +229,6 @@
 - [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
 - [#26 feat(containers): docker commit / podman commit via import pipeline](https://github.com/kaovilai/podm/pull/26) — kaovilai/podm
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
-- [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
 ## PRs Reviewed (32)
 
 **velero-io** (18)
