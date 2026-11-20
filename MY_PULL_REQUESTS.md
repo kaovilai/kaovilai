@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-20 15:10:02 UTC
+> Last updated: 2026-11-20 16:10:32 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -179,6 +179,7 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #663](https://img.shields.io/badge/PR%20%23663-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/663) **kaovilai/dotfiles** → `main` - perf(enmaas): reliability hardening for the Go proxy and :4146 controller
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #219](https://img.shields.io/badge/PR%20%23219-draft-gray)](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
