@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-22 — 2026-11-20
-> **Generated:** 2026-11-20 06:18:37 UTC
+> **Generated:** 2026-11-20 12:13:42 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 32 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 91 |
+| Issues Closed | 92 |
 
 ---
 
@@ -33,6 +33,7 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (89)
+- [#1 Add measured tester data, PPS/taper models, multi-port allocation, static viewer](https://github.com/kaovilai/charge-arsenal/pull/1) — kaovilai/charge-arsenal
 - [#241 chore: single grouped dependabot PR incl. security + recompile gh-aw locks](https://github.com/kaovilai/kaovilai.pw/pull/241) — kaovilai/kaovilai.pw
 - [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#662 Remove context-mode daemon sync from fleet-sync](https://github.com/kaovilai/dotfiles/pull/662) — kaovilai/dotfiles
@@ -121,7 +122,6 @@
 - [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
-- [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 ## PRs Opened (100)
 
 **velero-io** (2)
@@ -135,6 +135,7 @@
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
 
 **Other** (94)
+- [#1 Add measured tester data, PPS/taper models, multi-port allocation, static viewer](https://github.com/kaovilai/charge-arsenal/pull/1) — kaovilai/charge-arsenal
 - [#241 chore: single grouped dependabot PR incl. security + recompile gh-aw locks](https://github.com/kaovilai/kaovilai.pw/pull/241) — kaovilai/kaovilai.pw
 - [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
@@ -228,12 +229,11 @@
 - [#26 feat(containers): docker commit / podman commit via import pipeline](https://github.com/kaovilai/podm/pull/26) — kaovilai/podm
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
 - [#207 feat(checks): keep overridden CI jobs easy to retest](https://github.com/kaovilai/github-bot-command-palette/pull/207) — kaovilai/github-bot-command-palette
-- [#24 feat(containers): docker diff / podman diff via ext4 tree walk](https://github.com/kaovilai/podm/pull/24) — kaovilai/podm
 ## PRs Reviewed (32)
 
 **velero-io** (18)
-- [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
+- [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
@@ -377,7 +377,7 @@
 - [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
-## Issues Closed (91)
+## Issues Closed (92)
 
 **velero-io** (23)
 - [#10723 Regression: file system data mover leaks volume snapshots under a Retain VolumeSnapshotClass](https://github.com/velero-io/velero/issues/10723) — velero-io/velero
@@ -423,7 +423,8 @@
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 - [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
 
-**Other** (53)
+**Other** (54)
+- [#366 Switching tabs in a streamed window (native tab groups: Ghostty, Safari, Chrome) freezes or drops the stream](https://github.com/Saffsanity/sill/issues/366) — Saffsanity/sill
 - [#32355 [Bug]: message timestamps keep a stale time zone after the system time zone changes](https://github.com/pingdotgg/t3code/issues/32355) — pingdotgg/t3code
 - [#31579 [Bug]: Model picker paints blank rows and skips their jump shortcuts](https://github.com/pingdotgg/t3code/issues/31579) — pingdotgg/t3code
 - [#5342 baseRelDir cannot be set to false in new netlify sites or change to true from older sites](https://github.com/netlify/build/issues/5342) — netlify/build
