@@ -3,7 +3,7 @@
     "start": "2026-08-22",
     "end": "2026-11-20"
   },
-  "generatedAt": "2026-11-20T00:27:09Z",
+  "generatedAt": "2026-11-20T06:18:37Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,24 @@
     "issuesClosed": 91
   },
   "prsMerged": [
+    {
+      "number": 241,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "chore: single grouped dependabot PR incl. security + recompile gh-aw locks",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/241",
+      "date": "2026-11-20T05:07:13Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 326,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326",
+      "date": "2026-11-20T04:26:03Z",
+      "workstream": "Velero"
+    },
     {
       "number": 220,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -893,27 +911,18 @@
       "url": "https://github.com/kaovilai/podm/pull/24",
       "date": "2026-11-10T12:48:44Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10426,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10426",
-      "date": "2026-11-10T11:21:12Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10425,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)",
-      "url": "https://github.com/velero-io/velero/pull/10425",
-      "date": "2026-11-10T11:19:51Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 241,
+      "repo": "kaovilai/kaovilai.pw",
+      "org": "kaovilai",
+      "title": "chore: single grouped dependabot PR incl. security + recompile gh-aw locks",
+      "url": "https://github.com/kaovilai/kaovilai.pw/pull/241",
+      "date": "2026-11-20T04:53:56Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10856,
       "repo": "velero-io/velero",
@@ -1804,18 +1813,27 @@
       "url": "https://github.com/kaovilai/podm/pull/24",
       "date": "2026-11-10T10:41:17Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2545,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix: retry AWS bucket region discovery on transient S3 errors",
-      "url": "https://github.com/openshift/oadp-operator/pull/2545",
-      "date": "2026-11-10T10:23:12Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10677,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Modern backup format design",
+      "url": "https://github.com/velero-io/velero/pull/10677",
+      "date": "2026-11-20T05:55:45Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 200,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "Bump the go-security group across 1 directory with 2 updates",
+      "url": "https://github.com/migtools/udistribution/pull/200",
+      "date": "2026-11-20T01:33:02Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10780,
       "repo": "velero-io/velero",
@@ -1823,15 +1841,6 @@
       "title": "site: add a blog post on the CSI snapshot tests on kind",
       "url": "https://github.com/velero-io/velero/pull/10780",
       "date": "2026-11-19T20:18:29Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10677,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Modern backup format design",
-      "url": "https://github.com/velero-io/velero/pull/10677",
-      "date": "2026-11-19T09:59:48Z",
       "workstream": "Velero"
     },
     {
@@ -2031,15 +2040,6 @@
       "url": "https://github.com/velero-io/velero/pull/10670",
       "date": "2026-11-13T12:52:38Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 200,
-      "repo": "migtools/udistribution",
-      "org": "migtools",
-      "title": "Bump the go-security group across 1 directory with 2 updates",
-      "url": "https://github.com/migtools/udistribution/pull/200",
-      "date": "2026-11-13T01:33:13Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 10667,

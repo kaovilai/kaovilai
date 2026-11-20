@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-22 — 2026-11-20
-> **Generated:** 2026-11-20 00:27:09 UTC
+> **Generated:** 2026-11-20 06:18:37 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -15,13 +15,12 @@
 
 ## PRs Merged (100)
 
-**velero-io** (6)
+**velero-io** (5)
+- [#326 [release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326) — velero-io/velero-plugin-for-microsoft-azure
 - [#10718 docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance](https://github.com/velero-io/velero/pull/10718) — velero-io/velero
 - [#327 [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) — velero-io/velero-plugin-for-microsoft-azure
 - [#325 [release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325) — velero-io/velero-plugin-for-microsoft-azure
 - [#318 Fix Auto Request Review workflow: bump action version and pass token](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318) — velero-io/velero-plugin-for-microsoft-azure
-- [#10426 [release-1.18] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10426) — velero-io/velero
-- [#10425 [release-1.17] Skip upstream-only workflows on forks (cherry-pick #10001)](https://github.com/velero-io/velero/pull/10425) — velero-io/velero
 
 **openshift** (5)
 - [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
@@ -33,7 +32,8 @@
 **migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (88)
+**Other** (89)
+- [#241 chore: single grouped dependabot PR incl. security + recompile gh-aw locks](https://github.com/kaovilai/kaovilai.pw/pull/241) — kaovilai/kaovilai.pw
 - [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#662 Remove context-mode daemon sync from fleet-sync](https://github.com/kaovilai/dotfiles/pull/662) — kaovilai/dotfiles
 - [#92 Correct Popeyes' amputation: front right, shoulder stump visible](https://github.com/kaovilai/kaovilai/pull/92) — kaovilai/kaovilai
@@ -128,14 +128,14 @@
 - [#10856 Document the node-agent label required for File System Backup since v1.16](https://github.com/velero-io/velero/pull/10856) — velero-io/velero
 - [#10850 Design: block data mover base snapshot retention](https://github.com/velero-io/velero/pull/10850) — velero-io/velero
 
-**openshift** (5)
+**openshift** (4)
 - [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
 - [#2551 e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22](https://github.com/openshift/oadp-operator/pull/2551) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 - [#2546 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type](https://github.com/openshift/oadp-operator/pull/2546) — openshift/oadp-operator
-- [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
 
-**Other** (93)
+**Other** (94)
+- [#241 chore: single grouped dependabot PR incl. security + recompile gh-aw locks](https://github.com/kaovilai/kaovilai.pw/pull/241) — kaovilai/kaovilai.pw
 - [#220 Show dry-run status and run parameters in Auto Rebase workflow](https://github.com/oadp-rebasebot/oadp-rebase/pull/220) — oadp-rebasebot/oadp-rebase
 - [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
 - [#1187 feat: run the local setup with Podman instead of Docker](https://github.com/n8n-io/nod/pull/1187) — n8n-io/nod
@@ -232,8 +232,8 @@
 ## PRs Reviewed (32)
 
 **velero-io** (18)
-- [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
+- [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
@@ -262,11 +262,11 @@
 - [#2540 [oadp-1.6] fix(e2e): read VMB backup type from status.includedVolumes[].type](https://github.com/openshift/oadp-operator/pull/2540) — openshift/oadp-operator
 
 **migtools** (5)
+- [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
 - [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
 - [#261 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-controller/pull/261) — migtools/kubevirt-datamover-controller
 - [#77 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-plugin/pull/77) — migtools/kubevirt-datamover-plugin
-- [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 
 **Other** (1)
 - [#34998 fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away](https://github.com/pingdotgg/t3code/pull/34998) — pingdotgg/t3code
