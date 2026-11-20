@@ -3,11 +3,11 @@
     "start": "2026-08-22",
     "end": "2026-11-20"
   },
-  "generatedAt": "2026-11-20T18:11:32Z",
+  "generatedAt": "2026-11-20T19:07:35Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 32,
+    "prsReviewed": 33,
     "issuesCommented": 100,
     "issuesClosed": 92
   },
@@ -1817,12 +1817,30 @@
   ],
   "prsReviewed": [
     {
+      "number": 10821,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the VolumeGroupSnapshot case",
+      "url": "https://github.com/velero-io/velero/pull/10821",
+      "date": "2026-11-20T19:00:21Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10677,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Modern backup format design",
       "url": "https://github.com/velero-io/velero/pull/10677",
-      "date": "2026-11-20T18:02:23Z",
+      "date": "2026-11-20T18:46:16Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10853,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove the useless cases for retained PV",
+      "url": "https://github.com/velero-io/velero/pull/10853",
+      "date": "2026-11-20T18:16:07Z",
       "workstream": "Velero"
     },
     {
@@ -1850,15 +1868,6 @@
       "title": "print load affinity value not address",
       "url": "https://github.com/velero-io/velero/pull/10827",
       "date": "2026-11-18T19:28:45Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10821,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: verify the restore in the VolumeGroupSnapshot case",
-      "url": "https://github.com/velero-io/velero/pull/10821",
-      "date": "2026-11-18T19:26:04Z",
       "workstream": "Velero"
     },
     {
@@ -2106,6 +2115,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 2252,
+      "repo": "storytold/craft-anything",
+      "org": "storytold",
+      "title": "Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run",
+      "url": "https://github.com/storytold/craft-anything/issues/2252",
+      "date": "2026-11-20T19:06:22Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2996,15 +3014,6 @@
       "url": "https://github.com/openshift/ci-docs/issues/597",
       "date": "2026-10-14T00:05:00Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10266,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "docs: how to run CSI e2e specs against a local Kind cluster",
-      "url": "https://github.com/velero-io/velero/issues/10266",
-      "date": "2026-10-13T16:53:45Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [

@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-22 — 2026-11-20
-> **Generated:** 2026-11-20 18:11:32 UTC
+> **Generated:** 2026-11-20 19:07:35 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 32 |
+| PRs Reviewed | 33 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 92 |
 
@@ -229,13 +229,14 @@
 - [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
 - [#26 feat(containers): docker commit / podman commit via import pipeline](https://github.com/kaovilai/podm/pull/26) — kaovilai/podm
 - [#10 claude-code plugin: connect the MCP entry to the shared daemon over HTTP](https://github.com/kaovilai/context-mode/pull/10) — kaovilai/context-mode
-## PRs Reviewed (32)
+## PRs Reviewed (33)
 
-**velero-io** (18)
+**velero-io** (19)
+- [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
+- [#10853 Remove the useless cases for retained PV](https://github.com/velero-io/velero/pull/10853) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
-- [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
@@ -272,7 +273,7 @@
 - [#34998 fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away](https://github.com/pingdotgg/t3code/pull/34998) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (49)
+**velero-io** (48)
 - [#10544 CRD schema check: self-resolution for `strict` mode failures (`/readyz` instead of crash-loop)](https://github.com/velero-io/velero/issues/10544) — velero-io/velero
 - [#8668 Download Links for S3 Bucket content are broken when using SSE-C encryption](https://github.com/velero-io/velero/issues/8668) — velero-io/velero
 - [#10437 `velero server`'s shutdown grace period is hardcoded to 30s, ignoring `terminationGracePeriodSeconds`](https://github.com/velero-io/velero/issues/10437) — velero-io/velero
@@ -321,14 +322,14 @@
 - [#10092 Deprecate the block volume backup/restore functionality through Kopia file system uploader](https://github.com/velero-io/velero/issues/10092) — velero-io/velero
 - [#10627 Allow Multiple Key Properties](https://github.com/velero-io/velero/issues/10627) — velero-io/velero
 - [#9109 Add comprehensive make target for E2E testing with MinIO setup and fresh builds](https://github.com/velero-io/velero/issues/9109) — velero-io/velero
-- [#10266 docs: how to run CSI e2e specs against a local Kind cluster](https://github.com/velero-io/velero/issues/10266) — velero-io/velero
 
 **openshift** (3)
 - [#439 Image stream backup: Azure Workload Identity (WIF) not supported in registry env var wiring](https://github.com/openshift/openshift-velero-plugin/issues/439) — openshift/openshift-velero-plugin
 - [#10584 GCP destroy: instance group deletion fails due to dependency ordering with backend services](https://github.com/openshift/installer/issues/10584) — openshift/installer
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
-**Other** (48)
+**Other** (49)
+- [#2252 Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run](https://github.com/storytold/craft-anything/issues/2252) — storytold/craft-anything
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
 - [#36873 Bug: AI Assistant "Connect a model" fails with "The service returned an unexpected response" on custom OpenAI-compatible Base URLs](https://github.com/n8n-io/n8n/issues/36873) — n8n-io/n8n
