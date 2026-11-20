@@ -3,11 +3,11 @@
     "start": "2026-08-22",
     "end": "2026-11-20"
   },
-  "generatedAt": "2026-11-20T20:09:14Z",
+  "generatedAt": "2026-11-20T21:08:07Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 34,
+    "prsReviewed": 33,
     "issuesCommented": 100,
     "issuesClosed": 92
   },
@@ -915,6 +915,24 @@
   ],
   "prsOpened": [
     {
+      "number": 2255,
+      "repo": "storytold/craft-anything",
+      "org": "storytold",
+      "title": "Show a model change as pending in Settings while its save waits",
+      "url": "https://github.com/storytold/craft-anything/pull/2255",
+      "date": "2026-11-20T20:12:17Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2254,
+      "repo": "storytold/craft-anything",
+      "org": "storytold",
+      "title": "Say `rustup default stable` when rustup is on the computer without a toolchain (R2.9)",
+      "url": "https://github.com/storytold/craft-anything/pull/2254",
+      "date": "2026-11-20T20:11:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 663,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -1795,24 +1813,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2547",
       "date": "2026-11-10T12:13:31Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 2546,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2546",
-      "date": "2026-11-10T12:13:03Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "claude-code plugin: connect the MCP entry to the shared daemon over HTTP",
-      "url": "https://github.com/kaovilai/context-mode/pull/10",
-      "date": "2026-11-10T11:31:55Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -2112,15 +2112,6 @@
       "url": "https://github.com/openshift/oadp-operator/pull/2540",
       "date": "2026-11-11T19:01:27Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 10687,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Count backup/restore failures in metrics during startup cleanup",
-      "url": "https://github.com/velero-io/velero/pull/10687",
-      "date": "2026-11-11T15:09:12Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
