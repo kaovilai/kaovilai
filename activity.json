@@ -3,15 +3,24 @@
     "start": "2026-08-22",
     "end": "2026-11-20"
   },
-  "generatedAt": "2026-11-20T19:07:35Z",
+  "generatedAt": "2026-11-20T20:09:14Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 33,
+    "prsReviewed": 34,
     "issuesCommented": 100,
     "issuesClosed": 92
   },
   "prsMerged": [
+    {
+      "number": 663,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "perf(enmaas): reliability hardening for the Go proxy and :4146 controller",
+      "url": "https://github.com/kaovilai/dotfiles/pull/663",
+      "date": "2026-11-20T19:47:44Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 1,
       "repo": "kaovilai/charge-arsenal",
@@ -901,15 +910,6 @@
       "title": "claude-code plugin: connect the MCP entry to the shared daemon over HTTP",
       "url": "https://github.com/kaovilai/context-mode/pull/10",
       "date": "2026-11-10T15:15:38Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 207,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "feat(checks): keep overridden CI jobs easy to retest",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/207",
-      "date": "2026-11-10T14:53:48Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 10861,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Revert \"e2e: verify the restore in the VolumeGroupSnapshot case\"",
+      "url": "https://github.com/velero-io/velero/pull/10861",
+      "date": "2026-11-20T19:27:54Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10821,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2121,7 +2130,7 @@
       "org": "storytold",
       "title": "Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run",
       "url": "https://github.com/storytold/craft-anything/issues/2252",
-      "date": "2026-11-20T19:06:22Z",
+      "date": "2026-11-20T19:07:52Z",
       "workstream": "Uncategorized"
     },
     {
