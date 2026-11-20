@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-21 — 2026-11-19
-> **Generated:** 2026-11-19 23:09:02 UTC
+> **Period:** 2026-08-22 — 2026-11-20
+> **Generated:** 2026-11-20 00:27:09 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 32 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 93 |
+| Issues Closed | 91 |
 
 ---
 
@@ -377,7 +377,7 @@
 - [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
-## Issues Closed (93)
+## Issues Closed (91)
 
 **velero-io** (23)
 - [#10723 Regression: file system data mover leaks volume snapshots under a Retain VolumeSnapshotClass](https://github.com/velero-io/velero/issues/10723) — velero-io/velero
@@ -404,7 +404,7 @@
 - [#10297 A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields](https://github.com/velero-io/velero/issues/10297) — velero-io/velero
 - [#10020 E2E CI flake: "kind-action" curl connection reset during kind install](https://github.com/velero-io/velero/issues/10020) — velero-io/velero
 
-**openshift** (14)
+**openshift** (13)
 - [#2249 Makefile container tool check only verifies binary exists, not runtime readiness](https://github.com/openshift/oadp-operator/issues/2249) — openshift/oadp-operator
 - [#2481 KubeVirt datamover controller: hardcoded 128Mi/500m resources and 1s probes too small at scale; not configurable via DPA](https://github.com/openshift/oadp-operator/issues/2481) — openshift/oadp-operator
 - [#2389 e2e: support testing a change that spans multiple unmerged OADP-ecosystem PRs at once](https://github.com/openshift/oadp-operator/issues/2389) — openshift/oadp-operator
@@ -418,12 +418,10 @@
 - [#2410 oadp-1.4: test-e2e Makefile target doesn't generate junit_report.xml](https://github.com/openshift/oadp-operator/issues/2410) — openshift/oadp-operator
 - [#2407 Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern](https://github.com/openshift/oadp-operator/issues/2407) — openshift/oadp-operator
 - [#10791 Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap](https://github.com/openshift/installer/issues/10791) — openshift/installer
-- [#2383 Evaluate and migrate user-provided credentialsFile handling for Velero #10254](https://github.com/openshift/oadp-operator/issues/2383) — openshift/oadp-operator
 
-**migtools** (3)
+**migtools** (2)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 - [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
-- [#42 Follow-up: address CodeRabbit code-quality suggestions declined during PR #41 review](https://github.com/migtools/kubevirt-datamover-plugin/issues/42) — migtools/kubevirt-datamover-plugin
 
 **Other** (53)
 - [#32355 [Bug]: message timestamps keep a stale time zone after the system time zone changes](https://github.com/pingdotgg/t3code/issues/32355) — pingdotgg/t3code
