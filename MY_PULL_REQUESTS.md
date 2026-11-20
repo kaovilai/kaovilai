@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-20 00:14:25 UTC
+> Last updated: 2026-11-20 06:09:46 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -18,7 +18,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10798](https://img.shields.io/badge/PR%20%2310798-ready-green)](https://github.com/velero-io/velero/pull/10798) **velero-io/velero** → `main` - test: add Go fuzz targets for the backup archive extractor
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
+- [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/321) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
+- [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #323](https://img.shields.io/badge/PR%20%23323-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/323) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Fix SSE-C signed URLs (cherry-pick #280)
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/324) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] fix: allow valid S3 object tag values (cherry-pick #294)
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
@@ -41,8 +43,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #269](https://img.shields.io/badge/PR%20%23269-stale-yellow)](https://github.com/velero-io/velero-plugin-for-gcp/pull/269) **velero-io/velero-plugin-for-gcp** → `release-1.13` - [release-1.13] Bump go.opentelemetry.io/otel/sdk to 1.40.0, CVE-2026-24051 (cherry-pick #250)
 - [![PR #312](https://img.shields.io/badge/PR%20%23312-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/312) **velero-io/velero-plugin-for-aws** → `main` - Add CODEOWNERS for automatic review requests
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/320) **velero-io/velero-plugin-for-aws** → `release-1.14` - [release-1.14] Add descriptive error message when SSE-C is denied on S3 buckets (cherry-pick #318)
-- [![PR #320](https://img.shields.io/badge/PR%20%23320-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
-- [![PR #321](https://img.shields.io/badge/PR%20%23321-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #322](https://img.shields.io/badge/PR%20%23322-stale-yellow)](https://github.com/velero-io/velero-plugin-for-aws/pull/322) **velero-io/velero-plugin-for-aws** → `release-1.13` - [release-1.13] Add support for specifying KMS key for EBS volume restoration (cherry-pick #276)
 - [![PR #328](https://img.shields.io/badge/PR%20%23328-stale-yellow)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/328) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Bump google.golang.org/grpc from 1.73.0 to 1.79.3 (cherry-pick #307)
 - [![PR #7344](https://img.shields.io/badge/PR%20%237344-stale-yellow)](https://github.com/velero-io/velero/pull/7344) **velero-io/velero** → `main` - Design: Velero client download APIServer
@@ -53,7 +53,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #10749](https://img.shields.io/badge/PR%20%2310749-failing--ci-red)](https://github.com/velero-io/velero/pull/10749) **velero-io/velero** → `main` - e2e: bound each Kibishii verify attempt by the poll deadline
 - [![PR #10794](https://img.shields.io/badge/PR%20%2310794-failing--ci-red)](https://github.com/velero-io/velero/pull/10794) **velero-io/velero** → `main` - Enable TLS for MinIO in the kind E2E workflow
-- [![PR #326](https://img.shields.io/badge/PR%20%23326-failing--ci-red)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-failing--ci-red)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.20**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-failing--ci-red)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 
@@ -66,6 +65,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #194](https://img.shields.io/badge/PR%20%23194-ready-green)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/194) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2272](https://img.shields.io/badge/PR%20%232272-ready-green)](https://github.com/openshift/oadp-operator/pull/2272) **openshift/oadp-operator** → `oadp-dev` - validate container runtime availability before container operations
+- [![PR #2371](https://img.shields.io/badge/PR%20%232371-ready-green)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
 - [![PR #2379](https://img.shields.io/badge/PR%20%232379-ready-green)](https://github.com/openshift/oadp-operator/pull/2379) **openshift/oadp-operator** → `oadp-1.4` - Fix ENVTESTPATH arch decided at Makefile-parse time on cold bin/
 - [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
 - [![PR #2519](https://img.shields.io/badge/PR%20%232519-ready-green)](https://github.com/openshift/oadp-operator/pull/2519) **openshift/oadp-operator** → `oadp-dev` - docs: note that nodeAgent.loadAffinity also limits File System Backup
@@ -113,7 +113,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #118214](https://img.shields.io/badge/PR%20%23118214-stale-yellow)](https://github.com/openshift/openshift-docs/pull/118214) **openshift/openshift-docs** → `main` - Replace credentialsFile with spec.credential in OADP VSL examples
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-stale-yellow)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-stale-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
-- [![PR #2371](https://img.shields.io/badge/PR%20%232371-stale-yellow)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
 - [![PR #78](https://img.shields.io/badge/PR%20%2378-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/78) **openshift/oadp-must-gather** → `oadp-1.4` - OADP-7143: update runc requirement
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #80150](https://img.shields.io/badge/PR%20%2380150-stale-yellow)](https://github.com/openshift/release/pull/80150) **openshift/release** → `main` - tide: enable github_merge_blocks_policy for repos with recent merge failures
