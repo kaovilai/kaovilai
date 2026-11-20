@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-22 — 2026-11-20
-> **Generated:** 2026-11-20 12:13:42 UTC
+> **Generated:** 2026-11-20 13:09:18 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -232,8 +232,8 @@
 ## PRs Reviewed (32)
 
 **velero-io** (18)
-- [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
+- [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
