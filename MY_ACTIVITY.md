@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-23 — 2026-11-21
-> **Generated:** 2026-11-21 00:31:50 UTC
+> **Generated:** 2026-11-21 06:18:58 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -232,8 +232,8 @@
 ## PRs Reviewed (33)
 
 **velero-io** (19)
-- [#10861 Revert "e2e: verify the restore in the VolumeGroupSnapshot case"](https://github.com/velero-io/velero/pull/10861) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
+- [#10861 Revert "e2e: verify the restore in the VolumeGroupSnapshot case"](https://github.com/velero-io/velero/pull/10861) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
 - [#10853 Remove the useless cases for retained PV](https://github.com/velero-io/velero/pull/10853) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
