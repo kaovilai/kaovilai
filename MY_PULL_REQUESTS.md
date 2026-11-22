@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-22 00:02:59 UTC
+> Last updated: 2026-11-22 06:01:09 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -87,6 +87,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
+- [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/175) **openshift/oadp-must-gather** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
@@ -111,7 +112,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #350](https://img.shields.io/badge/PR%20%23350-draft-gray)](https://github.com/openshift/openshift-velero-plugin/pull/350) **openshift/openshift-velero-plugin** → `oadp-dev` - OADP-6675: Update Azure registry configuration for workload identity support
 - [![PR #490](https://img.shields.io/badge/PR%20%23490-draft-gray)](https://github.com/openshift/velero/pull/490) **openshift/velero** → `oadp-1.4` - WIP: Fix BoostRepoConnect fallback to use PrepareRepo instead of ConnectToRepo (#8279)
 - [![PR #604](https://img.shields.io/badge/PR%20%23604-draft-gray)](https://github.com/openshift/velero/pull/604) **openshift/velero** → `oadp-1.6` - [oadp-1.6] Handle data mover and hook pods that go away during a backup
-- [![PR #166](https://img.shields.io/badge/PR%20%23166-stale-yellow)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #2308](https://img.shields.io/badge/PR%20%232308-stale-yellow)](https://github.com/openshift/oc/pull/2308) **openshift/oc** → `main` - Export pod inspect functions for external consumption
 - [![PR #78](https://img.shields.io/badge/PR%20%2378-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/78) **openshift/oadp-must-gather** → `oadp-1.4` - OADP-7143: update runc requirement
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
