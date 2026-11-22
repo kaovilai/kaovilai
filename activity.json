@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-23",
-    "end": "2026-11-21"
+    "start": "2026-08-24",
+    "end": "2026-11-22"
   },
-  "generatedAt": "2026-11-21T18:12:57Z",
+  "generatedAt": "2026-11-22T00:34:35Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 33,
+    "prsReviewed": 35,
     "issuesCommented": 100,
-    "issuesClosed": 92
+    "issuesClosed": 93
   },
   "prsMerged": [
     {
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 10869,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump actions/setup-go from 7.0.0 to 7.1.0 in the github-actions group",
+      "url": "https://github.com/velero-io/velero/pull/10869",
+      "date": "2026-11-21T19:25:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10868,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202",
+      "url": "https://github.com/velero-io/velero/pull/10868",
+      "date": "2026-11-21T19:23:26Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10821,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2115,6 +2133,15 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 26598,
+      "repo": "github/gh-aw",
+      "org": "github",
+      "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
+      "url": "https://github.com/github/gh-aw/issues/26598",
+      "date": "2026-11-21T22:15:31Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2908,15 +2935,6 @@
       "workstream": "Kubernetes"
     },
     {
-      "number": 26598,
-      "repo": "github/gh-aw",
-      "org": "github",
-      "title": "Support `strategy.matrix` on the `agent` job for parallel AI execution",
-      "url": "https://github.com/github/gh-aw/issues/26598",
-      "date": "2026-10-22T20:59:36Z",
-      "workstream": "Uncategorized"
-    },
-    {
       "number": 956,
       "repo": "SecKatie/ha-wyzeapi",
       "org": "SecKatie",
@@ -3017,6 +3035,15 @@
     }
   ],
   "issuesClosed": [
+    {
+      "number": 287,
+      "repo": "OpenPetsHQ/openpets",
+      "org": "OpenPetsHQ",
+      "title": "Feature: shared / streamable-HTTP MCP transport (or app-served loopback MCP) — one process instead of one per agent session",
+      "url": "https://github.com/OpenPetsHQ/openpets/issues/287",
+      "date": "2026-11-21T21:52:34Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 366,
       "repo": "Saffsanity/sill",

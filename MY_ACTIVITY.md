@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-08-23 — 2026-11-21
-> **Generated:** 2026-11-21 18:12:57 UTC
+> **Period:** 2026-08-24 — 2026-11-22
+> **Generated:** 2026-11-22 00:34:35 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 33 |
+| PRs Reviewed | 35 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 92 |
+| Issues Closed | 93 |
 
 ---
 
@@ -229,9 +229,11 @@
 - [#27 feat(libpod): podman local secrets — create/ls/inspect/exists/rm](https://github.com/kaovilai/podm/pull/27) — kaovilai/podm
 - [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
 - [#26 feat(containers): docker commit / podman commit via import pipeline](https://github.com/kaovilai/podm/pull/26) — kaovilai/podm
-## PRs Reviewed (33)
+## PRs Reviewed (35)
 
-**velero-io** (19)
+**velero-io** (21)
+- [#10869 build(deps): bump actions/setup-go from 7.0.0 to 7.1.0 in the github-actions group](https://github.com/velero-io/velero/pull/10869) — velero-io/velero
+- [#10868 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202](https://github.com/velero-io/velero/pull/10868) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
 - [#10861 Revert "e2e: verify the restore in the VolumeGroupSnapshot case"](https://github.com/velero-io/velero/pull/10861) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
@@ -329,6 +331,7 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (49)
+- [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#2252 Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run](https://github.com/storytold/craft-anything/issues/2252) — storytold/craft-anything
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
@@ -369,7 +372,6 @@
 - [#4673 v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673) — kubevirt/hyperconverged-cluster-operator
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
 - [#1419 `kubectl explain -o md`](https://github.com/kubernetes/kubectl/issues/1419) — kubernetes/kubectl
-- [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#502 Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering](https://github.com/kubernetes-sigs/prow/issues/502) — kubernetes-sigs/prow
 - [#17508 [Bug]: Antigravity Google sign-in hides the real failure reason (ineligible account, rejected redirect URL)](https://github.com/pingdotgg/t3code/issues/17508) — pingdotgg/t3code
@@ -378,7 +380,7 @@
 - [#245 Package errors looking for new maintainers](https://github.com/pkg/errors/issues/245) — pkg/errors
 - [#438 Add regex support for branch matching in Tide status controller](https://github.com/kubernetes-sigs/prow/issues/438) — kubernetes-sigs/prow
 - [#3314 CSI Differential Snapshot for Block Volumes](https://github.com/kubernetes/enhancements/issues/3314) — kubernetes/enhancements
-## Issues Closed (92)
+## Issues Closed (93)
 
 **velero-io** (23)
 - [#10723 Regression: file system data mover leaks volume snapshots under a Retain VolumeSnapshotClass](https://github.com/velero-io/velero/issues/10723) — velero-io/velero
@@ -424,7 +426,8 @@
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 - [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
 
-**Other** (54)
+**Other** (55)
+- [#287 Feature: shared / streamable-HTTP MCP transport (or app-served loopback MCP) — one process instead of one per agent session](https://github.com/OpenPetsHQ/openpets/issues/287) — OpenPetsHQ/openpets
 - [#366 Switching tabs in a streamed window (native tab groups: Ghostty, Safari, Chrome) freezes or drops the stream](https://github.com/Saffsanity/sill/issues/366) — Saffsanity/sill
 - [#32355 [Bug]: message timestamps keep a stale time zone after the system time zone changes](https://github.com/pingdotgg/t3code/issues/32355) — pingdotgg/t3code
 - [#31579 [Bug]: Model picker paints blank rows and skips their jump shortcuts](https://github.com/pingdotgg/t3code/issues/31579) — pingdotgg/t3code
