@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-24 — 2026-11-22
-> **Generated:** 2026-11-22 00:34:35 UTC
+> **Generated:** 2026-11-22 06:19:32 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 35 |
+| PRs Reviewed | 36 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 93 |
 
@@ -229,7 +229,7 @@
 - [#27 feat(libpod): podman local secrets — create/ls/inspect/exists/rm](https://github.com/kaovilai/podm/pull/27) — kaovilai/podm
 - [#210 fix(failure-log): always show Claude analysis alongside matched error lines](https://github.com/kaovilai/github-bot-command-palette/pull/210) — kaovilai/github-bot-command-palette
 - [#26 feat(containers): docker commit / podman commit via import pipeline](https://github.com/kaovilai/podm/pull/26) — kaovilai/podm
-## PRs Reviewed (35)
+## PRs Reviewed (36)
 
 **velero-io** (21)
 - [#10869 build(deps): bump actions/setup-go from 7.0.0 to 7.1.0 in the github-actions group](https://github.com/velero-io/velero/pull/10869) — velero-io/velero
@@ -254,7 +254,8 @@
 - [#10667 Issue #10648: Retry transient errors when starting a backup or restore](https://github.com/velero-io/velero/pull/10667) — velero-io/velero
 - [#10796 Add a velero_backup_active metric](https://github.com/velero-io/velero/pull/10796) — velero-io/velero
 
-**openshift** (8)
+**openshift** (9)
+- [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) — openshift/velero-plugin-for-microsoft-azure
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
 - [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
@@ -331,6 +332,7 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 
 **Other** (49)
+- [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#2252 Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run](https://github.com/storytold/craft-anything/issues/2252) — storytold/craft-anything
@@ -372,7 +374,6 @@
 - [#4673 v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673) — kubevirt/hyperconverged-cluster-operator
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
 - [#1419 `kubectl explain -o md`](https://github.com/kubernetes/kubectl/issues/1419) — kubernetes/kubectl
-- [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#502 Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering](https://github.com/kubernetes-sigs/prow/issues/502) — kubernetes-sigs/prow
 - [#17508 [Bug]: Antigravity Google sign-in hides the real failure reason (ineligible account, rejected redirect URL)](https://github.com/pingdotgg/t3code/issues/17508) — pingdotgg/t3code
 - [#134 `tide` not honoring multiple reviewer branch protection](https://github.com/kubernetes-sigs/prow/issues/134) — kubernetes-sigs/prow
