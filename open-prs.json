@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T14:11:33Z",
+  "updatedAt": "2026-11-23T15:10:44Z",
   "prs": [
     {
       "number": 5,
@@ -14810,6 +14810,41 @@
       ]
     },
     {
+      "number": 219,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/219",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-23T14:17:08Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "make test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ShellCheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Kopia version alignment",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 38407,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -15189,41 +15224,6 @@
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 219,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/219",
-      "targetBranch": "oadp-dev",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-23T14:09:57Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "make test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ShellCheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Kopia version alignment",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": ""
         }
       ]
     },
@@ -16575,7 +16575,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-23T14:11:33Z",
+    "updatedAt": "2026-11-23T15:10:44Z",
     "needsReview": [
       {
         "number": 68,
@@ -16721,7 +16721,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 255,
+        "waitingDays": 256,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -16976,7 +16976,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 111,
+        "waitingDays": 112,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -17018,7 +17018,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18941,7 +18941,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T14:09:57Z"
+        "updatedAt": "2026-11-23T14:17:08Z"
       },
       {
         "number": 80,
@@ -19136,7 +19136,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 109,
+        "waitingDays": 110,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -19536,7 +19536,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 54,
+        "waitingDays": 55,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
@@ -20338,7 +20338,7 @@
           "size:M",
           "takeover:blocked"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
