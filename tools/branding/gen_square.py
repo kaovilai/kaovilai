@@ -41,7 +41,7 @@ def waves():
     return '\n'.join(rows)
 
 
-def main():
+def build(phase=0.0, angle=0.0):
     avatar = base64.b64encode(open('assets/avatar/kaovilai.jpg', 'rb').read()).decode()
     glyph = ring_glyph_paths()
     half = RING_BOX / 2
@@ -56,10 +56,10 @@ def main():
   </defs>
 
   <rect width="{S}" height="{S}" fill="url(#bg)"/>
-  <rect width="{S}" height="{S}" fill="url(#wv)" opacity=".85"/>
+  <g transform="translate({phase:.2f},0)"><rect x="-360" y="0" width="1800" height="{S}" fill="url(#wv)" opacity=".85"/></g>
 
   <!-- openShift ring, hole-centred on the face -->
-  <svg viewBox="5.98 6.08 26 26" x="{CX - half:.0f}" y="{CY - half:.0f}" width="{RING_BOX}" height="{RING_BOX}">{glyph}</svg>
+  <g transform="rotate({angle:.3f} {CX} {CY})"><svg viewBox="5.98 6.08 26 26" x="{CX - half:.0f}" y="{CY - half:.0f}" width="{RING_BOX}" height="{RING_BOX}">{glyph}</svg></g>
 
   <!-- face -->
   <circle cx="{CX}" cy="{CY}" r="{FACE_R * 1.045:.1f}" fill="#0a2233" stroke="{CYAN}" stroke-width="6"/>
@@ -67,6 +67,11 @@ def main():
          width="{2 * FACE_R}" height="{2 * FACE_R}" clip-path="url(#face)"/>
   <circle cx="{CX}" cy="{CY}" r="{FACE_R}" fill="none" stroke="#ffffff" stroke-opacity=".8" stroke-width="5"/>
 </svg>'''
+    return svg
+
+
+def main():
+    svg = build()
     open('profile-square.svg', 'w').write(svg)
     print('profile-square.svg', len(svg), 'bytes')
 
