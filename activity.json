@@ -1,15 +1,15 @@
 {
   "period": {
-    "start": "2026-08-24",
-    "end": "2026-11-22"
+    "start": "2026-08-25",
+    "end": "2026-11-23"
   },
-  "generatedAt": "2026-11-22T18:13:21Z",
+  "generatedAt": "2026-11-23T00:31:47Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 36,
+    "prsReviewed": 35,
     "issuesCommented": 100,
-    "issuesClosed": 93
+    "issuesClosed": 90
   },
   "prsMerged": [
     {
@@ -915,6 +915,33 @@
   ],
   "prsOpened": [
     {
+      "number": 10877,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Block data mover: retain the base snapshot for CBT storage and delete it on backup deletion",
+      "url": "https://github.com/velero-io/velero/pull/10877",
+      "date": "2026-11-22T19:32:24Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 66,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "cve-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/kopia/pull/66",
+      "date": "2026-11-22T18:47:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 89243,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP: tide query for rebasebot-app PRs (cve-bot label)",
+      "url": "https://github.com/openshift/release/pull/89243",
+      "date": "2026-11-22T18:43:40Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 2255,
       "repo": "storytold/craft-anything",
       "org": "storytold",
@@ -1786,36 +1813,18 @@
       "url": "https://github.com/kaovilai/podm/pull/27",
       "date": "2026-11-10T17:15:37Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 210,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(failure-log): always show Claude analysis alongside matched error lines",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/210",
-      "date": "2026-11-10T15:14:06Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 26,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(containers): docker commit / podman commit via import pipeline",
-      "url": "https://github.com/kaovilai/podm/pull/26",
-      "date": "2026-11-10T12:49:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 2547,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]",
-      "url": "https://github.com/openshift/oadp-operator/pull/2547",
-      "date": "2026-11-10T12:13:31Z",
-      "workstream": "OADP"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10654,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add S3 SSE-C headers to download requests",
+      "url": "https://github.com/velero-io/velero/pull/10654",
+      "date": "2026-11-22T23:48:32Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10869,
       "repo": "velero-io/velero",
@@ -1841,15 +1850,6 @@
       "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202",
       "url": "https://github.com/velero-io/velero/pull/10868",
       "date": "2026-11-22T17:50:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10385,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "refactor: propagate context.Context in core kube secrets and namespace utilities",
-      "url": "https://github.com/velero-io/velero/pull/10385",
-      "date": "2026-11-22T17:49:42Z",
       "workstream": "Velero"
     },
     {
@@ -2129,15 +2129,6 @@
       "title": "fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2535",
       "date": "2026-11-12T03:31:37Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2534,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-78662): upgrade golang.org/x/crypto v0.52.0 -> v0.56.0",
-      "url": "https://github.com/openshift/oadp-operator/pull/2534",
-      "date": "2026-11-12T02:07:49Z",
       "workstream": "OADP"
     }
   ],
@@ -3783,15 +3774,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10328,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Stop committing generated config/crd/*/crds/crds.go; embed CRDs via go:embed at build time",
-      "url": "https://github.com/velero-io/velero/issues/10328",
-      "date": "2026-08-24T18:17:27Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 4549,
       "repo": "kubevirt/hyperconverged-cluster-operator",
       "org": "kubevirt",
@@ -3862,24 +3844,6 @@
       "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/198",
       "date": "2026-08-25T05:19:21Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10791,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "Azure CAPZ IPI: bootkube deadlocks forever creating capz-manager-bootstrap-credentials Secret in a namespace that's never created during bootstrap",
-      "url": "https://github.com/openshift/installer/issues/10791",
-      "date": "2026-08-24T18:38:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10020,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "E2E CI flake: \"kind-action\" curl connection reset during kind install",
-      "url": "https://github.com/velero-io/velero/issues/10020",
-      "date": "2026-08-24T18:15:43Z",
-      "workstream": "Velero"
     }
   ]
 }
