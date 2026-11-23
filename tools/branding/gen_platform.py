@@ -35,7 +35,7 @@ OS_GLYPH = [
 # ms = optional per-platform vertical scale for the waves (dense 4:1 covers).
 PRESETS = {
     'linkedin': dict(
-        W=1584, H=396, box=(300, 1568, 30, 366), figure=True,
+        W=1584, H=396, box=(300, 1568, 30, 366), figure=True, ray_run=.60,
         out='assets/linkedin/header-1584x396.svg',
         desc='LinkedIn cover: full bleed, profile photo overlaps bottom-left'),
     'x': dict(
