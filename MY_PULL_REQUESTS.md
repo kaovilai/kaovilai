@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-23 00:16:32 UTC
+> Last updated: 2026-11-23 06:14:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -26,7 +26,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
 - [![PR #10850](https://img.shields.io/badge/PR%20%2310850-draft-gray)](https://github.com/velero-io/velero/pull/10850) **velero-io/velero** → `main` - Design: block data mover base snapshot retention
 - [![PR #10856](https://img.shields.io/badge/PR%20%2310856-draft-gray)](https://github.com/velero-io/velero/pull/10856) **velero-io/velero** → `main` - Document the node-agent label required for File System Backup since v1.16
-- [![PR #10877](https://img.shields.io/badge/PR%20%2310877-draft-gray)](https://github.com/velero-io/velero/pull/10877) **velero-io/velero** → `main` - Block data mover: retain the base snapshot for CBT storage and delete it on backup deletion
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
@@ -52,7 +51,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9388](https://img.shields.io/badge/PR%20%239388-stale-yellow)](https://github.com/velero-io/velero/pull/9388) **velero-io/velero** → `main` - Add lint-fix make targets
 - [![PR #9770](https://img.shields.io/badge/PR%20%239770-stale-yellow)](https://github.com/velero-io/velero/pull/9770) **velero-io/velero** → `main` - design: Kubernetes name length enforcement for Velero-created objects (#8815)
 - [![PR #10749](https://img.shields.io/badge/PR%20%2310749-failing--ci-red)](https://github.com/velero-io/velero/pull/10749) **velero-io/velero** → `main` - e2e: bound each Kibishii verify attempt by the poll deadline
-- [![PR #10794](https://img.shields.io/badge/PR%20%2310794-failing--ci-red)](https://github.com/velero-io/velero/pull/10794) **velero-io/velero** → `main` - Enable TLS for MinIO in the kind E2E workflow
 - [![PR #9236](https://img.shields.io/badge/PR%20%239236-failing--ci-red)](https://github.com/velero-io/velero/pull/9236) **velero-io/velero** → `main` - Fix BackupRepositories becoming stale when BSL config changes while Velero is not running (milestone: **v1.20**)
 - [![PR #9384](https://img.shields.io/badge/PR%20%239384-failing--ci-red)](https://github.com/velero-io/velero/pull/9384) **velero-io/velero** → `main` - Skip restore informer cache for resources without watch support
 
@@ -88,7 +86,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #89243](https://img.shields.io/badge/PR%20%2389243-ready-green)](https://github.com/openshift/release/pull/89243) **openshift/release** → `main` - OADP: tide query for rebasebot-app PRs (cve-bot label)
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
-- [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
 - [![PR #174](https://img.shields.io/badge/PR%20%23174-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove bz-pr-action GitHub Actions workflow
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/oadp-must-gather/pull/175) **openshift/oadp-must-gather** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/175) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
@@ -173,7 +170,6 @@ No open PRs.
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
-- [![PR #2254](https://img.shields.io/badge/PR%20%232254-ready-green)](https://github.com/storytold/craft-anything/pull/2254) **storytold/craft-anything** → `main` - Say `rustup default stable` when rustup is on the computer without a toolchain (R2.9)
 - [![PR #2255](https://img.shields.io/badge/PR%20%232255-ready-green)](https://github.com/storytold/craft-anything/pull/2255) **storytold/craft-anything** → `main` - Show a model change as pending in Settings while its save waits
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273) **kaovilai/cephcsi-cbt-e2e** → `main` - [doc-sync] Sync Velero rollback and data mover status with upstream
 - [![PR #2](https://img.shields.io/badge/PR%20%232-ready-green)](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) **RuixiangHuang/Macbook_Duo_Effect** → `main` - Replace the rough taper estimate with a calibrated viewport projection
@@ -181,8 +177,10 @@ No open PRs.
 - [![PR #38407](https://img.shields.io/badge/PR%20%2338407-ready-green)](https://github.com/pingdotgg/t3code/pull/38407) **pingdotgg/t3code** → `main` - fix(tailscale): the desktop app finds the macOS Tailscale CLI without a shell PATH
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
+- [![PR #664](https://img.shields.io/badge/PR%20%23664-ready-green)](https://github.com/kaovilai/dotfiles/pull/664) **kaovilai/dotfiles** → `main` - Cap rewritten limit resets at 1h; classify EnMaaS quota codes
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #2254](https://img.shields.io/badge/PR%20%232254-ci--pending-yellow)](https://github.com/storytold/craft-anything/pull/2254) **storytold/craft-anything** → `main` - Say `rustup default stable` when rustup is on the computer without a toolchain (R2.9)
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #219](https://img.shields.io/badge/PR%20%23219-draft-gray)](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
