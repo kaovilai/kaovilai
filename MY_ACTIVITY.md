@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-25 — 2026-11-23
-> **Generated:** 2026-11-23 17:08:56 UTC
+> **Generated:** 2026-11-23 18:11:10 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -352,8 +352,8 @@
 - [#264 Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC](https://github.com/migtools/kubevirt-datamover-controller/issues/264) — migtools/kubevirt-datamover-controller
 
 **Other** (43)
-- [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#2252 Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run](https://github.com/storytold/craft-anything/issues/2252) — storytold/craft-anything
 - [#261 Wrong grpc error codes returned](https://github.com/kubernetes-csi/external-snapshot-metadata/issues/261) — kubernetes-csi/external-snapshot-metadata
