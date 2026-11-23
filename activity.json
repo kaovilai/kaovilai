@@ -3,15 +3,42 @@
     "start": "2026-08-25",
     "end": "2026-11-23"
   },
-  "generatedAt": "2026-11-23T06:27:03Z",
+  "generatedAt": "2026-11-23T12:14:19Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 35,
+    "prsReviewed": 46,
     "issuesCommented": 100,
-    "issuesClosed": 91
+    "issuesClosed": 93
   },
   "prsMerged": [
+    {
+      "number": 95,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add OpenShift × Velero banner and LinkedIn header artwork",
+      "url": "https://github.com/kaovilai/kaovilai/pull/95",
+      "date": "2026-11-23T11:45:30Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 89243,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP: tide query for rebasebot-app PRs (oadp-bot label)",
+      "url": "https://github.com/openshift/release/pull/89243",
+      "date": "2026-11-23T10:00:11Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 664,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Cap rewritten limit resets at 1h; classify EnMaaS quota codes",
+      "url": "https://github.com/kaovilai/dotfiles/pull/664",
+      "date": "2026-11-23T08:31:51Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10794,
       "repo": "velero-io/velero",
@@ -884,36 +911,90 @@
       "url": "https://github.com/kaovilai/podm/pull/27",
       "date": "2026-11-10T23:45:48Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 2546,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type",
-      "url": "https://github.com/openshift/oadp-operator/pull/2546",
-      "date": "2026-11-10T23:38:24Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 26,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(containers): docker commit / podman commit via import pipeline",
-      "url": "https://github.com/kaovilai/podm/pull/26",
-      "date": "2026-11-10T17:14:59Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 210,
-      "repo": "kaovilai/github-bot-command-palette",
-      "org": "kaovilai",
-      "title": "fix(failure-log): always show Claude analysis alongside matched error lines",
-      "url": "https://github.com/kaovilai/github-bot-command-palette/pull/210",
-      "date": "2026-11-10T15:16:44Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 48,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/48",
+      "date": "2026-11-23T11:45:48Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 202,
+      "repo": "migtools/udistribution",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/udistribution/pull/202",
+      "date": "2026-11-23T10:45:20Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 54,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs (oadp-1.6)",
+      "url": "https://github.com/migtools/filebrowser/pull/54",
+      "date": "2026-11-23T10:45:07Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 53,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/filebrowser/pull/53",
+      "date": "2026-11-23T10:44:51Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 81,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)",
+      "url": "https://github.com/openshift/restic/pull/81",
+      "date": "2026-11-23T10:44:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 80,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/openshift/restic/pull/80",
+      "date": "2026-11-23T10:44:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 67,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)",
+      "url": "https://github.com/migtools/kopia/pull/67",
+      "date": "2026-11-23T10:25:52Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 344,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Raise default block blob upload block size from 1 MiB to 4 MiB",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344",
+      "date": "2026-11-23T08:57:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 95,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add OpenShift × Velero banner and LinkedIn header artwork",
+      "url": "https://github.com/kaovilai/kaovilai/pull/95",
+      "date": "2026-11-23T08:22:36Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 664,
       "repo": "kaovilai/dotfiles",
@@ -936,7 +1017,7 @@
       "number": 66,
       "repo": "migtools/kopia",
       "org": "migtools",
-      "title": "cve-bot: auto-approve rebasebot-app PRs",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
       "url": "https://github.com/migtools/kopia/pull/66",
       "date": "2026-11-22T18:47:56Z",
       "workstream": "Uncategorized"
@@ -1732,97 +1813,124 @@
       "url": "https://github.com/kaovilai/dotfiles/pull/644",
       "date": "2026-11-11T08:45:58Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 42,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(plugins): local metadata subset — list/inspect/privileges/create",
-      "url": "https://github.com/kaovilai/podm/pull/42",
-      "date": "2026-11-11T06:55:01Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 88,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Add regenerable city-level travel map with animated SVG variant",
-      "url": "https://github.com/kaovilai/kaovilai/pull/88",
-      "date": "2026-11-11T06:47:58Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 41,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution",
-      "url": "https://github.com/kaovilai/podm/pull/41",
-      "date": "2026-11-11T05:31:12Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 40,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(configs): local ConfigStore + docker-dialect /configs routes",
-      "url": "https://github.com/kaovilai/podm/pull/40",
-      "date": "2026-11-11T05:01:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 39,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(secrets): docker-dialect /secrets routes over the local SecretStore",
-      "url": "https://github.com/kaovilai/podm/pull/39",
-      "date": "2026-11-11T04:15:31Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 38,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "fix(containers): rename parity with moby — oldName event attribute, 409 message",
-      "url": "https://github.com/kaovilai/podm/pull/38",
-      "date": "2026-11-11T03:29:28Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 30,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat: libpod sizes + system df, xattr-aware docker diff, logs since/until",
-      "url": "https://github.com/kaovilai/podm/pull/30",
-      "date": "2026-11-11T02:09:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 29,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(containers): docker ps -s / inspect --size via diskUsage",
-      "url": "https://github.com/kaovilai/podm/pull/29",
-      "date": "2026-11-11T01:16:03Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 28,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(events): docker/podman events since/until/filters + history",
-      "url": "https://github.com/kaovilai/podm/pull/28",
-      "date": "2026-11-10T23:49:13Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 9,
+      "repo": "velero-io/.github",
+      "org": "velero-io",
+      "title": "Add the governance review doc",
+      "url": "https://github.com/velero-io/.github/pull/9",
+      "date": "2026-11-23T12:08:43Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10844,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: volume backup content exclusions",
+      "url": "https://github.com/velero-io/velero/pull/10844",
+      "date": "2026-11-23T11:20:10Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 65,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "Fix CVE-2026-116587, CVE-2026-78661",
+      "url": "https://github.com/migtools/kopia/pull/65",
+      "date": "2026-11-23T09:25:36Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10880,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[1.19] Issue 10839: remove the pod name when PVB is for a PVC",
+      "url": "https://github.com/velero-io/velero/pull/10880",
+      "date": "2026-11-23T09:02:15Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10629,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix ReadyToStart backup recovery after restart",
+      "url": "https://github.com/velero-io/velero/pull/10629",
+      "date": "2026-11-23T09:00:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10595,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Improve schedule validation errors with actionable cron guidance",
+      "url": "https://github.com/velero-io/velero/pull/10595",
+      "date": "2026-11-23T08:51:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10858,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(controller): honor caller context when marking PVB/PVR as failed",
+      "url": "https://github.com/velero-io/velero/pull/10858",
+      "date": "2026-11-23T08:37:20Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10870,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
+      "url": "https://github.com/velero-io/velero/pull/10870",
+      "date": "2026-11-23T08:12:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10878,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update Dependabot release branches",
+      "url": "https://github.com/velero-io/velero/pull/10878",
+      "date": "2026-11-23T07:38:20Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10677,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Modern backup format design",
       "url": "https://github.com/velero-io/velero/pull/10677",
-      "date": "2026-11-23T06:14:18Z",
+      "date": "2026-11-23T07:30:11Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 343,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "[release-1.15] Bump Velero to v1.19.0",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/343",
+      "date": "2026-11-23T07:29:09Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 292,
+      "repo": "velero-io/velero-plugin-for-gcp",
+      "org": "velero-io",
+      "title": "[release-1.15] Bump Velero to v1.19.0",
+      "url": "https://github.com/velero-io/velero-plugin-for-gcp/pull/292",
+      "date": "2026-11-23T07:28:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 348,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "[release-1.15] Bump Velero to v1.19.0",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/348",
+      "date": "2026-11-23T07:28:34Z",
       "workstream": "Velero"
     },
     {
@@ -1841,15 +1949,6 @@
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166",
       "date": "2026-11-23T06:11:42Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10870,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
-      "url": "https://github.com/velero-io/velero/pull/10870",
-      "date": "2026-11-23T06:08:35Z",
       "workstream": "Velero"
     },
     {
@@ -2134,21 +2233,66 @@
   ],
   "issuesCommented": [
     {
-      "number": 10871,
+      "number": 264,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/264",
+      "date": "2026-11-23T11:38:58Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 10590,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
+      "url": "https://github.com/openshift/installer/issues/10590",
+      "date": "2026-11-23T11:17:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10303,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Revisit default values for concurrent-backups and item-block-worker-count",
-      "url": "https://github.com/velero-io/velero/issues/10871",
-      "date": "2026-11-23T06:14:53Z",
+      "title": "Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "date": "2026-11-23T09:22:11Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10874,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations",
+      "url": "https://github.com/velero-io/velero/issues/10874",
+      "date": "2026-11-23T08:03:41Z",
       "workstream": "Velero"
     },
     {
       "number": 10873,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Expose object storage transport tuning options for repository blob storage",
+      "title": "Track kopia: blob backend upload transfer parameters (chunk size, packets, connections) — kopia/kopia#5866",
       "url": "https://github.com/velero-io/velero/issues/10873",
-      "date": "2026-11-23T05:43:24Z",
+      "date": "2026-11-23T06:52:47Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10876,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Opt-in in-memory informer cache for backup item collection",
+      "url": "https://github.com/velero-io/velero/issues/10876",
+      "date": "2026-11-23T06:45:36Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10871,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Revisit default values for concurrent-backups and item-block-worker-count",
+      "url": "https://github.com/velero-io/velero/issues/10871",
+      "date": "2026-11-23T06:14:53Z",
       "workstream": "Velero"
     },
     {
@@ -2176,15 +2320,6 @@
       "title": "[Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)",
       "url": "https://github.com/SecKatie/ha-wyzeapi/issues/956",
       "date": "2026-11-23T01:36:54Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 10590,
-      "repo": "openshift/installer",
-      "org": "openshift",
-      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
-      "url": "https://github.com/openshift/installer/issues/10590",
-      "date": "2026-11-23T01:00:56Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2665,15 +2800,6 @@
       "workstream": "Kubernetes"
     },
     {
-      "number": 10303,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout",
-      "url": "https://github.com/velero-io/velero/issues/10303",
-      "date": "2026-11-09T11:20:46Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 49,
       "repo": "kaovilai/tailbond",
       "org": "kaovilai",
@@ -3005,36 +3131,27 @@
       "url": "https://github.com/kubernetes-sigs/prow/issues/502",
       "date": "2026-10-22T02:14:09Z",
       "workstream": "Kubernetes"
-    },
-    {
-      "number": 17508,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Antigravity Google sign-in hides the real failure reason (ineligible account, rejected redirect URL)",
-      "url": "https://github.com/pingdotgg/t3code/issues/17508",
-      "date": "2026-10-22T01:39:41Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 134,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "`tide` not honoring multiple reviewer branch protection",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/134",
-      "date": "2026-10-21T17:22:53Z",
-      "workstream": "Kubernetes"
-    },
-    {
-      "number": 16992,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: Jira MCP Apps render blank inline cards despite successful tool results",
-      "url": "https://github.com/pingdotgg/t3code/issues/16992",
-      "date": "2026-10-21T11:48:23Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10590,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
+      "url": "https://github.com/openshift/installer/issues/10590",
+      "date": "2026-11-23T11:17:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "date": "2026-11-23T09:22:11Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10875,
       "repo": "velero-io/velero",
