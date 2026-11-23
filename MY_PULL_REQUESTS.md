@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-23 19:07:55 UTC
+> Last updated: 2026-11-23 20:09:29 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -21,7 +21,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #321](https://img.shields.io/badge/PR%20%23321-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/321) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.13` - [release-1.13] Fix volume snapshotter usage of AAD URI (backport of #256)
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
-- [![PR #344](https://img.shields.io/badge/PR%20%23344-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Raise default block blob upload block size from 1 MiB to 4 MiB
 - [![PR #5](https://img.shields.io/badge/PR%20%235-ready-green)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Velero CNCF incubation security and engineering materials
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
@@ -141,12 +140,11 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-ready-green)](https://github.com/migtools/filebrowser/pull/53) **migtools/filebrowser** → `oadp-dev` - oadp-bot: auto-approve rebasebot-app PRs
+- [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - oadp-bot: auto-approve rebasebot-app PRs
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
 - [![PR #287](https://img.shields.io/badge/PR%20%23287-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/287) **migtools/oadp-cli** → `oadp-dev` - Group Go security updates in Dependabot
-- [![PR #48](https://img.shields.io/badge/PR%20%2348-ci--pending-yellow)](https://github.com/migtools/oadp-vmdp/pull/48) **migtools/oadp-vmdp** → `oadp-dev` - oadp-bot: auto-approve rebasebot-app PRs
-- [![PR #66](https://img.shields.io/badge/PR%20%2366-ci--pending-yellow)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - oadp-bot: auto-approve rebasebot-app PRs
 - [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: 468: Select the live virt-launcher pod after live migration
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
 - [![PR #213](https://img.shields.io/badge/PR%20%23213-stale-yellow)](https://github.com/migtools/kubevirt-datamover-controller/pull/213) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: speed up Dockerfile builds with cache mounts
@@ -160,6 +158,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
+- [![PR #48](https://img.shields.io/badge/PR%20%2348-failing--ci-red)](https://github.com/migtools/oadp-vmdp/pull/48) **migtools/oadp-vmdp** → `oadp-dev` - oadp-bot: auto-approve rebasebot-app PRs
 
 ## oadp-rebase
 
@@ -185,7 +184,6 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #98](https://img.shields.io/badge/PR%20%2398-ready-green)](https://github.com/kaovilai/kaovilai/pull/98) **kaovilai/kaovilai** → `main` - Generate every platform cover from one layout engine
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes

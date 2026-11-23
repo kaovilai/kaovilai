@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:07:55Z",
+  "updatedAt": "2026-11-23T20:09:29Z",
   "prs": [
     {
       "number": 5,
@@ -3621,39 +3621,6 @@
       ]
     },
     {
-      "number": 344,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Raise default block blob upload block size from 1 MiB to 4 MiB",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "kaovilai"
-      ],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-23T09:14:42Z",
-      "workstream": "Velero",
-      "ciChecks": [
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run CI",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "DCO",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 10708,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -4018,7 +3985,7 @@
         "Area/Design",
         "has-changelog"
       ],
-      "updatedAt": "2026-11-23T09:23:22Z",
+      "updatedAt": "2026-11-23T19:19:11Z",
       "workstream": "Velero",
       "ciChecks": [
         {
@@ -9308,7 +9275,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-23T19:06:21Z",
+      "updatedAt": "2026-11-23T19:56:40Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -13276,7 +13243,7 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-23T19:06:43Z",
+      "updatedAt": "2026-11-23T20:01:45Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -13305,11 +13272,52 @@
         },
         {
           "name": "ci/prow/images",
-          "conclusion": "PENDING"
+          "conclusion": "FAILURE"
         },
         {
           "name": "CodeRabbit",
           "conclusion": "NEUTRAL"
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/kopia/pull/66",
+      "targetBranch": "oadp-dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-23T19:56:36Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Lint (ubuntu-latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Tests (ubuntu-latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "license/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "security/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
+          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -13587,7 +13595,7 @@
         "approved",
         "ok-to-test"
       ],
-      "updatedAt": "2026-11-23T19:07:07Z",
+      "updatedAt": "2026-11-23T19:56:57Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -13793,88 +13801,6 @@
         {
           "name": "ci/prow/images",
           "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 66,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "oadp-bot: auto-approve rebasebot-app PRs",
-      "url": "https://github.com/migtools/kopia/pull/66",
-      "targetBranch": "oadp-dev",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-23T19:06:06Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Lint (ubuntu-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "Tests (ubuntu-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "license/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "security/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 48,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "oadp-bot: auto-approve rebasebot-app PRs",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/48",
-      "targetBranch": "oadp-dev",
-      "status": "ci-pending",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-23T19:07:27Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "Lint (ubuntu-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "Build Multi-Arch Images (amd64)",
-          "conclusion": ""
-        },
-        {
-          "name": "Tests (ubuntu-latest)",
-          "conclusion": ""
-        },
-        {
-          "name": "Build Multi-Arch Images (arm64)",
-          "conclusion": ""
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "NEUTRAL"
         }
       ]
     },
@@ -14323,6 +14249,55 @@
       ]
     },
     {
+      "number": 48,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/48",
+      "targetBranch": "oadp-dev",
+      "status": "failing-ci",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-23T19:57:06Z",
+      "workstream": "OADP",
+      "ciChecks": [
+        {
+          "name": "Lint (ubuntu-latest)",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "Build Multi-Arch Images (amd64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Tests (ubuntu-latest)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Build Multi-Arch Images (arm64)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Create and Push Multi-Arch Manifest",
+          "conclusion": "SKIPPED"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "PENDING"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "NEUTRAL"
+        }
+      ]
+    },
+    {
       "number": 121974,
       "repo": "NousResearch/hermes-agent",
       "org": "NousResearch",
@@ -14439,29 +14414,6 @@
           "name": "CodeQL",
           "conclusion": "SUCCESS"
         },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 98,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Generate every platform cover from one layout engine",
-      "url": "https://github.com/kaovilai/kaovilai/pull/98",
-      "targetBranch": "main",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-23T13:57:17Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -16527,7 +16479,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-23T19:07:55Z",
+    "updatedAt": "2026-11-23T20:09:29Z",
     "needsReview": [
       {
         "number": 68,
@@ -17165,7 +17117,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 73,
+        "waitingDays": 74,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -18474,7 +18426,7 @@
           "approved",
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18780,7 +18732,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T19:06:43Z"
+        "updatedAt": "2026-11-23T20:01:45Z"
       },
       {
         "number": 66,
@@ -18809,7 +18761,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T19:06:06Z"
+        "updatedAt": "2026-11-23T19:56:36Z"
       },
       {
         "number": 48,
@@ -18838,7 +18790,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T19:07:27Z"
+        "updatedAt": "2026-11-23T19:57:06Z"
       },
       {
         "number": 202,
@@ -18869,7 +18821,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T19:07:07Z"
+        "updatedAt": "2026-11-23T19:56:57Z"
       },
       {
         "number": 219,
@@ -18917,7 +18869,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T19:06:21Z"
+        "updatedAt": "2026-11-23T19:56:40Z"
       },
       {
         "number": 2254,
@@ -18972,35 +18924,6 @@
         "reason": "awaitingReview",
         "waitingDays": 0,
         "updatedAt": "2026-11-23T03:39:51Z"
-      },
-      {
-        "number": 344,
-        "repo": "velero-io/velero-plugin-for-microsoft-azure",
-        "org": "velero-io",
-        "title": "Raise default block blob upload block size from 1 MiB to 4 MiB",
-        "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "shubham-pampattiwar",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-23T09:14:42Z"
       }
     ],
     "approvedWaitingToLand": [
