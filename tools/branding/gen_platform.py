@@ -219,14 +219,16 @@ def stars(W, H):
 def waves(L):
     y1 = L['y1']
     bh = L['bh']
+    # tile runs to the canvas edge plus one full cycle (360) of travel each way,
+    # so the -360 translate never exposes an edge on wide canvases
+    end = L['W'] + 720
     rows = [(y1 - .095 * bh, BLUE, .016 * bh, .7, 14),
             (y1 + .020 * bh, '#1d428a', .030 * bh, .9, 18),
             (y1 + .090 * bh, '#7fd4e4', .011 * bh, .42, 11)]
     out = []
     for y, c, wd, op, dur in rows:
-        d = (f'M-360,{y:.0f} Q-270,{y-20:.0f} -180,{y:.0f} T0,{y:.0f} T180,{y:.0f} T360,{y:.0f} '
-             f'T540,{y:.0f} T720,{y:.0f} T900,{y:.0f} T1080,{y:.0f} T1260,{y:.0f} T1440,{y:.0f} '
-             f'T1620,{y:.0f} T1800,{y:.0f} T1980,{y:.0f} T2160,{y:.0f} T2340,{y:.0f} T2520,{y:.0f} T2700,{y:.0f}')
+        d = (f'M-360,{y:.0f} Q-270,{y-20:.0f} -180,{y:.0f} '
+             + ' '.join(f'T{x},{y:.0f}' for x in range(0, end + 1, 180)))
         out.append(f'<g opacity="{op}"><animateTransform attributeName="transform" type="translate" '
                    f'values="0 0;-360 0" dur="{dur}s" repeatCount="indefinite"/>'
                    f'<path d="{d}" fill="none" stroke="{c}" stroke-width="{max(2, wd):.1f}" stroke-linecap="round"/></g>')
