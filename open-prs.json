@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T18:12:02Z",
+  "updatedAt": "2026-11-23T19:07:55Z",
   "prs": [
     {
       "number": 5,
@@ -9308,7 +9308,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-23T11:01:14Z",
+      "updatedAt": "2026-11-23T19:06:21Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -9316,12 +9316,8 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "bz-on-pr-create",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
+          "conclusion": "SKIPPED"
         }
       ]
     },
@@ -13280,15 +13276,11 @@
       "labels": [
         "approved"
       ],
-      "updatedAt": "2026-11-23T10:55:39Z",
+      "updatedAt": "2026-11-23T19:06:43Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
           "name": "Lint Frontend",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Validate Title",
           "conclusion": "SUCCESS"
         },
         {
@@ -13312,53 +13304,12 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 66,
-      "repo": "migtools/kopia",
-      "org": "migtools",
-      "title": "oadp-bot: auto-approve rebasebot-app PRs",
-      "url": "https://github.com/migtools/kopia/pull/66",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-23T10:38:45Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "Lint (ubuntu-latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Tests (ubuntu-latest)",
-          "conclusion": "SUCCESS"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
           "conclusion": "NEUTRAL"
-        },
-        {
-          "name": "license/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "security/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
-          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -13636,7 +13587,7 @@
         "approved",
         "ok-to-test"
       ],
-      "updatedAt": "2026-11-23T10:52:58Z",
+      "updatedAt": "2026-11-23T19:07:07Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -13644,40 +13595,8 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "build",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ask-for-ok-to-test",
           "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ask-for-ok-to-test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "e2e-on-pr",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "e2e-on-pr",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "e2e-on-pr",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "ok-to-test",
-          "conclusion": "SKIPPED"
         },
         {
           "name": "ok-to-test",
@@ -13874,6 +13793,88 @@
         {
           "name": "ci/prow/images",
           "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/kopia/pull/66",
+      "targetBranch": "oadp-dev",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-23T19:06:06Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "Lint (ubuntu-latest)",
+          "conclusion": ""
+        },
+        {
+          "name": "Tests (ubuntu-latest)",
+          "conclusion": ""
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "NEUTRAL"
+        },
+        {
+          "name": "license/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "security/snyk ( Hybrid Platforms - OpenShift API for Data Protection)",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "repo": "migtools/oadp-vmdp",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs",
+      "url": "https://github.com/migtools/oadp-vmdp/pull/48",
+      "targetBranch": "oadp-dev",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "approved"
+      ],
+      "updatedAt": "2026-11-23T19:07:27Z",
+      "workstream": "OADP",
+      "ciChecks": [
+        {
+          "name": "Lint (ubuntu-latest)",
+          "conclusion": ""
+        },
+        {
+          "name": "Build Multi-Arch Images (amd64)",
+          "conclusion": ""
+        },
+        {
+          "name": "Tests (ubuntu-latest)",
+          "conclusion": ""
+        },
+        {
+          "name": "Build Multi-Arch Images (arm64)",
+          "conclusion": ""
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "NEUTRAL"
         }
       ]
     },
@@ -14317,59 +14318,6 @@
         },
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 48,
-      "repo": "migtools/oadp-vmdp",
-      "org": "migtools",
-      "title": "oadp-bot: auto-approve rebasebot-app PRs",
-      "url": "https://github.com/migtools/oadp-vmdp/pull/48",
-      "targetBranch": "oadp-dev",
-      "status": "failing-ci",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "approved"
-      ],
-      "updatedAt": "2026-11-23T17:45:57Z",
-      "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "Lint (ubuntu-latest)",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "Build Multi-Arch Images (amd64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Tests (ubuntu-latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Build Multi-Arch Images (arm64)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Create and Push Multi-Arch Manifest",
-          "conclusion": "SKIPPED"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Lint (ubuntu-latest)",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         }
       ]
@@ -14827,7 +14775,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-23T18:02:16Z",
+      "updatedAt": "2026-11-23T18:59:44Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16579,7 +16527,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-23T18:12:02Z",
+    "updatedAt": "2026-11-23T19:07:55Z",
     "needsReview": [
       {
         "number": 68,
@@ -17022,7 +16970,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17129,7 +17077,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 87,
+        "waitingDays": 88,
         "updatedAt": "2026-08-27T18:24:55Z"
       },
       {
@@ -17159,7 +17107,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 87,
+        "waitingDays": 88,
         "updatedAt": "2026-08-27T18:24:07Z"
       },
       {
@@ -17344,6 +17292,39 @@
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
+        "number": 10010,
+        "repo": "velero-io/velero",
+        "org": "velero-io",
+        "title": "Design for CRD schema validation at server startup",
+        "url": "https://github.com/velero-io/velero/pull/10010",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "Area/Design",
+          "kind/changelog-not-required",
+          "target/1.19.1"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Lyndon-Li",
+          "reasonerjt"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 55,
+        "updatedAt": "2026-09-29T18:16:07Z"
+      },
+      {
         "number": 123138,
         "repo": "NousResearch/hermes-agent",
         "org": "NousResearch",
@@ -17375,39 +17356,6 @@
         "updatedAt": "2026-09-30T15:17:14Z"
       },
       {
-        "number": 10010,
-        "repo": "velero-io/velero",
-        "org": "velero-io",
-        "title": "Design for CRD schema validation at server startup",
-        "url": "https://github.com/velero-io/velero/pull/10010",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "Area/Design",
-          "kind/changelog-not-required",
-          "target/1.19.1"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Lyndon-Li",
-          "reasonerjt"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 54,
-        "updatedAt": "2026-09-29T18:16:07Z"
-      },
-      {
         "number": 70,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -17432,7 +17380,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-10-07T18:19:44Z"
       },
       {
@@ -17461,7 +17409,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-10-07T18:19:36Z"
       },
       {
@@ -17653,7 +17601,7 @@
           "size/XL",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18526,7 +18474,7 @@
           "approved",
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18641,33 +18589,6 @@
         "updatedAt": "2026-11-19T13:53:12Z"
       },
       {
-        "number": 82734,
-        "repo": "openshift/release",
-        "org": "openshift",
-        "title": "ci-operator/config: switch OADP build_root from image_stream_tag to project_image",
-        "url": "https://github.com/openshift/release/pull/82734",
-        "targetBranch": "main",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "eemcmullan",
-          "Joeavaikath"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 4,
-        "updatedAt": "2026-11-19T02:10:07Z"
-      },
-      {
         "number": 2519,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -18693,8 +18614,35 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-11-19T18:27:24Z"
+      },
+      {
+        "number": 82734,
+        "repo": "openshift/release",
+        "org": "openshift",
+        "title": "ci-operator/config: switch OADP build_root from image_stream_tag to project_image",
+        "url": "https://github.com/openshift/release/pull/82734",
+        "targetBranch": "main",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "eemcmullan",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-11-19T02:10:07Z"
       },
       {
         "number": 10032,
@@ -18832,7 +18780,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T10:55:39Z"
+        "updatedAt": "2026-11-23T19:06:43Z"
       },
       {
         "number": 66,
@@ -18861,7 +18809,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T10:38:45Z"
+        "updatedAt": "2026-11-23T19:06:06Z"
       },
       {
         "number": 48,
@@ -18890,7 +18838,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T17:45:57Z"
+        "updatedAt": "2026-11-23T19:07:27Z"
       },
       {
         "number": 202,
@@ -18921,7 +18869,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T10:52:58Z"
+        "updatedAt": "2026-11-23T19:07:07Z"
       },
       {
         "number": 219,
@@ -18945,7 +18893,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T18:02:16Z"
+        "updatedAt": "2026-11-23T18:59:44Z"
       },
       {
         "number": 80,
@@ -18969,7 +18917,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T11:01:14Z"
+        "updatedAt": "2026-11-23T19:06:21Z"
       },
       {
         "number": 2254,
@@ -19572,7 +19520,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 46,
+        "waitingDays": 47,
         "updatedAt": "2026-10-07T18:19:21Z"
       },
       {
@@ -19702,37 +19650,6 @@
         "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
-        "number": 2477,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-        "url": "https://github.com/openshift/oadp-operator/pull/2477",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 3,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 32,
-        "updatedAt": "2026-10-21T21:06:02Z"
-      },
-      {
         "number": 107,
         "repo": "migtools/kubevirt-velero-plugin",
         "org": "migtools",
@@ -19760,7 +19677,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-10-22T18:35:44Z"
       },
       {
@@ -19791,7 +19708,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-10-22T18:36:08Z"
       },
       {
@@ -19822,8 +19739,39 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-10-22T18:33:34Z"
+      },
+      {
+        "number": 2477,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+        "url": "https://github.com/openshift/oadp-operator/pull/2477",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 3,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 32,
+        "updatedAt": "2026-10-21T21:06:02Z"
       },
       {
         "number": 2513,
@@ -20342,7 +20290,7 @@
           "size:M",
           "takeover:blocked"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
