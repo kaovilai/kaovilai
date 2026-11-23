@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-25 — 2026-11-23
-> **Generated:** 2026-11-23 19:07:24 UTC
+> **Generated:** 2026-11-23 20:08:38 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -15,7 +15,8 @@
 
 ## PRs Merged (100)
 
-**velero-io** (6)
+**velero-io** (7)
+- [#344 Raise default block blob upload block size from 1 MiB to 4 MiB](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344) — velero-io/velero-plugin-for-microsoft-azure
 - [#10794 Enable TLS for MinIO in the kind E2E workflow](https://github.com/velero-io/velero/pull/10794) — velero-io/velero
 - [#326 [release-1.13] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/326) — velero-io/velero-plugin-for-microsoft-azure
 - [#10718 docs: correct schedule useOwnerReferencesInBackup deletion and block data mover volume mode guidance](https://github.com/velero-io/velero/pull/10718) — velero-io/velero
@@ -33,7 +34,8 @@
 **migtools** (1)
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (88)
+**Other** (87)
+- [#98 Generate every platform cover from one layout engine](https://github.com/kaovilai/kaovilai/pull/98) — kaovilai/kaovilai
 - [#95 Add OpenShift × Velero banner and LinkedIn header artwork](https://github.com/kaovilai/kaovilai/pull/95) — kaovilai/kaovilai
 - [#664 Cap rewritten limit resets at 1h; classify EnMaaS quota codes](https://github.com/kaovilai/dotfiles/pull/664) — kaovilai/dotfiles
 - [#663 perf(enmaas): reliability hardening for the Go proxy and :4146 controller](https://github.com/kaovilai/dotfiles/pull/663) — kaovilai/dotfiles
@@ -120,8 +122,6 @@
 - [#39 feat(secrets): docker-dialect /secrets routes over the local SecretStore](https://github.com/kaovilai/podm/pull/39) — kaovilai/podm
 - [#38 fix(containers): rename parity with moby — oldName event attribute, 409 message](https://github.com/kaovilai/podm/pull/38) — kaovilai/podm
 - [#29 feat(containers): docker ps -s / inspect --size via diskUsage](https://github.com/kaovilai/podm/pull/29) — kaovilai/podm
-- [#28 feat(events): docker/podman events since/until/filters + history](https://github.com/kaovilai/podm/pull/28) — kaovilai/podm
-- [#27 feat(libpod): podman local secrets — create/ls/inspect/exists/rm](https://github.com/kaovilai/podm/pull/27) — kaovilai/podm
 ## PRs Opened (100)
 
 **velero-io** (4)
@@ -146,6 +146,7 @@
 - [#66 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (85)
+- [#1 prt-probe: PR targeting non-default branch](https://github.com/kaovilai/gha-sandbox/pull/1) — kaovilai/gha-sandbox
 - [#98 Generate every platform cover from one layout engine](https://github.com/kaovilai/kaovilai/pull/98) — kaovilai/kaovilai
 - [#97 Add X header (1500x500)](https://github.com/kaovilai/kaovilai/pull/97) — kaovilai/kaovilai
 - [#96 Add Facebook cover (missed the #95 merge)](https://github.com/kaovilai/kaovilai/pull/96) — kaovilai/kaovilai
@@ -230,7 +231,6 @@
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
-- [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
 ## PRs Reviewed (46)
 
 **velero-io** (34)
