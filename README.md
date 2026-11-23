@@ -1,18 +1,17 @@
 <div align="center">
 
 <picture>
+  <img alt="Tiger Kaovilai — Velero maintainer and OADP engineer at Red Hat, shielding Kubernetes and OpenShift workloads with a Velero shield" src="assets/linkedin/header-1584x396.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
-  <img alt="Tiger Kaovilai — Velero maintainer and OADP engineer at Red Hat, with live PR totals" src="assets/profile/hero-light.svg" width="100%">
+  <img alt="Live pull request totals from my public history" src="assets/profile/hero-light.svg" width="100%">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/ticker-dark.svg">
   <img alt="Scrolling ticker of recently merged pull requests" src="assets/profile/ticker-light.svg" width="100%">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/openshift-velero-border-dark.svg">
-  <img alt="Animated banner: the Velero mark cut out and filled with moving waves, an OpenShift ring of red arcs and dash ticks around a profile photo" src="assets/profile/openshift-velero-border-light.svg" width="100%">
 </picture>
 
 [Website](https://www.kaovilai.pw) · [LinkedIn](https://www.linkedin.com/in/kaovilai/) · [Resume](https://resume.kaovilai.pw/) · [My Pull Requests](MY_PULL_REQUESTS.md) · [My Issues](MY_ISSUES.md) · [My Activity](MY_ACTIVITY.md) · [Workstream timeline](https://github.tig.pw/kaovilai/workstream/)
