@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-25 — 2026-11-23
-> **Generated:** 2026-11-23 21:08:07 UTC
+> **Generated:** 2026-11-23 22:07:56 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -289,10 +289,10 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (53)
+- [#10876 Opt-in in-memory informer cache for backup item collection](https://github.com/velero-io/velero/issues/10876) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10874 Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations](https://github.com/velero-io/velero/issues/10874) — velero-io/velero
 - [#10873 Track kopia: blob backend upload transfer parameters (chunk size, packets, connections) — kopia/kopia#5866](https://github.com/velero-io/velero/issues/10873) — velero-io/velero
-- [#10876 Opt-in in-memory informer cache for backup item collection](https://github.com/velero-io/velero/issues/10876) — velero-io/velero
 - [#10871 Revisit default values for concurrent-backups and item-block-worker-count](https://github.com/velero-io/velero/issues/10871) — velero-io/velero
 - [#10875 Shared warm repository cache volume per BackupRepository, refreshed by maintenance jobs](https://github.com/velero-io/velero/issues/10875) — velero-io/velero
 - [#7728 Enable TLS for MinIO in nightly E2E test](https://github.com/velero-io/velero/issues/7728) — velero-io/velero
