@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T21:08:55Z",
+  "updatedAt": "2026-11-23T22:08:42Z",
   "prs": [
     {
       "number": 5,
@@ -3985,7 +3985,7 @@
         "Area/Design",
         "has-changelog"
       ],
-      "updatedAt": "2026-11-23T19:19:11Z",
+      "updatedAt": "2026-11-23T21:28:35Z",
       "workstream": "Velero",
       "ciChecks": [
         {
@@ -10877,59 +10877,6 @@
       ]
     },
     {
-      "number": 174,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Remove bz-pr-action GitHub Actions workflow",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-      "targetBranch": "oadp-dev",
-      "status": "waiting-merge",
-      "milestone": null,
-      "author": "redhat-chai-bot",
-      "isCopilotAuthored": false,
-      "assignees": [
-        "shubham-pampattiwar",
-        "redhat-chai-bot"
-      ],
-      "isDraft": false,
-      "labels": [
-        "approved",
-        "lgtm"
-      ],
-      "updatedAt": "2026-09-24T21:55:00Z",
-      "workstream": "Velero",
-      "ciChecks": [
-        {
-          "name": "add-reviews",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "bz-on-pr-create",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "bz-on-pr-create",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "get-go-version / extract",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Run CI",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 175,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
@@ -11784,6 +11731,59 @@
         },
         {
           "name": "ci/prow/yamllint",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 174,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Remove bz-pr-action GitHub Actions workflow",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+      "targetBranch": "oadp-dev",
+      "status": "stale",
+      "milestone": null,
+      "author": "redhat-chai-bot",
+      "isCopilotAuthored": false,
+      "assignees": [
+        "shubham-pampattiwar",
+        "redhat-chai-bot"
+      ],
+      "isDraft": false,
+      "labels": [
+        "approved",
+        "lgtm"
+      ],
+      "updatedAt": "2026-09-24T21:55:00Z",
+      "workstream": "Velero",
+      "ciChecks": [
+        {
+          "name": "add-reviews",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "bz-on-pr-create",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "bz-on-pr-create",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "get-go-version / extract",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Run CI",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         }
       ]
@@ -16483,7 +16483,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-23T21:08:55Z",
+    "updatedAt": "2026-11-23T22:08:42Z",
     "needsReview": [
       {
         "number": 68,
@@ -16902,7 +16902,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17231,7 +17231,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -17310,6 +17310,36 @@
         "reason": "awaitingReview",
         "waitingDays": 54,
         "updatedAt": "2026-09-30T15:17:14Z"
+      },
+      {
+        "number": 2473,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(e2e): route/proxy 503 fallback and empty checksum exec flakes",
+        "url": "https://github.com/openshift/oadp-operator/pull/2473",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "hhpatel14",
+          "weshayutin",
+          "Joeavaikath"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 47,
+        "updatedAt": "2026-10-07T06:45:53Z"
       },
       {
         "number": 70,
@@ -17427,30 +17457,6 @@
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
-        "number": 106,
-        "repo": "migtools/kubevirt-velero-plugin",
-        "org": "migtools",
-        "title": "Sync OWNERS_ALIASES with main",
-        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
-        "targetBranch": "oadp-1.4",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 32,
-        "updatedAt": "2026-10-22T17:29:19Z"
-      },
-      {
         "number": 2508,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -17480,8 +17486,32 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 32,
+        "waitingDays": 33,
         "updatedAt": "2026-10-21T21:30:24Z"
+      },
+      {
+        "number": 106,
+        "repo": "migtools/kubevirt-velero-plugin",
+        "org": "migtools",
+        "title": "Sync OWNERS_ALIASES with main",
+        "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
+        "targetBranch": "oadp-1.4",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 32,
+        "updatedAt": "2026-10-22T17:29:19Z"
       },
       {
         "number": 250,
@@ -17691,6 +17721,36 @@
         "updatedAt": "2026-10-28T22:41:36Z"
       },
       {
+        "number": 2488,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
+        "url": "https://github.com/openshift/oadp-operator/pull/2488",
+        "targetBranch": "oadp-dev",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "do-not-merge/hold",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "hold",
+        "waitingDays": 24,
+        "updatedAt": "2026-10-29T23:14:50Z"
+      },
+      {
         "number": 89,
         "repo": "openshift/oadp-must-gather",
         "org": "openshift",
@@ -17835,7 +17895,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-11-05T21:23:09Z"
       },
       {
@@ -17865,7 +17925,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 17,
+        "waitingDays": 18,
         "updatedAt": "2026-11-05T21:23:40Z"
       },
       {
@@ -17881,7 +17941,7 @@
         "labels": [
           "needs-ok-to-test"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18025,7 +18085,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -18039,6 +18099,30 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-11-10T05:29:15Z"
+      },
+      {
+        "number": 18636,
+        "repo": "rook/rook",
+        "org": "rook",
+        "title": "csi: enable selinux host mount in openshift example",
+        "url": "https://github.com/rook/rook/pull/18636",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 13,
+        "updatedAt": "2026-11-10T21:34:50Z"
       },
       {
         "number": 10798,
@@ -18108,30 +18192,6 @@
         "reason": "hold",
         "waitingDays": 12,
         "updatedAt": "2026-11-11T12:34:50Z"
-      },
-      {
-        "number": 18636,
-        "repo": "rook/rook",
-        "org": "rook",
-        "title": "csi: enable selinux host mount in openshift example",
-        "url": "https://github.com/rook/rook/pull/18636",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 12,
-        "updatedAt": "2026-11-10T21:34:50Z"
       },
       {
         "number": 10281,
@@ -18601,6 +18661,35 @@
         "updatedAt": "2026-11-19T02:10:07Z"
       },
       {
+        "number": 2371,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "docs: AllNamespaces install mode design proposal",
+        "url": "https://github.com/openshift/oadp-operator/pull/2371",
+        "targetBranch": "oadp-dev",
+        "author": "Joeavaikath",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "lifecycle/stale",
+          "approved"
+        ],
+        "mergeStateStatus": "UNKNOWN",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 3,
+        "updatedAt": "2026-11-20T21:56:45Z"
+      },
+      {
         "number": 2255,
         "repo": "storytold/craft-anything",
         "org": "storytold",
@@ -18652,35 +18741,6 @@
         "reason": "awaitingReview",
         "waitingDays": 2,
         "updatedAt": "2026-11-21T08:30:44Z"
-      },
-      {
-        "number": 2371,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "docs: AllNamespaces install mode design proposal",
-        "url": "https://github.com/openshift/oadp-operator/pull/2371",
-        "targetBranch": "oadp-dev",
-        "author": "Joeavaikath",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "lifecycle/stale",
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 2,
-        "updatedAt": "2026-11-20T21:56:45Z"
       },
       {
         "number": 118214,
@@ -19267,6 +19327,38 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 60,
+        "updatedAt": "2026-09-24T21:55:00Z"
+      },
+      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -19324,38 +19416,6 @@
         "reason": "pendingMerge",
         "waitingDays": 59,
         "updatedAt": "2026-09-25T17:03:37Z"
-      },
-      {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 59,
-        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -19573,7 +19633,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 34,
+        "waitingDays": 35,
         "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
@@ -19732,6 +19792,36 @@
         "updatedAt": "2026-10-23T00:43:31Z"
       },
       {
+        "number": 182,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Update auto-request-review action to v0.13.0",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182",
+        "targetBranch": "oadp-1.4",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 31,
+        "updatedAt": "2026-10-23T22:09:08Z"
+      },
+      {
         "number": 56,
         "repo": "openshift/agentic-skills",
         "org": "openshift",
@@ -19762,36 +19852,6 @@
         "reason": "pendingMerge",
         "waitingDays": 30,
         "updatedAt": "2026-10-23T22:16:54Z"
-      },
-      {
-        "number": 182,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Update auto-request-review action to v0.13.0",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182",
-        "targetBranch": "oadp-1.4",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "sseago"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 30,
-        "updatedAt": "2026-10-23T22:09:08Z"
       },
       {
         "number": 18725,
@@ -20057,7 +20117,7 @@
         "labels": [
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20217,7 +20277,7 @@
           "size:M",
           "takeover:blocked"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
