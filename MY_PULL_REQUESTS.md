@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-23 12:16:00 UTC
+> Last updated: 2026-11-23 13:11:38 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -174,6 +174,7 @@ No open PRs.
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
+- [![PR #219](https://img.shields.io/badge/PR%20%23219-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch
 - [![PR #2254](https://img.shields.io/badge/PR%20%232254-ready-green)](https://github.com/storytold/craft-anything/pull/2254) **storytold/craft-anything** → `main` - Say `rustup default stable` when rustup is on the computer without a toolchain (R2.9)
 - [![PR #2255](https://img.shields.io/badge/PR%20%232255-ready-green)](https://github.com/storytold/craft-anything/pull/2255) **storytold/craft-anything** → `main` - Show a model change as pending in Settings while its save waits
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273) **kaovilai/cephcsi-cbt-e2e** → `main` - [doc-sync] Sync Velero rollback and data mover status with upstream
@@ -184,7 +185,7 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #219](https://img.shields.io/badge/PR%20%23219-ci--pending-yellow)](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch
+- [![PR #98](https://img.shields.io/badge/PR%20%2398-ready-green)](https://github.com/kaovilai/kaovilai/pull/98) **kaovilai/kaovilai** → `main` - Generate every platform cover from one layout engine
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
