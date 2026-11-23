@@ -1,12 +1,13 @@
 # Branding art generators
 
 Source for `assets/profile/openshift-velero-border.svg`, `assets/linkedin/header-1584x396.svg`,
-`assets/profile/profile-square.svg` and the `exports/*.png` rasters.
+`assets/profile/profile-square.svg`, `assets/x/header-1500x500.svg` and the `exports/*.png` rasters.
 
 ```
 python3 build.py            # index.html demo + assets/profile/openshift-velero-border.svg (from border.template.svg)
 python3 gen_linkedin.py     # linkedin-header.svg   -> copy to assets/linkedin/header-1584x396.svg
 python3 gen_square.py       # profile-square.svg    -> copy to assets/profile/profile-square.svg
+python3 gen_x.py            # x-header.svg         -> copy to assets/x/header-1500x500.svg
 ```
 
 Rasters (PNG) need a renderer, e.g.:
