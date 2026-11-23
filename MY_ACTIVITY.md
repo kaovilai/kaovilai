@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-25 — 2026-11-23
-> **Generated:** 2026-11-23 12:14:19 UTC
+> **Generated:** 2026-11-23 13:10:41 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -146,6 +146,9 @@
 - [#66 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (85)
+- [#98 Generate every platform cover from one layout engine](https://github.com/kaovilai/kaovilai/pull/98) — kaovilai/kaovilai
+- [#97 Add X header (1500x500)](https://github.com/kaovilai/kaovilai/pull/97) — kaovilai/kaovilai
+- [#96 Add Facebook cover (missed the #95 merge)](https://github.com/kaovilai/kaovilai/pull/96) — kaovilai/kaovilai
 - [#95 Add OpenShift × Velero banner and LinkedIn header artwork](https://github.com/kaovilai/kaovilai/pull/95) — kaovilai/kaovilai
 - [#664 Cap rewritten limit resets at 1h; classify EnMaaS quota codes](https://github.com/kaovilai/dotfiles/pull/664) — kaovilai/dotfiles
 - [#2255 Show a model change as pending in Settings while its save waits](https://github.com/storytold/craft-anything/pull/2255) — storytold/craft-anything
@@ -228,19 +231,16 @@
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
 - [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
-- [#646 docs: hosted-only reviewer note post-merge touch-ups](https://github.com/kaovilai/dotfiles/pull/646) — kaovilai/dotfiles
-- [#645 feat(menubar): show reroutes and errors in the floating window header](https://github.com/kaovilai/dotfiles/pull/645) — kaovilai/dotfiles
-- [#644 docs: add hosted-only GHA reviewer note](https://github.com/kaovilai/dotfiles/pull/644) — kaovilai/dotfiles
 ## PRs Reviewed (46)
 
 **velero-io** (34)
+- [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10880 [1.19] Issue 10839: remove the pod name when PVB is for a PVC](https://github.com/velero-io/velero/pull/10880) — velero-io/velero
 - [#10629 Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10629) — velero-io/velero
 - [#10595 Improve schedule validation errors with actionable cron guidance](https://github.com/velero-io/velero/pull/10595) — velero-io/velero
 - [#10858 fix(controller): honor caller context when marking PVB/PVR as failed](https://github.com/velero-io/velero/pull/10858) — velero-io/velero
-- [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
 - [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
 - [#343 [release-1.15] Bump Velero to v1.19.0](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/343) — velero-io/velero-plugin-for-microsoft-azure
