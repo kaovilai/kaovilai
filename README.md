@@ -1,8 +1,12 @@
 <div align="center">
 
 <picture>
+  <img alt="Tiger Kaovilai — Velero maintainer and OADP engineer at Red Hat, shielding Kubernetes and OpenShift workloads with a Velero shield" src="assets/linkedin/header-1584x396.svg" width="100%">
+</picture>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
-  <img alt="Tiger Kaovilai — Velero maintainer and OADP engineer at Red Hat, with live PR totals" src="assets/profile/hero-light.svg" width="100%">
+  <img alt="Live pull request totals from my public history" src="assets/profile/hero-light.svg" width="100%">
 </picture>
 
 <picture>

@@ -190,7 +190,7 @@ def hero(t, s):
         "Cloud-native data protection for Kubernetes",
     ]
     phrase_svg = "\n".join(
-        f'<text class="phrase p{i}" x="48" y="146" font-size="22" style="animation-delay:-{13 - 4 * i}s">{escape(p)}</text>'
+        f'<text class="phrase p{i}" x="48" y="118" font-size="24" style="animation-delay:-{13 - 4 * i}s">{escape(p)}</text>'
         for i, p in enumerate(phrases)
     )
     chips = [
@@ -215,7 +215,6 @@ def hero(t, s):
     {''.join(dots)}
     {live}
     <text class="mono muted" x="48" y="50" font-size="13">~/kaovilai $ <tspan class="cursor" style="fill:{t['accent2']}">whoami</tspan></text>
-    <text x="46" y="108" font-size="50" font-weight="800" letter-spacing="-1">Tiger Kaovilai</text>
     {phrase_svg}
     {''.join(chip_svg)}"""
     css = f"""

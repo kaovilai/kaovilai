@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" font-family="Red Hat Display, Helvetica, Arial, sans-serif" role="img" aria-label="kaovilai — openshift × velero">
+  <defs>
+  <style>
+    .wv-a { animation: wvA 18s linear infinite; }
+    .wv-b { animation: wvB 26s linear infinite reverse; }
+    .march { animation: march 6s linear infinite; }
+    .ring-sway { transform-box: fill-box; transform-origin: center; animation: sway 12s ease-in-out infinite; }
+    @keyframes wvA { from { transform: translateX(0); } to { transform: translateX(-260px); } }
+    @keyframes wvB { from { transform: translateX(0); } to { transform: translateX(260px); } }
+    @keyframes march { to { stroke-dashoffset: -480; } }
+    @keyframes sway { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .wv-a, .wv-b, .march, .ring-sway { animation: none; }
+    }
+  </style>
+    <radialGradient id="bg" cx="0.18" cy="0" r="1.4">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </radialGradient>
+    <radialGradient id="aura" cx="0.15" cy="0.02" r="0.6">
+      <stop offset="0" stop-color="#ee0000" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ee0000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ee0000"/>
+      <stop offset="1" stop-color="#239de0"/>
+    </linearGradient>
+    <symbol id="ring" viewBox="0 0 38 38">@@RING_PATHS@@</symbol>
+    <symbol id="vel" viewBox="0 0 1080 1080">@@VEL_PATHS_LIT@@</symbol>
+    <clipPath id="face"><circle cx="196" cy="180" r="50"/></clipPath>
+    <filter id="rglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <mask id="velcut" maskUnits="userSpaceOnUse" x="-110" y="-110" width="220" height="220">
+      <g transform="translate(-100,-100) scale(0.185185)">
+        <g fill="#fff">@@VEL_INK@@</g>
+        <g fill="#000" stroke="#000" stroke-width="9" stroke-linejoin="round">@@VEL_CUT@@</g>
+      </g>
+    </mask>
+    <pattern id="wvA" width="260" height="400" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="#239de0" stroke-width="18" d="M-260,33 Q-195,11 -130,33 T0,33 T130,33 T260,33 T390,33"/>
+        <path stroke="#1d428a" stroke-width="18" d="M-260,100 Q-195,78 -130,100 T0,100 T130,100 T260,100 T390,100"/>
+        <path stroke="#239de0" stroke-width="18" d="M-260,167 Q-195,145 -130,167 T0,167 T130,167 T260,167 T390,167"/>
+        <path stroke="#1d428a" stroke-width="18" d="M-260,233 Q-195,211 -130,233 T0,233 T130,233 T260,233 T390,233"/>
+        <path stroke="#239de0" stroke-width="18" d="M-260,300 Q-195,278 -130,300 T0,300 T130,300 T260,300 T390,300"/>
+        <path stroke="#1d428a" stroke-width="18" d="M-260,366 Q-195,344 -130,366 T0,366 T130,366 T260,366 T390,366"/>
+      </g>
+    </pattern>
+    <pattern id="wvB" width="260" height="400" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".3">
+        <path stroke="#7fd4e4" stroke-width="8" d="M-260,66 Q-195,50 -130,66 T0,66 T130,66 T260,66 T390,66"/>
+        <path stroke="#7fd4e4" stroke-width="8" d="M-260,200 Q-195,184 -130,200 T0,200 T130,200 T260,200 T390,200"/>
+        <path stroke="#7fd4e4" stroke-width="8" d="M-260,333 Q-195,317 -130,333 T0,333 T130,333 T260,333 T390,333"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- card + animated gradient border -->
+  <rect x="4" y="4" width="1272" height="352" rx="20" fill="url(#bg)"/>
+  <rect x="4" y="4" width="1272" height="352" rx="20" fill="url(#aura)"/>
+  <rect x="4" y="4" width="1272" height="352" rx="20" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+
+
+  <!-- cutout: velero stripes as windows onto moving waves -->
+  <g transform="translate(196,180)">
+    <g mask="url(#velcut)">
+      <g class="wv-a"><rect x="-380" y="-110" width="760" height="220" fill="url(#wvA)"/></g>
+      <g class="wv-b"><rect x="-380" y="-110" width="760" height="220" fill="url(#wvB)"/></g>
+    </g>
+    <!-- openshift ring on top of the water, pivoting on its hole -->
+    <g class="ring-sway">
+      <svg viewBox="5.98 6.08 26 26" x="-90.3" y="-90.3" width="180.6" height="180.6">@@RING_PATHS@@</svg>
+    </g>
+  </g>
+  <!-- face in the middle -->
+  <image x="146" y="130" width="100" height="100" href="data:image/jpeg;base64,@@AVATAR@@" clip-path="url(#face)"/>
+  <circle cx="196" cy="180" r="52.25" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.5"/>
+
+  <!-- tagline only: the README hero directly above already carries the name -->
+  <g transform="translate(372,182) scale(0.026,-0.026)" fill="#e6edf3">@@TX_BN_SUB1@@</g>
+  <g transform="translate(372,222) scale(0.026,-0.026)" fill="#8b949e">@@TX_BN_SUB2@@</g>
+
+  <!-- corner marks -->
+  <svg viewBox="5.98 6.08 26 26" x="1188" y="44" width="48" height="48">@@RING_PATHS@@</svg>
+  <use href="#vel" x="1192" y="236" width="44" height="44"/>
+</svg>
