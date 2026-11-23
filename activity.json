@@ -3,15 +3,24 @@
     "start": "2026-08-25",
     "end": "2026-11-23"
   },
-  "generatedAt": "2026-11-23T00:31:47Z",
+  "generatedAt": "2026-11-23T06:27:03Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
     "prsReviewed": 35,
     "issuesCommented": 100,
-    "issuesClosed": 90
+    "issuesClosed": 91
   },
   "prsMerged": [
+    {
+      "number": 10794,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enable TLS for MinIO in the kind E2E workflow",
+      "url": "https://github.com/velero-io/velero/pull/10794",
+      "date": "2026-11-23T02:47:53Z",
+      "workstream": "Velero"
+    },
     {
       "number": 663,
       "repo": "kaovilai/dotfiles",
@@ -902,18 +911,18 @@
       "url": "https://github.com/kaovilai/github-bot-command-palette/pull/210",
       "date": "2026-11-10T15:16:44Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "claude-code plugin: connect the MCP entry to the shared daemon over HTTP",
-      "url": "https://github.com/kaovilai/context-mode/pull/10",
-      "date": "2026-11-10T15:15:38Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 664,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Cap rewritten limit resets at 1h; classify EnMaaS quota codes",
+      "url": "https://github.com/kaovilai/dotfiles/pull/664",
+      "date": "2026-11-23T04:35:53Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10877,
       "repo": "velero-io/velero",
@@ -936,7 +945,7 @@
       "number": 89243,
       "repo": "openshift/release",
       "org": "openshift",
-      "title": "OADP: tide query for rebasebot-app PRs (cve-bot label)",
+      "title": "OADP: tide query for rebasebot-app PRs (oadp-bot label)",
       "url": "https://github.com/openshift/release/pull/89243",
       "date": "2026-11-22T18:43:40Z",
       "workstream": "Uncategorized"
@@ -1804,18 +1813,72 @@
       "url": "https://github.com/kaovilai/podm/pull/28",
       "date": "2026-11-10T23:49:13Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 27,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(libpod): podman local secrets — create/ls/inspect/exists/rm",
-      "url": "https://github.com/kaovilai/podm/pull/27",
-      "date": "2026-11-10T17:15:37Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10677,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Modern backup format design",
+      "url": "https://github.com/velero-io/velero/pull/10677",
+      "date": "2026-11-23T06:14:18Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10866,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(maintenance): propagate caller context in maintenance job helpers",
+      "url": "https://github.com/velero-io/velero/pull/10866",
+      "date": "2026-11-23T06:13:06Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 166,
+      "repo": "openshift/velero-plugin-for-microsoft-azure",
+      "org": "openshift",
+      "title": "Add PrasadJoshi12 as approver and reviewer",
+      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166",
+      "date": "2026-11-23T06:11:42Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10870,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
+      "url": "https://github.com/velero-io/velero/pull/10870",
+      "date": "2026-11-23T06:08:35Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10865,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(controller): use request context when fetching BSL in backup deletion",
+      "url": "https://github.com/velero-io/velero/pull/10865",
+      "date": "2026-11-23T06:06:31Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10867,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202",
+      "url": "https://github.com/velero-io/velero/pull/10867",
+      "date": "2026-11-23T03:40:30Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10853,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Remove the useless cases for retained PV",
+      "url": "https://github.com/velero-io/velero/pull/10853",
+      "date": "2026-11-23T02:52:19Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10654,
       "repo": "velero-io/velero",
@@ -1835,30 +1898,12 @@
       "workstream": "Velero"
     },
     {
-      "number": 10867,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202",
-      "url": "https://github.com/velero-io/velero/pull/10867",
-      "date": "2026-11-22T18:01:26Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10868,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202",
       "url": "https://github.com/velero-io/velero/pull/10868",
       "date": "2026-11-22T17:50:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 166,
-      "repo": "openshift/velero-plugin-for-microsoft-azure",
-      "org": "openshift",
-      "title": "Add PrasadJoshi12 as approver and reviewer",
-      "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166",
-      "date": "2026-11-22T01:31:51Z",
       "workstream": "Velero"
     },
     {
@@ -1877,24 +1922,6 @@
       "title": "Revert \"e2e: verify the restore in the VolumeGroupSnapshot case\"",
       "url": "https://github.com/velero-io/velero/pull/10861",
       "date": "2026-11-21T12:40:45Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10677,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Modern backup format design",
-      "url": "https://github.com/velero-io/velero/pull/10677",
-      "date": "2026-11-20T18:46:16Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10853,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Remove the useless cases for retained PV",
-      "url": "https://github.com/velero-io/velero/pull/10853",
-      "date": "2026-11-20T18:16:07Z",
       "workstream": "Velero"
     },
     {
@@ -2103,36 +2130,63 @@
       "url": "https://github.com/velero-io/velero/pull/10670",
       "date": "2026-11-13T12:52:38Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10667,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Issue #10648: Retry transient errors when starting a backup or restore",
-      "url": "https://github.com/velero-io/velero/pull/10667",
-      "date": "2026-11-12T06:24:30Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10796,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add a velero_backup_active metric",
-      "url": "https://github.com/velero-io/velero/pull/10796",
-      "date": "2026-11-12T04:20:25Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 2535,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0",
-      "url": "https://github.com/openshift/oadp-operator/pull/2535",
-      "date": "2026-11-12T03:31:37Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10871,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Revisit default values for concurrent-backups and item-block-worker-count",
+      "url": "https://github.com/velero-io/velero/issues/10871",
+      "date": "2026-11-23T06:14:53Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10873,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Expose object storage transport tuning options for repository blob storage",
+      "url": "https://github.com/velero-io/velero/issues/10873",
+      "date": "2026-11-23T05:43:24Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10875,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Shared warm repository cache volume per BackupRepository, refreshed by maintenance jobs",
+      "url": "https://github.com/velero-io/velero/issues/10875",
+      "date": "2026-11-23T03:38:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 7728,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Enable TLS for MinIO in nightly E2E test",
+      "url": "https://github.com/velero-io/velero/issues/7728",
+      "date": "2026-11-23T02:47:55Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 956,
+      "repo": "SecKatie/ha-wyzeapi",
+      "org": "SecKatie",
+      "title": "[Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)",
+      "url": "https://github.com/SecKatie/ha-wyzeapi/issues/956",
+      "date": "2026-11-23T01:36:54Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10590,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
+      "url": "https://github.com/openshift/installer/issues/10590",
+      "date": "2026-11-23T01:00:56Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10265,
       "repo": "velero-io/velero",
@@ -2149,15 +2203,6 @@
       "title": "Tracking Out of Date Golang Versions",
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-22T14:09:32Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 956,
-      "repo": "SecKatie/ha-wyzeapi",
-      "org": "SecKatie",
-      "title": "[Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)",
-      "url": "https://github.com/SecKatie/ha-wyzeapi/issues/956",
-      "date": "2026-11-22T02:36:55Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2987,54 +3032,18 @@
       "url": "https://github.com/pingdotgg/t3code/issues/16992",
       "date": "2026-10-21T11:48:23Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 245,
-      "repo": "pkg/errors",
-      "org": "pkg",
-      "title": "Package errors looking for new maintainers",
-      "url": "https://github.com/pkg/errors/issues/245",
-      "date": "2026-10-20T17:00:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 438,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "Add regex support for branch matching in Tide status controller",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/438",
-      "date": "2026-10-20T02:25:57Z",
-      "workstream": "Kubernetes"
-    },
-    {
-      "number": 3314,
-      "repo": "kubernetes/enhancements",
-      "org": "kubernetes",
-      "title": "CSI Differential Snapshot for Block Volumes",
-      "url": "https://github.com/kubernetes/enhancements/issues/3314",
-      "date": "2026-10-19T02:10:29Z",
-      "workstream": "Kubernetes"
-    },
-    {
-      "number": 10627,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Allow Multiple Key Properties",
-      "url": "https://github.com/velero-io/velero/issues/10627",
-      "date": "2026-10-15T23:31:45Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 9109,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Add comprehensive make target for E2E testing with MinIO setup and fresh builds",
-      "url": "https://github.com/velero-io/velero/issues/9109",
-      "date": "2026-10-14T12:19:57Z",
-      "workstream": "Velero"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 10875,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Shared warm repository cache volume per BackupRepository, refreshed by maintenance jobs",
+      "url": "https://github.com/velero-io/velero/issues/10875",
+      "date": "2026-11-23T03:38:29Z",
+      "workstream": "Velero"
+    },
     {
       "number": 287,
       "repo": "OpenPetsHQ/openpets",
