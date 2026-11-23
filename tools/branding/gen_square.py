@@ -9,7 +9,7 @@ RED, BLUE, DEEP, NAVY = '#ee0000', '#239de0', '#041a2c', '#062238'
 CYAN = '#00c1d5'
 CX, CY = 540, 540
 FACE_R = 300          # face circle
-RING_BOX = 860        # OpenShift glyph box (hole-centred crop)
+RING_BOX = 1020       # OpenShift glyph box: arcs (r 9/26) land at ~353px, clear of the 300px face
 
 
 def ring_glyph_paths():
