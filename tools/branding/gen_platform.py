@@ -47,7 +47,7 @@ PRESETS = {
         out='assets/facebook/cover-1640x856.svg',
         desc='Facebook cover: 16:9 desktop crops 59px off each side, 2.4:1 mobile keeps the central band'),
     'youtube': dict(
-        W=2560, H=1440, box=(507, 2053, 508, 932),
+        W=2560, H=1440, box=(507, 2053, 508, 932), figure=True, ray_run=.45,
         out='assets/youtube/banner-2560x1440.svg',
         desc='YouTube banner: TV/desktop/mobile all show the central 1546x423 safe area'),
 }
@@ -59,7 +59,8 @@ K = dict(
     name_dy=-.15, sub_dy=-.025, cap_dy=.115,
     pod=.126, pod_gap=.30, pod_dy=.30,
     contact_dx=.92, contact_dy=-.23,
-    head_dx=-.62, head_dy=-.06, head_r=.116,
+    head_dx=-.62, head_dy=-.10, head_r=.112,
+    ray_run=.24,          # canvas kept clear right of the shield for the beams
     pad=.02,               # box padding for text starts
 )
 
@@ -70,7 +71,7 @@ def layout(p):
     cy = (y0 + y1) / 2
     L = dict(W=p['W'], H=p['H'], bh=bh, cy=cy, y0=y0, y1=y1, x0=x0)
     L['R'] = K['shield_r'] * bh
-    L['shx'] = x1 - L['R'] - .01 * p['W']
+    L['shx'] = x1 - L['R'] - p.get('ray_run', K['ray_run']) * bh
     L['shy'] = cy
     L['tx'] = x0 + K['pad'] * p['W']
     L['name_sz'] = K['name'] * bh
@@ -171,19 +172,26 @@ def shield(L):
 </g>'''
 
 
-def rays(L, W):
+def rays(L):
+    """Beams defined by ANGLE through the contact point, so every canvas gets the
+    same slopes; the canvas edge only decides how much of each beam is visible."""
     tx, ty = L['contact']
-    bh, y0 = L['bh'], L['y0']
-    starts = [(W, y0 - .13 * bh, .55, 3.4), (W, y0 + .21 * bh, .50, 4.2),
-              (W, y0 + .63 * bh, .50, 3.8), (W - .02 * W, y0 + 1.03 * bh, .40, 4.6)]
+    bh, W = L['bh'], L['W']
+    reach = 2.4 * W
+    beams = [(38, .115, .55, 3.4), (14, .135, .50, 4.2),
+             (-9, .095, .50, 3.8), (-27, .070, .40, 4.6)]
     out = []
-    for sx, sy, op, dur in starts:
-        wdt = .095 * bh
+    for ang, wfrac, op, dur in beams:
+        a = math.radians(ang)
+        dx, dy = math.cos(a), -math.sin(a)          # unit vector away from contact
+        ex, ey = tx + dx * reach, ty + dy * reach   # far end (off-canvas)
+        wdt = wfrac * bh
+        px, py = -dy * wdt / 2, dx * wdt / 2        # perpendicular half-width
         out.append(f'''<g opacity="{op}">
-  <path d="M{sx:.0f},{sy:.0f} L{tx:.0f},{ty - wdt/2:.0f} L{tx:.0f},{ty + wdt/2:.0f} Z" fill="url(#dangerGrad)">
+  <path d="M{ex + px:.0f},{ey + py:.0f} L{tx:.0f},{ty:.0f} L{ex - px:.0f},{ey - py:.0f} Z" fill="url(#dangerGrad)">
     <animate attributeName="opacity" values="1;.55;1" dur="{dur}s" repeatCount="indefinite"/>
   </path>
-  <path d="M{sx:.0f},{sy:.0f} L{tx:.0f},{ty:.0f}" stroke="{WARN}" stroke-width="{max(2, wdt/7):.0f}" stroke-linecap="round"
+  <path d="M{ex:.0f},{ey:.0f} L{tx:.0f},{ty:.0f}" stroke="{WARN}" stroke-width="{max(2, wdt/7):.0f}" stroke-linecap="round"
         stroke-dasharray="16 30" opacity=".5">
     <animate attributeName="stroke-dashoffset" from="0" to="-184" dur="{dur}s" repeatCount="indefinite"/>
   </path>
@@ -236,16 +244,18 @@ def waves(L):
 
 
 def figure(L, avatar):
-    """Cloaked guardian raising the shield. Only where the crop model leaves room."""
+    """Cloaked guardian raising the shield. Only where the crop model leaves room.
+    Grounded at the band bottom (feet in the waves), since on YouTube the band is
+    the only part shown on desktop and mobile."""
     hx, hy, hr = L['head']
     s = hr / 42.0                      # drawing was tuned at a 42px head
-    H = L['H']
+    yb = L['y1'] + .04 * L['bh']       # ground line, just inside the wave rows
     sx, sy = hx + 44 * s, hy + 66 * s
     grip = (L['shx'] - L['R'] * .62, L['shy'] + L['R'] * .80)
-    cape = (f'M{hx-34*s:.0f},{hy+52*s:.0f} C{hx-110*s:.0f},{hy+92*s:.0f} {hx-150*s:.0f},{H-110:.0f} {hx-164*s:.0f},{H-8:.0f} '
-            f'L{hx+6*s:.0f},{H-8:.0f} C{hx+2*s:.0f},{H-120:.0f} {hx+16*s:.0f},{hy+96*s:.0f} {hx+34*s:.0f},{hy+52*s:.0f} Z')
-    body = (f'M{hx-40*s:.0f},{hy+62*s:.0f} C{hx-52*s:.0f},{hy+96*s:.0f} {hx-54*s:.0f},{H-150:.0f} {hx-52*s:.0f},{H-8:.0f} '
-            f'L{hx+50*s:.0f},{H-8:.0f} C{hx+52*s:.0f},{H-150:.0f} {hx+52*s:.0f},{hy+96*s:.0f} {hx+40*s:.0f},{hy+62*s:.0f} '
+    cape = (f'M{hx-34*s:.0f},{hy+52*s:.0f} C{hx-110*s:.0f},{hy+92*s:.0f} {hx-150*s:.0f},{yb-102*s:.0f} {hx-164*s:.0f},{yb:.0f} '
+            f'L{hx+6*s:.0f},{yb:.0f} C{hx+2*s:.0f},{yb-112*s:.0f} {hx+16*s:.0f},{hy+96*s:.0f} {hx+34*s:.0f},{hy+52*s:.0f} Z')
+    body = (f'M{hx-40*s:.0f},{hy+62*s:.0f} C{hx-52*s:.0f},{hy+96*s:.0f} {hx-54*s:.0f},{yb-134*s:.0f} {hx-52*s:.0f},{yb:.0f} '
+            f'L{hx+50*s:.0f},{yb:.0f} C{hx+52*s:.0f},{yb-134*s:.0f} {hx+52*s:.0f},{hy+96*s:.0f} {hx+40*s:.0f},{hy+62*s:.0f} '
             f'C{hx+22*s:.0f},{hy+46*s:.0f} {hx-22*s:.0f},{hy+46*s:.0f} {hx-40*s:.0f},{hy+62*s:.0f} Z')
     return f'''<g>
   <path d="{cape}" fill="#060f16"/>
@@ -316,7 +326,7 @@ def scene(p):
   <ellipse cx="{(L['x0'] + L['shx'])/2:.0f}" cy="{L['y1']:.0f}" rx="{L['bh']*1.9:.0f}" ry="{L['bh']*.82:.0f}" fill="url(#safeGlow)"/>
   {stars(W, H)}
 
-  {rays(L, W)}
+  {rays(L)}
 
   {text_group(tx['li_name']['body'], L['tx'], L['name_y'], L['name_sz'], NAME_INK)}
   {text_group(tx['li_sub']['body'], L['tx'] + 2, L['sub_y'], L['sub_sz'], SUB_INK)}

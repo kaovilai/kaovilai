@@ -26,8 +26,12 @@ means adding one preset; no layout code changes.
 | `youtube` | 2560x1440 | x 507–2053, y 508–932 | TV/desktop/mobile all show the central 1546x423 area |
 
 Scene ratios live in `K` (all relative to safe-box height), so every platform
-gets the same shield/name/pod proportions. `figure=True` adds the cloaked
-guardian (LinkedIn only — other crops leave no room).
+gets the same shield/name/pod proportions. Danger rays are defined by ANGLE
+through the shield contact point, so every canvas gets identical beam slopes;
+`ray_run` (a `K` ratio, overridable per preset) keeps room right of the shield
+for them to show. `figure=True` adds the cloaked guardian (LinkedIn and
+YouTube; X and Facebook crops leave no body room). The figure is grounded at
+the band bottom because on YouTube only the central band is displayed.
 
 Rasters (PNG) need a renderer, e.g.:
 
