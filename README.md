@@ -11,8 +11,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/openshift-velero-border.svg">
-  <img alt="Animated banner: the Velero mark cut out and filled with moving waves, an OpenShift ring of red arcs and white dashes around a profile photo, on navy" src="assets/profile/openshift-velero-border.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/openshift-velero-border-dark.svg">
+  <img alt="Animated banner: the Velero mark cut out and filled with moving waves, an OpenShift ring of red arcs and dash ticks around a profile photo" src="assets/profile/openshift-velero-border-light.svg" width="100%">
 </picture>
 
 [Website](https://www.kaovilai.pw) · [LinkedIn](https://www.linkedin.com/in/kaovilai/) · [Resume](https://resume.kaovilai.pw/) · [My Pull Requests](MY_PULL_REQUESTS.md) · [My Issues](MY_ISSUES.md) · [My Activity](MY_ACTIVITY.md) · [Workstream timeline](https://github.tig.pw/kaovilai/workstream/)

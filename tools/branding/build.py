@@ -104,7 +104,17 @@ def main():
               .replace('@@VEL_CUT@@', vel_cut)
               .replace('@@AVATAR@@', avatar))
     open('kaovilai-border.svg', 'w').write(svg)
-    print('index.html', len(html), 'bytes; kaovilai-border.svg', len(svg), 'bytes')
+
+    # light-scheme twin for README <picture> parity with hero/ticker assets
+    light = (svg.replace('#062238', '#ffffff')
+                .replace('#041a2c', '#f6f8fa')
+                .replace('fill="#ffffff"', 'fill="#1f2328"')
+                .replace('stroke="#ffffff"', 'stroke="#1f2328"')
+                .replace('stroke-opacity="0.8"', 'stroke-opacity="0.3"')
+                .replace('#8fb4c6', '#59636e')
+                .replace('#00c1d5', '#239de0'))
+    open('kaovilai-border-light.svg', 'w').write(light)
+    print('index.html', len(html), 'bytes; dark', len(svg), 'light', len(light))
 
 
 if __name__ == '__main__':
