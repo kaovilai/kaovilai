@@ -33,10 +33,11 @@ for them to show. `figure=True` adds the cloaked guardian (LinkedIn and
 YouTube; X and Facebook crops leave no body room). The figure is grounded at
 the band bottom because on YouTube only the central band is displayed.
 
-Rasters (PNG) need a renderer, e.g.:
+Rasters (PNG) need a renderer, and `gen_gif.py` needs both packages below
+(resvg-py renders the frames, Pillow assembles them):
 
 ```
-python3 -m pip install resvg-py
+python3 -m pip install resvg-py pillow
 python3 -c "import resvg_py; open('exports/x-header-1500x500.png','wb').write(
     resvg_py.svg_to_bytes(svg_path='out/header-1500x500.svg', width=1500, height=500, background='#041a2c'))"
 ```

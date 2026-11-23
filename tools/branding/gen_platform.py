@@ -8,7 +8,7 @@ adding a preset; nothing else changes.
 
 Run from a directory that has the local-only inputs:
   assets/fonts/paths.json, assets/velero/icon-color.svg, assets/avatar/kaovilai.jpg
-  (see tools/branding/README.md), then copy the written assets/*/*.svg into the repo.
+  (see tools/branding/README.md), then copy the written out/*.svg into assets/.
 """
 import base64
 import json
