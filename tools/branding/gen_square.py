@@ -9,7 +9,7 @@ RED, BLUE, DEEP, NAVY = '#ee0000', '#239de0', '#041a2c', '#062238'
 CYAN = '#00c1d5'
 CX, CY = 540, 540
 FACE_R = 300          # face circle
-RING_BOX = 1020       # OpenShift glyph box: arcs (r 9/26) land at ~353px, clear of the 300px face
+RING_BOX = 1083       # ring box: arc mid r = 1.25 x FACE_R (375px); shared ratio across all assets
 
 
 def ring_glyph_paths():
@@ -62,7 +62,7 @@ def main():
   <svg viewBox="5.98 6.08 26 26" x="{CX - half:.0f}" y="{CY - half:.0f}" width="{RING_BOX}" height="{RING_BOX}">{glyph}</svg>
 
   <!-- face -->
-  <circle cx="{CX}" cy="{CY}" r="{FACE_R + 14}" fill="#0a2233" stroke="{CYAN}" stroke-width="6"/>
+  <circle cx="{CX}" cy="{CY}" r="{FACE_R * 1.045:.1f}" fill="#0a2233" stroke="{CYAN}" stroke-width="6"/>
   <image href="data:image/jpeg;base64,{avatar}" x="{CX - FACE_R}" y="{CY - FACE_R}"
          width="{2 * FACE_R}" height="{2 * FACE_R}" clip-path="url(#face)"/>
   <circle cx="{CX}" cy="{CY}" r="{FACE_R}" fill="none" stroke="#ffffff" stroke-opacity=".8" stroke-width="5"/>

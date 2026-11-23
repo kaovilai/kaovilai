@@ -10,7 +10,7 @@ W, H = 1584, 396
 RED, BLUE, DEEP, NAVY = '#ee0000', '#239de0', '#041a2c', '#062238'
 CYAN, WARN, INK = '#00c1d5', '#f0ab00', '#0b1622'
 
-SH_X, SH_Y, SH_R = 1130, 150, 118
+SH_X, SH_Y, SH_R = 1155, 150, 118   # shifted right so the raised arm reads between head ring and shield
 CONTACT = (SH_X + 115, SH_Y - 26)   # shield rim, right side
 HEAD_X, HEAD_Y, HEAD_R = 950, 176, 42
 SHOULDER = (HEAD_X + 20, HEAD_Y + 76)
@@ -166,6 +166,26 @@ def shield():
 </g>'''
 
 
+
+
+RATIO_ARC = 1.25          # arc mid radius / face radius (shared with banner + square)
+RATIO_RIM = 1.045         # rim radius / face radius
+
+
+def os_ring(cx, cy, face_r):
+    """Inlined technology-icon glyph, hole-centred on the head, CSS-swayed later."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('b', 'build.py')
+    b = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(b)
+    box = face_r * RATIO_ARC * 26 / 9
+    return (f'<g transform="translate({cx},{cy})">'
+            f'<animateTransform attributeName="transform" type="rotate" values="-10;10;-10" '
+            f'keyTimes="0;0.5;1" dur="12s" repeatCount="indefinite" additive="sum"/>'
+            f'<svg viewBox="5.98 6.08 26 26" x="{-box/2:.1f}" y="{-box/2:.1f}" '
+            f'width="{box:.1f}" height="{box:.1f}">{b.ring_paths()}</svg></g>')
+
+
 def character(avatar):
     sx, sy = 996, 244
     cx0 = HEAD_X
@@ -188,7 +208,7 @@ def character(avatar):
         stroke-width="25" stroke-linecap="round"/>
   <line x1="{sx}" y1="{sy}" x2="{GRIP[0]:.0f}" y2="{GRIP[1]:.0f}" stroke="#1b4f70"
         stroke-width="1.4" stroke-linecap="round" opacity=".6"/>
-  <circle cx="{HEAD_X}" cy="{HEAD_Y}" r="{HEAD_R+9}" fill="#0a2233" stroke="{CYAN}" stroke-width="2.4"/>
+  <circle cx="{HEAD_X}" cy="{HEAD_Y}" r="{HEAD_R * RATIO_RIM:.1f}" fill="#0a2233" stroke="{CYAN}" stroke-width="2.4"/>
   <image href="{avatar}" x="{HEAD_X-HEAD_R}" y="{HEAD_Y-HEAD_R}" width="{2*HEAD_R}" height="{2*HEAD_R}" clip-path="url(#headClip)"/>
   <circle cx="{HEAD_X}" cy="{HEAD_Y}" r="{HEAD_R}" fill="none" stroke="{CYAN}" stroke-width="1.5" opacity=".75"/>
 </g>'''
@@ -243,6 +263,7 @@ def main():
   {pod(750, 258, 48, icon_config(), tx['li_cfg']['body'], tx['li_cfg']['width']*0.011)}
 
   {waves()}
+  {os_ring(HEAD_X, HEAD_Y, HEAD_R)}
   {character(avatar)}
   {shield()}
   {sparks()}
