@@ -76,10 +76,9 @@
   <image x="146" y="130" width="100" height="100" href="data:image/jpeg;base64,@@AVATAR@@" clip-path="url(#face)"/>
   <circle cx="196" cy="180" r="52.25" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.5"/>
 
-  <!-- wordmark (outlines: no font dependency) -->
-  <g transform="translate(368,203) scale(0.066,-0.066)" fill="#ffffff">@@TX_BN_NAME@@</g>
-  <g transform="translate(372,246) scale(0.02,-0.02)" fill="#8fb4c6">@@TX_BN_SUB1@@</g>
-  <g transform="translate(372,276) scale(0.02,-0.02)" fill="#8fb4c6">@@TX_BN_SUB2@@</g>
+  <!-- tagline only: the README hero directly above already carries the name -->
+  <g transform="translate(372,170) scale(0.026,-0.026)" fill="#eaf6fb">@@TX_BN_SUB1@@</g>
+  <g transform="translate(372,212) scale(0.026,-0.026)" fill="#eaf6fb">@@TX_BN_SUB2@@</g>
 
   <!-- corner marks -->
   <svg viewBox="5.98 6.08 26 26" x="1188" y="44" width="48" height="48">@@RING_PATHS@@</svg>
