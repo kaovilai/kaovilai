@@ -10,6 +10,11 @@
   <img alt="Scrolling ticker of recently merged pull requests" src="assets/profile/ticker-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/openshift-velero-border.svg">
+  <img alt="Animated banner: the Velero mark cut out and filled with moving waves, an OpenShift ring of red arcs and white dashes around a profile photo, on navy" src="assets/profile/openshift-velero-border.svg" width="100%">
+</picture>
+
 [Website](https://www.kaovilai.pw) · [LinkedIn](https://www.linkedin.com/in/kaovilai/) · [Resume](https://resume.kaovilai.pw/) · [My Pull Requests](MY_PULL_REQUESTS.md) · [My Issues](MY_ISSUES.md) · [My Activity](MY_ACTIVITY.md) · [Workstream timeline](https://github.tig.pw/kaovilai/workstream/)
 
 </div>
