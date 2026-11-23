@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:11:38Z",
+  "updatedAt": "2026-11-23T14:11:33Z",
   "prs": [
     {
       "number": 5,
@@ -14507,7 +14507,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-23T12:42:38Z",
+      "updatedAt": "2026-11-23T13:57:17Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -14806,41 +14806,6 @@
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 219,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/219",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-23T13:08:56Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "make test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ShellCheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Kopia version alignment",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SKIPPED"
         }
       ]
     },
@@ -15224,6 +15189,41 @@
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
+      "number": 219,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/219",
+      "targetBranch": "oadp-dev",
+      "status": "ci-pending",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [],
+      "updatedAt": "2026-11-23T14:09:57Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "make test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ShellCheck",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "Kopia version alignment",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": ""
         }
       ]
     },
@@ -16575,7 +16575,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-23T13:11:38Z",
+    "updatedAt": "2026-11-23T14:11:33Z",
     "needsReview": [
       {
         "number": 68,
@@ -17018,7 +17018,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17390,7 +17390,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17649,7 +17649,7 @@
           "size/XL",
           "area/tide"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18049,6 +18049,35 @@
         "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
+        "number": 504,
+        "repo": "openshift/openshift-velero-plugin",
+        "org": "openshift",
+        "title": "NO-JIRA: Group Go security updates in Dependabot",
+        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved",
+          "jira/valid-reference"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 14,
+        "updatedAt": "2026-11-09T13:57:21Z"
+      },
+      {
         "number": 2523,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -18102,35 +18131,6 @@
         "reason": "awaitingReview",
         "waitingDays": 13,
         "updatedAt": "2026-11-10T05:29:15Z"
-      },
-      {
-        "number": 504,
-        "repo": "openshift/openshift-velero-plugin",
-        "org": "openshift",
-        "title": "NO-JIRA: Group Go security updates in Dependabot",
-        "url": "https://github.com/openshift/openshift-velero-plugin/pull/504",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved",
-          "jira/valid-reference"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 13,
-        "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
         "number": 10798,
@@ -18378,7 +18378,7 @@
           "os/windows",
           "os/macos"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18576,6 +18576,36 @@
         "updatedAt": "2026-11-19T10:02:45Z"
       },
       {
+        "number": 198,
+        "repo": "migtools/udistribution",
+        "org": "migtools",
+        "title": "ci: fail on unformatted Go instead of pushing a format commit",
+        "url": "https://github.com/migtools/udistribution/pull/198",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "/ok-to-test",
+          "approved",
+          "ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 4,
+        "updatedAt": "2026-11-19T13:53:12Z"
+      },
+      {
         "number": 2555,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -18632,36 +18662,6 @@
         "reason": "awaitingReview",
         "waitingDays": 4,
         "updatedAt": "2026-11-19T02:10:07Z"
-      },
-      {
-        "number": 198,
-        "repo": "migtools/udistribution",
-        "org": "migtools",
-        "title": "ci: fail on unformatted Go instead of pushing a format commit",
-        "url": "https://github.com/migtools/udistribution/pull/198",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "/ok-to-test",
-          "approved",
-          "ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-19T13:53:12Z"
       },
       {
         "number": 2519,
@@ -18941,7 +18941,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-23T13:08:56Z"
+        "updatedAt": "2026-11-23T14:09:57Z"
       },
       {
         "number": 80,
@@ -19168,7 +19168,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 93,
+        "waitingDays": 94,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -20101,7 +20101,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-11-02T14:06:28Z"
       },
       {
@@ -20320,7 +20320,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 3,
+        "waitingDays": 4,
         "updatedAt": "2026-11-19T13:52:00Z"
       },
       {
