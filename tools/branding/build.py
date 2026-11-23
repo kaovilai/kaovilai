@@ -95,8 +95,7 @@ def main():
 
     tx = json.load(open('assets/fonts/paths.json'))
     svg = open('border.template.svg').read()
-    svg = (svg.replace('@@TX_BN_NAME@@', tx['bn_name']['body'])
-              .replace('@@TX_BN_SUB1@@', tx['bn_sub1']['body'])
+    svg = (svg.replace('@@TX_BN_SUB1@@', tx['bn_sub1']['body'])
               .replace('@@TX_BN_SUB2@@', tx['bn_sub2']['body'])
               .replace('@@RING_PATHS@@', rp)
               .replace('@@VEL_PATHS_LIT@@', vel_lit)
@@ -106,7 +105,13 @@ def main():
     open('kaovilai-border.svg', 'w').write(svg)
 
     # light-scheme twin for README <picture> parity with hero/ticker assets
-    light = (svg.replace('#062238', '#ffffff')
+    light = (svg.replace('#161b22', '#ffffff')
+                .replace('#0d1117', '#f6f8fa')
+                .replace('#30363d', '#e3e6ec')
+                .replace('#e6edf3', '#1f2328')
+                .replace('#8b949e', '#59636e')
+                .replace('stop-opacity="0.3"', 'stop-opacity="0.06"')
+                .replace('#062238', '#ffffff')
                 .replace('#041a2c', '#f6f8fa')
                 .replace('fill="#ffffff"', 'fill="#1f2328"')
                 .replace('stroke="#ffffff"', 'stroke="#1f2328"')
