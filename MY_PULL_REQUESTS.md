@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-22 18:01:02 UTC
+> Last updated: 2026-11-23 00:16:32 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -23,10 +23,10 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #324](https://img.shields.io/badge/PR%20%23324-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/324) **velero-io/velero-plugin-for-microsoft-azure** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #5](https://img.shields.io/badge/PR%20%235-ready-green)](https://github.com/velero-io/.github/pull/5) **velero-io/.github** → `topic/cncf/incubation` - Velero CNCF incubation security and engineering materials
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
-- [![PR #10691](https://img.shields.io/badge/PR%20%2310691-draft-gray)](https://github.com/velero-io/velero/pull/10691) **velero-io/velero** → `main` - Delete retained volume snapshots on backup deletion for data movement
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
 - [![PR #10850](https://img.shields.io/badge/PR%20%2310850-draft-gray)](https://github.com/velero-io/velero/pull/10850) **velero-io/velero** → `main` - Design: block data mover base snapshot retention
 - [![PR #10856](https://img.shields.io/badge/PR%20%2310856-draft-gray)](https://github.com/velero-io/velero/pull/10856) **velero-io/velero** → `main` - Document the node-agent label required for File System Backup since v1.16
+- [![PR #10877](https://img.shields.io/badge/PR%20%2310877-draft-gray)](https://github.com/velero-io/velero/pull/10877) **velero-io/velero** → `main` - Block data mover: retain the base snapshot for CBT storage and delete it on backup deletion
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
@@ -85,6 +85,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #606](https://img.shields.io/badge/PR%20%23606-ready-green)](https://github.com/openshift/velero/pull/606) **openshift/velero** → `oadp-1.6` - Implement namespace selection by label in resource policy
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
+- [![PR #89243](https://img.shields.io/badge/PR%20%2389243-ready-green)](https://github.com/openshift/release/pull/89243) **openshift/release** → `main` - OADP: tide query for rebasebot-app PRs (cve-bot label)
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
 - [![PR #166](https://img.shields.io/badge/PR%20%23166-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) **openshift/velero-plugin-for-microsoft-azure** → `oadp-dev` - Add PrasadJoshi12 as approver and reviewer
@@ -140,6 +141,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #198](https://img.shields.io/badge/PR%20%23198-ready-green)](https://github.com/migtools/udistribution/pull/198) **migtools/udistribution** → `main` - ci: fail on unformatted Go instead of pushing a format commit
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
+- [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - cve-bot: auto-approve rebasebot-app PRs
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
