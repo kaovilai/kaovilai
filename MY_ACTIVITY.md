@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-26 — 2026-11-24
-> **Generated:** 2026-11-24 14:35:39 UTC
+> **Generated:** 2026-11-24 15:09:38 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -271,8 +271,8 @@
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 
 **openshift** (7)
-- [#608 Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0](https://github.com/openshift/velero/pull/608) — openshift/velero
 - [#607 Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5](https://github.com/openshift/velero/pull/607) — openshift/velero
+- [#608 Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0](https://github.com/openshift/velero/pull/608) — openshift/velero
 - [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) — openshift/velero-plugin-for-microsoft-azure
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
