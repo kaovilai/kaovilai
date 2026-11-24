@@ -3,15 +3,24 @@
     "start": "2026-08-26",
     "end": "2026-11-24"
   },
-  "generatedAt": "2026-11-24T06:19:52Z",
+  "generatedAt": "2026-11-24T14:35:39Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 47,
+    "prsReviewed": 49,
     "issuesCommented": 100,
     "issuesClosed": 88
   },
   "prsMerged": [
+    {
+      "number": 9,
+      "repo": "kaovilai/tailbond",
+      "org": "kaovilai",
+      "title": "macOS hub, menu bar app, Report a problem, Right away updates, stable release assets",
+      "url": "https://github.com/kaovilai/tailbond/pull/9",
+      "date": "2026-11-04T10:37:50Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 98,
       "repo": "kaovilai/kaovilai",
@@ -902,15 +911,6 @@
       "url": "https://github.com/kaovilai/podm/pull/38",
       "date": "2026-11-11T05:08:49Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 29,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(containers): docker ps -s / inspect --size via diskUsage",
-      "url": "https://github.com/kaovilai/podm/pull/29",
-      "date": "2026-11-11T02:06:52Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
@@ -954,7 +954,7 @@
       "number": 48,
       "repo": "migtools/oadp-vmdp",
       "org": "migtools",
-      "title": "oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)",
+      "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
       "url": "https://github.com/migtools/oadp-vmdp/pull/48",
       "date": "2026-11-23T11:45:48Z",
       "workstream": "OADP"
@@ -963,7 +963,7 @@
       "number": 202,
       "repo": "migtools/udistribution",
       "org": "migtools",
-      "title": "oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)",
+      "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
       "url": "https://github.com/migtools/udistribution/pull/202",
       "date": "2026-11-23T10:45:20Z",
       "workstream": "Uncategorized"
@@ -981,7 +981,7 @@
       "number": 53,
       "repo": "migtools/filebrowser",
       "org": "migtools",
-      "title": "oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)",
+      "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
       "url": "https://github.com/migtools/filebrowser/pull/53",
       "date": "2026-11-23T10:44:51Z",
       "workstream": "Uncategorized"
@@ -999,7 +999,7 @@
       "number": 80,
       "repo": "openshift/restic",
       "org": "openshift",
-      "title": "oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)",
+      "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
       "url": "https://github.com/openshift/restic/pull/80",
       "date": "2026-11-23T10:44:03Z",
       "workstream": "Uncategorized"
@@ -1053,7 +1053,7 @@
       "number": 66,
       "repo": "migtools/kopia",
       "org": "migtools",
-      "title": "oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)",
+      "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
       "url": "https://github.com/migtools/kopia/pull/66",
       "date": "2026-11-22T18:47:56Z",
       "workstream": "Uncategorized"
@@ -1817,6 +1817,78 @@
   ],
   "prsReviewed": [
     {
+      "number": 608,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0",
+      "url": "https://github.com/openshift/velero/pull/608",
+      "date": "2026-11-24T14:19:38Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10878,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update Dependabot release branches",
+      "url": "https://github.com/velero-io/velero/pull/10878",
+      "date": "2026-11-24T10:18:08Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10866,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(maintenance): propagate caller context in maintenance job helpers",
+      "url": "https://github.com/velero-io/velero/pull/10866",
+      "date": "2026-11-24T09:11:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10858,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(controller): honor caller context when marking PVB/PVR as failed",
+      "url": "https://github.com/velero-io/velero/pull/10858",
+      "date": "2026-11-24T09:11:54Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10865,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "fix(controller): use request context when fetching BSL in backup deletion",
+      "url": "https://github.com/velero-io/velero/pull/10865",
+      "date": "2026-11-24T09:11:53Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 607,
+      "repo": "openshift/velero",
+      "org": "openshift",
+      "title": "Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5",
+      "url": "https://github.com/openshift/velero/pull/607",
+      "date": "2026-11-24T08:25:00Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10870,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
+      "url": "https://github.com/velero-io/velero/pull/10870",
+      "date": "2026-11-24T06:53:58Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10817,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Treat omitted backup hook on-error as Fail",
+      "url": "https://github.com/velero-io/velero/pull/10817",
+      "date": "2026-11-24T06:31:45Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10793,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1832,15 +1904,6 @@
       "title": "docs: wait for successful backups before simulating disasters",
       "url": "https://github.com/velero-io/velero/pull/10849",
       "date": "2026-11-24T03:43:49Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10870,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
-      "url": "https://github.com/velero-io/velero/pull/10870",
-      "date": "2026-11-23T13:59:57Z",
       "workstream": "Velero"
     },
     {
@@ -1898,24 +1961,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10858,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(controller): honor caller context when marking PVB/PVR as failed",
-      "url": "https://github.com/velero-io/velero/pull/10858",
-      "date": "2026-11-23T08:37:20Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10878,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update Dependabot release branches",
-      "url": "https://github.com/velero-io/velero/pull/10878",
-      "date": "2026-11-23T07:38:20Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10677,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1952,30 +1997,12 @@
       "workstream": "Velero"
     },
     {
-      "number": 10866,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(maintenance): propagate caller context in maintenance job helpers",
-      "url": "https://github.com/velero-io/velero/pull/10866",
-      "date": "2026-11-23T06:13:06Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 166,
       "repo": "openshift/velero-plugin-for-microsoft-azure",
       "org": "openshift",
       "title": "Add PrasadJoshi12 as approver and reviewer",
       "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166",
       "date": "2026-11-23T06:11:42Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10865,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "fix(controller): use request context when fetching BSL in backup deletion",
-      "url": "https://github.com/velero-io/velero/pull/10865",
-      "date": "2026-11-23T06:06:31Z",
       "workstream": "Velero"
     },
     {
@@ -2150,15 +2177,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 10817,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Treat omitted backup hook on-error as Fail",
-      "url": "https://github.com/velero-io/velero/pull/10817",
-      "date": "2026-11-16T10:19:22Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 256,
       "repo": "migtools/kubevirt-datamover-controller",
       "org": "migtools",
@@ -2242,12 +2260,12 @@
   ],
   "issuesCommented": [
     {
-      "number": 9600,
+      "number": 6167,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
-      "url": "https://github.com/velero-io/velero/issues/9600",
-      "date": "2026-11-24T03:48:37Z",
+      "title": "Download server for Velero client",
+      "url": "https://github.com/velero-io/velero/issues/6167",
+      "date": "2026-11-24T08:51:56Z",
       "workstream": "Velero"
     },
     {
@@ -2256,7 +2274,34 @@
       "org": "velero-io",
       "title": "Opt-in in-memory informer cache for backup item collection",
       "url": "https://github.com/velero-io/velero/issues/10876",
-      "date": "2026-11-23T21:31:42Z",
+      "date": "2026-11-24T06:52:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10874,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations",
+      "url": "https://github.com/velero-io/velero/issues/10874",
+      "date": "2026-11-24T06:50:44Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10871,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Revisit default values for concurrent-backups and item-block-worker-count",
+      "url": "https://github.com/velero-io/velero/issues/10871",
+      "date": "2026-11-24T06:25:51Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 9600,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference",
+      "url": "https://github.com/velero-io/velero/issues/9600",
+      "date": "2026-11-24T03:48:37Z",
       "workstream": "Velero"
     },
     {
@@ -2296,30 +2341,12 @@
       "workstream": "Velero"
     },
     {
-      "number": 10874,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations",
-      "url": "https://github.com/velero-io/velero/issues/10874",
-      "date": "2026-11-23T08:03:41Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10873,
       "repo": "velero-io/velero",
       "org": "velero-io",
       "title": "Track kopia: blob backend upload transfer parameters (chunk size, packets, connections) — kopia/kopia#5866",
       "url": "https://github.com/velero-io/velero/issues/10873",
       "date": "2026-11-23T06:52:47Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10871,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Revisit default values for concurrent-backups and item-block-worker-count",
-      "url": "https://github.com/velero-io/velero/issues/10871",
-      "date": "2026-11-23T06:14:53Z",
       "workstream": "Velero"
     },
     {
@@ -3130,15 +3157,6 @@
       "title": "`kubectl explain -o md`",
       "url": "https://github.com/kubernetes/kubectl/issues/1419",
       "date": "2026-10-23T02:19:56Z",
-      "workstream": "Kubernetes"
-    },
-    {
-      "number": 502,
-      "repo": "kubernetes-sigs/prow",
-      "org": "kubernetes-sigs",
-      "title": "Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering",
-      "url": "https://github.com/kubernetes-sigs/prow/issues/502",
-      "date": "2026-10-22T02:14:09Z",
       "workstream": "Kubernetes"
     }
   ],

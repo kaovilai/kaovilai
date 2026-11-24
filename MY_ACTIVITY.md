@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-26 — 2026-11-24
-> **Generated:** 2026-11-24 06:19:52 UTC
+> **Generated:** 2026-11-24 14:35:39 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 47 |
+| PRs Reviewed | 49 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 88 |
 
@@ -35,6 +35,7 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (87)
+- [#9 macOS hub, menu bar app, Report a problem, Right away updates, stable release assets](https://github.com/kaovilai/tailbond/pull/9) — kaovilai/tailbond
 - [#98 Generate every platform cover from one layout engine](https://github.com/kaovilai/kaovilai/pull/98) — kaovilai/kaovilai
 - [#95 Add OpenShift × Velero banner and LinkedIn header artwork](https://github.com/kaovilai/kaovilai/pull/95) — kaovilai/kaovilai
 - [#664 Cap rewritten limit resets at 1h; classify EnMaaS quota codes](https://github.com/kaovilai/dotfiles/pull/664) — kaovilai/dotfiles
@@ -121,7 +122,6 @@
 - [#40 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/pull/40) — kaovilai/podm
 - [#39 feat(secrets): docker-dialect /secrets routes over the local SecretStore](https://github.com/kaovilai/podm/pull/39) — kaovilai/podm
 - [#38 fix(containers): rename parity with moby — oldName event attribute, 409 message](https://github.com/kaovilai/podm/pull/38) — kaovilai/podm
-- [#29 feat(containers): docker ps -s / inspect --size via diskUsage](https://github.com/kaovilai/podm/pull/29) — kaovilai/podm
 ## PRs Opened (100)
 
 **velero-io** (4)
@@ -132,18 +132,18 @@
 
 **openshift** (5)
 - [#81 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/openshift/restic/pull/81) — openshift/restic
-- [#80 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/openshift/restic/pull/80) — openshift/restic
+- [#80 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/openshift/restic/pull/80) — openshift/restic
 - [#89243 OADP: tide query for rebasebot-app PRs (oadp-bot label)](https://github.com/openshift/release/pull/89243) — openshift/release
 - [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
 - [#2551 e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22](https://github.com/openshift/oadp-operator/pull/2551) — openshift/oadp-operator
 
 **migtools** (6)
-- [#48 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/oadp-vmdp/pull/48) — migtools/oadp-vmdp
-- [#202 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/udistribution/pull/202) — migtools/udistribution
+- [#48 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/oadp-vmdp/pull/48) — migtools/oadp-vmdp
+- [#202 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/udistribution/pull/202) — migtools/udistribution
 - [#54 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.6)](https://github.com/migtools/filebrowser/pull/54) — migtools/filebrowser
-- [#53 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/filebrowser/pull/53) — migtools/filebrowser
+- [#53 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/filebrowser/pull/53) — migtools/filebrowser
 - [#67 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/migtools/kopia/pull/67) — migtools/kopia
-- [#66 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
+- [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (85)
 - [#1 prt-probe: PR targeting non-default branch](https://github.com/kaovilai/gha-sandbox/pull/1) — kaovilai/gha-sandbox
@@ -231,25 +231,26 @@
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
-## PRs Reviewed (47)
+## PRs Reviewed (49)
 
 **velero-io** (35)
+- [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
+- [#10866 fix(maintenance): propagate caller context in maintenance job helpers](https://github.com/velero-io/velero/pull/10866) — velero-io/velero
+- [#10858 fix(controller): honor caller context when marking PVB/PVR as failed](https://github.com/velero-io/velero/pull/10858) — velero-io/velero
+- [#10865 fix(controller): use request context when fetching BSL in backup deletion](https://github.com/velero-io/velero/pull/10865) — velero-io/velero
+- [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
+- [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10849 docs: wait for successful backups before simulating disasters](https://github.com/velero-io/velero/pull/10849) — velero-io/velero
-- [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10880 [1.19] Issue 10839: remove the pod name when PVB is for a PVC](https://github.com/velero-io/velero/pull/10880) — velero-io/velero
 - [#10629 Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10629) — velero-io/velero
 - [#10595 Improve schedule validation errors with actionable cron guidance](https://github.com/velero-io/velero/pull/10595) — velero-io/velero
-- [#10858 fix(controller): honor caller context when marking PVB/PVR as failed](https://github.com/velero-io/velero/pull/10858) — velero-io/velero
-- [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
 - [#343 [release-1.15] Bump Velero to v1.19.0](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/343) — velero-io/velero-plugin-for-microsoft-azure
 - [#292 [release-1.15] Bump Velero to v1.19.0](https://github.com/velero-io/velero-plugin-for-gcp/pull/292) — velero-io/velero-plugin-for-gcp
 - [#348 [release-1.15] Bump Velero to v1.19.0](https://github.com/velero-io/velero-plugin-for-aws/pull/348) — velero-io/velero-plugin-for-aws
-- [#10866 fix(maintenance): propagate caller context in maintenance job helpers](https://github.com/velero-io/velero/pull/10866) — velero-io/velero
-- [#10865 fix(controller): use request context when fetching BSL in backup deletion](https://github.com/velero-io/velero/pull/10865) — velero-io/velero
 - [#10867 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202](https://github.com/velero-io/velero/pull/10867) — velero-io/velero
 - [#10853 Remove the useless cases for retained PV](https://github.com/velero-io/velero/pull/10853) — velero-io/velero
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
@@ -264,13 +265,14 @@
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
-- [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
 - [#10830 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198](https://github.com/velero-io/velero/pull/10830) — velero-io/velero
 - [#10829 build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory](https://github.com/velero-io/velero/pull/10829) — velero-io/velero
 - [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 
-**openshift** (5)
+**openshift** (7)
+- [#608 Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0](https://github.com/openshift/velero/pull/608) — openshift/velero
+- [#607 Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5](https://github.com/openshift/velero/pull/607) — openshift/velero
 - [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) — openshift/velero-plugin-for-microsoft-azure
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
@@ -289,13 +291,14 @@
 - [#34998 fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away](https://github.com/pingdotgg/t3code/pull/34998) — pingdotgg/t3code
 ## Issues/PRs Commented On (100)
 
-**velero-io** (53)
-- [#9600 Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference](https://github.com/velero-io/velero/issues/9600) — velero-io/velero
+**velero-io** (54)
+- [#6167 Download server for Velero client](https://github.com/velero-io/velero/issues/6167) — velero-io/velero
 - [#10876 Opt-in in-memory informer cache for backup item collection](https://github.com/velero-io/velero/issues/10876) — velero-io/velero
-- [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10874 Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations](https://github.com/velero-io/velero/issues/10874) — velero-io/velero
-- [#10873 Track kopia: blob backend upload transfer parameters (chunk size, packets, connections) — kopia/kopia#5866](https://github.com/velero-io/velero/issues/10873) — velero-io/velero
 - [#10871 Revisit default values for concurrent-backups and item-block-worker-count](https://github.com/velero-io/velero/issues/10871) — velero-io/velero
+- [#9600 Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference](https://github.com/velero-io/velero/issues/9600) — velero-io/velero
+- [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
+- [#10873 Track kopia: blob backend upload transfer parameters (chunk size, packets, connections) — kopia/kopia#5866](https://github.com/velero-io/velero/issues/10873) — velero-io/velero
 - [#10875 Shared warm repository cache volume per BackupRepository, refreshed by maintenance jobs](https://github.com/velero-io/velero/issues/10875) — velero-io/velero
 - [#7728 Enable TLS for MinIO in nightly E2E test](https://github.com/velero-io/velero/issues/7728) — velero-io/velero
 - [#10265 Technical Debt: Remove `context.TODO()` in `pkg/util/kube and pkg/util/podvolume`](https://github.com/velero-io/velero/issues/10265) — velero-io/velero
@@ -352,7 +355,7 @@
 **migtools** (1)
 - [#264 Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC](https://github.com/migtools/kubevirt-datamover-controller/issues/264) — migtools/kubevirt-datamover-controller
 
-**Other** (43)
+**Other** (42)
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
@@ -395,7 +398,6 @@
 - [#4673 v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673) — kubevirt/hyperconverged-cluster-operator
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
 - [#1419 `kubectl explain -o md`](https://github.com/kubernetes/kubectl/issues/1419) — kubernetes/kubectl
-- [#502 Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering](https://github.com/kubernetes-sigs/prow/issues/502) — kubernetes-sigs/prow
 ## Issues Closed (88)
 
 **velero-io** (22)
