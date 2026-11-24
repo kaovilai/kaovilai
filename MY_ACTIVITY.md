@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-25 — 2026-11-23
-> **Generated:** 2026-11-23 23:10:21 UTC
+> **Period:** 2026-08-26 — 2026-11-24
+> **Generated:** 2026-11-24 00:27:04 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 46 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 93 |
+| Issues Closed | 88 |
 
 ---
 
@@ -395,9 +395,9 @@
 - [#19736 [Bug]: A message queued behind a running turn pushes the "Working for…" header below it](https://github.com/pingdotgg/t3code/issues/19736) — pingdotgg/t3code
 - [#1419 `kubectl explain -o md`](https://github.com/kubernetes/kubectl/issues/1419) — kubernetes/kubectl
 - [#502 Enhancement: Allow combining `run_if_changed` and `skip_if_only_changed` for more flexible job triggering](https://github.com/kubernetes-sigs/prow/issues/502) — kubernetes-sigs/prow
-## Issues Closed (93)
+## Issues Closed (88)
 
-**velero-io** (23)
+**velero-io** (22)
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10875 Shared warm repository cache volume per BackupRepository, refreshed by maintenance jobs](https://github.com/velero-io/velero/issues/10875) — velero-io/velero
 - [#10723 Regression: file system data mover leaks volume snapshots under a Retain VolumeSnapshotClass](https://github.com/velero-io/velero/issues/10723) — velero-io/velero
@@ -420,9 +420,8 @@
 - [#10295 CBT delta-error fallback marks the whole device dirty instead of the design's allocated-blocks full backup](https://github.com/velero-io/velero/issues/10295) — velero-io/velero
 - [#10298 Setting node-agent csiSnapshotMetadataServiceConfigs.saName breaks all CSI snapshot datamover backups (arg/flag name mismatch)](https://github.com/velero-io/velero/issues/10298) — velero-io/velero
 - [#10294 Generic CSI changeID retrieval returns empty — all non-vSphere drivers silently fall back to full backups](https://github.com/velero-io/velero/issues/10294) — velero-io/velero
-- [#10297 A measured zero incremental is indistinguishable from never-measured — omitempty erases it on the API status fields](https://github.com/velero-io/velero/issues/10297) — velero-io/velero
 
-**openshift** (13)
+**openshift** (10)
 - [#10590 GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning](https://github.com/openshift/installer/issues/10590) — openshift/installer
 - [#2249 Makefile container tool check only verifies binary exists, not runtime readiness](https://github.com/openshift/oadp-operator/issues/2249) — openshift/oadp-operator
 - [#2481 KubeVirt datamover controller: hardcoded 128Mi/500m resources and 1s probes too small at scale; not configurable via DPA](https://github.com/openshift/oadp-operator/issues/2481) — openshift/oadp-operator
@@ -433,13 +432,9 @@
 - [#597 Testing Operators Built With The Operator SDK and Deployed Through OLM](https://github.com/openshift/ci-docs/issues/597) — openshift/ci-docs
 - [#448 Feature request: detect/reconcile SCC UID/GID-range mismatch on Namespace restore](https://github.com/openshift/openshift-velero-plugin/issues/448) — openshift/openshift-velero-plugin
 - [#2386 Expose kubevirt-datamover-controller --max-concurrent-data-movers via DPA CRD](https://github.com/openshift/oadp-operator/issues/2386) — openshift/oadp-operator
-- [#2384 e2e: add cacert tests](https://github.com/openshift/oadp-operator/issues/2384) — openshift/oadp-operator
-- [#2410 oadp-1.4: test-e2e Makefile target doesn't generate junit_report.xml](https://github.com/openshift/oadp-operator/issues/2410) — openshift/oadp-operator
-- [#2407 Migrate Claude e2e failure analysis to shared claude-ai-helpers step-registry pattern](https://github.com/openshift/oadp-operator/issues/2407) — openshift/oadp-operator
 
-**migtools** (2)
+**migtools** (1)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
-- [#198 Add regression test: ensureWorkPVC must force ReadWriteOnce regardless of target's AccessModes](https://github.com/migtools/kubevirt-datamover-controller/issues/198) — migtools/kubevirt-datamover-controller
 
 **Other** (55)
 - [#287 Feature: shared / streamable-HTTP MCP transport (or app-served loopback MCP) — one process instead of one per agent session](https://github.com/OpenPetsHQ/openpets/issues/287) — OpenPetsHQ/openpets
