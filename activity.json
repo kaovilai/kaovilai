@@ -3,15 +3,24 @@
     "start": "2026-08-26",
     "end": "2026-11-24"
   },
-  "generatedAt": "2026-11-24T17:18:40Z",
+  "generatedAt": "2026-11-24T21:11:55Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 49,
+    "prsReviewed": 48,
     "issuesCommented": 100,
     "issuesClosed": 88
   },
   "prsMerged": [
+    {
+      "number": 665,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws",
+      "url": "https://github.com/kaovilai/dotfiles/pull/665",
+      "date": "2026-11-24T19:23:53Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 9,
       "repo": "kaovilai/tailbond",
@@ -901,15 +910,6 @@
       "title": "feat(secrets): docker-dialect /secrets routes over the local SecretStore",
       "url": "https://github.com/kaovilai/podm/pull/39",
       "date": "2026-11-11T06:26:13Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 38,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "fix(containers): rename parity with moby — oldName event attribute, 409 message",
-      "url": "https://github.com/kaovilai/podm/pull/38",
-      "date": "2026-11-11T05:08:49Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,13 +1817,13 @@
   ],
   "prsReviewed": [
     {
-      "number": 349,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
-      "date": "2026-11-24T17:08:21Z",
-      "workstream": "Velero"
+      "number": 385,
+      "repo": "migtools/oadp-non-admin",
+      "org": "migtools",
+      "title": "RFE-9751: Add non-admin backup schedules",
+      "url": "https://github.com/migtools/oadp-non-admin/pull/385",
+      "date": "2026-11-24T20:27:37Z",
+      "workstream": "OADP"
     },
     {
       "number": 607,
@@ -1831,8 +1831,17 @@
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5",
       "url": "https://github.com/openshift/velero/pull/607",
-      "date": "2026-11-24T17:04:59Z",
+      "date": "2026-11-24T17:22:02Z",
       "workstream": "Uncategorized"
+    },
+    {
+      "number": 349,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
+      "date": "2026-11-24T17:08:21Z",
+      "workstream": "Velero"
     },
     {
       "number": 608,
@@ -2114,15 +2123,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 385,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "RFE-9751: Add non-admin backup schedules",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/385",
-      "date": "2026-11-18T19:23:31Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 10438,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2247,18 +2247,27 @@
       "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/77",
       "date": "2026-11-14T05:02:31Z",
       "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10829,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory",
-      "url": "https://github.com/velero-io/velero/pull/10829",
-      "date": "2026-11-14T03:18:36Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 264,
+      "repo": "migtools/kubevirt-datamover-controller",
+      "org": "migtools",
+      "title": "Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC",
+      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/264",
+      "date": "2026-11-24T18:32:18Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 10874,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations",
+      "url": "https://github.com/velero-io/velero/issues/10874",
+      "date": "2026-11-24T17:35:56Z",
+      "workstream": "Velero"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2287,15 +2296,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10874,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations",
-      "url": "https://github.com/velero-io/velero/issues/10874",
-      "date": "2026-11-24T06:50:44Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10871,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2312,15 +2312,6 @@
       "url": "https://github.com/velero-io/velero/issues/9600",
       "date": "2026-11-24T03:48:37Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 264,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/issues/264",
-      "date": "2026-11-23T11:38:58Z",
-      "workstream": "KubeVirt Data Mover"
     },
     {
       "number": 10590,
