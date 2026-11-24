@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-26 — 2026-11-24
-> **Generated:** 2026-11-24 00:27:04 UTC
+> **Generated:** 2026-11-24 06:19:52 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 46 |
+| PRs Reviewed | 47 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 88 |
 
@@ -132,18 +132,18 @@
 
 **openshift** (5)
 - [#81 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/openshift/restic/pull/81) — openshift/restic
-- [#80 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/openshift/restic/pull/80) — openshift/restic
+- [#80 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/openshift/restic/pull/80) — openshift/restic
 - [#89243 OADP: tide query for rebasebot-app PRs (oadp-bot label)](https://github.com/openshift/release/pull/89243) — openshift/release
 - [#606 Implement namespace selection by label in resource policy](https://github.com/openshift/velero/pull/606) — openshift/velero
 - [#2551 e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22](https://github.com/openshift/oadp-operator/pull/2551) — openshift/oadp-operator
 
 **migtools** (6)
-- [#48 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/migtools/oadp-vmdp/pull/48) — migtools/oadp-vmdp
-- [#202 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/migtools/udistribution/pull/202) — migtools/udistribution
+- [#48 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/oadp-vmdp/pull/48) — migtools/oadp-vmdp
+- [#202 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/udistribution/pull/202) — migtools/udistribution
 - [#54 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.6)](https://github.com/migtools/filebrowser/pull/54) — migtools/filebrowser
-- [#53 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/migtools/filebrowser/pull/53) — migtools/filebrowser
+- [#53 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/filebrowser/pull/53) — migtools/filebrowser
 - [#67 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/migtools/kopia/pull/67) — migtools/kopia
-- [#66 oadp-bot: auto-approve rebasebot-app PRs](https://github.com/migtools/kopia/pull/66) — migtools/kopia
+- [#66 oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (85)
 - [#1 prt-probe: PR targeting non-default branch](https://github.com/kaovilai/gha-sandbox/pull/1) — kaovilai/gha-sandbox
@@ -231,9 +231,11 @@
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
-## PRs Reviewed (46)
+## PRs Reviewed (47)
 
-**velero-io** (34)
+**velero-io** (35)
+- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
+- [#10849 docs: wait for successful backups before simulating disasters](https://github.com/velero-io/velero/pull/10849) — velero-io/velero
 - [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
@@ -261,7 +263,6 @@
 - [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
-- [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
@@ -289,6 +290,7 @@
 ## Issues/PRs Commented On (100)
 
 **velero-io** (53)
+- [#9600 Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference](https://github.com/velero-io/velero/issues/9600) — velero-io/velero
 - [#10876 Opt-in in-memory informer cache for backup item collection](https://github.com/velero-io/velero/issues/10876) — velero-io/velero
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
 - [#10874 Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations](https://github.com/velero-io/velero/issues/10874) — velero-io/velero
@@ -308,7 +310,6 @@
 - [#10730 DataDownload waiting for a WaitForFirstConsumer target PVC blocks the node-agent DataDownload controller (deadlock with Immediate PVCs in the same pod)](https://github.com/velero-io/velero/issues/10730) — velero-io/velero
 - [#10722 Block data mover: configure snapshot retention automatically from SnapshotMetadataService requireBaseSnapshotForDelta](https://github.com/velero-io/velero/issues/10722) — velero-io/velero
 - [#10310 Include the errors/warnings from node-agent and data-mover pods in the velero backup/restore get/describe commands](https://github.com/velero-io/velero/issues/10310) — velero-io/velero
-- [#9600 Deprecation: Remove `BackupStorageLocation.Spec.ObjectStorage.CACert` inline field in favor of `CACertRef` secret reference](https://github.com/velero-io/velero/issues/9600) — velero-io/velero
 - [#9189 Support deleting running backups](https://github.com/velero-io/velero/issues/9189) — velero-io/velero
 - [#8815 Ensure object creation does not exceed Kubernetes maximum name length](https://github.com/velero-io/velero/issues/8815) — velero-io/velero
 - [#8689 Report Object Lock when PutObject errors patching backup to Completed, and Fail backup](https://github.com/velero-io/velero/issues/8689) — velero-io/velero
