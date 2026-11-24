@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-24 06:09:50 UTC
+> Last updated: 2026-11-24 12:29:54 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -99,6 +99,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2544](https://img.shields.io/badge/PR%20%232544-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2544) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
+- [![PR #607](https://img.shields.io/badge/PR%20%23607-waiting--merge-blue)](https://github.com/openshift/velero/pull/607) **openshift/velero** → `oadp-1.5` - Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5
+- [![PR #608](https://img.shields.io/badge/PR%20%23608-waiting--merge-blue)](https://github.com/openshift/velero/pull/608) **openshift/velero** → `oadp-1.5` - Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -120,14 +122,12 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.4` - Update auto-request-review action to v0.13.0
-- [![PR #607](https://img.shields.io/badge/PR%20%23607-failing--ci-red)](https://github.com/openshift/velero/pull/607) **openshift/velero** → `oadp-1.5` - Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-failing--ci-red)](https://github.com/openshift/restic/pull/69) **openshift/restic** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
 - [![PR #2535](https://img.shields.io/badge/PR%20%232535-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2535) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0
-- [![PR #2551](https://img.shields.io/badge/PR%20%232551-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2551) **openshift/oadp-operator** → `oadp-1.6` - e2e: VMB backup-type parity with oadp-dev + legacy status.type fallback for 4.22
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #480](https://img.shields.io/badge/PR%20%23480-needs--attention-orange)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
