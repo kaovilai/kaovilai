@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T03:25:38Z",
+  "generatedAt": "2026-11-24T03:24:23Z",
   "items": [
     {
       "number": 978,
@@ -28953,6 +28953,19 @@
       "workstream": "Velero"
     },
     {
+      "number": 10590,
+      "repo": "openshift/installer",
+      "org": "openshift",
+      "title": "GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning",
+      "url": "https://github.com/openshift/installer/issues/10590",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-06-02T13:41:26Z",
+      "closedAt": "2026-11-23T11:17:50Z",
+      "updatedAt": "2026-11-23T11:17:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 9886,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -33110,6 +33123,19 @@
       "createdAt": "2026-08-16T15:19:23Z",
       "closedAt": "2026-08-16T15:43:46Z",
       "updatedAt": "2026-08-16T15:43:46Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10303,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout",
+      "url": "https://github.com/velero-io/velero/issues/10303",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-08-16T15:19:34Z",
+      "closedAt": "2026-11-23T09:22:11Z",
+      "updatedAt": "2026-11-23T09:22:11Z",
       "workstream": "Velero"
     },
     {
@@ -40133,6 +40159,19 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 219,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/219",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-19T15:45:33Z",
+      "closedAt": "2026-11-24T03:20:50Z",
+      "updatedAt": "2026-11-24T03:20:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 220,
       "repo": "oadp-rebasebot/oadp-rebase",
       "org": "oadp-rebasebot",
@@ -40185,6 +40224,32 @@
       "workstream": "Uncategorized"
     },
     {
+      "number": 10875,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Shared warm repository cache volume per BackupRepository, refreshed by maintenance jobs",
+      "url": "https://github.com/velero-io/velero/issues/10875",
+      "type": "issue",
+      "state": "closed",
+      "createdAt": "2026-11-22T02:27:21Z",
+      "closedAt": "2026-11-23T03:38:29Z",
+      "updatedAt": "2026-11-23T03:38:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 89243,
+      "repo": "openshift/release",
+      "org": "openshift",
+      "title": "OADP: tide query for rebasebot-app PRs (oadp-bot label)",
+      "url": "https://github.com/openshift/release/pull/89243",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-22T18:43:40Z",
+      "closedAt": "2026-11-23T10:00:11Z",
+      "updatedAt": "2026-11-23T10:00:36Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 10877,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -40196,6 +40261,136 @@
       "closedAt": "2026-11-23T03:23:23Z",
       "updatedAt": "2026-11-23T03:23:23Z",
       "workstream": "Velero"
+    },
+    {
+      "number": 664,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "Cap rewritten limit resets at 1h; classify EnMaaS quota codes",
+      "url": "https://github.com/kaovilai/dotfiles/pull/664",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-23T04:35:53Z",
+      "closedAt": "2026-11-23T08:31:51Z",
+      "updatedAt": "2026-11-23T08:32:15Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 95,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add OpenShift × Velero banner and LinkedIn header artwork",
+      "url": "https://github.com/kaovilai/kaovilai/pull/95",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-23T08:22:36Z",
+      "closedAt": "2026-11-23T11:45:30Z",
+      "updatedAt": "2026-11-23T11:45:30Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 344,
+      "repo": "velero-io/velero-plugin-for-microsoft-azure",
+      "org": "velero-io",
+      "title": "Raise default block blob upload block size from 1 MiB to 4 MiB",
+      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-23T08:57:35Z",
+      "closedAt": "2026-11-23T19:19:58Z",
+      "updatedAt": "2026-11-23T19:19:58Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 67,
+      "repo": "migtools/kopia",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)",
+      "url": "https://github.com/migtools/kopia/pull/67",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-23T10:25:52Z",
+      "closedAt": "2026-11-23T10:58:09Z",
+      "updatedAt": "2026-11-23T10:58:43Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 81,
+      "repo": "openshift/restic",
+      "org": "openshift",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)",
+      "url": "https://github.com/openshift/restic/pull/81",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-23T10:44:19Z",
+      "closedAt": "2026-11-23T10:58:15Z",
+      "updatedAt": "2026-11-23T10:58:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 54,
+      "repo": "migtools/filebrowser",
+      "org": "migtools",
+      "title": "oadp-bot: auto-approve rebasebot-app PRs (oadp-1.6)",
+      "url": "https://github.com/migtools/filebrowser/pull/54",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-23T10:45:07Z",
+      "closedAt": "2026-11-23T10:58:20Z",
+      "updatedAt": "2026-11-23T10:58:50Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 96,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add Facebook cover (missed the #95 merge)",
+      "url": "https://github.com/kaovilai/kaovilai/pull/96",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-23T12:24:12Z",
+      "closedAt": "2026-11-23T12:39:18Z",
+      "updatedAt": "2026-11-23T12:39:18Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 97,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Add X header (1500x500)",
+      "url": "https://github.com/kaovilai/kaovilai/pull/97",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-23T12:32:38Z",
+      "closedAt": "2026-11-23T12:39:14Z",
+      "updatedAt": "2026-11-23T12:39:14Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 98,
+      "repo": "kaovilai/kaovilai",
+      "org": "kaovilai",
+      "title": "Generate every platform cover from one layout engine",
+      "url": "https://github.com/kaovilai/kaovilai/pull/98",
+      "type": "pr",
+      "state": "merged",
+      "createdAt": "2026-11-23T12:38:53Z",
+      "closedAt": "2026-11-23T19:39:39Z",
+      "updatedAt": "2026-11-23T19:39:39Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 1,
+      "repo": "kaovilai/gha-sandbox",
+      "org": "kaovilai",
+      "title": "prt-probe: PR targeting non-default branch",
+      "url": "https://github.com/kaovilai/gha-sandbox/pull/1",
+      "type": "pr",
+      "state": "closed",
+      "createdAt": "2026-11-23T19:34:29Z",
+      "closedAt": "2026-11-23T19:39:25Z",
+      "updatedAt": "2026-11-23T19:39:46Z",
+      "workstream": "Uncategorized"
     }
   ]
 }
