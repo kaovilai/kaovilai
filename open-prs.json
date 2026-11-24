@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:05:31Z",
+  "updatedAt": "2026-11-24T00:14:43Z",
   "prs": [
     {
       "number": 5,
@@ -16483,7 +16483,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-23T23:05:31Z",
+    "updatedAt": "2026-11-24T00:14:43Z",
     "needsReview": [
       {
         "number": 68,
@@ -17215,7 +17215,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 58,
+        "waitingDays": 59,
         "updatedAt": "2026-09-25T23:44:39Z"
       },
       {
@@ -17244,7 +17244,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 55,
+        "waitingDays": 56,
         "updatedAt": "2026-09-28T23:28:49Z"
       },
       {
@@ -17423,7 +17423,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 33,
+        "waitingDays": 34,
         "updatedAt": "2026-10-20T23:42:58Z"
       },
       {
@@ -17575,6 +17575,39 @@
         "updatedAt": "2026-10-28T00:56:31Z"
       },
       {
+        "number": 6479,
+        "repo": "kubernetes/enhancements",
+        "org": "kubernetes",
+        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
+        "url": "https://github.com/kubernetes/enhancements/pull/6479",
+        "targetBranch": "master",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "sig/storage",
+          "cncf-cla: yes",
+          "size/M",
+          "needs-ok-to-test",
+          "kind/kep"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "saad-ali",
+          "xing-yang"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 26,
+        "updatedAt": "2026-10-29T00:08:40Z"
+      },
+      {
         "number": 330,
         "repo": "openshift/hypershift-oadp-plugin",
         "org": "openshift",
@@ -17656,39 +17689,6 @@
         "reason": "awaitingReview",
         "waitingDays": 26,
         "updatedAt": "2026-10-28T22:41:36Z"
-      },
-      {
-        "number": 6479,
-        "repo": "kubernetes/enhancements",
-        "org": "kubernetes",
-        "title": "KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService",
-        "url": "https://github.com/kubernetes/enhancements/pull/6479",
-        "targetBranch": "master",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "sig/storage",
-          "cncf-cla: yes",
-          "size/M",
-          "needs-ok-to-test",
-          "kind/kep"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "saad-ali",
-          "xing-yang"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 25,
-        "updatedAt": "2026-10-29T00:08:40Z"
       },
       {
         "number": 89,
@@ -17869,6 +17869,36 @@
         "updatedAt": "2026-11-05T21:23:40Z"
       },
       {
+        "number": 468,
+        "repo": "kubevirt/kubevirt-velero-plugin",
+        "org": "kubevirt",
+        "title": "Select the live virt-launcher pod after live migration",
+        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "dco-signoff: yes",
+          "size/L"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "alromeros",
+          "shubham-pampattiwar"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 15,
+        "updatedAt": "2026-11-08T23:22:37Z"
+      },
+      {
         "number": 2272,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -17925,36 +17955,6 @@
         "reason": "awaitingReview",
         "waitingDays": 15,
         "updatedAt": "2026-11-08T05:26:06Z"
-      },
-      {
-        "number": 468,
-        "repo": "kubevirt/kubevirt-velero-plugin",
-        "org": "kubevirt",
-        "title": "Select the live virt-launcher pod after live migration",
-        "url": "https://github.com/kubevirt/kubevirt-velero-plugin/pull/468",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "dco-signoff: yes",
-          "size/L"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "alromeros",
-          "shubham-pampattiwar"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 14,
-        "updatedAt": "2026-11-08T23:22:37Z"
       },
       {
         "number": 504,
@@ -20217,7 +20217,7 @@
           "size:M",
           "takeover:blocked"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
