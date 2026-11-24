@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-24 12:29:54 UTC
+> Last updated: 2026-11-24 15:10:02 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -82,7 +82,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #56](https://img.shields.io/badge/PR%20%2356-ready-green)](https://github.com/openshift/agentic-skills/pull/56) **openshift/agentic-skills** → `main` - OADP-7954: Add Phase 1 OADP Agent Skills
 - [![PR #598](https://img.shields.io/badge/PR%20%23598-ready-green)](https://github.com/openshift/ci-docs/pull/598) **openshift/ci-docs** → `main` - Document FBC catalog builds and OLM v1 testing workflows
 - [![PR #606](https://img.shields.io/badge/PR%20%23606-ready-green)](https://github.com/openshift/velero/pull/606) **openshift/velero** → `oadp-1.6` - Implement namespace selection by label in resource policy
-- [![PR #80](https://img.shields.io/badge/PR%20%2380-ready-green)](https://github.com/openshift/restic/pull/80) **openshift/restic** → `oadp-dev` - oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)
+- [![PR #80](https://img.shields.io/badge/PR%20%2380-ready-green)](https://github.com/openshift/restic/pull/80) **openshift/restic** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
 - [![PR #82734](https://img.shields.io/badge/PR%20%2382734-ready-green)](https://github.com/openshift/release/pull/82734) **openshift/release** → `main` - ci-operator/config: switch OADP build_root from image_stream_tag to project_image
 - [![PR #89](https://img.shields.io/badge/PR%20%2389-ready-green)](https://github.com/openshift/oadp-must-gather/pull/89) **openshift/oadp-must-gather** → `oadp-dev` - update the golang version
 - [![PR #163](https://img.shields.io/badge/PR%20%23163-waiting--merge-blue)](https://github.com/openshift/velero-plugin-for-gcp/pull/163) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Merge https://github.com/velero-io/velero-plugin-for-gcp:main (1e7b956) into oadp-dev
@@ -99,8 +99,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2544](https://img.shields.io/badge/PR%20%232544-waiting--merge-blue)](https://github.com/openshift/oadp-operator/pull/2544) **openshift/oadp-operator** → `oadp-1.6` - [oadp-1.6] OADP-8924: Add HCP guest cluster pod backup test case
 - [![PR #509](https://img.shields.io/badge/PR%20%23509-waiting--merge-blue)](https://github.com/openshift/openshift-velero-plugin/pull/509) **openshift/openshift-velero-plugin** → `oadp-1.6` - [oadp-1.6] Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
 - [![PR #603](https://img.shields.io/badge/PR%20%23603-waiting--merge-blue)](https://github.com/openshift/velero/pull/603) **openshift/velero** → `oadp-dev` - Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder
-- [![PR #607](https://img.shields.io/badge/PR%20%23607-waiting--merge-blue)](https://github.com/openshift/velero/pull/607) **openshift/velero** → `oadp-1.5` - Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5
-- [![PR #608](https://img.shields.io/badge/PR%20%23608-waiting--merge-blue)](https://github.com/openshift/velero/pull/608) **openshift/velero** → `oadp-1.5` - Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0
 - [![PR #1800](https://img.shields.io/badge/PR%20%231800-draft-gray)](https://github.com/openshift/enhancements/pull/1800) **openshift/enhancements** → `master` - WIP: simplified-olm-token-auth
 - [![PR #1952](https://img.shields.io/badge/PR%20%231952-draft-gray)](https://github.com/openshift/oadp-operator/pull/1952) **openshift/oadp-operator** → `oadp-dev` - OADP-6675: Add Azure workload identity support for image registry
 - [![PR #2143](https://img.shields.io/badge/PR%20%232143-draft-gray)](https://github.com/openshift/oadp-operator/pull/2143) **openshift/oadp-operator** → `oadp-dev` - OADP-7660: Design for NonAdmin short-lived cloud credentials
@@ -122,6 +120,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #175](https://img.shields.io/badge/PR%20%23175-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/175) **openshift/velero-plugin-for-gcp** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.4` - Update auto-request-review action to v0.13.0
+- [![PR #607](https://img.shields.io/badge/PR%20%23607-failing--ci-red)](https://github.com/openshift/velero/pull/607) **openshift/velero** → `oadp-1.5` - Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5
 - [![PR #69](https://img.shields.io/badge/PR%20%2369-failing--ci-red)](https://github.com/openshift/restic/pull/69) **openshift/restic** → `oadp-dev` - Remove obsolete bz-on-pr-merge workflow
 - [![PR #70](https://img.shields.io/badge/PR%20%2370-failing--ci-red)](https://github.com/openshift/restic/pull/70) **openshift/restic** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
@@ -139,8 +138,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #198](https://img.shields.io/badge/PR%20%23198-ready-green)](https://github.com/migtools/udistribution/pull/198) **migtools/udistribution** → `main` - ci: fail on unformatted Go instead of pushing a format commit
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
-- [![PR #53](https://img.shields.io/badge/PR%20%2353-ready-green)](https://github.com/migtools/filebrowser/pull/53) **migtools/filebrowser** → `oadp-dev` - oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)
-- [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)
+- [![PR #53](https://img.shields.io/badge/PR%20%2353-ready-green)](https://github.com/migtools/filebrowser/pull/53) **migtools/filebrowser** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
+- [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
 - [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
@@ -158,8 +157,8 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #373](https://img.shields.io/badge/PR%20%23373-stale-yellow)](https://github.com/migtools/oadp-non-admin/pull/373) **migtools/oadp-non-admin** → `oadp-dev` - Document NADR (NonAdminDownloadRequest) usage
 - [![PR #4](https://img.shields.io/badge/PR%20%234-stale-yellow)](https://github.com/migtools/oadp-rebase-ai-helpers/pull/4) **migtools/oadp-rebase-ai-helpers** → `oadp-dev` - Migrate OADP command implementations fully to skills
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-stale-yellow)](https://github.com/migtools/labs/pull/66) **migtools/labs** → `master` - reword aws plugin use for s3url
-- [![PR #202](https://img.shields.io/badge/PR%20%23202-failing--ci-red)](https://github.com/migtools/udistribution/pull/202) **migtools/udistribution** → `main` - oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)
-- [![PR #48](https://img.shields.io/badge/PR%20%2348-failing--ci-red)](https://github.com/migtools/oadp-vmdp/pull/48) **migtools/oadp-vmdp** → `oadp-dev` - oadp-bot: auto-approve scoped CVE fix PRs (rebases stay human-reviewed)
+- [![PR #202](https://img.shields.io/badge/PR%20%23202-failing--ci-red)](https://github.com/migtools/udistribution/pull/202) **migtools/udistribution** → `main` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
+- [![PR #48](https://img.shields.io/badge/PR%20%2348-failing--ci-red)](https://github.com/migtools/oadp-vmdp/pull/48) **migtools/oadp-vmdp** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
 
 ## oadp-rebase
 
