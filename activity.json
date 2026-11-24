@@ -3,7 +3,7 @@
     "start": "2026-08-26",
     "end": "2026-11-24"
   },
-  "generatedAt": "2026-11-24T15:09:38Z",
+  "generatedAt": "2026-11-24T17:18:40Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 665,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws",
+      "url": "https://github.com/kaovilai/dotfiles/pull/665",
+      "date": "2026-11-24T15:44:19Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 1,
       "repo": "kaovilai/gha-sandbox",
       "org": "kaovilai",
@@ -1804,25 +1813,25 @@
       "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/388",
       "date": "2026-11-11T11:28:01Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix(hooks): fail open when the daemon the routes point at is down",
-      "url": "https://github.com/kaovilai/context-mode/pull/12",
-      "date": "2026-11-11T10:55:04Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 349,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
+      "date": "2026-11-24T17:08:21Z",
+      "workstream": "Velero"
+    },
     {
       "number": 607,
       "repo": "openshift/velero",
       "org": "openshift",
       "title": "Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5",
       "url": "https://github.com/openshift/velero/pull/607",
-      "date": "2026-11-24T14:51:13Z",
+      "date": "2026-11-24T17:04:59Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2247,18 +2256,18 @@
       "url": "https://github.com/velero-io/velero/pull/10829",
       "date": "2026-11-14T03:18:36Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 10670,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix restore selecting every namespace when an include wildcard matches none",
-      "url": "https://github.com/velero-io/velero/pull/10670",
-      "date": "2026-11-13T12:52:38Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 39,
+      "repo": "redhat-best-practices-for-k8s/telco-bot",
+      "org": "redhat-best-practices-for-k8s",
+      "title": "Tracking Out of Date Golang Versions",
+      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
+      "date": "2026-11-24T17:12:51Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 6167,
       "repo": "velero-io/velero",
@@ -2303,15 +2312,6 @@
       "url": "https://github.com/velero-io/velero/issues/9600",
       "date": "2026-11-24T03:48:37Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "redhat-best-practices-for-k8s/telco-bot",
-      "org": "redhat-best-practices-for-k8s",
-      "title": "Tracking Out of Date Golang Versions",
-      "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
-      "date": "2026-11-23T17:33:51Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 264,

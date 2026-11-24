@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-26 — 2026-11-24
-> **Generated:** 2026-11-24 15:09:38 UTC
+> **Generated:** 2026-11-24 17:18:40 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -146,6 +146,7 @@
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (85)
+- [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
 - [#1 prt-probe: PR targeting non-default branch](https://github.com/kaovilai/gha-sandbox/pull/1) — kaovilai/gha-sandbox
 - [#98 Generate every platform cover from one layout engine](https://github.com/kaovilai/kaovilai/pull/98) — kaovilai/kaovilai
 - [#97 Add X header (1500x500)](https://github.com/kaovilai/kaovilai/pull/97) — kaovilai/kaovilai
@@ -230,10 +231,10 @@
 - [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
-- [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
 ## PRs Reviewed (49)
 
 **velero-io** (35)
+- [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
 - [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
 - [#10866 fix(maintenance): propagate caller context in maintenance job helpers](https://github.com/velero-io/velero/pull/10866) — velero-io/velero
 - [#10858 fix(controller): honor caller context when marking PVB/PVR as failed](https://github.com/velero-io/velero/pull/10858) — velero-io/velero
@@ -268,7 +269,6 @@
 - [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
 - [#10830 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198](https://github.com/velero-io/velero/pull/10830) — velero-io/velero
 - [#10829 build(deps): bump go.opentelemetry.io/otel/sdk from 1.45.0 to 1.47.0 in the go-security group across 1 directory](https://github.com/velero-io/velero/pull/10829) — velero-io/velero
-- [#10670 Fix restore selecting every namespace when an include wildcard matches none](https://github.com/velero-io/velero/pull/10670) — velero-io/velero
 
 **openshift** (7)
 - [#607 Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5](https://github.com/openshift/velero/pull/607) — openshift/velero
