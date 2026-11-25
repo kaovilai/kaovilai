@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:08:03Z",
+  "updatedAt": "2026-11-25T20:09:33Z",
   "prs": [
     {
       "number": 5,
@@ -12619,43 +12619,51 @@
         "lifecycle/stale",
         "needs-rebase"
       ],
-      "updatedAt": "2026-11-15T01:31:59Z",
+      "updatedAt": "2026-11-25T20:08:04Z",
       "workstream": "Uncategorized",
       "ciChecks": [
+        {
+          "name": "ci/prow/checkconfig",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/codegen",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/format",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/frontend-checks",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/images",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/integration",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/lint",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/unit",
+          "conclusion": "FAILURE"
+        },
+        {
+          "name": "ci/prow/validate-vendor",
+          "conclusion": "FAILURE"
+        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
         {
           "name": "ci/prow/breaking-changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/checkconfig",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/codegen",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/format",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/frontend-checks",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/integration",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/lint",
           "conclusion": "SUCCESS"
         },
         {
@@ -12671,15 +12679,7 @@
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/unit",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/validate-prow",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/validate-vendor",
           "conclusion": "SUCCESS"
         }
       ]
@@ -14526,41 +14526,6 @@
       ]
     },
     {
-      "number": 216,
-      "repo": "oadp-rebasebot/oadp-rebase",
-      "org": "oadp-rebasebot",
-      "title": "Guard CRD regeneration after dependency bumps",
-      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-      "targetBranch": "oadp-dev",
-      "status": "ready",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [],
-      "updatedAt": "2026-11-02T02:55:27Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "make test",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ShellCheck",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "Kopia version alignment",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 38407,
       "repo": "pingdotgg/t3code",
       "org": "pingdotgg",
@@ -16284,7 +16249,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-25T19:08:03Z",
+    "updatedAt": "2026-11-25T20:09:33Z",
     "needsReview": [
       {
         "number": 68,
@@ -16922,7 +16887,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 75,
+        "waitingDays": 76,
         "updatedAt": "2026-09-10T20:07:54Z"
       },
       {
@@ -17070,7 +17035,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17380,30 +17345,6 @@
         "reason": "awaitingReview",
         "waitingDays": 24,
         "updatedAt": "2026-11-01T09:31:39Z"
-      },
-      {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 10710,
@@ -17892,7 +17833,7 @@
           "os/windows",
           "os/macos"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17920,7 +17861,7 @@
         "labels": [
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18102,7 +18043,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19492,7 +19433,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19803,7 +19744,7 @@
           "size:M",
           "takeover:blocked"
         ],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,

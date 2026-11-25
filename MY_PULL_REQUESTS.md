@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-25 19:08:03 UTC
+> Last updated: 2026-11-25 20:09:33 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -169,7 +169,6 @@ No open PRs.
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-ready-green)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (176 commits, v2.9.22) into dev
-- [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
 - [![PR #2254](https://img.shields.io/badge/PR%20%232254-ready-green)](https://github.com/storytold/craft-anything/pull/2254) **storytold/craft-anything** → `main` - Say `rustup default stable` when rustup is on the computer without a toolchain (R2.9)
 - [![PR #2255](https://img.shields.io/badge/PR%20%232255-ready-green)](https://github.com/storytold/craft-anything/pull/2255) **storytold/craft-anything** → `main` - Show a model change as pending in Settings while its save waits
 - [![PR #2441](https://img.shields.io/badge/PR%20%232441-ready-green)](https://github.com/storytold/craft-anything/pull/2441) **storytold/craft-anything** → `main` - Search Homebrew's rustup keg bin folders too
