@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-27 — 2026-11-25
-> **Generated:** 2026-11-25 18:10:35 UTC
+> **Generated:** 2026-11-25 19:07:34 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 62 |
+| PRs Reviewed | 63 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 90 |
 
@@ -39,6 +39,8 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (83)
+- [#225 Refresh dashboard data after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/225) — oadp-rebasebot/oadp-rebase
+- [#224 rebase: author rebase commits as the cloner so its pushes stop needing workflow approval](https://github.com/oadp-rebasebot/oadp-rebase/pull/224) — oadp-rebasebot/oadp-rebase
 - [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
 - [#666 fix(openshift): skip destroy bootstrap once metadata.json is gone](https://github.com/kaovilai/dotfiles/pull/666) — kaovilai/dotfiles
 - [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
@@ -120,8 +122,6 @@
 - [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
 - [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
-- [#42 feat(plugins): local metadata subset — list/inspect/privileges/create](https://github.com/kaovilai/podm/pull/42) — kaovilai/podm
-- [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 ## PRs Opened (100)
 
 **velero-io** (6)
@@ -148,6 +148,8 @@
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (83)
+- [#225 Refresh dashboard data after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/225) — oadp-rebasebot/oadp-rebase
+- [#224 rebase: author rebase commits as the cloner so its pushes stop needing workflow approval](https://github.com/oadp-rebasebot/oadp-rebase/pull/224) — oadp-rebasebot/oadp-rebase
 - [#666 fix(openshift): skip destroy bootstrap once metadata.json is gone](https://github.com/kaovilai/dotfiles/pull/666) — kaovilai/dotfiles
 - [#2441 Search Homebrew's rustup keg bin folders too](https://github.com/storytold/craft-anything/pull/2441) — storytold/craft-anything
 - [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
@@ -229,9 +231,7 @@
 - [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
 - [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
 - [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
-- [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
-- [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
-## PRs Reviewed (62)
+## PRs Reviewed (63)
 
 **velero-io** (43)
 - [#10907 build(deps): bump the github-actions group with 4 updates](https://github.com/velero-io/velero/pull/10907) — velero-io/velero
@@ -292,7 +292,8 @@
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
 - [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
 
-**migtools** (7)
+**migtools** (8)
+- [#399 Merge https://github.com/migtools/oadp-non-admin:oadp-1.5 (b07428a) into oadp-1.5](https://github.com/migtools/oadp-non-admin/pull/399) — migtools/oadp-non-admin
 - [#400 Update Dockerfile to use golang:1.26](https://github.com/migtools/oadp-non-admin/pull/400) — migtools/oadp-non-admin
 - [#112 Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5](https://github.com/migtools/kubevirt-velero-plugin/pull/112) — migtools/kubevirt-velero-plugin
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
