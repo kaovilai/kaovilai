@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T16:13:46Z",
+  "updatedAt": "2026-11-25T17:08:56Z",
   "prs": [
     {
       "number": 5,
@@ -9905,16 +9905,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T02:22:40Z",
+      "updatedAt": "2026-11-25T16:47:29Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/5.2-ci-index",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.2-images",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -10021,16 +10021,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T02:23:13Z",
+      "updatedAt": "2026-11-25T16:48:18Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/5.2-ci-index",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.2-images",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -10233,16 +10233,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T02:23:21Z",
+      "updatedAt": "2026-11-25T16:48:05Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/5.2-ci-index",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.2-images",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -10353,16 +10353,16 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T02:23:24Z",
+      "updatedAt": "2026-11-25T16:48:09Z",
       "workstream": "OADP",
       "ciChecks": [
         {
           "name": "ci/prow/5.2-ci-index",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "ci/prow/5.2-images",
-          "conclusion": "FAILURE"
+          "conclusion": "PENDING"
         },
         {
           "name": "CodeRabbit",
@@ -12623,10 +12623,6 @@
       "workstream": "Uncategorized",
       "ciChecks": [
         {
-          "name": "ci/prow/images",
-          "conclusion": "FAILURE"
-        },
-        {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
         },
@@ -12648,6 +12644,10 @@
         },
         {
           "name": "ci/prow/frontend-checks",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/images",
           "conclusion": "SUCCESS"
         },
         {
@@ -13001,7 +13001,7 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T02:22:10Z",
+      "updatedAt": "2026-11-25T16:47:34Z",
       "workstream": "OADP",
       "ciChecks": [
         {
@@ -14238,6 +14238,36 @@
       ]
     },
     {
+      "number": 18,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "[auto-sync] Merge upstream/dev (176 commits, v2.9.22) into dev",
+      "url": "https://github.com/kaovilai/copilot-api/pull/18",
+      "targetBranch": "dev",
+      "status": "ready",
+      "milestone": null,
+      "author": "kaovilai",
+      "isCopilotAuthored": false,
+      "assignees": [],
+      "isDraft": false,
+      "labels": [
+        "automation",
+        "upstream-sync"
+      ],
+      "updatedAt": "2026-11-25T17:03:48Z",
+      "workstream": "Uncategorized",
+      "ciChecks": [
+        {
+          "name": "test",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "CodeRabbit",
+          "conclusion": "SUCCESS"
+        }
+      ]
+    },
+    {
       "number": 674,
       "repo": "kubernetes-sigs/prow",
       "org": "kubernetes-sigs",
@@ -14932,32 +14962,6 @@
       "ciChecks": [
         {
           "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "repo": "kaovilai/copilot-api",
-      "org": "kaovilai",
-      "title": "[auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev",
-      "url": "https://github.com/kaovilai/copilot-api/pull/18",
-      "targetBranch": "dev",
-      "status": "draft",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": true,
-      "labels": [
-        "automation",
-        "upstream-sync"
-      ],
-      "updatedAt": "2026-11-12T10:57:25Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "test",
           "conclusion": "SUCCESS"
         }
       ]
@@ -16280,7 +16284,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-25T16:13:46Z",
+    "updatedAt": "2026-11-25T17:08:56Z",
     "needsReview": [
       {
         "number": 68,
@@ -16648,7 +16652,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 131,
+        "waitingDays": 132,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -16723,7 +16727,7 @@
           "approved",
           "rehearsals-ack"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -16767,7 +16771,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 89,
+        "waitingDays": 90,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -16798,7 +16802,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 89,
+        "waitingDays": 90,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -17219,7 +17223,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 29,
+        "waitingDays": 30,
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
@@ -17376,30 +17380,6 @@
         "reason": "awaitingReview",
         "waitingDays": 24,
         "updatedAt": "2026-11-01T09:31:39Z"
-      },
-      {
-        "number": 216,
-        "repo": "oadp-rebasebot/oadp-rebase",
-        "org": "oadp-rebasebot",
-        "title": "Guard CRD regeneration after dependency bumps",
-        "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "UNKNOWN",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 23,
-        "updatedAt": "2026-11-02T02:55:27Z"
       },
       {
         "number": 10710,
@@ -17854,7 +17834,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18050,6 +18030,37 @@
         "updatedAt": "2026-11-17T01:31:33Z"
       },
       {
+        "number": 2555,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
+        "url": "https://github.com/openshift/oadp-operator/pull/2555",
+        "targetBranch": "oadp-1.5",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "openshift-cherrypick-robot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-11-18T16:57:33Z"
+      },
+      {
         "number": 18957,
         "repo": "kubevirt/kubevirt",
         "org": "kubevirt",
@@ -18114,37 +18125,6 @@
         "reason": "awaitingReview",
         "waitingDays": 6,
         "updatedAt": "2026-11-19T13:53:12Z"
-      },
-      {
-        "number": 2555,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
-        "url": "https://github.com/openshift/oadp-operator/pull/2555",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "openshift-cherrypick-robot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-11-18T16:57:33Z"
       },
       {
         "number": 82734,
@@ -18216,7 +18196,7 @@
           "size/S",
           "lifecycle/stale"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18787,7 +18767,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 131,
+        "waitingDays": 132,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -19070,38 +19050,6 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 61,
-        "updatedAt": "2026-09-24T21:55:00Z"
-      },
-      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -19126,7 +19074,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 60,
+        "waitingDays": 61,
         "updatedAt": "2026-09-25T17:03:14Z"
       },
       {
@@ -19157,8 +19105,40 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 60,
+        "waitingDays": 61,
         "updatedAt": "2026-09-25T17:03:37Z"
+      },
+      {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 61,
+        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -19785,7 +19765,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 2,
+        "waitingDays": 3,
         "updatedAt": "2026-11-22T16:20:08Z"
       },
       {
@@ -19817,7 +19797,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T02:22:40Z"
+        "updatedAt": "2026-11-25T16:47:29Z"
       },
       {
         "number": 2499,
@@ -19848,7 +19828,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T02:23:13Z"
+        "updatedAt": "2026-11-25T16:48:18Z"
       },
       {
         "number": 2513,
@@ -19879,7 +19859,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T02:23:21Z"
+        "updatedAt": "2026-11-25T16:48:05Z"
       },
       {
         "number": 2526,
@@ -19910,7 +19890,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T02:23:24Z"
+        "updatedAt": "2026-11-25T16:48:09Z"
       },
       {
         "number": 2536,
