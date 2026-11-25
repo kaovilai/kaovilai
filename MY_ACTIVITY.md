@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-27 — 2026-11-25
-> **Generated:** 2026-11-25 15:10:52 UTC
+> **Generated:** 2026-11-25 16:12:35 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -23,7 +23,8 @@
 - [#327 [release-1.14] feat: Add SAS token authentication for Azure Blob Storage object store (cherry-pick #314)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/327) — velero-io/velero-plugin-for-microsoft-azure
 - [#325 [release-1.13] Update AzureAD Microsoft Authentication Library to v1.5.0 (cherry-pick #294)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/325) — velero-io/velero-plugin-for-microsoft-azure
 
-**openshift** (5)
+**openshift** (6)
+- [#2508 Sync NonAdmin CRDs with oadp-non-admin oadp-dev](https://github.com/openshift/oadp-operator/pull/2508) — openshift/oadp-operator
 - [#89243 OADP: tide query for rebasebot-app PRs (oadp-bot label)](https://github.com/openshift/release/pull/89243) — openshift/release
 - [#88500 OADP Depends-On: run an unmerged oadp-operator PR's e2e test code via TESTS_SOURCE sentinel](https://github.com/openshift/release/pull/88500) — openshift/release
 - [#2545 fix: retry AWS bucket region discovery on transient S3 errors](https://github.com/openshift/oadp-operator/pull/2545) — openshift/oadp-operator
@@ -37,7 +38,8 @@
 - [#108 Sync OWNERS_ALIASES with main](https://github.com/migtools/kubevirt-velero-plugin/pull/108) — migtools/kubevirt-velero-plugin
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (84)
+**Other** (83)
+- [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
 - [#666 fix(openshift): skip destroy bootstrap once metadata.json is gone](https://github.com/kaovilai/dotfiles/pull/666) — kaovilai/dotfiles
 - [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
 - [#9 macOS hub, menu bar app, Report a problem, Right away updates, stable release assets](https://github.com/kaovilai/tailbond/pull/9) — kaovilai/tailbond
@@ -120,8 +122,6 @@
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
 - [#42 feat(plugins): local metadata subset — list/inspect/privileges/create](https://github.com/kaovilai/podm/pull/42) — kaovilai/podm
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
-- [#387 Self-heal cold-session margin-calculator 500s; resolve Optimize cash account anywhere](https://github.com/kaovilai/toolkit-for-fidelity/pull/387) — kaovilai/toolkit-for-fidelity
-- [#41 fix(routes): stub compat codes — swarm 503, plugins 501, pause attribution](https://github.com/kaovilai/podm/pull/41) — kaovilai/podm
 ## PRs Opened (100)
 
 **velero-io** (6)
