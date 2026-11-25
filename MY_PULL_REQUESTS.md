@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-25 13:11:56 UTC
+> Last updated: 2026-11-25 14:11:18 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -66,6 +66,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #2198](https://img.shields.io/badge/PR%20%232198-ready-green)](https://github.com/openshift/oadp-operator/pull/2198) **openshift/oadp-operator** → `oadp-dev` - fix: handle not-found error in nodeagent DaemonSet deletion
 - [![PR #2272](https://img.shields.io/badge/PR%20%232272-ready-green)](https://github.com/openshift/oadp-operator/pull/2272) **openshift/oadp-operator** → `oadp-dev` - validate container runtime availability before container operations
 - [![PR #2371](https://img.shields.io/badge/PR%20%232371-ready-green)](https://github.com/openshift/oadp-operator/pull/2371) **openshift/oadp-operator** → `oadp-dev` - docs: AllNamespaces install mode design proposal
+- [![PR #2473](https://img.shields.io/badge/PR%20%232473-ready-green)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
 - [![PR #2519](https://img.shields.io/badge/PR%20%232519-ready-green)](https://github.com/openshift/oadp-operator/pull/2519) **openshift/oadp-operator** → `oadp-dev` - docs: note that nodeAgent.loadAffinity also limits File System Backup
 - [![PR #2520](https://img.shields.io/badge/PR%20%232520-ready-green)](https://github.com/openshift/oadp-operator/pull/2520) **openshift/oadp-operator** → `oadp-dev` - tests: add Eventually guards before bare Consistently calls
 - [![PR #2521](https://img.shields.io/badge/PR%20%232521-ready-green)](https://github.com/openshift/oadp-operator/pull/2521) **openshift/oadp-operator** → `oadp-dev` - Add hotfix image creation guide for development docs
@@ -124,7 +125,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #95](https://img.shields.io/badge/PR%20%2395-failing--ci-red)](https://github.com/openshift/velero-plugin-for-csi/pull/95) **openshift/velero-plugin-for-csi** → `oadp-dev` - Add AGENTS.md and AI tool configs for agentic development readiness
 - [![PR #1984](https://img.shields.io/badge/PR%20%231984-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/1984) **openshift/oadp-operator** → `oadp-dev` - Improve Makefile performance and reduce spurious bundle changes
 - [![PR #237](https://img.shields.io/badge/PR%20%23237-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/237) **openshift/hypershift-oadp-plugin** → `oadp-1.5` - feat: Add FIPS 140-3 support using Microsoft Go and Azure Linux
-- [![PR #2473](https://img.shields.io/badge/PR%20%232473-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2473) **openshift/oadp-operator** → `oadp-dev` - fix(e2e): route/proxy 503 fallback and empty checksum exec flakes
 - [![PR #2488](https://img.shields.io/badge/PR%20%232488-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2488) **openshift/oadp-operator** → `oadp-dev` - Enable AllNamespaces install mode with multi-tenant DPA support
 - [![PR #2535](https://img.shields.io/badge/PR%20%232535-needs--attention-orange)](https://github.com/openshift/oadp-operator/pull/2535) **openshift/oadp-operator** → `oadp-dev` - fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
@@ -134,14 +134,13 @@ This file is automatically updated every hour by GitHub Actions.
 
 ## migtools
 
-- [![PR #106](https://img.shields.io/badge/PR%20%23106-ready-green)](https://github.com/migtools/kubevirt-velero-plugin/pull/106) **migtools/kubevirt-velero-plugin** → `oadp-1.4` - Sync OWNERS_ALIASES with main
 - [![PR #198](https://img.shields.io/badge/PR%20%23198-ready-green)](https://github.com/migtools/udistribution/pull/198) **migtools/udistribution** → `main` - ci: fail on unformatted Go instead of pushing a format commit
 - [![PR #245](https://img.shields.io/badge/PR%20%23245-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/245) **migtools/kubevirt-datamover-controller** → `oadp-dev` - fix: stop gate hot loop, avoid priority-queue starvation, scope cache (part of #244)
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-ready-green)](https://github.com/migtools/filebrowser/pull/53) **migtools/filebrowser** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
+- [![PR #106](https://img.shields.io/badge/PR%20%23106-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/106) **migtools/kubevirt-velero-plugin** → `oadp-1.4` - Sync OWNERS_ALIASES with main
 - [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
-- [![PR #108](https://img.shields.io/badge/PR%20%23108-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/108) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - Sync OWNERS_ALIASES with main
 - [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
 - [![PR #287](https://img.shields.io/badge/PR%20%23287-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/287) **migtools/oadp-cli** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: 468: Select the live virt-launcher pod after live migration
@@ -185,6 +184,7 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #666](https://img.shields.io/badge/PR%20%23666-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/666) **kaovilai/dotfiles** → `main` - fix(openshift): skip destroy bootstrap once metadata.json is gone
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
