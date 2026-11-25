@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T17:08:56Z",
+  "updatedAt": "2026-11-25T18:11:48Z",
   "prs": [
     {
       "number": 5,
@@ -9905,17 +9905,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T16:47:29Z",
+      "updatedAt": "2026-11-25T17:13:36Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/5.2-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.2-images",
-          "conclusion": "PENDING"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -9989,6 +9981,14 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.2-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.2-images",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
           "conclusion": "SUCCESS"
         },
@@ -10021,17 +10021,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T16:48:18Z",
+      "updatedAt": "2026-11-25T17:21:07Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/5.2-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.2-images",
-          "conclusion": "PENDING"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -10106,6 +10098,14 @@
         },
         {
           "name": "ci/prow/5.1-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.2-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.2-images",
           "conclusion": "SUCCESS"
         },
         {
@@ -10233,17 +10233,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T16:48:05Z",
+      "updatedAt": "2026-11-25T17:18:18Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/5.2-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.2-images",
-          "conclusion": "PENDING"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -10321,6 +10313,14 @@
           "conclusion": "SUCCESS"
         },
         {
+          "name": "ci/prow/5.2-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.2-images",
+          "conclusion": "SUCCESS"
+        },
+        {
           "name": "ci/prow/ci-bundle-oadp-operator-bundle",
           "conclusion": "SUCCESS"
         },
@@ -10353,17 +10353,9 @@
         "approved",
         "lgtm"
       ],
-      "updatedAt": "2026-11-25T16:48:09Z",
+      "updatedAt": "2026-11-25T17:15:13Z",
       "workstream": "OADP",
       "ciChecks": [
-        {
-          "name": "ci/prow/5.2-ci-index",
-          "conclusion": "PENDING"
-        },
-        {
-          "name": "ci/prow/5.2-images",
-          "conclusion": "PENDING"
-        },
         {
           "name": "CodeRabbit",
           "conclusion": "SUCCESS"
@@ -10402,6 +10394,14 @@
         },
         {
           "name": "ci/prow/5.1-images",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.2-ci-index",
+          "conclusion": "SUCCESS"
+        },
+        {
+          "name": "ci/prow/5.2-images",
           "conclusion": "SUCCESS"
         },
         {
@@ -16284,7 +16284,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-25T17:08:56Z",
+    "updatedAt": "2026-11-25T18:11:48Z",
     "needsReview": [
       {
         "number": 68,
@@ -16545,7 +16545,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 138,
+        "waitingDays": 139,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -16588,7 +16588,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -16987,7 +16987,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 63,
+        "waitingDays": 64,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -17834,7 +17834,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19169,7 +19169,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 60,
+        "waitingDays": 61,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -19606,7 +19606,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 20,
+        "waitingDays": 21,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
@@ -19784,7 +19784,7 @@
           "approved",
           "lgtm"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNSTABLE",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -19797,7 +19797,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T16:47:29Z"
+        "updatedAt": "2026-11-25T17:13:36Z"
       },
       {
         "number": 2499,
@@ -19828,7 +19828,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T16:48:18Z"
+        "updatedAt": "2026-11-25T17:21:07Z"
       },
       {
         "number": 2513,
@@ -19859,7 +19859,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T16:48:05Z"
+        "updatedAt": "2026-11-25T17:18:18Z"
       },
       {
         "number": 2526,
@@ -19890,7 +19890,7 @@
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
         "waitingDays": 0,
-        "updatedAt": "2026-11-25T16:48:09Z"
+        "updatedAt": "2026-11-25T17:15:13Z"
       },
       {
         "number": 2536,
