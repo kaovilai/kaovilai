@@ -3,7 +3,7 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T12:14:31Z",
+  "generatedAt": "2026-11-25T13:10:36Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1822,7 +1822,7 @@
       "org": "migtools",
       "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5",
       "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/112",
-      "date": "2026-11-25T11:11:10Z",
+      "date": "2026-11-25T12:51:07Z",
       "workstream": "Uncategorized"
     },
     {
@@ -2367,6 +2367,24 @@
     }
   ],
   "issuesCommented": [
+    {
+      "number": 18950,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending",
+      "url": "https://github.com/kubevirt/kubevirt/issues/18950",
+      "date": "2026-11-25T12:46:56Z",
+      "workstream": "KubeVirt Data Mover"
+    },
+    {
+      "number": 18959,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race",
+      "url": "https://github.com/kubevirt/kubevirt/issues/18959",
+      "date": "2026-11-25T12:46:56Z",
+      "workstream": "KubeVirt Data Mover"
+    },
     {
       "number": 10299,
       "repo": "velero-io/velero",
@@ -3248,24 +3266,6 @@
       "url": "https://github.com/velero-io/velero/issues/10092",
       "date": "2026-10-27T03:06:28Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 4673,
-      "repo": "kubevirt/hyperconverged-cluster-operator",
-      "org": "kubevirt",
-      "title": "v1beta1 HyperConverged apply fails with conversion webhook error right after the CSV reaches Succeeded",
-      "url": "https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4673",
-      "date": "2026-10-26T07:25:36Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 19736,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "[Bug]: A message queued behind a running turn pushes the \"Working for…\" header below it",
-      "url": "https://github.com/pingdotgg/t3code/issues/19736",
-      "date": "2026-10-24T12:20:07Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesClosed": [
