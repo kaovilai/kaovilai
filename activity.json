@@ -3,7 +3,7 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T14:10:56Z",
+  "generatedAt": "2026-11-25T15:10:52Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,42 @@
     "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 666,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(openshift): skip destroy bootstrap once metadata.json is gone",
+      "url": "https://github.com/kaovilai/dotfiles/pull/666",
+      "date": "2026-11-25T14:39:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 106,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Sync OWNERS_ALIASES with main",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/106",
+      "date": "2026-11-25T14:31:16Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 107,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Sync OWNERS_ALIASES with main",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/107",
+      "date": "2026-11-25T14:25:48Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 109,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Add akarol to OWNERS_ALIASES",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/109",
+      "date": "2026-11-25T14:25:47Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 108,
       "repo": "migtools/kubevirt-velero-plugin",
@@ -875,45 +911,18 @@
       "url": "https://github.com/kaovilai/podm/pull/41",
       "date": "2026-11-11T11:05:57Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 645,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "feat(menubar): show reroutes and errors in the floating window header",
-      "url": "https://github.com/kaovilai/dotfiles/pull/645",
-      "date": "2026-11-11T10:13:43Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 644,
-      "repo": "kaovilai/dotfiles",
-      "org": "kaovilai",
-      "title": "docs: add hosted-only GHA reviewer note",
-      "url": "https://github.com/kaovilai/dotfiles/pull/644",
-      "date": "2026-11-11T10:00:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 40,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(configs): local ConfigStore + docker-dialect /configs routes",
-      "url": "https://github.com/kaovilai/podm/pull/40",
-      "date": "2026-11-11T09:20:07Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 318,
-      "repo": "velero-io/velero-plugin-for-microsoft-azure",
-      "org": "velero-io",
-      "title": "Fix Auto Request Review workflow: bump action version and pass token",
-      "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318",
-      "date": "2026-11-11T08:05:08Z",
-      "workstream": "Velero"
     }
   ],
   "prsOpened": [
+    {
+      "number": 10908,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix namespace deletion race in CSI E2E tests",
+      "url": "https://github.com/velero-io/velero/pull/10908",
+      "date": "2026-11-25T14:30:46Z",
+      "workstream": "Velero"
+    },
     {
       "number": 666,
       "repo": "kaovilai/dotfiles",
@@ -1803,15 +1812,6 @@
       "title": "fix(routes): /session stub answers POST — buildx dialed a 404",
       "url": "https://github.com/kaovilai/podm/pull/44",
       "date": "2026-11-11T14:25:40Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 43,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "docs(readme): state the socktainer spin-out reason and open invitation",
-      "url": "https://github.com/kaovilai/podm/pull/43",
-      "date": "2026-11-11T12:46:25Z",
       "workstream": "Uncategorized"
     }
   ],
