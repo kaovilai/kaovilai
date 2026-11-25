@@ -3,15 +3,24 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T20:08:54Z",
+  "generatedAt": "2026-11-25T21:13:12Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 63,
+    "prsReviewed": 62,
     "issuesCommented": 100,
     "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 18,
+      "repo": "kaovilai/copilot-api",
+      "org": "kaovilai",
+      "title": "[auto-sync] Merge upstream/dev (176 commits, v2.9.22) into dev",
+      "url": "https://github.com/kaovilai/copilot-api/pull/18",
+      "date": "2026-11-25T20:28:16Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 216,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -901,15 +910,6 @@
       "title": "Regenerate the travel map with SMIL so it animates on Safari",
       "url": "https://github.com/kaovilai/kaovilai/pull/90",
       "date": "2026-11-11T16:05:53Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 44,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "fix(routes): /session stub answers POST — buildx dialed a 404",
-      "url": "https://github.com/kaovilai/podm/pull/44",
-      "date": "2026-11-11T15:51:08Z",
       "workstream": "Uncategorized"
     }
   ],
@@ -1817,6 +1817,15 @@
   ],
   "prsReviewed": [
     {
+      "number": 10817,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Treat omitted backup hook on-error as Fail",
+      "url": "https://github.com/velero-io/velero/pull/10817",
+      "date": "2026-11-25T20:59:29Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 289,
       "repo": "migtools/oadp-cli",
       "org": "migtools",
@@ -2114,15 +2123,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10817,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Treat omitted backup hook on-error as Fail",
-      "url": "https://github.com/velero-io/velero/pull/10817",
-      "date": "2026-11-24T06:31:45Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10793,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2373,15 +2373,6 @@
       "url": "https://github.com/openshift/release/pull/88821",
       "date": "2026-11-16T16:09:26Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 376,
-      "repo": "migtools/oadp-non-admin",
-      "org": "migtools",
-      "title": "⬆ Bump hadolint/hadolint-action from 3.4.0 to 3.5.0",
-      "url": "https://github.com/migtools/oadp-non-admin/pull/376",
-      "date": "2026-11-16T15:43:02Z",
-      "workstream": "OADP"
     }
   ],
   "issuesCommented": [
