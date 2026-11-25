@@ -3,7 +3,7 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T17:07:42Z",
+  "generatedAt": "2026-11-25T18:10:35Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,33 @@
   ],
   "prsReviewed": [
     {
+      "number": 512,
+      "repo": "openshift/openshift-velero-plugin",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.5 (de1b5c0) into oadp-1.5",
+      "url": "https://github.com/openshift/openshift-velero-plugin/pull/512",
+      "date": "2026-11-25T17:48:57Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 2526,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: add progress reporting section to kubevirt-datamover backup-restore guide",
+      "url": "https://github.com/openshift/oadp-operator/pull/2526",
+      "date": "2026-11-25T17:15:13Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2477,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/openshift/oadp-operator/pull/2477",
+      "date": "2026-11-25T17:13:36Z",
+      "workstream": "OADP"
+    },
+    {
       "number": 400,
       "repo": "migtools/oadp-non-admin",
       "org": "migtools",
@@ -1826,30 +1853,12 @@
       "workstream": "OADP"
     },
     {
-      "number": 2526,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "docs: add progress reporting section to kubevirt-datamover backup-restore guide",
-      "url": "https://github.com/openshift/oadp-operator/pull/2526",
-      "date": "2026-11-25T16:48:09Z",
-      "workstream": "OADP"
-    },
-    {
       "number": 2535,
       "repo": "openshift/oadp-operator",
       "org": "openshift",
       "title": "fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0",
       "url": "https://github.com/openshift/oadp-operator/pull/2535",
       "date": "2026-11-25T16:47:34Z",
-      "workstream": "OADP"
-    },
-    {
-      "number": 2477,
-      "repo": "openshift/oadp-operator",
-      "org": "openshift",
-      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
-      "url": "https://github.com/openshift/oadp-operator/pull/2477",
-      "date": "2026-11-25T16:47:29Z",
       "workstream": "OADP"
     },
     {
@@ -2364,15 +2373,6 @@
       "url": "https://github.com/velero-io/velero/pull/10830",
       "date": "2026-11-16T08:06:38Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 34998,
-      "repo": "pingdotgg/t3code",
-      "org": "pingdotgg",
-      "title": "fix(web): iOS Safari keyboard no longer hides the composer or scrolls the header away",
-      "url": "https://github.com/pingdotgg/t3code/pull/34998",
-      "date": "2026-11-16T06:53:35Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
