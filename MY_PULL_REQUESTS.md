@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-25 14:11:18 UTC
+> Last updated: 2026-11-25 16:13:46 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -26,6 +26,7 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #9910](https://img.shields.io/badge/PR%20%239910-ready-green)](https://github.com/velero-io/velero/pull/9910) **velero-io/velero** → `main` - feat: add CRD schema validation during server startup
 - [![PR #10708](https://img.shields.io/badge/PR%20%2310708-draft-gray)](https://github.com/velero-io/velero/pull/10708) **velero-io/velero** → `main` - Delete retained source VSC when cleaning up an interrupted CSI snapshot expose
 - [![PR #10856](https://img.shields.io/badge/PR%20%2310856-draft-gray)](https://github.com/velero-io/velero/pull/10856) **velero-io/velero** → `main` - Document the node-agent label required for File System Backup since v1.16
+- [![PR #10908](https://img.shields.io/badge/PR%20%2310908-draft-gray)](https://github.com/velero-io/velero/pull/10908) **velero-io/velero** → `main` - Fix namespace deletion race in CSI E2E tests
 - [![PR #10025](https://img.shields.io/badge/PR%20%2310025-stale-yellow)](https://github.com/velero-io/velero/pull/10025) **velero-io/velero** → `main` - Add make test-e2e-kind: self-contained e2e run in a single container
 - [![PR #10028](https://img.shields.io/badge/PR%20%2310028-stale-yellow)](https://github.com/velero-io/velero/pull/10028) **velero-io/velero** → `main` - Bump actions/labeler from v5 to v6
 - [![PR #10041](https://img.shields.io/badge/PR%20%2310041-stale-yellow)](https://github.com/velero-io/velero/pull/10041) **velero-io/velero** → `main` - [e2e][repro] NFSOwnership test: fs-backup restore silently loses file ownership on root-squashing NFS (#10040)
@@ -117,7 +118,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #78](https://img.shields.io/badge/PR%20%2378-stale-yellow)](https://github.com/openshift/oadp-must-gather/pull/78) **openshift/oadp-must-gather** → `oadp-1.4` - OADP-7143: update runc requirement
 - [![PR #79327](https://img.shields.io/badge/PR%20%2379327-stale-yellow)](https://github.com/openshift/release/pull/79327) **openshift/release** → `main` - OADP: migrate CI to FBC catalog image (no operator-sdk) + TechPreview
 - [![PR #80150](https://img.shields.io/badge/PR%20%2380150-stale-yellow)](https://github.com/openshift/release/pull/80150) **openshift/release** → `main` - tide: enable github_merge_blocks_policy for repos with recent merge failures
-- [![PR #2508](https://img.shields.io/badge/PR%20%232508-hold-yellow)](https://github.com/openshift/oadp-operator/pull/2508) **openshift/oadp-operator** → `oadp-dev` - Sync NonAdmin CRDs with oadp-non-admin oadp-dev
 - [![PR #565](https://img.shields.io/badge/PR%20%23565-hold-yellow)](https://github.com/openshift/velero/pull/565) **openshift/velero** → `oadp-1.5` - OADP-7061: [oadp-1.5] DM controller refactor for cancel (cherry-pick #8952)
 - [![PR #181](https://img.shields.io/badge/PR%20%23181-failing--ci-red)](https://github.com/openshift/velero-plugin-for-gcp/pull/181) **openshift/velero-plugin-for-gcp** → `oadp-dev` - fix: pass token to auto-request-review action
 - [![PR #182](https://img.shields.io/badge/PR%20%23182-failing--ci-red)](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182) **openshift/velero-plugin-for-microsoft-azure** → `oadp-1.4` - Update auto-request-review action to v0.13.0
@@ -139,9 +139,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #250](https://img.shields.io/badge/PR%20%23250-ready-green)](https://github.com/migtools/kubevirt-datamover-controller/pull/250) **migtools/kubevirt-datamover-controller** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #53](https://img.shields.io/badge/PR%20%2353-ready-green)](https://github.com/migtools/filebrowser/pull/53) **migtools/filebrowser** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
 - [![PR #66](https://img.shields.io/badge/PR%20%2366-ready-green)](https://github.com/migtools/kopia/pull/66) **migtools/kopia** → `oadp-dev` - oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)
-- [![PR #106](https://img.shields.io/badge/PR%20%23106-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/106) **migtools/kubevirt-velero-plugin** → `oadp-1.4` - Sync OWNERS_ALIASES with main
-- [![PR #107](https://img.shields.io/badge/PR%20%23107-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/107) **migtools/kubevirt-velero-plugin** → `oadp-1.5` - Sync OWNERS_ALIASES with main
-- [![PR #109](https://img.shields.io/badge/PR%20%23109-waiting--merge-blue)](https://github.com/migtools/kubevirt-velero-plugin/pull/109) **migtools/kubevirt-velero-plugin** → `main` - Add akarol to OWNERS_ALIASES
 - [![PR #287](https://img.shields.io/badge/PR%20%23287-waiting--merge-blue)](https://github.com/migtools/oadp-cli/pull/287) **migtools/oadp-cli** → `oadp-dev` - Group Go security updates in Dependabot
 - [![PR #111](https://img.shields.io/badge/PR%20%23111-draft-gray)](https://github.com/migtools/kubevirt-velero-plugin/pull/111) **migtools/kubevirt-velero-plugin** → `oadp-1.6` - UPSTREAM: 468: Select the live virt-launcher pod after live migration
 - [![PR #142](https://img.shields.io/badge/PR%20%23142-stale-yellow)](https://github.com/migtools/udistribution/pull/142) **migtools/udistribution** → `main` - Add registry abstraction layer for improved maintainability
@@ -172,7 +169,6 @@ No open PRs.
 - [![PR #18725](https://img.shields.io/badge/PR%20%2318725-ready-green)](https://github.com/kubevirt/kubevirt/pull/18725) **kubevirt/kubevirt** → `main` - Release the VMBackup finalizer when its BackupTracker is gone
 - [![PR #18957](https://img.shields.io/badge/PR%20%2318957-ready-green)](https://github.com/kubevirt/kubevirt/pull/18957) **kubevirt/kubevirt** → `main` - storage/cbt: fix stale reconcile overwriting a completed VMBackup with SourceLost
 - [![PR #216](https://img.shields.io/badge/PR%20%23216-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Guard CRD regeneration after dependency bumps
-- [![PR #219](https://img.shields.io/badge/PR%20%23219-ready-green)](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) **oadp-rebasebot/oadp-rebase** → `oadp-dev` - Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch
 - [![PR #2254](https://img.shields.io/badge/PR%20%232254-ready-green)](https://github.com/storytold/craft-anything/pull/2254) **storytold/craft-anything** → `main` - Say `rustup default stable` when rustup is on the computer without a toolchain (R2.9)
 - [![PR #2255](https://img.shields.io/badge/PR%20%232255-ready-green)](https://github.com/storytold/craft-anything/pull/2255) **storytold/craft-anything** → `main` - Show a model change as pending in Settings while its save waits
 - [![PR #2441](https://img.shields.io/badge/PR%20%232441-ready-green)](https://github.com/storytold/craft-anything/pull/2441) **storytold/craft-anything** → `main` - Search Homebrew's rustup keg bin folders too
@@ -184,7 +180,6 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #666](https://img.shields.io/badge/PR%20%23666-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/666) **kaovilai/dotfiles** → `main` - fix(openshift): skip destroy bootstrap once metadata.json is gone
 - [![PR #18](https://img.shields.io/badge/PR%20%2318-draft-gray)](https://github.com/kaovilai/copilot-api/pull/18) **kaovilai/copilot-api** → `dev` - [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
