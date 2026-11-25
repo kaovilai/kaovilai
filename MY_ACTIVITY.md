@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-27 — 2026-11-25
-> **Generated:** 2026-11-25 13:10:36 UTC
+> **Generated:** 2026-11-25 14:10:56 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -31,10 +31,11 @@
 - [#2542 Fall back to pinned HCO 1.19.0 on clusters too old for the nightly index](https://github.com/openshift/oadp-operator/pull/2542) — openshift/oadp-operator
 - [#2547 fix(virt-kdm-e2e): skip as pending when the kubevirt/kubevirt#18957 event-only flake hides the VMB backup type [oadp-1.6]](https://github.com/openshift/oadp-operator/pull/2547) — openshift/oadp-operator
 
-**migtools** (1)
+**migtools** (2)
+- [#108 Sync OWNERS_ALIASES with main](https://github.com/migtools/kubevirt-velero-plugin/pull/108) — migtools/kubevirt-velero-plugin
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
-**Other** (87)
+**Other** (86)
 - [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
 - [#9 macOS hub, menu bar app, Report a problem, Right away updates, stable release assets](https://github.com/kaovilai/tailbond/pull/9) — kaovilai/tailbond
 - [#98 Generate every platform cover from one layout engine](https://github.com/kaovilai/kaovilai/pull/98) — kaovilai/kaovilai
@@ -121,7 +122,6 @@
 - [#645 feat(menubar): show reroutes and errors in the floating window header](https://github.com/kaovilai/dotfiles/pull/645) — kaovilai/dotfiles
 - [#644 docs: add hosted-only GHA reviewer note](https://github.com/kaovilai/dotfiles/pull/644) — kaovilai/dotfiles
 - [#40 feat(configs): local ConfigStore + docker-dialect /configs routes](https://github.com/kaovilai/podm/pull/40) — kaovilai/podm
-- [#39 feat(secrets): docker-dialect /secrets routes over the local SecretStore](https://github.com/kaovilai/podm/pull/39) — kaovilai/podm
 ## PRs Opened (100)
 
 **velero-io** (5)
@@ -147,6 +147,7 @@
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (84)
+- [#666 fix(openshift): skip destroy bootstrap once metadata.json is gone](https://github.com/kaovilai/dotfiles/pull/666) — kaovilai/dotfiles
 - [#2441 Search Homebrew's rustup keg bin folders too](https://github.com/storytold/craft-anything/pull/2441) — storytold/craft-anything
 - [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
 - [#1 prt-probe: PR targeting non-default branch](https://github.com/kaovilai/gha-sandbox/pull/1) — kaovilai/gha-sandbox
@@ -230,7 +231,6 @@
 - [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
 - [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
-- [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
 ## PRs Reviewed (61)
 
 **velero-io** (43)

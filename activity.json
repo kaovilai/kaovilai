@@ -3,7 +3,7 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T13:10:36Z",
+  "generatedAt": "2026-11-25T14:10:56Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,15 @@
     "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 108,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Sync OWNERS_ALIASES with main",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/108",
+      "date": "2026-11-25T14:05:12Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 665,
       "repo": "kaovilai/dotfiles",
@@ -902,18 +911,18 @@
       "url": "https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/318",
       "date": "2026-11-11T08:05:08Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 39,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(secrets): docker-dialect /secrets routes over the local SecretStore",
-      "url": "https://github.com/kaovilai/podm/pull/39",
-      "date": "2026-11-11T06:26:13Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 666,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "fix(openshift): skip destroy bootstrap once metadata.json is gone",
+      "url": "https://github.com/kaovilai/dotfiles/pull/666",
+      "date": "2026-11-25T14:01:45Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10904,
       "repo": "velero-io/velero",
@@ -1804,15 +1813,6 @@
       "url": "https://github.com/kaovilai/podm/pull/43",
       "date": "2026-11-11T12:46:25Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 69,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Fix the syft image tag in release SBOM scanning",
-      "url": "https://github.com/konveyor/builder/pull/69",
-      "date": "2026-11-11T12:44:10Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
@@ -1822,7 +1822,7 @@
       "org": "migtools",
       "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5",
       "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/112",
-      "date": "2026-11-25T12:51:07Z",
+      "date": "2026-11-25T14:05:12Z",
       "workstream": "Uncategorized"
     },
     {
