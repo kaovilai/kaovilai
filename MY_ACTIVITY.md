@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-27 — 2026-11-25
-> **Generated:** 2026-11-25 16:12:35 UTC
+> **Generated:** 2026-11-25 17:07:42 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 61 |
+| PRs Reviewed | 62 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 90 |
 
@@ -209,7 +209,7 @@
 - [#648 feat(zsh): add t3-triage function for the t3 triage claude shim](https://github.com/kaovilai/dotfiles/pull/648) — kaovilai/dotfiles
 - [#73 Document the base-image Python Dependabot alerts as known noise](https://github.com/konveyor/builder/pull/73) — konveyor/builder
 - [#647 feat(zsh): add multiarchwibm alias, drop dockerplatforms/colima-multiplat aliases](https://github.com/kaovilai/dotfiles/pull/647) — kaovilai/dotfiles
-- [#18 [auto-sync] Merge upstream/dev (80 commits, v2.9.4) into dev](https://github.com/kaovilai/copilot-api/pull/18) — kaovilai/copilot-api
+- [#18 [auto-sync] Merge upstream/dev (176 commits, v2.9.22) into dev](https://github.com/kaovilai/copilot-api/pull/18) — kaovilai/copilot-api
 - [#215 ci: probe GITHUB_TOKEN workflow-file push with workflows: write (throwaway)](https://github.com/kaovilai/github-bot-command-palette/pull/215) — kaovilai/github-bot-command-palette
 - [#214 ci(locks): let auto-fix push lock files; stop dependabot bumping generated locks](https://github.com/kaovilai/github-bot-command-palette/pull/214) — kaovilai/github-bot-command-palette
 - [#213 fix(picker): rehearse dropdown double-window race + collapsible sections w/ dynamic plugin relevance](https://github.com/kaovilai/github-bot-command-palette/pull/213) — kaovilai/github-bot-command-palette
@@ -231,7 +231,7 @@
 - [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
 - [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
 - [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
-## PRs Reviewed (61)
+## PRs Reviewed (62)
 
 **velero-io** (43)
 - [#10907 build(deps): bump the github-actions group with 4 updates](https://github.com/velero-io/velero/pull/10907) — velero-io/velero
@@ -280,8 +280,8 @@
 
 **openshift** (11)
 - [#2526 docs: add progress reporting section to kubevirt-datamover backup-restore guide](https://github.com/openshift/oadp-operator/pull/2526) — openshift/oadp-operator
-- [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
 - [#2535 fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0](https://github.com/openshift/oadp-operator/pull/2535) — openshift/oadp-operator
+- [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
 - [#2488 Enable AllNamespaces install mode with multi-tenant DPA support](https://github.com/openshift/oadp-operator/pull/2488) — openshift/oadp-operator
 - [#2521 Add hotfix image creation guide for development docs](https://github.com/openshift/oadp-operator/pull/2521) — openshift/oadp-operator
 - [#607 Merge https://github.com/velero-io/velero:v1.16.2 (a608082) into oadp-1.5](https://github.com/openshift/velero/pull/607) — openshift/velero
@@ -291,7 +291,8 @@
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
 - [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
 
-**migtools** (6)
+**migtools** (7)
+- [#400 Update Dockerfile to use golang:1.26](https://github.com/migtools/oadp-non-admin/pull/400) — migtools/oadp-non-admin
 - [#112 Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5](https://github.com/migtools/kubevirt-velero-plugin/pull/112) — migtools/kubevirt-velero-plugin
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
 - [#65 Fix CVE-2026-116587, CVE-2026-78661](https://github.com/migtools/kopia/pull/65) — migtools/kopia
@@ -369,9 +370,9 @@
 - [#264 Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC](https://github.com/migtools/kubevirt-datamover-controller/issues/264) — migtools/kubevirt-datamover-controller
 
 **Other** (41)
-- [#18950 VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending](https://github.com/kubevirt/kubevirt/issues/18950) — kubevirt/kubevirt
-- [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt
+- [#18950 VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending](https://github.com/kubevirt/kubevirt/issues/18950) — kubevirt/kubevirt
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
 - [#2252 Setup says Rust isn't installed when rustup is there without a toolchain, and points at an installer that then refuses to run](https://github.com/storytold/craft-anything/issues/2252) — storytold/craft-anything
