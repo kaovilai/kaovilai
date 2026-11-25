@@ -3,13 +3,13 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T00:46:32Z",
+  "generatedAt": "2026-11-25T06:21:23Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 49,
+    "prsReviewed": 52,
     "issuesCommented": 100,
-    "issuesClosed": 88
+    "issuesClosed": 90
   },
   "prsMerged": [
     {
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 2441,
+      "repo": "storytold/craft-anything",
+      "org": "storytold",
+      "title": "Search Homebrew's rustup keg bin folders too",
+      "url": "https://github.com/storytold/craft-anything/pull/2441",
+      "date": "2026-11-25T04:50:47Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 665,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
@@ -1804,18 +1813,81 @@
       "url": "https://github.com/kaovilai/context-mode/pull/13",
       "date": "2026-11-11T12:34:18Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 388,
-      "repo": "kaovilai/toolkit-for-fidelity",
-      "org": "kaovilai",
-      "title": "Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers",
-      "url": "https://github.com/kaovilai/toolkit-for-fidelity/pull/388",
-      "date": "2026-11-11T11:28:01Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10629,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix ReadyToStart backup recovery after restart",
+      "url": "https://github.com/velero-io/velero/pull/10629",
+      "date": "2026-11-25T06:20:19Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10848,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix VGS backup failure when backup name exceeds 63 characters",
+      "url": "https://github.com/velero-io/velero/pull/10848",
+      "date": "2026-11-25T06:18:19Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 112,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/112",
+      "date": "2026-11-25T04:19:53Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2526,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "docs: add progress reporting section to kubevirt-datamover backup-restore guide",
+      "url": "https://github.com/openshift/oadp-operator/pull/2526",
+      "date": "2026-11-25T02:23:24Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2477,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add AGENTS.md and AI tool configs for agentic development readiness",
+      "url": "https://github.com/openshift/oadp-operator/pull/2477",
+      "date": "2026-11-25T02:22:40Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2535,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "fix(CVE-2026-81870): upgrade go.opentelemetry.io/otel/sdk v1.44.0 -> v1.45.0",
+      "url": "https://github.com/openshift/oadp-operator/pull/2535",
+      "date": "2026-11-25T02:22:10Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2488,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Enable AllNamespaces install mode with multi-tenant DPA support",
+      "url": "https://github.com/openshift/oadp-operator/pull/2488",
+      "date": "2026-11-25T01:32:26Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 2521,
+      "repo": "openshift/oadp-operator",
+      "org": "openshift",
+      "title": "Add hotfix image creation guide for development docs",
+      "url": "https://github.com/openshift/oadp-operator/pull/2521",
+      "date": "2026-11-25T01:29:43Z",
+      "workstream": "OADP"
+    },
     {
       "number": 385,
       "repo": "migtools/oadp-non-admin",
@@ -1958,15 +2030,6 @@
       "title": "[1.19] Issue 10839: remove the pod name when PVB is for a PVC",
       "url": "https://github.com/velero-io/velero/pull/10880",
       "date": "2026-11-23T09:02:15Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10629,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix ReadyToStart backup recovery after restart",
-      "url": "https://github.com/velero-io/velero/pull/10629",
-      "date": "2026-11-23T09:00:54Z",
       "workstream": "Velero"
     },
     {
@@ -2114,15 +2177,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10848,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix VGS backup failure when backup name exceeds 63 characters",
-      "url": "https://github.com/velero-io/velero/pull/10848",
-      "date": "2026-11-18T19:25:16Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10438,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -2229,36 +2283,18 @@
       "url": "https://github.com/pingdotgg/t3code/pull/34998",
       "date": "2026-11-16T06:53:35Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 511,
-      "repo": "openshift/openshift-velero-plugin",
-      "org": "openshift",
-      "title": "Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0",
-      "url": "https://github.com/openshift/openshift-velero-plugin/pull/511",
-      "date": "2026-11-14T05:42:26Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 261,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/261",
-      "date": "2026-11-14T05:27:16Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 77,
-      "repo": "migtools/kubevirt-datamover-plugin",
-      "org": "migtools",
-      "title": "build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0",
-      "url": "https://github.com/migtools/kubevirt-datamover-plugin/pull/77",
-      "date": "2026-11-14T05:02:31Z",
-      "workstream": "KubeVirt Data Mover"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 10299,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag",
+      "url": "https://github.com/velero-io/velero/issues/10299",
+      "date": "2026-11-25T01:36:25Z",
+      "workstream": "Velero"
+    },
     {
       "number": 264,
       "repo": "migtools/kubevirt-datamover-controller",
@@ -3149,18 +3185,27 @@
       "url": "https://github.com/pingdotgg/t3code/issues/19736",
       "date": "2026-10-24T12:20:07Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 1419,
-      "repo": "kubernetes/kubectl",
-      "org": "kubernetes",
-      "title": "`kubectl explain -o md`",
-      "url": "https://github.com/kubernetes/kubectl/issues/1419",
-      "date": "2026-10-23T02:19:56Z",
-      "workstream": "Kubernetes"
     }
   ],
   "issuesClosed": [
+    {
+      "number": 32256,
+      "repo": "pingdotgg/t3code",
+      "org": "pingdotgg",
+      "title": "[Bug]: macOS Option+←/→ is rewritten to ESC b/f even in full-screen apps (vim, TUIs)",
+      "url": "https://github.com/pingdotgg/t3code/issues/32256",
+      "date": "2026-11-25T03:40:34Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 3,
+      "repo": "mikey0000/ros2-airseekers-tron",
+      "org": "mikey0000",
+      "title": "Development.md License.md 404",
+      "url": "https://github.com/mikey0000/ros2-airseekers-tron/issues/3",
+      "date": "2026-11-25T01:28:23Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 10590,
       "repo": "openshift/installer",
