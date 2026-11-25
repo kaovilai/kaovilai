@@ -3,11 +3,11 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T06:21:23Z",
+  "generatedAt": "2026-11-25T12:14:31Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 52,
+    "prsReviewed": 61,
     "issuesCommented": 100,
     "issuesClosed": 90
   },
@@ -915,6 +915,15 @@
   ],
   "prsOpened": [
     {
+      "number": 10904,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "backport: hint Copilot conflict resolution on conflicted backport PRs",
+      "url": "https://github.com/velero-io/velero/pull/10904",
+      "date": "2026-11-25T06:57:22Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 2441,
       "repo": "storytold/craft-anything",
       "org": "storytold",
@@ -1804,18 +1813,135 @@
       "url": "https://github.com/konveyor/builder/pull/69",
       "date": "2026-11-11T12:44:10Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 13,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)",
-      "url": "https://github.com/kaovilai/context-mode/pull/13",
-      "date": "2026-11-11T12:34:18Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 112,
+      "repo": "migtools/kubevirt-velero-plugin",
+      "org": "migtools",
+      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5",
+      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/112",
+      "date": "2026-11-25T11:11:10Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10907,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "build(deps): bump the github-actions group with 4 updates",
+      "url": "https://github.com/velero-io/velero/pull/10907",
+      "date": "2026-11-25T09:58:34Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10906,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.19]: bump paketobuildpacks/ubuntu-noble-run-tiny from 0.0.160 to 0.0.162",
+      "url": "https://github.com/velero-io/velero/pull/10906",
+      "date": "2026-11-25T09:58:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10878,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Update Dependabot release branches",
+      "url": "https://github.com/velero-io/velero/pull/10878",
+      "date": "2026-11-25T09:44:48Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10905,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[1.19] Add intolerate source node backupPVC configuration",
+      "url": "https://github.com/velero-io/velero/pull/10905",
+      "date": "2026-11-25T09:26:12Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10889,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add intolerate source node backupPVC configuration",
+      "url": "https://github.com/velero-io/velero/pull/10889",
+      "date": "2026-11-25T09:10:11Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10844,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: volume backup content exclusions",
+      "url": "https://github.com/velero-io/velero/pull/10844",
+      "date": "2026-11-25T09:03:02Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10890,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "docs: clarify BSL availability and directory layout requirements",
+      "url": "https://github.com/velero-io/velero/pull/10890",
+      "date": "2026-11-25T08:11:26Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10870,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
+      "url": "https://github.com/velero-io/velero/pull/10870",
+      "date": "2026-11-25T08:10:22Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10898,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix schedule overlap checks for queued backups",
+      "url": "https://github.com/velero-io/velero/pull/10898",
+      "date": "2026-11-25T07:16:14Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10900,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters",
+      "url": "https://github.com/velero-io/velero/pull/10900",
+      "date": "2026-11-25T07:01:31Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 349,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
+      "date": "2026-11-25T07:00:04Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10899,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix VGS backup failure when backup name exceeds 63 characters",
+      "url": "https://github.com/velero-io/velero/pull/10899",
+      "date": "2026-11-25T06:52:32Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10901,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.18] Fix ReadyToStart backup recovery after restart",
+      "url": "https://github.com/velero-io/velero/pull/10901",
+      "date": "2026-11-25T06:52:25Z",
+      "workstream": "Velero"
+    },
     {
       "number": 10629,
       "repo": "velero-io/velero",
@@ -1833,15 +1959,6 @@
       "url": "https://github.com/velero-io/velero/pull/10848",
       "date": "2026-11-25T06:18:19Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 112,
-      "repo": "migtools/kubevirt-velero-plugin",
-      "org": "migtools",
-      "title": "Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5",
-      "url": "https://github.com/migtools/kubevirt-velero-plugin/pull/112",
-      "date": "2026-11-25T04:19:53Z",
-      "workstream": "Uncategorized"
     },
     {
       "number": 2526,
@@ -1907,15 +2024,6 @@
       "workstream": "Uncategorized"
     },
     {
-      "number": 349,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
-      "date": "2026-11-24T17:08:21Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 608,
       "repo": "openshift/velero",
       "org": "openshift",
@@ -1923,15 +2031,6 @@
       "url": "https://github.com/openshift/velero/pull/608",
       "date": "2026-11-24T14:19:38Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 10878,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Update Dependabot release branches",
-      "url": "https://github.com/velero-io/velero/pull/10878",
-      "date": "2026-11-24T10:18:08Z",
-      "workstream": "Velero"
     },
     {
       "number": 10866,
@@ -1958,15 +2057,6 @@
       "title": "fix(controller): use request context when fetching BSL in backup deletion",
       "url": "https://github.com/velero-io/velero/pull/10865",
       "date": "2026-11-24T09:11:53Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10870,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
-      "url": "https://github.com/velero-io/velero/pull/10870",
-      "date": "2026-11-24T06:53:58Z",
       "workstream": "Velero"
     },
     {
@@ -2003,15 +2093,6 @@
       "title": "Add the governance review doc",
       "url": "https://github.com/velero-io/.github/pull/9",
       "date": "2026-11-23T12:08:43Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10844,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: volume backup content exclusions",
-      "url": "https://github.com/velero-io/velero/pull/10844",
-      "date": "2026-11-23T11:20:10Z",
       "workstream": "Velero"
     },
     {

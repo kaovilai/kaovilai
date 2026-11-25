@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-27 — 2026-11-25
-> **Generated:** 2026-11-25 06:21:23 UTC
+> **Generated:** 2026-11-25 12:14:31 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 52 |
+| PRs Reviewed | 61 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 90 |
 
@@ -124,7 +124,8 @@
 - [#39 feat(secrets): docker-dialect /secrets routes over the local SecretStore](https://github.com/kaovilai/podm/pull/39) — kaovilai/podm
 ## PRs Opened (100)
 
-**velero-io** (4)
+**velero-io** (5)
+- [#10904 backport: hint Copilot conflict resolution on conflicted backport PRs](https://github.com/velero-io/velero/pull/10904) — velero-io/velero
 - [#344 Raise default block blob upload block size from 1 MiB to 4 MiB](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344) — velero-io/velero-plugin-for-microsoft-azure
 - [#10877 Block data mover: retain the base snapshot for CBT storage and delete it on backup deletion](https://github.com/velero-io/velero/pull/10877) — velero-io/velero
 - [#10856 Document the node-agent label required for File System Backup since v1.16](https://github.com/velero-io/velero/pull/10856) — velero-io/velero
@@ -145,7 +146,7 @@
 - [#67 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/migtools/kopia/pull/67) — migtools/kopia
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
-**Other** (85)
+**Other** (84)
 - [#2441 Search Homebrew's rustup keg bin folders too](https://github.com/storytold/craft-anything/pull/2441) — storytold/craft-anything
 - [#665 create-ocp-aws-sts: accept --ec=X.Y like create-ocp-aws](https://github.com/kaovilai/dotfiles/pull/665) — kaovilai/dotfiles
 - [#1 prt-probe: PR targeting non-default branch](https://github.com/kaovilai/gha-sandbox/pull/1) — kaovilai/gha-sandbox
@@ -230,23 +231,31 @@
 - [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
 - [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
 - [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
-- [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
-## PRs Reviewed (52)
+## PRs Reviewed (61)
 
-**velero-io** (34)
+**velero-io** (43)
+- [#10907 build(deps): bump the github-actions group with 4 updates](https://github.com/velero-io/velero/pull/10907) — velero-io/velero
+- [#10906 [release-1.19]: bump paketobuildpacks/ubuntu-noble-run-tiny from 0.0.160 to 0.0.162](https://github.com/velero-io/velero/pull/10906) — velero-io/velero
+- [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
+- [#10905 [1.19] Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10905) — velero-io/velero
+- [#10889 Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10889) — velero-io/velero
+- [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
+- [#10890 docs: clarify BSL availability and directory layout requirements](https://github.com/velero-io/velero/pull/10890) — velero-io/velero
+- [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
+- [#10898 Fix schedule overlap checks for queued backups](https://github.com/velero-io/velero/pull/10898) — velero-io/velero
+- [#10900 [Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10900) — velero-io/velero
+- [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
+- [#10899 [Backport release-1.18] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10899) — velero-io/velero
+- [#10901 [Backport release-1.18] Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10901) — velero-io/velero
 - [#10629 Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10629) — velero-io/velero
 - [#10848 Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10848) — velero-io/velero
-- [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
-- [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
 - [#10866 fix(maintenance): propagate caller context in maintenance job helpers](https://github.com/velero-io/velero/pull/10866) — velero-io/velero
 - [#10858 fix(controller): honor caller context when marking PVB/PVR as failed](https://github.com/velero-io/velero/pull/10858) — velero-io/velero
 - [#10865 fix(controller): use request context when fetching BSL in backup deletion](https://github.com/velero-io/velero/pull/10865) — velero-io/velero
-- [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10793 [release-1.18] fix: defer VGS cleanup until backup finalization (#10612)](https://github.com/velero-io/velero/pull/10793) — velero-io/velero
 - [#10849 docs: wait for successful backups before simulating disasters](https://github.com/velero-io/velero/pull/10849) — velero-io/velero
 - [#9 Add the governance review doc](https://github.com/velero-io/.github/pull/9) — velero-io/.github
-- [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10880 [1.19] Issue 10839: remove the pod name when PVB is for a PVC](https://github.com/velero-io/velero/pull/10880) — velero-io/velero
 - [#10595 Improve schedule validation errors with actionable cron guidance](https://github.com/velero-io/velero/pull/10595) — velero-io/velero
 - [#10677 Modern backup format design](https://github.com/velero-io/velero/pull/10677) — velero-io/velero
