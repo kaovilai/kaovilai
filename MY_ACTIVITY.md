@@ -1,13 +1,13 @@
 # Activity Log
 
-> **Period:** 2026-08-26 — 2026-11-24
-> **Generated:** 2026-11-24 21:11:55 UTC
+> **Period:** 2026-08-27 — 2026-11-25
+> **Generated:** 2026-11-25 00:46:32 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 48 |
+| PRs Reviewed | 49 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 88 |
 
@@ -231,7 +231,7 @@
 - [#69 Fix the syft image tag in release SBOM scanning](https://github.com/konveyor/builder/pull/69) — konveyor/builder
 - [#13 ci: add hosted-only PR reviewer (EnMaaS GLM proxy, no paid provider)](https://github.com/kaovilai/context-mode/pull/13) — kaovilai/context-mode
 - [#388 Security-review follow-ups: redact accounts in logs, CRX allowlist, escape tickers](https://github.com/kaovilai/toolkit-for-fidelity/pull/388) — kaovilai/toolkit-for-fidelity
-## PRs Reviewed (48)
+## PRs Reviewed (49)
 
 **velero-io** (34)
 - [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
@@ -278,10 +278,11 @@
 - [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
 - [#511 Bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/openshift/openshift-velero-plugin/pull/511) — openshift/openshift-velero-plugin
 
-**migtools** (6)
+**migtools** (7)
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
 - [#65 Fix CVE-2026-116587, CVE-2026-78661](https://github.com/migtools/kopia/pull/65) — migtools/kopia
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
+- [#376 ⬆ Bump hadolint/hadolint-action from 3.4.0 to 3.5.0](https://github.com/migtools/oadp-non-admin/pull/376) — migtools/oadp-non-admin
 - [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
 - [#261 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-controller/pull/261) — migtools/kubevirt-datamover-controller
 - [#77 build(deps): bump go.opentelemetry.io/otel/trace from 1.45.0 to 1.47.0](https://github.com/migtools/kubevirt-datamover-plugin/pull/77) — migtools/kubevirt-datamover-plugin
