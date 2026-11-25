@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-27 — 2026-11-25
-> **Generated:** 2026-11-25 19:07:34 UTC
+> **Generated:** 2026-11-25 20:08:54 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -39,6 +39,9 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (83)
+- [#216 Guard CRD regeneration after dependency bumps](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) — oadp-rebasebot/oadp-rebase
+- [#227 Raise Go builders that fall behind go.mod during a rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/227) — oadp-rebasebot/oadp-rebase
+- [#226 Refresh the rebase status wiki after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/226) — oadp-rebasebot/oadp-rebase
 - [#225 Refresh dashboard data after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/225) — oadp-rebasebot/oadp-rebase
 - [#224 rebase: author rebase commits as the cloner so its pushes stop needing workflow approval](https://github.com/oadp-rebasebot/oadp-rebase/pull/224) — oadp-rebasebot/oadp-rebase
 - [#219 Add chai-trigger: comment-driven CVE scan + Auto Rebase dispatch](https://github.com/oadp-rebasebot/oadp-rebase/pull/219) — oadp-rebasebot/oadp-rebase
@@ -119,9 +122,6 @@
 - [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
 - [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
 - [#44 fix(routes): /session stub answers POST — buildx dialed a 404](https://github.com/kaovilai/podm/pull/44) — kaovilai/podm
-- [#12 fix(hooks): fail open when the daemon the routes point at is down](https://github.com/kaovilai/context-mode/pull/12) — kaovilai/context-mode
-- [#89 Generate the README travel map GIF from data/places.json](https://github.com/kaovilai/kaovilai/pull/89) — kaovilai/kaovilai
-- [#43 docs(readme): state the socktainer spin-out reason and open invitation](https://github.com/kaovilai/podm/pull/43) — kaovilai/podm
 ## PRs Opened (100)
 
 **velero-io** (6)
@@ -148,6 +148,8 @@
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (83)
+- [#227 Raise Go builders that fall behind go.mod during a rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/227) — oadp-rebasebot/oadp-rebase
+- [#226 Refresh the rebase status wiki after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/226) — oadp-rebasebot/oadp-rebase
 - [#225 Refresh dashboard data after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/225) — oadp-rebasebot/oadp-rebase
 - [#224 rebase: author rebase commits as the cloner so its pushes stop needing workflow approval](https://github.com/oadp-rebasebot/oadp-rebase/pull/224) — oadp-rebasebot/oadp-rebase
 - [#666 fix(openshift): skip destroy bootstrap once metadata.json is gone](https://github.com/kaovilai/dotfiles/pull/666) — kaovilai/dotfiles
@@ -229,21 +231,19 @@
 - [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
 - [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
 - [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
-- [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
-- [#70 Track CI tool image pins with Dependabot via compose](https://github.com/konveyor/builder/pull/70) — konveyor/builder
 ## PRs Reviewed (63)
 
-**velero-io** (43)
-- [#10907 build(deps): bump the github-actions group with 4 updates](https://github.com/velero-io/velero/pull/10907) — velero-io/velero
+**velero-io** (41)
+- [#10900 [Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10900) — velero-io/velero
+- [#10898 Fix schedule overlap checks for queued backups](https://github.com/velero-io/velero/pull/10898) — velero-io/velero
 - [#10906 [release-1.19]: bump paketobuildpacks/ubuntu-noble-run-tiny from 0.0.160 to 0.0.162](https://github.com/velero-io/velero/pull/10906) — velero-io/velero
+- [#10907 build(deps): bump the github-actions group with 4 updates](https://github.com/velero-io/velero/pull/10907) — velero-io/velero
 - [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
 - [#10905 [1.19] Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10905) — velero-io/velero
 - [#10889 Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10889) — velero-io/velero
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10890 docs: clarify BSL availability and directory layout requirements](https://github.com/velero-io/velero/pull/10890) — velero-io/velero
 - [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
-- [#10898 Fix schedule overlap checks for queued backups](https://github.com/velero-io/velero/pull/10898) — velero-io/velero
-- [#10900 [Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10900) — velero-io/velero
 - [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
 - [#10899 [Backport release-1.18] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10899) — velero-io/velero
 - [#10901 [Backport release-1.18] Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10901) — velero-io/velero
@@ -275,10 +275,9 @@
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
-- [#10832 build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group](https://github.com/velero-io/velero/pull/10832) — velero-io/velero
-- [#10830 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198](https://github.com/velero-io/velero/pull/10830) — velero-io/velero
 
-**openshift** (12)
+**openshift** (13)
+- [#183 Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (95e5a0e) into oadp-1.5](https://github.com/openshift/oadp-must-gather/pull/183) — openshift/oadp-must-gather
 - [#512 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.5 (de1b5c0) into oadp-1.5](https://github.com/openshift/openshift-velero-plugin/pull/512) — openshift/openshift-velero-plugin
 - [#2526 docs: add progress reporting section to kubevirt-datamover backup-restore guide](https://github.com/openshift/oadp-operator/pull/2526) — openshift/oadp-operator
 - [#2477 Add AGENTS.md and AI tool configs for agentic development readiness](https://github.com/openshift/oadp-operator/pull/2477) — openshift/oadp-operator
@@ -292,7 +291,9 @@
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
 - [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
 
-**migtools** (8)
+**migtools** (9)
+- [#289 Merge https://github.com/migtools/oadp-cli:oadp-1.5 (5e73459) into oadp-1.5](https://github.com/migtools/oadp-cli/pull/289) — migtools/oadp-cli
+- [#290 Update Containerfile.download to golang:1.26](https://github.com/migtools/oadp-cli/pull/290) — migtools/oadp-cli
 - [#399 Merge https://github.com/migtools/oadp-non-admin:oadp-1.5 (b07428a) into oadp-1.5](https://github.com/migtools/oadp-non-admin/pull/399) — migtools/oadp-non-admin
 - [#400 Update Dockerfile to use golang:1.26](https://github.com/migtools/oadp-non-admin/pull/400) — migtools/oadp-non-admin
 - [#112 Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5](https://github.com/migtools/kubevirt-velero-plugin/pull/112) — migtools/kubevirt-velero-plugin
@@ -300,7 +301,6 @@
 - [#65 Fix CVE-2026-116587, CVE-2026-78661](https://github.com/migtools/kopia/pull/65) — migtools/kopia
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 - [#376 ⬆ Bump hadolint/hadolint-action from 3.4.0 to 3.5.0](https://github.com/migtools/oadp-non-admin/pull/376) — migtools/oadp-non-admin
-- [#256 fix: read VMB backup type from status.includedVolumes[].type](https://github.com/migtools/kubevirt-datamover-controller/pull/256) — migtools/kubevirt-datamover-controller
 ## Issues/PRs Commented On (100)
 
 **velero-io** (55)

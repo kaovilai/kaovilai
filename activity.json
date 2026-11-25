@@ -3,7 +3,7 @@
     "start": "2026-08-27",
     "end": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T19:07:34Z",
+  "generatedAt": "2026-11-25T20:08:54Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -12,6 +12,33 @@
     "issuesClosed": 90
   },
   "prsMerged": [
+    {
+      "number": 216,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Guard CRD regeneration after dependency bumps",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/216",
+      "date": "2026-11-25T19:45:29Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 227,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Raise Go builders that fall behind go.mod during a rebase",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/227",
+      "date": "2026-11-25T19:37:35Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 226,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Refresh the rebase status wiki after bot-dispatched runs",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/226",
+      "date": "2026-11-25T19:16:34Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 225,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -884,36 +911,27 @@
       "url": "https://github.com/kaovilai/podm/pull/44",
       "date": "2026-11-11T15:51:08Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 12,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix(hooks): fail open when the daemon the routes point at is down",
-      "url": "https://github.com/kaovilai/context-mode/pull/12",
-      "date": "2026-11-11T13:26:30Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 89,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Generate the README travel map GIF from data/places.json",
-      "url": "https://github.com/kaovilai/kaovilai/pull/89",
-      "date": "2026-11-11T12:56:11Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 43,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "docs(readme): state the socktainer spin-out reason and open invitation",
-      "url": "https://github.com/kaovilai/podm/pull/43",
-      "date": "2026-11-11T12:49:30Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsOpened": [
+    {
+      "number": 227,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Raise Go builders that fall behind go.mod during a rebase",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/227",
+      "date": "2026-11-25T19:26:56Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 226,
+      "repo": "oadp-rebasebot/oadp-rebase",
+      "org": "oadp-rebasebot",
+      "title": "Refresh the rebase status wiki after bot-dispatched runs",
+      "url": "https://github.com/oadp-rebasebot/oadp-rebase/pull/226",
+      "date": "2026-11-25T19:15:17Z",
+      "workstream": "Uncategorized"
+    },
     {
       "number": 225,
       "repo": "oadp-rebasebot/oadp-rebase",
@@ -1795,27 +1813,63 @@
       "url": "https://github.com/caozhiyuan/copilot-api/pull/498",
       "date": "2026-11-11T16:45:43Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 90,
-      "repo": "kaovilai/kaovilai",
-      "org": "kaovilai",
-      "title": "Regenerate the travel map with SMIL so it animates on Safari",
-      "url": "https://github.com/kaovilai/kaovilai/pull/90",
-      "date": "2026-11-11T15:54:23Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 70,
-      "repo": "konveyor/builder",
-      "org": "konveyor",
-      "title": "Track CI tool image pins with Dependabot via compose",
-      "url": "https://github.com/konveyor/builder/pull/70",
-      "date": "2026-11-11T15:36:23Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 289,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Merge https://github.com/migtools/oadp-cli:oadp-1.5 (5e73459) into oadp-1.5",
+      "url": "https://github.com/migtools/oadp-cli/pull/289",
+      "date": "2026-11-25T20:04:42Z",
+      "workstream": "OADP"
+    },
+    {
+      "number": 10900,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters",
+      "url": "https://github.com/velero-io/velero/pull/10900",
+      "date": "2026-11-25T19:46:59Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10898,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Fix schedule overlap checks for queued backups",
+      "url": "https://github.com/velero-io/velero/pull/10898",
+      "date": "2026-11-25T19:46:28Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10906,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[release-1.19]: bump paketobuildpacks/ubuntu-noble-run-tiny from 0.0.160 to 0.0.162",
+      "url": "https://github.com/velero-io/velero/pull/10906",
+      "date": "2026-11-25T19:44:29Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 183,
+      "repo": "openshift/oadp-must-gather",
+      "org": "openshift",
+      "title": "Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (95e5a0e) into oadp-1.5",
+      "url": "https://github.com/openshift/oadp-must-gather/pull/183",
+      "date": "2026-11-25T19:40:28Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 290,
+      "repo": "migtools/oadp-cli",
+      "org": "migtools",
+      "title": "Update Containerfile.download to golang:1.26",
+      "url": "https://github.com/migtools/oadp-cli/pull/290",
+      "date": "2026-11-25T19:40:26Z",
+      "workstream": "OADP"
+    },
     {
       "number": 399,
       "repo": "migtools/oadp-non-admin",
@@ -1889,15 +1943,6 @@
       "workstream": "Velero"
     },
     {
-      "number": 10906,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.19]: bump paketobuildpacks/ubuntu-noble-run-tiny from 0.0.160 to 0.0.162",
-      "url": "https://github.com/velero-io/velero/pull/10906",
-      "date": "2026-11-25T09:58:02Z",
-      "workstream": "Velero"
-    },
-    {
       "number": 10878,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1949,24 +1994,6 @@
       "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
       "url": "https://github.com/velero-io/velero/pull/10870",
       "date": "2026-11-25T08:10:22Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10898,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Fix schedule overlap checks for queued backups",
-      "url": "https://github.com/velero-io/velero/pull/10898",
-      "date": "2026-11-25T07:16:14Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10900,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters",
-      "url": "https://github.com/velero-io/velero/pull/10900",
-      "date": "2026-11-25T07:01:31Z",
       "workstream": "Velero"
     },
     {
@@ -2355,33 +2382,6 @@
       "url": "https://github.com/migtools/oadp-non-admin/pull/376",
       "date": "2026-11-16T15:43:02Z",
       "workstream": "OADP"
-    },
-    {
-      "number": 256,
-      "repo": "migtools/kubevirt-datamover-controller",
-      "org": "migtools",
-      "title": "fix: read VMB backup type from status.includedVolumes[].type",
-      "url": "https://github.com/migtools/kubevirt-datamover-controller/pull/256",
-      "date": "2026-11-16T10:13:56Z",
-      "workstream": "KubeVirt Data Mover"
-    },
-    {
-      "number": 10832,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "build(deps): bump korthout/backport-action from 4.7.1 to 5.0.0 in the github-actions group",
-      "url": "https://github.com/velero-io/velero/pull/10832",
-      "date": "2026-11-16T08:15:18Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10830,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "[release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.195 to 0.2.198",
-      "url": "https://github.com/velero-io/velero/pull/10830",
-      "date": "2026-11-16T08:06:38Z",
-      "workstream": "Velero"
     }
   ],
   "issuesCommented": [
