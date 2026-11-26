@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-28 — 2026-11-26
-> **Generated:** 2026-11-26 13:09:30 UTC
+> **Generated:** 2026-11-26 14:10:30 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 62 |
+| PRs Reviewed | 63 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 90 |
 
@@ -231,10 +231,11 @@
 - [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
 - [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
 - [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
-## PRs Reviewed (62)
+## PRs Reviewed (63)
 
-**velero-io** (42)
+**velero-io** (43)
 - [#10917 [1.19] Issue 10912: retry of retrieving data mover CR before it reaches to InProgress- #10914](https://github.com/velero-io/velero/pull/10917) — velero-io/velero
+- [#10911 docs: fix two section links in the restore reference](https://github.com/velero-io/velero/pull/10911) — velero-io/velero
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10900 [Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10900) — velero-io/velero
