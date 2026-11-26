@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-26 13:12:49 UTC
+> Last updated: 2026-11-26 14:11:51 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -130,7 +130,6 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #260](https://img.shields.io/badge/PR%20%23260-needs--attention-orange)](https://github.com/openshift/hypershift-oadp-plugin/pull/260) **openshift/hypershift-oadp-plugin** → `main` - fix: prevent false PartiallyFailed on non-HCP backups
 - [![PR #426](https://img.shields.io/badge/PR%20%23426-needs--attention-orange)](https://github.com/openshift/openshift-velero-plugin/pull/426) **openshift/openshift-velero-plugin** → `oadp-dev` - Bump github.com/sigstore/fulcio from 1.8.5 to 1.8.6
 - [![PR #480](https://img.shields.io/badge/PR%20%23480-needs--attention-orange)](https://github.com/openshift/velero/pull/480) **openshift/velero** → `oadp-1.4` - Do not merge: Poll for snaphandle every second
-- [![PR #5354](https://img.shields.io/badge/PR%20%235354-needs--attention-orange)](https://github.com/openshift/ci-tools/pull/5354) **openshift/ci-tools** → `main` - Support github_merge_blocks_policy in per-repo supplemental prow config
 
 ## migtools
 

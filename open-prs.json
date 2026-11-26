@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T13:12:49Z",
+  "updatedAt": "2026-11-26T14:11:51Z",
   "prs": [
     {
       "number": 5,
@@ -12574,88 +12574,6 @@
       ]
     },
     {
-      "number": 5354,
-      "repo": "openshift/ci-tools",
-      "org": "openshift",
-      "title": "Support github_merge_blocks_policy in per-repo supplemental prow config",
-      "url": "https://github.com/openshift/ci-tools/pull/5354",
-      "targetBranch": "main",
-      "status": "needs-attention",
-      "milestone": null,
-      "author": "kaovilai",
-      "isCopilotAuthored": false,
-      "assignees": [],
-      "isDraft": false,
-      "labels": [
-        "lifecycle/stale",
-        "needs-rebase"
-      ],
-      "updatedAt": "2026-11-25T20:08:04Z",
-      "workstream": "Uncategorized",
-      "ciChecks": [
-        {
-          "name": "ci/prow/checkconfig",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/codegen",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/format",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/frontend-checks",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/images",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/integration",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/lint",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/unit",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "ci/prow/validate-vendor",
-          "conclusion": "FAILURE"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/breaking-changes",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/secret-bootstrapper-validation",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/secret-generator-validation",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/security",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/validate-prow",
-          "conclusion": "SUCCESS"
-        }
-      ]
-    },
-    {
       "number": 237,
       "repo": "openshift/hypershift-oadp-plugin",
       "org": "openshift",
@@ -16194,7 +16112,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-26T13:12:49Z",
+    "updatedAt": "2026-11-26T14:11:51Z",
     "needsReview": [
       {
         "number": 68,
@@ -17529,7 +17447,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 16,
+        "waitingDays": 17,
         "updatedAt": "2026-11-09T13:57:21Z"
       },
       {
@@ -17940,6 +17858,36 @@
         "updatedAt": "2026-11-17T01:31:33Z"
       },
       {
+        "number": 198,
+        "repo": "migtools/udistribution",
+        "org": "migtools",
+        "title": "ci: fail on unformatted Go instead of pushing a format commit",
+        "url": "https://github.com/migtools/udistribution/pull/198",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "/ok-to-test",
+          "approved",
+          "ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 7,
+        "updatedAt": "2026-11-19T13:53:12Z"
+      },
+      {
         "number": 1187,
         "repo": "n8n-io/nod",
         "org": "n8n-io",
@@ -18020,36 +17968,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-11-19T02:10:07Z"
-      },
-      {
-        "number": 198,
-        "repo": "migtools/udistribution",
-        "org": "migtools",
-        "title": "ci: fail on unformatted Go instead of pushing a format commit",
-        "url": "https://github.com/migtools/udistribution/pull/198",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "/ok-to-test",
-          "approved",
-          "ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 6,
-        "updatedAt": "2026-11-19T13:53:12Z"
       },
       {
         "number": 10032,
@@ -18764,7 +18682,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 96,
+        "waitingDays": 97,
         "updatedAt": "2026-08-21T13:48:45Z"
       },
       {
@@ -19511,7 +19429,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 23,
+        "waitingDays": 24,
         "updatedAt": "2026-11-02T14:06:28Z"
       },
       {
@@ -19671,7 +19589,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 6,
+        "waitingDays": 7,
         "updatedAt": "2026-11-19T13:52:00Z"
       },
       {
