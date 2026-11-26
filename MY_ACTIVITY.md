@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-28 — 2026-11-26
-> **Generated:** 2026-11-26 14:10:30 UTC
+> **Generated:** 2026-11-26 15:09:28 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -234,6 +234,7 @@
 ## PRs Reviewed (63)
 
 **velero-io** (43)
+- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10917 [1.19] Issue 10912: retry of retrieving data mover CR before it reaches to InProgress- #10914](https://github.com/velero-io/velero/pull/10917) — velero-io/velero
 - [#10911 docs: fix two section links in the restore reference](https://github.com/velero-io/velero/pull/10911) — velero-io/velero
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
@@ -266,7 +267,6 @@
 - [#348 [release-1.15] Bump Velero to v1.19.0](https://github.com/velero-io/velero-plugin-for-aws/pull/348) — velero-io/velero-plugin-for-aws
 - [#10867 [release-1.17]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202](https://github.com/velero-io/velero/pull/10867) — velero-io/velero
 - [#10853 Remove the useless cases for retained PV](https://github.com/velero-io/velero/pull/10853) — velero-io/velero
-- [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10869 build(deps): bump actions/setup-go from 7.0.0 to 7.1.0 in the github-actions group](https://github.com/velero-io/velero/pull/10869) — velero-io/velero
 - [#10868 [release-1.18]: bump paketobuildpacks/run-jammy-tiny from 0.2.198 to 0.2.202](https://github.com/velero-io/velero/pull/10868) — velero-io/velero
 - [#10821 e2e: verify the restore in the VolumeGroupSnapshot case](https://github.com/velero-io/velero/pull/10821) — velero-io/velero
