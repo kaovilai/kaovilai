@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T16:11:30Z",
+  "updatedAt": "2026-11-26T17:08:53Z",
   "prs": [
     {
       "number": 5,
@@ -9796,27 +9796,11 @@
           "conclusion": "CANCELLED"
         },
         {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "Red Hat Konflux / oadp-hypershift-oadp-plugin-oadp-1-5-on-pull-request",
           "conclusion": "SUCCESS"
         },
         {
-          "name": "ci/prow/build",
-          "conclusion": "SUCCESS"
-        },
-        {
           "name": "ci/prow/images",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/unit",
-          "conclusion": "SUCCESS"
-        },
-        {
-          "name": "ci/prow/verify",
           "conclusion": "SUCCESS"
         }
       ]
@@ -12598,10 +12582,6 @@
         {
           "name": "Red Hat Konflux / oadp-1-5-enterprise-contract / oadp-hypershift-oadp-plugin-oadp-1-5",
           "conclusion": "CANCELLED"
-        },
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
         }
       ]
     },
@@ -14402,7 +14382,7 @@
         "size:M",
         "takeover:blocked"
       ],
-      "updatedAt": "2026-11-22T16:20:08Z",
+      "updatedAt": "2026-11-26T17:03:22Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16108,7 +16088,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-26T16:11:30Z",
+    "updatedAt": "2026-11-26T17:08:53Z",
     "needsReview": [
       {
         "number": 68,
@@ -16476,7 +16456,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 132,
+        "waitingDays": 133,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -16595,7 +16575,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 90,
+        "waitingDays": 91,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -16626,7 +16606,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 90,
+        "waitingDays": 91,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -17047,7 +17027,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 30,
+        "waitingDays": 31,
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
@@ -17854,6 +17834,37 @@
         "updatedAt": "2026-11-17T01:31:33Z"
       },
       {
+        "number": 2555,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
+        "url": "https://github.com/openshift/oadp-operator/pull/2555",
+        "targetBranch": "oadp-1.5",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "openshift-cherrypick-robot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 8,
+        "updatedAt": "2026-11-18T16:57:33Z"
+      },
+      {
         "number": 198,
         "repo": "migtools/udistribution",
         "org": "migtools",
@@ -17906,37 +17917,6 @@
         "reason": "awaitingReview",
         "waitingDays": 7,
         "updatedAt": "2026-11-19T11:43:38Z"
-      },
-      {
-        "number": 2555,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
-        "url": "https://github.com/openshift/oadp-operator/pull/2555",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "openshift-cherrypick-robot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 7,
-        "updatedAt": "2026-11-18T16:57:33Z"
       },
       {
         "number": 82734,
@@ -18513,7 +18493,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18615,7 +18595,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 132,
+        "waitingDays": 133,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -18898,38 +18878,6 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
-        "number": 174,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Remove bz-pr-action GitHub Actions workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "shubham-pampattiwar",
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "kaovilai"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 62,
-        "updatedAt": "2026-09-24T21:55:00Z"
-      },
-      {
         "number": 69,
         "repo": "openshift/restic",
         "org": "openshift",
@@ -18954,7 +18902,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-09-25T17:03:14Z"
       },
       {
@@ -18985,8 +18933,40 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-09-25T17:03:37Z"
+      },
+      {
+        "number": 174,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Remove bz-pr-action GitHub Actions workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/174",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "shubham-pampattiwar",
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "kaovilai"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 62,
+        "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
         "number": 175,
@@ -19161,7 +19141,7 @@
           "lgtm",
           "approved"
         ],
-        "mergeStateStatus": "UNSTABLE",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": true,
         "hasGithubApproval": true,
@@ -19292,7 +19272,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19589,34 +19569,6 @@
         "updatedAt": "2026-11-19T13:52:00Z"
       },
       {
-        "number": 38407,
-        "repo": "pingdotgg/t3code",
-        "org": "pingdotgg",
-        "title": "fix(tailscale): the desktop app finds the macOS Tailscale CLI without a shell PATH",
-        "url": "https://github.com/pingdotgg/t3code/pull/38407",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "vouch:unvouched",
-          "size:M",
-          "takeover:blocked"
-        ],
-        "mergeStateStatus": "CLEAN",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": null,
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 3,
-        "updatedAt": "2026-11-22T16:20:08Z"
-      },
-      {
         "number": 2536,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -19767,6 +19719,34 @@
         "reason": "pendingMerge",
         "waitingDays": 0,
         "updatedAt": "2026-11-25T17:15:13Z"
+      },
+      {
+        "number": 38407,
+        "repo": "pingdotgg/t3code",
+        "org": "pingdotgg",
+        "title": "fix(tailscale): the desktop app finds the macOS Tailscale CLI without a shell PATH",
+        "url": "https://github.com/pingdotgg/t3code/pull/38407",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "vouch:unvouched",
+          "size:M",
+          "takeover:blocked"
+        ],
+        "mergeStateStatus": "CLEAN",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": null,
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 0,
+        "updatedAt": "2026-11-26T17:03:22Z"
       }
     ]
   }
