@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T14:11:51Z",
+  "updatedAt": "2026-11-26T15:10:01Z",
   "prs": [
     {
       "number": 5,
@@ -2624,7 +2624,7 @@
         "Area/Design",
         "has-changelog"
       ],
-      "updatedAt": "2026-11-26T12:32:13Z",
+      "updatedAt": "2026-11-26T14:53:45Z",
       "workstream": "Velero",
       "ciChecks": [
         {
@@ -16112,7 +16112,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-26T14:11:51Z",
+    "updatedAt": "2026-11-26T15:10:01Z",
     "needsReview": [
       {
         "number": 68,
@@ -16258,7 +16258,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 258,
+        "waitingDays": 259,
         "updatedAt": "2026-03-12T15:09:43Z"
       },
       {
@@ -16513,7 +16513,7 @@
         ],
         "group": "needsReview",
         "reason": "hold",
-        "waitingDays": 114,
+        "waitingDays": 115,
         "updatedAt": "2026-08-03T14:39:22Z"
       },
       {
@@ -18056,6 +18056,124 @@
         "updatedAt": "2026-11-23T03:39:51Z"
       },
       {
+        "number": 53,
+        "repo": "migtools/filebrowser",
+        "org": "migtools",
+        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
+        "url": "https://github.com/migtools/filebrowser/pull/53",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 1,
+        "reviewRequests": [
+          "Joeavaikath",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-25T14:39:42Z"
+      },
+      {
+        "number": 66,
+        "repo": "migtools/kopia",
+        "org": "migtools",
+        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
+        "url": "https://github.com/migtools/kopia/pull/66",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "sseago",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-25T14:39:40Z"
+      },
+      {
+        "number": 48,
+        "repo": "migtools/oadp-vmdp",
+        "org": "migtools",
+        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
+        "url": "https://github.com/migtools/oadp-vmdp/pull/48",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "Joeavaikath",
+          "weshayutin"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-25T14:37:29Z"
+      },
+      {
+        "number": 202,
+        "repo": "migtools/udistribution",
+        "org": "migtools",
+        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
+        "url": "https://github.com/migtools/udistribution/pull/202",
+        "targetBranch": "main",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "/ok-to-test",
+          "approved",
+          "ok-to-test"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 0,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "PrasadJoshi12",
+          "sseago"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-25T14:39:42Z"
+      },
+      {
         "number": 2198,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -18252,6 +18370,30 @@
         "updatedAt": "2026-11-25T01:28:19Z"
       },
       {
+        "number": 80,
+        "repo": "openshift/restic",
+        "org": "openshift",
+        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
+        "url": "https://github.com/openshift/restic/pull/80",
+        "targetBranch": "oadp-dev",
+        "author": "kaovilai",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": false,
+        "reviewDecision": null,
+        "approvalCount": 0,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-25T14:39:45Z"
+      },
+      {
         "number": 2254,
         "repo": "storytold/craft-anything",
         "org": "storytold",
@@ -18364,124 +18506,6 @@
         "updatedAt": "2026-11-26T10:46:21Z"
       },
       {
-        "number": 53,
-        "repo": "migtools/filebrowser",
-        "org": "migtools",
-        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
-        "url": "https://github.com/migtools/filebrowser/pull/53",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 1,
-        "reviewRequests": [
-          "Joeavaikath",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-25T14:39:42Z"
-      },
-      {
-        "number": 66,
-        "repo": "migtools/kopia",
-        "org": "migtools",
-        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
-        "url": "https://github.com/migtools/kopia/pull/66",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "sseago",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-25T14:39:40Z"
-      },
-      {
-        "number": 48,
-        "repo": "migtools/oadp-vmdp",
-        "org": "migtools",
-        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
-        "url": "https://github.com/migtools/oadp-vmdp/pull/48",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "Joeavaikath",
-          "weshayutin"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-25T14:37:29Z"
-      },
-      {
-        "number": 202,
-        "repo": "migtools/udistribution",
-        "org": "migtools",
-        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
-        "url": "https://github.com/migtools/udistribution/pull/202",
-        "targetBranch": "main",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "/ok-to-test",
-          "approved",
-          "ok-to-test"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 0,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "PrasadJoshi12",
-          "sseago"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-25T14:39:42Z"
-      },
-      {
         "number": 2473,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -18512,30 +18536,6 @@
         "updatedAt": "2026-11-25T15:59:51Z"
       },
       {
-        "number": 80,
-        "repo": "openshift/restic",
-        "org": "openshift",
-        "title": "oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)",
-        "url": "https://github.com/openshift/restic/pull/80",
-        "targetBranch": "oadp-dev",
-        "author": "kaovilai",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": false,
-        "reviewDecision": null,
-        "approvalCount": 0,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 0,
-        "updatedAt": "2026-11-25T14:39:45Z"
-      },
-      {
         "number": 10850,
         "repo": "velero-io/velero",
         "org": "velero-io",
@@ -18562,7 +18562,7 @@
         "group": "needsReview",
         "reason": "awaitingReview",
         "waitingDays": 0,
-        "updatedAt": "2026-11-26T12:32:13Z"
+        "updatedAt": "2026-11-26T14:53:45Z"
       }
     ],
     "approvedWaitingToLand": [
@@ -18650,7 +18650,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 112,
+        "waitingDays": 113,
         "updatedAt": "2026-08-05T14:29:52Z"
       },
       {
@@ -19050,7 +19050,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 57,
+        "waitingDays": 58,
         "updatedAt": "2026-09-29T14:23:27Z"
       },
       {
