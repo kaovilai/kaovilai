@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T17:08:53Z",
+  "updatedAt": "2026-11-26T18:12:34Z",
   "prs": [
     {
       "number": 5,
@@ -11030,12 +11030,7 @@
       ],
       "updatedAt": "2026-10-26T01:32:48Z",
       "workstream": "OADP",
-      "ciChecks": [
-        {
-          "name": "CodeRabbit",
-          "conclusion": "SUCCESS"
-        }
-      ]
+      "ciChecks": []
     },
     {
       "number": 2360,
@@ -16088,7 +16083,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-26T17:08:53Z",
+    "updatedAt": "2026-11-26T18:12:34Z",
     "needsReview": [
       {
         "number": 68,
@@ -16349,7 +16344,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 139,
+        "waitingDays": 140,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -16791,7 +16786,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 64,
+        "waitingDays": 65,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -17478,7 +17473,7 @@
           "lifecycle/stale",
           "area/branchprotector"
         ],
-        "mergeStateStatus": "BLOCKED",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18493,7 +18488,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18997,7 +18992,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 61,
+        "waitingDays": 62,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -19272,7 +19267,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19434,7 +19429,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 21,
+        "waitingDays": 22,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
@@ -19569,34 +19564,6 @@
         "updatedAt": "2026-11-19T13:52:00Z"
       },
       {
-        "number": 2536,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(CVE-2026-84303): upgrade google.golang.org/grpc v1.82.1 -> v1.83.1",
-        "url": "https://github.com/openshift/oadp-operator/pull/2536",
-        "targetBranch": "oadp-dev",
-        "author": "dymurray",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 1,
-        "updatedAt": "2026-11-25T01:28:47Z"
-      },
-      {
         "number": 2477,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -19624,7 +19591,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-11-25T17:13:36Z"
       },
       {
@@ -19655,7 +19622,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-11-25T17:21:07Z"
       },
       {
@@ -19686,7 +19653,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-11-25T17:18:18Z"
       },
       {
@@ -19717,8 +19684,36 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-11-25T17:15:13Z"
+      },
+      {
+        "number": 2536,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(CVE-2026-84303): upgrade google.golang.org/grpc v1.82.1 -> v1.83.1",
+        "url": "https://github.com/openshift/oadp-operator/pull/2536",
+        "targetBranch": "oadp-dev",
+        "author": "dymurray",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 1,
+        "updatedAt": "2026-11-25T01:28:47Z"
       },
       {
         "number": 38407,
