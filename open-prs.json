@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T22:09:39Z",
+  "updatedAt": "2026-11-26T23:05:05Z",
   "prs": [
     {
       "number": 5,
@@ -16083,7 +16083,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-26T22:09:39Z",
+    "updatedAt": "2026-11-26T23:05:05Z",
     "needsReview": [
       {
         "number": 68,
@@ -19153,36 +19153,6 @@
         "updatedAt": "2026-10-19T21:25:48Z"
       },
       {
-        "number": 182,
-        "repo": "openshift/velero-plugin-for-microsoft-azure",
-        "org": "openshift",
-        "title": "Update auto-request-review action to v0.13.0",
-        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182",
-        "targetBranch": "oadp-1.4",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "sseago"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 34,
-        "updatedAt": "2026-10-23T22:09:08Z"
-      },
-      {
         "number": 56,
         "repo": "openshift/agentic-skills",
         "org": "openshift",
@@ -19211,8 +19181,38 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 33,
+        "waitingDays": 34,
         "updatedAt": "2026-10-23T22:16:54Z"
+      },
+      {
+        "number": 182,
+        "repo": "openshift/velero-plugin-for-microsoft-azure",
+        "org": "openshift",
+        "title": "Update auto-request-review action to v0.13.0",
+        "url": "https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/182",
+        "targetBranch": "oadp-1.4",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "sseago"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 34,
+        "updatedAt": "2026-10-23T22:09:08Z"
       },
       {
         "number": 18725,
@@ -19253,6 +19253,35 @@
         "updatedAt": "2026-10-26T16:02:32Z"
       },
       {
+        "number": 603,
+        "repo": "openshift/velero",
+        "org": "openshift",
+        "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
+        "url": "https://github.com/openshift/velero/pull/603",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "approved",
+          "lgtm"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": true,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 29,
+        "updatedAt": "2026-10-28T22:22:39Z"
+      },
+      {
         "number": 194,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -19281,35 +19310,6 @@
         "reason": "pendingMerge",
         "waitingDays": 29,
         "updatedAt": "2026-10-28T20:19:05Z"
-      },
-      {
-        "number": 603,
-        "repo": "openshift/velero",
-        "org": "openshift",
-        "title": "Migrate konflux.Dockerfile from brew to registry.redhat.io Go 1.26 builder",
-        "url": "https://github.com/openshift/velero/pull/603",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "approved",
-          "lgtm"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": true,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 28,
-        "updatedAt": "2026-10-28T22:22:39Z"
       },
       {
         "number": 2502,
