@@ -3,7 +3,7 @@
     "start": "2026-08-28",
     "end": "2026-11-26"
   },
-  "generatedAt": "2026-11-26T06:36:54Z",
+  "generatedAt": "2026-11-26T12:14:01Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
@@ -1817,6 +1817,24 @@
   ],
   "prsReviewed": [
     {
+      "number": 10917,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "[1.19] Issue 10912: retry of retrieving data mover CR before it reaches to InProgress- #10914",
+      "url": "https://github.com/velero-io/velero/pull/10917",
+      "date": "2026-11-26T09:57:18Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10844,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: volume backup content exclusions",
+      "url": "https://github.com/velero-io/velero/pull/10844",
+      "date": "2026-11-26T09:03:22Z",
+      "workstream": "Velero"
+    },
+    {
       "number": 10817,
       "repo": "velero-io/velero",
       "org": "velero-io",
@@ -1976,15 +1994,6 @@
       "title": "Add intolerate source node backupPVC configuration",
       "url": "https://github.com/velero-io/velero/pull/10889",
       "date": "2026-11-25T09:10:11Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10844,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: volume backup content exclusions",
-      "url": "https://github.com/velero-io/velero/pull/10844",
-      "date": "2026-11-25T09:03:02Z",
       "workstream": "Velero"
     },
     {
@@ -2364,18 +2373,18 @@
       "url": "https://github.com/velero-io/velero/pull/10822",
       "date": "2026-11-17T02:31:11Z",
       "workstream": "Velero"
-    },
-    {
-      "number": 88821,
-      "repo": "openshift/release",
-      "org": "openshift",
-      "title": "oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI",
-      "url": "https://github.com/openshift/release/pull/88821",
-      "date": "2026-11-16T16:09:26Z",
-      "workstream": "Uncategorized"
     }
   ],
   "issuesCommented": [
+    {
+      "number": 18959,
+      "repo": "kubevirt/kubevirt",
+      "org": "kubevirt",
+      "title": "VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race",
+      "url": "https://github.com/kubevirt/kubevirt/issues/18959",
+      "date": "2026-11-26T10:46:21Z",
+      "workstream": "KubeVirt Data Mover"
+    },
     {
       "number": 39,
       "repo": "redhat-best-practices-for-k8s/telco-bot",
@@ -2384,15 +2393,6 @@
       "url": "https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39",
       "date": "2026-11-25T16:56:26Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 18959,
-      "repo": "kubevirt/kubevirt",
-      "org": "kubevirt",
-      "title": "VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race",
-      "url": "https://github.com/kubevirt/kubevirt/issues/18959",
-      "date": "2026-11-25T12:46:56Z",
-      "workstream": "KubeVirt Data Mover"
     },
     {
       "number": 18950,

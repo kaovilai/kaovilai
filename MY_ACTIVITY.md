@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-28 — 2026-11-26
-> **Generated:** 2026-11-26 06:36:54 UTC
+> **Generated:** 2026-11-26 12:14:01 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -233,7 +233,9 @@
 - [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
 ## PRs Reviewed (62)
 
-**velero-io** (41)
+**velero-io** (42)
+- [#10917 [1.19] Issue 10912: retry of retrieving data mover CR before it reaches to InProgress- #10914](https://github.com/velero-io/velero/pull/10917) — velero-io/velero
+- [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10900 [Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10900) — velero-io/velero
 - [#10898 Fix schedule overlap checks for queued backups](https://github.com/velero-io/velero/pull/10898) — velero-io/velero
@@ -242,7 +244,6 @@
 - [#10878 Update Dependabot release branches](https://github.com/velero-io/velero/pull/10878) — velero-io/velero
 - [#10905 [1.19] Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10905) — velero-io/velero
 - [#10889 Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10889) — velero-io/velero
-- [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10890 docs: clarify BSL availability and directory layout requirements](https://github.com/velero-io/velero/pull/10890) — velero-io/velero
 - [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
 - [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
@@ -276,7 +277,7 @@
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 
-**openshift** (13)
+**openshift** (12)
 - [#183 Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (95e5a0e) into oadp-1.5](https://github.com/openshift/oadp-must-gather/pull/183) — openshift/oadp-must-gather
 - [#512 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.5 (de1b5c0) into oadp-1.5](https://github.com/openshift/openshift-velero-plugin/pull/512) — openshift/openshift-velero-plugin
 - [#2526 docs: add progress reporting section to kubevirt-datamover backup-restore guide](https://github.com/openshift/oadp-operator/pull/2526) — openshift/oadp-operator
@@ -289,7 +290,6 @@
 - [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) — openshift/velero-plugin-for-microsoft-azure
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
-- [#88821 oadp-1.6: pin HCO_INDEX_TAG to released versions for virt CI](https://github.com/openshift/release/pull/88821) — openshift/release
 
 **migtools** (8)
 - [#289 Merge https://github.com/migtools/oadp-cli:oadp-1.5 (5e73459) into oadp-1.5](https://github.com/migtools/oadp-cli/pull/289) — migtools/oadp-cli
@@ -368,8 +368,8 @@
 - [#264 Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC](https://github.com/migtools/kubevirt-datamover-controller/issues/264) — migtools/kubevirt-datamover-controller
 
 **Other** (41)
-- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt
+- [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#18950 VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending](https://github.com/kubevirt/kubevirt/issues/18950) — kubevirt/kubevirt
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
 - [#26598 Support `strategy.matrix` on the `agent` job for parallel AI execution](https://github.com/github/gh-aw/issues/26598) — github/gh-aw
