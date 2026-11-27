@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-29 — 2026-11-27
-> **Generated:** 2026-11-27 00:29:23 UTC
+> **Generated:** 2026-11-27 06:19:59 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -292,6 +292,7 @@
 - [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
 
 **migtools** (8)
+- [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 - [#289 Merge https://github.com/migtools/oadp-cli:oadp-1.5 (5e73459) into oadp-1.5](https://github.com/migtools/oadp-cli/pull/289) — migtools/oadp-cli
 - [#290 Update Containerfile.download to golang:1.26](https://github.com/migtools/oadp-cli/pull/290) — migtools/oadp-cli
 - [#399 Merge https://github.com/migtools/oadp-non-admin:oadp-1.5 (b07428a) into oadp-1.5](https://github.com/migtools/oadp-non-admin/pull/399) — migtools/oadp-non-admin
@@ -299,10 +300,10 @@
 - [#112 Merge https://github.com/kubevirt/kubevirt-velero-plugin:release-v0.8 (6cf0dc9) into oadp-1.5](https://github.com/migtools/kubevirt-velero-plugin/pull/112) — migtools/kubevirt-velero-plugin
 - [#385 RFE-9751: Add non-admin backup schedules](https://github.com/migtools/oadp-non-admin/pull/385) — migtools/oadp-non-admin
 - [#65 Fix CVE-2026-116587, CVE-2026-78661](https://github.com/migtools/kopia/pull/65) — migtools/kopia
-- [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
 ## Issues/PRs Commented On (100)
 
-**velero-io** (55)
+**velero-io** (54)
+- [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
 - [#10299 Backup with --snapshot-move-data completes with zero DataUploads when EnableCSI is off — no upfront validation, and the warning/skip-reason don't name the flag](https://github.com/velero-io/velero/issues/10299) — velero-io/velero
 - [#10874 Unified two-level (per-action and per-cluster) concurrency limiting for backup/restore operations](https://github.com/velero-io/velero/issues/10874) — velero-io/velero
 - [#6167 Download server for Velero client](https://github.com/velero-io/velero/issues/6167) — velero-io/velero
@@ -334,7 +335,6 @@
 - [#9603 Backport/Cherry-pick GitHub action](https://github.com/velero-io/velero/issues/9603) — velero-io/velero
 - [#9656 Kopia maintenance fails with 'ciphertext too short: 0' after S3 quota-related write failures leave 0-byte blobs](https://github.com/velero-io/velero/issues/9656) — velero-io/velero
 - [#10026 Restore logs endless watch errors for API groups without watch support (e.g. authorization.openshift.io)](https://github.com/velero-io/velero/issues/10026) — velero-io/velero
-- [#9963 velero-plugin-for-aws >= 1.14.1 makes S3 region mandatory](https://github.com/velero-io/velero/issues/9963) — velero-io/velero
 - [#10078 CI to check doc compliance with code change](https://github.com/velero-io/velero/issues/10078) — velero-io/velero
 - [#10120 Enhancement: Fail-fast in `velero install --wait` on Deployment ReplicaFailure](https://github.com/velero-io/velero/issues/10120) — velero-io/velero
 - [#8279 backupRepository can become stale if velero deployment is not running to observe bsl update/create](https://github.com/velero-io/velero/issues/8279) — velero-io/velero
@@ -357,7 +357,6 @@
 - [#5232 AWS EBS restore should use the KMS key specified in the storage class](https://github.com/velero-io/velero/issues/5232) — velero-io/velero
 - [#9396 Velero cannot detect CSI driver ebs.csi.eks.amazonaws.com on EKS Auto Mode](https://github.com/velero-io/velero/issues/9396) — velero-io/velero
 - [#9714 Verify ChangeId retrieve for Ceph](https://github.com/velero-io/velero/issues/9714) — velero-io/velero
-- [#10092 Deprecate the block volume backup/restore functionality through Kopia file system uploader](https://github.com/velero-io/velero/issues/10092) — velero-io/velero
 
 **openshift** (3)
 - [#10590 GCP CAPI: bootstrap in master instance group causes worker ignition failure via ILB pinning](https://github.com/openshift/installer/issues/10590) — openshift/installer
@@ -367,7 +366,8 @@
 **migtools** (1)
 - [#264 Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC](https://github.com/migtools/kubevirt-datamover-controller/issues/264) — migtools/kubevirt-datamover-controller
 
-**Other** (41)
+**Other** (42)
+- [#444 Link community projects based on Sill in README.md](https://github.com/Saffsanity/sill/issues/444) — Saffsanity/sill
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
 - [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt
 - [#18950 VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending](https://github.com/kubevirt/kubevirt/issues/18950) — kubevirt/kubevirt
