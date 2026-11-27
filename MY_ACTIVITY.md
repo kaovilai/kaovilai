@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-29 — 2026-11-27
-> **Generated:** 2026-11-27 13:47:45 UTC
+> **Generated:** 2026-11-27 14:43:26 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 63 |
+| PRs Reviewed | 62 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 89 |
 
@@ -231,9 +231,9 @@
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
 - [#50 fix(build): accept absolute dockerfile paths — podman's -f wire format](https://github.com/kaovilai/podm/pull/50) — kaovilai/podm
-## PRs Reviewed (63)
+## PRs Reviewed (62)
 
-**velero-io** (43)
+**velero-io** (42)
 - [#10923 Add OpenContainer source label to Dockerfiles](https://github.com/velero-io/velero/pull/10923) — velero-io/velero
 - [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
@@ -276,7 +276,6 @@
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
-- [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
 
 **openshift** (12)
 - [#183 Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (95e5a0e) into oadp-1.5](https://github.com/openshift/oadp-must-gather/pull/183) — openshift/oadp-must-gather
