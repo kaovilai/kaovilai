@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-29 — 2026-11-27
-> **Generated:** 2026-11-27 16:10:21 UTC
+> **Generated:** 2026-11-27 17:08:43 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -367,8 +367,8 @@
 - [#264 Proposal: optional pull mode that streams backups to the object store instead of staging them on a scratch PVC](https://github.com/migtools/kubevirt-datamover-controller/issues/264) — migtools/kubevirt-datamover-controller
 
 **Other** (42)
-- [#444 Link community projects based on Sill in README.md](https://github.com/Saffsanity/sill/issues/444) — Saffsanity/sill
 - [#39 Tracking Out of Date Golang Versions](https://github.com/redhat-best-practices-for-k8s/telco-bot/issues/39) — redhat-best-practices-for-k8s/telco-bot
+- [#444 Link community projects based on Sill in README.md](https://github.com/Saffsanity/sill/issues/444) — Saffsanity/sill
 - [#18959 VEP #25: CBT: completed VirtualMachineBackup can be overwritten with SourceLost due to a stale reconcile race](https://github.com/kubevirt/kubevirt/issues/18959) — kubevirt/kubevirt
 - [#18950 VEP #25: CBT: VirtualMachineBackup status freezes indefinitely while target PVC attach is pending](https://github.com/kubevirt/kubevirt/issues/18950) — kubevirt/kubevirt
 - [#956 [Feature Request] Lock Bolt BLE: read-only protocol paths (realtime status, door state, history, settings read-back)](https://github.com/SecKatie/ha-wyzeapi/issues/956) — SecKatie/ha-wyzeapi
