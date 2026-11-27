@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-27 06:10:14 UTC
+> Last updated: 2026-11-27 16:11:00 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -15,8 +15,9 @@ This file is automatically updated every hour by GitHub Actions.
 - [![PR #10699](https://img.shields.io/badge/PR%20%2310699-ready-green)](https://github.com/velero-io/velero/pull/10699) **velero-io/velero** → `main` - Delete the in-place restore baseline snapshot under a Retain class
 - [![PR #10710](https://img.shields.io/badge/PR%20%2310710-ready-green)](https://github.com/velero-io/velero/pull/10710) **velero-io/velero** → `main` - Clean up CSI VolumeSnapshots of failed backups outside the Velero namespace
 - [![PR #10798](https://img.shields.io/badge/PR%20%2310798-ready-green)](https://github.com/velero-io/velero/pull/10798) **velero-io/velero** → `main` - test: add Go fuzz targets for the backup archive extractor
-- [![PR #10850](https://img.shields.io/badge/PR%20%2310850-ready-green)](https://github.com/velero-io/velero/pull/10850) **velero-io/velero** → `main` - Design: block data mover base snapshot retention
+- [![PR #10850](https://img.shields.io/badge/PR%20%2310850-ready-green)](https://github.com/velero-io/velero/pull/10850) **velero-io/velero** → `main` - Design: incremental block backups on storage that requires the base snapshot for delta
 - [![PR #10904](https://img.shields.io/badge/PR%20%2310904-ready-green)](https://github.com/velero-io/velero/pull/10904) **velero-io/velero** → `main` - backport: hint Copilot conflict resolution on conflicted backport PRs
+- [![PR #10918](https://img.shields.io/badge/PR%20%2310918-ready-green)](https://github.com/velero-io/velero/pull/10918) **velero-io/velero** → `main` - Show data mover activities in backup and restore describe
 - [![PR #266](https://img.shields.io/badge/PR%20%23266-ready-green)](https://github.com/velero-io/velero-plugin-for-gcp/pull/266) **velero-io/velero-plugin-for-gcp** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #319](https://img.shields.io/badge/PR%20%23319-ready-green)](https://github.com/velero-io/velero-plugin-for-aws/pull/319) **velero-io/velero-plugin-for-aws** → `main` - Use velero-io/velero's shared reusable workflows instead of local copies
 - [![PR #320](https://img.shields.io/badge/PR%20%23320-ready-green)](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/320) **velero-io/velero-plugin-for-microsoft-azure** → `release-1.14` - [release-1.14] Fix volume snapshotter usage of AAD URI (backport of #256)
@@ -172,12 +173,15 @@ No open PRs.
 - [![PR #2441](https://img.shields.io/badge/PR%20%232441-ready-green)](https://github.com/storytold/craft-anything/pull/2441) **storytold/craft-anything** → `main` - Search Homebrew's rustup keg bin folders too
 - [![PR #273](https://img.shields.io/badge/PR%20%23273-ready-green)](https://github.com/kaovilai/cephcsi-cbt-e2e/pull/273) **kaovilai/cephcsi-cbt-e2e** → `main` - [doc-sync] Sync Velero rollback and data mover status with upstream
 - [![PR #2](https://img.shields.io/badge/PR%20%232-ready-green)](https://github.com/RuixiangHuang/Macbook_Duo_Effect/pull/2) **RuixiangHuang/Macbook_Duo_Effect** → `main` - Replace the rough taper estimate with a calibrated viewport projection
+- [![PR #2](https://img.shields.io/badge/PR%20%232-ready-green)](https://github.com/kaovilai/sill/pull/2) **kaovilai/sill** → `main` - CI: add an address to a saved Mac without pairing again
 - [![PR #375](https://img.shields.io/badge/PR%20%23375-ready-green)](https://github.com/socktainer/socktainer/pull/375) **socktainer/socktainer** → `main` - feat(libpod): add Podman /libpod/* API with opt-out, manifest lists, and multi-arch build support
 - [![PR #38407](https://img.shields.io/badge/PR%20%2338407-ready-green)](https://github.com/pingdotgg/t3code/pull/38407) **pingdotgg/t3code** → `main` - fix(tailscale): the desktop app finds the macOS Tailscale CLI without a shell PATH
+- [![PR #446](https://img.shields.io/badge/PR%20%23446-ready-green)](https://github.com/Saffsanity/sill/pull/446) **Saffsanity/sill** → `main` - iOS: Add an address to a saved Mac without pairing again
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
+- [![PR #667](https://img.shields.io/badge/PR%20%23667-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/667) **kaovilai/dotfiles** → `main` - claude-<fleet-name> launchers for Claude Code on fleet peers
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
