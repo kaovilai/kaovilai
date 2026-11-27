@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-27 16:11:00 UTC
+> Last updated: 2026-11-27 18:12:24 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -181,7 +181,7 @@ No open PRs.
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #667](https://img.shields.io/badge/PR%20%23667-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/667) **kaovilai/dotfiles** → `main` - claude-<fleet-name> launchers for Claude Code on fleet peers
+- [![PR #668](https://img.shields.io/badge/PR%20%23668-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/668) **kaovilai/dotfiles** → `main` - Generate fleet launchers immediately in scripted shells (zsh -ic)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T16:11:00Z",
+  "updatedAt": "2026-11-27T18:12:24Z",
   "prs": [
     {
       "number": 5,
@@ -15098,11 +15098,11 @@
       ]
     },
     {
-      "number": 667,
+      "number": 668,
       "repo": "kaovilai/dotfiles",
       "org": "kaovilai",
-      "title": "claude-<fleet-name> launchers for Claude Code on fleet peers",
-      "url": "https://github.com/kaovilai/dotfiles/pull/667",
+      "title": "Generate fleet launchers immediately in scripted shells (zsh -ic)",
+      "url": "https://github.com/kaovilai/dotfiles/pull/668",
       "targetBranch": "main",
       "status": "ci-pending",
       "milestone": null,
@@ -15111,7 +15111,7 @@
       "assignees": [],
       "isDraft": false,
       "labels": [],
-      "updatedAt": "2026-11-27T16:09:19Z",
+      "updatedAt": "2026-11-27T17:59:15Z",
       "workstream": "Uncategorized",
       "ciChecks": [
         {
@@ -16466,7 +16466,7 @@
     }
   ],
   "reviewQueue": {
-    "updatedAt": "2026-11-27T16:11:00Z",
+    "updatedAt": "2026-11-27T18:12:24Z",
     "needsReview": [
       {
         "number": 68,
@@ -16727,7 +16727,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 140,
+        "waitingDays": 141,
         "updatedAt": "2026-07-09T18:02:34Z"
       },
       {
@@ -16743,7 +16743,7 @@
         "labels": [
           "do-not-merge/hold"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -16770,7 +16770,7 @@
         "isCopilotAuthored": false,
         "assignees": [],
         "labels": [],
-        "mergeStateStatus": "CLEAN",
+        "mergeStateStatus": "UNKNOWN",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -16834,7 +16834,7 @@
         "reviewRequests": [],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 133,
+        "waitingDays": 134,
         "updatedAt": "2026-07-16T16:58:37Z"
       },
       {
@@ -16953,7 +16953,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 91,
+        "waitingDays": 92,
         "updatedAt": "2026-08-27T17:10:31Z"
       },
       {
@@ -16984,7 +16984,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 91,
+        "waitingDays": 92,
         "updatedAt": "2026-08-27T17:10:02Z"
       },
       {
@@ -17169,7 +17169,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 65,
+        "waitingDays": 66,
         "updatedAt": "2026-09-22T17:31:15Z"
       },
       {
@@ -17219,7 +17219,7 @@
           "sweeper:risk-message-delivery",
           "area/profiles"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -17405,7 +17405,7 @@
         ],
         "group": "needsReview",
         "reason": "awaitingReview",
-        "waitingDays": 31,
+        "waitingDays": 32,
         "updatedAt": "2026-10-26T16:36:39Z"
       },
       {
@@ -18050,7 +18050,7 @@
           "os/windows",
           "os/macos"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -18212,6 +18212,37 @@
         "updatedAt": "2026-11-17T01:31:33Z"
       },
       {
+        "number": 2555,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "[oadp-1.5] tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
+        "url": "https://github.com/openshift/oadp-operator/pull/2555",
+        "targetBranch": "oadp-1.5",
+        "author": "openshift-cherrypick-robot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "openshift-cherrypick-robot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": false,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "REVIEW_REQUIRED",
+        "approvalCount": 1,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "eemcmullan",
+          "kaovilai"
+        ],
+        "group": "needsReview",
+        "reason": "awaitingReview",
+        "waitingDays": 9,
+        "updatedAt": "2026-11-18T16:57:33Z"
+      },
+      {
         "number": 198,
         "repo": "migtools/udistribution",
         "org": "migtools",
@@ -18264,37 +18295,6 @@
         "reason": "awaitingReview",
         "waitingDays": 8,
         "updatedAt": "2026-11-19T11:43:38Z"
-      },
-      {
-        "number": 2555,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "[oadp-1.5] tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test",
-        "url": "https://github.com/openshift/oadp-operator/pull/2555",
-        "targetBranch": "oadp-1.5",
-        "author": "openshift-cherrypick-robot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "openshift-cherrypick-robot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": false,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "REVIEW_REQUIRED",
-        "approvalCount": 1,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "eemcmullan",
-          "kaovilai"
-        ],
-        "group": "needsReview",
-        "reason": "awaitingReview",
-        "waitingDays": 8,
-        "updatedAt": "2026-11-18T16:57:33Z"
       },
       {
         "number": 82734,
@@ -18871,7 +18871,7 @@
           "lifecycle/rotten",
           "dco-signoff: yes"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": false,
         "hasProwApproval": false,
         "hasGithubApproval": false,
@@ -19003,7 +19003,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 133,
+        "waitingDays": 134,
         "updatedAt": "2026-07-16T17:00:18Z"
       },
       {
@@ -19286,6 +19286,65 @@
         "updatedAt": "2026-09-21T08:00:35Z"
       },
       {
+        "number": 69,
+        "repo": "openshift/restic",
+        "org": "openshift",
+        "title": "Remove obsolete bz-on-pr-merge workflow",
+        "url": "https://github.com/openshift/restic/pull/69",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "kaovilai"
+        ],
+        "labels": [
+          "lgtm"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 63,
+        "updatedAt": "2026-09-25T17:03:14Z"
+      },
+      {
+        "number": 175,
+        "repo": "openshift/velero-plugin-for-gcp",
+        "org": "openshift",
+        "title": "Remove obsolete bz-on-pr-merge workflow",
+        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
+        "targetBranch": "oadp-dev",
+        "author": "redhat-chai-bot",
+        "isCopilotAuthored": false,
+        "assignees": [
+          "redhat-chai-bot"
+        ],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "UNSTABLE",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 1,
+        "requiredApprovals": null,
+        "reviewRequests": [
+          "Joeavaikath",
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 63,
+        "updatedAt": "2026-09-25T17:03:37Z"
+      },
+      {
         "number": 174,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -19318,65 +19377,6 @@
         "updatedAt": "2026-09-24T21:55:00Z"
       },
       {
-        "number": 69,
-        "repo": "openshift/restic",
-        "org": "openshift",
-        "title": "Remove obsolete bz-on-pr-merge workflow",
-        "url": "https://github.com/openshift/restic/pull/69",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "kaovilai"
-        ],
-        "labels": [
-          "lgtm"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 62,
-        "updatedAt": "2026-09-25T17:03:14Z"
-      },
-      {
-        "number": 175,
-        "repo": "openshift/velero-plugin-for-gcp",
-        "org": "openshift",
-        "title": "Remove obsolete bz-on-pr-merge workflow",
-        "url": "https://github.com/openshift/velero-plugin-for-gcp/pull/175",
-        "targetBranch": "oadp-dev",
-        "author": "redhat-chai-bot",
-        "isCopilotAuthored": false,
-        "assignees": [
-          "redhat-chai-bot"
-        ],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "UNSTABLE",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 1,
-        "requiredApprovals": null,
-        "reviewRequests": [
-          "Joeavaikath",
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 62,
-        "updatedAt": "2026-09-25T17:03:37Z"
-      },
-      {
         "number": 175,
         "repo": "openshift/velero-plugin-for-microsoft-azure",
         "org": "openshift",
@@ -19405,7 +19405,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 62,
+        "waitingDays": 63,
         "updatedAt": "2026-09-25T17:47:42Z"
       },
       {
@@ -19680,7 +19680,7 @@
           "needs-approver-review",
           "approved-vep"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "BLOCKED",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -19842,7 +19842,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 22,
+        "waitingDays": 23,
         "updatedAt": "2026-11-04T17:27:37Z"
       },
       {
@@ -19977,34 +19977,6 @@
         "updatedAt": "2026-11-19T13:52:00Z"
       },
       {
-        "number": 2536,
-        "repo": "openshift/oadp-operator",
-        "org": "openshift",
-        "title": "fix(CVE-2026-84303): upgrade google.golang.org/grpc v1.82.1 -> v1.83.1",
-        "url": "https://github.com/openshift/oadp-operator/pull/2536",
-        "targetBranch": "oadp-dev",
-        "author": "dymurray",
-        "isCopilotAuthored": false,
-        "assignees": [],
-        "labels": [
-          "approved"
-        ],
-        "mergeStateStatus": "BLOCKED",
-        "isApproved": true,
-        "hasProwApproval": false,
-        "hasGithubApproval": true,
-        "reviewDecision": "APPROVED",
-        "approvalCount": 2,
-        "requiredApprovals": 2,
-        "reviewRequests": [
-          "shubham-pampattiwar"
-        ],
-        "group": "approvedWaitingToLand",
-        "reason": "pendingMerge",
-        "waitingDays": 2,
-        "updatedAt": "2026-11-25T01:28:47Z"
-      },
-      {
         "number": 2477,
         "repo": "openshift/oadp-operator",
         "org": "openshift",
@@ -20032,7 +20004,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-11-25T17:13:36Z"
       },
       {
@@ -20063,7 +20035,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-11-25T17:21:07Z"
       },
       {
@@ -20094,7 +20066,7 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-11-25T17:18:18Z"
       },
       {
@@ -20125,8 +20097,36 @@
         ],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 1,
+        "waitingDays": 2,
         "updatedAt": "2026-11-25T17:15:13Z"
+      },
+      {
+        "number": 2536,
+        "repo": "openshift/oadp-operator",
+        "org": "openshift",
+        "title": "fix(CVE-2026-84303): upgrade google.golang.org/grpc v1.82.1 -> v1.83.1",
+        "url": "https://github.com/openshift/oadp-operator/pull/2536",
+        "targetBranch": "oadp-dev",
+        "author": "dymurray",
+        "isCopilotAuthored": false,
+        "assignees": [],
+        "labels": [
+          "approved"
+        ],
+        "mergeStateStatus": "BLOCKED",
+        "isApproved": true,
+        "hasProwApproval": false,
+        "hasGithubApproval": true,
+        "reviewDecision": "APPROVED",
+        "approvalCount": 2,
+        "requiredApprovals": 2,
+        "reviewRequests": [
+          "shubham-pampattiwar"
+        ],
+        "group": "approvedWaitingToLand",
+        "reason": "pendingMerge",
+        "waitingDays": 2,
+        "updatedAt": "2026-11-25T01:28:47Z"
       },
       {
         "number": 38407,
@@ -20143,7 +20143,7 @@
           "size:M",
           "takeover:blocked"
         ],
-        "mergeStateStatus": "UNKNOWN",
+        "mergeStateStatus": "CLEAN",
         "isApproved": true,
         "hasProwApproval": false,
         "hasGithubApproval": true,
@@ -20153,7 +20153,7 @@
         "reviewRequests": [],
         "group": "approvedWaitingToLand",
         "reason": "pendingMerge",
-        "waitingDays": 0,
+        "waitingDays": 1,
         "updatedAt": "2026-11-26T17:03:22Z"
       }
     ]
