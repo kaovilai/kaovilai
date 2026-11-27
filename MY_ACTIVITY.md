@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-29 — 2026-11-27
-> **Generated:** 2026-11-27 17:08:43 UTC
+> **Generated:** 2026-11-27 18:10:56 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 62 |
+| PRs Reviewed | 61 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 89 |
 
@@ -39,6 +39,7 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (83)
+- [#667 claude-<fleet-name> launchers for Claude Code on fleet peers](https://github.com/kaovilai/dotfiles/pull/667) — kaovilai/dotfiles
 - [#18 [auto-sync] Merge upstream/dev (176 commits, v2.9.22) into dev](https://github.com/kaovilai/copilot-api/pull/18) — kaovilai/copilot-api
 - [#216 Guard CRD regeneration after dependency bumps](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) — oadp-rebasebot/oadp-rebase
 - [#227 Raise Go builders that fall behind go.mod during a rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/227) — oadp-rebasebot/oadp-rebase
@@ -121,7 +122,6 @@
 - [#646 docs: hosted-only reviewer note post-merge touch-ups](https://github.com/kaovilai/dotfiles/pull/646) — kaovilai/dotfiles
 - [#30 feat: libpod sizes + system df, xattr-aware docker diff, logs since/until](https://github.com/kaovilai/podm/pull/30) — kaovilai/podm
 - [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
-- [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
 ## PRs Opened (100)
 
 **velero-io** (7)
@@ -149,6 +149,7 @@
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
 **Other** (82)
+- [#668 Generate fleet launchers immediately in scripted shells (zsh -ic)](https://github.com/kaovilai/dotfiles/pull/668) — kaovilai/dotfiles
 - [#446 iOS: Add an address to a saved Mac without pairing again](https://github.com/Saffsanity/sill/pull/446) — Saffsanity/sill
 - [#667 claude-<fleet-name> launchers for Claude Code on fleet peers](https://github.com/kaovilai/dotfiles/pull/667) — kaovilai/dotfiles
 - [#2 CI: add an address to a saved Mac without pairing again](https://github.com/kaovilai/sill/pull/2) — kaovilai/sill
@@ -230,8 +231,7 @@
 - [#57 fix(containers): wedge recovery follow-up — admission deadline, bootout/reuse coordination, expiry, late-success finalization](https://github.com/kaovilai/podm/pull/57) — kaovilai/podm
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
-- [#50 fix(build): accept absolute dockerfile paths — podman's -f wire format](https://github.com/kaovilai/podm/pull/50) — kaovilai/podm
-## PRs Reviewed (62)
+## PRs Reviewed (61)
 
 **velero-io** (42)
 - [#10923 Add OpenContainer source label to Dockerfiles](https://github.com/velero-io/velero/pull/10923) — velero-io/velero
@@ -277,7 +277,7 @@
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 
-**openshift** (12)
+**openshift** (11)
 - [#183 Merge https://github.com/openshift/oadp-must-gather:oadp-1.5 (95e5a0e) into oadp-1.5](https://github.com/openshift/oadp-must-gather/pull/183) — openshift/oadp-must-gather
 - [#512 Merge https://github.com/openshift/openshift-velero-plugin:oadp-1.5 (de1b5c0) into oadp-1.5](https://github.com/openshift/openshift-velero-plugin/pull/512) — openshift/openshift-velero-plugin
 - [#2526 docs: add progress reporting section to kubevirt-datamover backup-restore guide](https://github.com/openshift/oadp-operator/pull/2526) — openshift/oadp-operator
@@ -289,7 +289,6 @@
 - [#608 Bump Go 1.25 → 1.26 and golangci-lint v2.5.0 → v2.15.0](https://github.com/openshift/velero/pull/608) — openshift/velero
 - [#166 Add PrasadJoshi12 as approver and reviewer](https://github.com/openshift/velero-plugin-for-microsoft-azure/pull/166) — openshift/velero-plugin-for-microsoft-azure
 - [#2549 tests/e2e: increase readyPod timeout to 5 minutes](https://github.com/openshift/oadp-operator/pull/2549) — openshift/oadp-operator
-- [#2550 tests/e2e: increase VeleroPodIsRunning timeout in BSL CA cert test](https://github.com/openshift/oadp-operator/pull/2550) — openshift/oadp-operator
 
 **migtools** (8)
 - [#200 Bump the go-security group across 1 directory with 2 updates](https://github.com/migtools/udistribution/pull/200) — migtools/udistribution
