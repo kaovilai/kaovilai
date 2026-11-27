@@ -1,6 +1,6 @@
 # My Open Pull Requests
 
-> Last updated: 2026-11-27 19:07:40 UTC
+> Last updated: 2026-11-27 20:10:16 UTC
 
 This file is automatically updated every hour by GitHub Actions.
 
@@ -179,9 +179,9 @@ No open PRs.
 - [![PR #446](https://img.shields.io/badge/PR%20%23446-ready-green)](https://github.com/Saffsanity/sill/pull/446) **Saffsanity/sill** → `main` - iOS: Add an address to a saved Mac without pairing again
 - [![PR #468](https://img.shields.io/badge/PR%20%23468-ready-green)](https://github.com/kubevirt/kubevirt-velero-plugin/pull/468) **kubevirt/kubevirt-velero-plugin** → `main` - Select the live virt-launcher pod after live migration
 - [![PR #6479](https://img.shields.io/badge/PR%20%236479-ready-green)](https://github.com/kubernetes/enhancements/pull/6479) **kubernetes/enhancements** → `master` - KEP-3314: document requireBaseSnapshotForDelta on SnapshotMetadataService
+- [![PR #668](https://img.shields.io/badge/PR%20%23668-ready-green)](https://github.com/kaovilai/dotfiles/pull/668) **kaovilai/dotfiles** → `main` - Generate fleet launchers immediately in scripted shells (zsh -ic)
 - [![PR #674](https://img.shields.io/badge/PR%20%23674-ready-green)](https://github.com/kubernetes-sigs/prow/pull/674) **kubernetes-sigs/prow** → `main` - tide: skip unmergeable PRs instead of retrying indefinitely
 - [![PR #910](https://img.shields.io/badge/PR%20%23910-ready-green)](https://github.com/marlonrichert/zsh-autocomplete/pull/910) **marlonrichert/zsh-autocomplete** → `main` - Fall back to standard back-tab sequence when terminfo lacks kcbt
-- [![PR #668](https://img.shields.io/badge/PR%20%23668-ci--pending-yellow)](https://github.com/kaovilai/dotfiles/pull/668) **kaovilai/dotfiles** → `main` - Generate fleet launchers immediately in scripted shells (zsh -ic)
 - [![PR #103](https://img.shields.io/badge/PR%20%23103-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/103) **kaovilai/oadp-operator** → `master` - Fork Sync: Update from parent repository
 - [![PR #116](https://img.shields.io/badge/PR%20%23116-stale-yellow)](https://github.com/geekflyer/cliprelay/pull/116) **geekflyer/cliprelay** → `main` - OtpExtractor: support alphanumeric OTP codes
 - [![PR #122](https://img.shields.io/badge/PR%20%23122-stale-yellow)](https://github.com/kaovilai/oadp-operator/pull/122) **kaovilai/oadp-operator** → `OADP-3307` - Enhance CloudStorage API: Add conditions and validation logic
