@@ -3,11 +3,11 @@
     "start": "2026-08-29",
     "end": "2026-11-27"
   },
-  "generatedAt": "2026-11-27T06:19:59Z",
+  "generatedAt": "2026-11-27T13:47:45Z",
   "metrics": {
     "prsMerged": 100,
     "prsOpened": 100,
-    "prsReviewed": 62,
+    "prsReviewed": 63,
     "issuesCommented": 100,
     "issuesClosed": 89
   },
@@ -915,6 +915,42 @@
   ],
   "prsOpened": [
     {
+      "number": 446,
+      "repo": "Saffsanity/sill",
+      "org": "Saffsanity",
+      "title": "iOS: Add an address to a saved Mac without pairing again",
+      "url": "https://github.com/Saffsanity/sill/pull/446",
+      "date": "2026-11-27T10:36:03Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 10918,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Show data mover activities in backup and restore describe",
+      "url": "https://github.com/velero-io/velero/pull/10918",
+      "date": "2026-11-27T07:34:04Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 667,
+      "repo": "kaovilai/dotfiles",
+      "org": "kaovilai",
+      "title": "claude-<fleet-name> launchers for Claude Code on fleet peers",
+      "url": "https://github.com/kaovilai/dotfiles/pull/667",
+      "date": "2026-11-27T07:22:35Z",
+      "workstream": "Uncategorized"
+    },
+    {
+      "number": 2,
+      "repo": "kaovilai/sill",
+      "org": "kaovilai",
+      "title": "CI: add an address to a saved Mac without pairing again",
+      "url": "https://github.com/kaovilai/sill/pull/2",
+      "date": "2026-11-27T06:22:29Z",
+      "workstream": "Uncategorized"
+    },
+    {
       "number": 227,
       "repo": "oadp-rebasebot/oadp-rebase",
       "org": "oadp-rebasebot",
@@ -1287,7 +1323,7 @@
       "number": 10850,
       "repo": "velero-io/velero",
       "org": "velero-io",
-      "title": "Design: block data mover base snapshot retention",
+      "title": "Design: incremental block backups on storage that requires the base snapshot for delta",
       "url": "https://github.com/velero-io/velero/pull/10850",
       "date": "2026-11-18T04:14:05Z",
       "workstream": "Velero"
@@ -1777,45 +1813,36 @@
       "url": "https://github.com/kaovilai/podm/pull/50",
       "date": "2026-11-11T18:22:39Z",
       "workstream": "Uncategorized"
-    },
-    {
-      "number": 15,
-      "repo": "kaovilai/context-mode",
-      "org": "kaovilai",
-      "title": "fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap",
-      "url": "https://github.com/kaovilai/context-mode/pull/15",
-      "date": "2026-11-11T18:02:22Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 48,
-      "repo": "kaovilai/podm",
-      "org": "kaovilai",
-      "title": "feat(install): zsh completions in-repo + podman system connection",
-      "url": "https://github.com/kaovilai/podm/pull/48",
-      "date": "2026-11-11T17:49:46Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 1,
-      "repo": "kaovilai/Macbook_Duo_Effect",
-      "org": "kaovilai",
-      "title": "Frozen-image viewport fold with one-shot eye calibration",
-      "url": "https://github.com/kaovilai/Macbook_Duo_Effect/pull/1",
-      "date": "2026-11-11T17:06:02Z",
-      "workstream": "Uncategorized"
-    },
-    {
-      "number": 498,
-      "repo": "caozhiyuan/copilot-api",
-      "org": "caozhiyuan",
-      "title": "fix: drop empty/missing text blocks before Responses translation (400 \"Missing required parameter: input[N].content[M].text\")",
-      "url": "https://github.com/caozhiyuan/copilot-api/pull/498",
-      "date": "2026-11-11T16:45:43Z",
-      "workstream": "Uncategorized"
     }
   ],
   "prsReviewed": [
+    {
+      "number": 10923,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Add OpenContainer source label to Dockerfiles",
+      "url": "https://github.com/velero-io/velero/pull/10923",
+      "date": "2026-11-27T12:13:03Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 10844,
+      "repo": "velero-io/velero",
+      "org": "velero-io",
+      "title": "Design: volume backup content exclusions",
+      "url": "https://github.com/velero-io/velero/pull/10844",
+      "date": "2026-11-27T08:31:47Z",
+      "workstream": "Velero"
+    },
+    {
+      "number": 349,
+      "repo": "velero-io/velero-plugin-for-aws",
+      "org": "velero-io",
+      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
+      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
+      "date": "2026-11-27T07:43:48Z",
+      "workstream": "Velero"
+    },
     {
       "number": 200,
       "repo": "migtools/udistribution",
@@ -1850,15 +1877,6 @@
       "title": "docs: fix two section links in the restore reference",
       "url": "https://github.com/velero-io/velero/pull/10911",
       "date": "2026-11-26T13:49:46Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 10844,
-      "repo": "velero-io/velero",
-      "org": "velero-io",
-      "title": "Design: volume backup content exclusions",
-      "url": "https://github.com/velero-io/velero/pull/10844",
-      "date": "2026-11-26T13:34:10Z",
       "workstream": "Velero"
     },
     {
@@ -2039,15 +2057,6 @@
       "title": "e2e: verify the restore in the CSI snapshot and data mover cases",
       "url": "https://github.com/velero-io/velero/pull/10870",
       "date": "2026-11-25T08:10:22Z",
-      "workstream": "Velero"
-    },
-    {
-      "number": 349,
-      "repo": "velero-io/velero-plugin-for-aws",
-      "org": "velero-io",
-      "title": "Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager",
-      "url": "https://github.com/velero-io/velero-plugin-for-aws/pull/349",
-      "date": "2026-11-25T07:00:04Z",
       "workstream": "Velero"
     },
     {

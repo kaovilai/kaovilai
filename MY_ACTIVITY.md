@@ -1,13 +1,13 @@
 # Activity Log
 
 > **Period:** 2026-08-29 — 2026-11-27
-> **Generated:** 2026-11-27 06:19:59 UTC
+> **Generated:** 2026-11-27 13:47:45 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 62 |
+| PRs Reviewed | 63 |
 | Issues/PRs Commented | 100 |
 | Issues Closed | 89 |
 
@@ -124,13 +124,14 @@
 - [#90 Regenerate the travel map with SMIL so it animates on Safari](https://github.com/kaovilai/kaovilai/pull/90) — kaovilai/kaovilai
 ## PRs Opened (100)
 
-**velero-io** (6)
+**velero-io** (7)
+- [#10918 Show data mover activities in backup and restore describe](https://github.com/velero-io/velero/pull/10918) — velero-io/velero
 - [#10908 Fix namespace deletion race in CSI E2E tests](https://github.com/velero-io/velero/pull/10908) — velero-io/velero
 - [#10904 backport: hint Copilot conflict resolution on conflicted backport PRs](https://github.com/velero-io/velero/pull/10904) — velero-io/velero
 - [#344 Raise default block blob upload block size from 1 MiB to 4 MiB](https://github.com/velero-io/velero-plugin-for-microsoft-azure/pull/344) — velero-io/velero-plugin-for-microsoft-azure
 - [#10877 Block data mover: retain the base snapshot for CBT storage and delete it on backup deletion](https://github.com/velero-io/velero/pull/10877) — velero-io/velero
 - [#10856 Document the node-agent label required for File System Backup since v1.16](https://github.com/velero-io/velero/pull/10856) — velero-io/velero
-- [#10850 Design: block data mover base snapshot retention](https://github.com/velero-io/velero/pull/10850) — velero-io/velero
+- [#10850 Design: incremental block backups on storage that requires the base snapshot for delta](https://github.com/velero-io/velero/pull/10850) — velero-io/velero
 
 **openshift** (5)
 - [#81 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/openshift/restic/pull/81) — openshift/restic
@@ -147,7 +148,10 @@
 - [#67 oadp-bot: auto-approve rebasebot-app PRs (oadp-1.5)](https://github.com/migtools/kopia/pull/67) — migtools/kopia
 - [#66 oadp-bot: auto-approve workflow for scoped dependency-fix bot PRs (rebases stay human-reviewed)](https://github.com/migtools/kopia/pull/66) — migtools/kopia
 
-**Other** (83)
+**Other** (82)
+- [#446 iOS: Add an address to a saved Mac without pairing again](https://github.com/Saffsanity/sill/pull/446) — Saffsanity/sill
+- [#667 claude-<fleet-name> launchers for Claude Code on fleet peers](https://github.com/kaovilai/dotfiles/pull/667) — kaovilai/dotfiles
+- [#2 CI: add an address to a saved Mac without pairing again](https://github.com/kaovilai/sill/pull/2) — kaovilai/sill
 - [#227 Raise Go builders that fall behind go.mod during a rebase](https://github.com/oadp-rebasebot/oadp-rebase/pull/227) — oadp-rebasebot/oadp-rebase
 - [#226 Refresh the rebase status wiki after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/226) — oadp-rebasebot/oadp-rebase
 - [#225 Refresh dashboard data after bot-dispatched runs](https://github.com/oadp-rebasebot/oadp-rebase/pull/225) — oadp-rebasebot/oadp-rebase
@@ -227,17 +231,15 @@
 - [#56 fix(build): tag every requested image, emit aux, honor quiet](https://github.com/kaovilai/podm/pull/56) — kaovilai/podm
 - [#51 fix(containers): recover from wedged Apple container runtime jobs instead of hanging](https://github.com/kaovilai/podm/pull/51) — kaovilai/podm
 - [#50 fix(build): accept absolute dockerfile paths — podman's -f wire format](https://github.com/kaovilai/podm/pull/50) — kaovilai/podm
-- [#15 fix(ci): green main — the daemon gate in checks, the http manifest in tests, README back under cap](https://github.com/kaovilai/context-mode/pull/15) — kaovilai/context-mode
-- [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
-- [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
-- [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
-## PRs Reviewed (62)
+## PRs Reviewed (63)
 
-**velero-io** (42)
+**velero-io** (43)
+- [#10923 Add OpenContainer source label to Dockerfiles](https://github.com/velero-io/velero/pull/10923) — velero-io/velero
+- [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
+- [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10917 [1.19] Issue 10912: retry of retrieving data mover CR before it reaches to InProgress- #10914](https://github.com/velero-io/velero/pull/10917) — velero-io/velero
 - [#10911 docs: fix two section links in the restore reference](https://github.com/velero-io/velero/pull/10911) — velero-io/velero
-- [#10844 Design: volume backup content exclusions](https://github.com/velero-io/velero/pull/10844) — velero-io/velero
 - [#10817 Treat omitted backup hook on-error as Fail](https://github.com/velero-io/velero/pull/10817) — velero-io/velero
 - [#10900 [Backport release-1.19] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10900) — velero-io/velero
 - [#10898 Fix schedule overlap checks for queued backups](https://github.com/velero-io/velero/pull/10898) — velero-io/velero
@@ -248,7 +250,6 @@
 - [#10889 Add intolerate source node backupPVC configuration](https://github.com/velero-io/velero/pull/10889) — velero-io/velero
 - [#10890 docs: clarify BSL availability and directory layout requirements](https://github.com/velero-io/velero/pull/10890) — velero-io/velero
 - [#10870 e2e: verify the restore in the CSI snapshot and data mover cases](https://github.com/velero-io/velero/pull/10870) — velero-io/velero
-- [#349 Migrate S3 uploads from feature/s3/manager to feature/s3/transfermanager](https://github.com/velero-io/velero-plugin-for-aws/pull/349) — velero-io/velero-plugin-for-aws
 - [#10899 [Backport release-1.18] Fix VGS backup failure when backup name exceeds 63 characters](https://github.com/velero-io/velero/pull/10899) — velero-io/velero
 - [#10901 [Backport release-1.18] Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10901) — velero-io/velero
 - [#10629 Fix ReadyToStart backup recovery after restart](https://github.com/velero-io/velero/pull/10629) — velero-io/velero
