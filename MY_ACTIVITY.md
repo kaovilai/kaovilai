@@ -1,15 +1,15 @@
 # Activity Log
 
-> **Period:** 2026-08-28 — 2026-11-26
-> **Generated:** 2026-11-26 23:09:49 UTC
+> **Period:** 2026-08-29 — 2026-11-27
+> **Generated:** 2026-11-27 00:29:23 UTC
 
 | Metric | Count |
 |--------|-------|
 | PRs Merged | 100 |
 | PRs Opened | 100 |
-| PRs Reviewed | 63 |
+| PRs Reviewed | 62 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 90 |
+| Issues Closed | 89 |
 
 ---
 
@@ -231,9 +231,9 @@
 - [#48 feat(install): zsh completions in-repo + podman system connection](https://github.com/kaovilai/podm/pull/48) — kaovilai/podm
 - [#1 Frozen-image viewport fold with one-shot eye calibration](https://github.com/kaovilai/Macbook_Duo_Effect/pull/1) — kaovilai/Macbook_Duo_Effect
 - [#498 fix: drop empty/missing text blocks before Responses translation (400 "Missing required parameter: input[N].content[M].text")](https://github.com/caozhiyuan/copilot-api/pull/498) — caozhiyuan/copilot-api
-## PRs Reviewed (63)
+## PRs Reviewed (62)
 
-**velero-io** (43)
+**velero-io** (42)
 - [#10654 Add S3 SSE-C headers to download requests](https://github.com/velero-io/velero/pull/10654) — velero-io/velero
 - [#10917 [1.19] Issue 10912: retry of retrieving data mover CR before it reaches to InProgress- #10914](https://github.com/velero-io/velero/pull/10917) — velero-io/velero
 - [#10911 docs: fix two section links in the restore reference](https://github.com/velero-io/velero/pull/10911) — velero-io/velero
@@ -273,7 +273,6 @@
 - [#10861 Revert "e2e: verify the restore in the VolumeGroupSnapshot case"](https://github.com/velero-io/velero/pull/10861) — velero-io/velero
 - [#10780 site: add a blog post on the CSI snapshot tests on kind](https://github.com/velero-io/velero/pull/10780) — velero-io/velero
 - [#10827 print load affinity value not address](https://github.com/velero-io/velero/pull/10827) — velero-io/velero
-- [#10438 Issue #10437: derive velero server's graceful shutdown timeout from terminationGracePeriodSeconds](https://github.com/velero-io/velero/pull/10438) — velero-io/velero
 - [#338 [release-1.14] Make the S3 uploader inherit the client's RequestChecksumCalculation (cherry-pick #335)](https://github.com/velero-io/velero-plugin-for-aws/pull/338) — velero-io/velero-plugin-for-aws
 - [#2 Point artwork at the project's cncf/artwork directory](https://github.com/velero-io/.project/pull/2) — velero-io/.project
 - [#10822 e2e: skip the remote snapshot waits on kind](https://github.com/velero-io/velero/pull/10822) — velero-io/velero
@@ -410,7 +409,7 @@
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
-## Issues Closed (90)
+## Issues Closed (89)
 
 **velero-io** (22)
 - [#10303 Losing the data mover pod leaves the DataUpload stuck: InProgress until the 4h ItemOperationTimeout (no pod DeleteFunc), Accepted until the prepare timeout](https://github.com/velero-io/velero/issues/10303) — velero-io/velero
@@ -451,7 +450,7 @@
 **migtools** (1)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 
-**Other** (57)
+**Other** (56)
 - [#32256 [Bug]: macOS Option+←/→ is rewritten to ESC b/f even in full-screen apps (vim, TUIs)](https://github.com/pingdotgg/t3code/issues/32256) — pingdotgg/t3code
 - [#3 Development.md License.md 404](https://github.com/mikey0000/ros2-airseekers-tron/issues/3) — mikey0000/ros2-airseekers-tron
 - [#287 Feature: shared / streamable-HTTP MCP transport (or app-served loopback MCP) — one process instead of one per agent session](https://github.com/OpenPetsHQ/openpets/issues/287) — OpenPetsHQ/openpets
@@ -508,7 +507,6 @@
 - [#17644 [Enhancement]: Report missing required checks and behind-base in native PR watches](https://github.com/pingdotgg/t3code/issues/17644) — pingdotgg/t3code
 - [#251 Bug: "Approval needed" shown for AskUserQuestion (and other non-approval PermissionRequests)](https://github.com/OpenPetsHQ/openpets/issues/251) — OpenPetsHQ/openpets
 - [#4549 v1beta1→v1 conversion webhook fails on spec.featureGates: "cannot unmarshal object into Go struct field HyperConvergedSpec.spec.featureGates"](https://github.com/kubevirt/hyperconverged-cluster-operator/issues/4549) — kubevirt/hyperconverged-cluster-operator
-- [#1623 jira_transition_issue's `comment` argument silently dropped on Jira Cloud (transition succeeds, comment never posts)](https://github.com/sooperset/mcp-atlassian/issues/1623) — sooperset/mcp-atlassian
 ---
 
 *This report is automatically generated by GitHub Actions on the same schedule as the PR badges update.*
