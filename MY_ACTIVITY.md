@@ -1,7 +1,7 @@
 # Activity Log
 
 > **Period:** 2026-08-30 — 2026-11-28
-> **Generated:** 2026-11-28 06:19:38 UTC
+> **Generated:** 2026-11-28 12:15:43 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -9,7 +9,7 @@
 | PRs Opened | 100 |
 | PRs Reviewed | 61 |
 | Issues/PRs Commented | 100 |
-| Issues Closed | 90 |
+| Issues Closed | 91 |
 
 ---
 
@@ -408,7 +408,7 @@
 - [#2525 `pull_request_review_write` combines create/submit/delete into one tool, making fine-grained permissions by method impossible](https://github.com/github/github-mcp-server/issues/2525) — github/github-mcp-server
 - [#17655 [Bug]: Composer: can't insert a second slash-command skill on the same line (needs Shift+Return)](https://github.com/pingdotgg/t3code/issues/17655) — pingdotgg/t3code
 - [#6679 rbd: Filesystem volume mounted without SELinux `context=` although CSIDriver sets `seLinuxMount: true`; non-root pods get EACCES (`unlabeled_t`)](https://github.com/ceph/ceph-csi/issues/6679) — ceph/ceph-csi
-## Issues Closed (90)
+## Issues Closed (91)
 
 **velero-io** (23)
 - [#9603 Backport/Cherry-pick GitHub action](https://github.com/velero-io/velero/issues/9603) — velero-io/velero
@@ -450,7 +450,8 @@
 **migtools** (1)
 - [#211 DataUpload stuck forever: "VMBT already prepared but VMB not yet visible in cache, requeuing"](https://github.com/migtools/kubevirt-datamover-controller/issues/211) — migtools/kubevirt-datamover-controller
 
-**Other** (56)
+**Other** (57)
+- [#203 <pass-name>: failed to generate OTP code.](https://github.com/pass-extension/pass-otp/issues/203) — pass-extension/pass-otp
 - [#32256 [Bug]: macOS Option+←/→ is rewritten to ESC b/f even in full-screen apps (vim, TUIs)](https://github.com/pingdotgg/t3code/issues/32256) — pingdotgg/t3code
 - [#3 Development.md License.md 404](https://github.com/mikey0000/ros2-airseekers-tron/issues/3) — mikey0000/ros2-airseekers-tron
 - [#287 Feature: shared / streamable-HTTP MCP transport (or app-served loopback MCP) — one process instead of one per agent session](https://github.com/OpenPetsHQ/openpets/issues/287) — OpenPetsHQ/openpets
