@@ -1,7 +1,7 @@
 # Activity Log
 
-> **Period:** 2026-08-29 — 2026-11-27
-> **Generated:** 2026-11-27 23:09:32 UTC
+> **Period:** 2026-08-30 — 2026-11-28
+> **Generated:** 2026-11-28 00:30:50 UTC
 
 | Metric | Count |
 |--------|-------|
@@ -39,6 +39,7 @@
 - [#397 Fix pre-existing CI failures on oadp-dev](https://github.com/migtools/oadp-non-admin/pull/397) — migtools/oadp-non-admin
 
 **Other** (83)
+- [#668 Generate fleet launchers immediately in scripted shells (zsh -ic)](https://github.com/kaovilai/dotfiles/pull/668) — kaovilai/dotfiles
 - [#667 claude-<fleet-name> launchers for Claude Code on fleet peers](https://github.com/kaovilai/dotfiles/pull/667) — kaovilai/dotfiles
 - [#18 [auto-sync] Merge upstream/dev (176 commits, v2.9.22) into dev](https://github.com/kaovilai/copilot-api/pull/18) — kaovilai/copilot-api
 - [#216 Guard CRD regeneration after dependency bumps](https://github.com/oadp-rebasebot/oadp-rebase/pull/216) — oadp-rebasebot/oadp-rebase
@@ -121,7 +122,6 @@
 - [#82 Ignore assets/profile in Imgbot](https://github.com/kaovilai/kaovilai/pull/82) — kaovilai/kaovilai
 - [#646 docs: hosted-only reviewer note post-merge touch-ups](https://github.com/kaovilai/dotfiles/pull/646) — kaovilai/dotfiles
 - [#30 feat: libpod sizes + system df, xattr-aware docker diff, logs since/until](https://github.com/kaovilai/podm/pull/30) — kaovilai/podm
-- [#14 ci(fork): allow the hosted-only PR reviewer's pull_request triggers](https://github.com/kaovilai/context-mode/pull/14) — kaovilai/context-mode
 ## PRs Opened (100)
 
 **velero-io** (7)
